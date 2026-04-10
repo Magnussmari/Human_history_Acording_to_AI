@@ -294,9 +294,9 @@ The end state is a **structured, sourced, machine-readable history of human civi
 
 ---
 
-## The Smarason Method
+## Methodology
 
-This project uses Tier C research methodology:
+A custom research workflow developed by Magnus, built on the ICCRA schema:
 
 - **ICCRA schema** — Intent, Context, Constraints, Reporting, Authority
 - **Anti-sycophancy protocol** — Mandatory disconfirming evidence
