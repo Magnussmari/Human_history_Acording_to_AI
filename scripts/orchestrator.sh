@@ -112,6 +112,19 @@ while true; do
     wait "$pid" 2>/dev/null || true
   done
 
+  # Check if this cycle made progress — if not, we may be rate-limited
+  NEW_COMPLETED=$(jq '.completed | length' "$PROGRESS")
+  if [ "$NEW_COMPLETED" -eq "$COMPLETED" ]; then
+    # No new completions — likely rate limited. Back off longer.
+    BACKOFF=600  # 10 minutes
+    echo "  WARNING: No progress this cycle (rate limited?). Backing off ${BACKOFF}s."
+    sleep "$BACKOFF"
+  fi
+
+  # Re-read after cycle for accurate ledger
+  COMPLETED=$(jq '.completed | length' "$PROGRESS")
+  FAILED=$(jq '.failed | length' "$PROGRESS")
+
   # Write ledger + git sync every 20 years
   write_ledger_entry "$CYCLE" "$COMPLETED" "$FAILED" "$TOTAL" "$TIMESTAMP"
 

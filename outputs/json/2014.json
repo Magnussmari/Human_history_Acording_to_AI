@@ -1,0 +1,844 @@
+{
+  "year": 2014,
+  "year_label": "2014 CE",
+  "era_context": "The mid-2010s represent a period of mounting geopolitical instability following the relative optimism of the post-Cold War liberal order. The aftershocks of the 2008 financial crisis continued to shape economic policy, with Europe still grappling with austerity and sovereign debt. The Arab Spring revolutions of 2011–2012 had devolved into civil wars in Syria and Libya, creating power vacuums exploited by jihadist movements. Russia's reassertion of regional power, China's continued economic rise under Xi Jinping, and the proliferation of social media as a tool of both protest and surveillance defined this transitional moment.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Central Asia — political developments in Uzbekistan, Turkmenistan, and Tajikistan likely underrepresented.",
+    "Pacific Island states — climate-related developments and internal politics poorly covered.",
+    "Francophone West and Central Africa beyond Nigeria — significant political transitions in Burkina Faso and elsewhere may be underweighted.",
+    "Southeast Asian domestic politics beyond Thailand's coup."
+  ],
+  "events": [
+    {
+      "id": "2014-001",
+      "title": "Russia annexes Crimea",
+      "region": "Ukraine / Russia",
+      "coordinates_approx": "44.95, 34.10",
+      "category": "military",
+      "description": "Following the Euromaidan revolution that ousted Ukrainian President Viktor Yanukovych in February, Russia deployed unmarked soldiers ('little green men') to seize control of the Crimean Peninsula. A disputed referendum on March 16 — conducted under military occupation and boycotted by Crimean Tatars and many ethnic Ukrainians — returned an implausible 96.77% vote to join Russia. Russia formally annexed Crimea on March 18. The annexation was the first forcible incorporation of European territory by a major power since World War II and triggered Western sanctions, a separatist war in eastern Ukraine's Donbas region, and a fundamental rupture in the post-Cold War European security order.",
+      "key_figures": [
+        "Vladimir Putin (President of Russia)",
+        "Sergei Aksyonov (installed Crimean PM)",
+        "Viktor Yanukovych (deposed Ukrainian President)",
+        "Oleksandr Turchynov (acting Ukrainian President)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by Reuters, AP, BBC, and Ukrainian media outlets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN General Assembly Resolution 68/262 affirming Ukraine's territorial integrity (March 27, 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "OSCE and Council of Europe reports on the referendum's illegitimacy",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Massively documented in real time by international media, satellite imagery, and diplomatic records. Russia initially denied then acknowledged military involvement.",
+      "cross_references": ["2013-EUROMAIDAN", "2022-RUSSIA_UKRAINE_INVASION"]
+    },
+    {
+      "id": "2014-002",
+      "title": "Euromaidan revolution and fall of Yanukovych",
+      "region": "Ukraine",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "political",
+      "description": "The Euromaidan protests, which began in November 2013 over President Yanukovych's rejection of an EU association agreement, escalated into a full revolution in February 2014. After security forces killed over 100 protesters ('the Heavenly Hundred') during clashes on February 18–20, Yanukovych fled to Russia on February 21. The parliament voted to remove him and installed an interim government. The revolution represented the second major Ukrainian uprising against Russian-aligned governance (after the 2004 Orange Revolution) and directly precipitated Russia's annexation of Crimea and the Donbas war.",
+      "key_figures": [
+        "Viktor Yanukovych (President, deposed)",
+        "Oleksandr Turchynov (acting President)",
+        "Arseniy Yatsenyuk (interim Prime Minister)",
+        "Vitali Klitschko (opposition leader)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by Kyiv Post, BBC, The Guardian, and wire services",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International Advisory Panel report on Maidan violence (Council of Europe, 2015)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Exhaustively documented by media, CCTV, mobile phone footage, and subsequent investigations.",
+      "cross_references": ["2014-001", "2013-EUROMAIDAN"]
+    },
+    {
+      "id": "2014-003",
+      "title": "War in Donbas begins",
+      "region": "Eastern Ukraine (Donetsk and Luhansk oblasts)",
+      "coordinates_approx": "48.02, 37.80",
+      "category": "military",
+      "description": "In April 2014, armed separatists — supported by Russian military personnel and equipment — seized government buildings in cities across the Donetsk and Luhansk regions of eastern Ukraine. Self-proclaimed 'people's republics' were declared. The Ukrainian military launched an 'Anti-Terrorist Operation' that devolved into a full-scale armed conflict. The war killed over 14,000 people by 2021 and displaced over 1.5 million. The Minsk Protocol ceasefire was signed in September 2014 but largely failed, and the conflict became a frozen war until Russia's full-scale invasion in 2022.",
+      "key_figures": [
+        "Igor Girkin/Strelkov (Russian FSB officer, led initial armed seizures)",
+        "Petro Poroshenko (elected Ukrainian President, May 2014)",
+        "Alexander Zakharchenko (Donetsk separatist leader)"
+      ],
+      "sources": [
+        {
+          "name": "OSCE Special Monitoring Mission reports (2014–2022)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN OHCHR reports on civilian casualties",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bellingcat open-source investigations on Russian military involvement",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented. Russian involvement initially denied but later confirmed through intercepted communications, captured soldiers, and satellite imagery.",
+      "cross_references": ["2014-001", "2014-002", "2014-010", "2022-RUSSIA_UKRAINE_INVASION"]
+    },
+    {
+      "id": "2014-004",
+      "title": "ISIS declares caliphate after capturing Mosul",
+      "region": "Iraq / Syria",
+      "coordinates_approx": "36.34, 43.13",
+      "category": "military",
+      "description": "On June 10, the Islamic State of Iraq and the Levant (ISIL/ISIS) captured Mosul, Iraq's second-largest city, in a stunning rout of the Iraqi army. On June 29, the group declared a 'caliphate' spanning territory in Iraq and Syria under Abu Bakr al-Baghdadi. At its peak, ISIS controlled territory home to approximately 8 million people, imposed brutal governance including mass executions, enslavement of Yazidis, and destruction of cultural heritage sites. The fall of Mosul exposed catastrophic failures in the US-trained Iraqi military and reshaped Middle Eastern geopolitics for a decade.",
+      "key_figures": [
+        "Abu Bakr al-Baghdadi (self-declared caliph)",
+        "Nouri al-Maliki (Iraqi Prime Minister)",
+        "Abu Muhammad al-Adnani (ISIS spokesman)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by AP, Reuters, Al Jazeera, and Iraqi media",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN Human Rights Council reports on ISIS atrocities",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "ISIS's own propaganda publications (Dabiq magazine, video releases)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Massively documented by international media, satellite imagery, and ISIS's own extensive propaganda apparatus.",
+      "cross_references": ["2011-SYRIAN_CIVIL_WAR", "2003-IRAQ_INVASION", "2017-MOSUL_LIBERATION"]
+    },
+    {
+      "id": "2014-005",
+      "title": "ISIS genocide against Yazidis at Sinjar",
+      "region": "Northern Iraq (Sinjar district)",
+      "coordinates_approx": "36.32, 41.87",
+      "category": "demographic",
+      "description": "In August, ISIS attacked the Sinjar region, home to the Yazidi religious minority. Thousands of Yazidi men were massacred, and an estimated 5,000–7,000 Yazidi women and girls were enslaved. Tens of thousands of Yazidis fled to Mount Sinjar, where they were besieged without food or water. The crisis prompted the first US airstrikes against ISIS and was later formally recognized as genocide by the UN, European Parliament, and multiple governments. The Yazidi genocide became emblematic of ISIS's systematic brutality toward religious minorities.",
+      "key_figures": [
+        "Nadia Murad (Yazidi survivor, later Nobel Peace Prize laureate)",
+        "Masoud Barzani (Kurdistan Region President)",
+        "Barack Obama (US President, authorized airstrikes)"
+      ],
+      "sources": [
+        {
+          "name": "UN Independent International Commission of Inquiry on Syria: 'They came to destroy' (2016)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Yazda documentation project survivor testimonies",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by The New York Times, BBC, and Kurdish media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through survivor testimony, forensic evidence from mass graves, and satellite imagery. Formally classified as genocide by multiple international bodies.",
+      "cross_references": ["2014-004", "2018-NADIA_MURAD_NOBEL"]
+    },
+    {
+      "id": "2014-006",
+      "title": "Malaysia Airlines Flight MH370 disappears",
+      "region": "South China Sea / Indian Ocean",
+      "coordinates_approx": "-37.00, 89.00",
+      "category": "technological",
+      "description": "On March 8, Malaysia Airlines Flight MH370, a Boeing 777 carrying 239 people from Kuala Lumpur to Beijing, disappeared from radar over the South China Sea. Subsequent satellite analysis indicated the aircraft diverted radically off course and flew for hours into the southern Indian Ocean. Despite the most expensive search in aviation history, the main wreckage was never found; only scattered debris washed ashore on Indian Ocean coastlines starting in 2015. The disappearance exposed significant gaps in global flight tracking systems and prompted international reforms in aircraft surveillance requirements.",
+      "key_figures": [
+        "Zaharie Ahmad Shah (captain)",
+        "Hishammuddin Hussein (Malaysian Defence Minister)",
+        "Najib Razak (Malaysian Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Malaysian ICAO Annex 13 Safety Investigation Report (2018)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Australian Transport Safety Bureau search reports (2014–2017)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inmarsat satellite handshake data analysis",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The disappearance itself is confirmed. The cause remains officially undetermined as of the latest investigation report. The aircraft's precise location on the ocean floor is unknown.",
+      "cross_references": ["2014-010"]
+    },
+    {
+      "id": "2014-007",
+      "title": "West African Ebola epidemic escalates",
+      "region": "Guinea, Sierra Leone, Liberia",
+      "coordinates_approx": "7.95, -11.78",
+      "category": "demographic",
+      "description": "An Ebola virus outbreak that began in Guinea in December 2013 exploded into the worst Ebola epidemic in history during 2014, spreading through Sierra Leone and Liberia and overwhelming fragile health systems. The WHO declared a Public Health Emergency of International Concern on August 8. By the epidemic's end in 2016, over 28,600 cases and 11,325 deaths were recorded. The crisis exposed severe deficiencies in global health emergency response, particularly the WHO's initial slow reaction, and devastated the economies and healthcare infrastructure of affected countries.",
+      "key_figures": [
+        "Margaret Chan (WHO Director-General)",
+        "Ellen Johnson Sirleaf (President of Liberia)",
+        "Kent Brantly (American physician infected with Ebola, first treated with ZMapp)"
+      ],
+      "sources": [
+        {
+          "name": "WHO Situation Reports and Disease Outbreak News (2014–2016)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "CDC Morbidity and Mortality Weekly Reports on Ebola response",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Médecins Sans Frontières field reports and public statements criticizing delayed international response",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Comprehensively documented by international health organizations. Case counts are likely underestimates due to incomplete surveillance in rural areas.",
+      "cross_references": ["2013-EBOLA_GUINEA_INDEX_CASE"]
+    },
+    {
+      "id": "2014-008",
+      "title": "Boko Haram kidnaps Chibok schoolgirls",
+      "region": "Nigeria (Borno State)",
+      "coordinates_approx": "10.87, 12.82",
+      "category": "military",
+      "description": "On April 14–15, the jihadist group Boko Haram abducted 276 female students from the Government Secondary School in Chibok, Borno State. The mass kidnapping provoked global outrage and the #BringBackOurGirls social media campaign. The Nigerian government's initial inaction and misinformation about a rescue drew widespread criticism. While some girls escaped or were later released through negotiations, over 100 remained missing years later. The kidnapping focused international attention on Boko Haram's insurgency, which had killed thousands and displaced millions across northeastern Nigeria.",
+      "key_figures": [
+        "Abubakar Shekau (Boko Haram leader)",
+        "Goodluck Jonathan (Nigerian President)",
+        "Oby Ezekwesili (co-founder of #BringBackOurGirls campaign)"
+      ],
+      "sources": [
+        {
+          "name": "Amnesty International reports on Boko Haram abductions and Nigerian military failures",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by The Guardian, BBC, and Nigerian media",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Boko Haram video statement claiming responsibility (May 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well documented. Exact number of abducted girls initially disputed between 276 and 219 (some escaped immediately); 276 is the widely accepted figure.",
+      "cross_references": []
+    },
+    {
+      "id": "2014-009",
+      "title": "Narendra Modi elected Prime Minister of India",
+      "region": "India",
+      "coordinates_approx": "28.61, 77.21",
+      "category": "political",
+      "description": "The Bharatiya Janata Party (BJP) won a landslide victory in India's general elections, securing 282 of 543 Lok Sabha seats — the first single-party majority since 1984. Narendra Modi, the polarizing Chief Minister of Gujarat, became Prime Minister on May 26. The election marked the end of the Congress-led UPA government under Manmohan Singh and signaled a major rightward shift in Indian politics. Modi campaigned on economic development and anti-corruption, though his candidacy remained controversial due to the 2002 Gujarat riots that occurred under his watch.",
+      "key_figures": [
+        "Narendra Modi (Prime Minister-elect, BJP)",
+        "Rahul Gandhi (Congress Party leader)",
+        "Manmohan Singh (outgoing Prime Minister)",
+        "Arvind Kejriwal (Aam Aadmi Party leader)"
+      ],
+      "sources": [
+        {
+          "name": "Election Commission of India official results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting and exit polling by Indian media (NDTV, The Hindu, Times of India)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official election results with comprehensive documentation.",
+      "cross_references": ["2002-GUJARAT_RIOTS"]
+    },
+    {
+      "id": "2014-010",
+      "title": "Malaysia Airlines Flight MH17 shot down over eastern Ukraine",
+      "region": "Eastern Ukraine (Donetsk Oblast)",
+      "coordinates_approx": "48.13, 38.63",
+      "category": "military",
+      "description": "On July 17, Malaysia Airlines Flight MH17, a Boeing 777 flying from Amsterdam to Kuala Lumpur, was struck by a Buk surface-to-air missile over the conflict zone in eastern Ukraine, killing all 298 people aboard. The majority of victims were Dutch nationals. A Dutch-led Joint Investigation Team (JIT) concluded in 2016 that the missile was fired from separatist-controlled territory using a Buk system transported from Russia's 53rd Anti-Aircraft Missile Brigade. The disaster intensified international sanctions against Russia and became a defining atrocity of the Donbas war.",
+      "key_figures": [
+        "Fred Westerbeke (Dutch chief prosecutor, JIT)",
+        "Mark Rutte (Dutch Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Dutch Safety Board final report (October 2015)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Joint Investigation Team criminal findings (2016, 2019, 2022)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Bellingcat open-source investigation tracking the Buk missile launcher",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Exhaustively investigated by the Dutch Safety Board and JIT. Russia denies responsibility despite overwhelming forensic, signals intelligence, and open-source evidence.",
+      "cross_references": ["2014-003", "2014-001"]
+    },
+    {
+      "id": "2014-011",
+      "title": "Israel–Gaza War (Operation Protective Edge)",
+      "region": "Gaza Strip / Israel",
+      "coordinates_approx": "31.42, 34.35",
+      "category": "military",
+      "description": "Following an escalation triggered by the kidnapping and murder of three Israeli teenagers and a retaliatory killing of a Palestinian teenager, Israel launched Operation Protective Edge against Hamas in Gaza on July 8. The 50-day war included extensive aerial bombardment and a ground invasion. Over 2,100 Palestinians were killed (the majority civilians according to UN figures), along with 73 Israelis (67 soldiers). The destruction in Gaza was immense, with over 18,000 housing units destroyed or severely damaged. A ceasefire was reached on August 26, but the underlying conflict remained unresolved.",
+      "key_figures": [
+        "Benjamin Netanyahu (Israeli Prime Minister)",
+        "Ismail Haniyeh (Hamas political leader)",
+        "Ban Ki-moon (UN Secretary-General)"
+      ],
+      "sources": [
+        {
+          "name": "UN OCHA reports on Gaza casualties and destruction",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN Human Rights Council Commission of Inquiry report (2015)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "B'Tselem (Israeli human rights organization) casualty documentation",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well documented. Casualty figures vary between Israeli and Palestinian/UN sources, particularly regarding the ratio of civilian to combatant deaths.",
+      "cross_references": ["2023-HAMAS_ATTACK"]
+    },
+    {
+      "id": "2014-012",
+      "title": "Hong Kong Umbrella Movement",
+      "region": "Hong Kong SAR, China",
+      "coordinates_approx": "22.28, 114.17",
+      "category": "political",
+      "description": "From September 26 to December 15, pro-democracy protesters occupied major thoroughfares in Hong Kong after Beijing's Standing Committee of the National People's Congress ruled that candidates for the 2017 Chief Executive election would be pre-screened by a nominating committee loyal to Beijing. The movement, named for protesters' use of umbrellas against tear gas and pepper spray, was the largest act of civil disobedience in Hong Kong's history. While the protests ultimately failed to win democratic concessions, they politicized a generation and laid the groundwork for the larger 2019 protests.",
+      "key_figures": [
+        "Benny Tai (co-founder of Occupy Central)",
+        "Joshua Wong (student leader)",
+        "Leung Chun-ying (Hong Kong Chief Executive)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by South China Morning Post, RTHK, The New York Times",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "NPC Standing Committee decision on Hong Kong electoral reform (August 31, 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Comprehensively documented by local and international media, with extensive photo and video evidence.",
+      "cross_references": ["2019-HONG_KONG_PROTESTS", "2020-NATIONAL_SECURITY_LAW"]
+    },
+    {
+      "id": "2014-013",
+      "title": "Scottish independence referendum",
+      "region": "Scotland / United Kingdom",
+      "coordinates_approx": "55.95, -3.19",
+      "category": "political",
+      "description": "On September 18, Scotland held a referendum on independence from the United Kingdom. Voters rejected independence by 55.3% to 44.7% on a turnout of 84.6% — the highest for any UK election since the introduction of universal suffrage. The campaign energized Scottish politics and led to a surge in Scottish National Party membership. The close result prompted promises of further devolution (the 'Vow') from UK party leaders, and the independence question remained a dominant force in Scottish and British politics.",
+      "key_figures": [
+        "Alex Salmond (Scottish First Minister, pro-independence)",
+        "Alistair Darling (leader of Better Together campaign)",
+        "David Cameron (UK Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Electoral Commission official results and referendum report",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by BBC Scotland, The Scotsman, and The Herald",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official electoral result with full documentation.",
+      "cross_references": ["2016-BREXIT_REFERENDUM"]
+    },
+    {
+      "id": "2014-014",
+      "title": "Rosetta mission lands Philae probe on comet",
+      "region": "Space (Comet 67P/Churyumov–Gerasimenko)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "On November 12, the European Space Agency's Philae lander, deployed from the Rosetta spacecraft, became the first human-made object to soft-land on a comet. After a 10-year journey, the lander touched down on Comet 67P/Churyumov–Gerasimenko but bounced twice before settling in a shadowed location that limited its solar power. Despite operating for only about 60 hours before battery depletion, Philae returned significant scientific data. The Rosetta orbiter continued observations until its controlled impact on the comet in September 2016, yielding unprecedented data on cometary composition.",
+      "key_figures": [
+        "Jean-Jacques Dordain (ESA Director General)",
+        "Matt Taylor (Rosetta project scientist)"
+      ],
+      "sources": [
+        {
+          "name": "ESA mission reports and press releases",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Science and Nature journal publications on Rosetta/Philae findings (2015)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented in real time via ESA telemetry, live-streamed globally.",
+      "cross_references": []
+    },
+    {
+      "id": "2014-015",
+      "title": "US–Cuba diplomatic normalization announced",
+      "region": "United States / Cuba",
+      "coordinates_approx": "23.11, -82.37",
+      "category": "political",
+      "description": "On December 17, US President Barack Obama and Cuban President Raúl Castro simultaneously announced the restoration of diplomatic relations after more than 50 years of hostility, facilitated by secret negotiations hosted by Canada and mediated by Pope Francis. The agreement included a prisoner exchange, the release of USAID contractor Alan Gross, and a commitment to reopen embassies. The announcement marked the most significant shift in US–Cuba relations since the 1961 Bay of Pigs invasion and the 1962 missile crisis, though the broader US trade embargo remained in place.",
+      "key_figures": [
+        "Barack Obama (US President)",
+        "Raúl Castro (Cuban President)",
+        "Pope Francis (mediator)",
+        "Alan Gross (released prisoner)"
+      ],
+      "sources": [
+        {
+          "name": "White House press statements and presidential address (December 17, 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by AP, Reuters, and Cuban state media (Granma)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Announced publicly by both heads of state with full documentation.",
+      "cross_references": ["1961-BAY_OF_PIGS", "1962-CUBAN_MISSILE_CRISIS"]
+    },
+    {
+      "id": "2014-016",
+      "title": "Thai military coup",
+      "region": "Thailand",
+      "coordinates_approx": "13.76, 100.50",
+      "category": "political",
+      "description": "On May 22, the Royal Thai Army under General Prayuth Chan-ocha overthrew the caretaker government of Niwatthamrong Boonsongpaisan in a coup d'état, following months of political crisis between supporters and opponents of former Prime Minister Thaksin Shinawatra. The military imposed martial law, dissolved the Senate, suspended the constitution, and established the National Council for Peace and Order (NCPO). It was Thailand's twelfth successful coup since 1932 and the second in eight years. Prayuth remained in power as Prime Minister until 2023.",
+      "key_figures": [
+        "Prayuth Chan-ocha (Army chief, later PM)",
+        "Yingluck Shinawatra (ousted PM, removed by Constitutional Court on May 7)",
+        "Thaksin Shinawatra (former PM, in exile)"
+      ],
+      "sources": [
+        {
+          "name": "NCPO announcements and martial law declaration",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by Bangkok Post, The Nation, and Reuters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fully documented. No dating ambiguity.",
+      "cross_references": ["2006-THAI_COUP"]
+    },
+    {
+      "id": "2014-017",
+      "title": "Abdication of King Juan Carlos I of Spain",
+      "region": "Spain",
+      "coordinates_approx": "40.42, -3.70",
+      "category": "political",
+      "description": "On June 2, King Juan Carlos I announced his abdication after nearly 39 years on the throne. His son Felipe VI was crowned on June 19. Juan Carlos, once widely revered for his role in Spain's democratic transition after Franco's death, had seen his popularity collapse due to corruption scandals involving the royal family, particularly the Nóos case involving his son-in-law Iñaki Urdangarin, and a controversial elephant-hunting trip during Spain's economic crisis. The abdication was the first by a Spanish monarch since 1870.",
+      "key_figures": [
+        "Juan Carlos I (abdicating king)",
+        "Felipe VI (new king)",
+        "Mariano Rajoy (Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Official Spanish government gazette (Boletín Oficial del Estado) publishing abdication law",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by El País, El Mundo, and EFE news agency",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official state act with full legal documentation.",
+      "cross_references": ["1975-FRANCO_DEATH", "1981-SPANISH_COUP_ATTEMPT"]
+    },
+    {
+      "id": "2014-018",
+      "title": "Peshawar school massacre",
+      "region": "Pakistan (Khyber Pakhtunkhwa)",
+      "coordinates_approx": "34.01, 71.58",
+      "category": "military",
+      "description": "On December 16, seven Tehrik-i-Taliban Pakistan (TTP) gunmen attacked the Army Public School in Peshawar, killing 149 people — 132 of them children aged 8–18. It was the deadliest terrorist attack in Pakistani history. The massacre provoked a national backlash against the TTP and led to the lifting of Pakistan's moratorium on the death penalty for terrorism cases, the establishment of military courts, and the intensification of military operations in the tribal areas. The attack marked a turning point in Pakistani public opinion toward counter-terrorism operations.",
+      "key_figures": [
+        "Nawaz Sharif (Pakistani Prime Minister)",
+        "Raheel Sharif (Chief of Army Staff)",
+        "Mullah Fazlullah (TTP leader)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by Dawn, Geo News, BBC Urdu, and wire services",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pakistani government National Action Plan against terrorism (announced December 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Comprehensively documented. TTP claimed responsibility.",
+      "cross_references": []
+    },
+    {
+      "id": "2014-019",
+      "title": "Sochi Winter Olympics",
+      "region": "Russia (Krasnodar Krai)",
+      "coordinates_approx": "43.60, 39.73",
+      "category": "cultural",
+      "description": "The XXII Winter Olympic Games were held in Sochi from February 7–23, becoming the most expensive Olympic Games in history at an estimated cost of $51 billion, much of which was attributed to corruption and cost overruns. Russia topped the medal table with 33 medals (13 gold). The Games were politically contentious due to Russia's anti-LGBT legislation, concerns about displacement of local residents, environmental damage, and the proximity in time to the Ukrainian crisis — Russia annexed Crimea days after the closing ceremony. Several Russian medal winners were later implicated in the state-sponsored doping scandal uncovered by the McLaren Report.",
+      "key_figures": [
+        "Vladimir Putin (Russian President)",
+        "Thomas Bach (IOC President, first Games under his presidency)"
+      ],
+      "sources": [
+        {
+          "name": "IOC official records and results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "McLaren Independent Investigation Report on Russian doping (2016)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Boris Nemtsov's report on Sochi Olympics corruption (2014)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fully documented. The doping component was confirmed by subsequent investigations.",
+      "cross_references": ["2014-001", "2016-RUSSIAN_DOPING_SCANDAL"]
+    },
+    {
+      "id": "2014-020",
+      "title": "Burkina Faso uprising ousts Compaoré",
+      "region": "Burkina Faso",
+      "coordinates_approx": "12.37, -1.52",
+      "category": "political",
+      "description": "On October 30–31, mass protests forced President Blaise Compaoré to resign after 27 years in power. The uprising was triggered by his attempt to amend the constitution to extend his rule. Protesters stormed the National Assembly and set it ablaze as it prepared to vote on the amendment. The military initially took control under Lieutenant Colonel Isaac Zida before a civilian-military transitional government was established. The Burkinabè uprising was one of the most significant African popular movements of the decade, demonstrating that entrenched authoritarian rulers could be removed by mass mobilization.",
+      "key_figures": [
+        "Blaise Compaoré (President, ousted)",
+        "Michel Kafando (transitional President)",
+        "Isaac Zida (military transitional leader)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by RFI, Jeune Afrique, and AFP",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International Crisis Group briefings on Burkina Faso transition",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well documented by African and international media.",
+      "cross_references": ["2015-BURKINA_FASO_COUP_ATTEMPT"]
+    },
+    {
+      "id": "2014-021",
+      "title": "European Central Bank introduces negative interest rates",
+      "region": "Eurozone",
+      "coordinates_approx": "50.11, 8.68",
+      "category": "economic",
+      "description": "On June 5, the European Central Bank became the first major central bank to introduce a negative deposit facility rate, cutting it to −0.10%. The unprecedented move, under ECB President Mario Draghi, aimed to combat deflationary pressures and stimulate lending in the sluggish Eurozone economy. The ECB further cut rates to −0.20% in September. This inaugurated an era of negative interest rate policy (NIRP) in Europe that would last until 2022, fundamentally altering European banking, bond markets, and the economics of sovereign debt.",
+      "key_figures": [
+        "Mario Draghi (ECB President)"
+      ],
+      "sources": [
+        {
+          "name": "ECB Governing Council monetary policy decisions and press conferences (June and September 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Financial Times, Bloomberg, and Reuters contemporaneous analysis",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official ECB policy decision with full documentation.",
+      "cross_references": ["2012-DRAGHI_WHATEVER_IT_TAKES", "2022-ECB_RATE_HIKES"]
+    },
+    {
+      "id": "2014-022",
+      "title": "FIFA World Cup held in Brazil",
+      "region": "Brazil",
+      "coordinates_approx": "-22.91, -43.17",
+      "category": "cultural",
+      "description": "The 2014 FIFA World Cup was held in Brazil from June 12 to July 13, with Germany winning its fourth title by defeating Argentina 1–0 in the final. The tournament was most remembered for Germany's extraordinary 7–1 semifinal demolition of host nation Brazil — the worst defeat in Brazilian football history and an event of genuine cultural trauma in the country. The Cup was preceded by significant anti-government protests in 2013–2014 over the cost of hosting ($11 billion) amid poor public services, and concerns about stadium construction worker deaths and forced evictions.",
+      "key_figures": [
+        "Joachim Löw (Germany coach)",
+        "Lionel Messi (Argentina, Golden Ball winner)",
+        "Dilma Rousseff (Brazilian President)"
+      ],
+      "sources": [
+        {
+          "name": "FIFA official tournament records and match reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporaneous reporting by global sports media and Brazilian press (Folha de S.Paulo, O Globo)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fully documented sporting event with global media coverage.",
+      "cross_references": ["2013-BRAZIL_PROTESTS"]
+    },
+    {
+      "id": "2014-023",
+      "title": "US-led coalition begins airstrikes against ISIS",
+      "region": "Iraq / Syria",
+      "coordinates_approx": "33.31, 44.37",
+      "category": "military",
+      "description": "Beginning with strikes in Iraq on August 8 (to protect Yazidis on Mount Sinjar and defend Erbil) and expanding to Syria on September 22, the United States assembled a coalition of over 60 nations to conduct military operations against ISIS under Operation Inherent Resolve. The campaign included airstrikes, special operations, and the arming and training of local forces including Kurdish Peshmerga and, in Syria, the predominantly Kurdish Syrian Democratic Forces. The intervention marked a renewed US military engagement in Iraq three years after withdrawing combat forces.",
+      "key_figures": [
+        "Barack Obama (US President)",
+        "Lloyd Austin (CENTCOM commander)",
+        "John Kerry (US Secretary of State, coalition diplomacy)"
+      ],
+      "sources": [
+        {
+          "name": "US Department of Defense press releases and CENTCOM operational updates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN Security Council Resolution 2170 (August 2014) condemning ISIS",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official military operations with full documentation.",
+      "cross_references": ["2014-004", "2014-005", "2011-US_IRAQ_WITHDRAWAL"]
+    },
+    {
+      "id": "2014-024",
+      "title": "Petro Poroshenko elected President of Ukraine",
+      "region": "Ukraine",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "political",
+      "description": "On May 25, oligarch and confectionery magnate Petro Poroshenko won Ukraine's snap presidential election with 54.7% of the vote in the first round, following the Euromaidan revolution. Voting could not take place in Crimea (annexed by Russia) or in parts of the Donbas controlled by separatists. Poroshenko signed the EU–Ukraine Association Agreement in June, the rejection of which had triggered the Euromaidan protests. His presidency was dominated by the Donbas war, economic reforms under IMF guidance, and navigating between Western integration and Russian pressure.",
+      "key_figures": [
+        "Petro Poroshenko (President-elect)",
+        "Yulia Tymoshenko (rival candidate)"
+      ],
+      "sources": [
+        {
+          "name": "Central Election Commission of Ukraine official results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "OSCE/ODIHR election observation mission final report",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official election results with international observation.",
+      "cross_references": ["2014-002", "2014-003"]
+    },
+    {
+      "id": "2014-025",
+      "title": "Xi Jinping launches anti-corruption campaign targeting Zhou Yongkang",
+      "region": "China",
+      "coordinates_approx": "39.91, 116.40",
+      "category": "political",
+      "description": "In July 2014, the Chinese Communist Party announced a formal investigation into Zhou Yongkang, the former member of the Politburo Standing Committee and security chief — the highest-ranking official to face corruption charges since the founding of the PRC. Zhou's fall was the most dramatic escalation of Xi Jinping's sweeping anti-corruption campaign launched in late 2012, which by 2014 had disciplined hundreds of thousands of officials. The campaign consolidated Xi's power by eliminating rival power networks while addressing genuine public anger over corruption, though critics argued it was selectively targeted at political opponents.",
+      "key_figures": [
+        "Xi Jinping (General Secretary of the CPC)",
+        "Zhou Yongkang (former Politburo Standing Committee member, investigated)",
+        "Wang Qishan (Central Commission for Discipline Inspection secretary)"
+      ],
+      "sources": [
+        {
+          "name": "Xinhua News Agency official announcement of Zhou Yongkang investigation (July 29, 2014)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Central Commission for Discipline Inspection reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Officially announced by Chinese state media. Trial and conviction followed in 2015.",
+      "cross_references": ["2012-XI_JINPING_GENERAL_SECRETARY"]
+    }
+  ],
+  "disconfirming_evidence": "Several events listed warrant complicating notes: (1) The Crimean referendum (2014-001) — Russia and some commentators argue the referendum reflected genuine pro-Russian sentiment in Crimea, and polling by Gallup and Pew after annexation did show majority Crimean support for joining Russia. However, the referendum's conduct under military occupation, without independent observation, and without a status-quo option on the ballot, means its legitimacy as an expression of self-determination is disputed by the overwhelming majority of international law scholars. (2) The MH370 disappearance (2014-006) — multiple contested theories exist; the Malaysian government's investigation has been criticized as incomplete, and an independent investigation by next-of-kin groups and independent researchers challenges official narratives. The pilot-suicide hypothesis, while supported by circumstantial evidence, is not officially confirmed. (3) India's 2014 election (2014-009) — the characterization of Modi's Gujarat record is contested. His supporters argue he was cleared by a Supreme Court-appointed Special Investigation Team; his critics note the SIT's scope was limited and key witnesses were killed. (4) FIFA World Cup costs (2014-022) — the $11 billion figure is approximate and contested, with different sources counting different infrastructure projects. (5) Xi Jinping's anti-corruption campaign (2014-025) — there is genuine scholarly debate about whether the campaign represents authentic anti-corruption governance or is primarily a vehicle for political consolidation. Both dynamics likely coexist.",
+  "historiographic_note": "2014 is exhaustively documented through digital media, satellite surveillance, official government records, international organization reports, leaked communications (notably relevant to the Ukraine conflict), and global news coverage. The primary historiographic challenges are not gaps in documentation but rather information warfare: both the Ukrainian and Russian conflicts and the ISIS crisis generated enormous volumes of propaganda and disinformation from all sides. Surviving sources skew toward English-language and Western media in AI training data, meaning events in Francophone Africa, Central Asia, and domestic Chinese politics may be underrepresented relative to their significance. The year is also close enough to the present that political sensitivities affect how events are framed — particularly regarding Russia-Ukraine, Israel-Palestine, and Chinese domestic politics.",
+  "graph_edges": [
+    {
+      "from": "2014-001",
+      "to": "2022-RUSSIA_UKRAINE_INVASION",
+      "relation": "led_to",
+      "note": "The Crimean annexation established the precedent and geopolitical dynamic that escalated to full-scale invasion in 2022"
+    },
+    {
+      "from": "2014-002",
+      "to": "2014-001",
+      "relation": "led_to",
+      "note": "The Euromaidan revolution directly precipitated Russia's annexation of Crimea"
+    },
+    {
+      "from": "2014-003",
+      "to": "2015-MINSK_II",
+      "relation": "led_to",
+      "note": "The Donbas war led to the Minsk II ceasefire agreement in February 2015"
+    },
+    {
+      "from": "2014-004",
+      "to": "2017-MOSUL_LIBERATION",
+      "relation": "led_to",
+      "note": "ISIS capture of Mosul led to a three-year campaign to recapture the city"
+    },
+    {
+      "from": "2014-005",
+      "to": "2014-023",
+      "relation": "led_to",
+      "note": "The Yazidi genocide was the immediate trigger for US airstrikes against ISIS"
+    },
+    {
+      "from": "2014-007",
+      "to": "2020-COVID_PARALLELS",
+      "relation": "part_of",
+      "note": "The Ebola crisis exposed global health governance weaknesses later echoed in the COVID-19 pandemic"
+    },
+    {
+      "from": "2014-009",
+      "to": "2019-MODI_REELECTION",
+      "relation": "led_to",
+      "note": "Modi's 2014 victory established BJP dominance confirmed by an even larger mandate in 2019"
+    },
+    {
+      "from": "2014-010",
+      "to": "2014-003",
+      "relation": "part_of",
+      "note": "MH17 shootdown was a direct consequence of the Donbas war"
+    },
+    {
+      "from": "2014-012",
+      "to": "2019-HONG_KONG_PROTESTS",
+      "relation": "led_to",
+      "note": "The Umbrella Movement politicized a generation that drove the larger 2019 protest movement"
+    },
+    {
+      "from": "2014-013",
+      "to": "2016-BREXIT_REFERENDUM",
+      "relation": "contemporary_with",
+      "note": "Scottish referendum and subsequent debates about devolution and union informed the dynamics of the Brexit campaign"
+    },
+    {
+      "from": "2014-015",
+      "to": "1962-CUBAN_MISSILE_CRISIS",
+      "relation": "caused_by",
+      "note": "The US-Cuba thaw reversed the diplomatic rupture that began with the Cold War confrontation"
+    },
+    {
+      "from": "2014-019",
+      "to": "2014-001",
+      "relation": "contemporary_with",
+      "note": "The Sochi Olympics ended days before Russia's Crimea operation began — the juxtaposition was widely noted"
+    },
+    {
+      "from": "2014-025",
+      "to": "2012-XI_JINPING_GENERAL_SECRETARY",
+      "relation": "caused_by",
+      "note": "The anti-corruption campaign was a centerpiece of Xi's consolidation of power after becoming General Secretary in 2012"
+    }
+  ]
+}
