@@ -1,0 +1,683 @@
+{
+  "year": 2024,
+  "year_label": "2024 CE",
+  "era_context": "The mid-2020s are defined by geopolitical fragmentation, the acceleration of artificial intelligence, climate disruption, and the erosion of the post-Cold War liberal international order. Two major wars — Russia's invasion of Ukraine (2022–) and the Israel-Hamas conflict (2023–) — dominate global security discourse. A historic wave of national elections, covering roughly half the world's population, reshapes political leadership across democracies. The AI industry enters a phase of rapid commercial deployment following the transformer-model breakthroughs of 2022–2023.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa beyond headline conflicts",
+    "Central Asia",
+    "Pacific Island states increasingly affected by climate change",
+    "Indigenous communities globally"
+  ],
+  "events": [
+    {
+      "id": "2024-001",
+      "title": "Israel-Hamas war escalates into prolonged Gaza campaign",
+      "region": "Middle East — Gaza Strip, Israel, Lebanon, Yemen, Iraq, Syria",
+      "coordinates_approx": "31.5, 34.47",
+      "category": "military",
+      "description": "Following Hamas's October 7, 2023 attack, Israel's military campaign in Gaza intensified through 2024, producing catastrophic civilian casualties and a humanitarian crisis. The UN and ICJ became involved: in January, the ICJ ordered provisional measures in South Africa's genocide case against Israel, and in May, the ICC prosecutor sought arrest warrants for leaders on both sides. The war expanded regionally — Hezbollah engaged Israel from Lebanon, Houthi forces in Yemen attacked Red Sea shipping, and Iran launched a direct missile and drone strike on Israeli territory in April. By year's end, over 40,000 Palestinians had been killed according to Gaza health authorities, and large portions of Gaza's infrastructure were destroyed. A fragile ceasefire with Hezbollah was reached in November after Israel conducted a ground incursion into southern Lebanon.",
+      "key_figures": [
+        "Benjamin Netanyahu (Prime Minister of Israel)",
+        "Yahya Sinwar (Hamas leader, killed October 2024)",
+        "Ismail Haniyeh (Hamas political chief, assassinated July 2024)",
+        "Hassan Nasrallah (Hezbollah leader, killed September 2024)",
+        "Karim Khan (ICC Prosecutor)"
+      ],
+      "sources": [
+        {
+          "name": "UN OCHA situation reports and casualty tracking; Gaza Ministry of Health bulletins",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "ICJ, Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel), Order of 26 January 2024",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International media reporting (AP, Reuters, Al Jazeera, BBC, NYT)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in real time by international media, satellite imagery, UN agencies, and legal proceedings. Casualty figures are contested between Israeli government and Gaza health authorities, but the scale of destruction is not in serious dispute.",
+      "cross_references": [
+        "2023-XXX (Hamas October 7 attack)"
+      ]
+    },
+    {
+      "id": "2024-002",
+      "title": "Russia-Ukraine war grinds through third year",
+      "region": "Eastern Europe — Ukraine, Russia",
+      "coordinates_approx": "48.5, 37.5",
+      "category": "military",
+      "description": "The war entered a phase of attritional fighting with incremental Russian territorial gains in eastern Ukraine, particularly around Avdiivka (captured February) and advances toward Pokrovsk. Ukraine conducted a surprising cross-border incursion into Russia's Kursk Oblast in August, briefly seizing territory. Russia intensified long-range strikes on Ukrainian energy infrastructure, causing rolling blackouts. Western military aid continued but faced political uncertainty, with a US aid package stalled in Congress for months before passing in April. North Korean troops were deployed to Russia's Kursk region late in the year, marking a significant escalation in international involvement.",
+      "key_figures": [
+        "Volodymyr Zelensky (President of Ukraine)",
+        "Vladimir Putin (President of Russia)",
+        "Oleksandr Syrskyi (Commander-in-Chief of Ukraine's Armed Forces)"
+      ],
+      "sources": [
+        {
+          "name": "Institute for the Study of War (ISW) daily campaign assessments",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ukrainian and Russian government communiqués; international media reporting",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed through satellite imagery, OSINT analysis, and extensive media coverage, though exact casualty figures on both sides remain classified or disputed.",
+      "cross_references": [
+        "2022-XXX (Russian invasion of Ukraine)"
+      ]
+    },
+    {
+      "id": "2024-003",
+      "title": "Donald Trump wins US presidential election",
+      "region": "United States of America",
+      "coordinates_approx": "38.9, -77.0",
+      "category": "political",
+      "description": "Donald Trump defeated incumbent Vice President Kamala Harris in the November 5 presidential election, winning both the Electoral College and the popular vote — a political comeback after his 2020 defeat and the January 6, 2021 Capitol breach. President Biden withdrew from the race in July, an extraordinarily late exit, endorsing Harris. Trump's campaign centred on immigration, inflation, and cultural grievances. He won despite facing 91 felony charges across four criminal indictments, including a May conviction in the New York hush-money case — making him the first convicted felon elected president. The Republican Party also secured majorities in both chambers of Congress.",
+      "key_figures": [
+        "Donald Trump (President-elect)",
+        "Kamala Harris (Vice President, Democratic nominee)",
+        "Joe Biden (President, withdrew July 2024)",
+        "J.D. Vance (Vice President-elect)"
+      ],
+      "sources": [
+        {
+          "name": "Associated Press election results; Federal Election Commission filings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "New York County Supreme Court, People v. Trump, conviction May 30, 2024",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Certified election results with full contemporary documentation.",
+      "cross_references": [
+        "2020-XXX (Biden defeats Trump)",
+        "2021-XXX (January 6 Capitol breach)"
+      ]
+    },
+    {
+      "id": "2024-004",
+      "title": "Iran launches direct military strike on Israel",
+      "region": "Middle East — Iran, Israel",
+      "coordinates_approx": "32.0, 34.8",
+      "category": "military",
+      "description": "On April 13–14, Iran launched over 300 drones, cruise missiles, and ballistic missiles directly at Israeli territory — the first direct Iranian attack on Israel from Iranian soil. The attack was in retaliation for an Israeli strike on the Iranian consulate in Damascus that killed senior IRGC commanders. The vast majority of projectiles were intercepted by Israeli, US, UK, Jordanian, and Saudi air defenses. Israel responded with a limited strike on Iranian air defenses near Isfahan on April 19. A larger Iranian barrage followed in October after the assassination of Hamas and Hezbollah leaders. The exchange marked a dangerous new phase in the decades-long shadow war between the two states.",
+      "key_figures": [
+        "Ali Khamenei (Supreme Leader of Iran)",
+        "Benjamin Netanyahu (Prime Minister of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "US Department of Defense statements; Israeli Defense Forces communiqués; international media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by multiple governments, radar tracking, and real-time media coverage.",
+      "cross_references": [
+        "2024-001"
+      ]
+    },
+    {
+      "id": "2024-005",
+      "title": "Fall of the Assad regime in Syria",
+      "region": "Middle East — Syria",
+      "coordinates_approx": "33.5, 36.3",
+      "category": "political",
+      "description": "In a rapid offensive beginning late November, a coalition led by Hayat Tahrir al-Sham (HTS) and allied rebel groups swept through northern and central Syria, capturing Aleppo, Hama, and Homs in quick succession. On December 8, rebel forces entered Damascus. President Bashar al-Assad fled to Russia, ending over five decades of Assad family rule and 13 years of civil war stalemate. The collapse was strikingly swift — Assad's military, weakened by years of attrition and the distraction of his key allies (Russia in Ukraine, Hezbollah degraded by Israel), offered little effective resistance. HTS leader Abu Mohammed al-Julani (Ahmed al-Sharaa) emerged as the dominant figure in post-Assad governance discussions.",
+      "key_figures": [
+        "Bashar al-Assad (President of Syria, deposed)",
+        "Abu Mohammed al-Julani / Ahmed al-Sharaa (HTS leader)"
+      ],
+      "sources": [
+        {
+          "name": "International media reporting (Reuters, AP, BBC, Al Jazeera); Syrian opposition and government communiqués",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by extensive real-time media coverage, satellite imagery, and government confirmations.",
+      "cross_references": [
+        "2011-XXX (Syrian civil war begins)",
+        "2024-001",
+        "2024-002"
+      ]
+    },
+    {
+      "id": "2024-006",
+      "title": "India holds largest democratic election in history",
+      "region": "South Asia — India",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "India's general election, conducted in seven phases from April 19 to June 1, saw approximately 642 million votes cast from an electorate of nearly 970 million — the largest democratic exercise in human history. Prime Minister Narendra Modi's BJP-led NDA coalition retained power but with a significantly reduced majority; the BJP itself fell short of a single-party majority for the first time since 2014, winning 240 of 543 seats. The opposition INDIA alliance performed better than expected, with the Indian National Congress nearly doubling its seat count. The result was interpreted as a check on Modi's consolidation of power.",
+      "key_figures": [
+        "Narendra Modi (Prime Minister)",
+        "Rahul Gandhi (Congress leader, Leader of the Opposition)"
+      ],
+      "sources": [
+        {
+          "name": "Election Commission of India official results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International election observation reports; Indian and international media",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official election results with comprehensive documentation.",
+      "cross_references": [
+        "2014-XXX (Modi first elected PM)"
+      ]
+    },
+    {
+      "id": "2024-007",
+      "title": "UK Labour Party wins landslide general election",
+      "region": "Western Europe — United Kingdom",
+      "coordinates_approx": "51.5, -0.13",
+      "category": "political",
+      "description": "On July 4, the Labour Party under Keir Starmer won a commanding parliamentary majority of 174 seats, ending 14 years of Conservative rule. The Conservatives suffered their worst defeat in party history, reduced to 121 seats. The result reflected accumulated public frustration with post-Brexit economic stagnation, the cost-of-living crisis, and a sequence of Conservative leadership upheavals. Reform UK, led by Nigel Farage, won five seats and a significant vote share, splitting the right-wing vote. Starmer became Prime Minister the following day.",
+      "key_figures": [
+        "Keir Starmer (Prime Minister)",
+        "Rishi Sunak (outgoing Prime Minister)",
+        "Nigel Farage (Reform UK leader)"
+      ],
+      "sources": [
+        {
+          "name": "UK Electoral Commission official results; BBC election coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official certified election results.",
+      "cross_references": [
+        "2016-XXX (Brexit referendum)",
+        "2019-XXX (Johnson Conservative landslide)"
+      ]
+    },
+    {
+      "id": "2024-008",
+      "title": "Taiwan elects Lai Ching-te amid cross-strait tensions",
+      "region": "East Asia — Taiwan",
+      "coordinates_approx": "25.0, 121.5",
+      "category": "political",
+      "description": "On January 13, Lai Ching-te of the Democratic Progressive Party (DPP) won Taiwan's presidential election with about 40% of the vote in a three-way race, succeeding Tsai Ing-wen and securing the DPP's third consecutive presidential term. Beijing, which considers Lai a 'separatist,' responded with condemnation and military exercises. The result was significant for cross-strait relations as the DPP has consistently rejected Beijing's 'one country, two systems' framework. However, the DPP lost its legislative majority, suggesting the public desired some political balance.",
+      "key_figures": [
+        "Lai Ching-te (President of Taiwan)",
+        "Hsiao Bi-khim (Vice President of Taiwan)"
+      ],
+      "sources": [
+        {
+          "name": "Taiwan Central Election Commission official results; international media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official certified election results.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-009",
+      "title": "South Korea constitutional crisis: President Yoon declares martial law",
+      "region": "East Asia — South Korea",
+      "coordinates_approx": "37.57, 126.98",
+      "category": "political",
+      "description": "On December 3, President Yoon Suk-yeol declared martial law, citing threats from 'anti-state forces' — the first martial law declaration in South Korea since 1980. Troops were deployed to the National Assembly, but legislators physically entered the building and voted 190-0 to overturn the declaration within hours. Yoon rescinded the order but the crisis triggered immediate impeachment proceedings. The National Assembly voted to impeach him on December 14. The episode shook South Korean democracy and drew international alarm, demonstrating both the fragility and resilience of democratic institutions.",
+      "key_figures": [
+        "Yoon Suk-yeol (President of South Korea, impeached)",
+        "Han Duck-soo (Acting President)"
+      ],
+      "sources": [
+        {
+          "name": "National Assembly of South Korea official proceedings; Korean and international media reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by official government records and extensive real-time media coverage.",
+      "cross_references": [
+        "1980-XXX (Gwangju uprising and martial law)"
+      ]
+    },
+    {
+      "id": "2024-010",
+      "title": "Sheikh Hasina ousted in Bangladesh after mass protests",
+      "region": "South Asia — Bangladesh",
+      "coordinates_approx": "23.8, 90.4",
+      "category": "political",
+      "description": "Months of student-led protests against government job quotas escalated into a broader anti-government movement. Security forces killed hundreds of protesters. On August 5, Prime Minister Sheikh Hasina fled the country by helicopter to India after 15 years in power. An interim government led by Nobel laureate Muhammad Yunus was installed. The uprising reflected deep discontent with authoritarian governance, economic inequality, and political repression under Hasina's Awami League. It was the most significant political upheaval in Bangladesh since its 1971 independence.",
+      "key_figures": [
+        "Sheikh Hasina (Prime Minister, ousted)",
+        "Muhammad Yunus (Chief Adviser, interim government)"
+      ],
+      "sources": [
+        {
+          "name": "Bangladeshi media (Daily Star, Prothom Alo); international media (Reuters, AP, BBC); UN human rights reports",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through media coverage and international reporting.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-011",
+      "title": "Venezuela disputed presidential election and political crisis",
+      "region": "South America — Venezuela",
+      "coordinates_approx": "10.5, -66.9",
+      "category": "political",
+      "description": "The July 28 presidential election pitted incumbent Nicolás Maduro against opposition candidate Edmundo González Urrutia. The government-aligned National Electoral Council declared Maduro the winner, but the opposition published detailed tally sheets from polling stations showing González winning by a wide margin. Multiple independent analyses and international observers rejected the official result. Protests were met with mass arrests and repression. González fled to Spain. The Carter Center, the EU, and most Latin American democracies refused to recognize Maduro's claimed victory, while he proceeded to be inaugurated for a third term in January 2025.",
+      "key_figures": [
+        "Nicolás Maduro (President)",
+        "Edmundo González Urrutia (opposition candidate)",
+        "María Corina Machado (opposition leader)"
+      ],
+      "sources": [
+        {
+          "name": "Carter Center election observation report; opposition-published actas (tally sheets); international media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election itself is confirmed; the true result is disputed, with strong independent evidence contradicting official figures.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-012",
+      "title": "Rapid commercial deployment of large language models and generative AI",
+      "region": "Global (primarily USA, China, Europe)",
+      "coordinates_approx": null,
+      "category": "technological",
+      "description": "2024 saw the deployment of significantly more capable AI systems into mainstream commercial products. OpenAI released GPT-4o and later the o1 reasoning model series. Anthropic released Claude 3 and 3.5 model families. Google launched Gemini across its product suite. Meta released the open-weight Llama 3 models. AI integration expanded rapidly into search engines, office software, coding tools, and creative applications. Regulatory responses included the EU AI Act entering into force in August, making it the world's first comprehensive AI law. Debates intensified over AI's impact on employment, intellectual property, and safety.",
+      "key_figures": [
+        "Sam Altman (OpenAI CEO)",
+        "Dario Amodei (Anthropic CEO)",
+        "Sundar Pichai (Google CEO)",
+        "Mark Zuckerberg (Meta CEO)"
+      ],
+      "sources": [
+        {
+          "name": "Company announcements and technical reports (OpenAI, Anthropic, Google DeepMind, Meta); EU Official Journal (AI Act regulation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Technology press (Ars Technica, The Verge, MIT Technology Review); financial reporting",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented through corporate disclosures, product launches, and regulatory filings.",
+      "cross_references": [
+        "2022-XXX (ChatGPT launch)",
+        "2023-XXX (GPT-4 release)"
+      ]
+    },
+    {
+      "id": "2024-013",
+      "title": "Baltimore Francis Scott Key Bridge collapse",
+      "region": "North America — United States (Maryland)",
+      "coordinates_approx": "39.22, -76.53",
+      "category": "environmental",
+      "description": "On March 26, the container ship MV Dali lost power and struck a support column of the Francis Scott Key Bridge in Baltimore, causing the entire 2.6 km span to collapse into the Patapsco River. Six construction workers on the bridge were killed. The Port of Baltimore — one of the busiest on the US East Coast — was effectively closed for months, disrupting automotive and coal shipping. The collapse raised questions about infrastructure vulnerability to vessel strikes and the adequacy of bridge protection systems. A unified command conducted a complex debris removal operation to reopen the channel.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "NTSB preliminary and investigative reports; US Coast Guard communiqués; media reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by extensive video footage, government investigations, and media coverage.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-014",
+      "title": "Paris 2024 Summer Olympic Games",
+      "region": "Western Europe — France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "cultural",
+      "description": "The Games of the XXXIII Olympiad were held in Paris from July 26 to August 11, with events staged at iconic venues including the Stade de France, the Château de Versailles, and beneath the Eiffel Tower. The opening ceremony took place along the Seine River. The United States topped the gold medal count (40), followed by China (40, fewer total medals) and Great Britain. Over 10,700 athletes from 206 nations competed. The Games were notable for their integration of venues with Parisian landmarks and the inclusion of breakdancing as a new Olympic sport.",
+      "key_figures": [
+        "Thomas Bach (IOC President)",
+        "Emmanuel Macron (President of France)"
+      ],
+      "sources": [
+        {
+          "name": "International Olympic Committee official results and reports; international media coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fully documented official event.",
+      "cross_references": [
+        "2020-XXX (Tokyo Olympics, held 2021)"
+      ]
+    },
+    {
+      "id": "2024-015",
+      "title": "Noto Peninsula earthquake devastates central Japan",
+      "region": "East Asia — Japan",
+      "coordinates_approx": "37.5, 137.3",
+      "category": "environmental",
+      "description": "On January 1, a magnitude 7.6 earthquake struck the Noto Peninsula in Ishikawa Prefecture, Japan. It was the strongest earthquake to hit the region in recorded history. At least 245 people were killed, thousands were injured, and widespread destruction affected the towns of Wajima and Suzu. Fires, landslides, and tsunami warnings compounded the disaster. Over 30,000 residents were displaced. The remote, mountainous terrain of the peninsula hampered rescue and relief operations. The disaster highlighted ongoing seismic vulnerability in Japan despite extensive preparedness infrastructure.",
+      "key_figures": [
+        "Fumio Kishida (Prime Minister of Japan)"
+      ],
+      "sources": [
+        {
+          "name": "Japan Meteorological Agency seismic reports; Japanese government disaster response reports; NHK and international media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Seismically recorded and extensively documented.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-016",
+      "title": "Hurricane Helene devastates southeastern United States",
+      "region": "North America — United States (Florida, Georgia, Carolinas, Tennessee)",
+      "coordinates_approx": "35.6, -82.6",
+      "category": "environmental",
+      "description": "Hurricane Helene made landfall as a Category 4 hurricane on the Florida Big Bend on September 26, then tracked inland, bringing catastrophic flooding to the southern Appalachian region — areas not typically prepared for tropical cyclone impacts. Western North Carolina, particularly around Asheville, experienced devastating flash flooding and mudslides. Over 230 people were killed across multiple states, making it one of the deadliest US hurricanes in decades. Entire communities were isolated when roads and bridges were destroyed. The disaster intensified debate about climate change's role in strengthening hurricanes and expanding their inland impact.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "National Hurricane Center advisories; FEMA reports; state emergency management agencies; media reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by meteorological records, government disaster declarations, and media documentation.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-017",
+      "title": "Sudan civil war creates world's largest displacement crisis",
+      "region": "East Africa — Sudan",
+      "coordinates_approx": "15.6, 32.5",
+      "category": "military",
+      "description": "The civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), which erupted in April 2023, escalated severely through 2024. The RSF committed widespread atrocities in Darfur, with the UN and human rights organizations documenting patterns consistent with ethnic cleansing. By mid-2024, Sudan had become the world's largest displacement crisis, with over 10 million internally displaced and millions more as refugees in Chad, South Sudan, and Egypt. Famine conditions were declared in parts of Darfur. International attention remained limited relative to the scale of the catastrophe, partly due to media focus on Gaza and Ukraine.",
+      "key_figures": [
+        "Abdel Fattah al-Burhan (SAF commander)",
+        "Mohamed Hamdan Dagalo / Hemedti (RSF commander)"
+      ],
+      "sources": [
+        {
+          "name": "UNHCR displacement tracking; UN OCHA situation reports; Human Rights Watch and Amnesty International field reports; IPC famine classification",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by UN agencies and humanitarian organizations, though access restrictions mean the full scale may be underreported.",
+      "cross_references": [
+        "2023-XXX (Sudan civil war begins)"
+      ]
+    },
+    {
+      "id": "2024-018",
+      "title": "Total solar eclipse crosses North America",
+      "region": "North America — Mexico, United States, Canada",
+      "coordinates_approx": "32.0, -100.0",
+      "category": "scientific",
+      "description": "On April 8, a total solar eclipse traced a path from Mexico's Pacific coast through Texas, the US Midwest, and into eastern Canada. The path of totality crossed major population centres, making it one of the most-observed total eclipses in history. Millions of people viewed the event directly; scientific teams conducted solar corona observations and atmospheric studies. The eclipse was significant for public science engagement and generated substantial tourism and economic activity along the totality path. It was the last total solar eclipse visible from the contiguous United States until 2044.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "NASA eclipse prediction data and observation reports; media coverage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Astronomically predicted and universally observed.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-019",
+      "title": "EU AI Act enters into force",
+      "region": "Europe — European Union",
+      "coordinates_approx": "50.85, 4.35",
+      "category": "legal",
+      "description": "The European Union's Artificial Intelligence Act, adopted by the European Parliament in March and published in the Official Journal in July, became the world's first comprehensive legal framework for regulating AI systems. The law classifies AI applications by risk level, banning certain uses (such as social scoring and most real-time biometric surveillance) and imposing strict requirements on high-risk systems in areas like law enforcement, healthcare, and education. General-purpose AI models face transparency obligations. The act's extraterritorial provisions mean it affects AI developers globally. Full enforcement is phased over 2025–2027.",
+      "key_figures": [
+        "Thierry Breton (EU Commissioner for Internal Market)",
+        "Dragos Tudorache (MEP, co-rapporteur)"
+      ],
+      "sources": [
+        {
+          "name": "Official Journal of the European Union, Regulation (EU) 2024/1689; European Parliament legislative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Published in the Official Journal with full legal force.",
+      "cross_references": [
+        "2024-012"
+      ]
+    },
+    {
+      "id": "2024-020",
+      "title": "Mpox outbreak declared Public Health Emergency of International Concern",
+      "region": "Central and East Africa, global",
+      "coordinates_approx": "-1.7, 29.2",
+      "category": "demographic",
+      "description": "In August, the WHO declared the mpox outbreak in the Democratic Republic of the Congo and neighbouring countries a Public Health Emergency of International Concern (PHEIC). A new clade (clade Ib) showed higher transmissibility and spread to previously unaffected countries including Burundi, Rwanda, Uganda, and Kenya. The DRC was hardest hit, with thousands of cases and hundreds of deaths, disproportionately affecting children. The crisis highlighted persistent inequities in vaccine access — vaccines available in wealthy countries were largely unavailable in affected African nations — and the risk of emerging infectious diseases in regions with limited surveillance capacity.",
+      "key_figures": [
+        "Tedros Adhanom Ghebreyesus (WHO Director-General)"
+      ],
+      "sources": [
+        {
+          "name": "WHO situation reports and PHEIC declaration; DRC Ministry of Health bulletins; CDC epidemiological reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by WHO official declarations and epidemiological surveillance.",
+      "cross_references": [
+        "2022-XXX (initial global mpox outbreak)"
+      ]
+    },
+    {
+      "id": "2024-021",
+      "title": "Boeing safety crisis deepens after Alaska Airlines door plug blowout",
+      "region": "North America — United States",
+      "coordinates_approx": "45.6, -122.6",
+      "category": "technological",
+      "description": "On January 5, an Alaska Airlines Boeing 737 MAX 9 experienced a catastrophic mid-flight failure when a door plug blew out at 16,000 feet, leaving a gaping hole in the fuselage. No fatalities occurred, but the incident triggered a major safety crisis for Boeing. The FAA grounded all 737 MAX 9 aircraft for inspection and subsequently capped Boeing's MAX production rate. Investigations revealed systemic quality-control failures at Boeing's manufacturing facilities. Boeing's CEO Dave Calhoun announced his resignation. The DOJ opened a criminal fraud investigation, and Boeing ultimately agreed to plead guilty to conspiracy to defraud the US government.",
+      "key_figures": [
+        "Dave Calhoun (Boeing CEO, resigned)",
+        "Kelly Ortberg (incoming Boeing CEO)"
+      ],
+      "sources": [
+        {
+          "name": "NTSB investigation reports and hearings; FAA emergency airworthiness directives; DOJ legal proceedings; media reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by federal investigation records and extensive documentation.",
+      "cross_references": [
+        "2018-XXX (Lion Air 737 MAX crash)",
+        "2019-XXX (Ethiopian Airlines 737 MAX crash)"
+      ]
+    },
+    {
+      "id": "2024-022",
+      "title": "French snap election produces hung parliament",
+      "region": "Western Europe — France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "political",
+      "description": "After the far-right Rassemblement National (RN) achieved historic gains in June's European Parliament elections, President Macron dissolved the National Assembly and called snap legislative elections. In a dramatic two-round vote (June 30 and July 7), a left-wing alliance (Nouveau Front Populaire) unexpectedly won the most seats, followed by Macron's centrist coalition, then the RN. No bloc secured a majority. After weeks of political deadlock, Macron appointed Michel Barnier (a centre-right figure) as Prime Minister, who was then toppled by a no-confidence vote in December — France's first successful no-confidence motion since 1962.",
+      "key_figures": [
+        "Emmanuel Macron (President)",
+        "Marine Le Pen (RN leader)",
+        "Jean-Luc Mélenchon (LFI leader)",
+        "Michel Barnier (Prime Minister, ousted)"
+      ],
+      "sources": [
+        {
+          "name": "French Constitutional Council official election results; Assemblée Nationale records; French and international media",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official certified election and parliamentary results.",
+      "cross_references": []
+    },
+    {
+      "id": "2024-023",
+      "title": "Global temperature exceeds 1.5°C threshold for full calendar year",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "According to the EU's Copernicus Climate Change Service, 2024 became the first calendar year in which global average surface temperature exceeded 1.5°C above pre-industrial levels, reaching approximately 1.6°C above the 1850–1900 baseline. This symbolic threshold — the aspirational limit set in the 2015 Paris Agreement — was breached partly due to an ongoing El Niño event but primarily driven by long-term anthropogenic greenhouse gas accumulation. The milestone does not technically trigger the Paris Agreement's 1.5°C provision (which refers to multi-decadal averages), but it intensified scientific and political urgency around climate action.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Copernicus Climate Change Service (C3S) annual global temperature report; WMO State of the Global Climate 2024 provisional report",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Based on comprehensive satellite and surface temperature measurements from multiple independent datasets.",
+      "cross_references": [
+        "2015-XXX (Paris Agreement)"
+      ]
+    },
+    {
+      "id": "2024-024",
+      "title": "Assassination attempts on Donald Trump",
+      "region": "North America — United States (Pennsylvania, Florida)",
+      "coordinates_approx": "40.9, -79.9",
+      "category": "political",
+      "description": "On July 13, during a campaign rally in Butler, Pennsylvania, a gunman fired at Donald Trump, wounding him in the ear and killing one attendee. The shooter, Thomas Matthew Crooks, was killed by Secret Service. The image of Trump, bloodied and raising his fist, became an iconic photograph of the 2024 campaign. A second apparent assassination attempt occurred on September 15 at Trump's golf course in West Palm Beach, Florida, where a man with a rifle was apprehended by Secret Service before firing at Trump. Both incidents prompted extensive review of Secret Service protective protocols.",
+      "key_figures": [
+        "Donald Trump (presidential candidate)"
+      ],
+      "sources": [
+        {
+          "name": "FBI investigation reports; Secret Service after-action reviews; media reporting and photography",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by law enforcement investigations and extensive video and photographic evidence.",
+      "cross_references": [
+        "2024-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Several events listed above have contested or complicated narratives that merit acknowledgment: (1) Gaza casualty figures (2024-001): Israel has disputed the Gaza Ministry of Health's casualty counts, arguing they include combatants and may be inflated. However, the UN and independent analyses have generally found the ministry's historical figures to be broadly reliable, and the Lancet published analysis suggesting the true toll including indirect deaths could be substantially higher. (2) Venezuela election (2024-011): The Maduro government insists it won legitimately and alleges foreign interference. However, no credible independent body has validated the official results, and the opposition's published precinct-level data has been independently verified by statistical analysis. (3) 1.5°C threshold (2024-023): Some climate scientists caution against overinterpreting a single year's breach of the 1.5°C threshold, noting that natural variability (El Niño) contributed and that the Paris Agreement refers to sustained multi-decadal averages. The milestone is symbolically significant but not equivalent to permanent exceedance of the Paris target. (4) AI capabilities (2024-012): The significance attributed to 2024 AI advances is contested by some researchers who argue the field is hitting diminishing returns on scaling and that commercial hype outpaces demonstrable capability gains. Others maintain that reasoning-capable models represent a genuine qualitative advance. (5) Sudan (2024-017): Both the SAF and RSF have committed atrocities, but media coverage has disproportionately focused on RSF actions in Darfur. Some analysts argue the SAF's aerial bombardment of civilian areas deserves equal condemnation and scrutiny.",
+  "historiographic_note": "2024 is among the most comprehensively documented years in human history, with real-time satellite imagery, social media, institutional reporting, and professional journalism providing multiple overlapping records. However, significant biases shape coverage: Anglophone and European perspectives dominate international media; conflicts in Africa (particularly Sudan and the DRC) receive disproportionately less attention than those in the Middle East and Europe despite comparable or greater humanitarian impact. Social media provides unprecedented grassroots documentation but also enables disinformation at scale. State actors — particularly Russia, Israel, and Iran — actively shape narratives through information operations, making contemporaneous source evaluation unusually complex. The sheer volume of AI-generated content beginning to enter the information ecosystem in 2024 introduces a novel epistemic challenge for future historians attempting to distinguish authentic from synthetic sources.",
+  "graph_edges": [
+    {
+      "from": "2024-001",
+      "to": "2023-XXX",
+      "relation": "caused_by",
+      "note": "Continuation and escalation of conflict following Hamas's October 7, 2023 attack"
+    },
+    {
+      "from": "2024-004",
+      "to": "2024-001",
+      "relation": "part_of",
+      "note": "Iranian strikes on Israel were direct retaliation for Israeli strike on Iranian consulate in Damascus, itself part of the broader Gaza-related regional escalation"
+    },
+    {
+      "from": "2024-005",
+      "to": "2024-001",
+      "relation": "caused_by",
+      "note": "Assad's fall enabled by degradation of his allies — Hezbollah weakened by Israel, Russia distracted by Ukraine"
+    },
+    {
+      "from": "2024-005",
+      "to": "2024-002",
+      "relation": "caused_by",
+      "note": "Russia's commitment to Ukraine war reduced its capacity to support Assad militarily"
+    },
+    {
+      "from": "2024-005",
+      "to": "2011-XXX",
+      "relation": "led_to",
+      "note": "End of the Syrian civil war's stalemate phase, which began in 2011"
+    },
+    {
+      "from": "2024-003",
+      "to": "2024-024",
+      "relation": "contemporary_with",
+      "note": "Assassination attempts occurred during and influenced the 2024 presidential campaign"
+    },
+    {
+      "from": "2024-012",
+      "to": "2024-019",
+      "relation": "led_to",
+      "note": "Rapid AI deployment drove regulatory response, culminating in EU AI Act enforcement"
+    },
+    {
+      "from": "2024-023",
+      "to": "2015-XXX",
+      "relation": "contradicts",
+      "note": "Breach of 1.5°C annual threshold contradicts the aspirational target of the Paris Agreement, though the formal provision refers to sustained averages"
+    },
+    {
+      "from": "2024-002",
+      "to": "2022-XXX",
+      "relation": "part_of",
+      "note": "Third year of Russia's full-scale invasion of Ukraine"
+    },
+    {
+      "from": "2024-017",
+      "to": "2023-XXX",
+      "relation": "part_of",
+      "note": "Escalation of Sudan civil war that began in April 2023"
+    },
+    {
+      "from": "2024-021",
+      "to": "2018-XXX",
+      "relation": "part_of",
+      "note": "Continuation of Boeing 737 MAX safety crisis that began with Lion Air crash in 2018"
+    },
+    {
+      "from": "2024-009",
+      "to": "1980-XXX",
+      "relation": "contemporary_with",
+      "note": "First martial law in South Korea since 1980 Gwangju crisis; historical parallel explicitly invoked in public discourse"
+    }
+  ]
+}

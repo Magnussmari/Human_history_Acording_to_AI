@@ -7,6 +7,7 @@ services:
     volumes:
       - ../:/workspace:z
       - ~/.claude:/home/historian/.claude:z
+      - ~/.claude.json:/home/historian/.claude.json:z
     environment:
       - PARALLEL_AGENTS=5
       - CYCLE_INTERVAL_SECONDS=1200

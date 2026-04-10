@@ -9,11 +9,13 @@ START=${START_YEAR:-2025}
 END=${END_YEAR:--3200}
 PROGRESS="/workspace/state/progress.json"
 LEDGER="/workspace/LEDGER.md"
+GIT_SYNC="/workspace/scripts/git_sync.sh"
 
 # Fallback for non-Docker runs
 if [ ! -f "$PROGRESS" ]; then
   PROGRESS="$HOME/Human_history/state/progress.json"
   LEDGER="$HOME/Human_history/LEDGER.md"
+  GIT_SYNC="$HOME/Human_history/scripts/git_sync.sh"
 fi
 
 get_next_years() {
@@ -47,6 +49,9 @@ write_ledger_entry() {
     printf '- **Years processed so far:** %d\n' "$completed" >> "$LEDGER"
     printf '- **Status:** Running nominally\n\n---\n' >> "$LEDGER"
     echo "  [LEDGER] Wrote 20-year summary at cycle ${cycle}"
+
+    # Push to GitHub every 20 years
+    bash "$GIT_SYNC" 2>&1 || echo "  [GIT SYNC] Failed (non-fatal)"
   fi
 }
 
@@ -78,6 +83,8 @@ while true; do
   if [ $REMAINING -le 0 ]; then
     echo "All years processed. Daemon complete."
     printf '{"status":"complete","completed":%d,"failed":%d,"timestamp":"%s"}' "$COMPLETED" "$FAILED" "$TIMESTAMP" > /workspace/state/final_status.json 2>/dev/null || true
+    # Final git push
+    bash "$GIT_SYNC" 2>&1 || true
     exit 0
   fi
 
@@ -105,7 +112,7 @@ while true; do
     wait "$pid" 2>/dev/null || true
   done
 
-  # Write ledger entry every 20 years
+  # Write ledger + git sync every 20 years
   write_ledger_entry "$CYCLE" "$COMPLETED" "$FAILED" "$TOTAL" "$TIMESTAMP"
 
   echo "  Batch complete. Sleeping ${INTERVAL}s before next cycle."

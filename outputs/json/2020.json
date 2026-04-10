@@ -1,0 +1,915 @@
+{
+  "year": 2020,
+  "year_label": "2020 CE",
+  "era_context": "The early 2020s mark a pivotal inflection in the post-Cold War global order. The year 2020 is defined above all by the COVID-19 pandemic, the most severe global public health crisis since the 1918 influenza pandemic, which triggered unprecedented peacetime economic shutdowns, accelerated digitalisation, and reshaped geopolitics. Simultaneously, the United States experienced deep political polarisation culminating in a contested presidential election, while racial justice movements, climate emergencies, and great-power competition between the US and China intensified. The world population stood at approximately 7.8 billion.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Central Asian domestic politics beyond headline events",
+    "Pacific Island nations beyond climate reporting",
+    "Internal dynamics of several African conflicts (Sahel, eastern DRC) are underrepresented relative to their human cost"
+  ],
+  "events": [
+    {
+      "id": "2020-001",
+      "title": "COVID-19 declared a global pandemic by WHO",
+      "region": "Global (originating in Wuhan, Hubei, China)",
+      "coordinates_approx": "30.59, 114.31",
+      "category": "demographic",
+      "description": "On 11 March 2020, the World Health Organization declared COVID-19 a pandemic. The novel coronavirus SARS-CoV-2 had been identified in Wuhan in late December 2019 and spread rapidly worldwide. By year's end, over 83 million confirmed cases and 1.8 million deaths had been recorded globally, though true figures were certainly higher. The pandemic triggered the most severe global recession since the 1930s, fundamentally altered work patterns, education, and social behaviour, and exposed deep inequalities in healthcare access worldwide.",
+      "key_figures": [
+        "Tedros Adhanom Ghebreyesus (WHO Director-General)",
+        "Li Wenliang (Wuhan ophthalmologist and early whistleblower, died Feb 2020)",
+        "Zhang Yongzhen (virologist who published the first genome sequence)"
+      ],
+      "sources": [
+        {
+          "name": "WHO Director-General's opening remarks at the media briefing on COVID-19, 11 March 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Johns Hopkins University COVID-19 Dashboard data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Lancet, early epidemiological studies (Jan–Mar 2020)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Exhaustively documented in real time by global media, governments, and scientific institutions. Some debate persists about total case counts due to undertesting, but the pandemic itself is beyond question.",
+      "cross_references": [
+        "2019-COVID_EMERGENCE"
+      ]
+    },
+    {
+      "id": "2020-002",
+      "title": "Global lockdowns and economic shutdown",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Beginning with China's lockdown of Hubei province in January and Italy's nationwide lockdown in March, governments across the world imposed stay-at-home orders, business closures, and travel restrictions of unprecedented peacetime scope. By April, over half the world's population was under some form of movement restriction. Global GDP contracted by approximately 3.1% in 2020 according to the IMF — the worst peacetime contraction since the Great Depression. Unemployment surged, supply chains fractured, and governments deployed trillions in fiscal stimulus. The lockdowns accelerated remote work, e-commerce, and digital communication permanently.",
+      "key_figures": [
+        "Giuseppe Conte (Italian PM, imposed first European national lockdown)",
+        "Xi Jinping (ordered Wuhan lockdown)"
+      ],
+      "sources": [
+        {
+          "name": "IMF World Economic Outlook, October 2020 and January 2021 updates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Oxford COVID-19 Government Response Tracker (Blavatnik School)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented in real time by economic data, government orders, and media reporting across virtually every country.",
+      "cross_references": [
+        "2020-001"
+      ]
+    },
+    {
+      "id": "2020-003",
+      "title": "Development of COVID-19 vaccines at unprecedented speed",
+      "region": "Global (key development in USA, Germany, UK, China, Russia)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "Multiple COVID-19 vaccines were developed in under a year — shattering the previous record of approximately four years for the mumps vaccine. The Pfizer-BioNTech mRNA vaccine (BNT162b2) reported 95% efficacy in November and received emergency use authorisation in the UK on 2 December 2020, followed by the US on 11 December. Moderna's mRNA vaccine received US EUA on 18 December. Russia's Sputnik V and China's Sinopharm and Sinovac vaccines were also deployed. The success of mRNA technology represented a paradigm shift in vaccinology with implications far beyond COVID-19.",
+      "key_figures": [
+        "Uğur Şahin and Özlem Türeci (BioNTech co-founders)",
+        "Katalin Karikó (mRNA pioneer)",
+        "Stéphane Bancel (Moderna CEO)",
+        "Sarah Gilbert (Oxford-AstraZeneca vaccine lead)",
+        "Alexander Gintsburg (Gamaleya Institute, Sputnik V)"
+      ],
+      "sources": [
+        {
+          "name": "Polack et al., 'Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine,' New England Journal of Medicine, 31 Dec 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Baden et al., 'Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine,' NEJM, 30 Dec 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UK MHRA Emergency Use Authorisation documentation, 2 December 2020",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Peer-reviewed clinical trial data and regulatory authorisation documents are publicly available.",
+      "cross_references": [
+        "2020-001",
+        "2021-VACCINE_ROLLOUT"
+      ]
+    },
+    {
+      "id": "2020-004",
+      "title": "Killing of George Floyd and global racial justice protests",
+      "region": "United States; protests worldwide",
+      "coordinates_approx": "44.95, -93.26",
+      "category": "cultural",
+      "description": "On 25 May 2020, George Floyd, a 46-year-old Black man, was killed during arrest by Minneapolis police officer Derek Chauvin, who knelt on his neck for over nine minutes. Bystander video of the killing went viral and triggered the largest protest movement in US history. An estimated 15–26 million Americans participated in Black Lives Matter demonstrations across all 50 states. Solidarity protests erupted in dozens of countries. The movement prompted widespread debate on systemic racism, police reform, and monument removal, and led to policy changes in numerous jurisdictions.",
+      "key_figures": [
+        "George Floyd (victim)",
+        "Derek Chauvin (police officer, later convicted)",
+        "Darnella Frazier (bystander who filmed the killing)"
+      ],
+      "sources": [
+        {
+          "name": "Bystander video by Darnella Frazier, 25 May 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Buchanan, Bui, and Patel, 'Black Lives Matter May Be the Largest Movement in U.S. History,' New York Times, 3 July 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Minneapolis Police Department incident records and subsequent criminal trial documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The killing was captured on video. Protest scale estimates from crowd-counting researchers and the Armed Conflict Location & Event Data Project (ACLED).",
+      "cross_references": [
+        "2021-CHAUVIN_TRIAL"
+      ]
+    },
+    {
+      "id": "2020-005",
+      "title": "United States presidential election — Biden defeats Trump",
+      "region": "United States",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "political",
+      "description": "Democrat Joseph R. Biden defeated incumbent Republican President Donald J. Trump in the presidential election held on 3 November 2020, winning 306 electoral votes to 232 and over 81 million popular votes — the most in US history. The election was conducted amid the pandemic, with unprecedented levels of mail-in voting. Trump refused to concede and made sustained, baseless claims of widespread fraud, filing dozens of unsuccessful legal challenges. This culminated in a campaign to overturn the result that would lead to the 6 January 2021 Capitol attack. Voter turnout was the highest in over a century at approximately 66.8%.",
+      "key_figures": [
+        "Joe Biden (President-elect)",
+        "Kamala Harris (Vice President-elect, first woman and first person of colour in the role)",
+        "Donald Trump (incumbent, refused to concede)"
+      ],
+      "sources": [
+        {
+          "name": "Federal Election Commission certified results; Associated Press election desk calls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "US Elections Project (Michael McDonald) turnout data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Court filings in Trump campaign lawsuits (various jurisdictions, Nov–Dec 2020)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Certified by all 50 states and confirmed by the Electoral College on 14 December 2020. Post-election audits in contested states confirmed the outcome.",
+      "cross_references": [
+        "2021-JAN6_CAPITOL"
+      ]
+    },
+    {
+      "id": "2020-006",
+      "title": "United Kingdom formally exits the European Union",
+      "region": "United Kingdom / European Union",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "political",
+      "description": "The United Kingdom formally left the European Union on 31 January 2020 at 23:00 GMT, entering a transition period during which it remained in the single market and customs union while negotiating future terms. After months of fraught negotiations, a Trade and Cooperation Agreement was finalised on 24 December 2020 and provisionally applied from 1 January 2021. Brexit ended 47 years of British EU membership and represented the most significant reconfiguration of European geopolitics since German reunification.",
+      "key_figures": [
+        "Boris Johnson (UK Prime Minister)",
+        "Michel Barnier (EU chief negotiator)",
+        "Ursula von der Leyen (European Commission President)"
+      ],
+      "sources": [
+        {
+          "name": "European Union (Withdrawal Agreement) Act 2020 (UK legislation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "EU-UK Trade and Cooperation Agreement, 24 December 2020",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented by official legislation and treaty texts of both parties.",
+      "cross_references": [
+        "2016-BREXIT_REFERENDUM"
+      ]
+    },
+    {
+      "id": "2020-007",
+      "title": "Beirut port explosion",
+      "region": "Lebanon",
+      "coordinates_approx": "33.90, 35.52",
+      "category": "environmental",
+      "description": "On 4 August 2020, approximately 2,750 tonnes of ammonium nitrate stored unsafely at the Port of Beirut detonated, producing one of the largest non-nuclear explosions in history. The blast killed at least 218 people, injured over 7,000, left 300,000 homeless, and caused an estimated $15 billion in property damage across half the city. The disaster exposed deep corruption and negligence within Lebanon's political establishment, as officials had been warned about the dangerous stockpile for years. It accelerated Lebanon's ongoing economic and political crisis.",
+      "key_figures": [
+        "Hassan Diab (Lebanese Prime Minister, resigned 10 August)",
+        "Tarek Bitar (lead investigative judge, later obstructed)"
+      ],
+      "sources": [
+        {
+          "name": "Seismological and blast analysis reports (multiple institutions including USGS)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Human Rights Watch, '\"They Killed Us from the Inside\": An Investigation into the August 4 Beirut Blast,' August 2021",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Lebanese Red Cross casualty figures; UN OCHA damage assessments",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The explosion was captured on numerous videos and by seismic instruments globally. Casualty figures are from Lebanese government and Red Cross sources. The judicial investigation has been repeatedly blocked.",
+      "cross_references": [
+        "2019-LEBANON_PROTESTS"
+      ]
+    },
+    {
+      "id": "2020-008",
+      "title": "Abraham Accords — normalisation of Israel's relations with UAE and Bahrain",
+      "region": "Middle East (Israel, United Arab Emirates, Bahrain)",
+      "coordinates_approx": "38.90, -77.04",
+      "category": "political",
+      "description": "On 15 September 2020, Israel, the United Arab Emirates, and Bahrain signed the Abraham Accords at the White House, normalising diplomatic relations. Sudan and Morocco followed with similar agreements in October and December respectively. These were the first Arab-Israeli normalisation agreements since Jordan's 1994 peace treaty and represented a significant realignment of Middle Eastern geopolitics, driven partly by shared concern over Iran. The accords were criticised by Palestinians as a betrayal that abandoned their cause as a precondition for normalisation.",
+      "key_figures": [
+        "Benjamin Netanyahu (Israeli PM)",
+        "Abdullah bin Zayed Al Nahyan (UAE Foreign Minister)",
+        "Abdullatif bin Rashid Al Zayani (Bahraini Foreign Minister)",
+        "Donald Trump (US President, broker)",
+        "Jared Kushner (senior adviser)"
+      ],
+      "sources": [
+        {
+          "name": "Abraham Accords Declaration, signed 15 September 2020 (US State Department)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN General Assembly statements by Palestinian Authority representatives, September 2020",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty texts are public; signing ceremony was televised globally.",
+      "cross_references": [
+        "1994-JORDAN_ISRAEL_PEACE",
+        "1979-EGYPT_ISRAEL_PEACE"
+      ]
+    },
+    {
+      "id": "2020-009",
+      "title": "Nagorno-Karabakh War between Armenia and Azerbaijan",
+      "region": "South Caucasus (Nagorno-Karabakh / Azerbaijan)",
+      "coordinates_approx": "39.82, 46.76",
+      "category": "military",
+      "description": "On 27 September 2020, Azerbaijan launched a major military offensive to recapture territories in and around Nagorno-Karabakh held by Armenian forces since the 1994 ceasefire. The 44-day war ended on 10 November with a Russian-brokered ceasefire. Azerbaijan recaptured most of the surrounding territories and parts of Nagorno-Karabakh itself. Turkish military support, including drone warfare, proved decisive. Approximately 6,500 people were killed. The war demonstrated the transformative impact of Turkish Bayraktar TB2 drones on modern conventional warfare.",
+      "key_figures": [
+        "Ilham Aliyev (President of Azerbaijan)",
+        "Nikol Pashinyan (Prime Minister of Armenia)",
+        "Vladimir Putin (Russian President, brokered ceasefire)",
+        "Recep Tayyip Erdoğan (Turkish President, military support to Azerbaijan)"
+      ],
+      "sources": [
+        {
+          "name": "Trilateral ceasefire statement by Russia, Armenia, and Azerbaijan, 10 November 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "International Crisis Group, 'The Nagorno-Karabakh Conflict: A Visual Explainer,' and 'Improving Prospects for Peace after the Nagorno-Karabakh War,' 2020–2021",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        },
+        {
+          "name": "Open-source intelligence analysis of drone warfare footage (Bellingcat, RUSI studies)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in real time through satellite imagery, social media, and official statements from both sides.",
+      "cross_references": [
+        "1994-KARABAKH_CEASEFIRE",
+        "2023-KARABAKH_DISSOLUTION"
+      ]
+    },
+    {
+      "id": "2020-010",
+      "title": "Tigray War begins in Ethiopia",
+      "region": "Ethiopia (Tigray region)",
+      "coordinates_approx": "13.50, 39.47",
+      "category": "military",
+      "description": "On 4 November 2020, armed conflict erupted between Ethiopian federal forces (with Eritrean and Amhara allies) and the Tigray People's Liberation Front (TPLF) after TPLF forces attacked the Northern Command of the Ethiopian National Defense Force. The Ethiopian government declared victory in late November after capturing Mekelle, but the TPLF launched a guerrilla insurgency. The war would continue until November 2022 and is estimated to have caused 300,000–500,000 deaths, mostly civilians, making it one of the deadliest conflicts of the 21st century. Communications blackouts severely hampered reporting.",
+      "key_figures": [
+        "Abiy Ahmed (Ethiopian PM, 2019 Nobel Peace laureate)",
+        "Debretsion Gebremichael (TPLF leader)",
+        "Isaias Afwerki (Eritrean President, allied with Ethiopia)"
+      ],
+      "sources": [
+        {
+          "name": "Ethiopian government statements and TPLF communiqués, November 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "UN OHCHR and Amnesty International reports on atrocities, 2021 (covering 2020 events)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Ghent University casualty estimates (Jan 2023, retrospective analysis)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conflict's outbreak is confirmed; precise casualty figures remain uncertain due to communications blackouts and restricted humanitarian access. The 300,000–500,000 death toll is from post-conflict demographic and epidemiological estimates.",
+      "cross_references": [
+        "2022-TIGRAY_CEASEFIRE"
+      ]
+    },
+    {
+      "id": "2020-011",
+      "title": "Australian bushfire season reaches catastrophic scale",
+      "region": "Australia (primarily New South Wales, Victoria, South Australia)",
+      "coordinates_approx": "-33.87, 151.21",
+      "category": "environmental",
+      "description": "The 2019–2020 Australian bushfire season, colloquially 'Black Summer,' peaked in January 2020. Fires burned an estimated 18.6 million hectares, destroyed over 5,900 buildings including 2,779 homes, and killed 34 people directly. An estimated 3 billion animals were killed or displaced — a figure described by ecologists as one of the worst wildlife disasters in modern history. The fires generated pyrocumulonimbus clouds visible from space and injected smoke into the stratosphere. The season intensified global debate on climate change and its role in extreme fire weather.",
+      "key_figures": [
+        "Scott Morrison (Australian PM, criticised for holidaying during crisis)",
+        "Shane Fitzsimmons (NSW Rural Fire Service Commissioner)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Commission into National Natural Disaster Arrangements, October 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "WWF Australia, 'Australia's 2019-2020 Bushfires: The Wildlife Toll,' interim report by Chris Dickman et al.",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "NASA Earth Observatory satellite imagery and analysis",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Satellite data, government records, and the Royal Commission report provide comprehensive documentation. Wildlife toll estimates carry acknowledged uncertainty but order of magnitude is well established.",
+      "cross_references": [
+        "2019-AUSTRALIA_FIRES_BEGIN"
+      ]
+    },
+    {
+      "id": "2020-012",
+      "title": "Assassination of Qasem Soleimani by US drone strike",
+      "region": "Iraq (Baghdad)",
+      "coordinates_approx": "33.26, 44.23",
+      "category": "military",
+      "description": "On 3 January 2020, a US drone strike near Baghdad International Airport killed Major General Qasem Soleimani, commander of Iran's Islamic Revolutionary Guard Corps Quds Force, along with Abu Mahdi al-Muhandis, deputy commander of Iraq's Popular Mobilization Forces. Ordered by President Trump, the strike brought the US and Iran to the brink of open war. Iran retaliated on 8 January with ballistic missile strikes on Al Asad Air Base in Iraq, injuring over 100 US personnel. The crisis subsequently de-escalated but fundamentally altered US-Iran dynamics.",
+      "key_figures": [
+        "Qasem Soleimani (IRGC Quds Force commander, killed)",
+        "Abu Mahdi al-Muhandis (PMF deputy commander, killed)",
+        "Donald Trump (US President, ordered strike)",
+        "Ali Khamenei (Iranian Supreme Leader)"
+      ],
+      "sources": [
+        {
+          "name": "US Department of Defense statement confirming the strike, 3 January 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Iranian government and IRGC official statements, January 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pentagon report on traumatic brain injuries from Al Asad retaliatory strike",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Confirmed by all parties involved. The strike, the identity of those killed, and the retaliatory attack are undisputed.",
+      "cross_references": []
+    },
+    {
+      "id": "2020-013",
+      "title": "Belarus presidential election and mass protests",
+      "region": "Belarus",
+      "coordinates_approx": "53.90, 27.57",
+      "category": "political",
+      "description": "President Alexander Lukashenko claimed victory in the 9 August 2020 presidential election with an implausible 80.1% of the vote. Opposition candidate Sviatlana Tsikhanouskaya, who had drawn massive rallies, rejected the result and fled to Lithuania. Hundreds of thousands of Belarusians took to the streets in the largest protests in the country's history. Security forces responded with mass arrests (over 35,000), torture of detainees, and lethal force. The protest movement, while ultimately suppressed, represented an unprecedented challenge to Lukashenko's 26-year rule and drew widespread international condemnation.",
+      "key_figures": [
+        "Alexander Lukashenko (President)",
+        "Sviatlana Tsikhanouskaya (opposition candidate)",
+        "Maria Kolesnikova (opposition leader, arrested)"
+      ],
+      "sources": [
+        {
+          "name": "OSCE/ODIHR statement on non-observation of the election (Belarus refused observers)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Viasna Human Rights Centre documentation of arrests and torture",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "BBC, Reuters, and AP contemporaneous reporting with verified protest footage",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mass protests documented by extensive video footage, satellite imagery of crowd sizes, and independent human rights monitoring. The election itself lacked credible independent observation.",
+      "cross_references": []
+    },
+    {
+      "id": "2020-014",
+      "title": "China imposes National Security Law on Hong Kong",
+      "region": "Hong Kong / China",
+      "coordinates_approx": "22.32, 114.17",
+      "category": "legal",
+      "description": "On 30 June 2020, China's National People's Congress Standing Committee imposed a sweeping National Security Law on Hong Kong, bypassing the territory's legislature. The law criminalised secession, subversion, terrorism, and collusion with foreign forces, with maximum penalties of life imprisonment. It effectively ended the 'one country, two systems' framework guaranteed until 2047 under the 1984 Sino-British Joint Declaration. The law was enacted in response to the massive 2019 pro-democracy protests and led to the arrest of dozens of pro-democracy figures, the disbanding of civil society organisations, and the closure or self-censorship of independent media outlets.",
+      "key_figures": [
+        "Xi Jinping (Chinese President)",
+        "Carrie Lam (Hong Kong Chief Executive)",
+        "Jimmy Lai (media mogul, arrested)",
+        "Joshua Wong (activist, imprisoned)"
+      ],
+      "sources": [
+        {
+          "name": "The Law of the People's Republic of China on Safeguarding National Security in the Hong Kong Special Administrative Region (full text, 30 June 2020)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Joint statement by Australia, Canada, UK, and US condemning the law, 28 May 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hong Kong Free Press and Reuters contemporaneous reporting on arrests and organisational closures",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The law's text is publicly available. Its effects are documented by legal records, media reporting, and human rights organisations.",
+      "cross_references": [
+        "2019-HONG_KONG_PROTESTS",
+        "1984-SINO_BRITISH_DECLARATION"
+      ]
+    },
+    {
+      "id": "2020-015",
+      "title": "India-China military clash in Galwan Valley",
+      "region": "Ladakh (India-China border)",
+      "coordinates_approx": "34.75, 78.18",
+      "category": "military",
+      "description": "On 15 June 2020, Indian and Chinese soldiers fought a deadly hand-to-hand clash in the Galwan Valley along the disputed Line of Actual Control in Ladakh. Twenty Indian soldiers and at least four Chinese soldiers were killed — the first fatal engagement between the two nuclear-armed nations since 1975. The clash followed months of Chinese infrastructure expansion in disputed border areas. Both sides subsequently deployed tens of thousands of additional troops to the region. The incident severely damaged Sino-Indian relations and prompted India to ban dozens of Chinese mobile applications and shift its strategic posture.",
+      "key_figures": [
+        "Narendra Modi (Indian PM)",
+        "Xi Jinping (Chinese President)",
+        "Colonel Santosh Babu (Indian commanding officer, killed)"
+      ],
+      "sources": [
+        {
+          "name": "Indian Army official statement, 16 June 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese PLA Daily acknowledgement (delayed, February 2021, confirming four Chinese deaths)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Satellite imagery analysis by Planet Labs and Maxar Technologies showing troop buildups",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Indian casualties were acknowledged immediately. China initially concealed its casualties, confirming four deaths only in February 2021; some sources suggest the figure was higher. The clash itself is undisputed.",
+      "cross_references": [
+        "1962-SINO_INDIAN_WAR"
+      ]
+    },
+    {
+      "id": "2020-016",
+      "title": "Global stock market crash and recovery",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Between 20 February and 23 March 2020, global stock markets experienced the fastest crash in history, with the S&P 500 falling 34% in 23 trading days. Central banks responded with extraordinary monetary policy: the US Federal Reserve cut rates to near zero and launched unlimited quantitative easing; the European Central Bank expanded its asset purchases by €750 billion. Markets recovered with remarkable speed, with the S&P 500 reaching new all-time highs by August. The disconnect between surging markets and severe economic contraction became a defining feature of the year and intensified debate about wealth inequality.",
+      "key_figures": [
+        "Jerome Powell (US Federal Reserve Chair)",
+        "Christine Lagarde (ECB President)",
+        "Steven Mnuchin (US Treasury Secretary)"
+      ],
+      "sources": [
+        {
+          "name": "Federal Reserve FOMC statements and emergency actions, March 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "S&P 500 and MSCI World Index historical price data",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Financial market data is recorded to the millisecond. Central bank policy decisions are publicly documented.",
+      "cross_references": [
+        "2020-002"
+      ]
+    },
+    {
+      "id": "2020-017",
+      "title": "Kobe Bryant killed in helicopter crash",
+      "region": "United States (Calabasas, California)",
+      "coordinates_approx": "34.14, -118.66",
+      "category": "cultural",
+      "description": "On 26 January 2020, basketball legend Kobe Bryant, his 13-year-old daughter Gianna, and seven others were killed when their helicopter crashed into a hillside in Calabasas, California, in foggy conditions. Bryant, who had won five NBA championships with the Los Angeles Lakers and was widely regarded as one of the greatest basketball players in history, was 41 years old. The crash triggered a global outpouring of grief and reignited debate about helicopter safety regulations. The NTSB attributed the crash to pilot spatial disorientation in degraded visual conditions.",
+      "key_figures": [
+        "Kobe Bryant (basketball legend, killed)",
+        "Gianna Bryant (daughter, killed)",
+        "Ara Zobayan (pilot, killed)"
+      ],
+      "sources": [
+        {
+          "name": "NTSB Final Report, Accident No. WPR20MA068, adopted 9 February 2021",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Los Angeles County Medical Examiner reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fully investigated by the NTSB with a detailed final report.",
+      "cross_references": []
+    },
+    {
+      "id": "2020-018",
+      "title": "First impeachment trial of President Trump concludes with acquittal",
+      "region": "United States",
+      "coordinates_approx": "38.89, -77.01",
+      "category": "political",
+      "description": "On 5 February 2020, the US Senate acquitted President Donald Trump on both articles of impeachment — abuse of power and obstruction of Congress — stemming from his efforts to pressure Ukraine into investigating political rival Joe Biden. The vote was 52–48 on abuse of power and 53–47 on obstruction, falling well short of the two-thirds majority required for removal. Republican Senator Mitt Romney became the first senator in US history to vote to convict a president of his own party. The trial crystallised partisan divisions that would define the remainder of the election year.",
+      "key_figures": [
+        "Donald Trump (President, acquitted)",
+        "Mitt Romney (Republican senator, voted to convict)",
+        "Adam Schiff (lead House impeachment manager)"
+      ],
+      "sources": [
+        {
+          "name": "US Senate roll call votes, 5 February 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "House Resolution 755 (articles of impeachment) and trial transcripts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official Congressional Record documents the proceedings and votes.",
+      "cross_references": [
+        "2019-TRUMP_IMPEACHMENT_1",
+        "2020-005"
+      ]
+    },
+    {
+      "id": "2020-019",
+      "title": "Thai pro-democracy protests challenge monarchy",
+      "region": "Thailand",
+      "coordinates_approx": "13.76, 100.50",
+      "category": "political",
+      "description": "Beginning in February and escalating from July 2020, a youth-led pro-democracy movement in Thailand issued unprecedented public demands for reform of the monarchy — breaking the country's powerful lèse-majesté taboo. Protesters demanded the resignation of Prime Minister Prayuth Chan-ocha, a new constitution, and reform of King Vajiralongkorn's powers and finances. Tens of thousands demonstrated in Bangkok and other cities. The movement was notable for its use of social media, its ties to similar movements in Hong Kong and Taiwan ('Milk Tea Alliance'), and for openly challenging an institution previously considered untouchable.",
+      "key_figures": [
+        "Prayuth Chan-ocha (Prime Minister)",
+        "Panusaya Sithijirawattanakul (student activist who read monarchy reform demands)",
+        "Parit Chiwarak (protest leader)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporaneous reporting by Reuters, Bangkok Post, and Prachatai",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "10-point monarchy reform demands read at Thammasat University, 10 August 2020",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by Thai and international media, protest organisers' public statements, and social media records.",
+      "cross_references": [
+        "2014-THAI_COUP"
+      ]
+    },
+    {
+      "id": "2020-020",
+      "title": "Claimed near-room-temperature superconductivity under extreme pressure",
+      "region": "United States (University of Rochester)",
+      "coordinates_approx": "43.13, -77.63",
+      "category": "scientific",
+      "description": "In October 2020, a team led by Ranga Dias at the University of Rochester published a paper in Nature reporting superconductivity in a carbonaceous sulfur hydride at approximately 15°C (288 K), though at extreme pressure of 267 GPa. If valid, this represented the first near-room-temperature superconductor. The result was initially hailed as a major milestone in condensed matter physics, though the paper and subsequent work by Dias would later come under intense scrutiny for data integrity concerns.",
+      "key_figures": [
+        "Ranga Dias (lead researcher)"
+      ],
+      "sources": [
+        {
+          "name": "Snider et al., 'Room-temperature superconductivity in a carbonaceous sulfur hydride,' Nature 586, 373–377 (2020)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Published in a top peer-reviewed journal. However, the paper was later retracted by Nature in 2022 due to data-processing concerns, and Dias's subsequent work faced misconduct investigations. The underlying claim is now widely disputed. Listed here as it was a major event of 2020 as reported; the controversy is addressed in disconfirming evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "2020-021",
+      "title": "SpaceX Crew Dragon — first commercial crewed spaceflight",
+      "region": "United States (Kennedy Space Center, Florida)",
+      "coordinates_approx": "28.57, -80.65",
+      "category": "technological",
+      "description": "On 30 May 2020, SpaceX's Crew Dragon spacecraft launched NASA astronauts Doug Hurley and Bob Behnken to the International Space Station — the first crewed orbital spaceflight from US soil since the Space Shuttle retired in 2011, and the first time a commercial company carried humans to orbit. The Demo-2 mission validated NASA's Commercial Crew Program model of contracting private companies for routine crew transport. It marked a new era in human spaceflight, with SpaceX subsequently conducting regular operational crew rotations.",
+      "key_figures": [
+        "Elon Musk (SpaceX CEO)",
+        "Doug Hurley (NASA astronaut)",
+        "Bob Behnken (NASA astronaut)",
+        "Jim Bridenstine (NASA Administrator)"
+      ],
+      "sources": [
+        {
+          "name": "NASA press releases and mission documentation for SpaceX Demo-2",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Live broadcast footage (NASA TV / SpaceX)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Broadcast live; fully documented by NASA and SpaceX.",
+      "cross_references": [
+        "2011-SHUTTLE_RETIREMENT"
+      ]
+    },
+    {
+      "id": "2020-022",
+      "title": "Mars missions launched: Perseverance, Tianwen-1, and Hope",
+      "region": "Global (USA, China, UAE)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "Taking advantage of the July 2020 Mars transfer window, three nations launched Mars missions within eleven days: NASA's Perseverance rover (30 July), China's Tianwen-1 orbiter-lander-rover combination (23 July), and the UAE's Hope orbiter (19 July). Perseverance, carrying the Ingenuity helicopter, was tasked with searching for ancient microbial life and caching samples for future return. Tianwen-1 made China only the second nation to successfully operate a rover on Mars. Hope made the UAE the first Arab nation to reach Mars orbit. All three arrived successfully in February 2021.",
+      "key_figures": [
+        "Thomas Zurbuchen (NASA Associate Administrator for Science)"
+      ],
+      "sources": [
+        {
+          "name": "NASA JPL mission documentation for Mars 2020/Perseverance",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "CNSA press releases on Tianwen-1",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mohammed bin Rashid Space Centre documentation on Emirates Mars Mission",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "All three launches were tracked by global space surveillance networks. Successful Mars arrivals confirmed in February 2021.",
+      "cross_references": [
+        "2021-MARS_ARRIVALS"
+      ]
+    },
+    {
+      "id": "2020-023",
+      "title": "Shinzo Abe resigns as Japan's longest-serving Prime Minister",
+      "region": "Japan",
+      "coordinates_approx": "35.68, 139.75",
+      "category": "political",
+      "description": "On 28 August 2020, Prime Minister Shinzo Abe announced his resignation due to a recurrence of ulcerative colitis, ending the longest consecutive premiership in Japanese history (7 years, 8 months). Abe had pursued an ambitious programme — 'Abenomics' in economics, reinterpretation of the pacifist constitution's Article 9, and a more assertive foreign policy. He was succeeded by Yoshihide Suga on 16 September. Abe's legacy remained contested between those who credited him with revitalising Japan's international posture and critics of his nationalist historical revisionism and economic record.",
+      "key_figures": [
+        "Shinzo Abe (Prime Minister)",
+        "Yoshihide Suga (successor)"
+      ],
+      "sources": [
+        {
+          "name": "Prime Minister's office press conference, 28 August 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "NHK and Kyodo News Agency contemporaneous reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Publicly announced and documented through official government records.",
+      "cross_references": [
+        "2022-ABE_ASSASSINATION"
+      ]
+    },
+    {
+      "id": "2020-024",
+      "title": "CRISPR pioneers awarded Nobel Prize in Chemistry",
+      "region": "Sweden (award); research in USA, France, Sweden",
+      "coordinates_approx": "59.33, 18.07",
+      "category": "scientific",
+      "description": "On 7 October 2020, the Nobel Prize in Chemistry was awarded to Emmanuelle Charpentier and Jennifer Doudna for developing the CRISPR-Cas9 gene editing tool. It was the first time two women shared a science Nobel without a male co-laureate. CRISPR-Cas9 had since 2012 revolutionised molecular biology by enabling precise, cheap, and relatively easy editing of DNA in living organisms, with applications spanning agriculture, medicine, and fundamental research. The award was notable for the speed of recognition — just eight years after the key publication.",
+      "key_figures": [
+        "Jennifer Doudna (UC Berkeley)",
+        "Emmanuelle Charpentier (Max Planck Unit for the Science of Pathogens)"
+      ],
+      "sources": [
+        {
+          "name": "Nobel Prize Committee announcement and scientific background document, 7 October 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jinek et al., 'A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity,' Science 337 (2012) — the foundational paper",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nobel Prize announcements are public record.",
+      "cross_references": [
+        "2012-CRISPR_PAPER"
+      ]
+    },
+    {
+      "id": "2020-025",
+      "title": "DeepMind's AlphaFold solves protein structure prediction",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.53, -0.13",
+      "category": "scientific",
+      "description": "In November 2020, DeepMind announced that its AlphaFold2 system had achieved a median GDT score of 92.4 in the 14th Critical Assessment of protein Structure Prediction (CASP14) competition — effectively solving the 50-year-old protein folding problem to experimental accuracy for most targets. This was widely regarded as one of the most significant scientific breakthroughs enabled by artificial intelligence. The system would later be used to predict structures for nearly all known proteins, transforming structural biology, drug discovery, and biochemistry.",
+      "key_figures": [
+        "Demis Hassabis (DeepMind co-founder and CEO)",
+        "John Jumper (AlphaFold2 lead researcher)"
+      ],
+      "sources": [
+        {
+          "name": "CASP14 organisers' results, November 2020",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jumper et al., 'Highly accurate protein structure prediction with AlphaFold,' Nature 596 (2021) — peer-reviewed publication of CASP14 results",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "DeepMind press release, 30 November 2020",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "CASP14 results were independently evaluated by competition organisers. Subsequent peer review and widespread adoption confirmed the breakthrough.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Several events listed above have contested or complicated aspects that must be noted:\n\n1. **COVID-19 origins (2020-001):** The precise origin of SARS-CoV-2 remained intensely debated as of the mid-2020s. While the initial scientific consensus favoured zoonotic spillover at the Huanan Seafood Market, the laboratory leak hypothesis (from the Wuhan Institute of Virology) gained mainstream scientific consideration. A 2023 US Department of Energy assessment and FBI assessment both favoured the lab leak theory, though with low confidence. The WHO-China joint study (March 2021) was widely criticised as insufficiently independent. No definitive evidence has resolved the question.\n\n2. **BLM protest scale (2020-004):** The widely cited figure of 15–26 million participants comes from polling data extrapolation (Civis Analytics / New York Times), not direct crowd counts. Some methodologists have questioned the upper bound. The number of distinct protests (approximately 7,750 according to ACLED) is better attested than total participation.\n\n3. **Soleimani strike legality (2020-012):** The US claimed the strike was justified under Article II powers and the 2002 AUMF. UN Special Rapporteur Agnès Callamard concluded the killing was unlawful under international law (July 2020 report). The legal basis remains disputed among international law scholars.\n\n4. **Galwan Valley Chinese casualties (2020-015):** India claimed Chinese casualties were significantly higher than four. Some Western intelligence estimates suggested 20–40 Chinese deaths. China's official acknowledgement of only four deaths (released months later) is not universally accepted.\n\n5. **Room-temperature superconductor claim (2020-020):** The Dias et al. Nature paper was retracted in September 2022 by the journal's editors over concerns about data processing. Dias has faced subsequent misconduct findings from the University of Rochester. The near-room-temperature superconductivity claim at these extreme pressures is now widely doubted.\n\n6. **Abraham Accords significance (2020-008):** While presented as breakthrough peace agreements, critics note that Israel was not in a state of war or significant conflict with the UAE or Bahrain, making 'normalisation' more accurate than 'peace.' Palestinian analysts and some scholars argue the accords' significance was inflated for domestic political purposes by all signatories.",
+  "historiographic_note": "The year 2020 is among the most exhaustively documented in human history. Nearly every significant event was recorded in real time by multiple independent sources — professional media, government records, scientific publications, satellite imagery, social media, and personal devices. The primary historiographic challenge is not scarcity but overabundance: the sheer volume of information makes curation and significance-ranking subjective. Key biases include: (1) English-language media dominance in global coverage, underrepresenting events in sub-Saharan Africa, Central Asia, and parts of Southeast Asia; (2) COVID-19 consuming disproportionate attention, causing other significant events (notably the Tigray War) to receive less coverage than their scale warranted; (3) social media amplification distorting perceived significance of some events while burying others; (4) government information control in China, Russia, and other authoritarian states limiting independent verification of domestic events. The pandemic itself created documentation gaps — lockdowns restricted journalistic access, and overwhelmed health systems in many countries produced unreliable mortality data.",
+  "graph_edges": [
+    {
+      "from": "2020-001",
+      "to": "2020-002",
+      "relation": "caused_by",
+      "note": "The pandemic directly caused global lockdowns and economic shutdown"
+    },
+    {
+      "from": "2020-001",
+      "to": "2020-003",
+      "relation": "led_to",
+      "note": "The pandemic drove unprecedented vaccine development efforts"
+    },
+    {
+      "from": "2020-002",
+      "to": "2020-016",
+      "relation": "caused_by",
+      "note": "Economic shutdowns triggered the stock market crash; stimulus drove the recovery"
+    },
+    {
+      "from": "2020-005",
+      "to": "2021-JAN6_CAPITOL",
+      "relation": "led_to",
+      "note": "Trump's refusal to accept the 2020 election result led directly to the January 6 Capitol attack"
+    },
+    {
+      "from": "2020-012",
+      "to": "2020-001",
+      "relation": "contemporary_with",
+      "note": "The Soleimani assassination occurred just weeks before COVID dominated global attention"
+    },
+    {
+      "from": "2020-008",
+      "to": "1979-EGYPT_ISRAEL_PEACE",
+      "relation": "part_of",
+      "note": "Abraham Accords are part of the broader arc of Arab-Israeli normalisation beginning with Egypt in 1979"
+    },
+    {
+      "from": "2020-014",
+      "to": "2019-HONG_KONG_PROTESTS",
+      "relation": "caused_by",
+      "note": "The National Security Law was a direct response to the 2019 Hong Kong protests"
+    },
+    {
+      "from": "2020-010",
+      "to": "2022-TIGRAY_CEASEFIRE",
+      "relation": "led_to",
+      "note": "The Tigray War that began in November 2020 continued until the Pretoria ceasefire in November 2022"
+    },
+    {
+      "from": "2020-009",
+      "to": "2023-KARABAKH_DISSOLUTION",
+      "relation": "led_to",
+      "note": "Azerbaijan's 2020 military victory set the stage for its 2023 recapture of the remaining Karabakh territory"
+    },
+    {
+      "from": "2020-006",
+      "to": "2016-BREXIT_REFERENDUM",
+      "relation": "caused_by",
+      "note": "The UK's formal EU departure was the culmination of the 2016 referendum result"
+    },
+    {
+      "from": "2020-004",
+      "to": "2021-CHAUVIN_TRIAL",
+      "relation": "led_to",
+      "note": "George Floyd's killing led to Derek Chauvin's trial and conviction in 2021"
+    },
+    {
+      "from": "2020-018",
+      "to": "2020-005",
+      "relation": "part_of",
+      "note": "Trump's impeachment and acquittal were part of the political dynamics leading into the 2020 election"
+    },
+    {
+      "from": "2020-021",
+      "to": "2011-SHUTTLE_RETIREMENT",
+      "relation": "caused_by",
+      "note": "The Commercial Crew Program was developed after the Shuttle's retirement left the US without independent crew launch capability"
+    },
+    {
+      "from": "2020-025",
+      "to": "2024-NOBEL_HASSABIS",
+      "relation": "led_to",
+      "note": "AlphaFold2's CASP14 success led to Hassabis and Jumper receiving the 2024 Nobel Prize in Chemistry"
+    },
+    {
+      "from": "2020-011",
+      "to": "2019-AUSTRALIA_FIRES_BEGIN",
+      "relation": "part_of",
+      "note": "The January 2020 peak was part of the 2019–2020 Black Summer fire season"
+    }
+  ]
+}
