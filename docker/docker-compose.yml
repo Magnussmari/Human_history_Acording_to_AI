@@ -1,0 +1,25 @@
+services:
+  human-history-daemon:
+    build:
+      context: .
+    container_name: human_history_daemon
+    restart: unless-stopped
+    volumes:
+      - ../:/workspace:z
+      - ~/.claude:/home/historian/.claude:z
+    environment:
+      - PARALLEL_AGENTS=5
+      - CYCLE_INTERVAL_SECONDS=1200
+      - START_YEAR=2025
+      - END_YEAR=-3200
+      - MAX_RETRIES=3
+      - HOME=/home/historian
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "5"
+    deploy:
+      resources:
+        limits:
+          memory: 16G

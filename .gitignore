@@ -1,0 +1,11 @@
+# Secrets and auth
+docker/.env
+.claude/
+*.lock
+
+# Temp files
+*.tmp
+state/lock/
+
+# Docker build cache
+docker/.docker/
