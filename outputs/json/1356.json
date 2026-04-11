@@ -1,62 +1,30 @@
 {
   "year": 1356,
   "year_label": "1356 CE",
-  "era_context": "The mid-14th century saw the Hundred Years' War in its third decade, with major English victories. The Ottoman Empire was expanding in Anatolia and the Balkans. The Yuan Dynasty was in its final years in China. European societies were still recovering from the Black Death (1348\u20131353). The Papacy remained in Avignon.",
+  "era_context": "The mid-14th century was marked by the Black Death's lingering demographic crisis across Eurasia, the fragmentation of the Mongol Empire into competing khanates, the rise of the Ottoman Empire in Anatolia, the Hundred Years' War between England and France, the early Ming consolidation in China following Zhu Yuanzhang's campaigns, and the flourishing of Italian city-states and early Renaissance culture. In Europe, feudalism was under strain; in Asia, gunpowder technology was becoming militarily decisive.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Interior Americas",
-    "Central Asia and the Steppe",
-    "Southeast Asia"
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically recorded)",
+    "Mesoamerica and South America (Aztec and Inca sources are post-conquest compilations)",
+    "Central Asian steppes (sparse contemporary documentation)"
   ],
   "events": [
     {
       "id": "1356-001",
-      "title": "Zhu Yuanzhang captures Nanjing",
-      "region": "China, Jiangsu Province",
-      "coordinates_approx": "32.0603, 118.7969",
+      "title": "Battle of Poitiers aftermath and English consolidation in Aquitaine",
+      "region": "Aquitaine, southwestern France",
+      "coordinates_approx": "45.5, 0.5",
       "category": "military",
-      "description": "In 1356, Zhu Yuanzhang captured Nanjing (then called Jiqing), a major city on the Yangtze River. This victory was a turning point in his rise to power. Nanjing became the capital of his growing southern Chinese state and served as the base for his subsequent campaigns against the Yuan Dynasty and rival warlords. The capture of Nanjing demonstrated Zhu Yuanzhang's military capability and administrative vision. He would later make Nanjing the capital of the Ming Dynasty (1368\u20131644).",
+      "description": "Following the English victory at Poitiers in 1356, Edward III and his son the Black Prince consolidated English territorial gains in southwestern France. The Treaty of Br\u00e9tigny (1360) would formalize these conquests, but 1356 marks the peak of English military dominance in the Hundred Years' War. The victory had shattered French feudal cavalry tactics and demonstrated the superiority of English longbowmen and dismounted men-at-arms. This period saw the English occupation and administration of vast French territories, fundamentally altering the balance of power in western Europe.",
       "key_figures": [
-        "Zhu Yuanzhang (future Hongwu Emperor)",
-        "Xu Da (military general)",
-        "Liu Bowen (strategist)"
+        "Edward III (King of England)",
+        "Edward, the Black Prince (English commander)",
+        "King John II of France (captured at Poitiers)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Official Ming Records)",
+          "name": "Froissart, Chronicles (Chroniques)",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Yuan court records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The capture of Nanjing in 1356 is well-documented in both Ming and Yuan sources. The date is secure.",
-      "cross_references": [
-        "1357-002 (Capture of Changsha)",
-        "1368-001 (Establishment of Ming Dynasty)"
-      ]
-    },
-    {
-      "id": "1356-002",
-      "title": "Battle of Poitiers and English victory in the Hundred Years' War",
-      "region": "France, Poitiers",
-      "coordinates_approx": "46.5847, 0.3404",
-      "category": "military",
-      "description": "On September 19, 1356, English forces under Edward of Woodstock (the Black Prince) defeated a much larger French army at the Battle of Poitiers. The English victory was decisive and resulted in the capture of King John II of France. The battle demonstrated the effectiveness of English longbowmen and tactics against French feudal cavalry. The capture of the French king was a major diplomatic and military victory for England and led to the ransom negotiations that would eventually result in the Treaty of Br\u00e9tigny (1360). The battle was one of the most significant English victories of the Hundred Years' War.",
-      "key_figures": [
-        "Edward of Woodstock, the Black Prince (English military commander)",
-        "John II (King of France, captured)",
-        "Jean de Clermont (French commander, killed)"
-      ],
-      "sources": [
-        {
-          "name": "Froissart, Chronicles",
-          "type": "later_compilation",
           "contemporary": false
         },
         {
@@ -65,142 +33,230 @@
           "contemporary": true
         },
         {
+          "name": "English royal records and letters patent",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle itself occurred in September 1356; the consolidation and administrative measures are well-documented in contemporary chronicles and royal records.",
+      "cross_references": [
+        "Follows from 1356-002 (Battle of Poitiers itself)",
+        "Led to 1360-001 (Treaty of Br\u00e9tigny)"
+      ]
+    },
+    {
+      "id": "1356-002",
+      "title": "Battle of Poitiers",
+      "region": "Poitiers, France",
+      "coordinates_approx": "46.58, 0.34",
+      "category": "military",
+      "description": "On 19 September 1356, English forces under Edward, the Black Prince, defeated a much larger French army commanded by King John II near Poitiers. The English employed dismounted men-at-arms and massed longbowmen in a defensive position, devastating French cavalry charges. King John II was captured, along with numerous French nobles. This victory was a turning point in the Hundred Years' War, demonstrating the obsolescence of feudal cavalry tactics and the effectiveness of combined-arms tactics using missile weapons. The French crown faced a ransom crisis and internal political instability.",
+      "key_figures": [
+        "Edward, the Black Prince (English commander)",
+        "King John II of France (captured)",
+        "Jean de Boucicaut (French marshal)",
+        "Bertrand du Guesclin (French commander, escaped)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jean de Venette, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Grandes Chroniques de France",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
           "name": "English royal records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Poitiers is one of the most well-documented events of the 14th century, with contemporary accounts from multiple sources. The date (September 19, 1356) is secure.",
+      "certainty_note": "The date (19 September 1356) is well-established in contemporary and near-contemporary sources. The outcome and key participants are unambiguous.",
       "cross_references": [
-        "1356-003 (Aftermath of Poitiers)",
-        "1360-001 (Treaty of Br\u00e9tigny)"
+        "Part of the Hundred Years' War (1337\u20131453)",
+        "Led to 1356-001 (consolidation in Aquitaine)",
+        "Led to 1360-001 (Treaty of Br\u00e9tigny)"
       ]
     },
     {
       "id": "1356-003",
-      "title": "Aftermath of Poitiers: French political crisis and ransom negotiations",
-      "region": "France",
-      "coordinates_approx": "48.8566, 2.3522",
+      "title": "Zhu Yuanzhang's capture of Nanjing and establishment of Ming power base",
+      "region": "Nanjing (Jiangnan region), China",
+      "coordinates_approx": "32.06, 118.80",
       "category": "political",
-      "description": "Following the English victory at Poitiers and the capture of King John II, France entered a period of political crisis. The Dauphin Charles (later Charles V) assumed regency in France while his father was held for ransom. The ransom negotiations were complex and protracted, involving both diplomatic and military considerations. The French nobility was divided over how to respond to the English victory. The period 1356\u20131360 saw France attempting to recover from the military disaster while negotiating the terms of the king's release.",
+      "description": "In 1356, Zhu Yuanzhang, a former Buddhist monk and rebel leader, captured the city of Nanjing from the Yuan Dynasty. This conquest marked a crucial turning point in the Ming Dynasty's rise to power. Nanjing became Zhu's capital and the administrative center for his expanding southern Chinese domain. The city's strategic location on the Yangtze River and its economic importance made it an ideal base for consolidating power and eventually launching the campaign that would overthrow the Yuan Dynasty entirely (completed in 1368). This event demonstrated Zhu's military acumen and organizational ability.",
       "key_figures": [
-        "John II (King of France, held for ransom)",
-        "Charles (Dauphin, later Charles V)",
-        "Edward III (King of England)"
+        "Zhu Yuanzhang (future Hongwu Emperor)",
+        "Chen Youliang (rival warlord, defeated)",
+        "Yuan Dynasty officials (displaced)"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "French royal records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Archaeological evidence from Nanjing",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The political crisis in France following Poitiers is well-documented in French and English records.",
+      "certainty_note": "The capture of Nanjing in 1356 is well-documented in Ming official records and Yuan sources. The date is secure.",
       "cross_references": [
-        "1356-002 (Battle of Poitiers)",
-        "1360-001 (Treaty of Br\u00e9tigny)"
+        "Part of the Yuan-Ming transition (1350\u20131368)",
+        "Led to 1368-001 (establishment of Ming Dynasty)"
       ]
     },
     {
       "id": "1356-004",
-      "title": "Ottoman expansion and the death of Stefan Du\u0161an",
-      "region": "Ottoman Empire, Balkans, Serbia",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "political",
-      "description": "In 1355, Stefan Du\u0161an, the powerful Serbian emperor, died, fragmenting Serbian power in the Balkans. By 1356, the Ottoman Empire was taking advantage of this fragmentation to expand its territorial holdings in Thrace and the Balkans. The death of Stefan Du\u0161an removed a major obstacle to Ottoman expansion and allowed the Ottomans to consolidate their position as a major Balkan power. This period marked the beginning of Ottoman dominance in the region.",
+      "title": "Ottoman expansion under Murad I; consolidation of Balkan territories",
+      "region": "Balkans and Anatolia (Ottoman Empire)",
+      "coordinates_approx": "41.0, 28.0",
+      "category": "military",
+      "description": "During 1356, the Ottoman Empire under Murad I (r. 1362\u20131389, though he was active in military campaigns from the 1350s) continued its rapid expansion in the Balkans and Anatolia. Ottoman forces captured several key fortifications and expanded their territorial control, particularly in Thrace and Macedonia. This period marked the transition of the Ottomans from a regional Anatolian beylik (principality) into a major imperial power that would eventually dominate the eastern Mediterranean and Balkans. The Ottoman military system, based on the devshirme (slave-soldier) system and gunpowder artillery, proved highly effective against fragmented Balkan and Byzantine forces.",
       "key_figures": [
-        "Murad I (Ottoman military leader)",
-        "Orhan I (Ottoman Sultan)",
-        "Stefan Du\u0161an (Serbian emperor, died 1355)"
+        "Murad I (Ottoman Sultan, though succession was formalized in 1362)",
+        "Orhan Gazi (Ottoman Sultan, r. 1323\u20131362)",
+        "Byzantine and Balkan rulers (opponents)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade)",
+          "name": "Ottoman chronicles (Ne\u015fri, A\u015f\u0131kpa\u015fazade)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Byzantine sources (Kantakouzenos, Doukas)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Serbian sources",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Balkan regional sources",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The connection between Stefan Du\u0161an's death (1355) and Ottoman expansion (1356 onwards) is attested in Byzantine and later Ottoman sources, but the precise dating of Ottoman campaigns in 1356 is uncertain.",
+      "certainty_note": "Ottoman expansion in the 1350s is attested in later Ottoman chronicles and Byzantine sources, but precise dating of individual campaigns is uncertain. The general trajectory is clear; specific events in 1356 are less precisely documented.",
       "cross_references": [
-        "1355-002 (Death of Stefan Du\u0161an)",
-        "1362-001 (Murad I's formal accession)"
+        "Part of Ottoman rise to power (1299\u20131453)",
+        "Led to 1389-001 (Battle of Kosovo)"
       ]
     },
     {
       "id": "1356-005",
-      "title": "Innocent VI's papacy and ecclesiastical authority",
-      "region": "Papal States, Avignon",
-      "coordinates_approx": "43.9506, 4.8066",
+      "title": "Clement VI's death and Urban V's election as Pope",
+      "region": "Avignon, Papal States",
+      "coordinates_approx": "43.95, 4.81",
       "category": "religious",
-      "description": "Pope Innocent VI (r. 1352\u20131362) continued his efforts to strengthen papal authority and address ecclesiastical corruption in 1356. The papacy was facing increasing pressure from secular rulers and from reformers to address the abuses of the Avignon papacy. Innocent VI's papacy was marked by attempts to reduce nepotism and to assert papal independence from secular influence. The period 1356\u20131362 saw the papacy grappling with fundamental questions about its role in a changing Europe.",
+      "description": "Pope Clement VI died on 6 December 1352, and Urban V (Grimoard) was elected as his successor in 1362. However, the period 1356 falls during the papacy of Innocent VI (r. 1352\u20131362), who was elected after Clement VI's death. Innocent VI's papacy was marked by efforts to reform the Church, combat simony, and reassert papal authority. He attempted to recover papal territories in Italy and dealt with the aftermath of the Black Death's impact on Church institutions. The Avignon Papacy continued during this period, with the papal court remaining in southern France rather than Rome.",
       "key_figures": [
-        "Innocent VI (Pope)"
+        "Innocent VI (Pope, r. 1352\u20131362)",
+        "Cardinal Albornoz (papal legate in Italy)"
       ],
       "sources": [
         {
-          "name": "Papal registers",
+          "name": "Papal registers and bulls",
           "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary chronicles (Petrarch, etc.)",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Innocent VI's papacy is well-documented in papal records.",
+      "certainty_note": "Papal succession dates are precisely documented in Vatican archives and contemporary sources.",
       "cross_references": [
-        "1352-001 (Innocent VI's accession)",
-        "1362-002 (Urban V's accession)"
+        "Part of the Avignon Papacy (1309\u20131377)",
+        "Led to 1362-001 (Urban V's election)"
+      ]
+    },
+    {
+      "id": "1356-006",
+      "title": "Golden Bull of Emperor Charles IV issued",
+      "region": "Holy Roman Empire (issued in Prague)",
+      "coordinates_approx": "50.08, 14.44",
+      "category": "legal",
+      "description": "Emperor Charles IV issued the Golden Bull (Bulla Aurea) in 1356, one of the most important constitutional documents of the Holy Roman Empire. The Golden Bull established the formal structure of the Empire, defining the roles of the seven Prince-Electors (three archbishops and four secular princes) who would elect the Emperor. It also granted significant autonomy to the German princes and established Prague as the imperial capital. The document remained the constitutional foundation of the Holy Roman Empire until its dissolution in 1806. The Golden Bull represented a shift toward a more federal structure and away from centralized imperial authority.",
+      "key_figures": [
+        "Charles IV (Holy Roman Emperor, r. 1346\u20131378)",
+        "The seven Prince-Electors"
+      ],
+      "sources": [
+        {
+          "name": "The Golden Bull itself (original text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary imperial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later imperial chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Golden Bull was issued on 10 January 1356 in Prague. The date and text are precisely documented.",
+      "cross_references": [
+        "Part of Charles IV's reign (1346\u20131378)",
+        "Foundational for Holy Roman Empire structure until 1806"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Poitiers is often presented as a decisive turning point in the Hundred Years' War, but modern scholarship emphasizes that the battle did not end the war and that English military superiority was not as complete as popular accounts suggest. The French were defeated partly due to tactical errors and partly due to the effectiveness of English longbowmen, but the underlying military balance remained contested. Additionally, the capture of King John II, while diplomatically significant, did not lead to a quick resolution of the war. The ransom negotiations were protracted and complex, and the treaty that eventually resulted (Br\u00e9tigny, 1360) was never fully implemented. The significance of the battle has been somewhat inflated by later historians and popular accounts.",
-  "historiographic_note": "The documentation for 1356 is heavily weighted toward Western Europe, particularly France and England, due to the survival of royal and ecclesiastical records. The Battle of Poitiers is one of the most well-documented events of the 14th century, with multiple contemporary and near-contemporary accounts. Chinese sources are abundant but often compiled retrospectively. Ottoman sources are later compilations with uncertain dating. The perspectives of ordinary soldiers and civilians are largely absent from the historical record. The surviving sources reflect the interests and biases of the literate elite: nobles, clergy, and court officials.",
+  "disconfirming_evidence": "The significance of the Battle of Poitiers has been somewhat revised by modern scholarship. While traditionally portrayed as a decisive turning point demonstrating English military superiority, some historians argue that the French military system was not as obsolete as once believed, and that French recovery was relatively rapid. The battle's long-term strategic impact on the Hundred Years' War is debated\u2014some scholars emphasize that English gains were ultimately temporary and that French military adaptation occurred faster than once thought. Additionally, the capture of King John II, while dramatic, did not immediately resolve the war or prevent French resistance. The Golden Bull of 1356 is sometimes overstated in its immediate impact; the decentralization it formalized was already underway, and the document was more a codification of existing practice than a revolutionary change.",
+  "historiographic_note": "The year 1356 is well-documented for Western Europe, particularly England and France, due to the prominence of the Hundred Years' War and the survival of royal records, chronicles (especially Froissart), and administrative documents. Chinese sources are also rich for this period, with Ming official records providing detailed accounts of Zhu Yuanzhang's campaigns. However, Ottoman sources for this period are primarily later compilations (15th\u201316th century), making precise dating of individual campaigns uncertain. Sub-Saharan African, Mesoamerican, and Central Asian events are poorly documented in surviving sources. The historical record is heavily weighted toward political and military events involving major powers; economic, social, and cultural developments are less systematically recorded. Bias toward elite narratives (court chronicles, royal records) means that popular movements, peasant life, and non-elite perspectives are underrepresented.",
   "graph_edges": [
     {
-      "from": "1356-001",
-      "to": "1368-001",
-      "relation": "led_to",
-      "note": "Zhu Yuanzhang's capture of Nanjing in 1356 was a major step toward the establishment of the Ming Dynasty in 1368"
-    },
-    {
       "from": "1356-002",
-      "to": "1356-003",
+      "to": "1356-001",
       "relation": "led_to",
-      "note": "The Battle of Poitiers in 1356 led directly to the political crisis and ransom negotiations in France"
+      "note": "Battle of Poitiers victory enabled English consolidation in Aquitaine"
     },
     {
       "from": "1356-002",
       "to": "1360-001",
       "relation": "led_to",
-      "note": "The Battle of Poitiers and the capture of King John II led to the Treaty of Br\u00e9tigny in 1360"
+      "note": "Poitiers victory led to Treaty of Br\u00e9tigny negotiations"
     },
     {
-      "from": "1356-004",
-      "to": "1362-001",
+      "from": "1356-003",
+      "to": "1368-001",
       "relation": "led_to",
-      "note": "Ottoman expansion following Stefan Du\u0161an's death continued under Murad I's formal accession in 1362"
+      "note": "Capture of Nanjing was crucial step toward Ming Dynasty establishment"
+    },
+    {
+      "from": "1356-006",
+      "to": "1806-001",
+      "relation": "led_to",
+      "note": "Golden Bull established constitutional framework lasting until Holy Roman Empire's dissolution"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:32:26.382125",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

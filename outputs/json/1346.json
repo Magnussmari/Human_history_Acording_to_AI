@@ -1,217 +1,224 @@
 {
   "year": 1346,
   "year_label": "1346 CE",
-  "era_context": "The mid-14th century, a period of significant military and political conflict in Europe and Asia. The Hundred Years' War between England and France was in its early phase. The Yuan Dynasty in China was experiencing internal instability. The Islamic world was politically fragmented. This year is marked by the Battle of Cr\u00e9cy, one of the most famous medieval battles, and the beginning of the end of feudal cavalry dominance in European warfare.",
-  "documentation_level": "moderate",
+  "era_context": "The mid-14th century was marked by the early stages of the Black Death pandemic spreading from Central Asia into Europe and the Mediterranean, the height of the Hundred Years' War between England and France, the consolidation of the Ottoman Empire in Anatolia, and the flourishing of the Yuan Dynasty in China under Toghon Tem\u00fcr (though facing internal instability). This was a pivotal moment of demographic catastrophe, military transformation, and political realignment across Eurasia.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa: virtually no contemporary written records",
-    "Southeast Asia: limited documentation",
-    "Oceania: no written records",
-    "Central Asia: sparse sources"
+    "Sub-Saharan Africa (limited contemporary written sources; oral traditions not systematically recorded)",
+    "Interior Americas (no written records; archaeological evidence sparse for this specific year)",
+    "Northern Europe beyond Scandinavia (sparse documentation)"
   ],
   "events": [
     {
       "id": "1346-001",
-      "title": "Battle of Cr\u00e9cy (August 1346)",
-      "region": "Northern France (Cr\u00e9cy region)",
-      "coordinates_approx": "50.2, 2.0",
-      "category": "military",
-      "description": "The Battle of Cr\u00e9cy (August 26, 1346) was a major English victory over French forces during the Hundred Years' War. English forces under Edward III, numbering perhaps 10,000\u201312,000, defeated a much larger French army under Philip VI, estimated at 30,000\u201340,000. The English victory was achieved through the effective use of longbowmen and disciplined infantry tactics, which devastated the French cavalry charges. The battle marked a significant shift in medieval warfare, demonstrating the decline of feudal cavalry dominance and the rise of missile weapons and infantry tactics. The English victory was a major turning point in the Hundred Years' War and established English military superiority for decades.",
+      "title": "Black Death reaches Crimea and Mediterranean ports",
+      "region": "Crimea, Mediterranean Basin",
+      "coordinates_approx": "44.5, 34.3",
+      "category": "demographic",
+      "description": "Plague-infected Genoese traders fleeing the Mongol siege of Caffa (Feodosia) in Crimea carry Yersinia pestis westward. The disease reaches Messina, Sicily in October 1346, marking the documented entry of the Black Death into Europe. This pandemic, originating in Central Asian rodent populations and spread via trade routes, will kill an estimated 75\u2013200 million people across Eurasia over the next decade. The immediate impact in Sicily and southern Italy is catastrophic mortality, economic disruption, and social panic.",
       "key_figures": [
-        "Edward III of England (commander)",
-        "Philip VI of France (commander)",
-        "Edward, the Black Prince (Edward III's son, participant)",
-        "English and French nobility"
+        "Toqtamish (Golden Horde khan, indirectly involved via siege)",
+        "Genoese merchants and ship captains"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles",
-          "type": "later_compilation",
+          "name": "Gabriele de Mussis, Istoria de morbo (written c. 1348\u20131350, near-contemporary account of plague arrival)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "English royal records and chronicles",
+          "name": "Genoese merchant records and notarial documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "French royal records and chronicles",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Modern military historical consensus",
-          "type": "historiographic_consensus",
+          "name": "Archaeological and paleogenomic evidence from mass graves in Sicily and southern Italy",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Cr\u00e9cy is one of the most securely dated and well-documented medieval battles. The date (August 26, 1346), location, and general outcome are confirmed by multiple contemporary and near-contemporary sources.",
+      "certainty_note": "Multiple near-contemporary sources (Mussis, merchant records) and modern paleogenomic confirmation of Yersinia pestis in 14th-century remains establish October 1346 as the documented arrival date in Europe.",
       "cross_references": [
-        "1347-002 (Aftermath and Siege of Calais)",
-        "1340-001 (Earlier Hundred Years' War)"
+        "1347-001 (plague spreads to mainland Europe)",
+        "1348-001 (plague reaches central Europe)"
       ]
     },
     {
       "id": "1346-002",
-      "title": "Yuan Dynasty: Toghon Tem\u00fcr restored to power",
-      "region": "China (Yuan Dynasty)",
-      "coordinates_approx": "35.0, 105.0",
-      "category": "political",
-      "description": "In 1346, Toghon Tem\u00fcr (Togto Khan) was restored to power as Yuan Emperor after a period of factional conflict among Mongol nobility. His restoration was engineered by Bayan, a powerful Mongol official. However, Toghon Tem\u00fcr's reign was marked by continued factional strife, corruption, and administrative decay. The restoration did not stabilize the Yuan Dynasty; instead, it marked the beginning of the end of Mongol rule in China. The emperor's reign would be characterized by peasant rebellions, economic decline, and the gradual loss of control over the empire.",
+      "title": "Battle of Cr\u00e9cy (Hundred Years' War)",
+      "region": "Normandy, Kingdom of France",
+      "coordinates_approx": "50.23, 2.08",
+      "category": "military",
+      "description": "On 26 August 1346, English forces under Edward III decisively defeat a much larger French army commanded by Philip VI at Cr\u00e9cy-en-Ponthieu. The English use of massed longbowmen against French cavalry proves devastatingly effective, killing an estimated 1,500\u20134,000 French knights and soldiers while English losses are minimal (perhaps 200). This victory establishes English military dominance in the early Hundred Years' War, demonstrates the obsolescence of medieval heavy cavalry against disciplined archers, and boosts Edward III's claim to the French throne.",
       "key_figures": [
-        "Toghon Tem\u00fcr (Yuan Emperor)",
-        "Bayan (Mongol official and power broker)",
-        "Mongol factional leaders"
+        "Edward III (King of England)",
+        "Philip VI (King of France)",
+        "Edward, the Black Prince (Edward III's son)",
+        "Jean de Luxembourg (blind King of Bohemia, killed in the battle)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (Official Yuan Dynasty history, compiled by Ming)",
-          "type": "later_compilation",
+          "name": "Froissart, Chronicles (written c. 1370\u20131400, based on eyewitness accounts and earlier records)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Ming Shi (Official Ming Dynasty history)",
-          "type": "later_compilation",
+          "name": "Jean de Venette, Chronicle (near-contemporary)",
+          "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "English royal records and military accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The restoration of Toghon Tem\u00fcr in 1346 is attested in later official histories, but contemporary sources are sparse. The date and details are less certain than for European events.",
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary chronicles and official records confirm the date, location, and general outcome. Casualty figures vary across sources but the scale of English victory is undisputed.",
       "cross_references": [
-        "1347-004 (Continued instability)",
-        "1348-003 (Further decline)",
-        "1351-001 (Red Turban Rebellion)"
+        "1340-001 (Battle of Sluys, earlier English victory)",
+        "1356-001 (Battle of Poitiers, another English victory)"
       ]
     },
     {
       "id": "1346-003",
-      "title": "Hundred Years' War: English invasion of Normandy",
-      "region": "Normandy, northern France",
-      "coordinates_approx": "49.0, 0.0",
-      "category": "military",
-      "description": "In 1346, Edward III of England invaded Normandy as part of his campaign in the Hundred Years' War. The invasion was part of a broader English strategy to challenge French control of northern France. The campaign culminated in the Battle of Cr\u00e9cy in August 1346. The English invasion demonstrated Edward III's military ambitions and his willingness to challenge French hegemony in Western Europe.",
+      "title": "Toghon Tem\u00fcr (Togon Tem\u00fcr) reigns as Yuan Emperor amid instability",
+      "region": "Yuan Dynasty, China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Toghon Tem\u00fcr (also known as Emperor Huizong of Yuan or Togon Tem\u00fcr) is the reigning Yuan emperor, though his authority is increasingly contested. The Yuan Dynasty, founded by Kublai Khan, is experiencing severe internal fragmentation: regional warlords, Mongol princes, and Han Chinese officials vie for power. Corruption, inflation, and peasant unrest are mounting. Toghon Tem\u00fcr's reign (1333\u20131368) is marked by repeated palace coups, administrative paralysis, and the rise of rebel movements that will eventually topple the dynasty. By 1346, the dynasty's decline is evident to contemporary observers.",
       "key_figures": [
-        "Edward III of England (commander)",
-        "Philip VI of France (defender)",
-        "English and French nobility"
+        "Toghon Tem\u00fcr (Emperor of Yuan)",
+        "Bayan of the Merkits (powerful official, died 1340 but legacy shapes politics)",
+        "Various Mongol princes and Han Chinese officials competing for influence"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles",
+          "name": "Yuan Shi (Official History of the Yuan Dynasty, compiled 1369\u20131370)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "English royal records",
+          "name": "Chinese official records and memorials from the Yuan court",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "French royal records",
-          "type": "primary_text",
+          "name": "Contemporary Chinese chronicles and accounts",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The English invasion of Normandy in 1346 is well-documented in contemporary English and French sources. The campaign and its culmination in the Battle of Cr\u00e9cy are securely dated.",
+      "certainty_note": "Toghon Tem\u00fcr's reign dates and the general political instability of the Yuan in the 1340s are well-documented in official records and later compilations.",
       "cross_references": [
-        "1346-001 (Battle of Cr\u00e9cy)",
-        "1347-002 (Aftermath and Siege of Calais)"
+        "1368-001 (Fall of Yuan Dynasty to Ming)"
       ]
     },
     {
       "id": "1346-004",
-      "title": "Mamluk Sultanate of Egypt: Political stability and military strength",
-      "region": "Egypt and Levant (Mamluk Sultanate)",
-      "coordinates_approx": "30.0, 31.0",
+      "title": "Ottoman Empire consolidates control in northwestern Anatolia",
+      "region": "Ottoman Empire, Anatolia",
+      "coordinates_approx": "40.2, 29.0",
       "category": "political",
-      "description": "In 1346, the Mamluk Sultanate of Egypt was at a peak of political stability and military strength under Sultan al-Nasir Muhammad. The sultanate controlled Egypt, the Levant, and parts of Arabia. Cairo was one of the world's largest and most prosperous cities. The Mamluk military system, based on slave-soldiers (mamluks), was highly effective. However, the plague would soon begin to impact the sultanate, and this period of stability would not last.",
+      "description": "Under Orhan I (r. 1323\u20131362), the Ottoman state continues its expansion in northwestern Anatolia, consolidating control over former Byzantine and Turkomen territories. By 1346, the Ottomans have established themselves as the dominant power in the region, with a growing military (including the early janissary corps) and administrative structure. The capture of Bursa (1326) and subsequent territorial gains position the Ottomans for their eventual crossing into Europe and rise as a major imperial power. Contemporary sources note Ottoman military prowess and organizational efficiency.",
       "key_figures": [
-        "Al-Nasir Muhammad (Mamluk Sultan)",
-        "Mamluk military elite"
+        "Orhan I (Ottoman Sultan)",
+        "Murad I (Orhan's son, co-regent or heir apparent)"
       ],
       "sources": [
         {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa (Egyptian historian, later compilation)",
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, Ne\u015fri, compiled later but based on earlier sources)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Wardi, Khabar al-Bariyya (Syrian historian, contemporary account)",
+          "name": "Byzantine sources (Cantacuzenus, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ottoman-era sites in Anatolia",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion and Orhan I's reign are well-attested, though specific events in 1346 are not always precisely dated in sources. The general trajectory of Ottoman consolidation is clear.",
+      "cross_references": [
+        "1326-001 (Capture of Bursa)",
+        "1453-001 (Fall of Constantinople to Ottomans)"
+      ]
+    },
+    {
+      "id": "1346-005",
+      "title": "Peasant unrest and rebel movements in Yuan China intensify",
+      "region": "Yuan Dynasty, China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "Widespread peasant rebellions and bandit movements are reported across Yuan-controlled China, exacerbated by famine, taxation, and Mongol-Han tensions. These disturbances, including the White Lotus Society and other heterodox religious movements, foreshadow the major uprisings of the 1350s that will ultimately destroy the Yuan Dynasty. By 1346, the central government's ability to suppress these movements is weakening, and regional warlords are consolidating power.",
+      "key_figures": [
+        "Various rebel leaders and bandit chiefs (names often not recorded in surviving sources)",
+        "Local Yuan officials attempting to maintain order"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ming Shi (Official History of the Ming Dynasty, contains accounts of late Yuan period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Chinese local records and memorials",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The political situation of the Mamluk Sultanate in 1346 is attested in Islamic sources, but the level of detail varies. The general picture of stability is accepted by modern scholarship.",
+      "certainty_note": "The general pattern of peasant unrest in the 1340s is well-documented, though specific events in 1346 are often not precisely dated in surviving sources.",
       "cross_references": [
-        "1347-005 (Plague begins to impact Mamluk lands)",
-        "1348-005 (Continued plague mortality)"
-      ]
-    },
-    {
-      "id": "1346-005",
-      "title": "Avignon Papacy: Pope Clement VI's reign",
-      "region": "Avignon, southern France (Papal seat)",
-      "coordinates_approx": "43.95, 4.81",
-      "category": "religious",
-      "description": "In 1346, Pope Clement VI was reigning at Avignon, the papal seat in southern France. Clement VI (r. 1342\u20131352) was a powerful and politically active pope who played a significant role in European affairs. He would later respond to the Black Death plague by issuing papal bulls and attempting to protect Jewish communities from persecution. His papacy was marked by political engagement and cultural patronage.",
-      "key_figures": [
-        "Pope Clement VI (Pope)"
-      ],
-      "sources": [
-        {
-          "name": "Papal records from Avignon",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The reign of Pope Clement VI is well-documented in papal records and contemporary sources. The date is secure.",
-      "cross_references": [
-        "1348-001 (Plague arrives in Europe)",
-        "1349-001 (Flagellant condemnation)"
+        "1351-001 (Red Turban Rebellion begins)",
+        "1368-001 (Fall of Yuan Dynasty)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Cr\u00e9cy is sometimes portrayed as a decisive turning point in medieval warfare, marking the end of feudal cavalry dominance. However, modern military historians note that cavalry remained important in medieval warfare for decades after Cr\u00e9cy, and that the battle's significance was partly due to French tactical errors and poor leadership rather than English superiority. The longbow is sometimes presented as a revolutionary weapon, but it had been used effectively in earlier English campaigns (e.g., in Scotland). The scale of the English victory is sometimes exaggerated; while the English won decisively, the French army was not entirely destroyed and remained a significant force. The narrative of the Hundred Years' War as a simple conflict between England and France obscures the complex political situation in France, where many French nobles had divided loyalties. The Mamluk Sultanate's stability in 1346 is sometimes overstated; there were factional tensions and administrative challenges even before the plague.",
-  "historiographic_note": "The historical record for 1346 is heavily weighted toward Western European sources, particularly chronicles of the Hundred Years' War. The Battle of Cr\u00e9cy is one of the most thoroughly documented medieval battles, with accounts from English, French, and other sources. Islamic sources are less abundant for 1346 but provide information about the Mamluk Sultanate. Chinese sources are sparse for this year and were compiled after the Yuan's fall. The Hundred Years' War is well-documented from English and French perspectives but less so from the perspective of other regions. Overall, 1346 is a year of moderate to good documentation for Western Europe, with significant gaps for non-European regions. The year is marked by the Battle of Cr\u00e9cy, one of the most famous medieval battles, which has attracted considerable historical attention.",
+  "disconfirming_evidence": "The traditional narrative of the Black Death's arrival in Europe via Caffa is based primarily on Gabriele de Mussis's account, written 2\u20134 years after the events. Some modern scholars (notably Samuel K. Cohn Jr.) have questioned whether plague transmission via infected corpses at Caffa was epidemiologically plausible or whether the disease spread via other routes (fleas, trade goods, or human carriers). Paleogenomic evidence confirms Yersinia pestis was present in 14th-century Europe, but does not definitively establish Caffa as the sole or primary entry point. The Battle of Cr\u00e9cy's casualty figures are disputed: French losses may have been lower than traditionally claimed (perhaps 1,500 rather than 4,000+), and some modern military historians debate the extent to which longbows alone explain the English victory (terrain, French tactical errors, and English discipline also played roles). The significance of the battle in 'proving' the obsolescence of cavalry is somewhat overstated in popular accounts; cavalry remained important in medieval warfare for decades after Cr\u00e9cy.",
+  "historiographic_note": "The year 1346 is exceptionally well-documented for Europe and the Mediterranean due to the arrival of the Black Death and the Battle of Cr\u00e9cy, both of which generated contemporary and near-contemporary written records. However, the sources are heavily weighted toward Western European and Mediterranean perspectives. Chinese sources are abundant but often compiled retrospectively (Yuan Shi, Ming Shi). Ottoman sources are later compilations. Sub-Saharan Africa, the interior Americas, and much of northern Europe are poorly represented. The plague's spread in Central Asia and the Islamic world is less thoroughly documented in surviving Western sources. Casualty figures for the plague and the battle are estimates based on fragmentary evidence and should be treated as approximate. The historiography of this year is also shaped by the dramatic nature of these events, which may have overshadowed other significant developments (e.g., economic changes, cultural developments, scientific advances) that left fewer written traces.",
   "graph_edges": [
     {
       "from": "1346-001",
-      "to": "1347-002",
+      "to": "1347-001",
       "relation": "led_to",
-      "note": "English victory at Cr\u00e9cy led to the Siege of Calais in 1347"
-    },
-    {
-      "from": "1346-003",
-      "to": "1346-001",
-      "relation": "led_to",
-      "note": "English invasion of Normandy culminated in the Battle of Cr\u00e9cy"
+      "note": "Plague arrival in Sicily leads to rapid spread across Mediterranean and into mainland Europe"
     },
     {
       "from": "1346-002",
-      "to": "1347-004",
+      "to": "1356-001",
+      "relation": "part_of",
+      "note": "Battle of Cr\u00e9cy is part of the broader Hundred Years' War; followed by Battle of Poitiers"
+    },
+    {
+      "from": "1346-003",
+      "to": "1351-001",
       "relation": "led_to",
-      "note": "Toghon Tem\u00fcr's restoration in 1346 led to continued instability in 1347"
+      "note": "Yuan instability in 1346 contributes to conditions leading to Red Turban Rebellion"
     },
     {
       "from": "1346-004",
-      "to": "1347-005",
+      "to": "1453-001",
+      "relation": "part_of",
+      "note": "Ottoman consolidation in 1346 is part of long-term trajectory toward conquest of Constantinople"
+    },
+    {
+      "from": "1346-005",
+      "to": "1351-001",
       "relation": "led_to",
-      "note": "Mamluk stability in 1346 was disrupted by plague in 1347"
+      "note": "Peasant unrest in 1346 escalates into organized Red Turban Rebellion by 1351"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:36:53.363022",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,25 +1,150 @@
 {
   "year": 1367,
   "year_label": "1367 CE",
-  "era_context": "The Yuan Dynasty in China is in its final years, facing increasing pressure from Ming forces and internal instability. The Hundred Years' War between England and France continues with English forces maintaining significant continental holdings. The Ottoman Empire is consolidating power in Anatolia and beginning to expand into the Balkans. In Europe, the Papacy is undergoing significant institutional changes. This is a period of transition and consolidation across multiple regions.",
+  "era_context": "The late 14th century was a period of significant political and military realignment across Eurasia. The Yuan Dynasty was in its final years in China; the Ottoman Empire was rising in the Balkans; the Hundred Years' War continued in Europe; and Central Asia was experiencing the rise of Timur. This was also a period of religious reform movements and the beginning of the end of the medieval period in Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
+    "Sub-Saharan Africa",
     "Pacific Islands and Oceania",
-    "Central Asian steppes (outside major trade routes)",
-    "Southeast Asia (sparse documentation in European sources)"
+    "Interior of the Americas",
+    "Southeast Asia (limited written records)"
   ],
   "events": [
     {
       "id": "1367-001",
-      "title": "Gregory XI becomes Pope; Papacy returns to Rome from Avignon",
-      "region": "Rome, Papal States",
-      "coordinates_approx": "41.90, 12.49",
-      "category": "religious",
-      "description": "Pierre Roger de Beaufort is elected Pope and takes the name Gregory XI. Gregory XI is notable for his decision to return the Papacy from Avignon (where it had been based since 1309) to Rome, ending the so-called Avignon Papacy. This return to Rome is a significant symbolic and political act, reasserting papal authority in Italy and the Mediterranean. However, Gregory XI's papacy is marked by health problems and political difficulties, and his return to Rome is not universally welcomed by the French-influenced cardinals.",
+      "title": "Hundred Years' War: English forces conduct campaigns in France",
+      "region": "Western Europe (France)",
+      "coordinates_approx": "48.5, 2.5",
+      "category": "military",
+      "description": "The Hundred Years' War between England and France continued with English forces conducting military campaigns and raids in France. By 1367, English power was still significant, though the period of English dominance was beginning to wane. The war would continue for another century, with shifting fortunes for both sides. This period saw the consolidation of English holdings in Aquitaine and Gascony.",
       "key_figures": [
-        "Gregory XI / Pierre Roger de Beaufort (Pope)",
-        "Urban V (predecessor)"
+        "Edward III (English King, r. 1327\u20131377)",
+        "Charles V (French King, r. 1364\u20131380)",
+        "Edward the Black Prince (English commander)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chroniques",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "English and French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Hundred Years' War is extensively documented in contemporary chronicles and administrative records. The year 1367 is well-attested.",
+      "cross_references": [
+        "1368-002 (Continued Hundred Years' War)",
+        "1369-001 (Continued Hundred Years' War)"
+      ]
+    },
+    {
+      "id": "1367-002",
+      "title": "Yuan Dynasty faces internal instability in China",
+      "region": "China (Yuan Dynasty)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Yuan Dynasty in China was facing increasing internal instability and rebellion in 1367. The Mongol-led Yuan Dynasty was weakening due to administrative corruption, economic problems, and widespread peasant rebellions. By 1367, the Ming rebellion under Zhu Yuanzhang was gaining strength and would soon overthrow the Yuan Dynasty in 1368. This period marked the final years of Mongol rule in China.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Yuan Emperor)",
+        "Zhu Yuanzhang (Ming rebel leader, future Hongwu Emperor)",
+        "Yuan officials and generals"
+      ],
+      "sources": [
+        {
+          "name": "Yuan official records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ming historical records and accounts",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Yuan decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Yuan Dynasty is well-documented in multiple sources. The year 1367 is clearly attested as part of the period of instability leading to the dynasty's fall in 1368.",
+      "cross_references": [
+        "1368-001 (Ming Dynasty established)"
+      ]
+    },
+    {
+      "id": "1367-003",
+      "title": "Ottoman Empire consolidates control in Anatolia and the Balkans",
+      "region": "Anatolia and Balkans (Ottoman territories)",
+      "coordinates_approx": "40.0, 25.0",
+      "category": "military",
+      "description": "The Ottoman Empire, under Murad I (r. 1362\u20131389), was consolidating its control over Anatolia and beginning to expand into the Balkans. By 1367, the Ottomans had established themselves as a major power in the region. This consolidation would accelerate in the following years, establishing the Ottoman Empire as a dominant force in the Eastern Mediterranean and Balkans.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan, r. 1362\u20131389)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and later compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine and Serbian historical sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this period is well-attested, though specific dates for individual campaigns vary by source. The year 1367 is a reasonable approximation for the period of consolidation.",
+      "cross_references": [
+        "1368-003 (Ottoman expansion continues)",
+        "1371-001 (Battle of Maritsa)"
+      ]
+    },
+    {
+      "id": "1367-004",
+      "title": "Timur consolidates power in Central Asia",
+      "region": "Central Asia (Samarkand region)",
+      "coordinates_approx": "39.65, 66.98",
+      "category": "political",
+      "description": "Timur (Tamerlane), a Turco-Mongol warrior, was consolidating his power in Central Asia around 1367. By this year, he had begun to defeat rival khans and establish himself as the dominant power in the region. Over the next few years, he would create one of history's largest empires. This period marked the beginning of the Timurid era and the rise of Central Asian power.",
+      "key_figures": [
+        "Timur (Tamerlane, Turco-Mongol conqueror)",
+        "Central Asian khans and tribal leaders"
+      ],
+      "sources": [
+        {
+          "name": "Timurid chronicles and later compilations (e.g., Zafar-nama by Sharaf ad-Din Ali Yazdi)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Persian and Islamic historical sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Timur's early career is attested in later sources, but the exact chronology is uncertain. The year 1367 is an approximation for his consolidation of power.",
+      "cross_references": [
+        "1368-004 (Timur's rise continues)",
+        "1369-003 (Timur defeats Chagatai Khanate)"
+      ]
+    },
+    {
+      "id": "1367-005",
+      "title": "Papacy in Avignon; Urban V serves as Pope",
+      "region": "Western Europe (Avignon)",
+      "coordinates_approx": "43.95, 4.8",
+      "category": "religious",
+      "description": "Pope Urban V (r. 1362\u20131370) was serving as pope in 1367, with the papacy still based in Avignon. Urban V was attempting to reform the church and address the issues of papal authority and the location of the papal seat. This period saw growing calls for the pope to return to Rome and increasing tensions over church reform. Religious reform movements were gaining momentum in England and elsewhere.",
+      "key_figures": [
+        "Pope Urban V (r. 1362\u20131370)",
+        "Church reformers and theologians"
       ],
       "sources": [
         {
@@ -28,171 +153,51 @@
           "contemporary": true
         },
         {
-          "name": "Contemporary religious and political chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Gregory XI's election in 1371 is well-documented, but the date given here (1367) appears to be incorrect. Modern scholarship places his election in 1371. This entry may represent a dating error.",
-      "cross_references": [
-        "1309-001 (Avignon Papacy begins)",
-        "1378-001 (Western Schism begins)"
-      ]
-    },
-    {
-      "id": "1367-002",
-      "title": "Edward, the Black Prince, defeats Castilian forces at the Battle of N\u00e1jera",
-      "region": "Castile, Spain",
-      "coordinates_approx": "42.45, -3.08",
-      "category": "military",
-      "description": "Edward, the Black Prince, leads English and allied forces to victory against Castilian forces at the Battle of N\u00e1jera during the Castilian Civil War. The Black Prince intervenes in Castilian politics to support Peter of Castile against his rival Henry of Trast\u00e1mara. The victory is a significant military achievement and demonstrates English military capability in the Iberian Peninsula. However, the political outcome is less favorable, as English intervention fails to secure lasting political advantage in Castile.",
-      "key_figures": [
-        "Edward, the Black Prince (English commander)",
-        "Peter of Castile (Castilian king supported by English)",
-        "Henry of Trast\u00e1mara (rival claimant)"
-      ],
-      "sources": [
-        {
-          "name": "Froissart's Chronicles (Jean Froissart, contemporary chronicler)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Castilian chronicles and records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of N\u00e1jera in 1367 is well-documented in both English and Castilian sources. The date is firmly established in historiography.",
-      "cross_references": [
-        "1368-003 (Black Prince's continued campaigns)",
-        "1376-001 (Black Prince's death)"
-      ]
-    },
-    {
-      "id": "1367-003",
-      "title": "Yuan Dynasty faces increasing military pressure from Ming forces",
-      "region": "China (northern territories)",
-      "coordinates_approx": "39.0, 115.0",
-      "category": "military",
-      "description": "The Yuan Dynasty, weakened by internal instability and economic decline, faces increasing military pressure from Ming forces under Zhu Yuanzhang. Ming armies conduct campaigns in northern China, gradually reducing Yuan-controlled territory. This period marks the final phase of Yuan rule, as Ming forces systematically eliminate Yuan strongholds and consolidate control over the Chinese heartland. The military pressure will culminate in the fall of the Yuan capital (Beijing) in 1368.",
-      "key_figures": [
-        "Zhu Yuanzhang (Ming commander)",
-        "Toghon Tem\u00fcr / Emperor Shun (Yuan emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Yuan Shih (History of the Yuan Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general military situation in 1367 is well-attested, though specific campaign details may vary between sources. The date is approximate within the broader context of Ming military expansion.",
-      "cross_references": [
-        "1368-001 (Ming Dynasty founding)",
-        "1368-002 (Fall of Beijing)"
-      ]
-    },
-    {
-      "id": "1367-004",
-      "title": "Ottoman forces expand in Anatolia; consolidation of regional power",
-      "region": "Ottoman Empire (Anatolia)",
-      "coordinates_approx": "40.0, 29.0",
-      "category": "military",
-      "description": "Ottoman forces under Murad I continue military campaigns to expand Ottoman control in Anatolia, consolidating the empire's position as a major regional power. The campaigns involve the subjugation of rival Turkish beyliks and the expansion of Ottoman territory at the expense of declining Byzantine and Serbian holdings. This period marks the Ottoman Empire's emergence as a significant military and political force in the Eastern Mediterranean and Balkans.",
-      "key_figures": [
-        "Murad I (Ottoman Sultan)",
-        "Orhan I (predecessor)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles and administrative records",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (Laonikos Chalkokondyles)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman military expansion in this period is attested in Ottoman and Byzantine sources, though specific campaign details and dates can vary by \u00b11\u20132 years.",
-      "cross_references": [
-        "1326-001 (Ottoman founding)",
-        "1389-001 (Battle of Kosovo)"
-      ]
-    },
-    {
-      "id": "1367-005",
-      "title": "Petrarch completes major literary works; Italian Renaissance intellectual flourishing",
-      "region": "Italy (Padua/Venice region)",
-      "coordinates_approx": "45.4, 11.9",
-      "category": "cultural",
-      "description": "Francesco Petrarch, the Italian poet and humanist, continues his prolific literary output during this period, completing major works that will define Renaissance intellectual culture. Petrarch's writings emphasize classical learning, individual achievement, and the recovery of ancient texts. His work is widely circulated and influential among Italian intellectuals and patrons. This period represents the height of Petrarch's influence and the consolidation of humanist scholarship in Italy.",
-      "key_figures": [
-        "Francesco Petrarch (poet and humanist)"
-      ],
-      "sources": [
-        {
-          "name": "Petrarch's letters and literary works",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary biographical accounts",
+          "name": "Theological writings and reform documents",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Petrarch's literary activities in 1367 are well-documented through his surviving letters and works. The date is firmly established.",
+      "certainty_note": "The papacy of Urban V in 1367 is well-documented. The year 1367 is clearly attested.",
       "cross_references": [
-        "1304-001 (Petrarch's birth)",
-        "1369-005 (Petrarch's death, though this date is disputed)"
+        "1368-005 (Papacy remains in Avignon)",
+        "1370-002 (Gregory XI's papacy begins)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of Gregory XI's election is given as 1367 in this entry, but modern scholarship places it in 1371. This represents a significant dating error. The significance of Ottoman expansion in 1367 is sometimes overstated; the Ottoman Empire's major expansion into the Balkans occurs primarily after 1389. The Battle of N\u00e1jera is sometimes portrayed as a more decisive English victory than it actually was; the political outcome was limited.",
-  "historiographic_note": "Documentation for 1367 is uneven. European sources (particularly English and Italian) are relatively rich, while sources for Asia and Africa are sparser. Chinese sources for the Yuan Dynasty's decline are abundant but reflect the perspective of the victorious Ming Dynasty. Ottoman sources for this period are limited and often compiled centuries later. The dating of Gregory XI's papacy in this entry appears to be incorrect, suggesting that medieval papal chronology requires careful verification. Sub-Saharan African and Pacific history remain largely absent from surviving written records.",
+  "disconfirming_evidence": "The exact chronology of the Yuan Dynasty's decline is well-documented, with no significant disconfirming evidence for 1367 being a year of instability. However, some sources emphasize that the Yuan Dynasty's problems were longstanding and not unique to 1367. The exact chronology of Timur's early campaigns is disputed in modern scholarship, with some sources placing his consolidation of power in different years. Ottoman expansion in this period is well-attested, but the significance of specific campaigns has been debated by historians.",
+  "historiographic_note": "The historical record for 1367 is moderately well-documented for Europe and China, with detailed chronicles and administrative records. The decline of the Yuan Dynasty is well-attested in multiple sources. Ottoman and Central Asian history relies more heavily on later compilations, creating some chronological uncertainty. The sources that survive are often shaped by court patronage and the interests of literate elites. African, American, and Oceanic history for this year is almost entirely absent from surviving written records. The Eurocentric and Sinocentric bias in historical preservation is particularly evident for this period.",
   "graph_edges": [
     {
+      "from": "1367-001",
+      "to": "1368-002",
+      "relation": "contemporary_with",
+      "note": "Part of the ongoing Hundred Years' War"
+    },
+    {
       "from": "1367-002",
-      "to": "1368-003",
+      "to": "1368-001",
       "relation": "led_to",
-      "note": "The Black Prince's Castilian campaign is followed by continued military activities in Aquitaine"
+      "note": "Yuan Dynasty instability led to the Ming Dynasty establishment in 1368"
     },
     {
       "from": "1367-003",
-      "to": "1368-001",
-      "relation": "led_to",
-      "note": "Yuan military pressure culminates in the Ming Dynasty founding in 1368"
+      "to": "1368-003",
+      "relation": "contemporary_with",
+      "note": "Ottoman consolidation continued"
     },
     {
       "from": "1367-004",
-      "to": "1389-001",
-      "relation": "led_to",
-      "note": "Ottoman expansion in Anatolia sets the stage for Balkan campaigns and the Battle of Kosovo"
+      "to": "1368-004",
+      "relation": "contemporary_with",
+      "note": "Timur's consolidation of power continued"
     },
     {
       "from": "1367-005",
-      "to": "1375-001",
+      "to": "1368-005",
       "relation": "contemporary_with",
-      "note": "Petrarch's literary activities are contemporary with the broader Italian Renaissance intellectual flourishing"
+      "note": "Papacy remained in Avignon"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:29:29.700330",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

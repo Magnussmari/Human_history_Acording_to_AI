@@ -1,197 +1,204 @@
 {
   "year": 1380,
   "year_label": "1380 CE",
-  "era_context": "Late 14th century: Ming Dynasty consolidates power in China; Ottoman Empire expands in the Balkans; Western Europe experiences the Great Schism (1378\u20131417); the Timurid Renaissance develops in Central Asia; the Joseon Dynasty rules Korea; the Aztec Empire continues expansion in Mesoamerica.",
-  "documentation_level": "moderate",
+  "era_context": "Late 14th-century Europe in the midst of the Hundred Years' War; the Ottoman Empire consolidating power in the Balkans; Ming Dynasty in its early consolidation phase under the Hongwu Emperor; the Papacy recently returned to Rome from Avignon, with the Western Schism imminent. This is a period of military conflict, political centralization, and religious transition.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited written records)",
-    "Pacific Islands and Oceania (sparse documentation)",
-    "Northern Europe beyond major chronicle centers",
-    "Southeast Asia (limited contemporary written sources)"
+    "Interior Southeast Asia (sparse documentation)",
+    "Pacific Islands and Oceania (minimal contemporary records)"
   ],
   "events": [
     {
       "id": "1380-001",
-      "title": "Battle of the Piani dei Santi (Papal-Neapolitan Conflict)",
-      "region": "Italy (Papal States and Kingdom of Naples)",
-      "coordinates_approx": "41.9, 12.5",
-      "category": "military",
-      "description": "The Battle of the Piani dei Santi was fought between papal forces and the Kingdom of Naples during the War of the Eight Saints (1375\u20131378) and its aftermath. The battle was part of the broader conflict between the Papacy and various Italian powers over territorial control and political authority. The conflict reflected the instability of the Italian peninsula during the Great Schism period. The specific outcome of this battle is not always clearly documented in surviving sources.",
+      "title": "Poll Tax and Social Unrest in England",
+      "region": "England",
+      "coordinates_approx": "51.5,-0.1",
+      "category": "economic",
+      "description": "The English Parliament imposed a poll tax (head tax) on all adults, a highly unpopular measure that fell heavily on the poor and working classes. The tax was collected in 1380 and sparked widespread resentment and resistance, particularly in southeastern England. Collectors faced hostility and refusal to pay. This tax was a direct cause of the Peasants' Revolt that erupted in 1381. The poll tax represented an attempt by the English crown to fund the Hundred Years' War, but it exposed the limits of royal authority over the commons and demonstrated the political power of organized resistance.",
       "key_figures": [
-        "Pope Urban VI (r. 1378\u20131389)",
-        "Charles III of Naples (r. 1381\u20131386)"
+        "King Richard II (English monarch, age 13)",
+        "John of Gaunt (Duke of Lancaster, regent)",
+        "Simon Sudbury (Archbishop of Canterbury, Chancellor)"
       ],
       "sources": [
         {
-          "name": "Italian chronicles (fragmentary)",
+          "name": "Froissart, Chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Papal records",
-          "type": "historiographic_consensus",
+          "name": "Anonimalle Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Parliamentary records (Rotuli Parliamentorum)",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Battle of the Piani dei Santi is documented in Italian chronicles, but the exact date and details are uncertain. The year 1380 is assigned based on the broader chronology of papal-Neapolitan conflicts.",
+      "certainty": "confirmed",
+      "certainty_note": "Parliamentary records and contemporary chronicles document the poll tax and its collection in 1380. The date and impact are well-established.",
       "cross_references": [
-        "1378-religious (Great Schism)"
+        "Leads directly to 1381-001 (Peasants' Revolt)"
       ]
     },
     {
       "id": "1380-002",
-      "title": "Ottoman Expansion in the Balkans",
-      "region": "Balkans (Ottoman Empire)",
-      "coordinates_approx": "42.0, 21.0",
-      "category": "military",
-      "description": "Ottoman forces under Murat I continued their systematic expansion in the Balkans, consolidating control over Bulgarian and Serbian territories. In 1380, the Ottomans were engaged in campaigns to subjugate remaining independent Balkan principalities and to establish Ottoman administrative control. These campaigns were part of the broader Ottoman expansion that would eventually lead to the conquest of Constantinople in 1453.",
-      "key_figures": [
-        "Murat I (Ottoman Sultan, r. 1362\u20131389)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles (Ashikpashazade, Ne\u015fri, later 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman expansion in the Balkans in 1380 is documented in later Ottoman chronicles. The specific campaigns of 1380 are not always clearly distinguished from surrounding years.",
-      "cross_references": [
-        "1381-003 (Ottoman expansion in the Balkans)"
-      ]
-    },
-    {
-      "id": "1380-003",
-      "title": "Timur's Consolidation of Power in Central Asia",
-      "region": "Central Asia (Samarkand region)",
-      "coordinates_approx": "39.65, 66.98",
+      "title": "Purge of Hu Weiyong and associates in Ming China",
+      "region": "China",
+      "coordinates_approx": "32.0,118.8",
       "category": "political",
-      "description": "Timur (Tamerlane) continued to consolidate his power in Central Asia, establishing Samarkand as his capital and center of the Timurid Renaissance. In 1380, he was engaged in campaigns to secure his control over the Silk Road trade routes and to establish his authority over rival Central Asian powers. These efforts laid the foundation for his later expansion into the Middle East and beyond.",
+      "description": "The Hongwu Emperor executed Hu Weiyong, a high-ranking official and chancellor, along with thousands of associates, on charges of treason and conspiracy. Hu Weiyong had been one of the most powerful officials in the early Ming government, but the Hongwu Emperor grew suspicious of his influence and power. The purge was part of the emperor's broader effort to centralize authority and eliminate potential rivals. The execution of Hu Weiyong and the subsequent purges of his associates marked a turning point in Ming governance, establishing a pattern of imperial paranoia and authoritarian control that would characterize the Hongwu Emperor's later reign.",
       "key_figures": [
-        "Timur (Tamerlane, Central Asian conqueror, r. 1369\u20131405)"
+        "Zhu Yuanzhang / Hongwu Emperor (Ming founder)",
+        "Hu Weiyong (executed chancellor)",
+        "Li\u5584\u957f (Li Shanchang, also purged)"
       ],
       "sources": [
         {
-          "name": "Sharaf al-Din Ali Yazdi, Zafarnama (biography of Timur, written early 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Timur's consolidation of power in Central Asia in 1380 is documented in later biographical sources. The specific events of 1380 are not always clearly distinguished from surrounding years.",
-      "cross_references": [
-        "1381-004 (Timur's consolidation in Central Asia)"
-      ]
-    },
-    {
-      "id": "1380-004",
-      "title": "Ming Dynasty Consolidation",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Ming Dynasty under the Hongwu Emperor continued to consolidate central authority and eliminate remaining Yuan Dynasty remnants. In 1380, the Ming government was engaged in reorganizing provincial administration, establishing the examination system for civil service, and strengthening the imperial bureaucracy. These reforms were crucial to the stability and longevity of the Ming Dynasty. The year 1380 marks a period of significant administrative reorganization.",
-      "key_figures": [
-        "Hongwu Emperor (r. 1368\u20131398)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Official Records)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ming administrative consolidation in 1380 is documented in official records. The specific reforms of this year are part of a broader process of consolidation that occurred throughout the 1370s and 1380s.",
-      "cross_references": [
-        "1368-political (Founding of Ming Dynasty)"
-      ]
-    },
-    {
-      "id": "1380-005",
-      "title": "Wycliffe's Reformist Activity",
-      "region": "England",
-      "coordinates_approx": "51.75, -1.25",
-      "category": "religious",
-      "description": "John Wycliffe, the English theologian and reformer, continued his advocacy for church reform and the translation of the Bible into English. In 1380, he was in his final years of life (he died in 1384). His ideas were spreading through his followers, the Lollards, who would continue his reformist agenda after his death. Wycliffe's work challenged papal authority and advocated for a more accessible, vernacular Christianity.",
-      "key_figures": [
-        "John Wycliffe (theologian and reformer)"
-      ],
-      "sources": [
-        {
-          "name": "Wycliffe's own writings",
+          "name": "Ming Shilu (Ming Veritable Records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Knighton's Chronicle (Henry Knighton, contemporary English chronicler)",
+          "name": "Ming histories and official records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming court records document the purge in detail. The date and scale are well-established, though the charges against Hu Weiyong are presented from the imperial perspective.",
+      "cross_references": [
+        "Leads to 1381-003 (continued purges)",
+        "Part of Hongwu Emperor's consolidation (1368\u20131398)"
+      ]
+    },
+    {
+      "id": "1380-003",
+      "title": "Battle of the Maritsa River (Ottoman-Serbian conflict)",
+      "region": "Ottoman Empire / Serbia",
+      "coordinates_approx": "41.5,25.5",
+      "category": "military",
+      "description": "Ottoman forces under Murat I defeated Serbian forces in the region of the Maritsa River in what is now Bulgaria and Greece. This battle was part of the Ottoman expansion into the Balkans and the gradual conquest of Serbian and Bulgarian territories. The exact date and significance of this engagement are debated by historians; some sources place it in 1380, others in 1382 or nearby years. The battle contributed to Ottoman consolidation of control over the southern Balkans and the decline of Serbian power in the region.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Serbian nobility (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian and Byzantine sources (fragmentary)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ottoman-Balkan conflicts of this period are documented primarily in later Ottoman chronicles. Exact dating and outcomes are uncertain; some sources place this battle in 1382 or other nearby years.",
+      "cross_references": [
+        "Part of Ottoman Balkan expansion (1370s\u20131390s)",
+        "Leads toward Battle of Kosovo (1389)"
+      ]
+    },
+    {
+      "id": "1380-004",
+      "title": "Clement VII elected as antipope; Western Schism begins",
+      "region": "Papal States / Italy",
+      "coordinates_approx": "41.9,12.5",
+      "category": "religious",
+      "description": "Following the death of Gregory XI in 1378 and the election of Urban VI, a group of cardinals (primarily French) elected Clement VII as a rival pope, claiming that Urban VI's election was invalid due to pressure from the Roman mob. Clement VII established his court in Avignon, while Urban VI remained in Rome. This split created the Western Schism, which would last until 1417. The schism reflected deeper political divisions between French and Italian interests, as well as disputes over papal authority and church governance. By 1380, the schism was well-established, with both popes claiming legitimacy and excommunicating each other.",
+      "key_figures": [
+        "Pope Urban VI (Roman pope)",
+        "Clement VII (Avignon antipope, elected 1378, established by 1380)",
+        "Cardinals of both obediences"
+      ],
+      "sources": [
+        {
+          "name": "Papal registers and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dietrich of Nieheim and other contemporary chroniclers",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Wycliffe's continued reformist activity in 1380 is documented in his own writings and in contemporary chronicles. The date is confirmed.",
+      "certainty_note": "The Western Schism is well-documented in papal records and contemporary chronicles. The election of Clement VII occurred in 1378, but the schism was fully established by 1380.",
       "cross_references": [
-        "1384-001 (Wycliffe's death)"
+        "Part of Western Schism (1378\u20131417)",
+        "Follows from 1378-001 (Urban VI's election and Clement VII's counter-election)"
       ]
     },
     {
-      "id": "1380-006",
-      "title": "Joseon Dynasty Consolidation in Korea",
-      "region": "Korea (Joseon Dynasty)",
-      "coordinates_approx": "37.5, 127.0",
+      "id": "1380-005",
+      "title": "Tamerlane (Timur) consolidates power in Central Asia",
+      "region": "Central Asia / Timurid Empire",
+      "coordinates_approx": "39.0,68.0",
       "category": "political",
-      "description": "The Joseon Dynasty, which had been established in 1392, was in its early period of consolidation. However, 1380 predates the Joseon Dynasty's founding. This entry reflects the late Goryeo Dynasty period, which was characterized by political instability and the rise of the military general Yi Seong-gye, who would found the Joseon Dynasty in 1392. In 1380, Korea was transitioning from Goryeo to Joseon rule.",
+      "description": "Timur (Tamerlane), the Turco-Mongol conqueror, continued his consolidation of power in Central Asia and began his campaigns of conquest that would eventually extend from the Mediterranean to China. By 1380, Timur had established himself as the dominant power in Central Asia and was preparing for his major campaigns of conquest in the 1380s and 1390s. His rise represented a new phase of steppe imperialism and would have profound effects on the political geography of Asia.",
       "key_figures": [
-        "Yi Seong-gye (future founder of Joseon Dynasty, b. 1335)",
-        "Goryeo Dynasty rulers (declining power)"
+        "Timur / Tamerlane (Turco-Mongol conqueror)",
+        "Various Central Asian and Persian rulers (rivals and vassals)"
       ],
       "sources": [
         {
-          "name": "Samguk Sagi and Samguk Yusa (Korean historical records)",
-          "type": "chronicle",
+          "name": "Timur's own inscriptions and later biographical accounts",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Joseon Wangjo Sillok (Annals of the Joseon Dynasty, compiled later)",
-          "type": "later_compilation",
+          "name": "Persian and Central Asian chronicles (Rashid al-Din, others)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The transition from Goryeo to Joseon occurred in 1392, so 1380 falls within the late Goryeo period. The specific events of 1380 are not always clearly documented in surviving Korean sources.",
+      "certainty": "probable",
+      "certainty_note": "Timur's rise to power is documented in later Persian and Central Asian sources. The exact chronology of his early consolidation is somewhat uncertain, but by 1380 he was clearly the dominant power in Central Asia.",
       "cross_references": [
-        "1392-political (Founding of Joseon Dynasty)"
+        "Leads to Timur's major campaigns (1380s\u20131400s)",
+        "Part of post-Mongol steppe imperialism"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of the Piani dei Santi is not well-documented in surviving sources, and its exact date and significance are uncertain. Some historians question whether this battle occurred in 1380 or in a different year. The entry on Joseon Dynasty consolidation is misleading, as the Joseon Dynasty was not founded until 1392; 1380 falls within the late Goryeo period. No major disconfirming evidence undermines the significance of the other events listed, but dating precision is limited.",
-  "historiographic_note": "Documentation for 1380 is moderate but regionally uneven. European sources (English, Italian, Ottoman) are relatively abundant, though Ottoman records are often later compilations. Chinese sources are rich. Korean sources are fragmentary for this period. Middle Eastern sources are limited. Sub-Saharan Africa, the Americas, and Oceania are essentially undocumented. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. European and Chinese sources may reflect court biases and the perspectives of the literate elite.",
+  "disconfirming_evidence": "The poll tax is sometimes presented as the sole cause of the Peasants' Revolt, but modern historians emphasize that it was one of several grievances (including serfdom, labor scarcity, and social mobility) that contributed to the uprising. The Western Schism is sometimes portrayed as a simple dispute between Rome and Avignon, but modern scholarship emphasizes the complex political, theological, and institutional factors involved. Ottoman expansion is sometimes presented as inevitable, but recent scholarship notes the agency and resistance of Balkan states. Timur's rise is sometimes romanticized as a great conqueror, but modern historians emphasize the destructive impact of his campaigns and the instability they created.",
+  "historiographic_note": "Documentation for 1380 is rich for Western Europe (England, France, Papal States) and moderately good for the Ottoman Empire, Ming China, and Central Asia. However, Ottoman and Central Asian sources are primarily later compilations, introducing dating uncertainty. Sub-Saharan Africa, interior Southeast Asia, and the Americas are essentially absent from contemporary written records. The poll tax is documented in English parliamentary records and chronicles, but these reflect elite perspectives. Ming records are official court documents presenting the imperial perspective. The historical record for 1380 is shaped by the survival of written records in literate, centralized states; oral traditions and non-literate societies are underrepresented.",
   "graph_edges": [
+    {
+      "from": "1380-001",
+      "to": "1381-001",
+      "relation": "led_to",
+      "note": "Poll tax directly triggered the Peasants' Revolt of 1381"
+    },
     {
       "from": "1380-002",
       "to": "1381-003",
       "relation": "led_to",
-      "note": "Ottoman expansion in the Balkans in 1380 continued in 1381."
+      "note": "Hu Weiyong's purge initiated a pattern of purges continued in 1381"
     },
     {
       "from": "1380-003",
-      "to": "1381-004",
-      "relation": "led_to",
-      "note": "Timur's consolidation in Central Asia in 1380 continued in 1381."
+      "to": "1389-001",
+      "relation": "part_of",
+      "note": "Part of Ottoman expansion in Balkans leading to Battle of Kosovo"
     },
     {
-      "from": "1380-006",
-      "to": "1392-political",
+      "from": "1380-004",
+      "to": "1417-001",
+      "relation": "part_of",
+      "note": "Part of Western Schism (1378\u20131417)"
+    },
+    {
+      "from": "1380-005",
+      "to": "1401-001",
       "relation": "led_to",
-      "note": "The late Goryeo period in 1380 led to the founding of the Joseon Dynasty in 1392."
+      "note": "Timur's consolidation leads to his major campaigns of conquest"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:25:31.373922",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

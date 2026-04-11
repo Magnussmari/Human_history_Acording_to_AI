@@ -1,175 +1,202 @@
 {
   "year": 1343,
   "year_label": "1343 CE",
-  "era_context": "The mid-14th century: the Hundred Years' War is in its early phase; the Black Death is spreading along trade routes; the Yuan Dynasty is fragmenting; the Mamluk Sultanate dominates the Eastern Mediterranean; and European feudalism is under structural stress from plague, war, and economic change.",
+  "era_context": "The mid-14th century is characterized by the Hundred Years' War in its early phase, the Yuan Dynasty in advanced decline, the Ottoman Empire's consolidation in Anatolia, and the Black Death pandemic spreading westward from Central Asia (though not yet documented in Europe). This year falls three years before the plague's documented arrival in the Mediterranean and four years before the Battle of Cr\u00e9cy.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Southeast Asia (sparse European documentation)",
-    "Oceania (no written records)"
+    "Sub-Saharan Africa (minimal contemporary written sources)",
+    "Interior Americas (no written records)",
+    "Central Asia (plague's spread is poorly documented in surviving Western sources)",
+    "Northern and Eastern Europe (sparse documentation)"
   ],
   "events": [
     {
       "id": "1343-001",
-      "title": "Clement VI's early papacy and Avignon consolidation",
-      "region": "Papal States, Avignon",
-      "coordinates_approx": "43.95, 4.81",
-      "category": "religious",
-      "description": "Pope Clement VI (elected 1342) was consolidating papal authority and patronage in Avignon in 1343. He was known for his support of the arts, his diplomatic acumen, and his later response to the plague. In 1343, he was establishing his court and building relationships with European powers. His papacy would be marked by efforts to maintain papal independence and influence during the Hundred Years' War.",
+      "title": "Black Death pandemic spreads through Central Asia and the Islamic world",
+      "region": "Central Asia, Islamic world, Mongol territories",
+      "coordinates_approx": "40.0, 60.0",
+      "category": "demographic",
+      "description": "The plague pandemic continues its westward spread through Central Asian trade routes and Mongol-controlled territories. By 1343, the disease is documented in regions controlled by the Golden Horde and other Mongol successor states. The exact trajectory and timing of the plague's spread are difficult to establish from surviving sources, but contemporary accounts suggest significant mortality in Central Asia and the Islamic world during the early 1340s. The plague's presence in the Caucasus and the Crimea is documented by the mid-1340s.",
       "key_figures": [
-        "Clement VI (Pope, r. 1342\u20131352)"
+        "Merchants and traders along the Silk Road",
+        "Mongol rulers and officials"
       ],
       "sources": [
         {
-          "name": "Papal registers and contemporary chronicles",
+          "name": "Later Islamic and Chinese sources describing plague in Central Asia",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Paleogenomic evidence from mass graves in Central Asia",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The plague's presence in Central Asia by 1343 is probable based on the trajectory of the pandemic and later accounts, but precise dating is uncertain. Contemporary sources from Central Asia are sparse.",
+      "cross_references": [
+        "1344-001 (Plague spreads further west)",
+        "1346-001 (Plague reaches Mediterranean)"
+      ]
+    },
+    {
+      "id": "1343-002",
+      "title": "Hundred Years' War: English-French tensions and military buildup",
+      "region": "England, France, Low Countries",
+      "coordinates_approx": "50.5, 2.0",
+      "category": "military",
+      "description": "Edward III of England and Philip VI of France continue their conflict over the French throne and territorial disputes. English forces are building alliances with Low Countries powers and preparing for major military campaigns. The English are consolidating their naval power in the English Channel. By 1343, the stage is being set for the major campaigns of 1346 and beyond. Contemporary sources note English military mobilization and French defensive measures.",
+      "key_figures": [
+        "Edward III (King of England)",
+        "Philip VI (King of France)",
+        "English and French military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and military accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "English-French tensions and military activity in 1343 are attested in royal records, though specific operations are not always precisely dated.",
+      "cross_references": [
+        "1346-002 (Battle of Cr\u00e9cy)",
+        "1340-001 (Battle of Sluys)"
+      ]
+    },
+    {
+      "id": "1343-003",
+      "title": "Yuan Dynasty experiences continued internal instability",
+      "region": "Yuan Dynasty, China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Yuan Dynasty under Toghon Tem\u00fcr experiences continued internal instability. Regional warlords, Mongol princes, and Han Chinese officials compete for power. Corruption, inflation, and administrative paralysis are widespread. Peasant unrest and bandit movements are increasing. The central government's authority is weakening. By 1343, the dynasty's decline is evident to contemporary observers.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Emperor of Yuan)",
+        "Various regional warlords and Mongol princes"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese official records and memorials",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Papal records are well-documented.",
-      "cross_references": []
-    },
-    {
-      "id": "1343-002",
-      "title": "Hundred Years' War: English-French tensions escalate",
-      "region": "England, France, Flanders",
-      "coordinates_approx": "50.0, 2.0",
-      "category": "military",
-      "description": "In 1343, Edward III of England was consolidating his claim to the French throne and preparing for military campaigns. The Hundred Years' War (1337\u20131453) was in its early phase. In 1343, there were skirmishes and diplomatic maneuvering, but no major pitched battles. The conflict was driven by Edward III's claim to the French throne (through his mother Isabella) and competition for control of Aquitaine and other French territories.",
-      "key_figures": [
-        "Edward III (King of England, r. 1327\u20131377)",
-        "Philip VI (King of France, r. 1328\u20131350)"
-      ],
-      "sources": [
-        {
-          "name": "Froissart, Chronicles",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "English royal records and writs",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broader conflict is well-documented; specific events in 1343 are less detailed.",
+      "certainty_note": "The general pattern of Yuan instability in the 1340s is well-documented in official records.",
       "cross_references": [
-        "1337-001 (Hundred Years' War begins)"
-      ]
-    },
-    {
-      "id": "1343-003",
-      "title": "Black Death spreads in Asia; plague in Central Asia and China",
-      "region": "Central Asia, China, trade routes",
-      "coordinates_approx": "40.0, 100.0",
-      "category": "environmental",
-      "description": "The bubonic plague (Yersinia pestis) was spreading along Silk Road trade routes in 1343. Chinese sources document plague deaths in Central Asia and possibly in China itself during this period. The exact chronology of plague spread is debated by historians, but by 1343, the pandemic was well-established in Asia and moving westward. The disease would reach the Mediterranean by 1347.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Yuan Shi (History of the Yuan) and Chinese local records",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on plague chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Plague's presence in Asia by 1343 is supported by Chinese sources, though exact dating varies by region.",
-      "cross_references": [
-        "1344-004 (Plague spreads toward Europe)",
-        "1347-001 (Plague reaches Mediterranean)"
+        "1344-003 (Yuan instability continues)",
+        "1351-001 (Red Turban Rebellion)"
       ]
     },
     {
       "id": "1343-004",
-      "title": "Yuan Dynasty instability; Toghon Tem\u00fcr's reign",
-      "region": "China, Yuan Empire",
-      "coordinates_approx": "39.9, 116.4",
+      "title": "Ottoman Empire consolidates power in northwestern Anatolia",
+      "region": "Ottoman Empire, Anatolia",
+      "coordinates_approx": "40.2, 29.0",
       "category": "political",
-      "description": "In 1343, the Yuan Dynasty under Emperor Shun (Toghon Tem\u00fcr, r. 1333\u20131368) was experiencing severe internal conflict. Factional struggles among Mongol nobility, Han Chinese officials, and regional warlords were destabilizing the empire. Famine and peasant unrest were growing. The empire would face the Red Turban Rebellion (1351\u20131368) and ultimately collapse to the Ming Dynasty (1368). In 1343, the Yuan was still nominally powerful but increasingly fragile.",
+      "description": "Orhan I continues to consolidate Ottoman power in northwestern Anatolia. The Ottoman state is expanding its territory, strengthening its military organization, and establishing administrative structures. By 1343, the Ottomans are the dominant power in the region. Contemporary sources note Ottoman military strength and territorial expansion.",
       "key_figures": [
-        "Toghon Tem\u00fcr (Emperor Shun of Yuan, r. 1333\u20131368)"
+        "Orhan I (Ottoman Sultan)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (History of the Yuan, compiled by Ming historians)",
+          "name": "Ottoman chronicles (later compilations)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Chinese local records and administrative documents",
+          "name": "Byzantine sources",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Yuan instability in the 1340s is well-documented in Chinese sources, though specific events in 1343 are less detailed.",
+      "certainty_note": "Ottoman expansion under Orhan I is well-attested, though specific events in 1343 are not always precisely dated.",
       "cross_references": [
-        "1351-001 (Red Turban Rebellion begins)",
-        "1368-001 (Ming Dynasty founded)"
+        "1344-004 (Ottoman expansion continues)",
+        "1453-001 (Fall of Constantinople)"
       ]
     },
     {
       "id": "1343-005",
-      "title": "Mali Empire under Mansa Sulayman; West African trade networks",
-      "region": "West Africa, Mali Empire",
-      "coordinates_approx": "12.0, -8.0",
-      "category": "political",
-      "description": "In 1343, Mali was ruled by Mansa Sulayman (r. c. 1341\u20131360), who succeeded Mansa Maghan I. Sulayman was known for his piety and his maintenance of Mali's Islamic institutions and trade networks. The empire was still a major power in West African gold trade, though it was beginning to face competition from rising Songhai and other regional powers. In 1343, Mali's control over trans-Saharan trade routes was still strong but increasingly contested.",
+      "title": "Pope Clement VI elected and begins papacy",
+      "region": "Papal States, Avignon",
+      "coordinates_approx": "43.95, 4.81",
+      "category": "religious",
+      "description": "Pierre Roger is elected Pope Clement VI in May 1342 (some sources date this to 1343). Clement VI (r. 1342\u20131352) is a French cardinal and a skilled diplomat. He consolidates papal authority and navigates complex political relationships with European monarchs. The papacy is based in Avignon (the Avignon papacy period, 1309\u20131377). Clement VI's papacy is marked by political maneuvering, ecclesiastical authority, and (from 1346 onward) the challenge of responding to the Black Death pandemic.",
       "key_figures": [
-        "Mansa Sulayman (r. c. 1341\u20131360)"
+        "Pope Clement VI (Pierre Roger)",
+        "Various cardinals and bishops"
       ],
       "sources": [
         {
-          "name": "Tarikh al-Sudan and Tarikh al-Fattash (West African chronicles)",
-          "type": "oral_tradition",
-          "contemporary": false
+          "name": "Papal records and bulls",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Ibn Battuta, Rihla (describes Mali c. 1352\u20131353)",
-          "type": "primary_text",
-          "contemporary": false
+          "name": "Contemporary ecclesiastical chronicles",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Mali's political history in the 1340s relies on oral tradition and later chronicles. Specific events in 1343 are not well-documented.",
+      "certainty": "confirmed",
+      "certainty_note": "Clement VI's election and the beginning of his papacy are well-documented in papal records. The date is sometimes given as May 1342 or 1343, depending on the source.",
       "cross_references": [
-        "1352-001 (Ibn Battuta's visit to Mali)"
+        "1378-001 (Great Schism begins)"
       ]
     }
   ],
-  "disconfirming_evidence": "Mali's rulers in the 1340s are often conflated or misnamed in Western sources. The exact succession and dates of Mansa Maghan I and Mansa Sulayman are disputed. Yuan Dynasty instability is sometimes overstated; the empire retained significant administrative capacity and military power even in the 1340s. The plague's spread in 1343 is less well-documented than in 1344\u20131347; some historians argue the pandemic's major impact in Asia occurred slightly later.",
-  "historiographic_note": "1343 is a year of gradual change rather than dramatic events. European sources focus on the Hundred Years' War and papal politics. Chinese sources document Yuan instability. West African history relies on oral tradition and later chronicles, with significant gaps. The plague's spread is documented retrospectively rather than in contemporary 1343 records. Bias toward European and East Asian history is evident.",
+  "disconfirming_evidence": "The precise dating of the plague's spread through Central Asia in 1343 is uncertain. Some sources suggest the plague was already present in Central Asia by the early 1340s, while others place its arrival later. The extent of plague mortality in Central Asia in 1343 is difficult to quantify; later accounts may conflate events from multiple years. The significance of English-French tensions in 1343 is sometimes overstated; the major English campaigns did not begin until 1346. The date of Clement VI's election is sometimes given as May 1342 rather than 1343, depending on the source.",
+  "historiographic_note": "The year 1343 is moderately well-documented for Europe and the Mediterranean, with good sources for English-French military activity and papal politics. However, the plague's spread through Central Asia is poorly documented in surviving Western sources. Chinese sources are available but often compiled retrospectively. Ottoman sources are later compilations. The historiography of 1343 is shaped by the dramatic events of 1346 (Cr\u00e9cy, plague arrival in Europe), which may have overshadowed other significant developments in 1343. The year 1343 is often treated as a prelude to 1346 rather than as a significant year in its own right.",
   "graph_edges": [
     {
-      "from": "1343-002",
-      "to": "1346-001",
+      "from": "1343-001",
+      "to": "1344-001",
       "relation": "led_to",
-      "note": "English military preparations in 1343 led to the Battle of Cr\u00e9cy in 1346"
+      "note": "Plague spread in Central Asia in 1343 continues westward in 1344"
+    },
+    {
+      "from": "1343-002",
+      "to": "1346-002",
+      "relation": "led_to",
+      "note": "English-French tensions in 1343 culminate in Battle of Cr\u00e9cy in 1346"
     },
     {
       "from": "1343-003",
-      "to": "1347-001",
-      "relation": "led_to",
-      "note": "Plague spread in Asia in 1343 reached the Mediterranean in 1347"
+      "to": "1344-003",
+      "relation": "contemporary_with",
+      "note": "Yuan instability in 1343 continues into 1344"
     },
     {
       "from": "1343-004",
-      "to": "1351-001",
+      "to": "1344-004",
+      "relation": "contemporary_with",
+      "note": "Ottoman expansion in 1343 continues into 1344"
+    },
+    {
+      "from": "1343-005",
+      "to": "1346-001",
       "relation": "led_to",
-      "note": "Yuan instability in 1343 contributed to the Red Turban Rebellion (1351)"
+      "note": "Clement VI's papacy begins in 1343; he will respond to Black Death from 1346 onward"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:38:09.165272",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

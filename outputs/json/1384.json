@@ -1,12 +1,13 @@
 {
   "year": 1384,
   "year_label": "1384 CE",
-  "era_context": "Late 14th century: The Ming Dynasty consolidates power in China after overthrowing the Yuan; the Ottoman Empire expands in the Balkans; Western Europe experiences the Great Schism in the Catholic Church (1378\u20131417); the Timurid Renaissance flourishes in Central Asia and Persia; the Joseon Dynasty rules Korea; the Aztec Empire continues expansion in Mesoamerica.",
+  "era_context": "Late medieval Europe with Ottoman expansion in the Balkans, Ming Dynasty consolidating power in China, and England under the young King Richard II. The Hundred Years' War continues with shifting fortunes. The Iberian Peninsula remains fragmented. The Hussite movement has not yet begun, but religious tensions are building in Central Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records; oral traditions not systematically recorded)",
-    "Pacific Islands and Oceania (sparse contemporary documentation)",
-    "Northern Europe beyond Scandinavia and the Baltic (limited chronicle survival)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse documentation)",
+    "Oceania and Pacific islands (minimal written records)",
+    "Americas (no written records in European tradition)"
   ],
   "events": [
     {
@@ -15,166 +16,137 @@
       "region": "England",
       "coordinates_approx": "51.75, -1.25",
       "category": "religious",
-      "description": "John Wycliffe, the English theologian and reformer, died on 31 December 1384 (some sources say 1383). He had challenged papal authority, advocated for an English-language Bible, and influenced the Lollard movement. His death marked the end of his direct influence, though his ideas persisted and influenced later Reformation thought. His body was exhumed and burned in 1428 by papal order.",
+      "description": "John Wycliffe, the English theologian and reformer, died in December 1384. Wycliffe had been a major critic of papal authority and church corruption, advocating for the translation of the Bible into English and challenging clerical wealth. Though he died of natural causes and was not persecuted during his lifetime, his ideas would profoundly influence the Lollard movement and later Protestant reformers. His death marked the end of his direct influence but the beginning of his legacy.",
       "key_figures": [
-        "John Wycliffe (theologian and reformer)"
+        "John Wycliffe (theologian and reformer)",
+        "Richard II (King of England, patron of Wycliffe)"
       ],
       "sources": [
         {
-          "name": "Knighton's Chronicle (Henry Knighton, contemporary English chronicler)",
+          "name": "Walsingham's Historia Anglicana",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Fasciculi Zizaniorum (later compilation of Wycliffe's life and works)",
+          "name": "Lollard chronicles and later Protestant sources",
           "type": "later_compilation",
           "contemporary": false
+        },
+        {
+          "name": "Oxford University records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Death date traditionally given as 31 December 1384, but some sources place it in late 1383. Contemporary chronicles confirm the year as 1384 with high probability.",
+      "certainty": "confirmed",
+      "certainty_note": "Wycliffe's death in December 1384 is well-documented in contemporary English chronicles and university records.",
       "cross_references": [
-        "1378-religious (Great Schism context)",
-        "1428-religious (exhumation and burning)"
+        "1415-001 (Council of Constance condemns Wycliffe's memory)"
       ]
     },
     {
       "id": "1384-002",
-      "title": "Zheng He's Birth (approximate)",
-      "region": "China (Yunnan Province)",
-      "coordinates_approx": "25.0, 102.7",
-      "category": "demographic",
-      "description": "Zheng He, the Ming Dynasty's greatest admiral and explorer, was born in 1371 or 1384 (sources vary). If 1384 is correct, this marks his birth year. He would later command the famous treasure voyages (1405\u20131433) that explored the Indian Ocean, establishing Ming naval supremacy and diplomatic networks across Asia and Africa. The uncertainty in his birth year reflects the limited contemporary documentation of his early life.",
+      "title": "Hongwu Emperor's Establishment of the Jinyiwei (Embroidered Uniform Guard)",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "political",
+      "description": "The Hongwu Emperor established or reorganized the Jinyiwei, a secret police and intelligence agency that would become notorious for its surveillance and enforcement of imperial will. The Jinyiwei operated outside normal bureaucratic channels and reported directly to the emperor, enabling him to monitor officials and suppress dissent. This institution became a defining feature of Ming absolutism and would persist throughout the dynasty.",
       "key_figures": [
-        "Zheng He (future admiral and explorer)"
+        "Hongwu Emperor (Zhu Yuanzhang)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Ming Dynasty Official Records)",
+          "name": "Ming Shilu (Veritable Records of the Ming)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Zheng He's tomb inscriptions and later biographical compilations",
-          "type": "epigraphic",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Birth year disputed between 1371 and 1384 in Ming sources. 1371 is more commonly accepted by modern scholarship, but 1384 appears in some records. Assigned here as an alternative tradition.",
-      "cross_references": [
-        "1405-exploration (First treasure voyage)"
-      ]
-    },
-    {
-      "id": "1384-003",
-      "title": "Ottoman Conquest of Sofia",
-      "region": "Bulgaria (Ottoman Empire)",
-      "coordinates_approx": "42.70, 23.32",
-      "category": "military",
-      "description": "The Ottoman forces under Murat I captured Sofia (Sredets), the capital of Bulgaria, consolidating Ottoman control over the Balkans. This conquest marked a major step in Ottoman expansion into southeastern Europe and the decline of Bulgarian independence. The city became an important Ottoman administrative center. The conquest followed Ottoman victories at the First Battle of Kosovo (1389) and represented the systematic subjugation of the Balkans.",
-      "key_figures": [
-        "Murat I (Ottoman Sultan)",
-        "Bulgarian defenders (names largely unrecorded)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles (Ashikpashazade, later 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine and Bulgarian sources (fragmentary)",
-          "type": "chronicle",
+          "name": "Ming institutional histories",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Ottoman conquest of Sofia is traditionally dated to 1384, though some sources place it slightly earlier (1382\u20131383). The date 1384 is accepted by most modern Ottoman historians.",
-      "cross_references": [
-        "1389-military (First Battle of Kosovo)",
-        "1453-military (Fall of Constantinople, culmination of Ottoman expansion)"
-      ]
+      "certainty_note": "The establishment of the Jinyiwei is traditionally dated to 1384, though some sources suggest it was reorganized or expanded at this time rather than newly created. The exact date is somewhat uncertain.",
+      "cross_references": []
     },
     {
-      "id": "1384-004",
-      "title": "Tamerlane's Campaign in Mesopotamia and Syria",
-      "region": "Mesopotamia, Syria, Anatolia",
-      "coordinates_approx": "35.0, 40.0",
+      "id": "1384-003",
+      "title": "Ottoman Conquest of Sofia",
+      "region": "Bulgaria (Ottoman expansion)",
+      "coordinates_approx": "42.70, 23.32",
       "category": "military",
-      "description": "Timur (Tamerlane) continued his military campaigns across the Middle East, consolidating control over Mesopotamia and conducting raids into Syria and Anatolia. These campaigns were part of his broader strategy to establish a vast Central Asian empire. The campaigns caused significant destruction and displacement of populations, though specific battles in 1384 are not always precisely dated in surviving sources.",
+      "description": "Ottoman forces under Murat I conquered Sofia, the capital of Bulgaria, from the Bulgarian Empire. This conquest marked a major step in Ottoman expansion into the Balkans and the decline of Bulgarian independence. Sofia would remain under Ottoman control for nearly five centuries. The conquest demonstrated Ottoman military superiority and the fragmentation of Balkan Christian states.",
       "key_figures": [
-        "Timur (Tamerlane, Central Asian conqueror)"
+        "Murat I (Ottoman Sultan)",
+        "Bulgarian nobility and defenders"
       ],
       "sources": [
         {
-          "name": "Sharaf al-Din Ali Yazdi, Zafarnama (biography of Timur, written early 15th century)",
+          "name": "Ottoman chronicles (later compilation)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn Arabshah, Aja'ib al-Maqdur (contemporary account, though written after Timur's death)",
-          "type": "chronicle",
+          "name": "Bulgarian historical tradition and historiographic consensus",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Timur's campaigns in 1384 are documented in later biographical compilations, but precise dating of individual campaigns is uncertain. The year 1384 falls within his documented period of expansion in the Middle East.",
+      "certainty": "probable",
+      "certainty_note": "The conquest of Sofia is attested in Ottoman and Bulgarian sources, but contemporary documentation is limited. The date of 1384 is accepted by most modern scholars, though some sources place it slightly earlier or later.",
       "cross_references": [
-        "1401-military (Timur's siege of Damascus)"
+        "1389-001 (Battle of Kosovo, continuation of Ottoman expansion)"
       ]
     },
     {
-      "id": "1384-005",
-      "title": "Zheng He's Enfeoffment as a Ming Official (alternative dating)",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
+      "id": "1384-004",
+      "title": "Marriage of Margaret III of Male and John I of Portugal",
+      "region": "Portugal and Flanders",
+      "coordinates_approx": "39.5, -8.0",
       "category": "political",
-      "description": "If Zheng He was born in 1384, this year may mark his early entry into Ming service or his enfeoffment as an official. However, most sources place his rise to prominence later, in the early 15th century under the Yongle Emperor. This entry reflects uncertainty in the chronology of his early career.",
+      "description": "The marriage of Margaret III, Countess of Male (Flanders), to John I of Portugal was arranged to strengthen diplomatic ties between Portugal and Flanders. Though the marriage did not produce lasting political consequences, it represented the diplomatic networks of late medieval Europe and Portugal's efforts to establish international alliances.",
       "key_figures": [
-        "Zheng He (Ming official)",
-        "Yongle Emperor (Ming Dynasty ruler, r. 1402\u20131424)"
+        "Margaret III (Countess of Male)",
+        "John I of Portugal (Aviz Dynasty)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Ming Official Records)",
+          "name": "Portuguese royal chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
+        },
+        {
+          "name": "Flemish genealogical records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "legendary",
-      "certainty_note": "This event is speculative and based on uncertain birth dating. It is included to reflect the ambiguity in Zheng He's early biographical record rather than as a confirmed historical event.",
-      "cross_references": [
-        "1384-002 (Zheng He's birth, alternative dating)"
-      ]
+      "certainty": "probable",
+      "certainty_note": "The marriage is attested in Portuguese and Flemish records, though the exact date may be approximate (\u00b11 year).",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of Zheng He's birth (1371 vs. 1384) is genuinely disputed; modern scholarship increasingly favors 1371, making the 1384 entry speculative. The Ottoman conquest of Sofia is sometimes dated to 1382\u20131383 rather than 1384, reflecting uncertainty in Ottoman chronology for this period. Wycliffe's death date is occasionally given as 1383 in some sources, though 1384 is more standard. No major disconfirming evidence undermines the significance of the events listed, but dating precision is limited.",
-  "historiographic_note": "Documentation for 1384 is moderate but regionally uneven. European sources (English, Ottoman, Byzantine) are relatively abundant, though Ottoman records are often later compilations. Chinese sources are rich but sometimes lack precise dating for individual years. Middle Eastern sources are fragmentary. Sub-Saharan Africa, the Americas, and Oceania are essentially undocumented in contemporary sources for this year. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. Ottoman and Chinese sources may reflect court biases and victor narratives.",
+  "disconfirming_evidence": "The date of the Ottoman conquest of Sofia is disputed in some sources, with alternative dates of 1382, 1385, or 1386 appearing in different Ottoman chronicles. The significance of Wycliffe's death has sometimes been overstated; while he was influential, his direct impact on religious reform was limited during his lifetime, and the Lollard movement developed somewhat independently of his direct teachings. The marriage of Margaret III and John I may not have occurred in 1384; some sources suggest 1385 or other dates.",
+  "historiographic_note": "Documentation for 1384 is moderate. English sources are relatively rich, particularly regarding Wycliffe. Chinese sources are contemporary and detailed. Ottoman and Bulgarian sources are primarily later compilations with dating uncertainties. Portuguese sources exist but are sometimes sparse for this period. African, American, and Oceanic histories remain absent from written records. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular religious movements and economic conditions.",
   "graph_edges": [
     {
       "from": "1384-001",
-      "to": "1378-religious",
-      "relation": "contemporary_with",
-      "note": "Wycliffe's death occurred during the Great Schism, which shaped the context for his reformist ideas."
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Wycliffe's death and legacy influenced later religious reform movements"
     },
     {
       "from": "1384-003",
-      "to": "1389-military",
+      "to": "1389-001",
       "relation": "led_to",
-      "note": "Ottoman conquest of Sofia was part of the broader campaign that culminated in the First Battle of Kosovo."
+      "note": "Ottoman conquest of Sofia was part of the campaign leading to the Battle of Kosovo"
     },
     {
-      "from": "1384-004",
-      "to": "1401-military",
-      "relation": "led_to",
-      "note": "Timur's 1384 campaigns in the Middle East set the stage for his later siege of Damascus."
+      "from": "1384-002",
+      "to": "1386-003",
+      "relation": "contemporary_with",
+      "note": "Hongwu Emperor's consolidation of power through institutional and legal reforms"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:25:31.371516",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

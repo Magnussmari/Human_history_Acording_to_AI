@@ -1,172 +1,162 @@
 {
   "year": 1382,
   "year_label": "1382 CE",
-  "era_context": "Late 14th century: Ming Dynasty consolidates power in China; Ottoman Empire expands in the Balkans; Western Europe experiences the Great Schism; the Timurid Renaissance develops in Central Asia; the Joseon Dynasty rules Korea; the Aztec Empire continues expansion in Mesoamerica.",
+  "era_context": "Late medieval Europe with Ottoman expansion in the Balkans, Ming Dynasty consolidating power in China, and England under the young King Richard II. The Hundred Years' War continues with shifting fortunes. The Iberian Peninsula remains fragmented between Christian kingdoms and the Nasrid Emirate of Granada. Religious tensions are building in Central Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pacific Islands and Oceania (sparse documentation)",
-    "Northern Europe beyond major chronicle centers",
-    "Southeast Asia (limited contemporary written sources)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse documentation)",
+    "Oceania and Pacific islands (minimal written records)",
+    "Americas (no written records in European tradition)"
   ],
   "events": [
     {
       "id": "1382-001",
-      "title": "Peasants' Revolt in England (Aftermath and Suppression)",
-      "region": "England",
-      "coordinates_approx": "51.5, -0.1",
+      "title": "Hongwu Emperor's Abolition of the Chancellery",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "32.06, 118.80",
       "category": "political",
-      "description": "In the aftermath of the Peasants' Revolt of 1381, King Richard II and his advisors continued to suppress the rebellion and consolidate royal authority. The year 1382 saw the final suppression of remaining rebel forces and the execution of remaining leaders. The revolt had challenged feudal authority and raised questions about social hierarchy, though the immediate outcome was a reassertion of royal and noble power. The long-term impact on English society and labor relations was significant.",
+      "description": "The Hongwu Emperor abolished the position of Chancellor (Zaixiang), a major administrative office that had existed since ancient times. This action was part of the emperor's effort to consolidate absolute power and prevent any official from accumulating too much authority. The abolition of the Chancellery marked a significant shift toward personal imperial rule and the direct administration of the empire by the emperor himself, with the assistance of the Grand Secretariat.",
       "key_figures": [
-        "King Richard II of England (r. 1377\u20131399)",
-        "Wat Tyler (rebel leader, executed 1381)",
-        "John of Gaunt (Duke of Lancaster, royal advisor)"
+        "Hongwu Emperor (Zhu Yuanzhang)"
       ],
       "sources": [
         {
-          "name": "Froissart's Chronicles (Jean Froissart, contemporary chronicler)",
+          "name": "Ming Shilu (Veritable Records of the Ming)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Knighton's Chronicle (Henry Knighton, contemporary English chronicler)",
+          "name": "Ming institutional histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The abolition of the Chancellery in 1382 is well-documented in Ming records. This was a major institutional change with significant consequences for Ming governance.",
+      "cross_references": [
+        "1384-002 (Establishment of Jinyiwei)"
+      ]
+    },
+    {
+      "id": "1382-002",
+      "title": "Ottoman Conquest of Nish (Ni\u0161)",
+      "region": "Serbia (Ottoman expansion)",
+      "coordinates_approx": "43.33, 21.90",
+      "category": "military",
+      "description": "Ottoman forces under Murat I conquered Nish (Ni\u0161), a major Serbian fortress city. The conquest of Nish was a significant Ottoman victory and marked the consolidation of Ottoman control over central Serbia. The city would remain under Ottoman control for nearly five centuries. The conquest demonstrated Ottoman military superiority and the fragmentation of Serbian resistance.",
+      "key_figures": [
+        "Murat I (Ottoman Sultan)",
+        "Serbian defenders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian historical tradition and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Nish is attested in Ottoman and Serbian sources, but contemporary documentation is limited. The date of 1382 is accepted by most modern scholars, though some sources place it in 1381 or 1383.",
+      "cross_references": [
+        "1384-003 (Ottoman conquest of Sofia)",
+        "1389-001 (Battle of Kosovo)"
+      ]
+    },
+    {
+      "id": "1382-003",
+      "title": "Marriage of Mary of Hungary and Sigismund of Luxembourg",
+      "region": "Central Europe (Hungary and Luxembourg)",
+      "coordinates_approx": "47.5, 19.0",
+      "category": "political",
+      "description": "The marriage of Mary of Hungary to Sigismund of Luxembourg was arranged to strengthen diplomatic ties between Hungary and the Holy Roman Empire. Sigismund would later become King of Hungary and Holy Roman Emperor, and this marriage was part of the dynastic politics of Central Europe. The marriage represented the complex web of alliances among Central European powers.",
+      "key_figures": [
+        "Mary of Hungary",
+        "Sigismund of Luxembourg (future King of Hungary and Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Hungarian royal chronicles",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "The Anonimalle Chronicle (contemporary English chronicle)",
+          "name": "Holy Roman Empire genealogical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage is attested in Hungarian and Holy Roman Empire records, though the exact date may be approximate (\u00b11 year).",
+      "cross_references": []
+    },
+    {
+      "id": "1382-004",
+      "title": "Richard II's Consolidation of Royal Authority",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "King Richard II, now in his mid-teens, was gradually consolidating his authority as king. The period saw the young king asserting his will in court and parliament, though he remained dependent on magnates for military and political support. The suppression of the Peasants' Revolt in 1381 had strengthened his position, and he was beginning to develop the personal authority that would characterize his later reign.",
+      "key_figures": [
+        "Richard II (King of England)",
+        "John of Gaunt (Duke of Lancaster, uncle and advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Froissart's Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and parliamentary rolls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Walsingham's Historia Anglicana",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The suppression of the Peasants' Revolt in 1382 is well-documented in contemporary English chronicles. The date and events are confirmed by multiple independent sources.",
+      "certainty_note": "Richard II's activities in 1382 are documented in English chronicles and parliamentary records.",
       "cross_references": [
-        "1381-political (Peasants' Revolt)"
-      ]
-    },
-    {
-      "id": "1382-002",
-      "title": "Ottoman Conquest of Nish (alternative dating)",
-      "region": "Serbia (Ottoman Empire)",
-      "coordinates_approx": "43.33, 21.90",
-      "category": "military",
-      "description": "Ottoman forces under Murat I may have besieged and captured the Serbian fortress city of Ni\u0161 in 1382 (though 1383 is also commonly cited). The capture of Ni\u0161 was a significant step in Ottoman consolidation of control over the Serbian lands. The city became an important Ottoman administrative and military center. This conquest was part of the broader Ottoman expansion in the Balkans.",
-      "key_figures": [
-        "Murat I (Ottoman Sultan, r. 1362\u20131389)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles (Ashikpashazade, Ne\u015fri, later 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The date of Ottoman conquest of Ni\u0161 is uncertain, with sources varying between 1382 and 1383. Modern historians are divided on the exact year.",
-      "cross_references": [
-        "1383-003 (Ottoman conquest of Ni\u0161, alternative dating)"
-      ]
-    },
-    {
-      "id": "1382-003",
-      "title": "Earthquake in China (Shaanxi Province, alternative dating)",
-      "region": "China (Shaanxi Province)",
-      "coordinates_approx": "34.3, 108.9",
-      "category": "environmental",
-      "description": "A significant earthquake may have struck Shaanxi Province in 1382 (though 1383 is also cited in some sources). The earthquake caused considerable damage and loss of life. Such natural disasters were often interpreted as signs of heaven's displeasure with the ruling dynasty, though the Ming Dynasty's legitimacy was not seriously threatened.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Official Records)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The date of the Shaanxi earthquake is uncertain, with sources varying between 1382 and 1383. Precise dating of seismic events in this period is difficult.",
-      "cross_references": [
-        "1383-002 (Shaanxi earthquake, alternative dating)"
-      ]
-    },
-    {
-      "id": "1382-004",
-      "title": "Timur's Consolidation in Central Asia",
-      "region": "Central Asia (Samarkand region)",
-      "coordinates_approx": "39.65, 66.98",
-      "category": "political",
-      "description": "Timur (Tamerlane) continued to consolidate his power in Central Asia, establishing Samarkand as his capital and center of the Timurid Renaissance. In 1382, he was engaged in campaigns to secure his control over the Silk Road trade routes and to establish his authority over rival Central Asian powers. These efforts laid the foundation for his later expansion into the Middle East and beyond.",
-      "key_figures": [
-        "Timur (Tamerlane, Central Asian conqueror, r. 1369\u20131405)"
-      ],
-      "sources": [
-        {
-          "name": "Sharaf al-Din Ali Yazdi, Zafarnama (biography of Timur, written early 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Timur's consolidation of power in Central Asia in 1382 is documented in later biographical sources. The specific events of 1382 are not always clearly distinguished from surrounding years.",
-      "cross_references": [
-        "1383-004 (Timur's conquest of Isf\u0101h\u0101n)"
-      ]
-    },
-    {
-      "id": "1382-005",
-      "title": "Ming Dynasty Administrative Reforms",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Ming Dynasty under the Hongwu Emperor continued administrative reforms to consolidate central authority and eliminate remaining Yuan Dynasty remnants. In 1382, the Ming government was engaged in reorganizing provincial administration, establishing the examination system for civil service, and strengthening the imperial bureaucracy. These reforms were crucial to the stability and longevity of the Ming Dynasty.",
-      "key_figures": [
-        "Hongwu Emperor (r. 1368\u20131398)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Official Records)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Ming Dynasty administrative records",
-          "type": "historiographic_consensus",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ming administrative reforms in 1382 are documented in official records. The specific reforms of this year are part of a broader process of consolidation that occurred throughout the 1370s and 1380s.",
-      "cross_references": [
-        "1368-political (Founding of Ming Dynasty)"
+        "1383-004 (Richard II's early reign)",
+        "1385-004 (Richard II's consolidation of power)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of Ottoman conquests in the Balkans (Ni\u0161) is uncertain, with sources varying between 1382 and 1383. The Shaanxi earthquake is also uncertain in dating. The specific administrative reforms of 1382 in the Ming Dynasty are not always clearly distinguished from those of surrounding years in surviving records. No major disconfirming evidence undermines the significance of the events listed, but dating precision is limited.",
-  "historiographic_note": "Documentation for 1382 is moderate but regionally uneven. European sources (English, Ottoman) are relatively abundant. Chinese sources are rich but sometimes lack precise dating for individual years. Middle Eastern sources are fragmentary. Sub-Saharan Africa, the Americas, and Oceania are essentially undocumented. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. Ottoman and Chinese sources may reflect court biases.",
+  "disconfirming_evidence": "The date of the Ottoman conquest of Nish is disputed in some sources, with alternative dates of 1381, 1382, or 1383 appearing in different Ottoman chronicles. The significance of the conquest has sometimes been overstated; while important, it was one of several Ottoman victories rather than a decisive turning point. The abolition of the Chancellery by the Hongwu Emperor is sometimes portrayed as a sudden, dramatic action, but it was part of a gradual process of consolidating imperial power that had been underway for several years.",
+  "historiographic_note": "Documentation for 1382 is moderate. Chinese sources are contemporary and detailed regarding the Hongwu Emperor's reforms. English sources are relatively rich regarding Richard II. Ottoman and Serbian sources are primarily later compilations with dating uncertainties. Hungarian and Central European sources exist but are sometimes sparse for this period. African, American, and Oceanic histories remain absent from written records. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular movements and economic conditions.",
   "graph_edges": [
     {
       "from": "1382-001",
-      "to": "1381-political",
-      "relation": "caused_by",
-      "note": "The suppression of the Peasants' Revolt in 1382 was a direct consequence of the revolt of 1381."
+      "to": "1384-002",
+      "relation": "led_to",
+      "note": "Abolition of Chancellery was part of Hongwu Emperor's consolidation of power"
     },
     {
       "from": "1382-002",
-      "to": "1383-003",
-      "relation": "contemporary_with",
-      "note": "Ottoman conquest of Ni\u0161 may have occurred in 1382 or 1383; sources are uncertain."
+      "to": "1384-003",
+      "relation": "led_to",
+      "note": "Ottoman conquest of Nish was part of the campaign leading to the conquest of Sofia"
+    },
+    {
+      "from": "1382-002",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Ottoman expansion in the Balkans continued toward the Battle of Kosovo"
     },
     {
       "from": "1382-004",
       "to": "1383-004",
       "relation": "led_to",
-      "note": "Timur's consolidation in Central Asia in 1382 led to his expansion into Persia in 1383."
+      "note": "Richard II's consolidation of authority continued in subsequent years"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:25:31.372813",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

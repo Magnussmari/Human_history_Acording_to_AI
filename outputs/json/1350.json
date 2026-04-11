@@ -1,207 +1,228 @@
 {
   "year": 1350,
   "year_label": "1350 CE",
-  "era_context": "The mid-14th century was dominated by the Black Death's ongoing devastation, the Hundred Years' War between England and France, the Ottoman Empire's early expansion, the Yuan Dynasty's decline in China, and the Mamluk Sultanate's dominance in the Islamic world. This was a period of profound demographic, political, and social upheaval across Eurasia.",
+  "era_context": "Mid-14th century: The Black Death pandemic continues its devastating sweep across Eurasia and North Africa, with mortality still high in many regions. The Hundred Years' War between England and France is in its early phase. The Yuan Dynasty in China is weakening as rebel movements gain strength. The Ottoman Empire is consolidating power in Anatolia. The Papal Schism is not yet imminent, but the Avignon Papacy remains distant from Rome. Islamic sultanates control Mediterranean and Indian Ocean trade routes.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records; reliance on later oral traditions)",
-    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
-    "Oceania and Pacific Islands (minimal contemporary written records)",
-    "Central Asia (limited sources outside Islamic chronicles)"
+    "Sub-Saharan Africa (minimal written records)",
+    "Indigenous Americas (no contemporary written records)",
+    "Central Asia and the steppes (sparse documentation outside Chinese and Islamic sources)"
   ],
   "events": [
     {
       "id": "1350-001",
-      "title": "Black Death peak mortality in Mediterranean and Europe",
-      "region": "Europe, Mediterranean, North Africa",
-      "coordinates_approx": null,
-      "category": "demographic",
-      "description": "The Black Death reached its peak mortality in 1350 across the Mediterranean and Europe. Venice, Florence, and other Italian city-states experienced catastrophic population loss. Mortality rates in some cities exceeded 50\u201360% of the population. The plague's peak in 1350 marked the transition from the initial pandemic wave to endemic recurrence. Survivors faced severe labor shortages, economic disruption, and psychological trauma that would reshape European society for generations. The plague's impact on trade, agriculture, and social structures was profound and lasting.",
-      "key_figures": [],
+      "title": "Jubilee Year proclaimed by Pope Clement VI",
+      "region": "Papal States, Rome",
+      "coordinates_approx": "41.9,12.45",
+      "category": "religious",
+      "description": "Pope Clement VI proclaims 1350 as a Jubilee Year (Holy Year), offering plenary indulgences to pilgrims who visit Rome. This is the first Jubilee Year in the history of the Catholic Church, established to provide spiritual comfort during the ongoing Black Death crisis. The proclamation draws hundreds of thousands of pilgrims to Rome, generating revenue for the Church and reinforcing papal authority. However, the massive gatherings also facilitate plague transmission, creating an ironic public health consequence. The Jubilee tradition becomes a permanent feature of Catholic practice.",
+      "key_figures": [
+        "Pope Clement VI (initiator)",
+        "Petrarch (contemporary observer and critic of some aspects)"
+      ],
       "sources": [
         {
-          "name": "Matteo Villani, Chronicle",
+          "name": "Papal bull Unigenitus Dei Filius (1343, establishing jubilee concept)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Petrarch, Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles (Villani, Froissart)",
           "type": "chronicle",
           "contemporary": true
-        },
-        {
-          "name": "Parish records and mortality data (archival/archaeological)",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Giovanni Boccaccio, Decameron (written 1353\u20131354, describes Florence in 1348\u20131353)",
-          "type": "primary_text",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Plague's peak mortality in 1350 is extensively documented in contemporary chronicles and confirmed by modern demographic analysis of parish records.",
+      "certainty_note": "The proclamation of the Jubilee Year is a documented papal act with precise dating.",
       "cross_references": [
-        "1347-001 (Black Death arrival)",
-        "1351-001 (Continued plague effects)"
+        "1347-001 (Black Death arrival)"
       ]
     },
     {
       "id": "1350-002",
-      "title": "Hundred Years' War: English military campaigns in France",
-      "region": "France, England",
-      "coordinates_approx": "46.6\u00b0N, 0.7\u00b0E",
-      "category": "military",
-      "description": "In 1350, the Hundred Years' War between England and France continued with English military campaigns in Aquitaine and Gascony. English forces, under Edward III and his son Edward, the Black Prince, maintained military pressure on French territories. The English had significant military advantages during this period, including superior archery tactics and better-organized forces. The war devastated French agriculture and accelerated social fragmentation, while English military success boosted national prestige and resources.",
+      "title": "Giovanni Boccaccio completes The Decameron",
+      "region": "Florence, Italy",
+      "coordinates_approx": "43.77,11.25",
+      "category": "cultural",
+      "description": "Giovanni Boccaccio completes his masterwork, The Decameron, a collection of 100 novellas framed by the story of ten young Florentines who flee the plague-stricken city to a countryside villa. Written in vernacular Italian rather than Latin, the work represents a major shift toward literary use of the Italian language and establishes Boccaccio as a foundational figure in Italian literature. The Decameron provides invaluable contemporary testimony to the social and psychological impact of the Black Death, though its literary framing means it is not a straightforward historical document.",
       "key_figures": [
-        "Edward III (King of England)",
-        "John II (King of France)",
-        "Edward, the Black Prince (English commander)"
+        "Giovanni Boccaccio (author)"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles (Chroniques)",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "The Decameron (manuscript tradition, completed ~1350\u20131353)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Jean de Venette, Chronicle",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Boccaccio's biographical accounts",
+          "type": "primary_text",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "English military campaigns in 1350 are well-documented in contemporary and near-contemporary chronicles.",
+      "certainty": "approximate",
+      "certainty_note": "The Decameron was completed sometime between 1350 and 1353; 1350 is a conventional date but not precisely documented.",
       "cross_references": [
-        "1337-001 (Hundred Years' War beginning)",
-        "1351-002 (Statute of Labourers)",
-        "1356-001 (Battle of Poitiers)"
+        "1347-001 (Black Death arrival)"
       ]
     },
     {
       "id": "1350-003",
-      "title": "Red Turban Rebellion against Yuan Dynasty in China",
-      "region": "China (Yuan Dynasty)",
-      "coordinates_approx": "32.8\u00b0N, 117.2\u00b0E",
+      "title": "Red Turban Rebellion intensifies in Yuan China",
+      "region": "Central and eastern China",
+      "coordinates_approx": "35,115",
       "category": "military",
-      "description": "The Red Turban Rebellion against Yuan rule was active in 1350, with major uprisings across southern and central China. The rebellion was driven by famine, plague, and Han Chinese resentment of Mongol rule. Multiple rebel commanders emerged, including Zhu Yuanzhang, who would eventually establish the Ming Dynasty. The rebellion's success in 1350 marked the beginning of the end for Yuan authority, though the dynasty would not formally collapse until 1368. The rebellion's fragmented nature meant that no single commander dominated initially.",
+      "description": "The Red Turban Rebellion, a major anti-Yuan uprising with Manichaean and Buddhist religious elements, intensifies in 1350. The rebellion, which began in the 1340s, now controls significant territory in central China. The Yuan Dynasty's military response is increasingly ineffective, hampered by internal corruption and the diversion of resources to other crises. The Red Turban movement, though ultimately fragmented, accelerates the collapse of Yuan authority and creates space for regional warlords like Zhu Yuanzhang to rise. The rebellion represents both a religious and social movement against Mongol rule.",
       "key_figures": [
-        "Zhu Yuanzhang (future Hongwu Emperor)",
         "Liu Futong (Red Turban leader)",
-        "Toghon Tem\u00fcr (Toyan Khan, Yuan Emperor, r. 1333\u20131368)"
+        "Zhu Yuanzhang (emerging rival warlord)",
+        "Yuan emperors and generals (various, increasingly ineffective)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "name": "Yuan Shih (History of the Yuan Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Yuan Shi (History of the Yuan Dynasty)",
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Red Turban Rebellion is well-attested in Chinese sources, but specific events of 1350 are sometimes conflated with adjacent years.",
+      "cross_references": [
+        "1351-003 (Zhu Yuanzhang's campaigns)",
+        "1368-001 (Ming Dynasty establishment)"
+      ]
+    },
+    {
+      "id": "1350-004",
+      "title": "Plague mortality continues in Mediterranean and Islamic world",
+      "region": "Mediterranean, North Africa, Middle East",
+      "coordinates_approx": "35,20",
+      "category": "demographic",
+      "description": "The Black Death, which arrived in the Mediterranean in 1347\u20131348, continues to cause massive mortality in 1350 across North Africa, the Middle East, and the Islamic world. Cairo, Alexandria, and other major Islamic cities experience devastating population loss. Contemporary Islamic sources (Ibn al-Wardi, al-Maqrizi) document the plague's impact on trade, urban life, and religious practice. The plague disrupts the Hajj pilgrimage and causes economic dislocation across the Islamic world. Mortality estimates for some cities suggest 30\u201350% population loss.",
+      "key_figures": [
+        "Ibn al-Wardi (contemporary chronicler)",
+        "Al-Maqrizi (contemporary chronicler)",
+        "Islamic religious leaders (response to plague)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Wardi, Experiences of the Nations",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Al-Maqrizi, Plague accounts",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on plague spread",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Red Turban Rebellion's activity in 1350 is well-documented in Ming and Yuan sources, though exact dates of specific engagements vary.",
+      "certainty_note": "Plague presence in the Islamic world in 1350 is well-attested in contemporary Islamic sources.",
       "cross_references": [
-        "1351-003 (Rebellion intensification)",
-        "1368-001 (Establishment of Ming Dynasty)"
-      ]
-    },
-    {
-      "id": "1350-004",
-      "title": "Ottoman Empire consolidation under Orhan I",
-      "region": "Ottoman Empire, Anatolia",
-      "coordinates_approx": "39.5\u00b0N, 32.5\u00b0E",
-      "category": "political",
-      "description": "The Ottoman Empire, under Orhan I (r. 1323\u20131362), was consolidating control of northwestern Anatolia and beginning expansion into the Balkans. By 1350, the Ottomans had established themselves as a major regional power with a well-organized military and administrative system. Their expansion was facilitated by the decline of the Byzantine Empire and the fragmentation of Balkan states. The Ottomans' military innovations and strategic positioning would enable their eventual dominance of the Eastern Mediterranean.",
-      "key_figures": [
-        "Orhan I (Ottoman Sultan, r. 1323\u20131362)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles (Ashikpashazade, later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (Cantacuzenus, History)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ottoman consolidation in Anatolia is well-documented in Ottoman and Byzantine sources, though written after the events.",
-      "cross_references": [
-        "1351-004 (Continued consolidation)",
-        "1354-002 (Gallipoli conquest)"
+        "1347-001 (Plague arrival in Mediterranean)"
       ]
     },
     {
       "id": "1350-005",
-      "title": "Mamluk Sultanate under al-Nasir Muhammad",
-      "region": "Egypt, Levant, Islamic world",
-      "coordinates_approx": "30.0\u00b0N, 31.2\u00b0E",
-      "category": "political",
-      "description": "Al-Nasir Muhammad al-Qalawun (r. 1341\u20131377, with interruptions) ruled the Mamluk Sultanate during a period of relative stability and cultural flourishing. In 1350, the sultanate was consolidating control over Egypt, the Levant, and the Hejaz, maintaining trade routes and religious authority as custodian of Islam's holiest sites. The Mamluks' military strength and administrative sophistication made them the dominant Islamic power of the era, resisting both Mongol and Ottoman expansion.",
+      "title": "English naval dominance in the Channel and North Sea",
+      "region": "English Channel, North Sea",
+      "coordinates_approx": "51,-2",
+      "category": "military",
+      "description": "English naval forces, under Edward III, establish dominance in the English Channel and North Sea, disrupting French trade and military supply lines. The Battle of Winchelsea (1350), also known as the Battle of Espagnols sur Mer, demonstrates English naval superiority. This naval dominance is crucial to English strategy in the Hundred Years' War, allowing England to project power across the Channel and protect its continental possessions. The victory reinforces English confidence and contributes to the broader military ascendancy that will culminate in the Battle of Poitiers (1356).",
       "key_figures": [
-        "Al-Nasir Muhammad al-Qalawun (Mamluk Sultan)"
+        "Edward III (King of England)",
+        "English naval commanders (various)",
+        "French naval forces (various)"
       ],
       "sources": [
         {
-          "name": "Al-Maqrizi, Kitab al-Suluk (Book of Conduct)",
-          "type": "later_compilation",
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Ibn Taghribirdi, al-Nujum al-Zahira (Bright Stars)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "English royal records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Al-Nasir Muhammad's reign and policies are well-documented in Mamluk chronicles, though written after his death.",
+      "certainty_note": "The Battle of Winchelsea is well-documented in English and French sources with consistent dating.",
       "cross_references": [
-        "1341-001 (Al-Nasir Muhammad's accession)",
-        "1351-005 (Mamluk cultural flourishing)"
+        "1356-001 (Battle of Poitiers)"
+      ]
+    },
+    {
+      "id": "1350-006",
+      "title": "Petrarch's literary and intellectual influence at its height",
+      "region": "Italy (Milan, Padua, Avignon)",
+      "coordinates_approx": "43,12",
+      "category": "cultural",
+      "description": "Francesco Petrarch, the Italian poet and humanist, is at the height of his influence in 1350. His works\u2014particularly his sonnets (Canzoniere) and his revival of classical learning\u2014are reshaping European intellectual culture. Petrarch's emphasis on individual emotion, classical texts, and the dignity of human experience marks a significant departure from medieval scholasticism and prefigures the Renaissance. His correspondence and patronage networks extend across Italy and Europe. Petrarch's work in recovering and promoting classical texts contributes to the broader intellectual movement that will define the Renaissance.",
+      "key_figures": [
+        "Francesco Petrarch (poet and humanist)",
+        "Various patrons and correspondents (Visconti, papal court)"
+      ],
+      "sources": [
+        {
+          "name": "Petrarch, Canzoniere (Songbook)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Petrarch, Letters and other works",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Petrarch's literary output and influence in 1350 are well-documented through his surviving works and correspondence.",
+      "cross_references": [
+        "1350-002 (Boccaccio's Decameron)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Black Death's peak in 1350 (1350-001) is sometimes presented as a single catastrophic moment; in reality, mortality varied significantly by region and continued in waves through the 1350s and beyond. English military success in the Hundred Years' War (1350-002) is often overstated; while English forces had advantages, French resistance was significant, and the war's outcome was not predetermined. The Red Turban Rebellion (1350-003) is sometimes presented as a unified movement; in reality, it was fragmented, with multiple competing rebel commanders and factions. Ottoman expansion (1350-004) is often portrayed as inevitable; in reality, the Ottomans faced significant resistance and setbacks.",
-  "historiographic_note": "1350 is moderately well-documented in European sources, particularly regarding the Black Death and the Hundred Years' War. Islamic sources are substantial but often compiled centuries later. Chinese sources are rich but reflect Yuan and Ming court perspectives. African history is severely underrepresented in surviving written records. The year 1350 is dominated by plague narratives in European historiography, which may obscure other significant developments in Asia and Africa. Court-sponsored chronicles tend to emphasize political and military events over economic or social change. The Black Death's impact is well-documented in parish records and contemporary chronicles, making it one of the most thoroughly documented aspects of 1350.",
+  "disconfirming_evidence": "The Jubilee Year of 1350 is often celebrated as a spiritual success, but modern scholarship emphasizes that the massive pilgrim gatherings likely accelerated plague transmission, making it a public health disaster despite its spiritual intent. Additionally, the claim that the Jubilee Year was the 'first' in Church history is complicated by earlier jubilee-like practices in medieval Christianity, though 1350 does mark the formalization of the practice. Regarding Boccaccio's Decameron, the precise completion date of 1350 is conventional; some scholars argue it was completed as late as 1353, making the dating uncertain.",
+  "historiographic_note": "Documentation for 1350 is moderate for Western Europe and the Mediterranean, with good sources for England, France, and Italy. Islamic sources provide valuable testimony to plague impact in the Middle East and North Africa, though these sources are sometimes less detailed than European chronicles. Chinese sources (Yuan and Ming histories) document the Red Turban Rebellion but are official compilations written after the fact. The year is heavily weighted toward European and Mediterranean events in surviving sources, with limited documentation for sub-Saharan Africa, the Americas, and Central Asia. The Jubilee Year and literary achievements of Petrarch and Boccaccio may be over-represented relative to their historical significance compared to the demographic catastrophe of the plague.",
   "graph_edges": [
     {
       "from": "1350-001",
-      "to": "1351-001",
-      "relation": "led_to",
-      "note": "Black Death's peak mortality in 1350 led to continued effects in 1351"
-    },
-    {
-      "from": "1350-002",
-      "to": "1351-002",
-      "relation": "led_to",
-      "note": "English military success in 1350 contributed to labor shortages addressed by Statute of Labourers in 1351"
+      "to": "1350-004",
+      "relation": "contemporary_with",
+      "note": "Jubilee Year proclaimed as spiritual response to ongoing plague mortality"
     },
     {
       "from": "1350-003",
       "to": "1351-003",
       "relation": "led_to",
-      "note": "Red Turban Rebellion in 1350 intensified in 1351"
-    },
-    {
-      "from": "1350-004",
-      "to": "1351-004",
-      "relation": "led_to",
-      "note": "Ottoman consolidation in 1350 continued in 1351"
+      "note": "Red Turban Rebellion intensification creates opportunity for Zhu Yuanzhang's rise"
     },
     {
       "from": "1350-005",
-      "to": "1351-005",
+      "to": "1356-001",
       "relation": "led_to",
-      "note": "Mamluk consolidation in 1350 led to cultural flourishing in 1351"
+      "note": "English naval dominance contributes to broader military ascendancy culminating in Poitiers"
+    },
+    {
+      "from": "1350-002",
+      "to": "1350-006",
+      "relation": "contemporary_with",
+      "note": "Boccaccio and Petrarch represent parallel developments in Italian literary and humanistic culture"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:34:58.846263",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

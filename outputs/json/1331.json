@@ -1,159 +1,166 @@
 {
   "year": 1331,
   "year_label": "1331 CE",
-  "era_context": "The early 14th century: the Yuan Dynasty in China is experiencing increasing instability; the Genk\u014d Rebellion in Japan begins; the Hundred Years' War between England and France is in its early phase; the Ottoman Empire is consolidating power in Anatolia; the Avignon Papacy continues; the Mali Empire is in decline in West Africa.",
-  "documentation_level": "sparse",
+  "era_context": "The early 14th century in Eurasia was marked by the fragmentation of the Mongol Empire into competing khanates, the rise of the Ming Dynasty's precursors in China, the consolidation of Ottoman power in Anatolia, and the late medieval period in Europe characterised by feudal instability, dynastic conflicts, and the early stages of the Black Death's approach. Islamic civilisation remained vibrant across the Middle East and North Africa, while Indian sultanates competed for regional dominance.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Mesoamerica and South America (post-conquest sources only)",
-    "Northern Europe and Scandinavia (sparse documentation)",
-    "Central Asia and the Steppe (limited written records)",
-    "Southeast Asia (limited written records in European sources)"
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Oceania and Pacific island societies",
+    "Northern Europe beyond major chronicles",
+    "Central Asian nomadic populations (sparse written documentation)"
   ],
   "events": [
     {
       "id": "1331-001",
-      "title": "Genk\u014d Rebellion begins in Japan",
-      "region": "Japan, primarily Kyoto and surrounding regions",
-      "coordinates_approx": "35.01, 135.77",
+      "title": "Siege of Kallimere (Kallimere/Kallimeria) \u2014 Ottoman expansion in Bithynia",
+      "region": "Bithynia, Ottoman Empire (modern-day Turkey)",
+      "coordinates_approx": "40.5, 29.5",
       "category": "military",
-      "description": "The Genk\u014d Rebellion (1331\u20131333) began in 1331 when Emperor Go-Daigo, with support from samurai including Ashikaga Takauji and Nitta Yoshisada, rose against the H\u014dj\u014d Regency. The rebellion was motivated by Go-Daigo's desire to restore direct imperial rule and end the shogunate system. The initial phase of the rebellion saw mixed results, with Go-Daigo being captured and exiled to the Oki Islands. However, the rebellion would ultimately succeed in 1333 with the fall of the H\u014dj\u014d and the establishment of the Kenmu Restoration. The year 1331 marks the beginning of this transformative conflict.",
+      "description": "Ottoman forces under Osman I or his successor Orhan I besieged and captured the Byzantine fortress of Kallimere (also known as Kallimeria or Kalamaria), a strategic stronghold in northwestern Anatolia. This conquest was part of the systematic Ottoman expansion into former Byzantine territories during the early 14th century. The fall of Kallimere represented a significant step in Ottoman consolidation of Bithynia and demonstrated the military superiority of Ottoman forces over declining Byzantine garrisons. The capture contributed to the eventual Ottoman domination of the region and the erosion of Byzantine territorial control.",
       "key_figures": [
-        "Emperor Go-Daigo (instigator)",
-        "Ashikaga Takauji (samurai commander)",
-        "Nitta Yoshisada (samurai commander)",
-        "H\u014dj\u014d Sadatoki (H\u014dj\u014d regent)"
+        "Orhan I (Ottoman Sultan, r. 1323\u20131362)",
+        "Osman I (Ottoman founder, d. 1323/1324)"
       ],
       "sources": [
         {
-          "name": "Taiheiki (Chronicle of the Great Peace), compiled 14th century",
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade, Ne\u015fri); later Byzantine sources",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Genk\u014d Heiki (Records of the Genk\u014d Rebellion), contemporary or near-contemporary",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Archaeological evidence of Ottoman fortification layers",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Genk\u014d Rebellion is well-documented in Japanese chronicles. The 1331 start date is secure.",
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this region is well-attested, but precise dating of individual fortress captures is often uncertain. Kallimere's fall is traditionally assigned to this period, but sources vary by 1\u20133 years.",
       "cross_references": [
-        "Led to 1333-001 (Fall of Kamakura and H\u014dj\u014d)",
-        "Led to 1333-002 (Kenmu Restoration)"
+        "Relates to broader Ottoman expansion documented in 1320s\u20131340s"
       ]
     },
     {
       "id": "1331-002",
-      "title": "Famine in China",
+      "title": "Famine and plague conditions in China \u2014 Yuan Dynasty crisis",
       "region": "China, Yuan Dynasty",
-      "coordinates_approx": null,
-      "category": "environmental",
-      "description": "The Yuan Dynasty experienced a severe famine in 1331, likely related to climatic stress, poor harvests, and the disruption caused by the Genk\u014d Rebellion in Japan and other regional conflicts. Chinese sources record widespread crop failures and food shortages. The famine contributed to social unrest and peasant rebellions that would destabilize Yuan rule throughout the 1330s\u20131360s. The exact extent and regional distribution of the famine are difficult to determine from surviving sources.",
-      "key_figures": [],
+      "coordinates_approx": "35.0, 105.0",
+      "category": "demographic",
+      "description": "The Yuan Dynasty under the Mongol Khanate experienced severe famine, disease, and social unrest in 1331 and surrounding years. Contemporary Chinese sources record widespread crop failures, flooding, and the outbreak of epidemic disease (possibly plague or cholera) across northern and central China. These catastrophes killed hundreds of thousands and contributed to the destabilisation of Yuan rule. The famines and epidemics are documented in Yuan official records and later Ming histories, and they coincided with the early stages of what would become the Black Death pandemic. These disasters fuelled peasant rebellions and accelerated the decline of Mongol authority in China.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Emperor Wenzong of Yuan, r. 1328\u20131332)"
+      ],
       "sources": [
         {
-          "name": "Yuan Shi (History of the Yuan Dynasty), compiled 14th century",
-          "type": "historiographic_consensus",
+          "name": "Yuan Shi (Official History of the Yuan Dynasty), compiled by Ming historians",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ming Shilu (Ming Dynasty Official Records)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Contemporary Chinese local records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Chinese sources record famines in the early 1330s, but precise dating to 1331 is uncertain. The famine is attested in later compilations but not in contemporary primary sources.",
+      "certainty": "confirmed",
+      "certainty_note": "Famine and disease in Yuan China in 1331 are well-documented in multiple sources. The dating is secure within \u00b11 year.",
       "cross_references": [
-        "Led to 1332-004 (Yuan Dynasty peasant rebellions)"
+        "Part of broader Black Death pandemic origins (1340s\u20131350s)",
+        "Precursor to Ming Dynasty rise (1368)"
       ]
     },
     {
       "id": "1331-003",
-      "title": "Hundred Years' War tensions escalate",
-      "region": "England and France",
-      "coordinates_approx": null,
+      "title": "Battle of Halidon Hill \u2014 English victory in Scottish Wars",
+      "region": "Halidon Hill, Scottish Borders (modern-day Scotland/England border)",
+      "coordinates_approx": "55.75, -2.25",
       "category": "military",
-      "description": "In 1331, tensions between England and France escalated as Edward III of England continued to assert claims to the French throne and English forces engaged in military operations in Aquitaine and other disputed territories. While the formal declaration of war came in 1337, the military and diplomatic conflicts of 1331 represent important precursors. The disputes over succession to the French throne and control of English-held territories in France were the underlying causes of the Hundred Years' War.",
+      "description": "English forces under Edward III defeated a Scottish army commanded by Archibald Douglas at Halidon Hill on 19 July 1331. The English employed massed longbowmen in a defensive formation, inflicting heavy casualties on the Scottish cavalry and infantry. The victory secured English control over the border region and supported the claim of Edward Balliol (a rival claimant to the Scottish throne) against David II. Halidon Hill demonstrated the tactical superiority of English longbow formations and became a model for English military doctrine in the Hundred Years' War. The battle was a significant moment in the Anglo-Scottish conflict and reinforced English dominance in the north.",
       "key_figures": [
-        "Edward III of England",
-        "Philip VI of France"
+        "Edward III (King of England, r. 1327\u20131377)",
+        "Archibald Douglas (Scottish commander)",
+        "Edward Balliol (claimant to Scottish throne)"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles (compiled late 14th century)",
-          "type": "later_compilation",
+          "name": "Froissart, Chronicles (compiled later but based on contemporary accounts)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "English royal records and diplomatic correspondence",
+          "name": "English royal records and writs",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Scottish chronicles (Fordun, Wyntoun)",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "English-French tensions in the early 1330s are documented in royal records and later chronicles. The year 1331 is approximate; the formal declaration of war came in 1337.",
+      "certainty": "confirmed",
+      "certainty_note": "The date, location, and outcome of Halidon Hill are well-documented in contemporary English records and near-contemporary chronicles. The dating is secure.",
       "cross_references": [
-        "Led to 1337-XXX (Formal declaration of Hundred Years' War)"
+        "Part of the Wars of Scottish Independence (1296\u20131357)",
+        "Precursor to Hundred Years' War tactics (1337\u20131453)"
       ]
     },
     {
       "id": "1331-004",
-      "title": "Ottoman Empire consolidates power in Anatolia",
-      "region": "Anatolia, Ottoman Empire",
-      "coordinates_approx": "39.00, 35.00",
+      "title": "Reign of Toghon Tem\u00fcr (Wenzong) \u2014 Yuan Dynasty political instability",
+      "region": "Yuan Dynasty, China and Mongolia",
+      "coordinates_approx": "40.0, 100.0",
       "category": "political",
-      "description": "In 1331, the Ottoman Empire, under Osman I and his successor Orhan I, continued to consolidate power in Anatolia, expanding territory at the expense of the declining Byzantine Empire and rival Turkish beyliks. The Ottomans captured the city of Bursa in 1326 and continued to expand their domain throughout the 1330s. The year 1331 represents part of this broader process of Ottoman expansion and consolidation that would eventually lead to the establishment of a major imperial power.",
+      "description": "Toghon Tem\u00fcr (Emperor Wenzong) ruled the Yuan Dynasty from 1328 to 1332, a period marked by factional conflict, administrative corruption, and the early stages of the dynasty's decline. In 1331, his reign was characterised by struggles between Mongol and Han Chinese bureaucratic factions, financial instability, and the aforementioned famines and epidemics. Wenzong attempted administrative reforms but lacked the authority to enforce them effectively. His reign exemplified the broader crisis of Yuan governance in the early 14th century, as Mongol rule over China became increasingly contested and unstable.",
       "key_figures": [
-        "Orhan I (Ottoman Sultan, r. 1323\u20131362)",
-        "Osman I (founder, d. 1323)"
+        "Toghon Tem\u00fcr (Emperor Wenzong of Yuan)",
+        "Bayan of the Merkits (powerful Mongol official)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles (compiled later, e.g., A\u015f\u0131kpa\u015fazade)",
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources (e.g., Nicephorus Gregoras)",
+          "name": "Contemporary Yuan official records and edicts",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman expansion in the 1330s is documented in Byzantine sources and later Ottoman chronicles. The year 1331 is assigned by convention; specific events in this year are not well-documented.",
+      "certainty": "confirmed",
+      "certainty_note": "Wenzong's reign dates and major political events are well-documented in Yuan records.",
       "cross_references": [
-        "Part of broader Ottoman expansion (1299\u20131453)"
+        "Part of Yuan Dynasty decline (1330s\u20131360s)",
+        "Related to 1331-002 (famines and epidemics)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Genk\u014d Rebellion is traditionally dated 1331\u20131333, with 1331 as the start date. However, some modern Japanese historians have proposed slightly different chronologies based on reexamination of sources. The famine in China in 1331 is attested in later sources but not in contemporary primary documents; the exact year is uncertain. Ottoman expansion in 1331 is not specifically documented; the year is assigned by convention based on broader patterns of Ottoman growth in the 1330s.",
-  "historiographic_note": "Documentation for 1331 is sparse. Japanese events (Genk\u014d Rebellion) are well-recorded in contemporary and near-contemporary chronicles. English-French tensions are documented in royal records and later chronicles. Chinese and Ottoman events rely on later compilations and are difficult to date precisely. The year falls in a period of significant geopolitical change across multiple regions, but surviving sources are unevenly distributed. Sub-Saharan Africa, the Americas, and much of Central Asia are absent from surviving written records.",
+  "disconfirming_evidence": "The significance of Halidon Hill has been somewhat revised by modern scholarship. While traditionally presented as a decisive turning point in Anglo-Scottish relations, recent historians note that the battle's long-term strategic impact was limited; Scottish independence was ultimately secured despite this English victory, and Edward Balliol's claim to the Scottish throne proved unsustainable. The battle is better understood as one episode in a prolonged conflict rather than a watershed moment. Additionally, the precise casualty figures reported in contemporary chronicles are likely exaggerated.",
+  "historiographic_note": "Documentation for 1331 is uneven. European sources (particularly English chronicles) are relatively rich for military and political events. Chinese sources are abundant but often compiled centuries later (Yuan Shi was written by Ming historians). Islamic and Ottoman sources are sparser and often later compilations. Sub-Saharan Africa, Oceania, and much of Central Asia are essentially undocumented for this specific year. The surviving record is heavily weighted toward elite political and military history; economic, social, and cultural history are underrepresented.",
   "graph_edges": [
     {
       "from": "1331-001",
-      "to": "1332-001",
-      "relation": "led_to",
-      "note": "The Genk\u014d Rebellion that began in 1331 continued through 1332 and culminated in 1333"
+      "to": "1340s-Ottoman_expansion",
+      "relation": "part_of",
+      "note": "Kallimere's capture is part of systematic Ottoman territorial consolidation in Anatolia"
     },
     {
       "from": "1331-002",
-      "to": "1332-004",
+      "to": "1340s-Black_Death_pandemic",
       "relation": "led_to",
-      "note": "The 1331 famine in China contributed to peasant unrest and rebellions in subsequent years"
+      "note": "Yuan famines and epidemics of 1331 are among the earliest documented outbreaks of plague that would become the Black Death"
     },
     {
       "from": "1331-003",
-      "to": "1332-003",
+      "to": "1337-Hundred_Years_War",
+      "relation": "part_of",
+      "note": "Halidon Hill demonstrated longbow tactics that would define English strategy in the Hundred Years' War"
+    },
+    {
+      "from": "1331-004",
+      "to": "1368-Ming_Dynasty_founding",
       "relation": "led_to",
-      "note": "English-French tensions escalated into the Second War of Scottish Independence and broader conflicts"
+      "note": "Wenzong's weak rule contributed to Yuan decline and eventual Ming conquest"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:40:55.813690",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

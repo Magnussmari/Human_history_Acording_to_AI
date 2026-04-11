@@ -1,57 +1,61 @@
 {
   "year": 1353,
   "year_label": "1353 CE",
-  "era_context": "The mid-14th century continued under the shadow of the Black Death, which was reaching its peak mortality in Europe and the Mediterranean. The Hundred Years' War between England and France was in an active phase; the Ottoman Empire was consolidating its early Anatolian holdings and beginning European expansion; the Yuan Dynasty in China faced accelerating internal collapse; and the Mamluk Sultanate dominated the Islamic world.",
+  "era_context": "The mid-14th century was characterized by the lingering effects of the Black Death (which peaked in 1347\u20131353), the fragmentation of the Mongol Empire, the rise of the Ottoman Empire, the Hundred Years' War between England and France, and the consolidation of Ming power in China. This was a period of significant demographic, economic, and military change across Eurasia. In Europe, feudalism was under stress; in Asia, centralized empires were reasserting control.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited written records)",
-    "Southeast Asia (sparse European documentation)",
-    "Oceania (minimal contemporary records)",
-    "Central Asia (limited sources outside Islamic chronicles)"
+    "Mesoamerica and South America (post-conquest sources only)",
+    "Central Asia and the steppes (sparse contemporary documentation)",
+    "Southeast Asia (limited European awareness; local sources fragmentary)"
   ],
   "events": [
     {
       "id": "1353-001",
-      "title": "Black Death peak mortality in Europe and Mediterranean",
-      "region": "Europe, Mediterranean, North Africa",
-      "coordinates_approx": null,
+      "title": "Black Death's final major wave in Europe",
+      "region": "Europe (widespread)",
+      "coordinates_approx": "50.0, 15.0",
       "category": "demographic",
-      "description": "The Black Death reached its peak mortality in 1353, particularly in Mediterranean ports and urban centers. Venice, Florence, and other Italian city-states experienced catastrophic population loss. Mortality rates in some cities exceeded 50\u201360% of the population. The plague's peak in 1353 marked the transition from the initial pandemic wave to endemic recurrence. Survivors faced severe labor shortages, economic disruption, and psychological trauma that would reshape European society for generations.",
-      "key_figures": [],
+      "description": "During 1353, the Black Death, which had devastated Europe since 1347\u20131348, was entering its final major wave. While the plague would continue to recur in subsequent decades and centuries, the acute pandemic phase was subsiding by 1353. The plague had killed an estimated 30\u201360% of Europe's population, fundamentally disrupting feudal society, labor systems, and economic structures. By 1353, survivors were beginning to rebuild, but the demographic, social, and economic consequences would persist for generations. The plague's impact on labor scarcity led to increased wages for surviving workers and contributed to the eventual decline of serfdom in Western Europe.",
+      "key_figures": [
+        "European rulers and Church leaders (responding to crisis)"
+      ],
       "sources": [
         {
-          "name": "Giovanni Boccaccio, Decameron (written 1353\u20131354, describes Florence in 1348\u20131353)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Matteo Villani, Chronicle",
+          "name": "Contemporary chronicles (Boccaccio, Froissart, etc.)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Parish records and mortality data (archival/archaeological)",
-          "type": "archaeological",
+          "name": "Parish records and mortality data",
+          "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Modern epidemiological and demographic studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Plague mortality in 1353 is extensively documented in contemporary chronicles and confirmed by modern demographic analysis of parish records.",
+      "certainty_note": "The Black Death's timeline and impact are well-documented in contemporary sources and confirmed by modern demographic and epidemiological research. The dating of the plague's phases is secure.",
       "cross_references": [
-        "1347-001 (Black Death arrival)",
-        "1354-004 (Continued plague effects)"
+        "Part of the Black Death pandemic (1347\u20131353 acute phase; recurrences until 17th century)",
+        "Led to 1354-001 (recovery and rebuilding)"
       ]
     },
     {
       "id": "1353-002",
-      "title": "English naval victory at Winchelsea (Battle of Espagnols-sur-Mer)",
-      "region": "English Channel, England",
-      "coordinates_approx": "50.95\u00b0N, 0.97\u00b0E",
+      "title": "Hundred Years' War: English military campaigns in France",
+      "region": "France (Aquitaine, Normandy, Brittany)",
+      "coordinates_approx": "46.0, 2.0",
       "category": "military",
-      "description": "On August 29, 1353, an English fleet under Edward III defeated a Castilian fleet off Winchelsea on the English coast. The battle was part of the broader Hundred Years' War context, as Castile had allied with France. The English victory secured naval dominance in the Channel and demonstrated English military superiority during this phase of the conflict. The battle resulted in significant Castilian losses and reinforced English control of sea routes.",
+      "description": "During 1353, English forces continued to conduct military campaigns in France, particularly in Aquitaine and Normandy. The English were consolidating their territorial holdings and preparing for the major campaigns of 1355\u20131356. The English strategy of chevauch\u00e9e (rapid cavalry raids) continued to devastate the French countryside. French military organization was still recovering from the Black Death's demographic impact, and English tactical innovations continued to give the English significant advantages. The English were gradually building toward the decisive campaigns that would culminate in the Battle of Poitiers in 1356.",
       "key_figures": [
         "Edward III (King of England)",
-        "Henry of Castile (Castilian commander)"
+        "Edward, the Black Prince (English commander)",
+        "King John II of France",
+        "French regional commanders"
       ],
       "sources": [
         {
@@ -60,142 +64,188 @@
           "contemporary": false
         },
         {
-          "name": "English royal records and chronicles",
+          "name": "English royal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "English military activity in 1353 is attested in royal records and chronicles, but specific dates and details of individual campaigns are sometimes uncertain.",
+      "cross_references": [
+        "Part of the Hundred Years' War (1337\u20131453)",
+        "Led to 1354-001 (continued campaigns)"
+      ]
+    },
+    {
+      "id": "1353-003",
+      "title": "Zhu Yuanzhang's military rise in southern China",
+      "region": "Jiangnan region, China (Yangtze River valley)",
+      "coordinates_approx": "30.0, 120.0",
+      "category": "military",
+      "description": "During 1353, Zhu Yuanzhang was emerging as a major military power in southern China. He had recently joined the Red Turban Rebellion (a popular uprising against Yuan rule) and was rapidly consolidating power in the Yangtze River valley. Zhu's military success was based on superior organization, the use of gunpowder weapons, and his ability to attract talented commanders and administrators. By 1353, it was becoming clear that Zhu would be a major player in the struggle for control of China. His forces were well-disciplined and increasingly equipped with cannons and hand cannons, giving him significant military advantages over rival warlords.",
+      "key_figures": [
+        "Zhu Yuanzhang (future Hongwu Emperor)",
+        "Xu Da (Ming general)",
+        "Chang Yuchun (Ming general)",
+        "Yuan Dynasty officials"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhu Yuanzhang's military rise in 1353 is attested in Ming official records, but precise dating of individual campaigns is sometimes uncertain. The general trajectory is clear.",
+      "cross_references": [
+        "Part of the Yuan-Ming transition (1350\u20131368)",
+        "Led to 1354-002 (continued expansion)"
+      ]
+    },
+    {
+      "id": "1353-004",
+      "title": "Clement VI's death and Innocent VI's election as Pope",
+      "region": "Avignon, Papal States",
+      "coordinates_approx": "43.95, 4.81",
+      "category": "religious",
+      "description": "On 6 December 1352, Pope Clement VI died, and Innocent VI (\u00c9tienne Aubert) was elected as his successor on 18 December 1352. Innocent VI's papacy (1352\u20131362) was marked by efforts to reform the Church, combat simony and clerical corruption, and reassert papal authority. Innocent VI was concerned with the fragmentation of Church authority and the impact of the Black Death on Church institutions. He also worked to recover papal territories in Italy through his legate Cardinal Albornoz. The papacy remained in Avignon during this period, a situation that would persist until 1377.",
+      "key_figures": [
+        "Innocent VI (Pope, r. 1352\u20131362)",
+        "Clement VI (previous Pope, d. 1352)",
+        "Cardinal Albornoz (papal legate in Italy)"
+      ],
+      "sources": [
+        {
+          "name": "Papal registers and bulls",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Papal succession dates are precisely documented in Vatican archives and contemporary sources. Clement VI died on 6 December 1352; Innocent VI was elected on 18 December 1352.",
+      "cross_references": [
+        "Part of the Avignon Papacy (1309\u20131377)",
+        "Led to 1354-004 (Innocent VI's reform efforts)"
+      ]
+    },
+    {
+      "id": "1353-005",
+      "title": "Casimir III of Poland's reign and territorial consolidation",
+      "region": "Kingdom of Poland",
+      "coordinates_approx": "52.0, 19.0",
+      "category": "political",
+      "description": "During 1353, Casimir III (r. 1333\u20131370), known as Casimir the Great, continued his reign as King of Poland. Casimir III was consolidating Polish territory, reforming the legal system, and promoting economic development. He expanded Polish territory at the expense of neighboring powers and established Poland as a major Central European state. Casimir III also promoted the development of towns, encouraged trade, and reformed the Church's relationship with the crown. His reign marked a period of relative stability and prosperity for Poland after decades of fragmentation.",
+      "key_figures": [
+        "Casimir III (King of Poland, r. 1333\u20131370)",
+        "Polish nobility and regional lords"
+      ],
+      "sources": [
+        {
+          "name": "Polish chronicles (Joannes Dlugossius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Royal records and charters",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Winchelsea is well-documented in English and French chronicles with consistent dating.",
+      "certainty_note": "Casimir III's reign is well-documented in Polish chronicles and royal records.",
       "cross_references": [
-        "1337-001 (Hundred Years' War beginning)",
-        "1356-001 (Battle of Poitiers)"
+        "Part of Casimir III's reign (1333\u20131370)",
+        "Led to 1354-005 (continued reign)"
       ]
     },
     {
-      "id": "1353-003",
-      "title": "Zheng He's predecessor's naval expeditions in Ming context (Yuan period)",
-      "region": "China, Indian Ocean",
-      "coordinates_approx": null,
-      "category": "exploration",
-      "description": "In 1353, the Yuan Dynasty was fragmenting, and maritime activity in the Indian Ocean was dominated by Arab, Indian, and Southeast Asian traders rather than Chinese state-sponsored expeditions. However, this period laid groundwork for later Ming maritime expansion. Chinese merchants and pirates were active in Southeast Asian waters, and the eventual consolidation of Ming rule would enable the famous Zheng He expeditions (1405\u20131433). The 1353 context is one of transition from Yuan maritime decline to Ming maritime ascendancy.",
+      "id": "1353-006",
+      "title": "Ottoman expansion under Orhan Gazi",
+      "region": "Ottoman Empire (Anatolia and Balkans)",
+      "coordinates_approx": "40.0, 28.0",
+      "category": "military",
+      "description": "During 1353, the Ottoman Empire under Orhan Gazi (r. 1323\u20131362) continued its territorial expansion in Anatolia and the Balkans. Ottoman forces captured additional territories and consolidated their control over key strategic areas. The Ottomans were gradually displacing the declining Byzantine Empire and fragmenting Balkan states. Ottoman military success was based on superior organization, the use of gunpowder weapons, and the devshirme system of recruiting elite slave-soldiers. By 1353, the Ottoman Empire was clearly on a trajectory toward becoming a major imperial power.",
       "key_figures": [
-        "Toghon Tem\u00fcr (Yuan Emperor)"
+        "Orhan Gazi (Ottoman Sultan, r. 1323\u20131362)",
+        "Byzantine and Balkan rulers (opponents)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (History of the Yuan Dynasty)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "No specific maritime events are documented for 1353; this entry reflects the broader context of Yuan decline and Ming maritime preparation.",
-      "cross_references": [
-        "1405-001 (Zheng He's first expedition)"
-      ]
-    },
-    {
-      "id": "1353-004",
-      "title": "Songhai Empire consolidation in West Africa",
-      "region": "West Africa (modern Mali, Burkina Faso, Niger)",
-      "coordinates_approx": "16.0\u00b0N, -4.0\u00b0W",
-      "category": "political",
-      "description": "The Songhai Empire, centered on Gao, was consolidating power in West Africa as the Mali Empire declined. By 1353, Songhai controlled key trade routes and was expanding its territorial influence. The empire would reach its height under Sonni Ali (r. 1464\u20131492) and Askia Muhammad (r. 1493\u20131528), but 1353 marks a period of steady growth and increasing regional dominance. Songhai's rise was facilitated by control of Niger River trade and gold resources.",
-      "key_figures": [
-        "Ali Kolon (Songhai ruler, approximate dates uncertain)"
-      ],
-      "sources": [
-        {
-          "name": "Timbuktu chronicles (Tarikh al-Sudan, Tarikh al-Fattash, compiled later)",
+          "name": "Ottoman chronicles (Ne\u015fri, A\u015f\u0131kpa\u015fazade)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn Battuta, Rihla (written 1355\u20131356, describes West Africa)",
-          "type": "primary_text",
+          "name": "Byzantine sources (Kantakouzenos)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Archaeological evidence from Gao and Timbuktu",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Specific events in 1353 are not documented; dating of Songhai rulers is uncertain. This entry reflects the broader context of Songhai's rise during the 14th century.",
-      "cross_references": [
-        "1464-001 (Sonni Ali's reign begins)"
-      ]
-    },
-    {
-      "id": "1353-005",
-      "title": "Mamluk-Venetian trade negotiations and Mediterranean commerce",
-      "region": "Egypt, Venice, Mediterranean",
-      "coordinates_approx": "30.0\u00b0N, 31.2\u00b0E",
-      "category": "economic",
-      "description": "In 1353, the Mamluk Sultanate and Venice were engaged in ongoing trade negotiations and commercial relations. Despite periodic conflicts, Venetian merchants maintained access to Egyptian ports and the spice trade routes to Asia. The Mamluks' control of the Levant and Egypt made them crucial intermediaries in the lucrative trade between Europe and Asia. This commercial relationship would persist until the Ottoman conquest of Constantinople (1453) and the subsequent shift in trade routes.",
-      "key_figures": [
-        "Al-Nasir Muhammad al-Qalawun (Mamluk Sultan)",
-        "Venetian merchant families (Contarini, Morosini, etc.)"
-      ],
-      "sources": [
-        {
-          "name": "Venetian state archives and merchant records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
-          "type": "later_compilation",
+          "name": "Balkan regional chronicles",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Mamluk-Venetian trade is well-documented in Venetian archives, though specific 1353 transactions are not individually highlighted in surviving records.",
+      "certainty_note": "Ottoman expansion in the 1350s is attested in later Ottoman chronicles and Byzantine sources, but precise dating of individual campaigns is uncertain.",
       "cross_references": [
-        "1354-005 (Mamluk consolidation)",
-        "1453-001 (Ottoman conquest of Constantinople)"
+        "Part of Ottoman rise to power (1299\u20131453)",
+        "Led to 1354-003 (continued expansion)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Winchelsea (1353-002) is sometimes overstated in English historiography as a decisive turning point; while significant, it did not fundamentally alter the Hundred Years' War's trajectory. The Songhai Empire's rise (1353-004) is often presented as inevitable; in reality, the empire faced significant competition and internal challenges, and its dominance was not assured until the 15th century. The characterization of 1353 as the 'peak' of the Black Death (1353-001) is somewhat arbitrary; mortality remained severe in 1354\u20131355 in many regions, and the plague recurred in waves throughout the 14th century.",
-  "historiographic_note": "1353 is well-documented in European sources, particularly English and Italian chronicles, reflecting the prominence of the Hundred Years' War and the Black Death in surviving records. Islamic sources are substantial but often compiled centuries later. Chinese sources are rich but reflect Yuan court perspectives. African history is severely underrepresented; the Songhai Empire's rise is known primarily through later Timbuktu chronicles and Ibn Battuta's account (written after his travels). The year 1353 is dominated by plague narratives in European historiography, which may obscure other significant developments in Asia and Africa. Court-sponsored chronicles tend to emphasize political and military events.",
+  "disconfirming_evidence": "The Black Death's impact, while devastating, has been subject to some historiographic revision. Modern scholarship has questioned some of the highest mortality estimates (30\u201360%) and has noted that the plague's impact varied significantly by region and time period. Some scholars have argued that the plague's demographic impact was less uniform than once believed, and that recovery in some regions was faster than in others. Additionally, the plague's role in the decline of feudalism has been debated; some scholars argue that feudalism was already in decline before the plague, and that the plague accelerated but did not cause this decline. The significance of English military campaigns in the 1350s has also been revised; some historians argue that French military adaptation was occurring more rapidly than once believed.",
+  "historiographic_note": "The year 1353 is well-documented for Western Europe, particularly regarding the Black Death's impact and the Hundred Years' War. Contemporary chronicles provide detailed accounts of the plague's effects and military campaigns. Italian and Islamic sources are also available for this period. Chinese sources are detailed for this period, with Ming official records providing accounts of Zhu Yuanzhang's rise. However, Ottoman sources for this period are primarily later compilations, making precise dating uncertain. Sub-Saharan African, Mesoamerican, and Central Asian events are poorly documented. The historical record is heavily weighted toward political, military, and demographic events involving major powers; economic and social developments are less systematically recorded. Bias toward elite narratives and court-sponsored chronicles means that popular movements and non-elite perspectives are underrepresented.",
   "graph_edges": [
     {
       "from": "1353-001",
-      "to": "1354-004",
+      "to": "1354-001",
       "relation": "led_to",
-      "note": "Black Death's peak mortality in 1353 led to continued social disruption in 1354"
+      "note": "Black Death's final wave in 1353 led to recovery and rebuilding in 1354"
     },
     {
       "from": "1353-002",
-      "to": "1356-001",
-      "relation": "part_of",
-      "note": "Naval victory was part of broader English military dominance in the Hundred Years' War"
+      "to": "1354-001",
+      "relation": "led_to",
+      "note": "English military campaigns in 1353 continued in 1354"
+    },
+    {
+      "from": "1353-003",
+      "to": "1354-002",
+      "relation": "led_to",
+      "note": "Zhu Yuanzhang's military rise in 1353 continued in 1354"
     },
     {
       "from": "1353-004",
-      "to": "1464-001",
+      "to": "1354-004",
       "relation": "led_to",
-      "note": "Songhai consolidation in 1353 led to empire's expansion under Sonni Ali"
-    },
-    {
-      "from": "1353-005",
-      "to": "1453-001",
-      "relation": "led_to",
-      "note": "Mamluk-Venetian trade relations persisted until Ottoman conquest disrupted routes"
+      "note": "Innocent VI's election in 1352 led to reform efforts in 1354"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:34:58.845136",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

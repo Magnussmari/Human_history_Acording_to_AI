@@ -1,193 +1,176 @@
 {
   "year": 1391,
   "year_label": "1391 CE",
-  "era_context": "The late 14th century: Ming China consolidating Han rule; Ottoman expansion in the Balkans; Western European kingdoms in dynastic conflict; the Great Schism fragmenting papal authority; the Timurid Empire in Central Asia.",
+  "era_context": "The late 14th century saw the consolidation of major Eurasian powers: the Ming Dynasty in China (established 1368) was expanding its administrative reach; the Ottoman Empire was in rapid territorial expansion in Anatolia and the Balkans; Western Europe was fragmented among competing kingdoms and principalities during the late medieval period; and the Timurid Empire controlled Central Asia and Persia following Timur's conquests. This was an era of significant cultural flowering in Islamic lands, early Renaissance stirrings in Italy, and technological advancement in navigation and printing.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Pacific and Oceanic societies",
-    "Interior Americas",
-    "Central Asian steppe (limited non-Islamic sources)"
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
+    "Oceania and Pacific islands (minimal contemporary records)"
   ],
   "events": [
     {
       "id": "1391-001",
-      "title": "Ottoman siege of Constantinople; Byzantine crisis",
-      "region": "Ottoman Empire, Byzantine Empire, Balkans",
-      "coordinates_approx": "41.0, 28.9",
-      "category": "military",
-      "description": "The Ottoman Turks, under Bayezid I, besieged Constantinople in 1391\u20131392, putting intense pressure on the declining Byzantine Empire. The siege was not a full assault but rather a blockade and demonstration of Ottoman power. The Byzantine Emperor Manuel II was forced to negotiate and eventually pay tribute to the Ottomans. This siege marked a critical moment in the decline of the Byzantine Empire, which would eventually fall to the Ottomans in 1453. The siege demonstrated Ottoman military superiority and the vulnerability of Constantinople, which was now surrounded by Ottoman-controlled territory.",
+      "title": "Pogroms against Jews in Castile and Aragon (Valencian Massacres)",
+      "region": "Iberian Peninsula (Kingdom of Castile, Kingdom of Aragon, Valencia)",
+      "coordinates_approx": "39.5\u00b0N, 0.5\u00b0W",
+      "category": "religious",
+      "description": "Severe anti-Jewish violence erupted across the Crown of Aragon and Castile, particularly in Valencia, Barcelona, and Seville. Mobs, often incited by clerical preaching and economic resentment, attacked Jewish quarters (aljamas), killing hundreds and forcing mass conversions. The violence was partly triggered by a sermon by Ferran Mart\u00ednez, an archdeacon of \u00c9cija, who had been preaching against Jews for years. These pogroms marked a turning point in Iberian Jewish history, leading to the forced conversion of thousands and the beginning of the end for medieval Spanish Jewry.",
       "key_figures": [
-        "Bayezid I (Ottoman Sultan, r. 1389\u20131402)",
-        "Manuel II (Byzantine Emperor, r. 1391\u20131425)"
+        "Ferran Mart\u00ednez (archdeacon, preacher)",
+        "King John I of Aragon (attempted to restore order)"
       ],
       "sources": [
         {
-          "name": "Byzantine sources (Doukas, Historia; Chalkokondyles)",
+          "name": "Contemporary Jewish chronicles and responsa (Shevet Yehudah by Solomon ibn Verga, compiled later but based on contemporary accounts)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ottoman chronicles (Ne\u015fri, A\u015f\u0131kpa\u015fazade)",
-          "type": "later_compilation",
+          "name": "Aragonese royal documents and municipal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Christian chronicles (Cr\u00f3nica de Juan II)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Ottoman siege of Constantinople in 1391\u20131392 is well-documented in both Byzantine and Ottoman sources.",
+      "certainty_note": "The pogroms are well-documented in both Jewish and Christian sources from the period. The exact death toll varies by source (estimates range from hundreds to thousands), but the event's occurrence and significance are not disputed.",
       "cross_references": [
-        "1453-001 (Fall of Constantinople)"
+        "Follows from anti-Jewish sentiment building through the 1380s",
+        "Led to the Spanish Inquisition's establishment in 1478 and eventual expulsion of 1492"
       ]
     },
     {
       "id": "1391-002",
-      "title": "Manuel II becomes Byzantine Emperor",
-      "region": "Byzantine Empire",
-      "coordinates_approx": "41.0, 28.9",
-      "category": "political",
-      "description": "Manuel II Palaiologus became Byzantine Emperor in 1391, succeeding his father John V. Manuel II was one of the last effective Byzantine emperors, known for his diplomatic skills and his efforts to preserve the Byzantine state in the face of Ottoman expansion. He ruled during the critical period of Ottoman siege and expansion, and his reign saw the Byzantine Empire reduced to Constantinople and a few outlying territories. Manuel II was also a scholar and theologian, and he left behind important writings on Byzantine history and culture. His reign lasted until 1425, and he was succeeded by his son John VIII.",
+      "title": "Ottoman conquest of Ayd\u0131n and consolidation in western Anatolia",
+      "region": "Ottoman Empire, western Anatolia",
+      "coordinates_approx": "37.8\u00b0N, 27.8\u00b0E",
+      "category": "military",
+      "description": "The Ottoman forces under Murad I continued their systematic conquest of the remaining Turkish beyliks (principalities) in western Anatolia. The capture of Ayd\u0131n and surrounding territories consolidated Ottoman control over the Aegean coast and eliminated rival Turkish states. This expansion was part of Murad I's broader strategy to unify Anatolia under Ottoman rule and prepare for campaigns into the Balkans. The conquest strengthened Ottoman naval capabilities and economic resources.",
       "key_figures": [
-        "Manuel II (Byzantine Emperor, r. 1391\u20131425)",
-        "John V (father, r. 1341\u20131391)"
+        "Murad I (Ottoman Sultan)",
+        "S\u00fcleyman \u00c7elebi (Ottoman military commander)"
       ],
       "sources": [
         {
-          "name": "Byzantine sources (Doukas, Historia; Chalkokondyles)",
+          "name": "Ottoman chronicles (A\u015f\u0131kpa\u015fazade's History of the House of Osman, compiled in 15th century)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Manuel II's own writings",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Byzantine sources (Doukas family histories)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Ottoman studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Manuel II's accession to the throne in 1391 is precisely dated in Byzantine sources.",
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in this period is well-attested, though exact dating of individual conquests varies by source. The consolidation of western Anatolia occurred over several years; 1391 is approximate for Ayd\u0131n's fall.",
       "cross_references": [
-        "1425-001 (Manuel II's death)"
+        "Part of broader Ottoman expansion 1360\u20131400",
+        "Led to Ottoman dominance in Anatolia by early 15th century"
       ]
     },
     {
       "id": "1391-003",
-      "title": "Hongwu Emperor purges officials; Ming bureaucratic consolidation",
-      "region": "China, Ming Dynasty",
-      "coordinates_approx": "34.3, 108.9",
+      "title": "Ming Dynasty's Yongle Emperor begins consolidation of power",
+      "region": "Ming China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
       "category": "political",
-      "description": "The Hongwu Emperor (Zhu Yuanzhang) was known for his periodic purges of officials he suspected of disloyalty or corruption. In the early 1390s, he continued this practice, executing or demoting numerous officials and consolidating his personal power. These purges were part of his broader strategy to eliminate potential rivals and establish absolute imperial authority. The purges were brutal and created an atmosphere of fear in the Ming bureaucracy, but they also helped to establish the centralized authority that would characterize the Ming Dynasty. The Hongwu Emperor's reign saw the transformation of the Chinese state from a decentralized feudal system to a highly centralized bureaucratic empire.",
+      "description": "The Yongle Emperor (Zhu Di), who would formally ascend to the throne in 1402 after the Jingnan Rebellion, was consolidating his power base as Prince of Yan in northern China. His military and administrative capabilities were becoming increasingly evident, and he was building alliances among military commanders and officials. This period laid the groundwork for his eventual usurpation of the throne from his nephew and his subsequent transformation of the Ming Dynasty into a centralized, expansionist power.",
       "key_figures": [
-        "Zhu Yuanzhang / Hongwu Emperor (r. 1368\u20131398)",
-        "Ming officials and nobility"
+        "Zhu Di, Prince of Yan (future Yongle Emperor)",
+        "Zhu Yunwen (Jianwen Emperor, reigning)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
-          "type": "chronicle",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ming historical records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Official Ming histories compiled by later dynasties",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Hongwu Emperor's purges were a continuous process throughout his reign; specific purges in 1391 are not well-documented.",
+      "certainty_note": "The Yongle Emperor's rise to power is well-documented, though the exact timeline of his consolidation of power in 1391 is inferred from broader historical narratives rather than specific dated events.",
       "cross_references": [
-        "1394-005 (Hongwu Emperor's consolidation of power)"
+        "Led to Jingnan Rebellion (1399\u20131402)",
+        "Resulted in Yongle's reign (1402\u20131424) and major Ming expansion"
       ]
     },
     {
       "id": "1391-004",
-      "title": "Gian Galeazzo Visconti expands Milan's territory",
-      "region": "Duchy of Milan, Northern Italy",
-      "coordinates_approx": "45.5, 9.2",
-      "category": "military",
-      "description": "Gian Galeazzo Visconti, the Duke of Milan, was engaged in military campaigns to expand Milanese territory in the early 1390s. He was consolidating his power and extending his influence across northern Italy through a combination of military conquest and diplomatic maneuvering. His expansion was part of the broader process of state-building in Renaissance Italy, where powerful city-states were competing for dominance. Gian Galeazzo's Milan would become one of the most powerful states in Italy, rivaling Venice and Florence.",
+      "title": "Timur's court in Samarkand at height of cultural patronage",
+      "region": "Timurid Empire, Central Asia (Samarkand)",
+      "coordinates_approx": "39.7\u00b0N, 67.5\u00b0E",
+      "category": "cultural",
+      "description": "Timur (Tamerlane), the great Central Asian conqueror, was in his final years (he died in 1405) and had established Samarkand as one of the world's great cultural centers. He patronized architects, poets, scholars, and craftsmen, commissioning magnificent buildings and supporting intellectual pursuits. The Timurid court was a nexus of Persian, Islamic, and Central Asian culture, attracting talent from across Eurasia. This period saw the flourishing of Persian literature, miniature painting, and architectural innovation that would define the Timurid Renaissance.",
       "key_figures": [
-        "Gian Galeazzo Visconti (Duke of Milan, r. 1378\u20131402)"
+        "Timur (Amir, conqueror)",
+        "Ulugh Beg (Timur's grandson, future astronomer and patron)"
       ],
       "sources": [
         {
-          "name": "Corio, Historia di Milano",
+          "name": "Sharaf al-Din Ali Yazdi's Zafarnama (Book of Victories), commissioned by Timur's son",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Florentine chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Gian Galeazzo's territorial expansion was a gradual process spanning the 1380s\u20131390s; specific campaigns in 1391 are not well-documented.",
-      "cross_references": [
-        "1393-002 (Gian Galeazzo's consolidation of power)"
-      ]
-    },
-    {
-      "id": "1391-005",
-      "title": "Great Schism continues; papal authority fragmented",
-      "region": "Western Europe, Catholic Church",
-      "coordinates_approx": "47.7, 9.2",
-      "category": "religious",
-      "description": "The Great Schism (1378\u20131417) continued unabated in 1391, with rival popes in Rome and Avignon claiming legitimacy. The schism was a major crisis for the Catholic Church, fragmenting papal authority and creating confusion among the faithful. Efforts to resolve the schism through councils and diplomatic pressure were ongoing but unsuccessful. The schism would not be resolved until the Council of Constance (1414\u20131418), which would establish a single pope and reform the Church's governance. The schism had profound effects on European politics, as different monarchs supported different popes based on political interests.",
-      "key_figures": [
-        "Boniface IX (Roman Pope, r. 1389\u20131404)",
-        "Clement VII (Avignon Pope, r. 1378\u20131394)"
-      ],
-      "sources": [
-        {
-          "name": "Papal registers and decrees",
-          "type": "primary_text",
+          "name": "Timurid court records and architectural evidence",
+          "type": "archaeological",
           "contemporary": true
         },
         {
-          "name": "Ecclesiastical chronicles",
-          "type": "chronicle",
+          "name": "Contemporary accounts by travelers (Ibn Battuta's earlier travels, Clavijo's embassy in 1403\u20131406)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Great Schism and its dates are well-documented in papal and ecclesiastical records.",
+      "certainty_note": "Timur's patronage of Samarkand and the cultural flowering of the Timurid court are well-documented through both textual sources and surviving architectural evidence.",
       "cross_references": [
-        "1378-001 (Great Schism begins)",
-        "1414-001 (Council of Constance)"
+        "Part of broader Timurid cultural renaissance (1370\u20131500s)",
+        "Influenced later Islamic and Persian culture"
       ]
     }
   ],
-  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed above. However, the Ottoman siege of Constantinople in 1391\u20131392 was not a full assault but rather a blockade and demonstration of power; it is sometimes overstated in historical accounts as a more serious threat than it actually was. The Hongwu Emperor's purges were a continuous process, not discrete events in specific years.",
-  "historiographic_note": "The historical record for 1391 is dominated by European, Islamic, and East Asian written sources. Sub-Saharan African, Pacific, and interior American events are almost entirely absent. The sources are predominantly later compilations rather than contemporary records, introducing dating uncertainty and potential bias toward court-sponsored narratives. Byzantine sources are particularly rich for this year due to the significance of Manuel II's accession and the Ottoman siege.",
+  "disconfirming_evidence": "The significance of the 1391 Iberian pogroms has been debated by historians regarding their immediate causes: some scholars emphasize economic competition and social tensions, while others stress religious ideology and clerical incitement. The relative weight of these factors remains contested. Additionally, the dating of some Ottoman conquests in Anatolia is approximate; some sources place the fall of Ayd\u0131n slightly earlier or later. The Yongle Emperor's role in 1391 is inferred from broader political narratives rather than specific documented actions in that year.",
+  "historiographic_note": "Documentation for 1391 is uneven. Western European and Islamic sources are relatively rich, particularly for the Iberian Peninsula and Ottoman Empire. Chinese sources (Ming Shilu) are detailed but often focus on court politics rather than broader social history. Sub-Saharan Africa, Southeast Asia, and the Americas are largely absent from surviving written records for this year. The sources that do exist are often written from elite perspectives (court chronicles, religious institutions) and may underrepresent popular movements, economic conditions, and the experiences of non-elite populations. Jewish sources for the 1391 pogroms were often compiled later, though they preserve earlier oral traditions and written records.",
   "graph_edges": [
     {
       "from": "1391-001",
-      "to": "1453-001",
+      "to": "1492-EXPULSION",
       "relation": "led_to",
-      "note": "The Ottoman siege of Constantinople in 1391 demonstrated Ottoman power and contributed to the eventual fall of the city in 1453"
+      "note": "The 1391 pogroms initiated a century-long process of forced conversion and marginalization that culminated in the 1492 expulsion of Jews from Spain"
     },
     {
       "from": "1391-002",
-      "to": "1425-001",
-      "relation": "led_to",
-      "note": "Manuel II's accession in 1391 began a reign that would last until 1425"
+      "to": "1402-YONGLE_ASCENSION",
+      "relation": "contemporary_with",
+      "note": "Ottoman and Ming consolidation were occurring simultaneously in different regions"
     },
     {
       "from": "1391-003",
-      "to": "1398-001",
+      "to": "1399-JINGNAN_REBELLION",
       "relation": "led_to",
-      "note": "The Hongwu Emperor's purges and consolidation of power in the 1390s set the stage for succession disputes after his death"
+      "note": "Yongle's consolidation of power in 1391 directly led to the rebellion that brought him to the throne"
     },
     {
-      "from": "1391-005",
-      "to": "1414-001",
+      "from": "1391-004",
+      "to": "1405-TIMUR_DEATH",
       "relation": "led_to",
-      "note": "The unresolved Great Schism of 1391 led to the Council of Constance in 1414"
+      "note": "Timur's cultural patronage in 1391 was part of his final years; his death in 1405 marked the beginning of the Timurid succession crisis"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:22:39.242612",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

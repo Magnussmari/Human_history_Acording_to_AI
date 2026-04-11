@@ -1,192 +1,196 @@
 {
   "year": 1344,
   "year_label": "1344 CE",
-  "era_context": "The mid-14th century spans the height of the Black Death pandemic (1347\u20131353), the Hundred Years' War between England and France (1337\u20131453), the decline of the Mongol Yuan Dynasty in China, and the flourishing of Islamic Mamluk power in Egypt and the Levant. In Europe, feudalism is under strain; in Asia, major dynastic transitions are underway.",
+  "era_context": "The mid-14th century is characterized by the Hundred Years' War in its early phase, the Yuan Dynasty in advanced decline, the Ottoman Empire's consolidation in Anatolia, and the Black Death pandemic spreading westward from Central Asia (though not yet documented in Europe). This year falls two years before the plague's documented arrival in the Mediterranean and three years before the Battle of Cr\u00e9cy.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records; oral traditions not well-preserved in European archives)",
-    "Southeast Asia (sparse European documentation; local chronicles less accessible in Western scholarship)",
-    "Oceania (virtually no written records for this period)"
+    "Sub-Saharan Africa (minimal contemporary written sources)",
+    "Interior Americas (no written records)",
+    "Central Asia (plague's spread is poorly documented in surviving Western sources)",
+    "Northern and Eastern Europe (sparse documentation)"
   ],
   "events": [
     {
       "id": "1344-001",
-      "title": "Battle of Cr\u00e9cy \u2014 English victory over France",
-      "region": "Normandy, Northern France",
-      "coordinates_approx": "50.23, 1.57",
-      "category": "military",
-      "description": "On 26 August 1346 (not 1344, but a major event dominating this era), English forces under Edward III defeated a much larger French army at Cr\u00e9cy, marking a turning point in the Hundred Years' War. However, in 1344 itself, Edward III held a tournament at Windsor and continued diplomatic maneuvering. The Battle of Cr\u00e9cy (1346) casts a long shadow over 1344 planning and preparations. For 1344 specifically: Edward III was consolidating power and preparing for major continental campaigns; the English court was in a state of military readiness.",
+      "title": "Black Death pandemic spreads through Central Asia",
+      "region": "Central Asia, Mongol territories",
+      "coordinates_approx": "45.0, 70.0",
+      "category": "demographic",
+      "description": "The plague pandemic continues its westward spread through Central Asian trade routes and Mongol-controlled territories. By 1344, the disease is documented in regions controlled by the Golden Horde and other Mongol successor states. The exact trajectory and timing of the plague's spread are difficult to establish from surviving sources, but contemporary accounts suggest massive mortality in Central Asia during the 1340s. The plague's presence in the Caucasus and the Crimea is documented by the mid-1340s.",
       "key_figures": [
-        "Edward III (King of England)",
-        "Philip VI (King of France)"
+        "Merchants and traders along the Silk Road",
+        "Mongol rulers and officials"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles (compiled late 14th century, based on earlier accounts)",
+          "name": "Later Islamic and Chinese sources describing plague in Central Asia",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Hundred Years' War chronology",
-          "type": "historiographic_consensus",
+          "name": "Paleogenomic evidence from mass graves in Central Asia",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "1344 itself saw no major pitched battle; the year is significant for military preparations and diplomatic tension preceding Cr\u00e9cy (1346). Dating is secure for the broader conflict.",
+      "certainty": "approximate",
+      "certainty_note": "The plague's presence in Central Asia by 1344 is probable based on the trajectory of the pandemic and later accounts, but precise dating is uncertain. Contemporary sources from Central Asia are sparse.",
       "cross_references": [
-        "1346-001 (Battle of Cr\u00e9cy)"
+        "1345-001 (Plague spreads further west)",
+        "1346-001 (Plague reaches Mediterranean)"
       ]
     },
     {
       "id": "1344-002",
-      "title": "Clement VI elected Pope",
-      "region": "Papal States, Avignon",
-      "coordinates_approx": "43.95, 4.81",
-      "category": "religious",
-      "description": "Pierre Roger was elected Pope Clement VI on 7 May 1342 (not 1344). In 1344, Clement VI was consolidating papal authority from Avignon, where the papacy had been resident since 1309. He was known for his patronage of the arts and his role in the coming plague response. Correction: Clement VI's election was in 1342, not 1344. In 1344, he was already established as pope.",
+      "title": "Hundred Years' War: English military preparations and diplomacy",
+      "region": "England, France, Low Countries",
+      "coordinates_approx": "50.5, 2.0",
+      "category": "military",
+      "description": "Edward III of England continues military preparations and diplomatic maneuvering in his conflict with Philip VI of France. English forces are building alliances with Low Countries powers and preparing for major military campaigns. The English are also consolidating their naval power in the English Channel. By 1344, the stage is being set for the major campaigns of 1346 (Battle of Cr\u00e9cy) and beyond. Contemporary sources note English military mobilization and French defensive measures.",
       "key_figures": [
-        "Clement VI (Pope, r. 1342\u20131352)"
+        "Edward III (King of England)",
+        "Philip VI (King of France)",
+        "English and French military commanders"
       ],
       "sources": [
         {
-          "name": "Papal registers and chronicles (e.g., Liber Pontificalis)",
+          "name": "Froissart, Chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and military accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "English military activity and preparations in 1344 are attested in royal records, though specific operations are not always precisely dated.",
+      "cross_references": [
+        "1346-002 (Battle of Cr\u00e9cy)",
+        "1340-001 (Battle of Sluys)"
+      ]
+    },
+    {
+      "id": "1344-003",
+      "title": "Yuan Dynasty continues internal decline and regional fragmentation",
+      "region": "Yuan Dynasty, China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Yuan Dynasty under Toghon Tem\u00fcr experiences continued internal instability. Regional warlords, Mongol princes, and Han Chinese officials compete for power. Corruption, inflation, and administrative paralysis are widespread. Peasant unrest and bandit movements are increasing. The central government's authority is weakening. By 1344, the dynasty's decline is evident to contemporary observers, and the conditions for major rebellion are developing.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Emperor of Yuan)",
+        "Various regional warlords and Mongol princes"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese official records and memorials",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Papal succession dates are well-documented in contemporary records.",
+      "certainty_note": "The general pattern of Yuan instability in the 1340s is well-documented in official records.",
       "cross_references": [
-        "1342-001 (Clement VI's election)"
-      ]
-    },
-    {
-      "id": "1344-003",
-      "title": "Zh\u81f3\u6b63 (Zhu Yuanzhang) begins rise to power in Yuan Dynasty collapse",
-      "region": "China, Anhui Province",
-      "coordinates_approx": "32.84, 117.23",
-      "category": "political",
-      "description": "In 1344, the Yuan Dynasty under Toghon Tem\u00fcr (Emperor Shun) was experiencing severe internal instability. Zhu Yuanzhang, who would found the Ming Dynasty, was born in 1328 and by 1344 was a young man. The Red Turban Rebellion (1351\u20131368) had not yet begun, but the conditions for Yuan collapse were already evident: famine, peasant unrest, and Mongol factional conflict. In 1344 specifically, Zhu Yuanzhang was likely still a commoner or low-ranking official; his major rise came after 1352.",
-      "key_figures": [
-        "Toghon Tem\u00fcr (Emperor Shun of Yuan, r. 1333\u20131368)",
-        "Zhu Yuanzhang (future Hongwu Emperor, b. 1328)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Veritable Records, compiled early Ming)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Yuan Shi (History of the Yuan, compiled by Ming historians)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Zhu Yuanzhang's early life is poorly documented. His major rise is dated to 1352 onwards. 1344 is assigned as a contextual marker of Yuan instability.",
-      "cross_references": [
-        "1351-001 (Red Turban Rebellion begins)",
-        "1368-001 (Ming Dynasty founded)"
+        "1345-003 (Yuan instability continues)",
+        "1351-001 (Red Turban Rebellion)"
       ]
     },
     {
       "id": "1344-004",
-      "title": "Bubonic plague spreads in Central Asia and toward Europe",
-      "region": "Central Asia, Crimea, Mediterranean trade routes",
-      "coordinates_approx": "45.0, 35.0",
-      "category": "environmental",
-      "description": "The Black Death (Yersinia pestis pandemic) was spreading along Silk Road trade routes in the early 1340s. By 1344, plague was documented in Central Asia and the Crimea. Genoese merchants in Caffa (Crimea) would be besieged by Mongol forces in 1346, and plague-infected corpses were allegedly catapulted into the city. The disease reached the Mediterranean in 1347. In 1344, the pandemic was still primarily an Asian phenomenon, but the mechanisms of transmission to Europe were already in motion.",
-      "key_figures": [],
+      "title": "Ottoman Empire consolidates power in northwestern Anatolia",
+      "region": "Ottoman Empire, Anatolia",
+      "coordinates_approx": "40.2, 29.0",
+      "category": "political",
+      "description": "Orhan I continues to consolidate Ottoman power in northwestern Anatolia. The Ottoman state is expanding its territory, strengthening its military organization, and establishing administrative structures. By 1344, the Ottomans are the dominant power in the region. Contemporary sources note Ottoman military strength and territorial expansion.",
+      "key_figures": [
+        "Orhan I (Ottoman Sultan)"
+      ],
       "sources": [
         {
-          "name": "Gabriele de Mussis, Istoria de Morbo (account of plague in Caffa, written c. 1348\u20131350)",
+          "name": "Ottoman chronicles (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources",
           "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Chinese sources (Yuan Shi, local records) documenting plague in Central Asia",
-          "type": "chronicle",
           "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on plague transmission routes",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Plague's presence in Central Asia by 1344 is supported by Chinese and later European accounts, though exact dating of the 1344 stage is approximate.",
+      "certainty_note": "Ottoman expansion under Orhan I is well-attested, though specific events in 1344 are not always precisely dated.",
       "cross_references": [
-        "1347-001 (Plague reaches Mediterranean)",
-        "1346-002 (Siege of Caffa)"
+        "1345-004 (Ottoman expansion continues)",
+        "1453-001 (Fall of Constantinople)"
       ]
     },
     {
       "id": "1344-005",
-      "title": "Mali Empire in decline; Mansa Musa's pilgrimage aftermath",
-      "region": "West Africa, Mali Empire",
-      "coordinates_approx": "12.0, -8.0",
-      "category": "political",
-      "description": "Mansa Musa of Mali died in 1337. By 1344, his successors were struggling to maintain the empire's territorial integrity and trade monopolies. The Mali Empire, which had dominated West African gold trade and Islamic scholarship in the 14th century, was beginning to fragment. In 1344, Mali was still a major power but facing pressure from rising Songhai and other regional competitors. The empire would continue to decline through the 15th century.",
+      "title": "Papal politics and ecclesiastical authority under Pope Clement VI",
+      "region": "Papal States, Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Pope Clement VI (r. 1342\u20131352) is consolidating papal authority and dealing with ecclesiastical politics. The papacy is based in Avignon (the Avignon papacy period, 1309\u20131377), and Clement VI is navigating complex political relationships with European monarchs. The Church is also beginning to grapple with heresy and religious dissent. By 1344, the papacy is in a period of institutional strength, though the Great Schism (which will begin in 1378) is still decades away.",
       "key_figures": [
-        "Mansa Musa (d. 1337)",
-        "Mansa Maghan I (r. c. 1337\u20131341)",
-        "Mansa Sulayman (r. c. 1341\u20131360)"
+        "Pope Clement VI",
+        "Various cardinals and bishops"
       ],
       "sources": [
         {
-          "name": "Ibn Battuta, Rihla (travel account, written c. 1355\u20131358, describes Mali c. 1352\u20131353)",
+          "name": "Papal records and bulls",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Tarikh al-Sudan and Tarikh al-Fattash (West African chronicles, compiled later but based on oral tradition)",
-          "type": "oral_tradition",
-          "contemporary": false
+          "name": "Contemporary ecclesiastical chronicles",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Mali's political succession in the 1340s is poorly documented in contemporary sources. Dates and names of rulers are derived from later chronicles and oral tradition, with significant uncertainty.",
+      "certainty": "confirmed",
+      "certainty_note": "Clement VI's papacy and ecclesiastical politics in 1344 are well-documented in papal records and contemporary chronicles.",
       "cross_references": [
-        "1337-001 (Mansa Musa's death)",
-        "1352-001 (Ibn Battuta's visit to Mali)"
+        "1378-001 (Great Schism begins)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Cr\u00e9cy is often cited as a 1344 event in popular histories, but it occurred in 1346. The significance of 1344 itself is largely contextual\u2014military preparation, diplomatic tension, and plague spread\u2014rather than a year of major decisive events. Mali's political structure in 1344 is often oversimplified in Western sources; the empire was more fragmented and contested than the 'unified Mali' narrative suggests. Clement VI's role in the coming plague response is sometimes exaggerated; his actual medical and theological responses were limited by 14th-century knowledge.",
-  "historiographic_note": "1344 is a year of transition and preparation rather than dramatic events. European sources (chronicles, royal records) are relatively abundant but focus heavily on England and France. Chinese sources (Yuan Shi, local records) provide good documentation of Yuan instability. Islamic and West African sources are sparse in European archives; Mali's history relies heavily on later oral tradition and Ibn Battuta's account (which postdates 1344). The plague's spread is documented in retrospective accounts rather than contemporary records from 1344 itself. Bias toward European and East Asian history is evident; African and Southeast Asian developments are underrepresented.",
+  "disconfirming_evidence": "The precise dating of the plague's spread through Central Asia in 1344 is uncertain. Some sources suggest the plague was already present in Central Asia by the 1340s, while others place its arrival later. The extent of plague mortality in Central Asia in 1344 is difficult to quantify; later accounts may conflate events from multiple years. The significance of English military preparations in 1344 is sometimes overstated; the major English campaigns did not begin until 1346. The Ottoman expansion narrative, while generally accurate, can obscure the fact that Ottoman consolidation was gradual and contested.",
+  "historiographic_note": "The year 1344 is moderately well-documented for Europe and the Mediterranean, with good sources for English-French military activity and papal politics. However, the plague's spread through Central Asia is poorly documented in surviving Western sources. Chinese sources are available but often compiled retrospectively. Ottoman sources are later compilations. The historiography of 1344 is shaped by the dramatic events of 1346 (Cr\u00e9cy, plague arrival in Europe), which may have overshadowed other significant developments in 1344. The year 1344 is often treated as a prelude to 1346 rather than as a significant year in its own right.",
   "graph_edges": [
     {
       "from": "1344-001",
-      "to": "1346-001",
+      "to": "1345-001",
       "relation": "led_to",
-      "note": "English military preparations in 1344 culminated in the Battle of Cr\u00e9cy in 1346"
+      "note": "Plague spread in Central Asia in 1344 continues westward in 1345"
     },
     {
-      "from": "1344-004",
-      "to": "1347-001",
+      "from": "1344-002",
+      "to": "1346-002",
       "relation": "led_to",
-      "note": "Plague spread through Central Asia in 1344 reached the Mediterranean in 1347"
+      "note": "English military preparations in 1344 culminate in Battle of Cr\u00e9cy in 1346"
     },
     {
       "from": "1344-003",
-      "to": "1351-001",
-      "relation": "led_to",
-      "note": "Yuan instability in 1344 contributed to the Red Turban Rebellion (1351)"
+      "to": "1345-003",
+      "relation": "contemporary_with",
+      "note": "Yuan instability in 1344 continues into 1345"
     },
     {
-      "from": "1344-005",
-      "to": "1352-001",
+      "from": "1344-004",
+      "to": "1345-004",
       "relation": "contemporary_with",
-      "note": "Mali's decline was concurrent with Ibn Battuta's observations in 1352"
+      "note": "Ottoman expansion in 1344 continues into 1345"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:38:09.164272",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

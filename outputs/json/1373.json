@@ -1,95 +1,177 @@
 {
   "year": 1373,
   "year_label": "1373 CE",
-  "era_context": "The late 14th century in Europe was marked by the aftermath of the Black Death (1347\u20131353), which had killed 30\u201360% of Europe's population. The Hundred Years' War between England and France continued with intermittent campaigns. The Ottoman Empire was expanding in the Balkans and Anatolia. In East Asia, the Ming Dynasty (founded 1368) was consolidating control over China after overthrowing the Mongol Yuan. The Papacy remained in Avignon, and the Western Church faced growing institutional criticism.",
-  "documentation_level": "sparse",
+  "era_context": "The late 14th century is marked by the Hundred Years' War between England and France, the Ottoman Empire's expansion in Anatolia and the Balkans, the Ming Dynasty's consolidation in China, and the early Italian Renaissance. The Catholic Church remains unified but experiencing tensions that would lead to the Western Schism in 1378.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records from this period)",
-    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
-    "Central Asia (post-Timurid fragmentation poorly documented)",
-    "Americas (no European contact; indigenous records limited)"
+    "Sub-Saharan Africa (limited written records)",
+    "Interior Americas (Aztec and Inca records exist but are sparse in European sources)",
+    "Central Asian steppes (fragmentary records)"
   ],
   "events": [
     {
       "id": "1373-001",
-      "title": "Treaty of Bruges (English-Burgundian Alliance)",
-      "region": "Flanders/Burgundy (modern Belgium)",
-      "coordinates_approx": "51.2, 3.2",
-      "category": "political",
-      "description": "In 1373, English forces under John of Gaunt, Duke of Lancaster, negotiated or reinforced alliances with Burgundian powers as part of the broader Hundred Years' War strategy. The English sought to isolate France by securing Burgundian support and preventing French expansion in the Low Countries. These diplomatic maneuvers were part of the complex web of alliances that characterized the later phases of the Hundred Years' War. The exact nature and date of specific treaties in 1373 are somewhat unclear in sources, but the general pattern of English-Burgundian cooperation is well-attested.",
+      "title": "Hundred Years' War: English campaigns in Aquitaine and Gascony",
+      "region": "England / France (Aquitaine, Gascony)",
+      "coordinates_approx": "44.8378, -0.5792",
+      "category": "military",
+      "description": "In 1373, English forces under John of Gaunt conducted a major military campaign in Aquitaine and Gascony, attempting to consolidate English control over these regions. The campaign was part of the broader English strategy to maintain dominance in southwestern France. Though the campaign achieved some military successes, it did not result in a decisive victory.",
       "key_figures": [
-        "John of Gaunt, Duke of Lancaster (English commander)",
-        "Philip II, Duke of Burgundy (Burgundian ruler)",
-        "Charles V of France (French king)"
+        "John of Gaunt (English military commander)",
+        "Edward III of England",
+        "Charles V of France"
       ],
       "sources": [
         {
-          "name": "Froissart's Chronicles (contemporary chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "English and Burgundian diplomatic records",
+          "name": "Froissart's Chronicles; English and French royal records",
           "type": "primary_text",
           "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The general pattern of English-Burgundian alliance-building in the early 1370s is well-documented, but the precise date and nature of specific treaties in 1373 are less clear. Dating is approximate within \u00b12 years.",
-      "cross_references": [
-        "Part of Hundred Years' War diplomacy (1337\u20131453)"
-      ]
-    },
-    {
-      "id": "1373-002",
-      "title": "Ming Dynasty Administrative Reforms",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Hongwu Emperor continued administrative and military reforms in 1373 as part of the broader consolidation of Ming power. The Ming court was reorganizing the examination system, restructuring the military (particularly the establishment of the Guard system), and eliminating remaining Yuan loyalists and rival power centers. These reforms were foundational to the Ming Dynasty's long-term stability and centralized governance. The period saw increasing emphasis on Confucian orthodoxy and imperial authority.",
-      "key_figures": [
-        "Zhu Yuanzhang / Hongwu Emperor (Ming founder)",
-        "Court officials and generals"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
-          "type": "chronicle",
-          "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Ming consolidation",
+          "name": "Historiographic consensus on Hundred Years' War chronology",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of Ming administrative reform is well-documented, but specific events of 1373 are not individually highlighted in most sources.",
+      "certainty_note": "The 1373 campaign is attested in Froissart and other chronicles, though specific details vary. The campaign is sometimes dated 1373\u20131374.",
       "cross_references": [
-        "Part of Ming Dynasty consolidation (1368\u20131398)"
+        "1375-001 (Treaty of Bruges)"
+      ]
+    },
+    {
+      "id": "1373-002",
+      "title": "Ming Dynasty: consolidation of control; administrative reforms",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Hongwu Emperor continued consolidating Ming power in 1373 through administrative reforms and the centralization of authority. He was establishing the bureaucratic structures and systems of control that would define Ming governance. This period saw the elimination of regional power centers and the concentration of power in the imperial court.",
+      "key_figures": [
+        "Hongwu Emperor / Zhu Yuanzhang (r. 1368\u20131398)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hongwu's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hongwu Emperor's administrative reforms are well-documented in Ming records, though specific reforms in 1373 require careful reading of the Ming Shilu.",
+      "cross_references": [
+        "1374-002 (Continued administrative reforms)"
+      ]
+    },
+    {
+      "id": "1373-003",
+      "title": "Ottoman expansion in Anatolia and the Balkans",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "39.9334, 32.8597",
+      "category": "political",
+      "description": "Murad I, the Ottoman Sultan, continued expanding Ottoman territory in Anatolia and the Balkans in 1373. The Ottoman state was consolidating its power and establishing itself as a major regional force. This period saw the Ottoman Empire transition from a small principality to a significant power.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan, r. 1362\u20131389)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Ottoman expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in 1373 is attested in Ottoman sources, but specific events and dates can vary. The broader pattern of Murad I's consolidation is well-established.",
+      "cross_references": [
+        "1374-004 (Continued campaigns)"
+      ]
+    },
+    {
+      "id": "1373-004",
+      "title": "Tamerlane's consolidation of power in Central Asia",
+      "region": "Central Asia (Timurid Empire)",
+      "coordinates_approx": "39.2075, 69.1824",
+      "category": "political",
+      "description": "Timur (Tamerlane) was consolidating his power in Central Asia in 1373, eliminating rival khans and establishing the foundation of the Timurid Empire. He was conducting military campaigns and diplomatic negotiations to establish his authority over Transoxiana and neighboring regions.",
+      "key_figures": [
+        "Timur / Tamerlane (r. 1369\u20131405)"
+      ],
+      "sources": [
+        {
+          "name": "Timurid chronicles (Yazdi, Sharaf al-Din Ali Yazdi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Timur's rise",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Timur's consolidation of power is well-attested in Islamic and Persian sources, though specific events in 1373 are not always clearly dated.",
+      "cross_references": [
+        "1374-005 (Continued campaigns)"
+      ]
+    },
+    {
+      "id": "1373-005",
+      "title": "Petrarch's final years; continued influence on Italian humanism",
+      "region": "Italy (Padua / Arqu\u00e0)",
+      "coordinates_approx": "45.4215, 11.9050",
+      "category": "cultural",
+      "description": "In 1373, Petrarch was in his final year of life, continuing to write and influence the intellectual life of Italy. His works on classical texts and human achievement were shaping the development of humanism. Though he would die in 1374, his influence on the emerging Renaissance was profound and lasting.",
+      "key_figures": [
+        "Francesco Petrarch (1304\u20131374)"
+      ],
+      "sources": [
+        {
+          "name": "Petrarch's writings and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Petrarch's activities in 1373 are documented in his surviving writings and correspondence, though the specific events of this year are not always clearly recorded.",
+      "cross_references": [
+        "1374-001 (Death of Petrarch)"
       ]
     }
   ],
-  "disconfirming_evidence": "The year 1373 is not marked by any major historical turning points or widely recognized events. Most historical narratives skip over this year or subsume it into broader patterns of the early 1370s. The significance of specific events attributed to 1373 (such as English-Burgundian diplomatic maneuvers) is often overstated or conflated with events from adjacent years.",
-  "historiographic_note": "The historical record for 1373 is sparse and fragmented. Western European events are documented in chronicles and administrative records, but specific events of 1373 are often not clearly distinguished from those of adjacent years. East Asian events (Ming consolidation) are well-documented in Chinese sources but lack specific annual detail for 1373. The year represents a relatively quiet period in global history, with no major turning points or widely recognized events.",
+  "disconfirming_evidence": "The 1373 English campaign in Aquitaine is sometimes portrayed as a major military success, but it achieved limited territorial gains and did not resolve the underlying conflict. The significance of Ottoman expansion in 1373 is often exaggerated in later Ottoman historiography to support narratives of inevitable Ottoman dominance.",
+  "historiographic_note": "1373 is well-documented for Western Europe, the Ottoman Empire, and China. Italian sources on Petrarch and humanism are abundant. Ottoman and Central Asian sources exist but are often later compilations. The year is less well-documented for regions outside these areas. The surviving record emphasizes political and military events; economic and cultural history require inference from broader patterns.",
   "graph_edges": [
     {
       "from": "1373-001",
-      "to": "1374-004",
-      "relation": "contemporary_with",
-      "note": "English-Burgundian diplomatic maneuvers continued alongside the broader Hundred Years' War conflict"
+      "to": "1375-001",
+      "relation": "led_to",
+      "note": "English military campaigns in 1373 continued until the Treaty of Bruges in 1375"
     },
     {
-      "from": "1373-002",
-      "to": "1374-003",
-      "relation": "contemporary_with",
-      "note": "Ming administrative reforms continued as part of the broader consolidation process"
+      "from": "1373-005",
+      "to": "1374-001",
+      "relation": "led_to",
+      "note": "Petrarch's final year in 1373 led to his death in 1374"
+    },
+    {
+      "from": "1373-003",
+      "to": "1374-004",
+      "relation": "led_to",
+      "note": "Ottoman expansion in 1373 continued in 1374"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:28:01.278523",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
