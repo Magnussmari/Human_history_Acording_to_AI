@@ -202,9 +202,9 @@ export default function YearPage() {
             <span
               className="text-sm rounded-full px-2.5 py-0.5 font-normal tabular-nums"
               style={{
-                background: "rgba(212,175,119,0.12)",
+                background: "rgba(232,200,138,0.12)",
                 color: "var(--gold)",
-                border: "1px solid rgba(212,175,119,0.2)",
+                border: "1px solid rgba(232,200,138,0.2)",
               }}
             >
               {year.events.length}
@@ -290,8 +290,8 @@ export default function YearPage() {
                     key={i}
                     className="flex flex-wrap items-center gap-2 rounded-xl p-3 text-sm"
                     style={{
-                      background: "rgba(212,175,119,0.04)",
-                      border: "1px solid rgba(212,175,119,0.1)",
+                      background: "rgba(232,200,138,0.04)",
+                      border: "1px solid rgba(232,200,138,0.1)",
                     }}
                   >
                     {!isNaN(fromYear) ? (
@@ -310,9 +310,9 @@ export default function YearPage() {
                     <span
                       className="rounded-full px-2 py-0.5 text-[10px] font-medium"
                       style={{
-                        background: "rgba(212,175,119,0.12)",
+                        background: "rgba(232,200,138,0.12)",
                         color: "var(--gold)",
-                        border: "1px solid rgba(212,175,119,0.2)",
+                        border: "1px solid rgba(232,200,138,0.2)",
                       }}
                     >
                       {RELATION_LABELS[edge.relation] ?? edge.relation.replace(/_/g, " ")}
@@ -321,7 +321,7 @@ export default function YearPage() {
                       <Link
                         href={`/year/${toYear}`}
                         className="font-mono text-xs hover:text-primary transition-colors"
-                        style={{ color: "rgba(212,175,119,0.7)" }}
+                        style={{ color: "rgba(232,200,138,0.7)" }}
                       >
                         {edge.to}
                       </Link>
@@ -345,7 +345,7 @@ export default function YearPage() {
           <motion.div
             variants={stagger.item}
             className="mt-10 pt-6 border-t"
-            style={{ borderColor: "rgba(212,175,119,0.1)" }}
+            style={{ borderColor: "rgba(232,200,138,0.1)" }}
           >
             <div className="flex items-center gap-1.5 mb-2 text-muted-foreground/50">
               <Info size={11} />

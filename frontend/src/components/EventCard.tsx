@@ -120,8 +120,8 @@ export function EventCard({ event }: EventCardProps) {
                     href={`/year/${refYear}`}
                     className="text-[10px] font-mono rounded px-1.5 py-0.5 transition-colors hover:text-primary"
                     style={{
-                      background: "rgba(212,175,119,0.08)",
-                      border: "1px solid rgba(212,175,119,0.2)",
+                      background: "rgba(232,200,138,0.08)",
+                      border: "1px solid rgba(232,200,138,0.2)",
                       color: "var(--gold)",
                     }}
                   >
@@ -134,8 +134,8 @@ export function EventCard({ event }: EventCardProps) {
                   key={ref}
                   className="text-[10px] font-mono rounded px-1.5 py-0.5"
                   style={{
-                    background: "rgba(212,175,119,0.06)",
-                    border: "1px solid rgba(212,175,119,0.15)",
+                    background: "rgba(232,200,138,0.06)",
+                    border: "1px solid rgba(232,200,138,0.15)",
                     color: "var(--gold)",
                     opacity: 0.8,
                   }}
@@ -151,7 +151,7 @@ export function EventCard({ event }: EventCardProps) {
         {event.certainty_note && (
           <p
             className="text-xs text-muted-foreground italic border-l-2 pl-3 mt-4"
-            style={{ borderColor: "rgba(212,175,119,0.3)" }}
+            style={{ borderColor: "rgba(232,200,138,0.3)" }}
           >
             {event.certainty_note}
           </p>

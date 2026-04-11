@@ -40,20 +40,11 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
 
   return (
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center px-4 overflow-hidden">
-      {/* Background radial glow */}
+      {/* Background radial glow -- very subtle */}
       <div
         className="pointer-events-none absolute inset-0 z-0"
         style={{
-          background: `radial-gradient(ellipse 80% 60% at 50% 30%, rgba(212,175,119,0.06) 0%, transparent 70%)`,
-        }}
-      />
-
-      {/* Subtle grid lines */}
-      <div
-        className="pointer-events-none absolute inset-0 z-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `linear-gradient(var(--gold) 1px, transparent 1px), linear-gradient(90deg, var(--gold) 1px, transparent 1px)`,
-          backgroundSize: "80px 80px",
+          background: `radial-gradient(ellipse 70% 50% at 50% 35%, rgba(232,200,138,0.04) 0%, transparent 70%)`,
         }}
       />
 
@@ -68,9 +59,9 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
           <span
             className="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em]"
             style={{
-              borderColor: "rgba(212,175,119,0.3)",
+              borderColor: "rgba(232,200,138,0.3)",
               color: "var(--gold)",
-              background: "rgba(212,175,119,0.06)",
+              background: "rgba(232,200,138,0.06)",
             }}
           >
             <span className="h-1.5 w-1.5 rounded-full bg-current animate-pulse" />

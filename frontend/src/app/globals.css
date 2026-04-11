@@ -315,15 +315,9 @@
 }
 
 .glass-panel {
-  background: rgba(10, 8, 6, 0.6);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(232, 200, 138, 0.12);
-}
-
-.light .glass-panel {
-  background: rgba(255, 252, 245, 0.75);
-  border-color: rgba(180, 140, 80, 0.18);
+  background: #111111;
+  border: 1px solid #222222;
+  border-radius: 16px;
 }
 
 /* ─── Gold Glow Button ─── */

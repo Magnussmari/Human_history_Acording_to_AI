@@ -5,7 +5,7 @@ export default function NotFound() {
     <div
       className="min-h-[80vh] flex items-center justify-center px-4"
       style={{
-        background: "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(212,175,119,0.04) 0%, transparent 70%)",
+        background: "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(232,200,138,0.04) 0%, transparent 70%)",
       }}
     >
       <div className="text-center max-w-lg">
@@ -14,7 +14,7 @@ export default function NotFound() {
           className="text-[10rem] font-bold leading-none mb-2 tabular-nums select-none"
           style={{
             fontFamily: "var(--font-heading), Georgia, serif",
-            background: "linear-gradient(135deg, rgba(212,175,119,0.15) 0%, rgba(212,175,119,0.04) 100%)",
+            background: "linear-gradient(135deg, rgba(232,200,138,0.15) 0%, rgba(232,200,138,0.04) 100%)",
             WebkitBackgroundClip: "text",
             backgroundClip: "text",
             WebkitTextFillColor: "transparent",

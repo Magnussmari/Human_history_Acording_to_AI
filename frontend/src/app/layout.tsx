@@ -53,10 +53,10 @@ export default function RootLayout({
           <header
             className="sticky top-0 z-50 border-b"
             style={{
-              background: "rgba(10, 9, 7, 0.7)",
-              backdropFilter: "blur(20px)",
-              WebkitBackdropFilter: "blur(20px)",
-              borderColor: "rgba(212,175,119,0.1)",
+              background: "rgba(5, 5, 5, 0.95)",
+              backdropFilter: "blur(8px)",
+              WebkitBackdropFilter: "blur(8px)",
+              borderColor: "#222222",
             }}
           >
             <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
@@ -102,7 +102,7 @@ export default function RootLayout({
           {/* ─── Footer ─── */}
           <footer
             className="border-t py-8 text-center"
-            style={{ borderColor: "rgba(212,175,119,0.1)" }}
+            style={{ borderColor: "rgba(232,200,138,0.1)" }}
           >
             <div className="mx-auto max-w-7xl px-4">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
@@ -120,7 +120,7 @@ export default function RootLayout({
                 </span>
                 <span
                   className="hidden sm:block font-semibold uppercase tracking-widest text-[10px]"
-                  style={{ fontFamily: "var(--font-heading), serif", color: "rgba(212,175,119,0.4)" }}
+                  style={{ fontFamily: "var(--font-heading), serif", color: "rgba(232,200,138,0.4)" }}
                 >
                   Eternal Codex
                 </span>
@@ -155,7 +155,7 @@ export default function RootLayout({
             toastOptions={{
               style: {
                 background: "var(--card)",
-                border: "1px solid rgba(212,175,119,0.2)",
+                border: "1px solid rgba(232,200,138,0.2)",
                 color: "var(--foreground)",
               },
             }}

@@ -74,20 +74,16 @@ export function FilterPanel({ open, onClose, filters, onChange }: FilterPanelPro
             transition={{ type: "spring", stiffness: 280, damping: 30 }}
             className="fixed right-0 top-0 bottom-0 z-50 w-80 overflow-y-auto"
             style={{
-              background: "var(--card-glass-bg)",
-              backdropFilter: "blur(24px)",
-              WebkitBackdropFilter: "blur(24px)",
-              borderLeft: "1px solid var(--card-glass-border)",
+              background: "#0a0a0a",
+              borderLeft: "1px solid #222222",
             }}
           >
             {/* Header */}
             <div
               className="sticky top-0 z-10 flex items-center justify-between px-5 py-4 border-b"
               style={{
-                borderColor: "var(--card-glass-border)",
-                background: "inherit",
-                backdropFilter: "blur(24px)",
-                WebkitBackdropFilter: "blur(24px)",
+                borderColor: "#222222",
+                background: "#0a0a0a",
               }}
             >
               <div className="flex items-center gap-2">
@@ -145,8 +141,8 @@ export function FilterPanel({ open, onClose, filters, onChange }: FilterPanelPro
                             : "text-muted-foreground hover:text-foreground hover:bg-muted/40"
                         )}
                         style={active ? {
-                          background: "rgba(212,175,119,0.12)",
-                          border: "1px solid rgba(212,175,119,0.3)",
+                          background: "rgba(232,200,138,0.12)",
+                          border: "1px solid rgba(232,200,138,0.3)",
                         } : {
                           border: "1px solid transparent",
                         }}

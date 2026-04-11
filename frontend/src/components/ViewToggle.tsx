@@ -22,10 +22,8 @@ export function ViewToggle({ active, onChange }: ViewToggleProps) {
     <div
       className="inline-flex items-center rounded-lg p-1 gap-0.5"
       style={{
-        background: "var(--card-glass-bg)",
-        backdropFilter: "blur(12px)",
-        WebkitBackdropFilter: "blur(12px)",
-        border: "1px solid var(--card-glass-border)",
+        background: "#111111",
+        border: "1px solid #222222",
       }}
     >
       {VIEWS.map((view) => {
@@ -44,7 +42,7 @@ export function ViewToggle({ active, onChange }: ViewToggleProps) {
               <motion.span
                 layoutId="view-active-bg"
                 className="absolute inset-0 rounded-md"
-                style={{ background: "rgba(212,175,119,0.15)", border: "1px solid rgba(212,175,119,0.25)" }}
+                style={{ background: "rgba(232,200,138,0.15)", border: "1px solid rgba(232,200,138,0.25)" }}
                 transition={{ type: "spring", stiffness: 350, damping: 30 }}
               />
             )}

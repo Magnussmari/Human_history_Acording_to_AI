@@ -84,10 +84,8 @@ export default function HomePage() {
             onClick={() => setShowFilters(true)}
             className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all relative"
             style={{
-              background: "var(--card-glass-bg)",
-              backdropFilter: "blur(12px)",
-              WebkitBackdropFilter: "blur(12px)",
-              border: "1px solid var(--card-glass-border)",
+              background: "#111111",
+              border: "1px solid #222222",
             }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.97 }}

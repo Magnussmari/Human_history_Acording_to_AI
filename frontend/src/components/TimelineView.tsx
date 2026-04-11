@@ -59,7 +59,7 @@ export function TimelineView({ years, isLoading }: TimelineViewProps) {
       {/* Gold vertical timeline line */}
       <div
         className="absolute left-[18px] top-0 bottom-0 w-px z-0"
-        style={{ background: "linear-gradient(to bottom, transparent, rgba(212,175,119,0.3) 5%, rgba(212,175,119,0.3) 95%, transparent)" }}
+        style={{ background: "linear-gradient(to bottom, transparent, rgba(232,200,138,0.3) 5%, rgba(232,200,138,0.3) 95%, transparent)" }}
       />
 
       <div ref={parentRef} className="h-[75vh] overflow-auto scrollbar-hide pr-1">

@@ -5,7 +5,7 @@ export default function Loading() {
       <div
         className="min-h-[100svh] flex flex-col items-center justify-center px-4 gap-8"
         style={{
-          background: "radial-gradient(ellipse 80% 60% at 50% 30%, rgba(212,175,119,0.04) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse 80% 60% at 50% 30%, rgba(232,200,138,0.04) 0%, transparent 70%)",
         }}
       >
         {/* Eyebrow */}
@@ -16,13 +16,13 @@ export default function Loading() {
           <div
             className="h-20 sm:h-28 w-64 sm:w-96 rounded-xl mx-auto animate-pulse"
             style={{
-              background: "linear-gradient(90deg, rgba(212,175,119,0.12) 0%, rgba(212,175,119,0.06) 100%)",
+              background: "linear-gradient(90deg, rgba(232,200,138,0.12) 0%, rgba(232,200,138,0.06) 100%)",
             }}
           />
           <div
             className="h-20 sm:h-28 w-56 sm:w-80 rounded-xl mx-auto animate-pulse"
             style={{
-              background: "linear-gradient(90deg, rgba(212,175,119,0.08) 0%, rgba(212,175,119,0.04) 100%)",
+              background: "linear-gradient(90deg, rgba(232,200,138,0.08) 0%, rgba(232,200,138,0.04) 100%)",
               animationDelay: "80ms",
             }}
           />
@@ -59,7 +59,7 @@ export default function Loading() {
         <div className="text-center space-y-2 mb-8">
           <div
             className="h-10 w-48 rounded-xl mx-auto animate-pulse"
-            style={{ background: "rgba(212,175,119,0.08)" }}
+            style={{ background: "rgba(232,200,138,0.08)" }}
           />
           <div className="h-4 w-36 rounded bg-muted/25 animate-pulse mx-auto" />
         </div>
@@ -86,8 +86,8 @@ export default function Loading() {
               key={i}
               className="rounded-xl p-5 flex gap-4"
               style={{
-                background: "rgba(212,175,119,0.03)",
-                border: "1px solid rgba(212,175,119,0.07)",
+                background: "rgba(232,200,138,0.03)",
+                border: "1px solid rgba(232,200,138,0.07)",
                 animationDelay: `${i * 60}ms`,
               }}
             >

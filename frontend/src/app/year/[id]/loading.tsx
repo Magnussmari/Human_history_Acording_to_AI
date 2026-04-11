@@ -14,7 +14,7 @@ export default function YearLoading() {
       <div
         className="h-24 w-56 rounded-lg animate-pulse"
         style={{
-          background: "linear-gradient(90deg, rgba(212,175,119,0.08) 0%, rgba(212,175,119,0.04) 100%)",
+          background: "linear-gradient(90deg, rgba(232,200,138,0.08) 0%, rgba(232,200,138,0.04) 100%)",
           animationDelay: "80ms",
         }}
       />
@@ -36,8 +36,8 @@ export default function YearLoading() {
             key={i}
             className="rounded-xl p-5 space-y-3"
             style={{
-              background: "rgba(212,175,119,0.03)",
-              border: "1px solid rgba(212,175,119,0.08)",
+              background: "rgba(232,200,138,0.03)",
+              border: "1px solid rgba(232,200,138,0.08)",
               animationDelay: `${i * 80}ms`,
             }}
           >

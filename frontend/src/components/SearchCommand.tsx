@@ -80,10 +80,8 @@ export function SearchCommand({ years }: SearchCommandProps) {
         onClick={() => setOpen(true)}
         className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all"
         style={{
-          background: "var(--card-glass-bg)",
-          backdropFilter: "blur(12px)",
-          WebkitBackdropFilter: "blur(12px)",
-          border: "1px solid var(--card-glass-border)",
+          background: "#111111",
+          border: "1px solid #222222",
         }}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.97 }}
@@ -94,8 +92,8 @@ export function SearchCommand({ years }: SearchCommandProps) {
         <kbd
           className="hidden sm:inline ml-2 rounded px-1.5 py-0.5 text-[10px] font-mono"
           style={{
-            background: "rgba(212,175,119,0.1)",
-            border: "1px solid rgba(212,175,119,0.2)",
+            background: "rgba(232,200,138,0.1)",
+            border: "1px solid rgba(232,200,138,0.2)",
             color: "var(--gold)",
           }}
         >
@@ -127,17 +125,15 @@ export function SearchCommand({ years }: SearchCommandProps) {
               transition={{ type: "spring", stiffness: 350, damping: 30 }}
               className="relative w-full max-w-xl rounded-2xl overflow-hidden shadow-2xl"
               style={{
-                background: "var(--card-glass-bg)",
-                backdropFilter: "blur(32px)",
-                WebkitBackdropFilter: "blur(32px)",
-                border: "1px solid var(--card-glass-border)",
+                background: "#111111",
+                border: "1px solid #222222",
               }}
               onClick={(e) => e.stopPropagation()}
             >
               {/* Header */}
               <div
                 className="px-5 pt-5 pb-2 border-b"
-                style={{ borderColor: "var(--card-glass-border)" }}
+                style={{ borderColor: "#222222" }}
               >
                 <h2
                   className="text-lg font-semibold mb-3"
@@ -147,8 +143,8 @@ export function SearchCommand({ years }: SearchCommandProps) {
                 </h2>
                 <div className="flex items-center gap-3 rounded-lg border px-3 py-2"
                   style={{
-                    borderColor: "rgba(212,175,119,0.25)",
-                    background: "rgba(212,175,119,0.04)",
+                    borderColor: "rgba(232,200,138,0.25)",
+                    background: "rgba(232,200,138,0.04)",
                   }}
                 >
                   <Search size={15} className="text-muted-foreground shrink-0" />
@@ -228,7 +224,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
               {/* Footer */}
               <div
                 className="px-4 py-2 border-t flex items-center justify-between"
-                style={{ borderColor: "var(--card-glass-border)" }}
+                style={{ borderColor: "#222222" }}
               >
                 <span className="text-[10px] text-muted-foreground/50">
                   {results.length > 0 && `${results.length} result${results.length !== 1 ? "s" : ""}`}

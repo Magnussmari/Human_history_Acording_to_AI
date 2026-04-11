@@ -47,7 +47,7 @@ export function YearTimelineCard({ year, index }: YearTimelineCardProps) {
   return (
     <Link href={`/year/${year.year}`} className="block group" tabIndex={0}>
       <motion.div
-        className="glass-card rounded-xl p-5 cursor-pointer"
+        className="glass-card cursor-pointer"
         initial={{ opacity: 0, x: -10 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.35, delay: Math.min(index * 0.025, 0.5), type: "spring", stiffness: 250, damping: 30 }}
@@ -106,7 +106,7 @@ export function YearTimelineCard({ year, index }: YearTimelineCardProps) {
             </div>
 
             {/* Era context (brief) */}
-            <p className="text-sm text-foreground/75 leading-relaxed line-clamp-2">
+            <p className="text-foreground/75 leading-relaxed line-clamp-2" style={{ fontSize: "15px", lineHeight: 1.6 }}>
               {year.era_context}
             </p>
 
