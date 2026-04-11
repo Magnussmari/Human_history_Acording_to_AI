@@ -1,0 +1,617 @@
+{
+  "year": 1882,
+  "year_label": "1882 CE",
+  "era_context": "The early 1880s fall within the high age of European imperialism and industrialisation. The major European powers — Britain, France, Germany, Austria-Hungary, Russia, and Italy — were consolidating colonial empires, forming alliance systems, and undergoing rapid technological transformation driven by steel, electricity, and railways. In East Asia, Qing China and Meiji Japan navigated between modernisation and Western encroachment, while Korea was being forced into the treaty-port system. The United States, recovering from Reconstruction, was industrialising at enormous speed and beginning to restrict immigration along racial lines.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa beyond colonial contact zones — internal dynamics of states like Buganda, Lozi, and the Swahili coast trading polities are poorly represented in training data for this year",
+    "Southeast Asian kingdoms (Siam, Vietnam under French pressure, Burmese court politics) — events likely occurred but are underrepresented",
+    "Pacific Islands — internal Polynesian and Melanesian political developments",
+    "Central Asia — Khanates under Russian consolidation, limited non-Russian sourcing"
+  ],
+  "events": [
+    {
+      "id": "1882-001",
+      "title": "Robert Koch identifies the tuberculosis bacillus",
+      "region": "Germany (Berlin)",
+      "coordinates_approx": "52.52, 13.40",
+      "category": "scientific",
+      "description": "On 24 March 1882, Robert Koch presented his discovery of Mycobacterium tuberculosis to the Berlin Physiological Society, definitively proving that tuberculosis — the leading cause of death in Europe at the time — was caused by a specific bacterium. Koch's rigorous methodology, including his famous postulates for establishing disease causation, became the gold standard for microbiology. The discovery laid the groundwork for eventual vaccine and treatment development and is considered one of the most consequential breakthroughs in the history of medicine.",
+      "key_figures": ["Robert Koch (physician and microbiologist)"],
+      "sources": [
+        {
+          "name": "Koch, R., 'Die Aetiologie der Tuberculose,' Berliner Klinische Wochenschrift, 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Proceedings of the Berlin Physiological Society, 24 March 1882",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Koch's own published paper and the well-documented public presentation provide unambiguous contemporary evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-002",
+      "title": "British bombardment of Alexandria",
+      "region": "Egypt (Alexandria)",
+      "coordinates_approx": "31.20, 29.92",
+      "category": "military",
+      "description": "On 11 July 1882, a British naval squadron bombarded the Egyptian port city of Alexandria, ostensibly to suppress the nationalist movement led by Colonel Ahmed Urabi. The bombardment destroyed much of the city's fortifications and triggered widespread fires and looting. It was the opening act of Britain's military intervention in Egypt, driven by concern over the security of the Suez Canal and the Khedive's debts to European creditors. France, which had been co-managing Egyptian finances, declined to participate in the bombardment, marking a divergence in Anglo-French imperial policy.",
+      "key_figures": ["Admiral Frederick Beauchamp Seymour (British fleet commander)", "Ahmed Urabi (Egyptian nationalist colonel)", "Khedive Tewfik (ruler of Egypt)"],
+      "sources": [
+        {
+          "name": "British Admiralty dispatches, July 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Times (London), reports from July 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Scholch, A., 'Egypt for the Egyptians! The Socio-political Crisis in Egypt 1878–1882' (1981)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by British naval records, press coverage, and Egyptian sources.",
+      "cross_references": ["1882-003"]
+    },
+    {
+      "id": "1882-003",
+      "title": "Battle of Tel el-Kebir and British occupation of Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "30.55, 31.78",
+      "category": "military",
+      "description": "On 13 September 1882, a British expeditionary force under Sir Garnet Wolseley defeated Ahmed Urabi's Egyptian army at Tel el-Kebir in a dawn assault lasting under an hour. The decisive victory led to the occupation of Cairo and the effective British takeover of Egypt, which would last until 1956. Though nominally still part of the Ottoman Empire and governed by the Khedive, Egypt became a British-controlled state, with the Suez Canal secured as a strategic imperial artery. The occupation set the template for British indirect rule and became a defining event in Egyptian nationalist memory.",
+      "key_figures": ["Sir Garnet Wolseley (British commander)", "Ahmed Urabi (Egyptian commander)", "Khedive Tewfik"],
+      "sources": [
+        {
+          "name": "Wolseley's campaign dispatches, 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Blunt, W.S., 'Secret History of the English Occupation of Egypt' (1907)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Mansfield, P., 'The British in Egypt' (1971)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "One of the best-documented colonial military engagements of the 19th century.",
+      "cross_references": ["1882-002", "1869-001"]
+    },
+    {
+      "id": "1882-004",
+      "title": "Triple Alliance formed between Germany, Austria-Hungary, and Italy",
+      "region": "Europe (Vienna / Berlin / Rome)",
+      "coordinates_approx": "48.21, 16.37",
+      "category": "political",
+      "description": "On 20 May 1882, Italy joined Germany and Austria-Hungary in the Triple Alliance, a secret defensive military pact. Italy's accession was driven by resentment over France's seizure of Tunisia in 1881 and a desire for great-power status. The treaty committed each signatory to mutual support if attacked by two or more powers, and specifically bound Italy and Germany to support each other against France. The Triple Alliance became one of the two major alliance blocs that defined European diplomacy until 1914, though Italy would ultimately defect to the Entente in 1915.",
+      "key_figures": ["Otto von Bismarck (German Chancellor)", "Gyula Kállay (Austro-Hungarian minister)", "King Umberto I of Italy"],
+      "sources": [
+        {
+          "name": "Text of the Triple Alliance Treaty, 20 May 1882 (published after WWI)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Langer, W.L., 'European Alliances and Alignments, 1871–1890' (1931)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The treaty text survives and the date is established by diplomatic records.",
+      "cross_references": ["1914-001"]
+    },
+    {
+      "id": "1882-005",
+      "title": "United States passes the Chinese Exclusion Act",
+      "region": "United States",
+      "coordinates_approx": "38.89, -77.01",
+      "category": "legal",
+      "description": "On 6 May 1882, President Chester Arthur signed the Chinese Exclusion Act, the first federal law to ban immigration based on race and nationality. The act suspended Chinese labour immigration for ten years and barred Chinese residents from naturalisation. It was driven by anti-Chinese sentiment on the West Coast, labour competition fears, and racial animus codified into law. The act was renewed and strengthened repeatedly and not fully repealed until 1943. It represents a landmark in the history of American immigration restriction and racial exclusion.",
+      "key_figures": ["Chester A. Arthur (President of the United States)", "John F. Miller (U.S. Senator, California, sponsor)"],
+      "sources": [
+        {
+          "name": "Chinese Exclusion Act, 47th Congress, Session I, Chapter 126, 6 May 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lee, E., 'At America's Gates: Chinese Immigration during the Exclusion Era, 1882–1943' (2003)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Federal legislation with precise date and full documentary record.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-006",
+      "title": "Edison opens Pearl Street Station — first commercial electrical power plant",
+      "region": "United States (New York City)",
+      "coordinates_approx": "40.71, -74.00",
+      "category": "technological",
+      "description": "On 4 September 1882, Thomas Edison's Pearl Street Station in lower Manhattan began supplying direct-current electricity to 85 customers in a one-square-mile area, marking the birth of the commercial electrical utility industry. The station used six dynamos powered by steam engines and represented the first integrated system of electrical generation, distribution (via underground conduits), and metering. Though it served a tiny area initially, it proved the viability of centralised electric power and launched the electrification of urban life that would transform the 20th century.",
+      "key_figures": ["Thomas Edison (inventor and entrepreneur)"],
+      "sources": [
+        {
+          "name": "New York Times, 5 September 1882, reporting on the station's opening",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Edison Papers, Rutgers University (correspondence and technical documents)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hughes, T.P., 'Networks of Power: Electrification in Western Society, 1880–1930' (1983)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented by Edison's own records, press coverage, and corporate filings.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-007",
+      "title": "Standard Oil Trust formally established",
+      "region": "United States (Ohio)",
+      "coordinates_approx": "41.50, -81.69",
+      "category": "economic",
+      "description": "On 2 January 1882, the Standard Oil Trust was formally constituted under a trust agreement, consolidating approximately 40 companies under a single board of nine trustees led by John D. Rockefeller. This was the first major industrial trust in American history and gave Rockefeller control over roughly 90% of U.S. oil refining capacity. The trust structure became the model for corporate consolidation across industries and directly provoked the antitrust movement, culminating in the Sherman Antitrust Act of 1890 and the Supreme Court's dissolution of Standard Oil in 1911.",
+      "key_figures": ["John D. Rockefeller (president and principal trustee)", "Samuel C.T. Dodd (attorney who devised the trust structure)"],
+      "sources": [
+        {
+          "name": "Standard Oil Trust Agreement, 2 January 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tarbell, I., 'The History of the Standard Oil Company' (1904)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chernow, R., 'Titan: The Life of John D. Rockefeller, Sr.' (1998)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The trust agreement itself survives; date and structure are fully documented.",
+      "cross_references": ["1890-001", "1911-001"]
+    },
+    {
+      "id": "1882-008",
+      "title": "Phoenix Park murders in Dublin",
+      "region": "Ireland (Dublin)",
+      "coordinates_approx": "53.36, -6.33",
+      "category": "political",
+      "description": "On 6 May 1882, Lord Frederick Cavendish, the newly appointed Chief Secretary for Ireland, and Thomas Henry Burke, the Permanent Under-Secretary, were stabbed to death in Phoenix Park, Dublin, by members of the Irish National Invincibles, a radical splinter group. The assassinations occurred on the very day Cavendish arrived in Dublin and deeply shocked British public opinion, undermining Gladstone's conciliatory approach to Irish Home Rule. The murders strengthened the hand of coercion advocates in Westminster and complicated Parnell's constitutional nationalist movement.",
+      "key_figures": ["Lord Frederick Cavendish (Chief Secretary for Ireland)", "Thomas Henry Burke (Under-Secretary)", "Charles Stewart Parnell (Irish Parliamentary Party leader, uninvolved but politically affected)"],
+      "sources": [
+        {
+          "name": "The Times (London), 8 May 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Trial transcripts of the Invincibles, 1883",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Corfe, T., 'The Phoenix Park Murders' (1968)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary press, police records, and subsequent trial documentation provide full evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-009",
+      "title": "May Laws restrict Jewish life in the Russian Empire",
+      "region": "Russian Empire",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "legal",
+      "description": "In May 1882, Tsar Alexander III enacted the 'Temporary Regulations' (known as the May Laws), which severely restricted where Jews could live, work, and own property within the Pale of Settlement. Issued in the aftermath of the 1881 pogroms, the laws were framed as measures to protect the Russian peasantry but in practice intensified anti-Jewish persecution. The May Laws accelerated mass Jewish emigration from the Russian Empire — primarily to the United States, but also to Palestine and Western Europe — reshaping Jewish demographics globally for generations.",
+      "key_figures": ["Tsar Alexander III", "Nikolai Ignatiev (Minister of the Interior)"],
+      "sources": [
+        {
+          "name": "Text of the Temporary Regulations ('May Laws'), 3/15 May 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Klier, J.D. and Lambroza, S. (eds.), 'Pogroms: Anti-Jewish Violence in Modern Russian History' (1992)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official legislation with full archival documentation. Date given in both Julian and Gregorian calendars.",
+      "cross_references": ["1881-001"]
+    },
+    {
+      "id": "1882-010",
+      "title": "Korea signs Treaty of Chemulpo with the United States",
+      "region": "Korea (Joseon dynasty)",
+      "coordinates_approx": "37.47, 126.63",
+      "category": "political",
+      "description": "On 22 May 1882, the Joseon Kingdom of Korea signed the Treaty of Peace, Amity, Commerce, and Navigation with the United States at Chemulpo (modern Incheon). It was Korea's first treaty with a Western power and was brokered largely through Chinese (Qing) intermediation, with Li Hongzhang playing a key diplomatic role. The treaty opened Korean ports to American trade and established consular relations. It marked Korea's entry into the Western-dominated treaty-port system and the beginning of its fraught engagement with competing imperial interests — Chinese, Japanese, and Western.",
+      "key_figures": ["Commodore Robert W. Shufeldt (U.S. negotiator)", "Shin Heon (Joseon negotiator)", "Li Hongzhang (Qing diplomat who facilitated the treaty)"],
+      "sources": [
+        {
+          "name": "Treaty text, 22 May 1882 (ratified 1883)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Deuchler, M., 'Confucian Gentlemen and Barbarian Envoys: The Opening of Korea, 1875–1885' (1977)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Treaty text and diplomatic correspondence from both sides survive.",
+      "cross_references": ["1882-011"]
+    },
+    {
+      "id": "1882-011",
+      "title": "Imo Incident (Soldiers' Mutiny) in Korea",
+      "region": "Korea (Seoul / Hanyang)",
+      "coordinates_approx": "37.57, 126.98",
+      "category": "military",
+      "description": "In July 1882, Korean soldiers of the old-style military units mutinied in Seoul over unpaid wages and resentment toward the Japanese-trained modern units favoured by the court. The uprising targeted Japanese advisors and legation staff, killing several, and briefly empowered the Daewongun (regent) faction against Queen Min's modernising clique. Both China and Japan dispatched troops in response: China to reassert suzerainty and Japan to secure reparations. The incident deepened Sino-Japanese rivalry over Korea and led to the Treaty of Chemulpo (with Japan) and increased Chinese military presence.",
+      "key_figures": ["Daewongun (Yi Ha-eung, former regent)", "Queen Min (Myeongseong)", "Hanabusa Yoshimoto (Japanese minister to Korea)"],
+      "sources": [
+        {
+          "name": "Japanese Foreign Ministry dispatches, July–August 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Qing court memorials (Zongli Yamen records), 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Larsen, K., 'Tradition, Treaties, and Trade: Qing Imperialism and Chosŏn Korea, 1850–1910' (2008)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Japanese, Chinese, and Korean sources.",
+      "cross_references": ["1882-010", "1894-001"]
+    },
+    {
+      "id": "1882-012",
+      "title": "Premiere of Wagner's Parsifal at Bayreuth",
+      "region": "Germany (Bayreuth)",
+      "coordinates_approx": "49.94, 11.58",
+      "category": "cultural",
+      "description": "On 26 July 1882, Richard Wagner's final opera, Parsifal, premiered at the Bayreuth Festspielhaus, the theatre Wagner had built specifically for his works. Designated a 'Bühnenweihfestspiel' (stage-consecrating festival play), Parsifal drew on Arthurian Grail legend and explored themes of redemption, compassion, and religious ritual. Wagner insisted it be performed only at Bayreuth, a restriction largely honoured until 1903. The premiere was a major cultural event, cementing Bayreuth's status as a pilgrimage site for European cultural life. Wagner died less than seven months later.",
+      "key_figures": ["Richard Wagner (composer)", "Hermann Levi (conductor)"],
+      "sources": [
+        {
+          "name": "Bayreuth Festival programme and contemporary press reviews, July 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wagner's correspondence with King Ludwig II, 1882",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Precisely dated by programme records and extensive press coverage.",
+      "cross_references": ["1883-001"]
+    },
+    {
+      "id": "1882-013",
+      "title": "St Gotthard Railway Tunnel opens in Switzerland",
+      "region": "Switzerland / Italy",
+      "coordinates_approx": "46.55, 8.59",
+      "category": "technological",
+      "description": "On 22 May 1882, the St Gotthard Railway Tunnel opened for regular traffic, connecting Göschenen in the Swiss canton of Uri to Airolo in Ticino. At 15 kilometres, it was the longest tunnel in the world at the time and represented a major engineering achievement, linking northern and southern Europe through the Alps by rail. Construction had taken a decade and cost over 200 workers' lives, including the project's chief engineer, Louis Favre, who died of a stroke in the tunnel in 1879. The tunnel transformed European trade routes and reduced transit times between Germany and Italy dramatically.",
+      "key_figures": ["Louis Favre (chief engineer, died 1879)", "Alfred Escher (Swiss politician and promoter, died 1882)"],
+      "sources": [
+        {
+          "name": "Swiss Federal Railway records and opening ceremony documentation, 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Neue Zürcher Zeitung, May 1882 reporting",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Opening date is a matter of precise railway record.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-014",
+      "title": "Serbia proclaimed a kingdom under Milan Obrenović",
+      "region": "Serbia (Belgrade)",
+      "coordinates_approx": "44.79, 20.47",
+      "category": "political",
+      "description": "On 6 March 1882, the Principality of Serbia was elevated to the Kingdom of Serbia, with Prince Milan Obrenović IV becoming King Milan I. The proclamation reflected Serbia's growing independence from Ottoman suzerainty (formally recognised at the Congress of Berlin in 1878) and its ambition for recognition as a sovereign European state. Milan aligned Serbia closely with Austria-Hungary, a controversial policy given pan-Slavic sentiment favouring Russia. His reign would be marked by military defeat against Bulgaria (1885) and eventual abdication in 1889.",
+      "key_figures": ["Milan Obrenović I (King of Serbia)"],
+      "sources": [
+        {
+          "name": "Serbian National Assembly proclamation, 6 March 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pavlowitch, S.K., 'Serbia: The History behind the Name' (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Official state proclamation with diplomatic recognition records.",
+      "cross_references": ["1878-001"]
+    },
+    {
+      "id": "1882-015",
+      "title": "Married Women's Property Act enacted in Britain",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.50, -0.12",
+      "category": "legal",
+      "description": "The Married Women's Property Act 1882, which received Royal Assent on 18 August, granted married women in England and Wales the right to own, buy, and sell property and to keep their own earnings — rights previously subsumed under the legal doctrine of coverture. Building on more limited acts of 1870 and 1874, the 1882 act gave married women essentially the same property rights as unmarried women. It was a landmark in British women's legal emancipation and part of a broader pattern of Victorian-era reform of women's legal status across common-law jurisdictions.",
+      "key_figures": ["Lord Selborne (Lord Chancellor who supported the act)"],
+      "sources": [
+        {
+          "name": "Married Women's Property Act 1882, 45 & 46 Vict. c. 75",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Holcombe, L., 'Wives and Property: Reform of the Married Women's Property Law in 19th-Century England' (1983)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Parliamentary legislation with precise dating.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-016",
+      "title": "Italy acquires Assab as its first colonial territory",
+      "region": "East Africa (Eritrea / Red Sea coast)",
+      "coordinates_approx": "13.01, 42.74",
+      "category": "political",
+      "description": "In 1882, the Italian government formally took over the port of Assab on the Red Sea coast (in modern Eritrea) from the Rubattino shipping company, which had purchased the site from local Afar sultans in 1869. This marked the beginning of Italian colonial expansion in the Horn of Africa, which would later extend to the full colony of Eritrea (1890) and the attempted conquest of Ethiopia. Italy's colonial venture was partly motivated by a desire for great-power prestige after unification and by the Triple Alliance's implicit competition for imperial territories.",
+      "key_figures": ["Agostino Depretis (Italian Prime Minister)"],
+      "sources": [
+        {
+          "name": "Italian parliamentary records regarding Assab annexation, 1882",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Del Boca, A., 'Gli italiani in Africa Orientale' (1976)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Italian state records document the formal takeover clearly, though exact month varies in sources.",
+      "cross_references": ["1882-004", "1896-001"]
+    },
+    {
+      "id": "1882-017",
+      "title": "First Aliyah begins — Jewish immigration to Ottoman Palestine",
+      "region": "Ottoman Empire (Palestine)",
+      "coordinates_approx": "32.07, 34.78",
+      "category": "demographic",
+      "description": "Beginning in 1882, the first wave of organised Jewish immigration to Ottoman Palestine (the First Aliyah) commenced, driven primarily by the pogroms and May Laws in the Russian Empire and inspired by the Hovevei Zion ('Lovers of Zion') movement. Approximately 25,000–35,000 Jews migrated to Palestine between 1882 and 1903, establishing agricultural settlements including Rishon LeZion and Zikhron Ya'akov. While small in scale compared to Jewish emigration to the Americas, the First Aliyah laid the demographic and institutional foundations for the later Zionist movement and the eventual establishment of Israel.",
+      "key_figures": ["Leon Pinsker (author of 'Auto-Emancipation', 1882)", "Members of the BILU movement"],
+      "sources": [
+        {
+          "name": "Pinsker, L., 'Auto-Emancipation' (1882)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman land records and immigration registers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Vital, D., 'The Origins of Zionism' (1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Aliyah is conventionally dated from 1882. Individual settlement founding dates are well documented.",
+      "cross_references": ["1882-009"]
+    },
+    {
+      "id": "1882-018",
+      "title": "Jesse James killed in Missouri",
+      "region": "United States (St. Joseph, Missouri)",
+      "coordinates_approx": "39.77, -94.85",
+      "category": "political",
+      "description": "On 3 April 1882, the outlaw Jesse James was shot and killed in his own home in St. Joseph, Missouri, by Robert Ford, a member of his own gang acting for the reward offered by Missouri Governor Thomas T. Crittenden. James had been the most notorious bandit in the post-Civil War American West, leading a gang that robbed banks, trains, and stagecoaches across the Midwest. His death was a national sensation and rapidly spawned a mythology — sympathetic dime novels cast him as a Robin Hood figure, obscuring his violent career rooted in Confederate guerrilla warfare.",
+      "key_figures": ["Jesse James (outlaw)", "Robert Ford (assassin)", "Thomas T. Crittenden (Governor of Missouri)"],
+      "sources": [
+        {
+          "name": "St. Joseph Gazette, April 1882 reporting",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Stiles, T.J., 'Jesse James: Last Rebel of the Civil War' (2002)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary press, coroner's report, and multiple eyewitness accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-019",
+      "title": "France mandates secular primary education (Ferry Laws)",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal",
+      "description": "On 28 March 1882, the French parliament passed the second of Jules Ferry's education laws, making primary education free, compulsory (ages 6–13), and secular (laïque). Religious instruction was removed from the public school curriculum and replaced with civic and moral education. The Ferry Laws were a cornerstone of the French Third Republic's programme of laïcité and republican nation-building, designed to break the Catholic Church's hold over education and to forge a unified national citizenry. They remain foundational to the French education system.",
+      "key_figures": ["Jules Ferry (Prime Minister and Minister of Public Instruction)", "Paul Bert (education reformer)"],
+      "sources": [
+        {
+          "name": "Loi du 28 mars 1882 sur l'enseignement primaire obligatoire (text of the law)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mona Ozouf, 'L'École, l'Église et la République, 1871–1914' (1963)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Parliamentary legislation with precise date and full legislative record.",
+      "cross_references": []
+    },
+    {
+      "id": "1882-020",
+      "title": "Cetshwayo kaMpande visits London and is restored to partial Zulu authority",
+      "region": "Southern Africa (Zululand) / United Kingdom",
+      "coordinates_approx": "-28.30, 31.42",
+      "category": "political",
+      "description": "In August 1882, the deposed Zulu King Cetshwayo kaMpande visited London, where he met Queen Victoria and lobbied for the restoration of his kingdom. The British government, dealing with ongoing instability in the thirteen chiefdoms imposed after the Anglo-Zulu War of 1879, agreed to restore Cetshwayo to a reduced territory in January 1883. However, his return triggered civil war between his supporters and those of the appointed chief Zibhebhu. The episode illustrates the chaos created by British attempts to restructure indigenous political systems after military conquest.",
+      "key_figures": ["Cetshwayo kaMpande (deposed Zulu king)", "Queen Victoria", "Lord Kimberley (Colonial Secretary)"],
+      "sources": [
+        {
+          "name": "Colonial Office correspondence, 1882 (National Archives, Kew)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Guy, J., 'The Destruction of the Zulu Kingdom' (1979)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "British colonial records and press coverage document the visit and negotiations in detail.",
+      "cross_references": ["1879-001"]
+    },
+    {
+      "id": "1882-021",
+      "title": "Immigration Act of 1882 establishes U.S. federal immigration controls",
+      "region": "United States",
+      "coordinates_approx": "38.89, -77.01",
+      "category": "legal",
+      "description": "On 3 August 1882, Congress passed the Immigration Act of 1882, the first comprehensive federal immigration law (distinct from the Chinese Exclusion Act passed three months earlier). The act established a 50-cent head tax on immigrants arriving by sea and excluded 'convicts, lunatics, idiots, and persons likely to become a public charge.' It shifted immigration control from state to federal authority and established the framework for the U.S. immigration bureaucracy. Together with the Chinese Exclusion Act, it marked the beginning of systematic federal control over who could enter the country.",
+      "key_figures": ["Chester A. Arthur (President)"],
+      "sources": [
+        {
+          "name": "Immigration Act of 1882, 47th Congress, Session I, Chapter 376",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hutchinson, E.P., 'Legislative History of American Immigration Policy, 1798–1965' (1981)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Federal legislation with full congressional record.",
+      "cross_references": ["1882-005"]
+    }
+  ],
+  "disconfirming_evidence": "Several events listed require nuance. The Standard Oil Trust (1882-007) is often described as controlling '90% of U.S. oil refining' — this figure, while widely cited, derives largely from Ida Tarbell's investigative work and later antitrust proceedings. Some economic historians argue the percentage was somewhat lower or varied by specific refining segment. The First Aliyah (1882-017) is conventionally dated from 1882, but individual migration was occurring before this date, and the term 'First Aliyah' is a retroactive periodisation imposed by Zionist historiography — contemporary migrants did not use the term. The characterisation of the Imo Incident (1882-011) as primarily an anti-modernisation revolt has been complicated by Korean historians who emphasise legitimate grievances over unpaid wages and rice quality, arguing the anti-Japanese dimension was secondary to socioeconomic discontent. The framing of Edison's Pearl Street Station (1882-006) as 'the first' power plant is contested — Sigmund Schuckert's plant in Nuremberg and the Holborn Viaduct station in London preceded it, though Pearl Street was the first integrated generation-and-distribution system serving multiple customers with metering. The Triple Alliance (1882-004) is sometimes presented as a rigid bloc pointing inevitably toward World War I, but in practice Italy's commitment was always conditional and the alliance was renewed with modifications multiple times.",
+  "historiographic_note": "1882 falls in a period of exceptionally rich documentation across Europe, North America, and East Asia. Major newspapers, parliamentary records, diplomatic correspondence, and personal papers survive abundantly. However, the surviving record is heavily skewed toward elite, governmental, and European perspectives. African, Southeast Asian, and Central Asian events are predominantly documented through colonial archives — meaning indigenous perspectives are filtered through imperial lenses. The Egyptian events of 1882, for example, are far better documented from the British side than from Egyptian nationalist sources, many of which were suppressed or scattered. Korean sources for the Imo Incident exist but are underutilised in English-language scholarship. Russian-Jewish sources for the May Laws are abundant in Yiddish and Hebrew but historically underrepresented in mainstream historiography.",
+  "graph_edges": [
+    {
+      "from": "1882-002",
+      "to": "1882-003",
+      "relation": "led_to",
+      "note": "British bombardment of Alexandria was the prelude to the military campaign culminating at Tel el-Kebir"
+    },
+    {
+      "from": "1882-003",
+      "to": "1956-001",
+      "relation": "led_to",
+      "note": "British occupation of Egypt established in 1882 lasted until the Suez Crisis of 1956"
+    },
+    {
+      "from": "1882-004",
+      "to": "1914-001",
+      "relation": "led_to",
+      "note": "Triple Alliance was one of the two alliance blocs whose interaction triggered World War I"
+    },
+    {
+      "from": "1882-009",
+      "to": "1882-017",
+      "relation": "caused_by",
+      "note": "May Laws accelerated Jewish emigration including to Palestine (First Aliyah)"
+    },
+    {
+      "from": "1882-010",
+      "to": "1882-011",
+      "relation": "contemporary_with",
+      "note": "Korea's opening via treaty and the Imo Incident both reflect the crisis of Joseon Korea's forced engagement with the treaty-port system"
+    },
+    {
+      "from": "1882-011",
+      "to": "1894-001",
+      "relation": "led_to",
+      "note": "Sino-Japanese rivalry over Korea deepened by the Imo Incident, contributing to the First Sino-Japanese War"
+    },
+    {
+      "from": "1882-005",
+      "to": "1882-021",
+      "relation": "contemporary_with",
+      "note": "Chinese Exclusion Act and Immigration Act of 1882 together established the federal immigration restriction framework"
+    },
+    {
+      "from": "1882-007",
+      "to": "1890-001",
+      "relation": "led_to",
+      "note": "Standard Oil Trust directly provoked the antitrust movement leading to the Sherman Act"
+    },
+    {
+      "from": "1882-016",
+      "to": "1896-001",
+      "relation": "led_to",
+      "note": "Italian acquisition of Assab was the first step toward the colony of Eritrea and the disastrous Adwa campaign"
+    },
+    {
+      "from": "1882-019",
+      "to": "1905-001",
+      "relation": "led_to",
+      "note": "Ferry Laws were part of the laïcité programme that culminated in the 1905 separation of Church and State in France"
+    }
+  ]
+}
