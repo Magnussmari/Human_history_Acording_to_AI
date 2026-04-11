@@ -1,734 +1,391 @@
 {
   "year": 1880,
   "year_label": "1880 CE",
-  "era_context": "The late 19th century was defined by European imperial expansion, rapid industrialisation, and the consolidation of nation-states. The 'Scramble for Africa' was accelerating, the United States was entering the Gilded Age, Japan was modernising under the Meiji Restoration, and the Qing dynasty faced internal and external pressures. Technological breakthroughs \u2014 electricity, telecommunications, steel \u2014 were transforming economies and daily life across the industrialised world.",
+  "era_context": "The late 19th century, dominated by European imperial expansion, industrial consolidation, and nationalist movements. The British Empire at its zenith; the German Empire under Bismarck asserting continental dominance; the Ottoman Empire in terminal decline; Russia expanding into Central Asia; the United States industrializing rapidly and beginning Pacific expansion; China fragmenting under foreign pressure and internal instability.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (beyond European colonial records)",
-    "Central Asia (Russian conquest narratives dominate)",
-    "Southeast Asia (limited non-colonial sources in training data)",
-    "Pacific Islands (oral traditions underrepresented)",
-    "Indigenous peoples of the Americas and Australia (colonial lens dominates surviving records)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1880-001",
-      "title": "Edison patents practical incandescent light bulb",
-      "region": "United States",
-      "coordinates_approx": "40.74, -74.17",
-      "category": "technological",
-      "description": "On 27 January 1880, Thomas Edison received U.S. Patent No. 223,898 for an electric lamp using a carbonised bamboo filament capable of lasting over 1,200 hours. This followed his successful demonstration in late 1879 and marked the transition from experimental curiosity to commercially viable electric lighting. Edison immediately began building the infrastructure for electric power distribution, starting with the Pearl Street Station project in Manhattan. The patent triggered fierce legal battles with Joseph Swan in Britain and established the paradigm of centralised electrical generation that would reshape urban life within a decade.",
+      "title": "First Boer War begins",
+      "region": "South Africa, Transvaal Republic",
+      "coordinates_approx": "-25.5, 25.5",
+      "category": "military",
+      "description": "Tensions between the British-annexed Transvaal and Boer settlers erupted into armed conflict in December 1880. Boer forces under Paul Kr\u00fcger and Piet Joubert launched attacks on British garrisons, initiating the First Boer War (1880\u20131881). The conflict represented the first major setback to British imperial expansion in southern Africa and demonstrated the military capability of Boer commandos, setting the stage for decades of Anglo-Boer tension.",
       "key_figures": [
-        "Thomas Edison (inventor, entrepreneur)",
-        "Joseph Swan (rival inventor, Britain)"
+        "Paul Kr\u00fcger (Boer leader)",
+        "Piet Joubert (Boer general)",
+        "Sir George Colley (British commander)",
+        "Sir George Phipps-Normanby (British High Commissioner)"
       ],
       "sources": [
         {
-          "name": "U.S. Patent No. 223,898 (27 January 1880)",
+          "name": "British Colonial Office records and military dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robert Friedel & Paul Israel, Edison's Electric Light: The Art of Invention (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Boer War memoirs and Transvaal government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British and colonial press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Patent records provide exact dating. The broader narrative of Edison's development timeline is extensively documented in contemporary newspapers and his own laboratory notebooks.",
+      "certainty_note": "The outbreak of the First Boer War in December 1880 is well-documented. The conflict lasted until March 1881.",
       "cross_references": [
-        "1879-EDISON_DEMO"
+        "1881-002 (Majuba Hill and Treaty of Pretoria)"
       ]
     },
     {
       "id": "1880-002",
-      "title": "Gladstone returns as British Prime Minister",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "political",
-      "description": "William Ewart Gladstone won the general election of April 1880 decisively, defeating Benjamin Disraeli's Conservatives after a landmark campaign \u2014 the Midlothian campaign \u2014 that pioneered modern mass electioneering. Gladstone's second ministry (1880\u20131885) faced immediate crises: the Irish Land War, the First Boer War, and the British occupation of Egypt. His government passed the Irish Land Act of 1881 and the Third Reform Act of 1884, expanding the electorate significantly. The election marked a shift from Disraeli's assertive imperialism toward Gladstone's more cautious (though far from anti-imperial) Liberal approach.",
+      "title": "British occupation of Kandahar, Afghanistan",
+      "region": "Afghanistan, Kandahar",
+      "coordinates_approx": "31.61, 65.71",
+      "category": "military",
+      "description": "Following the Second Anglo-Afghan War (1878\u20131880), British forces under General Frederick Roberts occupied Kandahar in September 1880. The occupation represented the culmination of British military operations aimed at establishing control over Afghanistan and preventing Russian expansion into the region. However, the occupation proved costly and politically contentious, contributing to the eventual British withdrawal and the restoration of Afghan independence under Abdur Rahman Khan.",
       "key_figures": [
-        "William Ewart Gladstone (Liberal leader, Prime Minister)",
-        "Benjamin Disraeli (outgoing Conservative PM)",
-        "Lord Hartington (Liberal rival)"
+        "Frederick Roberts (British general)",
+        "Abdur Rahman Khan (Afghan emir)",
+        "Lord Lytton (British Viceroy of India)"
       ],
       "sources": [
         {
-          "name": "Hansard Parliamentary Debates, 1880 session",
+          "name": "British Indian Army records and military dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "H.C.G. Matthew, Gladstone 1809\u20131898 (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Foreign Office and India Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British press and military journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Parliamentary records and extensive press coverage provide exact dating and detail.",
+      "certainty_note": "The occupation of Kandahar in September 1880 is well-documented in British military and diplomatic records.",
       "cross_references": [
-        "1881-IRISH_LAND_ACT",
-        "1882-EGYPT_OCCUPATION"
+        "1878-001 (Second Anglo-Afghan War begins)",
+        "1881-003 (British withdrawal from Kandahar)"
       ]
     },
     {
       "id": "1880-003",
-      "title": "First Boer War begins \u2014 Transvaal declares independence",
-      "region": "Southern Africa (Transvaal)",
-      "coordinates_approx": "-25.75, 28.19",
-      "category": "military",
-      "description": "On 16 December 1880, Boer settlers in the Transvaal formally repudiated British annexation (imposed in 1877) and declared the restoration of the South African Republic. Fighting began at Bronkhorstspruit on 20 December when a Boer commando ambushed a British column, killing or wounding over 120 soldiers. The war exposed critical weaknesses in British imperial military capability against mobile, well-armed settler forces using guerrilla-style tactics. It would end in British defeat at Majuba Hill in February 1881, leading to the Pretoria Convention and Boer self-governance \u2014 but the underlying tensions would ignite the far bloodier Second Boer War in 1899.",
+      "title": "Gladstone's return to power in Britain",
+      "region": "United Kingdom, London",
+      "coordinates_approx": "51.50, -0.13",
+      "category": "political",
+      "description": "William Ewart Gladstone returned to power as Prime Minister following the general election of April 1880, defeating Benjamin Disraeli's Conservative government. Gladstone's second ministry (1880\u20131885) focused on Irish Home Rule, electoral reform, and retrenchment in imperial expenditure. His return marked a shift in British politics toward liberalism and away from Disraeli's expansionist imperialism, though Gladstone himself would prove inconsistent on imperial matters.",
       "key_figures": [
-        "Paul Kruger (Boer political leader)",
-        "Piet Joubert (Boer commandant-general)",
-        "Sir Owen Lanyon (British administrator, Transvaal)",
-        "Colonel Philip Anstruther (British, killed at Bronkhorstspruit)"
+        "William Ewart Gladstone (Liberal leader)",
+        "Benjamin Disraeli (Conservative leader)",
+        "Lord Granville (Foreign Secretary)"
       ],
       "sources": [
         {
-          "name": "John Laband, The Transvaal Rebellion: The First Boer War, 1880\u20131881 (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British parliamentary records and election results",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "British War Office records, Transvaal campaign dispatches (1880\u20131881)",
+          "name": "Gladstone's diaries and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British press and political journals",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in both British and Boer sources. Exact dates of engagements are firmly established.",
+      "certainty_note": "The April 1880 election and Gladstone's return to power are well-documented. The date and outcome are certain.",
       "cross_references": [
-        "1877-TRANSVAAL_ANNEX",
-        "1881-MAJUBA",
-        "1899-SECOND_BOER_WAR"
+        "1874-001 (Disraeli's first ministry)",
+        "1885-001 (Gladstone's resignation)"
       ]
     },
     {
       "id": "1880-004",
-      "title": "Battle of Tacna and Battle of Arica \u2014 War of the Pacific",
-      "region": "South America (Peru, Chile, Bolivia)",
-      "coordinates_approx": "-18.01, -70.25",
-      "category": "military",
-      "description": "Chile won decisive land victories at the Battle of Tacna (26 May 1880) and the Battle of Arica (7 June 1880), effectively eliminating Bolivia and Peru as conventional military threats. At Tacna, Chilean forces defeated the combined Peruvian-Bolivian army, after which Bolivia withdrew from active combat permanently. At Arica, Colonel Francisco Bolognesi refused surrender terms and the Peruvian garrison was overwhelmed in a dramatic assault on the Morro de Arica. These victories gave Chile control of the mineral-rich Atacama region and opened the road to Lima, which fell in January 1881. The war permanently redrew South American borders and Bolivia's loss of its Pacific coastline remains a live diplomatic issue to this day.",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
+      "category": "political",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Colonel Francisco Bolognesi (Peruvian commander, killed at Arica)",
-        "General Manuel Baquedano (Chilean commander)",
-        "Narciso Campero (Bolivian president)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "William Sater, Andean Tragedy: Fighting the War of the Pacific, 1879\u20131884 (2007)",
-          "type": "historiographic_consensus",
+          "name": "Kilmainham Gaol records and British Home Office files",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Chilean and Peruvian military dispatches and casualty reports (1880)",
+          "name": "Contemporary Irish and British press",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented by all three belligerent nations. Battle dates and outcomes are not contested.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1879-WAR_OF_PACIFIC_START",
-        "1881-LIMA_FALLS"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-005",
-      "title": "Cologne Cathedral completed after 632 years",
-      "region": "Germany (Prussian Rhineland)",
-      "coordinates_approx": "50.94, 6.96",
-      "category": "cultural",
-      "description": "On 15 October 1880, the Cologne Cathedral (K\u00f6lner Dom) was officially completed, 632 years after construction began in 1248. The final phase of construction (1842\u20131880) was driven by Prussian state funding and German nationalist sentiment \u2014 the cathedral became a symbol of German unity and cultural achievement. At 157 metres, it was briefly the tallest structure in the world. Kaiser Wilhelm I attended the consecration ceremony, though the event was politically charged: the Kulturkampf between the Prussian state and the Catholic Church cast a shadow, and the Archbishop of Cologne boycotted parts of the celebration.",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
+      "category": "political",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Kaiser Wilhelm I (German Emperor)",
-        "Archbishop Paulus Melchers (Archbishop of Cologne, in exile due to Kulturkampf)",
-        "Ernst Friedrich Zwirner (chief architect of final construction phase, d. 1861)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Contemporary German newspaper accounts (K\u00f6lnische Zeitung, October 1880)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Arnold Wolff, The Cologne Cathedral (2005 ed.)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exact completion date well documented. The political context of the Kulturkampf affecting the ceremony is attested in contemporary sources.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1248-COLOGNE_BEGUN",
-        "1871-GERMAN_UNIFICATION"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-006",
-      "title": "Brazza-Makoko Treaty \u2014 French Congo established",
-      "region": "Central Africa (Republic of the Congo)",
-      "coordinates_approx": "-4.27, 15.28",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "In September\u2013October 1880, Pierre Savorgnan de Brazza negotiated a treaty with Makoko (King Iloo I) of the Teke Kingdom, establishing French protectorate rights over territory on the north bank of the Congo River. This treaty, ratified by the French National Assembly in 1882, directly provoked King Leopold II of Belgium to accelerate his own Congo claims, contributing to the broader 'Scramble for Africa.' Brazza's expedition was framed in France as a peaceful, civilising alternative to Leopold's commercial exploitation \u2014 a self-serving narrative that obscured the coercion involved. The treaty laid the foundation for French Equatorial Africa.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Pierre Savorgnan de Brazza (French-Italian explorer)",
-        "Makoko Iloo I (King of the Teke)",
-        "King Leopold II (Belgium, rival claimant)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Brazza's reports to the French Ministry of the Navy (1880)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Henri Brunschwig, French Colonialism 1871\u20131914: Myths and Realities (1966)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty document survives. Exact date of signing is debated (September or October 1880) but the year is certain.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1884-BERLIN_CONFERENCE",
-        "1885-CONGO_FREE_STATE"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-007",
-      "title": "Buenos Aires federalised as Argentine capital",
-      "region": "Argentina",
-      "coordinates_approx": "-34.60, -58.38",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "In September 1880, following a brief armed conflict between national and provincial forces in June, the Argentine Congress passed the law federalising Buenos Aires, resolving a constitutional dispute that had plagued the country since independence. President Julio Argentino Roca, having defeated Buenos Aires Province Governor Carlos Tejedor's forces, separated the city from the province and made it the permanent federal capital. This centralisation of power enabled the consolidation of the modern Argentine state and the economic boom of the 1880s\u20131890s, fuelled by agricultural exports and mass European immigration.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Julio Argentino Roca (President of Argentina)",
-        "Carlos Tejedor (Governor of Buenos Aires Province)",
-        "Bartolom\u00e9 Mitre (former president, mediator)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Argentine Congressional records, Law of Federalisation (September 1880)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Rock, Argentina 1516\u20131987 (1987)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative records and press coverage provide exact documentation.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1879-ROCA_CONQUEST_DESERT"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-008",
-      "title": "Treaty of Madrid on Morocco",
-      "region": "Morocco / International",
-      "coordinates_approx": "40.42, -3.70",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "On 3 July 1880, representatives of twelve nations and Morocco signed the Treaty of Madrid, which regulated the system of 'protection' \u2014 the practice whereby European powers granted consular protection to Moroccan subjects, effectively creating extraterritorial legal privileges that undermined Moroccan sovereignty. While ostensibly affirming Moroccan independence and equal commercial access, the treaty institutionalised European interference and set the framework for the later partition of Moroccan sovereignty. It remained a key legal reference point through the Moroccan crises of 1905 and 1911.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Sultan Hassan I of Morocco",
-        "Representatives of twelve signatory nations"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Treaty of Madrid text (3 July 1880)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edmund Burke III, Prelude to Protectorate in Morocco (1976)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text and diplomatic correspondence provide exact documentation.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1905-FIRST_MOROCCAN_CRISIS",
-        "1911-AGADIR_CRISIS",
-        "1912-TREATY_OF_FEZ"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-009",
-      "title": "James Garfield elected President of the United States",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "On 2 November 1880, Republican James A. Garfield narrowly defeated Democrat Winfield Scott Hancock in the popular vote (by fewer than 10,000 votes out of over 9 million cast) while winning a comfortable Electoral College majority. The election was fought over tariffs, civil service reform, and Reconstruction's legacy. Garfield, a dark-horse compromise candidate, represented the 'Half-Breed' reform wing of the Republican Party against the 'Stalwart' machine faction. His presidency would be tragically cut short by assassination in 1881, but the resulting public outrage catalysed the Pendleton Civil Service Reform Act of 1883.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "James A. Garfield (Republican candidate, President-elect)",
-        "Winfield Scott Hancock (Democratic candidate)",
-        "Chester A. Arthur (Vice President-elect, Stalwart faction)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Official election returns, Federal Election Commission records",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ira Rutkow, James A. Garfield (2006)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Election results precisely documented.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1881-GARFIELD_ASSASSINATION",
-        "1883-PENDLETON_ACT"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1880-010",
-      "title": "Capture of Ned Kelly in Australia",
-      "region": "Australia (Colony of Victoria)",
-      "coordinates_approx": "-36.73, 145.92",
-      "category": "legal",
-      "description": "On 28 June 1880, the bushranger Ned Kelly was captured at the siege of Glenrowan, Victoria, after a dramatic last stand in which he wore improvised steel armour. Kelly and his gang had planned to derail a police train, but a hostage escaped and warned authorities. Kelly was tried, convicted of murder, and hanged on 11 November 1880 at Melbourne Gaol. The Kelly saga crystallised deep tensions in colonial Australian society \u2014 between Irish-descended selectors and the Anglo-Protestant establishment, between rural poverty and urban authority. Kelly became Australia's most enduring folk anti-hero.",
-      "key_figures": [
-        "Ned Kelly (bushranger)",
-        "Superintendent Francis Hare (police commander at Glenrowan)",
-        "Judge Redmond Barry (presiding judge)"
-      ],
-      "sources": [
-        {
-          "name": "Trial transcripts, Supreme Court of Victoria (October 1880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ian Jones, Ned Kelly: A Short Life (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in police records, trial transcripts, press coverage, and Kelly's own 'Jerilderie Letter.'",
-      "cross_references": []
-    },
-    {
-      "id": "1880-011",
-      "title": "Dostoevsky completes The Brothers Karamazov",
-      "region": "Russian Empire",
-      "coordinates_approx": "59.93, 30.32",
-      "category": "cultural",
-      "description": "Fyodor Dostoevsky completed the serialisation of The Brothers Karamazov in the journal The Russian Messenger in November 1880, with the complete book published the same month. Widely regarded as one of the greatest novels ever written, it synthesised Dostoevsky's lifelong preoccupations with faith, doubt, free will, and moral responsibility into a murder mystery framed around a dysfunctional family. The 'Grand Inquisitor' chapter became one of the most discussed passages in world literature. Dostoevsky died two months later in January 1881.",
-      "key_figures": [
-        "Fyodor Dostoevsky (author)",
-        "Mikhail Katkov (editor, The Russian Messenger)"
-      ],
-      "sources": [
-        {
-          "name": "The Russian Messenger (Russky Vestnik), serialisation 1879\u20131880",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Joseph Frank, Dostoevsky: The Mantle of the Prophet, 1871\u20131881 (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication dates precisely documented in journal records.",
-      "cross_references": [
-        "1881-DOSTOEVSKY_DEATH"
-      ]
-    },
-    {
-      "id": "1880-012",
-      "title": "Irish Land War intensifies \u2014 Boycott campaign",
-      "region": "Ireland (United Kingdom)",
-      "coordinates_approx": "53.77, -9.52",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "The Irish Land War, which had begun in 1879, intensified dramatically in 1880 as the Irish National Land League, led by Michael Davitt and Charles Stewart Parnell, organised tenant farmers against landlordism. In September 1880, the campaign against Captain Charles Boycott \u2014 a land agent in County Mayo who refused to reduce rents \u2014 gave the English language a new word. The community shunned Boycott so effectively that his crops had to be harvested by Orangemen imported from Ulster under military escort. The agitation combined constitutional pressure and agrarian direct action, forcing Gladstone's government to pass the Land Act of 1881.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1880 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
         "Michael Davitt (Land League founder)",
-        "Captain Charles Boycott (land agent)",
-        "Anna Parnell (Ladies' Land League)"
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Land League records and contemporary Irish press (Freeman's Journal, 1880)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "T.W. Moody, Davitt and Irish Revolution, 1846\u201382 (1981)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in parliamentary records, press, and police reports.",
+      "certainty_note": "Davitt's imprisonment in 1880 is well-documented in contemporary sources.",
       "cross_references": [
-        "1879-LAND_LEAGUE_FOUNDED",
-        "1881-IRISH_LAND_ACT"
-      ]
-    },
-    {
-      "id": "1880-013",
-      "title": "Meiji Japan \u2014 liberal movement petitions for parliament",
-      "region": "Japan",
-      "coordinates_approx": "35.68, 139.77",
-      "category": "political",
-      "description": "In 1880, the Freedom and People's Rights Movement (Jiy\u016b Minken Und\u014d) reached its peak intensity. In April, representatives from across Japan submitted a petition to the government demanding the establishment of a national parliament. The movement, drawing support from former samurai, wealthy farmers, and urban intellectuals, held mass rallies and established political associations nationwide. In response, the Meiji government issued the Public Assembly Ordinance (Sh\u016bkai J\u014drei) in April 1880, restricting political meetings. Nevertheless, the pressure contributed to the imperial promise of a constitution and parliament, finally delivered in 1889\u20131890.",
-      "key_figures": [
-        "Itagaki Taisuke (liberal movement leader)",
-        "\u014ckuma Shigenobu (government reformer)",
-        "Emperor Meiji"
-      ],
-      "sources": [
-        {
-          "name": "Petitions to the Genr\u014din (Senate), 1880",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Andrew Gordon, A Modern History of Japan (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Government records, petition texts, and newspaper coverage survive. The movement is well-attested in Japanese historiography.",
-      "cross_references": [
-        "1889-MEIJI_CONSTITUTION",
-        "1890-FIRST_DIET"
-      ]
-    },
-    {
-      "id": "1880-014",
-      "title": "France annexes Tahiti \u2014 end of Pomare dynasty",
-      "region": "Oceania (French Polynesia)",
-      "coordinates_approx": "-17.53, -149.57",
-      "category": "political",
-      "description": "On 29 June 1880, King Pomare V of Tahiti formally ceded sovereignty to France, ending the Pomare dynasty and converting the protectorate (established 1842) into a full French colony. The annexation was accomplished through diplomatic pressure and the promise of a French pension to Pomare V. This consolidated French control over the Society Islands and marked the effective end of Polynesian self-governance in the region. The event was part of the broader European partition of the Pacific, competing with British and German interests.",
-      "key_figures": [
-        "King Pomare V of Tahiti",
-        "French colonial administrators"
-      ],
-      "sources": [
-        {
-          "name": "Deed of cession (29 June 1880), French colonial archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert Aldrich, The French Presence in the South Pacific 1842\u20131940 (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official documents of cession survive in French archives.",
-      "cross_references": [
-        "1842-TAHITI_PROTECTORATE"
-      ]
-    },
-    {
-      "id": "1880-015",
-      "title": "Qing dynasty \u2014 Zuo Zongtang consolidates Xinjiang",
-      "region": "Qing China (Xinjiang)",
-      "coordinates_approx": "43.80, 87.60",
-      "category": "political",
-      "description": "Following Zuo Zongtang's military reconquest of Xinjiang from Yakub Beg (completed 1878), the Qing government formally established Xinjiang as a province on the Chinese administrative model in 1884, but the consolidation process was underway by 1880. Treaty negotiations with Russia over the Ili Valley (occupied by Russia since 1871) dominated Qing diplomacy. The Treaty of Saint Petersburg (February 1881) would return most of the Ili Valley to China. Zuo's campaign demonstrated the Qing dynasty's continued capacity for large-scale military operations despite its broader difficulties.",
-      "key_figures": [
-        "Zuo Zongtang (Qing general and governor-general)",
-        "Zeng Jize (Qing diplomat in Russia)",
-        "Emperor Guangxu (nominal ruler, regency period)"
-      ],
-      "sources": [
-        {
-          "name": "Qing court records (Shilu) and diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "James Millward, Eurasian Crossroads: A History of Xinjiang (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qing administrative records and Russo-Chinese diplomatic correspondence well preserved. The provincial establishment date is sometimes given as 1884 (formal decree); 1880 represents the consolidation phase.",
-      "cross_references": [
-        "1878-XINJIANG_RECONQUEST",
-        "1881-TREATY_ST_PETERSBURG"
-      ]
-    },
-    {
-      "id": "1880-016",
-      "title": "Zagreb earthquake",
-      "region": "Croatia (Austria-Hungary)",
-      "coordinates_approx": "45.81, 15.98",
-      "category": "environmental",
-      "description": "On 9 November 1880, a magnitude ~6.3 earthquake struck Zagreb, then part of Austria-Hungary, causing widespread destruction. An estimated 1,400 buildings were damaged, including the Zagreb Cathedral. The earthquake prompted a major rebuilding effort that transformed Zagreb from a largely medieval town into a modern Central European city, with new construction following contemporary seismic awareness. The event was among the strongest earthquakes recorded in the region and was studied by the Croatian seismologist Andrija Mohorovi\u010di\u0107's predecessors, contributing to the development of seismology in the region.",
-      "key_figures": [
-        "Josip Juraj Strossmayer (Bishop, patron of reconstruction)",
-        "Herman Boll\u00e9 (architect of cathedral reconstruction)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary seismological reports and Austro-Hungarian government damage assessments (1880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Croatian seismological records, Department of Geophysics, University of Zagreb",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in Austro-Hungarian administrative records and contemporary press. Exact date and magnitude are established.",
-      "cross_references": []
-    },
-    {
-      "id": "1880-017",
-      "title": "Melbourne International Exhibition opens",
-      "region": "Australia (Colony of Victoria)",
-      "coordinates_approx": "-37.80, 144.97",
-      "category": "cultural",
-      "description": "The Melbourne International Exhibition opened on 1 October 1880 in the purpose-built Royal Exhibition Building in Carlton Gardens. It was the largest event held in Australia to that date, showcasing industrial and cultural achievements from 33 countries. The exhibition ran until April 1881 and attracted over 1.3 million visitors \u2014 remarkable for a colony of fewer than one million people. It demonstrated Melbourne's self-image as a major world city during the Australian gold rush prosperity era and led directly to Melbourne hosting the Centennial International Exhibition of 1888.",
-      "key_figures": [
-        "Sir Redmond Barry (president of commissioners)",
-        "Joseph Reed (architect, Royal Exhibition Building)"
-      ],
-      "sources": [
-        {
-          "name": "Official Record of the Melbourne International Exhibition, 1880\u20131881",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Graeme Davison, The Rise and Fall of Marvellous Melbourne (1978)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official records and extensive press documentation survive.",
-      "cross_references": []
-    },
-    {
-      "id": "1880-018",
-      "title": "Russian siege of Geok Tepe begins \u2014 conquest of Turkmenistan",
-      "region": "Central Asia (Turkmenistan)",
-      "coordinates_approx": "38.18, 57.96",
-      "category": "military",
-      "description": "In late 1880, General Mikhail Skobelev led a Russian expeditionary force against the Teke Turkmen fortress of Geok Tepe (G\u00f6kdepe), beginning the siege in December. An earlier Russian assault had been repulsed in 1879, making this a prestige operation for the Russian Empire. The fortress fell on 12 January 1881 after a mine detonation breached the walls, followed by a massacre of defenders and civilians \u2014 estimated Turkmen deaths ranged from 6,000 to 20,000. The conquest completed Russian control of the Transcaspian region and brought Russian power to the Afghan border, intensifying the 'Great Game' with Britain.",
-      "key_figures": [
-        "General Mikhail Skobelev (Russian commander)",
-        "Teke Turkmen defenders (no single named leader well-attested)"
-      ],
-      "sources": [
-        {
-          "name": "Russian military dispatches and Skobelev's reports (1880\u20131881)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Alexander Morrison, The Russian Conquest of Central Asia (2021)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Russian military records provide detailed documentation. Turkmen casualty figures are contested \u2014 Russian sources minimise them, modern scholarship tends toward higher estimates.",
-      "cross_references": [
-        "1879-FIRST_GEOK_TEPE_ATTACK",
-        "1881-GEOK_TEPE_FALLS"
-      ]
-    },
-    {
-      "id": "1880-019",
-      "title": "Pasteur begins work on attenuated vaccines",
-      "region": "France",
-      "coordinates_approx": "48.84, 2.35",
-      "category": "scientific",
-      "description": "In 1880, Louis Pasteur published his landmark paper demonstrating that attenuated (weakened) cultures of chicken cholera bacteria could confer immunity, extending Jenner's smallpox vaccination principle to laboratory-produced vaccines. This work, presented to the French Academy of Sciences, established the experimental foundation for modern vaccinology. Pasteur immediately began applying the attenuation principle to anthrax, culminating in his famous 1881 public demonstration at Pouilly-le-Fort. The 1880 chicken cholera work represented the conceptual breakthrough \u2014 the deliberate, reproducible weakening of a pathogen for immunisation.",
-      "key_figures": [
-        "Louis Pasteur (microbiologist)",
-        "Charles Chamberland (Pasteur's assistant)",
-        "\u00c9mile Roux (Pasteur's collaborator)"
-      ],
-      "sources": [
-        {
-          "name": "Pasteur, 'Sur les maladies virulentes...', Comptes Rendus de l'Acad\u00e9mie des Sciences (1880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Gerald Geison, The Private Science of Louis Pasteur (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Pasteur's published papers and laboratory notebooks (opened to scholars in the 1970s) provide exact documentation.",
-      "cross_references": [
-        "1881-ANTHRAX_VACCINE",
-        "1885-RABIES_VACCINE"
-      ]
-    },
-    {
-      "id": "1880-020",
-      "title": "Pushkin monument unveiled in Moscow \u2014 Dostoevsky's speech",
-      "region": "Russian Empire",
-      "coordinates_approx": "55.76, 37.60",
-      "category": "cultural",
-      "description": "On 8 June 1880, the monument to Alexander Pushkin was unveiled in Moscow, accompanied by a literary festival that became a defining moment in Russian cultural life. Dostoevsky's speech on Pushkin, delivered on 8 June at a meeting of the Society of Lovers of Russian Literature, electrified the audience with its vision of Russia's universal spiritual mission. The speech received a rapturous reception that temporarily unified Westernisers and Slavophiles. Ivan Turgenev also spoke. The event demonstrated literature's extraordinary political and social weight in late imperial Russia.",
-      "key_figures": [
-        "Fyodor Dostoevsky (author, speaker)",
-        "Ivan Turgenev (author, speaker)",
-        "Alexander Pushkin (subject, poet d. 1837)"
-      ],
-      "sources": [
-        {
-          "name": "Dostoevsky's Pushkin Speech, published in Diary of a Writer (1880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marcus Levitt, Russian Literary Politics and the Pushkin Celebration of 1880 (1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in contemporary press and personal correspondence of participants.",
-      "cross_references": [
-        "1880-011"
-      ]
-    },
-    {
-      "id": "1880-021",
-      "title": "U.S. Census records population of 50.2 million",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
-      "category": "demographic",
-      "description": "The 1880 U.S. Census, the tenth decennial census, recorded a population of 50,189,209 \u2014 a 30% increase over 1870. This was the first census to be conducted under modern statistical methods and the first to attempt comprehensive recording of the African American population post-Reconstruction. The census revealed the accelerating urbanisation and industrialisation of America, with New York City reaching 1.2 million. The immense difficulty of processing the data by hand (it took nearly seven years) directly motivated Herman Hollerith's development of punch-card tabulating machines for the 1890 census.",
-      "key_figures": [
-        "Francis Amasa Walker (Superintendent of the Census)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. Census Bureau, Tenth Census of the United States (1880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Margo Anderson, The American Census: A Social History (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Census records are primary government documents. Population figures have been adjusted by later demographers but the original count is firmly documented.",
-      "cross_references": [
-        "1890-HOLLERITH_CENSUS"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several entries warrant caveats. (1) Edison's light bulb: The narrative of Edison as sole inventor is contested. Joseph Swan demonstrated a working incandescent lamp in Newcastle in February 1879, arguably before Edison's successful demonstration, and Humphry Davy, Warren de la Rue, and others had earlier prototypes. Edison's patent priority is a legal fact, not a statement about sole invention. (2) Brazza-Makoko Treaty: Modern scholarship (e.g., Emmanuelle Sibeud) questions whether Makoko fully understood the sovereignty implications of the treaty, and whether the 'treaty' framework was meaningful across such different legal cultures. The framing of Brazza as benevolent explorer (vs. Leopold's exploitation) was largely French propaganda. (3) Pasteur's chicken cholera work: Gerald Geison's 1995 examination of Pasteur's private notebooks revealed that his public accounts of experiments were sometimes idealised or post-hoc rationalised, though the core scientific findings remain valid. (4) Ned Kelly: The romanticisation of Kelly as proto-republican rebel is contested; some historians (e.g., Ian MacFarlane, The Kelly Gang Unmasked, 2012) argue Kelly was primarily a criminal whose mythology was constructed posthumously. (5) Dostoevsky's Pushkin speech: Its immediate 'unifying' reception was exaggerated; Turgenev and liberal critics pushed back within days, and the Westerniser-Slavophile reconciliation proved entirely ephemeral.",
-  "historiographic_note": "1880 is richly documented across most regions covered here, with extensive government records, press coverage, diplomatic correspondence, and personal papers surviving. However, the record is heavily biased toward literate, state-level actors. The experiences of colonised peoples \u2014 Teke Turkmen, Tahitians, Teke Congolese, Irish tenant farmers \u2014 are filtered almost entirely through the records of their colonisers or opponents. African, Pacific Islander, and Central Asian voices from this period are largely absent from the archival record, surviving mainly in later oral history collections of varying reliability. The Irish Land War is an exception where tenant perspectives survive through Land League records and sympathetic press, but even here the Anglo-Protestant establishment's documentation dominates. Russian and Japanese sources are substantial but less fully represented in English-language historiography than Western European material.",
+  "disconfirming_evidence": "The First Boer War is sometimes portrayed as a clear Boer victory, but the reality was more complex. While Boers won tactical victories (notably at Majuba Hill), they faced logistical constraints and were unable to sustain prolonged conflict. British withdrawal was as much a political decision (Gladstone's government prioritized retrenchment) as a military necessity. The war's significance has been inflated in retrospective Afrikaner nationalism; contemporary British sources treated it as a minor colonial skirmish. Additionally, the characterization of Gladstone's 1880 return as a triumph of liberalism over imperialism is complicated by his subsequent imperial interventions (Egypt, Sudan), suggesting ideological inconsistency.",
+  "historiographic_note": "1880 is well-documented in Western sources, particularly British, American, and European records. The First Boer War, Gladstone's election, and the Afghan occupation are extensively covered in contemporary newspapers, government records, and official dispatches. However, non-Western perspectives\u2014particularly Boer, Afghan, and Irish viewpoints\u2014are often mediated through colonial sources or later nationalist historiography. The Irish Land League's activities are well-documented in British Home Office files and Irish nationalist sources, but the balance of power and agency in these conflicts is contested. Afghan sources on the Second Anglo-Afghan War and British occupation are sparse in English-language historiography.",
   "graph_edges": [
     {
       "from": "1880-001",
-      "to": "1882-PEARL_STREET_STATION",
+      "to": "1881-002",
       "relation": "led_to",
-      "note": "Edison's patent led directly to building the first commercial electrical distribution system"
-    },
-    {
-      "from": "1880-003",
-      "to": "1881-MAJUBA",
-      "relation": "led_to",
-      "note": "First Boer War culminated in British defeat at Majuba Hill"
-    },
-    {
-      "from": "1880-003",
-      "to": "1899-SECOND_BOER_WAR",
-      "relation": "led_to",
-      "note": "Unresolved tensions from First Boer War led to larger second conflict"
-    },
-    {
-      "from": "1880-004",
-      "to": "1881-LIMA_FALLS",
-      "relation": "led_to",
-      "note": "Chilean victories at Tacna and Arica opened the road to Lima"
-    },
-    {
-      "from": "1880-006",
-      "to": "1884-BERLIN_CONFERENCE",
-      "relation": "led_to",
-      "note": "Brazza-Makoko Treaty accelerated European scramble, prompting Berlin Conference"
-    },
-    {
-      "from": "1880-009",
-      "to": "1881-GARFIELD_ASSASSINATION",
-      "relation": "led_to",
-      "note": "Garfield's election led to his presidency and assassination by disappointed office-seeker"
-    },
-    {
-      "from": "1880-012",
-      "to": "1881-IRISH_LAND_ACT",
-      "relation": "led_to",
-      "note": "Land War agitation forced Gladstone's government to pass reforming legislation"
-    },
-    {
-      "from": "1880-013",
-      "to": "1889-MEIJI_CONSTITUTION",
-      "relation": "led_to",
-      "note": "Popular pressure in 1880 contributed to imperial promise of constitutional government"
-    },
-    {
-      "from": "1880-015",
-      "to": "1881-TREATY_ST_PETERSBURG",
-      "relation": "led_to",
-      "note": "Qing consolidation of Xinjiang enabled diplomatic settlement with Russia"
-    },
-    {
-      "from": "1880-018",
-      "to": "1881-GEOK_TEPE_FALLS",
-      "relation": "led_to",
-      "note": "Siege begun in December 1880 resulted in fall of fortress in January 1881"
-    },
-    {
-      "from": "1880-019",
-      "to": "1881-ANTHRAX_VACCINE",
-      "relation": "led_to",
-      "note": "Pasteur's attenuation principle applied next to anthrax"
+      "note": "The First Boer War continued into 1881, culminating in the Battle of Majuba Hill and Treaty of Pretoria"
     },
     {
       "from": "1880-002",
-      "to": "1880-012",
-      "relation": "contemporary_with",
-      "note": "Gladstone's return to power shaped government response to Irish Land War"
+      "to": "1881-003",
+      "relation": "led_to",
+      "note": "British occupation of Kandahar in 1880 led to negotiations and eventual British withdrawal in 1881"
     },
     {
-      "from": "1880-011",
-      "to": "1880-020",
-      "relation": "contemporary_with",
-      "note": "Brothers Karamazov completion and Pushkin speech were twin peaks of Dostoevsky's final year"
+      "from": "1880-003",
+      "to": "1881-001",
+      "relation": "led_to",
+      "note": "Gladstone's return to power in 1880 set the political context for his response to the Alexander II assassination in 1881"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:58:53.838048",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

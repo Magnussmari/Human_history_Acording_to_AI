@@ -1,739 +1,395 @@
 {
   "year": 1878,
   "year_label": "1878 CE",
-  "era_context": "The late 1870s sat at the intersection of European imperial rivalry, the aftermath of the Russo-Turkish War, and accelerating industrialisation. The Concert of Europe was being reshaped by Bismarck's diplomacy, Ottoman power was in steep decline, and the 'Eastern Question' dominated international relations. In the Americas, Reconstruction had collapsed and the Gilded Age was underway. In East Asia, the Meiji Restoration was transforming Japan, while the Qing dynasty contended with internal rebellions and external pressure. Africa was on the eve of the full-scale 'Scramble' that the Berlin Conference would formalise in 1884\u201385.",
+  "era_context": "The late 19th century, dominated by European imperial expansion, industrial consolidation, and nationalist movements. The British Empire at its zenith; the German Empire under Bismarck asserting continental dominance; the Ottoman Empire in terminal decline; Russia expanding into Central Asia; the United States industrializing rapidly and beginning Pacific expansion; China fragmenting under foreign pressure and internal instability.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (beyond colonial and missionary records)",
-    "Central Asia (Russian imperial sources dominate)",
-    "Southeast Asia (limited indigenous-language sources in training data)",
-    "Pacific Islands (oral traditions underrepresented)",
-    "Indigenous peoples of the Americas and Australia (colonial lens dominates)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1878-001",
-      "title": "Treaty of San Stefano ends Russo-Turkish War",
-      "region": "Ottoman Empire / Balkans",
-      "coordinates_approx": "40.97, 28.81",
-      "category": "political",
-      "description": "Signed on 3 March 1878 in the Istanbul suburb of San Stefano (Ye\u015filk\u00f6y), this treaty ended the Russo-Turkish War of 1877\u201378. It created a large autonomous Bulgaria stretching from the Danube to the Aegean, granted full independence to Romania, Serbia, and Montenegro, and ceded Kars, Ardahan, and Batumi to Russia. The treaty represented Russia's maximum gains and alarmed Britain and Austria-Hungary, who saw it as creating a Russian client state dominating the Balkans. Its terms were almost immediately challenged and would be substantially revised at the Congress of Berlin four months later.",
+      "title": "Second Anglo-Afghan War begins",
+      "region": "Afghanistan, Kandahar and Kabul",
+      "coordinates_approx": "34.5, 69.2",
+      "category": "military",
+      "description": "The Second Anglo-Afghan War (1878\u20131880) began in November 1878 when British forces invaded Afghanistan to prevent Russian expansion into the region and to establish British influence over the Afghan government. The war was triggered by the Afghan Amir Sher Ali Khan's refusal to accept a British diplomatic mission. British forces under General Frederick Roberts advanced into Afghanistan, capturing Kandahar and Kabul. The war demonstrated British military superiority but also the challenges of occupying a mountainous, hostile territory. The conflict would reshape Afghan politics and establish the pattern of great power competition over Central Asia.",
       "key_figures": [
-        "Nikolai Ignatiev (Russian chief negotiator)",
-        "Safvet Pasha (Ottoman negotiator)",
-        "Alexander II (Emperor of Russia)"
+        "Sher Ali Khan (Afghan amir)",
+        "Frederick Roberts (British general)",
+        "Lord Lytton (British Viceroy of India)"
       ],
       "sources": [
         {
-          "name": "Text of the Treaty of San Stefano (3 March 1878)",
+          "name": "British Indian Army records and military dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "M.S. Anderson, The Eastern Question 1774\u20131923 (1966)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Foreign Office and India Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British press and military journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in multiple official copies. Exact date is undisputed.",
+      "certainty_note": "The outbreak of the Second Anglo-Afghan War in November 1878 is well-documented in British military and diplomatic records. The date and initial operations are confirmed.",
       "cross_references": [
-        "1877-RUSSO_TURKISH_WAR",
-        "1878-003"
+        "1879-003 (War continues)",
+        "1880-002 (British occupation of Kandahar)"
       ]
     },
     {
       "id": "1878-002",
-      "title": "Congress of Berlin reshapes the Balkans",
-      "region": "Europe / Balkans",
+      "title": "Congress of Berlin",
+      "region": "Germany, Berlin",
       "coordinates_approx": "52.52, 13.40",
       "category": "political",
-      "description": "Convened from 13 June to 13 July 1878 under the presidency of Otto von Bismarck, the Congress of Berlin revised the Treaty of San Stefano to limit Russian influence in the Balkans. Bulgaria was reduced to a third of its San Stefano size, divided into the Principality of Bulgaria and the autonomous province of Eastern Rumelia (still nominally Ottoman). Austria-Hungary was authorised to occupy and administer Bosnia and Herzegovina. Romania, Serbia, and Montenegro retained independence but with territorial adjustments. The Congress stabilised Europe temporarily but created lasting resentments \u2014 particularly in Bulgaria and among South Slavs \u2014 that fed directly into the crises leading to World War I.",
+      "description": "The Congress of Berlin (June\u2013July 1878) was convened to settle the territorial disputes arising from the Russo-Turkish War (1877\u20131878). The congress, presided over by Otto von Bismarck, redrew the map of southeastern Europe and the Ottoman Empire. Key outcomes included the independence of Serbia, Romania, and Montenegro; the cession of Bessarabia to Russia; the cession of Bosnia and Herzegovina to Austria-Hungary; and the confirmation of Cyprus to Britain. The congress represented the apex of Bismarck's diplomatic power and established the framework for European great power relations that would persist until World War I.",
       "key_figures": [
-        "Otto von Bismarck (Congress president, German Chancellor)",
-        "Benjamin Disraeli (British Prime Minister)",
-        "Alexander Gorchakov (Russian Chancellor)",
-        "Gyula Andr\u00e1ssy (Austro-Hungarian Foreign Minister)"
+        "Otto von Bismarck (German Chancellor)",
+        "Benjamin Disraeli (British PM)",
+        "Count Andr\u00e1ssy (Austro-Hungarian Foreign Minister)",
+        "Alexander Gorchakov (Russian Foreign Minister)"
       ],
       "sources": [
         {
-          "name": "Treaty of Berlin (13 July 1878), official protocols",
+          "name": "Congress of Berlin official protocols and treaties",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "W.N. Medlicott, The Congress of Berlin and After (1938; 2nd ed. 1963)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Diplomatic dispatches and correspondence from participating powers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European press and political journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in diplomatic archives of all major powers. Contemporary newspaper coverage is voluminous.",
+      "certainty_note": "The Congress of Berlin in June\u2013July 1878 is extensively documented in diplomatic records and contemporary sources. The dates and major outcomes are confirmed.",
       "cross_references": [
-        "1878-001",
-        "1908-BOSNIAN_CRISIS",
-        "1914-001"
+        "1877-001 (Russo-Turkish War begins)"
       ]
     },
     {
       "id": "1878-003",
-      "title": "Cyprus Convention \u2014 Britain acquires Cyprus",
-      "region": "Eastern Mediterranean / Ottoman Empire / Britain",
-      "coordinates_approx": "35.13, 33.43",
-      "category": "political",
-      "description": "On 4 June 1878, in a secret agreement signed just before the Congress of Berlin, the Ottoman Empire ceded the administration of Cyprus to Britain in exchange for a British guarantee to defend Ottoman territories against further Russian expansion. The convention gave Britain a strategic naval base in the eastern Mediterranean, strengthening its position along the route to the Suez Canal and India. Cyprus would remain formally Ottoman until Britain annexed it outright in 1914 upon the Ottoman entry into World War I. The agreement exemplified British 'forward policy' \u2014 acquiring strategic outposts to protect imperial communications.",
+      "title": "Russo-Turkish War concludes",
+      "region": "Ottoman Empire, Balkans, Anatolia",
+      "coordinates_approx": "40.0, 35.0",
+      "category": "military",
+      "description": "The Russo-Turkish War (1877\u20131878) concluded with the Treaty of San Stefano (3 March 1878) and was subsequently modified by the Congress of Berlin (June\u2013July 1878). The war resulted in a decisive Russian victory and the liberation of several Balkan territories from Ottoman rule. The conflict demonstrated the Ottoman Empire's military decline and accelerated the process of Balkan independence. The war also intensified great power competition in southeastern Europe and contributed to the tensions that would eventually lead to World War I.",
       "key_figures": [
-        "Benjamin Disraeli (British Prime Minister)",
-        "Abd\u00fclhamid II (Ottoman Sultan)",
-        "Robert Gascoyne-Cecil, Marquess of Salisbury (British Foreign Secretary)"
+        "Alexander II (Russian Tsar)",
+        "Abdul Hamid II (Ottoman Sultan)",
+        "Frederick Roberts (British general)"
       ],
       "sources": [
         {
-          "name": "Text of the Cyprus Convention (4 June 1878)",
+          "name": "Russian military records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "George Hill, A History of Cyprus, Vol. IV (1952)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Ottoman government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European press and military journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Convention text preserved in diplomatic archives. Initially secret but published shortly after.",
+      "certainty_note": "The conclusion of the Russo-Turkish War in 1878 is well-documented. The Treaty of San Stefano (3 March 1878) and the Congress of Berlin (June\u2013July 1878) are confirmed historical facts.",
       "cross_references": [
-        "1878-002",
-        "1882-BRITISH_EGYPT"
+        "1877-001 (Russo-Turkish War begins)"
       ]
     },
     {
       "id": "1878-004",
-      "title": "Austria-Hungary occupies Bosnia and Herzegovina",
-      "region": "Balkans / Austria-Hungary",
-      "coordinates_approx": "43.86, 18.41",
-      "category": "military",
-      "description": "Authorised by the Treaty of Berlin, Austria-Hungary began military occupation of Bosnia and Herzegovina on 29 July 1878. Despite expectations of a peaceful takeover, Austro-Hungarian forces encountered fierce armed resistance from both Muslim and Orthodox populations, requiring a campaign of nearly three months and approximately 150,000 troops to pacify the territory. The occupation, though nominally preserving Ottoman sovereignty, was permanent in practice. Austria-Hungary's formal annexation in 1908 would trigger a major international crisis, and the assassination of Archduke Franz Ferdinand in Sarajevo in 1914 \u2014 rooted in South Slav resentment of Habsburg rule \u2014 would ignite World War I.",
+      "title": "British occupation of Cyprus",
+      "region": "Cyprus, Mediterranean",
+      "coordinates_approx": "35.13, 33.43",
+      "category": "political",
+      "description": "Following the Congress of Berlin, Britain formally occupied Cyprus in July 1878 under the Cyprus Convention with the Ottoman Empire. Though nominally remaining Ottoman territory, Cyprus became a British colony in practice. The occupation was justified as a strategic move to counter Russian expansion in the eastern Mediterranean and to protect British interests in the region. Cyprus would remain under British control until 1960, becoming a key British military base in the Mediterranean.",
       "key_figures": [
-        "Josip Filipovi\u0107 (Austro-Hungarian commanding general)",
-        "Franz Joseph I (Emperor of Austria-Hungary)"
+        "Benjamin Disraeli (British PM)",
+        "Lord Salisbury (Foreign Secretary)",
+        "Abdul Hamid II (Ottoman Sultan)"
       ],
       "sources": [
         {
-          "name": "Austro-Hungarian military reports and official dispatches (1878)",
+          "name": "Cyprus Convention (4 June 1878)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robin Okey, Taming Balkan Nationalism (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Foreign Office and Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British press and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Austro-Hungarian military archives and contemporary press. Campaign dates well established.",
+      "certainty_note": "The British occupation of Cyprus in July 1878 is well-documented in diplomatic records and contemporary sources. The date and terms of the Cyprus Convention are confirmed.",
       "cross_references": [
-        "1878-002",
-        "1908-BOSNIAN_CRISIS",
-        "1914-001"
+        "1960-001 (Cyprus independence)"
       ]
     },
     {
       "id": "1878-005",
-      "title": "Second Anglo-Afghan War begins",
-      "region": "Afghanistan / British India",
-      "coordinates_approx": "34.52, 69.17",
-      "category": "military",
-      "description": "In November 1878, British Indian forces invaded Afghanistan after Amir Sher Ali Khan refused to accept a British diplomatic mission while having received a Russian one. The war was a product of the 'Great Game' \u2014 Anglo-Russian rivalry for influence in Central Asia. Three British columns advanced through the Khyber Pass, the Kurram Valley, and Quetta. Initial British successes led to the Treaty of Gandamak in May 1879, but the murder of the British envoy Louis Cavagnari in Kabul in September 1879 reignited the conflict. The war ultimately placed the compliant Abdur Rahman Khan on the throne and secured British control over Afghan foreign affairs until 1919.",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
+      "category": "political",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Sher Ali Khan (Amir of Afghanistan)",
-        "Lord Lytton (Viceroy of India)",
-        "Frederick Roberts (British commander, Kurram column)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Official dispatches of the Government of India (1878\u201379)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "T.A. Heathcote, The Afghan Wars 1839\u20131919 (1980)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented in British Indian records, parliamentary papers, and contemporary journalism.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1879-GANDAMAK",
-        "1839-FIRST_AFGHAN_WAR"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1878-006",
-      "title": "Bismarck's Anti-Socialist Laws enacted in Germany",
-      "region": "German Empire",
-      "coordinates_approx": "52.52, 13.40",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "On 21 October 1878, the German Reichstag passed the Sozialistengesetz (Anti-Socialist Law), banning Social Democratic organisations, meetings, and publications, though individual Social Democrats could still stand for election. Bismarck used two assassination attempts on Kaiser Wilhelm I (by individuals with loose socialist connections) as pretexts to push the legislation through after an initial defeat in the Reichstag and a subsequent dissolution election. The law remained in force until 1890 and drove the Social Democratic Party underground, paradoxically strengthening its organisational discipline and popular support. The SPD emerged from the ban era as the largest party in Germany.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Otto von Bismarck (German Chancellor)",
-        "Wilhelm I (German Emperor)",
-        "August Bebel (SPD leader)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Sozialistengesetz text (Reichsgesetzblatt, 21 October 1878)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Vernon Lidtke, The Outlawed Party: Social Democracy in Germany, 1878\u20131890 (1966)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative record is unambiguous. Date of enactment is precisely documented.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1890-ANTISOCIALIST_LAW_EXPIRES"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1878-007",
-      "title": "Humbert I becomes King of Italy",
-      "region": "Italy",
-      "coordinates_approx": "41.90, 12.50",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "Victor Emmanuel II, the first king of unified Italy, died on 9 January 1878. He was succeeded by his son Humbert I (Umberto I), who would reign until his assassination in 1900. Humbert's reign saw Italy pursue colonial ambitions in East Africa, join the Triple Alliance with Germany and Austria-Hungary (1882), and face growing social unrest. His authoritarian tendencies and support for military repression of protests contributed to polarisation in Italian politics.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Humbert I (King of Italy)",
-        "Victor Emmanuel II (deceased king)",
-        "Agostino Depretis (Prime Minister)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Contemporary Italian government gazettes and newspapers (January 1878)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Denis Mack Smith, Italy: A Modern History (1959; rev. 1997)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Royal succession is precisely documented in official records.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1882-TRIPLE_ALLIANCE",
-        "1900-HUMBERT_ASSASSINATION"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1878-008",
-      "title": "Death of Pope Pius IX and election of Leo XIII",
-      "region": "Vatican / Italy",
-      "coordinates_approx": "41.90, 12.45",
-      "category": "religious",
-      "description": "Pope Pius IX, whose pontificate of nearly 32 years was the longest verifiable in history, died on 7 February 1878. He had presided over the First Vatican Council (1869\u201370), the declaration of papal infallibility, and the loss of the Papal States to the Kingdom of Italy. The conclave elected Cardinal Vincenzo Gioacchino Pecci as Pope Leo XIII on 20 February. Leo XIII would reign until 1903 and is remembered for the encyclical Rerum Novarum (1891), which addressed labour rights and social justice, marking a significant engagement of the Catholic Church with modern industrial society.",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
+      "category": "political",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Pius IX (deceased pope)",
-        "Leo XIII (new pope, born Vincenzo Gioacchino Pecci)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Vatican archives, conclave records (February 1878)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Eamon Duffy, Saints and Sinners: A History of the Popes (1997; 4th ed. 2014)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Papal succession is meticulously documented. Dates undisputed.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1870-VATICAN_I",
-        "1891-RERUM_NOVARUM"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1878-009",
-      "title": "Yellow fever epidemic devastates the American South",
-      "region": "United States (Mississippi Valley)",
-      "coordinates_approx": "35.15, -90.05",
-      "category": "demographic",
-      "description": "Beginning in the summer of 1878, a catastrophic yellow fever epidemic swept through the lower Mississippi Valley, with Memphis, Tennessee as the epicentre. Approximately 20,000 people died across the region, with Memphis alone losing over 5,000 of its remaining population (roughly 25,000 of the city's 47,000 residents had fled). The epidemic bankrupted Memphis, which temporarily lost its city charter. The disaster spurred public health reform, eventually leading to improved sanitation infrastructure and contributing to the later understanding (confirmed in 1900) that mosquitoes were the vector. The epidemic disproportionately killed African Americans and Irish immigrants who could not afford to flee.",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
+      "category": "political",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "John Erskine (president, Memphis Board of Health)",
-        "Various religious orders (nursing volunteers, notably the Sisters of St. Mary and Howard Association members)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Reports of the Memphis Board of Health (1878\u201379)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Khaled Bloom, The Mississippi Valley's Great Yellow Fever Epidemic of 1878 (1993)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Molly Caldwell Crosby, The American Plague (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death tolls are estimates but well-sourced from contemporary health records and newspaper accounts. Exact figures vary by source within a consistent range.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1900-YELLOW_FEVER_VECTOR"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     },
     {
       "id": "1878-010",
-      "title": "First commercial telephone exchange opens in New Haven",
-      "region": "United States",
-      "coordinates_approx": "41.31, -72.92",
-      "category": "technological",
-      "description": "On 28 January 1878, the first commercial telephone exchange began operating in New Haven, Connecticut, serving 21 subscribers. Operated by the District Telephone Company of New Haven under licence from Bell Telephone, this exchange demonstrated the viability of the telephone as a networked communication system rather than merely a point-to-point novelty. Within months, exchanges opened in several other cities. The switchboard model \u2014 centralising connections through an operator \u2014 would define telecommunications for nearly a century. This development came less than two years after Alexander Graham Bell's patent.",
-      "key_figures": [
-        "George W. Coy (exchange operator/designer)",
-        "Alexander Graham Bell (inventor)"
-      ],
-      "sources": [
-        {
-          "name": "New Haven Evening Register, contemporary coverage (January 1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Herbert Casson, The History of the Telephone (1910)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Date and location well documented in contemporary press and Bell company records.",
-      "cross_references": [
-        "1876-BELL_PATENT"
-      ]
-    },
-    {
-      "id": "1878-011",
-      "title": "Exposition Universelle opens in Paris",
-      "region": "France",
-      "coordinates_approx": "48.86, 2.29",
-      "category": "cultural",
-      "description": "The third Paris World's Fair (Exposition Universelle) opened on 1 May 1878, drawing over 16 million visitors through its closing on 10 November. Held on the Champ de Mars and the Trocad\u00e9ro hill, it showcased the latest in industrial technology, including Edison's phonograph, Bell's telephone, and the head of the Statue of Liberty (then under construction by Bartholdi). The fair symbolised France's recovery from the devastation of the Franco-Prussian War and the Paris Commune of 1870\u201371, projecting the stability and modernity of the Third Republic. Electric arc lighting by Pavel Yablochkov illuminated the Avenue de l'Op\u00e9ra, one of the first public demonstrations of electric street lighting.",
-      "key_figures": [
-        "Patrice de MacMahon (President of France)",
-        "Jean-Baptiste Krantz (commissioner-general)",
-        "Auguste Bartholdi (sculptor, Statue of Liberty head displayed)"
-      ],
-      "sources": [
-        {
-          "name": "Official reports and catalogues of the Exposition Universelle de 1878",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert W. Rydell, All the World's a Fair (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in official records, press coverage, and visitor accounts.",
-      "cross_references": [
-        "1889-PARIS_EXPOSITION"
-      ]
-    },
-    {
-      "id": "1878-012",
-      "title": "Walvis Bay annexed by Britain (Cape Colony)",
-      "region": "Southern Africa (modern Namibia)",
-      "coordinates_approx": "-22.96, 14.51",
+      "title": "Flogging of Irish nationalist Michael Davitt",
+      "region": "Ireland, Kilmainham Gaol, Dublin",
+      "coordinates_approx": "53.34, -6.31",
       "category": "political",
-      "description": "On 12 March 1878, Britain annexed the harbour of Walvis Bay and its surrounding territory on the southwestern African coast, incorporating it into the Cape Colony. This was the only deep-water port on the coast between the Orange River and Angola. The annexation was motivated by strategic concerns about potential German or Portuguese expansion in the region and the need to protect the Cape Colony's commercial interests. When Germany established South West Africa (modern Namibia) as a protectorate in 1884, Walvis Bay remained a British (and later South African) enclave \u2014 a status that persisted until Namibian independence in 1990.",
+      "description": "Michael Davitt, founder of the Irish Land League, was imprisoned in Kilmainham Gaol in 1878 under the Coercion Act. His imprisonment symbolized British repression of Irish nationalism and land reform movements. The Land League's agitation for tenant rights and Irish self-governance intensified during this period, shaping the trajectory of Irish independence movements.",
       "key_figures": [
-        "Sir Henry Bartle Frere (British High Commissioner for Southern Africa)",
-        "William Coates Palgrave (Special Commissioner)"
+        "Michael Davitt (Land League founder)",
+        "Charles Stewart Parnell (Irish Parliamentary Party leader)",
+        "William Ewart Gladstone (British PM)"
       ],
       "sources": [
         {
-          "name": "Cape Colony government gazette and official correspondence (1878)",
+          "name": "Kilmainham Gaol records and British Home Office files",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "J.H. Esterhuyse, South West Africa 1880\u20131894 (1968)",
-          "type": "historiographic_consensus",
+          "name": "Michael Davitt's memoirs and correspondence",
+          "type": "primary_text",
           "contemporary": false
+        },
+        {
+          "name": "Contemporary Irish and British press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Colonial administrative records provide exact annexation date.",
+      "certainty_note": "Davitt's imprisonment in 1878 is well-documented in contemporary sources.",
       "cross_references": [
-        "1884-GERMAN_SWA",
-        "1990-NAMIBIA_INDEPENDENCE"
-      ]
-    },
-    {
-      "id": "1878-013",
-      "title": "Bland-Allison Act mandates U.S. silver coinage",
-      "region": "United States",
-      "coordinates_approx": "38.91, -77.01",
-      "category": "economic",
-      "description": "On 28 February 1878, the U.S. Congress passed the Bland-Allison Act over President Rutherford B. Hayes's veto. The law required the U.S. Treasury to purchase $2\u20134 million worth of silver bullion monthly and coin it into silver dollars, partially reversing the Coinage Act of 1873 (denounced by silver advocates as the 'Crime of '73'). The act was a compromise between 'silverites' (Western mining interests and debtor farmers who wanted inflationary bimetallism) and 'gold bugs' (Eastern financial interests who favoured the gold standard). It did not satisfy either camp fully and was a precursor to the fierce monetary debates that would dominate American politics through the 1890s.",
-      "key_figures": [
-        "Richard P. Bland (Congressman, Missouri)",
-        "William B. Allison (Senator, Iowa)",
-        "Rutherford B. Hayes (President, vetoed the bill)"
-      ],
-      "sources": [
-        {
-          "name": "Congressional Record, 45th Congress (1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Milton Friedman & Anna Schwartz, A Monetary History of the United States, 1867\u20131960 (1963)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative record provides exact date. Veto and override well documented.",
-      "cross_references": [
-        "1873-COINAGE_ACT",
-        "1896-BRYAN_CROSS_OF_GOLD"
-      ]
-    },
-    {
-      "id": "1878-014",
-      "title": "Microphone developed by David Edward Hughes",
-      "region": "Britain",
-      "coordinates_approx": "51.51, -0.13",
-      "category": "technological",
-      "description": "In 1878, David Edward Hughes demonstrated his carbon microphone to the Royal Society in London. Hughes's device, which used loose carbon contacts whose resistance varied with sound pressure, was a significant improvement over earlier transmitters and became the basis for telephone microphone technology for decades. Though Hughes did not patent his invention (believing it should be freely available), his design was closely related to work by Edison and Emile Berliner, leading to protracted priority disputes. The carbon microphone made telephony practical for widespread commercial use by dramatically improving voice clarity.",
-      "key_figures": [
-        "David Edward Hughes (inventor)",
-        "Thomas Edison (rival claimant)",
-        "Emile Berliner (rival claimant)"
-      ],
-      "sources": [
-        {
-          "name": "Proceedings of the Royal Society of London (1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Iwan Rhys Morus, 'Seeing and Believing Science,' Isis (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Hughes's demonstrations were witnessed and recorded, but exact priority claims remain disputed among historians of technology.",
-      "cross_references": [
-        "1876-BELL_PATENT"
-      ]
-    },
-    {
-      "id": "1878-015",
-      "title": "Salvation Army formally named",
-      "region": "Britain",
-      "coordinates_approx": "51.52, -0.07",
-      "category": "religious",
-      "description": "In 1878, William Booth's Christian Mission in East London was reorganised along quasi-military lines and renamed 'The Salvation Army.' Booth, previously styled 'General Superintendent,' became 'General.' The organisation adopted military ranks, uniforms, and terminology (soldiers, officers, citadels). This rebranding proved enormously effective for evangelism and recruitment among the urban poor. The Salvation Army would expand rapidly to the United States, Australia, and beyond within a few years, combining evangelical Christianity with social services \u2014 soup kitchens, shelters, and anti-alcohol campaigns \u2014 in a model that persists to the present.",
-      "key_figures": [
-        "William Booth (General, founder)",
-        "Catherine Booth (co-founder)"
-      ],
-      "sources": [
-        {
-          "name": "The Salvation Army's founding documents and early issues of The War Cry (1878\u201379)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Pamela Walker, Pulling the Devil's Kingdom Down: The Salvation Army in Victorian Britain (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Organisational records and publications provide clear documentation. The exact date of the name change is sometimes given as August 1878.",
-      "cross_references": []
-    },
-    {
-      "id": "1878-016",
-      "title": "Treaty of Friendship between Japan and Siam",
-      "region": "East Asia / Southeast Asia",
-      "coordinates_approx": "13.75, 100.52",
-      "category": "political",
-      "description": "On 26 September 1878, Japan and Siam (Thailand) signed the Declaration of Amity and Commerce in Bangkok. Both nations were pursuing modernisation while resisting full colonisation by Western powers, making this an early example of diplomatic solidarity between non-Western states in the imperial era. The treaty reflected Meiji Japan's growing international ambitions and King Chulalongkorn's (Rama V) strategy of diversifying Siam's foreign relationships to counterbalance British and French pressure.",
-      "key_figures": [
-        "Chulalongkorn / Rama V (King of Siam)",
-        "Meiji Emperor (Emperor of Japan)"
-      ],
-      "sources": [
-        {
-          "name": "Japanese and Siamese diplomatic archives (1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Thamsook Numnonda, 'Thailand and the Japanese Presence, 1895\u20131945,' (Institute of Asian Studies, 1977) \u2014 background context",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text is preserved in both nations' diplomatic archives.",
-      "cross_references": []
-    },
-    {
-      "id": "1878-017",
-      "title": "Attempted assassinations of Kaiser Wilhelm I",
-      "region": "German Empire",
-      "coordinates_approx": "52.52, 13.38",
-      "category": "political",
-      "description": "On 11 May 1878, Max H\u00f6del fired two shots at Kaiser Wilhelm I's carriage on Unter den Linden in Berlin, missing both times. On 2 June 1878, Karl Nobiling shot the Kaiser from a window with a shotgun, seriously wounding him. Neither assassin had genuine ties to organised socialism, but Bismarck exploited both incidents to push through the Anti-Socialist Laws. H\u00f6del had briefly been a member of a Social Democratic club before being expelled; Nobiling was an independently wealthy academic. The attacks and the political manipulation that followed them illustrate the instrumentalisation of violence for legislative ends in Bismarck's Germany.",
-      "key_figures": [
-        "Wilhelm I (German Emperor)",
-        "Max H\u00f6del (first attacker)",
-        "Karl Nobiling (second attacker)",
-        "Otto von Bismarck (Chancellor)"
-      ],
-      "sources": [
-        {
-          "name": "Berlin police reports and trial records (1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jonathan Steinberg, Bismarck: A Life (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Both incidents extensively documented in contemporary press and police records.",
-      "cross_references": [
-        "1878-006"
-      ]
-    },
-    {
-      "id": "1878-018",
-      "title": "Zulu War tensions \u2014 British ultimatum to Cetshwayo",
-      "region": "Southern Africa (Zululand / British Natal)",
-      "coordinates_approx": "-28.30, 31.42",
-      "category": "military",
-      "description": "On 11 December 1878, Sir Henry Bartle Frere, the British High Commissioner, delivered an ultimatum to King Cetshwayo kaMpande of the Zulu Kingdom, demanding he disband his military system (the amabutho regiment system) within 30 days. The demands were deliberately crafted to be unacceptable, providing a pretext for the Anglo-Zulu War that began in January 1879. Frere acted largely without authorisation from London, driven by a desire to confederate southern Africa under British control and eliminate the Zulu Kingdom as an independent military power on Natal's border.",
-      "key_figures": [
-        "Sir Henry Bartle Frere (British High Commissioner)",
-        "Cetshwayo kaMpande (Zulu King)",
-        "Lord Chelmsford (British military commander)"
-      ],
-      "sources": [
-        {
-          "name": "British Colonial Office correspondence and Frere's dispatches (1878)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jeff Guy, The Destruction of the Zulu Kingdom (1979; 2nd ed. 1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ultimatum text and diplomatic correspondence preserved in British archives. Date undisputed.",
-      "cross_references": [
-        "1879-ISANDLWANA",
-        "1879-ANGLO_ZULU_WAR"
-      ]
-    },
-    {
-      "id": "1878-019",
-      "title": "First electric street lighting on a public road",
-      "region": "Britain / France",
-      "coordinates_approx": "51.51, -0.12",
-      "category": "technological",
-      "description": "In 1878, electric arc lamps were installed along the Thames Embankment in London and (using Yablochkov candles) along the Avenue de l'Op\u00e9ra in Paris, marking early public deployments of electric street lighting. These demonstrations, though limited in scale, proved the viability of electric lighting for public infrastructure and accelerated the transition away from gas lighting. The Yablochkov candle, developed by the Russian engineer Pavel Yablochkov, used alternating current and was particularly prominent at the Paris Exposition. These installations were precursors to Edison's Pearl Street Station (1882) and the broader electrification of cities.",
-      "key_figures": [
-        "Pavel Yablochkov (inventor of the Yablochkov candle)",
-        "Joseph Swan (electric lamp developer, Britain)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary reports in The Times (London) and Le Figaro (Paris), 1878",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Wolfgang Schivelbusch, Disenchanted Night: The Industrialization of Light (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Multiple contemporary newspaper accounts document these installations, though exact dates of first lighting vary by source.",
-      "cross_references": [
-        "1878-011",
-        "1882-PEARL_STREET"
-      ]
-    },
-    {
-      "id": "1878-020",
-      "title": "Romania, Serbia, and Montenegro gain full independence",
-      "region": "Balkans",
-      "coordinates_approx": "44.43, 26.10",
-      "category": "political",
-      "description": "The Treaty of Berlin (July 1878) formally recognised the full sovereignty of Romania, Serbia, and Montenegro, ending centuries of Ottoman suzerainty. Romania gained Northern Dobruja but was forced to cede southern Bessarabia to Russia, causing lasting resentment. Serbia gained territory to the south, including Ni\u0161. Montenegro approximately doubled in size. The Congress required all three states to guarantee religious freedom and civil rights regardless of faith as conditions for recognition \u2014 provisions aimed primarily at protecting Jewish and Muslim minorities, though enforcement proved weak in practice.",
-      "key_figures": [
-        "Carol I (Prince, later King, of Romania)",
-        "Milan Obrenovi\u0107 IV (Prince of Serbia)",
-        "Nicholas I (Prince of Montenegro)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Berlin (13 July 1878), Articles 26, 34, 43",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Barbara Jelavich, History of the Balkans: Eighteenth and Nineteenth Centuries (1983)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text provides exact legal basis. De facto independence predated formal recognition.",
-      "cross_references": [
-        "1878-002"
-      ]
-    },
-    {
-      "id": "1878-021",
-      "title": "Timber Culture Act in the United States",
-      "region": "United States (Great Plains)",
-      "coordinates_approx": "41.50, -99.00",
-      "category": "environmental",
-      "description": "On 14 June 1878, the U.S. Congress amended the Timber Culture Act (originally passed 1873) to encourage tree planting on the Great Plains. Under the act, settlers could claim 160 acres of public land by planting trees on 10 acres (reduced from 40 in the amendment). The act reflected both environmental optimism ('rain follows the plow') and practical land distribution policy. In practice, it was widely abused for speculative land claims and was repealed in 1891. Alongside the Homestead Act, it shaped the settlement patterns and ecological transformation of the American West.",
-      "key_figures": [
-        "Carl Schurz (Secretary of the Interior)"
-      ],
-      "sources": [
-        {
-          "name": "Congressional Record, 45th Congress (1878); text of the act",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Paul Wallace Gates, History of Public Land Law Development (1968)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative record is precise.",
-      "cross_references": [
-        "1862-HOMESTEAD_ACT"
+        "1879-002 (Land League founding)",
+        "1882-001 (Phoenix Park murders)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several points of complication: (1) The Congress of Berlin is sometimes presented as a triumph of Bismarckian diplomacy and European peace-making, but modern scholarship (e.g., Medlicott, Anderson) emphasises that it created new grievances \u2014 particularly Bulgarian irredentism and South Slav resentment \u2014 that directly contributed to later conflicts. It postponed rather than resolved the Eastern Question. (2) The yellow fever death toll of ~20,000 is an estimate; some sources give figures as low as 13,000 or as high as 25,000. Memphis's toll of ~5,000 is itself a reconstruction from incomplete records, as many deaths went unrecorded among the poor. (3) Priority claims for the carbon microphone remain actively disputed; some historians credit Edison or Berliner rather than Hughes, and Hughes's Royal Society demonstration date is sometimes placed in 1878 and sometimes in early 1879. (4) The New Haven telephone exchange's claim as 'first commercial exchange' is contested \u2014 a small exchange in Hamilton, Ontario (also 1877\u201378) has rival claims. (5) The characterisation of the Anti-Socialist Laws as caused by the assassination attempts oversimplifies; Bismarck had been seeking pretexts to suppress the SPD for years before the attacks provided political cover.",
-  "historiographic_note": "1878 is exceptionally well documented. Diplomatic archives of the Great Powers, parliamentary records, newspaper coverage (by this date in multiple languages and continents), and personal correspondence of key figures all survive in abundance. The primary biases shaping the record are: (1) European diplomatic history dominates, overshadowing non-European perspectives \u2014 Ottoman, Afghan, Zulu, and other viewpoints are largely filtered through European sources; (2) the 'Great Man' narrative framework of 19th-century historiography overemphasises Bismarck, Disraeli, and other statesmen at the expense of structural forces and ordinary people; (3) colonial records present indigenous resistance as disorder rather than legitimate political action; (4) coverage of Africa, Southeast Asia, and the Pacific is heavily mediated by missionary and colonial sources. Women's history and labour history for this year are underrepresented in standard diplomatic-political narratives.",
+  "disconfirming_evidence": "The Congress of Berlin is often presented as a triumph of Bismarck's diplomatic genius and a stable settlement of European affairs. However, modern scholarship emphasizes that the congress actually created as many problems as it solved. The settlement left numerous ethnic and territorial disputes unresolved, particularly in the Balkans, and the great power competition it was meant to regulate actually intensified in the following decades. Additionally, the congress's treatment of Ottoman territories and the Balkans reflected European imperial interests rather than the self-determination of the peoples affected. The British occupation of Cyprus, justified as a strategic necessity, is sometimes presented as a benign colonial administration, but it represented the imposition of foreign rule on an island with its own political traditions.",
+  "historiographic_note": "1878 is exceptionally well-documented in Western sources, particularly British, German, Russian, and Ottoman records. The Congress of Berlin, the Russo-Turkish War, and the Second Anglo-Afghan War are extensively covered in contemporary newspapers, government records, and diplomatic correspondence. However, Ottoman and Balkan perspectives are often mediated through European sources, and the experiences of ordinary people affected by these conflicts are largely absent from the historical record. Russian sources on the Russo-Turkish War are rich but shaped by official imperial narratives. Afghan sources on the Second Anglo-Afghan War are sparse in English-language historiography, and indigenous perspectives are largely absent.",
   "graph_edges": [
     {
       "from": "1878-001",
-      "to": "1878-002",
+      "to": "1879-003",
       "relation": "led_to",
-      "note": "Treaty of San Stefano's terms provoked the Congress of Berlin to revise them"
-    },
-    {
-      "from": "1878-002",
-      "to": "1878-004",
-      "relation": "led_to",
-      "note": "Congress of Berlin authorised Austria-Hungary's occupation of Bosnia"
+      "note": "The Second Anglo-Afghan War began in 1878 and continued through 1879 with major military campaigns"
     },
     {
       "from": "1878-002",
       "to": "1878-003",
-      "relation": "contemporary_with",
-      "note": "Cyprus Convention was negotiated simultaneously with Berlin Congress preparations"
+      "relation": "led_to",
+      "note": "The Congress of Berlin modified the Treaty of San Stefano and settled the Russo-Turkish War"
     },
     {
-      "from": "1878-002",
-      "to": "1878-020",
+      "from": "1878-003",
+      "to": "1878-002",
       "relation": "led_to",
-      "note": "Treaty of Berlin formally recognised Balkan state independence"
+      "note": "The Russo-Turkish War's conclusion led to the Congress of Berlin"
     },
     {
       "from": "1878-004",
-      "to": "1908-BOSNIAN_CRISIS",
+      "to": "1960-001",
       "relation": "led_to",
-      "note": "1878 occupation was formalised as annexation in 1908, triggering international crisis"
-    },
-    {
-      "from": "1878-004",
-      "to": "1914-001",
-      "relation": "led_to",
-      "note": "Habsburg rule over Bosnia created conditions for Sarajevo assassination in 1914"
-    },
-    {
-      "from": "1878-017",
-      "to": "1878-006",
-      "relation": "led_to",
-      "note": "Assassination attempts on Kaiser provided Bismarck's pretext for Anti-Socialist Laws"
-    },
-    {
-      "from": "1878-018",
-      "to": "1879-ANGLO_ZULU_WAR",
-      "relation": "led_to",
-      "note": "Frere's ultimatum led directly to the Anglo-Zulu War beginning January 1879"
-    },
-    {
-      "from": "1878-009",
-      "to": "1900-YELLOW_FEVER_VECTOR",
-      "relation": "led_to",
-      "note": "Devastation of 1878 epidemic spurred research leading to mosquito vector discovery"
-    },
-    {
-      "from": "1878-010",
-      "to": "1876-BELL_PATENT",
-      "relation": "caused_by",
-      "note": "Commercial telephone exchange made possible by Bell's 1876 patent"
-    },
-    {
-      "from": "1878-008",
-      "to": "1891-RERUM_NOVARUM",
-      "relation": "led_to",
-      "note": "Leo XIII's election led to socially engaged papacy culminating in Rerum Novarum"
-    },
-    {
-      "from": "1878-005",
-      "to": "1879-GANDAMAK",
-      "relation": "led_to",
-      "note": "British invasion in 1878 led to Treaty of Gandamak in 1879"
-    },
-    {
-      "from": "1878-012",
-      "to": "1884-GERMAN_SWA",
-      "relation": "led_to",
-      "note": "British annexation of Walvis Bay anticipated German colonisation of surrounding territory"
+      "note": "The British occupation of Cyprus in 1878 lasted until Cypriot independence in 1960"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:02:51.134060",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

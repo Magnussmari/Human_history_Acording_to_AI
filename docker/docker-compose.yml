@@ -1,26 +1,29 @@
 services:
-  human-history-daemon:
+  history-daemon:
     build:
-      context: .
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: human_history_daemon
     restart: unless-stopped
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - PARALLEL_AGENTS=5
+      - CYCLE_INTERVAL=60
+      - BATCH_SIZE=5
     volumes:
       - ../:/workspace:z
-      - ~/.claude:/home/historian/.claude:z
-      - ~/.claude.json:/home/historian/.claude.json:z
-    environment:
-      - PARALLEL_AGENTS=5
-      - CYCLE_INTERVAL_SECONDS=1200
-      - START_YEAR=2025
-      - END_YEAR=-3200
-      - MAX_RETRIES=3
-      - HOME=/home/historian
+    deploy:
+      resources:
+        limits:
+          memory: 1G
     logging:
       driver: json-file
       options:
         max-size: "50m"
         max-file: "5"
-    deploy:
-      resources:
-        limits:
-          memory: 16G
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import json; f=open('/workspace/state/progress.json'); d=json.load(f); print(f\"OK: {len(d['completed'])}\")"]
+      interval: 5m
+      timeout: 30s
+      retries: 3
+      start_period: 30s

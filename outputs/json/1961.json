@@ -1,830 +1,583 @@
 {
   "year": 1961,
   "year_label": "1961 CE",
-  "era_context": "1961 is a pivotal year of the Cold War, marked by escalating superpower confrontation as the United States and Soviet Union compete for ideological, military, and technological supremacy. Decolonisation is accelerating across Africa, with multiple nations gaining independence. The Space Race intensifies dramatically. In the Americas, revolutionary Cuba aligns firmly with the Soviet bloc, while civil rights movements gain momentum in the United States. The Non-Aligned Movement is crystallising as newly independent nations seek alternatives to bipolar alignment.",
+  "era_context": "The Cold War is at peak tension following the Soviet launch of Yuri Gagarin into orbit and the failed Bay of Pigs invasion. The Berlin Wall is constructed, symbolizing the hardening division of Europe. Decolonization accelerates across Africa and Asia; newly independent nations navigate superpower competition. The space race becomes a defining ideological battleground.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Oceania/Pacific Islands \u2014 limited coverage of domestic events beyond independence movements",
-    "Central Asia under Soviet governance \u2014 internal developments poorly represented in English-language sources",
-    "Southeast Asian states beyond Vietnam and Laos \u2014 e.g., Cambodia, Burma, Indonesia receive less attention despite significant internal politics"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1961-001",
-      "title": "Inauguration of John F. Kennedy as US President",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "John F. Kennedy was inaugurated as the 35th President of the United States on 20 January 1961, succeeding Dwight D. Eisenhower. At 43, he was the youngest elected president and the first Roman Catholic to hold the office. His inaugural address, with its call to 'ask not what your country can do for you \u2014 ask what you can do for your country,' set an activist tone for American domestic and foreign policy. His administration would immediately face crises in Cuba, Berlin, Laos, and Vietnam, defining the tenor of early-1960s Cold War confrontation.",
+      "title": "Yuri Gagarin becomes first human in space",
+      "region": "Soviet Union / Global",
+      "coordinates_approx": "51.9\u00b0N, 104.1\u00b0E (Baikonur Cosmodrome, Kazakhstan)",
+      "category": "technological",
+      "description": "On 12 April 1961, Soviet cosmonaut Yuri Gagarin completed the first crewed spaceflight aboard Vostok 1, orbiting Earth once in 108 minutes. The achievement was a watershed moment in the Space Race and Cold War competition, demonstrating Soviet technological superiority and triggering urgent American acceleration of its space program. Gagarin's flight vindicated the Soviet approach to crewed spaceflight and made him an international celebrity, though the mission's success masked technical risks and the Soviet program's subsequent struggles with reliability.",
       "key_figures": [
-        "John F. Kennedy (President of the United States)",
-        "Lyndon B. Johnson (Vice President)",
-        "Dwight D. Eisenhower (outgoing President)"
+        "Yuri Gagarin (cosmonaut)",
+        "Sergei Korolev (chief designer)",
+        "Nikita Khrushchev (Soviet Premier)"
       ],
       "sources": [
         {
-          "name": "Official inaugural records, United States Congress",
+          "name": "Soviet official announcement and Tass reports, 12 April 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robert Dallek, An Unfinished Life: John F. Kennedy, 1917\u20131963",
+          "name": "Gagarin's own account and mission telemetry records (declassified Soviet archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Asif Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race, 1945\u20131974",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented public event with full audiovisual records.",
-      "cross_references": []
+      "certainty_note": "Date and basic facts are unambiguous; contemporary Soviet and international media coverage is extensive. Technical details confirmed by declassified Soviet records.",
+      "cross_references": [
+        "1961-002 (American response)",
+        "1962-001 (John Glenn's orbital flight)"
+      ]
     },
     {
       "id": "1961-002",
-      "title": "Assassination of Patrice Lumumba",
-      "region": "Congo (Katanga Province)",
-      "coordinates_approx": "-10.98, 25.96",
-      "category": "political",
-      "description": "Patrice Lumumba, the first democratically elected Prime Minister of the Republic of the Congo, was executed on 17 January 1961 in Katanga Province. He had been deposed in a coup by Joseph-D\u00e9sir\u00e9 Mobutu in September 1960, transferred to secessionist Katanga, and killed by a firing squad under the authority of Katangan leader Mo\u00efse Tshombe with Belgian complicity. The assassination became a defining symbol of neocolonial interference in post-independence Africa and radicalized anti-Western sentiment across the continent and the Third World. Belgian and American intelligence services were later confirmed to have played roles in facilitating his removal from power.",
+      "title": "Bay of Pigs invasion fails",
+      "region": "Cuba / United States",
+      "coordinates_approx": "22.1\u00b0N, 84.3\u00b0W (Playa Gir\u00f3n, Cuba)",
+      "category": "military",
+      "description": "On 17\u201320 April 1961, a CIA-sponsored invasion of Cuba by Cuban exiles failed catastrophically. Approximately 1,400 Brigade 2506 members landed at the Bay of Pigs with expectation of American air support and popular uprising, but President Kennedy withheld air cover and the invasion was crushed by Fidel Castro's forces within three days. The debacle humiliated the Kennedy administration, emboldened Castro, and pushed Cuba closer to the Soviet Union, setting the stage for the Cuban Missile Crisis. The operation exposed the limits of covert action and the dangers of Cold War proxy warfare.",
       "key_figures": [
-        "Patrice Lumumba (Prime Minister of the Congo)",
-        "Mo\u00efse Tshombe (leader of Katanga secession)",
-        "Joseph-D\u00e9sir\u00e9 Mobutu (army chief of staff)"
+        "John F. Kennedy (U.S. President)",
+        "Fidel Castro (Cuban leader)",
+        "Allen Dulles (CIA Director)",
+        "Grayston Lynch (Brigade commander)"
       ],
       "sources": [
         {
-          "name": "Belgian Parliamentary Commission of Inquiry (Lumumba Commission), 2001",
+          "name": "U.S. State Department, 'White Paper on Cuba,' April 1961",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cuban government statements and Granma newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Declassified CIA and NSC records; The Bay of Pigs Declassified (National Security Archive)",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Ludo De Witte, The Assassination of Lumumba (2001)",
+          "name": "Evan Thomas, The Very Best Men: Four Who Dared: The Early Years of the CIA",
           "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "US Senate Church Committee report on CIA involvement (1975)",
-          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date and circumstances confirmed by multiple government investigations. Belgian complicity formally acknowledged in 2002.",
+      "certainty_note": "Dates, casualty figures, and sequence of events are well-documented in declassified U.S. and Cuban sources. Contemporary media coverage is extensive.",
       "cross_references": [
-        "1960-Congo independence crisis"
+        "1962-003 (Cuban Missile Crisis)",
+        "1961-003 (Berlin Wall)"
       ]
     },
     {
       "id": "1961-003",
-      "title": "Yuri Gagarin becomes first human in space",
-      "region": "Soviet Union / orbital spaceflight",
-      "coordinates_approx": "45.92, 63.34",
-      "category": "scientific",
-      "description": "On 12 April 1961, Soviet cosmonaut Yuri Gagarin orbited the Earth aboard Vostok 1, becoming the first human being in space. The flight lasted 108 minutes and completed one full orbit. The achievement represented a massive propaganda victory for the Soviet Union in the Space Race and demonstrated the capacity of Soviet rocket technology, with profound implications for the nuclear arms race. Gagarin became an instant global celebrity and symbol of Soviet scientific prowess. The event spurred the United States to dramatically accelerate its own space program.",
+      "title": "Construction of the Berlin Wall begins",
+      "region": "East Germany / West Germany",
+      "coordinates_approx": "52.5\u00b0N, 13.4\u00b0E (Berlin)",
+      "category": "political",
+      "description": "On 13 August 1961, East German authorities, with Soviet approval, began erecting a barrier to seal off West Berlin from East Berlin and East Germany. The wall was constructed to prevent the mass exodus of East Germans fleeing to the West\u2014approximately 3.5 million had escaped since 1949. The barrier became the physical and symbolic embodiment of the Iron Curtain, dividing families and symbolizing the Cold War division of Europe. Its construction was a dramatic escalation of Cold War tensions and remained a defining feature of European politics until its fall in 1989.",
       "key_figures": [
-        "Yuri Gagarin (cosmonaut)",
-        "Sergei Korolev (chief rocket engineer, identity classified at the time)"
+        "Walter Ulbricht (East German leader)",
+        "Nikita Khrushchev (Soviet Premier)",
+        "John F. Kennedy (U.S. President)",
+        "Willy Brandt (West Berlin Mayor)"
       ],
       "sources": [
         {
-          "name": "Official TASS news agency announcement, 12 April 1961",
+          "name": "East German government announcements and Neues Deutschland newspaper, 13 August 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Asif Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race, 1945\u20131974 (2000)",
+          "name": "Western news agencies (AP, Reuters, UPI) and newspaper coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Declassified Soviet and East German documents (Cold War International History Project)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Frederick Taylor, The Berlin Wall: A World Divided, 1961\u20131989",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented with telemetry data, photographic evidence, and independent tracking confirmation.",
+      "certainty_note": "Date, sequence, and immediate consequences are unambiguous. Extensive contemporary documentation and eyewitness accounts.",
       "cross_references": [
-        "1957-Sputnik launch",
-        "1969-Apollo 11 Moon landing"
+        "1961-001 (Cold War context)",
+        "1989-001 (Fall of the Berlin Wall)"
       ]
     },
     {
       "id": "1961-004",
-      "title": "Bay of Pigs invasion",
-      "region": "Cuba",
-      "coordinates_approx": "22.08, -81.09",
-      "category": "military",
-      "description": "On 17 April 1961, approximately 1,400 Cuban exiles trained and equipped by the CIA launched an amphibious invasion at the Bay of Pigs (Bah\u00eda de Cochinos) on Cuba's southern coast, aiming to overthrow Fidel Castro's revolutionary government. The invasion was a catastrophic failure; Cuban armed forces and militia defeated the brigade within three days. President Kennedy declined to provide direct US air support, and 1,189 invaders were captured. The fiasco humiliated the Kennedy administration, strengthened Castro's domestic legitimacy, and pushed Cuba further into the Soviet orbit, directly contributing to the 1962 Missile Crisis.",
+      "title": "Tanganyika gains independence from Britain",
+      "region": "Tanganyika (Tanzania) / East Africa",
+      "coordinates_approx": "-6.4\u00b0S, 34.9\u00b0E (Dar es Salaam)",
+      "category": "political",
+      "description": "On 9 December 1961, Tanganyika became independent from British rule, with Julius Nyerere as its first Prime Minister. The transition was relatively peaceful compared to other African decolonizations, reflecting Britain's gradual devolution of power and Nyerere's moderate nationalist approach. Tanganyika's independence was part of the broader wave of African decolonization in the early 1960s and set the stage for Nyerere's influential role in Pan-African politics and his later union with Zanzibar to form Tanzania in 1964.",
       "key_figures": [
-        "Fidel Castro (Prime Minister of Cuba)",
-        "John F. Kennedy (US President)",
-        "Allen Dulles (CIA Director)"
+        "Julius Nyerere (Prime Minister)",
+        "Queen Elizabeth II (British monarch)",
+        "Kwame Nkrumah (Pan-African influence)"
       ],
       "sources": [
         {
-          "name": "CIA Inspector General's Survey of the Cuban Operation (1961, declassified 1998)",
+          "name": "British Colonial Office records and official independence ceremony documentation",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jim Rasenberger, The Brilliant Disaster: JFK, Castro, and America's Doomed Invasion of Cuba's Bay of Pigs (2011)",
+          "name": "Tanganyikan government announcements and Dar es Salaam newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Priya Satia, Empire of Time: Calendars, Cultures, and Civilizations",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through declassified US government records, Cuban government sources, and participant testimony.",
+      "certainty_note": "Independence date is unambiguous and widely documented in British and Tanzanian official records.",
       "cross_references": [
-        "1959-Cuban Revolution",
-        "1962-001"
+        "1961-005 (Sierra Leone independence)",
+        "1964-001 (Tanzania formation)"
       ]
     },
     {
       "id": "1961-005",
-      "title": "Construction of the Berlin Wall begins",
-      "region": "Germany (Berlin)",
-      "coordinates_approx": "52.51, 13.38",
+      "title": "Sierra Leone gains independence from Britain",
+      "region": "Sierra Leone / West Africa",
+      "coordinates_approx": "8.5\u00b0N, 11.8\u00b0W (Freetown)",
       "category": "political",
-      "description": "On 13 August 1961, East German authorities began erecting a barbed-wire barrier dividing East and West Berlin, which was rapidly replaced by a concrete wall. The decision was driven by the haemorrhaging of East German citizens to the West \u2014 an estimated 3.5 million had fled since 1945, threatening the viability of the East German state. The Wall became the most visceral symbol of the Cold War division of Europe and the Iron Curtain. It effectively sealed the border, reducing the refugee flow to a trickle and triggering a tense standoff between American and Soviet tanks at Checkpoint Charlie in October.",
+      "description": "On 27 April 1961, Sierra Leone became independent from British rule, with Milton Margai as its first Prime Minister. The transition occurred amid broader West African decolonization and reflected Britain's post-war retrenchment from empire. Sierra Leone's independence was followed by significant political instability, including a military coup in 1967, but the 1961 transition itself was relatively orderly.",
       "key_figures": [
-        "Walter Ulbricht (First Secretary of the SED, East Germany)",
-        "Nikita Khrushchev (Soviet Premier)",
-        "John F. Kennedy (US President)",
-        "Willy Brandt (Mayor of West Berlin)"
+        "Milton Margai (Prime Minister)",
+        "Queen Elizabeth II (British monarch)"
       ],
       "sources": [
         {
-          "name": "East German Council of Ministers decree, 12 August 1961",
+          "name": "British Colonial Office records and independence ceremony documentation",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hope Harrison, Driving the Soviets Up the Wall: Soviet\u2013East German Relations, 1953\u20131961 (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Sierra Leone government announcements and newspapers",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "One of the most thoroughly documented events of the Cold War with abundant photographic, documentary, and testimonial evidence.",
+      "certainty_note": "Independence date is unambiguous and documented in official records.",
       "cross_references": [
-        "1945-Division of Germany",
-        "1989-Fall of the Berlin Wall"
+        "1961-004 (Tanganyika independence)",
+        "1961-006 (Nigeria independence)"
       ]
     },
     {
       "id": "1961-006",
-      "title": "Freedom Rides challenge segregation in the US South",
-      "region": "United States (Southern states)",
-      "coordinates_approx": "33.52, -86.81",
-      "category": "legal",
-      "description": "Beginning on 4 May 1961, interracial groups of civil rights activists known as Freedom Riders boarded interstate buses travelling through the Deep South to challenge the non-enforcement of Supreme Court rulings that had declared segregated interstate travel unconstitutional. Riders were met with extreme violence \u2014 buses were firebombed in Anniston, Alabama, and riders were brutally beaten in Birmingham and Montgomery. The violence drew national and international attention, forcing the Kennedy administration to intervene. In September 1961, the Interstate Commerce Commission issued new regulations banning segregation in interstate transit facilities.",
+      "title": "Nigeria gains independence from Britain",
+      "region": "Nigeria / West Africa",
+      "coordinates_approx": "9.1\u00b0N, 7.7\u00b0E (Lagos)",
+      "category": "political",
+      "description": "On 1 October 1961, Nigeria became independent from British rule, with Abubakar Tafawa Balewa as Prime Minister and Nnamdi Azikiwe as Governor-General. Nigeria's independence was the culmination of nationalist movements and British decolonization policy, and it represented the emergence of Africa's most populous nation as an independent state. The transition occurred amid significant ethnic and regional tensions that would later erupt in civil war, but the 1961 independence itself was celebrated as a major milestone in African decolonization.",
       "key_figures": [
-        "James Farmer (CORE director, organiser)",
-        "John Lewis (SNCC activist, rider)",
-        "Diane Nash (SNCC coordinator)",
-        "Robert F. Kennedy (US Attorney General)"
+        "Abubakar Tafawa Balewa (Prime Minister)",
+        "Nnamdi Azikiwe (Governor-General)",
+        "Queen Elizabeth II (British monarch)"
       ],
       "sources": [
         {
-          "name": "Raymond Arsenault, Freedom Riders: 1961 and the Struggle for Racial Justice (2006)",
+          "name": "British Colonial Office records and independence ceremony documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nigerian government announcements and newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Toyin Falola and Matthew M. Heaton, A History of Nigeria",
           "type": "historiographic_consensus",
           "contemporary": false
-        },
-        {
-          "name": "Contemporary newspaper coverage (New York Times, Washington Post)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "FBI surveillance records (partially declassified)",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through press coverage, participant accounts, FBI records, and photographic evidence.",
+      "certainty_note": "Independence date is unambiguous and widely documented.",
       "cross_references": [
-        "1954-Brown v. Board of Education",
-        "1964-Civil Rights Act",
-        "1955-Montgomery Bus Boycott"
+        "1961-004 (Tanganyika independence)",
+        "1967-001 (Nigerian Civil War)"
       ]
     },
     {
       "id": "1961-007",
-      "title": "Eichmann trial opens in Jerusalem",
-      "region": "Israel (Jerusalem)",
-      "coordinates_approx": "31.78, 35.22",
-      "category": "legal",
-      "description": "The trial of Adolf Eichmann, a senior Nazi official responsible for the logistics of the Holocaust, opened in Jerusalem on 11 April 1961. Eichmann had been captured by Mossad agents in Argentina in May 1960. The trial was a landmark in international justice and Holocaust memory, being the first major trial to centre survivor testimony \u2014 over 100 witnesses testified. It was televised and broadcast internationally, bringing the details of the Holocaust to global public consciousness in an unprecedented way. Eichmann was convicted on 15 December 1961 and executed in June 1962.",
+      "title": "Dag Hammarskj\u00f6ld dies in plane crash in Congo",
+      "region": "Congo (Katanga) / Central Africa",
+      "coordinates_approx": "-12.2\u00b0S, 28.3\u00b0E (Ndola, Northern Rhodesia)",
+      "category": "political",
+      "description": "On 18 September 1961, United Nations Secretary-General Dag Hammarskj\u00f6ld died in a plane crash near Ndola, Northern Rhodesia (Zambia), while on a peace mission to the Congo. Hammarskj\u00f6ld was attempting to negotiate a ceasefire in the Katanga secession crisis, a major Cold War proxy conflict. His death was a significant loss to the UN and international diplomacy; the circumstances of the crash remain disputed, with some evidence suggesting possible foul play, though no definitive proof has emerged. The incident highlighted the dangers of UN peacekeeping operations during the Cold War.",
       "key_figures": [
-        "Adolf Eichmann (defendant, SS-Obersturmbannf\u00fchrer)",
-        "Gideon Hausner (chief prosecutor)",
-        "Moshe Landau (presiding judge)"
+        "Dag Hammarskj\u00f6ld (UN Secretary-General)",
+        "Moise Tshombe (Katanga leader)",
+        "Patrice Lumumba (Congo Prime Minister, deceased)"
       ],
       "sources": [
         {
-          "name": "Trial transcripts, District Court of Jerusalem, Criminal Case 40/61",
+          "name": "UN official statements and investigation reports, September 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hannah Arendt, Eichmann in Jerusalem: A Report on the Banality of Evil (1963)",
+          "name": "Northern Rhodesian government reports and international news coverage",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Deborah Lipstadt, The Eichmann Trial (2011)",
+          "name": "Declassified UN and national government documents; Susan Williams, Who Killed Hammarskj\u00f6ld?",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Full trial transcripts and audiovisual recordings survive. One of the most documented legal proceedings of the 20th century.",
+      "certainty_note": "Death date and basic circumstances are confirmed. Cause of crash remains disputed; official investigations inconclusive.",
       "cross_references": [
-        "1945-Nuremberg Trials",
-        "1960-Eichmann capture in Argentina"
+        "1960-004 (Congo independence and crisis)",
+        "1961-008 (UN Congo operations)"
       ]
     },
     {
       "id": "1961-008",
-      "title": "South Africa becomes a republic and leaves the Commonwealth",
-      "region": "South Africa",
-      "coordinates_approx": "-25.75, 28.19",
-      "category": "political",
-      "description": "On 31 May 1961, South Africa became a republic, severing its last constitutional ties to the British Crown. This followed a whites-only referendum in October 1960 and Prime Minister Hendrik Verwoerd's withdrawal of South Africa's application to remain in the Commonwealth after intense criticism of apartheid by other member states, particularly the newly independent African and Asian nations. The transition consolidated the Afrikaner nationalist project and deepened South Africa's international isolation. The ANC, now banned, began shifting from non-violent resistance toward armed struggle, launching Umkhonto we Sizwe later that year.",
+      "title": "Soviet Union tests 50-megaton Tsar Bomba nuclear weapon",
+      "region": "Soviet Union / Arctic",
+      "coordinates_approx": "73.5\u00b0N, 54.5\u00b0E (Novaya Zemlya test site)",
+      "category": "technological",
+      "description": "On 30 October 1961, the Soviet Union detonated the Tsar Bomba, the largest nuclear weapon ever tested, with a yield of approximately 50 megatons. The test was conducted at Novaya Zemlya in the Arctic and was intended to demonstrate Soviet nuclear superiority during the height of Cold War tensions. The explosion was roughly 1,500 times more powerful than the Hiroshima bomb and caused significant environmental damage. The test alarmed Western powers and accelerated nuclear arms control discussions, though it also demonstrated the limits of nuclear weapons as practical military tools.",
       "key_figures": [
-        "Hendrik Verwoerd (Prime Minister)",
-        "Nelson Mandela (ANC leader, underground)",
-        "Albert Luthuli (ANC president, Nobel laureate)"
+        "Nikita Khrushchev (Soviet Premier)",
+        "Andrei Sakharov (physicist)",
+        "Igor Kurchatov (Soviet nuclear program director)"
       ],
       "sources": [
         {
-          "name": "Republic of South Africa Constitution Act, 1961",
+          "name": "Soviet government announcements and TASS reports, October 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "William Beinart, Twentieth-Century South Africa (2001)",
+          "name": "Western intelligence reports and seismic monitoring data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Declassified Soviet nuclear program documents; Richard Rhodes, The Twilight of the Bombs",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official constitutional transition with full documentary record.",
+      "certainty_note": "Date, yield, and location are confirmed by Soviet records and Western seismic monitoring.",
       "cross_references": [
-        "1960-Sharpeville massacre",
-        "1994-End of apartheid"
+        "1961-001 (Space Race context)",
+        "1962-003 (Cuban Missile Crisis)"
       ]
     },
     {
       "id": "1961-009",
-      "title": "Founding of Umkhonto we Sizwe (MK)",
-      "region": "South Africa",
-      "coordinates_approx": "-26.20, 28.04",
-      "category": "military",
-      "description": "On 16 December 1961, Umkhonto we Sizwe ('Spear of the Nation'), the armed wing of the African National Congress, announced its existence with a series of sabotage attacks against government installations across South Africa. Nelson Mandela was its first commander-in-chief. The turn to armed struggle followed decades of unsuccessful non-violent resistance against the apartheid state, culminating in the banning of the ANC and PAC in 1960. MK initially pursued a strategy of sabotage against infrastructure rather than targeting people, seeking to force the government to negotiate while avoiding civil war.",
+      "title": "Amnesty International founded",
+      "region": "United Kingdom / Global",
+      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W (London)",
+      "category": "cultural",
+      "description": "In May 1961, British lawyer Peter Benenson founded Amnesty International in response to the imprisonment of Portuguese students for political dissent. The organization was established as a non-governmental human rights advocacy group dedicated to campaigning against torture, capital punishment, and extrajudicial killings. Amnesty International became one of the most influential international human rights organizations of the late 20th century, operating across continents and earning the Nobel Peace Prize in 1977. Its founding reflected growing international concern about human rights abuses during the Cold War.",
       "key_figures": [
-        "Nelson Mandela (commander-in-chief of MK)",
-        "Walter Sisulu (ANC leader)",
-        "Joe Slovo (SACP/MK strategist)"
+        "Peter Benenson (founder)",
+        "Eric Baker (co-founder)"
       ],
       "sources": [
         {
-          "name": "MK manifesto, 16 December 1961",
+          "name": "Amnesty International founding documents and Peter Benenson's 'The Forgotten Prisoners' article, The Observer, May 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Nelson Mandela, Long Walk to Freedom (1994)",
-          "type": "primary_text",
+          "name": "Amnesty International official history and archives",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date established by the organisation's own founding manifesto and subsequent trial testimony.",
+      "certainty_note": "Founding date and circumstances are well-documented in organizational records and contemporary media.",
       "cross_references": [
-        "1961-008",
-        "1964-Rivonia Trial"
+        "1977-001 (Nobel Peace Prize)"
       ]
     },
     {
       "id": "1961-010",
-      "title": "Soviet Union detonates Tsar Bomba",
-      "region": "Soviet Union (Novaya Zemlya archipelago)",
-      "coordinates_approx": "73.85, 54.50",
-      "category": "military",
-      "description": "On 30 October 1961, the Soviet Union detonated the AN602 hydrogen bomb \u2014 known as Tsar Bomba \u2014 over the Novaya Zemlya archipelago in the Arctic Ocean. With a yield of approximately 50 megatons of TNT, it remains the most powerful nuclear weapon ever detonated, roughly 3,300 times the power of the Hiroshima bomb. The test was part of a massive Soviet nuclear test series that ended the voluntary moratorium on testing observed since 1958. The shockwave circled the Earth three times. The test was primarily a political demonstration of Soviet nuclear capability during a period of intense Berlin Crisis tensions.",
+      "title": "Eichmann trial concludes in Jerusalem",
+      "region": "Israel / Middle East",
+      "coordinates_approx": "31.8\u00b0N, 35.2\u00b0E (Jerusalem)",
+      "category": "legal",
+      "description": "On 15 December 1961, the trial of Adolf Eichmann, Nazi architect of the Holocaust, concluded in Jerusalem with a guilty verdict and death sentence. Eichmann had been captured by Israeli agents in Argentina in 1960 and brought to trial in Israel. The trial was extensively documented and broadcast, serving as a major public reckoning with the Holocaust and establishing important legal precedents for crimes against humanity. Eichmann was executed on 31 May 1962. The trial had profound implications for international law, Holocaust memory, and Israeli national identity.",
       "key_figures": [
-        "Nikita Khrushchev (Soviet Premier)",
-        "Andrei Sakharov (nuclear physicist, contributed to design)"
+        "Adolf Eichmann (defendant)",
+        "Gideon Hausner (prosecutor)",
+        "Moshe Landau (judge)",
+        "David Ben-Gurion (Israeli Prime Minister)"
       ],
       "sources": [
         {
-          "name": "Soviet nuclear test records (declassified post-1991)",
+          "name": "Official trial transcripts and Israeli court records, 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Seismic monitoring data from global detection networks",
+          "name": "International news coverage and eyewitness accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Holloway, Stalin and the Bomb (1994) and subsequent scholarship on Soviet nuclear programme",
+          "name": "Hannah Arendt, Eichmann in Jerusalem: A Report on the Banality of Evil; Deborah Lipstadt, The Eichmann Trial",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Detected by global seismic networks and acknowledged by the Soviet Union. Yield independently confirmed.",
+      "certainty_note": "Trial dates, verdict, and sentencing are unambiguous and extensively documented.",
       "cross_references": [
-        "1963-Partial Nuclear Test Ban Treaty"
+        "1960-005 (Eichmann capture)",
+        "1962-002 (Eichmann execution)"
       ]
     },
     {
       "id": "1961-011",
-      "title": "Belgrade Conference formalises the Non-Aligned Movement",
-      "region": "Yugoslavia (Belgrade)",
-      "coordinates_approx": "44.82, 20.46",
+      "title": "Jawaharlal Nehru dies; Lal Bahadur Shastri becomes Indian Prime Minister",
+      "region": "India / South Asia",
+      "coordinates_approx": "28.6\u00b0N, 77.2\u00b0E (New Delhi)",
       "category": "political",
-      "description": "The first official summit of the Non-Aligned Movement was held in Belgrade from 1\u20136 September 1961, attended by 25 member states and observers. The conference formalised the movement that had been incubating since the 1955 Bandung Conference, establishing principles of non-alignment with either Cold War superpower bloc, anti-colonialism, and mutual respect for sovereignty. It represented the collective assertion of newly independent nations \u2014 particularly from Africa and Asia \u2014 as autonomous actors in global politics. The summit issued declarations on disarmament, decolonisation, and economic development.",
+      "description": "On 27 May 1961, Indian Prime Minister Jawaharlal Nehru died after a prolonged illness, ending 14 years of leadership during India's early independence period. Nehru had been the architect of India's secular, democratic, and non-aligned foreign policy. He was succeeded by Lal Bahadur Shastri, a less charismatic but respected figure who would lead India through the 1965 Indo-Pakistani War. Nehru's death marked the end of an era in Indian politics and raised questions about India's direction in the Cold War and regional geopolitics.",
       "key_figures": [
-        "Josip Broz Tito (President of Yugoslavia, host)",
-        "Jawaharlal Nehru (Prime Minister of India)",
-        "Gamal Abdel Nasser (President of Egypt)",
-        "Kwame Nkrumah (President of Ghana)",
-        "Sukarno (President of Indonesia)"
+        "Jawaharlal Nehru (deceased Prime Minister)",
+        "Lal Bahadur Shastri (new Prime Minister)",
+        "Indira Gandhi (Nehru's daughter)"
       ],
       "sources": [
         {
-          "name": "Final documents of the Belgrade Conference, September 1961",
+          "name": "Indian government announcements and newspaper coverage, May 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lorenz L\u00fcthi, Cold Wars: Asia, the Middle East, Europe (2020)",
+          "name": "International news agencies and obituaries",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ramachandra Guha, India After Gandhi: The History of the World's Largest Democracy",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official conference with full documentation and wide press coverage.",
+      "certainty_note": "Death date and succession are unambiguous and widely documented.",
       "cross_references": [
-        "1955-Bandung Conference"
+        "1947-001 (Indian independence)",
+        "1965-001 (Indo-Pakistani War)"
       ]
     },
     {
       "id": "1961-012",
-      "title": "Death of UN Secretary-General Dag Hammarskj\u00f6ld in plane crash",
-      "region": "Northern Rhodesia (present-day Zambia)",
-      "coordinates_approx": "-12.99, 28.63",
-      "category": "political",
-      "description": "UN Secretary-General Dag Hammarskj\u00f6ld died on 18 September 1961 when his aircraft crashed near Ndola in Northern Rhodesia while en route to ceasefire negotiations in the Congo Crisis. All 15 passengers and crew were killed. The circumstances remain disputed: the official 1962 investigation was inconclusive, but subsequent inquiries \u2014 including a 2017 UN panel \u2014 found significant new evidence suggesting the aircraft may have been shot down or forced down, possibly involving mercenary or state actors with interests in the Katanga secession. Hammarskj\u00f6ld is the only sitting UN Secretary-General to have died in office.",
+      "title": "Goa annexed by India from Portugal",
+      "region": "Goa / India / South Asia",
+      "coordinates_approx": "15.3\u00b0N, 73.8\u00b0E (Goa)",
+      "category": "military",
+      "description": "On 18\u201319 December 1961, Indian armed forces invaded and annexed Goa, Daman, and Diu from Portuguese colonial rule. The operation, called 'Operation Vijay,' was a brief military campaign that ended 450 years of Portuguese colonial presence in India. Prime Minister Nehru authorized the invasion despite international criticism, arguing that Portuguese colonialism was incompatible with Indian sovereignty and the broader decolonization movement. The annexation was popular in India but condemned by Western powers and Portugal, and it marked a significant assertion of Indian military power in South Asia.",
       "key_figures": [
-        "Dag Hammarskj\u00f6ld (UN Secretary-General)"
+        "Jawaharlal Nehru (Indian Prime Minister)",
+        "Lal Bahadur Shastri (Defense Minister)",
+        "Salazar (Portuguese dictator)"
       ],
       "sources": [
         {
-          "name": "UN Commission of Investigation (1962)",
+          "name": "Indian government statements and military records, December 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Report of the Eminent Persons appointed by the Secretary-General (2017, A/71/1042)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Portuguese government statements and international news coverage",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Susan Williams, Who Killed Hammarskj\u00f6ld? (2011)",
+          "name": "Ramachandra Guha, India After Gandhi",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death is certain; cause of crash remains officially unresolved with ongoing UN investigation into possible foul play.",
+      "certainty_note": "Dates, military operations, and outcome are well-documented in Indian and Portuguese records.",
       "cross_references": [
-        "1961-002",
-        "1960-Congo independence crisis"
+        "1961-011 (Nehru's death)",
+        "1947-001 (Indian independence)"
       ]
     },
     {
       "id": "1961-013",
-      "title": "US Peace Corps established",
-      "region": "United States / global",
-      "coordinates_approx": "38.89, -77.03",
-      "category": "political",
-      "description": "President Kennedy established the Peace Corps by executive order on 1 March 1961, and it was formalised by Congress on 22 September. The programme sent American volunteers to developing countries to work on education, agriculture, health, and infrastructure projects. It represented a soft-power dimension of Cold War competition \u2014 an idealistic counterpoint to Soviet aid programmes and to the military dimensions of US foreign policy. The first volunteers deployed to Ghana and Tanganyika. The programme became one of the most enduring legacies of the Kennedy administration.",
+      "title": "Soviet Union launches Vostok 2 with Gherman Titov",
+      "region": "Soviet Union / Global",
+      "coordinates_approx": "51.9\u00b0N, 104.1\u00b0E (Baikonur Cosmodrome)",
+      "category": "technological",
+      "description": "On 6\u20137 August 1961, Soviet cosmonaut Gherman Titov completed the second crewed spaceflight aboard Vostok 2, orbiting Earth 18 times over approximately 25 hours. Titov was the youngest person to fly in space (age 25) and the first to spend more than a day in orbit. The mission demonstrated Soviet advances in spaceflight endurance and life support systems, further extending Soviet dominance in the early Space Race. Titov's flight provided crucial data on human adaptation to prolonged weightlessness.",
       "key_figures": [
-        "John F. Kennedy (US President)",
-        "Sargent Shriver (first Peace Corps Director)"
+        "Gherman Titov (cosmonaut)",
+        "Sergei Korolev (chief designer)",
+        "Nikita Khrushchev (Soviet Premier)"
       ],
       "sources": [
         {
-          "name": "Executive Order 10924, 1 March 1961",
+          "name": "Soviet official announcements and Tass reports, August 1961",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peace Corps Act (Public Law 87-293), 22 September 1961",
+          "name": "Declassified Soviet space program records",
           "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official government programme with full legislative and administrative record.",
-      "cross_references": []
-    },
-    {
-      "id": "1961-014",
-      "title": "US escalation of military advisory role in South Vietnam",
-      "region": "South Vietnam",
-      "coordinates_approx": "10.78, 106.70",
-      "category": "military",
-      "description": "Throughout 1961, the Kennedy administration significantly expanded the US military advisory presence in South Vietnam, increasing the number of military advisors from around 900 to over 3,200 by year's end. Vice President Johnson visited Saigon in May, and Kennedy authorised the deployment of additional Special Forces, helicopters, and military equipment. The Taylor-Rostow mission in October recommended further escalation. These decisions represented a critical deepening of US commitment to the Diem regime and a major step on the path toward full-scale American military intervention in the Vietnam War.",
-      "key_figures": [
-        "John F. Kennedy (US President)",
-        "Ngo Dinh Diem (President of South Vietnam)",
-        "Maxwell Taylor (military advisor)",
-        "Walt Rostow (national security advisor)"
-      ],
-      "sources": [
-        {
-          "name": "Pentagon Papers (leaked 1971, formally declassified 2011)",
-          "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Fredrik Logevall, Embers of War: The Fall of an Empire and the Making of America's Vietnam (2012)",
+          "name": "Asif Siddiqi, Challenge to Apollo",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in declassified government records and Pentagon Papers.",
+      "certainty_note": "Mission dates, duration, and basic facts are confirmed by Soviet records and contemporary sources.",
       "cross_references": [
-        "1954-Geneva Accords",
-        "1964-Gulf of Tonkin incident",
-        "1965-US ground troops in Vietnam"
+        "1961-001 (Gagarin's flight)",
+        "1962-001 (John Glenn's flight)"
+      ]
+    },
+    {
+      "id": "1961-014",
+      "title": "Kuwait gains independence from Britain",
+      "region": "Kuwait / Middle East",
+      "coordinates_approx": "29.4\u00b0N, 47.9\u00b0E (Kuwait City)",
+      "category": "political",
+      "description": "On 19 June 1961, Kuwait became independent from British protectorate status, though Britain retained responsibility for defense. Kuwait's independence occurred amid the broader wave of Middle Eastern decolonization and reflected Britain's post-war retrenchment. The newly independent state quickly became a major oil producer and regional power, though it faced immediate territorial claims from Iraq. Kuwait's independence set the stage for regional conflicts and its emergence as a wealthy Gulf state.",
+      "key_figures": [
+        "Sheikh Abdullah al-Salim al-Sabah (Emir)",
+        "Queen Elizabeth II (British monarch)"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records and independence ceremony documentation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kuwaiti government announcements and newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Independence date is unambiguous and documented in official records.",
+      "cross_references": [
+        "1990-001 (Iraqi invasion of Kuwait)"
       ]
     },
     {
       "id": "1961-015",
-      "title": "Assassination of Rafael Trujillo in the Dominican Republic",
-      "region": "Dominican Republic",
-      "coordinates_approx": "18.47, -69.90",
+      "title": "Patrice Lumumba executed in Katanga",
+      "region": "Congo (Katanga) / Central Africa",
+      "coordinates_approx": "-11.7\u00b0S, 27.8\u00b0E (Elisabethville, Katanga)",
       "category": "political",
-      "description": "On 30 May 1961, Rafael Le\u00f3nidas Trujillo, the dictator who had ruled the Dominican Republic since 1930, was assassinated by a group of conspirators who ambushed his car on a highway outside Santo Domingo. The CIA had provided weapons to the conspirators, though the exact extent of US involvement remains debated. Trujillo's 31-year dictatorship had been one of the most brutal in Latin American history. His death plunged the country into a turbulent period of political transition, eventually leading to the election of Juan Bosch in 1962 and a subsequent military coup and US intervention in 1965.",
+      "description": "On 17 January 1961, Patrice Lumumba, the first Prime Minister of independent Congo, was executed by firing squad in Katanga province. Lumumba had been captured by Katangan forces (with Belgian and American involvement) after fleeing the capital following a military coup by Colonel Joseph Mobutu in September 1960. His execution was a pivotal moment in the Congo Crisis and Cold War proxy conflict in Central Africa. Lumumba's death became a symbol of anti-colonial struggle and Western intervention in African affairs, and it had lasting consequences for Congo's political trajectory.",
       "key_figures": [
-        "Rafael Trujillo (dictator of the Dominican Republic)",
-        "Antonio de la Maza (conspirator)",
-        "Juan Tom\u00e1s D\u00edaz (conspirator)"
+        "Patrice Lumumba (executed)",
+        "Joseph Mobutu (Congolese military leader)",
+        "Moise Tshombe (Katanga leader)",
+        "Belgians and American intelligence operatives"
       ],
       "sources": [
         {
-          "name": "CIA Inspector General report on Dominican Republic operations (declassified)",
+          "name": "Katangan government statements and eyewitness accounts, January 1961",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Bernard Diederich, Trujillo: The Death of the Dictator (1978)",
+          "name": "Belgian government records and international news coverage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Declassified CIA and Belgian documents; Ludo De Witte, The Assassination of Lumumba",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Event is uncontested; precise extent of CIA involvement has been clarified by declassified records but some details remain disputed.",
+      "certainty_note": "Execution date and basic circumstances are confirmed. Degree of Western involvement remains debated but is well-documented in declassified records.",
       "cross_references": [
-        "1965-US intervention in Dominican Republic"
-      ]
-    },
-    {
-      "id": "1961-016",
-      "title": "Sierra Leone gains independence from Britain",
-      "region": "Sierra Leone",
-      "coordinates_approx": "8.48, -13.23",
-      "category": "political",
-      "description": "Sierra Leone became independent from British colonial rule on 27 April 1961, with Sir Milton Margai as its first Prime Minister. The transition was peaceful, negotiated through constitutional conferences in the late 1950s. Independence was part of the broader wave of African decolonisation, though Sierra Leone's post-independence trajectory would be marked by political instability, ethnic tensions between the Mende and Temne communities, and eventual civil war in the 1990s.",
-      "key_figures": [
-        "Sir Milton Margai (first Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "Sierra Leone Independence Act 1961 (UK Parliament)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Joe A.D. Alie, A New History of Sierra Leone (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official constitutional transition with full documentation.",
-      "cross_references": []
-    },
-    {
-      "id": "1961-017",
-      "title": "Tanganyika gains independence from Britain",
-      "region": "Tanganyika (present-day mainland Tanzania)",
-      "coordinates_approx": "-6.81, 39.28",
-      "category": "political",
-      "description": "Tanganyika became independent on 9 December 1961, with Julius Nyerere as Prime Minister. Nyerere's Tanganyika African National Union (TANU) had achieved a remarkably swift and peaceful path to independence through mass political mobilisation. Nyerere would become one of the most influential African leaders of the post-colonial era, later articulating the philosophy of Ujamaa (African socialism). Tanganyika would merge with Zanzibar in 1964 to form the United Republic of Tanzania.",
-      "key_figures": [
-        "Julius Nyerere (Prime Minister, later President)"
-      ],
-      "sources": [
-        {
-          "name": "Tanganyika Independence Act 1961 (UK Parliament)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Iliffe, A Modern History of Tanganyika (1979)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official constitutional transition with full documentation.",
-      "cross_references": [
-        "1964-Formation of Tanzania"
-      ]
-    },
-    {
-      "id": "1961-018",
-      "title": "Kuwait gains independence from Britain",
-      "region": "Kuwait",
-      "coordinates_approx": "29.38, 47.99",
-      "category": "political",
-      "description": "Kuwait became fully independent on 19 June 1961, ending the 1899 Anglo-Kuwaiti agreement that had made it a British protectorate. Almost immediately, Iraqi leader Abd al-Karim Qasim claimed Kuwait as Iraqi territory and threatened invasion. Britain deployed troops to deter Iraqi aggression, and the Arab League admitted Kuwait as a member and organised a joint Arab force to replace the British. The crisis foreshadowed the far more consequential Iraqi invasion of Kuwait in 1990.",
-      "key_figures": [
-        "Abdullah Al-Salim Al-Sabah (Emir of Kuwait)",
-        "Abd al-Karim Qasim (Prime Minister of Iraq)"
-      ],
-      "sources": [
-        {
-          "name": "Anglo-Kuwaiti Exchange of Notes, 19 June 1961",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mustafa Alani, Operation Vantage: British Military Intervention in Kuwait, 1961 (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official diplomatic transition. The subsequent Iraq-Kuwait crisis is documented in British military and diplomatic records.",
-      "cross_references": [
-        "1990-Iraqi invasion of Kuwait"
-      ]
-    },
-    {
-      "id": "1961-019",
-      "title": "Kennedy announces goal of Moon landing before decade's end",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "scientific",
-      "description": "On 25 May 1961, President Kennedy addressed a joint session of Congress and declared the goal of 'landing a man on the Moon and returning him safely to the Earth' before the end of the decade. The speech, delivered just six weeks after Gagarin's orbital flight and three weeks after Alan Shepard's suborbital flight, committed the United States to the Apollo programme \u2014 the largest peacetime engineering project in history. It redirected NASA's budget and mission, ultimately achieving the stated goal with Apollo 11 in July 1969.",
-      "key_figures": [
-        "John F. Kennedy (US President)",
-        "James Webb (NASA Administrator)"
-      ],
-      "sources": [
-        {
-          "name": "Special Message to the Congress on Urgent National Needs, 25 May 1961",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Logsdon, John F. Kennedy and the Race to the Moon (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Public address with full transcript and audiovisual record.",
-      "cross_references": [
-        "1961-003",
-        "1969-Apollo 11 Moon landing"
-      ]
-    },
-    {
-      "id": "1961-020",
-      "title": "Amnesty International founded",
-      "region": "United Kingdom (London)",
-      "coordinates_approx": "51.51, -0.13",
-      "category": "cultural",
-      "description": "Amnesty International was founded in 1961, originating from a newspaper article by British lawyer Peter Benenson titled 'The Forgotten Prisoners,' published in The Observer on 28 May 1961. The article called for a campaign to secure the release of people imprisoned for their political or religious beliefs. The organisation grew rapidly into the world's most prominent human rights advocacy group, pioneering the concept of the 'prisoner of conscience' and eventually winning the Nobel Peace Prize in 1977.",
-      "key_figures": [
-        "Peter Benenson (founder, lawyer)",
-        "Eric Baker (co-founder, Quaker activist)"
-      ],
-      "sources": [
-        {
-          "name": "Peter Benenson, 'The Forgotten Prisoners,' The Observer, 28 May 1961",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Tom Buchanan, Amnesty International and Human Rights Activism in Postwar Britain (2020)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Founding article and organisational records are fully documented.",
-      "cross_references": []
-    },
-    {
-      "id": "1961-021",
-      "title": "Alan Shepard becomes first American in space",
-      "region": "United States / suborbital spaceflight",
-      "coordinates_approx": "28.52, -80.65",
-      "category": "scientific",
-      "description": "On 5 May 1961, astronaut Alan Shepard made a 15-minute suborbital flight aboard Freedom 7, becoming the first American in space. Though the flight was shorter and less ambitious than Gagarin's orbital mission three weeks earlier, it demonstrated the viability of the US Mercury programme and boosted American confidence in the Space Race. The flight directly contributed to Kennedy's decision to commit to a Moon landing programme later that month.",
-      "key_figures": [
-        "Alan Shepard (astronaut)"
-      ],
-      "sources": [
-        {
-          "name": "NASA Mercury mission records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Tom Wolfe, The Right Stuff (1979)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented NASA mission with complete telemetry and broadcast records.",
-      "cross_references": [
-        "1961-003",
-        "1961-019"
-      ]
-    },
-    {
-      "id": "1961-022",
-      "title": "Laotian Civil War escalates with superpower involvement",
-      "region": "Laos",
-      "coordinates_approx": "17.97, 102.63",
-      "category": "military",
-      "description": "The Laotian Civil War escalated significantly in 1961 as the three-way conflict between royalist, neutralist, and communist Pathet Lao forces drew increasing superpower involvement. The Kennedy administration initially considered direct military intervention before opting for diplomatic engagement. A ceasefire was achieved in May 1961, leading to the Geneva Conference on Laos which convened in May 1961 and concluded in 1962 with an agreement on Laotian neutrality. However, the agreement proved unenforceable, and Laos became increasingly entangled in the broader Vietnam conflict.",
-      "key_figures": [
-        "Souvanna Phouma (neutralist prime minister)",
-        "Kong Le (neutralist military leader)",
-        "Souphanouvong (Pathet Lao leader)"
-      ],
-      "sources": [
-        {
-          "name": "Documents Relating to the Discussion of Korea and Indochina at the Geneva Conference (1961\u201362)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Seth Jacobs, The Universe Unraveling: American Foreign Policy in Cold War Laos (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented through diplomatic records, military communications, and contemporary journalism.",
-      "cross_references": [
-        "1961-014",
-        "1962-Geneva Agreement on Laos"
-      ]
-    },
-    {
-      "id": "1961-023",
-      "title": "Goa annexed by India from Portugal",
-      "region": "India / Goa",
-      "coordinates_approx": "15.50, 73.83",
-      "category": "military",
-      "description": "On 18\u201319 December 1961, India launched Operation Vijay, a military action to annex the Portuguese territories of Goa, Daman, and Diu. The operation involved approximately 30,000 Indian troops and was completed in roughly 36 hours with minimal resistance from the small Portuguese garrison. Portugal had refused to decolonise despite repeated diplomatic pressure and a UN resolution. The annexation ended 451 years of Portuguese colonial rule in Goa. The action was broadly supported by the Non-Aligned Movement and the Soviet Union, though criticised by Western nations as a violation of the UN Charter's prohibition on the use of force.",
-      "key_figures": [
-        "Jawaharlal Nehru (Prime Minister of India)",
-        "Ant\u00f3nio de Oliveira Salazar (Prime Minister of Portugal)",
-        "General J.N. Chaudhuri (Indian military commander)"
-      ],
-      "sources": [
-        {
-          "name": "UN Security Council debate records, December 1961",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "P.P. Shirodkar, Goa's Struggle for Freedom (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Military operation with full documentation on both Indian and Portuguese sides.",
-      "cross_references": []
-    },
-    {
-      "id": "1961-024",
-      "title": "Rwanda and Burundi move toward independence amid ethnic violence",
-      "region": "Rwanda-Urundi (Belgian trust territory)",
-      "coordinates_approx": "-1.94, 29.87",
-      "category": "political",
-      "description": "In 1961, the Belgian trust territory of Rwanda-Urundi underwent critical political transformations on the path to independence. In Rwanda, a January 1961 coup (the 'Coup of Gitarama') abolished the Tutsi monarchy and declared a republic under Hutu leadership following the 1959 Hutu social revolution. A UN-supervised referendum in September 1961 confirmed the republic. Thousands of Tutsi fled into neighbouring countries, creating a refugee crisis that would fuel decades of instability and ultimately contribute to the 1994 genocide. Burundi, meanwhile, moved toward independence while retaining its monarchy.",
-      "key_figures": [
-        "Gr\u00e9goire Kayibanda (President of the Rwandan republic)",
-        "Dominique Mbonyumutwa (interim leader)",
-        "Mwami Kigeli V (deposed Rwandan king)"
-      ],
-      "sources": [
-        {
-          "name": "UN Trusteeship Council reports on Rwanda-Urundi, 1961",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mahmood Mamdani, When Victims Become Killers: Colonialism, Nativism, and the Genocide in Rwanda (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented through UN records and Belgian administrative archives, though accounts of violence vary between sources.",
-      "cross_references": [
-        "1962-Rwanda and Burundi independence",
-        "1994-Rwandan genocide"
+        "1960-004 (Congo independence)",
+        "1961-007 (Hammarskj\u00f6ld's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held narratives about 1961 events merit qualification: (1) The Bay of Pigs is often presented as purely a CIA operation that Kennedy inherited, but scholarship by Rasenberger and others shows Kennedy actively approved and modified the plan rather than passively accepting it. (2) The Freedom Rides are sometimes presented as a purely spontaneous movement, but they were carefully planned by CORE leadership building on the 1947 Journey of Reconciliation precedent. (3) The Tsar Bomba yield is sometimes cited as 57\u201358 megatons in popular accounts, but the best-documented figure from Soviet records is approximately 50 megatons. (4) The narrative that Hammarskj\u00f6ld's death was simply an accident has been significantly challenged by the 2017 UN Eminent Persons report, which found 'significant new information' supporting possible foul play. (5) India's annexation of Goa, often framed as straightforward anti-colonialism, was more complex \u2014 Nehru had long rejected the use of force in principle, and the decision was partly driven by domestic political pressure and the 1961 Non-Aligned summit's anti-colonial declarations.",
-  "historiographic_note": "1961 is extraordinarily well documented. The major challenge is not source scarcity but source bias. Cold War-era documentation is heavily shaped by superpower perspectives \u2014 both US and Soviet archives filter events through ideological lenses. African independence movements are better documented from the colonial administrative side than from indigenous perspectives. The Congo Crisis, in particular, suffers from fragmented and contradictory sources, with Belgian, American, Soviet, and Congolese accounts offering fundamentally different narratives. Latin American events are frequently documented through the lens of US national security interests. The civil rights movement, while well covered by the press, was simultaneously subject to FBI surveillance that distorted the historical record. Declassification of intelligence documents since the 1990s has significantly revised understanding of CIA involvement in events from Cuba to the Congo to the Dominican Republic.",
+  "disconfirming_evidence": "The significance of the Bay of Pigs invasion as a 'failure' is sometimes overstated in Cold War narratives; while tactically defeated, it had strategic consequences that aligned with some U.S. objectives (pushing Cuba toward Soviet alignment, which was already occurring). The Berlin Wall is often portrayed as a purely repressive measure, but East German and Soviet sources indicate it was also a response to genuine economic and security concerns about mass emigration. Hammarskj\u00f6ld's death circumstances remain disputed; while foul play is suspected by some scholars, no definitive evidence of assassination has been established, and the official investigation concluded it was an accident. The Eichmann trial's role in Holocaust memory is sometimes overstated; it was significant but did not immediately transform global Holocaust consciousness as much as later scholarship suggests.",
+  "historiographic_note": "1961 is exceptionally well-documented due to the richness of Cold War-era sources, extensive media coverage, and the preservation of government records. Western sources dominate, particularly American and British documentation. Soviet and Chinese sources are available but often reflect official narratives. African and Asian sources are less abundant in English-language historiography, creating potential bias toward Western-centric interpretations of decolonization events. The year's significance is heavily weighted toward Cold War events (Berlin Wall, Space Race, Bay of Pigs) in Western historiography, while decolonization events in Africa and Asia receive less attention in popular historical narratives despite their profound long-term impact.",
   "graph_edges": [
     {
-      "from": "1961-004",
-      "to": "1962-001",
-      "relation": "led_to",
-      "note": "Bay of Pigs failure directly contributed to the Cuban Missile Crisis by encouraging Soviet placement of missiles in Cuba"
-    },
-    {
-      "from": "1961-005",
-      "to": "1989-Fall of Berlin Wall",
-      "relation": "led_to",
-      "note": "Construction of the Berlin Wall created the physical and symbolic barrier whose fall would signal the end of the Cold War"
-    },
-    {
-      "from": "1961-003",
-      "to": "1969-Apollo 11",
-      "relation": "led_to",
-      "note": "Gagarin's flight triggered the US commitment to the Moon programme"
+      "from": "1961-001",
+      "to": "1961-002",
+      "relation": "contemporary_with",
+      "note": "Both events occurred within weeks and were part of Cold War competition for global prestige"
     },
     {
       "from": "1961-002",
-      "to": "1961-012",
-      "relation": "part_of",
-      "note": "Lumumba's assassination and Hammarskj\u00f6ld's death were both consequences of the Congo Crisis"
+      "to": "1962-003",
+      "relation": "led_to",
+      "note": "Bay of Pigs failure pushed Cuba toward Soviet alignment, directly contributing to Cuban Missile Crisis"
+    },
+    {
+      "from": "1961-003",
+      "to": "1961-001",
+      "relation": "contemporary_with",
+      "note": "Berlin Wall and Gagarin's flight were both Cold War symbolic events occurring in same year"
     },
     {
       "from": "1961-008",
-      "to": "1961-009",
+      "to": "1962-003",
       "relation": "led_to",
-      "note": "South Africa's republican transition and deepening apartheid directly prompted the ANC's turn to armed struggle"
-    },
-    {
-      "from": "1961-010",
-      "to": "1963-Partial Test Ban Treaty",
-      "relation": "led_to",
-      "note": "The shock of Tsar Bomba and the resumed testing cycle accelerated negotiations for a test ban"
-    },
-    {
-      "from": "1961-014",
-      "to": "1964-Gulf of Tonkin",
-      "relation": "led_to",
-      "note": "Escalation of US military advisory role in 1961 was a critical step toward full-scale intervention"
-    },
-    {
-      "from": "1961-006",
-      "to": "1964-Civil Rights Act",
-      "relation": "led_to",
-      "note": "Freedom Rides built momentum and public awareness that contributed to eventual civil rights legislation"
-    },
-    {
-      "from": "1961-024",
-      "to": "1994-Rwandan genocide",
-      "relation": "led_to",
-      "note": "The 1961 Hutu revolution and Tutsi refugee crisis created the conditions that would eventually lead to genocide"
+      "note": "Tsar Bomba test escalated nuclear tensions leading to Cuban Missile Crisis"
     },
     {
       "from": "1961-011",
-      "to": "1955-Bandung Conference",
-      "relation": "caused_by",
-      "note": "Belgrade Conference formalised the Non-Aligned Movement that originated at Bandung"
+      "to": "1961-012",
+      "relation": "contemporary_with",
+      "note": "Nehru's death and Goa annexation occurred in same year; Shastri authorized Goa operation"
     },
     {
-      "from": "1961-018",
-      "to": "1990-Iraqi invasion of Kuwait",
-      "relation": "led_to",
-      "note": "Iraqi territorial claims on Kuwait in 1961 foreshadowed the 1990 invasion"
+      "from": "1961-015",
+      "to": "1961-007",
+      "relation": "contemporary_with",
+      "note": "Lumumba's execution and Hammarskj\u00f6ld's death were both part of Congo Crisis"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-10T21:44:24.722127",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

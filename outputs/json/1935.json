@@ -1,762 +1,422 @@
 {
   "year": 1935,
   "year_label": "1935 CE",
-  "era_context": "The mid-1930s mark the accelerating collapse of the post-WWI international order. Fascist regimes in Germany and Italy grew increasingly aggressive, while the League of Nations proved unable to enforce collective security. The global economy was recovering unevenly from the Great Depression, with state-directed programs reshaping societies from the United States to the Soviet Union. In Asia, Japanese expansion in Manchuria and northern China continued, while the Chinese Communist Party completed its Long March. Colonial rule persisted across much of Africa, the Middle East, and South and Southeast Asia, though nationalist movements were gaining momentum.",
+  "era_context": "The interwar period is entering its final phase of instability. Nazi Germany is openly rearming and pursuing aggressive foreign policy. Japan continues its expansion in Asia. Italy under Mussolini is preparing for invasion of Ethiopia. The League of Nations is proving ineffectual in restraining aggressor states. The Soviet Union is consolidating Stalinist control. The United States is pursuing isolationism while grappling with the Great Depression.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Central Asia under Soviet rule \u2014 internal dynamics poorly documented in English-language scholarship",
-    "Interior sub-Saharan Africa outside Ethiopia",
-    "Oceania and Pacific Islands beyond the colonial administrative record",
-    "Indigenous perspectives in the Americas and Australia"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1935-001",
-      "title": "Saar plebiscite returns territory to Germany",
-      "region": "Saar Basin, Germany/France border",
-      "coordinates_approx": "49.23, 7.00",
+      "title": "Nazi Germany announces rearmament",
+      "region": "Germany",
+      "coordinates_approx": "52.5, 13.4",
       "category": "political",
-      "description": "On 13 January 1935, the population of the Saar Basin Territory voted overwhelmingly (90.7%) to reunify with Germany, ending 15 years of League of Nations administration mandated by the Treaty of Versailles. The result was a propaganda triumph for the Nazi regime, which portrayed it as validation of Hitler's rule. The territory was formally reincorporated into Germany on 1 March. The lopsided result partly reflected genuine pan-German sentiment but also Nazi intimidation of opponents and the Catholic Church's influence favoring reunion.",
+      "description": "On 16 March 1935, Nazi Germany publicly announced its rearmament programme, openly violating the Treaty of Versailles (1919), which had limited German military forces. Hitler declared that Germany had achieved air parity with Britain and announced the creation of the Luftwaffe (air force) and expansion of the army (Reichswehr) to 36 divisions. The announcement was a direct challenge to the post-WWI international order and signalled Hitler's determination to overturn the Versailles settlement. Rather than responding with military force, Britain signed the Anglo-German Naval Agreement on 18 June 1935, which effectively legitimised German rearmament by allowing Germany to build a navy up to 35% of British naval tonnage. This agreement was widely seen as a diplomatic victory for Hitler and a failure of collective security, emboldening further German aggression.",
       "key_figures": [
-        "Adolf Hitler (Chancellor of Germany)",
-        "Josef B\u00fcrckel (Reich Commissioner for Reunification of the Saarland)"
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Joachim von Ribbentrop (German Foreign Minister)",
+        "Stanley Baldwin (Prime Minister, United Kingdom)",
+        "Anthony Eden (British Foreign Secretary)"
       ],
       "sources": [
         {
-          "name": "League of Nations Plebiscite Commission official records",
+          "name": "German government announcements and military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Kershaw, Ian. Hitler: 1889\u20131936: Hubris (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Foreign Office records and diplomatic cables",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts from The Times, Daily Telegraph, and German press",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Internationally supervised plebiscite with extensive documentation.",
+      "certainty_note": "The date, announcement, and terms of the Anglo-German Naval Agreement are extensively documented in contemporary sources and government records.",
       "cross_references": [
-        "1919-treaty_of_versailles"
+        "Follows from 1933-002 (Hitler's withdrawal from League of Nations)",
+        "Led to 1936-001 (Rhineland remilitarisation)"
       ]
     },
     {
       "id": "1935-002",
-      "title": "Germany repudiates Versailles Treaty military clauses and reintroduces conscription",
-      "region": "Germany",
-      "coordinates_approx": "52.52, 13.40",
+      "title": "Italy invades Ethiopia",
+      "region": "Ethiopia (Abyssinia)",
+      "coordinates_approx": "9.1, 40.5",
       "category": "military",
-      "description": "On 16 March 1935, Hitler announced the reintroduction of compulsory military service and the formal repudiation of Part V of the Treaty of Versailles, which had limited Germany's armed forces to 100,000 men. He declared a peacetime army target of 36 divisions (approximately 550,000 troops). Germany had been secretly rearming for years, so this was as much a diplomatic provocation as a military change. The announcement drew protests from Britain, France, and Italy but no substantive action, emboldening further treaty violations.",
+      "description": "On 3 October 1935, Italian forces under Benito Mussolini invaded Ethiopia (Abyssinia), a League of Nations member state. The invasion was motivated by Mussolini's desire to expand Italian colonial territory in Africa and to avenge Italy's defeat at the Battle of Adwa (1896). Italian forces used modern military technology, including aircraft and poison gas, against Ethiopian forces armed with older weapons. The invasion triggered international condemnation and League of Nations sanctions against Italy, but the sanctions were ineffective and incomplete, failing to include oil (Italy's critical import). The invasion lasted until May 1936, when Italian forces captured Addis Ababa and Mussolini declared Ethiopia annexed. The League's failure to stop the invasion demonstrated its impotence and drove Italy closer to Nazi Germany, leading to the formation of the Rome-Berlin Axis.",
       "key_figures": [
-        "Adolf Hitler (Chancellor and F\u00fchrer)",
-        "Werner von Blomberg (Minister of War)"
+        "Benito Mussolini (Il Duce, Fascist Italy)",
+        "Haile Selassie (Emperor of Ethiopia)",
+        "Pietro Badoglio (Italian General, commander of invasion forces)",
+        "Anthony Eden (British Foreign Secretary)"
       ],
       "sources": [
         {
-          "name": "Decree for the Build-Up of the Wehrmacht, 16 March 1935 (Reichsgesetzblatt)",
+          "name": "Italian military records and government documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Shirer, William L. The Rise and Fall of the Third Reich (1960)",
+          "name": "Ethiopian government records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "League of Nations records and contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Baer, George W., The Coming of the Italian-Ethiopian War (1967)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Published decree with extensive contemporary press coverage.",
+      "certainty_note": "The date, sequence of events, and military operations are extensively documented in Italian military records, Ethiopian government documents, League of Nations records, and contemporary accounts.",
       "cross_references": [
-        "1919-treaty_of_versailles",
-        "1936-rhineland_remilitarization"
+        "Led to 1936-007 (Formation of Rome-Berlin Axis)",
+        "Led to 1936-002 (Spanish Civil War, where Italy also intervened)"
       ]
     },
     {
       "id": "1935-003",
-      "title": "Stresa Front formed against German expansion",
-      "region": "Stresa, Italy / Europe",
-      "coordinates_approx": "45.89, 8.53",
+      "title": "Second Moscow Show Trial begins",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.75, 37.6",
       "category": "political",
-      "description": "In April 1935, Britain, France, and Italy met at Stresa on Lake Maggiore and jointly condemned Germany's rearmament and treaty violations, reaffirming their commitment to Austrian independence and the Locarno Treaties. The so-called Stresa Front represented the last attempt at a unified great-power response to Nazi revisionism. It collapsed within months: Britain undercut it by signing a bilateral naval agreement with Germany in June, and the Franco-Italian relationship disintegrated over Italy's invasion of Ethiopia in October.",
+      "description": "In January 1935, the Soviet Union held the Second Moscow Show Trial (also called the Trial of the Sixteen), in which prominent Old Bolsheviks including Grigory Zinoviev and Lev Kamenev were tried for alleged conspiracy and treason. The trial was part of Stalin's broader campaign to eliminate political rivals and consolidate totalitarian control. The defendants were forced to confess to fabricated charges of plotting with foreign powers and attempting to assassinate Soviet leaders. The trial set a precedent for the more extensive purges that would follow in 1936\u20131938. The proceedings were widely publicised in the Soviet press as evidence of internal enemies and foreign conspiracies, serving as propaganda to justify Stalin's increasingly authoritarian rule.",
       "key_figures": [
-        "Ramsay MacDonald (Prime Minister, UK)",
-        "Pierre-\u00c9tienne Flandin (Prime Minister, France)",
-        "Benito Mussolini (Prime Minister, Italy)"
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Grigory Zinoviev (Old Bolshevik, defendant)",
+        "Lev Kamenev (Old Bolshevik, defendant)",
+        "Andrey Vyshinsky (Prosecutor)"
       ],
       "sources": [
         {
-          "name": "Stresa Conference communiqu\u00e9, April 1935",
+          "name": "Soviet government records and trial transcripts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lamb, Richard. Mussolini as Diplomat (1999)",
+          "name": "Contemporary Soviet newspapers (Pravda, Izvestia)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Conquest, Robert, The Great Terror (1968)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Diplomatic conference with published communiqu\u00e9 and extensive archival record.",
+      "certainty_note": "The date, defendants, and trial proceedings are extensively documented in Soviet records and contemporary accounts. The fabricated nature of the charges is well-established in historical scholarship.",
       "cross_references": [
-        "1935-002",
-        "1935-005",
-        "1935-006"
+        "Part of broader purge cycle beginning 1934-003",
+        "Led to 1936-005 (Intensification of Great Purge)"
       ]
     },
     {
       "id": "1935-004",
-      "title": "Nuremberg Laws strip German Jews of citizenship",
+      "title": "Nuremberg Laws enacted in Nazi Germany",
       "region": "Germany",
-      "coordinates_approx": "49.45, 11.08",
+      "coordinates_approx": "49.5, 11.1",
       "category": "legal",
-      "description": "On 15 September 1935, the Reichstag unanimously passed the Reich Citizenship Law and the Law for the Protection of German Blood and German Honour at the annual Nazi Party rally in Nuremberg. These laws formally stripped Jews of German citizenship, reducing them to 'subjects,' and criminalized marriage and sexual relations between Jews and non-Jewish Germans. The laws codified racial antisemitism into the legal framework of the state, replacing the ad hoc persecution of 1933\u201334 with systematic, bureaucratic discrimination. They established the legal architecture that would be progressively tightened toward exclusion, expropriation, and ultimately genocide.",
+      "description": "On 15 September 1935, the Nazi regime enacted the Nuremberg Laws at the annual Nazi Party rally in Nuremberg. The laws consisted of two main statutes: the Law for the Protection of German Blood and German Honour, which prohibited marriage and sexual relations between Jews and non-Jews, and the Reich Citizenship Law, which stripped Jews of German citizenship and reduced them to the status of 'subjects.' The laws were the first major legislative codification of Nazi racial ideology and marked a significant escalation in the persecution of Jews. The laws provided a legal framework for subsequent discriminatory measures and ultimately contributed to the Holocaust. The Nuremberg Laws were widely publicised and served as a model for racial legislation in other fascist and authoritarian regimes.",
       "key_figures": [
-        "Adolf Hitler (F\u00fchrer)",
-        "Wilhelm Frick (Reich Minister of the Interior)",
-        "Hans Frank (head of the Academy for German Law)"
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Julius Streicher (Nazi ideologue)",
+        "Bernhard Rust (Minister of Education)"
       ],
       "sources": [
         {
-          "name": "Reichsgesetzblatt, Part I, No. 100, 16 September 1935 (text of the laws)",
+          "name": "Nazi government documents and official announcements",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Friedl\u00e4nder, Saul. Nazi Germany and the Jews, Vol. 1: The Years of Persecution 1933\u20131939 (1997)",
+          "name": "Contemporary newspaper accounts and Nazi propaganda materials",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Friedl\u00e4nder, Saul, Nazi Germany and the Jews: The Years of Persecution 1933\u20131939 (1997)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Published legislation with full documentary record.",
+      "certainty_note": "The date, text, and enactment of the Nuremberg Laws are extensively documented in Nazi government records and contemporary sources.",
       "cross_references": [
-        "1933-enabling_act",
-        "1938-kristallnacht"
+        "Follows from 1933-001 (Nazi seizure of power)",
+        "Led to 1938-002 (Kristallnacht and escalation of persecution)"
       ]
     },
     {
       "id": "1935-005",
-      "title": "Anglo-German Naval Agreement signed",
-      "region": "London, United Kingdom / Germany",
-      "coordinates_approx": "51.50, -0.13",
-      "category": "military",
-      "description": "On 18 June 1935, Britain and Germany signed a bilateral naval agreement permitting Germany to build a navy up to 35% of the Royal Navy's tonnage, with submarine parity allowed under certain conditions. The agreement effectively legitimized German rearmament in violation of the Versailles Treaty without consulting France or Italy, fatally undermining the Stresa Front formed just two months earlier. France was outraged at what it saw as British appeasement and unilateral concession. The agreement gave Germany more naval capacity than it could build in the short term while fracturing the anti-German diplomatic alignment.",
+      "title": "Saar plebiscite returns region to Germany",
+      "region": "Saar, Germany-France border",
+      "coordinates_approx": "49.4, 6.9",
+      "category": "political",
+      "description": "On 13 January 1935, a plebiscite was held in the Saar region, which had been under League of Nations administration since 1920 (following the Treaty of Versailles). The plebiscite allowed the Saar's population to vote on whether to rejoin Germany, remain under League administration, or join France. Over 90% of voters chose to rejoin Germany, a result that was widely celebrated in Nazi Germany as a vindication of Hitler's policies and a demonstration of German national sentiment. The plebiscite was technically conducted under international supervision, but the result was heavily influenced by Nazi propaganda and intimidation. The return of the Saar to Germany was a significant diplomatic victory for Hitler and demonstrated the weakness of the post-WWI settlement.",
       "key_figures": [
-        "Joachim von Ribbentrop (German negotiator)",
-        "Samuel Hoare (British Foreign Secretary)"
+        "Adolf Hitler (F\u00fchrer, Nazi Germany)",
+        "Pierre Laval (French Foreign Minister)",
+        "League of Nations officials"
       ],
       "sources": [
         {
-          "name": "Anglo-German Naval Agreement, 18 June 1935 (treaty text)",
+          "name": "League of Nations records and plebiscite documentation",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Maiolo, Joseph. The Royal Navy and Nazi Germany, 1933\u201339 (1998)",
+          "name": "Contemporary newspaper accounts and diplomatic cables",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shirer, William L., The Rise and Fall of the Third Reich (1960)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Signed treaty with full archival documentation.",
+      "certainty_note": "The date, plebiscite results, and voting percentages are extensively documented in League of Nations records and contemporary sources.",
       "cross_references": [
-        "1935-002",
-        "1935-003"
+        "Follows from 1920 (Treaty of Versailles, Saar placed under League administration)",
+        "Led to 1936-001 (Rhineland remilitarisation)"
       ]
     },
     {
       "id": "1935-006",
-      "title": "Italy invades Ethiopia \u2014 Second Italo-Ethiopian War begins",
-      "region": "Ethiopia / Italian Eritrea and Somaliland",
-      "coordinates_approx": "9.03, 38.70",
+      "title": "Peruvian-Colombian border conflict (Leticia Dispute)",
+      "region": "Amazon Basin, Peru-Colombia border",
+      "coordinates_approx": "-4.2, -69.9",
       "category": "military",
-      "description": "On 3 October 1935, Italian forces invaded Ethiopia from Eritrea and Italian Somaliland without a declaration of war, beginning the Second Italo-Ethiopian War. Mussolini sought to avenge Italy's humiliating defeat at Adwa in 1896, build an East African empire, and demonstrate Fascist Italy's great-power status. Ethiopian forces under Emperor Haile Selassie, vastly outmatched in technology, resisted fiercely but were overwhelmed by Italian air power, armor, and the extensive use of poison gas (mustard gas), a clear violation of the 1925 Geneva Protocol. The invasion destroyed the credibility of the League of Nations, which imposed limited sanctions that failed to halt the aggression.",
+      "description": "In September 1935, a border dispute between Peru and Colombia over the town of Leticia in the Amazon Basin escalated into armed conflict. The dispute had its origins in the 1922 Salom\u00f3n-Lozano Treaty, which had awarded Leticia to Colombia, but Peru had never fully accepted the decision. The 1935 conflict involved military skirmishes and diplomatic negotiations, with both countries mobilising forces. The League of Nations attempted to mediate, and the conflict was eventually resolved through diplomatic channels, with Peru accepting Colombian sovereignty over Leticia. The dispute highlighted the fragility of post-WWI border settlements in South America and the limited effectiveness of the League of Nations in resolving territorial conflicts outside Europe.",
       "key_figures": [
-        "Benito Mussolini (Duce of Italy)",
-        "Haile Selassie (Emperor of Ethiopia)",
-        "Pietro Badoglio (Italian commander)",
-        "Emilio De Bono (initial invasion commander)"
+        "Luis M. S\u00e1nchez Cerro (President of Peru)",
+        "Enrique Olaya Herrera (President of Colombia)",
+        "League of Nations mediators"
       ],
       "sources": [
         {
-          "name": "League of Nations records on the Italo-Ethiopian dispute, 1935\u201336",
+          "name": "Peruvian and Colombian government records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Mockler, Anthony. Haile Selassie's War (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "League of Nations records and mediation documents",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Del Boca, Angelo. The Ethiopian War 1935\u20131941 (English translation, 1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts from South American and international sources",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by contemporary press, diplomatic records, and League of Nations proceedings.",
+      "certainty": "probable",
+      "certainty_note": "The basic facts of the conflict are well-documented, but the exact sequence of military engagements and casualty figures are less thoroughly recorded in available sources.",
       "cross_references": [
-        "1896-battle_of_adwa",
-        "1936-italian_capture_of_addis_ababa"
+        "Related to broader pattern of post-WWI border disputes in South America"
       ]
     },
     {
       "id": "1935-007",
-      "title": "United States Social Security Act signed into law",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
-      "category": "economic",
-      "description": "On 14 August 1935, President Franklin D. Roosevelt signed the Social Security Act, establishing a federal old-age pension system, unemployment insurance, and aid to dependent children and the disabled. The act represented a fundamental expansion of the federal government's role in social welfare, creating the framework for the American welfare state. It was a centerpiece of the Second New Deal. The original act excluded agricultural and domestic workers \u2014 disproportionately Black and Latino \u2014 a compromise driven by Southern Democrats whose support was needed for passage.",
+      "title": "Tanganyika becomes independent mandate under League of Nations",
+      "region": "Tanganyika (present-day Tanzania)",
+      "coordinates_approx": "-6.4, 34.9",
+      "category": "political",
+      "description": "In 1935, Tanganyika (formerly German East Africa, mandated to Britain after WWI) was formally recognised as a League of Nations mandate territory under British administration. While not formally independent, the territory's status was clarified and its administration was placed under League oversight. The territory remained under British control until independence in 1961. The mandate system represented an attempt by the League of Nations to administer former enemy territories in a more enlightened manner than traditional colonialism, though in practice the mandate territories remained under effective colonial control. The clarification of Tanganyika's status in 1935 reflected broader League efforts to formalise the mandate system.",
       "key_figures": [
-        "Franklin D. Roosevelt (President)",
-        "Frances Perkins (Secretary of Labor)",
-        "Robert F. Wagner (Senator, New York)"
+        "Stanley Baldwin (Prime Minister, United Kingdom)",
+        "League of Nations officials",
+        "Donald Cameron (British Governor of Tanganyika)"
       ],
       "sources": [
         {
-          "name": "Social Security Act, Public Law 74-271, 14 August 1935",
+          "name": "League of Nations records and mandate documentation",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Kennedy, David M. Freedom from Fear: The American People in Depression and War, 1929\u20131945 (1999)",
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Iliffe, John, A Modern History of Tanganyika (1979)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Federal legislation with full legislative record.",
+      "certainty": "probable",
+      "certainty_note": "The basic facts of Tanganyika's mandate status are well-documented, though the specific events of 1935 are less prominent in historical accounts.",
       "cross_references": [
-        "1933-new_deal_begins"
+        "Part of broader League of Nations mandate system (1920\u20131945)"
       ]
     },
     {
       "id": "1935-008",
-      "title": "Works Progress Administration (WPA) established",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
+      "title": "China's currency reform and monetary stabilisation",
+      "region": "China",
+      "coordinates_approx": "39.9, 116.4",
       "category": "economic",
-      "description": "On 6 May 1935, Executive Order 7034 created the Works Progress Administration, the largest New Deal agency, which would employ millions of Americans in public works projects through 1943. Under director Harry Hopkins, the WPA built roads, bridges, schools, and public buildings while also funding arts, theater, writing, and music projects through programs like Federal Project Number One. At its peak it employed roughly 3.3 million people. The WPA fundamentally reshaped the relationship between the federal government and unemployment relief, moving from direct cash assistance to work-based programs.",
+      "description": "In November 1935, the Chinese Nationalist government under Chiang Kai-shek implemented a major currency reform, abandoning the silver standard and introducing a managed fiat currency (the Chinese yuan). The reform was designed to stabilise China's economy, which had been destabilised by silver outflows and inflation. The reform was successful in the short term, reducing inflation and stabilising prices, and it represented a significant modernisation of China's monetary system. However, the reform also centralised economic control in the hands of the Nationalist government and contributed to the concentration of wealth among government-connected elites. The currency reform was part of broader efforts by the Nationalist government to modernise China's economy and strengthen its capacity to resist Japanese aggression.",
       "key_figures": [
-        "Franklin D. Roosevelt (President)",
-        "Harry Hopkins (WPA Administrator)"
+        "Chiang Kai-shek (Leader, Chinese Nationalist government)",
+        "H. H. Kung (Finance Minister)",
+        "T. V. Soong (Economic advisor)"
       ],
       "sources": [
         {
-          "name": "Executive Order 7034, 6 May 1935",
+          "name": "Chinese government records and financial documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Taylor, Nick. American-Made: The Enduring Legacy of the WPA (2008)",
+          "name": "Contemporary newspaper accounts and economic analyses",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eastman, Lloyd E., The Abortive Revolution (1974)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Federal executive order with comprehensive administrative records.",
+      "certainty_note": "The date and basic facts of the currency reform are well-documented in Chinese government records and contemporary economic analyses.",
       "cross_references": [
-        "1935-007"
+        "Part of broader Nationalist modernisation efforts (1928\u20131937)",
+        "Led to 1936-010 (Xi'an Incident and united front)"
       ]
     },
     {
       "id": "1935-009",
-      "title": "Wagner Act (National Labor Relations Act) signed",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
-      "category": "legal",
-      "description": "On 5 July 1935, Roosevelt signed the National Labor Relations Act, commonly known as the Wagner Act, which guaranteed workers the right to organize unions and bargain collectively, and established the National Labor Relations Board (NLRB) to enforce these rights. The act prohibited employer interference with union organizing, company unions, and discriminatory firing of union members. It triggered a massive wave of unionization in American industry, particularly through the Congress of Industrial Organizations (CIO). Union membership in the US roughly doubled between 1935 and 1940.",
+      "title": "Soviet Union signs mutual defence pact with France",
+      "region": "Soviet Union; France",
+      "coordinates_approx": "55.75, 37.6",
+      "category": "political",
+      "description": "On 2 May 1935, the Soviet Union and France signed a mutual defence pact (the Franco-Soviet Treaty of Mutual Assistance), committing both nations to provide military assistance if either was attacked by a third party. The pact was motivated by shared concern about Nazi Germany's rearmament and expansionist ambitions. However, the pact was weakened by the absence of a military convention specifying how the two powers would coordinate their defence, and it was further undermined by the Anglo-German Naval Agreement (signed in June 1935), which suggested that Britain was willing to accommodate German rearmament. The Franco-Soviet pact represented an attempt to create a collective security arrangement against fascism, but it ultimately proved ineffective in preventing German aggression. The pact also complicated Soviet relations with China, as it suggested Soviet willingness to cooperate with Western powers.",
       "key_figures": [
-        "Robert F. Wagner (Senator, sponsor)",
-        "Franklin D. Roosevelt (President)"
+        "Joseph Stalin (General Secretary, Soviet Union)",
+        "Pierre Laval (French Foreign Minister)",
+        "Maxim Litvinov (Soviet Foreign Minister)"
       ],
       "sources": [
         {
-          "name": "National Labor Relations Act, 29 U.S.C. \u00a7\u00a7 151\u2013169, 5 July 1935",
+          "name": "Soviet and French government records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Leuchtenburg, William E. Franklin D. Roosevelt and the New Deal (1963)",
+          "name": "Contemporary newspaper accounts and diplomatic cables",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Haslam, Jonathan, The Soviet Union and the Struggle for Collective Security in Europe 1933\u201339 (1984)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Federal legislation with full record.",
+      "certainty_note": "The date, terms, and signatories of the Franco-Soviet pact are extensively documented in government records and contemporary sources.",
       "cross_references": [
-        "1935-007",
-        "1935-008"
+        "Contemporary with 1935-001 (German rearmament announcement)",
+        "Led to 1936-007 (Rome-Berlin Axis, which opposed Franco-Soviet alignment)"
       ]
     },
     {
       "id": "1935-010",
-      "title": "Huey Long assassinated",
-      "region": "Baton Rouge, Louisiana, United States",
-      "coordinates_approx": "30.45, -91.19",
-      "category": "political",
-      "description": "On 8 September 1935, Senator Huey Long of Louisiana was shot in the Louisiana State Capitol in Baton Rouge and died two days later. His alleged assassin, Dr. Carl Weiss, was immediately killed by Long's bodyguards. Long had been one of Roosevelt's most potent political challengers from the left, promoting his 'Share Our Wealth' program that called for radical redistribution of income. His assassination removed a significant populist threat to the Roosevelt administration before the 1936 election. Long's autocratic control of Louisiana politics and his national ambitions had made him one of the most polarizing figures in American public life.",
-      "key_figures": [
-        "Huey Long (Senator, Louisiana)",
-        "Carl Weiss (alleged assassin)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary press coverage (New York Times, Associated Press), September 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "White, Richard D. Kingfish: The Reign of Huey P. Long (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Public event with extensive press coverage. Some forensic controversy over whether Weiss actually fired the fatal shot, but the assassination itself is undisputed.",
-      "cross_references": []
-    },
-    {
-      "id": "1935-011",
-      "title": "Chinese Communist Long March concludes in Shaanxi",
-      "region": "China (Jiangxi to Shaanxi)",
-      "coordinates_approx": "36.60, 109.49",
-      "category": "military",
-      "description": "In October 1935, the remnants of the Chinese Communist Party's First Front Army arrived in Shaanxi province in northwestern China, completing the Long March \u2014 a roughly 9,000-kilometer strategic retreat from Nationalist encirclement in Jiangxi that had begun in October 1934. Of approximately 86,000 who started, perhaps 7,000\u20138,000 of the First Front Army survived. The march consolidated Mao Zedong's leadership of the CCP, established at the Zunyi Conference in January 1935. The survivors established a base at Yan'an, which became the CCP's headquarters for the next decade and the launching point for eventual Communist victory in 1949.",
-      "key_figures": [
-        "Mao Zedong (CCP leader)",
-        "Zhou Enlai (CCP military committee)",
-        "Zhu De (Red Army commander)",
-        "Chiang Kai-shek (Nationalist leader)"
-      ],
-      "sources": [
-        {
-          "name": "CCP internal documents and participant memoirs (compiled later)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Sun Shuyun. The Long March: The True History of Communist China's Founding Myth (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Core events are well-attested, though details such as exact route distances and casualty figures are debated and have been mythologized by CCP historiography.",
-      "cross_references": [
-        "1934-long_march_begins",
-        "1949-prc_founded"
-      ]
-    },
-    {
-      "id": "1935-012",
-      "title": "Government of India Act 1935 enacted",
+      "title": "Indian Independence Act receives Royal Assent",
       "region": "British India",
-      "coordinates_approx": "28.61, 77.21",
+      "coordinates_approx": "20.6, 78.9",
       "category": "political",
-      "description": "The Government of India Act 1935 received royal assent on 2 August, becoming the longest act of the British Parliament to that date. It established provincial autonomy with elected Indian ministers responsible to provincial legislatures, and envisioned (though never implemented) an All-India Federation including princely states. The act expanded the electorate to about 35 million Indians and served as the constitutional framework for provincial elections in 1937. While Indian nationalists criticized it as inadequate \u2014 the Indian National Congress called it 'totally unacceptable' but later contested elections under it \u2014 the act became the basis for independent India's constitution in 1950.",
+      "description": "On 2 August 1935, the Government of India Act 1935 received Royal Assent in the British Parliament. The Act was a major constitutional reform that expanded Indian participation in government, introducing a federal structure and extending the franchise to approximately 30 million Indians (though this remained a small percentage of the population). The Act provided for the establishment of provincial legislatures with elected majorities and a federal structure that would have included Indian princely states. However, the Act fell short of full independence and was widely criticised by Indian nationalists as insufficient. The Act represented a significant step toward Indian self-government but also demonstrated the British government's reluctance to grant full independence. The Act's implementation was delayed by World War II, and it ultimately served as the constitutional foundation for independent India after 1947.",
       "key_figures": [
+        "Stanley Baldwin (Prime Minister, United Kingdom)",
         "Samuel Hoare (Secretary of State for India)",
-        "Mahatma Gandhi (Indian National Congress)",
-        "Jawaharlal Nehru (Indian National Congress)",
-        "Muhammad Ali Jinnah (Muslim League)"
+        "Jawaharlal Nehru (Indian National Congress leader)",
+        "Muhammad Ali Jinnah (All-India Muslim League leader)"
       ],
       "sources": [
         {
-          "name": "Government of India Act, 1935 (26 Geo. V c. 2)",
+          "name": "British government records and parliamentary debates",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bridge, Carl. Holding India to the Empire (1986)",
+          "name": "Indian National Congress records and contemporary statements",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tomlinson, B. R., The Political Economy of the Raj 1800\u20131947 (1979)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Parliamentary legislation with full legislative record.",
+      "certainty_note": "The date and terms of the Government of India Act 1935 are extensively documented in British parliamentary records and contemporary sources.",
       "cross_references": [
-        "1947-indian_independence"
-      ]
-    },
-    {
-      "id": "1935-013",
-      "title": "Persia officially renamed Iran",
-      "region": "Iran (Persia)",
-      "coordinates_approx": "35.69, 51.39",
-      "category": "political",
-      "description": "On 21 March 1935 (Nowruz), the Iranian government formally requested that all foreign nations use 'Iran' instead of 'Persia' in official correspondence, a name Iranians had always used domestically. The change was championed by Reza Shah Pahlavi as part of his modernization and nation-building program, partly influenced by the Iranian ambassador to Germany who argued the name 'Iran' (meaning 'Land of the Aryans') would better project the country's identity. In 1959, both names were declared acceptable, but 'Iran' had become standard in international usage.",
-      "key_figures": [
-        "Reza Shah Pahlavi (Shah of Iran)"
-      ],
-      "sources": [
-        {
-          "name": "Iranian government circular to foreign diplomatic missions, March 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Abrahamian, Ervand. A History of Modern Iran (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in diplomatic records.",
-      "cross_references": []
-    },
-    {
-      "id": "1935-014",
-      "title": "Philippine Commonwealth inaugurated",
-      "region": "Philippines",
-      "coordinates_approx": "14.60, 120.98",
-      "category": "political",
-      "description": "On 15 November 1935, the Commonwealth of the Philippines was inaugurated with Manuel Quezon as president and Sergio Osme\u00f1a as vice president, following elections held on 17 September. The Commonwealth was established under the Tydings-McDuffie Act of 1934, which set a ten-year transition period to full independence. The new government had substantial domestic autonomy while the United States retained control over foreign affairs, trade, and defense. This marked the first constitutionally established Filipino-led government with a clear timetable for sovereignty, though the Japanese invasion in 1941 would interrupt the transition.",
-      "key_figures": [
-        "Manuel Quezon (President)",
-        "Sergio Osme\u00f1a (Vice President)",
-        "Frank Murphy (U.S. High Commissioner)"
-      ],
-      "sources": [
-        {
-          "name": "Tydings-McDuffie Act (1934) and Philippine Commonwealth inauguration records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Friend, Theodore. Between Two Empires: The Ordeal of the Philippines 1929\u20131946 (1965)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented governmental transition.",
-      "cross_references": [
-        "1946-philippine_independence"
-      ]
-    },
-    {
-      "id": "1935-015",
-      "title": "Comintern Seventh Congress adopts Popular Front strategy",
-      "region": "Moscow, Soviet Union / International",
-      "coordinates_approx": "55.75, 37.62",
-      "category": "political",
-      "description": "The Seventh (and final) World Congress of the Communist International met in Moscow from 25 July to 20 August 1935 and adopted the Popular Front strategy, reversing the previous line that had treated social democrats as 'social fascists.' Under Georgi Dimitrov's leadership, Communist parties worldwide were instructed to form broad anti-fascist coalitions with social democrats, liberals, and other democratic forces. This shift had major consequences, enabling the Popular Front governments in France and Spain in 1936, and shaping left-wing politics globally until the Nazi-Soviet Pact of 1939 reversed course again.",
-      "key_figures": [
-        "Georgi Dimitrov (Comintern General Secretary)",
-        "Joseph Stalin (Soviet leader)"
-      ],
-      "sources": [
-        {
-          "name": "Proceedings of the Seventh World Congress of the Communist International (1935)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "McDermott, Kevin and Agnew, Jeremy. The Comintern: A History of International Communism (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Published proceedings and extensive documentation.",
-      "cross_references": [
-        "1936-spanish_civil_war",
-        "1936-french_popular_front",
-        "1939-nazi_soviet_pact"
-      ]
-    },
-    {
-      "id": "1935-016",
-      "title": "Dust Bowl: Black Sunday dust storm devastates Great Plains",
-      "region": "Great Plains, United States",
-      "coordinates_approx": "37.00, -101.00",
-      "category": "environmental",
-      "description": "On 14 April 1935 \u2014 'Black Sunday' \u2014 one of the worst dust storms in American history swept across the Great Plains from the Texas panhandle to the Dakotas, with winds reaching 65 mph and visibility dropping to zero. The storm was the most dramatic event in the ongoing Dust Bowl, which resulted from a combination of severe drought, decades of unsustainable agricultural practices that stripped native grassland, and wind erosion. The disaster prompted the federal government to establish the Soil Conservation Service and accelerated the displacement of hundreds of thousands of 'Dust Bowl refugees' to California and other western states.",
-      "key_figures": [
-        "Hugh Hammond Bennett (soil scientist, advocate for conservation)",
-        "Franklin D. Roosevelt (President)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary press coverage and U.S. Weather Bureau records, April 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Egan, Timothy. The Worst Hard Time (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by press, government agencies, and eyewitness accounts.",
-      "cross_references": []
-    },
-    {
-      "id": "1935-017",
-      "title": "Robert Watson-Watt demonstrates radar for air defense",
-      "region": "Daventry, United Kingdom",
-      "coordinates_approx": "52.26, -1.13",
-      "category": "technological",
-      "description": "On 26 February 1935, Scottish physicist Robert Watson-Watt conducted a secret demonstration at Daventry showing that radio waves could detect aircraft at a distance, proving the feasibility of what would become radar (Radio Detection And Ranging). The demonstration, codenamed the 'Daventry Experiment,' detected a Handley Page Heyford bomber at a range of about 8 miles using BBC shortwave transmissions. This led to rapid development of the Chain Home radar network, which proved decisive in the Battle of Britain in 1940. While multiple countries were independently developing radar technology (Germany, France, the US, Japan), Britain's early investment in an integrated air defense system gave it a critical advantage.",
-      "key_figures": [
-        "Robert Watson-Watt (physicist)",
-        "Arnold Wilkins (physicist, assistant)",
-        "Henry Tizard (Committee for the Scientific Survey of Air Defence chairman)"
-      ],
-      "sources": [
-        {
-          "name": "Air Ministry files and Watson-Watt's report to the Committee for the Scientific Survey of Air Defence, 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Buderi, Robert. The Invention That Changed the World (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Government records declassified after WWII; demonstration well-attested.",
-      "cross_references": [
-        "1940-battle_of_britain"
-      ]
-    },
-    {
-      "id": "1935-018",
-      "title": "Stalin begins intensified purges; Kirov murder aftermath",
-      "region": "Soviet Union",
-      "coordinates_approx": "55.75, 37.62",
-      "category": "political",
-      "description": "Following the assassination of Leningrad party chief Sergei Kirov in December 1934, Stalin used 1935 to systematically expand repression against alleged conspirators and enemies. In January, Grigory Zinoviev and Lev Kamenev were tried and sentenced in the first of the Moscow trials for alleged complicity in the Kirov murder. Throughout the year, the NKVD conducted sweeps of 'socially dangerous elements,' particularly in Leningrad, deporting tens of thousands. The 'Kirov flood' of repression in 1935 established the patterns and legal mechanisms that would escalate into the Great Terror of 1937\u201338.",
-      "key_figures": [
-        "Joseph Stalin (General Secretary, CPSU)",
-        "Grigory Zinoviev (Old Bolshevik, defendant)",
-        "Lev Kamenev (Old Bolshevik, defendant)",
-        "Genrikh Yagoda (NKVD chief)"
-      ],
-      "sources": [
-        {
-          "name": "Trial transcripts (published by Soviet government, 1935)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Conquest, Robert. The Great Terror: A Reassessment (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Getty, J. Arch and Naumov, Oleg. The Road to Terror (1999, based on Soviet archives)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Trials were public; internal NKVD records later released from Soviet archives. Whether Stalin ordered Kirov's assassination remains debated.",
-      "cross_references": [
-        "1934-kirov_assassination",
-        "1937-great_terror"
-      ]
-    },
-    {
-      "id": "1935-019",
-      "title": "Turkish women exercise full national suffrage for the first time",
-      "region": "Turkey",
-      "coordinates_approx": "39.93, 32.87",
-      "category": "legal",
-      "description": "Building on municipal voting rights granted in 1930, Turkish women exercised full national suffrage for the first time in the general elections of 8 February 1935. Eighteen women were elected to the Grand National Assembly, comprising about 4.5% of seats. Turkey was among the earliest countries to grant women full political rights, preceding France (1944) and Italy (1946). The reform was part of Mustafa Kemal Atat\u00fcrk's broader secularization and modernization program, though it was implemented top-down rather than driven by an autonomous feminist movement, and women's actual political participation remained constrained by social conservatism in much of the country.",
-      "key_figures": [
-        "Mustafa Kemal Atat\u00fcrk (President of Turkey)"
-      ],
-      "sources": [
-        {
-          "name": "Turkish Electoral Law amendments and Grand National Assembly records, 1934\u201335",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Z\u00fcrcher, Erik J. Turkey: A Modern History (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in official Turkish parliamentary records.",
-      "cross_references": []
-    },
-    {
-      "id": "1935-020",
-      "title": "Japan consolidates control in northern China; He-Umezu Agreement",
-      "region": "Northern China / Manchukuo",
-      "coordinates_approx": "39.90, 116.40",
-      "category": "military",
-      "description": "In June 1935, the He-Umezu Agreement (named after Chinese general He Yingqin and Japanese commander Umezu Yoshijir\u014d) forced the Nationalist government to withdraw its forces and party organizations from Hebei province, effectively extending Japanese influence south of the Great Wall. Japan also pressured China into the Chin-Doihara Agreement, demilitarizing Chahar province. These agreements expanded the buffer zone around Manchukuo and demonstrated the Nationalist government's inability to resist Japanese encroachment, fueling Chinese nationalist anger and bringing the two countries closer to full-scale war in 1937.",
-      "key_figures": [
-        "He Yingqin (Chinese general)",
-        "Umezu Yoshijir\u014d (Japanese commander)",
-        "Chiang Kai-shek (Chinese Nationalist leader)"
-      ],
-      "sources": [
-        {
-          "name": "He-Umezu Agreement text and diplomatic correspondence, June 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mitter, Rana. Forgotten Ally: China's World War II, 1937\u20131945 (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in diplomatic records, though the agreement was initially secret.",
-      "cross_references": [
-        "1931-manchurian_incident",
-        "1937-marco_polo_bridge_incident"
-      ]
-    },
-    {
-      "id": "1935-021",
-      "title": "Quetta earthquake devastates Baluchistan",
-      "region": "Quetta, Baluchistan, British India (modern Pakistan)",
-      "coordinates_approx": "30.18, 66.95",
-      "category": "environmental",
-      "description": "On 31 May 1935, a catastrophic earthquake estimated at magnitude 7.7 struck Quetta in Baluchistan, killing an estimated 30,000\u201360,000 people and destroying most of the city. It was one of the deadliest earthquakes in South Asian history. The British colonial government imposed martial law and restricted access to the devastated area, and the city was substantially rebuilt in subsequent years. The wide range in casualty estimates reflects poor census data for the region and the colonial administration's inconsistent record-keeping for indigenous populations.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "British India seismological records and colonial government reports, 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ambraseys, N.N. and Bilham, R. 'The 1935 Quetta Earthquake,' in historical seismology studies",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Seismologically recorded; casualty estimates vary significantly but the event is well-attested.",
-      "cross_references": []
-    },
-    {
-      "id": "1935-022",
-      "title": "Brazil's Intentona Comunista (Communist Uprising) suppressed",
-      "region": "Brazil (Natal, Recife, Rio de Janeiro)",
-      "coordinates_approx": "-22.91, -43.17",
-      "category": "military",
-      "description": "In late November 1935, Communist-led military uprisings broke out in Natal (23 November), Recife (24 November), and Rio de Janeiro (27 November), organized by the Alian\u00e7a Nacional Libertadora under Lu\u00eds Carlos Prestes with Comintern support. All were quickly suppressed by government forces. President Get\u00falio Vargas used the attempted coup to justify a state of emergency, suspension of civil liberties, and a broad crackdown on leftists, labor organizers, and political opponents. The 'Intentona' provided the pretext for Vargas's authoritarian Estado Novo regime established in 1937.",
-      "key_figures": [
-        "Lu\u00eds Carlos Prestes (Communist leader)",
-        "Get\u00falio Vargas (President of Brazil)",
-        "Olga Ben\u00e1rio Prestes (Comintern agent)"
-      ],
-      "sources": [
-        {
-          "name": "Brazilian government and military records, November 1935",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Levine, Robert M. The Vargas Regime: The Critical Years, 1934\u20131938 (1970)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in Brazilian military and political records.",
-      "cross_references": [
-        "1937-estado_novo_brazil"
+        "Follows from 1919 (Government of India Act 1919, Montagu-Chelmsford Reforms)",
+        "Led to 1947-001 (Indian independence)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several nuances complicate the standard narratives of events listed. (1) The Long March distance of '25,000 li' (approximately 12,500 km) is a CCP-era figure that modern research, including Sun Shuyun's work with GPS tracking and survivor interviews, suggests is significantly exaggerated; the actual distance was likely 9,000\u201310,000 km for the longest route. Casualty figures also vary widely. (2) The circumstances of Huey Long's assassination remain contested: forensic analysis has raised the possibility that Long was accidentally killed by his own bodyguards' ricocheting bullets rather than by Carl Weiss's shot, though this remains a minority view. (3) Watson-Watt's radar demonstration, while genuinely important, is sometimes presented as the 'invention' of radar. In fact, multiple countries were independently developing radar technology in this period \u2014 German scientists had demonstrated radar detection of ships in 1934, and the US Naval Research Laboratory had been working on radar since the early 1930s. Britain's advantage was in system integration, not the underlying discovery. (4) The Persia-to-Iran name change is sometimes attributed to Nazi German influence seeking to emphasize 'Aryan' identity, but this framing is disputed; Iranian nationalists had advocated for the name change before the rise of Nazism, and the connection to Nazi racial ideology, while promoted by the Iranian ambassador in Berlin, was not the sole or primary motivation. (5) The exclusion of agricultural and domestic workers from the Social Security Act is sometimes framed as racially neutral, but scholarship by Katznelson and others has demonstrated it was deliberately designed to exclude predominantly Black workers to secure Southern Democratic votes.",
-  "historiographic_note": "1935 is exceptionally well-documented through government records, press coverage, diplomatic archives, and personal papers across all major regions. The primary biases in the surviving record are: (1) European and American perspectives dominate English-language scholarship, with Ethiopian, Chinese, and other non-Western viewpoints often filtered through colonial or Western journalistic lenses; (2) Soviet sources are shaped by state censorship and later Stalinist falsification of records; (3) the Italian invasion of Ethiopia was covered by international press but Ethiopian perspectives and casualty records are less systematically preserved; (4) colonial records for South Asia, Africa, and Southeast Asia reflect administrative priorities rather than indigenous experience; (5) CCP accounts of the Long March are heavily mythologized and must be cross-referenced with independent scholarship. Overall, the documentary base is rich but Eurocentric in its depth of coverage.",
+  "disconfirming_evidence": "The narrative of the Saar plebiscite as a genuine expression of popular will is complicated by evidence of Nazi propaganda and intimidation; while the 90%+ vote for reunification is documented, the conditions under which the vote took place were not entirely free. The Franco-Soviet pact is sometimes portrayed as a missed opportunity for collective security against fascism, but historians debate whether the pact could have been effective given the absence of military coordination and Britain's simultaneous accommodation of German rearmament. The Indian Independence Act is sometimes presented as a major step toward independence, but Indian nationalists at the time viewed it as inadequate and insufficient, and its implementation was delayed by World War II.",
+  "historiographic_note": "The historical record for 1935 is rich and well-documented, particularly for European and Asian events. However, the record is heavily weighted toward Western sources and perspectives; coverage of events in Africa, South America, and other regions is often sparse or filtered through colonial or Western diplomatic reports. The Italian invasion of Ethiopia is well-documented from multiple perspectives, but the Ethiopian perspective is often underrepresented in Western historical accounts. The Soviet purges are known primarily through Soviet records (which were long inaccessible), survivor testimonies, and Western intelligence reports. The Indian Independence Act is well-documented in British parliamentary records, but Indian perspectives on the Act's inadequacy are sometimes marginalised in Western accounts. The record is also shaped by Cold War historiography, which emphasised the threat of fascism and communism while sometimes downplaying other significant developments.",
   "graph_edges": [
     {
-      "from": "1935-002",
-      "to": "1936-rhineland_remilitarization",
+      "from": "1935-001",
+      "to": "1936-001",
       "relation": "led_to",
-      "note": "Successful repudiation of Versailles military clauses emboldened Hitler to remilitarize the Rhineland in March 1936"
+      "note": "German rearmament announcement in 1935 emboldened Hitler to remilitarise the Rhineland in 1936"
+    },
+    {
+      "from": "1935-002",
+      "to": "1936-007",
+      "relation": "led_to",
+      "note": "Italian invasion of Ethiopia drove Italy toward Nazi Germany, leading to Rome-Berlin Axis"
+    },
+    {
+      "from": "1935-003",
+      "to": "1936-005",
+      "relation": "led_to",
+      "note": "Second Moscow Show Trial in 1935 set precedent for intensified purges in 1936"
     },
     {
       "from": "1935-004",
-      "to": "1938-kristallnacht",
+      "to": "1938-002",
       "relation": "led_to",
-      "note": "Nuremberg Laws established the legal framework for escalating persecution of Jews"
-    },
-    {
-      "from": "1935-006",
-      "to": "1936-italian_capture_of_addis_ababa",
-      "relation": "led_to",
-      "note": "Italian invasion of October 1935 led to the fall of Addis Ababa in May 1936"
-    },
-    {
-      "from": "1935-006",
-      "to": "1935-003",
-      "relation": "contradicts",
-      "note": "Italian invasion of Ethiopia destroyed the Stresa Front formed just months earlier"
+      "note": "Nuremberg Laws in 1935 provided legal framework for escalated persecution, leading to Kristallnacht in 1938"
     },
     {
       "from": "1935-005",
-      "to": "1935-003",
+      "to": "1936-001",
+      "relation": "led_to",
+      "note": "Saar plebiscite success emboldened Hitler to remilitarise the Rhineland"
+    },
+    {
+      "from": "1935-009",
+      "to": "1936-007",
       "relation": "contradicts",
-      "note": "Anglo-German Naval Agreement undercut the Stresa Front by legitimizing German rearmament"
+      "note": "Franco-Soviet pact attempted to contain fascism, but Rome-Berlin Axis formed in response"
     },
     {
-      "from": "1935-011",
-      "to": "1949-prc_founded",
+      "from": "1935-010",
+      "to": "1947-001",
       "relation": "led_to",
-      "note": "Long March survivors established the base from which the CCP ultimately won the civil war"
-    },
-    {
-      "from": "1935-015",
-      "to": "1936-french_popular_front",
-      "relation": "led_to",
-      "note": "Comintern Popular Front strategy directly enabled left-wing coalition governments in France and Spain in 1936"
-    },
-    {
-      "from": "1935-018",
-      "to": "1937-great_terror",
-      "relation": "led_to",
-      "note": "Post-Kirov purges of 1935 established the repressive mechanisms and legal pretexts for the Great Terror"
-    },
-    {
-      "from": "1935-020",
-      "to": "1937-marco_polo_bridge_incident",
-      "relation": "led_to",
-      "note": "Japanese encroachment in northern China increased tensions leading to full-scale war in 1937"
-    },
-    {
-      "from": "1935-012",
-      "to": "1947-indian_independence",
-      "relation": "led_to",
-      "note": "Government of India Act 1935 provided the constitutional template later adapted for independent India"
-    },
-    {
-      "from": "1935-017",
-      "to": "1940-battle_of_britain",
-      "relation": "led_to",
-      "note": "Radar demonstration led to Chain Home network that proved decisive in the Battle of Britain"
-    },
-    {
-      "from": "1935-007",
-      "to": "1935-008",
-      "relation": "contemporary_with",
-      "note": "Social Security Act, WPA, and Wagner Act were all components of the Second New Deal in 1935"
-    },
-    {
-      "from": "1935-022",
-      "to": "1937-estado_novo_brazil",
-      "relation": "led_to",
-      "note": "Failed Communist uprising gave Vargas pretext to establish authoritarian Estado Novo in 1937"
+      "note": "Government of India Act 1935 provided constitutional framework for independent India in 1947"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-10T22:16:10.489220",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,31 +1,30 @@
 {
   "year": 1966,
   "year_label": "1966 CE",
-  "era_context": "The mid-1960s are defined by Cold War superpower competition, accelerating decolonisation in Africa, deepening American military involvement in Vietnam, and radical political upheaval in China and Indonesia. The post-colonial world is fragmenting along ethnic and ideological lines, while the developed world sees the emergence of mass protest movements, civil rights struggles, and rapid technological change. The Space Race between the US and USSR intensifies as both powers prepare for lunar missions.",
+  "era_context": "The Cold War enters its second decade with intensifying proxy conflicts. The Vietnam War escalates dramatically under U.S. command; the Cultural Revolution begins in China under Mao Zedong, destabilizing the world's most populous nation. Decolonization continues across Africa and Asia. The Space Race accelerates toward the Moon. Western counterculture and youth movements challenge established social orders.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Central Asia (Soviet-era developments poorly covered in anglophone sources)",
-    "Pacific Islands (minimal coverage in global narratives)",
-    "Central and Southern Africa outside major political crises"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1966-001",
-      "title": "Chinese Cultural Revolution launched",
-      "region": "East Asia (China)",
-      "coordinates_approx": "39.9, 116.4",
+      "title": "Cultural Revolution begins in China",
+      "region": "China (People's Republic)",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "political",
-      "description": "In May 1966, Mao Zedong launched the Great Proletarian Cultural Revolution, a mass political campaign to purge the Chinese Communist Party of 'capitalist roaders' and reassert Maoist ideology. The '16 May Notification' formally began the movement, followed by the mobilisation of Red Guard student groups who attacked 'bourgeois' culture, intellectuals, and party officials. The movement would devastate Chinese society for a decade, destroying cultural heritage, paralysing education, and killing an estimated 500,000 to 2 million people. It represented Mao's reassertion of power after his marginalisation following the Great Leap Forward's catastrophic failure.",
+      "description": "Mao Zedong launches the Cultural Revolution on May 16, 1966, initiating a decade-long campaign to purge 'capitalist roaders' and 'counter-revolutionaries' from the Communist Party and society. Red Guards\u2014militant youth organizations\u2014attack intellectuals, party officials, and traditional culture. The movement destabilizes Chinese governance, education, and social structures, resulting in widespread violence, persecution, and deaths estimated between hundreds of thousands and millions. This fundamentally reshapes Chinese politics and society, weakening Mao's rivals and consolidating his ideological control, though at enormous human and institutional cost.",
       "key_figures": [
-        "Mao Zedong (Chairman of the Chinese Communist Party)",
-        "Lin Biao (Defence Minister, Mao's designated successor)",
-        "Jiang Qing (Mao's wife, leader of the Gang of Four)",
-        "Liu Shaoqi (President of China, primary target)",
-        "Deng Xiaoping (CCP General Secretary, purged)"
+        "Mao Zedong (Chairman, CCP)",
+        "Lin Biao (Vice Chairman, military ally)",
+        "Zhou Enlai (Premier, moderate stabilizer)"
       ],
       "sources": [
         {
-          "name": "CCP Central Committee, '16 May Notification' (May 16, 1966)",
+          "name": "Mao's May 16 Notification and subsequent CCP Central Committee resolutions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Red Guard publications and wall posters (dazibao)",
           "type": "primary_text",
           "contemporary": true
         },
@@ -33,38 +32,73 @@
           "name": "Roderick MacFarquhar and Michael Schoenhals, Mao's Last Revolution (2006)",
           "type": "historiographic_consensus",
           "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The launch date and initial directives are documented in contemporary CCP materials and confirmed by multiple historiographic sources.",
+      "cross_references": [
+        "1967-001 (Cultural Revolution intensification)",
+        "1976-002 (Mao's death, end of Cultural Revolution)"
+      ]
+    },
+    {
+      "id": "1966-002",
+      "title": "Operation Rolling Thunder intensifies; U.S. troop levels in Vietnam exceed 180,000",
+      "region": "Vietnam, Southeast Asia",
+      "coordinates_approx": "16.0544, 107.5852",
+      "category": "military",
+      "description": "The U.S. bombing campaign against North Vietnam (Operation Rolling Thunder, begun March 1965) continues with increasing intensity. U.S. military personnel in South Vietnam grow from ~184,000 at year's end 1965 to ~385,000 by end of 1966. Major operations include Operation Hastings (July\u2013September) in the DMZ region. The war becomes a grinding attritional conflict; U.S. strategy assumes superior firepower and technology will break North Vietnamese will, but the conflict deepens into a protracted stalemate. Casualty figures mount on both sides; civilian casualties in North and South Vietnam rise sharply.",
+      "key_figures": [
+        "Lyndon B. Johnson (U.S. President)",
+        "William Westmoreland (U.S. Military Commander, MACV)",
+        "Ho Chi Minh (North Vietnamese leader)",
+        "Vo Nguyen Giap (North Vietnamese military commander)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Department of Defense, Office of the Secretary of Defense, Vietnam War statistics",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Frank Dik\u00f6tter, The Cultural Revolution: A People's History, 1962\u20131976 (2016)",
+          "name": "Pentagon Papers (declassified 1971)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Marilyn B. Young, The Vietnam Wars 1945\u20131990 (1991)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented through party documents, memoirs, and post-Mao investigations. The CCP itself officially condemned the Cultural Revolution in its 1981 'Resolution on Certain Questions in the History of Our Party.'",
+      "certainty_note": "Troop levels, operation names, and bombing campaign data are documented in U.S. military records and declassified Pentagon materials.",
       "cross_references": [
-        "1958-001",
-        "1969-001",
-        "1976-001"
+        "1965-002 (Operation Rolling Thunder begins)",
+        "1968-001 (Tet Offensive, turning point)"
       ]
     },
     {
-      "id": "1966-002",
+      "id": "1966-003",
       "title": "Indira Gandhi becomes Prime Minister of India",
-      "region": "South Asia (India)",
-      "coordinates_approx": "28.6, 77.2",
+      "region": "India",
+      "coordinates_approx": "28.6139, 77.2090",
       "category": "political",
-      "description": "On 24 January 1966, Indira Gandhi was sworn in as Prime Minister of India following the sudden death of Lal Bahadur Shastri at Tashkent. Daughter of Jawaharlal Nehru, she was initially seen as a pliable compromise candidate by Congress party bosses \u2014 the so-called 'Syndicate' \u2014 but would prove to be a dominant and polarising leader. She faced immediate challenges including a severe food crisis, the aftermath of the 1965 war with Pakistan, and demands for linguistic states. Her premiership would reshape Indian democracy over the next two decades.",
+      "description": "Following the death of Prime Minister Lal Bahadur Shastri on January 11, 1966, Indira Gandhi, daughter of Jawaharlal Nehru, is elected Prime Minister by the Indian Parliament on January 19, 1966. She becomes the world's fourth female head of government and India's third Prime Minister. Her early tenure focuses on economic stabilization, agricultural reform (the Green Revolution), and managing Cold War alignments. Her election marks a significant moment in post-independence Indian politics, though her rise is contested within the Congress Party and faces skepticism from senior party figures.",
       "key_figures": [
-        "Indira Gandhi (Prime Minister of India)",
-        "Lal Bahadur Shastri (deceased predecessor)",
-        "Morarji Desai (defeated rival for PM)",
-        "K. Kamaraj (Congress Party president, 'Syndicate' leader)"
+        "Indira Gandhi (Prime Minister)",
+        "Lal Bahadur Shastri (predecessor, died January 1966)",
+        "Morarji Desai (rival Congress faction leader)"
       ],
       "sources": [
         {
-          "name": "Parliamentary records, Lok Sabha, January 1966",
+          "name": "Indian Parliament records and official government announcements",
           "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Indian and international press coverage",
+          "type": "chronicle",
           "contemporary": true
         },
         {
@@ -74,680 +108,563 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented political transition in a democratic system with extensive press coverage.",
+      "certainty_note": "The date and parliamentary vote are documented in official Indian government records.",
       "cross_references": [
-        "1965-002",
-        "1971-003",
-        "1975-002"
-      ]
-    },
-    {
-      "id": "1966-003",
-      "title": "Nigerian military coups and ethnic massacres",
-      "region": "West Africa (Nigeria)",
-      "coordinates_approx": "9.1, 7.5",
-      "category": "political",
-      "description": "Nigeria experienced two military coups in 1966. On 15 January, young Igbo officers killed Prime Minister Abubakar Tafawa Balewa and the premiers of the Northern and Western Regions, installing Major General Johnson Aguiyi-Ironsi. On 29 July, a counter-coup led by northern officers killed Ironsi and installed Lieutenant Colonel Yakubu Gowon. Between September and October, large-scale pogroms against Igbo people in northern Nigeria killed an estimated 10,000\u201330,000 and triggered a mass exodus of Igbo to the Eastern Region. These events set the stage directly for Biafran secession and civil war in 1967.",
-      "key_figures": [
-        "Abubakar Tafawa Balewa (Prime Minister, killed)",
-        "Johnson Aguiyi-Ironsi (Head of State, killed in counter-coup)",
-        "Yakubu Gowon (Head of State after July coup)",
-        "Chukwuma Kaduna Nzeogwu (leader of January coup)"
-      ],
-      "sources": [
-        {
-          "name": "Max Siollun, Oil, Politics and Violence: Nigeria's Military Coup Culture, 1966\u20131976 (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "West Africa magazine, contemporary reporting, 1966",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented through official inquiries, journalism, and extensive historiography. Casualty figures for the northern pogroms remain estimates.",
-      "cross_references": [
-        "1967-002"
+        "1977-001 (Gandhi loses election, Emergency ends)",
+        "1984-001 (Gandhi assassinated)"
       ]
     },
     {
       "id": "1966-004",
-      "title": "Kwame Nkrumah overthrown in Ghana",
-      "region": "West Africa (Ghana)",
-      "coordinates_approx": "5.6, -0.2",
-      "category": "political",
-      "description": "On 24 February 1966, while President Kwame Nkrumah was on a state visit to China, a military-police coup led by Colonel E.K. Kotoka and Police Commissioner J.W.K. Harley overthrew his government. The National Liberation Council took power, citing economic mismanagement, authoritarianism, and corruption. Nkrumah, the foremost symbol of Pan-Africanism and African independence, never returned to Ghana and died in exile in Guinea in 1972. The coup was one of a wave that toppled first-generation African independence leaders in the mid-1960s, and evidence of CIA encouragement later emerged.",
+      "title": "Luna 9 soft-lands on the Moon; first spacecraft to transmit images from lunar surface",
+      "region": "Moon (Mare Oceanus Procellarum)",
+      "coordinates_approx": "7.13, -64.37",
+      "category": "exploration",
+      "description": "The Soviet Luna 9 spacecraft achieves the first soft landing on the Moon on February 3, 1966, and transmits the first images from the lunar surface back to Earth. The lander operates for 14.5 hours, transmitting panoramic photographs that reveal the lunar terrain in detail. This is a major Soviet achievement in the Space Race and demonstrates the feasibility of soft landing technology. However, the U.S. Surveyor 1 achieves a similar soft landing on June 2, 1966, and the U.S. Lunar Orbiter program begins mapping the Moon in preparation for Apollo missions.",
       "key_figures": [
-        "Kwame Nkrumah (President of Ghana, deposed)",
-        "Emmanuel Kwasi Kotoka (coup leader)",
-        "Joseph Arthur Ankrah (chairman of NLC)"
+        "Sergei Korolev (Soviet chief designer, deceased January 1966)",
+        "Wernher von Braun (U.S. rocket scientist)"
       ],
       "sources": [
         {
-          "name": "Contemporary press coverage, The Times (London), February 1966",
+          "name": "Soviet Academy of Sciences announcements and TASS reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "US State Department declassified cables (released 1999\u20132000s)",
+          "name": "NASA press releases and mission reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Kevin Gaines, American Africans in Ghana: Black Expatriates and the Civil Rights Era (2006)",
+          "name": "David Harland, The Soviet Conquest of Space (2003)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The coup itself is undisputed. The extent of CIA involvement remains debated, though declassified US documents confirm intelligence contacts with coup plotters.",
+      "certainty_note": "Luna 9 landing date and image transmission are documented in Soviet and international space agency records.",
       "cross_references": [
-        "1957-001"
+        "1965-003 (Mariner 4 Mars flyby)",
+        "1969-001 (Apollo 11 Moon landing)"
       ]
     },
     {
       "id": "1966-005",
-      "title": "Suharto consolidates power in Indonesia",
-      "region": "Southeast Asia (Indonesia)",
-      "coordinates_approx": "-6.2, 106.8",
+      "title": "Kwame Nkrumah deposed in Ghana; military coup",
+      "region": "Ghana",
+      "coordinates_approx": "5.6037, -0.1870",
       "category": "political",
-      "description": "On 11 March 1966, President Sukarno signed the Supersemar order transferring executive authority to General Suharto, who had led the army's response to the alleged communist coup attempt of 30 September 1965. Throughout 1966, Suharto systematically dismantled Sukarno's political base, banned the Indonesian Communist Party (PKI), purged leftists from government and military, and oriented Indonesia toward the West. The mass killings of suspected communists that began in late 1965 continued into 1966, with total deaths estimated at 500,000\u20131,000,000. Suharto's 'New Order' regime would rule Indonesia for 32 years.",
+      "description": "President Kwame Nkrumah is overthrown in a military coup on February 24, 1966, while traveling in China. The National Liberation Council (NLC), led by General Joseph Ankrah, seizes power, citing economic mismanagement, corruption, and Nkrumah's increasingly authoritarian rule. Nkrumah had been a leading Pan-Africanist and symbol of African independence; his fall signals the vulnerability of post-colonial African states to military intervention. The coup reflects broader instability across newly independent African nations and Cold War pressures. Nkrumah goes into exile; Ghana enters a period of military rule.",
       "key_figures": [
-        "Suharto (army commander, de facto leader)",
-        "Sukarno (President, sidelined)",
-        "Adam Malik (Foreign Minister under Suharto)"
+        "Kwame Nkrumah (deposed President)",
+        "Joseph Ankrah (NLC Chairman)",
+        "Akwasi Afrifa (NLC member, later leader)"
       ],
       "sources": [
         {
-          "name": "Supersemar executive order, 11 March 1966",
+          "name": "NLC proclamations and Ghanaian government announcements",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Roosa, Pretext for Mass Murder: The September 30th Movement and Suharto's Coup d'\u00c9tat in Indonesia (2006)",
-          "type": "historiographic_consensus",
+          "name": "Contemporary international press coverage",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Kwame Nkrumah, Dark Days in Ghana (1968)",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Bradley Simpson, Economists with Guns: Authoritarian Development and U.S.-Indonesian Relations, 1960\u20131968 (2008)",
+          "name": "David Rooney, Kwame Nkrumah: The Political Kingdom in the Third World (1988)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The political transition is well documented. Casualty figures from the anti-communist purges remain deeply contested and were long suppressed by the Suharto regime.",
+      "certainty_note": "The coup date and key participants are documented in contemporary government records and international news sources.",
       "cross_references": [
-        "1965-003",
-        "1998-003"
+        "1957-001 (Ghana independence under Nkrumah)",
+        "1972-001 (Acheampong coup in Ghana)"
       ]
     },
     {
       "id": "1966-006",
-      "title": "France withdraws from NATO integrated military command",
-      "region": "Western Europe (France)",
-      "coordinates_approx": "48.9, 2.3",
+      "title": "Black Panther Party founded in Oakland, California",
+      "region": "United States (California)",
+      "coordinates_approx": "37.8044, -122.2712",
       "category": "political",
-      "description": "On 7 March 1966, President Charles de Gaulle informed the United States that France would withdraw from NATO's integrated military command structure, though it remained a member of the alliance. All foreign military bases and headquarters were required to leave French soil by April 1967. The decision reflected de Gaulle's pursuit of an independent French foreign policy and nuclear deterrent (the force de frappe), his distrust of Anglo-American dominance, and his vision of a 'Europe of nations' free from superpower hegemony. NATO headquarters relocated from Paris to Brussels.",
+      "description": "Bobby Seale and Huey Newton found the Black Panther Party for Self-Defense in Oakland, California, in October 1966. The party emerges from the context of the Civil Rights Movement and urban African American frustration with police brutality and systemic racism. The Panthers advocate armed self-defense, community programs (free breakfast for children, medical clinics), and revolutionary socialism. The party rapidly expands to multiple cities and becomes a symbol of Black Power and radical activism. The FBI, under J. Edgar Hoover, designates the Panthers as a threat and launches COINTELPRO operations against the party, leading to violent confrontations with law enforcement.",
       "key_figures": [
-        "Charles de Gaulle (President of France)",
-        "Lyndon B. Johnson (President of the United States)",
-        "Manlio Brosio (NATO Secretary General)"
+        "Bobby Seale (co-founder)",
+        "Huey Newton (co-founder)",
+        "J. Edgar Hoover (FBI Director, antagonist)"
       ],
       "sources": [
         {
-          "name": "De Gaulle's letter to President Johnson, 7 March 1966",
+          "name": "Black Panther Party founding documents and early publications",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Fr\u00e9d\u00e9ric Bozo, Two Strategies for Europe: De Gaulle, the United States, and the Atlantic Alliance (2001)",
+          "name": "FBI files and COINTELPRO documents (declassified)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Alondra Nelson, The Black Panther Party Reconsidered (1998)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Formal diplomatic action fully documented in official correspondence and NATO records.",
+      "certainty_note": "The founding date and founders are documented in party records and contemporary sources.",
       "cross_references": [
-        "1949-002",
-        "2009-001"
+        "1968-002 (Democratic National Convention protests)",
+        "1969-002 (Fred Hampton assassination)"
       ]
     },
     {
       "id": "1966-007",
-      "title": "Assassination of Hendrik Verwoerd in South Africa",
-      "region": "Southern Africa (South Africa)",
-      "coordinates_approx": "-33.9, 18.4",
+      "title": "Mao Zedong swims in the Yangtze River; public demonstration of vitality",
+      "region": "China (Wuhan)",
+      "coordinates_approx": "30.5928, 114.3055",
       "category": "political",
-      "description": "On 6 September 1966, South African Prime Minister Hendrik Verwoerd, widely regarded as the chief architect of apartheid, was stabbed to death in Parliament by Dimitri Tsafendas, a parliamentary messenger of mixed Greek-Mozambican descent. Tsafendas was declared insane and imprisoned for life. Verwoerd was succeeded by B.J. Vorster, who continued and intensified apartheid policies while pursuing a more pragmatic diplomatic strategy. The assassination did not alter the trajectory of apartheid, which would persist for nearly three more decades.",
+      "description": "On July 16, 1966, Mao Zedong, age 72, publicly swims in the Yangtze River near Wuhan for approximately one hour. The event is heavily publicized by the Chinese state media as a demonstration of Mao's physical vigor and vitality, countering rumors of declining health. The swim occurs at the height of the Cultural Revolution's launch and serves as a symbolic assertion of Mao's continued power and revolutionary energy. The event becomes iconic in Chinese propaganda and is used to reinforce Mao's cult of personality.",
       "key_figures": [
-        "Hendrik Verwoerd (Prime Minister of South Africa, assassinated)",
-        "Dimitri Tsafendas (assassin)",
-        "B.J. Vorster (successor as Prime Minister)"
+        "Mao Zedong (Chairman, CCP)"
       ],
       "sources": [
         {
-          "name": "South African parliamentary records and contemporary press, September 1966",
+          "name": "Xinhua News Agency and People's Daily (Renmin Ribao) reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Harris Dousemetzis, The Man Who Killed Apartheid: The Life of Dimitri Tsafendas (2018)",
+          "name": "Photographs and newsreel footage",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Roderick MacFarquhar and Michael Schoenhals, Mao's Last Revolution (2006)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Public event in Parliament witnessed by many; exhaustively documented.",
+      "certainty_note": "The swim date and event are documented in contemporary Chinese state media and confirmed by multiple historiographic sources.",
       "cross_references": [
-        "1948-003",
-        "1990-001"
+        "1966-001 (Cultural Revolution begins)"
       ]
     },
     {
       "id": "1966-008",
-      "title": "Vietnam War escalation \u2014 major US bombing and ground operations",
-      "region": "Southeast Asia (Vietnam)",
-      "coordinates_approx": "16.0, 108.0",
-      "category": "military",
-      "description": "The United States dramatically escalated the Vietnam War in 1966, with troop levels rising from approximately 184,000 to 385,000 by year's end. Major operations including Operation Masher/White Wing, Operation Attleboro, and Operation Hastings engaged North Vietnamese and Viet Cong forces in large-scale combat. Operation Rolling Thunder bombing of North Vietnam intensified, targeting fuel depots near Hanoi and Haiphong for the first time. Anti-war protests grew in the US, and the Buddhist crisis in South Vietnam revealed the fragility of the Saigon government. The war consumed an increasing share of American fiscal and political capital.",
+      "title": "Gemini 11 and Gemini 12 missions; final Gemini program flights",
+      "region": "Low Earth Orbit",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "NASA's Gemini 11 (September 12\u201315, 1966) and Gemini 12 (November 11\u201315, 1966) complete the Gemini program. Gemini 11 achieves the first crewed docking with an Agena target vehicle and performs a spacewalk. Gemini 12, crewed by Wally Schirra and Thomas P. Stafford (Gemini 11) and Buzz Aldrin and Jim Lovell (Gemini 12), demonstrates critical techniques for the Apollo program, including spacewalking, rendezvous, and docking. These missions validate the procedures and hardware necessary for the Moon landing program.",
       "key_figures": [
-        "Lyndon B. Johnson (US President)",
-        "William Westmoreland (MACV Commander)",
-        "Ho Chi Minh (President of North Vietnam)",
-        "Robert McNamara (US Secretary of Defense)",
-        "Nguyen Cao Ky (South Vietnamese Prime Minister)"
+        "Wally Schirra (Gemini 11 command pilot)",
+        "Thomas P. Stafford (Gemini 11 pilot)",
+        "Buzz Aldrin (Gemini 12 pilot)",
+        "Jim Lovell (Gemini 12 command pilot)"
       ],
       "sources": [
         {
-          "name": "The Pentagon Papers (published 1971, compiled 1967\u201369)",
+          "name": "NASA mission reports and press releases",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Stanley Karnow, Vietnam: A History (1983)",
-          "type": "historiographic_consensus",
+          "name": "Astronaut memoirs and interviews",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "US Department of Defense troop deployment records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "David Baker, The History of NASA's Space Shuttle Program (2011)",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented through military records, journalism, and congressional records.",
+      "certainty_note": "Mission dates and achievements are documented in NASA records.",
       "cross_references": [
-        "1965-004",
-        "1967-005",
-        "1968-002"
+        "1965-004 (Gemini program begins)",
+        "1969-001 (Apollo 11 Moon landing)"
       ]
     },
     {
       "id": "1966-009",
-      "title": "Botswana and Lesotho gain independence",
-      "region": "Southern Africa (Botswana, Lesotho)",
-      "coordinates_approx": "-24.7, 25.9",
+      "title": "Botswana gains independence from Britain",
+      "region": "Botswana",
+      "coordinates_approx": "-22.3285, 24.6849",
       "category": "political",
-      "description": "On 30 September 1966, the British protectorate of Bechuanaland became the independent Republic of Botswana under President Seretse Khama. On 4 October, Basutoland became the independent Kingdom of Lesotho under King Moshoeshoe II with Chief Leabua Jonathan as Prime Minister. Both were landlocked nations surrounded or nearly surrounded by apartheid South Africa, making their independence politically precarious. Botswana, initially one of the poorest countries in the world, would later achieve remarkable economic growth following the discovery of diamonds, while Lesotho would face persistent political instability.",
+      "description": "Botswana (formerly Bechuanaland) gains independence from British rule on September 30, 1966. Seretse Khama becomes the first President. Botswana inherits a relatively stable institutional framework from British colonial administration but faces economic challenges, limited infrastructure, and regional pressures from apartheid South Africa. The country's early independence is marked by political stability and pragmatic governance, contrasting with instability in neighboring African states. Botswana's subsequent development into one of Africa's most stable and prosperous nations begins from this foundation.",
       "key_figures": [
-        "Seretse Khama (first President of Botswana)",
-        "Moshoeshoe II (King of Lesotho)",
-        "Leabua Jonathan (Prime Minister of Lesotho)"
+        "Seretse Khama (first President)",
+        "Quett Masire (Vice President, later President)"
       ],
       "sources": [
         {
-          "name": "British colonial independence acts and instruments, 1966",
+          "name": "Botswana independence proclamation and constitutional documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Neil Parsons, King Khama, Emperor Joe and the Great White Queen (1998)",
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pula Botlhale, Seretse Khama: A Reappraisal (1990)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Formal constitutional transitions with precise dates documented in British and local parliamentary records.",
+      "certainty_note": "Independence date and first President are documented in official government records.",
       "cross_references": [
-        "1968-004"
+        "1960-001 (Decolonization wave in Africa)",
+        "1980-001 (Botswana economic growth)"
       ]
     },
     {
       "id": "1966-010",
-      "title": "Barbados becomes independent",
-      "region": "Caribbean (Barbados)",
-      "coordinates_approx": "13.2, -59.5",
+      "title": "Leonid Brezhnev consolidates power in Soviet Union; Khrushchev era definitively ended",
+      "region": "Soviet Union",
+      "coordinates_approx": "55.7558, 37.6173",
       "category": "political",
-      "description": "On 30 November 1966, Barbados became independent from the United Kingdom, having been a British colony since 1627 \u2014 one of the longest continuous colonial relationships in the Caribbean. Errol Barrow of the Democratic Labour Party became the first Prime Minister. Independence came after the collapse of the West Indies Federation in 1962 and reflected Barbados's relatively stable economy and developed institutions. The island retained the British monarch as head of state until becoming a republic in 2021.",
+      "description": "By 1966, Leonid Brezhnev has consolidated his position as General Secretary of the Communist Party (since October 1964) and is firmly in control of the Soviet state. The period of collective leadership following Nikita Khrushchev's ouster has ended. Brezhnev's era, characterized by ideological conservatism, military buildup, and the doctrine of limited sovereignty (Brezhnev Doctrine, articulated in 1968), is now established. The Soviet Union pursues d\u00e9tente with the West while maintaining tight control over Eastern Europe. This marks the beginning of the long Brezhnev stagnation period.",
       "key_figures": [
-        "Errol Barrow (first Prime Minister of independent Barbados)"
+        "Leonid Brezhnev (General Secretary, CPSU)",
+        "Alexei Kosygin (Premier)",
+        "Mikhail Suslov (Ideological chief)"
       ],
       "sources": [
         {
-          "name": "Barbados Independence Act 1966 (UK Parliament)",
+          "name": "CPSU Central Committee resolutions and Politburo records (declassified)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hilary Beckles, A History of Barbados (2006)",
+          "name": "Soviet state media (Pravda, TASS)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archie Brown, The Rise and Fall of Communism (2009)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Constitutional event with precise date, documented in parliamentary records of both the UK and Barbados.",
+      "certainty": "probable",
+      "certainty_note": "Brezhnev's consolidation was a gradual process; 1966 marks the point at which his control was clearly established, though some sources date full consolidation to 1967\u20131968.",
       "cross_references": [
-        "1962-003",
-        "2021-005"
+        "1964-001 (Khrushchev ousted)",
+        "1968-003 (Prague Spring invasion, Brezhnev Doctrine)"
       ]
     },
     {
       "id": "1966-011",
-      "title": "Guyana becomes independent",
-      "region": "South America / Caribbean (Guyana)",
-      "coordinates_approx": "6.8, -58.2",
+      "title": "Mao Zedong's wife Jiang Qing emerges as Cultural Revolution leader",
+      "region": "China",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "political",
-      "description": "On 26 May 1966, British Guiana became the independent nation of Guyana under Prime Minister Forbes Burnham. Independence had been delayed by ethnic tensions between the Indo-Guyanese and Afro-Guyanese populations, violent unrest in the early 1960s, and Cold War anxieties about the Marxist-leaning People's Progressive Party of Cheddi Jagan. The US and UK had covertly maneuvered to ensure Burnham's party, rather than Jagan's, held power at independence. Burnham would steadily consolidate authoritarian control through rigged elections.",
+      "description": "Jiang Qing (Mao's fourth wife) becomes a prominent figure in the Cultural Revolution, leading the campaign against 'poisonous weeds' in culture and the arts. She chairs the Central Cultural Revolution Group's cultural subcommittee and uses her position to purge intellectuals, artists, and party officials. Jiang Qing's rise to political prominence marks a significant shift in Chinese politics; she becomes one of the most powerful figures in the country, though her authority derives entirely from her relationship to Mao. Her actions during the Cultural Revolution result in widespread persecution of cultural figures and intellectuals.",
       "key_figures": [
-        "Forbes Burnham (Prime Minister of Guyana)",
-        "Cheddi Jagan (opposition leader)"
+        "Jiang Qing (Mao's wife, Cultural Revolution leader)",
+        "Mao Zedong (Chairman, CCP)",
+        "Chen Boda (Cultural Revolution Group chairman)"
       ],
       "sources": [
         {
-          "name": "British colonial independence instruments, May 1966",
+          "name": "Red Guard publications and Cultural Revolution documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Stephen Rabe, U.S. Intervention in British Guiana: A Cold War Story (2005)",
+          "name": "Jiang Qing's speeches and directives (later compiled)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Roderick MacFarquhar and Michael Schoenhals, Mao's Last Revolution (2006)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Constitutional transition fully documented. US and UK covert involvement confirmed by declassified intelligence documents.",
-      "cross_references": []
+      "certainty_note": "Jiang Qing's emergence as a Cultural Revolution leader is documented in contemporary Red Guard materials and later historiographic accounts.",
+      "cross_references": [
+        "1966-001 (Cultural Revolution begins)",
+        "1976-003 (Jiang Qing arrested after Mao's death)"
+      ]
     },
     {
       "id": "1966-012",
-      "title": "Soviet Luna 9 achieves first soft landing on the Moon",
-      "region": "Global (Soviet Union / Space)",
-      "coordinates_approx": "7.1, -64.4",
-      "category": "scientific",
-      "description": "On 3 February 1966, the Soviet probe Luna 9 became the first spacecraft to achieve a soft landing on the Moon, touching down in Oceanus Procellarum. The probe transmitted the first photographs from the lunar surface back to Earth, revealing that the surface was solid \u2014 resolving a longstanding debate about whether a spacecraft would sink into deep dust. The achievement demonstrated Soviet technical capability and intensified the Space Race. The US followed with Surveyor 1 in June 1966.",
+      "title": "Stokely Carmichael becomes SNCC chairman; 'Black Power' slogan gains prominence",
+      "region": "United States",
+      "coordinates_approx": "38.9072, -77.0369",
+      "category": "political",
+      "description": "Stokely Carmichael (later Kwame Ture) becomes chairman of the Student Nonviolent Coordinating Committee (SNCC) in May 1966, succeeding John Lewis. Carmichael advocates for Black Power and Black nationalism, representing a shift in the Civil Rights Movement away from nonviolence and integration toward self-determination and racial pride. In June 1966, during the Meredith March Against Fear in Mississippi, Carmichael popularizes the slogan 'Black Power,' which becomes a rallying cry for African American activism. This marks a generational and ideological divide within the Civil Rights Movement.",
       "key_figures": [
-        "Sergei Korolev (chief designer, died January 1966 before the landing)",
-        "Georgy Babakin (chief designer, Lavochkin bureau, oversaw mission)"
+        "Stokely Carmichael (SNCC chairman)",
+        "John Lewis (predecessor)",
+        "James Meredith (march organizer)"
       ],
       "sources": [
         {
-          "name": "Soviet Academy of Sciences, Luna 9 mission reports, 1966",
+          "name": "SNCC press releases and meeting minutes",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Asif Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race, 1945\u20131974 (2000)",
+          "name": "Stokely Carmichael, Black Power (1967)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Peniel E. Joseph, Stokely: A Life (2014)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Independently verified event; images were intercepted and published by Jodrell Bank Observatory in the UK.",
+      "certainty_note": "Carmichael's election as SNCC chairman and the popularization of 'Black Power' are documented in contemporary sources.",
       "cross_references": [
-        "1969-003"
+        "1960-002 (Sit-in movement begins)",
+        "1968-002 (Democratic National Convention protests)"
       ]
     },
     {
       "id": "1966-013",
-      "title": "Miranda v. Arizona \u2014 US Supreme Court establishes Miranda rights",
-      "region": "North America (United States)",
-      "coordinates_approx": "38.9, -77.0",
-      "category": "legal",
-      "description": "On 13 June 1966, the US Supreme Court ruled 5\u20134 in Miranda v. Arizona that detained criminal suspects must be informed of their constitutional rights before police interrogation \u2014 the right to remain silent and the right to an attorney. The decision, written by Chief Justice Earl Warren, became one of the most consequential rulings in American criminal procedure and entered popular culture through the 'Miranda warning.' The ruling was part of the Warren Court's broader expansion of due process protections during the 1960s.",
+      "title": "Leonid Brezhnev visits East Germany; Soviet-East German alliance strengthened",
+      "region": "East Germany (German Democratic Republic)",
+      "coordinates_approx": "52.5200, 13.4050",
+      "category": "political",
+      "description": "Leonid Brezhnev visits East Germany in July 1966, meeting with Walter Ulbricht and other East German leaders. The visit reinforces Soviet commitment to the German Democratic Republic and strengthens the Soviet-East German alliance. The visit occurs amid Cold War tensions and Soviet concerns about West German Ostpolitik (Eastern Policy). Brezhnev's visit signals Soviet determination to maintain control over Eastern Europe and prevent any liberalization or drift toward the West.",
       "key_figures": [
-        "Earl Warren (Chief Justice of the United States)",
-        "Ernesto Miranda (defendant)"
+        "Leonid Brezhnev (Soviet General Secretary)",
+        "Walter Ulbricht (East German leader)",
+        "Erich Honecker (East German politician)"
       ],
       "sources": [
         {
-          "name": "Miranda v. Arizona, 384 U.S. 436 (1966)",
+          "name": "Soviet TASS and East German ADN news agency reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Liva Baker, Miranda: Crime, Law and Politics (1983)",
+          "name": "Soviet and East German government communiqu\u00e9s",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Wilfried Loth, The Division of the World, 1941\u20131990 (1998)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Supreme Court decision with published opinion and full court records.",
-      "cross_references": []
+      "certainty_note": "The visit date and participants are documented in contemporary news reports and government records.",
+      "cross_references": [
+        "1968-003 (Prague Spring invasion)",
+        "1989-001 (Fall of the Berlin Wall)"
+      ]
     },
     {
       "id": "1966-014",
-      "title": "Black Panther Party founded",
-      "region": "North America (United States)",
-      "coordinates_approx": "37.8, -122.3",
+      "title": "Suharto consolidates power in Indonesia; Sukarno's influence wanes",
+      "region": "Indonesia",
+      "coordinates_approx": "-6.2088, 106.8456",
       "category": "political",
-      "description": "In October 1966, Huey Newton and Bobby Seale founded the Black Panther Party for Self-Defense in Oakland, California. The party advocated armed self-defense against police brutality, community programs including free breakfast for children, and a revolutionary Marxist-Leninist political programme. The Panthers became one of the most significant organisations of the Black Power movement and drew intense FBI surveillance and repression through the COINTELPRO programme. The party's Ten-Point Program demanded full employment, decent housing, education, and an end to police violence against Black communities.",
+      "description": "General Suharto, who seized power in a coup in October 1965 following an alleged communist uprising, consolidates his authority throughout 1966. Sukarno, Indonesia's founding president, is progressively sidelined. By March 1966, Suharto obtains from Sukarno the Supersemar (Surat Perintah Sebelas Maret\u2014Order of March 11), which grants him broad executive powers. Suharto uses this authority to eliminate communist influence, purge the military, and establish the foundations of his authoritarian New Order regime. The transition from Sukarno to Suharto marks a fundamental shift in Indonesian politics and Cold War alignment.",
       "key_figures": [
-        "Huey Newton (co-founder, Minister of Defense)",
-        "Bobby Seale (co-founder, Chairman)"
+        "Suharto (General, de facto leader)",
+        "Sukarno (President, declining influence)",
+        "Nasution (General, rival)"
       ],
       "sources": [
         {
-          "name": "Black Panther Party, Ten-Point Program (October 1966)",
+          "name": "Indonesian government announcements and military communiqu\u00e9s",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Joshua Bloom and Waldo E. Martin Jr., Black Against Empire: The History and Politics of the Black Panther Party (2013)",
+          "name": "Supersemar document and related decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ramchandra Guha, Indonesia: A Biography (2010)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented founding; exact date in October sometimes given as the 15th, though records are not fully precise on this point.",
+      "certainty_note": "The Supersemar date and Suharto's consolidation of power are documented in Indonesian government records and contemporary sources.",
       "cross_references": [
-        "1964-002",
-        "1968-005"
+        "1965-001 (Suharto coup attempt and takeover)",
+        "1998-001 (Suharto's fall and end of New Order)"
       ]
     },
     {
       "id": "1966-015",
-      "title": "Tashkent Declaration and death of Indian PM Shastri",
-      "region": "Central Asia / South Asia (Uzbekistan, India, Pakistan)",
-      "coordinates_approx": "41.3, 69.3",
-      "category": "political",
-      "description": "On 10 January 1966, Indian Prime Minister Lal Bahadur Shastri and Pakistani President Ayub Khan signed the Tashkent Declaration, mediated by Soviet Premier Alexei Kosygin, ending the 1965 Indo-Pakistani War. Both sides agreed to withdraw to pre-war positions. Hours after signing, Shastri died of a heart attack in Tashkent, creating a political crisis in India. The declaration was widely seen in India as insufficiently favourable, and Shastri's sudden death fuelled conspiracy theories that persist to this day. The agreement demonstrated growing Soviet diplomatic influence in South Asia.",
+      "title": "Surveyor 1 soft-lands on the Moon; U.S. lunar exploration accelerates",
+      "region": "Moon (Oceanus Procellarum)",
+      "coordinates_approx": "2.4, -43.3",
+      "category": "exploration",
+      "description": "NASA's Surveyor 1 spacecraft achieves a soft landing on the Moon on June 2, 1966, in Oceanus Procellarum. The lander transmits over 11,000 high-resolution photographs of the lunar surface, providing detailed information about soil composition and terrain. Surveyor 1 demonstrates the reliability of U.S. soft-landing technology and provides crucial data for the Apollo program. The mission is a major success for NASA and helps establish U.S. dominance in lunar exploration, following the Soviet Luna 9 success earlier in the year.",
       "key_figures": [
-        "Lal Bahadur Shastri (Prime Minister of India, died)",
-        "Ayub Khan (President of Pakistan)",
-        "Alexei Kosygin (Soviet Premier, mediator)"
+        "Wernher von Braun (U.S. rocket scientist)",
+        "George Mueller (NASA Associate Administrator)"
       ],
       "sources": [
         {
-          "name": "Tashkent Declaration, 10 January 1966 (full text in Indian parliamentary records)",
+          "name": "NASA mission reports and press releases",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Srinath Raghavan, 1965: A Short History of India's War (forthcoming context from 1971 study)",
+          "name": "Surveyor 1 telemetry and image data",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Harland, The Soviet Conquest of Space (2003)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Diplomatic event with full documentary record. Shastri's cause of death (heart attack) is the official finding; no evidence supports conspiracy theories.",
+      "certainty_note": "Surveyor 1 landing date and mission achievements are documented in NASA records.",
       "cross_references": [
-        "1965-002",
-        "1966-002"
+        "1966-004 (Luna 9 Moon landing)",
+        "1969-001 (Apollo 11 Moon landing)"
       ]
     },
     {
       "id": "1966-016",
-      "title": "Aberfan disaster in Wales",
-      "region": "Western Europe (United Kingdom, Wales)",
-      "coordinates_approx": "51.7, -3.3",
-      "category": "environmental",
-      "description": "On 21 October 1966, a colliery spoil tip collapsed and engulfed the village school and houses in Aberfan, South Wales, killing 144 people, of whom 116 were children. The disaster was caused by the National Coal Board's negligent placement of waste material on a hillside above water springs. The subsequent tribunal found the NCB responsible but no individual was prosecuted. Aberfan became a symbol of industrial negligence and institutional failure, and the disaster contributed to growing environmental awareness and industrial safety regulation in Britain.",
+      "title": "France withdraws from NATO integrated command; de Gaulle asserts independence",
+      "region": "France, NATO",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "President Charles de Gaulle announces France's withdrawal from NATO's integrated military command on March 7, 1966, effective June 1966. De Gaulle orders NATO forces to leave French territory and asserts French independence from U.S. military dominance. France retains membership in the NATO alliance but operates independently. This move reflects de Gaulle's vision of French grandeur and his skepticism of U.S. Cold War strategy. The withdrawal has significant implications for NATO's structure and European security arrangements.",
       "key_figures": [
-        "Lord Robens (Chairman of the National Coal Board)"
+        "Charles de Gaulle (President of France)",
+        "Lyndon B. Johnson (U.S. President)"
       ],
       "sources": [
         {
-          "name": "Report of the Tribunal Appointed to Inquire into the Disaster at Aberfan (Davies Report, 1967)",
+          "name": "French government announcement and de Gaulle's speeches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Iain McLean and Martin Johnes, Aberfan: Government and Disasters (2000)",
+          "name": "NATO official statements and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Alistair Horne, A Savage War of Peace: Algeria 1954\u20131962 (1977)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented disaster with formal government inquiry and precise casualty records.",
-      "cross_references": []
+      "certainty_note": "The withdrawal announcement date and de Gaulle's statements are documented in contemporary French government records and NATO archives.",
+      "cross_references": [
+        "1960-003 (De Gaulle becomes President of Fifth Republic)",
+        "1995-001 (France rejoins NATO integrated command)"
+      ]
     },
     {
       "id": "1966-017",
-      "title": "Florence flood devastates art and cultural heritage",
-      "region": "Southern Europe (Italy)",
-      "coordinates_approx": "43.8, 11.3",
+      "title": "Aberfan disaster in Wales; coal tip collapse kills 144 people, mostly children",
+      "region": "Wales, United Kingdom",
+      "coordinates_approx": "51.7167, -3.2833",
       "category": "environmental",
-      "description": "On 4 November 1966, the River Arno burst its banks and flooded Florence, reaching depths of over 6 metres in some areas. The flood killed 101 people across Tuscany, damaged or destroyed millions of books and manuscripts in the Biblioteca Nazionale Centrale, and harmed countless Renaissance artworks including Cimabue's Crucifix. The disaster prompted an unprecedented international conservation effort \u2014 the 'Mud Angels' (Angeli del Fango) \u2014 thousands of volunteers from around the world who helped salvage cultural treasures. The flood catalysed the development of modern art conservation and restoration techniques.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Contemporary press coverage and photographic documentation, November 1966",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert Clark, Dark Water: Flood and Redemption in the City of Masterpieces (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented natural disaster with precise meteorological, hydrological, and damage records.",
-      "cross_references": []
-    },
-    {
-      "id": "1966-018",
-      "title": "Buddhist crisis and political unrest in South Vietnam",
-      "region": "Southeast Asia (South Vietnam)",
-      "coordinates_approx": "16.1, 108.2",
-      "category": "political",
-      "description": "In March\u2013June 1966, a major Buddhist-led uprising known as the 'Buddhist Struggle Movement' erupted in Danang and Hue against the military government of Nguyen Cao Ky. Buddhists and dissident ARVN troops demanded a return to civilian rule and elections. Ky sent loyal troops to suppress the uprising by force, occupying Danang in May and Hue in June, with significant casualties. The crisis exposed deep fissures within South Vietnamese society and demonstrated that the US-backed government lacked broad legitimacy, complicating American justifications for the war.",
+      "description": "On October 21, 1966, a coal tip (slag heap) collapses in Aberfan, Wales, engulfing the Pantglas Junior School and surrounding houses. The disaster kills 144 people, including 116 children. The collapse is caused by water saturation of the coal tip and poor maintenance. The disaster becomes one of the worst industrial accidents in British history and prompts inquiries into mining safety and environmental hazards. The tragedy has profound psychological impact on Wales and the United Kingdom.",
       "key_figures": [
-        "Thich Tri Quang (Buddhist leader)",
-        "Nguyen Cao Ky (Prime Minister of South Vietnam)",
-        "Nguyen Chanh Thi (dissident I Corps commander)"
+        "Lord Robens (National Coal Board chairman, criticized for safety failures)"
       ],
       "sources": [
         {
-          "name": "Robert Topmiller, The Lotus Unleashed: The Buddhist Peace Movement in South Vietnam, 1964\u20131966 (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "New York Times contemporary reporting, March\u2013June 1966",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in both Vietnamese and American sources, though casualty figures vary.",
-      "cross_references": [
-        "1963-005",
-        "1966-008"
-      ]
-    },
-    {
-      "id": "1966-019",
-      "title": "World Cup held in England \u2014 controversial final",
-      "region": "Western Europe (England)",
-      "coordinates_approx": "51.6, -0.3",
-      "category": "cultural",
-      "description": "The 1966 FIFA World Cup was held in England from 11 July to 30 July. The host nation won the tournament, defeating West Germany 4\u20132 in the final at Wembley Stadium after extra time. The tournament featured controversy over Geoff Hurst's third goal, where the ball struck the crossbar and bounced down \u2014 whether it crossed the line remains disputed. The victory remains England's only World Cup title and became a defining moment in English national identity. North Korea's upset victory over Italy was among the tournament's notable surprises.",
-      "key_figures": [
-        "Alf Ramsey (England manager)",
-        "Geoff Hurst (scored hat-trick in final)",
-        "Bobby Moore (England captain)",
-        "Eus\u00e9bio (Portugal, tournament's top scorer)"
-      ],
-      "sources": [
-        {
-          "name": "FIFA official records, 1966 World Cup",
+          "name": "Official inquiry report (Tribunal of Inquiry into the Aberfan Disaster)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary television broadcast footage (BBC)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented sporting event with television coverage and official records. Whether Hurst's third goal fully crossed the line remains genuinely unresolved.",
-      "cross_references": []
-    },
-    {
-      "id": "1966-020",
-      "title": "Syrian Ba'athist coup \u2014 Jadid faction takes power",
-      "region": "Middle East (Syria)",
-      "coordinates_approx": "33.5, 36.3",
-      "category": "political",
-      "description": "On 23 February 1966, an intra-Ba'ath Party military coup in Syria overthrew the government of Amin al-Hafiz and brought the radical neo-Ba'athist faction led by Salah Jadid to power. The coup marked a decisive leftward shift, with increased nationalisation, land reform, and closer alignment with the Soviet Union. Hafez al-Assad, who served as Defence Minister under Jadid, would later overthrow him in 1970. The coup deepened the split between the Syrian and Iraqi wings of the Ba'ath Party, cementing a rivalry that would last decades.",
-      "key_figures": [
-        "Salah Jadid (de facto leader of Syria)",
-        "Amin al-Hafiz (President, deposed)",
-        "Nureddin al-Atassi (President, installed)",
-        "Hafez al-Assad (Defence Minister)"
-      ],
-      "sources": [
-        {
-          "name": "Patrick Seale, Asad: The Struggle for the Middle East (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Itamar Rabinovich, Syria Under the Ba'th 1963\u201366 (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented political event, though internal Ba'ath Party dynamics are partially reconstructed from participant accounts.",
-      "cross_references": [
-        "1963-004",
-        "1970-002"
-      ]
-    },
-    {
-      "id": "1966-021",
-      "title": "US Surveyor 1 soft-lands on the Moon",
-      "region": "Global (United States / Space)",
-      "coordinates_approx": "-2.5, -43.2",
-      "category": "scientific",
-      "description": "On 2 June 1966, NASA's Surveyor 1 successfully soft-landed on the Moon in Oceanus Procellarum, becoming the first American spacecraft to achieve a controlled lunar landing. The probe transmitted over 11,000 photographs of the lunar surface back to Earth, confirming that the surface could bear the weight of a crewed lander \u2014 a critical question for the Apollo programme. The mission's success on its first attempt boosted confidence in NASA's ability to meet President Kennedy's deadline for a crewed Moon landing before the end of the decade.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "NASA Surveyor 1 mission report (JPL Technical Report 32-1023, 1966)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented NASA mission with telemetry data and published technical reports.",
-      "cross_references": [
-        "1966-012",
-        "1969-003"
-      ]
-    },
-    {
-      "id": "1966-022",
-      "title": "Mao Zedong swims the Yangtze",
-      "region": "East Asia (China)",
-      "coordinates_approx": "30.6, 114.3",
-      "category": "political",
-      "description": "On 16 July 1966, the 72-year-old Mao Zedong undertook a highly publicised swim across the Yangtze River at Wuhan. The event, covered extensively by state media with claims of extraordinary speed and distance, was a calculated political spectacle designed to demonstrate Mao's vigour and fitness to lead the Cultural Revolution he had just launched. The swim served as a signal to opponents that Mao was physically and politically powerful, and it preceded his return to Beijing to take direct charge of the movement. The event became an iconic piece of Maoist propaganda.",
-      "key_figures": [
-        "Mao Zedong (Chairman of the Chinese Communist Party)"
-      ],
-      "sources": [
-        {
-          "name": "People's Daily reporting, July 1966",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Li Zhisui, The Private Life of Chairman Mao (1994)",
+          "name": "Contemporary British press coverage",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Peter Ackers, Aberfan: The Story of a Disaster (1969)",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The swim took place, but the claimed speed (15 km in 65 minutes) is widely regarded as state propaganda exaggeration. The political significance is undisputed.",
+      "certainty_note": "The disaster date, death toll, and cause are documented in the official inquiry and contemporary sources.",
       "cross_references": [
-        "1966-001"
+        "1952-001 (Great Smog of London)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held beliefs about 1966 events deserve qualification. (1) The Cultural Revolution's start date is often given as 1966, but modern scholarship emphasises that Mao's preparatory moves began as early as 1962\u201364, making the '16 May Notification' a formal escalation rather than a true beginning. (2) The CIA's role in the Ghana coup is sometimes presented as a direct orchestration; declassified documents show encouragement and foreknowledge rather than operational control \u2014 the coup was primarily driven by domestic Ghanaian actors. (3) Indonesia's anti-communist killings are sometimes attributed primarily to the army; recent scholarship by Roosa and others demonstrates extensive civilian participation and local initiative in the violence, complicating narratives of top-down military direction. (4) Shastri's death at Tashkent is the subject of persistent conspiracy theories in India alleging poisoning; no credible evidence supports this, and the official finding of cardiac arrest remains the scholarly consensus. (5) The extent of Tsafendas's mental illness has been reassessed \u2014 Dousemetzis's 2018 biography argues he was politically motivated and not insane, challenging the apartheid-era finding used to depoliticise the assassination.",
-  "historiographic_note": "1966 is richly documented through multiple independent source traditions: government archives, press coverage (including expanding television journalism), diplomatic cables (many now declassified), and extensive academic historiography. However, sources are disproportionately available for events involving Western powers or Cold War geopolitics. The internal dynamics of the Cultural Revolution remain partially obscured by Chinese state control of archives. Indonesian killings are documented unevenly \u2014 the Suharto regime suppressed investigation for decades. African events, despite their significance, receive less systematic coverage in anglophone historiography than comparable events in Europe or the Americas. Cold War framing dominates much of the period's scholarship, sometimes obscuring the agency of local actors in the Global South.",
+  "disconfirming_evidence": "The significance of the Cultural Revolution's launch is sometimes overstated in Western historiography as a purely ideological campaign; recent scholarship emphasizes Mao's personal political calculations and his desire to eliminate rivals within the party. The characterization of Suharto's consolidation as a straightforward 'takeover' obscures the complex factional politics within the Indonesian military and the ambiguity of Sukarno's own role in granting the Supersemar. De Gaulle's NATO withdrawal is sometimes portrayed as isolationist; in fact, France maintained security commitments and later rejoined integrated structures, suggesting the withdrawal was more tactical than ideological. The Black Panther Party's founding is sometimes dated to 1965 in some sources, though October 1966 is the consensus date for formal establishment.",
+  "historiographic_note": "1966 is exceptionally well-documented due to proximity to the present and the richness of contemporary media, government records, and later oral histories. Western sources dominate the record, particularly for U.S. and European events. Chinese sources are heavily mediated through state propaganda during the Cultural Revolution, making independent verification difficult for some claims. African and Asian events are less densely documented in English-language historiography, though primary sources exist in local archives. The Space Race is well-documented due to public interest and declassification of government records. Cold War events are extensively covered but often reflect Cold War-era biases in Western historiography.",
   "graph_edges": [
     {
       "from": "1966-001",
-      "to": "1976-001",
+      "to": "1967-001",
       "relation": "led_to",
-      "note": "Cultural Revolution continued until Mao's death in 1976"
+      "note": "Cultural Revolution intensifies in 1967"
+    },
+    {
+      "from": "1966-002",
+      "to": "1968-001",
+      "relation": "led_to",
+      "note": "Escalation leads to Tet Offensive turning point"
     },
     {
       "from": "1966-003",
-      "to": "1967-002",
+      "to": "1977-001",
       "relation": "led_to",
-      "note": "Nigerian coups and ethnic massacres directly precipitated Biafran secession and civil war"
+      "note": "Gandhi's rise leads to her political dominance until 1977"
     },
     {
       "from": "1966-005",
-      "to": "1965-003",
-      "relation": "caused_by",
-      "note": "Suharto's consolidation followed the September 30th Movement and subsequent anti-communist purges"
-    },
-    {
-      "from": "1966-008",
-      "to": "1968-002",
-      "relation": "led_to",
-      "note": "1966 escalation set conditions for the Tet Offensive and further troop increases"
-    },
-    {
-      "from": "1966-015",
-      "to": "1966-002",
-      "relation": "led_to",
-      "note": "Shastri's death at Tashkent created the vacancy that brought Indira Gandhi to power"
-    },
-    {
-      "from": "1966-012",
-      "to": "1966-021",
+      "to": "1966-014",
       "relation": "contemporary_with",
-      "note": "Soviet and American Moon landings in same year reflected Space Race competition"
-    },
-    {
-      "from": "1966-020",
-      "to": "1970-002",
-      "relation": "led_to",
-      "note": "Jadid regime's radicalism created conditions for Assad's 'Corrective Movement' coup in 1970"
-    },
-    {
-      "from": "1966-014",
-      "to": "1968-005",
-      "relation": "led_to",
-      "note": "Black Panther Party's growth contributed to the broader upheaval of 1968 in the United States"
-    },
-    {
-      "from": "1966-007",
-      "to": "1948-003",
-      "relation": "caused_by",
-      "note": "Verwoerd had implemented the formal apartheid system enacted after the 1948 National Party election victory"
+      "note": "Both represent military takeovers in post-colonial states"
     },
     {
       "from": "1966-006",
-      "to": "1949-002",
-      "relation": "part_of",
-      "note": "French withdrawal was a challenge to the NATO alliance created in 1949"
+      "to": "1969-002",
+      "relation": "led_to",
+      "note": "Black Panther Party founding leads to FBI COINTELPRO operations"
+    },
+    {
+      "from": "1966-010",
+      "to": "1968-003",
+      "relation": "led_to",
+      "note": "Brezhnev's consolidation enables Prague Spring invasion"
+    },
+    {
+      "from": "1966-012",
+      "to": "1968-002",
+      "relation": "led_to",
+      "note": "Black Power movement influences 1968 Democratic Convention protests"
+    },
+    {
+      "from": "1966-016",
+      "to": "1995-001",
+      "relation": "led_to",
+      "note": "NATO withdrawal eventually reversed in 1995"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-10T21:38:45.616110",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,857 +1,526 @@
 {
   "year": 1868,
   "year_label": "1868 CE",
-  "era_context": "The late 1860s was an era of transformative political upheaval, rapid industrialisation, and imperial expansion across the globe. In Japan, the centuries-old Tokugawa shogunate was overthrown in the Meiji Restoration, initiating a radical programme of modernisation. The United States was deep in the turbulent Reconstruction era following the Civil War, grappling with the constitutional status of formerly enslaved people and the political reintegration of the defeated South. European powers were consolidating colonial empires in Africa and Asia while undergoing their own revolutionary spasms \u2014 Spain's Glorious Revolution unseated its queen. Qing China continued its Self-Strengthening Movement in the aftermath of the Taiping and Nian rebellions.",
+  "era_context": "The world is in the midst of rapid industrialization and imperial expansion. The United States has just ended the Civil War (1861\u201365) and is entering the Reconstruction Era. The British Empire is at the height of its power, dominating global trade and colonial expansion. Japan is undergoing a revolutionary transformation with the Meiji Restoration, which marks the end of the Tokugawa shogunate and the beginning of rapid modernization. European powers are consolidating their control over colonial territories in Africa, Asia, and the Pacific. This is a period of technological innovation and political upheaval.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (sources dominated by European colonial and missionary accounts; indigenous perspectives largely unrecorded)",
-    "Central Asia (Russian imperial lens dominates surviving sources)",
-    "Southeast Asian interior polities (non-colonial indigenous documentation sparse in Western-language sources)",
-    "Pacific Islands (oral traditions not systematically recorded for this period)",
-    "Indigenous peoples of the Americas and Australia (colonial and settler sources dominate)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1868-001",
-      "title": "Meiji Restoration proclaimed in Japan",
-      "region": "Japan",
-      "coordinates_approx": "35.02, 135.75",
+      "title": "Meiji Restoration begins in Japan; end of Tokugawa shogunate",
+      "region": "Japan, Asia",
+      "coordinates_approx": "35.7, 139.7",
       "category": "political",
-      "description": "On 3 January 1868 (Kei\u014d 3, 9th day of the 12th month), forces loyal to the Satsuma and Ch\u014dsh\u016b domains seized the imperial palace in Kyoto and issued a declaration restoring direct imperial rule under the young Emperor Meiji, abolishing the offices of sh\u014dgun and regent. This ended over 260 years of Tokugawa bakufu governance. The restoration was not merely a change of ruler but the beginning of a radical programme to centralise authority, adopt Western-style institutions, and industrialise Japan at extraordinary speed. It would transform Japan from a feudal society into an industrialised world power within a single generation.",
+      "description": "In 1868, the Meiji Restoration began in Japan, marking the end of the Tokugawa shogunate (1603\u20131868) and the restoration of imperial rule under Emperor Meiji. The restoration was precipitated by the arrival of Western powers (particularly the United States) in the 1850s and the shogunate's inability to effectively respond to the Western threat. The Boshin War (1868\u201369) was fought between pro-restoration forces and the shogunate's supporters, resulting in the restoration's victory. The Meiji government immediately began a comprehensive modernization program, including the abolition of feudalism, the adoption of Western technology and institutions, and the establishment of a modern military. The Meiji Restoration transformed Japan from a feudal society into a modern nation-state within a generation.",
       "key_figures": [
-        "Emperor Meiji (Mutsuhito, Emperor of Japan)",
-        "Saig\u014d Takamori (Satsuma domain leader)",
-        "\u014ckubo Toshimichi (Satsuma statesman)",
-        "Kido Takayoshi (Ch\u014dsh\u016b statesman)",
-        "Iwakura Tomomi (court noble, key restoration architect)"
+        "Emperor Meiji (Mutsuhito)",
+        "Okubo Toshimichi (Meiji statesman)",
+        "Kido Takayoshi (Meiji statesman)",
+        "Saig\u014d Takamori (military leader)",
+        "Tokugawa Yoshinobu (last shogun)"
       ],
       "sources": [
         {
-          "name": "Imperial Restoration decree (\u014csei Fukko no Daig\u014drei), January 1868",
+          "name": "Meiji government records and official decrees",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "W.G. Beasley, The Meiji Restoration (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Marius Jansen, The Making of Modern Japan (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by Japanese government records, domain archives, diplomatic correspondence, and contemporary foreign observers.",
-      "cross_references": [
-        "1867-TOKUGAWA_RESIGNATION",
-        "1869-MEIJI_REFORMS"
-      ]
-    },
-    {
-      "id": "1868-002",
-      "title": "Boshin War: Battle of Toba-Fushimi",
-      "region": "Japan (near Kyoto)",
-      "coordinates_approx": "34.92, 135.74",
-      "category": "military",
-      "description": "From 27\u201330 January 1868, pro-imperial forces from Satsuma and Ch\u014dsh\u016b defeated the numerically superior Tokugawa army at the battles of Toba and Fushimi, south of Kyoto. Despite being outnumbered roughly three to one, the imperial forces prevailed through superior modern weaponry, tactical coordination, and the critical deployment of the imperial banner (nishiki no mihata), which convinced wavering domains to defect from the Tokugawa side. The defeat shattered Tokugawa military credibility and opened the path for the imperial army's advance on Edo. Former Sh\u014dgun Tokugawa Yoshinobu fled to Edo by warship.",
-      "key_figures": [
-        "Tokugawa Yoshinobu (former Sh\u014dgun)",
-        "Saig\u014d Takamori (imperial field commander)",
-        "Prince Ninnaji-no-miya Yoshiaki (nominal imperial commander)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary Japanese military dispatches and domain records",
+          "name": "Japanese government archives",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Accounts by foreign diplomats and military observers in Japan, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Conrad Totman, The Collapse of the Tokugawa Bakufu, 1862\u20131868 (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented by Japanese domain records, foreign diplomatic dispatches, and subsequent military histories.",
-      "cross_references": [
-        "1868-001",
-        "1868-003"
-      ]
-    },
-    {
-      "id": "1868-003",
-      "title": "Surrender of Edo Castle and renaming to Tokyo",
-      "region": "Japan (Edo/Tokyo)",
-      "coordinates_approx": "35.68, 139.75",
-      "category": "political",
-      "description": "In April 1868, following negotiations between Saig\u014d Takamori and Tokugawa retainer Katsu Kaish\u016b, Edo Castle was peacefully surrendered to imperial forces, averting a potentially devastating battle in the city of over one million inhabitants. On 3 September 1868, the Emperor issued an edict renaming Edo to Tokyo ('Eastern Capital') and shortly thereafter relocated the imperial court there. The bloodless transfer of Edo was a pivotal moment in the Boshin War, effectively ending organised Tokugawa resistance in the heartland, though fighting continued in northern Honsh\u016b and Hokkaido into 1869.",
-      "key_figures": [
-        "Saig\u014d Takamori (imperial commander)",
-        "Katsu Kaish\u016b (Tokugawa negotiator)",
-        "Emperor Meiji"
-      ],
-      "sources": [
-        {
-          "name": "Katsu Kaish\u016b's memoirs and negotiation records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Imperial edict renaming Edo to Tokyo, September 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mark Ravina, The Last Samurai: The Life and Battles of Saig\u014d Takamori (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by official records, personal memoirs of both negotiators, and foreign diplomatic reports.",
-      "cross_references": [
-        "1868-002",
-        "1869-BOSHIN_WAR_END"
-      ]
-    },
-    {
-      "id": "1868-004",
-      "title": "Impeachment of President Andrew Johnson",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "On 24 February 1868, the U.S. House of Representatives voted to impeach President Andrew Johnson, making him the first sitting president to be impeached. The primary charge was violation of the Tenure of Office Act for dismissing Secretary of War Edwin Stanton without Senate approval, but the deeper conflict was Johnson's obstruction of Congressional Reconstruction. The Senate trial, presided over by Chief Justice Salmon Chase, concluded on 16 May with a vote of 35\u201319 for conviction \u2014 one vote short of the two-thirds majority required. Johnson's acquittal preserved presidential authority over Cabinet appointments but did not halt Radical Reconstruction.",
-      "key_figures": [
-        "Andrew Johnson (U.S. President)",
-        "Edwin Stanton (Secretary of War)",
-        "Thaddeus Stevens (House impeachment manager)",
-        "Salmon P. Chase (Chief Justice, presided over trial)",
-        "Edmund G. Ross (Senator, cast deciding acquittal vote)"
-      ],
-      "sources": [
-        {
-          "name": "Congressional Globe, 40th Congress proceedings, February\u2013May 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Articles of Impeachment against Andrew Johnson, February 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David O. Stewart, Impeached: The Trial of President Andrew Johnson and the Fight for Lincoln's Legacy (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented by congressional records, press coverage, and trial transcripts.",
-      "cross_references": [
-        "1865-JOHNSON_PRESIDENCY",
-        "1868-005"
-      ]
-    },
-    {
-      "id": "1868-005",
-      "title": "Ratification of the Fourteenth Amendment to the U.S. Constitution",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "legal",
-      "description": "On 9 July 1868, the Fourteenth Amendment was certified as ratified, fundamentally reshaping American constitutional law. It granted citizenship to all persons born or naturalised in the United States \u2014 including formerly enslaved people \u2014 and guaranteed equal protection under the law and due process. The amendment also penalised states that denied suffrage to eligible male citizens by reducing their congressional representation. Ratification was achieved partly through coercion: former Confederate states were required to ratify it as a condition of readmission to the Union. The amendment became arguably the most litigated provision of the Constitution, shaping civil rights jurisprudence for over 150 years.",
-      "key_figures": [
-        "John Bingham (principal author of Section 1)",
-        "Thaddeus Stevens (House Radical Republican leader)",
-        "William Seward (Secretary of State, certified ratification)"
-      ],
-      "sources": [
-        {
-          "name": "Fourteenth Amendment, U.S. Constitution, ratified July 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Congressional records of the 39th and 40th Congresses",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Eric Foner, Reconstruction: America's Unfinished Revolution, 1863\u20131877 (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented by ratification records and congressional proceedings. The coerced nature of some Southern ratifications is historically acknowledged but does not affect the legal validity.",
-      "cross_references": [
-        "1866-14TH_AMENDMENT_PROPOSED",
-        "1870-015TH_AMENDMENT"
-      ]
-    },
-    {
-      "id": "1868-006",
-      "title": "British Expedition to Abyssinia: Battle of Magdala",
-      "region": "Ethiopian Empire (Abyssinia)",
-      "coordinates_approx": "11.17, 39.32",
-      "category": "military",
-      "description": "On 13 April 1868, a British expeditionary force under Sir Robert Napier stormed the mountain fortress of Magdala (Amba Mariam), defeating Emperor Tewodros II of Ethiopia. The expedition was launched after Tewodros imprisoned several British diplomats and missionaries. Tewodros committed suicide rather than surrender. The British looted extensive treasures, manuscripts, and religious artefacts \u2014 including the Kebra Nagast and numerous illuminated manuscripts \u2014 before withdrawing. The expedition was a logistical triumph for the British (13,000 troops, thousands of animals, railroads and port built at Zula) but caused lasting damage to Ethiopian cultural heritage. It destabilised Ethiopia, leading to a succession struggle.",
-      "key_figures": [
-        "Tewodros II (Emperor of Ethiopia)",
-        "Sir Robert Napier (British expedition commander)",
-        "Hormuzd Rassam (British envoy, held hostage)"
-      ],
-      "sources": [
-        {
-          "name": "Henry M. Stanley, Coomassie and Magdala (1874) \u2014 Stanley accompanied the expedition as a journalist",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Official British military dispatches from the Abyssinian expedition, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Richard Pankhurst, The Ethiopians: A History (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by British military records, press correspondents (including H.M. Stanley), and Ethiopian chronicles.",
-      "cross_references": [
-        "1872-YOHANNES_IV_EMPEROR"
-      ]
-    },
-    {
-      "id": "1868-007",
-      "title": "Spanish Glorious Revolution (La Gloriosa) overthrows Isabella II",
-      "region": "Spain",
-      "coordinates_approx": "36.53, -6.29",
-      "category": "political",
-      "description": "In September 1868, a military-civilian revolution began with a naval pronunciamiento at C\u00e1diz on 18 September and rapidly swept across Spain. The coalition of liberal, progressive, and democratic forces defeated royalist troops at the Battle of Alcolea on 28 September. Queen Isabella II fled to France on 30 September, ending her troubled 25-year reign. The revolution established a provisional government under Generals Francisco Serrano and Juan Prim, initiating a turbulent period known as the Sexenio Democr\u00e1tico (Democratic Sexennium, 1868\u20131874) that would include Spain's first democratic constitution, a constitutional monarchy under an imported king, a republic, and ultimately a Bourbon restoration.",
-      "key_figures": [
-        "Isabella II (Queen of Spain, deposed)",
-        "Juan Prim (revolutionary military leader)",
-        "Francisco Serrano (revolutionary leader, head of provisional government)",
-        "Juan Bautista Topete (admiral who launched pronunciamiento)"
-      ],
-      "sources": [
-        {
-          "name": "Manifesto of the C\u00e1diz revolutionaries, September 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary Spanish press coverage (La Correspondencia de Espa\u00f1a, etc.)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Raymond Carr, Spain, 1808\u20131975 (1982)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Richly documented by Spanish government records, military dispatches, press, and diplomatic correspondence from foreign embassies.",
-      "cross_references": [
-        "1870-AMADEO_I_KING",
-        "1873-FIRST_SPANISH_REPUBLIC"
-      ]
-    },
-    {
-      "id": "1868-008",
-      "title": "Ten Years' War begins in Cuba (Grito de Yara)",
-      "region": "Cuba (Spanish colony)",
-      "coordinates_approx": "20.28, -76.95",
-      "category": "military",
-      "description": "On 10 October 1868, sugar planter Carlos Manuel de C\u00e9spedes freed his slaves and issued the Grito de Yara, launching an armed insurrection against Spanish colonial rule in eastern Cuba. The rebellion spread rapidly through Oriente province, fuelled by grievances over taxation, lack of political representation, and slavery. The insurgents established the Republic of Cuba in Arms with a constitution and provisional government. The ensuing Ten Years' War (1868\u20131878) would devastate eastern Cuba, kill an estimated 200,000 people, and ultimately end in an inconclusive peace \u2014 but it established the nationalist movement that led to eventual Cuban independence.",
-      "key_figures": [
-        "Carlos Manuel de C\u00e9spedes (revolutionary leader, 'Father of the Homeland')",
-        "Ignacio Agramonte (revolutionary commander)",
-        "Domingo Dulce (Spanish Captain General)"
-      ],
-      "sources": [
-        {
-          "name": "Grito de Yara proclamation, 10 October 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ada Ferrer, Insurgent Cuba: Race, Nation, and Revolution, 1868\u20131898 (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Spanish colonial dispatches from Cuba, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented by colonial and insurgent records, diplomatic correspondence, and contemporary press.",
-      "cross_references": [
-        "1878-PACT_OF_ZANJON",
-        "1895-CUBAN_WAR_INDEPENDENCE"
-      ]
-    },
-    {
-      "id": "1868-009",
-      "title": "Ulysses S. Grant elected U.S. President",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "On 3 November 1868, Republican Ulysses S. Grant won the presidential election, defeating Democrat Horatio Seymour. Grant carried 26 of 34 states with 214 electoral votes to Seymour's 80, though the popular vote was closer (52.7% to 47.3%). Grant's victory was substantially aided by approximately 500,000 votes from newly enfranchised Black men in the South, a fact that directly motivated the subsequent push for the Fifteenth Amendment. As the Civil War's most celebrated Union general, Grant campaigned on continuing Reconstruction and restoring order, with the slogan 'Let us have peace.'",
-      "key_figures": [
-        "Ulysses S. Grant (Republican candidate, elected)",
-        "Horatio Seymour (Democratic candidate)",
-        "Schuyler Colfax (Vice President-elect)"
-      ],
-      "sources": [
-        {
-          "name": "Official election returns, 1868 U.S. presidential election",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ron Chernow, Grant (2017)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented by election records and extensive press coverage.",
-      "cross_references": [
-        "1870-015TH_AMENDMENT",
-        "1868-005"
-      ]
-    },
-    {
-      "id": "1868-010",
-      "title": "Treaty of Fort Laramie with the Sioux",
-      "region": "United States (Great Plains / Powder River Country)",
-      "coordinates_approx": "42.21, -104.52",
-      "category": "legal",
-      "description": "On 29 April 1868, the United States signed the Treaty of Fort Laramie with the Lakota and other Sioux bands, as well as the Arapaho, ending Red Cloud's War \u2014 the only war in which the U.S. was forced to sue for peace with Native Americans. The treaty established the Great Sioux Reservation encompassing all of present-day western South Dakota (including the Black Hills), guaranteed Sioux hunting rights in the Powder River country, and required the U.S. to abandon forts along the Bozeman Trail. The treaty would be systematically violated within a decade as gold was discovered in the Black Hills, leading directly to the Great Sioux War of 1876.",
-      "key_figures": [
-        "Red Cloud (Oglala Lakota leader)",
-        "William T. Sherman (U.S. military negotiator)",
-        "Spotted Tail (Brul\u00e9 Lakota leader)",
-        "Nathaniel G. Taylor (Commissioner of Indian Affairs)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Fort Laramie, 29 April 1868 (15 Stat. 635)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "U.S. Indian Peace Commission reports, 1867\u20131868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jeffrey Ostler, The Lakotas and the Black Hills (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The treaty text is extant. Debate exists over whether Sioux leaders fully understood the terms as translated.",
-      "cross_references": [
-        "1874-BLACK_HILLS_EXPEDITION",
-        "1876-LITTLE_BIGHORN"
-      ]
-    },
-    {
-      "id": "1868-011",
-      "title": "Burlingame Treaty between the United States and China",
-      "region": "United States / Qing Dynasty China",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "On 28 July 1868, the United States and China signed the Burlingame Treaty (formally additional articles to the Treaty of Tientsin), which recognised free migration and emigration between the two countries and established reciprocal rights of residence and travel. Negotiated by Anson Burlingame \u2014 an American whom the Qing court had appointed as their diplomatic envoy \u2014 the treaty was remarkably progressive for its era, treating Chinese immigrants as legal equals. However, it would be effectively gutted within 14 years by the Chinese Exclusion Act of 1882, the first major federal legislation restricting immigration by nationality.",
-      "key_figures": [
-        "Anson Burlingame (U.S. citizen serving as Qing envoy)",
-        "William Seward (U.S. Secretary of State)",
-        "Zhigang and Sun Jiagu (Qing co-envoys)"
-      ],
-      "sources": [
-        {
-          "name": "Burlingame Treaty text, 28 July 1868 (16 Stat. 739)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Diplomatic correspondence of the U.S. Department of State, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Schrecker, 'For the Equality of Men \u2014 For the Equality of Nations': Anson Burlingame and China's First Embassy to the United States, 1868, in Journal of American-East Asian Relations (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text extant in both U.S. and Qing records. Diplomatic correspondence fully preserved.",
-      "cross_references": [
-        "1882-CHINESE_EXCLUSION_ACT"
-      ]
-    },
-    {
-      "id": "1868-012",
-      "title": "Arica earthquake and tsunami devastate Peru and Chile",
-      "region": "Peru / Chile (South America, Pacific coast)",
-      "coordinates_approx": "-18.47, -70.32",
-      "category": "environmental",
-      "description": "On 13 August 1868, a massive earthquake estimated at magnitude 8.5\u20139.0 struck southern Peru (now northern Chile), with its epicentre near Arica. The earthquake triggered a devastating Pacific-wide tsunami with waves reaching up to 21 metres at Arica, destroying the port and coastal settlements. The tsunami propagated across the Pacific, causing damage in Hawaii, New Zealand, and Japan. An estimated 25,000\u201370,000 people were killed. The U.S. Navy ironclad USS Wateree was carried inland by the tsunami wave. The disaster disrupted the guano and nitrate trade that was central to Peru's economy.",
-      "key_figures": [
-        "James H. Gillis (U.S. Navy officer, reported on damage from USS Wateree)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. Navy reports on damage to USS Wateree and other vessels, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peruvian and Chilean government damage reports, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Lori Dengler and Jose Borrero, The Extraordinary Tide: The 1868 Peru Earthquake and Tsunami, in Pure and Applied Geophysics (2016)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented by multiple contemporary sources including naval, diplomatic, and scientific reports. Magnitude estimates vary between modern seismological studies.",
-      "cross_references": []
-    },
-    {
-      "id": "1868-013",
-      "title": "Basutoland becomes a British protectorate",
-      "region": "Southern Africa (Basutoland / modern Lesotho)",
-      "coordinates_approx": "-29.31, 28.48",
-      "category": "political",
-      "description": "On 12 March 1868, the British High Commissioner proclaimed Basutoland a British territory at the request of King Moshoeshoe I, who sought British protection from encroachment by the Orange Free State Boers following the Seqiti War (1865\u20131868). Moshoeshoe had been losing territory through a series of military defeats and unfavourable treaties. British annexation preserved the Basotho nation as a territorial entity, though Moshoeshoe had to accept significant territorial losses (the 'Conquered Territory' in the Caledon River valley). This decision ultimately allowed Basutoland to remain separate from South Africa, eventually becoming independent Lesotho in 1966.",
-      "key_figures": [
-        "Moshoeshoe I (King of the Basotho)",
-        "Sir Philip Wodehouse (British High Commissioner for Southern Africa)"
-      ],
-      "sources": [
-        {
-          "name": "British proclamation annexing Basutoland, 12 March 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Correspondence between Moshoeshoe I and British officials, 1866\u20131868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Elizabeth Eldredge, A South African Kingdom: The Pursuit of Security in Nineteenth-Century Lesotho (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by British colonial records and Basotho oral tradition. Moshoeshoe I's agency in requesting protection is well established.",
-      "cross_references": [
-        "1966-LESOTHO_INDEPENDENCE"
-      ]
-    },
-    {
-      "id": "1868-014",
-      "title": "Disraeli becomes Prime Minister; Gladstone wins general election",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "political",
-      "description": "On 27 February 1868, Benjamin Disraeli became Prime Minister following the Earl of Derby's resignation due to ill health. Disraeli's first ministry was brief: he served as a caretaker until the general election in November\u2013December 1868 \u2014 the first held under the expanded franchise of the Reform Act of 1867. William Gladstone's Liberals won a decisive majority, and Gladstone formed his first government on 3 December. This election inaugurated the great Gladstone\u2013Disraeli rivalry that would define British politics for the next 12 years and marked the beginning of Gladstone's programme of Irish, education, and civil service reforms.",
-      "key_figures": [
-        "Benjamin Disraeli (Conservative Prime Minister, February\u2013December 1868)",
-        "William Gladstone (Liberal leader, Prime Minister from December 1868)",
-        "Earl of Derby (outgoing Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "Hansard Parliamentary Debates, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "H.C.G. Matthew, Gladstone, 1809\u20131898 (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented by parliamentary records, press, and personal correspondence.",
-      "cross_references": [
-        "1867-REFORM_ACT",
-        "1869-IRISH_CHURCH_DISESTABLISHMENT"
-      ]
-    },
-    {
-      "id": "1868-015",
-      "title": "Charter Oath issued by Emperor Meiji (Five Articles Oath)",
-      "region": "Japan",
-      "coordinates_approx": "35.02, 135.75",
-      "category": "political",
-      "description": "On 6 April 1868, Emperor Meiji issued the Charter Oath (Gokaj\u014d no Goseimon), a five-article document that laid out the governing principles of the new regime. The oath promised deliberative assemblies, that all classes would unite in administration, that outdated customs would be abandoned, that knowledge would be sought throughout the world, and that all matters would be decided by public discussion. Though vague and aspirational, the Charter Oath served as a de facto constitution for the early Meiji state and its emphasis on modernisation and openness provided ideological legitimacy for the sweeping reforms that followed.",
-      "key_figures": [
-        "Emperor Meiji",
-        "Yuri Kimimasa (principal drafter)",
-        "Fukuoka Takachika (reviser)",
-        "Kido Takayoshi (final reviser)"
-      ],
-      "sources": [
-        {
-          "name": "Charter Oath (Gokaj\u014d no Goseimon) text, 6 April 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "W.G. Beasley, The Meiji Restoration (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Original text extant. Authorship and drafting process well documented in government records.",
-      "cross_references": [
-        "1868-001",
-        "1889-MEIJI_CONSTITUTION"
-      ]
-    },
-    {
-      "id": "1868-016",
-      "title": "Christopher Latham Sholes patents the typewriter",
-      "region": "United States (Milwaukee, Wisconsin)",
-      "coordinates_approx": "43.04, -87.91",
-      "category": "technological",
-      "description": "On 23 June 1868, Christopher Latham Sholes, Carlos Glidden, and Samuel W. Soul\u00e9 received U.S. Patent No. 79,265 for their 'Type-Writer,' the first commercially practical typewriter. Though earlier typing machines existed, the Sholes design \u2014 later manufactured by E. Remington and Sons from 1874 \u2014 became the basis for all subsequent typewriters. Sholes also developed the QWERTY keyboard layout (finalised by 1873) to reduce jamming of mechanical typebars. The typewriter would revolutionise office work, create new employment opportunities for women as typists, and fundamentally change the production of written documents.",
-      "key_figures": [
-        "Christopher Latham Sholes (inventor)",
-        "Carlos Glidden (co-inventor)",
-        "Samuel W. Soul\u00e9 (co-inventor)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. Patent No. 79,265, 23 June 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Bruce Bliven Jr., The Wonderful Writing Machine (1954)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Patent records are extant. Sholes continued improving the design through 1873 before the Remington manufacturing deal.",
-      "cross_references": []
-    },
-    {
-      "id": "1868-017",
-      "title": "Last convict ship arrives in Western Australia",
-      "region": "Western Australia (British colony)",
-      "coordinates_approx": "-32.05, 115.75",
-      "category": "demographic",
-      "description": "On 10 January 1868, the convict transport ship Hougoumont arrived at Fremantle, Western Australia, carrying the last 279 convicts ever transported to Australia. Among them were 62 Fenian (Irish republican) political prisoners. The arrival marked the end of an 80-year practice of British penal transportation to Australia that had shipped approximately 162,000 convicts since 1788. The cessation was driven by growing opposition from free settlers in the other Australian colonies and changing British penal philosophy. The Fenian prisoners would later become the subject of the dramatic 1876 Catalpa rescue.",
-      "key_figures": [
-        "John Boyle O'Reilly (Fenian prisoner, later escaped)",
-        "William Cozens (Hougoumont captain)"
-      ],
-      "sources": [
-        {
-          "name": "Western Australian colonial shipping records, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Sean O'Reilly, Fenians on the Hougoumont, in The Irish Sword (various editions)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Robert Hughes, The Fatal Shore (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ship records, passenger manifests, and colonial archives fully document this event.",
-      "cross_references": [
-        "1876-CATALPA_RESCUE"
-      ]
-    },
-    {
-      "id": "1868-018",
-      "title": "Nian Rebellion suppressed in China",
-      "region": "Qing Dynasty China (North China Plain)",
-      "coordinates_approx": "33.50, 117.00",
-      "category": "military",
-      "description": "In August 1868, Qing forces under Zeng Guofan and Li Hongzhang finally suppressed the Nian Rebellion, which had raged across northern China since the 1850s. The highly mobile Nian cavalry bands, operating across Shandong, Anhui, Henan, and Zhili provinces, had proven extremely difficult to defeat through conventional means. Victory was achieved through a strategy of encirclement using waterways and trenches to restrict Nian movement, combined with ever-better-equipped provincial armies. The rebellion's end allowed the Qing to consolidate the Self-Strengthening reforms, but the dynasty's reliance on provincial armies had permanently weakened central authority.",
-      "key_figures": [
-        "Zeng Guofan (Qing commander-in-chief)",
-        "Li Hongzhang (Qing provincial commander)",
-        "Zhang Zongyu (Nian leader, died 1868)"
-      ],
-      "sources": [
-        {
-          "name": "Qing court memorials and military dispatches, 1868",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "S.Y. Teng, The Nien Army and Their Guerrilla Warfare, 1851\u20131868 (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Jonathan Spence, The Search for Modern China (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by Qing military records and subsequent provincial histories. Exact end date debated (summer\u2013autumn 1868) but the year is certain.",
-      "cross_references": [
-        "1864-TAIPING_END"
-      ]
-    },
-    {
-      "id": "1868-019",
-      "title": "Siam: King Chulalongkorn (Rama V) accedes to the throne",
-      "region": "Siam (Thailand)",
-      "coordinates_approx": "13.75, 100.49",
-      "category": "political",
-      "description": "On 1 October 1868, following the death of King Mongkut (Rama IV) from malaria contracted during an eclipse-viewing expedition, his 15-year-old son Chulalongkorn acceded to the Siamese throne as Rama V, with a regency under Somdet Chaophraya Si Suriyawongse. Chulalongkorn would reign until 1910 and become the greatest moderniser in Thai history, abolishing slavery and the corv\u00e9e system, reforming the administration, building railways and telegraph networks, and \u2014 critically \u2014 navigating European colonial pressures to maintain Siam as the only Southeast Asian state never formally colonised. His accession began this transformative era.",
-      "key_figures": [
-        "Chulalongkorn / Rama V (King of Siam)",
-        "Mongkut / Rama IV (deceased King of Siam)",
-        "Somdet Chaophraya Si Suriyawongse (regent)"
-      ],
-      "sources": [
-        {
-          "name": "Royal Thai chronicles and court records, 1868",
+          "name": "Contemporary Japanese chronicles and records",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "David K. Wyatt, Thailand: A Short History (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Western diplomatic correspondence and reports",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully documented by Thai court records and contemporary diplomatic correspondence from foreign missions in Bangkok.",
+      "certainty_note": "The Meiji Restoration is dated to 1868, though the process began in 1867 and the Boshin War continued into 1869. The restoration of imperial rule is definitively documented in Japanese government records.",
       "cross_references": [
-        "1893-FRANCO_SIAMESE_WAR"
+        "1869-003 (Meiji Restoration consolidates)",
+        "1871-007 (Haihan-chiken edict)"
       ]
     },
     {
-      "id": "1868-020",
-      "title": "Revolution in Serbia: Assassination of Prince Mihailo and accession of Milan Obrenovi\u0107",
-      "region": "Principality of Serbia",
-      "coordinates_approx": "44.79, 20.45",
+      "id": "1868-002",
+      "title": "14th Amendment to U.S. Constitution ratified; citizenship and equal protection",
+      "region": "United States, North America",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "legal",
+      "description": "On 9 July 1868, the 14th Amendment to the U.S. Constitution was ratified, establishing citizenship for all persons born or naturalized in the United States and guaranteeing equal protection of the laws. The amendment was a key achievement of the Radical Republican Reconstruction program, intended to ensure that formerly enslaved people would have legal rights and protections. However, the amendment's protections were quickly undermined by Southern states through various mechanisms. The 14th Amendment remains one of the most important constitutional amendments and has been used to protect civil rights throughout American history.",
+      "key_figures": [
+        "President Andrew Johnson",
+        "Thaddeus Stevens (Radical Republican)",
+        "Charles Sumner (Radical Republican)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congressional records and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "14th Amendment text and ratification records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The ratification date of 9 July 1868 is definitively documented in official U.S. records.",
+      "cross_references": [
+        "1870-002 (15th Amendment ratified)"
+      ]
+    },
+    {
+      "id": "1868-003",
+      "title": "Boshin War in Japan; pro-restoration forces defeat shogunate",
+      "region": "Japan, Asia",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "military",
+      "description": "The Boshin War (1868\u201369) was fought between pro-restoration forces and the shogunate's supporters in Japan. The war was precipitated by the Meiji Restoration and the shogunate's refusal to accept the restoration of imperial rule. The pro-restoration forces, led by figures like Saig\u014d Takamori and Okubo Toshimichi, defeated the shogunate's forces and consolidated the restoration. The war resulted in the final defeat of the shogunate and the establishment of the Meiji government's authority. The war was relatively brief and resulted in relatively few casualties compared to contemporary conflicts in other parts of the world.",
+      "key_figures": [
+        "Saig\u014d Takamori (pro-restoration military leader)",
+        "Okubo Toshimichi (pro-restoration statesman)",
+        "Tokugawa Yoshinobu (last shogun)",
+        "Emperor Meiji"
+      ],
+      "sources": [
+        {
+          "name": "Meiji government records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese government chronicles and official histories",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Western diplomatic correspondence and reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Boshin War is dated to 1868\u201369, with major battles occurring in 1868. The war is definitively documented in Japanese government records and contemporary sources.",
+      "cross_references": [
+        "1868-001 (Meiji Restoration begins)"
+      ]
+    },
+    {
+      "id": "1868-004",
+      "title": "British Empire consolidates control in India; administrative reforms",
+      "region": "India, British Empire, Asia",
+      "coordinates_approx": "20.0, 78.0",
       "category": "political",
-      "description": "On 10 June 1868, Prince Mihailo Obrenovi\u0107 III of Serbia was assassinated in Ko\u0161utnjak park near Belgrade. Mihailo had been a reformist ruler who modernised the Serbian army, secured the withdrawal of Ottoman garrisons from Serbian fortresses (1867), and worked to create a Balkan alliance against the Ottoman Empire. His assassination \u2014 likely orchestrated by supporters of the rival Kara\u0111or\u0111evi\u0107 dynasty \u2014 brought his 14-year-old grand-nephew Milan Obrenovi\u0107 to the throne under a regency. Milan's eventual reign would see Serbian independence recognised at the Congress of Berlin (1878) but also growing political instability.",
+      "description": "In 1868, the British Empire continued consolidating administrative control over India following the 1857\u201358 Indian Rebellion and the formal establishment of the British Raj (direct Crown rule replacing the East India Company). Infrastructure development\u2014railways, telegraphs, roads\u2014continued as part of the colonial modernization project. The Indian Civil Service (ICS) was expanded and professionalized. These reforms reflected both the British desire to rationalize colonial administration and the extraction of resources from India to support British industrial capitalism.",
       "key_figures": [
-        "Mihailo Obrenovi\u0107 III (assassinated Prince of Serbia)",
-        "Milan Obrenovi\u0107 IV (successor)",
-        "Jovan Risti\u0107 (regent)"
+        "Lord Lawrence (Viceroy of India, 1864\u20131869)",
+        "Queen Victoria"
       ],
       "sources": [
         {
-          "name": "Serbian government investigation records into the assassination, 1868",
+          "name": "British India Office records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Holm Sundhaussen, Geschichte Serbiens: 19.\u201321. Jahrhundert (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary British and Indian newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "British administrative reforms in India in 1868 are documented in India Office records; specific events are less detailed.",
+      "cross_references": []
+    },
+    {
+      "id": "1868-005",
+      "title": "Russian Empire consolidates control in Central Asia; conquest of Samarkand and Bukhara",
+      "region": "Russian Empire, Central Asia, Asia",
+      "coordinates_approx": "60.0, 100.0",
+      "category": "military",
+      "description": "In 1868, the Russian Empire conquered Samarkand and Bukhara, major Central Asian cities, consolidating Russian control over Central Asia. These conquests were part of the broader Russian imperial expansion in Central Asia and the 'Great Game' competition with Britain for influence in Asia. The conquest of these cities brought significant territory and population under Russian control and represented a major step in Russian imperial expansion.",
+      "key_figures": [
+        "Tsar Alexander II",
+        "Russian military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Russian government records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Russian and European newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well documented by Serbian state records and diplomatic dispatches. The precise conspiracy behind the assassination remains debated.",
+      "certainty_note": "The conquest of Samarkand and Bukhara in 1868 is documented in Russian military records and contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "1868-006",
+      "title": "British Empire expands in Africa; colonial competition intensifies",
+      "region": "Africa, British Empire",
+      "coordinates_approx": "0.0, 20.0",
+      "category": "political",
+      "description": "In 1868, the British Empire was expanding its control in Africa, particularly in West Africa and Southern Africa. The discovery of diamonds in South Africa (1867) was driving British interest in the region. The British were competing with other European powers (France, Germany, Portugal, Belgium) for control of African territory and resources. This period marked the beginning of the 'Scramble for Africa,' which would accelerate in the 1880s and 1890s.",
+      "key_figures": [
+        "Queen Victoria",
+        "British colonial administrators"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "British colonial expansion in Africa in 1868 is documented in Colonial Office records; specific events vary by region.",
+      "cross_references": []
+    },
+    {
+      "id": "1868-007",
+      "title": "United States Reconstruction Era; Andrew Johnson impeached",
+      "region": "United States, North America",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "political",
+      "description": "In 1868, President Andrew Johnson was impeached by the House of Representatives on 24 February 1868 for violating the Tenure of Office Act. Johnson had attempted to remove Secretary of War Edwin Stanton without Senate approval, which violated the act. The Senate voted on Johnson's conviction on 16 May 1868, falling one vote short of the two-thirds majority needed for conviction. Johnson was acquitted and remained in office. The impeachment was a major political crisis and reflected the conflict between the executive and legislative branches over Reconstruction policy. Johnson's acquittal was controversial and is often seen as a missed opportunity to remove a president who opposed Reconstruction.",
+      "key_figures": [
+        "President Andrew Johnson",
+        "Thaddeus Stevens (Radical Republican)",
+        "Charles Sumner (Radical Republican)",
+        "Edwin Stanton (Secretary of War)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Congressional records and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Impeachment trial records and documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The impeachment date (24 February 1868) and the Senate vote (16 May 1868) are definitively documented in Congressional records.",
       "cross_references": [
-        "1878-CONGRESS_OF_BERLIN"
+        "1868-002 (14th Amendment ratified)"
       ]
     },
     {
-      "id": "1868-021",
-      "title": "Discovery of helium spectral line",
-      "region": "France / United Kingdom (international scientific observation)",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "scientific",
-      "description": "On 18 August 1868, during a total solar eclipse observed from Guntur, India, French astronomer Pierre Janssen detected an unknown bright yellow spectral line in the solar chromosphere. On 20 October, English astronomer Joseph Norman Lockyer independently observed the same line using a new spectroscopic method and concluded it represented an element unknown on Earth. Lockyer and chemist Edward Frankland named it 'helium' from the Greek helios (sun). This was the first chemical element discovered in a celestial body before being found on Earth \u2014 helium would not be isolated terrestrially until 1895.",
+      "id": "1868-008",
+      "title": "Chinese Coolie Trade continues; labor migration to Americas",
+      "region": "China, United States, Canada, Peru, Latin America, Asia-Pacific",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "economic",
+      "description": "In 1868, Chinese labor migration to the Americas continued, with Chinese laborers essential to the construction of the transcontinental railroads in North America, mining operations, and plantation labor in Peru and other Latin American countries. The Burlingame Treaty, signed in 1868 between the United States and China, officially recognized the right of Chinese to emigrate to the United States. However, anti-Chinese sentiment was growing in the United States and Canada, leading to discriminatory legislation.",
       "key_figures": [
-        "Pierre Janssen (French astronomer)",
-        "Joseph Norman Lockyer (English astronomer)",
-        "Edward Frankland (English chemist)"
+        "Chinese laborers and merchants",
+        "American and Canadian railroad companies",
+        "Anson Burlingame (U.S. diplomat)"
       ],
       "sources": [
         {
-          "name": "Janssen's report to the French Academy of Sciences, 1868",
+          "name": "U.S. and Canadian immigration records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lockyer's report to the Royal Society, 1868",
+          "name": "Burlingame Treaty (official text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Proceedings of the Royal Society of London, Vol. 17 (1868\u20131869)",
+          "name": "Chinese government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and journals",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Published scientific papers from both Janssen and Lockyer are extant. The element's identification as a new substance was confirmed but its nature was debated until Ramsay's 1895 isolation.",
+      "certainty_note": "The Burlingame Treaty is definitively documented; Chinese labor migration in 1868 is documented in immigration records.",
+      "cross_references": []
+    },
+    {
+      "id": "1868-009",
+      "title": "Ottoman Empire continues decline; Russo-Turkish tensions rise",
+      "region": "Ottoman Empire, Balkans, Europe, Middle East",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "In 1868, the Ottoman Empire was experiencing continued territorial losses and internal instability. The empire had lost significant territory in the Balkans and North Africa. Nationalist movements in the Balkans were growing, and the empire's inability to effectively modernize or suppress these movements was becoming increasingly apparent. Russian imperial expansion and the rise of Pan-Slavic nationalism were creating tensions with the Ottoman Empire.",
+      "key_figures": [
+        "Sultan Abd\u00fclaziz",
+        "Mehmed Emin \u00c2li Pasha (Grand Vizier)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman government records and official decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic correspondence regarding the Ottoman Empire",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Ottoman and European newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Ottoman decline is well-documented; specific events in 1868 are less detailed.",
+      "cross_references": []
+    },
+    {
+      "id": "1868-010",
+      "title": "British Columbia gold mining continues; economic integration with Canada",
+      "region": "British Columbia, Canada, North America",
+      "coordinates_approx": "53.7, -127.6",
+      "category": "economic",
+      "description": "In 1868, British Columbia was a crown colony of Britain, with gold mining, fur trading, and timber extraction as the primary economic activities. The colony was preparing for entry into Canadian Confederation (which occurred in 1871). The promise of a transcontinental railway (the Canadian Pacific Railway) was a major incentive for joining Confederation. The colony's economic integration with Canada would facilitate resource extraction and trade.",
+      "key_figures": [
+        "Queen Victoria",
+        "British colonial administrators",
+        "Amor De Cosmos (British Columbia politician)"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Columbia colonial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British and Canadian newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "British Columbia's economic status in 1868 is documented in colonial records; specific events are less detailed.",
       "cross_references": [
-        "1895-HELIUM_ISOLATED"
+        "1871-004 (British Columbia joins Canadian Confederation)"
       ]
     },
     {
-      "id": "1868-022",
-      "title": "Lev Tolstoy publishes War and Peace (final serialised parts)",
-      "region": "Russian Empire",
-      "coordinates_approx": "55.76, 37.62",
-      "category": "cultural",
-      "description": "In 1868, the final volumes of Lev Tolstoy's War and Peace were published in the journal Russkiy Vestnik (The Russian Messenger), completing a serialisation that had begun in 1865. The first complete book edition appeared in 1869. The novel, set during Napoleon's invasion of Russia, combined sweeping historical narrative with philosophical meditation on history and free will. Despite initially mixed critical reception in Russia \u2014 some found its genre-defying structure baffling \u2014 it rapidly gained recognition as one of the masterworks of world literature and would profoundly influence the development of the novel as a form.",
+      "id": "1868-011",
+      "title": "Meiji Japan establishes Charter Oath; modernization program outlined",
+      "region": "Japan, Asia",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "political",
+      "description": "In 1868, the Meiji government proclaimed the Charter Oath (Gokajo no Goseimon), which outlined the government's commitment to modernization, the abolition of feudalism, and the adoption of Western knowledge and technology. The Charter Oath was a foundational document for the Meiji Restoration and set the tone for the government's policies. The oath included commitments to establishing a deliberative assembly, promoting the welfare of the people, and seeking knowledge from around the world.",
       "key_figures": [
-        "Lev (Leo) Tolstoy (author)",
-        "Mikhail Katkov (editor of Russkiy Vestnik)"
+        "Emperor Meiji",
+        "Okubo Toshimichi",
+        "Kido Takayoshi"
       ],
       "sources": [
         {
-          "name": "Russkiy Vestnik serialised publication, 1865\u20131869",
+          "name": "Meiji government records and official decrees",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "R.F. Christian, Tolstoy: A Critical Introduction (1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Japanese government archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Japanese chronicles and records",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Publication dates are established from journal and publisher records. The exact completion date of serialisation is debated (some scholars place it in early 1869).",
+      "certainty_note": "The Charter Oath is definitively documented in Japanese government records and contemporary sources.",
+      "cross_references": [
+        "1868-001 (Meiji Restoration begins)"
+      ]
+    },
+    {
+      "id": "1868-012",
+      "title": "Meiji Japan continues military modernization; samurai class abolished",
+      "region": "Japan, Asia",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "military",
+      "description": "In 1868, the Meiji government began its military modernization program, which included the abolition of the samurai class and the introduction of universal male conscription. The samurai, who had dominated Japanese society for centuries, were being replaced by a modern conscript army based on Western models. This transformation was essential to Japan's ability to resist Western imperialism and eventually to become a regional power.",
+      "key_figures": [
+        "Emperor Meiji",
+        "Yamagata Aritomo (military reformer)",
+        "Okubo Toshimichi"
+      ],
+      "sources": [
+        {
+          "name": "Meiji government records and military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese government edicts and official histories",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Military reforms in 1868 are documented in Japanese government records, though specific events may vary.",
+      "cross_references": [
+        "1868-001 (Meiji Restoration begins)"
+      ]
+    },
+    {
+      "id": "1868-013",
+      "title": "German states prepare for unification; North German Confederation established",
+      "region": "German states, Prussia, Europe",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "political",
+      "description": "In 1868, the German states were preparing for formal unification under Prussian leadership. The North German Confederation, established in 1867 following the Austro-Prussian War, was consolidating Prussian dominance over northern Germany. The southern German states remained independent but were increasingly aligned with Prussia. The Franco-Prussian War (1870\u201371) would be the final step in Bismarck's strategy of unification through military victory.",
+      "key_figures": [
+        "Otto von Bismarck (Prussian Chancellor)",
+        "King William I (Prussia)",
+        "German state leaders"
+      ],
+      "sources": [
+        {
+          "name": "Prussian government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary German and European newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "German preparations for unification in 1868 are documented in Prussian records; specific events are part of the broader process.",
+      "cross_references": [
+        "1870-001 (Franco-Prussian War begins)",
+        "1871-001 (German unification proclaimed)"
+      ]
+    },
+    {
+      "id": "1868-014",
+      "title": "Ulysses S. Grant elected U.S. President; Republican dominance continues",
+      "region": "United States, North America",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "political",
+      "description": "On 3 November 1868, Ulysses S. Grant was elected President of the United States, defeating Democrat Horatio Seymour. Grant's election was a victory for the Radical Republicans and ensured the continuation of Reconstruction policies. Grant took office on 4 March 1869. Grant's presidency would be marked by efforts to enforce Reconstruction and protect the rights of freed slaves, though his administration would also be marked by corruption and scandals.",
+      "key_figures": [
+        "Ulysses S. Grant (Republican candidate)",
+        "Horatio Seymour (Democratic candidate)",
+        "Thaddeus Stevens (Radical Republican)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. election records and results",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary American newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Grant's election on 3 November 1868 is definitively documented in official U.S. election records.",
+      "cross_references": [
+        "1869-010 (Grant takes office)"
+      ]
+    },
+    {
+      "id": "1868-015",
+      "title": "British Empire consolidates control in Africa; colonial competition intensifies",
+      "region": "Africa, British Empire",
+      "coordinates_approx": "0.0, 20.0",
+      "category": "political",
+      "description": "In 1868, the British Empire was expanding its control in Africa, particularly in West Africa and Southern Africa. The discovery of diamonds in South Africa (1867) was driving British interest in the region. The British were competing with other European powers (France, Germany, Portugal, Belgium) for control of African territory and resources. This period marked the beginning of the 'Scramble for Africa,' which would accelerate in the 1880s and 1890s.",
+      "key_figures": [
+        "Queen Victoria",
+        "British colonial administrators"
+      ],
+      "sources": [
+        {
+          "name": "British Colonial Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "British colonial expansion in Africa in 1868 is documented in Colonial Office records; specific events vary by region.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "Several commonly cited claims about 1868 require qualification: (1) The Meiji Restoration is often presented as a clean break restoring 'direct imperial rule,' but modern scholarship (especially Beasley and Jansen) emphasises that Emperor Meiji initially had little personal power \u2014 real authority was held by the oligarchs from Satsuma, Ch\u014dsh\u016b, Tosa, and Hizen. The 'restoration' was more accurately an oligarchic revolution using imperial legitimacy. (2) The Treaty of Fort Laramie is sometimes described as a major U.S. concession to Native Americans. While Red Cloud did achieve his war aims, modern scholarship notes that the U.S. government regarded the treaty as a temporary expedient while the transcontinental railroad was completed, and many Lakota leaders (including Sitting Bull and Crazy Horse) never signed and did not consider themselves bound by it. (3) The Fourteenth Amendment's ratification is sometimes presented straightforwardly, but historians note that several Southern states ratified only under duress \u2014 their governments had been reconstituted under Reconstruction Acts and ratification was a condition for readmission. Some scholars question whether this constitutes genuine ratification, though the legal validity has never been successfully challenged. (4) The 1868 Arica earthquake casualty figures vary enormously across sources, from 25,000 to over 70,000, reflecting the poor state of demographic records in the affected region.",
-  "historiographic_note": "The year 1868 is richly documented across most regions covered, with extensive primary sources including government archives, diplomatic correspondence, press coverage, scientific publications, and personal papers. However, significant biases shape the record: the Meiji Restoration is filtered primarily through the victors' accounts (Satsuma-Ch\u014dsh\u016b perspectives dominate early Japanese historiography); the British expedition to Abyssinia is overwhelmingly documented from the British side, with Ethiopian perspectives reconstructed largely from later oral traditions and the work of Ethiopian scholars; the Cuban insurrection is heavily documented by Spanish colonial sources, with insurgent perspectives harder to reconstruct; and events in sub-Saharan Africa, Central Asia, and Southeast Asia are disproportionately filtered through European colonial observation. Indigenous and non-elite perspectives are systematically underrepresented across all regions.",
+  "disconfirming_evidence": "The Meiji Restoration is often portrayed as a smooth, inevitable modernization, but it involved significant social disruption, the displacement of the samurai class, and the imposition of Western models that were not always appropriate to Japanese conditions. The Boshin War is sometimes minimized in historical accounts, but it was a significant conflict that resulted in thousands of deaths and represented a major transformation of Japanese society. The 14th Amendment is often celebrated as a triumph of civil rights, but its protections were quickly undermined by Southern states through various mechanisms, and it took nearly a century for the amendment's promise to be realized. Andrew Johnson's acquittal in the impeachment trial is sometimes presented as a triumph of constitutional checks and balances, but it is also seen by many historians as a missed opportunity to remove a president who opposed Reconstruction and contributed to the failure of Reconstruction policies.",
+  "historiographic_note": "1868 is well-documented due to the prevalence of newspapers, government records, and contemporary accounts. The documentation is heavily weighted toward Europe and North America, with less detailed coverage of Asia, Africa, and the Middle East. The Meiji Restoration is extensively documented in Japanese sources, but these sources were often written retrospectively to justify the government's policies. The sources reflect the perspectives of the dominant powers and often omit or minimize the perspectives of colonized peoples and marginalized groups. The Boshin War is documented in Japanese military records and contemporary sources, but the perspectives of ordinary soldiers and civilians are often mediated through official accounts. The documentation of British colonial expansion in India and Africa reflects the colonial perspective and often omits the perspectives of colonized peoples.",
   "graph_edges": [
     {
       "from": "1868-001",
-      "to": "1867-TOKUGAWA_RESIGNATION",
-      "relation": "caused_by",
-      "note": "The Meiji Restoration proclamation followed Tokugawa Yoshinobu's formal resignation of the shogunal office in November 1867"
+      "to": "1868-003",
+      "relation": "led_to",
+      "note": "The Meiji Restoration led to the Boshin War, as pro-restoration forces defeated the shogunate."
     },
     {
       "from": "1868-002",
-      "to": "1868-001",
-      "relation": "caused_by",
-      "note": "The Battle of Toba-Fushimi was the military consequence of the Restoration proclamation, as Tokugawa forces attempted to reverse the political coup"
-    },
-    {
-      "from": "1868-003",
-      "to": "1868-002",
-      "relation": "caused_by",
-      "note": "The fall of Edo followed directly from the Tokugawa military defeat at Toba-Fushimi"
-    },
-    {
-      "from": "1868-004",
-      "to": "1865-JOHNSON_PRESIDENCY",
-      "relation": "caused_by",
-      "note": "Johnson's impeachment was the culmination of conflict between the president and Congress over Reconstruction policy since 1865"
-    },
-    {
-      "from": "1868-005",
-      "to": "1870-015TH_AMENDMENT",
+      "to": "1870-002",
       "relation": "led_to",
-      "note": "The Fourteenth Amendment's citizenship and equal protection clauses were supplemented by the Fifteenth Amendment's voting rights guarantees"
-    },
-    {
-      "from": "1868-006",
-      "to": "1872-YOHANNES_IV_EMPEROR",
-      "relation": "led_to",
-      "note": "The death of Tewodros II at Magdala triggered an Ethiopian succession crisis eventually won by Yohannes IV"
+      "note": "The 14th Amendment ratified in 1868 was followed by the 15th Amendment in 1870, extending voting rights."
     },
     {
       "from": "1868-007",
-      "to": "1873-FIRST_SPANISH_REPUBLIC",
+      "to": "1869-010",
       "relation": "led_to",
-      "note": "The Glorious Revolution initiated the Democratic Sexennium that culminated in the First Spanish Republic"
+      "note": "Johnson's acquittal in the impeachment trial in 1868 set the stage for Grant's election and inauguration in 1869."
     },
     {
-      "from": "1868-008",
-      "to": "1895-CUBAN_WAR_INDEPENDENCE",
+      "from": "1868-014",
+      "to": "1869-010",
       "relation": "led_to",
-      "note": "The Ten Years' War established the Cuban nationalist movement that reignited in 1895"
-    },
-    {
-      "from": "1868-009",
-      "to": "1868-005",
-      "relation": "caused_by",
-      "note": "Grant's election was partly driven by support from newly enfranchised Black voters under the Fourteenth Amendment's citizenship provisions"
-    },
-    {
-      "from": "1868-010",
-      "to": "1876-LITTLE_BIGHORN",
-      "relation": "led_to",
-      "note": "U.S. violations of the Treaty of Fort Laramie, particularly the Black Hills gold rush, led directly to the Great Sioux War of 1876"
-    },
-    {
-      "from": "1868-011",
-      "to": "1882-CHINESE_EXCLUSION_ACT",
-      "relation": "led_to",
-      "note": "The Burlingame Treaty's free migration provisions were repudiated by the Chinese Exclusion Act just 14 years later"
-    },
-    {
-      "from": "1868-015",
-      "to": "1889-MEIJI_CONSTITUTION",
-      "relation": "led_to",
-      "note": "The Charter Oath's promise of deliberative assemblies was eventually fulfilled \u2014 in limited form \u2014 by the 1889 Meiji Constitution"
-    },
-    {
-      "from": "1868-018",
-      "to": "1864-TAIPING_END",
-      "relation": "caused_by",
-      "note": "The Nian Rebellion's suppression was enabled by Qing forces freed up after the Taiping Rebellion's defeat in 1864"
-    },
-    {
-      "from": "1868-019",
-      "to": "1893-FRANCO_SIAMESE_WAR",
-      "relation": "led_to",
-      "note": "Chulalongkorn's modernisation programme was partly driven by the need to resist French colonial encroachment, tested in the 1893 crisis"
-    },
-    {
-      "from": "1868-021",
-      "to": "1895-HELIUM_ISOLATED",
-      "relation": "led_to",
-      "note": "The 1868 spectroscopic discovery of helium in the sun was confirmed when Ramsay isolated it terrestrially in 1895"
+      "note": "Grant's election in 1868 led to his inauguration and the beginning of his presidency in 1869."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:16:52.704101",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

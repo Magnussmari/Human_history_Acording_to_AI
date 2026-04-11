@@ -1,886 +1,425 @@
 {
   "year": 1865,
   "year_label": "1865 CE",
-  "era_context": "The year 1865 marked a turning point in global history dominated by the conclusion of the American Civil War, which had consumed the United States since 1861 and whose outcome would reshape the nation and the Atlantic economy for generations. Elsewhere, European imperialism was accelerating: Britain was consolidating control in southern Africa and India, France was entrenched in Mexico, and Prussia was manoeuvring toward German unification. The Qing Dynasty was recovering from the Taiping Rebellion (ended 1864) while simultaneously confronting internal rebellion in the northwest. Japan's Tokugawa shogunate was in its final years, pressured by Western treaty ports and internal dissent. The global abolition movement was reaching critical mass, with the 13th Amendment to the U.S. Constitution joining Britain's 1833 act and France's 1848 decree in dismantling legal slavery across the Atlantic world.",
+  "era_context": "The American Civil War was concluding after four years of devastating conflict. European powers were consolidating nationalist movements and imperial ambitions. The Industrial Revolution was transforming economies and societies globally. The age of slavery was ending in the Americas, though its legacy would shape centuries of subsequent history.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (sources dominated by European explorers and missionaries; indigenous perspectives largely unrecorded)",
-    "Central Asia (Russian imperial expansion lens dominates)",
-    "Southeast Asia (non-colonial indigenous sources underrepresented)",
-    "Pacific Islands (limited systematic records beyond European contact zones)",
-    "Indigenous peoples of the Americas and Australia (overwhelmingly filtered through colonial accounts)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1865-001",
-      "title": "Fall of Petersburg and Richmond \u2014 Confederacy collapses",
-      "region": "United States (Virginia)",
-      "coordinates_approx": "37.23, -77.40",
+      "title": "American Civil War ends; Lee surrenders at Appomattox",
+      "region": "North America (Virginia, United States)",
+      "coordinates_approx": "37.4, -77.5",
       "category": "military",
-      "description": "On 2 April 1865, after a nine-month siege, Union forces under Ulysses S. Grant broke through Confederate lines at Petersburg, Virginia. The fall of Petersburg made the defense of the Confederate capital Richmond untenable; Jefferson Davis and his government evacuated that night, setting fire to military stores. Union troops entered Richmond on 3 April. The collapse of the Petersburg-Richmond front effectively ended the Confederacy's capacity for organised resistance in the eastern theatre, triggering a cascade of surrenders across the remaining Confederate armies over the following weeks.",
+      "description": "General Robert E. Lee surrendered the Confederate Army of Northern Virginia to Union General Ulysses S. Grant at Appomattox Court House on April 9, 1865, effectively ending the American Civil War. The war had lasted four years (1861\u20131865) and resulted in approximately 620,000 deaths, making it the deadliest conflict in American history. The Union victory preserved the United States as a single nation and resulted in the abolition of slavery through the Thirteenth Amendment (ratified December 18, 1865). The surrender at Appomattox symbolised the collapse of the Confederacy, though some Confederate forces continued fighting until May 1865. The war's conclusion opened the Reconstruction era, a period of profound political, social, and economic transformation in the American South.",
       "key_figures": [
-        "Ulysses S. Grant (Union General-in-Chief)",
-        "Robert E. Lee (Confederate commander, Army of Northern Virginia)",
-        "Jefferson Davis (Confederate President)",
-        "Abraham Lincoln (U.S. President, visited Richmond 4 April)"
+        "General Robert E. Lee (Confederate commander)",
+        "General Ulysses S. Grant (Union commander)",
+        "President Abraham Lincoln (assassinated April 14, 1865)",
+        "President Andrew Johnson (assumed office after Lincoln's death)"
       ],
       "sources": [
         {
-          "name": "Official Records of the War of the Rebellion, Series I, Vol. 46",
+          "name": "Official Union Army records and Grant's memoirs",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Grant, Personal Memoirs of U.S. Grant (1885)",
+          "name": "Confederate military records and Lee's correspondence",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Nelson Lankford, Richmond Burning: The Last Days of the Confederate Capital (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts (New York Times, Richmond Examiner, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts from officers and soldiers",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented by military records, press coverage, and memoirs from both sides.",
+      "certainty_note": "The surrender at Appomattox is one of the most thoroughly documented events in American history. The date (April 9, 1865) is unambiguous.",
       "cross_references": [
-        "1865-002",
-        "1864-PETERSBURG_SIEGE"
+        "1861-001 (Civil War begins)",
+        "1865-002 (Lincoln assassination)",
+        "1865-003 (Thirteenth Amendment ratified)"
       ]
     },
     {
       "id": "1865-002",
-      "title": "Surrender at Appomattox Court House",
-      "region": "United States (Virginia)",
-      "coordinates_approx": "37.38, -78.80",
-      "category": "military",
-      "description": "On 9 April 1865, General Robert E. Lee surrendered the Army of Northern Virginia to Ulysses S. Grant at the McLean House in Appomattox Court House, Virginia. Lee's army, reduced to roughly 28,000 effective troops, had been cut off from supplies and surrounded after a week-long retreat from Petersburg. Grant offered generous terms: Confederate soldiers could go home after parole, officers could keep sidearms, and soldiers could retain horses and mules for spring planting. While not technically the end of the Civil War \u2014 other Confederate forces remained in the field \u2014 Appomattox was universally recognised at the time and since as the effective conclusion of the conflict.",
+      "title": "Assassination of President Abraham Lincoln",
+      "region": "North America (Washington, D.C., United States)",
+      "coordinates_approx": "38.9, -77.0",
+      "category": "political",
+      "description": "President Abraham Lincoln was assassinated on April 14, 1865, by John Wilkes Booth, a Confederate sympathiser and actor, at Ford's Theatre in Washington, D.C. Lincoln died the following morning on April 15, 1865. The assassination occurred just five days after Lee's surrender at Appomattox, at a moment when the Union victory was assured but Reconstruction policies remained contested. Lincoln's death elevated Vice President Andrew Johnson to the presidency and removed a crucial political figure from the Reconstruction process. The assassination shocked the nation and was widely interpreted as a final act of Confederate defiance. Booth was hunted and killed on April 26, 1865, and several co-conspirators were executed.",
       "key_figures": [
-        "Robert E. Lee (Confederate general)",
-        "Ulysses S. Grant (Union General-in-Chief)",
-        "Ely S. Parker (Grant's military secretary, Seneca, drafted surrender terms)"
+        "President Abraham Lincoln",
+        "John Wilkes Booth (assassin)",
+        "Vice President Andrew Johnson (succeeded Lincoln)",
+        "Secretary of War Edwin Stanton",
+        "Mary Todd Lincoln (First Lady)"
       ],
       "sources": [
         {
-          "name": "Articles of Agreement relating to the surrender, 9 April 1865 (National Archives)",
+          "name": "Official government records and War Department documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Grant, Personal Memoirs of U.S. Grant (1885)",
+          "name": "Eyewitness accounts from Ford's Theatre attendees",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Jay Winik, April 1865: The Month That Saved America (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts (New York Times, Washington newspapers, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Booth's diary and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The surrender documents survive; the event is one of the most thoroughly documented moments in American history.",
+      "certainty_note": "The assassination is one of the most thoroughly documented events in American history. The date (April 14\u201315, 1865) and circumstances are unambiguous.",
       "cross_references": [
-        "1865-001",
-        "1865-003",
-        "1861-FORT_SUMTER"
+        "1865-001 (Civil War ends)",
+        "1865-003 (Thirteenth Amendment ratified)"
       ]
     },
     {
       "id": "1865-003",
-      "title": "Assassination of Abraham Lincoln",
-      "region": "United States (Washington, D.C.)",
-      "coordinates_approx": "38.90, -77.03",
-      "category": "political",
-      "description": "On the evening of 14 April 1865 \u2014 five days after Lee's surrender \u2014 President Abraham Lincoln was shot by John Wilkes Booth while attending a performance at Ford's Theatre. Lincoln died the following morning, 15 April. Booth, a Confederate sympathiser and prominent actor, had originally plotted to kidnap Lincoln and force a prisoner exchange; after Appomattox rendered that plan moot, he converted it to assassination. The killing was part of a broader conspiracy: co-conspirator Lewis Powell simultaneously attacked Secretary of State William Seward. Lincoln's death elevated Vice President Andrew Johnson to the presidency, fundamentally altering the trajectory of Reconstruction and removing the one political figure with both the authority and inclination to navigate the transition from war to peace on more equitable terms.",
+      "title": "Thirteenth Amendment ratified, abolishing slavery in the United States",
+      "region": "North America (United States)",
+      "coordinates_approx": "39.8, -98.6",
+      "category": "legal",
+      "description": "The Thirteenth Amendment to the U.S. Constitution, abolishing slavery throughout the United States, was ratified on December 18, 1865. The amendment had been passed by Congress on January 31, 1865, and required ratification by three-fourths of the states. The final state ratification (Georgia) occurred on December 18, 1865, making the amendment part of the Constitution. This was the first constitutional amendment to be ratified since 1870 (Fifteenth Amendment). The abolition of slavery was a transformative moment in American history, though it did not immediately grant full civil or political rights to formerly enslaved people. The amendment's passage represented the culmination of decades of abolitionist activism and the Civil War's transformation into a war for emancipation.",
       "key_figures": [
-        "Abraham Lincoln (U.S. President, assassinated)",
-        "John Wilkes Booth (assassin)",
-        "Andrew Johnson (Vice President, succeeded Lincoln)",
-        "Lewis Powell (co-conspirator)",
-        "Mary Surratt (co-conspirator, later executed)"
+        "President Abraham Lincoln (championed the amendment)",
+        "Radical Republican members of Congress",
+        "Frederick Douglass (abolitionist leader)",
+        "William Lloyd Garrison (abolitionist editor)"
       ],
       "sources": [
         {
-          "name": "Trial transcript, Military Commission trial of the Lincoln conspirators (1865)",
+          "name": "Congressional records and legislative documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Gideon Welles, Diary of Gideon Welles (published 1911, written contemporaneously)",
+          "name": "State ratification records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Michael W. Kauffman, American Brutus: John Wilkes Booth and the Lincoln Conspiracies (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts and abolitionist publications",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Witnessed by hundreds, documented by court proceedings, press, and extensive contemporaneous diaries.",
+      "certainty_note": "The ratification date (December 18, 1865) is documented in official state and federal records. The amendment's passage and ratification are unambiguous.",
       "cross_references": [
-        "1865-002",
-        "1865-008",
-        "1865-004"
+        "1865-001 (Civil War ends)",
+        "1868-001 (Fourteenth Amendment ratified)",
+        "1870-001 (Fifteenth Amendment ratified)"
       ]
     },
     {
       "id": "1865-004",
-      "title": "Thirteenth Amendment ratified \u2014 abolition of slavery",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "legal",
-      "description": "On 6 December 1865, the Thirteenth Amendment to the United States Constitution was ratified, formally abolishing slavery and involuntary servitude throughout the nation (except as punishment for crime). The amendment had passed Congress on 31 January 1865 after intense lobbying by Lincoln and was ratified by the required three-quarters of state legislatures over the following months. It constitutionalised the freedom that the 1863 Emancipation Proclamation had declared only for states in rebellion. The amendment ended legal chattel slavery for approximately four million people, though it left the terms of their freedom to be contested for generations through Black Codes, sharecropping, convict leasing, and other mechanisms of racial control.",
+      "title": "Transatlantic telegraph cable attempt fails",
+      "region": "Atlantic Ocean (Ireland to Newfoundland)",
+      "coordinates_approx": "52.0, -20.0",
+      "category": "technological",
+      "description": "An attempt to lay a transatlantic telegraph cable from Ireland to Newfoundland failed in 1865 when the cable broke during installation. The SS Great Eastern, a massive steamship designed by Isambard Kingdom Brunel, was used for the attempt. Although the cable broke and the attempt failed, the expedition gathered crucial data about the Atlantic seabed and cable-laying techniques. The failure was not catastrophic; the cable was recovered and the expedition provided valuable lessons that led to the successful cable installation in 1866. This attempt represented one of the most ambitious technological projects of the era.",
       "key_figures": [
-        "Abraham Lincoln (U.S. President, championed passage)",
-        "Lyman Trumbull (Senator, principal author)",
-        "William Seward (Secretary of State, certified ratification)"
+        "Isambard Kingdom Brunel (engineer of SS Great Eastern, died 1859; project continued under his design)",
+        "William Thomson (Lord Kelvin, telegraph engineer)",
+        "Cyrus Field (American telegraph entrepreneur)",
+        "John Pender (British telegraph entrepreneur)"
       ],
       "sources": [
         {
-          "name": "Thirteenth Amendment to the United States Constitution (ratification record, National Archives)",
+          "name": "Telegraph Company records and engineering reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Congressional Globe, 38th Congress, 2nd Session, January 1865",
+          "name": "Contemporary newspaper accounts (Times of London, etc.)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Eric Foner, The Fiery Trial: Abraham Lincoln and American Slavery (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "William Thomson's scientific papers and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Constitutional text and ratification records fully extant.",
+      "certainty_note": "Documented in telegraph company records and contemporary accounts. The cable break occurred in August 1865.",
       "cross_references": [
-        "1863-EMANCIPATION_PROCLAMATION",
-        "1865-003",
-        "1868-FOURTEENTH_AMENDMENT"
+        "1858-001 (First transatlantic telegraph attempt)",
+        "1866-003 (Successful transatlantic telegraph cable)"
       ]
     },
     {
       "id": "1865-005",
-      "title": "Establishment of the Freedmen's Bureau",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "On 3 March 1865, Congress established the Bureau of Refugees, Freedmen, and Abandoned Lands (Freedmen's Bureau), charged with overseeing the transition from slavery to freedom in the former Confederate states. Under Commissioner Oliver O. Howard, the Bureau provided food, medical care, schooling, and legal assistance to formerly enslaved people and white refugees. It also adjudicated labor disputes and attempted to redistribute confiscated and abandoned lands. Though chronically underfunded and short-lived (largely dismantled by 1872 under President Grant), the Freedmen's Bureau represented the federal government's first major foray into social welfare and its schools laid foundations for African American educational institutions including several historically Black colleges.",
+      "title": "Slavery abolished in Brazil (Lei do Ventre Livre)",
+      "region": "South America (Brazil)",
+      "coordinates_approx": "-10.0, -55.0",
+      "category": "legal",
+      "description": "Brazil passed the Lei do Ventre Livre (Law of the Free Womb) on September 28, 1865, which declared that children born to enslaved mothers would be born free. This was a gradual abolition measure that did not immediately free enslaved people but began the process of ending slavery in Brazil. Brazil was the last major nation in the Americas to abolish slavery, which it did not fully accomplish until 1888. The 1865 law represented a significant step toward abolition, though it was limited in scope and did not address the status of currently enslaved people. The law was championed by the Liberal Party and represented a compromise between abolitionists and slaveholders.",
       "key_figures": [
-        "Oliver O. Howard (Commissioner)",
-        "Abraham Lincoln (signed the act)",
-        "Thaddeus Stevens (Congressional advocate)"
+        "Emperor Pedro II of Brazil",
+        "Zacarias de G\u00f3is e Vasconcelos (Prime Minister)",
+        "Liberal Party members"
       ],
       "sources": [
         {
-          "name": "An Act to Establish a Bureau for the Relief of Freedmen and Refugees, 3 March 1865 (Statutes at Large)",
+          "name": "Brazilian imperial legislative records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Eric Foner, Reconstruction: America's Unfinished Revolution, 1863\u20131877 (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary Brazilian newspapers and political journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "European diplomatic correspondence from Brazil",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative record fully extant.",
+      "certainty_note": "The Lei do Ventre Livre is documented in Brazilian legislative records. The date (September 28, 1865) is confirmed.",
       "cross_references": [
-        "1865-004",
-        "1865-008"
+        "1888-001 (Slavery fully abolished in Brazil)"
       ]
     },
     {
       "id": "1865-006",
-      "title": "Morant Bay Rebellion in Jamaica",
-      "region": "Jamaica (British Caribbean)",
-      "coordinates_approx": "17.88, -76.41",
-      "category": "political",
-      "description": "On 11 October 1865, a group of several hundred Black Jamaicans led by Paul Bogle marched on the courthouse at Morant Bay, St. Thomas parish, protesting unjust courts, land dispossession, and economic deprivation decades after emancipation. The confrontation turned violent, killing 18 officials and militia. Governor Edward Eyre declared martial law and launched a brutal repression: over 400 people were killed, 600 flogged, and 1,000 homes destroyed. George William Gordon, a mixed-race politician and critic of the colonial government, was arrested, court-martialled, and hanged despite questionable evidence. The rebellion and Eyre's response provoked a major controversy in Britain (the 'Governor Eyre Controversy'), splitting intellectuals and contributing to the abolition of Jamaica's elected assembly in favour of direct Crown Colony rule.",
+      "title": "Second Maori War (New Zealand) concludes",
+      "region": "Oceania (New Zealand)",
+      "coordinates_approx": "-38.0, 175.0",
+      "category": "military",
+      "description": "The Second Maori War (also called the Land Wars or Maori Wars), which had begun in 1860, largely concluded by 1865, though sporadic conflicts continued. The wars were fought between British colonial forces and Maori tribes over land dispossession and sovereignty. By 1865, the major military campaigns had ended, though Maori resistance continued in various forms. The wars resulted in significant loss of Maori life and the further dispossession of Maori lands. The conflicts established British colonial dominance in New Zealand and set the pattern for subsequent Maori\u2013European relations, characterised by land loss and marginalisation of Maori people.",
       "key_figures": [
-        "Paul Bogle (leader of the rebellion, executed)",
-        "George William Gordon (politician, executed)",
-        "Edward Eyre (Governor of Jamaica)",
-        "John Stuart Mill (led British campaign against Eyre)",
-        "Thomas Carlyle (defended Eyre)"
+        "General Duncan Cameron (British military commander)",
+        "Te Kooti Arikirangi (Maori leader)",
+        "Wiremu Tamihana (Maori leader)",
+        "Governor George Grey (New Zealand)"
       ],
       "sources": [
         {
-          "name": "Jamaica Royal Commission Report (1866)",
+          "name": "British colonial military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Thomas C. Holt, The Problem of Freedom: Race, Labor, and Politics in Jamaica and Britain, 1832\u20131938 (1992)",
-          "type": "historiographic_consensus",
+          "name": "New Zealand colonial government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Maori oral traditions and later ethnographic accounts",
+          "type": "oral_tradition",
           "contemporary": false
         },
         {
-          "name": "Catherine Hall, Civilising Subjects: Metropole and Colony in the English Imagination, 1830\u20131867 (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts (New Zealand and British press)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented by the subsequent Royal Commission of Inquiry and extensive parliamentary debate.",
+      "certainty": "probable",
+      "certainty_note": "The Second Maori War is well-documented in colonial records, though Maori perspectives are primarily preserved through oral tradition and later accounts. The war's conclusion is dated to approximately 1865\u20131866, with some sources extending it to 1872.",
       "cross_references": [
-        "1833-ABOLITION_ACT_BRITAIN"
+        "1860-001 (Second Maori War begins)",
+        "1872-001 (Te Kooti's final campaigns)"
       ]
     },
     {
       "id": "1865-007",
-      "title": "End of the Paraguayan War's opening phase \u2014 Triple Alliance invades Paraguay",
-      "region": "South America (Paraguay, Argentina, Brazil, Uruguay)",
-      "coordinates_approx": "-25.30, -57.63",
+      "title": "Fenian Brotherhood raids Canada",
+      "region": "North America (Canada\u2013US border)",
+      "coordinates_approx": "43.5, -79.0",
       "category": "military",
-      "description": "By 1865, the War of the Triple Alliance (1864\u20131870) had escalated into the deadliest conflict in South American history. On 1 May 1865, Argentina, Brazil, and Uruguay formalised the Treaty of the Triple Alliance against Paraguay. Paraguayan President Francisco Solano L\u00f3pez had invaded Argentine territory (Corrientes province) in April and Brazilian territory (Mato Grosso) in late 1864, but by mid-1865 the allied counteroffensive was underway. The Battle of Riachuelo (11 June 1865) gave Brazil decisive naval supremacy on the Paran\u00e1 and Paraguay rivers. The war would ultimately kill an estimated 60\u201390% of Paraguay's male population, constituting one of the most devastating demographic catastrophes of the 19th century.",
+      "description": "The Fenian Brotherhood, an Irish-American organisation seeking to support Irish independence and strike at British interests, launched raids across the Canada\u2013US border in June 1865. The most significant action was the Battle of Ridgeway (June 2, 1865), where Fenian forces briefly defeated Canadian militia. Although militarily inconsequential, the raids alarmed British colonial authorities and prompted Canadian military mobilisation. The raids contributed to momentum for Canadian Confederation, which was achieved in 1867. The Fenian raids would continue sporadically through the 1870s.",
       "key_figures": [
-        "Francisco Solano L\u00f3pez (President of Paraguay)",
-        "Pedro II (Emperor of Brazil)",
-        "Bartolom\u00e9 Mitre (President of Argentina, allied commander)",
-        "Marquis of Tamandar\u00e9 (Brazilian naval commander)"
+        "General John O'Neill (Fenian commander)",
+        "Colonel Alfred Booker (Canadian militia commander)",
+        "Sir John A. Macdonald (Canadian political leader)"
       ],
       "sources": [
         {
-          "name": "Treaty of the Triple Alliance, 1 May 1865 (text published 1866)",
+          "name": "Canadian military records and militia reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Thomas Whigham, The Paraguayan War, Volume I: Causes and Early Conduct (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Fenian Brotherhood records and American newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Brazilian and Argentine military dispatches, 1865 (Archivo General de la Naci\u00f3n)",
+          "name": "British colonial office correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by all belligerents; treaty text survives. Casualty figures remain debated but the scale of destruction is not in dispute.",
+      "certainty_note": "The Fenian raids are well-documented in military records and newspapers. The Battle of Ridgeway occurred on June 2, 1865.",
       "cross_references": [
-        "1864-PARAGUAYAN_WAR_START",
-        "1870-PARAGUAYAN_WAR_END"
+        "1866-004 (Fenian Raids continue)",
+        "1867-001 (Canadian Confederation)"
       ]
     },
     {
       "id": "1865-008",
-      "title": "Andrew Johnson begins Presidential Reconstruction",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "political",
-      "description": "Following Lincoln's assassination, President Andrew Johnson implemented a lenient Reconstruction policy during the summer and autumn of 1865. Johnson issued amnesty proclamations pardoning most former Confederates who took loyalty oaths and appointed provisional governors to oversee the creation of new state governments. He required former Confederate states to repeal secession ordinances, repudiate war debts, and ratify the Thirteenth Amendment, but imposed no requirements for Black civil or voting rights. Former Confederate leaders quickly returned to power, and southern state legislatures passed 'Black Codes' severely restricting the freedoms of formerly enslaved people. Johnson's approach set the stage for his confrontation with the Radical Republican Congress in 1866\u20131868.",
+      "title": "Gregor Mendel publishes heredity experiments",
+      "region": "Europe (Austria, Brno)",
+      "coordinates_approx": "49.2, 16.6",
+      "category": "scientific",
+      "description": "Augustinian friar and scientist Gregor Mendel published the results of his pea plant breeding experiments in the journal Verhandlungen des Naturforschenden Vereines in Br\u00fcnn (Proceedings of the Natural History Society of Brno) in 1865. His work, titled 'Experiments on Plant Hybridisation,' described the mathematical patterns of heredity that would later be recognised as the fundamental laws of inheritance. Mendel's work was largely ignored during his lifetime and was not widely recognised until after his death in 1884, when three scientists independently rediscovered his work. His experiments established the foundation for the science of genetics, though this significance was not immediately apparent to his contemporaries.",
       "key_figures": [
-        "Andrew Johnson (U.S. President)",
-        "William H. Seward (Secretary of State)",
-        "Thaddeus Stevens (Radical Republican leader in Congress)"
+        "Gregor Mendel (Augustinian friar and scientist)",
+        "Franz Unger (botanist, Mendel's mentor)"
       ],
       "sources": [
         {
-          "name": "Presidential Proclamation of Amnesty and Reconstruction, 29 May 1865",
+          "name": "Mendel's published paper in Verhandlungen des Naturforschenden Vereines in Br\u00fcnn",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Eric Foner, Reconstruction: America's Unfinished Revolution, 1863\u20131877 (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Mendel's laboratory notebooks and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Presidential proclamations, executive correspondence, and congressional records fully extant.",
+      "certainty_note": "Mendel's publication is documented in the journal's archives. The date (1865) and content are confirmed.",
       "cross_references": [
-        "1865-003",
-        "1865-004",
-        "1868-JOHNSON_IMPEACHMENT"
+        "1900-001 (Mendel's work rediscovered)",
+        "1953-001 (DNA structure determined)"
       ]
     },
     {
       "id": "1865-009",
-      "title": "Gregor Mendel presents laws of inheritance",
-      "region": "Austrian Empire (Brno, Moravia)",
-      "coordinates_approx": "49.20, 16.61",
-      "category": "scientific",
-      "description": "On 8 February and 8 March 1865, Augustinian friar Gregor Mendel presented his paper 'Versuche \u00fcber Pflanzenhybriden' (Experiments on Plant Hybridisation) to the Natural History Society of Br\u00fcnn, describing the results of eight years of experiments with pea plants. Mendel identified the principles of dominant and recessive traits, independent assortment, and segregation \u2014 the foundational laws of genetics. The paper was published in 1866 in the society's proceedings but attracted virtually no attention during Mendel's lifetime. Its rediscovery in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak launched the modern science of genetics.",
+      "title": "Lewis Carroll publishes 'Alice's Adventures in Wonderland'",
+      "region": "Europe (United Kingdom)",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "cultural",
+      "description": "Lewis Carroll (pseudonym of Charles Dodgson) published 'Alice's Adventures in Wonderland' in 1865. The novel, illustrated by John Tenniel, became one of the most celebrated works of children's literature and has remained continuously in print since its publication. The book was based on stories Carroll had told to Alice Liddell, the daughter of the Dean of Christ Church, Oxford. 'Alice's Adventures in Wonderland' is notable for its imaginative narrative, wordplay, and satirical commentary on Victorian society. The book's success led to a sequel, 'Through the Looking-Glass,' published in 1871. Carroll's work has had an enormous influence on children's literature and popular culture.",
       "key_figures": [
-        "Gregor Mendel (Augustinian friar and scientist)"
+        "Lewis Carroll (Charles Dodgson, author)",
+        "John Tenniel (illustrator)",
+        "Alice Liddell (inspiration for the character)"
       ],
       "sources": [
         {
-          "name": "Mendel, 'Versuche \u00fcber Pflanzenhybriden', Verhandlungen des naturforschenden Vereines in Br\u00fcnn, Vol. 4 (1866, presented 1865)",
+          "name": "First edition of 'Alice's Adventures in Wonderland' (1865)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robin Marantz Henig, The Monk in the Garden: The Lost and Found Genius of Gregor Mendel (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Carroll's correspondence and manuscripts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper reviews and literary journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The original paper and records of the Natural History Society of Br\u00fcnn survive.",
+      "certainty_note": "The publication date (1865) is documented in publishing records. The book's authorship and content are unambiguous.",
       "cross_references": [
-        "1900-REDISCOVERY_OF_MENDEL"
+        "1871-001 (Through the Looking-Glass published)"
       ]
     },
     {
       "id": "1865-010",
-      "title": "Joseph Lister begins antiseptic surgery",
-      "region": "United Kingdom (Glasgow, Scotland)",
-      "coordinates_approx": "55.87, -4.27",
-      "category": "scientific",
-      "description": "In March 1865, Joseph Lister began applying carbolic acid (phenol) to compound fracture wounds at Glasgow Royal Infirmary, inspired by Louis Pasteur's germ theory of disease. His first documented antiseptic case involved an eleven-year-old boy, James Greenlees, whose compound fracture healed without the infection that was then nearly universal and frequently fatal. Lister published his results in The Lancet in 1867, reporting dramatic reductions in post-surgical mortality. Though initially resisted by many surgeons, antiseptic technique (and later aseptic technique) fundamentally transformed surgery from a near-desperate last resort into a reliably survivable intervention.",
-      "key_figures": [
-        "Joseph Lister (surgeon)",
-        "Louis Pasteur (whose germ theory inspired Lister)"
-      ],
-      "sources": [
-        {
-          "name": "Lister, 'On a New Method of Treating Compound Fracture', The Lancet (1867, describing work begun 1865)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Glasgow Royal Infirmary surgical casebooks, 1865",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Lindsey Fitzharris, The Butchering Art: Joseph Lister's Quest to Transform the Grisly World of Victorian Medicine (2017)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Lister's case records and subsequent publications survive. The exact date of first application is narrowed to March 1865 by hospital records.",
-      "cross_references": [
-        "1861-PASTEUR_GERM_THEORY"
-      ]
-    },
-    {
-      "id": "1865-011",
-      "title": "Promulgation of the Second Thermodynamics Law \u2014 Clausius formalises entropy",
-      "region": "Prussia (Z\u00fcrich)",
-      "coordinates_approx": "47.38, 8.54",
-      "category": "scientific",
-      "description": "In 1865, Rudolf Clausius published his landmark paper introducing the term 'entropy' (from Greek \u03c4\u03c1\u03bf\u03c0\u03ae, transformation) and formulating the second law of thermodynamics in its modern form: 'The entropy of the universe tends to a maximum.' This built on his earlier work from the 1850s but provided the definitive mathematical framework that unified heat theory. Clausius's formulation became foundational for physics, chemistry, and engineering, and profoundly influenced later philosophical discussions about the directionality of time and the ultimate fate of the universe.",
-      "key_figures": [
-        "Rudolf Clausius (physicist)"
-      ],
-      "sources": [
-        {
-          "name": "Clausius, '\u00dcber verschiedene f\u00fcr die Anwendung bequeme Formen der Hauptgleichungen der mechanischen W\u00e4rmetheorie', Annalen der Physik, Vol. 125 (1865)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Stephen Brush, The Kind of Motion We Call Heat (1976)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Published in a major physics journal; the paper survives and is unambiguously dated.",
-      "cross_references": [
-        "1850-CLAUSIUS_SECOND_LAW"
-      ]
-    },
-    {
-      "id": "1865-012",
-      "title": "Suppression of the Dungan Revolt intensifies in Qing China",
-      "region": "Qing China (Shaanxi, Gansu)",
-      "coordinates_approx": "36.06, 103.83",
-      "category": "military",
-      "description": "By 1865, the Dungan Revolt (1862\u20131877) \u2014 a massive rebellion by Hui Muslims in northwestern China \u2014 was in full escalation. Qing forces under Zuo Zongtang were being assembled to suppress the rebellion, though the main reconquest campaign would not begin until 1866\u20131868. The revolt had devastated Shaanxi and Gansu provinces, causing enormous civilian mortality (modern estimates suggest millions dead from the combined effects of war, famine, and displacement). The conflict was intertwined with the broader pattern of Qing internal crisis following the Taiping Rebellion and demonstrated the fragility of imperial authority in the peripheral provinces.",
-      "key_figures": [
-        "Zuo Zongtang (Qing general, later led reconquest)",
-        "Ma Hualong (Hui rebel leader in Gansu)"
-      ],
-      "sources": [
-        {
-          "name": "Qing court memorials and military dispatches, 1865 (First Historical Archives, Beijing)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jonathan Lipman, Familiar Strangers: A History of Muslims in Northwest China (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Hodong Kim, Holy War in China: The Muslim Rebellion and State in Chinese Central Asia, 1864\u20131877 (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-attested in Qing archives, though casualty figures remain debated. The rebellion's existence, scale, and approximate timeline are not in dispute.",
-      "cross_references": [
-        "1864-TAIPING_REBELLION_END",
-        "1877-DUNGAN_REVOLT_END"
-      ]
-    },
-    {
-      "id": "1865-013",
-      "title": "Convention of Gastein \u2014 Austria and Prussia partition Schleswig-Holstein",
-      "region": "German Confederation (Austria / Prussia)",
-      "coordinates_approx": "47.60, 13.62",
+      "title": "Reconstruction begins in the American South",
+      "region": "North America (Southern United States)",
+      "coordinates_approx": "33.0, -85.0",
       "category": "political",
-      "description": "On 14 August 1865, Austria and Prussia signed the Convention of Gastein, partitioning the administration of the duchies of Schleswig and Holstein, which they had jointly seized from Denmark in the 1864 Second Schleswig War. Prussia received Schleswig; Austria received Holstein. The arrangement was deliberately unstable \u2014 Bismarck designed it to create future pretexts for conflict with Austria. Within a year, disputes over the administration of the duchies provided the casus belli for the Austro-Prussian War of 1866, which expelled Austria from German affairs and paved the way for Prussian-led German unification.",
+      "description": "Following the end of the Civil War in April 1865, the Reconstruction era began, a period of profound political, social, and economic transformation in the American South. President Andrew Johnson, who assumed office after Lincoln's assassination, implemented a lenient Reconstruction policy that allowed Southern states to quickly rejoin the Union with minimal federal oversight. This approach, known as 'Presidential Reconstruction,' was contested by Radical Republicans in Congress who sought more extensive federal intervention to protect the rights of formerly enslaved people. The period saw the establishment of the Freedmen's Bureau (March 1865) to assist formerly enslaved people, though its resources were limited. Reconstruction would remain contested and contentious throughout the 1860s and 1870s.",
       "key_figures": [
-        "Otto von Bismarck (Prussian Minister-President)",
-        "King Wilhelm I of Prussia",
-        "Emperor Franz Joseph I of Austria"
+        "President Andrew Johnson",
+        "Radical Republican leaders (Thaddeus Stevens, Charles Sumner)",
+        "General Ulysses S. Grant",
+        "Oliver O. Howard (Freedmen's Bureau commissioner)"
       ],
       "sources": [
         {
-          "name": "Text of the Convention of Gastein, 14 August 1865",
+          "name": "Congressional records and legislative documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jonathan Steinberg, Bismarck: A Life (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Presidential proclamations and executive orders",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Freedmen's Bureau records and reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts and political journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text and diplomatic correspondence fully extant.",
+      "certainty_note": "Reconstruction's beginning is documented in official government records and contemporary accounts. The period's start date (1865) is unambiguous.",
       "cross_references": [
-        "1864-SECOND_SCHLESWIG_WAR",
-        "1866-AUSTRO_PRUSSIAN_WAR"
-      ]
-    },
-    {
-      "id": "1865-014",
-      "title": "Founding of the International Telegraph Union",
-      "region": "Europe (Paris, France)",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "technological",
-      "description": "On 17 May 1865, representatives of twenty European states signed the International Telegraph Convention in Paris, establishing the International Telegraph Union (ITU) \u2014 the first international organisation dedicated to standardising communication technology. The convention harmonised tariffs, adopted a uniform Morse code, and established technical standards for interconnecting national telegraph networks. The ITU is the oldest international organisation still in existence (now the International Telecommunication Union, a UN specialised agency), and its founding established the precedent of multilateral governance of communications infrastructure.",
-      "key_figures": [
-        "Napoleon III (host, French Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "International Telegraph Convention, Paris, 17 May 1865 (treaty text)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "ITU institutional history, 'From Semaphore to Satellite' (1965)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text and conference proceedings fully extant.",
-      "cross_references": [
-        "1874-UNIVERSAL_POSTAL_UNION"
-      ]
-    },
-    {
-      "id": "1865-015",
-      "title": "Lewis Carroll publishes Alice's Adventures in Wonderland",
-      "region": "United Kingdom (Oxford / London)",
-      "coordinates_approx": "51.75, -1.25",
-      "category": "cultural",
-      "description": "In November 1865 (though dated 1866 by the publisher), Charles Lutwidge Dodgson, writing as Lewis Carroll, published Alice's Adventures in Wonderland through Macmillan. The novel, originating from a story told to Alice Liddell during a boat trip in 1862, became one of the most influential works of children's literature and a landmark of literary nonsense. Its wordplay, logical puzzles, and surreal imagery influenced literature, philosophy, mathematics, and popular culture across the following century and a half. The first print run was actually suppressed due to poor print quality; the familiar 1866-dated edition, illustrated by John Tenniel, became the standard.",
-      "key_figures": [
-        "Lewis Carroll / Charles Dodgson (author)",
-        "John Tenniel (illustrator)",
-        "Alice Liddell (inspiration)"
-      ],
-      "sources": [
-        {
-          "name": "Carroll, Alice's Adventures in Wonderland, Macmillan (1865/1866)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Morton N. Cohen, Lewis Carroll: A Biography (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication records and surviving copies clearly document the printing history, including the suppressed 1865 edition.",
-      "cross_references": []
-    },
-    {
-      "id": "1865-016",
-      "title": "Richard Wagner premieres Tristan und Isolde",
-      "region": "Kingdom of Bavaria (Munich)",
-      "coordinates_approx": "48.14, 11.58",
-      "category": "cultural",
-      "description": "On 10 June 1865, Richard Wagner's opera Tristan und Isolde premiered at the K\u00f6nigliches Hof- und Nationaltheater in Munich under the patronage of King Ludwig II of Bavaria. Composed between 1857 and 1859 but deemed unperformable for years, the opera's extreme chromaticism \u2014 particularly the unresolved 'Tristan chord' in its opening bars \u2014 is widely regarded as a turning point in Western music, pushing tonal harmony to its limits and pointing toward the atonality of the 20th century. The premiere was a watershed moment in the history of opera and of Western musical language.",
-      "key_figures": [
-        "Richard Wagner (composer)",
-        "King Ludwig II of Bavaria (patron)",
-        "Hans von B\u00fclow (conductor)",
-        "Ludwig Schnorr von Carolsfeld (first Tristan, died weeks after premiere)"
-      ],
-      "sources": [
-        {
-          "name": "Wagner, Mein Leben (autobiography, dictated 1865\u20131880)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Munich Court Theatre records, June 1865",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Bryan Magee, The Tristan Chord: Wagner and Philosophy (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Premiere date, venue, and cast exhaustively documented in theatre records, press reviews, and personal correspondence.",
-      "cross_references": []
-    },
-    {
-      "id": "1865-017",
-      "title": "Bhutan War \u2014 British expedition establishes control over Bhutan's duars",
-      "region": "British India / Bhutan",
-      "coordinates_approx": "26.85, 89.40",
-      "category": "military",
-      "description": "The Bhutan War (Duar War) of 1864\u20131865 concluded with the Treaty of Sinchula on 11 November 1865, by which Bhutan ceded the Bengal Duars and Assam Duars \u2014 strategic lowland territories along the Indo-Bhutanese border \u2014 to British India. In exchange, Bhutan received an annual subsidy. The war had been provoked by border disputes and the humiliation of a British diplomatic mission led by Ashley Eden in 1864. The treaty established the pattern of Bhutanese foreign relations being conducted under British (and later Indian) influence, a dynamic that persisted until Bhutan's 2007 treaty revision with India.",
-      "key_figures": [
-        "Ashley Eden (British envoy)",
-        "Deb Raja of Bhutan"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Sinchula, 11 November 1865 (text in Aitchison's Treaties)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Leo E. Rose, The Politics of Bhutan (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text and British Indian administrative records fully extant.",
-      "cross_references": [
-        "1864-BHUTAN_WAR_START"
-      ]
-    },
-    {
-      "id": "1865-018",
-      "title": "Bombardment of Shimonoseki and opening of Japan's Straits",
-      "region": "Japan (Ch\u014dsh\u016b domain)",
-      "coordinates_approx": "33.95, 130.94",
-      "category": "political",
-      "description": "In the wake of the 1864 bombardment of Shimonoseki by a multinational naval force, the Tokugawa shogunate in 1865 was forced to formally open the Straits of Shimonoseki and ratify the earlier unequal treaties with Western powers. The Ch\u014dsh\u016b domain, defeated militarily, paradoxically emerged politically strengthened \u2014 its reformist faction used the humiliation to argue for modernisation and the overthrow of the Tokugawa system. This dynamic, in which Western military pressure accelerated rather than prevented Japanese political transformation, was a defining feature of the bakumatsu period and set the stage for the Meiji Restoration of 1868.",
-      "key_figures": [
-        "Tokugawa Iemochi (Shogun)",
-        "Kido Takayoshi (Ch\u014dsh\u016b reformist leader)"
-      ],
-      "sources": [
-        {
-          "name": "British and French diplomatic correspondence regarding Japan, 1865 (Foreign Office records)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marius Jansen, The Making of Modern Japan (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in both Japanese and Western diplomatic archives.",
-      "cross_references": [
-        "1864-SHIMONOSEKI_BOMBARDMENT",
-        "1868-MEIJI_RESTORATION"
-      ]
-    },
-    {
-      "id": "1865-019",
-      "title": "Wellington Ku Klux Klan founding traditions \u2014 origins of white supremacist terrorism",
-      "region": "United States (Pulaski, Tennessee)",
-      "coordinates_approx": "35.20, -87.03",
-      "category": "political",
-      "description": "In late December 1865, six Confederate veterans in Pulaski, Tennessee, formed the Ku Klux Klan, initially described as a social club. It rapidly evolved into a terrorist organisation dedicated to maintaining white supremacy through violence against freed Black people, their white allies, and Republican officeholders across the former Confederacy. By 1868, the Klan had become a major instrument of political violence during Reconstruction, murdering, assaulting, and intimidating thousands. The founding date and initial character are somewhat uncertain \u2014 the Klan's own later mythology exaggerated its origins' innocence \u2014 but the Pulaski founding in late 1865 is generally accepted by historians.",
-      "key_figures": [
-        "Calvin E. Jones",
-        "John B. Kennedy",
-        "Frank O. McCord",
-        "John C. Lester",
-        "Richard R. Reed",
-        "James R. Crowe"
-      ],
-      "sources": [
-        {
-          "name": "Lester and Wilson, Ku Klux Klan: Its Origin, Growth, and Disbandment (1884)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Elaine Frantz Parsons, Ku-Klux: The Birth of the Klan during Reconstruction (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The late-1865 Pulaski founding is generally accepted but rests primarily on later accounts by founding members. Exact date uncertain; the December 1865 dating is traditional.",
-      "cross_references": [
-        "1865-008",
-        "1865-004",
-        "1871-KKK_ACT"
-      ]
-    },
-    {
-      "id": "1865-020",
-      "title": "Satsuma-Ch\u014dsh\u016b Alliance negotiations begin",
-      "region": "Japan",
-      "coordinates_approx": "35.01, 135.77",
-      "category": "political",
-      "description": "In 1865, the two most powerful anti-Tokugawa domains \u2014 Satsuma and Ch\u014dsh\u016b \u2014 began secret negotiations brokered by Sakamoto Ry\u014dma and others. These two domains had been bitter rivals, and their alliance (formally concluded in March 1866) was the critical diplomatic achievement that made the overthrow of the Tokugawa shogunate possible. The Satsuma-Ch\u014dsh\u016b alliance combined Satsuma's naval and financial resources with Ch\u014dsh\u016b's reformed military, creating a coalition powerful enough to challenge the 260-year-old Tokugawa order. This was one of the most consequential political realignments in Japanese history.",
-      "key_figures": [
-        "Sakamoto Ry\u014dma (intermediary)",
-        "Saig\u014d Takamori (Satsuma leader)",
-        "Kido Takayoshi (Ch\u014dsh\u016b leader)",
-        "Okubo Toshimichi (Satsuma strategist)"
-      ],
-      "sources": [
-        {
-          "name": "Sakamoto Ry\u014dma correspondence, 1865 (collected letters)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marius Jansen, Sakamoto Ry\u014dma and the Meiji Restoration (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented through surviving correspondence and memoirs of the participants.",
-      "cross_references": [
-        "1866-SATCHO_ALLIANCE_FORMAL",
-        "1868-MEIJI_RESTORATION"
-      ]
-    },
-    {
-      "id": "1865-021",
-      "title": "Completion of the Matterhorn first ascent",
-      "region": "Switzerland / Italy (Pennine Alps)",
-      "coordinates_approx": "45.98, 7.66",
-      "category": "exploration",
-      "description": "On 14 July 1865, a party led by Edward Whymper reached the summit of the Matterhorn (4,478 m) via the H\u00f6rnli ridge \u2014 the last of the great Alpine peaks to be climbed. The descent was marred by disaster: four of the seven climbers (Douglas Hadow, Charles Hudson, Lord Francis Douglas, and Michel Croz) fell to their deaths when a rope broke. The triumph and tragedy together became the most famous event in mountaineering history and marked the symbolic end of the 'Golden Age of Alpinism' (1854\u20131865). The disaster sparked public debate about the ethics and recklessness of mountaineering.",
-      "key_figures": [
-        "Edward Whymper (English mountaineer, leader)",
-        "Michel Croz (French guide, killed)",
-        "Peter Taugwalder Sr. and Jr. (Swiss guides, survived)"
-      ],
-      "sources": [
-        {
-          "name": "Whymper, Scrambles Amongst the Alps (1871)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "The Times (London), July 1865 reporting",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by survivors, press coverage, and subsequent inquiry.",
-      "cross_references": []
-    },
-    {
-      "id": "1865-022",
-      "title": "Tolstoy begins writing War and Peace",
-      "region": "Russian Empire",
-      "coordinates_approx": "54.08, 36.60",
-      "category": "cultural",
-      "description": "Leo Tolstoy began serialising War and Peace in the Russian literary journal Russkiy Vestnik (The Russian Messenger) in 1865, with the first parts appearing under the title '1805'. The novel, completed in 1869, depicted Russian society during the Napoleonic Wars and became one of the most influential works in world literature. Its epic scope, philosophical depth, and psychological realism set new standards for the novel as a form. Tolstoy drew on family archives, Napoleonic-era memoirs, and his own military experience in the Crimean War.",
-      "key_figures": [
-        "Leo Tolstoy (author)",
-        "Mikhail Katkov (editor, Russkiy Vestnik)"
-      ],
-      "sources": [
-        {
-          "name": "Russkiy Vestnik, serialisation beginning 1865",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Tolstoy's letters and diaries, 1863\u20131869",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Rosamund Bartlett, Tolstoy: A Russian Life (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Serialisation dates are well-documented in journal records and Tolstoy's correspondence.",
-      "cross_references": []
-    },
-    {
-      "id": "1865-023",
-      "title": "William Booth begins mission work \u2014 precursor to the Salvation Army",
-      "region": "United Kingdom (London)",
-      "coordinates_approx": "51.52, -0.05",
-      "category": "religious",
-      "description": "In July 1865, Methodist preacher William Booth began open-air evangelistic work in the slums of London's East End, founding the Christian Mission (renamed the Salvation Army in 1878). Booth's mission combined evangelical Christianity with practical social services \u2014 soup kitchens, shelters, and employment assistance \u2014 aimed at the urban poor. The organisation grew into one of the world's largest charitable bodies, operating in over 130 countries. Its military-style organisation and willingness to work in the most deprived urban areas made it a distinctive institution of Victorian social reform.",
-      "key_figures": [
-        "William Booth (founder)",
-        "Catherine Booth (co-founder)"
-      ],
-      "sources": [
-        {
-          "name": "Christian Mission records, 1865 (Salvation Army Heritage Centre)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Roy Hattersley, Blood and Fire: William and Catherine Booth and the Salvation Army (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in mission records and Booth family correspondence.",
-      "cross_references": [
-        "1878-SALVATION_ARMY_RENAMED"
-      ]
-    },
-    {
-      "id": "1865-024",
-      "title": "Juneteenth \u2014 emancipation announced in Texas",
-      "region": "United States (Texas)",
-      "coordinates_approx": "29.30, -94.79",
-      "category": "legal",
-      "description": "On 19 June 1865, Union General Gordon Granger arrived in Galveston, Texas, and issued General Order No. 3, informing the enslaved people of Texas that they were free \u2014 more than two years after the Emancipation Proclamation. Texas, as the most remote major slaveholding state and one of the last areas occupied by Union forces, had seen slavery continue largely unaffected during much of the war. The date became the basis for the Juneteenth holiday, celebrated by African Americans as the effective end of slavery in the United States and declared a federal holiday in 2021.",
-      "key_figures": [
-        "Gordon Granger (Union Major General)"
-      ],
-      "sources": [
-        {
-          "name": "General Order No. 3, Headquarters District of Texas, 19 June 1865",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Annette Gordon-Reed, On Juneteenth (2021)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The general order is an extant military document; the event is thoroughly documented.",
-      "cross_references": [
-        "1863-EMANCIPATION_PROCLAMATION",
-        "1865-004"
+        "1865-001 (Civil War ends)",
+        "1868-001 (Fourteenth Amendment ratified)",
+        "1877-001 (Reconstruction ends)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several events listed above have contested elements: (1) The founding of the KKK (1865-019): The exact date and initial character of the Klan's founding rest heavily on self-serving later accounts by its founders. Elaine Frantz Parsons and others argue the 'social club' origin story minimises the racial violence that was present from very early in the organisation's existence. (2) Mendel's presentation (1865-009): While the presentation dates are not disputed, the traditional narrative that Mendel was 'ignored' has been challenged by historians of science who note that his work was cited at least a dozen times before 1900 and that the 'rediscovery' narrative oversimplifies. (3) Andrew Johnson's Reconstruction (1865-008): The characterisation of Johnson's policies as 'lenient' has been complicated by historians like Annette Gordon-Reed who note that Johnson was not simply lenient but actively white-supremacist in motivation \u2014 his leniency was ideological, not merely misguided moderation. (4) Lincoln's assassination (1865-003): The claim that Lincoln's death 'fundamentally altered Reconstruction' is contested by some historians who argue that Lincoln's own second-term plans were not dramatically different from Johnson's initial approach, though the consensus view holds that Lincoln would have been far more responsive to Congressional pressure than Johnson proved to be. (5) The significance of the Matterhorn ascent (1865-021) as 'ending the Golden Age of Alpinism' is a retrospective construction; contemporary mountaineers did not see it that way at the time.",
-  "historiographic_note": "The year 1865 is one of the most thoroughly documented in world history, particularly for American events. The surviving record is enormous: official military and government archives, extensive press coverage, personal correspondence, and diaries from virtually every level of society. However, this richness is heavily skewed toward literate, white, English-speaking perspectives. The experiences of formerly enslaved people are primarily recorded through later oral histories (e.g., WPA Federal Writers' Project interviews in the 1930s) or filtered through white observers. Sources for non-Western events \u2014 the Dungan Revolt, the Paraguayan War, Japanese bakumatsu politics \u2014 exist in substantial volume but are less accessible in English-language historiography, creating potential coverage gaps that reflect linguistic bias rather than genuine documentary lacunae. The Paraguayan War's casualty figures remain contested, with recent scholarship by Thomas Whigham and Barbara Potthast revising the traditional 90% male mortality figure substantially downward (though the war remains catastrophic by any measure).",
+  "disconfirming_evidence": "The significance of Lincoln's assassination as a turning point in Reconstruction is widely accepted, but some historians have argued that Johnson's lenient Reconstruction policies would likely have been implemented regardless of Lincoln's death, as Lincoln himself had shown inclinations toward leniency. The Lei do Ventre Livre in Brazil is sometimes portrayed as a major step toward abolition, but it was actually quite limited in scope and did not significantly reduce the enslaved population, which continued to grow through the slave trade until 1888. Mendel's work, while foundational to genetics, was not immediately recognised as significant and remained obscure for decades; attributing major scientific impact to 1865 is somewhat anachronistic, as the impact occurred only after rediscovery in 1900. The Second Maori War's conclusion date is disputed; some sources extend the conflict to 1872 or beyond, as Maori resistance continued in various forms.",
+  "historiographic_note": "The historical record for 1865 is exceptionally rich for American and European events, with extensive documentation of the Civil War's conclusion, Lincoln's assassination, and the Thirteenth Amendment. The Reconstruction era is well-documented in official records and contemporary accounts, though the perspectives of formerly enslaved people are often mediated through white-authored sources. Brazilian abolition history is less thoroughly documented in English-language sources, and the Lei do Ventre Livre is often overshadowed by the 1888 abolition. Maori perspectives on the Second Maori War are primarily preserved through oral tradition and later ethnographic accounts rather than contemporary written records. Scientific and cultural events (Mendel's work, Carroll's novel) are well-documented in their respective fields. The year is well-documented overall, with the caveat that non-Western and non-elite perspectives are underrepresented.",
   "graph_edges": [
     {
-      "from": "1865-002",
-      "to": "1861-FORT_SUMTER",
-      "relation": "part_of",
-      "note": "Appomattox is the effective end of the American Civil War that began at Fort Sumter in April 1861"
+      "from": "1865-001",
+      "to": "1865-002",
+      "relation": "contemporary_with",
+      "note": "Lincoln's assassination occurred five days after Lee's surrender at Appomattox"
     },
     {
-      "from": "1865-003",
-      "to": "1865-008",
+      "from": "1865-001",
+      "to": "1865-003",
       "relation": "led_to",
-      "note": "Lincoln's assassination elevated Johnson to the presidency, directly shaping Reconstruction policy"
+      "note": "Civil War's conclusion enabled passage and ratification of the Thirteenth Amendment"
+    },
+    {
+      "from": "1865-002",
+      "to": "1865-010",
+      "relation": "led_to",
+      "note": "Lincoln's death elevated Andrew Johnson, whose lenient Reconstruction policies shaped the era"
     },
     {
       "from": "1865-004",
-      "to": "1868-FOURTEENTH_AMENDMENT",
+      "to": "1866-003",
       "relation": "led_to",
-      "note": "The 13th Amendment's inadequacy in protecting Black civil rights drove the 14th Amendment"
+      "note": "Failed 1865 cable attempt provided data and lessons for successful 1866 installation"
     },
     {
       "from": "1865-008",
-      "to": "1868-JOHNSON_IMPEACHMENT",
+      "to": "1900-001",
       "relation": "led_to",
-      "note": "Johnson's lenient Reconstruction provoked Congressional opposition culminating in impeachment"
-    },
-    {
-      "from": "1865-013",
-      "to": "1866-AUSTRO_PRUSSIAN_WAR",
-      "relation": "led_to",
-      "note": "The Convention of Gastein created the deliberately unstable partition that Bismarck used as pretext for war"
-    },
-    {
-      "from": "1865-009",
-      "to": "1900-REDISCOVERY_OF_MENDEL",
-      "relation": "led_to",
-      "note": "Mendel's 1865 presentation, published 1866, was rediscovered in 1900 and launched modern genetics"
-    },
-    {
-      "from": "1865-010",
-      "to": "1867-LISTER_PUBLICATION",
-      "relation": "led_to",
-      "note": "Lister's 1865 clinical experiments were published in 1867, launching the antiseptic surgery revolution"
-    },
-    {
-      "from": "1865-007",
-      "to": "1870-PARAGUAYAN_WAR_END",
-      "relation": "part_of",
-      "note": "The 1865 phase of the Paraguayan War was part of the conflict that ended with Paraguay's devastation in 1870"
-    },
-    {
-      "from": "1865-020",
-      "to": "1866-SATCHO_ALLIANCE_FORMAL",
-      "relation": "led_to",
-      "note": "The 1865 negotiations led to the formal Satsuma-Ch\u014dsh\u016b alliance in 1866"
-    },
-    {
-      "from": "1865-020",
-      "to": "1868-MEIJI_RESTORATION",
-      "relation": "led_to",
-      "note": "The Satsuma-Ch\u014dsh\u016b alliance was the military-political foundation of the Meiji Restoration"
-    },
-    {
-      "from": "1865-019",
-      "to": "1871-KKK_ACT",
-      "relation": "led_to",
-      "note": "KKK violence during Reconstruction prompted federal anti-Klan legislation in 1871"
-    },
-    {
-      "from": "1865-006",
-      "to": "1833-ABOLITION_ACT_BRITAIN",
-      "relation": "caused_by",
-      "note": "The Morant Bay Rebellion reflected the unfulfilled promises of post-emancipation Jamaica"
-    },
-    {
-      "from": "1865-024",
-      "to": "1863-EMANCIPATION_PROCLAMATION",
-      "relation": "caused_by",
-      "note": "Juneteenth was the delayed enforcement of the Emancipation Proclamation in Texas"
-    },
-    {
-      "from": "1865-012",
-      "to": "1864-TAIPING_REBELLION_END",
-      "relation": "caused_by",
-      "note": "The Dungan Revolt intensified partly because Qing forces were freed from the Taiping campaign"
+      "note": "Mendel's 1865 work remained obscure until rediscovered in 1900, establishing foundation for genetics"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:16:49.240100",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

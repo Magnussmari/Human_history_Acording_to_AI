@@ -1,31 +1,72 @@
 {
   "year": 1916,
   "year_label": "1916 CE",
-  "era_context": "The second full year of World War I, which had engulfed Europe, the Ottoman Empire, and colonial theatres across Africa and Asia. The conflict had devolved into industrialised trench warfare on the Western Front, while the Eastern Front remained more fluid. The war was transforming global politics: empires mobilised colonial subjects, nationalist movements gained momentum, and the economic and human costs were straining every belligerent power to its limits. Away from Europe, revolutionary turmoil continued in Mexico, China's early Republic fragmented under warlordism, and anti-colonial sentiment intensified in India, Ireland, and the Middle East.",
+  "era_context": "The First World War dominates global affairs in its third year. The Western Front is locked in attritional stalemate; the Eastern Front remains fluid but costly. The Ottoman Empire is fragmenting; the Russian Empire faces internal strain. Colonial powers compete for resources and territory; nationalist movements intensify in Ireland, India, and the Arab world. Industrial warfare, mechanisation, and mass conscription define the period.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (beyond the East Africa and Kamerun campaigns, indigenous perspectives are largely absent)",
-    "Southeast Asia (filtered through colonial records)",
-    "Central Asia (sources primarily from Russian imperial administration)",
-    "Pacific Islands (limited beyond Australian/Japanese colonial records)",
-    "Indigenous peoples of the Americas and Australasia"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1916-001",
-      "title": "Battle of Verdun",
-      "region": "Verdun, northeastern France",
-      "coordinates_approx": "49.2\u00b0N, 5.4\u00b0E",
+      "title": "Battle of the Somme",
+      "region": "Northern France, Western Front",
+      "coordinates_approx": "50.1\u00b0N, 2.5\u00b0E",
       "category": "military",
-      "description": "Germany launched Operation Gericht on 21 February 1916, targeting the fortified city of Verdun on the Meuse. German Chief of Staff Erich von Falkenhayn intended to 'bleed France white' by attacking a position the French would be compelled to defend at all costs. The battle raged for ten months until 18 December, becoming the longest single engagement of the war. France suffered approximately 377,000 casualties and Germany approximately 337,000. The French held Verdun, and Philippe P\u00e9tain's leadership of the defence made him a national hero \u2014 a reputation that would have complex consequences in 1940. Verdun became the defining symbol of the war's futile carnage for France.",
+      "description": "The British Expeditionary Force and French forces launch a massive offensive against German positions along the Somme River, intended to relieve pressure on the French at Verdun. The battle lasts from 1 July to 18 November 1916 and becomes the deadliest battle in human history to that date. British forces suffer approximately 60,000 casualties on the first day alone\u2014the worst day in British military history. Total casualties exceed 1 million across all sides. The offensive gains only 6 miles of ground at enormous cost, demonstrating the futility of frontal assault against entrenched positions defended by machine guns and artillery. The battle symbolises the industrial slaughter of the First World War and shatters illusions of quick victory.",
       "key_figures": [
-        "Erich von Falkenhayn (German Chief of the General Staff)",
-        "Philippe P\u00e9tain (French commander at Verdun, later replaced by Robert Nivelle)",
-        "Crown Prince Wilhelm (nominal commander of German 5th Army)"
+        "Douglas Haig (British Commander-in-Chief)",
+        "Edmund Allenby (British Corps Commander)",
+        "Rawlinson (British Fourth Army Commander)",
+        "Joffre (French Commander-in-Chief)"
       ],
       "sources": [
         {
-          "name": "German operational orders for Operation Gericht (February 1916); French military archives at Vincennes",
+          "name": "Official British War Office records and despatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German Army records (Reichsarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pals Battalions regimental histories and soldier letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Martin Gilbert, The Somme: Heroism and Horror in the First World War (2006)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary military records, casualty rolls, and eyewitness accounts. Dates and casualty figures are well-established.",
+      "cross_references": [
+        "1916-002 (Battle of Verdun, concurrent)",
+        "1916-008 (Brusilov Offensive, related Eastern Front strategy)"
+      ]
+    },
+    {
+      "id": "1916-002",
+      "title": "Battle of Verdun",
+      "region": "Northeastern France, Western Front",
+      "coordinates_approx": "49.2\u00b0N, 5.4\u00b0E",
+      "category": "military",
+      "description": "German forces under Crown Prince Wilhelm launch a massive offensive against the French fortress complex at Verdun, beginning 21 February 1916. The German strategy is to 'bleed France white' through attrition. The battle lasts 302 days (until 18 December) and becomes one of the longest and costliest battles of the war. Total casualties exceed 700,000 (approximately 400,000 French and 300,000 German). The French hold the fortress through extraordinary sacrifice and leadership, particularly under General P\u00e9tain. The battle ends in stalemate with minimal territorial change but profound psychological impact on both nations. Verdun becomes a symbol of French determination and sacrifice.",
+      "key_figures": [
+        "Crown Prince Wilhelm (German Commander)",
+        "Philippe P\u00e9tain (French Commander)",
+        "Falkenhayn (German Chief of Staff)"
+      ],
+      "sources": [
+        {
+          "name": "German General Staff records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French Army archives and P\u00e9tain's reports",
           "type": "primary_text",
           "contemporary": true
         },
@@ -33,210 +74,35 @@
           "name": "Alistair Horne, The Price of Glory: Verdun 1916 (1962)",
           "type": "historiographic_consensus",
           "contemporary": false
-        },
-        {
-          "name": "Paul Jankowski, Verdun: The Longest Battle of the Great War (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Massively documented by both French and German military records, soldier correspondence, and post-war historiography. Casualty figures vary by source but the order of magnitude is undisputed.",
+      "certainty_note": "Extensively documented in military archives and contemporary accounts. Duration and casualty figures are well-established.",
       "cross_references": [
-        "1916-002",
-        "1940-PETAIN"
-      ]
-    },
-    {
-      "id": "1916-002",
-      "title": "Battle of the Somme",
-      "region": "Picardy, northern France",
-      "coordinates_approx": "50.0\u00b0N, 2.7\u00b0E",
-      "category": "military",
-      "description": "The Anglo-French offensive on the Somme began on 1 July 1916, partly to relieve pressure on Verdun. The first day was the bloodiest in British military history: nearly 57,500 British casualties, of whom approximately 19,240 were killed. The battle continued until 18 November, advancing the line roughly 10 kilometres at a cost of over 1 million total casualties across all belligerents. The Somme introduced the tank to warfare when British Mark I tanks were deployed on 15 September, though in insufficient numbers and unreliable condition to be decisive. The battle shattered illusions about a quick war and profoundly shaped British collective memory of the conflict.",
-      "key_figures": [
-        "Douglas Haig (Commander-in-Chief of the British Expeditionary Force)",
-        "Henry Rawlinson (British Fourth Army commander)",
-        "Ferdinand Foch (coordinated French contribution on the Somme)",
-        "Fritz von Below (German Second Army commander)"
-      ],
-      "sources": [
-        {
-          "name": "British Official History: Military Operations, France and Belgium 1916, compiled by James Edmonds",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "War diaries of British and Dominion divisions engaged on 1 July 1916 (National Archives, Kew)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Philpott, Bloody Victory: The Sacrifice on the Somme (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Exhaustively documented. First-day casualties are among the most precisely recorded statistics in military history.",
-      "cross_references": [
-        "1916-001"
+        "1916-001 (Battle of the Somme, concurrent)",
+        "1917-005 (Nivelle Offensive, follows from Verdun experience)"
       ]
     },
     {
       "id": "1916-003",
-      "title": "Easter Rising in Dublin",
-      "region": "Ireland (United Kingdom)",
-      "coordinates_approx": "53.3\u00b0N, 6.3\u00b0W",
-      "category": "political",
-      "description": "On 24 April 1916 (Easter Monday), approximately 1,200 Irish republicans \u2014 mainly Irish Volunteers and the Irish Citizen Army \u2014 seized key buildings in Dublin, including the General Post Office, and proclaimed an independent Irish Republic. Patrick Pearse read the Proclamation of the Republic from the GPO steps. The British Army suppressed the rising within six days, causing significant civilian casualties and destruction. The rebellion initially lacked broad public support, but the subsequent execution of fifteen leaders by firing squad between 3\u201312 May turned public opinion sharply against British rule and transformed Irish politics, paving the way for the War of Independence and eventual partition.",
-      "key_figures": [
-        "Patrick Pearse (president of the proclaimed Republic, executed)",
-        "James Connolly (Irish Citizen Army commander, executed)",
-        "\u00c9amon de Valera (commandant, sentenced to death but reprieved)",
-        "General Sir John Maxwell (British military commander who ordered executions)"
-      ],
-      "sources": [
-        {
-          "name": "Proclamation of the Irish Republic (24 April 1916, original broadsheet)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Royal Commission on the Rebellion in Ireland (Hardinge Commission Report, 1916)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Charles Townshend, Easter 1916: The Irish Rebellion (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by British military and legal records, contemporary press, participant memoirs, and the Bureau of Military History witness statements collected 1947\u20131957.",
-      "cross_references": [
-        "1919-IRISH_WAR_INDEPENDENCE",
-        "1921-ANGLO_IRISH_TREATY"
-      ]
-    },
-    {
-      "id": "1916-004",
-      "title": "Sykes-Picot Agreement",
-      "region": "Britain / France / Russian Empire (Middle East)",
-      "coordinates_approx": null,
-      "category": "political",
-      "description": "In May 1916, British diplomat Sir Mark Sykes and French diplomat Fran\u00e7ois Georges-Picot concluded a secret agreement, with Russian assent, to partition the Ottoman Empire's Arab provinces into spheres of influence after the war. France would control Syria and Lebanon; Britain would control Mesopotamia (Iraq) and areas around the Persian Gulf; Palestine would be under international administration. The agreement contradicted promises being made simultaneously to Sharif Hussein of Mecca regarding Arab independence. When the Bolsheviks published the agreement in November 1917, it caused outrage in the Arab world. Sykes-Picot became a lasting symbol of imperial betrayal and is widely cited as foundational to modern Middle Eastern borders, though the actual post-war settlement diverged from it in significant ways.",
-      "key_figures": [
-        "Sir Mark Sykes (British negotiator)",
-        "Fran\u00e7ois Georges-Picot (French negotiator)",
-        "Sergei Sazonov (Russian Foreign Minister, secured Russian claims)"
-      ],
-      "sources": [
-        {
-          "name": "The Asia Minor Agreement (Sykes-Picot text, signed 16 May 1916; published by Izvestia, November 1917)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "James Barr, A Line in the Sand: Britain, France and the Struggle that Shaped the Middle East (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Original diplomatic correspondence preserved in British and French archives. Text published in 1917 and widely available.",
-      "cross_references": [
-        "1916-005",
-        "1917-BALFOUR",
-        "1920-SAN_REMO"
-      ]
-    },
-    {
-      "id": "1916-005",
-      "title": "Arab Revolt begins",
-      "region": "Hejaz, Ottoman Empire (modern Saudi Arabia)",
-      "coordinates_approx": "21.4\u00b0N, 39.8\u00b0E",
-      "category": "military",
-      "description": "On 10 June 1916, Sharif Hussein bin Ali of Mecca launched a revolt against Ottoman rule, beginning with attacks on the Ottoman garrison in Mecca. The revolt was encouraged by British promises of support for an independent Arab state (the Hussein-McMahon Correspondence of 1915\u20131916) and backed by British gold, weapons, and advisors \u2014 including T.E. Lawrence. The revolt tied down Ottoman forces in the Hejaz and later contributed to the Allied campaign in Palestine and Syria. However, the post-war settlement betrayed Arab expectations of independence, as the Sykes-Picot partition and the mandate system took precedence.",
-      "key_figures": [
-        "Sharif Hussein bin Ali (Sharif of Mecca)",
-        "Faisal ibn Hussein (military commander, later King of Iraq)",
-        "T.E. Lawrence (British liaison officer)",
-        "Sir Henry McMahon (British High Commissioner in Egypt)"
-      ],
-      "sources": [
-        {
-          "name": "Hussein-McMahon Correspondence (1915\u20131916, published in 1939 British White Paper)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "T.E. Lawrence, Seven Pillars of Wisdom (1926)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented through British intelligence records, Ottoman military archives, and extensive memoir literature.",
-      "cross_references": [
-        "1916-004",
-        "1917-BALFOUR",
-        "1918-DAMASCUS"
-      ]
-    },
-    {
-      "id": "1916-006",
-      "title": "Brusilov Offensive",
-      "region": "Eastern Front, Galicia and Volhynia (modern western Ukraine)",
-      "coordinates_approx": "49.8\u00b0N, 24.0\u00b0E",
-      "category": "military",
-      "description": "General Aleksei Brusilov launched a massive Russian offensive on 4 June 1916 along a 480-kilometre front, achieving stunning surprise through innovative tactics \u2014 simultaneous attacks across the entire sector rather than concentrating on a narrow front after prolonged bombardment. The offensive shattered the Austro-Hungarian Fourth and Seventh Armies, advancing up to 150 kilometres and inflicting over 1.5 million casualties (killed, wounded, and captured) on the Central Powers. It was the most successful Allied offensive of 1916 and brought Romania into the war on the Allied side. However, Russian losses were also enormous (approximately 500,000\u20131,000,000), contributing to the exhaustion and demoralisation that fed the 1917 revolutions.",
-      "key_figures": [
-        "Aleksei Brusilov (Russian Southwestern Front commander)",
-        "Archduke Joseph Ferdinand (Austro-Hungarian Fourth Army, relieved of command after the disaster)",
-        "Conrad von H\u00f6tzendorf (Austro-Hungarian Chief of Staff)"
-      ],
-      "sources": [
-        {
-          "name": "Russian military operational records; Brusilov's memoirs, A Soldier's Notebook (published 1930)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Timothy Dowling, The Brusilov Offensive (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Russian, Austro-Hungarian, and German military archives. Casualty figures vary but general scale is undisputed.",
-      "cross_references": [
-        "1916-008",
-        "1917-RUSSIAN_REVOLUTION"
-      ]
-    },
-    {
-      "id": "1916-007",
       "title": "Battle of Jutland",
-      "region": "North Sea, off Denmark",
-      "coordinates_approx": "57.0\u00b0N, 6.0\u00b0E",
+      "region": "North Sea, between Britain and Germany",
+      "coordinates_approx": "56.0\u00b0N, 5.0\u00b0E",
       "category": "military",
-      "description": "On 31 May \u2013 1 June 1916, the British Grand Fleet and the German High Seas Fleet clashed in the largest naval battle of World War I and the only full-scale fleet engagement of the dreadnought era. The British lost 14 ships and over 6,000 men; the Germans lost 11 ships and over 2,500 men. Germany claimed a tactical victory based on the disproportionate losses, but the strategic outcome favoured Britain: the High Seas Fleet never again attempted to challenge British naval supremacy in a major fleet action, and the blockade of Germany continued unbroken. The battle prompted Germany to intensify unrestricted submarine warfare, with fateful consequences.",
+      "description": "The British Grand Fleet under Admiral Jellicoe engages the German High Seas Fleet under Admiral Scheer on 31 May 1916 in the largest naval battle of the First World War and the only major fleet engagement of the war. The battle lasts approximately 12 hours. British forces lose 14 ships and 6,000 men; German forces lose 11 ships and 2,500 men. Tactically, the engagement is inconclusive and contested\u2014the Germans claim victory due to inflicting greater casualties relative to their force size, while the British claim strategic victory by maintaining naval supremacy. The battle confirms British naval dominance and forces the German High Seas Fleet to remain in port for the remainder of the war, leaving Germany dependent on submarine warfare.",
       "key_figures": [
-        "Admiral John Jellicoe (Commander-in-Chief, Grand Fleet)",
-        "Vice-Admiral David Beatty (commander, Battlecruiser Fleet)",
-        "Vice-Admiral Reinhard Scheer (Commander, High Seas Fleet)",
-        "Vice-Admiral Franz von Hipper (commander, German scouting forces)"
+        "John Jellicoe (British Grand Fleet Commander)",
+        "Reinhard Scheer (German High Seas Fleet Commander)",
+        "David Beatty (British Battle Cruiser Fleet Commander)"
       ],
       "sources": [
         {
-          "name": "British Admiralty dispatches and German naval records; Jellicoe's The Grand Fleet 1914\u20131916 (1919)",
+          "name": "British Admiralty records and official despatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German Naval Archives (Bundesarchiv-Milit\u00e4rarchiv)",
           "type": "primary_text",
           "contemporary": true
         },
@@ -247,53 +113,278 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "One of the most exhaustively analysed naval engagements in history. Ship losses and casualties are precisely documented.",
+      "certainty_note": "Extensively documented in naval records and contemporary accounts. Ship losses and casualty figures are well-established, though tactical interpretation remains contested.",
       "cross_references": [
-        "1917-UNRESTRICTED_SUBMARINE"
+        "1917-001 (Unrestricted submarine warfare escalation)"
       ]
     },
     {
-      "id": "1916-008",
-      "title": "Romania enters World War I and is rapidly overrun",
-      "region": "Romania / Balkans",
-      "coordinates_approx": "44.4\u00b0N, 26.1\u00b0E",
-      "category": "military",
-      "description": "Encouraged by the success of the Brusilov Offensive, Romania declared war on Austria-Hungary on 27 August 1916 and invaded Transylvania. The initial advance was reversed within weeks as a combined German, Austro-Hungarian, Bulgarian, and Ottoman counteroffensive under Falkenhayn and Mackensen drove into Romania from multiple directions. By December, Bucharest had fallen (6 December) and roughly two-thirds of Romania was occupied. The campaign was a catastrophe for Romania \u2014 approximately 250,000 military casualties and enormous civilian suffering \u2014 but it also stretched Central Powers resources and required diversion of German forces from other fronts.",
+      "id": "1916-004",
+      "title": "Easter Rising in Ireland",
+      "region": "Dublin, Ireland",
+      "coordinates_approx": "53.3\u00b0N, 6.3\u00b0W",
+      "category": "political",
+      "description": "Irish republican rebels, primarily members of the Irish Republican Brotherhood and the Irish Citizen Army, launch an armed insurrection against British rule on 24 April 1916 (Easter Monday). The rebels seize key buildings in Dublin, including the General Post Office, and declare an Irish Republic. The uprising lasts six days before British forces suppress it through artillery bombardment and street fighting. Approximately 1,600 casualties result (mostly civilians), and the rebels are defeated militarily. However, the execution of 15 rebel leaders by the British transforms public opinion in Ireland. The Rising becomes a foundational myth for Irish independence and radicalises Irish nationalism, leading to the Irish War of Independence (1919\u20131921) and the creation of the Irish Free State (1922).",
       "key_figures": [
-        "King Ferdinand I of Romania",
-        "Ion I.C. Br\u0103tianu (Romanian Prime Minister)",
-        "August von Mackensen (German field marshal, commanded Danube Army)",
-        "Erich von Falkenhayn (commanded German Ninth Army in Romania after being replaced as Chief of Staff)"
+        "P\u00e1draig Pearse (Proclamation author, executed)",
+        "James Connolly (Irish Citizen Army leader, executed)",
+        "Michael Collins (participant, later independence leader)",
+        "John Maxwell (British General, ordered executions)"
       ],
       "sources": [
         {
-          "name": "Romanian and German military records; Glenn Torrey, The Romanian Battlefront in World War I (2011)",
+          "name": "British military reports and court martial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Proclamation of the Irish Republic (24 April 1916)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts and rebel memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Charles Townshend, Easter 1916: The Irish Rebellion (2005)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented campaign, though Romanian archival access was limited during the communist period.",
+      "certainty_note": "Extensively documented in contemporary military records, court martial proceedings, and eyewitness accounts. Dates and casualty figures are well-established.",
       "cross_references": [
-        "1916-006"
+        "1919-001 (Irish War of Independence begins)",
+        "1922-001 (Irish Free State established)"
+      ]
+    },
+    {
+      "id": "1916-005",
+      "title": "Brusilov Offensive",
+      "region": "Eastern Front, Russian Empire",
+      "coordinates_approx": "50.0\u00b0N, 25.0\u00b0E",
+      "category": "military",
+      "description": "Russian General Alexei Brusilov launches a major offensive against Austro-Hungarian and German forces on the Eastern Front, beginning 4 June 1916. The offensive achieves initial success, breaking through enemy lines and advancing up to 100 km in some sectors. Russian forces inflict approximately 400,000 casualties on the Central Powers while suffering approximately 500,000 casualties themselves. The offensive relieves pressure on the French at Verdun and demonstrates Russian military capability. However, the enormous casualties and logistical strain accelerate the exhaustion of the Russian Army and contribute to the revolutionary ferment that will culminate in the Russian Revolution of 1917. The offensive is the last major Russian military success of the First World War.",
+      "key_figures": [
+        "Alexei Brusilov (Russian General)",
+        "Nicholas II (Russian Tsar)",
+        "Hindenburg (German Commander-in-Chief, Eastern Front)"
+      ],
+      "sources": [
+        {
+          "name": "Russian Imperial General Staff records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Austro-Hungarian military archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Brusilov's memoirs (A Soldier's Notebook, 1930)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Norman Stone, The Eastern Front 1914\u20131917 (1975)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Russian and Austro-Hungarian military records. Casualty figures and strategic impact are established, though some details of tactical execution remain contested.",
+      "cross_references": [
+        "1917-002 (Russian Revolution begins)"
+      ]
+    },
+    {
+      "id": "1916-006",
+      "title": "Arab Revolt against Ottoman Rule",
+      "region": "Hejaz and Levant, Ottoman Empire",
+      "coordinates_approx": "25.0\u00b0N, 40.0\u00b0E",
+      "category": "political",
+      "description": "Arab nationalist forces, led by Sharif Hussein ibn Ali of Mecca, launch a revolt against Ottoman rule on 10 June 1916. The revolt is coordinated with British military support (including the famous liaison officer T. E. Lawrence). Arab forces attack Ottoman garrisons, cut the Hejaz Railway, and advance northward toward Syria. The revolt is part of the broader British strategy to undermine Ottoman power in the Middle East during the First World War. By the end of 1916, Arab forces have captured Mecca, Medina, and other key towns. The revolt contributes to the eventual collapse of Ottoman rule in the Middle East and raises Arab nationalist expectations for independence, though these will be complicated by the secret Sykes-Picot Agreement (1916) between Britain and France dividing the region into spheres of influence.",
+      "key_figures": [
+        "Sharif Hussein ibn Ali (Arab Revolt leader)",
+        "T. E. Lawrence (British liaison officer)",
+        "Edmund Allenby (British Commander, Egyptian Expeditionary Force)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office and War Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "T. E. Lawrence, Seven Pillars of Wisdom (1926)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Arab historical accounts and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Fromkin, A Peace to End All Peace (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in British military and diplomatic records and Arab sources. The revolt's beginning date (10 June 1916) is established, though some details of early operations vary between sources.",
+      "cross_references": [
+        "1916-007 (Sykes-Picot Agreement, concurrent)",
+        "1918-001 (Ottoman collapse and Arab independence expectations)"
+      ]
+    },
+    {
+      "id": "1916-007",
+      "title": "Sykes-Picot Agreement",
+      "region": "Diplomatic agreement affecting Middle East",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "British diplomat Mark Sykes and French diplomat Fran\u00e7ois Georges-Picot negotiate a secret agreement (signed 16 May 1916, formalised 23 October 1916) dividing the Ottoman Empire's Middle Eastern territories into British and French spheres of influence. The agreement allocates the Levant (Syria, Lebanon) to France and Mesopotamia (Iraq) and Palestine to Britain, with Russia receiving Constantinople and the Straits. The agreement contradicts earlier British promises to Arab nationalists regarding independence and becomes a source of profound Arab grievance when revealed. The agreement shapes the post-war Middle East through the League of Nations mandate system, creating artificial borders and sowing seeds of future conflict. The revelation of the agreement in 1917 by the Bolsheviks damages British credibility with Arab allies.",
+      "key_figures": [
+        "Mark Sykes (British diplomat)",
+        "Fran\u00e7ois Georges-Picot (French diplomat)",
+        "Herbert Samuel (British official, Palestine interest)"
+      ],
+      "sources": [
+        {
+          "name": "British Foreign Office records (The National Archives, Kew)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French diplomatic archives (Quai d'Orsay)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Fromkin, A Peace to End All Peace (1989)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in British and French diplomatic archives. The agreement's terms and dates are well-established.",
+      "cross_references": [
+        "1916-006 (Arab Revolt, concurrent)",
+        "1917-003 (Balfour Declaration, related Middle East policy)"
+      ]
+    },
+    {
+      "id": "1916-008",
+      "title": "Rasputin's Assassination",
+      "region": "Petrograd (St. Petersburg), Russian Empire",
+      "coordinates_approx": "59.9\u00b0N, 30.3\u00b0E",
+      "category": "political",
+      "description": "Grigori Rasputin, the controversial mystic and confidant of Tsarina Alexandra, is assassinated on 30 December 1916 (12 January 1917 in the Gregorian calendar) by a group of Russian nobles including Prince Felix Yusupov. Rasputin's influence over the Tsarina and his perceived role in state affairs have made him deeply unpopular among the nobility and public. His death removes a symbol of imperial corruption and incompetence but does not arrest the underlying political crisis. The assassination occurs amid widespread discontent with the war, food shortages, and the Tsar's absence at the front. Rasputin's death is a symptom of the regime's disintegration rather than a cause, but it symbolises the desperation of the Russian elite to salvage the monarchy.",
+      "key_figures": [
+        "Grigori Rasputin (victim)",
+        "Felix Yusupov (conspirator)",
+        "Grand Duke Dmitri Pavlovich (conspirator)",
+        "Vladimir Purishkevich (conspirator)"
+      ],
+      "sources": [
+        {
+          "name": "Yusupov's memoirs (Rasputin: An Intimate Account, 1927)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Russian police and court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Douglas Smith, Rasputin: The Life and Death of a Mad Monk (2010)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination is well-documented in contemporary sources and memoirs. The exact date is confirmed (30 December 1916 in the Julian calendar used in Russia at the time).",
+      "cross_references": [
+        "1917-002 (Russian Revolution begins)"
       ]
     },
     {
       "id": "1916-009",
-      "title": "Pancho Villa's raid on Columbus, New Mexico, and the US Punitive Expedition",
-      "region": "Mexico / United States borderlands",
-      "coordinates_approx": "31.8\u00b0N, 107.6\u00b0W",
+      "title": "Lusitania Sinking Aftermath and U-Boat Warfare Escalation",
+      "region": "Atlantic Ocean and North Sea",
+      "coordinates_approx": "51.4\u00b0N, 8.6\u00b0W",
       "category": "military",
-      "description": "On 9 March 1916, forces loyal to Francisco 'Pancho' Villa attacked the town of Columbus, New Mexico, killing 18 Americans. It was the last significant armed incursion by a foreign force into the continental United States. President Wilson ordered a Punitive Expedition under Brigadier General John J. Pershing into northern Mexico to capture Villa. The expedition, involving up to 10,000 troops, operated in Mexico from March 1916 to February 1917 without capturing Villa and generated significant diplomatic friction with the Carranza government. The campaign served as a training ground for the US Army's officer corps \u2014 many of whom would lead American forces in World War I.",
+      "description": "Following the sinking of the Lusitania in May 1915, Germany continues unrestricted submarine warfare in 1916, though with some restraint due to diplomatic pressure from the United States. In February 1916, Germany announces a new submarine campaign targeting merchant shipping. Multiple ships are sunk, including the Sussex (24 March 1916), which carries American passengers. The Sussex incident provokes strong American protests. Germany temporarily suspends unrestricted submarine warfare in response to American pressure (Sussex Pledge, May 1916), but the campaign demonstrates the vulnerability of merchant shipping and the strategic importance of submarine warfare. The escalation of U-boat attacks contributes to American grievances against Germany and will eventually contribute to American entry into the war in 1917.",
       "key_figures": [
-        "Francisco 'Pancho' Villa (revolutionary leader)",
-        "John J. Pershing (US Army commander of Punitive Expedition)",
-        "Venustiano Carranza (Mexican President)",
-        "Woodrow Wilson (US President)"
+        "Theobald von Bethmann Hollweg (German Chancellor)",
+        "Woodrow Wilson (U.S. President)",
+        "Reinhard Scheer (German High Seas Fleet Commander)"
       ],
       "sources": [
         {
-          "name": "US War Department records of the Punitive Expedition; Pershing's official reports",
+          "name": "German Naval Archives (Bundesarchiv-Milit\u00e4rarchiv)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "U.S. State Department records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Admiralty records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Barbara Tuchman, The Guns of August (1962)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in diplomatic and military records. The Sussex incident and German response are well-established.",
+      "cross_references": [
+        "1915-001 (Lusitania sinking)",
+        "1917-001 (Unrestricted submarine warfare resumes)"
+      ]
+    },
+    {
+      "id": "1916-010",
+      "title": "Mexican Revolution: Villa's Raid on Columbus, New Mexico",
+      "region": "Columbus, New Mexico, United States-Mexico border",
+      "coordinates_approx": "32.3\u00b0N, 107.6\u00b0W",
+      "category": "military",
+      "description": "Pancho Villa, the Mexican revolutionary general, leads approximately 500 troops in a raid on the town of Columbus, New Mexico, on 9 March 1916. The raid results in the deaths of approximately 18 American soldiers and 10 civilians, making it the first foreign military attack on the continental United States since the War of 1812. Villa's motives are disputed\u2014some sources suggest retaliation for American support of his rival Venustiano Carranza, others suggest economic desperation. The raid provokes an American military response: President Woodrow Wilson authorises the Punitive Expedition (March\u2013February 1917), sending approximately 12,000 U.S. troops under General John J. Pershing into Mexico to pursue Villa. The expedition fails to capture Villa but demonstrates American military capability and contributes to Mexican resentment of American intervention.",
+      "key_figures": [
+        "Pancho Villa (Mexican revolutionary general)",
+        "John J. Pershing (U.S. General)",
+        "Woodrow Wilson (U.S. President)",
+        "Venustiano Carranza (Mexican President)"
+      ],
+      "sources": [
+        {
+          "name": "U.S. Army records and official reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mexican government records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eyewitness accounts from Columbus, New Mexico",
           "type": "primary_text",
           "contemporary": true
         },
@@ -304,566 +395,358 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented in US military and diplomatic records.",
+      "certainty_note": "Well-documented in U.S. military records and contemporary accounts. The date (9 March 1916) and casualty figures are established.",
       "cross_references": [
-        "1917-ZIMMERMANN",
-        "1917-US_ENTERS_WAR"
-      ]
-    },
-    {
-      "id": "1916-010",
-      "title": "Siege of Kut and British surrender in Mesopotamia",
-      "region": "Kut-al-Amara, Ottoman Mesopotamia (modern Iraq)",
-      "coordinates_approx": "32.5\u00b0N, 45.8\u00b0E",
-      "category": "military",
-      "description": "After a failed advance on Baghdad in late 1915, British and Indian forces under Major-General Charles Townshend were besieged at Kut-al-Amara by Ottoman forces. Multiple relief attempts failed at enormous cost. On 29 April 1916, Townshend surrendered with approximately 13,000 troops \u2014 the largest British surrender since Yorktown in 1781. Approximately 4,000 of the prisoners, mostly Indian soldiers, died in Ottoman captivity from disease, starvation, and forced marches. The disaster was a humiliating blow to British prestige in the region and prompted a major reorganisation of the Mesopotamian campaign.",
-      "key_figures": [
-        "Major-General Charles Townshend (British commander at Kut)",
-        "Khalil Pasha (Ottoman commander)",
-        "T.E. Lawrence (attempted to negotiate Townshend's release)"
-      ],
-      "sources": [
-        {
-          "name": "Report of the Mesopotamia Commission (1917, parliamentary inquiry into the disaster)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Charles Townshend, My Campaign in Mesopotamia (1920)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Nikolas Gardner, The Siege of Kut-al-Amara: At War in Mesopotamia, 1915\u20131916 (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented by British parliamentary inquiry and military records. POW death toll estimates vary.",
-      "cross_references": [
-        "1917-FALL_OF_BAGHDAD"
+        "1917-004 (Punitive Expedition concludes)"
       ]
     },
     {
       "id": "1916-011",
-      "title": "Battle of the Somme: First use of tanks in warfare",
-      "region": "Flers-Courcelette, Somme sector, France",
-      "coordinates_approx": "50.1\u00b0N, 2.8\u00b0E",
+      "title": "Somme Offensive: Introduction of Tanks",
+      "region": "Northern France, Western Front",
+      "coordinates_approx": "50.1\u00b0N, 2.5\u00b0E",
       "category": "technological",
-      "description": "On 15 September 1916, during the Battle of Flers-Courcelette (part of the wider Somme offensive), the British deployed 49 Mark I tanks in combat for the first time in history. Only 32 reached the start line and many broke down or became ditched in shell craters. Their tactical impact was limited, but the psychological effect on German defenders was significant. The introduction of the tank marked the beginning of armoured warfare, a technology that would revolutionise military operations in subsequent decades. Development had been driven by Winston Churchill's support at the Admiralty and the need to cross no-man's-land against entrenched machine-gun positions.",
+      "description": "During the Battle of the Somme, the British introduce tanks in combat for the first time on 15 September 1916. Approximately 49 tanks are deployed, of which only 32 reach the front line. The tanks are slow, unreliable, and mechanically fragile, but they demonstrate the potential of armoured vehicles to cross trenches and suppress machine gun fire. The tanks have limited immediate tactical impact but represent a revolutionary development in warfare. The introduction of tanks marks the beginning of the end for static trench warfare, though this transition will take several years to fully realise. The tank becomes an iconic symbol of modern mechanised warfare and influences military doctrine for the remainder of the 20th century.",
       "key_figures": [
-        "Ernest Swinton (British officer, key tank development advocate)",
-        "Winston Churchill (First Lord of the Admiralty, supported early development)",
-        "Douglas Haig (authorised premature deployment before sufficient numbers were available)"
+        "Ernest Swinton (British tank pioneer)",
+        "Albert Stern (British tank programme director)",
+        "Douglas Haig (British Commander-in-Chief)"
       ],
       "sources": [
         {
-          "name": "War diary of the Heavy Branch, Machine Gun Corps (later Tank Corps), September 1916",
+          "name": "British War Office records and tank corps histories",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Fletcher, British Mark I Tank 1916 (Osprey, 2004)",
+          "name": "Tank crew memoirs and accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Fletcher, The British Tanks 1915\u20131919 (2002)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precise date and deployment details are thoroughly documented in British military records.",
+      "certainty_note": "Well-documented in British military records and tank corps histories. The date (15 September 1916) and number of tanks deployed are established.",
       "cross_references": [
-        "1916-002",
-        "1917-CAMBRAI"
+        "1916-001 (Battle of the Somme)"
       ]
     },
     {
       "id": "1916-012",
-      "title": "Death of Emperor Franz Joseph I of Austria",
-      "region": "Austria-Hungary",
-      "coordinates_approx": "48.2\u00b0N, 16.4\u00b0E",
-      "category": "political",
-      "description": "Emperor Franz Joseph I died on 21 November 1916 at age 86, having reigned since 1848. He was the longest-reigning Habsburg monarch and had personally embodied the unity of the Dual Monarchy for nearly seven decades. His grand-nephew Karl I succeeded him at age 29, inheriting a crumbling empire at war. Franz Joseph's death removed the one figure whose personal authority held the fractious multinational empire together. Karl attempted reforms and secret peace negotiations, but the centrifugal forces of nationalism, military exhaustion, and economic collapse would dissolve Austria-Hungary by November 1918.",
+      "title": "Somaliland Campaign: British Defeat of the Mad Mullah",
+      "region": "British Somaliland (present-day Somalia)",
+      "coordinates_approx": "9.5\u00b0N, 44.0\u00b0E",
+      "category": "military",
+      "description": "British forces under General Richard Corfield conduct a military campaign against Muhammad Abdullah Hassan (known as the 'Mad Mullah' by British sources), a Somali religious and military leader who has resisted British colonial rule since 1899. The campaign culminates in the defeat of Hassan's forces in 1920, but significant operations occur in 1916. British forces use aircraft for the first time in a colonial campaign, bombing Hassan's strongholds. The campaign is part of the broader British effort to consolidate control over Somaliland during the First World War. Hassan's resistance represents one of the longest anti-colonial struggles in African history, lasting over 20 years.",
       "key_figures": [
-        "Franz Joseph I (Emperor of Austria, King of Hungary)",
-        "Karl I (successor, last Habsburg emperor)"
+        "Muhammad Abdullah Hassan (Somali resistance leader)",
+        "Richard Corfield (British General)",
+        "George Archer-Shee (British officer)"
       ],
       "sources": [
         {
-          "name": "Official Habsburg court records; contemporary press accounts across European capitals",
+          "name": "British Colonial Office and War Office records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jean-Paul Bled, Franz Joseph (1992, trans. 1994)",
+          "name": "British military campaign reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Douglas Jardine, The Mad Mullah of Somaliland (1923)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "I. M. Lewis, A Modern History of the Somali (1965)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Date of death precisely documented in court records and contemporary international press.",
+      "certainty": "probable",
+      "certainty_note": "The campaign is documented in British colonial records, though the exact chronology of operations in 1916 is less detailed than for major European campaigns. The broader campaign context is well-established.",
       "cross_references": [
-        "1918-HABSBURG_DISSOLUTION"
+        "1920-001 (Final defeat of Muhammad Abdullah Hassan)"
       ]
     },
     {
       "id": "1916-013",
-      "title": "Yuan Shikai's monarchical restoration and death",
-      "region": "China",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "title": "Bolshevik Consolidation and Lenin's Return to Russia",
+      "region": "Russian Empire and Switzerland",
+      "coordinates_approx": "59.9\u00b0N, 30.3\u00b0E",
       "category": "political",
-      "description": "President Yuan Shikai, who had consolidated power since the fall of the Qing dynasty in 1912, proclaimed himself Emperor of the Chinese Empire on 1 January 1916 (formally enthroned 22 December 1915). The restoration provoked immediate opposition \u2014 the National Protection War launched from Yunnan province in December 1915 rapidly spread, and even Yuan's own generals withdrew support. Yuan was forced to abandon the monarchy on 22 March 1916 and died on 6 June, probably of uraemia. His death removed the last figure capable of maintaining centralised authority over the Republic, triggering the Warlord Era that fragmented China for the next decade.",
+      "description": "Vladimir Lenin and the Bolshevik faction of the Russian Social Democratic Labour Party consolidate their position in 1916 while in exile in Switzerland. Lenin publishes 'Imperialism, the Highest Stage of Capitalism' (1916), a theoretical work analysing the First World War as a product of capitalist competition for colonies and markets. The Bolsheviks adopt the slogan 'Turn the Imperialist War into a Civil War,' calling for the transformation of the war into a revolutionary struggle. Lenin's analysis and revolutionary programme gain influence among Russian workers and soldiers exhausted by the war. The Bolsheviks' anti-war stance positions them to capitalise on the revolutionary ferment that will erupt in 1917. In 1916, the Bolsheviks remain a minority faction, but their organisational discipline and clear programme distinguish them from other socialist groups.",
       "key_figures": [
-        "Yuan Shikai (President, briefly self-proclaimed Emperor)",
-        "Cai E (Yunnan military leader of the National Protection War)",
-        "Liang Qichao (intellectual leader of anti-monarchical opposition)"
+        "Vladimir Lenin (Bolshevik leader)",
+        "Grigori Zinoviev (Bolshevik theorist)",
+        "Nikolai Bukharin (Bolshevik theorist)"
       ],
       "sources": [
         {
-          "name": "Government of the Republic of China official gazette; contemporary Chinese-language press",
+          "name": "Lenin's published works and correspondence (1916)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ernest Young, The Presidency of Yuan Shih-k'ai: Liberalism and Dictatorship in Early Republican China (1977)",
+          "name": "Bolshevik party records and manifestos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Adam B. Ulam, The Bolsheviks: The Intellectual and Political History of the Triumph of Communism in Russia (1965)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented through Chinese official records, diplomatic correspondence, and press coverage.",
+      "certainty_note": "Lenin's publications and the Bolsheviks' political positions in 1916 are well-documented in primary sources.",
       "cross_references": [
-        "1912-QING_ABDICATION",
-        "1916-WARLORD_ERA"
+        "1917-002 (Russian Revolution and Bolshevik seizure of power)"
       ]
     },
     {
       "id": "1916-014",
-      "title": "East Africa campaign: German guerrilla resistance under Lettow-Vorbeck",
-      "region": "German East Africa (modern Tanzania/Mozambique)",
-      "coordinates_approx": "6.8\u00b0S, 37.7\u00b0E",
+      "title": "Gallipoli Campaign Conclusion",
+      "region": "Gallipoli Peninsula, Ottoman Empire (present-day Turkey)",
+      "coordinates_approx": "40.4\u00b0N, 26.2\u00b0E",
       "category": "military",
-      "description": "Throughout 1916, a large Allied force under South African General Jan Smuts (comprising British, South African, Indian, Belgian, and Portuguese troops, plus large numbers of African soldiers and carriers) attempted to defeat the German colonial force in East Africa commanded by Colonel Paul von Lettow-Vorbeck. Despite vastly superior numbers, the Allies could not bring Lettow-Vorbeck to a decisive engagement. His force of approximately 3,000 Germans and 12,000 Askari troops conducted a masterful guerrilla campaign, tying down over 300,000 Allied personnel. The campaign's heaviest toll fell on African carriers and civilians \u2014 disease, famine, and forced porterage caused hundreds of thousands of African deaths, a catastrophe largely overlooked in European accounts.",
+      "description": "The Gallipoli Campaign, which began in April 1915, concludes in January 1916 with the evacuation of Allied forces. The campaign, intended to knock the Ottoman Empire out of the war by capturing the Dardanelles Strait, has failed at enormous cost. British, French, Australian, and New Zealand forces have suffered approximately 200,000 casualties (killed, wounded, and missing), while Ottoman forces have suffered approximately 250,000 casualties. The campaign is remembered as a strategic failure and a symbol of military incompetence, particularly in Britain and the Dominions. However, the evacuation itself is executed successfully, demonstrating British logistical capability. The campaign has profound cultural impact in Australia and New Zealand, where the ANZAC forces' bravery in a doomed campaign becomes a foundational national myth.",
       "key_figures": [
-        "Paul von Lettow-Vorbeck (German colonial commander)",
-        "Jan Smuts (Allied commander in East Africa, later South African Prime Minister)"
+        "Ian Hamilton (British Commander)",
+        "Edmund Allenby (British Corps Commander)",
+        "William Birdwood (Australian and New Zealand Corps Commander)"
       ],
       "sources": [
         {
-          "name": "Paul von Lettow-Vorbeck, My Reminiscences of East Africa (1920)",
+          "name": "British War Office records and official despatches",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Edward Paice, Tip and Run: The Untold Tragedy of the Great War in Africa (2007)",
+          "name": "Australian and New Zealand military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Robert Rhodes James, Gallipoli (1965)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Military operations well-documented through colonial and military records. African civilian and carrier death tolls are estimated and remain contested, but the scale of the humanitarian disaster is widely acknowledged.",
+      "certainty_note": "The evacuation in January 1916 is well-documented in military records. Casualty figures and strategic assessment are established.",
       "cross_references": [
-        "1918-LETTOW_VORBECK_SURRENDERS"
+        "1915-002 (Gallipoli Campaign begins)"
       ]
     },
     {
       "id": "1916-015",
-      "title": "Einstein publishes general theory of relativity",
-      "region": "Berlin, Germany",
-      "coordinates_approx": "52.5\u00b0N, 13.4\u00b0E",
-      "category": "scientific",
-      "description": "Albert Einstein published his foundational paper 'Die Grundlage der allgemeinen Relativit\u00e4tstheorie' (The Foundation of the General Theory of Relativity) in Annalen der Physik in March 1916, presenting the complete mathematical formulation of general relativity. The field equations had been presented to the Prussian Academy in November 1915, but the 1916 paper provided the comprehensive exposition. General relativity reconceived gravity as the curvature of spacetime caused by mass and energy, superseding Newton's theory after over two centuries. Experimental confirmation came with the 1919 solar eclipse observations, but the 1916 publication represents the definitive theoretical statement.",
+      "title": "German Unrestricted Submarine Warfare Campaign",
+      "region": "Atlantic Ocean and North Sea",
+      "coordinates_approx": "51.0\u00b0N, 10.0\u00b0W",
+      "category": "military",
+      "description": "Germany escalates its submarine warfare campaign in 1916, targeting merchant shipping in an attempt to starve Britain into submission. The campaign sinks hundreds of merchant vessels, including neutral ships. The campaign is controversial and provokes diplomatic protests from neutral nations, particularly the United States. The sinking of the Sussex (24 March 1916) with American passengers aboard provokes a strong American protest. Germany temporarily suspends unrestricted submarine warfare in May 1916 (Sussex Pledge) in response to American pressure, but the campaign demonstrates the strategic potential of submarine warfare and the vulnerability of merchant shipping. The campaign will be resumed without restriction in February 1917, contributing to American entry into the war.",
       "key_figures": [
-        "Albert Einstein (theoretical physicist, then at the Prussian Academy of Sciences)"
+        "Theobald von Bethmann Hollweg (German Chancellor)",
+        "Reinhard Scheer (German High Seas Fleet Commander)",
+        "Woodrow Wilson (U.S. President)"
       ],
       "sources": [
         {
-          "name": "Albert Einstein, 'Die Grundlage der allgemeinen Relativit\u00e4tstheorie', Annalen der Physik, 354(7), pp. 769\u2013822 (1916)",
+          "name": "German Naval Archives (Bundesarchiv-Milit\u00e4rarchiv)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Abraham Pais, 'Subtle is the Lord...': The Science and the Life of Albert Einstein (1982)",
+          "name": "U.S. State Department records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Admiralty records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Stevenson, 1914\u20131918: The History of the First World War (2004)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Published in a peer-reviewed journal with a precise publication date. The field equations were first presented in November 1915; the comprehensive paper was published in 1916.",
+      "certainty_note": "Well-documented in German, American, and British records. The campaign's scope and diplomatic consequences are established.",
       "cross_references": [
-        "1915-FIELD_EQUATIONS",
-        "1919-EDDINGTON_ECLIPSE"
+        "1917-001 (Unrestricted submarine warfare resumes)"
       ]
     },
     {
       "id": "1916-016",
-      "title": "Assassination of Rasputin",
-      "region": "Petrograd, Russian Empire",
-      "coordinates_approx": "59.9\u00b0N, 30.3\u00b0E",
+      "title": "Balfour Declaration (Preliminary Discussions)",
+      "region": "London, British Empire",
+      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W",
       "category": "political",
-      "description": "Grigori Rasputin, the Siberian mystic who wielded extraordinary influence over Tsar Nicholas II and especially Tsarina Alexandra through his apparent ability to ease the haemophilia of their son Alexei, was assassinated on the night of 29\u201330 December 1916 (16\u201317 December Old Style). A group of aristocratic conspirators led by Prince Felix Yusupov and Grand Duke Dmitri Pavlovich lured him to the Yusupov Palace. The exact manner of his death has been mythologised, but he was poisoned, shot, and his body dumped in the Neva River. The murder did nothing to arrest the regime's collapse; Nicholas and Alexandra's isolation from the elite deepened, and revolution came within three months.",
+      "description": "In 1916, British officials, including Foreign Secretary Arthur Balfour and Zionist leaders, engage in preliminary discussions regarding British support for a Jewish homeland in Palestine. These discussions will culminate in the formal Balfour Declaration of 2 November 1917, but the groundwork is laid in 1916. The discussions are motivated by British strategic interests in the Middle East, the desire to secure Jewish support (particularly in the United States and Russia), and ideological sympathy for Zionism among some British officials. The discussions occur against the backdrop of the Arab Revolt and the Sykes-Picot Agreement, creating a complex and contradictory set of British commitments regarding the future of Palestine.",
       "key_figures": [
-        "Grigori Rasputin (mystic and political figure)",
-        "Prince Felix Yusupov (lead conspirator)",
-        "Grand Duke Dmitri Pavlovich (conspirator)",
-        "Vladimir Purishkevich (right-wing Duma member, conspirator)"
+        "Arthur Balfour (British Foreign Secretary)",
+        "Chaim Weizmann (Zionist leader)",
+        "Herbert Samuel (British official)"
       ],
       "sources": [
         {
-          "name": "Felix Yusupov, Rasputin: His Malignant Influence and His Assassination (1927)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Petrograd police investigation records (December 1916\u2013January 1917)",
+          "name": "British Foreign Office records (The National Archives, Kew)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Douglas Smith, Rasputin: Faith, Power, and the Twilight of the Romanovs (2016)",
+          "name": "Zionist Organisation records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David Fromkin, A Peace to End All Peace (1989)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Date and perpetrators are confirmed by police and court records. The legendary embellishments about the difficulty of killing him (survived poisoning, multiple gunshots, etc.) are largely from Yusupov's self-serving memoir and are disputed by modern forensic analysis.",
+      "certainty": "probable",
+      "certainty_note": "The preliminary discussions in 1916 are documented in British and Zionist records, though the formal declaration comes in 1917. The exact chronology of discussions is somewhat unclear from available sources.",
       "cross_references": [
-        "1917-FEBRUARY_REVOLUTION"
+        "1917-003 (Balfour Declaration issued)"
       ]
     },
     {
       "id": "1916-017",
-      "title": "Woodrow Wilson re-elected on 'He Kept Us Out of War' platform",
-      "region": "United States",
-      "coordinates_approx": "39.0\u00b0N, 77.0\u00b0W",
+      "title": "Chinese Warlord Period: Yuan Shikai's Death and Fragmentation",
+      "region": "China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
       "category": "political",
-      "description": "President Woodrow Wilson won re-election on 7 November 1916, narrowly defeating Republican Charles Evans Hughes. The campaign was largely fought on the issue of American neutrality, with the Democratic slogan 'He Kept Us Out of War' proving decisive. Wilson carried California by fewer than 4,000 votes, which secured his Electoral College majority. The irony was acute: within five months of his second inauguration, Wilson would ask Congress to declare war on Germany, making this election one of the most consequential in American history in retrospect.",
+      "description": "Yuan Shikai, the Chinese military strongman who has dominated Chinese politics since 1912, dies on 6 June 1916. Yuan's death marks the end of any possibility of centralised military rule and accelerates the fragmentation of China into competing warlord factions. The period from 1916 to 1928 becomes known as the Warlord Period, characterised by regional military strongmen controlling different parts of China, constant warfare, and the weakness of the nominal central government. Yuan's death removes the last figure with sufficient military power to maintain national unity. The fragmentation creates opportunities for the Chinese Communist Party and the Kuomintang (Chinese Nationalist Party) to organise and eventually reunify China. Yuan's death is a turning point in Chinese history, marking the transition from the early Republican period to the Warlord Period.",
       "key_figures": [
-        "Woodrow Wilson (incumbent President, Democratic)",
-        "Charles Evans Hughes (Republican challenger, former Supreme Court Justice)"
+        "Yuan Shikai (Chinese military strongman, deceased)",
+        "Li Yuanhong (Vice President, becomes President)",
+        "Duan Qirui (Warlord)"
       ],
       "sources": [
         {
-          "name": "Official US election returns; contemporary American newspaper coverage (New York Times, etc.)",
+          "name": "Chinese government records and official histories",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "A. Scott Berg, Wilson (2013)",
+          "name": "Warlord faction records and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan D. Spence, The Search for Modern China (1990)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Election results precisely documented in official records.",
+      "certainty_note": "Yuan Shikai's death on 6 June 1916 is well-documented in Chinese historical records. The political consequences are established.",
       "cross_references": [
-        "1917-US_ENTERS_WAR"
+        "1928-001 (Kuomintang reunification of China)"
       ]
     },
     {
       "id": "1916-018",
-      "title": "Great Fire of Thessaloniki",
-      "region": "Thessaloniki, Greece",
-      "coordinates_approx": "40.6\u00b0N, 22.9\u00b0E",
-      "category": "environmental",
-      "description": "On 18 August 1916, a massive fire broke out in Thessaloniki (then hosting a large Allied military base as part of the Macedonian Front). The fire destroyed a significant portion of the old city centre, leaving approximately 73,000 people homeless \u2014 roughly one-third of the city's population. The destruction particularly affected the city's large Jewish community, which had constituted the majority of Thessaloniki's population. The fire, combined with the wartime Allied military presence, accelerated the transformation of Thessaloniki from an Ottoman cosmopolitan city to a Greek national one.",
+      "title": "German Occupation of Romania",
+      "region": "Romania",
+      "coordinates_approx": "45.9\u00b0N, 24.9\u00b0E",
+      "category": "military",
+      "description": "Romania, which has entered the First World War on the Allied side in August 1916, is rapidly defeated by German and Austro-Hungarian forces. The Central Powers launch a coordinated offensive, and by December 1916, German forces under Falkenhayn have occupied most of Romania. The Romanian Army suffers approximately 250,000 casualties and is forced to retreat into Moldavia. The occupation of Romania gives the Central Powers access to Romanian oil fields and grain supplies, which are crucial for the German war effort. The occupation also demonstrates the military superiority of the Central Powers on the Eastern Front and the weakness of the Russian Army. Romania's defeat is a significant strategic victory for the Central Powers and a setback for the Allies.",
       "key_figures": [
-        "Konstantinos Angelakis (Greek city governor)"
+        "Falkenhayn (German Commander)",
+        "Mackensen (German General)",
+        "Ferdinand I (Romanian King)",
+        "Brusilov (Russian General)"
       ],
       "sources": [
         {
-          "name": "Contemporary Greek and Allied military press reports; municipal records",
+          "name": "German General Staff records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Mark Mazower, Salonica, City of Ghosts: Christians, Muslims and Jews 1430\u20131950 (2004)",
+          "name": "Romanian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Norman Stone, The Eastern Front 1914\u20131917 (1975)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in municipal records and Allied military accounts. The 1917 fire was even more devastating; this 1916 fire is sometimes conflated with it in popular accounts.",
-      "cross_references": []
-    },
-    {
-      "id": "1916-019",
-      "title": "National Defence government established in Thessaloniki (Greek National Schism)",
-      "region": "Greece",
-      "coordinates_approx": "40.6\u00b0N, 22.9\u00b0E",
-      "category": "political",
-      "description": "In September 1916, former Prime Minister Eleftherios Venizelos established a rival provisional government in Thessaloniki, splitting Greece into two competing states \u2014 the royalist government of King Constantine I in Athens, which favoured neutrality, and Venizelos's pro-Allied government in the north. This 'National Schism' (Ethnikos Dikhasmos) divided Greek politics along fault lines that persisted for decades. Venizelos's government declared war on the Central Powers, while Constantine's Athens government was effectively besieged by Allied pressure. The schism was resolved in June 1917 when the Allies forced Constantine's abdication.",
-      "key_figures": [
-        "Eleftherios Venizelos (leader of the Thessaloniki government)",
-        "King Constantine I of Greece (royalist, pro-neutrality)"
-      ],
-      "sources": [
-        {
-          "name": "Official proclamation of the Provisional Government of National Defence (September 1916); Allied diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Michael Llewellyn Smith, Ionian Vision: Greece in Asia Minor, 1919\u20131922 (1973, rev. 1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Greek, French, and British government records.",
+      "certainty_note": "The occupation of Romania in 1916 is well-documented in German and Romanian military records. The strategic consequences are established.",
       "cross_references": [
-        "1917-CONSTANTINE_ABDICATION"
-      ]
-    },
-    {
-      "id": "1916-020",
-      "title": "Margaret Sanger opens first US birth control clinic",
-      "region": "Brooklyn, New York, United States",
-      "coordinates_approx": "40.7\u00b0N, 74.0\u00b0W",
-      "category": "cultural",
-      "description": "On 16 October 1916, Margaret Sanger, her sister Ethel Byrne, and Fania Mindell opened the first birth control clinic in the United States at 46 Amboy Street in the Brownsville neighbourhood of Brooklyn. The clinic provided contraceptive information to immigrant women. It was raided by police after nine days and all three women were arrested under the Comstock laws. Sanger's trial and appeals generated enormous publicity and helped build the birth control movement that would eventually lead to the legalisation of contraception and the founding of Planned Parenthood.",
-      "key_figures": [
-        "Margaret Sanger (birth control activist)",
-        "Ethel Byrne (nurse, Sanger's sister)",
-        "Fania Mindell (translator at the clinic)"
-      ],
-      "sources": [
-        {
-          "name": "New York City court records (People v. Sanger, 1917); contemporary press coverage in New York Tribune and other newspapers",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ellen Chesler, Woman of Valor: Margaret Sanger and the Birth Control Movement in America (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely documented through arrest records, court proceedings, and contemporary press coverage.",
-      "cross_references": []
-    },
-    {
-      "id": "1916-021",
-      "title": "Armenian Genocide continues; deportations and massacres ongoing",
-      "region": "Ottoman Empire (eastern Anatolia, Syrian desert)",
-      "coordinates_approx": "36.0\u00b0N, 40.0\u00b0E",
-      "category": "demographic",
-      "description": "The systematic destruction of the Armenian population of the Ottoman Empire, which had begun with mass deportations and massacres in 1915, continued through 1916. Survivors of the initial deportation marches were concentrated in camps in the Syrian desert, particularly around Deir ez-Zor, where mass killings continued. An estimated 1\u20131.5 million Armenians were killed in the genocide overall (1915\u20131923). In 1916, German and American diplomatic observers documented ongoing atrocities, and Ambassador Henry Morgenthau's reports to Washington generated international attention but no intervention. The genocide also encompassed Assyrian and Greek Christian populations.",
-      "key_figures": [
-        "Talaat Pasha (Ottoman Interior Minister, principal architect of the genocide)",
-        "Henry Morgenthau Sr. (US Ambassador to the Ottoman Empire, documented atrocities)",
-        "Armin T. Wegner (German soldier and photographer who documented deportation camps)"
-      ],
-      "sources": [
-        {
-          "name": "US State Department records and Morgenthau's dispatches (1915\u20131916); German Foreign Office archives documenting allied complaints",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Viscount James Bryce and Arnold Toynbee, The Treatment of Armenians in the Ottoman Empire (Blue Book, 1916)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ronald Grigor Suny, 'They Can Live in the Desert but Nowhere Else': A History of the Armenian Genocide (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by contemporary diplomatic records from multiple neutral and allied nations, survivor testimony, and photographic evidence. The Turkish government's official position continues to dispute the characterisation as genocide, but the scholarly and international legal consensus is overwhelming.",
-      "cross_references": [
-        "1915-ARMENIAN_GENOCIDE_BEGINS"
-      ]
-    },
-    {
-      "id": "1916-022",
-      "title": "Lucknow Pact: Hindu-Muslim political alliance in India",
-      "region": "British India",
-      "coordinates_approx": "26.8\u00b0N, 81.0\u00b0E",
-      "category": "political",
-      "description": "In December 1916, the Indian National Congress and the All-India Muslim League held simultaneous sessions in Lucknow, where they agreed on a scheme for Indian self-government under British sovereignty. The pact, brokered largely by Muhammad Ali Jinnah (then a member of both organisations), provided for separate electorates for Muslims with weighted representation. The Lucknow Pact represented the high-water mark of Hindu-Muslim political cooperation in the independence movement and marked the emergence of Jinnah as a major political figure. However, the principle of separate electorates would prove divisive in the long term.",
-      "key_figures": [
-        "Muhammad Ali Jinnah (key negotiator, later founder of Pakistan)",
-        "Bal Gangadhar Tilak (Congress leader)",
-        "Annie Besant (Home Rule League leader)"
-      ],
-      "sources": [
-        {
-          "name": "Proceedings of the Indian National Congress, Lucknow session, December 1916; All-India Muslim League records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ayesha Jalal, The Sole Spokesman: Jinnah, the Muslim League and the Demand for Pakistan (1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in Congress and League records and contemporary Indian press.",
-      "cross_references": [
-        "1947-PARTITION"
-      ]
-    },
-    {
-      "id": "1916-023",
-      "title": "Dada movement founded in Zurich",
-      "region": "Zurich, Switzerland",
-      "coordinates_approx": "47.4\u00b0N, 8.5\u00b0E",
-      "category": "cultural",
-      "description": "In February 1916, Hugo Ball, Emmy Hennings, Tristan Tzara, Jean Arp, Richard Huelsenbeck, and others founded the Cabaret Voltaire in Zurich, launching the Dada movement. Born of disgust at the war and the rational civilisation that had produced it, Dada embraced absurdity, chance, anti-art, and the destruction of conventional aesthetics. The movement spread rapidly to Berlin, New York, Paris, and other cities, profoundly influencing Surrealism, conceptual art, punk, and virtually every subsequent avant-garde movement. Hugo Ball's reading of sound poems at the Cabaret Voltaire became iconic performances of anti-rational protest.",
-      "key_figures": [
-        "Hugo Ball (founder, performer)",
-        "Tristan Tzara (poet, later Dada's chief propagandist)",
-        "Emmy Hennings (performer, co-founder)",
-        "Jean (Hans) Arp (artist)"
-      ],
-      "sources": [
-        {
-          "name": "Hugo Ball, diary entries (published as Flight Out of Time, 1927); Cabaret Voltaire magazine (1916)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Leah Dickerman (ed.), Dada: Zurich, Berlin, Hannover, Cologne, New York, Paris (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Founding date and participants well-documented through Ball's diary and early Dada publications.",
-      "cross_references": []
-    },
-    {
-      "id": "1916-024",
-      "title": "Gallipoli aftermath: ANZAC legend consolidated in Australian and New Zealand identity",
-      "region": "Australia / New Zealand",
-      "coordinates_approx": "-33.9\u00b0N, 151.2\u00b0E",
-      "category": "cultural",
-      "description": "Following the evacuation of Gallipoli in January 1916 and the transfer of Australian and New Zealand forces to the Western Front, the ANZAC legend became central to Australian and New Zealand national identity. The first anniversary of the 25 April 1915 landings was marked in 1916, establishing ANZAC Day as a day of commemoration. Australian and New Zealand troops fought at Pozi\u00e8res and Fromelles on the Somme in 1916, suffering severe casualties that deepened the sense of sacrifice. In Australia, the war intensified political division when Prime Minister Billy Hughes's conscription referendum was narrowly defeated on 28 October 1916, reflecting deep community opposition to compulsory service.",
-      "key_figures": [
-        "William (Billy) Hughes (Australian Prime Minister)",
-        "William Massey (New Zealand Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "C.E.W. Bean, The Official History of Australia in the War of 1914\u20131918 (1921\u20131942)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Joan Beaumont, Broken Nation: Australians in the Great War (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented through official records, war diaries, and the Australian War Memorial collections. The conscription referendum result is precisely recorded.",
-      "cross_references": [
-        "1915-GALLIPOLI"
+        "1916-005 (Brusilov Offensive, concurrent)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held beliefs about 1916 events require qualification. (1) The Falkenhayn 'bleeding white' memo: The central claim that Falkenhayn planned Verdun specifically to 'bleed France white' through attrition rests on a single post-war memoir passage (Falkenhayn's 1920 memoirs). Historians including Holger Afflerbach have argued the 'Christmas memorandum' may be a post-hoc rationalisation \u2014 the original document has never been found, and operational evidence suggests Falkenhayn actually sought a breakthrough. (2) Jutland as a 'draw': The characterisation of Jutland as tactically indecisive or a German victory is contested; some historians (e.g., Andrew Gordon) argue the strategic outcome was so decisively British that calling it a draw understates its significance. (3) The Sykes-Picot Agreement's role in creating modern Middle East borders is frequently overstated in popular accounts; the actual post-war boundaries diverged significantly from the agreement, and scholars like Sara Pursley have argued the agreement's influence on final border-drawing was less direct than commonly claimed. (4) The Easter Rising's lack of popular support is more nuanced than sometimes presented \u2014 while Dublin civilians were initially hostile to the destruction, pockets of support existed from the outset, and the shift in opinion was not solely caused by the executions but also by the heavy-handed imposition of martial law across Ireland. (5) Rasputin's murder: Yusupov's dramatic account of failed poisoning, multiple gunshots, and near-escapes is almost certainly embellished. Modern analysis suggests the cyanide may have been degraded, and Rasputin probably died from gunshot wounds in a more straightforward fashion.",
-  "historiographic_note": "1916 is one of the most thoroughly documented years in human history due to the massive bureaucratic apparatus of World War I belligerents, the proliferation of print journalism, and the emergence of photographic and film documentation. However, significant biases shape the record: Western Front events dominate Anglophone historiography at the expense of the Eastern, Italian, and Middle Eastern fronts. Colonial and imperial perspectives overwhelm indigenous voices \u2014 the enormous African death toll in the East Africa campaign, for example, went largely unrecorded by European sources. Ottoman sources for events like the Armenian Genocide were systematically destroyed, making the case rely heavily on external diplomatic records and survivor testimony. Chinese sources for Yuan Shikai's restoration are filtered through both Republican and later Communist historiographic agendas. Indian political history is well-documented through Congress and League records but reflects elite perspectives, not mass experience. Working-class and women's experiences are underrepresented relative to military and diplomatic history.",
+  "disconfirming_evidence": "The significance of the Battle of the Somme as a 'breakthrough' or 'turning point' is disputed by modern scholarship. While the battle is undoubtedly significant for its scale and casualties, some historians argue that it did not fundamentally change the strategic situation on the Western Front and that the attritional strategy was inevitable given the military technology and doctrine of the period. The claim that the first day of the Somme (1 July 1916) was the 'worst day in British military history' is confirmed, but some historians question whether the battle's strategic purpose (relieving pressure on the French at Verdun) was achieved or whether it merely added to the overall carnage. The Easter Rising is often portrayed as a 'failure' militarily but a 'success' politically, but this narrative oversimplifies the complex process by which Irish public opinion shifted\u2014the executions were important but not the sole cause of the shift. The introduction of tanks at the Somme is often celebrated as a revolutionary development, but modern scholarship emphasises that tanks were unreliable, slow, and had minimal tactical impact in 1916; their revolutionary potential was not realised until 1918. The Brusilov Offensive is sometimes portrayed as a 'success' because of the initial breakthrough, but the enormous casualties and logistical strain arguably made it a strategic failure that weakened the Russian Army more than it weakened the Central Powers. The Arab Revolt is sometimes portrayed as a unified nationalist movement, but it was in fact a coalition of diverse tribal and religious groups with varying motivations, and its long-term political significance was limited by the Sykes-Picot Agreement and subsequent British and French actions.",
+  "historiographic_note": "The historical record for 1916 is exceptionally rich, particularly for the European theatres of the First World War. Military records from all major combatants are extensive and well-preserved. However, the record is heavily weighted toward military and political history; social and economic history is less well-documented. The record is also heavily weighted toward Western European perspectives; the Eastern Front, the Middle East, and colonial theatres are less thoroughly documented in English-language historiography. The record for China, India, and other non-European regions is thinner and often filtered through colonial or Western sources. The record for the First World War is shaped by the dominance of military history and the focus on 'great battles' and 'great men'; the experiences of ordinary soldiers, workers, and civilians are less well-documented. The record is also shaped by nationalist historiographies; each nation tends to emphasise its own sacrifices and achievements while downplaying those of others. The record for the Middle East is complicated by the Sykes-Picot Agreement and subsequent British and French actions, which have led to competing narratives about the region's history and the origins of modern Middle Eastern conflicts.",
   "graph_edges": [
     {
       "from": "1916-001",
       "to": "1916-002",
       "relation": "contemporary_with",
-      "note": "The Somme offensive was launched partly to relieve French pressure at Verdun"
+      "note": "The Somme and Verdun offensives occur simultaneously on the Western Front, representing the peak of attritional warfare in 1916."
+    },
+    {
+      "from": "1916-001",
+      "to": "1916-011",
+      "relation": "part_of",
+      "note": "The introduction of tanks occurs during the Battle of the Somme."
+    },
+    {
+      "from": "1916-005",
+      "to": "1916-018",
+      "relation": "contemporary_with",
+      "note": "The Brusilov Offensive and the German occupation of Romania occur simultaneously on the Eastern Front."
+    },
+    {
+      "from": "1916-006",
+      "to": "1916-007",
+      "relation": "contradicts",
+      "note": "The Arab Revolt is launched with British support for Arab independence, but the Sykes-Picot Agreement simultaneously divides the region into British and French spheres of influence, creating a fundamental contradiction in British policy."
     },
     {
       "from": "1916-004",
-      "to": "1916-005",
-      "relation": "contradicts",
-      "note": "Sykes-Picot's partition plan contradicted the promises made to Sharif Hussein that encouraged the Arab Revolt"
+      "to": "1917-002",
+      "relation": "led_to",
+      "note": "The Easter Rising and the execution of its leaders radicalise Irish nationalism, contributing to the Irish War of Independence."
     },
     {
-      "from": "1916-006",
-      "to": "1916-008",
-      "relation": "led_to",
-      "note": "Brusilov Offensive's success encouraged Romania to enter the war"
-    },
-    {
-      "from": "1916-006",
-      "to": "1917-RUSSIAN_REVOLUTION",
-      "relation": "led_to",
-      "note": "Brusilov Offensive's enormous casualties contributed to Russian military exhaustion and the 1917 revolutions"
-    },
-    {
-      "from": "1916-007",
-      "to": "1917-UNRESTRICTED_SUBMARINE",
-      "relation": "led_to",
-      "note": "Jutland's strategic outcome pushed Germany toward unrestricted submarine warfare"
-    },
-    {
-      "from": "1916-003",
-      "to": "1919-IRISH_WAR_INDEPENDENCE",
-      "relation": "led_to",
-      "note": "Easter Rising and subsequent executions transformed Irish public opinion and fuelled the independence movement"
+      "from": "1916-008",
+      "to": "1917-002",
+      "relation": "part_of",
+      "note": "Rasputin's assassination is a symptom of the political crisis that will culminate in the Russian Revolution."
     },
     {
       "from": "1916-013",
-      "to": "1916-WARLORD_ERA",
+      "to": "1917-002",
       "relation": "led_to",
-      "note": "Yuan Shikai's death removed the last centralising authority and triggered warlord fragmentation"
-    },
-    {
-      "from": "1916-016",
-      "to": "1917-FEBRUARY_REVOLUTION",
-      "relation": "part_of",
-      "note": "Rasputin's assassination was a symptom of the collapsing legitimacy of the Romanov regime"
+      "note": "The Bolsheviks' consolidation and anti-war programme in 1916 position them to seize power in the Russian Revolution of 1917."
     },
     {
       "from": "1916-017",
-      "to": "1917-US_ENTERS_WAR",
+      "to": "1928-001",
       "relation": "led_to",
-      "note": "Wilson's re-election on a peace platform was followed within months by US entry into the war"
-    },
-    {
-      "from": "1916-009",
-      "to": "1917-US_ENTERS_WAR",
-      "relation": "part_of",
-      "note": "The Punitive Expedition and Mexican border tensions were part of the context in which the Zimmermann Telegram was sent"
-    },
-    {
-      "from": "1916-015",
-      "to": "1919-EDDINGTON_ECLIPSE",
-      "relation": "led_to",
-      "note": "Einstein's 1916 general relativity paper predicted light bending confirmed by the 1919 eclipse expedition"
-    },
-    {
-      "from": "1916-021",
-      "to": "1915-ARMENIAN_GENOCIDE_BEGINS",
-      "relation": "part_of",
-      "note": "Continuation of the genocide that began with mass deportations in 1915"
-    },
-    {
-      "from": "1916-022",
-      "to": "1947-PARTITION",
-      "relation": "led_to",
-      "note": "The Lucknow Pact's separate electorates principle contributed to the communalisation of Indian politics leading to partition"
-    },
-    {
-      "from": "1916-012",
-      "to": "1918-HABSBURG_DISSOLUTION",
-      "relation": "led_to",
-      "note": "Franz Joseph's death accelerated the centrifugal forces that dissolved Austria-Hungary"
-    },
-    {
-      "from": "1916-010",
-      "to": "1917-FALL_OF_BAGHDAD",
-      "relation": "led_to",
-      "note": "The Kut disaster prompted reorganisation of the Mesopotamian campaign, leading to the successful advance on Baghdad in 1917"
+      "note": "Yuan Shikai's death in 1916 initiates the Warlord Period, which lasts until the Kuomintang's reunification of China in 1928."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:11:37.395910",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

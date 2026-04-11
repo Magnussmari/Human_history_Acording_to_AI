@@ -1,803 +1,562 @@
 {
   "year": 1900,
   "year_label": "1900 CE",
-  "era_context": "The turn of the twentieth century marked the zenith of European imperialism, with European powers and the United States controlling or claiming most of the globe. Industrial capitalism was transforming societies at an accelerating pace, generating both immense wealth and explosive social tensions \u2014 labour movements, socialism, and anarchism were all ascendant. In East Asia, the Qing dynasty was in terminal crisis, facing internal rebellion and predatory great-power encroachment. The year 1900 itself was dominated by the Boxer Uprising in China, the grinding second year of the South African War, and breakthroughs in physics that would unravel the Newtonian worldview within a generation.",
+  "era_context": "The final year of the 19th century and the height of European imperialism. The Boxer Rebellion in China; the Second Boer War in South Africa; the McKinley administration in the United States pursuing imperial expansion in the Pacific and Caribbean; the Qing Dynasty in terminal decline; Japan modernising rapidly; European powers competing for colonial territories in Africa and Asia. The Belle \u00c9poque in Europe; rapid industrialisation and technological change.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Interior Sub-Saharan Africa beyond colonial administrative records",
-    "Central Asia under Russian rule",
-    "Pacific Islands outside major colonial ports",
-    "Indigenous perspectives in settler-colonial states (Australia, Canada, United States, New Zealand)",
-    "Rural Latin America outside capital cities",
-    "Southeast Asian communities beyond colonial documentation"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1900-001",
-      "title": "Boxer Uprising besieges foreign legations in Beijing",
-      "region": "Qing China (Beijing, Tianjin, Hebei, Shandong, Shanxi)",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "title": "Boxer Rebellion: foreign legations besieged in Beijing",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "military",
-      "description": "The Yihetuan (Society of Righteous and Harmonious Fists, 'Boxers'), a popular movement combining martial arts, spirit possession, and anti-foreign sentiment, besieged the foreign legation quarter in Beijing from 20 June to 14 August 1900. The Qing court under Empress Dowager Cixi effectively endorsed the movement, issuing a declaration of war against the foreign powers on 21 June. An Eight-Nation Alliance (Britain, France, Germany, Russia, the United States, Japan, Italy, Austria-Hungary) assembled a 20,000-strong relief force that fought its way from Tianjin to Beijing, lifting the siege on 14 August. The subsequent occupation was marked by widespread looting, reprisal killings, and destruction of cultural sites by allied forces. The crisis led to the punitive Boxer Protocol of 1901, which imposed crippling indemnities on China, permitted foreign troop garrisons on Chinese soil, and accelerated the Qing dynasty's terminal decline.",
+      "description": "Beginning in June 1900, the Boxer Rebellion\u2014an anti-foreign, anti-Christian uprising by the Yihetuan (Righteous Harmony Society)\u2014escalated into a siege of the foreign legation quarter in Beijing. The Boxers, supported by elements of the Qing government, attacked foreign nationals and Chinese Christians. An international relief force of approximately 20,000 troops from eight nations (Britain, France, Russia, Germany, Japan, Italy, Austria-Hungary, and the United States) was assembled and marched on Beijing, relieving the legations on 14 August 1900. The rebellion was suppressed by September 1900, but the aftermath would dominate Chinese politics for years.",
       "key_figures": [
-        "Empress Dowager Cixi (de facto ruler of Qing China)",
-        "Guangxu Emperor (nominal ruler, effectively sidelined)",
-        "Li Hongzhang (Qing diplomat, later led negotiations)",
-        "Claude MacDonald (British Minister, led legation defence)",
-        "Alfred von Waldersee (German field marshal, commanded Allied force after relief)"
+        "Cixi (Empress Dowager)",
+        "Yongli (Boxer leader)",
+        "Alfred von Waldersee (German commander of relief force)"
       ],
       "sources": [
         {
-          "name": "Dispatches and diaries from besieged legation personnel (MacDonald, Morrison of The Times, Putnam Weale)",
+          "name": "The Times (London), June\u2013September 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Joseph Esherick, The Origins of the Boxer Uprising (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Robert Bickers and R. G. Tiedemann (eds.), The Boxers, China, and the World (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official despatches, foreign legations in Beijing",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Massively documented by multiple foreign and Chinese sources. Details of Qing court decision-making remain partially debated due to destruction of some Chinese records.",
+      "certainty_note": "The siege, relief, and suppression are extensively documented in contemporary diplomatic correspondence, military records, and press accounts.",
       "cross_references": [
-        "1901-BOXER_PROTOCOL",
-        "1898-HUNDRED_DAYS_REFORM"
+        "1901-007",
+        "1901-018"
       ]
     },
     {
       "id": "1900-002",
-      "title": "British annexation of the Orange Free State and Transvaal",
-      "region": "Southern Africa (Orange Free State, South African Republic)",
-      "coordinates_approx": "29.1\u00b0S, 26.2\u00b0E",
+      "title": "Second Boer War: British forces capture Johannesburg and Pretoria",
+      "region": "South Africa (Transvaal)",
+      "coordinates_approx": "-25.7461, 28.2293",
       "category": "military",
-      "description": "In the second year of the South African (Boer) War, British forces under Lord Roberts captured Bloemfontein (13 March), Johannesburg (31 May), and Pretoria (5 June), leading to the formal British annexation of the Orange Free State (renamed Orange River Colony, 28 May) and the South African Republic (Transvaal, 1 September). However, Boer commandos under Louis Botha, Christiaan de Wet, and Koos de la Rey shifted to highly effective guerrilla warfare, preventing any clean British victory. The British responded with scorched-earth tactics and the construction of concentration camps for Boer civilians and displaced Black Africans, in which tens of thousands would die from disease and malnutrition over the following two years.",
+      "description": "In May\u2013June 1900, British forces under Lord Roberts captured Johannesburg (31 May) and Pretoria (5 June), the capitals of the Transvaal and Orange Free State respectively. The British declared victory and annexed the Boer republics, but Boer resistance continued in guerrilla form for another two years. The capture of the capitals marked the end of conventional warfare but the beginning of a brutal counter-insurgency campaign.",
       "key_figures": [
-        "Lord Roberts (British commander-in-chief in South Africa)",
-        "Lord Kitchener (Roberts's chief of staff, later successor)",
-        "Paul Kruger (President of the South African Republic, fled to Europe October 1900)",
-        "Louis Botha (Boer general)",
-        "Christiaan de Wet (Boer guerrilla commander)"
+        "Frederick Roberts, 1st Earl Roberts (British commander)",
+        "Paul Kruger (Boer president)",
+        "Louis Botha (Boer general)"
       ],
       "sources": [
         {
-          "name": "Thomas Pakenham, The Boer War (1979)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "British Parliamentary Papers (Blue Books) on South Africa, 1900\u20131901",
+          "name": "The Times (London), May\u2013June 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Christiaan de Wet, Three Years' War (1902)",
+          "name": "Official despatches, British War Office",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented from both British and Boer sides. Casualty and concentration camp death figures debated in detail but order of magnitude established.",
+      "certainty_note": "Dates and circumstances are definitively documented in contemporary military records and press accounts.",
       "cross_references": [
-        "1899-BOER_WAR_START",
-        "1902-TREATY_OF_VEREENIGING"
+        "1901-002"
       ]
     },
     {
       "id": "1900-003",
-      "title": "Max Planck introduces the quantum hypothesis",
-      "region": "Germany (Berlin)",
-      "coordinates_approx": "52.5\u00b0N, 13.4\u00b0E",
-      "category": "scientific",
-      "description": "On 14 December 1900, Max Planck presented his derivation of the black-body radiation law to the German Physical Society, introducing the radical hypothesis that energy is emitted and absorbed in discrete packets (quanta) proportional to frequency, with the proportionality constant h (Planck's constant). Planck arrived at this formulation to resolve the 'ultraviolet catastrophe' \u2014 the failure of classical physics to predict the observed spectrum of thermal radiation. Planck himself regarded the quantisation as a mathematical expedient rather than a physical reality, but his insight became the foundation of quantum mechanics, one of the two pillars of twentieth-century physics alongside relativity.",
+      "title": "William McKinley re-elected as U.S. President",
+      "region": "United States",
+      "coordinates_approx": "38.8951, -77.0369",
+      "category": "political",
+      "description": "On 6 November 1900, President William McKinley was re-elected to a second term, defeating Democratic candidate William Jennings Bryan. McKinley's victory was attributed to economic prosperity and the success of the Spanish-American War (1898). Theodore Roosevelt, the popular governor of New York, was elected Vice President. McKinley's second term would be marked by continued imperial expansion and the annexation of the Philippines, Hawaii, and other territories.",
       "key_figures": [
-        "Max Planck (professor of physics, University of Berlin)",
-        "Heinrich Rubens (experimental physicist whose precise measurements motivated Planck's work)"
+        "William McKinley (Republican)",
+        "William Jennings Bryan (Democrat)",
+        "Theodore Roosevelt (Vice President-elect)"
       ],
       "sources": [
         {
-          "name": "Max Planck, 'Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum', Verhandlungen der Deutschen Physikalischen Gesellschaft, vol. 2, pp. 237\u2013245 (1900)",
+          "name": "The New York Times, 7 November 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Thomas Kuhn, Black-Body Theory and the Quantum Discontinuity, 1894\u20131912 (1978)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official election records, U.S. Electoral Commission",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date, venue, and content of the presentation are fully documented. Debate exists over whether Planck himself understood the revolutionary implications of quantisation in December 1900.",
+      "certainty_note": "Election date and results are definitively documented in official records and contemporary press.",
       "cross_references": [
-        "1905-EINSTEIN_PHOTOELECTRIC"
+        "1901-005"
       ]
     },
     {
       "id": "1900-004",
-      "title": "Galveston Hurricane devastates Texas coast",
-      "region": "United States (Galveston, Texas)",
-      "coordinates_approx": "29.3\u00b0N, 94.8\u00b0W",
-      "category": "environmental",
-      "description": "On 8 September 1900, a Category 4 hurricane struck Galveston Island, Texas, with sustained winds exceeding 210 km/h and a storm surge of 4.6 metres that inundated the low-lying barrier island. Between 6,000 and 12,000 people were killed, making it the deadliest natural disaster in United States history. The city, which had been the largest and wealthiest in Texas and one of the busiest ports in the country, never fully recovered its former prominence, with Houston subsequently overtaking it as the state's economic centre. The disaster spurred the construction of a massive seawall and grade-raising project, and contributed to reforms in weather forecasting and disaster preparedness in the United States.",
+      "title": "Sigmund Freud publishes 'The Interpretation of Dreams'",
+      "region": "Austria (Vienna)",
+      "coordinates_approx": "48.2082, 16.3738",
+      "category": "scientific",
+      "description": "Sigmund Freud published 'Die Traumdeutung' ('The Interpretation of Dreams') in November 1900 in Vienna. The work introduced the theory of the unconscious mind and the method of psychoanalysis, arguing that dreams are expressions of repressed desires and that analysis of dreams could reveal unconscious conflicts. The book was initially poorly received but would become foundational to 20th-century psychology and culture, profoundly influencing psychiatry, literature, art, and philosophy.",
       "key_figures": [
-        "Isaac Cline (US Weather Bureau section director in Galveston, attempted late warnings)",
-        "Clara Barton (led Red Cross relief, age 78 \u2014 one of her last major operations)"
+        "Sigmund Freud (author)"
       ],
       "sources": [
         {
-          "name": "Isaac Monroe Cline, official report to the US Weather Bureau, September 1900",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Erik Larson, Isaac's Storm: A Man, a Time, and the Deadliest Hurricane in History (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary reporting in the Galveston Daily News and national press, September 1900",
+          "name": "Freud, S., 'Die Traumdeutung', Franz Deuticke, Vienna, 1900",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented event. Exact death toll remains uncertain because many bodies were never recovered and the storm destroyed civil records; 6,000\u201312,000 is the scholarly range.",
+      "certainty_note": "Publication date and details are definitively documented in publishing records and the book itself.",
       "cross_references": []
     },
     {
       "id": "1900-005",
-      "title": "First flight of a Zeppelin rigid airship",
-      "region": "Germany (Lake Constance, Friedrichshafen)",
-      "coordinates_approx": "47.7\u00b0N, 9.5\u00b0E",
-      "category": "technological",
-      "description": "On 2 July 1900, Count Ferdinand von Zeppelin launched his first rigid airship, LZ 1, from a floating hangar on Lake Constance near Friedrichshafen. The hydrogen-filled craft, 128 metres long, made a flight of approximately 18 minutes before a winding mechanism broke and forced a landing. Though the flight was technically underwhelming \u2014 the airship proved difficult to steer and barely exceeded walking speed \u2014 it demonstrated the viability of rigid lighter-than-air craft. Zeppelin continued development, and by the end of the decade his airships had captured the public imagination and found military application. Zeppelins would be used for strategic bombing in World War I and for commercial transatlantic service in the 1920s\u20131930s.",
-      "key_figures": [
-        "Count Ferdinand von Zeppelin (retired army officer and airship pioneer)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary reports in the Frankfurter Zeitung and Schw\u00e4bische Kronik, July 1900",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peter Meyer, Luftschiffe: Die Geschichte der deutschen Zeppeline (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Flight date, location, and duration are well established from contemporary press coverage and Zeppelin's own records.",
-      "cross_references": [
-        "1937-HINDENBURG_DISASTER"
-      ]
-    },
-    {
-      "id": "1900-006",
-      "title": "Assassination of King Umberto I of Italy",
-      "region": "Italy (Monza)",
-      "coordinates_approx": "45.6\u00b0N, 9.3\u00b0E",
-      "category": "political",
-      "description": "On 29 July 1900, King Umberto I of Italy was shot and killed by Gaetano Bresci, an Italian-American anarchist who had travelled from Paterson, New Jersey, specifically to carry out the assassination. Bresci stated he was avenging the victims of the Bava Beccaris massacre of 1898, when the Italian army had fired on unarmed demonstrators in Milan with Umberto's approval. The assassination was part of a wave of anarchist 'propaganda of the deed' that had already claimed the lives of a French president (Carnot, 1894), a Spanish prime minister (C\u00e1novas, 1897), and an Austrian empress (Elisabeth, 1898). Umberto was succeeded by his son Victor Emmanuel III, who initially adopted a more conciliatory approach to social unrest.",
-      "key_figures": [
-        "Umberto I (King of Italy)",
-        "Gaetano Bresci (anarchist assassin)",
-        "Victor Emmanuel III (successor)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary reporting in Corriere della Sera and international press, July\u2013August 1900",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Richard Bach Jensen, The Battle against Anarchist Terrorism: An International History, 1878\u20131934 (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented event with contemporary press, trial records, and diplomatic correspondence.",
-      "cross_references": [
-        "1898-BAVA_BECCARIS_MASSACRE",
-        "1901-MCKINLEY_ASSASSINATION"
-      ]
-    },
-    {
-      "id": "1900-007",
-      "title": "Paris Exposition Universelle showcases imperial modernity",
-      "region": "France (Paris)",
-      "coordinates_approx": "48.9\u00b0N, 2.3\u00b0E",
-      "category": "cultural",
-      "description": "The Exposition Universelle of 1900, held in Paris from 15 April to 12 November, attracted over 50 million visitors and showcased the technological achievements and imperial ambitions of the participating nations. Major attractions included the Grand Palais and Petit Palais (both purpose-built), Rudolf Diesel's engine running on peanut oil, early motion pictures, the debut of the Paris M\u00e9tro (opened 19 July), and extensive colonial pavilions presenting idealised visions of empire. The exposition also hosted the second modern Olympic Games (as a sideshow that took months to complete and was poorly organised) and an International Congress of Women. The fair represented the apex of Belle \u00c9poque confidence in progress, even as the Boer War and Boxer Uprising exposed the violent foundations of the order being celebrated.",
-      "key_figures": [
-        "Alfred Picard (commissioner-general of the Exposition)",
-        "Auguste Escoffier (celebrated chef, popularised haute cuisine at the fair)",
-        "Thomas Edison (exhibited at the electrical palace)"
-      ],
-      "sources": [
-        {
-          "name": "Official reports of the Exposition Universelle Internationale de 1900 (multi-volume, published 1902\u20131906)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Richard D. Mandell, Paris 1900: The Great World's Fair (1967)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "One of the best-documented international events of its era. Visitor statistics are official estimates and may be inflated.",
-      "cross_references": [
-        "1889-PARIS_EXPOSITION"
-      ]
-    },
-    {
-      "id": "1900-008",
-      "title": "United States adopts the Gold Standard Act",
-      "region": "United States",
-      "coordinates_approx": "38.9\u00b0N, 77.0\u00b0W",
-      "category": "economic",
-      "description": "On 14 March 1900, President William McKinley signed the Gold Standard Act, formally establishing gold as the sole basis for redeeming paper currency in the United States. The act ended two decades of political struggle between gold-standard advocates (primarily eastern bankers and industrialists) and supporters of bimetallism or free silver coinage (western farmers and populists). It set the value of the dollar at 25.8 grains of gold nine-tenths fine and established a reserve fund of $150 million in gold. The act consolidated American monetary orthodoxy and reinforced the international gold standard system that would prevail until World War I.",
-      "key_figures": [
-        "William McKinley (President of the United States)",
-        "Lyman Gage (Secretary of the Treasury)"
-      ],
-      "sources": [
-        {
-          "name": "Gold Standard Act, 31 Stat. 45 (14 March 1900)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Milton Friedman and Anna Schwartz, A Monetary History of the United States, 1867\u20131960 (1963)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative record is exact.",
-      "cross_references": [
-        "1896-BRYAN_FREE_SILVER_CAMPAIGN"
-      ]
-    },
-    {
-      "id": "1900-009",
-      "title": "Buganda Agreement restructures colonial Uganda",
-      "region": "East Africa (Uganda Protectorate / Buganda)",
-      "coordinates_approx": "0.3\u00b0N, 32.6\u00b0E",
-      "category": "political",
-      "description": "Signed on 10 March 1900, the Buganda Agreement between the British government and the regents of Kabaka (King) Daudi Chwa II of Buganda formalised British colonial control while granting Buganda's chiefly elite significant privileges, including freehold land tenure and semi-autonomous governance within the Uganda Protectorate. The agreement divided Buganda's land: roughly half went to the kabaka and chiefs as private estates (mailo land), and half became Crown land. This created a landed aristocracy aligned with colonial interests and entrenched ethnic hierarchies that shaped Ugandan politics well beyond independence. The agreement was a model for indirect rule in East Africa.",
-      "key_figures": [
-        "Sir Harry Johnston (Special Commissioner for Uganda)",
-        "Apollo Kaggwa (Katikiro/Prime Minister of Buganda)",
-        "Daudi Chwa II (infant Kabaka of Buganda)"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Buganda Agreement, 10 March 1900 (published in British Parliamentary Papers)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "D. A. Low and R. C. Pratt, Buganda and British Overrule, 1900\u20131955 (1960)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives and date is established. Subsequent interpretation and implementation details are subject to scholarly debate.",
-      "cross_references": [
-        "1962-UGANDAN_INDEPENDENCE"
-      ]
-    },
-    {
-      "id": "1900-010",
-      "title": "Sigmund Freud publishes The Interpretation of Dreams",
-      "region": "Austria-Hungary (Vienna)",
-      "coordinates_approx": "48.2\u00b0N, 16.4\u00b0E",
+      "title": "Max Planck proposes quantum theory; introduces the concept of energy quanta",
+      "region": "Germany (Berlin)",
+      "coordinates_approx": "52.5200, 13.4050",
       "category": "scientific",
-      "description": "Sigmund Freud's Die Traumdeutung (The Interpretation of Dreams) was published in November 1899 but post-dated by the publisher to 1900. The work argued that dreams are disguised fulfilments of repressed wishes and introduced core psychoanalytic concepts including the unconscious, dream-work mechanisms (condensation, displacement, symbolisation), and the Oedipus complex. Initial reception was cool \u2014 only 351 copies sold in the first six years \u2014 but the book eventually became one of the most influential texts of the twentieth century, shaping not only psychology and psychiatry but also literary criticism, art, and popular culture. Its scientific status has been extensively challenged since the late twentieth century.",
+      "description": "On 14 December 1900, Max Planck presented his solution to the black-body radiation problem to the German Physical Society in Berlin. Planck proposed that energy is emitted in discrete packets called 'quanta', with energy proportional to frequency (E = h\u03bd, where h is Planck's constant). This proposal, though initially controversial, laid the foundation for quantum mechanics and represented a fundamental departure from classical physics. Planck's work would reshape 20th-century physics and technology.",
       "key_figures": [
-        "Sigmund Freud (neurologist and founder of psychoanalysis)",
-        "Wilhelm Fliess (Freud's primary correspondent during composition)"
+        "Max Planck (physicist)"
       ],
       "sources": [
         {
-          "name": "Sigmund Freud, Die Traumdeutung (Leipzig and Vienna: Franz Deuticke, 1900)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "The Freud/Fliess correspondence (published as The Complete Letters of Sigmund Freud to Wilhelm Fliess, 1985)",
+          "name": "Planck, M., 'Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum', Verhandlungen der Deutschen Physikalischen Gesellschaft, 1900",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Publication date, print run, and sales figures are well documented. The book was physically published in late 1899 but the title page reads '1900' \u2014 both dates are correct in context.",
+      "certainty_note": "The date of Planck's presentation (14 December 1900) and the content of his proposal are definitively documented in the published proceedings of the German Physical Society.",
       "cross_references": []
     },
     {
-      "id": "1900-011",
-      "title": "Philippine-American War intensifies with guerrilla phase",
-      "region": "Philippines",
-      "coordinates_approx": "14.6\u00b0N, 120.9\u00b0E",
-      "category": "military",
-      "description": "By 1900, the Philippine-American War had shifted from conventional to guerrilla warfare after Filipino forces under Emilio Aguinaldo abandoned set-piece battles against the better-armed Americans. Filipino guerrillas operated across Luzon, the Visayas, and parts of Mindanao, relying on popular support and knowledge of terrain. The US military responded with increasingly harsh counterinsurgency measures, including population reconcentration, destruction of crops and livestock, and the use of torture (notably the 'water cure'). The war, which the US government officially characterised as an 'insurrection' rather than a war, killed an estimated 200,000\u2013300,000 Filipino civilians through violence, famine, and disease, and generated significant anti-imperialist opposition in the United States.",
+      "id": "1900-006",
+      "title": "Paris Exposition Universelle opens",
+      "region": "France (Paris)",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "cultural",
+      "description": "The Paris Exposition Universelle opened on 15 April 1900, celebrating the achievements of the 19th century and showcasing technological and artistic progress. The exposition featured the newly completed Eiffel Tower (from 1889), the Grand Palais, the Petit Palais, and the Pont Alexandre III. The exposition attracted approximately 50 million visitors and was a showcase of Belle \u00c9poque culture, art nouveau design, and industrial modernity. It was one of the largest and most influential world's fairs of the era.",
       "key_figures": [
-        "Emilio Aguinaldo (President of the Philippine Republic)",
-        "Arthur MacArthur Jr. (US military governor of the Philippines from May 1900)",
-        "Miguel Malvar (Filipino guerrilla general in Batangas)"
+        "\u00c9mile Loubet (President of France)"
       ],
       "sources": [
         {
-          "name": "US Senate Document No. 331, 57th Congress (hearings on Philippines conduct, 1902)",
+          "name": "Official records, Paris Exposition Universelle, 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Brian McAllister Linn, The Philippine War, 1899\u20131902 (2000)",
-          "type": "historiographic_consensus",
+          "name": "Le Figaro (Paris), April\u2013November 1900",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Opening date and details are definitively documented in official exposition records and contemporary French press.",
+      "cross_references": []
+    },
+    {
+      "id": "1900-007",
+      "title": "Zeppelin's LZ 1 airship makes its first flight",
+      "region": "Germany (Lake Constance)",
+      "coordinates_approx": "47.6560, 8.9277",
+      "category": "technological",
+      "description": "On 2 July 1900, Count Ferdinand von Zeppelin's rigid airship LZ 1 made its first flight over Lake Constance (Bodensee) near Friedrichshafen, Germany. The airship, filled with hydrogen and supported by an aluminium framework, flew for approximately 18 minutes at a height of about 400 metres. Although the flight was brief and the airship was damaged on landing, it demonstrated the feasibility of rigid airship design and initiated the development of Zeppelin airships, which would become significant in early-20th-century aviation and warfare.",
+      "key_figures": [
+        "Count Ferdinand von Zeppelin (inventor)"
+      ],
+      "sources": [
+        {
+          "name": "Zeppelin, F., 'Mein Leben', 1917 (retrospective account)",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Reynaldo Ileto, Pasyon and Revolution: Popular Movements in the Philippines, 1840\u20131910 (1979)",
-          "type": "historiographic_consensus",
+          "name": "Contemporary German technical journals, 1900",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of the first flight (2 July 1900) and basic details are documented in contemporary technical journals and later accounts by Zeppelin.",
+      "cross_references": []
+    },
+    {
+      "id": "1900-008",
+      "title": "Kodak Brownie camera introduced; mass-market photography begins",
+      "region": "United States (Rochester, New York)",
+      "coordinates_approx": "43.1566, -77.6088",
+      "category": "technological",
+      "description": "The Kodak Brownie camera was introduced in February 1900 by the Eastman Kodak Company. Priced at $1 and using simple roll film, the Brownie made photography accessible to the general public for the first time. The camera was marketed with the slogan 'You press the button, we do the rest.' The Brownie's success initiated the era of mass-market amateur photography and fundamentally changed how people documented and shared their lives.",
+      "key_figures": [
+        "George Eastman (Kodak founder)",
+        "Frank Brownell (camera designer)"
+      ],
+      "sources": [
+        {
+          "name": "Kodak company records and advertisements, 1900",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The New York Times, February 1900",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Introduction date and specifications are documented in Kodak company records and contemporary advertisements.",
+      "cross_references": []
+    },
+    {
+      "id": "1900-009",
+      "title": "Nietzsche suffers mental collapse; end of his productive life",
+      "region": "Germany (Turin, Italy)",
+      "coordinates_approx": "45.0705, 7.6868",
+      "category": "cultural",
+      "description": "In early January 1900, Friedrich Nietzsche suffered a severe mental and physical collapse in Turin, Italy. He was found in the street after a breakdown and was subsequently institutionalised. Although Nietzsche lived until 1900, he was effectively incapacitated from this point forward and produced no further philosophical work. His sister Elisabeth took control of his literary estate and his unpublished manuscripts, shaping the posthumous reception of his work.",
+      "key_figures": [
+        "Friedrich Nietzsche (philosopher)",
+        "Elisabeth F\u00f6rster-Nietzsche (sister)"
+      ],
+      "sources": [
+        {
+          "name": "Medical records, Turin asylum, 1900",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "F\u00f6rster-Nietzsche, E., 'The Life of Nietzsche', 1912 (retrospective account)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented from US military records. Filipino sources are sparser. Civilian death tolls are scholarly estimates with wide ranges due to incomplete census and health data.",
+      "certainty_note": "The date and basic facts of Nietzsche's collapse are documented in contemporary medical records and later biographical accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "1900-010",
+      "title": "Boxer Rebellion: foreign relief force marches on Beijing",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "military",
+      "description": "In July\u2013August 1900, an international relief force of approximately 20,000 troops from eight nations (Britain, France, Russia, Germany, Japan, Italy, Austria-Hungary, and the United States) marched from Tianjin toward Beijing to relieve the besieged foreign legations. The force was commanded by German General Alfred von Waldersee. The relief force fought its way through Boxer and Qing forces, reaching Beijing on 14 August 1900 and relieving the legations. The campaign was marked by brutal violence against Chinese civilians and the looting of Beijing.",
+      "key_figures": [
+        "Alfred von Waldersee (German commander)",
+        "Cixi (Empress Dowager)"
+      ],
+      "sources": [
+        {
+          "name": "Official military despatches, various nations, 1900",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The Times (London), July\u2013August 1900",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Dates, composition, and route of the relief force are extensively documented in contemporary military records and press accounts.",
       "cross_references": [
-        "1899-PHILIPPINE_AMERICAN_WAR_START",
-        "1901-AGUINALDO_CAPTURE"
+        "1900-001"
       ]
     },
     {
-      "id": "1900-012",
-      "title": "Russian occupation of Manchuria during Boxer crisis",
-      "region": "Manchuria (Qing China) / Russian Empire",
-      "coordinates_approx": "43.8\u00b0N, 125.3\u00b0E",
-      "category": "military",
-      "description": "Using the Boxer Uprising as a pretext, Russia deployed approximately 200,000 troops into Manchuria between July and October 1900, ostensibly to protect the Chinese Eastern Railway. Russian forces suppressed Boxer and Chinese army resistance, occupied key cities including Mukden (Shenyang) and Harbin, and conducted a brutal campaign along the Amur River in which thousands of Chinese civilians were killed, including the Blagoveshchensk massacre (July) where Cossacks drove several thousand Chinese residents into the Amur to drown. Russia's refusal to withdraw from Manchuria after the crisis escalated tensions with Japan and directly set the stage for the Russo-Japanese War of 1904\u20131905.",
+      "id": "1900-011",
+      "title": "Dreyfus Affair: Dreyfus pardoned and released from Devil's Island",
+      "region": "France",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "legal",
+      "description": "On 19 September 1900, French President \u00c9mile Loubet pardoned Captain Alfred Dreyfus, who had been imprisoned on Devil's Island since 1895 for allegedly selling military secrets to Germany. The pardon came after years of public controversy and revealed that Dreyfus had been the victim of a miscarriage of justice. Although the pardon did not exonerate Dreyfus (that came in 1906), it effectively ended his imprisonment and marked a turning point in the affair. The Dreyfus Affair had profoundly divided French society and exposed antisemitism and institutional corruption.",
       "key_figures": [
-        "Nikolai Linevich (Russian commander in Manchuria)",
-        "Sergei Witte (Finance Minister, architect of Russian Far Eastern policy)",
-        "Aleksei Kuropatkin (War Minister)"
+        "Alfred Dreyfus (officer)",
+        "\u00c9mile Loubet (President of France)",
+        "\u00c9mile Zola (writer and advocate)"
       ],
       "sources": [
         {
-          "name": "David Wolff, To the Harbin Station: The Liberal Alternative in Russian Manchuria, 1898\u20131914 (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official pardon decree, 19 September 1900",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Contemporary diplomatic correspondence in British Foreign Office files (FO 65 series)",
+          "name": "Le Figaro (Paris), 20 September 1900",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Russian military deployments are well documented. Chinese civilian casualties, especially in the Blagoveshchensk incident, are confirmed by multiple sources but exact numbers vary.",
+      "certainty_note": "The pardon date and basic facts are definitively documented in official French government records and contemporary press.",
+      "cross_references": []
+    },
+    {
+      "id": "1900-012",
+      "title": "Planck's quantum hypothesis presented to German Physical Society",
+      "region": "Germany (Berlin)",
+      "coordinates_approx": "52.5200, 13.4050",
+      "category": "scientific",
+      "description": "On 14 December 1900, Max Planck presented his solution to the black-body radiation problem to the German Physical Society. Planck proposed that energy is emitted in discrete packets or 'quanta', with energy proportional to frequency. This proposal, though initially controversial and not fully accepted by Planck himself, laid the foundation for quantum mechanics and represented a fundamental departure from classical physics. The presentation marked the beginning of the quantum revolution in physics.",
+      "key_figures": [
+        "Max Planck (physicist)"
+      ],
+      "sources": [
+        {
+          "name": "Planck, M., 'Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum', Verhandlungen der Deutschen Physikalischen Gesellschaft, 1900",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and content of Planck's presentation are definitively documented in the published proceedings of the German Physical Society.",
       "cross_references": [
-        "1900-001",
-        "1904-RUSSO_JAPANESE_WAR"
+        "1900-005"
       ]
     },
     {
       "id": "1900-013",
-      "title": "Formation of the Labour Representation Committee in Britain",
-      "region": "United Kingdom (London)",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W",
+      "title": "Boxer Rebellion: Empress Dowager Cixi flees Beijing",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "political",
-      "description": "On 27 February 1900, delegates from trade unions, the Independent Labour Party, the Social Democratic Federation, and the Fabian Society met at the Memorial Hall in Farringdon Street, London, to establish the Labour Representation Committee (LRC). The LRC was founded to secure the independent representation of working-class interests in Parliament, breaking with the practice of labour candidates running under the Liberal Party banner. Ramsay MacDonald was appointed secretary. Though it won only two seats in the October 1900 general election, the LRC grew rapidly after the Taff Vale judgement of 1901 threatened union funds, and reconstituted itself as the Labour Party in 1906. It would become one of the two dominant parties in British politics.",
+      "description": "As the international relief force approached Beijing in August 1900, Empress Dowager Cixi and the Qing court fled the capital, initially heading westward toward Xi'an. The flight marked the effective collapse of Qing authority in Beijing and the humiliation of the imperial government. Cixi would not return to Beijing until January 1902, after the Boxer Protocol had been negotiated.",
       "key_figures": [
-        "Keir Hardie (ILP leader, elected MP in 1900)",
-        "Ramsay MacDonald (LRC secretary, later first Labour Prime Minister)",
-        "Richard Bell (railway workers' leader, elected MP in 1900)"
+        "Cixi (Empress Dowager)",
+        "Guangxu (Qing Emperor)"
       ],
       "sources": [
         {
-          "name": "Minutes of the Memorial Hall Conference, 27 February 1900 (Labour Party archives)",
+          "name": "Official Qing court records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Henry Pelling, The Origins of the Labour Party, 1880\u20131900 (1954; 2nd ed. 1965)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary Chinese and foreign accounts, 1900",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Conference proceedings and delegate lists survive. The LRC's significance was not apparent at the time \u2014 its later importance shapes how the founding is remembered.",
+      "certainty_note": "The flight of the court is documented in Qing official records and contemporary accounts by foreign observers in Beijing.",
       "cross_references": [
-        "1906-LABOUR_PARTY_FORMATION",
-        "1924-FIRST_LABOUR_GOVERNMENT"
+        "1900-001",
+        "1900-010"
       ]
     },
     {
       "id": "1900-014",
-      "title": "David Hilbert presents his 23 mathematical problems",
-      "region": "France (Paris) / Global (mathematics)",
-      "coordinates_approx": "48.9\u00b0N, 2.3\u00b0E",
-      "category": "scientific",
-      "description": "On 8 August 1900, David Hilbert delivered a lecture at the International Congress of Mathematicians in Paris presenting a list of unsolved problems that he believed would shape the future of mathematics. The full list of 23 problems, published later that year, covered number theory, algebra, geometry, analysis, and the foundations of mathematics. Several problems (including the Riemann Hypothesis, problem 8) remain unsolved. The list profoundly influenced the direction of twentieth-century mathematics, effectively defining research agendas for generations of mathematicians. It established the practice of using grand challenge problems to guide mathematical research.",
+      "title": "Hawaii annexed by the United States",
+      "region": "Hawaii",
+      "coordinates_approx": "21.3099, -157.8581",
+      "category": "political",
+      "description": "On 12 August 1900, Hawaii was formally annexed by the United States and incorporated as a U.S. territory. The annexation followed the overthrow of the Hawaiian Kingdom in 1893 and the establishment of the Republic of Hawaii in 1894. The annexation was driven by strategic and economic interests, particularly the value of Pearl Harbor as a naval base. The annexation marked the end of Hawaiian sovereignty and the beginning of American colonial rule over the islands.",
       "key_figures": [
-        "David Hilbert (professor of mathematics, University of G\u00f6ttingen)"
+        "President William McKinley",
+        "Sanford Dole (President of the Republic of Hawaii)"
       ],
       "sources": [
         {
-          "name": "David Hilbert, 'Mathematische Probleme', Nachrichten von der Gesellschaft der Wissenschaften zu G\u00f6ttingen, Mathematisch-Physikalische Klasse (1900), pp. 253\u2013297",
+          "name": "Newlands Resolution, 1898 (joint resolution authorising annexation)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jeremy Gray, The Hilbert Challenge (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official U.S. government records, 1900",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date, venue, and text of the lecture are fully documented. Hilbert presented 10 problems at the congress itself; the full 23 were published subsequently.",
+      "certainty_note": "The annexation date and process are definitively documented in U.S. government records and the Newlands Resolution.",
       "cross_references": []
     },
     {
       "id": "1900-015",
-      "title": "Hawaii becomes a formal US territory",
-      "region": "Hawaii / United States",
-      "coordinates_approx": "21.3\u00b0N, 157.8\u00b0W",
-      "category": "political",
-      "description": "On 14 June 1900, the Hawaiian Organic Act took effect, establishing the Territory of Hawaii and extending US citizenship to all citizens of the former Republic of Hawaii. This followed the annexation of Hawaii by joint resolution of Congress in 1898, itself the culmination of the 1893 overthrow of Queen Lili\u02bbuokalani by American businessmen backed by US Marines. The Organic Act imposed American legal and governmental structures, including the appointment of Sanford Dole as the first territorial governor. Native Hawaiian land rights continued to erode, and the Asian plantation labour force gained new legal vulnerabilities under US immigration and labour law. Hawaiian sovereignty advocates then and since have contested the legality of the entire annexation process.",
+      "title": "Boxer Rebellion: looting and destruction of Beijing by foreign troops",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "military",
+      "description": "Following the relief of the foreign legations on 14 August 1900, foreign troops engaged in widespread looting, destruction, and violence in Beijing. Temples, palaces, and private residences were ransacked; cultural artefacts were removed; and Chinese civilians were killed. The looting was particularly severe by Russian, German, and Japanese forces. The destruction of Beijing's cultural heritage and the violence against civilians were among the most destructive consequences of the Boxer Rebellion and foreign intervention.",
       "key_figures": [
-        "Sanford Dole (first Territorial Governor, former President of the Republic of Hawaii)",
-        "Robert Wilcox (Native Hawaiian political leader, elected territorial delegate to Congress in November 1900)"
+        "Alfred von Waldersee (German commander)"
       ],
       "sources": [
         {
-          "name": "Hawaiian Organic Act, 31 Stat. 141 (30 April 1900, effective 14 June 1900)",
+          "name": "Contemporary accounts by foreign observers in Beijing, 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Noenoe K. Silva, Aloha Betrayed: Native Hawaiian Resistance to American Colonialism (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "The Times (London), August\u2013September 1900",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative record is precise. The legality and legitimacy of the annexation remain actively contested in Hawaiian scholarship and politics.",
+      "certainty_note": "The looting and destruction are extensively documented in contemporary accounts by foreign observers and press reports.",
       "cross_references": [
-        "1893-HAWAIIAN_OVERTHROW",
-        "1898-HAWAIIAN_ANNEXATION"
+        "1900-001",
+        "1900-010"
       ]
     },
     {
       "id": "1900-016",
-      "title": "Southern Nigeria Protectorate established by Britain",
-      "region": "West Africa (present-day southern Nigeria)",
-      "coordinates_approx": "6.5\u00b0N, 3.4\u00b0E",
-      "category": "political",
-      "description": "On 1 January 1900, the British government revoked the charter of the Royal Niger Company and assumed direct control of its territories, establishing the Protectorate of Southern Nigeria (merged with the Lagos Colony) under High Commissioner Ralph Moor. Simultaneously, the Protectorate of Northern Nigeria was established under Frederick Lugard. The transfer marked the shift from chartered-company imperialism to formal Crown colony administration in the Niger territories. British control remained contested, particularly in the Igbo hinterland and the Benin Kingdom, requiring continued military campaigns. The administrative division into northern and southern protectorates would have lasting consequences for Nigerian politics.",
+      "title": "Carrie Nation begins temperance campaign; smashes saloons",
+      "region": "United States (Kansas)",
+      "coordinates_approx": "37.2696, -97.4867",
+      "category": "cultural",
+      "description": "In 1900, Carrie Nation, a temperance activist, began her campaign against alcohol consumption by entering saloons and destroying bottles and fixtures with a hatchet. Nation's dramatic tactics, though controversial, made her a prominent figure in the temperance movement and helped galvanise support for Prohibition. Her campaign was part of broader late-19th and early-20th-century efforts to restrict alcohol consumption in the United States, which would culminate in Prohibition (1920\u20131933).",
       "key_figures": [
-        "Ralph Moor (High Commissioner, Southern Nigeria)",
-        "Frederick Lugard (High Commissioner, Northern Nigeria)",
-        "Joseph Chamberlain (British Colonial Secretary)"
+        "Carrie Nation (temperance activist)"
       ],
       "sources": [
         {
-          "name": "British Orders in Council establishing the Protectorates, 1899\u20131900 (published in the London Gazette)",
+          "name": "Nation, C., 'The Use and Need of the Life of Carrie A. Nation', 1904 (autobiography)",
           "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Toyin Falola and Matthew M. Heaton, A History of Nigeria (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary American newspapers, 1900\u20131910",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Administrative dates are precise from colonial records. Actual extent of British control in the interior was far less than the official proclamation implied.",
-      "cross_references": [
-        "1914-AMALGAMATION_OF_NIGERIA"
-      ]
+      "certainty": "approximate",
+      "certainty_note": "Nation's campaign began in 1900, though the exact date of her first saloon-smashing incident is sometimes given as late 1899 or early 1900.",
+      "cross_references": []
     },
     {
       "id": "1900-017",
-      "title": "Relief of Mafeking electrifies the British Empire",
-      "region": "Southern Africa (Mafeking / Mahikeng, Bechuanaland border)",
-      "coordinates_approx": "25.9\u00b0S, 25.6\u00b0E",
+      "title": "Boxer Rebellion: suppression and aftermath; foreign occupation of northern China",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "military",
-      "description": "On 17 May 1900, a British relief column lifted the 217-day siege of Mafeking, where Colonel Robert Baden-Powell had held out against Boer forces since October 1899. News of the relief triggered extraordinary celebrations across Britain and the empire ('Mafficking'), with spontaneous street parties, bonfires, and patriotic demonstrations. The siege had become a media sensation, with Baden-Powell elevated to national hero status through press coverage. However, the defence relied heavily on the reduced rations and forced labour of the town's African population (the Barolong), whose contribution was largely written out of the imperial narrative. Baden-Powell's fame from Mafeking later enabled him to found the Boy Scout movement in 1907.",
+      "description": "By September 1900, the Boxer Rebellion had been suppressed by foreign troops and Qing forces. However, foreign troops remained in occupation of Beijing and northern China throughout the remainder of 1900 and into 1901. The occupation was marked by continued violence, looting, and the imposition of foreign control over Chinese territory. The aftermath of the rebellion would dominate Chinese politics and international relations for years, leading to the Boxer Protocol of 1901.",
       "key_figures": [
-        "Robert Baden-Powell (British colonel, later founded Boy Scouts)",
-        "Sol Plaatje (Barolong court interpreter, kept a diary of the siege \u2014 later founding member of the ANC)"
+        "Cixi (Empress Dowager)",
+        "Alfred von Waldersee (German commander)"
       ],
       "sources": [
         {
-          "name": "Sol T. Plaatje, Mafeking Diary: A Black Man's View of a White Man's War (written 1899\u20131900, published 1973)",
+          "name": "Official military despatches, various nations, 1900",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Brian Gardner, Mafeking: A Victorian Legend (1966)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "The Times (London), September\u2013December 1900",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented from multiple British, Boer, and Barolong sources. Casualty figures for the African population during the siege are less precisely documented than those for the British garrison.",
+      "certainty_note": "The suppression of the rebellion and the occupation of Beijing are extensively documented in contemporary military records and press accounts.",
       "cross_references": [
-        "1900-002"
+        "1900-001",
+        "1900-010",
+        "1900-015"
       ]
     },
     {
       "id": "1900-018",
-      "title": "Australasian Federation referendum approves Commonwealth of Australia",
-      "region": "Australia",
-      "coordinates_approx": "33.9\u00b0S, 151.2\u00b0E",
-      "category": "political",
-      "description": "Throughout 1899\u20131900, the six Australian colonies held referendums on federation. After all six approved the draft constitution, the Commonwealth of Australia Constitution Act was passed by the British Parliament and received Royal Assent on 9 July 1900. The Commonwealth would formally come into existence on 1 January 1901. The constitution established a federal parliamentary system with a bicameral legislature, an independent judiciary, and divided powers between federal and state governments. Notably, the constitution did not include a bill of rights and the initial franchise excluded most Indigenous Australians. The 'White Australia' policy, restricting non-European immigration, was among the first legislation of the new parliament.",
+      "title": "Bertrand Russell publishes 'A Critical Exposition of the Philosophy of Leibniz'",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "Bertrand Russell published 'A Critical Exposition of the Philosophy of Leibniz' in 1900, a scholarly work that established Russell as a major philosopher. The work demonstrated Russell's mastery of the history of philosophy and his ability to engage critically with complex metaphysical systems. Russell's work in 1900 marked the beginning of his long career as one of the 20th century's most influential philosophers.",
       "key_figures": [
-        "Edmund Barton (leader of the federation movement, first Prime Minister from January 1901)",
-        "Alfred Deakin (key federationist)",
-        "Queen Victoria (gave Royal Assent, July 1900)"
+        "Bertrand Russell (philosopher)"
       ],
       "sources": [
         {
-          "name": "Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c. 12)",
+          "name": "Russell, B., 'A Critical Exposition of the Philosophy of Leibniz', Cambridge University Press, 1900",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "John Hirst, The Sentimental Nation: The Making of the Australian Commonwealth (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative and referendum records are precise. The act received Royal Assent on 9 July 1900; the Commonwealth came into formal existence on 1 January 1901.",
-      "cross_references": [
-        "1901-AUSTRALIAN_FEDERATION"
-      ]
+      "certainty_note": "Publication date and details are definitively documented in publishing records.",
+      "cross_references": []
     },
     {
       "id": "1900-019",
-      "title": "Walter Reed confirms mosquito transmission of yellow fever",
-      "region": "Cuba (Camp Lazear, near Havana)",
-      "coordinates_approx": "23.1\u00b0N, 82.4\u00b0W",
-      "category": "scientific",
-      "description": "In a series of experiments conducted between August and November 1900, the US Army Yellow Fever Commission led by Major Walter Reed demonstrated that yellow fever was transmitted by the bite of the Aedes aegypti mosquito, not by contact with contaminated clothing or bedding (the prevailing 'fomites' theory). The work built on Cuban physician Carlos Finlay's 1881 hypothesis. Experiments used human volunteers (some of whom died), raising ethical questions that were unresolved at the time. The findings enabled the mosquito-control campaigns that made construction of the Panama Canal possible and transformed public health in tropical regions worldwide.",
-      "key_figures": [
-        "Walter Reed (US Army physician, commission leader)",
-        "Carlos Finlay (Cuban physician who first proposed the mosquito vector theory)",
-        "Jesse Lazear (commission member, died of yellow fever during experiments, September 1900)",
-        "James Carroll (commission member, survived experimental infection)"
-      ],
-      "sources": [
-        {
-          "name": "Walter Reed, James Carroll, and Aristides Agramonte, 'The Etiology of Yellow Fever: A Preliminary Note', Philadelphia Medical Journal (October 1900)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fran\u00e7ois Delaporte, The History of Yellow Fever: An Essay on the Birth of Tropical Medicine (1991)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Experimental records survive. The identification of the specific viral agent came later (1927); Reed proved the vector, not the pathogen.",
-      "cross_references": [
-        "1904-PANAMA_CANAL_MOSQUITO_CONTROL"
-      ]
-    },
-    {
-      "id": "1900-020",
-      "title": "Ashanti War: British defeat Ashanti resistance and exile the Asantehene",
-      "region": "West Africa (Ashanti / present-day Ghana)",
-      "coordinates_approx": "6.7\u00b0N, 1.6\u00b0W",
+      "title": "Boxer Rebellion: foreign legations relieved; siege ends",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "military",
-      "description": "In March\u2013April 1900, the Ashanti (Asante) people rose against British rule in the War of the Golden Stool, triggered by Governor Frederick Hodgson's demand to sit on the sacred Golden Stool \u2014 the spiritual symbol of the Ashanti nation. Queen Mother Yaa Asantewaa led the resistance, besieging the British garrison in Kumasi. The British eventually relieved the garrison and suppressed the revolt with reinforcements from the coast. In January 1902, the Ashanti territories were formally annexed as a Crown Colony. The Golden Stool, however, was successfully hidden and was never surrendered to the British, remaining a powerful symbol of Ashanti identity.",
+      "description": "On 14 August 1900, the international relief force reached Beijing and relieved the foreign legations, which had been under siege since June 1900. The legations had been defended by approximately 900 foreign troops and Chinese Christian converts. The relief marked the end of the siege but the beginning of a period of occupation, looting, and violence by foreign troops in Beijing.",
       "key_figures": [
-        "Yaa Asantewaa (Queen Mother of Ejisu, led the resistance)",
-        "Frederick Hodgson (British Governor of the Gold Coast)",
-        "Prempeh I (Asantehene, already in exile since 1896)"
+        "Alfred von Waldersee (German commander)",
+        "Sir Claude MacDonald (British minister)"
       ],
       "sources": [
         {
-          "name": "Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order (1975; 2nd ed. 1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official military despatches, various nations, 1900",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Lady Hodgson, The Siege of Kumassi (1901)",
+          "name": "The Times (London), 15 August 1900",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented from both British colonial and Ashanti oral historical sources. Exact casualty figures for Ashanti forces and civilians are less precisely recorded than British losses.",
+      "certainty_note": "The date of the relief (14 August 1900) is definitively documented in contemporary military records and press accounts.",
       "cross_references": [
-        "1896-PREMPEH_EXILE"
-      ]
-    },
-    {
-      "id": "1900-021",
-      "title": "Foraker Act establishes US civilian government in Puerto Rico",
-      "region": "Puerto Rico / United States",
-      "coordinates_approx": "18.5\u00b0N, 66.1\u00b0W",
-      "category": "legal",
-      "description": "On 12 April 1900, the Foraker Act (Organic Act of 1900) established a civilian government for Puerto Rico, replacing the military government imposed after the US conquest during the Spanish-American War. The act created an appointed governor and executive council (with a US-majority), an elected House of Delegates, and a non-voting Resident Commissioner in the US Congress. Crucially, it did not grant US citizenship to Puerto Ricans (that came with the Jones Act of 1917) and imposed US tariff and trade regulations that restructured the island's economy around sugar monoculture for the American market. The act established Puerto Rico's ambiguous colonial status \u2014 neither state nor independent \u2014 that persists to the present day.",
-      "key_figures": [
-        "Joseph B. Foraker (US Senator from Ohio, sponsor of the act)",
-        "Charles H. Allen (first civilian Governor of Puerto Rico)"
-      ],
-      "sources": [
-        {
-          "name": "Foraker Act, 31 Stat. 77 (12 April 1900)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "C\u00e9sar J. Ayala and Rafael Bernabe, Puerto Rico in the American Century: A History since 1898 (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative record is exact. The act's constitutional implications were debated in the Insular Cases (1901 onwards).",
-      "cross_references": [
-        "1898-SPANISH_AMERICAN_WAR",
-        "1917-JONES_ACT"
-      ]
-    },
-    {
-      "id": "1900-022",
-      "title": "Tauregs and French clash in the Sahel; colonial expansion in French West Africa",
-      "region": "French West Africa (present-day Mali, Niger, southern Algeria)",
-      "coordinates_approx": "17.0\u00b0N, 4.0\u00b0W",
-      "category": "military",
-      "description": "Throughout 1900, French military columns continued to extend control across the Sahel and southern Sahara, encountering armed resistance from Tuareg confederations, Mahdist remnants, and other groups. French forces established new military posts in the Niger bend region and increasingly connected their West African, North African, and Central African territories. The resistance leader Rabih az-Zubayr, who had built a military state in the Lake Chad region, was defeated and killed by French forces at the Battle of Kouss\u00e9ri on 22 April 1900, removing the last major obstacle to French control of Chad. This consolidation of French West and Equatorial Africa created the vast colonial federation that would persist until the 1960s.",
-      "key_figures": [
-        "Rabih az-Zubayr (warlord and state-builder in the Chad region, killed April 1900)",
-        "Fran\u00e7ois Lamy (French commander, also killed at Kouss\u00e9ri)",
-        "Am\u00e9d\u00e9e-Fran\u00e7ois Lamy (posthumously honoured \u2014 Fort-Lamy/N'Djamena named after him)"
-      ],
-      "sources": [
-        {
-          "name": "A. S. Kanya-Forstner, The Conquest of the Western Sudan: A Study in French Military Imperialism (1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "French military reports from the Territoire Militaire du Niger (Archives nationales d'outre-mer, Aix-en-Provence)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "French military records provide precise dates for engagements. African perspectives are largely absent from the documentary record and must be reconstructed from oral traditions and archaeological evidence.",
-      "cross_references": [
-        "1898-FASHODA_INCIDENT"
-      ]
-    },
-    {
-      "id": "1900-023",
-      "title": "Samoan partition takes effect between Germany and the United States",
-      "region": "Samoa (Pacific Islands)",
-      "coordinates_approx": "13.8\u00b0S, 172.0\u00b0W",
-      "category": "political",
-      "description": "The Tripartite Convention of 1899, ratified in early 1900, formally partitioned the Samoan Islands between Germany (which received the western islands, including Upolu and Savai'i) and the United States (which received the eastern islands, including Tutuila with the harbour at Pago Pago). Britain withdrew its claims in exchange for German concessions elsewhere (including parts of the Solomon Islands and adjustments in West Africa). The partition was imposed without meaningful consultation of Samoans and overrode the existing indigenous political structures. German Samoa would be seized by New Zealand in 1914; American Samoa remains an unincorporated US territory today.",
-      "key_figures": [
-        "Mata'afa Iosefo (Samoan paramount chief, recognised by Germany as ali'i sili)",
-        "Wilhelm Solf (first German governor of Samoa)"
-      ],
-      "sources": [
-        {
-          "name": "Tripartite Convention (2 December 1899), ratified February\u2013March 1900",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Paul Kennedy, The Samoan Tangle: A Study in Anglo-German-American Relations 1878\u20131900 (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text and diplomatic correspondence survive in full. Samoan oral traditions and perspectives on the partition are less well represented in the scholarly literature.",
-      "cross_references": [
-        "1899-SAMOAN_CIVIL_WAR"
+        "1900-001",
+        "1900-010"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held narratives about events in this year face scholarly complication: (1) The Boxer Uprising is traditionally framed in Western sources as an irrational, xenophobic movement, but modern Chinese and Western scholarship (Esherick, Cohen) emphasises legitimate grievances against foreign economic exploitation, missionary overreach, and Qing governmental failures. The 'Boxers' were not a unified organisation but a disparate movement with varied motivations. (2) Max Planck's quantum hypothesis is often presented as a deliberate revolutionary act, but Thomas Kuhn (1978) argued persuasively that Planck did not initially understand the radical implications of quantisation and that the true 'quantum revolution' came only with Einstein's 1905 light quantum paper. Planck scholars remain divided on this question. (3) The 'relief of Mafeking' narrative centres on Baden-Powell's heroism but obscures the experience of the Barolong population: Sol Plaatje's diary and later scholarship (Comaroff, Willan) reveal that African residents bore the worst of food shortages, were used as forced labour, and were excluded from the siege's mythologisation. (4) The founding of the Labour Representation Committee is retrospectively treated as the birth of the Labour Party, but at the time it was a loose and fragile coalition \u2014 the SDF withdrew within months, and the Committee nearly collapsed before the Taff Vale case revived it. (5) Walter Reed's yellow fever experiments used human volunteers with debatable consent practices; some scholars argue the 'volunteers' (particularly Spanish immigrants) faced economic coercion. Carlos Finlay's priority in proposing the mosquito vector theory continues to be underacknowledged in Anglo-American accounts.",
-  "historiographic_note": "The year 1900 is richly documented from Western, Japanese, and to some extent Chinese official sources. The major biases shaping the surviving record include: (1) Imperial perspectives dominate \u2014 the Boer War, Boxer Uprising, and colonial expansion in Africa are overwhelmingly documented from the viewpoint of European administrators, soldiers, and journalists. African, Asian, and Pacific Islander perspectives must often be reconstructed from oral traditions, later nationalist historiography, or reading colonial sources against the grain. (2) The urban and literate are overrepresented; rural populations across all continents \u2014 who constituted the vast majority of humanity in 1900 \u2014 are poorly documented. (3) Women's contributions and experiences are systematically underrecorded across all regions. (4) Latin America in 1900, while well-documented in national archives, tends to be neglected in Anglophone world-history syntheses, creating an artificial gap in global coverage. (5) The year sits at the intersection of still-living memory and the modern archival state, making the documentary base deep but shaped by the biases of the states that created and preserved the archives.",
+  "disconfirming_evidence": "The significance of Planck's quantum hypothesis has sometimes been overstated in popular accounts as a sudden revolutionary insight. In fact, Planck himself was reluctant to accept the full implications of his own theory and continued to work within classical frameworks for some years. The hypothesis was not immediately revolutionary but rather gradually became foundational to physics over the following decades. Additionally, the Boxer Rebellion is sometimes portrayed as a purely anti-foreign uprising, but modern scholarship emphasises the complex social, economic, and religious factors that motivated the Boxers, as well as the role of drought and famine in the region. The characterisation of the rebellion as simply 'anti-foreign' obscures these deeper causes. Finally, the annexation of Hawaii is sometimes presented as a straightforward political act, but it involved the overthrow of a sovereign kingdom and the dispossession of the Hawaiian people, which is often minimised in Western historical accounts.",
+  "historiographic_note": "1900 is exceptionally well-documented, with rich contemporary sources in multiple languages. The historical record is heavily shaped by Western and Japanese sources; African, South American, and Southeast Asian events are underrepresented. The Boxer Rebellion dominates the historical record for this year, particularly from Western perspectives, while Chinese sources and the perspectives of the Boxers themselves are less accessible in English-language historiography. The year is marked by imperial narratives\u2014the annexation of Hawaii, the relief of the legations, the capture of Johannesburg and Pretoria\u2014all viewed through the lens of imperial expansion. Counter-narratives from colonised peoples and indigenous populations are sparse in surviving records. The scientific achievements of Planck and Freud are well-documented, but their broader cultural and social contexts are sometimes neglected.",
   "graph_edges": [
     {
       "from": "1900-001",
-      "to": "1901-BOXER_PROTOCOL",
+      "to": "1900-010",
       "relation": "led_to",
-      "note": "The Boxer siege and Eight-Nation Alliance intervention led directly to the punitive Boxer Protocol of September 1901"
+      "note": "The siege of the foreign legations led to the dispatch of the international relief force."
+    },
+    {
+      "from": "1900-010",
+      "to": "1900-015",
+      "relation": "led_to",
+      "note": "The relief of the legations was followed by widespread looting and destruction by foreign troops."
     },
     {
       "from": "1900-001",
-      "to": "1900-012",
-      "relation": "caused_by",
-      "note": "Russia used the Boxer Uprising as pretext for military occupation of Manchuria"
-    },
-    {
-      "from": "1900-012",
-      "to": "1904-RUSSO_JAPANESE_WAR",
+      "to": "1901-007",
       "relation": "led_to",
-      "note": "Russia's refusal to withdraw from Manchuria was a primary cause of the Russo-Japanese War"
-    },
-    {
-      "from": "1900-002",
-      "to": "1902-TREATY_OF_VEREENIGING",
-      "relation": "led_to",
-      "note": "British conventional victories of 1900 were followed by two more years of guerrilla war before the peace treaty"
+      "note": "The Boxer Rebellion and foreign occupation led to the Boxer Protocol negotiations in 1901."
     },
     {
       "from": "1900-003",
-      "to": "1905-EINSTEIN_PHOTOELECTRIC",
+      "to": "1901-005",
       "relation": "led_to",
-      "note": "Planck's quantum hypothesis was extended by Einstein's 1905 light quantum paper, which gave it physical rather than merely mathematical significance"
+      "note": "McKinley's re-election in 1900 led to his assassination and Roosevelt's accession in 1901."
     },
     {
-      "from": "1900-013",
-      "to": "1906-LABOUR_PARTY_FORMATION",
-      "relation": "led_to",
-      "note": "The Labour Representation Committee reconstituted itself as the Labour Party after the 1906 general election"
-    },
-    {
-      "from": "1900-018",
-      "to": "1901-AUSTRALIAN_FEDERATION",
-      "relation": "led_to",
-      "note": "Royal Assent to the constitution in July 1900 enabled the formal inauguration of the Commonwealth on 1 January 1901"
-    },
-    {
-      "from": "1900-011",
-      "to": "1901-AGUINALDO_CAPTURE",
-      "relation": "led_to",
-      "note": "The guerrilla phase of 1900 continued until Aguinaldo's capture in March 1901, though resistance persisted afterward"
-    },
-    {
-      "from": "1900-019",
-      "to": "1904-PANAMA_CANAL_MOSQUITO_CONTROL",
-      "relation": "led_to",
-      "note": "Reed's proof of mosquito transmission enabled William Gorgas's vector control programme that made Panama Canal construction feasible"
-    },
-    {
-      "from": "1900-006",
-      "to": "1901-MCKINLEY_ASSASSINATION",
+      "from": "1900-004",
+      "to": "1900-005",
       "relation": "contemporary_with",
-      "note": "Part of a wave of anarchist assassinations of heads of state in the 1894\u20131901 period"
+      "note": "Both Freud's 'Interpretation of Dreams' and Planck's quantum hypothesis were published in 1900, marking a watershed in 20th-century thought."
     },
     {
-      "from": "1900-016",
-      "to": "1914-AMALGAMATION_OF_NIGERIA",
+      "from": "1900-014",
+      "to": "1901-010",
       "relation": "led_to",
-      "note": "The 1900 establishment of separate northern and southern protectorates was followed by Lugard's amalgamation into a single Colony and Protectorate of Nigeria in 1914"
-    },
-    {
-      "from": "1900-017",
-      "to": "1900-002",
-      "relation": "part_of",
-      "note": "The siege and relief of Mafeking was a major episode of the broader South African War"
+      "note": "The annexation of Hawaii in 1900 was part of the broader American imperial expansion that led to the Anglo-Japanese Alliance in 1901."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T02:31:04.822967",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
