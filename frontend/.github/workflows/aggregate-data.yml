@@ -1,0 +1,106 @@
+name: Aggregate History Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'outputs/json/**'
+      - 'state/progress.json'
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Aggregate JSON into chunks
+        run: |
+          mkdir -p frontend/public/data/chunks
+
+          # Copy progress file
+          cp state/progress.json frontend/public/data/progress.json 2>/dev/null || echo '{"completed":[],"failed":[]}' > frontend/public/data/progress.json
+
+          # Aggregate into 100-year chunks
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const jsonDir = 'outputs/json';
+          const chunkDir = 'frontend/public/data/chunks';
+
+          // Read all JSON files
+          const files = fs.readdirSync(jsonDir).filter(f => f.endsWith('.json'));
+          const allYears = [];
+
+          for (const file of files) {
+            try {
+              const data = JSON.parse(fs.readFileSync(path.join(jsonDir, file), 'utf8'));
+              if (data.year !== undefined) allYears.push(data);
+            } catch (e) {
+              console.error('Skip invalid:', file);
+            }
+          }
+
+          console.log('Total valid years:', allYears.length);
+
+          // Sort by year descending
+          allYears.sort((a, b) => b.year - a.year);
+
+          // Create 100-year chunks
+          const chunks = {};
+          for (const year of allYears) {
+            const centuryStart = Math.ceil(year.year / 100) * 100;
+            const centuryEnd = centuryStart - 99;
+            const key = centuryStart + '_' + centuryEnd;
+            if (!chunks[key]) chunks[key] = [];
+            chunks[key].push(year);
+          }
+
+          // Write chunk files
+          for (const [key, years] of Object.entries(chunks)) {
+            const filename = 'chunk-' + key.replace('_', '-to-') + '.json';
+            fs.writeFileSync(
+              path.join(chunkDir, filename),
+              JSON.stringify(years)
+            );
+            console.log('Wrote:', filename, '(' + years.length + ' years)');
+          }
+
+          // Write manifest
+          const manifest = {
+            total_years: allYears.length,
+            chunks: Object.entries(chunks).map(([key, years]) => ({
+              file: 'chunk-' + key.replace('_', '-to-') + '.json',
+              start: Math.max(...years.map(y => y.year)),
+              end: Math.min(...years.map(y => y.year)),
+              count: years.length
+            })).sort((a, b) => b.start - a.start),
+            generated_at: new Date().toISOString()
+          };
+          fs.writeFileSync(
+            path.join('frontend/public/data', 'manifest.json'),
+            JSON.stringify(manifest, null, 2)
+          );
+          console.log('Manifest written with', manifest.chunks.length, 'chunks');
+          "
+
+      - name: Commit aggregated data
+        run: |
+          cd frontend
+          git config user.name "Human History Daemon"
+          git config user.email "daemon@smarason.is"
+          git add public/data/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Aggregate data: $(jq '.total_years' public/data/manifest.json) years in chunks"
+            git push
+          else
+            echo "No data changes"
+          fi
