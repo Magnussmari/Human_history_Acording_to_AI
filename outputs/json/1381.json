@@ -1,26 +1,27 @@
 {
   "year": 1381,
   "year_label": "1381 CE",
-  "era_context": "Late 14th century: Ming Dynasty consolidates power in China; Ottoman Empire expands in the Balkans; Western Christendom fractured by the Great Schism (1378\u20131417); Timurid Renaissance in Persia; Joseon Dynasty in Korea; Aztec Empire in Mesoamerica.",
-  "documentation_level": "moderate",
+  "era_context": "Late 14th century: Ming Dynasty consolidates power in China; Ottoman Empire expands in the Balkans; Western Europe experiences the Great Schism; the Timurid Renaissance develops in Central Asia; the Joseon Dynasty rules Korea; the Aztec Empire continues expansion in Mesoamerica.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited written records)",
-    "Pacific Islands and Oceania",
-    "Northern Europe and Scandinavia (sparse specific records for this year)"
+    "Pacific Islands and Oceania (sparse documentation)",
+    "Northern Europe beyond major chronicle centers",
+    "Southeast Asia (limited contemporary written sources)"
   ],
   "events": [
     {
       "id": "1381-001",
       "title": "Peasants' Revolt in England",
       "region": "England",
-      "coordinates_approx": "52.0, -2.0",
+      "coordinates_approx": "51.5, -0.1",
       "category": "political",
-      "description": "The Peasants' Revolt erupted in England in June 1381, sparked by the Poll Tax and broader grievances over serfdom and labor conditions. Led by figures such as Wat Tyler and John Ball, the revolt saw peasants and urban workers march on London, storm the Tower of London, and demand the abolition of serfdom. King Richard II, then only 14 years old, met with the rebels and promised concessions. However, the revolt was brutally suppressed within weeks, with Wat Tyler killed and thousands of rebels executed. The revolt failed to achieve its immediate goals but exposed deep social tensions and contributed to long-term changes in labor relations and peasant consciousness.",
+      "description": "The Peasants' Revolt, one of the most significant social upheavals in medieval England, erupted in May 1381. Triggered by the poll tax and broader grievances over serfdom and labor conditions, the revolt saw peasants and artisans march on London, led by figures such as Wat Tyler and John Ball. The rebels stormed the Tower of London, executed several royal advisors, and confronted King Richard II. The revolt was ultimately suppressed by royal forces, with Wat Tyler killed during negotiations. The revolt challenged feudal authority and raised questions about social hierarchy, though the immediate outcome was a reassertion of royal power. The long-term impact on English labor relations and social consciousness was significant.",
       "key_figures": [
-        "Wat Tyler (rebel leader)",
-        "John Ball (priest, rebel ideologue)",
-        "Richard II (King of England)",
-        "John of Gaunt (Duke of Lancaster)"
+        "Wat Tyler (rebel leader, executed June 1381)",
+        "John Ball (priest and rebel ideologue)",
+        "King Richard II of England (r. 1377\u20131399)",
+        "John of Gaunt (Duke of Lancaster, royal advisor)"
       ],
       "sources": [
         {
@@ -34,125 +35,170 @@
           "contemporary": true
         },
         {
-          "name": "Walsingham's Historia Anglicana (Thomas Walsingham, contemporary chronicler)",
+          "name": "The Anonimalle Chronicle (contemporary English chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Royal records and legal documents",
-          "type": "primary_text",
+          "name": "Walsingham's Historia Anglicana (Thomas Walsingham, contemporary chronicler)",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Peasants' Revolt is one of the best-documented events of the 14th century, with multiple contemporary chronicles and official records providing consistent accounts of the major events and dates.",
+      "certainty_note": "The Peasants' Revolt of 1381 is one of the best-documented events of the 14th century, with multiple contemporary chronicles providing detailed accounts. The date, key figures, and major events are confirmed by independent sources.",
       "cross_references": [
-        "Leads to 1382-001 (legal consolidation and repression)",
-        "Part of broader late medieval social unrest"
+        "1382-001 (Suppression of the revolt)"
       ]
     },
     {
       "id": "1381-002",
-      "title": "Battle of Kulikovo Field (alternative dating)",
-      "region": "Golden Horde, Muscovy (modern Russia)",
-      "coordinates_approx": "54.0, 38.0",
+      "title": "First Battle of Kosovo",
+      "region": "Kosovo (Ottoman Empire and Serbian Empire)",
+      "coordinates_approx": "42.68, 20.95",
       "category": "military",
-      "description": "Some sources date the Battle of Kulikovo Field to 1381, though 1380 is more commonly accepted. In this battle, Dmitri Donskoi, Grand Prince of Moscow, led a coalition of Russian principalities against the Golden Horde forces under Mamai. The Russian victory was symbolically significant, demonstrating that Mongol-Tatar forces could be defeated, though Mongol overlordship would persist for another century. The battle became a foundational myth in Russian national consciousness.",
+      "description": "The First Battle of Kosovo (also known as the Battle of the Field of Blackbirds) was fought on 28 June 1389 (not 1381 as sometimes confused in popular sources). However, 1381 marks the period of increasing Ottoman pressure on Serbian lands that would culminate in this battle. Ottoman forces under Murat I were consolidating control over the Balkans, and Serbian resistance was mounting. The year 1381 represents the escalation of tensions that would lead to the decisive 1389 battle.",
       "key_figures": [
-        "Dmitri Donskoi (Grand Prince of Moscow)",
-        "Mamai (Golden Horde general)"
+        "Murat I (Ottoman Sultan, r. 1362\u20131389)",
+        "Serbian nobility (names vary in sources)"
       ],
       "sources": [
         {
-          "name": "Russian chronicles (Novgorod Chronicle, Moscow Chronicle)",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Ottoman chronicles (Ashikpashazade, Ne\u015fri, later 15th century)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Later Russian histories",
-          "type": "later_compilation",
+          "name": "Serbian and Byzantine sources (fragmentary)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The Battle of Kulikovo Field is traditionally dated to 1380, but some sources place it in 1381. The discrepancy reflects ambiguity in medieval chronicle dating. 1380 is more widely accepted by modern scholars.",
+      "certainty_note": "The First Battle of Kosovo is traditionally dated to 1389, not 1381. This entry reflects the period of Ottoman-Serbian conflict that characterized the 1380s and culminated in the 1389 battle. The year 1381 is assigned to mark the escalation of tensions rather than a specific battle.",
       "cross_references": [
-        "More commonly dated to 1380-001",
-        "Leads to 1383-003 (Tokhtamysh's invasion of Moscow)"
+        "1389-military (First Battle of Kosovo)"
       ]
     },
     {
       "id": "1381-003",
-      "title": "Portuguese maritime expansion: Diogo C\u00e3o's continued voyages",
-      "region": "West Africa (Portuguese exploration)",
-      "coordinates_approx": "6.0, 12.0",
-      "category": "exploration",
-      "description": "Portuguese explorer Diogo C\u00e3o continued his voyages along the West African coast, establishing trading posts and erecting stone pillars (padr\u00f5es) to mark Portuguese claims. These expeditions, sponsored by Prince Henry the Navigator, were part of the systematic Portuguese exploration of the African coast that would eventually lead to the rounding of the Cape of Good Hope and the opening of the sea route to Asia.",
+      "title": "Ottoman Expansion in the Balkans",
+      "region": "Balkans (Ottoman Empire)",
+      "coordinates_approx": "42.0, 21.0",
+      "category": "military",
+      "description": "Ottoman forces under Murat I continued their systematic expansion in the Balkans, consolidating control over Bulgarian and Serbian territories. In 1381, the Ottomans were engaged in campaigns to subjugate remaining independent Balkan principalities and to establish Ottoman administrative control. These campaigns were part of the broader Ottoman expansion that would eventually lead to the conquest of Constantinople in 1453.",
       "key_figures": [
-        "Diogo C\u00e3o (Portuguese explorer)",
-        "Prince Henry the Navigator (Portuguese patron)"
+        "Murat I (Ottoman Sultan, r. 1362\u20131389)"
       ],
       "sources": [
         {
-          "name": "Portuguese chronicles and royal records",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence of padr\u00f5es",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Diogo C\u00e3o's voyages are well-documented, though the precise chronology of individual expeditions varies slightly between sources.",
-      "cross_references": [
-        "Part of broader Portuguese Age of Exploration (1415\u20131600s)"
-      ]
-    },
-    {
-      "id": "1381-004",
-      "title": "Ming Dynasty consolidation: Zhu Yuanzhang's purges",
-      "region": "China",
-      "coordinates_approx": "32.0, 118.8",
-      "category": "political",
-      "description": "The Hongwu Emperor (Zhu Yuanzhang) continued his consolidation of power through administrative reforms and purges of potential rivals. In 1381, he abolished the position of Prime Minister (Chancellor), concentrating power directly in his hands. This move was part of a broader pattern of centralization that would characterize Ming governance. The purges and administrative changes eliminated potential sources of opposition but also created a more autocratic system.",
-      "key_figures": [
-        "Zhu Yuanzhang (Hongwu Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Dynasty Official Records)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Later Ming histories",
+          "name": "Ottoman chronicles (Ashikpashazade, Ne\u015fri, later 15th century)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The abolition of the Prime Minister position in 1381 is well-documented in Ming official records.",
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in the Balkans in 1381 is documented in later Ottoman chronicles. The specific campaigns of 1381 are not always clearly distinguished from surrounding years.",
       "cross_references": [
-        "Part of broader Ming consolidation (1368\u20131398)"
+        "1382-002 (Ottoman conquest of Ni\u0161)",
+        "1384-003 (Ottoman conquest of Sofia)"
+      ]
+    },
+    {
+      "id": "1381-004",
+      "title": "Timur's Consolidation of Power in Central Asia",
+      "region": "Central Asia (Samarkand region)",
+      "coordinates_approx": "39.65, 66.98",
+      "category": "political",
+      "description": "Timur (Tamerlane) continued to consolidate his power in Central Asia, establishing Samarkand as his capital and center of the Timurid Renaissance. In 1381, he was engaged in campaigns to secure his control over the Silk Road trade routes and to establish his authority over rival Central Asian powers. These efforts laid the foundation for his later expansion into the Middle East and beyond.",
+      "key_figures": [
+        "Timur (Tamerlane, Central Asian conqueror, r. 1369\u20131405)"
+      ],
+      "sources": [
+        {
+          "name": "Sharaf al-Din Ali Yazdi, Zafarnama (biography of Timur, written early 15th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Timur's consolidation of power in Central Asia in 1381 is documented in later biographical sources. The specific events of 1381 are not always clearly distinguished from surrounding years.",
+      "cross_references": [
+        "1382-004 (Timur's consolidation in Central Asia)"
+      ]
+    },
+    {
+      "id": "1381-005",
+      "title": "Ming Dynasty Consolidation",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Ming Dynasty under the Hongwu Emperor continued to consolidate central authority and eliminate remaining Yuan Dynasty remnants. In 1381, the Ming government was engaged in reorganizing provincial administration, establishing the examination system for civil service, and strengthening the imperial bureaucracy. These reforms were crucial to the stability and longevity of the Ming Dynasty.",
+      "key_figures": [
+        "Hongwu Emperor (r. 1368\u20131398)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Ming Official Records)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ming administrative consolidation in 1381 is documented in official records. The specific reforms of this year are part of a broader process of consolidation that occurred throughout the 1370s and 1380s.",
+      "cross_references": [
+        "1368-political (Founding of Ming Dynasty)"
+      ]
+    },
+    {
+      "id": "1381-006",
+      "title": "Wycliffe's Continued Reformist Activity",
+      "region": "England",
+      "coordinates_approx": "51.75, -1.25",
+      "category": "religious",
+      "description": "John Wycliffe, the English theologian and reformer, continued his advocacy for church reform and the translation of the Bible into English. In 1381, he was in his final years of life (he died in 1384). His ideas were spreading through his followers, the Lollards, who would continue his reformist agenda after his death. Wycliffe's work challenged papal authority and advocated for a more accessible, vernacular Christianity.",
+      "key_figures": [
+        "John Wycliffe (theologian and reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Wycliffe's own writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Knighton's Chronicle (Henry Knighton, contemporary English chronicler)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Wycliffe's continued reformist activity in 1381 is documented in his own writings and in contemporary chronicles. The date is confirmed.",
+      "cross_references": [
+        "1384-001 (Wycliffe's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Peasants' Revolt is sometimes romanticized as a proto-democratic uprising, but modern scholarship emphasizes its limited social base, its focus on specific grievances (particularly the Poll Tax), and the rapid restoration of feudal order. The revolt did not fundamentally alter the feudal system, though it did contribute to long-term changes in labor relations. The Battle of Kulikovo Field is traditionally dated to 1380, not 1381; the 1381 dating appears in some sources but is less widely accepted. The significance of the battle was partly mythologized in later Russian historiography, which emphasized Moscow's eventual triumph over the Golden Horde.",
-  "historiographic_note": "Documentation for 1381 is moderate to good. English chronicles provide exceptionally detailed accounts of the Peasants' Revolt, with multiple contemporary sources. Russian, Chinese, and Portuguese sources provide reasonable coverage of other major events. The year is well-documented in Western Europe but less so in other regions. African, American, and Oceanic histories remain severely underrepresented in surviving written records. The density of documentation is uneven across regions, with Western Europe and East Asia better represented than other areas.",
+  "disconfirming_evidence": "The First Battle of Kosovo is traditionally dated to 1389, not 1381. This entry reflects the period of Ottoman-Serbian conflict that characterized the 1380s, but the specific battle did not occur in 1381. Some modern historians have questioned the historical accuracy of certain details in the Peasants' Revolt as reported by contemporary chroniclers, particularly regarding the exact sequence of events and the motivations of the rebels. However, the basic fact of the revolt and its major events are confirmed by multiple sources. No major disconfirming evidence undermines the significance of the events listed.",
+  "historiographic_note": "Documentation for 1381 is rich, particularly for England and Europe. The Peasants' Revolt is one of the best-documented events of the 14th century, with multiple contemporary chronicles providing detailed accounts. Chinese sources are also abundant for this period. Ottoman and Middle Eastern sources are more fragmentary and often written decades after the events. Sub-Saharan Africa, the Americas, and Oceania are essentially undocumented. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. English chronicles may reflect court biases and the perspectives of the literate elite.",
   "graph_edges": [
     {
       "from": "1381-001",
       "to": "1382-001",
       "relation": "led_to",
-      "note": "The Peasants' Revolt of 1381 was followed by legal consolidation and repression in 1382."
+      "note": "The Peasants' Revolt of 1381 led to its suppression in 1382."
     },
     {
-      "from": "1381-004",
-      "to": "1398-001",
+      "from": "1381-002",
+      "to": "1389-military",
       "relation": "led_to",
-      "note": "Zhu Yuanzhang's consolidation of power in 1381 continued until his death in 1398."
+      "note": "Ottoman-Serbian tensions in 1381 escalated to the First Battle of Kosovo in 1389."
+    },
+    {
+      "from": "1381-006",
+      "to": "1384-001",
+      "relation": "led_to",
+      "note": "Wycliffe's reformist activity in 1381 continued until his death in 1384."
     }
   ]
 }
