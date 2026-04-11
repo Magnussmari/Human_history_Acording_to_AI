@@ -106,7 +106,9 @@ We tested multiple models to find the optimal quality/cost balance:
 
 Haiku outputs are preserved in `outputs/haiku_experiment/` and Gemini in `outputs/gemini_experiment/` for comparison.
 
-**Future candidates worth testing:** GPT-4.1 batch (~$0.016/year, 1M context), DeepSeek R1 (~$0.009/year, reasoning chains), Qwen3-235B (~$0.004/year, strong APAC coverage). See the [model research notes](https://github.com/Magnussmari/Human_history_Acording_to_AI) for the full April 2026 model landscape analysis.
+**Future candidates worth testing:** GPT-4.1 batch (~$0.016/year, 1M context), DeepSeek R1 (~$0.009/year, reasoning chains), Qwen3-235B (~$0.004/year, strong APAC coverage).
+
+**Update (April 2026):** OpenAI released GPT-5.4 with 1M context, reasoning effort controls (`none` through `xhigh`), and CFG grammar constraints for structured output enforcement. At $2.50/$10.00 per 1M tokens (batch: $1.25/$5.00), its batch output pricing ($5.00/M) undercuts Sonnet's ($7.50/M). Planned for adversarial validation pass after the Sonnet corpus is complete -- two models cross-referencing the same years is stronger than one.
 
 ---
 
