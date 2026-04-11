@@ -1,72 +1,206 @@
-import type { HistoryEvent } from "@/types/history";
-import { CATEGORY_CONFIG } from "@/lib/constants";
-import { CertaintyIndicator } from "./CertaintyIndicator";
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
+import {
+  Landmark, Swords, FlaskConical, Palette, Coins, Users, Cog,
+  Church, Leaf, Compass, Scale, ChevronDown, Shield, Flame, BookOpen, Link2
+} from "lucide-react";
+import type { HistoryEvent, EventCategory, CertaintyLevel } from "@/types/history";
+import { CATEGORY_CONFIG, CERTAINTY_CONFIG } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
+
+const CATEGORY_ICONS: Record<EventCategory, React.ReactNode> = {
+  political: <Landmark size={13} />,
+  military: <Swords size={13} />,
+  scientific: <FlaskConical size={13} />,
+  cultural: <Palette size={13} />,
+  economic: <Coins size={13} />,
+  demographic: <Users size={13} />,
+  technological: <Cog size={13} />,
+  religious: <Church size={13} />,
+  environmental: <Leaf size={13} />,
+  exploration: <Compass size={13} />,
+  legal: <Scale size={13} />,
+};
+
+const CERTAINTY_ICONS: Record<CertaintyLevel, React.ReactNode> = {
+  confirmed: <Shield size={11} />,
+  probable: <Shield size={11} />,
+  approximate: <Flame size={11} />,
+  traditional: <Flame size={11} />,
+  legendary: <Flame size={11} />,
+};
 
 interface EventCardProps {
   event: HistoryEvent;
 }
 
 export function EventCard({ event }: EventCardProps) {
+  const [sourcesOpen, setSourcesOpen] = useState(false);
   const catConfig = CATEGORY_CONFIG[event.category];
+  const certConfig = CERTAINTY_CONFIG[event.certainty];
 
   return (
-    <div className="rounded-lg border border-border/50 bg-card/50 p-5 transition-all hover:border-primary/30">
-      <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className={cn("rounded px-2 py-0.5 text-xs font-medium", catConfig.color)}>
-          {catConfig.label}
-        </span>
-        <CertaintyIndicator level={event.certainty} />
-        <span className="text-xs text-muted-foreground">{event.region}</span>
-        <span className="ml-auto text-[10px] font-mono text-muted-foreground/50">
-          {event.id}
-        </span>
-      </div>
-
-      <h3 className="text-lg font-semibold text-foreground mb-2">{event.title}</h3>
-      <p className="text-sm text-foreground/70 leading-relaxed mb-4">{event.description}</p>
-
-      {event.key_figures.length > 0 && (
-        <div className="mb-3">
-          <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
-            Key Figures
+    <motion.div
+      className="parchment-card rounded-xl overflow-hidden transition-all"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, type: "spring", stiffness: 250, damping: 28 }}
+      whileHover={{ y: -1 }}
+    >
+      <div className="p-5">
+        {/* Header row */}
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <span className={cn("inline-flex items-center gap-1.5 rounded-md px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider", catConfig.color)}>
+            {CATEGORY_ICONS[event.category]}
+            {catConfig.label}
           </span>
-          <div className="flex flex-wrap gap-1.5 mt-1">
-            {event.key_figures.map((fig) => (
-              <span key={fig} className="rounded bg-muted px-2 py-0.5 text-xs text-foreground/80">
-                {fig}
-              </span>
-            ))}
-          </div>
+
+          <span
+            className={cn(
+              "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+              certConfig.color
+            )}
+          >
+            {CERTAINTY_ICONS[event.certainty]}
+            {certConfig.label}
+          </span>
+
+          <span className="text-xs text-muted-foreground ml-auto">{event.region}</span>
         </div>
-      )}
 
-      {event.sources.length > 0 && (
-        <div className="mb-3">
-          <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
-            Sources
-          </span>
-          <div className="mt-1 space-y-1">
-            {event.sources.map((src, i) => (
-              <div key={i} className="flex items-start gap-2 text-xs">
-                <span className={cn(
-                  "shrink-0 rounded px-1.5 py-0.5 font-mono",
-                  src.contemporary ? "bg-green-900/30 text-green-400" : "bg-muted text-muted-foreground"
-                )}>
-                  {src.type.replace(/_/g, " ")}
+        {/* Title */}
+        <h3
+          className="text-lg font-semibold text-foreground mb-2 leading-snug"
+          style={{ fontFamily: "var(--font-heading), serif" }}
+        >
+          {event.title}
+        </h3>
+
+        {/* Description */}
+        <p className="text-sm text-foreground/70 leading-relaxed">{event.description}</p>
+
+        {/* Key figures */}
+        {event.key_figures.length > 0 && (
+          <div className="mt-4">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+              Key Figures
+            </span>
+            <div className="flex flex-wrap gap-1.5 mt-1.5">
+              {event.key_figures.map((fig) => (
+                <span
+                  key={fig}
+                  className="rounded-full bg-muted/60 border border-border/40 px-2.5 py-0.5 text-[11px] font-medium text-foreground/80"
+                >
+                  {fig}
                 </span>
-                <span className="text-foreground/60">{src.name}</span>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {event.certainty_note && (
-        <p className="text-xs text-muted-foreground italic border-l-2 border-primary/20 pl-3 mt-3">
-          {event.certainty_note}
-        </p>
-      )}
-    </div>
+        {/* Cross-references */}
+        {event.cross_references.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5 items-center">
+            <Link2 size={11} className="text-muted-foreground/60" />
+            {event.cross_references.map((ref) => {
+              const refYear = parseInt(ref.split("_")[0], 10);
+              if (!isNaN(refYear)) {
+                return (
+                  <Link
+                    key={ref}
+                    href={`/year/${refYear}`}
+                    className="text-[10px] font-mono rounded px-1.5 py-0.5 transition-colors hover:text-primary"
+                    style={{
+                      background: "rgba(212,175,119,0.08)",
+                      border: "1px solid rgba(212,175,119,0.2)",
+                      color: "var(--gold)",
+                    }}
+                  >
+                    {ref}
+                  </Link>
+                );
+              }
+              return (
+                <span
+                  key={ref}
+                  className="text-[10px] font-mono rounded px-1.5 py-0.5"
+                  style={{
+                    background: "rgba(212,175,119,0.06)",
+                    border: "1px solid rgba(212,175,119,0.15)",
+                    color: "var(--gold)",
+                    opacity: 0.8,
+                  }}
+                >
+                  {ref}
+                </span>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Certainty note */}
+        {event.certainty_note && (
+          <p
+            className="text-xs text-muted-foreground italic border-l-2 pl-3 mt-4"
+            style={{ borderColor: "rgba(212,175,119,0.3)" }}
+          >
+            {event.certainty_note}
+          </p>
+        )}
+
+        {/* Sources toggle */}
+        {event.sources.length > 0 && (
+          <div className="mt-4 pt-3 border-t border-border/30">
+            <button
+              onClick={() => setSourcesOpen((s) => !s)}
+              className="flex items-center gap-1.5 text-[11px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <BookOpen size={11} />
+              {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
+              <motion.span
+                animate={{ rotate: sourcesOpen ? 180 : 0 }}
+                transition={{ duration: 0.2 }}
+              >
+                <ChevronDown size={11} />
+              </motion.span>
+            </button>
+
+            <AnimatePresence>
+              {sourcesOpen && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.2, ease: "easeInOut" }}
+                  className="overflow-hidden"
+                >
+                  <div className="mt-2 space-y-1.5">
+                    {event.sources.map((src, i) => (
+                      <div key={i} className="flex items-start gap-2 text-xs">
+                        <span
+                          className={cn(
+                            "shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] whitespace-nowrap",
+                            src.contemporary
+                              ? "bg-green-900/20 text-green-400 dark:bg-green-900/30"
+                              : "bg-muted text-muted-foreground"
+                          )}
+                        >
+                          {src.type.replace(/_/g, " ")}
+                          {src.contemporary && " •"}
+                        </span>
+                        <span className="text-foreground/60 leading-relaxed">{src.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        )}
+      </div>
+    </motion.div>
   );
 }

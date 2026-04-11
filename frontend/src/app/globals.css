@@ -7,9 +7,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
+  --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-heading);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -48,105 +48,147 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* ─── Eternal Codex: Light Mode (Warm Parchment) ─── */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --background: oklch(0.96 0.01 80);
+  --foreground: oklch(0.15 0.02 50);
+  --card: oklch(0.98 0.005 80);
+  --card-foreground: oklch(0.15 0.02 50);
+  --popover: oklch(0.98 0.005 80);
+  --popover-foreground: oklch(0.15 0.02 50);
+  --primary: oklch(0.55 0.12 50);
+  --primary-foreground: oklch(0.98 0.005 80);
+  --secondary: oklch(0.92 0.01 80);
+  --secondary-foreground: oklch(0.15 0.02 50);
+  --muted: oklch(0.92 0.01 80);
+  --muted-foreground: oklch(0.45 0.02 50);
+  --accent: oklch(0.55 0.12 50);
+  --accent-foreground: oklch(0.98 0.005 80);
+  --destructive: oklch(0.55 0.22 25);
+  --border: oklch(0.88 0.02 70);
+  --input: oklch(0.88 0.02 70);
+  --ring: oklch(0.55 0.12 50);
+  --chart-1: oklch(0.55 0.12 50);
+  --chart-2: oklch(0.5 0.15 250);
+  --chart-3: oklch(0.45 0.18 350);
+  --chart-4: oklch(0.5 0.14 150);
+  --chart-5: oklch(0.45 0.1 30);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: oklch(0.94 0.01 80);
+  --sidebar-foreground: oklch(0.15 0.02 50);
+  --sidebar-primary: oklch(0.55 0.12 50);
+  --sidebar-primary-foreground: oklch(0.98 0.005 80);
+  --sidebar-accent: oklch(0.92 0.01 80);
+  --sidebar-accent-foreground: oklch(0.15 0.02 50);
+  --sidebar-border: oklch(0.88 0.02 70);
+  --sidebar-ring: oklch(0.55 0.12 50);
+
+  /* Eternal Codex custom tokens */
+  --gold: #d4af77;
+  --crimson: #8b2252;
+  --cyan-glow: #4ecdc4;
+  --noise-opacity: 0.025;
+  --card-glass-bg: rgba(255, 252, 245, 0.9);
+  --card-glass-border: rgba(180, 140, 80, 0.2);
+  --font-scale: 1;
 }
 
+/* ─── Eternal Codex: Dark Mode (Near-Black Manuscript) ─── */
 .dark {
-  --background: oklch(0.08 0.01 280);
-  --foreground: oklch(0.88 0.02 75);
-  --card: oklch(0.12 0.01 280);
-  --card-foreground: oklch(0.88 0.02 75);
-  --popover: oklch(0.12 0.01 280);
-  --popover-foreground: oklch(0.88 0.02 75);
-  --primary: oklch(0.75 0.08 65);
-  --primary-foreground: oklch(0.1 0.01 280);
-  --secondary: oklch(0.18 0.01 280);
-  --secondary-foreground: oklch(0.85 0.02 75);
-  --muted: oklch(0.18 0.01 280);
-  --muted-foreground: oklch(0.6 0.02 75);
-  --accent: oklch(0.75 0.08 65);
-  --accent-foreground: oklch(0.1 0.01 280);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.25 0.01 280);
-  --input: oklch(0.2 0.01 280);
-  --ring: oklch(0.75 0.08 65);
-  --chart-1: oklch(0.75 0.08 65);
+  --background: oklch(0.05 0.005 50);
+  --foreground: oklch(0.88 0.03 70);
+  --card: oklch(0.09 0.005 50);
+  --card-foreground: oklch(0.88 0.03 70);
+  --popover: oklch(0.09 0.005 50);
+  --popover-foreground: oklch(0.88 0.03 70);
+  --primary: oklch(0.78 0.1 70);
+  --primary-foreground: oklch(0.08 0.005 50);
+  --secondary: oklch(0.15 0.005 50);
+  --secondary-foreground: oklch(0.88 0.03 70);
+  --muted: oklch(0.15 0.005 50);
+  --muted-foreground: oklch(0.5 0.03 60);
+  --accent: oklch(0.78 0.1 70);
+  --accent-foreground: oklch(0.08 0.005 50);
+  --destructive: oklch(0.6 0.22 25);
+  --border: oklch(0.2 0.02 60);
+  --input: oklch(0.15 0.01 60);
+  --ring: oklch(0.78 0.1 70);
+  --chart-1: oklch(0.78 0.1 70);
   --chart-2: oklch(0.6 0.1 250);
   --chart-3: oklch(0.65 0.15 350);
   --chart-4: oklch(0.7 0.12 150);
   --chart-5: oklch(0.55 0.08 30);
-  --sidebar: oklch(0.1 0.01 280);
-  --sidebar-foreground: oklch(0.88 0.02 75);
-  --sidebar-primary: oklch(0.75 0.08 65);
-  --sidebar-primary-foreground: oklch(0.1 0.01 280);
-  --sidebar-accent: oklch(0.18 0.01 280);
-  --sidebar-accent-foreground: oklch(0.88 0.02 75);
-  --sidebar-border: oklch(0.25 0.01 280);
-  --sidebar-ring: oklch(0.75 0.08 65);
+  --sidebar: oklch(0.08 0.005 50);
+  --sidebar-foreground: oklch(0.88 0.03 70);
+  --sidebar-primary: oklch(0.78 0.1 70);
+  --sidebar-primary-foreground: oklch(0.08 0.005 50);
+  --sidebar-accent: oklch(0.15 0.005 50);
+  --sidebar-accent-foreground: oklch(0.88 0.03 70);
+  --sidebar-border: oklch(0.2 0.02 60);
+  --sidebar-ring: oklch(0.78 0.1 70);
+
+  /* Eternal Codex dark custom tokens */
+  --noise-opacity: 0.04;
+  --card-glass-bg: rgba(20, 18, 15, 0.8);
+  --card-glass-border: rgba(212, 175, 119, 0.15);
 }
 
+/* ─── Base Styles ─── */
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
+
   html {
     @apply font-sans;
+    --font-scale: 1;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: calc(1rem * var(--font-scale));
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* CSS noise texture overlay */
+    background-image:
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.08'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), Georgia, 'Times New Roman', serif;
+    font-feature-settings: "kern" 1, "liga" 1;
   }
 }
 
-@keyframes glow-pulse {
-  0%, 100% { text-shadow: 0 0 20px rgba(212, 165, 116, 0.3), 0 0 40px rgba(212, 165, 116, 0.1); }
-  50% { text-shadow: 0 0 30px rgba(212, 165, 116, 0.5), 0 0 60px rgba(212, 165, 116, 0.2); }
+/* ─── Custom Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-@keyframes timeline-line {
-  from { height: 0; }
-  to { height: 100%; }
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.glow-title {
-  animation: glow-pulse 4s ease-in-out infinite;
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 119, 0.3);
+  border-radius: 99px;
 }
 
-.timeline-line {
-  animation: timeline-line 1s ease-out forwards;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 119, 0.55);
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 175, 119, 0.3) transparent;
+}
+
+/* ─── Scrollbar Hide Utility ─── */
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -154,3 +196,209 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* ─── Keyframes ─── */
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow:
+      0 0 20px rgba(212, 175, 119, 0.3),
+      0 0 40px rgba(212, 175, 119, 0.1),
+      0 0 80px rgba(212, 175, 119, 0.05);
+  }
+  50% {
+    text-shadow:
+      0 0 30px rgba(212, 175, 119, 0.55),
+      0 0 60px rgba(212, 175, 119, 0.25),
+      0 0 120px rgba(212, 175, 119, 0.1);
+  }
+}
+
+@keyframes glow-border-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 0 1px rgba(212, 175, 119, 0.15),
+      0 0 20px rgba(212, 175, 119, 0.05);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(212, 175, 119, 0.35),
+      0 0 30px rgba(212, 175, 119, 0.15);
+  }
+}
+
+@keyframes timeline-line-grow {
+  from { transform: scaleY(0); transform-origin: top; }
+  to { transform: scaleY(1); transform-origin: top; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes float-up {
+  0% { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ring-fill {
+  from { stroke-dashoffset: 439.8; }
+  to { stroke-dashoffset: var(--ring-offset); }
+}
+
+@keyframes chevron-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ─── Animation Classes ─── */
+.glow-title {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+.glow-border {
+  animation: glow-border-pulse 3s ease-in-out infinite;
+}
+
+.timeline-line {
+  animation: timeline-line-grow 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    var(--gold) 0%,
+    #f5e0b5 40%,
+    var(--gold) 60%,
+    #c49a56 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+.animate-float-up {
+  animation: float-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-chevron-bounce {
+  animation: chevron-bounce 1.8s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease both;
+}
+
+/* ─── Glass Card Utilities ─── */
+.glass-card {
+  background: var(--card-glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-glass-border);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(212, 175, 119, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(212, 175, 119, 0.2),
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(212, 175, 119, 0.06);
+  transform: translateY(-1px);
+}
+
+.glass-panel {
+  background: rgba(10, 8, 6, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 119, 0.12);
+}
+
+.light .glass-panel {
+  background: rgba(255, 252, 245, 0.75);
+  border-color: rgba(180, 140, 80, 0.18);
+}
+
+/* ─── Gold Glow Button ─── */
+.gold-button {
+  position: relative;
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid rgba(212, 175, 119, 0.5);
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+.gold-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(212, 175, 119, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.gold-button:hover {
+  border-color: rgba(212, 175, 119, 0.85);
+  box-shadow:
+    0 0 20px rgba(212, 175, 119, 0.25),
+    inset 0 0 20px rgba(212, 175, 119, 0.05);
+  color: #f5e0b5;
+}
+
+.gold-button:hover::before {
+  opacity: 1;
+}
+
+/* ─── Timeline Dot ─── */
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 8px rgba(212, 175, 119, 0.6);
+  flex-shrink: 0;
+}
+
+/* ─── Parchment Card ─── */
+.parchment-card {
+  background: oklch(0.97 0.008 75 / 0.6);
+  border: 1px solid oklch(0.82 0.04 70 / 0.4);
+}
+
+.dark .parchment-card {
+  background: oklch(0.1 0.008 55 / 0.8);
+  border: 1px solid oklch(0.3 0.04 65 / 0.3);
+}
+
+/* ─── Era Badge Colors ─── */
+.era-modern { background: oklch(0.45 0.15 250); color: white; }
+.era-industrial { background: oklch(0.4 0.14 270); color: white; }
+.era-enlightenment { background: oklch(0.45 0.16 290); color: white; }
+.era-renaissance { background: oklch(0.4 0.18 300); color: white; }
+.era-medieval { background: oklch(0.38 0.18 320); color: white; }
+.era-early-medieval { background: oklch(0.45 0.17 340); color: white; }
+.era-classical { background: oklch(0.5 0.15 15); color: white; }
+.era-iron-age { background: oklch(0.55 0.14 40); color: white; }
+.era-bronze-age { background: oklch(0.6 0.12 60); color: oklch(0.1 0.01 50); }
+.era-early-bronze { background: oklch(0.6 0.14 70); color: oklch(0.1 0.01 50); }
+
+/* ─── Category Dot Colors ─── */
+.cat-dot-political { background: oklch(0.5 0.17 250); }
+.cat-dot-military { background: oklch(0.45 0.2 25); }
+.cat-dot-scientific { background: oklch(0.6 0.15 200); }
+.cat-dot-cultural { background: oklch(0.5 0.17 300); }
+.cat-dot-economic { background: oklch(0.55 0.15 165); }
+.cat-dot-demographic { background: oklch(0.55 0.12 180); }
+.cat-dot-technological { background: oklch(0.55 0.14 215); }
+.cat-dot-religious { background: oklch(0.52 0.14 55); }
+.cat-dot-environmental { background: oklch(0.5 0.15 145); }
+.cat-dot-exploration { background: oklch(0.48 0.16 270); }
+.cat-dot-legal { background: oklch(0.4 0.05 240); }

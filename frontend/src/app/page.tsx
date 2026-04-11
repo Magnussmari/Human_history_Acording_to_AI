@@ -1,23 +1,24 @@
 "use client";
 
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo, useRef, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { useVirtualizer } from "@tanstack/react-virtual";
+import { motion, AnimatePresence } from "motion/react";
+import { SlidersHorizontal } from "lucide-react";
 import { fetchManifest, fetchAllYears, filterYears, DEFAULT_FILTERS } from "@/lib/data";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
-import { ProgressBanner } from "@/components/ProgressBanner";
-import { EraNav } from "@/components/EraNav";
-import { YearCard } from "@/components/YearCard";
+import { HeroSection } from "@/components/HeroSection";
+import { TimelineView } from "@/components/TimelineView";
 import { SearchCommand } from "@/components/SearchCommand";
-import { Filters } from "@/components/Filters";
-import { Skeleton } from "@/components/ui/skeleton";
+import { FilterPanel } from "@/components/FilterPanel";
+import { ViewToggle, type ViewMode } from "@/components/ViewToggle";
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const parentRef = useRef<HTMLDivElement>(null);
+  const [view, setView] = useState<ViewMode>("timeline");
+  const timelineSectionRef = useRef<HTMLDivElement>(null);
 
   const { data: manifest } = useQuery({
     queryKey: ["manifest"],
@@ -42,94 +43,163 @@ export default function HomePage() {
     return result;
   }, [years, filters, activeEra]);
 
-  const virtualizer = useVirtualizer({
-    count: filteredYears.length,
-    getScrollElement: () => parentRef.current,
-    estimateSize: () => 140,
-    overscan: 10,
-  });
+  const activeFilterCount =
+    filters.categories.length + filters.certainties.length + (filters.region ? 1 : 0);
+
+  const handleExplore = useCallback(() => {
+    timelineSectionRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8">
-      <div className="text-center mb-10">
-        <h1 className="text-5xl sm:text-7xl font-bold tracking-tighter glow-title text-primary mb-4">
-          Human History
-        </h1>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Every year of recorded civilization. Structured, sourced, machine-readable.
-          Researched by Claude Sonnet 4.6 using the ICCRA schema.
-        </p>
-      </div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.4 }}
+    >
+      {/* Hero */}
+      <HeroSection onExplore={handleExplore} />
 
-      <div className="mb-8">
-        <ProgressBanner />
-      </div>
-
-      <div className="flex items-center gap-3 mb-4">
-        <SearchCommand years={years ?? []} />
-        <button
-          onClick={() => setShowFilters((s) => !s)}
-          className="rounded-lg border border-border/50 bg-muted/50 px-3 py-1.5 text-sm text-muted-foreground hover:bg-muted transition-colors"
-        >
-          Filters
-          {(filters.categories.length > 0 || filters.certainties.length > 0) && (
-            <span className="ml-1.5 inline-flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] text-primary-foreground">
-              {filters.categories.length + filters.certainties.length}
-            </span>
-          )}
-        </button>
-        <span className="ml-auto text-xs text-muted-foreground tabular-nums">
-          {filteredYears.length.toLocaleString()} years
-        </span>
-      </div>
-
-      {showFilters && (
-        <div className="mb-4 rounded-lg border border-border/50 bg-card/50 p-4">
-          <Filters filters={filters} onChange={setFilters} />
-        </div>
-      )}
-
-      <div className="mb-6">
-        <EraNav activeEra={activeEra} onSelect={setActiveEra} />
-      </div>
-
-      {isLoading ? (
-        <div className="space-y-3">
-          {Array.from({ length: 10 }).map((_, i) => (
-            <Skeleton key={i} className="h-32 rounded-lg" />
-          ))}
-        </div>
-      ) : filteredYears.length === 0 ? (
-        <div className="py-20 text-center text-muted-foreground">
-          <p className="text-lg">No years match your filters.</p>
-          <p className="text-sm mt-1">Try broadening your search or clearing filters.</p>
-        </div>
-      ) : (
-        <div ref={parentRef} className="h-[70vh] overflow-auto scrollbar-hide">
-          <div
-            style={{ height: `${virtualizer.getTotalSize()}px`, position: "relative" }}
+      {/* Timeline section */}
+      <section ref={timelineSectionRef} className="mx-auto max-w-4xl px-4 py-10">
+        {/* Section heading */}
+        <div className="mb-8 text-center">
+          <h2
+            className="text-3xl sm:text-4xl font-bold mb-2"
+            style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
           >
-            {virtualizer.getVirtualItems().map((virtualRow) => {
-              const year = filteredYears[virtualRow.index];
-              return (
-                <div
-                  key={year.year}
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    transform: `translateY(${virtualRow.start}px)`,
-                  }}
-                  className="pb-2"
-                >
-                  <YearCard year={year} index={virtualRow.index} />
-                </div>
-              );
-            })}
+            The Timeline
+          </h2>
+          <p className="text-sm text-muted-foreground">
+            {filteredYears.length.toLocaleString()} years displayed
+            {activeEra && ` — ${activeEra} era`}
+            {filters.search && ` — matching "${filters.search}"`}
+          </p>
+        </div>
+
+        {/* Controls row */}
+        <div className="flex items-center gap-3 mb-5 flex-wrap">
+          <SearchCommand years={years ?? []} />
+
+          <motion.button
+            onClick={() => setShowFilters(true)}
+            className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all relative"
+            style={{
+              background: "var(--card-glass-bg)",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
+              border: "1px solid var(--card-glass-border)",
+            }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.97 }}
+          >
+            <SlidersHorizontal size={14} />
+            Filters
+            {activeFilterCount > 0 && (
+              <span
+                className="inline-flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold"
+                style={{ background: "var(--gold)", color: "var(--background)" }}
+              >
+                {activeFilterCount}
+              </span>
+            )}
+          </motion.button>
+
+          <div className="ml-auto">
+            <ViewToggle active={view} onChange={setView} />
           </div>
         </div>
-      )}
-    </div>
+
+        {/* Era navigation */}
+        <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-3 mb-5">
+          <motion.button
+            onClick={() => setActiveEra(null)}
+            className="shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all"
+            style={
+              activeEra === null
+                ? { background: "var(--gold)", color: "var(--background)" }
+                : { background: "var(--muted)", color: "var(--muted-foreground)" }
+            }
+            whileTap={{ scale: 0.95 }}
+          >
+            All Eras
+          </motion.button>
+          {ERAS.map((era) => (
+            <motion.button
+              key={era.label}
+              onClick={() => setActiveEra(activeEra === era.label ? null : era.label)}
+              className="shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all"
+              style={
+                activeEra === era.label
+                  ? { background: "var(--gold)", color: "var(--background)" }
+                  : { background: "var(--muted)", color: "var(--muted-foreground)" }
+              }
+              whileTap={{ scale: 0.95 }}
+            >
+              {era.label}
+              <span className="ml-1.5 opacity-50">
+                {era.start > 0 ? era.start : `${Math.abs(era.start)} BCE`}
+              </span>
+            </motion.button>
+          ))}
+        </div>
+
+        {/* View content */}
+        <AnimatePresence mode="wait">
+          {view === "timeline" ? (
+            <motion.div
+              key="timeline"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.25, type: "spring", stiffness: 300, damping: 30 }}
+            >
+              <TimelineView years={filteredYears} isLoading={isLoading} />
+            </motion.div>
+          ) : view === "map" ? (
+            <motion.div
+              key="map"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.25 }}
+              className="py-24 text-center text-muted-foreground"
+            >
+              <p
+                className="text-2xl mb-2"
+                style={{ fontFamily: "var(--font-heading), serif" }}
+              >
+                Map View
+              </p>
+              <p className="text-sm">Geographic visualization coming soon.</p>
+            </motion.div>
+          ) : (
+            <motion.div
+              key="graph"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.25 }}
+              className="py-24 text-center text-muted-foreground"
+            >
+              <p
+                className="text-2xl mb-2"
+                style={{ fontFamily: "var(--font-heading), serif" }}
+              >
+                Graph View
+              </p>
+              <p className="text-sm">Cross-reference graph visualization coming soon.</p>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </section>
+
+      {/* Filter panel */}
+      <FilterPanel
+        open={showFilters}
+        onClose={() => setShowFilters(false)}
+        filters={filters}
+        onChange={setFilters}
+      />
+    </motion.div>
   );
 }
