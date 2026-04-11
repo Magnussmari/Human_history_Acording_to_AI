@@ -57,17 +57,38 @@ export function EventCard({ event }: EventCardProps) {
     >
       <div style={{ padding: "28px 32px" }}>
         {/* Header row */}
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className={cn("inline-flex items-center gap-1.5 rounded-md px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider", catConfig.color)}>
+        <div className="flex flex-wrap items-center gap-2 mb-4">
+          <span
+            className="inline-flex items-center gap-1.5"
+            style={{
+              fontSize: 11,
+              padding: "3px 10px",
+              borderRadius: 6,
+              background: "#1a1a1a",
+              border: "1px solid #222222",
+              color: "#d1c2a8",
+              fontWeight: 600,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase" as const,
+            }}
+          >
             {CATEGORY_ICONS[event.category]}
             {catConfig.label}
           </span>
 
           <span
-            className={cn(
-              "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
-              certConfig.color
-            )}
+            className="inline-flex items-center gap-1"
+            style={{
+              fontSize: 11,
+              padding: "3px 10px",
+              borderRadius: 999,
+              background: event.certainty === "confirmed" ? "rgba(34,197,94,0.1)" : event.certainty === "probable" ? "rgba(59,130,246,0.1)" : "rgba(232,200,138,0.08)",
+              border: `1px solid ${event.certainty === "confirmed" ? "rgba(34,197,94,0.25)" : event.certainty === "probable" ? "rgba(59,130,246,0.25)" : "rgba(232,200,138,0.2)"}`,
+              color: event.certainty === "confirmed" ? "#4ade80" : event.certainty === "probable" ? "#60a5fa" : "#e8c88a",
+              fontWeight: 600,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase" as const,
+            }}
           >
             {CERTAINTY_ICONS[event.certainty]}
             {certConfig.label}

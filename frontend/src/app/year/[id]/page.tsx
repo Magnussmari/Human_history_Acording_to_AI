@@ -170,25 +170,15 @@ export default function YearPage() {
           </p>
         </motion.div>
 
-        {/* Geographic Gaps — subtle horizontal banner */}
+        {/* Geographic Gaps */}
         {year.geographic_coverage_gaps.length > 0 && (
-          <motion.div
-            variants={stagger.item}
-            className="mb-10 flex flex-wrap items-center gap-2 px-4 py-3 rounded-full"
-            style={{
-              background: "rgba(232, 200, 138, 0.04)",
-              border: "1px solid rgba(232, 200, 138, 0.1)",
-            }}
-          >
-            <MapPin size={12} style={{ color: "#e8c88a", opacity: 0.6 }} />
-            <span className="text-[11px] font-medium uppercase tracking-wider" style={{ color: "rgba(232,200,138,0.5)" }}>
-              Coverage gaps:
-            </span>
-            {year.geographic_coverage_gaps.map((gap, i) => (
-              <span key={i} className="text-[12px]" style={{ color: "rgba(232,200,138,0.45)" }}>
-                {gap}{i < year.geographic_coverage_gaps.length - 1 ? " /" : ""}
-              </span>
-            ))}
+          <motion.div variants={stagger.item} style={{ marginBottom: 40 }}>
+            <p style={{ fontSize: 13, color: "#8a7d6b", marginBottom: 8, letterSpacing: "0.08em", textTransform: "uppercase" as const }}>
+              Coverage gaps
+            </p>
+            <p style={{ fontSize: 15, color: "#d1c2a8", lineHeight: 1.8 }}>
+              {year.geographic_coverage_gaps.join("  /  ")}
+            </p>
           </motion.div>
         )}
 
@@ -212,11 +202,19 @@ export default function YearPage() {
           </h2>
 
           {year.events.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mb-5">
+            <div className="flex flex-wrap gap-2 mb-6">
               {[...new Set(year.events.map((e) => e.category))].map((cat) => (
                 <span
                   key={cat}
-                  className={cn("rounded-full px-2.5 py-0.5 text-[10px] font-semibold", CATEGORY_CONFIG[cat].color)}
+                  style={{
+                    fontSize: 12,
+                    padding: "4px 12px",
+                    borderRadius: 999,
+                    background: "#1a1a1a",
+                    border: "1px solid #222222",
+                    color: "#d1c2a8",
+                    fontWeight: 500,
+                  }}
                 >
                   {CATEGORY_CONFIG[cat].label}
                 </span>
