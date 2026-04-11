@@ -1,91 +1,168 @@
 {
   "year": 1664,
   "year_label": "1664 CE",
-  "era_context": "The mid-17th century: European powers consolidating colonial empires in North America, the Caribbean, and Asia. The Ottoman Empire in slow decline; the Qing Dynasty consolidating control over China following the Manchu conquest. England under the Restoration of Charles II (1660); France under Louis XIV entering his personal reign. Scientific Revolution in full momentum in Europe.",
+  "era_context": "The mid-17th century: European powers consolidating colonial empires in Asia, Africa, and the Americas. The Ottoman Empire in slow decline; the Qing Dynasty consolidating control over China following the Manchu conquest. England and the Dutch Republic competing for naval and commercial supremacy. The Scientific Revolution advancing in Europe; absolute monarchy solidifying in France under Louis XIV.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1664-001",
-      "title": "English conquest of New Amsterdam; renamed New York",
-      "region": "North America (present-day New York)",
-      "coordinates_approx": "40.7128, -74.0060",
+      "title": "Second Anglo-Dutch War begins",
+      "region": "Atlantic, North Sea, Mediterranean, and colonial theaters (North America, West Africa, East Indies)",
+      "coordinates_approx": null,
       "category": "military",
-      "description": "English naval forces under Colonel Richard Nicolls captured the Dutch settlement of New Amsterdam on 8 September 1664 without significant resistance. The Dutch governor Peter Stuyvesant initially resisted but was overruled by the burgomasters. The settlement was renamed New York in honour of the Duke of York (later James II). This conquest marked the effective end of Dutch colonial dominance in North America and consolidated English control of the eastern seaboard. The capture was formalized in the Treaty of Breda (1667), though English possession was confirmed earlier.",
+      "description": "England, under Charles II, declares war on the Dutch Republic over colonial and commercial rivalry. The conflict spans multiple theaters: English forces seize New Amsterdam (future New York) in September 1664; naval battles occur in the North Sea and Mediterranean. The war reflects the shift in European naval power from Spain and Portugal toward England and the Dutch. It will last until 1667 and reshape colonial boundaries in North America and the Caribbean.",
       "key_figures": [
-        "Colonel Richard Nicolls (English commander)",
-        "Peter Stuyvesant (Dutch governor)",
-        "James, Duke of York"
+        "Charles II (King of England)",
+        "Johan de Witt (Grand Pensionary of Holland)",
+        "Peter Stuyvesant (Director-General of New Amsterdam)"
       ],
       "sources": [
         {
-          "name": "Nicolls' official dispatch to the Duke of York, September 1664",
+          "name": "Samuel Pepys, Diary (contemporary record)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Stuyvesant's correspondence and records, New-York Historical Society",
+          "name": "English State Papers, Colonial Series",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus in colonial American histories",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Dutch archival records (Algemeen Rijksarchief)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exact date (8 September 1664) is well-documented in contemporary English and Dutch records.",
+      "certainty_note": "War declaration and major events (seizure of New Amsterdam) are documented in contemporary diplomatic and military records.",
       "cross_references": [
-        "1667-001 (Treaty of Breda formalization)"
+        "1667-001 (Treaty of Breda, ending the war)",
+        "1651-001 (First Anglo-Dutch War, preceding conflict)"
       ]
     },
     {
       "id": "1664-002",
-      "title": "Great Plague of London begins",
-      "region": "England (London)",
-      "coordinates_approx": "51.5074, -0.1278",
-      "category": "demographic",
-      "description": "The bubonic plague outbreak in London began in earnest in spring 1664, though cases had appeared sporadically in late 1663. The epidemic peaked in summer 1665 and killed an estimated 68,596 people (roughly 15% of London's population), though contemporary estimates ranged higher. The plague was spread by fleas on rats and exacerbated by crowded urban conditions, poor sanitation, and the absence of effective quarantine measures. The outbreak prompted the Royal Society and physicians like William Boyle to conduct systematic observations, contributing to early epidemiological understanding. The plague ended naturally by late 1665 as the Great Fire of London (September 1666) destroyed much of the infected housing stock.",
+      "title": "English seizure of New Amsterdam",
+      "region": "North America (present-day New York)",
+      "coordinates_approx": "40.7128, -74.0060",
+      "category": "military",
+      "description": "In September 1664, an English naval squadron under Richard Nicolls arrives at New Amsterdam and demands its surrender. The Dutch governor Peter Stuyvesant initially resists but, lacking sufficient military support from the Dutch Republic, capitulates without significant bloodshed. The colony is renamed New York in honor of the Duke of York (future James II). This seizure marks a major shift in North American colonial control and establishes English dominance over the eastern seaboard.",
       "key_figures": [
-        "King Charles II (fled London)",
-        "Samuel Pepys (diarist and witness)",
-        "William Boyle (natural philosopher)"
+        "Richard Nicolls (English commander)",
+        "Peter Stuyvesant (Dutch governor)",
+        "James, Duke of York (recipient of the grant)"
       ],
       "sources": [
         {
-          "name": "Samuel Pepys, Diary (1660\u20131669), entries for 1664\u20131665",
+          "name": "Nicolls' official report to the English Crown",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Parish burial records, London",
+          "name": "Dutch colonial records (Stadsarchief Amsterdam)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Graunt, Natural and Political Observations (1662), with updated analysis",
+          "name": "E.B. O'Callaghan, Documents Relative to the Colonial History of New York",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The seizure is documented in English and Dutch official records and contemporary correspondence.",
+      "cross_references": [
+        "1664-001 (Second Anglo-Dutch War)",
+        "1667-001 (Treaty of Breda, confirming English possession)"
+      ]
+    },
+    {
+      "id": "1664-003",
+      "title": "Great Plague of London peaks",
+      "region": "England (London)",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "demographic",
+      "description": "The bubonic plague, which began in 1665 but had precursor cases in 1664, reaches catastrophic levels in London during the summer and autumn of 1665 (note: some sources date the peak to 1665, but significant mortality and panic began in 1664). Approximately 68,000\u2013100,000 people die in London alone\u2014roughly 15\u201320% of the city's population. The plague forces the closure of theaters, courts, and many businesses. King Charles II and the court flee to Oxford. The disaster is documented in detail by Samuel Pepys and John Evelyn in their diaries.",
+      "key_figures": [
+        "Samuel Pepys (diarist and witness)",
+        "John Evelyn (diarist and witness)",
+        "Charles II (King of England)"
+      ],
+      "sources": [
+        {
+          "name": "Samuel Pepys, Diary (contemporary record, 1664\u20131665)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "John Evelyn, Diary (contemporary record)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Parish burial records (London)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William Boghurst, Loimologia (medical account, 1666)",
           "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death toll and timeline are well-documented in parish records and contemporary diaries. The exact start date (spring 1664 vs. late 1663) has minor scholarly variation, but the major outbreak is unambiguous.",
+      "certainty_note": "The plague is extensively documented in contemporary diaries, parish records, and official correspondence. Mortality figures are derived from burial records and contemporary estimates.",
       "cross_references": [
-        "1665-001 (plague peak)",
-        "1666-001 (Great Fire of London)"
+        "1666-001 (Great Fire of London, which follows the plague)"
       ]
     },
     {
-      "id": "1664-003",
+      "id": "1664-004",
+      "title": "Qing Dynasty consolidates control over southern China",
+      "region": "China (southern provinces)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "The Qing Dynasty, established by the Manchus in 1644, continues to suppress remaining Ming loyalist resistance and consolidates Han Chinese acceptance of Manchu rule. The Kangxi Emperor (r. 1661\u20131722) is in the early years of his reign. By 1664, the major military threats to Qing authority have been largely neutralized, though the Zheng family (Ming loyalists based in Taiwan) remain a persistent challenge. The Qing begins implementing policies of cultural assimilation and administrative integration.",
+      "key_figures": [
+        "Kangxi Emperor (Qing ruler)",
+        "Dorgon (regent, died 1650, but his policies continue)",
+        "Zheng Chenggong (Ming loyalist, died 1662)"
+      ],
+      "sources": [
+        {
+          "name": "Qing imperial records (Qing Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming loyalist accounts (various)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Kangxi's edicts and memorials",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory of Qing consolidation is well-documented, though specific events within 1664 are less precisely dated in available sources.",
+      "cross_references": [
+        "1644-001 (Qing Dynasty establishment)",
+        "1662-001 (Death of Zheng Chenggong)"
+      ]
+    },
+    {
+      "id": "1664-005",
       "title": "Robert Boyle publishes Experiments and Considerations Touching Colours",
-      "region": "England (Oxford/London)",
-      "coordinates_approx": "51.7520, -1.2577",
+      "region": "England (Oxford)",
+      "coordinates_approx": "51.7548, -1.2545",
       "category": "scientific",
-      "description": "Robert Boyle published his experimental work on the nature of colour, building on his earlier work on air pressure and the vacuum. This treatise advanced the mechanical philosophy and challenged Aristotelian colour theory by demonstrating that colour is a property of light interaction with matter, not an inherent quality. Boyle's systematic experimental method and rejection of occult qualities influenced the development of modern optics and natural philosophy. The work was part of the broader Scientific Revolution and contributed to the intellectual foundation of the Royal Society.",
+      "description": "Robert Boyle, the Irish natural philosopher and chemist, publishes a major work on the nature of color and light. This work contributes to the emerging understanding of optics and the nature of matter, building on earlier work by Descartes and anticipating Newton's later investigations. Boyle's experimental method and emphasis on empirical observation exemplify the Scientific Revolution's methodological shift.",
       "key_figures": [
         "Robert Boyle (natural philosopher)",
-        "Isaac Newton (contemporary, working on optics)"
+        "Isaac Newton (contemporary, not yet published major work)"
       ],
       "sources": [
         {
@@ -94,105 +171,108 @@
           "contemporary": true
         },
         {
-          "name": "Royal Society records and correspondence",
+          "name": "Royal Society records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Publication date and content are well-documented.",
+      "certainty_note": "Publication date and content are well-documented in bibliographic and archival records.",
       "cross_references": [
-        "1660-002 (Royal Society founding)"
+        "1662-001 (Royal Society charter, of which Boyle is a founding member)"
       ]
     },
     {
-      "id": "1664-004",
-      "title": "Second Anglo-Dutch War continues; naval engagements",
-      "region": "North Atlantic and North Sea",
-      "coordinates_approx": null,
-      "category": "military",
-      "description": "The Second Anglo-Dutch War (1665\u20131667) was already in preparation in 1664, with naval skirmishes and the English conquest of New Amsterdam serving as catalysts. The war was driven by commercial rivalry, colonial competition, and English desire to challenge Dutch maritime supremacy. Major naval battles occurred in 1665\u20131666, but 1664 saw the diplomatic and military buildup, including the English seizure of colonial territories and increased naval mobilization.",
+      "id": "1664-006",
+      "title": "Louis XIV begins construction of the Palace of Versailles",
+      "region": "France (\u00cele-de-France)",
+      "coordinates_approx": "48.8047, 2.1204",
+      "category": "cultural",
+      "description": "King Louis XIV of France initiates major construction and renovation work at the royal hunting lodge of Versailles, transforming it into a grand palace. This project, which will continue for decades, reflects Louis's ambitions to centralize royal power and create a symbol of absolute monarchy. The palace will eventually become the seat of government and a model for European royal architecture. The project employs thousands of workers and represents an enormous investment of state resources.",
       "key_figures": [
-        "King Charles II",
-        "Duke of York (James)",
-        "Michiel de Ruyter (Dutch admiral)"
+        "Louis XIV (King of France)",
+        "Louis Le Vau (architect)",
+        "Andr\u00e9 Le N\u00f4tre (landscape architect)"
       ],
       "sources": [
         {
-          "name": "English State Papers, 1664",
+          "name": "Royal building accounts and records (Archives Nationales)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Dutch diplomatic correspondence",
+          "name": "Contemporary accounts and memoirs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Architectural records and plans",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The war's outbreak is well-documented, though the exact sequence of causation is debated.",
+      "certainty_note": "Construction dates and key figures are well-documented in French royal archives and architectural records.",
       "cross_references": [
-        "1665-002 (Battle of Lowestoft)",
-        "1667-001 (Treaty of Breda)"
+        "1682-001 (Louis XIV moves court to Versailles)"
       ]
     },
     {
-      "id": "1664-005",
-      "title": "Kangxi Emperor consolidates Qing control in southern China",
-      "region": "China (southern provinces)",
-      "coordinates_approx": "30.5728, 114.3055",
-      "category": "political",
-      "description": "The Kangxi Emperor (r. 1661\u20131722), who ascended at age 7, was consolidating Qing Manchu control over southern China in 1664. The Three Feudatories (Wu Sangui, Shang Kexi, and Geng Jingmao) still held significant autonomous power in the south, but Kangxi was gradually centralizing authority. In 1664, the Kangxi court was managing the transition from regency rule (under the Four Regents) toward personal imperial authority. The suppression of the Three Feudatories would not occur until 1673\u20131681, but 1664 marks the period of consolidation and administrative reform that preceded it.",
+      "id": "1664-007",
+      "title": "Dutch establish trading post at Cape of Good Hope",
+      "region": "Southern Africa (Cape of Good Hope)",
+      "coordinates_approx": "-33.9249, 18.4241",
+      "category": "exploration",
+      "description": "The Dutch East India Company (VOC) establishes a permanent settlement at the Cape of Good Hope under Jan van Riebeeck's leadership (he arrived in 1652). By 1664, the settlement is consolidating its position as a crucial supply station for Dutch ships traveling to and from the East Indies. The establishment of this foothold marks the beginning of European colonial presence in southern Africa and will eventually lead to the development of the Cape Colony.",
       "key_figures": [
-        "Kangxi Emperor (Qing)",
-        "Oboi (regent, died 1669)",
-        "Wu Sangui (feudatory lord)"
+        "Jan van Riebeeck (VOC commander)",
+        "Dutch East India Company (VOC)"
       ],
       "sources": [
         {
-          "name": "Kangxi shilu (Veritable Records of the Kangxi Emperor)",
+          "name": "VOC records and correspondence (Nationaal Archief, The Hague)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Qing administrative records",
+          "name": "Jan van Riebeeck's journal and reports",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broad political context is well-documented in Qing records, though the specific significance of 1664 is part of a longer consolidation process.",
+      "certainty": "confirmed",
+      "certainty_note": "The establishment and consolidation of the Cape settlement are well-documented in VOC archives.",
       "cross_references": [
-        "1673-001 (Rebellion of the Three Feudatories)"
+        "1652-001 (Initial VOC settlement at Cape)"
       ]
     }
   ],
-  "disconfirming_evidence": "The capture of New Amsterdam is sometimes portrayed as a bloodless or nearly bloodless conquest, but recent scholarship notes that Stuyvesant's initial resistance and the burgomasters' overruling of him involved significant political tension and potential for violence. The 'ease' of the conquest may be overstated in English triumphalist accounts. Additionally, the Great Plague's death toll of 68,596 is based on parish records that are known to be incomplete; actual mortality may have been higher, particularly among the poor and those buried in mass graves outside parish records.",
-  "historiographic_note": "Documentation for 1664 is rich in European (especially English) sources but heavily weighted toward political and military events. The plague is well-documented through Pepys and parish records, but the experience of non-elite Londoners is underrepresented. Chinese sources are abundant but often filtered through later Qing compilations. Non-European regions (Africa, the Ottoman Empire, India) have sparser documentation in English-language historiography, reflecting colonial-era biases in preservation and translation. The year is well-attested overall, but the narrative is shaped by European archival abundance.",
+  "disconfirming_evidence": "The dating of the Great Plague's peak is sometimes attributed to 1665 rather than 1664; modern scholarship generally places the worst mortality in summer\u2013autumn 1665, though significant cases and panic began in 1664. The exact death toll (68,000\u2013100,000) is debated; some estimates are lower. The claim that the plague was entirely bubonic (rather than pneumonic or septicemic) is questioned by modern epidemiologists. The seizure of New Amsterdam is sometimes portrayed as entirely bloodless, but minor skirmishes may have occurred; sources are not entirely consistent on this point.",
+  "historiographic_note": "The year 1664 is well-documented for European events, particularly England and France, due to abundant written records, diaries, and official correspondence. Asian events are documented in imperial records but often with less granular detail in Western historiography. African and indigenous American perspectives are largely absent from surviving sources, reflecting the colonial bias of the historical record. The Great Plague is extensively documented through Pepys and Evelyn's diaries, which have shaped popular understanding but may overemphasize London's experience relative to other affected areas.",
   "graph_edges": [
     {
       "from": "1664-001",
       "to": "1667-001",
       "relation": "led_to",
-      "note": "English conquest of New Amsterdam was formalized in the Treaty of Breda"
+      "note": "Second Anglo-Dutch War leads to Treaty of Breda"
     },
     {
       "from": "1664-002",
-      "to": "1665-001",
+      "to": "1667-001",
       "relation": "led_to",
-      "note": "Great Plague of London peaked in 1665"
-    },
-    {
-      "from": "1664-004",
-      "to": "1665-002",
-      "relation": "led_to",
-      "note": "Naval buildup in 1664 led to major battles in 1665"
+      "note": "Seizure of New Amsterdam is confirmed by Treaty of Breda"
     },
     {
       "from": "1664-003",
-      "to": "1704-001",
-      "relation": "part_of",
-      "note": "Boyle's work on colour contributed to Newton's later optical theories"
+      "to": "1666-001",
+      "relation": "led_to",
+      "note": "Great Plague is followed by Great Fire of London"
+    },
+    {
+      "from": "1664-006",
+      "to": "1682-001",
+      "relation": "led_to",
+      "note": "Construction of Versailles leads to court relocation"
     }
   ]
 }

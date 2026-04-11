@@ -1,9 +1,15 @@
 {
   "year": 1878,
   "year_label": "1878 CE",
-  "era_context": "The late 1870s sat at the intersection of European imperial rivalry, the aftermath of the Russo-Turkish War, and accelerating industrialisation. The Concert of Europe was being reshaped by Bismarck's diplomacy, Ottoman power was in steep decline, and the 'Eastern Question' dominated international relations. In the Americas, Reconstruction had collapsed and the Gilded Age was underway. In East Asia, the Meiji Restoration was transforming Japan, while the Qing dynasty contended with internal rebellions and external pressure. Africa was on the eve of the full-scale 'Scramble' that the Berlin Conference would formalise in 1884–85.",
+  "era_context": "The late 1870s sat at the intersection of European imperial rivalry, the aftermath of the Russo-Turkish War, and accelerating industrialisation. The Concert of Europe was being reshaped by Bismarck's diplomacy, Ottoman power was in steep decline, and the 'Eastern Question' dominated international relations. In the Americas, Reconstruction had collapsed and the Gilded Age was underway. In East Asia, the Meiji Restoration was transforming Japan, while the Qing dynasty contended with internal rebellions and external pressure. Africa was on the eve of the full-scale 'Scramble' that the Berlin Conference would formalise in 1884\u201385.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": ["Sub-Saharan Africa (beyond colonial and missionary records)", "Central Asia (Russian imperial sources dominate)", "Southeast Asia (limited indigenous-language sources in training data)", "Pacific Islands (oral traditions underrepresented)", "Indigenous peoples of the Americas and Australia (colonial lens dominates)"],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (beyond colonial and missionary records)",
+    "Central Asia (Russian imperial sources dominate)",
+    "Southeast Asia (limited indigenous-language sources in training data)",
+    "Pacific Islands (oral traditions underrepresented)",
+    "Indigenous peoples of the Americas and Australia (colonial lens dominates)"
+  ],
   "events": [
     {
       "id": "1878-001",
@@ -11,8 +17,12 @@
       "region": "Ottoman Empire / Balkans",
       "coordinates_approx": "40.97, 28.81",
       "category": "political",
-      "description": "Signed on 3 March 1878 in the Istanbul suburb of San Stefano (Yeşilköy), this treaty ended the Russo-Turkish War of 1877–78. It created a large autonomous Bulgaria stretching from the Danube to the Aegean, granted full independence to Romania, Serbia, and Montenegro, and ceded Kars, Ardahan, and Batumi to Russia. The treaty represented Russia's maximum gains and alarmed Britain and Austria-Hungary, who saw it as creating a Russian client state dominating the Balkans. Its terms were almost immediately challenged and would be substantially revised at the Congress of Berlin four months later.",
-      "key_figures": ["Nikolai Ignatiev (Russian chief negotiator)", "Safvet Pasha (Ottoman negotiator)", "Alexander II (Emperor of Russia)"],
+      "description": "Signed on 3 March 1878 in the Istanbul suburb of San Stefano (Ye\u015filk\u00f6y), this treaty ended the Russo-Turkish War of 1877\u201378. It created a large autonomous Bulgaria stretching from the Danube to the Aegean, granted full independence to Romania, Serbia, and Montenegro, and ceded Kars, Ardahan, and Batumi to Russia. The treaty represented Russia's maximum gains and alarmed Britain and Austria-Hungary, who saw it as creating a Russian client state dominating the Balkans. Its terms were almost immediately challenged and would be substantially revised at the Congress of Berlin four months later.",
+      "key_figures": [
+        "Nikolai Ignatiev (Russian chief negotiator)",
+        "Safvet Pasha (Ottoman negotiator)",
+        "Alexander II (Emperor of Russia)"
+      ],
       "sources": [
         {
           "name": "Text of the Treaty of San Stefano (3 March 1878)",
@@ -20,14 +30,17 @@
           "contemporary": true
         },
         {
-          "name": "M.S. Anderson, The Eastern Question 1774–1923 (1966)",
+          "name": "M.S. Anderson, The Eastern Question 1774\u20131923 (1966)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Treaty text survives in multiple official copies. Exact date is undisputed.",
-      "cross_references": ["1877-RUSSO_TURKISH_WAR", "1878-003"]
+      "cross_references": [
+        "1877-RUSSO_TURKISH_WAR",
+        "1878-003"
+      ]
     },
     {
       "id": "1878-002",
@@ -35,8 +48,13 @@
       "region": "Europe / Balkans",
       "coordinates_approx": "52.52, 13.40",
       "category": "political",
-      "description": "Convened from 13 June to 13 July 1878 under the presidency of Otto von Bismarck, the Congress of Berlin revised the Treaty of San Stefano to limit Russian influence in the Balkans. Bulgaria was reduced to a third of its San Stefano size, divided into the Principality of Bulgaria and the autonomous province of Eastern Rumelia (still nominally Ottoman). Austria-Hungary was authorised to occupy and administer Bosnia and Herzegovina. Romania, Serbia, and Montenegro retained independence but with territorial adjustments. The Congress stabilised Europe temporarily but created lasting resentments — particularly in Bulgaria and among South Slavs — that fed directly into the crises leading to World War I.",
-      "key_figures": ["Otto von Bismarck (Congress president, German Chancellor)", "Benjamin Disraeli (British Prime Minister)", "Alexander Gorchakov (Russian Chancellor)", "Gyula Andrássy (Austro-Hungarian Foreign Minister)"],
+      "description": "Convened from 13 June to 13 July 1878 under the presidency of Otto von Bismarck, the Congress of Berlin revised the Treaty of San Stefano to limit Russian influence in the Balkans. Bulgaria was reduced to a third of its San Stefano size, divided into the Principality of Bulgaria and the autonomous province of Eastern Rumelia (still nominally Ottoman). Austria-Hungary was authorised to occupy and administer Bosnia and Herzegovina. Romania, Serbia, and Montenegro retained independence but with territorial adjustments. The Congress stabilised Europe temporarily but created lasting resentments \u2014 particularly in Bulgaria and among South Slavs \u2014 that fed directly into the crises leading to World War I.",
+      "key_figures": [
+        "Otto von Bismarck (Congress president, German Chancellor)",
+        "Benjamin Disraeli (British Prime Minister)",
+        "Alexander Gorchakov (Russian Chancellor)",
+        "Gyula Andr\u00e1ssy (Austro-Hungarian Foreign Minister)"
+      ],
       "sources": [
         {
           "name": "Treaty of Berlin (13 July 1878), official protocols",
@@ -51,16 +69,24 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Extensively documented in diplomatic archives of all major powers. Contemporary newspaper coverage is voluminous.",
-      "cross_references": ["1878-001", "1908-BOSNIAN_CRISIS", "1914-001"]
+      "cross_references": [
+        "1878-001",
+        "1908-BOSNIAN_CRISIS",
+        "1914-001"
+      ]
     },
     {
       "id": "1878-003",
-      "title": "Cyprus Convention — Britain acquires Cyprus",
+      "title": "Cyprus Convention \u2014 Britain acquires Cyprus",
       "region": "Eastern Mediterranean / Ottoman Empire / Britain",
       "coordinates_approx": "35.13, 33.43",
       "category": "political",
-      "description": "On 4 June 1878, in a secret agreement signed just before the Congress of Berlin, the Ottoman Empire ceded the administration of Cyprus to Britain in exchange for a British guarantee to defend Ottoman territories against further Russian expansion. The convention gave Britain a strategic naval base in the eastern Mediterranean, strengthening its position along the route to the Suez Canal and India. Cyprus would remain formally Ottoman until Britain annexed it outright in 1914 upon the Ottoman entry into World War I. The agreement exemplified British 'forward policy' — acquiring strategic outposts to protect imperial communications.",
-      "key_figures": ["Benjamin Disraeli (British Prime Minister)", "Abdülhamid II (Ottoman Sultan)", "Robert Gascoyne-Cecil, Marquess of Salisbury (British Foreign Secretary)"],
+      "description": "On 4 June 1878, in a secret agreement signed just before the Congress of Berlin, the Ottoman Empire ceded the administration of Cyprus to Britain in exchange for a British guarantee to defend Ottoman territories against further Russian expansion. The convention gave Britain a strategic naval base in the eastern Mediterranean, strengthening its position along the route to the Suez Canal and India. Cyprus would remain formally Ottoman until Britain annexed it outright in 1914 upon the Ottoman entry into World War I. The agreement exemplified British 'forward policy' \u2014 acquiring strategic outposts to protect imperial communications.",
+      "key_figures": [
+        "Benjamin Disraeli (British Prime Minister)",
+        "Abd\u00fclhamid II (Ottoman Sultan)",
+        "Robert Gascoyne-Cecil, Marquess of Salisbury (British Foreign Secretary)"
+      ],
       "sources": [
         {
           "name": "Text of the Cyprus Convention (4 June 1878)",
@@ -75,7 +101,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Convention text preserved in diplomatic archives. Initially secret but published shortly after.",
-      "cross_references": ["1878-002", "1882-BRITISH_EGYPT"]
+      "cross_references": [
+        "1878-002",
+        "1882-BRITISH_EGYPT"
+      ]
     },
     {
       "id": "1878-004",
@@ -83,8 +112,11 @@
       "region": "Balkans / Austria-Hungary",
       "coordinates_approx": "43.86, 18.41",
       "category": "military",
-      "description": "Authorised by the Treaty of Berlin, Austria-Hungary began military occupation of Bosnia and Herzegovina on 29 July 1878. Despite expectations of a peaceful takeover, Austro-Hungarian forces encountered fierce armed resistance from both Muslim and Orthodox populations, requiring a campaign of nearly three months and approximately 150,000 troops to pacify the territory. The occupation, though nominally preserving Ottoman sovereignty, was permanent in practice. Austria-Hungary's formal annexation in 1908 would trigger a major international crisis, and the assassination of Archduke Franz Ferdinand in Sarajevo in 1914 — rooted in South Slav resentment of Habsburg rule — would ignite World War I.",
-      "key_figures": ["Josip Filipović (Austro-Hungarian commanding general)", "Franz Joseph I (Emperor of Austria-Hungary)"],
+      "description": "Authorised by the Treaty of Berlin, Austria-Hungary began military occupation of Bosnia and Herzegovina on 29 July 1878. Despite expectations of a peaceful takeover, Austro-Hungarian forces encountered fierce armed resistance from both Muslim and Orthodox populations, requiring a campaign of nearly three months and approximately 150,000 troops to pacify the territory. The occupation, though nominally preserving Ottoman sovereignty, was permanent in practice. Austria-Hungary's formal annexation in 1908 would trigger a major international crisis, and the assassination of Archduke Franz Ferdinand in Sarajevo in 1914 \u2014 rooted in South Slav resentment of Habsburg rule \u2014 would ignite World War I.",
+      "key_figures": [
+        "Josip Filipovi\u0107 (Austro-Hungarian commanding general)",
+        "Franz Joseph I (Emperor of Austria-Hungary)"
+      ],
       "sources": [
         {
           "name": "Austro-Hungarian military reports and official dispatches (1878)",
@@ -99,7 +131,11 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Extensively documented in Austro-Hungarian military archives and contemporary press. Campaign dates well established.",
-      "cross_references": ["1878-002", "1908-BOSNIAN_CRISIS", "1914-001"]
+      "cross_references": [
+        "1878-002",
+        "1908-BOSNIAN_CRISIS",
+        "1914-001"
+      ]
     },
     {
       "id": "1878-005",
@@ -107,23 +143,30 @@
       "region": "Afghanistan / British India",
       "coordinates_approx": "34.52, 69.17",
       "category": "military",
-      "description": "In November 1878, British Indian forces invaded Afghanistan after Amir Sher Ali Khan refused to accept a British diplomatic mission while having received a Russian one. The war was a product of the 'Great Game' — Anglo-Russian rivalry for influence in Central Asia. Three British columns advanced through the Khyber Pass, the Kurram Valley, and Quetta. Initial British successes led to the Treaty of Gandamak in May 1879, but the murder of the British envoy Louis Cavagnari in Kabul in September 1879 reignited the conflict. The war ultimately placed the compliant Abdur Rahman Khan on the throne and secured British control over Afghan foreign affairs until 1919.",
-      "key_figures": ["Sher Ali Khan (Amir of Afghanistan)", "Lord Lytton (Viceroy of India)", "Frederick Roberts (British commander, Kurram column)"],
+      "description": "In November 1878, British Indian forces invaded Afghanistan after Amir Sher Ali Khan refused to accept a British diplomatic mission while having received a Russian one. The war was a product of the 'Great Game' \u2014 Anglo-Russian rivalry for influence in Central Asia. Three British columns advanced through the Khyber Pass, the Kurram Valley, and Quetta. Initial British successes led to the Treaty of Gandamak in May 1879, but the murder of the British envoy Louis Cavagnari in Kabul in September 1879 reignited the conflict. The war ultimately placed the compliant Abdur Rahman Khan on the throne and secured British control over Afghan foreign affairs until 1919.",
+      "key_figures": [
+        "Sher Ali Khan (Amir of Afghanistan)",
+        "Lord Lytton (Viceroy of India)",
+        "Frederick Roberts (British commander, Kurram column)"
+      ],
       "sources": [
         {
-          "name": "Official dispatches of the Government of India (1878–79)",
+          "name": "Official dispatches of the Government of India (1878\u201379)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "T.A. Heathcote, The Afghan Wars 1839–1919 (1980)",
+          "name": "T.A. Heathcote, The Afghan Wars 1839\u20131919 (1980)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Thoroughly documented in British Indian records, parliamentary papers, and contemporary journalism.",
-      "cross_references": ["1879-GANDAMAK", "1839-FIRST_AFGHAN_WAR"]
+      "cross_references": [
+        "1879-GANDAMAK",
+        "1839-FIRST_AFGHAN_WAR"
+      ]
     },
     {
       "id": "1878-006",
@@ -132,7 +175,11 @@
       "coordinates_approx": "52.52, 13.40",
       "category": "political",
       "description": "On 21 October 1878, the German Reichstag passed the Sozialistengesetz (Anti-Socialist Law), banning Social Democratic organisations, meetings, and publications, though individual Social Democrats could still stand for election. Bismarck used two assassination attempts on Kaiser Wilhelm I (by individuals with loose socialist connections) as pretexts to push the legislation through after an initial defeat in the Reichstag and a subsequent dissolution election. The law remained in force until 1890 and drove the Social Democratic Party underground, paradoxically strengthening its organisational discipline and popular support. The SPD emerged from the ban era as the largest party in Germany.",
-      "key_figures": ["Otto von Bismarck (German Chancellor)", "Wilhelm I (German Emperor)", "August Bebel (SPD leader)"],
+      "key_figures": [
+        "Otto von Bismarck (German Chancellor)",
+        "Wilhelm I (German Emperor)",
+        "August Bebel (SPD leader)"
+      ],
       "sources": [
         {
           "name": "Sozialistengesetz text (Reichsgesetzblatt, 21 October 1878)",
@@ -140,14 +187,16 @@
           "contemporary": true
         },
         {
-          "name": "Vernon Lidtke, The Outlawed Party: Social Democracy in Germany, 1878–1890 (1966)",
+          "name": "Vernon Lidtke, The Outlawed Party: Social Democracy in Germany, 1878\u20131890 (1966)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Legislative record is unambiguous. Date of enactment is precisely documented.",
-      "cross_references": ["1890-ANTISOCIALIST_LAW_EXPIRES"]
+      "cross_references": [
+        "1890-ANTISOCIALIST_LAW_EXPIRES"
+      ]
     },
     {
       "id": "1878-007",
@@ -156,7 +205,11 @@
       "coordinates_approx": "41.90, 12.50",
       "category": "political",
       "description": "Victor Emmanuel II, the first king of unified Italy, died on 9 January 1878. He was succeeded by his son Humbert I (Umberto I), who would reign until his assassination in 1900. Humbert's reign saw Italy pursue colonial ambitions in East Africa, join the Triple Alliance with Germany and Austria-Hungary (1882), and face growing social unrest. His authoritarian tendencies and support for military repression of protests contributed to polarisation in Italian politics.",
-      "key_figures": ["Humbert I (King of Italy)", "Victor Emmanuel II (deceased king)", "Agostino Depretis (Prime Minister)"],
+      "key_figures": [
+        "Humbert I (King of Italy)",
+        "Victor Emmanuel II (deceased king)",
+        "Agostino Depretis (Prime Minister)"
+      ],
       "sources": [
         {
           "name": "Contemporary Italian government gazettes and newspapers (January 1878)",
@@ -171,7 +224,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Royal succession is precisely documented in official records.",
-      "cross_references": ["1882-TRIPLE_ALLIANCE", "1900-HUMBERT_ASSASSINATION"]
+      "cross_references": [
+        "1882-TRIPLE_ALLIANCE",
+        "1900-HUMBERT_ASSASSINATION"
+      ]
     },
     {
       "id": "1878-008",
@@ -179,8 +235,11 @@
       "region": "Vatican / Italy",
       "coordinates_approx": "41.90, 12.45",
       "category": "religious",
-      "description": "Pope Pius IX, whose pontificate of nearly 32 years was the longest verifiable in history, died on 7 February 1878. He had presided over the First Vatican Council (1869–70), the declaration of papal infallibility, and the loss of the Papal States to the Kingdom of Italy. The conclave elected Cardinal Vincenzo Gioacchino Pecci as Pope Leo XIII on 20 February. Leo XIII would reign until 1903 and is remembered for the encyclical Rerum Novarum (1891), which addressed labour rights and social justice, marking a significant engagement of the Catholic Church with modern industrial society.",
-      "key_figures": ["Pius IX (deceased pope)", "Leo XIII (new pope, born Vincenzo Gioacchino Pecci)"],
+      "description": "Pope Pius IX, whose pontificate of nearly 32 years was the longest verifiable in history, died on 7 February 1878. He had presided over the First Vatican Council (1869\u201370), the declaration of papal infallibility, and the loss of the Papal States to the Kingdom of Italy. The conclave elected Cardinal Vincenzo Gioacchino Pecci as Pope Leo XIII on 20 February. Leo XIII would reign until 1903 and is remembered for the encyclical Rerum Novarum (1891), which addressed labour rights and social justice, marking a significant engagement of the Catholic Church with modern industrial society.",
+      "key_figures": [
+        "Pius IX (deceased pope)",
+        "Leo XIII (new pope, born Vincenzo Gioacchino Pecci)"
+      ],
       "sources": [
         {
           "name": "Vatican archives, conclave records (February 1878)",
@@ -195,7 +254,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Papal succession is meticulously documented. Dates undisputed.",
-      "cross_references": ["1870-VATICAN_I", "1891-RERUM_NOVARUM"]
+      "cross_references": [
+        "1870-VATICAN_I",
+        "1891-RERUM_NOVARUM"
+      ]
     },
     {
       "id": "1878-009",
@@ -204,10 +266,13 @@
       "coordinates_approx": "35.15, -90.05",
       "category": "demographic",
       "description": "Beginning in the summer of 1878, a catastrophic yellow fever epidemic swept through the lower Mississippi Valley, with Memphis, Tennessee as the epicentre. Approximately 20,000 people died across the region, with Memphis alone losing over 5,000 of its remaining population (roughly 25,000 of the city's 47,000 residents had fled). The epidemic bankrupted Memphis, which temporarily lost its city charter. The disaster spurred public health reform, eventually leading to improved sanitation infrastructure and contributing to the later understanding (confirmed in 1900) that mosquitoes were the vector. The epidemic disproportionately killed African Americans and Irish immigrants who could not afford to flee.",
-      "key_figures": ["John Erskine (president, Memphis Board of Health)", "Various religious orders (nursing volunteers, notably the Sisters of St. Mary and Howard Association members)"],
+      "key_figures": [
+        "John Erskine (president, Memphis Board of Health)",
+        "Various religious orders (nursing volunteers, notably the Sisters of St. Mary and Howard Association members)"
+      ],
       "sources": [
         {
-          "name": "Reports of the Memphis Board of Health (1878–79)",
+          "name": "Reports of the Memphis Board of Health (1878\u201379)",
           "type": "primary_text",
           "contemporary": true
         },
@@ -224,7 +289,9 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Death tolls are estimates but well-sourced from contemporary health records and newspaper accounts. Exact figures vary by source within a consistent range.",
-      "cross_references": ["1900-YELLOW_FEVER_VECTOR"]
+      "cross_references": [
+        "1900-YELLOW_FEVER_VECTOR"
+      ]
     },
     {
       "id": "1878-010",
@@ -232,8 +299,11 @@
       "region": "United States",
       "coordinates_approx": "41.31, -72.92",
       "category": "technological",
-      "description": "On 28 January 1878, the first commercial telephone exchange began operating in New Haven, Connecticut, serving 21 subscribers. Operated by the District Telephone Company of New Haven under licence from Bell Telephone, this exchange demonstrated the viability of the telephone as a networked communication system rather than merely a point-to-point novelty. Within months, exchanges opened in several other cities. The switchboard model — centralising connections through an operator — would define telecommunications for nearly a century. This development came less than two years after Alexander Graham Bell's patent.",
-      "key_figures": ["George W. Coy (exchange operator/designer)", "Alexander Graham Bell (inventor)"],
+      "description": "On 28 January 1878, the first commercial telephone exchange began operating in New Haven, Connecticut, serving 21 subscribers. Operated by the District Telephone Company of New Haven under licence from Bell Telephone, this exchange demonstrated the viability of the telephone as a networked communication system rather than merely a point-to-point novelty. Within months, exchanges opened in several other cities. The switchboard model \u2014 centralising connections through an operator \u2014 would define telecommunications for nearly a century. This development came less than two years after Alexander Graham Bell's patent.",
+      "key_figures": [
+        "George W. Coy (exchange operator/designer)",
+        "Alexander Graham Bell (inventor)"
+      ],
       "sources": [
         {
           "name": "New Haven Evening Register, contemporary coverage (January 1878)",
@@ -248,7 +318,9 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Date and location well documented in contemporary press and Bell company records.",
-      "cross_references": ["1876-BELL_PATENT"]
+      "cross_references": [
+        "1876-BELL_PATENT"
+      ]
     },
     {
       "id": "1878-011",
@@ -256,8 +328,12 @@
       "region": "France",
       "coordinates_approx": "48.86, 2.29",
       "category": "cultural",
-      "description": "The third Paris World's Fair (Exposition Universelle) opened on 1 May 1878, drawing over 16 million visitors through its closing on 10 November. Held on the Champ de Mars and the Trocadéro hill, it showcased the latest in industrial technology, including Edison's phonograph, Bell's telephone, and the head of the Statue of Liberty (then under construction by Bartholdi). The fair symbolised France's recovery from the devastation of the Franco-Prussian War and the Paris Commune of 1870–71, projecting the stability and modernity of the Third Republic. Electric arc lighting by Pavel Yablochkov illuminated the Avenue de l'Opéra, one of the first public demonstrations of electric street lighting.",
-      "key_figures": ["Patrice de MacMahon (President of France)", "Jean-Baptiste Krantz (commissioner-general)", "Auguste Bartholdi (sculptor, Statue of Liberty head displayed)"],
+      "description": "The third Paris World's Fair (Exposition Universelle) opened on 1 May 1878, drawing over 16 million visitors through its closing on 10 November. Held on the Champ de Mars and the Trocad\u00e9ro hill, it showcased the latest in industrial technology, including Edison's phonograph, Bell's telephone, and the head of the Statue of Liberty (then under construction by Bartholdi). The fair symbolised France's recovery from the devastation of the Franco-Prussian War and the Paris Commune of 1870\u201371, projecting the stability and modernity of the Third Republic. Electric arc lighting by Pavel Yablochkov illuminated the Avenue de l'Op\u00e9ra, one of the first public demonstrations of electric street lighting.",
+      "key_figures": [
+        "Patrice de MacMahon (President of France)",
+        "Jean-Baptiste Krantz (commissioner-general)",
+        "Auguste Bartholdi (sculptor, Statue of Liberty head displayed)"
+      ],
       "sources": [
         {
           "name": "Official reports and catalogues of the Exposition Universelle de 1878",
@@ -272,7 +348,9 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Extensively documented in official records, press coverage, and visitor accounts.",
-      "cross_references": ["1889-PARIS_EXPOSITION"]
+      "cross_references": [
+        "1889-PARIS_EXPOSITION"
+      ]
     },
     {
       "id": "1878-012",
@@ -280,8 +358,11 @@
       "region": "Southern Africa (modern Namibia)",
       "coordinates_approx": "-22.96, 14.51",
       "category": "political",
-      "description": "On 12 March 1878, Britain annexed the harbour of Walvis Bay and its surrounding territory on the southwestern African coast, incorporating it into the Cape Colony. This was the only deep-water port on the coast between the Orange River and Angola. The annexation was motivated by strategic concerns about potential German or Portuguese expansion in the region and the need to protect the Cape Colony's commercial interests. When Germany established South West Africa (modern Namibia) as a protectorate in 1884, Walvis Bay remained a British (and later South African) enclave — a status that persisted until Namibian independence in 1990.",
-      "key_figures": ["Sir Henry Bartle Frere (British High Commissioner for Southern Africa)", "William Coates Palgrave (Special Commissioner)"],
+      "description": "On 12 March 1878, Britain annexed the harbour of Walvis Bay and its surrounding territory on the southwestern African coast, incorporating it into the Cape Colony. This was the only deep-water port on the coast between the Orange River and Angola. The annexation was motivated by strategic concerns about potential German or Portuguese expansion in the region and the need to protect the Cape Colony's commercial interests. When Germany established South West Africa (modern Namibia) as a protectorate in 1884, Walvis Bay remained a British (and later South African) enclave \u2014 a status that persisted until Namibian independence in 1990.",
+      "key_figures": [
+        "Sir Henry Bartle Frere (British High Commissioner for Southern Africa)",
+        "William Coates Palgrave (Special Commissioner)"
+      ],
       "sources": [
         {
           "name": "Cape Colony government gazette and official correspondence (1878)",
@@ -289,14 +370,17 @@
           "contemporary": true
         },
         {
-          "name": "J.H. Esterhuyse, South West Africa 1880–1894 (1968)",
+          "name": "J.H. Esterhuyse, South West Africa 1880\u20131894 (1968)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Colonial administrative records provide exact annexation date.",
-      "cross_references": ["1884-GERMAN_SWA", "1990-NAMIBIA_INDEPENDENCE"]
+      "cross_references": [
+        "1884-GERMAN_SWA",
+        "1990-NAMIBIA_INDEPENDENCE"
+      ]
     },
     {
       "id": "1878-013",
@@ -304,8 +388,12 @@
       "region": "United States",
       "coordinates_approx": "38.91, -77.01",
       "category": "economic",
-      "description": "On 28 February 1878, the U.S. Congress passed the Bland-Allison Act over President Rutherford B. Hayes's veto. The law required the U.S. Treasury to purchase $2–4 million worth of silver bullion monthly and coin it into silver dollars, partially reversing the Coinage Act of 1873 (denounced by silver advocates as the 'Crime of '73'). The act was a compromise between 'silverites' (Western mining interests and debtor farmers who wanted inflationary bimetallism) and 'gold bugs' (Eastern financial interests who favoured the gold standard). It did not satisfy either camp fully and was a precursor to the fierce monetary debates that would dominate American politics through the 1890s.",
-      "key_figures": ["Richard P. Bland (Congressman, Missouri)", "William B. Allison (Senator, Iowa)", "Rutherford B. Hayes (President, vetoed the bill)"],
+      "description": "On 28 February 1878, the U.S. Congress passed the Bland-Allison Act over President Rutherford B. Hayes's veto. The law required the U.S. Treasury to purchase $2\u20134 million worth of silver bullion monthly and coin it into silver dollars, partially reversing the Coinage Act of 1873 (denounced by silver advocates as the 'Crime of '73'). The act was a compromise between 'silverites' (Western mining interests and debtor farmers who wanted inflationary bimetallism) and 'gold bugs' (Eastern financial interests who favoured the gold standard). It did not satisfy either camp fully and was a precursor to the fierce monetary debates that would dominate American politics through the 1890s.",
+      "key_figures": [
+        "Richard P. Bland (Congressman, Missouri)",
+        "William B. Allison (Senator, Iowa)",
+        "Rutherford B. Hayes (President, vetoed the bill)"
+      ],
       "sources": [
         {
           "name": "Congressional Record, 45th Congress (1878)",
@@ -313,14 +401,17 @@
           "contemporary": true
         },
         {
-          "name": "Milton Friedman & Anna Schwartz, A Monetary History of the United States, 1867–1960 (1963)",
+          "name": "Milton Friedman & Anna Schwartz, A Monetary History of the United States, 1867\u20131960 (1963)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Legislative record provides exact date. Veto and override well documented.",
-      "cross_references": ["1873-COINAGE_ACT", "1896-BRYAN_CROSS_OF_GOLD"]
+      "cross_references": [
+        "1873-COINAGE_ACT",
+        "1896-BRYAN_CROSS_OF_GOLD"
+      ]
     },
     {
       "id": "1878-014",
@@ -329,7 +420,11 @@
       "coordinates_approx": "51.51, -0.13",
       "category": "technological",
       "description": "In 1878, David Edward Hughes demonstrated his carbon microphone to the Royal Society in London. Hughes's device, which used loose carbon contacts whose resistance varied with sound pressure, was a significant improvement over earlier transmitters and became the basis for telephone microphone technology for decades. Though Hughes did not patent his invention (believing it should be freely available), his design was closely related to work by Edison and Emile Berliner, leading to protracted priority disputes. The carbon microphone made telephony practical for widespread commercial use by dramatically improving voice clarity.",
-      "key_figures": ["David Edward Hughes (inventor)", "Thomas Edison (rival claimant)", "Emile Berliner (rival claimant)"],
+      "key_figures": [
+        "David Edward Hughes (inventor)",
+        "Thomas Edison (rival claimant)",
+        "Emile Berliner (rival claimant)"
+      ],
       "sources": [
         {
           "name": "Proceedings of the Royal Society of London (1878)",
@@ -344,7 +439,9 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Hughes's demonstrations were witnessed and recorded, but exact priority claims remain disputed among historians of technology.",
-      "cross_references": ["1876-BELL_PATENT"]
+      "cross_references": [
+        "1876-BELL_PATENT"
+      ]
     },
     {
       "id": "1878-015",
@@ -352,11 +449,14 @@
       "region": "Britain",
       "coordinates_approx": "51.52, -0.07",
       "category": "religious",
-      "description": "In 1878, William Booth's Christian Mission in East London was reorganised along quasi-military lines and renamed 'The Salvation Army.' Booth, previously styled 'General Superintendent,' became 'General.' The organisation adopted military ranks, uniforms, and terminology (soldiers, officers, citadels). This rebranding proved enormously effective for evangelism and recruitment among the urban poor. The Salvation Army would expand rapidly to the United States, Australia, and beyond within a few years, combining evangelical Christianity with social services — soup kitchens, shelters, and anti-alcohol campaigns — in a model that persists to the present.",
-      "key_figures": ["William Booth (General, founder)", "Catherine Booth (co-founder)"],
+      "description": "In 1878, William Booth's Christian Mission in East London was reorganised along quasi-military lines and renamed 'The Salvation Army.' Booth, previously styled 'General Superintendent,' became 'General.' The organisation adopted military ranks, uniforms, and terminology (soldiers, officers, citadels). This rebranding proved enormously effective for evangelism and recruitment among the urban poor. The Salvation Army would expand rapidly to the United States, Australia, and beyond within a few years, combining evangelical Christianity with social services \u2014 soup kitchens, shelters, and anti-alcohol campaigns \u2014 in a model that persists to the present.",
+      "key_figures": [
+        "William Booth (General, founder)",
+        "Catherine Booth (co-founder)"
+      ],
       "sources": [
         {
-          "name": "The Salvation Army's founding documents and early issues of The War Cry (1878–79)",
+          "name": "The Salvation Army's founding documents and early issues of The War Cry (1878\u201379)",
           "type": "primary_text",
           "contemporary": true
         },
@@ -377,7 +477,10 @@
       "coordinates_approx": "13.75, 100.52",
       "category": "political",
       "description": "On 26 September 1878, Japan and Siam (Thailand) signed the Declaration of Amity and Commerce in Bangkok. Both nations were pursuing modernisation while resisting full colonisation by Western powers, making this an early example of diplomatic solidarity between non-Western states in the imperial era. The treaty reflected Meiji Japan's growing international ambitions and King Chulalongkorn's (Rama V) strategy of diversifying Siam's foreign relationships to counterbalance British and French pressure.",
-      "key_figures": ["Chulalongkorn / Rama V (King of Siam)", "Meiji Emperor (Emperor of Japan)"],
+      "key_figures": [
+        "Chulalongkorn / Rama V (King of Siam)",
+        "Meiji Emperor (Emperor of Japan)"
+      ],
       "sources": [
         {
           "name": "Japanese and Siamese diplomatic archives (1878)",
@@ -385,7 +488,7 @@
           "contemporary": true
         },
         {
-          "name": "Thamsook Numnonda, 'Thailand and the Japanese Presence, 1895–1945,' (Institute of Asian Studies, 1977) — background context",
+          "name": "Thamsook Numnonda, 'Thailand and the Japanese Presence, 1895\u20131945,' (Institute of Asian Studies, 1977) \u2014 background context",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -400,8 +503,13 @@
       "region": "German Empire",
       "coordinates_approx": "52.52, 13.38",
       "category": "political",
-      "description": "On 11 May 1878, Max Hödel fired two shots at Kaiser Wilhelm I's carriage on Unter den Linden in Berlin, missing both times. On 2 June 1878, Karl Nobiling shot the Kaiser from a window with a shotgun, seriously wounding him. Neither assassin had genuine ties to organised socialism, but Bismarck exploited both incidents to push through the Anti-Socialist Laws. Hödel had briefly been a member of a Social Democratic club before being expelled; Nobiling was an independently wealthy academic. The attacks and the political manipulation that followed them illustrate the instrumentalisation of violence for legislative ends in Bismarck's Germany.",
-      "key_figures": ["Wilhelm I (German Emperor)", "Max Hödel (first attacker)", "Karl Nobiling (second attacker)", "Otto von Bismarck (Chancellor)"],
+      "description": "On 11 May 1878, Max H\u00f6del fired two shots at Kaiser Wilhelm I's carriage on Unter den Linden in Berlin, missing both times. On 2 June 1878, Karl Nobiling shot the Kaiser from a window with a shotgun, seriously wounding him. Neither assassin had genuine ties to organised socialism, but Bismarck exploited both incidents to push through the Anti-Socialist Laws. H\u00f6del had briefly been a member of a Social Democratic club before being expelled; Nobiling was an independently wealthy academic. The attacks and the political manipulation that followed them illustrate the instrumentalisation of violence for legislative ends in Bismarck's Germany.",
+      "key_figures": [
+        "Wilhelm I (German Emperor)",
+        "Max H\u00f6del (first attacker)",
+        "Karl Nobiling (second attacker)",
+        "Otto von Bismarck (Chancellor)"
+      ],
       "sources": [
         {
           "name": "Berlin police reports and trial records (1878)",
@@ -416,16 +524,22 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Both incidents extensively documented in contemporary press and police records.",
-      "cross_references": ["1878-006"]
+      "cross_references": [
+        "1878-006"
+      ]
     },
     {
       "id": "1878-018",
-      "title": "Zulu War tensions — British ultimatum to Cetshwayo",
+      "title": "Zulu War tensions \u2014 British ultimatum to Cetshwayo",
       "region": "Southern Africa (Zululand / British Natal)",
       "coordinates_approx": "-28.30, 31.42",
       "category": "military",
       "description": "On 11 December 1878, Sir Henry Bartle Frere, the British High Commissioner, delivered an ultimatum to King Cetshwayo kaMpande of the Zulu Kingdom, demanding he disband his military system (the amabutho regiment system) within 30 days. The demands were deliberately crafted to be unacceptable, providing a pretext for the Anglo-Zulu War that began in January 1879. Frere acted largely without authorisation from London, driven by a desire to confederate southern Africa under British control and eliminate the Zulu Kingdom as an independent military power on Natal's border.",
-      "key_figures": ["Sir Henry Bartle Frere (British High Commissioner)", "Cetshwayo kaMpande (Zulu King)", "Lord Chelmsford (British military commander)"],
+      "key_figures": [
+        "Sir Henry Bartle Frere (British High Commissioner)",
+        "Cetshwayo kaMpande (Zulu King)",
+        "Lord Chelmsford (British military commander)"
+      ],
       "sources": [
         {
           "name": "British Colonial Office correspondence and Frere's dispatches (1878)",
@@ -440,7 +554,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Ultimatum text and diplomatic correspondence preserved in British archives. Date undisputed.",
-      "cross_references": ["1879-ISANDLWANA", "1879-ANGLO_ZULU_WAR"]
+      "cross_references": [
+        "1879-ISANDLWANA",
+        "1879-ANGLO_ZULU_WAR"
+      ]
     },
     {
       "id": "1878-019",
@@ -448,8 +565,11 @@
       "region": "Britain / France",
       "coordinates_approx": "51.51, -0.12",
       "category": "technological",
-      "description": "In 1878, electric arc lamps were installed along the Thames Embankment in London and (using Yablochkov candles) along the Avenue de l'Opéra in Paris, marking early public deployments of electric street lighting. These demonstrations, though limited in scale, proved the viability of electric lighting for public infrastructure and accelerated the transition away from gas lighting. The Yablochkov candle, developed by the Russian engineer Pavel Yablochkov, used alternating current and was particularly prominent at the Paris Exposition. These installations were precursors to Edison's Pearl Street Station (1882) and the broader electrification of cities.",
-      "key_figures": ["Pavel Yablochkov (inventor of the Yablochkov candle)", "Joseph Swan (electric lamp developer, Britain)"],
+      "description": "In 1878, electric arc lamps were installed along the Thames Embankment in London and (using Yablochkov candles) along the Avenue de l'Op\u00e9ra in Paris, marking early public deployments of electric street lighting. These demonstrations, though limited in scale, proved the viability of electric lighting for public infrastructure and accelerated the transition away from gas lighting. The Yablochkov candle, developed by the Russian engineer Pavel Yablochkov, used alternating current and was particularly prominent at the Paris Exposition. These installations were precursors to Edison's Pearl Street Station (1882) and the broader electrification of cities.",
+      "key_figures": [
+        "Pavel Yablochkov (inventor of the Yablochkov candle)",
+        "Joseph Swan (electric lamp developer, Britain)"
+      ],
       "sources": [
         {
           "name": "Contemporary reports in The Times (London) and Le Figaro (Paris), 1878",
@@ -464,7 +584,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Multiple contemporary newspaper accounts document these installations, though exact dates of first lighting vary by source.",
-      "cross_references": ["1878-011", "1882-PEARL_STREET"]
+      "cross_references": [
+        "1878-011",
+        "1882-PEARL_STREET"
+      ]
     },
     {
       "id": "1878-020",
@@ -472,8 +595,12 @@
       "region": "Balkans",
       "coordinates_approx": "44.43, 26.10",
       "category": "political",
-      "description": "The Treaty of Berlin (July 1878) formally recognised the full sovereignty of Romania, Serbia, and Montenegro, ending centuries of Ottoman suzerainty. Romania gained Northern Dobruja but was forced to cede southern Bessarabia to Russia, causing lasting resentment. Serbia gained territory to the south, including Niš. Montenegro approximately doubled in size. The Congress required all three states to guarantee religious freedom and civil rights regardless of faith as conditions for recognition — provisions aimed primarily at protecting Jewish and Muslim minorities, though enforcement proved weak in practice.",
-      "key_figures": ["Carol I (Prince, later King, of Romania)", "Milan Obrenović IV (Prince of Serbia)", "Nicholas I (Prince of Montenegro)"],
+      "description": "The Treaty of Berlin (July 1878) formally recognised the full sovereignty of Romania, Serbia, and Montenegro, ending centuries of Ottoman suzerainty. Romania gained Northern Dobruja but was forced to cede southern Bessarabia to Russia, causing lasting resentment. Serbia gained territory to the south, including Ni\u0161. Montenegro approximately doubled in size. The Congress required all three states to guarantee religious freedom and civil rights regardless of faith as conditions for recognition \u2014 provisions aimed primarily at protecting Jewish and Muslim minorities, though enforcement proved weak in practice.",
+      "key_figures": [
+        "Carol I (Prince, later King, of Romania)",
+        "Milan Obrenovi\u0107 IV (Prince of Serbia)",
+        "Nicholas I (Prince of Montenegro)"
+      ],
       "sources": [
         {
           "name": "Treaty of Berlin (13 July 1878), Articles 26, 34, 43",
@@ -488,7 +615,9 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Treaty text provides exact legal basis. De facto independence predated formal recognition.",
-      "cross_references": ["1878-002"]
+      "cross_references": [
+        "1878-002"
+      ]
     },
     {
       "id": "1878-021",
@@ -497,7 +626,9 @@
       "coordinates_approx": "41.50, -99.00",
       "category": "environmental",
       "description": "On 14 June 1878, the U.S. Congress amended the Timber Culture Act (originally passed 1873) to encourage tree planting on the Great Plains. Under the act, settlers could claim 160 acres of public land by planting trees on 10 acres (reduced from 40 in the amendment). The act reflected both environmental optimism ('rain follows the plow') and practical land distribution policy. In practice, it was widely abused for speculative land claims and was repealed in 1891. Alongside the Homestead Act, it shaped the settlement patterns and ecological transformation of the American West.",
-      "key_figures": ["Carl Schurz (Secretary of the Interior)"],
+      "key_figures": [
+        "Carl Schurz (Secretary of the Interior)"
+      ],
       "sources": [
         {
           "name": "Congressional Record, 45th Congress (1878); text of the act",
@@ -512,11 +643,13 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Legislative record is precise.",
-      "cross_references": ["1862-HOMESTEAD_ACT"]
+      "cross_references": [
+        "1862-HOMESTEAD_ACT"
+      ]
     }
   ],
-  "disconfirming_evidence": "Several points of complication: (1) The Congress of Berlin is sometimes presented as a triumph of Bismarckian diplomacy and European peace-making, but modern scholarship (e.g., Medlicott, Anderson) emphasises that it created new grievances — particularly Bulgarian irredentism and South Slav resentment — that directly contributed to later conflicts. It postponed rather than resolved the Eastern Question. (2) The yellow fever death toll of ~20,000 is an estimate; some sources give figures as low as 13,000 or as high as 25,000. Memphis's toll of ~5,000 is itself a reconstruction from incomplete records, as many deaths went unrecorded among the poor. (3) Priority claims for the carbon microphone remain actively disputed; some historians credit Edison or Berliner rather than Hughes, and Hughes's Royal Society demonstration date is sometimes placed in 1878 and sometimes in early 1879. (4) The New Haven telephone exchange's claim as 'first commercial exchange' is contested — a small exchange in Hamilton, Ontario (also 1877–78) has rival claims. (5) The characterisation of the Anti-Socialist Laws as caused by the assassination attempts oversimplifies; Bismarck had been seeking pretexts to suppress the SPD for years before the attacks provided political cover.",
-  "historiographic_note": "1878 is exceptionally well documented. Diplomatic archives of the Great Powers, parliamentary records, newspaper coverage (by this date in multiple languages and continents), and personal correspondence of key figures all survive in abundance. The primary biases shaping the record are: (1) European diplomatic history dominates, overshadowing non-European perspectives — Ottoman, Afghan, Zulu, and other viewpoints are largely filtered through European sources; (2) the 'Great Man' narrative framework of 19th-century historiography overemphasises Bismarck, Disraeli, and other statesmen at the expense of structural forces and ordinary people; (3) colonial records present indigenous resistance as disorder rather than legitimate political action; (4) coverage of Africa, Southeast Asia, and the Pacific is heavily mediated by missionary and colonial sources. Women's history and labour history for this year are underrepresented in standard diplomatic-political narratives.",
+  "disconfirming_evidence": "Several points of complication: (1) The Congress of Berlin is sometimes presented as a triumph of Bismarckian diplomacy and European peace-making, but modern scholarship (e.g., Medlicott, Anderson) emphasises that it created new grievances \u2014 particularly Bulgarian irredentism and South Slav resentment \u2014 that directly contributed to later conflicts. It postponed rather than resolved the Eastern Question. (2) The yellow fever death toll of ~20,000 is an estimate; some sources give figures as low as 13,000 or as high as 25,000. Memphis's toll of ~5,000 is itself a reconstruction from incomplete records, as many deaths went unrecorded among the poor. (3) Priority claims for the carbon microphone remain actively disputed; some historians credit Edison or Berliner rather than Hughes, and Hughes's Royal Society demonstration date is sometimes placed in 1878 and sometimes in early 1879. (4) The New Haven telephone exchange's claim as 'first commercial exchange' is contested \u2014 a small exchange in Hamilton, Ontario (also 1877\u201378) has rival claims. (5) The characterisation of the Anti-Socialist Laws as caused by the assassination attempts oversimplifies; Bismarck had been seeking pretexts to suppress the SPD for years before the attacks provided political cover.",
+  "historiographic_note": "1878 is exceptionally well documented. Diplomatic archives of the Great Powers, parliamentary records, newspaper coverage (by this date in multiple languages and continents), and personal correspondence of key figures all survive in abundance. The primary biases shaping the record are: (1) European diplomatic history dominates, overshadowing non-European perspectives \u2014 Ottoman, Afghan, Zulu, and other viewpoints are largely filtered through European sources; (2) the 'Great Man' narrative framework of 19th-century historiography overemphasises Bismarck, Disraeli, and other statesmen at the expense of structural forces and ordinary people; (3) colonial records present indigenous resistance as disorder rather than legitimate political action; (4) coverage of Africa, Southeast Asia, and the Pacific is heavily mediated by missionary and colonial sources. Women's history and labour history for this year are underrepresented in standard diplomatic-political narratives.",
   "graph_edges": [
     {
       "from": "1878-001",
@@ -596,5 +729,11 @@
       "relation": "led_to",
       "note": "British annexation of Walvis Bay anticipated German colonisation of surrounding territory"
     }
-  ]
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T03:02:51.134060",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
 }

@@ -3,7 +3,13 @@
   "year_label": "1828 CE",
   "era_context": "The late 1820s mark a period of post-Napoleonic reconfiguration, liberal and nationalist ferment, and accelerating industrialisation. In Europe, the Congress of Vienna settlement is under strain as Greek independence nears fruition and Russia presses its advantage against both Persia and the Ottoman Empire. In the Americas, the newly independent Latin American republics are consolidating statehood while the United States is deepening its sectional crisis over tariffs and slavery. The Qing dynasty governs a vast but increasingly stressed empire, while in southern Africa the Mfecane upheaval reshapes political geography. The British industrial revolution is generating new social classes, technologies, and forms of political organisation.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": ["Central Asia — Khanates of Khiva, Bukhara, and Kokand are active but underrepresented in English-language sources", "Southeast Asia — Siamese and Vietnamese political developments are thinly covered", "Pacific Islands beyond European contact zones", "Interior West Africa — Sokoto Caliphate and Bornu Empire activities are sparsely documented in training data", "Aboriginal Australian societies and events"],
+  "geographic_coverage_gaps": [
+    "Central Asia \u2014 Khanates of Khiva, Bukhara, and Kokand are active but underrepresented in English-language sources",
+    "Southeast Asia \u2014 Siamese and Vietnamese political developments are thinly covered",
+    "Pacific Islands beyond European contact zones",
+    "Interior West Africa \u2014 Sokoto Caliphate and Bornu Empire activities are sparsely documented in training data",
+    "Aboriginal Australian societies and events"
+  ],
   "events": [
     {
       "id": "1828-001",
@@ -11,8 +17,13 @@
       "region": "Persia / Russian Empire",
       "coordinates_approx": "38.9, 46.2",
       "category": "political",
-      "description": "Signed on 21 February 1828, the Treaty of Turkmenchay concluded the Russo-Persian War of 1826–1828 with a decisive Russian victory. Persia under Fath-Ali Shah ceded the khanates of Erivan and Nakhchivan (roughly modern Armenia and the Nakhchivan exclave of Azerbaijan) to Russia and agreed to pay a large indemnity of 20 million silver roubles. The treaty also granted Russia exclusive rights to maintain a navy on the Caspian Sea and secured extraterritorial privileges for Russian subjects in Persia. The settlement permanently ended Persian influence in the South Caucasus and marked the beginning of intensified Russian engagement in Central Asian affairs. It also contributed to internal instability within the Qajar court.",
-      "key_figures": ["Ivan Paskevich (Russian commander)", "Fath-Ali Shah Qajar (Shah of Persia)", "Abbas Mirza (Persian crown prince and military commander)", "Alexander Griboyedov (Russian diplomat and negotiator)"],
+      "description": "Signed on 21 February 1828, the Treaty of Turkmenchay concluded the Russo-Persian War of 1826\u20131828 with a decisive Russian victory. Persia under Fath-Ali Shah ceded the khanates of Erivan and Nakhchivan (roughly modern Armenia and the Nakhchivan exclave of Azerbaijan) to Russia and agreed to pay a large indemnity of 20 million silver roubles. The treaty also granted Russia exclusive rights to maintain a navy on the Caspian Sea and secured extraterritorial privileges for Russian subjects in Persia. The settlement permanently ended Persian influence in the South Caucasus and marked the beginning of intensified Russian engagement in Central Asian affairs. It also contributed to internal instability within the Qajar court.",
+      "key_figures": [
+        "Ivan Paskevich (Russian commander)",
+        "Fath-Ali Shah Qajar (Shah of Persia)",
+        "Abbas Mirza (Persian crown prince and military commander)",
+        "Alexander Griboyedov (Russian diplomat and negotiator)"
+      ],
       "sources": [
         {
           "name": "Treaty of Turkmenchay text (21 February 1828)",
@@ -25,23 +36,32 @@
           "contemporary": true
         },
         {
-          "name": "Muriel Atkin, Russia and Iran, 1780–1828 (1980)",
+          "name": "Muriel Atkin, Russia and Iran, 1780\u20131828 (1980)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Treaty text and diplomatic correspondence extensively preserved in Russian and Persian archives. No dating uncertainty.",
-      "cross_references": ["1826-001", "1829-005"]
+      "cross_references": [
+        "1826-001",
+        "1829-005"
+      ]
     },
     {
       "id": "1828-002",
-      "title": "Russo-Turkish War of 1828–1829 begins",
+      "title": "Russo-Turkish War of 1828\u20131829 begins",
       "region": "Ottoman Empire / Russian Empire",
       "coordinates_approx": "42.0, 28.0",
       "category": "military",
       "description": "On 26 April 1828, Russia declared war on the Ottoman Empire, citing Ottoman violations of the Treaty of Akkerman and the Sultan's closure of the Bosphorus to Russian shipping. The deeper cause was Russian support for Greek independence and imperial competition in the Balkans and the Caucasus. Russian forces under Tsar Nicholas I personally crossing the Pruth River advanced into the Danubian Principalities (modern Romania) and besieged Ottoman fortresses in Bulgaria, while a second front opened in the Caucasus where General Paskevich captured Kars. The campaign proceeded more slowly than expected due to Ottoman fortress resistance and logistical difficulties, but set the stage for the decisive Treaty of Adrianople in 1829.",
-      "key_figures": ["Nicholas I (Tsar of Russia)", "Mahmud II (Ottoman Sultan)", "Ivan Paskevich (Russian commander, Caucasus front)", "Peter Wittgenstein (Russian commander, Danube front)", "Husrev Mehmed Pasha (Ottoman commander)"],
+      "key_figures": [
+        "Nicholas I (Tsar of Russia)",
+        "Mahmud II (Ottoman Sultan)",
+        "Ivan Paskevich (Russian commander, Caucasus front)",
+        "Peter Wittgenstein (Russian commander, Danube front)",
+        "Husrev Mehmed Pasha (Ottoman commander)"
+      ],
       "sources": [
         {
           "name": "Russian declaration of war (26 April 1828); diplomatic notes between St Petersburg and the Sublime Porte",
@@ -49,19 +69,22 @@
           "contemporary": true
         },
         {
-          "name": "Contemporary dispatches published in The Times (London) and Journal des Débats (Paris)",
+          "name": "Contemporary dispatches published in The Times (London) and Journal des D\u00e9bats (Paris)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Brian Davies, The Russo-Turkish War, 1768–1774 and related coverage in Virginia Aksan, Ottoman Wars 1700–1870 (2007)",
+          "name": "Brian Davies, The Russo-Turkish War, 1768\u20131774 and related coverage in Virginia Aksan, Ottoman Wars 1700\u20131870 (2007)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Extensively documented in military records, diplomatic correspondence, and press coverage from multiple nations.",
-      "cross_references": ["1828-001", "1829-001"]
+      "cross_references": [
+        "1828-001",
+        "1829-001"
+      ]
     },
     {
       "id": "1828-003",
@@ -70,7 +93,13 @@
       "coordinates_approx": "51.5, -0.1",
       "category": "political",
       "description": "Arthur Wellesley, 1st Duke of Wellington, became Prime Minister on 22 January 1828 following the resignation of Lord Goderich. Wellington, the hero of Waterloo, led a Tory government that would prove politically transformative despite his own conservative instincts. His premiership would be dominated by the contentious issue of Catholic emancipation, which Wellington ultimately supported despite fierce opposition from ultra-Tory factions, calculating that Irish unrest made reform a political necessity. His appointment reflected the continuing dominance of aristocratic military figures in post-Napoleonic British politics.",
-      "key_figures": ["Arthur Wellesley, Duke of Wellington (Prime Minister)", "George IV (King of the United Kingdom)", "Robert Peel (Home Secretary)", "Viscount Goderich (outgoing Prime Minister)", "William Huskisson (Colonial Secretary, resigned over reform disputes)"],
+      "key_figures": [
+        "Arthur Wellesley, Duke of Wellington (Prime Minister)",
+        "George IV (King of the United Kingdom)",
+        "Robert Peel (Home Secretary)",
+        "Viscount Goderich (outgoing Prime Minister)",
+        "William Huskisson (Colonial Secretary, resigned over reform disputes)"
+      ],
       "sources": [
         {
           "name": "Parliamentary records (Hansard); London Gazette appointment notices",
@@ -83,14 +112,16 @@
           "contemporary": true
         },
         {
-          "name": "Rory Muir, Wellington: Waterloo and the Fortunes of Peace 1814–1852 (2015)",
+          "name": "Rory Muir, Wellington: Waterloo and the Fortunes of Peace 1814\u20131852 (2015)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Official government records and extensive contemporary documentation. No uncertainty.",
-      "cross_references": ["1829-003"]
+      "cross_references": [
+        "1829-003"
+      ]
     },
     {
       "id": "1828-004",
@@ -98,8 +129,14 @@
       "region": "United States",
       "coordinates_approx": "38.9, -77.0",
       "category": "political",
-      "description": "In the November 1828 presidential election, Andrew Jackson decisively defeated incumbent John Quincy Adams, winning 178 electoral votes to Adams's 83. The campaign was extraordinarily bitter, with personal attacks on both sides — Adams's supporters accused Jackson's wife Rachel of bigamy, while Jacksonians accused Adams of corruption in the 'corrupt bargain' of 1824. Jackson's victory represented the triumph of a new democratic populism, driven by expanded white male suffrage and the rise of mass party politics. His coalition of Southern planters, Western settlers, and Northern urban workers became the foundation of the modern Democratic Party. Rachel Jackson died on 22 December before the inauguration, which Jackson blamed on the campaign's viciousness.",
-      "key_figures": ["Andrew Jackson (President-elect)", "John Quincy Adams (incumbent President)", "John C. Calhoun (Vice President-elect)", "Martin Van Buren (Jackson's chief political organiser)", "Rachel Jackson (Jackson's wife, died December 1828)"],
+      "description": "In the November 1828 presidential election, Andrew Jackson decisively defeated incumbent John Quincy Adams, winning 178 electoral votes to Adams's 83. The campaign was extraordinarily bitter, with personal attacks on both sides \u2014 Adams's supporters accused Jackson's wife Rachel of bigamy, while Jacksonians accused Adams of corruption in the 'corrupt bargain' of 1824. Jackson's victory represented the triumph of a new democratic populism, driven by expanded white male suffrage and the rise of mass party politics. His coalition of Southern planters, Western settlers, and Northern urban workers became the foundation of the modern Democratic Party. Rachel Jackson died on 22 December before the inauguration, which Jackson blamed on the campaign's viciousness.",
+      "key_figures": [
+        "Andrew Jackson (President-elect)",
+        "John Quincy Adams (incumbent President)",
+        "John C. Calhoun (Vice President-elect)",
+        "Martin Van Buren (Jackson's chief political organiser)",
+        "Rachel Jackson (Jackson's wife, died December 1828)"
+      ],
       "sources": [
         {
           "name": "Official election returns; contemporary newspapers including the United States Telegraph and National Journal",
@@ -119,7 +156,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Extensively documented in official records, contemporary press, and personal correspondence.",
-      "cross_references": ["1824-002", "1829-004"]
+      "cross_references": [
+        "1824-002",
+        "1829-004"
+      ]
     },
     {
       "id": "1828-005",
@@ -127,8 +167,13 @@
       "region": "United States",
       "coordinates_approx": "38.9, -77.0",
       "category": "economic",
-      "description": "On 19 May 1828, President John Quincy Adams signed the Tariff of 1828, which raised import duties to their highest levels yet — averaging about 62% on dutiable imports. Southern states, which depended on exporting cotton and importing manufactured goods, condemned it as the 'Tariff of Abominations.' The tariff was partly a political manoeuvre by Jackson's supporters, who crafted it to be odious to New England and to embarrass Adams. Instead, it passed with Northern and Western support. The tariff inflamed sectional tensions and provoked Vice President John C. Calhoun to secretly author the South Carolina Exposition and Protest, articulating the doctrine of nullification — that a state could declare a federal law unconstitutional and void within its borders. This constitutional crisis would escalate into the Nullification Crisis of 1832–33.",
-      "key_figures": ["John Quincy Adams (President, signed the tariff)", "John C. Calhoun (Vice President, secret author of the Exposition and Protest)", "Silas Wright (New York senator, key drafter of the bill)", "Martin Van Buren (political strategist behind the bill's design)"],
+      "description": "On 19 May 1828, President John Quincy Adams signed the Tariff of 1828, which raised import duties to their highest levels yet \u2014 averaging about 62% on dutiable imports. Southern states, which depended on exporting cotton and importing manufactured goods, condemned it as the 'Tariff of Abominations.' The tariff was partly a political manoeuvre by Jackson's supporters, who crafted it to be odious to New England and to embarrass Adams. Instead, it passed with Northern and Western support. The tariff inflamed sectional tensions and provoked Vice President John C. Calhoun to secretly author the South Carolina Exposition and Protest, articulating the doctrine of nullification \u2014 that a state could declare a federal law unconstitutional and void within its borders. This constitutional crisis would escalate into the Nullification Crisis of 1832\u201333.",
+      "key_figures": [
+        "John Quincy Adams (President, signed the tariff)",
+        "John C. Calhoun (Vice President, secret author of the Exposition and Protest)",
+        "Silas Wright (New York senator, key drafter of the bill)",
+        "Martin Van Buren (political strategist behind the bill's design)"
+      ],
       "sources": [
         {
           "name": "Tariff of 1828 (20 Stat. 270); Congressional debates recorded in Register of Debates",
@@ -141,14 +186,16 @@
           "contemporary": true
         },
         {
-          "name": "William W. Freehling, Prelude to Civil War: The Nullification Controversy in South Carolina, 1816–1836 (1966)",
+          "name": "William W. Freehling, Prelude to Civil War: The Nullification Controversy in South Carolina, 1816\u20131836 (1966)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Full legislative record and abundant contemporary commentary survive.",
-      "cross_references": ["1832-003"]
+      "cross_references": [
+        "1832-003"
+      ]
     },
     {
       "id": "1828-006",
@@ -156,11 +203,16 @@
       "region": "Zulu Kingdom, southern Africa",
       "coordinates_approx": "-28.3, 31.4",
       "category": "political",
-      "description": "On approximately 22 September 1828, Shaka kaSenzangakhona, founder and king of the Zulu Kingdom, was assassinated by his half-brothers Dingane and Mhlangana, along with a trusted advisor, Mbopa. Shaka had built the Zulu into the dominant military power in southeastern Africa through radical military reforms — the adoption of the short stabbing spear (iklwa), the age-regiment system, and aggressive expansion campaigns that contributed to the Mfecane/Difaqane upheaval across the region. His increasingly erratic behaviour following his mother Nandi's death in 1827, including mass executions and extended mourning prohibitions, alienated key supporters. Dingane succeeded him and initially attempted to moderate some of Shaka's more extreme policies while maintaining the kingdom's military structure.",
-      "key_figures": ["Shaka kaSenzangakhona (Zulu king, assassinated)", "Dingane kaSenzangakhona (half-brother, successor)", "Mhlangana kaSenzangakhona (half-brother, co-conspirator)", "Mbopa (royal advisor, co-conspirator)"],
+      "description": "On approximately 22 September 1828, Shaka kaSenzangakhona, founder and king of the Zulu Kingdom, was assassinated by his half-brothers Dingane and Mhlangana, along with a trusted advisor, Mbopa. Shaka had built the Zulu into the dominant military power in southeastern Africa through radical military reforms \u2014 the adoption of the short stabbing spear (iklwa), the age-regiment system, and aggressive expansion campaigns that contributed to the Mfecane/Difaqane upheaval across the region. His increasingly erratic behaviour following his mother Nandi's death in 1827, including mass executions and extended mourning prohibitions, alienated key supporters. Dingane succeeded him and initially attempted to moderate some of Shaka's more extreme policies while maintaining the kingdom's military structure.",
+      "key_figures": [
+        "Shaka kaSenzangakhona (Zulu king, assassinated)",
+        "Dingane kaSenzangakhona (half-brother, successor)",
+        "Mhlangana kaSenzangakhona (half-brother, co-conspirator)",
+        "Mbopa (royal advisor, co-conspirator)"
+      ],
       "sources": [
         {
-          "name": "Nathaniel Isaacs, Travels and Adventures in Eastern Africa (1836) — account of a trader present in the kingdom",
+          "name": "Nathaniel Isaacs, Travels and Adventures in Eastern Africa (1836) \u2014 account of a trader present in the kingdom",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -177,29 +229,34 @@
       ],
       "certainty": "probable",
       "certainty_note": "The assassination is well-attested through multiple independent traditions and European trader accounts, but exact dating to 22 September relies on later reconstructions. The precise date may be off by days. Oral traditions and European accounts broadly corroborate but differ in details.",
-      "cross_references": ["1827-006"]
+      "cross_references": [
+        "1827-006"
+      ]
     },
     {
       "id": "1828-007",
-      "title": "Friedrich Wöhler synthesises urea — landmark in organic chemistry",
+      "title": "Friedrich W\u00f6hler synthesises urea \u2014 landmark in organic chemistry",
       "region": "Germany (Kingdom of Prussia)",
       "coordinates_approx": "51.5, 9.9",
       "category": "scientific",
-      "description": "In February 1828, Friedrich Wöhler at the Polytechnic School in Berlin produced urea by treating silver cyanate with ammonium chloride, accidentally synthesising an organic compound from inorganic precursors. He reported this to Jöns Jacob Berzelius, writing that he could make urea 'without needing a kidney.' This experiment has traditionally been celebrated as the death blow to vitalism — the doctrine that organic compounds required a 'vital force' and could only be produced by living organisms. The synthesis demonstrated that the chemical substances of living organisms obeyed the same laws as inorganic matter, opening the door to synthetic organic chemistry.",
-      "key_figures": ["Friedrich Wöhler (chemist)", "Jöns Jacob Berzelius (Swedish chemist, Wöhler's mentor)"],
+      "description": "In February 1828, Friedrich W\u00f6hler at the Polytechnic School in Berlin produced urea by treating silver cyanate with ammonium chloride, accidentally synthesising an organic compound from inorganic precursors. He reported this to J\u00f6ns Jacob Berzelius, writing that he could make urea 'without needing a kidney.' This experiment has traditionally been celebrated as the death blow to vitalism \u2014 the doctrine that organic compounds required a 'vital force' and could only be produced by living organisms. The synthesis demonstrated that the chemical substances of living organisms obeyed the same laws as inorganic matter, opening the door to synthetic organic chemistry.",
+      "key_figures": [
+        "Friedrich W\u00f6hler (chemist)",
+        "J\u00f6ns Jacob Berzelius (Swedish chemist, W\u00f6hler's mentor)"
+      ],
       "sources": [
         {
-          "name": "Friedrich Wöhler, 'Ueber künstliche Bildung des Harnstoffs,' Annalen der Physik und Chemie, Vol. 88 (1828), pp. 253–256",
+          "name": "Friedrich W\u00f6hler, 'Ueber k\u00fcnstliche Bildung des Harnstoffs,' Annalen der Physik und Chemie, Vol. 88 (1828), pp. 253\u2013256",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Wöhler's letter to Berzelius (22 February 1828), preserved in Berzelius correspondence",
+          "name": "W\u00f6hler's letter to Berzelius (22 February 1828), preserved in Berzelius correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peter J. Ramberg, 'The Death of Vitalism and the Birth of Organic Chemistry: Wöhler's Urea Synthesis and the Disciplinary Identity of Organic Chemistry,' Ambix (2000)",
+          "name": "Peter J. Ramberg, 'The Death of Vitalism and the Birth of Organic Chemistry: W\u00f6hler's Urea Synthesis and the Disciplinary Identity of Organic Chemistry,' Ambix (2000)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -214,8 +271,10 @@
       "region": "United States",
       "coordinates_approx": "41.3, -72.9",
       "category": "cultural",
-      "description": "In April 1828, Noah Webster published his two-volume An American Dictionary of the English Language, the culmination of over two decades of work. The dictionary contained approximately 70,000 entries — 12,000 more than any previous English dictionary — and was notable for its distinctly American spellings (color, honor, center, defense), etymologies drawing on 26 languages, and inclusion of American English vocabulary not found in British dictionaries. Though initially a slow seller due to its high price, the dictionary established a distinctly American standard for English orthography and usage, distinguishing it from Samuel Johnson's British lexicographic tradition. Webster's spelling reforms, many adopted from his earlier Speller, permanently shaped American English.",
-      "key_figures": ["Noah Webster (lexicographer)"],
+      "description": "In April 1828, Noah Webster published his two-volume An American Dictionary of the English Language, the culmination of over two decades of work. The dictionary contained approximately 70,000 entries \u2014 12,000 more than any previous English dictionary \u2014 and was notable for its distinctly American spellings (color, honor, center, defense), etymologies drawing on 26 languages, and inclusion of American English vocabulary not found in British dictionaries. Though initially a slow seller due to its high price, the dictionary established a distinctly American standard for English orthography and usage, distinguishing it from Samuel Johnson's British lexicographic tradition. Webster's spelling reforms, many adopted from his earlier Speller, permanently shaped American English.",
+      "key_figures": [
+        "Noah Webster (lexicographer)"
+      ],
       "sources": [
         {
           "name": "Noah Webster, An American Dictionary of the English Language (1828), first edition published by S. Converse, New York",
@@ -238,8 +297,13 @@
       "region": "South America (Banda Oriental)",
       "coordinates_approx": "-34.9, -56.2",
       "category": "political",
-      "description": "On 27 August 1828, the Treaty of Montevideo (Preliminary Peace Convention) was signed, with British mediation, between the Empire of Brazil and the United Provinces of the Río de la Plata (Argentina), creating the Estado Oriental del Uruguay as an independent buffer state. The treaty ended the Argentine-Brazilian War of 1825–1828, which had been provoked by the Thirty-Three Orientals' uprising against Brazilian rule in 1825. Britain, anxious to ensure free navigation of the Río de la Plata and to prevent either regional power from dominating the estuary, played a decisive diplomatic role through its envoy Lord Ponsonby. Uruguay's first constitution would be sworn in 1830.",
-      "key_figures": ["Lord Ponsonby (British mediator)", "Pedro I (Emperor of Brazil)", "Juan Antonio Lavalleja (leader of the Thirty-Three Orientals)", "José Rondeau (representative of Buenos Aires)"],
+      "description": "On 27 August 1828, the Treaty of Montevideo (Preliminary Peace Convention) was signed, with British mediation, between the Empire of Brazil and the United Provinces of the R\u00edo de la Plata (Argentina), creating the Estado Oriental del Uruguay as an independent buffer state. The treaty ended the Argentine-Brazilian War of 1825\u20131828, which had been provoked by the Thirty-Three Orientals' uprising against Brazilian rule in 1825. Britain, anxious to ensure free navigation of the R\u00edo de la Plata and to prevent either regional power from dominating the estuary, played a decisive diplomatic role through its envoy Lord Ponsonby. Uruguay's first constitution would be sworn in 1830.",
+      "key_figures": [
+        "Lord Ponsonby (British mediator)",
+        "Pedro I (Emperor of Brazil)",
+        "Juan Antonio Lavalleja (leader of the Thirty-Three Orientals)",
+        "Jos\u00e9 Rondeau (representative of Buenos Aires)"
+      ],
       "sources": [
         {
           "name": "Treaty of Montevideo / Preliminary Peace Convention (27 August 1828), text preserved in diplomatic archives",
@@ -259,7 +323,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Treaty text and diplomatic records fully preserved. No dating uncertainty.",
-      "cross_references": ["1825-005", "1830-005"]
+      "cross_references": [
+        "1825-005",
+        "1830-005"
+      ]
     },
     {
       "id": "1828-010",
@@ -268,7 +335,11 @@
       "coordinates_approx": "37.6, 22.8",
       "category": "political",
       "description": "On 18 January 1828, Ioannis Kapodistrias arrived at Nafplio and assumed office as the first Governor (Kyvernitis) of the nascent Greek state, having been elected by the Third National Assembly at Troezen in April 1827. A former Russian foreign minister of Corfiot origin, Kapodistrias attempted to centralise governance, establish institutions, and manage the complex diplomacy of Greek independence among the Great Powers. He faced enormous challenges: a devastated country, powerful local warlords, Ottoman forces still holding significant territory, and competing foreign interests. His authoritarian tendencies alienated powerful Maniote and Hydriot factions, ultimately leading to his assassination in 1831.",
-      "key_figures": ["Ioannis Kapodistrias (Governor of Greece)", "Petrobey Mavromichalis (Maniote chieftain, later implicated in Kapodistrias's assassination)", "Alexandros Mavrokordatos (political rival)"],
+      "key_figures": [
+        "Ioannis Kapodistrias (Governor of Greece)",
+        "Petrobey Mavromichalis (Maniote chieftain, later implicated in Kapodistrias's assassination)",
+        "Alexandros Mavrokordatos (political rival)"
+      ],
       "sources": [
         {
           "name": "Proceedings of the Third National Assembly at Troezen (1827); Kapodistrias's official correspondence",
@@ -283,7 +354,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Well-documented in Greek, Russian, and Western European diplomatic records.",
-      "cross_references": ["1827-003", "1831-004"]
+      "cross_references": [
+        "1827-003",
+        "1831-004"
+      ]
     },
     {
       "id": "1828-011",
@@ -291,8 +365,12 @@
       "region": "Greece / Ottoman Empire / France",
       "coordinates_approx": "37.5, 22.0",
       "category": "military",
-      "description": "In August–October 1828, a French expeditionary force of approximately 14,000 troops under General Nicolas-Joseph Maison landed in the Peloponnese (Morea) to enforce the withdrawal of Ibrahim Pasha's Egyptian-Ottoman forces following the naval Battle of Navarino in 1827. The French intervention, authorised by the Treaty of London (1827), was largely bloodless: Ibrahim had already begun evacuating his forces, and the remaining Ottoman garrisons surrendered their fortresses without major fighting. By October, the last Ottoman strongholds in the Peloponnese — Methoni, Koroni, and Patras — were in Allied hands. The expedition effectively secured Greek independence on the ground, complementing the diplomatic and naval pressure of the Great Powers.",
-      "key_figures": ["Nicolas-Joseph Maison (French expeditionary commander)", "Ibrahim Pasha (Egyptian-Ottoman commander, withdrawing)", "Charles X (King of France)"],
+      "description": "In August\u2013October 1828, a French expeditionary force of approximately 14,000 troops under General Nicolas-Joseph Maison landed in the Peloponnese (Morea) to enforce the withdrawal of Ibrahim Pasha's Egyptian-Ottoman forces following the naval Battle of Navarino in 1827. The French intervention, authorised by the Treaty of London (1827), was largely bloodless: Ibrahim had already begun evacuating his forces, and the remaining Ottoman garrisons surrendered their fortresses without major fighting. By October, the last Ottoman strongholds in the Peloponnese \u2014 Methoni, Koroni, and Patras \u2014 were in Allied hands. The expedition effectively secured Greek independence on the ground, complementing the diplomatic and naval pressure of the Great Powers.",
+      "key_figures": [
+        "Nicolas-Joseph Maison (French expeditionary commander)",
+        "Ibrahim Pasha (Egyptian-Ottoman commander, withdrawing)",
+        "Charles X (King of France)"
+      ],
       "sources": [
         {
           "name": "French military dispatches and War Ministry records; contemporary coverage in Le Moniteur Universel",
@@ -307,7 +385,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "French military and diplomatic records provide detailed contemporary documentation.",
-      "cross_references": ["1827-003", "1829-002"]
+      "cross_references": [
+        "1827-003",
+        "1829-002"
+      ]
     },
     {
       "id": "1828-012",
@@ -315,8 +396,12 @@
       "region": "Austrian Empire (Vienna)",
       "coordinates_approx": "48.2, 16.4",
       "category": "cultural",
-      "description": "Franz Schubert died on 19 November 1828 in Vienna at the age of 31, likely of typhoid fever (though syphilis complications remain a debated contributing factor). In the final year of his life, Schubert was extraordinarily productive: he composed the String Quintet in C major, the last three piano sonatas (D. 958–960), the song cycle Schwanengesang (assembled posthumously), and the Mass No. 6 in E-flat major. On 26 March 1828, his friends organised his only public concert, which received warm reviews but was overshadowed in the press by Paganini's simultaneous Vienna debut. Schubert was buried near Beethoven, who had died just the year before. Much of Schubert's enormous output — over 600 songs, symphonies, chamber works — remained unpublished at his death and was gradually discovered over the following decades.",
-      "key_figures": ["Franz Schubert (composer)", "Franz von Schober (close friend and librettist)", "Josef von Spaun (friend and early biographer)"],
+      "description": "Franz Schubert died on 19 November 1828 in Vienna at the age of 31, likely of typhoid fever (though syphilis complications remain a debated contributing factor). In the final year of his life, Schubert was extraordinarily productive: he composed the String Quintet in C major, the last three piano sonatas (D. 958\u2013960), the song cycle Schwanengesang (assembled posthumously), and the Mass No. 6 in E-flat major. On 26 March 1828, his friends organised his only public concert, which received warm reviews but was overshadowed in the press by Paganini's simultaneous Vienna debut. Schubert was buried near Beethoven, who had died just the year before. Much of Schubert's enormous output \u2014 over 600 songs, symphonies, chamber works \u2014 remained unpublished at his death and was gradually discovered over the following decades.",
+      "key_figures": [
+        "Franz Schubert (composer)",
+        "Franz von Schober (close friend and librettist)",
+        "Josef von Spaun (friend and early biographer)"
+      ],
       "sources": [
         {
           "name": "Death certificate and medical records (Vienna municipal archives); contemporary accounts by Spaun, Schober, and Bauernfeld",
@@ -331,16 +416,22 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Death date and circumstances documented in contemporary records. Cause of death remains debated by medical historians.",
-      "cross_references": ["1827-010"]
+      "cross_references": [
+        "1827-010"
+      ]
     },
     {
       "id": "1828-013",
-      "title": "Baltimore and Ohio Railroad chartered — first common carrier railroad in the US",
+      "title": "Baltimore and Ohio Railroad chartered \u2014 first common carrier railroad in the US",
       "region": "United States (Maryland)",
       "coordinates_approx": "39.3, -76.6",
       "category": "technological",
-      "description": "On 28 February 1828, the Baltimore and Ohio Railroad received its charter from the Maryland General Assembly, and construction began ceremonially on 4 July 1828 with Charles Carroll of Carrollton — the last surviving signer of the Declaration of Independence — laying the first stone. The B&O was the first railroad in the United States chartered as a common carrier of passengers and freight, though it initially used horse-drawn cars before transitioning to steam locomotion. The project was driven by Baltimore merchants' desire to compete with New York's Erie Canal for western trade. The B&O would become a pioneering force in American railroad development and industrial transformation.",
-      "key_figures": ["Philip E. Thomas (first president of the B&O Railroad)", "Charles Carroll of Carrollton (ceremonial participant)", "George Brown (co-founder and treasurer)"],
+      "description": "On 28 February 1828, the Baltimore and Ohio Railroad received its charter from the Maryland General Assembly, and construction began ceremonially on 4 July 1828 with Charles Carroll of Carrollton \u2014 the last surviving signer of the Declaration of Independence \u2014 laying the first stone. The B&O was the first railroad in the United States chartered as a common carrier of passengers and freight, though it initially used horse-drawn cars before transitioning to steam locomotion. The project was driven by Baltimore merchants' desire to compete with New York's Erie Canal for western trade. The B&O would become a pioneering force in American railroad development and industrial transformation.",
+      "key_figures": [
+        "Philip E. Thomas (first president of the B&O Railroad)",
+        "Charles Carroll of Carrollton (ceremonial participant)",
+        "George Brown (co-founder and treasurer)"
+      ],
       "sources": [
         {
           "name": "Maryland General Assembly charter (28 February 1828); B&O Railroad Company records",
@@ -353,7 +444,7 @@
           "contemporary": true
         },
         {
-          "name": "James D. Dilts, The Great Road: The Building of the Baltimore and Ohio Railroad, 1828–1853 (1993)",
+          "name": "James D. Dilts, The Great Road: The Building of the Baltimore and Ohio Railroad, 1828\u20131853 (1993)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -368,8 +459,13 @@
       "region": "Portugal",
       "coordinates_approx": "38.7, -9.1",
       "category": "political",
-      "description": "In 1828, Dom Miguel, who had been appointed regent of Portugal for his niece Queen Maria II, usurped the throne by dissolving the liberal Cortes and having himself proclaimed absolute king by the traditional Cortes of the Three Estates in July. This triggered the Liberal Wars (Miguelite Wars), a civil conflict between absolutist Miguelists and liberal Pedroites loyal to Maria II and her father Pedro I of Brazil. Miguel's coup was supported by conservative landowners, the clergy, and much of the rural population, while the liberals drew strength from urban elites, merchants, and emigré military officers. The conflict would continue until 1834, becoming entangled with broader European ideological struggles between conservatism and liberalism.",
-      "key_figures": ["Dom Miguel I (usurper king)", "Maria II (deposed child queen)", "Pedro I of Brazil / Pedro IV of Portugal (Maria's father, liberal champion)", "Marquis of Palmela (liberal leader in exile)"],
+      "description": "In 1828, Dom Miguel, who had been appointed regent of Portugal for his niece Queen Maria II, usurped the throne by dissolving the liberal Cortes and having himself proclaimed absolute king by the traditional Cortes of the Three Estates in July. This triggered the Liberal Wars (Miguelite Wars), a civil conflict between absolutist Miguelists and liberal Pedroites loyal to Maria II and her father Pedro I of Brazil. Miguel's coup was supported by conservative landowners, the clergy, and much of the rural population, while the liberals drew strength from urban elites, merchants, and emigr\u00e9 military officers. The conflict would continue until 1834, becoming entangled with broader European ideological struggles between conservatism and liberalism.",
+      "key_figures": [
+        "Dom Miguel I (usurper king)",
+        "Maria II (deposed child queen)",
+        "Pedro I of Brazil / Pedro IV of Portugal (Maria's father, liberal champion)",
+        "Marquis of Palmela (liberal leader in exile)"
+      ],
       "sources": [
         {
           "name": "Acts of the Cortes of the Three Estates (1828); contemporary diplomatic dispatches from British and French envoys in Lisbon",
@@ -384,16 +480,22 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Well-documented in Portuguese, British, and French diplomatic records.",
-      "cross_references": ["1834-003"]
+      "cross_references": [
+        "1834-003"
+      ]
     },
     {
       "id": "1828-015",
-      "title": "Rama III consolidates Siamese authority — tributary relations with regional states",
+      "title": "Rama III consolidates Siamese authority \u2014 tributary relations with regional states",
       "region": "Siam (Thailand)",
       "coordinates_approx": "13.8, 100.5",
       "category": "political",
       "description": "King Rama III (Nangklao) of Siam, who had acceded in 1824, continued consolidating Chakri dynasty control over tributary states in the late 1820s, managing complex relations with Vietnam over influence in Cambodia and Laos. In 1828, Chao Anouvong of Vientiane launched a major rebellion against Siamese suzerainty, marching on the Khorat Plateau. The Siamese response was swift and devastating: Siamese forces counterattacked, sacked Vientiane, and virtually destroyed the city. The population was forcibly relocated to the western bank of the Mekong. This effectively ended Vientiane as an independent Lao kingdom and tightened Siamese control over the Mekong valley, with lasting consequences for Lao political geography.",
-      "key_figures": ["Rama III / Nangklao (King of Siam)", "Chao Anouvong (King of Vientiane, rebel leader)", "Bodindecha (Siamese general who led the counterattack)"],
+      "key_figures": [
+        "Rama III / Nangklao (King of Siam)",
+        "Chao Anouvong (King of Vientiane, rebel leader)",
+        "Bodindecha (Siamese general who led the counterattack)"
+      ],
       "sources": [
         {
           "name": "Siamese royal chronicles (Phongsawadan); contemporary court records",
@@ -401,7 +503,7 @@
           "contemporary": true
         },
         {
-          "name": "Mayoury and Pheuiphanh Ngaosrivathana, Paths to Conflagration: Fifty Years of Diplomacy and Warfare in Laos, Thailand, and Vietnam, 1778–1828 (1998)",
+          "name": "Mayoury and Pheuiphanh Ngaosrivathana, Paths to Conflagration: Fifty Years of Diplomacy and Warfare in Laos, Thailand, and Vietnam, 1778\u20131828 (1998)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
@@ -416,11 +518,14 @@
       "region": "France / Spain",
       "coordinates_approx": "44.8, -0.6",
       "category": "cultural",
-      "description": "Francisco Goya died in exile in Bordeaux, France, on 16 April 1828, at the age of 82. The foremost Spanish painter of his era, Goya had served as court painter to four successive Spanish kings before his disillusionment with Ferdinand VII's absolutist regime led him to self-imposed exile in France in 1824. His late works, including the 'Black Paintings' from his Quinta del Sordo house (created c. 1819–1823) and his final series of lithographs, the Bulls of Bordeaux, pushed art toward expressive and proto-modern territory that anticipated Romanticism, Impressionism, and Expressionism. His artistic legacy — from courtly portraits to the horrors of the Disasters of War — made him a bridge between the old masters and modern art.",
-      "key_figures": ["Francisco Goya (painter and printmaker)", "Leocadia Weiss (companion in exile)"],
+      "description": "Francisco Goya died in exile in Bordeaux, France, on 16 April 1828, at the age of 82. The foremost Spanish painter of his era, Goya had served as court painter to four successive Spanish kings before his disillusionment with Ferdinand VII's absolutist regime led him to self-imposed exile in France in 1824. His late works, including the 'Black Paintings' from his Quinta del Sordo house (created c. 1819\u20131823) and his final series of lithographs, the Bulls of Bordeaux, pushed art toward expressive and proto-modern territory that anticipated Romanticism, Impressionism, and Expressionism. His artistic legacy \u2014 from courtly portraits to the horrors of the Disasters of War \u2014 made him a bridge between the old masters and modern art.",
+      "key_figures": [
+        "Francisco Goya (painter and printmaker)",
+        "Leocadia Weiss (companion in exile)"
+      ],
       "sources": [
         {
-          "name": "Bordeaux civil death register (16 April 1828); correspondence of Goya's circle including Leandro Fernández de Moratín",
+          "name": "Bordeaux civil death register (16 April 1828); correspondence of Goya's circle including Leandro Fern\u00e1ndez de Morat\u00edn",
           "type": "primary_text",
           "contemporary": true
         },
@@ -440,8 +545,11 @@
       "region": "British North America (Upper Canada)",
       "coordinates_approx": "44.7, -75.7",
       "category": "technological",
-      "description": "Construction of the Rideau Canal, connecting Ottawa (then Bytown) to Kingston on Lake Ontario, proceeded through 1828 under the direction of Lieutenant Colonel John By of the Royal Engineers. Authorised after the War of 1812 revealed the vulnerability of the St Lawrence River route to American attack, the canal was primarily a military project to provide a secure inland waterway for troop and supply movement. The project was an enormous engineering undertaking involving 47 locks over 202 kilometres, constructed largely by Irish and French-Canadian labourers and contractors under frequently deadly conditions — malaria was rampant in the swampy terrain. Completed in 1832, it remains in use and is now a UNESCO World Heritage Site.",
-      "key_figures": ["Lieutenant Colonel John By (Royal Engineers, project commander)", "Lord Dalhousie (Governor-in-Chief of British North America, authorised the project)"],
+      "description": "Construction of the Rideau Canal, connecting Ottawa (then Bytown) to Kingston on Lake Ontario, proceeded through 1828 under the direction of Lieutenant Colonel John By of the Royal Engineers. Authorised after the War of 1812 revealed the vulnerability of the St Lawrence River route to American attack, the canal was primarily a military project to provide a secure inland waterway for troop and supply movement. The project was an enormous engineering undertaking involving 47 locks over 202 kilometres, constructed largely by Irish and French-Canadian labourers and contractors under frequently deadly conditions \u2014 malaria was rampant in the swampy terrain. Completed in 1832, it remains in use and is now a UNESCO World Heritage Site.",
+      "key_figures": [
+        "Lieutenant Colonel John By (Royal Engineers, project commander)",
+        "Lord Dalhousie (Governor-in-Chief of British North America, authorised the project)"
+      ],
       "sources": [
         {
           "name": "Royal Engineers project records and correspondence; War Office files (WO 44 and WO 55 series, The National Archives, UK)",
@@ -460,12 +568,16 @@
     },
     {
       "id": "1828-018",
-      "title": "Qajar court crisis — murder of Griboyedov in Tehran",
+      "title": "Qajar court crisis \u2014 murder of Griboyedov in Tehran",
       "region": "Persia (Qajar Empire)",
       "coordinates_approx": "35.7, 51.4",
       "category": "political",
-      "description": "Although the attack on the Russian embassy in Tehran occurred on 11 February 1829, the diplomatic tensions that produced it were rooted directly in the Treaty of Turkmenchay's humiliating terms in 1828. Alexander Griboyedov, the celebrated Russian playwright and diplomat who had negotiated the treaty, arrived in Tehran as Russian Minister Plenipotentiary in late 1828. His aggressive enforcement of treaty provisions — including the repatriation of Armenian and Georgian subjects from Qajar households — provoked a mob attack on the Russian embassy in which Griboyedov and most of the embassy staff were killed. This event is included here because Griboyedov's embassy and the provocations occurred in 1828, though the actual massacre was in early 1829.",
-      "key_figures": ["Alexander Griboyedov (Russian diplomat and playwright)", "Fath-Ali Shah Qajar (Shah of Persia)", "Allahyar Khan Asaf al-Dawla (Qajar Grand Vizier)"],
+      "description": "Although the attack on the Russian embassy in Tehran occurred on 11 February 1829, the diplomatic tensions that produced it were rooted directly in the Treaty of Turkmenchay's humiliating terms in 1828. Alexander Griboyedov, the celebrated Russian playwright and diplomat who had negotiated the treaty, arrived in Tehran as Russian Minister Plenipotentiary in late 1828. His aggressive enforcement of treaty provisions \u2014 including the repatriation of Armenian and Georgian subjects from Qajar households \u2014 provoked a mob attack on the Russian embassy in which Griboyedov and most of the embassy staff were killed. This event is included here because Griboyedov's embassy and the provocations occurred in 1828, though the actual massacre was in early 1829.",
+      "key_figures": [
+        "Alexander Griboyedov (Russian diplomat and playwright)",
+        "Fath-Ali Shah Qajar (Shah of Persia)",
+        "Allahyar Khan Asaf al-Dawla (Qajar Grand Vizier)"
+      ],
       "sources": [
         {
           "name": "Russian Foreign Ministry archives; Griboyedov's diplomatic dispatches from Tehran (late 1828)",
@@ -480,7 +592,10 @@
       ],
       "certainty": "confirmed",
       "certainty_note": "Griboyedov's embassy in 1828 is well-documented; the massacre itself falls in early 1829. Including the embassy's provocative activities here for causal context.",
-      "cross_references": ["1828-001", "1829-005"]
+      "cross_references": [
+        "1828-001",
+        "1829-005"
+      ]
     },
     {
       "id": "1828-019",
@@ -489,22 +604,29 @@
       "coordinates_approx": "41.0, 29.0",
       "category": "military",
       "description": "Following the Auspicious Incident of 1826 in which Sultan Mahmud II abolished the Janissary corps, the Ottoman state continued building a new European-style army (the Asakir-i Mansure-i Muhammediye) through 1828. Prussian and other European military advisors assisted in training, and the sultan worked to establish new military schools and administrative structures. However, the reformed army remained undertrained and undersized when the Russo-Turkish War erupted in April 1828, and its poor performance against Russian forces in the Balkans and Caucasus exposed the limitations of the reform programme. The war demonstrated that institutional modernisation required decades, not years, and that the Ottoman Empire remained militarily vulnerable during the transition period.",
-      "key_figures": ["Mahmud II (Ottoman Sultan)", "Husrev Mehmed Pasha (commander of the new army)", "Helmuth von Moltke (Prussian advisor, arrived slightly later but part of the broader reform effort)"],
+      "key_figures": [
+        "Mahmud II (Ottoman Sultan)",
+        "Husrev Mehmed Pasha (commander of the new army)",
+        "Helmuth von Moltke (Prussian advisor, arrived slightly later but part of the broader reform effort)"
+      ],
       "sources": [
         {
-          "name": "Ottoman state records (Başbakanlık Osmanlı Arşivi); contemporary European diplomatic reports from Constantinople",
+          "name": "Ottoman state records (Ba\u015fbakanl\u0131k Osmanl\u0131 Ar\u015fivi); contemporary European diplomatic reports from Constantinople",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Virginia Aksan, Ottoman Wars 1700–1870: An Empire Besieged (2007)",
+          "name": "Virginia Aksan, Ottoman Wars 1700\u20131870: An Empire Besieged (2007)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
       "certainty_note": "Ottoman archival records and European diplomatic reports provide detailed contemporary evidence of reform efforts.",
-      "cross_references": ["1826-005", "1828-002"]
+      "cross_references": [
+        "1826-005",
+        "1828-002"
+      ]
     },
     {
       "id": "1828-020",
@@ -512,8 +634,12 @@
       "region": "Sikh Empire (Punjab)",
       "coordinates_approx": "31.6, 74.3",
       "category": "political",
-      "description": "In 1828, the Sikh Empire under Maharaja Ranjit Singh was at the height of its power, controlling Punjab, Kashmir, and parts of the Afghan frontier. While the exact transfer of the Koh-i-Noor diamond to Ranjit Singh had occurred in 1813, by 1828 the gem had become a symbol of Sikh sovereignty and was displayed at the Lahore court. More significantly in this year, Ranjit Singh continued expanding Sikh influence, maintaining a modernised army trained with European methods by former Napoleonic officers like Jean-François Allard and Jean-Baptiste Ventura. The Sikh Empire represented the most powerful indigenous state in the Indian subcontinent not yet under British hegemony.",
-      "key_figures": ["Maharaja Ranjit Singh (ruler of the Sikh Empire)", "Jean-François Allard (French military advisor)", "Jean-Baptiste Ventura (Italian-French military advisor)"],
+      "description": "In 1828, the Sikh Empire under Maharaja Ranjit Singh was at the height of its power, controlling Punjab, Kashmir, and parts of the Afghan frontier. While the exact transfer of the Koh-i-Noor diamond to Ranjit Singh had occurred in 1813, by 1828 the gem had become a symbol of Sikh sovereignty and was displayed at the Lahore court. More significantly in this year, Ranjit Singh continued expanding Sikh influence, maintaining a modernised army trained with European methods by former Napoleonic officers like Jean-Fran\u00e7ois Allard and Jean-Baptiste Ventura. The Sikh Empire represented the most powerful indigenous state in the Indian subcontinent not yet under British hegemony.",
+      "key_figures": [
+        "Maharaja Ranjit Singh (ruler of the Sikh Empire)",
+        "Jean-Fran\u00e7ois Allard (French military advisor)",
+        "Jean-Baptiste Ventura (Italian-French military advisor)"
+      ],
       "sources": [
         {
           "name": "Contemporary accounts by European visitors to the Lahore court including Alexander Burnes and Victor Jacquemont (slightly later visits but reflecting 1828 conditions)",
@@ -531,7 +657,7 @@
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "Wöhler's urea synthesis (1828-007): The traditional narrative that this single experiment 'disproved vitalism' is substantially overstated by modern historians of science. Vitalism persisted well into the 1850s–1860s among many chemists, and Wöhler himself never framed his experiment as a refutation of vitalism in his original paper. Peter Ramberg (2000) and others have shown that the 'Wöhler myth' — the idea of a single decisive experiment — is largely a retrospective construction by later textbook authors. The experiment was significant but was one step among many in the gradual abandonment of vitalist chemistry. Additionally, Shaka Zulu's legacy (1828-006): The traditional portrayal of Shaka as a military genius who single-handedly created the Zulu kingdom and caused the Mfecane has been significantly revised. Carolyn Hamilton (1998) and Julian Cobbing (1988) have argued that much of the 'Shaka myth' was constructed by European writers (particularly Isaacs and Fynn, who had commercial motives to exaggerate Zulu violence) and later appropriated by Zulu nationalists. The Mfecane itself as a concept — a vast, Zulu-driven wave of destruction — has been challenged by scholars who argue it obscures the role of European slave trading, Griqua raiding, and colonial disruption in destabilising southern Africa. The Cobbing thesis remains controversial, however, and most scholars accept a modified version of the Mfecane narrative that acknowledges multiple causes.",
+  "disconfirming_evidence": "W\u00f6hler's urea synthesis (1828-007): The traditional narrative that this single experiment 'disproved vitalism' is substantially overstated by modern historians of science. Vitalism persisted well into the 1850s\u20131860s among many chemists, and W\u00f6hler himself never framed his experiment as a refutation of vitalism in his original paper. Peter Ramberg (2000) and others have shown that the 'W\u00f6hler myth' \u2014 the idea of a single decisive experiment \u2014 is largely a retrospective construction by later textbook authors. The experiment was significant but was one step among many in the gradual abandonment of vitalist chemistry. Additionally, Shaka Zulu's legacy (1828-006): The traditional portrayal of Shaka as a military genius who single-handedly created the Zulu kingdom and caused the Mfecane has been significantly revised. Carolyn Hamilton (1998) and Julian Cobbing (1988) have argued that much of the 'Shaka myth' was constructed by European writers (particularly Isaacs and Fynn, who had commercial motives to exaggerate Zulu violence) and later appropriated by Zulu nationalists. The Mfecane itself as a concept \u2014 a vast, Zulu-driven wave of destruction \u2014 has been challenged by scholars who argue it obscures the role of European slave trading, Griqua raiding, and colonial disruption in destabilising southern Africa. The Cobbing thesis remains controversial, however, and most scholars accept a modified version of the Mfecane narrative that acknowledges multiple causes.",
   "historiographic_note": "The historical record for 1828 is rich for Europe, the Americas, and regions of direct European engagement (Ottoman Empire, Persia, southern Africa). Documentation is heavily shaped by European perspectives: the Greek War of Independence, for instance, is far better documented from the British, French, and Russian side than from the Ottoman or Egyptian side. For Southeast Asia, the Anouvong rebellion is documented primarily through Siamese court chronicles, which present a victor's narrative; the Lao perspective relies more on oral tradition recorded much later. Southern African history for this period depends heavily on the accounts of European traders (Isaacs, Fynn) whose reliability has been seriously questioned. East Asian events (Qing China, Tokugawa Japan) for this specific year lack dramatic turning points in training data but are well-documented in their own archival traditions. The overall bias of English-language historiography favours events connected to European power and interests.",
   "graph_edges": [
     {
@@ -594,5 +720,11 @@
       "relation": "led_to",
       "note": "B&O Railroad charter initiated the American railroad era that would transform the continent's economy"
     }
-  ]
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T03:58:32.747223",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
 }
