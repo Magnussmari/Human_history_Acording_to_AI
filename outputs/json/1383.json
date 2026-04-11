@@ -1,0 +1,125 @@
+{
+  "year": 1383,
+  "year_label": "1383 CE",
+  "era_context": "Late 14th century: Ming Dynasty consolidates control in China; Ottoman Empire expands in the Balkans; Western Christendom fractured by the Great Schism; Timurid Renaissance in Persia; Joseon Dynasty in Korea; Aztec Empire in Mesoamerica.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written documentation)",
+    "Pacific Islands and Oceania",
+    "Northern Europe and Scandinavia (sparse specific records for this year)"
+  ],
+  "events": [
+    {
+      "id": "1383-001",
+      "title": "Earthquake in China (Shaanxi Province)",
+      "region": "China (Shaanxi Province)",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "environmental",
+      "description": "A significant earthquake struck Shaanxi Province in 1383, causing considerable damage and loss of life. The Ming Dynasty's official records documented the event and the government's relief efforts. Such natural disasters were often interpreted through a cosmological lens in Chinese thought, as signs of heaven's approval or disapproval of the ruler's virtue (the Mandate of Heaven).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ming Shilu (Ming Dynasty Official Records)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Documented in official Ming records with specific location and date.",
+      "cross_references": []
+    },
+    {
+      "id": "1383-002",
+      "title": "Portuguese maritime expansion: Diogo C\u00e3o's voyage",
+      "region": "West Africa (Portuguese exploration)",
+      "coordinates_approx": "6.0, 12.0",
+      "category": "exploration",
+      "description": "Portuguese explorer Diogo C\u00e3o (also known as Diego Cam) continued his voyages along the West African coast, establishing Portuguese trading posts and erecting stone pillars (padr\u00f5es) to mark Portuguese claims. These expeditions, sponsored by Prince Henry the Navigator, were part of the systematic Portuguese exploration of the African coast that would eventually lead to the rounding of the Cape of Good Hope and the opening of the sea route to Asia.",
+      "key_figures": [
+        "Diogo C\u00e3o (Portuguese explorer)",
+        "Prince Henry the Navigator (Portuguese patron)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese chronicles and royal records (contemporary documentation)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of padr\u00f5es (stone pillars)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diogo C\u00e3o's voyages are well-documented, though the precise chronology of individual expeditions varies slightly between sources. The 1383 date is consistent with documented patterns of Portuguese exploration.",
+      "cross_references": [
+        "Part of broader Portuguese Age of Exploration (1415\u20131600s)",
+        "Precedes 1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+      ]
+    },
+    {
+      "id": "1383-003",
+      "title": "Tokhtamysh's invasion of Moscow",
+      "region": "Golden Horde, Muscovy (modern Russia)",
+      "coordinates_approx": "55.75, 37.62",
+      "category": "military",
+      "description": "Tokhtamysh, Khan of the Golden Horde, invaded and sacked Moscow in 1383, reasserting Mongol-Tatar dominance over the Russian principalities. The city was burned and plundered, demonstrating that despite Dmitri Donskoi's victory at Kulikovo Field (1380), Mongol overlordship remained a reality. This raid temporarily halted Moscow's rise and reinforced the Golden Horde's authority over Russian lands.",
+      "key_figures": [
+        "Tokhtamysh (Khan of the Golden Horde)",
+        "Dmitri Donskoi (Grand Prince of Moscow)"
+      ],
+      "sources": [
+        {
+          "name": "Russian chronicles (Novgorod Chronicle, Moscow Chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Golden Horde sources (later compilations)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sack of Moscow in 1383 is well-documented in Russian chronicles with consistent dating.",
+      "cross_references": [
+        "Follows from 1380-001 (Battle of Kulikovo Field)",
+        "Part of broader Golden Horde-Muscovy conflict"
+      ]
+    },
+    {
+      "id": "1383-004",
+      "title": "Zheng He's possible birth year (alternative dating)",
+      "region": "China (Yunnan Province)",
+      "coordinates_approx": "25.0, 102.7",
+      "category": "demographic",
+      "description": "Some sources cite 1383 as the birth year of Zheng He, the Ming Dynasty's greatest admiral. However, 1371 is more widely accepted by modern scholars. The discrepancy reflects the limited contemporary documentation of his early life and reliance on later biographical compilations. This entry is included to document historiographic uncertainty rather than as a confirmed fact.",
+      "key_figures": [
+        "Zheng He (future admiral, explorer)"
+      ],
+      "sources": [
+        {
+          "name": "Later Ming biographical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "Birth date is disputed among sources. 1371 is more commonly accepted. This entry documents historiographic variation.",
+      "cross_references": [
+        "Related to 1384-002 (alternative birth date)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Zheng He's birth year is uncertain; 1371 is more widely accepted than 1383. The significance of Tokhtamysh's raid on Moscow is sometimes minimized in later Russian historiography, which emphasized Moscow's eventual triumph over the Golden Horde, but the raid itself is well-documented and represents a genuine reassertion of Mongol authority.",
+  "historiographic_note": "Documentation for 1383 is moderate. Russian and Chinese chronicles provide good coverage of major events. Portuguese exploration is documented in royal records and later chronicles. The year falls within a period of significant geopolitical transitions but lacks the density of documentation found in later centuries. African, American, and Oceanic histories remain severely underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1380-001",
+      "to": "1383-003",
+      "relation": "led_to",
+      "note": "Dmitri Donskoi's victory at Kulikovo Field (1380) was followed by Tokhtamysh's reassertion of Golden Horde authority (1383)."
+    }
+  ]
+}

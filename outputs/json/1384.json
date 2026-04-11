@@ -1,0 +1,114 @@
+{
+  "year": 1384,
+  "year_label": "1384 CE",
+  "era_context": "Late 14th century: The Ming Dynasty consolidates power in China after overthrowing the Yuan; the Ottoman Empire expands in the Balkans; Western Europe experiences the Great Schism in the Catholic Church (1378\u20131417); the Timurid Renaissance flourishes in Central Asia and Persia; the Joseon Dynasty rules Korea; the Aztec Empire expands in Mesoamerica.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically documented)",
+    "Pacific Islands and Oceania (sparse archaeological dating for this specific year)",
+    "Northern Europe and Scandinavia (limited chronicle sources for this year specifically)"
+  ],
+  "events": [
+    {
+      "id": "1384-001",
+      "title": "Death of John Wycliffe",
+      "region": "England",
+      "coordinates_approx": "51.75, -1.25",
+      "category": "religious",
+      "description": "John Wycliffe, the English theologian and reformer, died on 31 December 1384 (or possibly 1383, sources vary). He had challenged papal authority and advocated for vernacular Bible translation, laying intellectual groundwork for later Protestant reform. His followers, the Lollards, continued his teachings despite ecclesiastical opposition. His death marked the end of his direct influence but not his legacy, which would resurface in the 15th-century Reformation.",
+      "key_figures": [
+        "John Wycliffe (theologian, reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Knighton's Chronicle (Henry Knighton, contemporary English chronicler)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Foxe's Book of Martyrs (John Foxe, 16th-century compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Death date traditionally given as 31 December 1384, but some sources place it in late 1383. Contemporary chronicles confirm the year as 1384 with high probability.",
+      "cross_references": [
+        "Relates to 1378-001 (Great Schism context)",
+        "Precedes 1415-001 (Council of Constance condemnation of Wycliffe's remains)"
+      ]
+    },
+    {
+      "id": "1384-002",
+      "title": "Zheng He's birth (traditional date)",
+      "region": "China (Yunnan Province)",
+      "coordinates_approx": "25.0, 102.7",
+      "category": "demographic",
+      "description": "Zheng He, the Ming Dynasty's greatest admiral and explorer, was traditionally born in 1371, but some sources place his birth in 1384. He would later command the massive treasure voyages (1405\u20131433) that explored the Indian Ocean. The uncertainty in his birth year reflects the limited contemporary documentation of his early life and the reliance on later biographical compilations.",
+      "key_figures": [
+        "Zheng He (future admiral, explorer)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Ming Dynasty Official Records)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Later biographical compilations (17th\u201318th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "Birth date is disputed; 1371 is more commonly cited in modern scholarship. The 1384 date appears in some sources but lacks strong contemporary documentation. Included here as a historiographic note rather than confirmed fact.",
+      "cross_references": [
+        "Leads to 1405-001 (First treasure voyage)"
+      ]
+    },
+    {
+      "id": "1384-003",
+      "title": "Murad I's campaigns in the Balkans",
+      "region": "Ottoman Empire, Balkans (modern Serbia, Bulgaria, Greece)",
+      "coordinates_approx": "42.5, 21.0",
+      "category": "military",
+      "description": "Ottoman Sultan Murad I continued his systematic conquest of the Balkans, consolidating control over Serbian and Bulgarian territories. This period saw the Ottoman military machine, particularly the elite Janissary corps, establish dominance in the region. These campaigns set the stage for the Battle of Kosovo (1389), one of the most symbolically significant conflicts in Balkan history.",
+      "key_figures": [
+        "Murad I (Ottoman Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Ne\u015fri, Ashikpashazade, later compilations)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian and Byzantine sources (contemporary accounts)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in the Balkans during the 1380s is well-attested in multiple chronicle traditions. Specific events of 1384 are less precisely dated but fit the documented pattern of Murad I's campaigns.",
+      "cross_references": [
+        "Leads to 1389-001 (Battle of Kosovo)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The birth year of Zheng He is disputed; 1371 is more widely accepted by modern scholars than 1384. Wycliffe's death date is sometimes given as 1383 rather than 1384, reflecting ambiguity in medieval chronicle dating. The significance of Ottoman campaigns in 1384 specifically is difficult to isolate from the broader pattern of Balkan conquest; no single decisive event is documented for this year.",
+  "historiographic_note": "Documentation for 1384 is uneven. European chronicles (English, Ottoman, Byzantine) provide reasonable coverage of major figures and military campaigns. Chinese sources are abundant but often compiled centuries after events. African, American, and Oceanic histories are severely underrepresented in surviving written records. The year falls within a period of major transitions (Ming consolidation, Ottoman expansion, Western Schism) but lacks the density of documentation found in later centuries.",
+  "graph_edges": [
+    {
+      "from": "1384-001",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Wycliffe's death preceded the Council of Constance's condemnation of his remains and teachings."
+    },
+    {
+      "from": "1384-003",
+      "to": "1389-001",
+      "relation": "led_to",
+      "note": "Ottoman campaigns in 1384 directly preceded the Battle of Kosovo in 1389."
+    }
+  ]
+}
