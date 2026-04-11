@@ -1,24 +1,161 @@
 {
   "year": 1086,
   "year_label": "1086 CE",
-  "era_context": "The late 11th century CE was a period of significant transition and conflict in medieval Europe and the broader world. The Investiture Controversy dominated Western European ecclesiastical politics. The Byzantine Empire under Alexios I Komnenos was recovering from decades of decline and seeking Western military assistance. The Seljuk Turks had firmly established themselves in Anatolia and the Levant. The Song Dynasty in China was at the height of its economic and cultural power. This was a pivotal moment in medieval history, with major geopolitical shifts and cultural developments occurring simultaneously across multiple civilizations.",
+  "era_context": "The High Middle Ages; the Investiture Controversy between the papacy and the Holy Roman Empire dominates Western European politics. Pope Gregory VII is in his final years (died May 1085, but his influence persists through 1086). The Norman Conquest of England is now two decades past; William the Conqueror is aging and will die in 1087. In the Islamic world, the Seljuk Empire under Malik Shah is at its height. The Northern Song Dynasty in China faces military pressures. Japan is in the Heian period.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "Mesoamerica and South America",
-    "Northern Europe and Scandinavia (limited written records)"
+    "Northern Europe beyond Scandinavia",
+    "Central Asia",
+    "Southeast Asia",
+    "Mesoamerica and South America"
   ],
   "events": [
     {
       "id": "1086-001",
-      "title": "Deaths of major Song Dynasty reformers Wang Anshi and Sima Guang",
-      "region": "China / Song Dynasty",
-      "coordinates_approx": "34.0, 108.0",
-      "category": "political | cultural",
-      "description": "In 1086, two of the most influential figures in Song Dynasty history died: Wang Anshi (1021\u20131086), the great reformer and statesman, and Sima Guang (1019\u20131086), the historian and conservative statesman. Wang Anshi had implemented sweeping administrative and economic reforms during his tenure as chief minister, including the New Policies (Xin Fa) that aimed to strengthen the state and increase revenue. Sima Guang had opposed Wang's reforms and represented the conservative faction. Their deaths marked the end of an era of intense political conflict over the direction of Song policy. The deaths of these two giants of Song politics left the court in a state of transition regarding administrative direction and policy. Emperor Zhezong would now establish his own authority and direction for the empire.",
+      "title": "Domesday Book Completed in England",
+      "region": "England",
+      "coordinates_approx": "52.0\u00b0N, -1.5\u00b0W",
+      "category": "administrative",
+      "description": "King William I the Conqueror commissioned the Domesday Book, a comprehensive survey of English lands, resources, and population. The survey was conducted in 1085\u20131086 and completed by 1086. The Domesday Book recorded landholdings, livestock, mills, and other resources for taxation and administrative purposes. It represents one of the most detailed administrative records of medieval Europe and provides invaluable information about 11th-century English society. The survey was unprecedented in its scope and detail.",
       "key_figures": [
-        "Wang Anshi (reformer, 1021\u20131086)",
-        "Sima Guang (historian and statesman, 1019\u20131086)"
+        "William I the Conqueror (King of England)",
+        "Lanfranc (Archbishop of Canterbury)"
+      ],
+      "sources": [
+        {
+          "name": "Domesday Book (primary administrative record)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anglo-Saxon Chronicle (E version)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Orderic Vitalis, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Domesday Book is a contemporary primary source, completed in 1086. Its existence and purpose are well-documented.",
+      "cross_references": [
+        "1066-001 (Norman Conquest of England)",
+        "1087-001 (William I's death)"
+      ]
+    },
+    {
+      "id": "1086-002",
+      "title": "Pope Victor III Elected; Papacy Remains Contested",
+      "region": "Rome and Western Europe",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "religious",
+      "description": "Following Gregory VII's death in May 1085, the cardinals elected Desiderius of Monte Cassino as Pope Victor III in May 1086. However, Victor III's papacy was weak and contested. The antipope Clement III, installed by Emperor Henry IV, retained control of Rome and significant support. Victor III's health was poor, and he struggled to assert papal authority. His papacy lasted only until 1087, when he died and was succeeded by Urban II. The Investiture Controversy continued unabated.",
+      "key_figures": [
+        "Pope Victor III (Desiderius of Monte Cassino)",
+        "Antipope Clement III (Guibert of Ravenna)",
+        "Emperor Henry IV (Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Book of the Popes)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bonizo of Sutri, Liber ad amicum",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Orderic Vitalis, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Victor III's election in May 1086 is well-documented in contemporary and near-contemporary sources.",
+      "cross_references": [
+        "1076-001 (Investiture Controversy escalation)",
+        "1085-001 (Gregory VII's death)",
+        "1088-001 (Urban II's election)"
+      ]
+    },
+    {
+      "id": "1086-003",
+      "title": "Battle of Sagrajas (Zallaqa): Almoravid Victory Over Christian Spain",
+      "region": "Iberian Peninsula (near modern Badajoz)",
+      "coordinates_approx": "38.7\u00b0N, -6.8\u00b0W",
+      "category": "military",
+      "description": "In 1086, the Almoravid dynasty from North Africa defeated a coalition of Christian Spanish kingdoms at the Battle of Sagrajas (also called Zallaqa). The Christian forces, led by King Alfonso VI of Castile, were decisively defeated by the Almoravid army under Yusuf ibn Tashfin. This battle marked a turning point in the Reconquista, halting Christian advances and leading to increased Almoravid intervention in Iberian affairs. The Almoravids would eventually conquer much of Muslim Spain and establish their own rule.",
+      "key_figures": [
+        "Yusuf ibn Tashfin (Almoravid leader)",
+        "Alfonso VI (King of Castile and Le\u00f3n)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Christian Spanish chronicles (e.g., Historia Silense)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Almoravid sources (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Sagrajas in 1086 is well-attested in both Islamic and Christian sources, though some details are disputed.",
+      "cross_references": [
+        "1085-001 (Toledo captured by Christian forces)",
+        "1090-001 (Almoravid consolidation in Spain)"
+      ]
+    },
+    {
+      "id": "1086-004",
+      "title": "Malik Shah Consolidates Seljuk Control of Anatolia and Persia",
+      "region": "Seljuk Empire (Anatolia, Persia, Syria)",
+      "coordinates_approx": "35.7\u00b0N, 51.4\u00b0E",
+      "category": "political",
+      "description": "Sultan Malik Shah of the Seljuk Empire continued to consolidate his control over vast territories stretching from Anatolia to Persia. Under the guidance of his vizier Nizam al-Mulk, the Seljuk Empire reached the height of its power and territorial extent. The Seljuk court at Isfahan became a center of learning and culture. Malik Shah's reign represented the zenith of Seljuk power before the empire fragmented after his death in 1092.",
+      "key_figures": [
+        "Malik Shah (Seljuk Sultan)",
+        "Nizam al-Mulk (Vizier)"
+      ],
+      "sources": [
+        {
+          "name": "Seljuknama (Book of the Seljuks)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Nizami Aruzi, Chahar Maqala (Four Discourses)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Malik Shah's reign and territorial consolidation are well-attested in later Islamic sources, though specific events of 1086 are not always precisely documented.",
+      "cross_references": [
+        "1092-001 (Death of Nizam al-Mulk and Malik Shah)"
+      ]
+    },
+    {
+      "id": "1086-005",
+      "title": "Northern Song Dynasty Experiences Economic Strain",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "economic",
+      "description": "The Northern Song Dynasty under Emperor Shenzong continued to experience economic strain from military expenditures and the costs of maintaining a large bureaucracy. The Song faced military pressures from the Khitan Liao Dynasty in the north and the Tangut Western Xia kingdom in the northwest. These conflicts drained the Song treasury and prompted ongoing debates at court about taxation, military strategy, and resource allocation.",
+      "key_figures": [
+        "Emperor Shenzong (Song Dynasty)"
       ],
       "sources": [
         {
@@ -27,160 +164,38 @@
           "contemporary": false
         },
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The deaths of Wang Anshi and Sima Guang in 1086 are well-documented in Chinese historical records.",
-      "cross_references": [
-        "1088-004 (Song Dynasty under Emperor Zhezong)"
-      ]
-    },
-    {
-      "id": "1086-002",
-      "title": "Domesday Book completed in England under William the Conqueror",
-      "region": "England",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "administrative | political | economic",
-      "description": "The Domesday Book, a comprehensive survey of English lands and resources commissioned by William the Conqueror, was completed in 1086. This remarkable administrative document recorded the ownership, value, and resources of virtually every piece of land in England, creating an unprecedented inventory of the kingdom's wealth and population. The Domesday Book was both a practical administrative tool for taxation and a symbol of Norman power and control over England. It represents one of the most sophisticated administrative achievements of the medieval period and provides modern historians with invaluable information about 11th-century England. The completion of the Domesday Book demonstrated the Norman ability to impose centralized administrative control over a conquered kingdom.",
-      "key_figures": [
-        "William I, the Conqueror (commissioned the survey)",
-        "Lanfranc, Archbishop of Canterbury (advisor)"
-      ],
-      "sources": [
-        {
-          "name": "Domesday Book (primary administrative document)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Anglo-Saxon Chronicle",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Domesday Book's completion in 1086 is well-documented in contemporary sources and the document itself survives.",
-      "cross_references": [
-        "1066-001 (Norman Conquest of England)",
-        "1087-003 (Death of William the Conqueror)"
-      ]
-    },
-    {
-      "id": "1086-003",
-      "title": "Battle of Sagrajas (Zallaqa): Christian Iberian forces defeated by Almoravid Berbers",
-      "region": "Iberia / Al-Andalus",
-      "coordinates_approx": "38.5, -6.0",
-      "category": "military | political",
-      "description": "In 1086, Christian Iberian forces under Alfonso VI of Castile were defeated by the Almoravid Berber dynasty from North Africa at the Battle of Sagrajas (also known as Zallaqa). The Almoravids, a puritanical Islamic reform movement from the Sahara, had been invited to Iberia by Muslim emirs to counter Christian expansion. The Almoravid victory halted Christian reconquest efforts and demonstrated the military power of the North African Islamic movement. However, the Almoravids would eventually establish their own rule in Iberia, displacing the local Muslim emirs. The battle represented a major turning point in the Reconquista, temporarily reversing Christian momentum and introducing a new Islamic power into the peninsula.",
-      "key_figures": [
-        "Alfonso VI of Castile (Christian commander)",
-        "Yusuf ibn Tashfin (Almoravid leader)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Iberian Christian chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Sagrajas in 1086 is well-documented in both Islamic and Christian sources.",
-      "cross_references": [
-        "1085-001 (Toledo captured by Christian forces)"
-      ]
-    },
-    {
-      "id": "1086-004",
-      "title": "Khitan Liao Dynasty maintains stability and cultural development in northern China",
-      "region": "Manchuria / Northern China",
-      "coordinates_approx": "43.0, 125.0",
-      "category": "political | cultural",
-      "description": "The Khitan Liao Dynasty (907\u20131125), centered in Manchuria and northern China, maintained its independent state and cultural development in 1086. The Liao were a sophisticated nomadic-sedentary hybrid state with advanced administrative systems, urban centers, and cultural achievements. The Liao maintained the balance of power with the Song Dynasty through the treaty system established in 1005. The Liao's stability and cultural development paralleled that of the Song Dynasty, with both states representing sophisticated medieval civilizations. The Liao would continue to exist until 1125, when they were conquered by the Jurchen Jin Dynasty.",
-      "key_figures": [
-        "Liao emperors of the late 11th century"
-      ],
-      "sources": [
-        {
-          "name": "Liao Shi (History of the Liao Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi references to Liao relations",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Liao Dynasty's existence and general political situation in 1086 are well-documented, though specific events for this particular year are less detailed.",
+      "certainty_note": "Song economic conditions and military pressures are documented in Chinese sources, though specific events of 1086 are not always precisely dated.",
       "cross_references": [
-        "1125-001 (Fall of Liao Dynasty to Jurchen Jin)"
-      ]
-    },
-    {
-      "id": "1086-005",
-      "title": "Seljuk Sultanate under Malik Shah I continues expansion and consolidation",
-      "region": "Seljuk Empire / Persia / Levant",
-      "coordinates_approx": "35.0, 50.0",
-      "category": "political | military",
-      "description": "The Seljuk Empire under Malik Shah I (r. 1072\u20131092) was at the height of its power and territorial extent in 1086. Malik Shah had expanded Seljuk control over Persia, Mesopotamia, Syria, and Anatolia, creating a vast Islamic empire. The Seljuks were consolidating administrative control, developing urban centers, and patronizing Islamic culture and learning. The Seljuk Empire represented a major Islamic power that dominated the eastern Mediterranean and Middle East. However, the empire was beginning to show signs of internal fragmentation, with various atabegs (military governors) establishing semi-independent rule in different regions. The death of Malik Shah in 1092 would accelerate this fragmentation.",
-      "key_figures": [
-        "Malik Shah I (Seljuk Sultan, r. 1072\u20131092)",
-        "Nizam al-Mulk (Seljuk vizier, d. 1092)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Seljuk Empire",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Seljuk political and military developments in the late 11th century are well-documented in Islamic sources.",
-      "cross_references": [
-        "1092-001 (Death of Malik Shah I and Nizam al-Mulk)"
+        "1087-004 (Song military pressures continue)"
       ]
     }
   ],
-  "disconfirming_evidence": "The entry on the Battle of Sagrajas is accurate regarding the date (1086) and the general outcome (Almoravid victory). However, some sources place the battle in 1086 while others use different dating systems or refer to it by different names (Zallaqa, Sagrajas, Talavera). The significance of the battle in halting Christian reconquest is sometimes overstated; Christian expansion resumed within a few decades. The entry on the Domesday Book is accurate regarding its completion in 1086 and its significance as an administrative document. However, the characterization of it as representing 'unprecedented' administrative sophistication may be somewhat overstated; earlier Islamic and Byzantine states had conducted similar surveys.",
-  "historiographic_note": "The historical record for 1086 is moderately rich for Western Europe (Domesday Book, Norman England, Iberian warfare), East Asia (Song and Liao dynasties), and the Islamic world (Seljuk Empire, Almoravid expansion), but sparse for other regions. The sources are heavily weighted toward elite political and military history. The year 1086 marks several significant transitions: the completion of the Domesday Book in England, the deaths of major Song reformers in China, and the Almoravid intervention in Iberia. These events set the stage for major developments in the following decades. Sub-Saharan Africa, the Americas, and much of northern Europe are virtually absent from the surviving written record for this year. The period is characterized by the consolidation of major medieval states and the beginning of significant geopolitical shifts that would define the late 11th and 12th centuries.",
+  "disconfirming_evidence": "The Domesday Book is sometimes portrayed as a complete and accurate census of England, but modern scholarship emphasizes its limitations. It excluded some regions (notably the far north), and its valuations and classifications were sometimes inconsistent or inaccurate. The Battle of Sagrajas is sometimes characterized as a decisive Almoravid victory that halted the Reconquista permanently, but modern scholarship suggests the battle's significance was more limited; Christian advances resumed in subsequent decades. The characterization of Malik Shah's reign as a period of unambiguous consolidation is complicated by evidence of internal tensions within the Seljuk court.",
+  "historiographic_note": "Documentation for 1086 is moderate but unevenly distributed. English sources are particularly rich, reflecting the importance of the Domesday Book and the Norman Conquest to English history. Western European ecclesiastical sources document the papal succession crisis. Islamic sources document the Battle of Sagrajas and Seljuk affairs, though with different emphases. Chinese sources are detailed but focus on court politics. The surviving record is heavily weighted toward political, military, and administrative events. Economic, social, and cultural history must be inferred from broader patterns. Sub-Saharan Africa, Northern Europe, and Central Asia are poorly documented.",
   "graph_edges": [
     {
       "from": "1086-001",
-      "to": "1088-004",
-      "relation": "led_to",
-      "note": "Deaths of Wang Anshi and Sima Guang led to Emperor Zhezong's consolidation of power"
-    },
-    {
-      "from": "1086-002",
-      "to": "1087-003",
-      "relation": "led_to",
-      "note": "Domesday Book completed under William the Conqueror; he died the following year"
+      "to": "1087-001",
+      "relation": "contemporary_with",
+      "note": "The Domesday Book was completed shortly before William I's death in 1087"
     },
     {
       "from": "1086-003",
-      "to": "1095-001",
-      "relation": "contemporary_with",
-      "note": "Almoravid intervention in Iberia occurred during the same period as First Crusade preparations"
+      "to": "1090-001",
+      "relation": "led_to",
+      "note": "The Almoravid victory at Sagrajas led to increased Almoravid intervention in Iberian affairs"
     },
     {
-      "from": "1086-005",
-      "to": "1092-001",
+      "from": "1086-002",
+      "to": "1088-001",
       "relation": "led_to",
-      "note": "Seljuk consolidation under Malik Shah led to fragmentation after his death in 1092"
+      "note": "Victor III's weak papacy led to Urban II's election in 1088"
     }
   ]
 }
