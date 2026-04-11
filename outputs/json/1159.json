@@ -1,0 +1,136 @@
+{
+  "year": 1159,
+  "year_label": "1159 CE",
+  "era_context": "The mid-12th century in Europe is marked by the Second Crusade's aftermath and the consolidation of feudal kingdoms. In the Islamic world, the Zengid dynasty controls Syria and Mesopotamia; the Fatimid Caliphate in Egypt is in terminal decline. In East Asia, the Jin Dynasty rules northern China while the Song Dynasty controls the south; Japan is in the Heian period transitioning toward the Gempei War. The Byzantine Empire under Manuel I Komnenos is attempting to reassert influence in the Mediterranean and Balkans.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Pre-Columbian Americas (no written records; archaeological evidence only)"
+  ],
+  "events": [
+    {
+      "id": "1159-001",
+      "title": "Papal Election of Pope Alexander III; Schism with Antipope Victor IV",
+      "region": "Papal States, Rome, Western Europe",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious | political",
+      "description": "Following the death of Pope Adrian IV, the College of Cardinals elected Cardinal Orlando Bandinelli as Pope Alexander III. However, a faction of cardinals, backed by the Holy Roman Emperor Frederick Barbarossa, elected Cardinal Octavian as Antipope Victor IV. This schism lasted until 1164 and reflected the broader conflict between papal and imperial authority in the Holy Roman Empire. Alexander III was forced into exile and spent years in France and Sicily seeking support, while Victor IV claimed legitimacy with imperial backing.",
+      "key_figures": [
+        "Cardinal Orlando Bandinelli (Pope Alexander III)",
+        "Cardinal Octavian (Antipope Victor IV)",
+        "Frederick I Barbarossa (Holy Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Papal Book of Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chronicles of Otto of Freising",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Papal bulls and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The papal schism of 1159 is well-documented in contemporary and near-contemporary ecclesiastical sources. The date and key figures are not disputed.",
+      "cross_references": [
+        "Relates to broader Investiture Controversy and papal-imperial conflicts of 12th century"
+      ]
+    },
+    {
+      "id": "1159-002",
+      "title": "Nur ad-Din's Continued Consolidation of Zengid Power in Syria",
+      "region": "Syria, Mesopotamia, Levant",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "political | military",
+      "description": "Nur ad-Din ibn Zengi, the Zengid ruler, continued his consolidation of power across Syria and northern Mesopotamia, strengthening his position against both Crusader states and the declining Fatimid Caliphate. In 1159, he maintained control of key cities including Aleppo, Damascus, and Homs. His reign (1146\u20131174) represented a period of Islamic revival and military reorganization that would eventually enable his successor Saladin to unify the Muslim Near East and launch the Third Crusade.",
+      "key_figures": [
+        "Nur ad-Din ibn Zengi (Zengid Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Usama ibn Munqidh, Book of Contemplation (Kitab al-I'tibar)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Zengid period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's rule and territorial control in 1159 are well-attested in Islamic chronicles, though specific events of this particular year are less detailed than major military campaigns.",
+      "cross_references": [
+        "Precedes Saladin's rise and the unification of the Islamic Near East"
+      ]
+    },
+    {
+      "id": "1159-003",
+      "title": "Henry II of England Consolidates Angevin Territories",
+      "region": "England, Normandy, Anjou, Aquitaine",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "Henry II, King of England and Duke of Normandy, continued to consolidate his vast Angevin Empire, which stretched from Scotland to the Pyrenees. By 1159, he had secured his position in England following the civil war of Stephen's reign and was actively managing his continental holdings. His reign (1154\u20131189) marked the height of Angevin power and saw significant legal and administrative reforms, including the development of common law and the expansion of royal justice.",
+      "key_figures": [
+        "Henry II (King of England, Duke of Normandy)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gerald of Wales, various works",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Royal charters and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Henry II's reign and territorial control are extensively documented in English and Norman chronicles and administrative records.",
+      "cross_references": [
+        "Precedes the conflict with Thomas Becket (1170) and the rebellion of his sons"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 1159 papal schism is sometimes overstated in Western historiography as a turning point; modern scholarship suggests it was one of several schisms and conflicts in the broader 12th-century struggle between papacy and empire, with less immediate impact on church governance than once believed. The schism's resolution in 1164 was relatively swift, and Alexander III's eventual triumph was as much due to political circumstances as theological authority.",
+  "historiographic_note": "The year 1159 is well-documented in Western European sources (papal records, chronicles, royal charters) but less thoroughly covered in Islamic sources, which tend to focus on major military campaigns rather than administrative continuity. East Asian sources (Chinese and Japanese chronicles) exist but are not equally weighted in Western historiography. The surviving record is heavily weighted toward political and ecclesiastical events; economic, demographic, and technological developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1159-001",
+      "to": "1164-ANTIPOPE_VICTOR_IV_DEATH",
+      "relation": "led_to",
+      "note": "The schism initiated in 1159 continued until Victor IV's death in 1164"
+    },
+    {
+      "from": "1159-002",
+      "to": "1174-NUR_AD_DIN_DEATH",
+      "relation": "part_of",
+      "note": "Nur ad-Din's consolidation in 1159 was part of his broader reign (1146\u20131174)"
+    },
+    {
+      "from": "1159-003",
+      "to": "1170-BECKET_MURDER",
+      "relation": "led_to",
+      "note": "Henry II's consolidation of power preceded his conflict with Thomas Becket"
+    }
+  ]
+}
