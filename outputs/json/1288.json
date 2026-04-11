@@ -1,0 +1,111 @@
+{
+  "year": 1288,
+  "year_label": "1288 CE",
+  "era_context": "The late 13th century continued to be defined by Mongol dominance in Asia, Mamluk control of the Eastern Mediterranean, and European feudal fragmentation. The Yuan Dynasty under Kublai Khan was at its territorial zenith. In Southeast Asia, Thai kingdoms (Sukhothai, Lanna) were consolidating power as Khmer influence waned. The Papacy was in transition between pontiffs. Islamic scholarship and trade networks remained globally significant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern and Eastern Europe (beyond major kingdoms)",
+    "Pacific Islands and Oceania",
+    "Central Asian steppe politics",
+    "Indian subcontinent (limited specific records for this year)"
+  ],
+  "events": [
+    {
+      "id": "1288-001",
+      "title": "Battle of the Drin River (Mamluk-Byzantine Conflict)",
+      "region": "Balkans (modern-day Albania/Macedonia)",
+      "coordinates_approx": "41.50, 20.50",
+      "category": "military",
+      "description": "Mamluk forces under Qalawun engaged Byzantine and Serbian forces in the Balkans, though the specifics of this engagement are poorly documented. The Mamluk Sultanate was expanding its influence northward into the Mediterranean and Balkans during this period. This battle, if it occurred in 1288, represents Mamluk projection of power into European territories and reflects the complex geopolitical competition in the Eastern Mediterranean.",
+      "key_figures": [
+        "Qalawun (Mamluk Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine chronicles (fragmentary references)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Serbian historical records (limited contemporary documentation)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "This battle is poorly attested in surviving sources. The date and details are uncertain. It may be conflated with other Balkan conflicts of the period or may be a later historiographic construction.",
+      "cross_references": [
+        "Part of broader Mamluk expansion in Mediterranean"
+      ]
+    },
+    {
+      "id": "1288-002",
+      "title": "Kublai Khan Orders Census and Administrative Reforms",
+      "region": "Yuan Dynasty (China)",
+      "coordinates_approx": "35.86, 104.20",
+      "category": "political",
+      "description": "The Yuan Dynasty under Kublai Khan continued administrative consolidation, including census-taking and bureaucratic reorganization. These reforms aimed to integrate Mongol military governance with Han Chinese administrative traditions. The 1280s saw increasing Han Chinese influence in Yuan governance, with examination systems and Confucian scholarship gaining prominence.",
+      "key_figures": [
+        "Kublai Khan (Yuan Emperor)",
+        "Bayan of the Baarin (Yuan administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official Yuan Dynasty history, compiled 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Administrative reforms were ongoing throughout the 1280s. Specific attribution to 1288 is approximate; the broader process is well-attested.",
+      "cross_references": [
+        "Part of Yuan Dynasty consolidation (1271-1368)"
+      ]
+    },
+    {
+      "id": "1288-003",
+      "title": "Ramkhamhaeng the Great Rules Sukhothai Kingdom",
+      "region": "Southeast Asia (modern-day Thailand)",
+      "coordinates_approx": "17.01, 99.81",
+      "category": "political",
+      "description": "Ramkhamhaeng the Great (r. 1279-1298) was actively ruling the Sukhothai Kingdom in 1288, a period of Thai expansion and cultural flourishing. Ramkhamhaeng is credited with creating the Thai alphabet and expanding Sukhothai's territorial control. This period saw the rise of Thai kingdoms as Khmer influence declined. Sukhothai became a major regional power in Southeast Asia during this era.",
+      "key_figures": [
+        "Ramkhamhaeng the Great (Sukhothai King)"
+      ],
+      "sources": [
+        {
+          "name": "Sukhothai inscriptions (particularly the famous Ramkhamhaeng stele, dated to his reign)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Thai chronicles (compiled later but based on earlier traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramkhamhaeng's reign dates are traditionally given as 1279-1298, making 1288 a secure point within his rule. However, some modern scholars dispute the traditional dating and the extent of his achievements.",
+      "cross_references": [
+        "Part of Thai kingdom consolidation in Southeast Asia"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of the Drin River is poorly attested and may be a historiographic construction or conflation of multiple conflicts. Modern scholarship questions the extent and nature of Mamluk military operations in the Balkans during this period. Regarding Ramkhamhaeng, modern scholars have questioned the traditional narrative of his achievements, particularly the attribution of the Thai alphabet to him and the extent of Sukhothai's territorial expansion. Some scholars argue that the famous Ramkhamhaeng stele may have been created later or that its claims are exaggerated.",
+  "historiographic_note": "Documentation for 1288 is sparse for most regions. Yuan Dynasty sources are official court histories compiled centuries later. Southeast Asian sources are primarily epigraphic (inscriptions) or later chronicles, subject to legendary embellishment. European and Mamluk sources for this year are fragmentary. The historical record is heavily skewed toward East Asian political and military events. Economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, the Indian subcontinent, and Northern Europe are largely absent from surviving documentation for this specific year.",
+  "graph_edges": [
+    {
+      "from": "1288-002",
+      "to": "1279-Yuan_consolidation",
+      "relation": "part_of",
+      "note": "Continuation of Yuan administrative consolidation"
+    },
+    {
+      "from": "1288-003",
+      "to": "1279-Sukhothai_rise",
+      "relation": "part_of",
+      "note": "Ramkhamhaeng's reign as part of Thai kingdom consolidation"
+    }
+  ]
+}

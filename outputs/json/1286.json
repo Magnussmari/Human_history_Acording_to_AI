@@ -1,0 +1,116 @@
+{
+  "year": 1286,
+  "year_label": "1286 CE",
+  "era_context": "The late 13th century continued to be defined by Mongol dominance in Asia, Mamluk control of the Eastern Mediterranean, and European feudal fragmentation. The Yuan Dynasty under Kublai Khan was at its territorial zenith. In Southeast Asia, Thai kingdoms were consolidating power while Khmer influence waned. The Papacy was in transition. Islamic scholarship and trade networks remained globally significant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern and Eastern Europe (beyond major kingdoms)",
+    "Pacific Islands and Oceania",
+    "Central Asian steppe politics",
+    "Indian subcontinent (limited specific records)"
+  ],
+  "events": [
+    {
+      "id": "1286-001",
+      "title": "Mongol Invasion of Vietnam (Continued Campaign)",
+      "region": "Southeast Asia (Vietnam)",
+      "coordinates_approx": "21.03, 105.85",
+      "category": "military",
+      "description": "The Mongol invasion of Vietnam continued in 1286 as part of a multi-year campaign (1285-1287) by Kublai Khan to conquer the Tran Dynasty. The Vietnamese, under General Tran Hung Dao and Emperor Tran Nhan Tong, continued to resist Mongol forces using guerrilla tactics and naval warfare. The campaign would ultimately result in Vietnamese victory in 1287, but 1286 represented a critical year of sustained conflict and Vietnamese resistance.",
+      "key_figures": [
+        "Tran Hung Dao (Vietnamese general)",
+        "Tran Nhan Tong (Tran Emperor)",
+        "Kublai Khan (Yuan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Dai Viet Su Ky Toan Thu (Complete History of Great Viet, compiled 15th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (Official Yuan Dynasty history)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Mongol invasion campaign of 1285-1287 is well-attested in both Vietnamese and Chinese sources. 1286 is a secure point within this campaign.",
+      "cross_references": [
+        "Part of broader Mongol expansion attempts in Southeast Asia",
+        "Precedes Vietnamese victory in 1287"
+      ]
+    },
+    {
+      "id": "1286-002",
+      "title": "Scottish Wars of Independence (Battle of Dunbar)",
+      "region": "Scotland (British Isles)",
+      "coordinates_approx": "56.00, -2.52",
+      "category": "military",
+      "description": "In 1286, Scotland was in a state of succession crisis following the death of King Alexander III in 1286 (note: Alexander III died on March 19, 1286). This triggered the Scottish succession dispute that would lead to the Wars of Independence. The death of Alexander III without a direct heir created a power vacuum that would be filled by Edward I of England's intervention and the subsequent rise of William Wallace and Robert the Bruce.",
+      "key_figures": [
+        "Alexander III (Scottish King, died 1286)",
+        "Edward I (English King)",
+        "Margaret, Maid of Norway (Alexander III's granddaughter)"
+      ],
+      "sources": [
+        {
+          "name": "Scottish chronicles (Fordun, Wyntoun, and others, compiled later)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "English chronicles (contemporary and near-contemporary)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alexander III's death on March 19, 1286 is well-documented. The date is secure.",
+      "cross_references": [
+        "Precedes Wars of Scottish Independence (1296-1357)",
+        "Leads to Edward I's intervention in Scotland"
+      ]
+    },
+    {
+      "id": "1286-003",
+      "title": "Kublai Khan Consolidates Yuan Control Over China",
+      "region": "Yuan Dynasty (China)",
+      "coordinates_approx": "35.86, 104.20",
+      "category": "political",
+      "description": "The Yuan Dynasty under Kublai Khan continued administrative consolidation and integration of Han Chinese bureaucratic traditions in 1286. The 1280s saw increasing Han Chinese influence in Yuan governance, with examination systems and Confucian scholarship gaining prominence. These reforms aimed to create a hybrid Mongol-Han Chinese administrative system.",
+      "key_figures": [
+        "Kublai Khan (Yuan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official Yuan Dynasty history, compiled 14th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Administrative reforms were ongoing throughout the 1280s. Specific attribution to 1286 is approximate.",
+      "cross_references": [
+        "Part of Yuan Dynasty consolidation (1271-1368)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The death of Alexander III in 1286 is sometimes portrayed as a sudden catastrophe that immediately triggered the Wars of Independence, but modern scholarship emphasizes that the succession crisis took several years to develop into open conflict. The Wars of Independence did not begin until 1296 with Edward I's invasion. Additionally, the traditional narrative emphasizes English aggression, but modern scholars note that Scottish nobles initially invited English mediation in the succession dispute.",
+  "historiographic_note": "Documentation for 1286 is moderate but regionally uneven. Scottish and English sources are relatively abundant for the succession crisis, though often written from partisan perspectives. Vietnamese sources are later compilations subject to nationalist embellishment. Chinese sources (Yuan Shi) are official court histories compiled centuries later. Sub-Saharan Africa, the Indian subcontinent, Northern Europe, and the Pacific are underrepresented or absent from surviving documentation. The historical record privileges military and political events over economic, social, or cultural developments.",
+  "graph_edges": [
+    {
+      "from": "1286-002",
+      "to": "1296-Edward_I_invasion_Scotland",
+      "relation": "led_to",
+      "note": "Alexander III's death triggered succession crisis that led to Edward I's intervention"
+    },
+    {
+      "from": "1286-001",
+      "to": "1287-Vietnamese_victory",
+      "relation": "led_to",
+      "note": "Continued Mongol invasion campaign in Vietnam"
+    }
+  ]
+}
