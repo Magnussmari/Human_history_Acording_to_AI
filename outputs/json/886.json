@@ -1,0 +1,101 @@
+{
+  "year": 886,
+  "year_label": "886 CE",
+  "era_context": "886 CE falls during the reign of Charles III (the Fat), the last emperor to rule a substantial portion of the Frankish realm. The empire is fragmenting under pressure from Viking raids, internal aristocratic conflicts, and the rise of feudal relationships. The Viking Age is at its height, with Norse raiders active across northern Europe, the Mediterranean, and into the Atlantic. The Islamic Abbasid Caliphate is experiencing internal fragmentation with autonomous regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final decades, with regional warlords consolidating power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Oceania",
+    "Central Asia (limited contemporary sources)",
+    "Islamic world (limited Western documentation)"
+  ],
+  "events": [
+    {
+      "id": "886-001",
+      "title": "Siege of Paris by Viking forces; Odo of Paris gains prestige",
+      "region": "West Francia (modern France)",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "A major Viking force, led by Ragnar Lothbrok (legendary) or more likely by unnamed Norse commanders, besieged Paris from 885 to 886. The siege lasted approximately one year and was eventually lifted through a combination of Frankish military action and payment of tribute (danegeld). Odo, Count of Paris, played a prominent role in the defense of the city and gained significant prestige from his resistance to the Vikings. This prestige would later help Odo secure election as King of West Francia in 888. The siege is a major event in the Viking Age and demonstrates both the vulnerability of Frankish cities and the effectiveness of Viking siege tactics.",
+      "key_figures": [
+        "Odo of Paris (defender of the city)",
+        "Charles III the Fat (emperor, negotiated tribute)",
+        "Unnamed Viking leaders (traditionally attributed to Ragnar Lothbrok, but this is legendary)"
+      ],
+      "sources": [
+        {
+          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis (Poem on the Siege of Paris)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annals of Fulda",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege of Paris in 885\u2013886 is well-attested in contemporary and near-contemporary sources. Abbo of Saint-Germain-des-Pr\u00e9s wrote a poem about the siege, providing a contemporary account. The date is secure.",
+      "cross_references": [
+        "Leads to 889-001 (Odo's election as king)"
+      ]
+    },
+    {
+      "id": "886-002",
+      "title": "Charles III pays danegeld to Viking forces; siege of Paris lifted",
+      "region": "West Francia",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "Following the siege of Paris, Charles III negotiated with the Viking forces and paid a substantial tribute (danegeld) to lift the siege. This payment was controversial: it demonstrated both the emperor's military weakness and his willingness to use financial resources to resolve conflicts. The payment of danegeld became a recurring strategy in Frankish and English responses to Viking threats, though it was often criticized as encouraging further raids. The lifting of the siege marked the end of the immediate Viking threat to Paris, though Norse raiders continued to operate in the region.",
+      "key_figures": [
+        "Charles III the Fat (emperor, negotiated payment)",
+        "Unnamed Viking leaders"
+      ],
+      "sources": [
+        {
+          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The payment of danegeld and the lifting of the siege are well-attested in contemporary and near-contemporary sources. The date is secure.",
+      "cross_references": [
+        "Contemporary with 886-001 (siege of Paris)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional attribution of the siege of Paris to Ragnar Lothbrok is legendary and not supported by contemporary sources. Modern scholars identify the Viking leaders as unnamed Norse commanders, likely from the Great Heathen Army or related groups. The significance of the siege has been somewhat overstated in older historiography; while it was a major event, it did not fundamentally alter the balance of power in West Francia. Additionally, the payment of danegeld is sometimes portrayed as a sign of weakness, but it was also a rational strategic choice that preserved the city and the emperor's resources. No other disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 886 is moderate, primarily due to the contemporary account by Abbo of Saint-Germain-des-Pr\u00e9s. This source provides a vivid but potentially biased perspective on the siege, emphasizing the heroism of the defenders and the threat posed by the Vikings. Other sources (Regino, Fulda Annals) are near-contemporary chronicles compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize the role of the emperor and underrepresent the agency of local defenders like Odo. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources.",
+  "graph_edges": [
+    {
+      "from": "886-001",
+      "to": "886-002",
+      "relation": "led_to",
+      "note": "The siege of Paris led to Charles III's decision to pay danegeld to lift the siege."
+    },
+    {
+      "from": "886-001",
+      "to": "889-001",
+      "relation": "led_to",
+      "note": "Odo's prestige from defending Paris in 886 helped secure his election as king in 888\u2013889."
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T18:17:45.066026",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
+}

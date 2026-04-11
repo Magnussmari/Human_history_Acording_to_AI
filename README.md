@@ -5,6 +5,15 @@
 **[View the Interactive Timeline](https://human-history-acording-to-ai.vercel.app)** | [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI)
 
 <!-- PROGRESS_START -->
+## 🌐 Live Progress
+
+```
+[=--------------------------------------------------] ?%
+
+1160 / 5226 years completed · 0 failed · 4066 remaining
+Currently researching: ~865 CE
+Last updated: 2026-04-11T18:23:17Z
+```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**

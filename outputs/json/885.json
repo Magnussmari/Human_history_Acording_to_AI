@@ -1,0 +1,102 @@
+{
+  "year": 885,
+  "year_label": "885 CE",
+  "era_context": "885 CE falls during the reign of Charles III (the Fat), the last emperor to rule a substantial portion of the Frankish realm. The empire is fragmenting under pressure from Viking raids, internal aristocratic conflicts, and the rise of feudal relationships. The Viking Age is at its height, with Norse raiders active across northern Europe, the Mediterranean, and into the Atlantic. The Islamic Abbasid Caliphate is experiencing internal fragmentation with autonomous regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final decades, with regional warlords consolidating power in preparation for the dynasty's collapse in 907.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Oceania",
+    "Central Asia (limited contemporary sources)",
+    "Islamic world (limited Western documentation)"
+  ],
+  "events": [
+    {
+      "id": "885-001",
+      "title": "Viking siege of Paris begins",
+      "region": "West Francia (modern France)",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "A major Viking force, estimated at 30,000\u201340,000 warriors (though modern scholars debate these figures), began a siege of Paris in late 885. The siege would last approximately one year, until 886. The Vikings, operating from bases in the Seine River valley, sought to plunder the wealthy city and extract tribute from the Frankish kingdom. The siege is one of the most famous Viking operations in the 9th century and is well-documented in contemporary and near-contemporary sources. Odo, Count of Paris, played a prominent role in organizing the defense of the city.",
+      "key_figures": [
+        "Odo of Paris (defender of the city)",
+        "Charles III the Fat (emperor, distant from the siege)",
+        "Unnamed Viking leaders"
+      ],
+      "sources": [
+        {
+          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis (Poem on the Siege of Paris)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annals of Fulda",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The beginning of the siege of Paris in 885 is well-attested in contemporary and near-contemporary sources. Abbo of Saint-Germain-des-Pr\u00e9s provides a contemporary account. The date is secure.",
+      "cross_references": [
+        "Leads to 886-001 (continuation of siege)",
+        "Leads to 886-002 (lifting of siege)"
+      ]
+    },
+    {
+      "id": "885-002",
+      "title": "Charles III crowned Holy Roman Emperor",
+      "region": "Frankia (former empire)",
+      "coordinates_approx": "48.2082, 16.3738",
+      "category": "political",
+      "description": "Charles III was crowned Holy Roman Emperor in 885, consolidating his position as the nominal ruler of the Frankish realm. However, his authority was already weakening, and the coronation did not prevent the fragmentation of the empire. Charles had inherited the West Frankish kingdom in 884 and briefly reunited much of the Frankish realm, but his reign was marked by military failures (including the inability to prevent the siege of Paris) and internal aristocratic conflicts. His imperial title was more symbolic than substantive.",
+      "key_figures": [
+        "Charles III the Fat (crowned emperor)",
+        "Pope Stephen V (performed coronation)"
+      ],
+      "sources": [
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annals of Fulda",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Charles III's imperial coronation is attested in chronicles, but the exact date (885 vs. 884 or 886) is debated by modern scholars. The event is secure; the precise year is approximate.",
+      "cross_references": [
+        "Leads to 888-001 (Charles III's death and fragmentation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Charles III's imperial coronation is disputed. Some modern scholars place it in 884, others in 885 or 886. This uncertainty reflects the general problem of precise dating in late 9th-century sources. Additionally, the significance of the coronation has been somewhat overstated in older historiography; Charles III's imperial title did not grant him effective authority over the fragmented Frankish realm. The coronation was more a recognition of existing political realities than a source of new power. No other disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 885 is sparse but enriched by the contemporary account of Abbo of Saint-Germain-des-Pr\u00e9s regarding the siege of Paris. Other sources are near-contemporary chronicles (Regino of Pr\u00fcm, Annals of Fulda) compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize the role of the emperor and the papacy while underrepresenting the agency of local defenders and regional magnates. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources. Many events of 885 are not precisely dated, and modern scholars continue to debate the chronology of this period.",
+  "graph_edges": [
+    {
+      "from": "885-001",
+      "to": "886-001",
+      "relation": "led_to",
+      "note": "The beginning of the siege of Paris in 885 continued into 886."
+    },
+    {
+      "from": "885-002",
+      "to": "888-001",
+      "relation": "led_to",
+      "note": "Charles III's imperial coronation in 885 did not prevent the fragmentation that followed his death in 888."
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T18:17:45.066678",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
+}

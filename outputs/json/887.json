@@ -1,0 +1,89 @@
+{
+  "year": 887,
+  "year_label": "887 CE",
+  "era_context": "887 CE falls in the final years of Charles III's reign and the twilight of unified Carolingian authority. The empire is fragmenting into regional kingdoms, each controlled by competing magnates and dynastic claimants. The Viking Age continues to reshape northern Europe, with Norse raiders active in England, Frankia, and the Mediterranean. The Islamic Abbasid Caliphate is experiencing internal fragmentation, with autonomous regional dynasties (Tulunids in Egypt, Samanids in Central Asia, Aghlabids in North Africa) asserting independence. In East Asia, the Tang Dynasty is in its final decades, and regional warlords are consolidating power in preparation for the dynasty's collapse in 907.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Oceania",
+    "Central Asia (limited contemporary sources)",
+    "Islamic world (limited Western documentation)"
+  ],
+  "events": [
+    {
+      "id": "887-001",
+      "title": "Arnulf of Carinthia defeats Northmen at the Dyle River",
+      "region": "East Francia (modern Belgium/Netherlands)",
+      "coordinates_approx": "50.8, 4.5",
+      "category": "military",
+      "description": "Arnulf of Carinthia, king of East Francia, defeated a Viking (Northmen) force at the Dyle River (modern Belgium). This victory was significant as it demonstrated Arnulf's military capability and his ability to defend East Frankish territory against external threats. The battle is part of the broader pattern of Viking incursions and Frankish resistance in the late 9th century. However, the exact date of this battle is debated by modern scholars; some sources place it in 887, others in 891.",
+      "key_figures": [
+        "Arnulf of Carinthia (East Frankish king)",
+        "Unnamed Viking leaders"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Fulda",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The battle at the Dyle River is attested in chronicles, but the date is uncertain. Modern scholars debate whether it occurred in 887 or 891. The event is secure; the precise year is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "887-002",
+      "title": "Charles III's authority weakens; regional magnates consolidate power",
+      "region": "Frankia (former empire)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "By 887, Charles III's authority was severely weakened. Regional magnates in West Francia, East Francia, and Italy were consolidating independent power bases, and the emperor was unable to enforce his will across the realm. This period marks the effective end of centralized Carolingian authority, though Charles III remained nominally emperor until his death in January 888. The fragmentation was driven by the need for local defense against Viking raids, the rise of feudal relationships, and the ambitions of regional aristocrats.",
+      "key_figures": [
+        "Charles III the Fat (weakening emperor)",
+        "Odo of Paris (West Frankish magnate)",
+        "Arnulf of Carinthia (East Frankish magnate)",
+        "Berengar II (Italian magnate)"
+      ],
+      "sources": [
+        {
+          "name": "Regino of Pr\u00fcm, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annals of Fulda",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The weakening of Charles III's authority by 887 is well-attested in chronicles. The process is secure; the precise mechanisms are debated.",
+      "cross_references": [
+        "Leads to 888-001 (Charles III's death and final fragmentation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of the Dyle River is disputed. Some modern scholars place it in 891, not 887. This uncertainty reflects the general problem of precise dating in late 9th-century sources. Additionally, the narrative of 'fragmentation' in 887 may be somewhat misleading: the Frankish realm had already been effectively divided since the Treaty of Verdun (843), and 887 merely represents a further stage in a long process of decentralization. No other disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 887 is sparse and heavily weighted toward West and East Francia. Sources are primarily near-contemporary chronicles (Regino of Pr\u00fcm, Annals of Fulda) compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize political fragmentation while underrepresenting the continuity of local institutions and the agency of lay nobility. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources. Many events of 887 are not precisely dated, and modern scholars continue to debate the chronology of this period.",
+  "graph_edges": [
+    {
+      "from": "887-002",
+      "to": "888-001",
+      "relation": "led_to",
+      "note": "The weakening of Charles III's authority in 887 directly led to the succession disputes following his death in 888."
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-04-11T18:17:45.065332",
+    "model": "claude-sonnet-4-6",
+    "method": "claude-code-cli",
+    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
+  }
+}
