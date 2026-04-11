@@ -1,37 +1,26 @@
+# Human History
 
+> 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
-```
- _   _ _   _ __  __    _    _   _
-| | | | | | |  \/  |  / \  | \ | |
-| |_| | | | | |\/| | / _ \ |  \| |
-|  _  | |_| | |  | |/ ___ \| |\  |
-|_| |_|\___/|_|  |_/_/   \_\_| \_|
-
- _   _ ___ ____ _____ ___  ______   __
-| | | |_ _/ ___|_   _/ _ \|  _ \ \ / /
-| |_| || |\___ \ | || | | | |_) \ V /
-|  _  || | ___) || || |_| |  _ < | |
-|_| |_|___|____/ |_| \___/|_| \_\|_|
-```
 <!-- PROGRESS_START -->
 ## 🌐 Live Progress
 
 ```
-[=--------------------------------------------------] ?%
+[===-----------------------------------------------] 6.7%
 
 351 / 5226 years completed · 0 failed · 4875 remaining
 Currently researching: ~1675 CE
-Last updated: 2026-04-11T12:54:17Z
+Last updated: 2026-04-11T12:56:09Z
 ```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
 
-An autonomous AI research daemon is writing the history of the world ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ one year at a time, from 2025 CE backward to the dawn of writing (~3200 BCE). Five parallel agents run around the clock, producing structured JSON with events, primary sources, confidence levels, geographic coordinates, anti-sycophancy checks, and graph edges linking cause to consequence across millennia.
+An autonomous AI research daemon is writing the history of the world -- one year at a time, from 2025 CE backward to the dawn of writing (~3200 BCE). Parallel agents run around the clock, producing structured JSON with events, primary sources, confidence levels, geographic coordinates, anti-sycophancy checks, and graph edges linking cause to consequence across millennia.
 
 This is not a textbook. It is a **structured knowledge corpus** designed for graph databases, timelines, adversarial review, and further AI reasoning. Every claim names its source. Every confidence level is justified. Every gap is declared, not hidden.
 
-> **Live status:** Check [`state/progress.json`](state/progress.json) ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ the daemon updates it after every year.
+> **Live status:** Check [`state/progress.json`](state/progress.json) -- the daemon updates it after every cycle.
 
 ---
 
@@ -39,15 +28,72 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 
 | Metric | Value |
 |--------|-------|
-| **Total years** | 5,226 (2025 CE ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ ~3200 BCE) |
-| **Agents per cycle** | 5 parallel |
-| **Cycle interval** | 20 minutes |
-| **Schedule** | Weekdays 17:00ÃÂ¢ÃÂÃÂ06:00, weekends 24h (Reykjavik/UTC) |
-| **Estimated runtime** | ~70 days |
+| **Total years** | 5,226 (2025 CE to ~3200 BCE) |
+| **Agents per cycle** | 5 parallel batches of 5 years |
+| **Cycle interval** | 60 seconds |
+| **Schedule** | 24/7 (API-based, no subscription quota) |
+| **Estimated runtime** | ~3-4 days |
+| **Cost per year** | ~$0.009 (batch mode with Haiku) |
+| **Projected total cost** | ~$50 |
 | **Output per year** | 20-50KB structured JSON |
-| **Projected corpus** | ~200MB, 100K+ events |
 | **Source types** | Primary text, archaeological, epigraphic, numismatic, chronicle, oral tradition |
 | **Certainty levels** | Confirmed, probable, approximate, traditional, legendary |
+
+---
+
+## Optimization Case Study
+
+This project went through a significant cost and speed optimization mid-run. Here's the story:
+
+### Phase 1: Claude Code CLI (Max Subscription)
+
+The initial daemon used `claude -p` (Claude Code CLI) with a Max subscription:
+- **Cost model:** Subscription-based, fair-use quota
+- **Problem:** Constant rate limiting during work hours, restricted to off-hours schedule
+- **Token overhead:** ~3.5x due to agent tools, system prompts, permission handling
+- **Speed:** 5 years per 20-minute cycle
+- **Result:** 304 years completed before optimization
+
+### Phase 2: Optimization Analysis
+
+Used **Kimi Agents** to review the repository and spec the optimization -- an AI agent analyzing another AI agent's workflow. The Kimi analysis identified:
+- The `claude -p` CLI adds ~3.5x token overhead vs. direct API calls
+- Tiered model selection could match model cost to year complexity
+- Batch processing (5 years per API call) enables massive throughput gains
+- Response caching eliminates re-processing on retries
+
+### Phase 3: Claude Code Plan Mode Migration
+
+Fed the Kimi optimization spec into Claude Code, which:
+1. Entered **plan mode** to design the migration strategy
+2. Identified all files needing modification and the exact changes
+3. Built a complete Python implementation (`api_client.py`, `orchestrator_optimized.py`, etc.)
+4. Deployed and tested on the remote server via SSH
+5. Validated with single-year and parallel batch tests before switching over
+
+### Phase 4: Direct Anthropic API (Current)
+
+Now running with direct API calls:
+- **Cost model:** Pay-per-token via Anthropic API
+- **Tiered models:** Haiku for modern years (1950+), Sonnet for middle (0-1949), Opus for ancient
+- **Batch processing:** 5 years per API call
+- **Cost per year:** $0.009 (batch Haiku) vs. $0.22 (CLI Sonnet) -- **96% reduction**
+- **Speed:** 25 years per 60-second cycle (vs. 5 years per 20 minutes)
+- **Schedule:** Runs 24/7 -- no subscription quota limits
+- **Estimated completion:** ~3-4 days (vs. 70 days originally)
+
+### The Takeaway
+
+| Metric | Before (CLI) | After (API) | Improvement |
+|--------|-------------|-------------|-------------|
+| Cost per year | $0.22 | $0.009 | 96% cheaper |
+| Years per cycle | 5 | 25 | 5x throughput |
+| Cycle interval | 20 min | 60 sec | 20x faster |
+| Schedule | Off-hours only | 24/7 | No restrictions |
+| Est. total time | 70 days | 3-4 days | 20x faster |
+| Est. total cost | ~$1,150 | ~$50 | 96% cheaper |
+
+**Key techniques:** Direct API calls (eliminate CLI overhead), tiered model selection, batch processing, response caching, async Python with controlled concurrency.
 
 ---
 
@@ -59,7 +105,7 @@ Every year produces a single JSON file following the **ICCRA schema** (see [`RES
 {
   "year": 1066,
   "year_label": "1066 CE",
-  "era_context": "High medieval period. The Norman Conquest reshapes England...",
+  "era_context": "High medieval period...",
   "documentation_level": "rich",
   "geographic_coverage_gaps": ["Sub-Saharan Africa", "Southeast Asia"],
   "events": [
@@ -67,194 +113,89 @@ Every year produces a single JSON file following the **ICCRA schema** (see [`RES
       "id": "1066-001",
       "title": "Battle of Hastings",
       "region": "England",
-      "coordinates_approx": "50.91, 0.48",
       "category": "military",
       "description": "...",
-      "key_figures": ["William, Duke of Normandy", "Harold Godwinson, King of England"],
+      "key_figures": ["William, Duke of Normandy"],
       "sources": [{"name": "Bayeux Tapestry", "type": "primary_text", "contemporary": true}],
-      "certainty": "confirmed",
-      "cross_references": ["1065-004", "1067-001"]
+      "certainty": "confirmed"
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Harold's death by arrow...",
-  "historiographic_note": "Primary sources are overwhelmingly Norman-commissioned...",
-  "graph_edges": [
-    {"from": "1066-001", "to": "1086-001", "relation": "led_to", "note": "Domesday Book survey"}
-  ]
+  "disconfirming_evidence": "...",
+  "historiographic_note": "...",
+  "graph_edges": [{"from": "1066-001", "to": "1086-001", "relation": "led_to"}],
+  "_meta": {
+    "model": "claude-sonnet-4-6",
+    "cost_usd": 0.22,
+    "duration_seconds": 260
+  }
 }
 ```
 
 **Key design principles:**
-- **No fabrication.** If nothing is known for a year, the events array is empty and the era_context explains why.
-- **Anti-sycophancy protocol.** Every year must surface evidence that contradicts its own narrative.
-- **No anachronism.** A Bronze Age palace fire is described as a palace fire, not an "economic crisis."
-- **Global coverage.** Asia, Africa, the Americas, Oceania ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ not just Europe. Gaps are declared, not hidden.
-- **Source typing.** Every event names whether its evidence is a primary text, archaeology, a later chronicle, or oral tradition.
+- **No fabrication.** Empty events with honest era_context > hallucinated entries.
+- **Anti-sycophancy protocol.** Every year must surface contradicting evidence.
+- **No anachronism.** Period-appropriate framing only.
+- **Global coverage.** Gaps are declared, not hidden.
+- **Source typing.** Primary text, archaeology, chronicle, or oral tradition -- named, not assumed.
 
 ---
 
 ## Run It Yourself
 
-This README is also a prompt. Copy the block below into Claude Code (or any agent with Claude API access) and it will research any year you want.
-
-### Quick Start (One Year)
-
-```bash
-# Install Claude Code if you haven't
-npm install -g @anthropic-ai/claude-code
-
-# Research a single year (replace 1453 with any year, use negative for BCE)
-claude -p "$(cat RESEARCH_PROMPT.md | sed 's/{{YEAR}}/1453/g; s/{{YEAR_LABEL}}/1453 CE/g')" \
-  --dangerously-skip-permissions --output-format json | jq -r '.result' | jq '.' > 1453.json
-```
-
 ### The Meta-Prompt
 
-Copy this entire block into any AI agent. It is self-contained ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ no dependencies, no setup.
+Copy this into any AI agent. Self-contained, no dependencies:
 
 ~~~
-You are a historical research agent. Your task is to produce a structured JSON
-document for a single year of human history. Follow these rules exactly:
+You are a historical research agent. Produce structured JSON for a single year.
 
-YEAR TO RESEARCH: [INSERT YEAR HERE, e.g., 1453 or -3200]
+YEAR TO RESEARCH: [INSERT YEAR, e.g., 1453 or -3200]
 
-INSTRUCTIONS:
-1. If the year is negative, format as BCE (e.g., -3200 ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ "3200 BCE"). Otherwise CE.
-2. Research the most significant events for this year across ALL regions of the world.
-3. For well-documented years (modern era): 15-25 events.
-   For poorly documented years (ancient): 0-5 events. Zero is acceptable.
-4. Every event MUST name its source ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ "general knowledge" is not acceptable.
-5. Every event MUST have a certainty level: confirmed, probable, approximate, traditional, or legendary.
-6. You MUST include a "disconfirming_evidence" section ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ what commonly held beliefs
-   about this year are disputed? If none, state that explicitly.
-7. You MUST include "geographic_coverage_gaps" ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ which regions are you likely missing?
-8. Do NOT fabricate. An empty events array with honest era_context is infinitely
-   more valuable than hallucinated entries.
-9. Do NOT project modern categories onto pre-modern events.
-10. Respond with VALID JSON ONLY. No preamble, no markdown, no commentary.
+RULES:
+1. Negative years = BCE (e.g., -3200 = "3200 BCE"). Positive = CE.
+2. Research significant events across ALL regions.
+3. Modern years: 15-25 events. Ancient: 0-5. Zero is acceptable.
+4. Every event names its source. "General knowledge" is not acceptable.
+5. Every event has a certainty level: confirmed/probable/approximate/traditional/legendary.
+6. Include "disconfirming_evidence" -- what's disputed about this year?
+7. Include "geographic_coverage_gaps" -- what regions are you missing?
+8. Do NOT fabricate. Empty events with honest context > hallucinated entries.
+9. Respond with VALID JSON ONLY.
 
-OUTPUT SCHEMA:
-{
-  "year": <integer>,
-  "year_label": "<YYYY CE or YYYY BCE>",
-  "era_context": "<2-4 sentences: what defines this period?>",
-  "documentation_level": "rich | moderate | sparse | minimal | negligible",
-  "geographic_coverage_gaps": ["<regions likely underrepresented>"],
-  "events": [
-    {
-      "id": "<year>-<NNN>",
-      "title": "<short title>",
-      "region": "<geographic region or polity>",
-      "coordinates_approx": "<lat, lon or null>",
-      "category": "political|military|scientific|cultural|economic|demographic|technological|religious|environmental|exploration|legal",
-      "description": "<3-5 sentences: what happened, why it mattered, what it led to>",
-      "key_figures": ["<Name (role)>"],
-      "sources": [{"name": "<source>", "type": "primary_text|archaeological|epigraphic|numismatic|chronicle|historiographic_consensus|oral_tradition|later_compilation", "contemporary": <boolean>}],
-      "certainty": "confirmed|probable|approximate|traditional|legendary",
-      "certainty_note": "<why this confidence level?>",
-      "cross_references": ["<related event IDs from other years>"]
-    }
-  ],
-  "disconfirming_evidence": "<mandatory: disputes, contested claims, alternative interpretations>",
-  "historiographic_note": "<how reliable is the record? what biases shape it?>",
-  "graph_edges": [
-    {"from": "<event_id>", "to": "<target_year-event_id or concept>", "relation": "caused_by|led_to|contemporary_with|contradicts|part_of", "note": "<explanation>"}
-  ]
-}
+SCHEMA: {"year": int, "year_label": str, "era_context": str,
+"documentation_level": "rich|moderate|sparse|minimal|negligible",
+"geographic_coverage_gaps": [str], "events": [{id, title, region,
+category, description, key_figures, sources, certainty, certainty_note}],
+"disconfirming_evidence": str, "historiographic_note": str,
+"graph_edges": [{from, to, relation, note}]}
 ~~~
 
-### Run a Batch (Parallel)
+### Quick Start (API)
 
 ```bash
-# Research 5 years in parallel
-for year in 1453 1492 1776 1945 -500; do
-  label=$( [ $year -lt 0 ] && echo "$(echo $year | tr -d '-') BCE" || echo "$year CE" )
-  claude -p "$(cat RESEARCH_PROMPT.md | sed "s/{{YEAR}}/${year}/g; s/{{YEAR_LABEL}}/${label}/g")" \
-    --dangerously-skip-permissions --output-format json | jq -r '.result' | jq '.' > "outputs/json/${year}.json" &
-  sleep 2
-done
-wait
-echo "Done. Check outputs/json/"
+curl -s https://api.anthropic.com/v1/messages \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "content-type: application/json" \
+  -H "anthropic-version: 2023-06-01" \
+  -d "{\"model\":\"claude-haiku-4-5-20251001\",\"max_tokens\":16384,
+       \"messages\":[{\"role\":\"user\",\"content\":\"$(cat RESEARCH_PROMPT.md | sed 's/{{YEAR}}/1453/g; s/{{YEAR_LABEL}}/1453 CE/g' | jq -Rs .)\"}]}" \
+  | jq -r '.content[0].text' > 1453.json
 ```
 
 ---
 
 ## Contributing
 
-This is a living corpus. The daemon handles the bulk work, but human expertise makes it *correct*. Here's how to contribute:
+The daemon handles bulk work. Human expertise makes it correct.
 
-### 1. Research unclaimed years
+1. **Research unclaimed years** -- leapfrog the daemon, claim a range via Issue
+2. **Deep dives** -- specialized prompts for specific eras/regions/themes
+3. **Validate and correct** -- check sources, find errors, submit corrections
+4. **Regional expertise** -- African, East Asian, Indigenous American, Pacific history
+5. **Graph edges** -- cause-effect chains, parallel developments, trade routes
+6. **Adversarial review** -- prove us wrong
 
-The daemon works chronologically from 2025 backward. You can leapfrog it:
-
-```bash
-# Fork the repo, pick a year the daemon hasn't reached
-git checkout -b contrib/year-1453
-# Run the prompt (see Quick Start above)
-# Validate your output
-jq -e '.year and .events and .disconfirming_evidence' outputs/json/1453.json
-# Submit a PR
-```
-
-**Claim your range** by opening an Issue with the `claim` label: "Claiming years 1200-1250 CE".
-
-### 2. Deep dives
-
-The daemon produces broad coverage. You can go deep:
-
-- Run a specialized prompt for a specific era, region, or theme
-- Add extra fields: trade routes, artifact catalogs, demographic estimates
-- Place in `deep-dives/<era>/<year>.json`
-
-### 3. Validate and correct
-
-Pick any completed year. Check the sources. Find errors. Submit corrections:
-
-```bash
-# Run a validation pass
-claude -p "Review this historical JSON for factual errors, missing events, \
-Western-centric bias, and source reliability issues. Be adversarial. \
-$(cat outputs/json/2024.json)" --dangerously-skip-permissions
-```
-
-Open an Issue tagged `correction` with the year number and what's wrong.
-
-### 4. Regional expertise
-
-Are you a specialist in African, East Asian, Indigenous American, or Pacific history? The daemon's training data has gaps. Your knowledge fills them:
-
-- Review years in your area of expertise
-- Add events the daemon missed
-- Correct cultural framing and anachronisms
-- Submit as PRs to the relevant year files
-
-### 5. Graph edges
-
-The daemon generates some cross-year links. You can add more:
-
-- Cause-and-effect chains across centuries
-- Parallel developments in disconnected civilizations
-- Trade route evolution
-- Technology diffusion patterns
-
-### 6. Adversarial review
-
-The most valuable contribution: **prove us wrong.**
-
-- What's missing from a century?
-- What narrative bias shapes the coverage?
-- Where did the AI hallucinate?
-- What would a specialist in [field] object to?
-
-Open an Issue tagged `adversarial` or submit a review document.
-
-### Contribution Rules
-
-- All JSON must validate against the ICCRA schema (see `RESEARCH_PROMPT.md`)
-- Every event must have named sources ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ no "general knowledge"
-- PRs to `outputs/json/` require at least one review
-- Don't modify `RESEARCH_PROMPT.md` (the canonical prompt is locked)
-- Be honest about uncertainty ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ empty events with good era_context > fabricated events
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
@@ -262,48 +203,27 @@ Open an Issue tagged `adversarial` or submit a review document.
 
 ```
 Human_history/
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ RESEARCH_PROMPT.md        # The ICCRA prompt template (DO NOT MODIFY)
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ LEDGER.md                 # Append-only daemon progress log
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ scripts/
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ orchestrator.sh       # Main daemon loop (5 agents, 20-min cycles)
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ run_year.sh           # Single-year agent runner
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ generate_prompt.sh    # {{YEAR}} / {{YEAR_LABEL}} substitution
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ git_sync.sh           # Auto-push to GitHub every 20 years
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ health_check.sh       # Quick status check
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ docker/
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Dockerfile            # Ubuntu 24.04 + Claude Code
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ docker-compose.yml    # Reboot-persistent container
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ entrypoint.sh         # Init + launch orchestrator
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ outputs/
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ json/                 # One file per year: 2025.json ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ -3200.json
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ failed/               # Failed attempts with error context
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ logs/                 # Per-year agent logs
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ state/
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ   ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ progress.json         # Completed / failed / in-progress tracking
-ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ synthesis/                # Post-completion: merged corpus, graph edges
+  RESEARCH_PROMPT.md          # ICCRA prompt template (locked)
+  LEDGER.md                   # Append-only progress log
+  scripts/
+    api_client.py             # Direct Anthropic API with tiered models
+    orchestrator_optimized.py # Main daemon loop (async Python)
+    run_optimized.py          # Single-year runner
+    batch_processor.py        # 5 years per API call
+    token_monitor.py          # Real-time cost dashboard
+    git_sync.sh               # Auto-push to GitHub
+    health_check.sh           # Quick status
+  docker/
+    Dockerfile                # Python 3.11 slim
+    docker-compose.yml        # Reboot-persistent
+  outputs/json/               # One file per year
+  state/
+    progress.json             # Completed / failed / in-progress
+    token_usage.json          # Per-request cost tracking
+    cache/                    # Response cache (SHA256-keyed)
 ```
 
-The daemon is **crash-safe and idempotent**:
-- Progress persists in `state/progress.json` on the host volume
-- Docker `restart: unless-stopped` survives reboots
-- Lock files prevent double-processing
-- Failed years are logged and retryable
-- Already-completed years are skipped automatically
-
----
-
-## Post-Completion Vision
-
-When the daemon finishes all 5,226 years:
-
-1. **Validate** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Schema check every JSON file
-2. **Merge** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Single unified timeline (`synthesis/human_history_complete.json`)
-3. **Graph** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Extract all edges into Neo4j for relationship traversal
-4. **Adversarial review** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ AI red-team pass for bias, gaps, and hallucination
-5. **Interactive timeline** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Web visualization of the full corpus
-6. **Academic review** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Open for domain expert correction and enrichment
-
-The end state is a **structured, sourced, machine-readable history of human civilization** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ not a replacement for scholarship, but a scaffold for it.
+**Crash-safe and idempotent:** Progress persists on host volume. Docker restarts on reboot. Locks prevent double-processing. Cache prevents re-spending on retries.
 
 ---
 
@@ -311,13 +231,13 @@ The end state is a **structured, sourced, machine-readable history of human civi
 
 A custom research workflow developed by Magnus, built on the ICCRA schema:
 
-- **ICCRA schema** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Intent, Context, Constraints, Reporting, Authority
-- **Anti-sycophancy protocol** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Mandatory disconfirming evidence
-- **Source typing** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
-- **Certainty calibration** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Five-level confidence with justification
-- **Geographic equity** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Explicit gap declaration for underrepresented regions
-- **Graph-native** ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ Every event has edges connecting it to causes and consequences
+- **ICCRA schema** -- Intent, Context, Constraints, Reporting, Authority
+- **Anti-sycophancy protocol** -- Mandatory disconfirming evidence
+- **Source typing** -- Primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
+- **Certainty calibration** -- Five-level confidence with justification
+- **Geographic equity** -- Explicit gap declaration for underrepresented regions
+- **Graph-native** -- Every event has edges connecting causes and consequences
 
 ---
 
-*Built by [Magnus SmÃÂÃÂÃÂÃÂ¡rason](https://smarason.is) ÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ one daemon, 5,226 years, zero fabrication.*
+*Built by [Magnus Smarason](https://smarason.is) -- one daemon, 5,226 years, zero fabrication.*
