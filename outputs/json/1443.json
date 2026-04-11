@@ -1,25 +1,55 @@
 {
   "year": 1443,
   "year_label": "1443 CE",
-  "era_context": "The mid-15th century continues with the Ottoman Empire at the height of its military power under Murad II, European states engaged in the final phases of the Hundred Years' War, and the Italian Renaissance flourishing. The Council of Constance's reforms are being implemented unevenly; the Ming Dynasty is consolidating its power in China; and Portuguese maritime exploration is accelerating.",
-  "documentation_level": "rich",
+  "era_context": "The mid-15th century is characterized by the transition from medieval to early modern Europe. The Hundred Years' War is in its final phase, the Ottoman Empire is expanding in the Balkans, and the Renaissance is flourishing in Italy. In East Asia, the Ming Dynasty is consolidating power and turning inward after the conclusion of Zheng He's voyages. The Aztec Empire under Montezuma I is at its height in Mesoamerica.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan African kingdoms (limited European documentation)",
-    "Central Asian and Steppe polities (sparse written records in European sources)",
-    "Pacific Islander societies (no contemporary written records)"
+    "Sub-Saharan Africa (limited written records in European sources)",
+    "Southeast Asia (sparse European documentation)",
+    "Pacific Islands and Oceania (minimal contemporary written records)",
+    "Indigenous Americas (limited written records; oral traditions not systematically documented)"
   ],
   "events": [
     {
       "id": "1443-001",
-      "title": "Peace of Edirne (Ottoman-Hungarian truce)",
-      "region": "Ottoman Empire / Hungary",
-      "coordinates_approx": "41.7\u00b0N, 26.6\u00b0E",
-      "category": "political",
-      "description": "The Ottoman Sultan Murad II and Hungarian military commander John Hunyadi negotiate a peace treaty at Edirne (Adrianople), establishing a truce between the Ottoman Empire and Hungary. The treaty is intended to be a lasting peace, but it proves short-lived; within a year, the agreement is broken, leading to the resumption of hostilities and ultimately the Battle of Varna in 1444. The treaty represents a moment of Ottoman-Christian negotiation and the temporary recognition of Ottoman power in the Balkans.",
+      "title": "Hundred Years' War: English military decline",
+      "region": "Kingdom of France and Kingdom of England",
+      "coordinates_approx": "null",
+      "category": "military",
+      "description": "English military power in France continued to decline during this period. The English, weakened by internal conflict (Wars of the Roses) and French military resurgence under Charles VII, were losing territory and influence. By 1443, English control in France was reduced to a few coastal enclaves and Calais. This period marked the final phase of English dominance in France, which had lasted over a century.",
       "key_figures": [
-        "Murad II (Ottoman Sultan)",
-        "John Hunyadi (Hungarian military commander)",
-        "W\u0142adys\u0142aw III (King of Poland and Hungary)"
+        "Charles VII (King of France)",
+        "Henry VI (King of England)",
+        "John Talbot (English military commander)"
+      ],
+      "sources": [
+        {
+          "name": "English and French royal chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "English military decline in France during this period is well-documented in both English and French sources.",
+      "cross_references": [
+        "Part of broader Hundred Years' War (1337\u20131453)",
+        "Related to: 1444-002 (Treaty of Tours)"
+      ]
+    },
+    {
+      "id": "1443-002",
+      "title": "Ottoman Empire: consolidation of Balkan territories",
+      "region": "Ottoman Empire, Balkans",
+      "coordinates_approx": "null",
+      "category": "political",
+      "description": "The Ottoman Empire under Murad II was consolidating its control over Balkan territories. By 1443, Ottoman power in the Balkans was firmly established, with Christian kingdoms reduced to tributary status or direct Ottoman control. This period marked the height of Ottoman expansion in Europe before the final assault on Constantinople.",
+      "key_figures": [
+        "Murad II (Ottoman Sultan, r. 1421\u20131444, 1446\u20131451)"
       ],
       "sources": [
         {
@@ -28,205 +58,139 @@
           "contemporary": false
         },
         {
-          "name": "Hungarian chronicles (Jan D\u0142ugosz)",
+          "name": "Byzantine and European sources",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Venetian diplomatic reports",
-          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Peace of Edirne is well-attested in Ottoman, Hungarian, and Venetian sources. The date is firmly established as 1443.",
+      "certainty_note": "Ottoman consolidation of Balkan territories during this period is well-documented in Ottoman and European sources.",
       "cross_references": [
-        "Led to 1444-001 (Battle of Varna)",
-        "Part of broader Ottoman-Hungarian conflicts (1389\u20131683)"
-      ]
-    },
-    {
-      "id": "1443-002",
-      "title": "Skanderbeg's rebellion against Ottoman rule",
-      "region": "Albania",
-      "coordinates_approx": "41.3\u00b0N, 19.8\u00b0E",
-      "category": "military",
-      "description": "Gjergj Kastrioti, known as Skanderbeg, a former Ottoman officer, leads a rebellion against Ottoman rule in Albania. He declares himself the leader of the Albanian resistance and begins a 25-year struggle for Albanian independence. Skanderbeg's rebellion is one of the most significant Christian resistances to Ottoman expansion in the Balkans, though ultimately unsuccessful in preventing Ottoman control. His military tactics and leadership inspire later resistance movements and make him a legendary figure in Albanian national identity.",
-      "key_figures": [
-        "Skanderbeg (Gjergj Kastrioti, Albanian military leader)",
-        "Murad II (Ottoman Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Venetian diplomatic reports",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later Albanian and European chronicles",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Skanderbeg's rebellion is well-attested in Ottoman and Venetian sources. The date of 1443 is traditionally given for the beginning of his revolt, though some sources place it slightly later.",
-      "cross_references": [
-        "Part of broader Ottoman-Balkan conflicts",
-        "Led to 1468-001 (Skanderbeg's death)"
+        "Related to: 1444-001 (Battle of Varna)",
+        "Leads to: 1453-001 (Fall of Constantinople)"
       ]
     },
     {
       "id": "1443-003",
-      "title": "Council of Florence convenes",
-      "region": "Papal States (Florence)",
-      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E",
-      "category": "religious",
-      "description": "The Council of Florence (also called the Council of Union) convenes under Pope Eugenius IV, bringing together Eastern Orthodox and Roman Catholic representatives to attempt reconciliation of the Great Schism of 1054. The council includes Byzantine Emperor John VIII Palaiologus and Patriarch Joseph II of Constantinople. The council results in the Decree of Union (Laetentur Caeli) in 1439, though the union proves short-lived and is repudiated by the Eastern Orthodox Church after the Fall of Constantinople in 1453.",
+      "title": "Portuguese exploration: expansion of African trade",
+      "region": "West Africa and Atlantic coast",
+      "coordinates_approx": "null",
+      "category": "exploration",
+      "description": "Portuguese explorers, under the patronage of Prince Henry the Navigator, continued expanding their presence along the West African coast. By 1443, Portuguese trading posts and forts were being established to facilitate trade in gold, ivory, and enslaved people. This period marks the intensification of Portuguese maritime expansion that would lead to the rounding of the Cape of Good Hope.",
       "key_figures": [
-        "Pope Eugenius IV (Roman Catholic Pope)",
-        "John VIII Palaiologus (Byzantine Emperor)",
-        "Joseph II (Patriarch of Constantinople)"
+        "Henry the Navigator (Prince of Portugal)",
+        "Portuguese explorers and merchants"
       ],
       "sources": [
         {
-          "name": "Council of Florence records and decrees",
+          "name": "Portuguese royal records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of Portuguese exploration",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Papal chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Byzantine sources (Laonikos Chalkokondyles)",
-          "type": "chronicle",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Council of Florence is well-documented in papal and council records. The council convened in 1438 and continued through 1445; 1443 marks a significant phase of negotiations.",
+      "certainty_note": "Portuguese exploration of the African coast during this period is well-documented in Portuguese sources.",
       "cross_references": [
-        "Preceded by 1438-001 (Council begins)",
-        "Led to 1439-001 (Decree of Union)",
-        "Followed by 1453-001 (Fall of Constantinople, union repudiated)"
+        "Part of broader Age of Exploration (15th\u201317th centuries)",
+        "Related to: 1444-004 (Portuguese establishment of trading posts)"
       ]
     },
     {
       "id": "1443-004",
-      "title": "Afonso V becomes King of Portugal",
-      "region": "Portugal",
-      "coordinates_approx": "39.7\u00b0N, 8.9\u00b0W",
+      "title": "Ming Dynasty: internal consolidation",
+      "region": "China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
       "category": "political",
-      "description": "Afonso V, known as 'Afonso the African,' becomes King of Portugal at age six following the death of his father, Edward of Portugal. His reign is marked by continued Portuguese expansion in North Africa and the Atlantic, including the conquest of Tangier and the continuation of Prince Henry the Navigator's exploration programs. Afonso V's reign sees the acceleration of Portuguese colonial ambitions and the beginning of the Portuguese slave trade.",
+      "description": "The Ming Dynasty under the Zhengtong Emperor (r. 1435\u20131449) was consolidating Confucian orthodoxy and centralizing imperial authority. By 1443, the court had definitively ended maritime expeditions and was focusing on land-based defense and internal administration. This shift reflected the triumph of Confucian scholars over eunuch factions.",
       "key_figures": [
-        "Afonso V (King of Portugal)",
-        "Edward of Portugal (his father, deceased)",
-        "Prince Henry the Navigator (uncle, regent and patron of exploration)"
+        "Zhengtong Emperor (Ming Emperor, r. 1435\u20131449)"
       ],
       "sources": [
         {
-          "name": "Portuguese royal chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea",
+          "name": "Ming official records (Mingshi)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Portuguese state records",
+          "name": "Contemporary Ming court records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Afonso V's accession is well-documented in Portuguese royal records. The date of 1443 is firmly established.",
+      "certainty_note": "Ming Dynasty policies during this period are well-documented in official records.",
       "cross_references": [
-        "Part of Portuguese royal succession",
-        "Led to 1471-001 (Conquest of Tangier)"
+        "Related to: 1446-003 (Zheng He's voyages conclude)"
       ]
     },
     {
       "id": "1443-005",
-      "title": "Inca expansion under Pachacuti",
-      "region": "Inca Empire (South America)",
-      "coordinates_approx": "-13.2\u00b0S, -72.1\u00b0W",
-      "category": "military",
-      "description": "Pachacuti Inca Yupanqui, the ninth Inca emperor, continues his military campaigns to expand the Inca Empire. By 1443, he has already defeated the Chancas and is consolidating control over the Andean region. His reign marks the beginning of the Inca Empire's rapid expansion, which will eventually create the largest pre-Columbian state in the Americas. Pachacuti's military innovations and administrative reforms transform the Inca state into a centralised empire.",
+      "title": "Renaissance in Italy: artistic and intellectual flourishing",
+      "region": "Italy, particularly Florence and Rome",
+      "coordinates_approx": "null",
+      "category": "cultural",
+      "description": "The Italian Renaissance was in full flourish during this period. Artists, scholars, and patrons were engaged in the revival of classical learning and the development of new artistic techniques. By 1443, figures such as Donatello, Brunelleschi, and Masaccio had already made significant contributions to Renaissance art and architecture. This period marked the height of Florentine cultural influence.",
       "key_figures": [
-        "Pachacuti Inca Yupanqui (Inca Emperor)",
-        "Viracocha Inca (his father, previous emperor)"
+        "Donatello (sculptor)",
+        "Filippo Brunelleschi (architect)",
+        "Masaccio (painter, deceased 1428 but legacy continued)",
+        "Cosimo de' Medici (patron of the arts)"
       ],
       "sources": [
         {
-          "name": "Quipucamayoc (Inca oral tradition recorded by Spanish chroniclers)",
-          "type": "oral_tradition",
-          "contemporary": false
+          "name": "Contemporary accounts of Renaissance artists and patrons",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Pedro Cieza de Le\u00f3n, Chronicle of Peru",
+          "name": "Vasari's Lives of the Artists (later compilation)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Felipe Guaman Poma de Ayala, Nueva Cor\u00f3nica y Buen Gobierno",
-          "type": "later_compilation",
+          "name": "Modern historiographic consensus on the Renaissance",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Inca chronology is notoriously uncertain, as the Inca did not use a written calendar system. The date of 1443 is assigned by modern scholars based on Spanish colonial sources and oral traditions recorded centuries after the events. The actual date could vary by several decades.",
+      "certainty": "confirmed",
+      "certainty_note": "The flourishing of Renaissance art and culture in Italy during this period is well-documented in contemporary accounts and later chronicles.",
       "cross_references": [
-        "Part of broader Inca expansion (1438\u20131533)",
-        "Led to 1532-001 (Spanish conquest of the Inca Empire)"
+        "Part of broader Italian Renaissance (14th\u201317th centuries)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Peace of Edirne is sometimes portrayed as a definitive peace, but it was broken within a year, suggesting that both sides may have viewed it as a temporary arrangement rather than a lasting settlement. Skanderbeg's rebellion, while celebrated in later Albanian nationalism, was not as militarily successful as sometimes portrayed; Ottoman control of Albania was never seriously threatened. The Council of Florence's Decree of Union is often presented as a triumph of Catholic diplomacy, but the union was repudiated almost immediately by the Eastern Orthodox Church and had little practical effect. Afonso V's reign is sometimes romanticised as an age of exploration, but Portuguese expansion was driven primarily by economic motives (gold, slaves) rather than the noble ideals often attributed to it. Pachacuti's dates are highly uncertain; some scholars place his reign earlier or later, and the extent of his conquests by 1443 is debated.",
-  "historiographic_note": "The year 1443 is well-documented in European sources (Ottoman, Hungarian, Italian, Portuguese, papal records) but less thoroughly in Asian sources available to Western scholarship. The Council of Florence is extensively recorded in papal and council documents, but Byzantine perspectives are filtered through later compilations. African and American perspectives on Portuguese and Inca expansion are almost entirely absent from contemporary written sources; these regions are reconstructed from later oral traditions, archaeological evidence, and colonial-era accounts. The historiography of this period is heavily shaped by European and Ottoman state records; the experiences of common people, women, and non-elite groups are largely invisible. Inca chronology is particularly problematic, as the Inca did not use a written calendar system, and Spanish colonial sources are often contradictory.",
+  "disconfirming_evidence": "The characterization of the Hundred Years' War as definitively ending in 1453 obscures the fact that English claims to French territory persisted for centuries afterward. The Portuguese exploration of Africa is often characterized as purely commercial, but it was inextricably linked to the slave trade and colonial exploitation. The Italian Renaissance is sometimes portrayed as a purely intellectual and artistic movement, but it was deeply intertwined with political power, patronage, and economic interests.",
+  "historiographic_note": "Documentation for 1443 is moderate, with strong coverage of European political, military, and cultural events. Chinese sources are abundant for Ming Dynasty activities. However, African, Southeast Asian, and American sources are sparse or absent from European historiography. The surviving record reflects the interests of court-sponsored chroniclers, religious institutions, and Renaissance patrons. The role of non-European actors in global events is often marginalized or absent.",
   "graph_edges": [
     {
       "from": "1443-001",
-      "to": "1444-001",
+      "to": "1453-002",
       "relation": "led_to",
-      "note": "The Peace of Edirne was broken within a year, leading to the resumption of hostilities and the Battle of Varna in 1444."
+      "note": "English military decline in France culminated in fall of Calais in 1453"
     },
     {
       "from": "1443-002",
-      "to": "1468-001",
+      "to": "1453-001",
       "relation": "led_to",
-      "note": "Skanderbeg's rebellion, which began in 1443, continued for 25 years until his death in 1468."
+      "note": "Ottoman consolidation of Balkans led to final assault on Constantinople"
     },
     {
       "from": "1443-003",
-      "to": "1453-001",
+      "to": "1488-001",
       "relation": "led_to",
-      "note": "The Council of Florence's attempt at reconciliation was undermined by the Fall of Constantinople in 1453, which the Eastern Orthodox Church blamed on Catholic betrayal."
-    },
-    {
-      "from": "1443-004",
-      "to": "1471-001",
-      "relation": "led_to",
-      "note": "Afonso V's accession in 1443 initiated a reign marked by continued Portuguese expansion, including the conquest of Tangier in 1471."
+      "note": "Portuguese exploration of African coast led to rounding of Cape of Good Hope"
     },
     {
       "from": "1443-005",
-      "to": "1532-001",
-      "relation": "led_to",
-      "note": "Pachacuti's expansion of the Inca Empire in 1443 created the state that would be conquered by Spanish conquistadors in 1532."
+      "to": "1504-001",
+      "relation": "part_of",
+      "note": "Italian Renaissance continued through 15th and 16th centuries"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:57:55.298027",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

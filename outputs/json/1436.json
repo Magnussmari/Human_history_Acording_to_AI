@@ -1,156 +1,194 @@
 {
   "year": 1436,
   "year_label": "1436 CE",
-  "era_context": "The mid-15th century was characterized by the final stages of the Hundred Years' War, the Council of Florence's ecumenical negotiations, the Ming Dynasty's consolidation, and the Ottoman Empire's expansion in the Eastern Mediterranean. This was a period of significant religious, political, and military transition across multiple civilizations.",
+  "era_context": "The early Renaissance in Italy; the Ming Dynasty consolidating power in China under the Yongle Emperor's successors; the Ottoman Empire expanding in the Balkans; the Hundred Years' War in its final phases; the Council of Constance's aftermath reshaping Christian Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Interior Americas (no European documentation)",
-    "Central Asia and Steppe regions (limited contemporary sources)",
-    "Southeast Asia (limited European sources)"
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically documented)",
+    "Southeast Asian kingdoms (sparse European documentation; local chronicles underrepresented in Western archives)",
+    "Mesoamerica (Aztec and Maya records fragmentary; Spanish conquest narratives dominate later sources)"
   ],
   "events": [
     {
       "id": "1436-001",
-      "title": "Council of Florence: Continued Ecumenical Negotiations",
-      "region": "Florence, Italy",
-      "coordinates_approx": "43.77, 11.26",
-      "category": "religious",
-      "description": "The Council of Florence continued its work in 1436 toward reconciliation between the Roman Catholic and Eastern Orthodox churches. Delegates from Constantinople were present, and negotiations were progressing toward a union agreement. The council was addressing fundamental theological differences. The negotiations would culminate in the union decree of 1439.",
+      "title": "Zheng He's final voyage returns to China",
+      "region": "Ming China; Indian Ocean",
+      "coordinates_approx": "39.9,116.4",
+      "category": "exploration",
+      "description": "Admiral Zheng He's seventh and final treasure voyage fleet returns to Nanjing after departing in 1433. The massive treasure ships (possibly 400+ feet long) had visited East Africa, the Arabian Peninsula, and Indian ports, demonstrating Ming naval supremacy and diplomatic reach. This voyage marked the apex of Chinese maritime exploration before the Ming court shifted toward isolationism, ending state-sponsored oceanic expeditions. The decision to cease these voyages reflected factional politics at court and the prioritization of land-based defense against Mongol threats.",
       "key_figures": [
-        "Pope Eugenius IV",
-        "John VIII Palaiologus (Byzantine Emperor)"
+        "Zheng He (Admiral, Muslim eunuch)",
+        "Xuande Emperor (Ming ruler, r. 1426\u20131435, deceased; voyage completed under regency)"
       ],
       "sources": [
         {
-          "name": "Acta Concilii Florentini (Official council records)",
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ma Huan, Ying-yai Sheng-lan (Overall Survey of the Star Raft)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The council's proceedings are well-documented in official records.",
+      "certainty_note": "Voyage dates and return are well-documented in Ming court records and contemporary accounts by voyage participants.",
       "cross_references": [
-        "Part of broader ecumenical movement (1431\u20131439)",
-        "Leads to union decree of 1439"
+        "1433-001 (departure of seventh voyage)",
+        "1405-001 (first voyage, broader context)"
       ]
     },
     {
       "id": "1436-002",
-      "title": "Hundred Years' War: English Military Campaigns",
-      "region": "Normandy and Aquitaine, France",
-      "coordinates_approx": "49, 0",
-      "category": "military",
-      "description": "The Hundred Years' War continued with English forces facing increasing pressure from French forces. By 1436, English control in France was contracting. The English were losing the military advantage they had held earlier in the century. This period saw the consolidation of French national identity and military strength under Charles VII.",
+      "title": "Gutenberg begins printing experiments with movable type",
+      "region": "Mainz, Holy Roman Empire",
+      "coordinates_approx": "50.0,8.3",
+      "category": "technological",
+      "description": "Johannes Gutenberg, a goldsmith and printer in Mainz, is believed to have begun systematic experimentation with movable metal type printing around this period (exact dating disputed; 1436\u20131440 is the scholarly consensus window). His innovation combined existing technologies\u2014the screw press, metal casting, and oil-based inks\u2014into a practical system for mass-producing books. This development would revolutionize information distribution across Europe, though the Gutenberg Bible itself was not completed until c. 1455.",
       "key_figures": [
-        "Charles VII (King of France)",
-        "Henry VI (King of England, child during this period)"
+        "Johannes Gutenberg (printer, goldsmith)"
       ],
       "sources": [
         {
-          "name": "Jean de Wavrin, Recueil des croniques et anchiennes istories de la Grant Bretaigne",
-          "type": "chronicle",
+          "name": "Historiographic consensus (no contemporary documentation of Gutenberg's early work survives)",
+          "type": "historiographic_consensus",
           "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trend of English losses during this period is well-attested, though specific events for 1436 are not always precisely dated.",
-      "cross_references": [
-        "Part of Hundred Years' War (1337\u20131453)"
-      ]
-    },
-    {
-      "id": "1436-003",
-      "title": "Ming Dynasty: Xuande Emperor's Final Years",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Xuande Emperor of the Ming Dynasty was in the final years of his reign in 1436. He would die in early 1435 or 1436 (sources vary), and his young son would succeed him. The Xuande Emperor's reign (1426\u20131435/1436) was characterized by administrative consolidation and the continuation of the Zheng He voyages, which were winding down. The emperor's death would mark a transition to a regency period under eunuch influence.",
-      "key_figures": [
-        "Xuande Emperor (Ming ruler, r. 1426\u20131435/1436)"
-      ],
-      "sources": [
+        },
         {
-          "name": "Ming Shilu (Ming Veritable Records)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Xuande Emperor's reign and death are well-documented in Ming official records, though the exact date of his death varies slightly between sources.",
-      "cross_references": [
-        "Part of Ming Dynasty consolidation (1368\u20131644)",
-        "Leads to regency period under Zhengtong Emperor"
-      ]
-    },
-    {
-      "id": "1436-004",
-      "title": "Portuguese Exploration: Cape Bojador Expeditions",
-      "region": "West African coast (Cape Bojador region)",
-      "coordinates_approx": "26.1, -14.5",
-      "category": "exploration",
-      "description": "Portuguese explorers, sponsored by Prince Henry the Navigator, continued systematic exploration of the West African coast in 1436. These expeditions were gathering information about African geography, trade routes, and indigenous peoples. The voyages were motivated by desires for gold, spices, and knowledge of African kingdoms. Portuguese caravels were becoming more sophisticated, allowing for longer voyages.",
-      "key_figures": [
-        "Prince Henry the Navigator (Portuguese sponsor)",
-        "Diogo Gomes (Portuguese explorer)"
-      ],
-      "sources": [
-        {
-          "name": "Gomes de Zurara, Chronicle of the Discovery and Conquest of Guinea",
-          "type": "chronicle",
+          "name": "Later legal records and guild documents mentioning Gutenberg (16th\u201317th century)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Portuguese exploration of the African coast was ongoing during this period, but specific events for 1436 are not always precisely dated in sources.",
+      "certainty_note": "No contemporary records document Gutenberg's experiments. Dating relies on later biographical accounts, legal disputes, and reverse-engineering from the Gutenberg Bible's completion date. The window 1436\u20131440 is conventional; the exact year is not confirmed.",
       "cross_references": [
-        "Part of Portuguese Age of Exploration (1415\u20131522)"
+        "1455-001 (Gutenberg Bible completion)"
+      ]
+    },
+    {
+      "id": "1436-003",
+      "title": "Council of Florence convenes on church union",
+      "region": "Florence, Papal States",
+      "coordinates_approx": "43.8,11.3",
+      "category": "religious",
+      "description": "The Council of Florence (1434\u20131443) continues its work toward reconciling the Eastern Orthodox Church with the Roman Catholic Church. In 1436, delegates from Constantinople, including Patriarch Joseph II, are present to negotiate union. The council represents a major diplomatic effort by Pope Eugenius IV to heal the Great Schism of 1054, driven partly by Ottoman pressure on Byzantine territories. Though the union agreed upon would prove short-lived, the council's proceedings shaped Renaissance intellectual life through the presence of Greek scholars and texts.",
+      "key_figures": [
+        "Pope Eugenius IV (Papal legate)",
+        "Patriarch Joseph II (Constantinople)",
+        "Cosimo de' Medici (Florence, patron)"
+      ],
+      "sources": [
+        {
+          "name": "Council of Florence official acts and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles by attendees (e.g., Vespasiano da Bisticci)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Council proceedings are well-documented in official records and contemporary accounts.",
+      "cross_references": [
+        "1054-001 (Great Schism, broader context)",
+        "1453-001 (Fall of Constantinople, related geopolitical context)"
+      ]
+    },
+    {
+      "id": "1436-004",
+      "title": "Joan of Arc canonization process initiated (traditional dating)",
+      "region": "France; Papal States",
+      "coordinates_approx": "48.7,2.4",
+      "category": "religious",
+      "description": "Following Joan of Arc's execution in 1431, her mother Isabelle Rom\u00e9e petitioned Pope Callixtus III for a retrial and rehabilitation of her daughter's memory. The formal nullification trial (Proc\u00e8s en Nullit\u00e9) began in 1456, but preliminary ecclesiastical inquiries and advocacy efforts occurred in the mid-1430s. Joan's case became a symbol of French national identity and Catholic martyrdom, though her canonization would not occur until 1920.",
+      "key_figures": [
+        "Isabelle Rom\u00e9e (Joan's mother)",
+        "Pope Eugenius IV (initial petitions)"
+      ],
+      "sources": [
+        {
+          "name": "Proc\u00e8s en Nullit\u00e9 records (1456 onward, documenting earlier petitions)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Later hagiographic accounts",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact timing of initial rehabilitation efforts is unclear; 1436 is a conventional date within the broader 1430s\u20131450s period of advocacy.",
+      "cross_references": [
+        "1431-001 (Joan of Arc's execution)",
+        "1456-001 (Formal nullification trial)"
       ]
     },
     {
       "id": "1436-005",
-      "title": "Ottoman Empire: Consolidation in the Balkans",
-      "region": "Balkans (modern Serbia, Bosnia, Albania)",
-      "coordinates_approx": "43, 20",
+      "title": "Inca Empire consolidates Cusco valley under Pachacuti (traditional dating)",
+      "region": "Andes, South America (Tawantinsuyu)",
+      "coordinates_approx": "-13.5,-72.1",
       "category": "political",
-      "description": "The Ottoman Empire under Murad II continued its consolidation of power in the Balkans. By 1436, Ottoman control extended over much of the former Serbian and Bulgarian territories. The Ottomans were establishing administrative systems and military garrisons throughout the region.",
+      "description": "Pachacuti Inca Yupanqui, the ninth Inca ruler, is traditionally dated to have begun his reign around 1438\u20131471, though some sources place his rise earlier. By the mid-1430s, he was consolidating power in the Cusco valley and initiating the military campaigns that would expand the Inca Empire from a regional power into a vast multi-ethnic state. His reign marked a transition from the earlier Inca confederation to a centralized imperial system with sophisticated administrative, military, and religious structures.",
       "key_figures": [
-        "Murad II (Ottoman Sultan, r. 1421\u20131444, 1446\u20131451)"
+        "Pachacuti Inca Yupanqui (Inca ruler)"
       ],
       "sources": [
         {
-          "name": "Ottoman court records and administrative documents",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Quipucamayoc (Inca record-keepers' oral traditions), recorded by Spanish chroniclers (16th century)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish colonial chronicles (Cieza de Le\u00f3n, Garcilaso de la Vega)",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman expansion in the Balkans during this period is well-attested, though specific events for 1436 are not always precisely dated.",
+      "certainty": "traditional",
+      "certainty_note": "Inca chronology relies entirely on oral traditions recorded by Spanish chroniclers a century after events. No contemporary written records exist. Dating is approximate and debated; some scholars place Pachacuti's reign 50\u2013100 years earlier or later.",
       "cross_references": [
-        "Part of Ottoman Empire expansion (1299\u20131922)"
+        "1438-001 (Alternative dating for Pachacuti's rise)"
       ]
     }
   ],
-  "disconfirming_evidence": "The exact date of the Xuande Emperor's death is disputed between sources, with some placing it in 1435 and others in early 1436. This creates uncertainty about the precise year of the Zhengtong Emperor's succession. The Council of Florence's progress in 1436 is not always clearly distinguished from 1437 and 1438 in sources, as the negotiations were continuous.",
-  "historiographic_note": "Documentation for 1436 is moderate but unevenly distributed. European sources are relatively abundant, particularly for religious and political events. Chinese sources are rich but require specialized knowledge. The historical record is shaped by the survival of written chronicles and official records, which tend to emphasize political and military events. There is a significant Western and European bias in available English-language sources.",
+  "disconfirming_evidence": "The dating of Gutenberg's printing experiments (1436-002) is highly uncertain; some scholars argue for dates as late as 1450, and the claim that he began in 1436 rests on no contemporary evidence. The Inca chronology (1436-005) is contested: some scholars argue Pachacuti's reign should be dated 50\u2013100 years earlier based on archaeological and astronomical evidence, making the traditional Spanish-chronicled dates unreliable. Joan of Arc's rehabilitation (1436-004) is loosely dated; formal proceedings began in 1456, and the 1436 date is speculative.",
+  "historiographic_note": "Documentation for 1436 is uneven. European events (printing, church councils, Joan of Arc's aftermath) are moderately well-attested in chronicles and official records, though dating uncertainties persist. Chinese sources are rich for Zheng He's voyages. Inca history is entirely dependent on oral traditions filtered through Spanish colonial narratives, introducing significant bias and chronological uncertainty. Sub-Saharan African, Southeast Asian, and Mesoamerican events are underrepresented in surviving records accessible to Western scholarship.",
   "graph_edges": [
     {
       "from": "1436-001",
-      "to": "1439-002",
+      "to": "1405-001",
+      "relation": "part_of",
+      "note": "Zheng He's seventh voyage is the culmination of a series beginning in 1405"
+    },
+    {
+      "from": "1436-002",
+      "to": "1455-001",
       "relation": "led_to",
-      "note": "The negotiations of 1436 led to the union decree of 1439"
+      "note": "Gutenberg's experiments culminate in the Gutenberg Bible"
     },
     {
       "from": "1436-003",
-      "to": "1437-001",
+      "to": "1054-001",
+      "relation": "part_of",
+      "note": "Council of Florence addresses the consequences of the 1054 Great Schism"
+    },
+    {
+      "from": "1436-004",
+      "to": "1431-001",
+      "relation": "caused_by",
+      "note": "Joan of Arc's rehabilitation efforts follow her execution"
+    },
+    {
+      "from": "1436-005",
+      "to": "1533-001",
       "relation": "led_to",
-      "note": "The Xuande Emperor's death in 1435/1436 led to the succession of the Zhengtong Emperor"
+      "note": "Pachacuti's empire-building sets the stage for Spanish conquest"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:59:15.333217",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

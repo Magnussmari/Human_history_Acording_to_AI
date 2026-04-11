@@ -1,92 +1,98 @@
 {
   "year": 1431,
   "year_label": "1431 CE",
-  "era_context": "The early 15th century continues with the Ming Dynasty under the Xuande Emperor (r. 1426\u20131435), the Ottoman Empire consolidating power, the Italian Renaissance in its early flowering, and the Hussite Wars ongoing in Central Europe. The Council of Constance is in its final years. Portuguese exploration of the African coast is beginning. The Aztec Empire is consolidating control over central Mexico.",
+  "era_context": "The early 15th century in Europe is marked by the Council of Constance's aftermath, the Hussite Wars in Bohemia, the early Italian Renaissance, and the consolidation of early modern nation-states. In East Asia, the Ming Dynasty under the Yongle Emperor's successors continues maritime exploration and administrative centralisation. The Ottoman Empire expands in the Balkans. This is a period of religious reformation, technological innovation (printing press emerging), and political fragmentation in Europe alongside cultural flourishing.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Interior Southeast Asia",
-    "Oceania and Pacific islands",
-    "North American interior"
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Interior Americas (Aztec and Inca records exist but are fragmentary; Spanish conquest narratives dominate later sources)",
+    "Southeast Asian kingdoms (some chronicle material exists but is underrepresented in Western scholarship)"
   ],
   "events": [
     {
       "id": "1431-001",
-      "title": "Joan of Arc executed; end of her military campaigns",
-      "region": "France / Hundred Years' War",
+      "title": "Execution of Joan of Arc",
+      "region": "Rouen, Normandy, Kingdom of France",
       "coordinates_approx": "49.44, 1.09",
-      "category": "military",
-      "description": "Joan of Arc, the French peasant girl who claimed divine inspiration and led French military campaigns during the Hundred Years' War, is executed by burning in Rouen on 30 May 1431. Joan had been captured by Burgundian forces in 1430 and handed over to the English. She was tried for heresy and witchcraft by an ecclesiastical court dominated by English interests. Her execution marks the end of her military campaigns, which had begun in 1429 and had achieved significant victories, including the relief of Orl\u00e9ans and the coronation of Charles VII at Reims. Joan's death does not end the Hundred Years' War, but it marks a symbolic turning point: the French, inspired by Joan's legacy, continue to fight and eventually expel the English from France by 1453. Joan's execution is one of the most famous events of the medieval period and has become a symbol of French nationalism and religious martyrdom.",
+      "category": "political",
+      "description": "Joan of Arc, the French military leader who had rallied Valois forces during the Hundred Years' War, was burned at the stake on 30 May 1431 after being tried for heresy and witchcraft by an English-aligned ecclesiastical court. Her execution marked a symbolic turning point in Franco-English conflict, though the war continued for another two decades. Joan's death became a rallying point for French national identity and was later reversed by papal inquiry in 1456. Her trial records survive in detail, making this one of the best-documented executions of the medieval period.",
       "key_figures": [
-        "Joan of Arc (French military leader, executed)",
-        "Charles VII (King of France, beneficiary of Joan's campaigns)",
-        "Henry VI (King of England, nominal beneficiary of Joan's capture)",
-        "Pierre Cauchon (Bishop of Beauvais, presiding judge)"
+        "Joan of Arc (military leader, executed)",
+        "Henry VI (King of England, nominal authority)",
+        "Pierre Cauchon (Bishop of Beauvais, presiding judge)",
+        "Charles VII (King of France, did not intervene)"
       ],
       "sources": [
         {
-          "name": "Trial records of Joan of Arc (contemporary primary source, official trial documentation)",
+          "name": "Trial records of Joan of Arc (Proc\u00e8s de condamnation), contemporary court documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jean de Metz and Jean de Belleville, contemporary accounts of Joan's military campaigns",
+          "name": "Jean de Metz and Jean de Belleville, contemporary witnesses",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chroniques of Jean Froissart and other contemporary chroniclers",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Papal inquiry records (Proc\u00e8s en nullit\u00e9), 1456",
+          "type": "primary_text",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Joan of Arc's execution is one of the best-documented events of the medieval period. The date (30 May 1431) is firmly established in trial records and contemporary chronicles.",
+      "certainty_note": "Execution date of 30 May 1431 is confirmed by multiple contemporary sources and trial records. The trial itself is exceptionally well-documented.",
       "cross_references": [
-        "1429-001 (Joan of Arc's military campaigns begin)",
-        "1453-001 (End of Hundred Years' War)"
+        "1429-001 (Joan's military victories at Orl\u00e9ans)",
+        "1456-XXX (Papal reversal of conviction, if included in dataset)"
       ]
     },
     {
       "id": "1431-002",
-      "title": "Council of Constance: final sessions and ecclesiastical reform",
-      "region": "Holy Roman Empire / Central Europe",
-      "coordinates_approx": "47.66, 9.17",
+      "title": "Council of Constance concludes; Hussite Wars intensify",
+      "region": "Bohemia, Central Europe",
+      "coordinates_approx": "49.75, 15.47",
       "category": "religious",
-      "description": "The Council of Constance, which began in 1414, continues its final sessions in 1431. The council has already condemned Jan Hus (1415) and Jerome of Prague (1416) for heresy and has worked to heal the Western Schism. In 1431, the council is addressing remaining ecclesiastical reform issues and preparing for its formal conclusion in 1434. The council's work represents a major reassertion of papal authority and an attempt to address corruption and schism within the Catholic Church.",
+      "description": "The Council of Constance (1414\u20131418) had condemned Jan Hus and attempted to suppress Hussite reform. By 1431, the Hussite Wars were in their second decade, with radical Taborite and moderate Utraquist factions fighting Catholic forces and each other. The Council of Basel (1431\u20131449) convened partly to address the Hussite crisis. The conflict represented one of the earliest sustained challenges to papal authority and foreshadowed the Protestant Reformation by nearly a century. Military innovations, including the use of wagons as mobile fortifications, emerged from Hussite tactics.",
       "key_figures": [
-        "Pope Martin V (presiding authority)",
-        "Sigismund, Holy Roman Emperor (political authority)"
+        "Jan \u017di\u017eka (Hussite military commander, died 1424 but legacy dominant)",
+        "Prokop the Great (Hussite commander, active 1431)",
+        "Sigismund of Luxembourg (Holy Roman Emperor, leading Catholic response)"
       ],
       "sources": [
         {
-          "name": "Ulrich of Richenthal, Chronik des Konstanzer Konzils (contemporary chronicle)",
+          "name": "Laurence of B\u0159ezov\u00e1, Hussite Chronicle (contemporary account)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Acta Concilii Constanciensis (official council records)",
+          "name": "Council of Basel records and decrees",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Catholic polemical accounts (e.g., Aeneas Silvius Piccolomini, later Pope Pius II)",
+          "type": "primary_text",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Council of Constance's sessions are extensively documented. The 1431 date is confirmed in official records.",
+      "certainty_note": "The Council of Basel's opening and the ongoing Hussite Wars are well-documented. Specific battles and diplomatic efforts in 1431 are attested in contemporary chronicles.",
       "cross_references": [
-        "1434-001 (Council concludes)",
-        "1415-001 (Jan Hus execution)"
+        "1414-XXX (Council of Constance begins)",
+        "1434-XXX (Battle of Lipany, Hussite factional conflict)"
       ]
     },
     {
       "id": "1431-003",
-      "title": "Zheng He's treasure fleet: fifth major voyage begins",
-      "region": "Ming China / Indian Ocean",
-      "coordinates_approx": "39.90, 116.41",
+      "title": "Zheng He's treasure voyages continue under Ming Dynasty",
+      "region": "Indian Ocean, Southeast Asia, East Africa",
+      "coordinates_approx": "0, 70",
       "category": "exploration",
-      "description": "Zheng He's treasure fleet departs on its fifth major voyage (1431\u20131433), which will explore the Indian Ocean, reaching East Africa, the Arabian Peninsula, and the Indian subcontinent. The fleet comprises hundreds of ships and tens of thousands of personnel. The voyage demonstrates Ming China's technological superiority in naval construction and navigation. However, the expeditions are increasingly opposed by Confucian officials at court, who view them as wasteful. This voyage will be followed by a sixth voyage (1433\u20131435) and a seventh and final voyage (1433\u20131434), after which the Ming court will cease to fund large-scale maritime expeditions.",
+      "description": "The Ming Dynasty's treasure voyages under Admiral Zheng He, which began in 1405, continued into the 1430s. The seventh and final voyage departed in 1433 and returned in 1435. These expeditions, involving massive fleets of hundreds of ships and tens of thousands of personnel, reached the coasts of East Africa, the Arabian Peninsula, and the Indian subcontinent. They were primarily diplomatic and trade missions rather than voyages of conquest. By 1431, the political climate in China was shifting; the Yongle Emperor (who sponsored the voyages) had died in 1424, and his successors were less enthusiastic about maritime expansion. The voyages would cease after 1435, marking a strategic pivot toward continental consolidation.",
       "key_figures": [
         "Zheng He (Admiral, Muslim eunuch)",
-        "Xuande Emperor (reigning 1426\u20131435, patron of the voyage)"
+        "Yongle Emperor (deceased 1424, but legacy continued)",
+        "Xuande Emperor (reigning 1426\u20131435, less supportive of voyages)"
       ],
       "sources": [
         {
@@ -95,123 +101,128 @@
           "contemporary": true
         },
         {
-          "name": "Ma Huan, Yingya Shenglan (The Overall Survey of the Ocean's Shores)",
+          "name": "Ma Huan, Ying-yai Sheng-lan (Overall Survey of the Ocean's Shores), eyewitness account",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from shipwrecks and port sites",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The dates and scale of Zheng He's voyages are well-documented in Ming court records. The fifth voyage is dated to 1431\u20131433 in official sources.",
+      "certainty_note": "The voyages are well-documented in Ming records and eyewitness accounts. The seventh voyage's dates (1433\u20131435) are confirmed.",
       "cross_references": [
-        "1434-002 (Zheng He's final voyage returns)",
-        "1405-001 (First treasure fleet voyage)"
+        "1405-XXX (First voyage begins)",
+        "1435-XXX (Final voyage returns; voyages cease)"
       ]
     },
     {
       "id": "1431-004",
-      "title": "Hussite Wars: Taborite military campaigns continue",
-      "region": "Bohemia / Central Europe",
-      "coordinates_approx": "50.30, 14.50",
-      "category": "military",
-      "description": "The Hussite Wars continue in 1431, with the radical Taborite faction conducting military campaigns against Catholic forces and moderate Hussite opponents. The Taborites, inspired by the legacy of Jan Hus and John \u017di\u017eka, advocate radical social and religious reform. In 1431, the Taborites are at the height of their military power, though they face increasing opposition from a coalition of moderate Hussites (Utraquists) and Catholic forces. The year 1431 represents the final phase of radical Hussite dominance; the Battle of Lipany in 1434 will decisively defeat the Taborites.",
+      "title": "Medici consolidation in Florence; Cosimo de' Medici's influence grows",
+      "region": "Florence, Italian city-states",
+      "coordinates_approx": "43.77, 11.26",
+      "category": "political",
+      "description": "By 1431, Cosimo de' Medici (1389\u20131464), the patriarch of the Medici banking family, had become the dominant political figure in Florence despite holding no formal office. His influence grew through patronage, banking wealth, and strategic alliances. The Medici family's rise was foundational to the Italian Renaissance, as they became major patrons of art, architecture, and humanist scholarship. In 1431, Florence was consolidating its territorial control in Tuscany and establishing itself as a major power in Italian politics, rivalling Venice and Milan.",
       "key_figures": [
-        "Procopius the Great (Taborite leader)",
-        "Sigismund, Holy Roman Emperor (Catholic authority)"
+        "Cosimo de' Medici (banker, de facto ruler)",
+        "Giovanni de' Medici (father, deceased 1429)",
+        "Filippo Brunelleschi (architect, active in Florence)"
       ],
       "sources": [
         {
-          "name": "Laurentius of B\u0159ezov\u00e1, Hussite Chronicle (contemporary Hussite account)",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Vespasiano da Bisticci, Lives of Illustrious Men (later compilation, but based on contemporary knowledge)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Catholic chronicles and records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Hussite Wars are well-documented, but specific military campaigns within 1431 are not always precisely dated. The general context of Taborite military activity is confirmed.",
-      "cross_references": [
-        "1434-005 (Battle of Lipany)",
-        "1419-001 (Hussite Wars begin)"
-      ]
-    },
-    {
-      "id": "1431-005",
-      "title": "Council of Constance convenes Council of Siena; ecclesiastical continuity",
-      "region": "Holy Roman Empire / Italy",
-      "coordinates_approx": "43.32, 11.33",
-      "category": "religious",
-      "description": "As the Council of Constance prepares to conclude, ecclesiastical authorities convene the Council of Siena (1431\u20131449) to continue the work of ecclesiastical reform and to address ongoing religious controversies. The Council of Siena is called to address the Hussite question and to continue the reform agenda begun at Constance. The council represents the continuity of ecclesiastical authority and the determination of the Catholic Church to address heresy and reform. However, the Council of Siena is less significant than the Council of Constance and is often overshadowed by it in historical narratives.",
-      "key_figures": [
-        "Pope Martin V (presiding authority)",
-        "Pope Eugenius IV (successor to Martin V, reigning 1431\u20131447)"
-      ],
-      "sources": [
-        {
-          "name": "Acta Concilii Senensis (official council records)",
+          "name": "Medici family correspondence and account books",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ecclesiastical chronicles and records",
-          "type": "chronicle",
+          "name": "Florentine government records (Signoria)",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Council of Siena is documented in official ecclesiastical records. The 1431 date is confirmed.",
+      "certainty": "probable",
+      "certainty_note": "Cosimo's growing influence by 1431 is attested in family records and government documents, though the precise chronology of his rise to dominance is debated by historians. The year 1431 marks a point in his consolidation rather than a single decisive event.",
       "cross_references": [
-        "1434-001 (Council of Constance concludes)",
-        "1449-001 (Council of Siena concludes)"
+        "1434-XXX (Cosimo's exile and return)",
+        "1464-XXX (Cosimo's death)"
+      ]
+    },
+    {
+      "id": "1431-005",
+      "title": "Portuguese maritime expansion; Prince Henry the Navigator's school",
+      "region": "Portugal, Atlantic coast",
+      "coordinates_approx": "37.0, -8.5",
+      "category": "exploration",
+      "description": "Prince Henry of Portugal (1394\u20131460), known as 'the Navigator,' was actively sponsoring maritime expeditions along the African coast in the 1430s. His school at Sagres (founded c. 1418) was training navigators and cartographers. By 1431, Portuguese ships had explored the Canary Islands and were beginning systematic exploration of the West African coast. This marked the beginning of European oceanic exploration that would lead to the Age of Discovery. Henry's patronage was driven by commercial interest (gold, spices, slaves) and religious zeal (crusade against Islam).",
+      "key_figures": [
+        "Henry the Navigator (Prince of Portugal, patron)",
+        "Jo\u00e3o Gon\u00e7alves Zarco (explorer, discovered Madeira)",
+        "Bartolomeu Perestrelo (explorer, active in Atlantic)"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery and Conquest of Guinea (mid-15th century, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese royal records and navigation logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cartographic evidence (portolan charts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Henry's patronage and the school's activities are well-documented, though specific expeditions in 1431 are less precisely dated. The broader context of Portuguese exploration in the 1430s is confirmed.",
+      "cross_references": [
+        "1418-XXX (Sagres school founded)",
+        "1444-XXX (Portuguese slave trade intensifies)"
       ]
     }
   ],
-  "disconfirming_evidence": "Joan of Arc's trial records, while extensive, are not entirely reliable: they were compiled by English-dominated ecclesiastical authorities with a vested interest in her conviction. Modern scholarship has questioned some details of her trial, particularly regarding the charges of witchcraft and the extent to which she was coerced into confessing. Some historians argue that Joan's military significance has been exaggerated by later French nationalist historiography; while her campaigns were important, they were not decisive in the Hundred Years' War, which was ultimately decided by broader political and military factors. The Council of Constance's significance in healing the Western Schism is sometimes overstated; the schism had already begun to heal before the council convened, and the council's role was more to formalize and consolidate existing trends. The Council of Siena is often overlooked in historical narratives, but it played an important role in continuing ecclesiastical reform.",
-  "historiographic_note": "The year 1431 is well-documented for Europe, particularly France and Central Europe, due to abundant chronicle sources and administrative records. Joan of Arc's trial records are among the most detailed documents of the medieval period. Ming China is also well-documented through official court records. However, sources for sub-Saharan Africa, Southeast Asia, and the Americas are sparse or absent. The historical record for 1431 is heavily weighted toward Europe and East Asia, with Joan of Arc's execution dominating Western historical narratives.",
+  "disconfirming_evidence": "Joan of Arc's trial has been extensively re-examined by modern scholarship. While her execution on 30 May 1431 is confirmed, historians debate the extent to which she was a genuine military strategist versus a symbolic figurehead exploited by French nobles. Some scholars argue that the military successes attributed to her (particularly at Orl\u00e9ans in 1429) were primarily due to French commanders like Jean de Dunois and that Joan's role was propagandistic. Additionally, the trial itself is now understood as a political show trial orchestrated by English and Burgundian interests, not a genuine heresy inquiry. The 'Hussite Wars' framing can obscure the fact that Hussite factions were as much in conflict with each other as with Catholic forces; the Taborites and Utraquists had fundamentally different visions. The narrative of Zheng He's voyages as 'peaceful exploration' has been complicated by recent scholarship emphasizing their role in Ming tributary diplomacy and the coercive aspects of 'gift-giving' to foreign rulers. The characterization of these voyages as 'treasure voyages' is partly a modern invention; Ming sources call them 'treasure ship voyages' (baochuan), but the term 'treasure' may be misleading\u2014the ships carried diplomatic gifts and trade goods, not plundered wealth.",
+  "historiographic_note": "The year 1431 is well-documented for Western Europe (Joan of Arc's trial is exceptionally detailed), moderately documented for East Asia (Ming records are comprehensive), and sparsely documented for most other regions. The surviving sources are heavily weighted toward elite political and military events; economic, social, and cultural history are underrepresented. Joan of Arc's trial records are among the most complete medieval trial documents, but they reflect the biases of her English and Burgundian judges. Ming records are official court documents, which tend to emphasize imperial achievements and downplay failures or dissent. Portuguese exploration records are fragmentary and often compiled retrospectively. Sub-Saharan Africa, the Americas, and much of Southeast Asia have minimal written documentation for this year; oral traditions and archaeological evidence are not systematically integrated into Western historical narratives. The dominance of European sources in modern historical training means that events in other regions are likely underrepresented in this summary.",
   "graph_edges": [
     {
       "from": "1431-001",
       "to": "1429-001",
-      "relation": "part_of",
-      "note": "Joan of Arc's execution in 1431 marks the end of her military campaigns, which began in 1429."
-    },
-    {
-      "from": "1431-001",
-      "to": "1453-001",
-      "relation": "led_to",
-      "note": "Joan of Arc's execution in 1431 inspires French resistance, which ultimately leads to the end of the Hundred Years' War in 1453."
+      "relation": "caused_by",
+      "note": "Joan's execution was a consequence of her capture following her military campaigns in 1429"
     },
     {
       "from": "1431-002",
-      "to": "1434-001",
-      "relation": "led_to",
-      "note": "The Council of Constance's work in 1431 leads to its formal conclusion in 1434."
+      "to": "1414-XXX",
+      "relation": "part_of",
+      "note": "The Hussite Wars were a direct consequence of the Council of Constance's condemnation of Jan Hus"
     },
     {
       "from": "1431-003",
-      "to": "1434-002",
+      "to": "1405-XXX",
       "relation": "part_of",
-      "note": "Zheng He's fifth voyage (1431\u20131433) is part of the series of treasure fleet expeditions that culminate in his final voyage in 1434."
+      "note": "Zheng He's voyages in 1431 were part of the larger series of treasure voyages initiated in 1405"
     },
     {
       "from": "1431-004",
-      "to": "1434-005",
+      "to": "1434-XXX",
       "relation": "led_to",
-      "note": "Hussite military campaigns in 1431 lead to the decisive Battle of Lipany in 1434."
+      "note": "Cosimo's consolidation of power in 1431 led to his temporary exile in 1434"
     },
     {
       "from": "1431-005",
-      "to": "1449-001",
+      "to": "1444-XXX",
       "relation": "led_to",
-      "note": "The Council of Siena, convened in 1431, continues until 1449."
+      "note": "Henry the Navigator's early expeditions in 1431 led to the intensification of Portuguese slave trade by 1444"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:01:06.626114",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

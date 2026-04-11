@@ -1,252 +1,280 @@
 {
   "year": 1492,
   "year_label": "1492 CE",
-  "era_context": "The year 1492 marks a watershed moment in world history: the completion of the Spanish Reconquista, the expulsion of Jews from Spain, and Columbus's first Atlantic crossing. In Europe, the Italian Renaissance is in full flourish; the Ottoman Empire is consolidating Mediterranean dominance; and the nation-states of Spain, Portugal, France, and England are consolidating power. In Asia, the Ming Dynasty rules a unified China; the Joseon Dynasty governs Korea; and the Mughal Empire is beginning its consolidation in Central Asia. In the Americas, the Inca Empire is at its height under Tupac Inca Yupanqui (or his successor Huayna Capac, depending on dating). The year represents the threshold between the medieval and early modern worlds.",
+  "era_context": "The year 1492 is one of the most pivotal in world history. In Europe, the Catholic Monarchs Ferdinand and Isabella complete the Reconquista with the fall of Granada, the last Muslim kingdom in Iberia. In the same year, Columbus's first voyage across the Atlantic reaches the Caribbean, initiating sustained European engagement with the Americas. The Ottoman Empire under Bayezid II is consolidating control of the Eastern Mediterranean following the Ottoman-Mamluk War (1485\u20131491). In East Asia, the Ming Dynasty is in a period of relative stability under the Hongwu Emperor's successors. The year 1492 marks the beginning of the colonial era and the age of European global expansion.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal contemporary written documentation)",
-    "Interior Americas (sparse written records; primarily oral traditions and later Spanish accounts)",
-    "Oceania (no contemporary documentation)"
+    "Indigenous American perspectives on European contact are entirely absent from surviving records; the historical record is exclusively European.",
+    "African and Asian sources outside the Ottoman and Ming spheres are sparse or absent."
   ],
   "events": [
     {
       "id": "1492-001",
-      "title": "Columbus's first Atlantic voyage",
-      "region": "Atlantic Ocean / Caribbean",
-      "coordinates_approx": "21.5000, -77.0000",
+      "title": "Columbus's First Voyage: Departure from Spain and Arrival in the Caribbean",
+      "region": "Atlantic Ocean, Caribbean (Bahamas, Cuba, Hispaniola)",
+      "coordinates_approx": "24.0, -76.0",
       "category": "exploration",
-      "description": "Christopher Columbus, commanding three ships (the Ni\u00f1a, Pinta, and Santa Mar\u00eda), departed from Palos de la Frontera in southern Spain on August 3, 1492, seeking a westward sea route to Asia. After 36 days at sea, Columbus's expedition made landfall in the Caribbean (likely San Salvador in the Bahamas) on October 12, 1492. Columbus believed he had reached the Indies, but he had instead encountered the Caribbean islands and the Americas, unknown to Europeans. The voyage was sponsored by the Spanish monarchs Ferdinand and Isabella and was motivated by commercial ambitions and religious zeal. Columbus's expedition initiated sustained European contact with the Americas, triggering the Age of Exploration, the Columbian Exchange, and ultimately the colonization and transformation of the Americas. The voyage's significance cannot be overstated: it fundamentally altered world history, though its immediate impact was limited to the Caribbean islands.",
+      "description": "On August 3, 1492, Christopher Columbus departed Palos de la Frontera, Spain, with three ships (the Ni\u00f1a, Pinta, and Santa Mar\u00eda), commissioned by the Catholic Monarchs Ferdinand and Isabella to find a westward route to Asia. After 36 days at sea, Columbus reached the Caribbean on October 12, 1492, landing on an island he named San Salvador (likely present-day Watling Island in the Bahamas). Columbus then explored the Caribbean, visiting Cuba and Hispaniola, before returning to Spain in March 1493. This voyage, though not the first European contact with the Americas (Norse explorers had reached North America c. 1000 CE), initiated sustained European engagement with the Americas and fundamentally altered world history. Columbus's voyage led to the age of exploration, European colonization of the Americas, and the beginning of the global exchange of goods, diseases, and peoples.",
       "key_figures": [
-        "Christopher Columbus (navigator and commander)",
-        "Ferdinand II of Aragon (sponsor)",
-        "Isabella I of Castile (sponsor)",
-        "Martin Alonso Pinz\u00f3n (captain of the Pinta)"
+        "Christopher Columbus (explorer)",
+        "Ferdinand II of Aragon (patron)",
+        "Isabella I of Castile (patron)",
+        "Indigenous peoples of the Caribbean (Ta\u00edno, Lucayan, and others)"
       ],
       "sources": [
         {
-          "name": "Columbus, Christopher. Journal of the First Voyage (1492, primary account)",
+          "name": "Columbus's letters and journals (some lost, some preserved in later compilations, particularly in Bartolom\u00e9 de las Casas's Historia de las Indias)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Las Casas, Bartolom\u00e9 de. History of the Indies (early 16th century, based on Columbus's journal)",
+          "name": "Spanish royal records and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later compilations by Bartolom\u00e9 de las Casas, Ferdinand Columbus, and others",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Spanish royal archives (Archivo General de Indias)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Historiographic consensus from Columbus scholars and historians of exploration",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Columbus's departure on August 3, 1492, and landfall on October 12, 1492, are well-documented in contemporary sources and Columbus's own journal. The dates are unambiguous.",
+      "certainty_note": "Columbus's departure on August 3, 1492, and his arrival in the Caribbean on October 12, 1492, are among the most securely dated events in world history. These dates are established by contemporary Spanish royal records, Columbus's own letters and journals (though some are lost), and later chronicles. The identification of the landfall location (San Salvador) is less certain; modern scholars debate whether Columbus landed on Watling Island, Samana Cay, or another island in the Bahamas.",
       "cross_references": [
-        "1493-001 (Columbus's return to Spain)",
-        "1494-001 (Treaty of Tordesillas)"
+        "1493-001 (Papal bulls dividing the non-European world)",
+        "1493-002 (Columbus's return to Spain)",
+        "1494-003 (Columbus's second voyage)"
       ]
     },
     {
       "id": "1492-002",
-      "title": "Expulsion of Jews from Spain (Alhambra Decree)",
-      "region": "Iberian Peninsula",
-      "coordinates_approx": "37.1760, -3.5881",
-      "category": "legal",
-      "description": "On March 31, 1492, the Spanish monarchs Ferdinand and Isabella issued the Alhambra Decree, expelling all Jews from Spain who refused to convert to Christianity. The decree was issued from the Alhambra palace in Granada, shortly after the completion of the Reconquista. The expulsion was motivated by religious intolerance, the desire to consolidate Christian Spain, and economic resentment of Jewish merchants and moneylenders. Approximately 150,000 to 200,000 Jews were expelled, many fleeing to Portugal, North Africa, the Ottoman Empire, and other destinations. The expulsion marked the end of a centuries-long Jewish presence in Spain and represented a catastrophic loss of intellectual, commercial, and cultural resources. The decree was part of a broader campaign of religious consolidation that also targeted Muslims (moriscos) and heretics. The expulsion is considered one of the most significant acts of religious persecution in medieval Europe.",
+      "title": "Edict of Expulsion of Jews from Spain",
+      "region": "Spain (Iberian Peninsula)",
+      "coordinates_approx": "40.0, -3.5",
+      "category": "political",
+      "description": "On March 31, 1492, the Catholic Monarchs Ferdinand and Isabella issued the Edicto de Granada (Edict of Expulsion), which ordered all Jews in Spain to convert to Christianity, leave Spain, or face execution. The deadline for departure was August 2, 1492. This edict, issued in the same year as the completion of the Reconquista and Columbus's voyage, marked the culmination of centuries of Christian-Jewish conflict in Iberia and the Spanish Inquisition. The expulsion resulted in the departure of tens of thousands of Spanish Jews (Sephardim) to Portugal, North Africa, the Ottoman Empire, and other destinations. The expulsion had profound demographic, economic, and cultural consequences for both Spain and the diaspora communities.",
       "key_figures": [
-        "Ferdinand II of Aragon",
-        "Isabella I of Castile",
-        "Tom\u00e1s de Torquemada (Inquisitor General, advisor)"
+        "Ferdinand II of Aragon (co-monarch)",
+        "Isabella I of Castile (co-monarch)",
+        "Tom\u00e1s de Torquemada (Inquisitor General)",
+        "Spanish Jews (Sephardim) facing expulsion"
       ],
       "sources": [
         {
-          "name": "Alhambra Decree (March 31, 1492, original document)",
+          "name": "Edicto de Granada (Edict of Expulsion, March 31, 1492), primary text",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish royal archives (Archivo General de Indias)",
+          "name": "Contemporary Jewish chronicles and responsa (rabbinic legal opinions)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus (Kamen, Netanyahu, Nirenberg)",
+          "name": "Spanish royal records and Inquisition documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman and North African records documenting refugee arrivals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from historians of medieval and early modern Spain",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Alhambra Decree is dated March 31, 1492, and the original document survives in Spanish archives. The expulsion was carried out over the following months, with most Jews leaving by August 1492.",
+      "certainty_note": "The Edict of Expulsion is one of the most securely dated and well-documented events of 1492. The date (March 31, 1492) and the deadline for departure (August 2, 1492) are established by contemporary Spanish royal records and Jewish chronicles. However, the total number of expellees (estimates range from 50,000 to 200,000) remains debated.",
       "cross_references": [
-        "1609-001 (Expulsion of moriscos from Spain)",
-        "1942-001 (Symbolic repeal of the Alhambra Decree by Spain)"
+        "1492-001 (Columbus's voyage, same year as the expulsion)",
+        "1493-003 (Expulsion continues into 1493)",
+        "1496-003 (Expulsion largely complete by 1496)"
       ]
     },
     {
       "id": "1492-003",
-      "title": "Completion of the Spanish Reconquista (Fall of Granada)",
-      "region": "Iberian Peninsula",
-      "coordinates_approx": "37.1760, -3.5881",
+      "title": "Fall of Granada: Completion of the Reconquista",
+      "region": "Granada, Spain (Iberian Peninsula)",
+      "coordinates_approx": "37.2, -3.6",
       "category": "military",
-      "description": "On January 2, 1492, the Spanish monarchs Ferdinand and Isabella completed the Reconquista by conquering the last Muslim kingdom in Iberia, the Emirate of Granada. The fall of Granada ended nearly 800 years of Muslim rule in the Iberian Peninsula and marked the unification of Spain under Christian rule. The conquest was achieved through a combination of military campaigns and diplomatic negotiations. The last Muslim ruler, Muhammad XII (Boabdil), surrendered the city and was granted safe passage to North Africa. The conquest was celebrated as a triumph of Christianity and Spanish nationalism. The fall of Granada prompted the expulsion of Jews (the Alhambra Decree, issued March 31, 1492) and contributed to the consolidation of Spanish power that enabled the sponsorship of Columbus's voyage. The Reconquista's completion marked the end of medieval Spain and the beginning of the early modern Spanish state.",
+      "description": "On January 2, 1492, the Kingdom of Granada, the last Muslim kingdom in Iberia, fell to the Catholic Monarchs Ferdinand and Isabella. The fall of Granada marked the completion of the Reconquista, the centuries-long Christian reconquest of the Iberian Peninsula from Muslim rule. The conquest of Granada was achieved through a combination of military campaigns and negotiations, culminating in the surrender of the city and the departure of the Muslim population. The fall of Granada had profound consequences for Spain, the Mediterranean, and the broader Islamic world. It marked the end of Muslim rule in Western Europe and the consolidation of Christian Spanish power.",
       "key_figures": [
-        "Ferdinand II of Aragon",
-        "Isabella I of Castile",
-        "Muhammad XII (Boabdil, last Emir of Granada)"
+        "Ferdinand II of Aragon (co-monarch)",
+        "Isabella I of Castile (co-monarch)",
+        "Boabdil (Muhammad XII, last Nasrid Sultan of Granada)",
+        "Catholic military commanders (e.g., the Duke of Medina Sidonia)"
       ],
       "sources": [
         {
-          "name": "Spanish royal chronicles (Cr\u00f3nica de los Reyes Cat\u00f3licos)",
-          "type": "chronicle",
+          "name": "Spanish royal records and contemporary chronicles (e.g., Andr\u00e9s Bern\u00e1ldez)",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus (Kamen, Mackay, Ladero Quesada)",
+          "name": "Islamic chronicles and records from Granada and the Maghreb",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later compilations and historiographic consensus from historians of medieval Spain",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The fall of Granada on January 2, 1492, is precisely documented in Spanish chronicles and diplomatic records. The date is unambiguous.",
+      "certainty_note": "The fall of Granada on January 2, 1492, is one of the most securely dated events of medieval and early modern history. The date is established by contemporary Spanish royal records and Islamic chronicles.",
       "cross_references": [
-        "1492-002 (Alhambra Decree, issued as consequence of Granada's fall)",
-        "1609-001 (Expulsion of moriscos)"
+        "1492-001 (Columbus's voyage, same year as the fall of Granada)",
+        "1492-002 (Edict of Expulsion, same year as the fall of Granada)"
       ]
     },
     {
       "id": "1492-004",
-      "title": "Tupac Inca Yupanqui's death and succession in the Inca Empire",
-      "region": "Andean South America",
-      "coordinates_approx": "-12.0464, -77.0428",
-      "category": "political",
-      "description": "In 1492, Tupac Inca Yupanqui, one of the greatest Inca rulers, died after a reign of approximately 25 years (r. 1471\u20131493 or 1493). Tupac had expanded the Inca Empire to its greatest territorial extent, conquering vast regions of South America and consolidating administrative control. His death marked the succession of his son Huayna Capac (r. 1493\u20131527), who would continue the empire's expansion and consolidation. The transition of power was smooth, and the empire remained stable. However, the dating of Tupac's death is uncertain; some sources place it in 1493, others in 1492. The Inca did not use written records, so dating relies on oral traditions recorded by Spanish chroniclers decades after the events. Tupac's reign is considered the height of Inca power and territorial extent.",
+      "title": "Ottoman-Mamluk War (Conclusion): Treaty of Constantinople",
+      "region": "Eastern Mediterranean (Ottoman Empire and Mamluk Sultanate)",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "military",
+      "description": "The Ottoman-Mamluk War (1485\u20131491) had concluded in 1491, but the aftermath and consolidation of Ottoman gains continued into 1492. The Ottomans under Bayezid II had defeated the Mamluk Sultanate and consolidated control of the Eastern Mediterranean. In 1492, the Ottomans were consolidating their position and preparing for further expansion. The Ottoman victory over the Mamluks marked a significant shift in the balance of power in the Eastern Mediterranean and the Middle East.",
       "key_figures": [
-        "Tupac Inca Yupanqui (deceased)",
-        "Huayna Capac (successor)"
+        "Bayezid II (Ottoman Sultan)",
+        "Qaitbay (Mamluk Sultan, died 1496)"
       ],
       "sources": [
         {
-          "name": "Quipucamayoc (Inca record keepers, oral tradition recorded by Spanish chroniclers)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Cieza de Le\u00f3n, Pedro de. Chronicle of Peru (16th century, based on oral accounts)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus (Rostworowski, Salomon, D'Altroy)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Inca did not use written records; dating relies on oral traditions recorded by Spanish chroniclers decades after the events. The date of Tupac's death is traditionally placed in 1493, but may have an error of \u00b11\u20133 years. Some sources place it in 1492.",
-      "cross_references": [
-        "1471-001 (Tupac Inca Yupanqui's accession)",
-        "1493-003 (Huayna Capac's accession)"
-      ]
-    },
-    {
-      "id": "1492-005",
-      "title": "Ming Dynasty consolidation under Hongwu legacy",
-      "region": "China",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "In 1492, the Ming Dynasty under the Yongle Emperor's successors (the Yongle Emperor died in 1424) continued to consolidate administrative control over China. The year falls within the reign of the Zhengde Emperor's predecessors, during a period of relative stability and prosperity. The Ming court was functioning smoothly, the civil service examination system was established, and China was experiencing economic growth. The treasure voyages of Zheng He were in their final stages (the seventh voyage concluded by 1435). In 1492, the Ming Dynasty was at the height of its power and influence, though the court was increasingly focused on internal administration rather than maritime exploration.",
-      "key_figures": [
-        "Hongwu Emperor (founder, deceased 1398)",
-        "Yongle Emperor (deceased 1424)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Ming Veritable Records)",
+          "name": "Ottoman chronicles (e.g., Tursun Beg)",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Historiographic consensus (Mote, Huang, Dreyer)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "No specific transformative event is documented for China in 1492. This entry reflects the broader era context of Ming stability and administrative consolidation.",
-      "cross_references": [
-        "1398-001 (Hongwu Emperor's death)",
-        "1424-001 (Yongle Emperor's death)"
-      ]
-    },
-    {
-      "id": "1492-006",
-      "title": "Portuguese exploration and the quest for the Indian Ocean route",
-      "region": "West Africa / Atlantic",
-      "coordinates_approx": "5.5471, -0.2012",
-      "category": "exploration",
-      "description": "In 1492, Portuguese explorers and merchants continued their systematic exploration of the West African coast, seeking the sea route to India that would eventually be achieved by Vasco da Gama in 1498. The Portuguese had established trading posts and forts along the coast, including S\u00e3o Jorge da Mina (Elmina Castle, established 1482). In 1492, Portuguese expeditions were probing further south, seeking to round the Cape of Good Hope and reach the Indian Ocean. The Portuguese exploration was driven by commercial ambitions (spice trade), religious zeal (conversion of non-Christians), and the desire to outflank Muslim middlemen in the Indian Ocean trade. The Portuguese exploration would ultimately lead to the establishment of a global maritime empire and the beginning of European dominance in global trade.",
-      "key_figures": [
-        "John II of Portugal",
-        "Portuguese merchants and explorers (names often unrecorded)"
-      ],
-      "sources": [
-        {
-          "name": "Portuguese royal archives (Torre do Tombo)",
+          "name": "Mamluk chronicles and administrative records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus (Diffie, Winius, Newitt)",
+          "name": "Historiographic consensus from Ottoman and Mediterranean historians",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Portuguese exploration of the African coast in the 1490s is well-documented in Portuguese archives. Specific events in 1492 are less precisely dated than the broader trend of coastal expansion.",
+      "certainty_note": "The Ottoman-Mamluk War concluded in 1491, not 1492. However, the consolidation of Ottoman gains and the aftermath of the war continued into 1492. Specific events in 1492 are less clearly documented than those of the 1485\u20131491 war.",
       "cross_references": [
-        "1482-001 (Establishment of Elmina Castle)",
-        "1498-001 (Vasco da Gama's voyage to India)"
+        "1485-001 (Ottoman-Mamluk War begins)",
+        "1491-001 (Ottoman-Mamluk War concludes)"
+      ]
+    },
+    {
+      "id": "1492-005",
+      "title": "Portuguese Exploration: Continued Expansion in the Atlantic and Africa",
+      "region": "Atlantic Ocean, West Africa",
+      "coordinates_approx": "0.0, -20.0",
+      "category": "exploration",
+      "description": "In 1492, Portuguese explorers continued their systematic exploration of the Atlantic and the African coast. Following Bartolomeu Dias's rounding of the Cape of Good Hope in 1488, Portuguese merchants and explorers were increasingly engaged in trade with Africa and were preparing for the voyage to India. Portuguese trading posts and forts were being established along the African coast, and Portuguese merchants were increasingly engaged in the slave trade and gold trade. The Portuguese exploration efforts were accelerating in response to Spanish competition following Columbus's voyage.",
+      "key_figures": [
+        "King John II of Portugal (patron)",
+        "Bartolomeu Dias (explorer, advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and trading company documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Portuguese chronicles (e.g., Jo\u00e3o de Barros, D\u00e9cadas da \u00c1sia)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Portuguese maritime historians",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration of the Atlantic and African coast in 1492 is well-established in the broader context of Portuguese expansion. Specific events and dates for 1492 are less clearly documented than those of earlier (1488) or later (1498) voyages.",
+      "cross_references": [
+        "1488-001 (Bartolomeu Dias rounds the Cape of Good Hope)",
+        "1496-002 (Vasco da Gama departs for India)"
+      ]
+    },
+    {
+      "id": "1492-006",
+      "title": "Ming Dynasty: Reign of the Hongwu Emperor's Successors (Stable Period)",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1492, the Ming Dynasty under the successors of the Hongwu Emperor was in a period of relative stability and consolidation. The Zhengde Emperor, who would ascend the throne in 1505, was not yet born (he was born in 1495). The Ming Dynasty was characterized by strong centralized governance, Confucian bureaucracy, and cultural flourishing. This period saw the continuation of Ming administrative consolidation and the maintenance of Ming control over China. The Ming Dynasty was at the height of its power and influence in East Asia.",
+      "key_figures": [
+        "Hongwu Emperor's successors (reigning until 1505)",
+        "Confucian bureaucrats and court officials"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader context of Ming Dynasty politics in 1492 is well-established. Specific events of this year are less prominent in surviving records.",
+      "cross_references": [
+        "1368-001 (Ming Dynasty founded)",
+        "1505-001 (Zhengde Emperor ascends throne)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of Tupac Inca Yupanqui's death is disputed; some sources place it in 1493, others in 1492. The significance of 1492 as a 'turning point' is largely retrospective\u2014contemporaries in Europe recognized the fall of Granada and the expulsion of Jews as significant, but the full implications of Columbus's voyage were not immediately apparent. Columbus himself believed he had reached Asia, not discovered a new continent. The 'discovery' narrative is contested by modern scholars who emphasize that the Americas were already inhabited by millions of people and that Columbus's voyage was one of many contacts between continents. The Alhambra Decree's significance is sometimes overstated; while it was a major expulsion, it was not unprecedented in medieval Europe, and the expulsion of Muslims (moriscos) continued for over a century.",
-  "historiographic_note": "The historical record for 1492 is rich for Europe (diplomatic archives, chronicles, printed materials) but sparse for Asia, Africa, and the Americas. European sources dominate because of the survival of written records and the bias of modern historiography toward European perspectives. The fall of Granada, the Alhambra Decree, and Columbus's voyage are extensively documented in Spanish archives and contemporary chronicles. However, the Inca Empire's history relies entirely on oral traditions recorded by Spanish chroniclers decades after the events, introducing significant dating uncertainty. Sub-Saharan Africa is almost entirely absent from contemporary written sources. The Portuguese exploration of the African coast is documented in Portuguese archives but with limited detail about specific events in 1492. Modern scholarship has increasingly emphasized non-European perspectives and challenged the 'discovery' narrative, but the imbalance in surviving sources remains. The year 1492 is often presented as a singular turning point in world history, but this is partly a retrospective construction; contemporaries did not recognize the full implications of the events of that year.",
+  "disconfirming_evidence": "Columbus's 1492 voyage is often presented as the 'discovery' of the Americas, but modern scholarship emphasizes that the Americas were already inhabited by millions of indigenous peoples and that Norse explorers had reached North America around 1000 CE. The term 'discovery' is increasingly recognized as Eurocentric and misleading. Additionally, Columbus's reports of the lands he discovered were often inaccurate or exaggerated; he believed he had reached Asia, not a previously unknown continent. The fall of Granada (January 2, 1492) is sometimes presented as a sudden military victory, but modern scholarship emphasizes the protracted nature of the conquest and the role of negotiations and diplomacy. The conquest of Granada was the culmination of centuries of Christian-Muslim conflict, not a sudden triumph. The Edict of Expulsion (March 31, 1492) is sometimes presented as a complete and immediate event, but modern scholarship emphasizes the protracted nature of enforcement, the existence of crypto-Jews who remained, and the complex negotiations and delays that characterized the process. The total number of expellees remains debated, and some scholars argue that the expulsion was less complete than traditionally believed. The Ottoman-Mamluk War is sometimes presented as concluding in 1491, but some sources suggest that Ottoman-Mamluk tensions and conflicts continued into the 1490s and beyond.",
+  "historiographic_note": "The year 1492 is exceptionally well-documented for European events, particularly exploration, military conquest, and religious persecution, due to the survival of royal records, chronicles, and diplomatic correspondence. Spanish, Portuguese, and Italian sources are particularly rich. However, documentation remains heavily weighted toward Western Europe. Ottoman and Mamluk sources exist but are less abundant in Western archives. Chinese sources (Ming Shilu) are comprehensive but focus primarily on court politics and administrative matters. Indigenous American perspectives on European contact are entirely absent from surviving records; the historical record is exclusively European. African and Asian sources outside the Ottoman and Ming spheres are sparse or absent. The narrative of 1492 is heavily shaped by European perspectives, particularly the 'discovery' of the Americas, the fall of Granada, and the expulsion of Jews. The significance of 1492 in European history is undeniable, but the full consequences of these events would not be apparent for decades or centuries. Modern scholarship has increasingly emphasized the Eurocentric bias of traditional narratives and has worked to incorporate non-European perspectives, though the surviving documentary record remains limited.",
   "graph_edges": [
     {
       "from": "1492-001",
       "to": "1493-001",
       "relation": "led_to",
-      "note": "Columbus's voyage led to his return and the issuance of papal bulls"
+      "note": "Columbus's 1492 voyage led to the papal bulls of 1493"
+    },
+    {
+      "from": "1492-001",
+      "to": "1493-002",
+      "relation": "led_to",
+      "note": "Columbus's 1492 voyage led to his return to Spain in 1493"
+    },
+    {
+      "from": "1492-001",
+      "to": "1494-003",
+      "relation": "led_to",
+      "note": "Columbus's 1492 voyage led to his second voyage in 1494"
+    },
+    {
+      "from": "1492-002",
+      "to": "1493-003",
+      "relation": "led_to",
+      "note": "Edict of Expulsion (1492) led to the expulsion of Jews continuing into 1493"
     },
     {
       "from": "1492-003",
       "to": "1492-002",
-      "relation": "led_to",
-      "note": "The fall of Granada prompted the Alhambra Decree expelling Jews"
-    },
-    {
-      "from": "1492-003",
-      "to": "1492-001",
       "relation": "contemporary_with",
-      "note": "Both events occurred in 1492 and reflected the consolidation of Spanish power"
+      "note": "Fall of Granada (January 1492) and Edict of Expulsion (March 1492) occurred in the same year"
     },
     {
-      "from": "1492-004",
-      "to": "1493-003",
+      "from": "1492-001",
+      "to": "1495-004",
       "relation": "led_to",
-      "note": "Tupac's death led to Huayna Capac's succession"
-    },
-    {
-      "from": "1492-006",
-      "to": "1498-001",
-      "relation": "led_to",
-      "note": "Portuguese coastal exploration led to Vasco da Gama's voyage to India"
+      "note": "Columbus's 1492 voyage led to the syphilis epidemic of 1495"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:39:14.758835",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

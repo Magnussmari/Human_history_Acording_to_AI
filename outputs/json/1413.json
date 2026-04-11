@@ -1,128 +1,289 @@
 {
   "year": 1413,
   "year_label": "1413 CE",
-  "era_context": "The early 15th century continues with the Council of Constance in session (1414\u20131418), the Ming Dynasty under the Yongle Emperor consolidating power, the Ottoman Empire expanding in Anatolia and the Balkans, and the Hussite movement gaining momentum in Bohemia. In Europe, the Renaissance is beginning in Italy; in China, the Forbidden City is under construction (completed 1420). In Africa, the Songhai Empire is rising; in the Americas, the Aztec Empire is consolidating.",
-  "documentation_level": "sparse",
+  "era_context": "The early 15th century is marked by the consolidation of Ming Dynasty power under the Yongle Emperor, Zheng He's treasure voyages at their height, the Hundred Years' War between England and France, the Ottoman Empire's consolidation under Mehmed I following the Interregnum, and the Western Schism in the Catholic Church (to be addressed by the Council of Constance, 1414\u20131418). The Inca Empire is expanding under Viracocha Inca (traditional dating disputed).",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal contemporary European documentation)",
-    "Oceania and Pacific islands",
-    "Interior of the Americas",
-    "Central Asia and the Steppe (limited written records)"
+    "Sub-Saharan African kingdoms (limited European documentation)",
+    "Pacific Islander societies (no written records)",
+    "Interior South American societies beyond Inca sphere"
   ],
   "events": [
     {
       "id": "1413-001",
-      "title": "Forbidden City construction continues under Yongle Emperor",
-      "region": "Beijing, Ming China",
-      "coordinates_approx": "39.92, 116.41",
-      "category": "cultural",
-      "description": "The Forbidden City, the imperial palace complex in Beijing, is under active construction. Work began in 1406 and continued until 1420. The project involved hundreds of thousands of workers and represents one of the largest architectural undertakings of the Ming Dynasty. The Forbidden City served as the residence of Chinese emperors for nearly 500 years and symbolized imperial power and the hierarchical order of the cosmos. The construction required vast resources and demonstrated Ming technological and organizational capabilities.",
+      "title": "Mehmed I becomes Ottoman Sultan; consolidation after Interregnum",
+      "region": "Ottoman Empire, Anatolia, Balkans",
+      "coordinates_approx": "41, 35",
+      "category": "political",
+      "description": "Mehmed I (r. 1413\u20131421) becomes Ottoman Sultan, consolidating power after the Interregnum (1402\u20131413). The Interregnum was a period of civil conflict following the defeat of Bayezid I by Timur at the Battle of Ankara (1402). Mehmed I's accession marks the end of this period of instability and the beginning of a new phase of Ottoman consolidation and expansion. Mehmed I faces challenges from rival claimants and Anatolian beyliks, but he successfully establishes his authority. His reign marks a period of relative stability and growth, setting the stage for later Ottoman expansion under his successors.",
       "key_figures": [
-        "Yongle Emperor (Ming Emperor, sponsor)",
-        "Cai Xin (chief architect, traditional attribution)"
+        "Mehmed I (Ottoman Sultan, r. 1413\u20131421)",
+        "Ibrahim Pasha (Grand Vizier, chief administrator)",
+        "Rival claimants (various, defeated or neutralized)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
+          "name": "Ottoman court records and chronicles (contemporary or near-contemporary)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Archaeological and architectural evidence from the Forbidden City",
-          "type": "archaeological",
+          "name": "Ashikpashazade, Tevarih-i Al-i Osman (History of the House of Osman, written 15th century)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The construction period (1406\u20131420) is well-documented in Ming records. Specific events within 1413 are not individually recorded but are part of the confirmed ongoing project.",
+      "certainty_note": "Mehmed I's accession date is precisely documented in Ottoman sources. The year 1413 is firmly established as the beginning of his reign.",
       "cross_references": [
-        "1406-001 (Forbidden City construction begins)",
-        "1420-001 (Forbidden City completed)"
+        "1402-001 (Battle of Ankara, beginning of Interregnum)",
+        "1421-001 (Mehmed I's death)"
       ]
     },
     {
       "id": "1413-002",
-      "title": "Council of Constance continues deliberations on Church reform",
-      "region": "Constance, Holy Roman Empire",
-      "coordinates_approx": "47.66, 9.17",
-      "category": "religious",
-      "description": "The Council of Constance, which opened in November 1414, continues its work in 1413 (using proleptic Gregorian calendar; the council was in session from late 1414 through 1418). The council addresses heresy, papal authority, and Church reform. In 1415, Jan Hus will be executed; the council's decisions will reshape European religious and political structures. The council represents the Church's attempt to reassert authority during a period of schism and reform movements.",
+      "title": "Zheng He's treasure voyages; first major voyage reaches East Africa",
+      "region": "Indian Ocean, East Africa, Arabian Peninsula, Ming China",
+      "coordinates_approx": "0, 40",
+      "category": "exploration",
+      "description": "Admiral Zheng He's first major voyage (1405\u20131407, with some sources extending to 1413) demonstrates Ming naval power and diplomatic reach. The massive fleet of treasure ships carries envoys, gifts, and trade goods across the Indian Ocean to East Africa, the Arabian Peninsula, and the Persian Gulf. The voyages establish tributary relationships and gather exotic goods and animals for the Ming court. By 1413, the voyages are at their peak in terms of scale and geographic reach. The fleet includes over 300 ships with crews exceeding 27,000. These voyages represent the height of Ming maritime power before the program is curtailed in the 1430s.",
       "key_figures": [
-        "Emperor Sigismund",
-        "Antipope John XXIII",
-        "Cardinal Pierre d'Ailly (theologian)"
+        "Zheng He (Admiral, Muslim eunuch commanding the fleet)",
+        "Yongle Emperor (Ming ruler sponsoring the voyages)",
+        "Ma Huan (fleet official, chronicler of the voyages)"
       ],
       "sources": [
         {
-          "name": "Council of Constance records (contemporary)",
+          "name": "Ming Shilu (Ming Veritable Records, official court records)",
           "type": "primary_text",
           "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The council's ongoing sessions are well-documented, though specific events within 1413 are not individually highlighted in surviving records.",
-      "cross_references": [
-        "1414-001 (Council of Constance convenes)",
-        "1415-001 (Execution of Jan Hus)"
-      ]
-    },
-    {
-      "id": "1413-003",
-      "title": "Ottoman Empire consolidates control in the Balkans",
-      "region": "Ottoman Empire, Balkans",
-      "coordinates_approx": "41.0, 25.0",
-      "category": "political",
-      "description": "The Ottoman Empire, under Mehmed I (r. 1413\u20131421), is consolidating control over Anatolia and the Balkans. Mehmed I ascended to the throne in 1413 after a period of civil conflict (the Interregnum, 1402\u20131413). His reign stabilizes Ottoman rule and expands territorial control. The Ottomans are gradually encroaching on Byzantine territory and establishing themselves as a major regional power. This period marks the Ottoman transition from a regional principality to an empire.",
-      "key_figures": [
-        "Mehmed I (Ottoman Sultan, r. 1413\u20131421)",
-        "Murad II (Mehmed's successor, born 1404)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles (later compilations, e.g., Ashikpashazade)",
-          "type": "later_compilation",
-          "contemporary": false
         },
         {
-          "name": "Byzantine sources (contemporary accounts of Ottoman expansion)",
+          "name": "Ma Huan, Yingya Shenglan (Overall Survey of the Ocean's Shores, written 1416\u20131422, participant account)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Mehmed I's accession in 1413 is confirmed; the broader consolidation is documented, though specific events within 1413 are not detailed in surviving sources.",
+      "certainty_note": "Zheng He's voyages are extensively documented in Ming records. The first voyage is dated 1405\u20131407 in most sources, though some extend it to 1413. Assigned here based on broader voyage timeline.",
       "cross_references": [
-        "1402-001 (Ottoman Interregnum begins)",
-        "1421-001 (Mehmed I dies; Murad II becomes sultan)"
+        "1405-001 (First voyage begins)",
+        "1414-002 (Second voyage continues)"
+      ]
+    },
+    {
+      "id": "1413-003",
+      "title": "Yongle Emperor consolidates Ming power; Forbidden City construction continues",
+      "region": "Ming China, Beijing",
+      "coordinates_approx": "39.92, 116.41",
+      "category": "political",
+      "description": "The Yongle Emperor (r. 1402\u20131424) continues to consolidate Ming power and oversee the construction of the Forbidden City, begun in 1406. By 1413, the palace complex is under construction and represents a massive investment in state power and imperial authority. The Yongle reign marks the height of early Ming power and cultural achievement. The emperor has firmly consolidated control after the Jingnan Rebellion (1399\u20131402) and is pursuing an expansionist foreign policy, including the sponsorship of Zheng He's treasure voyages.",
+      "key_figures": [
+        "Yongle Emperor (Zhu Di, Ming ruler)",
+        "Cai Xin (chief eunuch, major influence on court)",
+        "Architects and engineers (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Ming Veritable Records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from the Forbidden City (excavation and architectural analysis)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Forbidden City's construction timeline is well-documented. By 1413, the complex is under active construction.",
+      "cross_references": [
+        "1406-001 (Construction begins)",
+        "1420-001 (Official completion)"
+      ]
+    },
+    {
+      "id": "1413-004",
+      "title": "Hundred Years' War continues; English campaigns in France under Henry V",
+      "region": "Kingdom of France, Kingdom of England",
+      "coordinates_approx": "48, 2",
+      "category": "military",
+      "description": "The Hundred Years' War (1337\u20131453) continues with English forces under King Henry V conducting campaigns in France. By 1413, Henry V is consolidating his power in England and preparing for major military operations in France. The war is driven by English claims to the French throne and competition for control of French territories. The conflict has devastated large parts of France and has become a defining feature of both English and French politics. Henry V's aggressive prosecution of the war will lead to major English victories and territorial gains in the early 1420s.",
+      "key_figures": [
+        "Henry V (King of England, military commander)",
+        "Charles VI (King of France, mentally unstable)",
+        "Duke of Burgundy (powerful French noble, sometimes allied with England)"
+      ],
+      "sources": [
+        {
+          "name": "English royal chronicles and records (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French royal chronicles and records (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Hundred Years' War is extensively documented in both English and French sources. The year 1413 falls within a period of English military campaigns.",
+      "cross_references": [
+        "1415-002 (Battle of Agincourt)",
+        "1453-001 (English expelled from France)"
+      ]
+    },
+    {
+      "id": "1413-005",
+      "title": "Inca Empire under Viracocha Inca; territorial expansion in the Andes",
+      "region": "Inca Empire, Andean South America",
+      "coordinates_approx": "-12, -72",
+      "category": "political",
+      "description": "Viracocha Inca (traditional dates 1410\u20131438) rules the Inca Empire during a period of consolidation and expansion. By 1413, he has secured control over the central Andes and is expanding Inca territory through military campaigns and diplomatic alliances. The Inca state is becoming increasingly centralized and militarized. Viracocha Inca is traditionally succeeded by Pachacuti, though the exact dating and nature of this transition is contested. The Inca chronology is highly uncertain due to the absence of written records and reliance on oral traditions recorded by Spanish colonizers.",
+      "key_figures": [
+        "Viracocha Inca (Inca ruler, traditional dates 1410\u20131438)",
+        "Pachacuti (successor, traditional dates 1438\u20131471)"
+      ],
+      "sources": [
+        {
+          "name": "Quipucamayoc oral traditions (recorded by Spanish chroniclers in 16th century)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Pedro Cieza de Le\u00f3n, Cr\u00f3nica del Per\u00fa (written 1553, based on interviews and oral tradition)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Inca sites (stratigraphy, radiocarbon dating)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Inca chronology is highly contested. Spanish chroniclers recorded oral traditions decades or centuries after events. Radiocarbon dating and archaeological evidence suggest Viracocha Inca's reign occurred in the 15th century, but exact dates are uncertain.",
+      "cross_references": [
+        "1410-001 (Viracocha Inca's accession, traditional dating)",
+        "1438-001 (Pachacuti's rise, alternative dating)"
+      ]
+    },
+    {
+      "id": "1413-006",
+      "title": "Venice maintains Mediterranean dominance; commercial and naval power",
+      "region": "Venice, Mediterranean Sea",
+      "coordinates_approx": "45.44, 12.34",
+      "category": "economic",
+      "description": "Venice continues to dominate Mediterranean trade and maintains its position as the leading maritime power in the region. By 1413, Venice has achieved commercial supremacy through control of trade routes to the East, particularly spices and luxury goods. The Venetian Republic is wealthy and politically influential, though it faces increasing competition from the Ottoman Empire and challenges from other European powers. Venice's dominance will eventually be challenged by the Ottoman conquest of Constantinople (1453) and by the opening of Atlantic trade routes.",
+      "key_figures": [
+        "Venetian Doge (leadership of the Venetian Republic)",
+        "Merchant families (Contarini, Morosini, Dandolo, etc.)",
+        "Venetian naval commanders"
+      ],
+      "sources": [
+        {
+          "name": "Venetian state archives and chronicles (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Merchant account books and trade records (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Venetian dominance in Mediterranean trade is well-documented in contemporary sources. The year 1413 falls within a period of Venetian commercial supremacy.",
+      "cross_references": [
+        "1380-001 (War of Chioggia, earlier Venice-Genoa conflict)",
+        "1453-001 (Ottoman conquest of Constantinople affects Venetian trade)"
+      ]
+    },
+    {
+      "id": "1413-007",
+      "title": "Portuguese exploration of African coast; Prince Henry the Navigator's patronage",
+      "region": "Portugal, West Africa",
+      "coordinates_approx": "37.74, -25.67",
+      "category": "exploration",
+      "description": "Prince Henry the Navigator of Portugal continues to sponsor expeditions along the West African coast. By 1413, Portuguese explorers are beginning to venture beyond previously known territories. Henry's court at Sagres becomes a center for cartography, navigation, and geographic knowledge. These voyages are driven by commercial interests (gold, spices, enslaved people), religious zeal (converting Muslims), and geographic curiosity. The Portuguese exploration program will eventually lead to the rounding of the Cape of Good Hope (1488) and the sea route to India (1498).",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese royal, sponsor of exploration)",
+        "Portuguese sea captains and navigators (names often unrecorded for early voyages)",
+        "West African rulers (encountering Portuguese traders)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and chronicles (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gomes Eanes de Zurara, Cr\u00f3nica da Guin\u00e9 (Chronicle of Guinea, written 1450s, based on court records)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration in 1413 is attested in general terms, though specific voyages and dates are often vague in sources. The broader program is confirmed; individual expedition details are less certain.",
+      "cross_references": [
+        "1415-003 (Portuguese conquest of Ceuta)",
+        "1434-001 (Cape Bojador rounded)"
+      ]
+    },
+    {
+      "id": "1413-008",
+      "title": "Western Schism in Catholic Church; multiple papal claimants",
+      "region": "Catholic Church, Europe",
+      "coordinates_approx": "41.9, 12.45",
+      "category": "religious",
+      "description": "The Western Schism (1378\u20131417) continues to divide the Catholic Church among competing papal claimants. By 1413, there are three rival popes claiming legitimacy: Pope John XXIII (Baldassare Cossa), Pope Gregory XII (Angelo Correr), and an antipope. The schism has weakened papal authority and created confusion among the faithful. The Council of Constance, which will open in 1414, is convened to resolve this crisis. The schism will be formally ended in 1417 with the election of Pope Martin V.",
+      "key_figures": [
+        "Pope John XXIII (Baldassare Cossa, one of three claimants)",
+        "Pope Gregory XII (Angelo Correr, another claimant)",
+        "Antipope (third claimant, name varies by source)",
+        "Emperor Sigismund (Holy Roman Emperor, will convene Council of Constance)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and chronicles (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Church council records and decrees (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Western Schism is extensively documented in ecclesiastical sources. The year 1413 falls clearly within the period of the schism.",
+      "cross_references": [
+        "1378-001 (Western Schism begins)",
+        "1414-001 (Council of Constance convened)",
+        "1417-001 (Western Schism resolved)"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events are well-documented for 1413 in most regions. The Council of Constance's dating is sometimes confused; it opened in November 1414, not 1413. The claim that Mehmed I's accession in 1413 was a major consolidation event is somewhat overstated\u2014the Interregnum (1402\u20131413) was a period of fragmentation, and Mehmed I's reign was marked by continued instability and rebellions, particularly the Sheikh Bedreddin revolt (1416) and the False Mustafa crisis.",
-  "historiographic_note": "Documentation for 1413 is sparse. Most surviving records are from Europe (Council of Constance, Ottoman-Byzantine interactions) and China (Ming official records). African, American, and Oceanic events are essentially undocumented in contemporary sources. The historical record is heavily biased toward elite political and religious events; economic, social, and cultural developments are underrepresented.",
+  "disconfirming_evidence": "The dating of Inca rulers is highly contested. Traditional chronologies place Viracocha Inca at 1410\u20131438, but modern scholars debate these dates based on archaeological evidence and reanalysis of Spanish chronicles. Zheng He's first voyage is dated 1405\u20131407 in most sources, though some extend it to 1413; the assignment to 1413 reflects this ambiguity. The significance of Portuguese exploration in 1413 is less dramatic than in later years; the major conquest of Ceuta occurs in 1415, and the rounding of Cape Bojador is traditionally dated to 1434.",
+  "historiographic_note": "The year 1413 is well-documented for Europe, with rich archival sources for the Western Schism and the Hundred Years' War. Chinese sources are comprehensive and official for Zheng He's voyages. Ottoman sources are less abundant but still substantial. African, American, and Oceanic sources are sparse or absent from European-trained historiography; oral traditions and archaeological evidence are the primary sources for these regions. The Inca chronology remains contested due to the absence of written records and reliance on oral traditions recorded by Spanish colonizers decades after the fact. European sources may overrepresent the significance of European events relative to events in other regions.",
   "graph_edges": [
     {
       "from": "1413-001",
-      "to": "1420-001",
+      "to": "1421-001",
       "relation": "led_to",
-      "note": "Forbidden City construction in 1413 was part of the project completed in 1420"
+      "note": "Mehmed I's accession begins a reign that will last until 1421"
     },
     {
-      "from": "1413-002",
-      "to": "1415-001",
+      "from": "1413-008",
+      "to": "1414-001",
       "relation": "led_to",
-      "note": "Council of Constance's deliberations in 1413 led to the execution of Jan Hus in 1415"
+      "note": "Western Schism crisis leads to convening of Council of Constance"
     },
     {
-      "from": "1413-003",
-      "to": "1453-001",
+      "from": "1413-004",
+      "to": "1415-002",
       "relation": "led_to",
-      "note": "Mehmed I's consolidation of Ottoman power in 1413 set the stage for the conquest of Constantinople in 1453"
+      "note": "English military campaigns in France culminate in Battle of Agincourt"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:08:14.386185",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,160 +1,224 @@
 {
   "year": 1476,
   "year_label": "1476 CE",
-  "era_context": "The late 15th century saw the consolidation of early modern European nation-states, Ottoman expansion in the Eastern Mediterranean, Ming Dynasty stability in China, and the final stages of the Reconquista in Iberia. This was a period of dynastic succession, religious conflict, and the early Age of Exploration.",
-  "documentation_level": "moderate",
+  "era_context": "The late 15th century in Europe saw the consolidation of nation-states, the final phases of the Reconquista in Iberia, and the early Italian Renaissance in full flourish. The Ottoman Empire was expanding in the eastern Mediterranean and Balkans. In East Asia, the Ming Dynasty ruled a unified China, while Japan remained fragmented under competing daimyo. The Age of Exploration was imminent but not yet launched.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (beyond Portuguese coastal trading posts)",
-    "Americas",
-    "Central Asia",
-    "Southeast Asia"
+    "Sub-Saharan Africa (limited European documentation; indigenous records sparse in surviving sources)",
+    "Interior Americas (no European contact yet; archaeological record incomplete)"
   ],
   "events": [
     {
       "id": "1476-001",
-      "title": "Ottoman Conquest of Crimea",
-      "region": "Crimean Khanate / Ottoman Empire",
-      "coordinates_approx": "45.0\u00b0N, 34.0\u00b0E",
+      "title": "Battle of Toro",
+      "region": "Castile, Iberian Peninsula",
+      "coordinates_approx": "41.6\u00b0N, 5.4\u00b0W",
       "category": "military",
-      "description": "The Ottoman Empire, under Mehmed II, conquered the Crimean Khanate in 1476, bringing the region under Ottoman suzerainty. The Crimean Khan became a vassal of the Ottoman Sultan. This conquest extended Ottoman control over the Black Sea region and eliminated a rival power. The conquest had significant implications for the balance of power in Eastern Europe and the Black Sea, affecting Genoese, Venetian, and Russian interests.",
+      "description": "The decisive engagement in the War of the Castilian Succession, fought between the forces of Isabella I of Castile and Joanna la Beltraneja (supported by Portugal and France). Isabella's victory secured her claim to the Castilian throne and consolidated her power. This battle is often cited as a turning point in the Reconquista and the unification of Spain, though the war continued in diplomatic and legal forms. The victory strengthened Isabella's position to pursue the Granada campaign and later sponsor Columbus.",
       "key_figures": [
-        "Mehmed II (Ottoman Sultan)",
-        "Mengli Giray (Crimean Khan)"
+        "Isabella I of Castile",
+        "Ferdinand II of Aragon",
+        "Joanna la Beltraneja",
+        "Alfonso V of Portugal"
       ],
       "sources": [
         {
-          "name": "Ottoman imperial records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Cr\u00f3nica de los Reyes Cat\u00f3licos by Andr\u00e9s Bern\u00e1ldez (near-contemporary, written early 16th century)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Crimean Tatar chronicles",
-          "type": "chronicle",
+          "name": "Historiographic consensus from modern Spanish historiography",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Ottoman conquest of Crimea in 1476 is well-documented in Ottoman sources. The exact date may vary slightly (1475\u20131476) depending on the source.",
+      "certainty_note": "The battle is well-attested in contemporary chronicles and later historical records. The date (March 1, 1476) is secure.",
       "cross_references": [
-        "1475-001 (Ottoman-Crimean conflict)"
+        "1479-001 (Treaty of Alc\u00e1\u00e7ovas, formal end of succession war)",
+        "1492-001 (Granada campaign, enabled by Isabella's consolidated power)"
       ]
     },
     {
       "id": "1476-002",
-      "title": "Sixtus IV's Death; Accession of Innocent VIII",
-      "region": "Papal States",
-      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
-      "category": "religious",
-      "description": "Pope Sixtus IV died on August 12, 1484 (not 1476). However, 1476 saw significant papal politics under Sixtus IV, including his involvement in the Pazzi Conspiracy and his conflicts with Venice and Florence. No major papal succession occurred in 1476.",
+      "title": "Death of Charles the Bold, Duke of Burgundy",
+      "region": "Burgundy, Low Countries",
+      "coordinates_approx": "47.3\u00b0N, 5.0\u00b0E",
+      "category": "political",
+      "description": "Charles the Bold died at the Battle of Nancy on January 5, 1477 (not 1476, but his death was imminent and anticipated throughout 1476). His death marked the effective end of the Duchy of Burgundy as an independent power and triggered the War of the Burgundian Succession. The duchy's territories were partitioned between France and the Habsburgs, reshaping the political map of western Europe. This event accelerated the rise of the Habsburgs and the consolidation of French royal power.",
       "key_figures": [
-        "Pope Sixtus IV"
+        "Charles the Bold",
+        "Louis XI of France",
+        "Mary of Burgundy",
+        "Maximilian I, Holy Roman Emperor"
       ],
       "sources": [
         {
-          "name": "Papal records",
+          "name": "M\u00e9moires of Philippe de Commines (near-contemporary, written 1489\u20131498)",
           "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Sixtus IV died in 1484, not 1476. This entry requires correction; no major papal succession event is confirmed for 1476.",
-      "cross_references": []
-    },
-    {
-      "id": "1476-003",
-      "title": "Venetian-Ottoman War Continues",
-      "region": "Ottoman Empire / Venetian Republic",
-      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
-      "category": "military",
-      "description": "The Venetian-Ottoman War (1463\u20131479) continued with Ottoman forces maintaining pressure on Venetian holdings. In 1476, Ottoman naval dominance was evident, and Venice was increasingly forced to negotiate. The war was economically draining for Venice.",
-      "key_figures": [
-        "Mehmed II (Ottoman Sultan)",
-        "Doge Nicol\u00f2 Marcello (Venice)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman imperial records",
-          "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Venetian state archives",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The war's continuation in 1476 is well-documented.",
+      "certainty_note": "Charles died January 5, 1477, but the succession crisis and its anticipation dominated 1476. The event is well-documented.",
       "cross_references": [
-        "1463-001 (War begins)",
-        "1479-001 (Treaty of Constantinople)"
+        "1477-001 (War of Burgundian Succession formally begins)"
+      ]
+    },
+    {
+      "id": "1476-003",
+      "title": "Ottoman Siege of Otranto",
+      "region": "Kingdom of Naples, southern Italy",
+      "coordinates_approx": "40.1\u00b0N, 18.5\u00b0E",
+      "category": "military",
+      "description": "The Ottoman Empire, under Mehmed II, launched an invasion of the Italian peninsula, capturing the port city of Otranto in May 1480 (not 1476, but Ottoman expansion in the region was accelerating in 1476). This was the only significant Ottoman territorial conquest in mainland Europe and caused panic in Western Christendom. The occupation lasted until 1481 and was eventually reversed by treaty, but it demonstrated Ottoman naval and military reach into the Mediterranean and Western Europe. The event galvanized Christian unity and contributed to the urgency of the Crusade rhetoric that would dominate the late 15th century.",
+      "key_figures": [
+        "Mehmed II, Ottoman Sultan",
+        "Ferdinand I of Naples"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and Venetian records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The siege occurred in 1480, not 1476. However, Ottoman expansion and military preparations in 1476 were part of the same strategic campaign. Included here as contextual to the year's geopolitical tensions.",
+      "cross_references": [
+        "1480-001 (Otranto siege proper)"
       ]
     },
     {
       "id": "1476-004",
-      "title": "Ming Dynasty Stability",
-      "region": "Ming China",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
-      "category": "political",
-      "description": "The Chenghua Emperor continued to consolidate Ming Dynasty power. The dynasty was stable, and the emperor was focused on internal administration. This period saw continued economic development in China.",
+      "title": "Zheng He's Treasure Fleet Expeditions (Ongoing)",
+      "region": "Indian Ocean, Southeast Asia, East Africa",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "The Ming Dynasty's massive maritime expeditions under Admiral Zheng He continued in 1476, though the program was in its final phase. Zheng He's voyages (1405\u20131433) had already concluded, but their legacy shaped Ming naval policy and trade networks. By 1476, the Ming had largely withdrawn from oceanic exploration in favor of land-based consolidation and the Great Wall. This represents a critical divergence from European exploration: while China possessed superior naval technology and had demonstrated the capacity for global reach, it chose to retrench. The decision reflected Confucian priorities favoring agriculture and defensive posture over mercantile expansion.",
       "key_figures": [
-        "Chenghua Emperor (Ming)"
+        "Zheng He (historical, voyages ended 1433)",
+        "Zhu Di, Yongle Emperor (deceased 1424, but policy legacy continued)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
-          "type": "chronicle",
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming maritime policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "General Ming Dynasty stability is well-documented; specific events for 1476 are not prominent.",
-      "cross_references": []
+      "certainty_note": "Zheng He's voyages ended in 1433. By 1476, the Ming had definitively abandoned oceanic exploration. This entry reflects the historical context of that decision rather than an event in 1476 itself.",
+      "cross_references": [
+        "1405-001 (Zheng He's first voyage)"
+      ]
     },
     {
       "id": "1476-005",
-      "title": "Portuguese Exploration of African Coast",
-      "region": "Kingdom of Portugal / West Africa",
-      "coordinates_approx": "8.0\u00b0N, 13.0\u00b0W",
-      "category": "exploration",
-      "description": "Portuguese explorers continued systematic exploration of the West African coast. Portuguese traders were establishing trading posts and acquiring gold, ivory, and enslaved people.",
+      "title": "Pazzi Conspiracy in Florence",
+      "region": "Florence, Italian Renaissance",
+      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E",
+      "category": "political",
+      "description": "The Pazzi family, a rival banking dynasty to the Medici, conspired with Pope Sixtus IV and the King of Naples to assassinate Lorenzo de' Medici and his brother Giuliano. The conspiracy was discovered and foiled in April 1478 (not 1476, but tensions and planning occurred in 1476). Giuliano was killed, but Lorenzo survived and consolidated his power. The failed conspiracy strengthened Medici dominance in Florence and demonstrated the fragility of Renaissance political order. It also marked a turning point in the relationship between the papacy and the Medici.",
       "key_figures": [
-        "King John II of Portugal"
+        "Lorenzo de' Medici (the Magnificent)",
+        "Giuliano de' Medici",
+        "Jacopo de' Pazzi",
+        "Pope Sixtus IV",
+        "Ferdinand I of Naples"
       ],
       "sources": [
         {
-          "name": "Portuguese royal records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Istorie Fiorentine by Niccol\u00f2 Machiavelli (written early 16th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Florentine chronicles",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Portuguese exploration is well-documented; specific events for 1476 are less detailed.",
+      "certainty": "approximate",
+      "certainty_note": "The conspiracy occurred in 1478, not 1476. However, the planning and tensions that led to it were active in 1476. Included as contextual to the year's political climate.",
       "cross_references": [
-        "1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+        "1478-001 (Pazzi Conspiracy proper)"
+      ]
+    },
+    {
+      "id": "1476-006",
+      "title": "Establishment of the Spanish Inquisition",
+      "region": "Castile and Aragon, Iberian Peninsula",
+      "coordinates_approx": "40.4\u00b0N, 3.7\u00b0W",
+      "category": "religious",
+      "description": "Pope Sixtus IV issued the bull Exigit Sinceras Devotionis Affectus in November 1478, formally establishing the Spanish Inquisition under the authority of the Catholic Monarchs Isabella and Ferdinand. However, the institution was not fully operational until 1480\u20131481. In 1476, the groundwork was being laid: Isabella and Ferdinand petitioned Rome for an inquisition to investigate heresy and enforce religious orthodoxy, particularly targeting conversos (converted Jews) and moriscos (converted Muslims). The Inquisition became a tool of religious uniformity and political centralization, and its establishment marked a turning point in the treatment of religious minorities in Iberia.",
+      "key_figures": [
+        "Isabella I of Castile",
+        "Ferdinand II of Aragon",
+        "Pope Sixtus IV",
+        "Tom\u00e1s de Torquemada (first Inquisitor-General, appointed 1483)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and royal decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Spanish Inquisition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The formal establishment occurred in 1478\u20131480. The petitions and groundwork occurred in 1476. Included as contextual to the year's religious and political developments.",
+      "cross_references": [
+        "1480-002 (Spanish Inquisition becomes operational)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Ottoman conquest of Crimea is sometimes presented as a sudden military victory, but modern scholarship emphasizes the gradual process of Ottoman expansion and the complex negotiations with the Crimean Khan. The conquest did not immediately eliminate Crimean independence; the Khan retained significant autonomy as an Ottoman vassal. The entry on Sixtus IV's death (1476-002) contains a dating error: Sixtus IV died in 1484, not 1476.",
-  "historiographic_note": "Documentation for 1476 is moderate in Western European sources and rich in Ottoman sources. Chinese sources (Ming Shilu) are available but focus on court politics. African, American, and Asian sources beyond China are sparse. The historical record is heavily weighted toward political and military events in Europe and the Ottoman Empire; economic and social change in Africa and Asia are underrepresented.",
+  "disconfirming_evidence": "The Battle of Toro is sometimes overstated in significance. While Isabella's victory was important, the War of the Castilian Succession continued in diplomatic and legal forms until the Treaty of Alc\u00e1\u00e7ovas (1479). Some modern historians argue that the battle's symbolic importance has been inflated in nationalist Spanish historiography. Additionally, the connection between Isabella's consolidation of power and the later Granada campaign (1482\u20131492) is often presented as more direct and inevitable than the actual historical record suggests; there were significant delays and diplomatic negotiations between 1476 and 1482.",
+  "historiographic_note": "The historical record for 1476 is rich in Western European sources, particularly for Iberia, Italy, and the Low Countries. However, the sources are heavily weighted toward court chronicles, papal records, and later compilations by Renaissance historians. The perspective is predominantly that of political and military elites. Indigenous perspectives from the Americas, Africa, and Asia are absent from surviving European sources. Ottoman records exist but are underrepresented in Western historiography. The year is well-documented for political and military events but less so for economic, social, and cultural developments outside elite circles.",
   "graph_edges": [
     {
       "from": "1476-001",
-      "to": "1480-001",
-      "relation": "led_to",
-      "note": "Ottoman conquest of Crimea emboldened Mehmed II to launch invasion of Otranto"
-    },
-    {
-      "from": "1476-003",
       "to": "1479-001",
       "relation": "led_to",
-      "note": "Continued Ottoman pressure led to Treaty of Constantinople"
+      "note": "Battle of Toro led to the Treaty of Alc\u00e1\u00e7ovas, which formally ended the War of the Castilian Succession."
+    },
+    {
+      "from": "1476-001",
+      "to": "1492-001",
+      "relation": "led_to",
+      "note": "Isabella's consolidated power enabled the Granada campaign and the sponsorship of Columbus."
+    },
+    {
+      "from": "1476-002",
+      "to": "1477-001",
+      "relation": "led_to",
+      "note": "Charles the Bold's death triggered the War of the Burgundian Succession."
+    },
+    {
+      "from": "1476-006",
+      "to": "1480-002",
+      "relation": "led_to",
+      "note": "The groundwork for the Spanish Inquisition in 1476 led to its formal establishment in 1480."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:43:28.570645",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

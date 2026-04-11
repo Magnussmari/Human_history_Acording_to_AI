@@ -1,21 +1,22 @@
 {
   "year": 1444,
   "year_label": "1444 CE",
-  "era_context": "The mid-15th century marks the transition from medieval to early modern Europe, with the Ottoman Empire consolidating power in the Eastern Mediterranean and Balkans, the Ming Dynasty at its height in China, and European states beginning maritime exploration and state centralisation. The Council of Constance's reforms are being implemented unevenly across Christendom; the Hundred Years' War between England and France is in its final phase; and the Italian Renaissance is flourishing in city-states.",
-  "documentation_level": "rich",
+  "era_context": "The mid-15th century is marked by the transition from medieval to early modern Europe. The Hundred Years' War is in its final phase, the Ottoman Empire is expanding in the Balkans, and the Renaissance is flourishing in Italy. In East Asia, the Ming Dynasty is consolidating power and turning inward. The Aztec Empire under Montezuma I is at its height in Mesoamerica.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan African kingdoms (limited European documentation)",
-    "Central Asian and Steppe polities (sparse written records in European sources)",
-    "Pacific Islander societies (no contemporary written records)"
+    "Sub-Saharan Africa (limited written records in European sources)",
+    "Southeast Asia (sparse European documentation)",
+    "Pacific Islands and Oceania (minimal contemporary written records)",
+    "Indigenous Americas (limited written records; oral traditions not systematically documented)"
   ],
   "events": [
     {
       "id": "1444-001",
-      "title": "Battle of Varna",
-      "region": "Bulgaria (Ottoman Empire)",
+      "title": "Battle of Varna (Ottoman-Hungarian conflict)",
+      "region": "Bulgaria (Varna), Ottoman Empire vs. Kingdom of Hungary",
       "coordinates_approx": "43.2\u00b0N, 27.9\u00b0E",
       "category": "military",
-      "description": "A decisive Ottoman victory under Murad II against a Hungarian-Polish-Wallachian coalition led by John Hunyadi and Polish King W\u0142adys\u0142aw III. The battle resulted in the death of W\u0142adys\u0142aw and the destruction of the Christian alliance, effectively ending Crusade efforts in the Balkans and securing Ottoman dominance over the region for centuries. The defeat marked a turning point in Ottoman-European relations and demonstrated the military superiority of Ottoman forces.",
+      "description": "Hungarian forces under John Hunyadi and Polish-Lithuanian King W\u0142adys\u0142aw III engaged Ottoman forces under Murad II in a major Balkan conflict. The battle resulted in a decisive Ottoman victory and the death of King W\u0142adys\u0142aw, halting Christian attempts to reclaim lost Balkan territories. This engagement reinforced Ottoman dominance in the eastern Mediterranean and Balkans for the next century. Modern scholarship increasingly dates this battle to 1444 rather than 1446.",
       "key_figures": [
         "Murad II (Ottoman Sultan)",
         "John Hunyadi (Hungarian military commander)",
@@ -28,202 +29,168 @@
           "contemporary": false
         },
         {
-          "name": "Hungarian and Polish chronicles (Jan D\u0142ugosz, Chronica Polonorum)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Venetian diplomatic reports",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The battle is well-attested in multiple independent sources from Ottoman, Hungarian, Polish, and Venetian traditions. The date (10 November 1444) is firmly established.",
-      "cross_references": [
-        "Follows from 1443-002 (Peace of Edirne)",
-        "Led to 1453-001 (Fall of Constantinople)"
-      ]
-    },
-    {
-      "id": "1444-002",
-      "title": "Zheng He's final voyage returns to China",
-      "region": "Ming China / Indian Ocean",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
-      "category": "exploration",
-      "description": "The treasure fleet of Admiral Zheng He, which had departed in 1433 on what would be the final of seven great voyages, returns to Nanjing. These expeditions, sponsored by the Yongle Emperor and his successors, reached East Africa, the Arabian Peninsula, and the Indian Ocean rim, establishing Chinese naval dominance and tributary relationships. The return of this voyage marks the end of an era of Chinese maritime expansion; subsequent Ming policy would shift toward isolationism and the abandonment of oceanic exploration.",
-      "key_figures": [
-        "Zheng He (Admiral, Muslim eunuch)",
-        "Zhu Zhanji (Xuande Emperor, reigning 1426\u20131435, but voyage continued under successors)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "name": "Hungarian and Polish contemporary records",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Zheng He's stele inscriptions",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Ma Huan, Yingya Shenglan (Overall Survey of the Ocean's Shores)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The voyages are well-documented in Ming records and contemporary accounts. The final voyage's return is dated to 1433 in some sources and 1435 in others; the 1444 date reflects the extended timeline of the expedition.",
-      "cross_references": [
-        "Part of broader Ming maritime expansion (1405\u20131433)",
-        "Preceded by 1433-001 (departure of final voyage)"
-      ]
-    },
-    {
-      "id": "1444-003",
-      "title": "Gutenberg's printing press development",
-      "region": "Holy Roman Empire (Mainz region)",
-      "coordinates_approx": "50.0\u00b0N, 8.3\u00b0E",
-      "category": "technological",
-      "description": "Johannes Gutenberg is developing and refining the movable-type printing press in Mainz, though the exact timeline of his innovations remains debated. By the mid-1440s, he had likely perfected the technology combining metal type, oil-based ink, and the printing press mechanism. This innovation would revolutionise information dissemination across Europe, though the first dated printed work (the 42-line Bible) would not appear until circa 1455.",
-      "key_figures": [
-        "Johannes Gutenberg (inventor)"
-      ],
-      "sources": [
-        {
-          "name": "Gutenberg's legal documents and contracts (Mainz archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later accounts by Johann Trithemius and others",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus from printing history scholarship",
+          "name": "Modern Ottoman and Eastern European scholarship",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The exact date of Gutenberg's innovations is uncertain. Documents place him in Mainz by 1444, but the development of the press likely occurred over several years (1440\u20131455). The 1444 date is conventional; the technology was probably not fully mature until the early 1450s.",
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-attested in both Ottoman and European sources. Modern scholarship increasingly favors 1444 as the correct date, though some sources place it in 1446.",
       "cross_references": [
-        "Led to 1455-001 (Printing of the Gutenberg Bible)",
-        "Part of broader technological revolution in information technology"
+        "Related to Ottoman expansion (1453-001: Fall of Constantinople)",
+        "Part of Crusade of Varna campaign"
       ]
     },
     {
-      "id": "1444-004",
-      "title": "Cosimo de' Medici consolidates power in Florence",
-      "region": "Italian city-state of Florence",
-      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E",
+      "id": "1444-002",
+      "title": "Treaty of Tours (England-France truce)",
+      "region": "Kingdom of France and Kingdom of England",
+      "coordinates_approx": "47.4\u00b0N, 0.7\u00b0E",
       "category": "political",
-      "description": "Cosimo de' Medici, known as 'Pater Patriae' (Father of the Fatherland), continues to dominate Florentine politics through informal influence and patronage networks rather than formal office. By 1444, his position is unassailable; he controls the city's finances, foreign policy, and cultural patronage. His support for humanist scholarship and artistic commissions is reshaping Florence into the intellectual and artistic centre of the Italian Renaissance.",
+      "description": "The Treaty of Tours established a truce between England and France, temporarily halting the Hundred Years' War. The treaty was negotiated as part of efforts to end the prolonged conflict, though it would ultimately prove temporary. The agreement reflected the weakening of English military power and the strengthening of French authority under Charles VII.",
       "key_figures": [
-        "Cosimo de' Medici (de facto ruler of Florence)",
-        "Piero de' Medici (his son, heir apparent)"
+        "Charles VII (King of France)",
+        "Henry VI (King of England)",
+        "Margaret of Anjou (Queen of England)"
       ],
       "sources": [
         {
-          "name": "Florentine state records and tax documents",
+          "name": "Treaty of Tours (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Vespasiano da Bisticci, Lives of Illustrious Men",
+          "name": "English and French royal chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Tours is well-documented in diplomatic records and contemporary chronicles.",
+      "cross_references": [
+        "Part of broader Hundred Years' War (1337\u20131453)",
+        "Related to: 1445-001 (English losses in Normandy)"
+      ]
+    },
+    {
+      "id": "1444-003",
+      "title": "Gutenberg's printing press: early development phase",
+      "region": "Mainz, Holy Roman Empire",
+      "coordinates_approx": "50.0\u00b0N, 8.3\u00b0E",
+      "category": "technological",
+      "description": "Johannes Gutenberg was in the early stages of developing his movable-type printing press in Mainz. The exact timeline of the press's development is uncertain, with dates ranging from 1440\u20131455 proposed by scholars. By 1444, Gutenberg was likely experimenting with the combination of metal type, oil-based inks, and mechanical press technology.",
+      "key_figures": [
+        "Johannes Gutenberg (inventor/printer)"
+      ],
+      "sources": [
+        {
+          "name": "Gutenberg's own records (fragmentary)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Machiavelli, Florentine Histories",
+          "name": "Later biographical accounts",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Cosimo's dominance by 1444 is well-documented in Florentine archives and contemporary accounts. His informal power structure is attested across multiple sources.",
+      "certainty": "approximate",
+      "certainty_note": "The exact year of Gutenberg's press development is uncertain. 1444 is within the probable range, but definitive contemporary documentation is lacking.",
       "cross_references": [
-        "Part of broader Medici rise to power (1434 onwards)",
-        "Led to 1464-001 (Cosimo's death and succession of Piero)"
+        "Related to: 1445-002 (Gutenberg's press continued development)",
+        "Leads to: 1455-001 (Gutenberg Bible completion)"
       ]
     },
     {
-      "id": "1444-005",
-      "title": "Portuguese exploration of the African coast",
-      "region": "West Africa / Portugal",
-      "coordinates_approx": "15.0\u00b0N, 15.0\u00b0W",
+      "id": "1444-004",
+      "title": "Portuguese exploration: establishment of trading posts",
+      "region": "West Africa and Atlantic coast",
+      "coordinates_approx": "null",
       "category": "exploration",
-      "description": "Portuguese explorers, sponsored by Prince Henry the Navigator, continue systematic exploration of the West African coast. By 1444, Portuguese caravels have reached the Senegal River and are establishing trading posts and forts. These expeditions are motivated by the search for gold, spices, and a sea route to Asia, as well as the conversion of African peoples to Christianity. The voyages mark the beginning of European colonial expansion in Africa.",
+      "description": "Portuguese explorers, under the patronage of Prince Henry the Navigator, continued establishing trading posts and forts along the West African coast. By 1444, Portuguese presence in West Africa was expanding, facilitating trade in gold, ivory, and enslaved people. This period marks the intensification of Portuguese maritime expansion.",
       "key_figures": [
-        "Prince Henry the Navigator (Portuguese royal patron)",
-        "Dinis Dias (explorer, reached Senegal River)",
-        "Nuno Trist\u00e3o (explorer)"
+        "Henry the Navigator (Prince of Portugal)",
+        "Portuguese explorers and merchants"
       ],
       "sources": [
         {
-          "name": "Portuguese royal chronicles and records",
+          "name": "Portuguese royal records and chronicles",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Venetian merchant reports",
+          "name": "Contemporary accounts of Portuguese exploration",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Portuguese exploration is well-documented in royal records and contemporary chronicles. The specific achievements of 1444 are attested in Zurara's chronicle, though written after the events.",
+      "certainty_note": "Portuguese exploration of the African coast during this period is well-documented in Portuguese sources.",
       "cross_references": [
-        "Part of broader Age of Exploration (1415 onwards)",
-        "Led to 1482-001 (Portuguese fort at S\u00e3o Jorge da Mina)"
+        "Part of broader Age of Exploration (15th\u201317th centuries)",
+        "Related to: 1445-003 (Portuguese expansion of African trade)"
+      ]
+    },
+    {
+      "id": "1444-005",
+      "title": "Ming Dynasty: Zhengtong Emperor's reign begins",
+      "region": "China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Zhengtong Emperor ascended to the Ming throne in 1435 and by 1444 had consolidated his authority. His reign was marked by the continuation of Confucian orthodoxy and the suppression of eunuch influence. The court's focus on land-based defense and internal administration reflected the triumph of Confucian scholars over maritime expansion advocates.",
+      "key_figures": [
+        "Zhengtong Emperor (Ming Emperor, r. 1435\u20131449)"
+      ],
+      "sources": [
+        {
+          "name": "Ming official records (Mingshi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Ming court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming Dynasty policies during this period are well-documented in official records.",
+      "cross_references": [
+        "Related to: 1449-001 (Tumu Crisis)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of the Battle of Varna has been somewhat overstated in Western historiography as a definitive 'end of Crusades' moment; Ottoman expansion continued to face resistance, and the battle's impact was primarily regional rather than civilisational. Regarding Gutenberg, the attribution of the printing press invention solely to Gutenberg is disputed by some scholars, who note that woodblock printing and earlier movable-type systems existed in Asia and that Gutenberg's specific innovation was the combination of technologies; the exact date of his development remains uncertain. The 'isolationism' narrative applied to Ming China after Zheng He's voyages is increasingly questioned by modern scholarship, which notes that Chinese maritime trade continued, albeit under different state structures.",
-  "historiographic_note": "The year 1444 is well-documented in European sources (Ottoman, Hungarian, Polish, Italian, Portuguese records) but less thoroughly in Asian sources available to Western scholarship. The Battle of Varna is extensively recorded, but Ottoman and European accounts sometimes diverge on details. Chinese records are rich but often filtered through later compilations. African perspectives on Portuguese exploration are almost entirely absent from contemporary written sources; the African side of these encounters is reconstructed from later oral traditions and archaeological evidence. The historiography of this period is heavily shaped by European and Ottoman state records; the experiences of common people, women, and non-elite groups are largely invisible.",
+  "disconfirming_evidence": "The dating of the Battle of Varna is disputed between 1444 and 1446; modern scholarship increasingly favors 1444, but some sources still cite 1446. The Treaty of Tours is sometimes characterized as a definitive end to the Hundred Years' War, but it was actually a temporary truce that was broken multiple times before the war's final conclusion in 1453. The characterization of Portuguese exploration as purely commercial obscures the role of slavery and coercion in early Portuguese-African contact.",
+  "historiographic_note": "Documentation for 1444 is moderate, with strong coverage of European political and military events. Chinese sources are abundant for Ming Dynasty activities. However, African, Southeast Asian, and American sources are sparse or absent from European historiography. The surviving record reflects the interests of court-sponsored chroniclers and religious institutions. The role of non-European actors in global events is often marginalized or absent.",
   "graph_edges": [
     {
       "from": "1444-001",
       "to": "1453-001",
       "relation": "led_to",
-      "note": "The Ottoman victory at Varna removed the last major Christian military threat, enabling the conquest of Constantinople nine years later."
+      "note": "Ottoman victory at Varna strengthened Ottoman position for final assault on Constantinople"
     },
     {
       "from": "1444-002",
-      "to": "1405-001",
-      "relation": "part_of",
-      "note": "The final voyage is the culmination of Zheng He's seven-voyage program initiated in 1405."
+      "to": "1453-002",
+      "relation": "led_to",
+      "note": "Treaty of Tours truce eventually led to final English losses in France"
     },
     {
       "from": "1444-003",
       "to": "1455-001",
       "relation": "led_to",
-      "note": "Gutenberg's development of the printing press in 1444 directly enabled the printing of the Gutenberg Bible circa 1455."
-    },
-    {
-      "from": "1444-004",
-      "to": "1464-001",
-      "relation": "led_to",
-      "note": "Cosimo's consolidation of power in 1444 established the Medici dynasty's control of Florence, which continued under his successors."
+      "note": "Gutenberg's press development led to Gutenberg Bible completion"
     },
     {
       "from": "1444-005",
-      "to": "1482-001",
+      "to": "1449-001",
       "relation": "led_to",
-      "note": "Portuguese exploration of the African coast in 1444 was part of the systematic expansion that led to the establishment of permanent forts."
+      "note": "Zhengtong Emperor's reign continued until Tumu Crisis in 1449"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:57:55.297302",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

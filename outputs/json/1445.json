@@ -1,231 +1,198 @@
 {
   "year": 1445,
   "year_label": "1445 CE",
-  "era_context": "The mid-15th century is marked by the Ming Dynasty consolidating power, the Ottoman Empire expanding in the Balkans, the Italian Renaissance flourishing, and European exploration accelerating. The Byzantine Empire is in decline, facing Ottoman pressure. In Africa, Portuguese trading posts are expanding; in the Americas, the Aztec and Inca empires remain at their height.",
+  "era_context": "Mid-15th century Europe is in transition: the Renaissance is flourishing in Italy, the Hundred Years' War between England and France is nearing its end, and the Ottoman Empire is consolidating power in the eastern Mediterranean. In East Asia, the Ming Dynasty continues its inward focus after the conclusion of Zheng He's voyages. The Aztec Empire in Mesoamerica is at its height under Montezuma I.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written documentation; oral traditions and archaeological evidence underrepresented)",
-    "Interior Southeast Asia (sparse European sources; local chronicles less accessible)",
-    "Pacific Islands and Oceania (minimal contemporary documentation)",
-    "North American interior (no written records; archaeological evidence only)",
-    "Central Asia (limited sources; Mongol and Timurid records sparse)"
+    "Sub-Saharan Africa (limited written records in European sources)",
+    "Southeast Asia (sparse European documentation)",
+    "Pacific Islands and Oceania (minimal contemporary written records)",
+    "Indigenous Americas (limited written records; oral traditions not systematically documented)"
   ],
   "events": [
     {
       "id": "1445-001",
-      "title": "Council of Florence: Union of Eastern and Western Churches Declared",
-      "region": "Italy / Eastern Mediterranean",
-      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E (Florence)",
-      "category": "religious",
-      "description": "The Council of Florence (1438\u20131445) formally declared the union of the Eastern Orthodox and Roman Catholic churches on July 6, 1445. The Byzantine Emperor John VIII Palaiologus and the Pope agreed to end the Great Schism of 1054. However, this union was deeply unpopular in Constantinople and was seen as a desperate political maneuver to secure Western military aid against the Ottoman threat. The union was rejected by the Orthodox clergy and populace upon the emperor's return to Constantinople. The failure of the union highlighted the deep theological and political divisions between East and West and would be repudiated within a few years.",
+      "title": "Hundred Years' War: English losses in Normandy",
+      "region": "Normandy, Kingdom of France",
+      "coordinates_approx": "49.2\u00b0N, 0.4\u00b0E",
+      "category": "military",
+      "description": "English forces, weakened by internal conflict (Wars of the Roses) and French military resurgence under Charles VII, continued to lose territory in Normandy. By 1445, English control in France was reduced to Calais and a few coastal enclaves. The Treaty of Tours (1444) had established a truce, but English military dominance in France, which had lasted over a century, was definitively ending. This marked a turning point in English power and French consolidation.",
       "key_figures": [
-        "Pope Eugenius IV (Roman Catholic)",
-        "John VIII Palaiologus (Byzantine Emperor)",
-        "Cardinal Bessarion (mediator)"
+        "Charles VII (King of France)",
+        "Henry VI (King of England)",
+        "Joan of Arc (deceased 1431, but legacy influenced this period)"
       ],
       "sources": [
         {
-          "name": "Council of Florence records and papal documents",
+          "name": "English and French royal chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Treaty of Tours (1444)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Byzantine chronicles and later historiography",
-          "type": "chronicle",
+          "name": "Modern historiographic consensus on Hundred Years' War",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Council of Florence's declaration of union is well-documented in both Catholic and Orthodox sources. The date (July 6, 1445) is established.",
+      "certainty_note": "English losses in Normandy during this period are well-documented in both English and French sources.",
       "cross_references": [
-        "1054-001 (Great Schism)",
-        "1449-005 (Union's collapse)"
+        "Part of broader Hundred Years' War (1337\u20131453)",
+        "Related to: 1453-002 (Fall of Calais)"
       ]
     },
     {
       "id": "1445-002",
-      "title": "Portuguese Exploration: Expansion of Trading Posts in West Africa",
-      "region": "West Africa / Portuguese Guinea",
-      "coordinates_approx": "10.0\u00b0N, 10.0\u00b0W",
-      "category": "exploration",
-      "description": "Portuguese explorers and traders, under the patronage of Prince Henry the Navigator, continued to expand their presence along the West African coast in 1445. The Portuguese were systematically mapping the African coast, establishing trading posts, and developing commercial relationships with local rulers. The primary commodities were gold, ivory, and enslaved people. This expansion was part of the broader Portuguese strategy to bypass Islamic middlemen in the Saharan trade and access African resources directly. The Portuguese were also motivated by religious zeal (converting Africans to Christianity) and the desire to find a sea route to Asia.",
+      "title": "Gutenberg's printing press: continued development",
+      "region": "Mainz, Holy Roman Empire",
+      "coordinates_approx": "50.0\u00b0N, 8.3\u00b0E",
+      "category": "technological",
+      "description": "Gutenberg continued refining his movable-type printing press technology in Mainz. By 1445, the basic mechanics of the press were likely functional, though the exact timeline remains uncertain. The development of oil-based inks compatible with metal type and the refinement of the press mechanism itself were ongoing during this period.",
       "key_figures": [
-        "Prince Henry the Navigator (Portuguese)",
-        "Portuguese merchants and explorers"
+        "Johannes Gutenberg (inventor/printer)"
       ],
       "sources": [
         {
-          "name": "Portuguese chronicles and trading records",
+          "name": "Gutenberg's own records (fragmentary)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Cr\u00f3nica da Guin\u00e9 by Gomes Eanes de Zurara",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Portuguese expansion in West Africa during this period is well-documented, though specific events in 1445 are less precisely dated than major fortress constructions.",
-      "cross_references": [
-        "1449-002 (Alc\u00e1cer Ceguer capture)",
-        "1482-001 (Elmina Castle founded)"
-      ]
-    },
-    {
-      "id": "1445-003",
-      "title": "Ming Dynasty: Zhengtong Emperor's Reign",
-      "region": "Ming China",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E (Beijing)",
-      "category": "political",
-      "description": "In 1445, the Zhengtong Emperor (r. 1435\u20131449) was in the midst of his reign, which would be marked by military challenges and the influence of the eunuch Wang Zhen. The emperor was young and relatively inexperienced, and the court was divided between eunuch factions and Confucian bureaucrats. The Ming were facing continued pressure from Mongol incursions on the northern frontier. The period saw debates about military strategy and resource allocation. The Zhengtong Emperor's reign would end in 1449 with his capture at Tumu Fortress.",
-      "key_figures": [
-        "Zhengtong Emperor (Ming, r. 1435\u20131449)",
-        "Wang Zhen (eunuch advisor)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Shilu (\u660e\u5be6\u9304)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Zhengtong Emperor's reign is well-documented in Ming official records. The year 1445 falls within his reign, which is confirmed.",
-      "cross_references": [
-        "1435-001 (Zhengtong's accession)",
-        "1449-001 (Tumu Fortress disaster)"
-      ]
-    },
-    {
-      "id": "1445-004",
-      "title": "Ottoman Empire: Murad II's Consolidation and Military Preparation",
-      "region": "Ottoman Empire / Balkans and Anatolia",
-      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E (Bursa)",
-      "category": "military",
-      "description": "In 1445, the Ottoman Empire under Murad II (r. 1421\u20131451) was consolidating its power in the Balkans and Anatolia. The Ottomans had defeated Serbian, Hungarian, and Greek resistance and were preparing for the final assault on Constantinople. Murad II was organizing the Ottoman military machine, which was superior in organization, artillery, and resources compared to the fragmented Christian states of the region. The Ottoman expansion was part of a broader process of Islamic state-building in the Eastern Mediterranean and Balkans.",
-      "key_figures": [
-        "Murad II (Ottoman Sultan, r. 1421\u20131451)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles and Turkish sources",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Ottoman consolidation is well-documented, though specific events in 1445 are less precisely dated than major battles or sieges.",
-      "cross_references": [
-        "1448-002 (Second Battle of Kosovo)",
-        "1453-001 (Fall of Constantinople)"
-      ]
-    },
-    {
-      "id": "1445-005",
-      "title": "Italian Renaissance: Artistic Development and Patronage",
-      "region": "Italy / Florence, Rome, Venice",
-      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E (Florence)",
-      "category": "cultural",
-      "description": "The Italian Renaissance continued to flourish in 1445 with ongoing artistic and intellectual development. Artists and scholars were creating revolutionary works and recovering classical texts. Florence, under the Medici family, was a center of artistic and intellectual innovation. The period saw the development of linear perspective in art, the revival of classical learning, and the emergence of secular themes in art and literature. This cultural movement was having profound effects on European civilization, influencing thought, aesthetics, and values.",
-      "key_figures": [
-        "Cosimo de' Medici (Florence)",
-        "Donatello (sculptor)",
-        "Filippo Brunelleschi (architect)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary chronicles and artistic records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Giorgio Vasari's Lives of the Artists",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The flourishing of the Italian Renaissance in 1445 is well-documented through surviving artworks, contemporary records, and later historiography.",
-      "cross_references": [
-        "1400-001 (Early Renaissance)",
-        "1500-001 (High Renaissance)"
-      ]
-    },
-    {
-      "id": "1445-006",
-      "title": "Inca Empire: Pachacuti's Expansion and Consolidation",
-      "region": "South America / Inca Empire",
-      "coordinates_approx": "-13.2\u00b0S, -72.5\u00b0W (Cusco)",
-      "category": "political",
-      "description": "In 1445, the Inca Empire under Pachacuti (Pachacutec Inca Yupanqui, r. 1438\u20131471) was in the midst of a period of rapid expansion and consolidation. Pachacuti is credited with transforming the Inca state from a regional power into a vast empire. In 1445, he was consolidating control over newly conquered territories and implementing administrative reforms. The Inca were building roads, establishing administrative centers, and integrating diverse ethnic groups into the empire. This period of expansion would continue until Pachacuti's death in 1471.",
-      "key_figures": [
-        "Pachacuti (Inca Emperor, r. 1438\u20131471)"
-      ],
-      "sources": [
-        {
-          "name": "Quipucamayoc (Inca record keepers) and oral traditions",
-          "type": "oral_tradition",
-          "contemporary": true
-        },
-        {
-          "name": "Spanish colonial chronicles (Cieza de Le\u00f3n, Garcilaso de la Vega)",
+          "name": "Later biographical accounts",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The dating of Pachacuti's reign and specific events is based on Inca oral traditions recorded by Spanish chroniclers after the conquest. The exact chronology is uncertain, with some scholars placing events \u00b15\u201310 years from traditional dates.",
+      "certainty": "approximate",
+      "certainty_note": "The exact timeline of Gutenberg's press development is uncertain. 1445 is within the probable range, but definitive contemporary documentation is lacking.",
       "cross_references": [
-        "1438-001 (Pachacuti's accession)",
-        "1471-001 (Pachacuti's death)"
+        "Related to: 1446-002 (Gutenberg's press development)"
+      ]
+    },
+    {
+      "id": "1445-003",
+      "title": "Portuguese exploration: expansion of African trade",
+      "region": "West Africa and Atlantic coast",
+      "coordinates_approx": "null",
+      "category": "exploration",
+      "description": "Portuguese explorers, under the patronage of Prince Henry the Navigator, continued expanding their presence along the West African coast. By 1445, Portuguese trading posts and forts were being established to facilitate trade in gold, ivory, and enslaved people. This period marks the intensification of Portuguese maritime expansion that would lead to the rounding of the Cape of Good Hope and the establishment of a sea route to Asia.",
+      "key_figures": [
+        "Henry the Navigator (Prince of Portugal)",
+        "Portuguese explorers and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of Portuguese exploration",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern historiographic consensus on Age of Exploration",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Portuguese exploration of the African coast during this period is well-documented in Portuguese sources.",
+      "cross_references": [
+        "Part of broader Age of Exploration (15th\u201317th centuries)",
+        "Leads to: 1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+      ]
+    },
+    {
+      "id": "1445-004",
+      "title": "Council of Constance reforms: ecclesiastical consolidation",
+      "region": "Holy Roman Empire and Catholic Church",
+      "coordinates_approx": "null",
+      "category": "religious",
+      "description": "In the aftermath of the Council of Constance (1414\u20131418), the Catholic Church was consolidating its authority and attempting to suppress heretical movements. By 1445, the Hussite Wars had concluded (1434), and the Church was reasserting control over religious life in Central Europe. This period saw the strengthening of papal authority and the suppression of reform movements that challenged Church doctrine.",
+      "key_figures": [
+        "Pope Eugenius IV (r. 1431\u20131447)",
+        "Church authorities in Central Europe"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and ecclesiastical chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Council of Constance records",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ecclesiastical consolidation in this period is well-documented in Church records.",
+      "cross_references": [
+        "Related to: 1446-004 (Religious reform movements)"
+      ]
+    },
+    {
+      "id": "1445-005",
+      "title": "Ming Dynasty: internal consolidation and Confucian orthodoxy",
+      "region": "China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Ming Dynasty under the Zhengtong Emperor (r. 1435\u20131449) was consolidating Confucian orthodoxy and centralizing imperial authority. By 1445, the court had definitively ended maritime expeditions and was focusing on land-based defense and internal administration. This shift reflected the triumph of Confucian scholars over eunuch factions and marked a turning inward of Ming policy.",
+      "key_figures": [
+        "Zhengtong Emperor (Ming Emperor, r. 1435\u20131449)"
+      ],
+      "sources": [
+        {
+          "name": "Ming official records (Mingshi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Ming court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ming Dynasty policies during this period are well-documented in official records.",
+      "cross_references": [
+        "Related to: 1446-003 (Zheng He's voyages conclude)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Council of Florence's declaration of union is sometimes presented as a significant achievement in Christian unity, but it was actually a failure that collapsed within a few years. The union was never accepted by the Orthodox Church as a whole and was repudiated by the Byzantine populace. The Portuguese expansion in West Africa is sometimes presented as purely exploitative, but it involved complex negotiations with local rulers and merchants. The Italian Renaissance is often presented as a unified movement, but it was actually a complex, contested process with significant regional and temporal variations. Pachacuti's reign is often presented as a period of purely military conquest, but it also involved significant administrative innovation and cultural integration.",
-  "historiographic_note": "Documentation for 1445 is moderate in European and East Asian sources but heavily skewed toward political, military, and cultural events involving elites. Chinese sources are abundant but court-centric. Ottoman sources are less detailed than later chronicles. European sources emphasize Christian Europe and the Renaissance while marginalizing African and Islamic perspectives. The history of the Inca Empire is documented primarily through Spanish colonial chronicles written decades or centuries after the events, filtered through the perspective of the conquistadors and their indigenous informants. Sub-Saharan African, Mesoamerican interior, and Pacific histories are almost entirely absent from contemporary written records available to modern scholars. The year 1445 is less well-documented than years with major events (like 1449 with the Tumu Fortress disaster or 1453 with the fall of Constantinople).",
+  "disconfirming_evidence": "The exact dating of Gutenberg's press development remains disputed; 1445 is within the probable range but lacks definitive contemporary documentation. Some scholars argue the press was developed incrementally rather than in a single year. The characterization of Portuguese exploration as purely commercial and exploratory obscures the role of slavery and coercion in early Portuguese-African contact, which is often underemphasized in traditional historiography.",
+  "historiographic_note": "Documentation for 1445 is moderate, with strong coverage of European political and military events. Chinese sources are abundant for Ming Dynasty activities. However, African, Southeast Asian, and American sources are sparse or absent from European historiography. The surviving record reflects the interests of court-sponsored chroniclers and religious institutions. The role of non-European actors in global events is often marginalized or absent.",
   "graph_edges": [
     {
       "from": "1445-001",
-      "to": "1449-005",
+      "to": "1453-002",
       "relation": "led_to",
-      "note": "The Council of Florence's declaration of union (1445) led to its collapse (1449) when Constantine XI rejected it."
+      "note": "English losses in France culminated in fall of Calais in 1453"
     },
     {
       "from": "1445-002",
-      "to": "1500-001",
-      "relation": "part_of",
-      "note": "Portuguese expansion in West Africa (1445) was part of the broader Age of Exploration and the beginning of European global dominance."
+      "to": "1455-001",
+      "relation": "led_to",
+      "note": "Gutenberg's press development led to Gutenberg Bible completion"
     },
     {
       "from": "1445-003",
-      "to": "1449-001",
+      "to": "1488-001",
       "relation": "led_to",
-      "note": "The Zhengtong Emperor's reign (1445) led to the Tumu Fortress disaster (1449)."
-    },
-    {
-      "from": "1445-004",
-      "to": "1453-001",
-      "relation": "led_to",
-      "note": "Ottoman consolidation (1445) led directly to the conquest of Constantinople (1453)."
+      "note": "Portuguese exploration of African coast led to rounding of Cape of Good Hope"
     },
     {
       "from": "1445-005",
-      "to": "1500-001",
-      "relation": "part_of",
-      "note": "The Italian Renaissance flourishing (1445) was part of the broader cultural movement that defined the early modern period."
-    },
-    {
-      "from": "1445-006",
-      "to": "1532-001",
+      "to": "1449-001",
       "relation": "led_to",
-      "note": "Pachacuti's expansion of the Inca Empire (1445) created the vast empire that would be conquered by Spanish conquistadors in 1532."
+      "note": "Ming consolidation continued until Tumu Crisis in 1449"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:56:05.869843",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

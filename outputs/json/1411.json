@@ -1,115 +1,181 @@
 {
   "year": 1411,
   "year_label": "1411 CE",
-  "era_context": "The early 15th century is characterized by the late Medieval period in Europe, the Ming Dynasty's consolidation in China, the Ottoman Empire's recovery from the Interregnum, and the Hussite movement's growth in Bohemia. The Renaissance is emerging in Italy; major construction projects are underway in Beijing. In Africa, the Songhai Empire is consolidating; in the Americas, the Aztec Empire is expanding.",
-  "documentation_level": "sparse",
+  "era_context": "The early 15th century saw the Ming Dynasty consolidating power in China under the Yongle Emperor, the Ottoman Empire expanding in the Balkans and Mediterranean, the Hussite Wars raging in Bohemia following Jan Hus's execution, and European Renaissance humanism beginning to flourish in Italy. The Age of Exploration was imminent; the Zheng He treasure voyages were underway. In the Americas, the Aztec Empire was at its height under Montezuma I, and the Inca Empire was expanding under Pachacuti.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Oceania and Pacific islands",
-    "Interior of the Americas",
-    "Central Asia and the Steppe",
-    "Most of Europe outside major political centers"
+    "Sub-Saharan Africa (limited written records; oral traditions not well-documented in European sources)",
+    "Southeast Asia (fragmentary records; Vietnamese and Thai sources underrepresented in Western historiography)",
+    "Pacific Islands (no written records for this period)"
   ],
   "events": [
     {
       "id": "1411-001",
-      "title": "Ming Dynasty continues Forbidden City construction",
-      "region": "Beijing, Ming China",
-      "coordinates_approx": "39.92, 116.41",
-      "category": "cultural",
-      "description": "The Forbidden City construction project continues under the Yongle Emperor. Work began in 1406 and will continue until 1420. The project represents one of the largest architectural undertakings of the Ming Dynasty, involving hundreds of thousands of workers. The construction demonstrates Ming technological capabilities and the centralization of imperial power. The Forbidden City will serve as the imperial residence for nearly 500 years.",
+      "title": "Zheng He's Third Treasure Voyage departs from China",
+      "region": "Ming China, Indian Ocean, East Africa",
+      "coordinates_approx": "22.3\u00b0N, 114.2\u00b0E (Nanjing departure)",
+      "category": "exploration",
+      "description": "Admiral Zheng He, commanding a massive fleet of over 100 vessels and approximately 27,000 personnel, departed Nanjing on his third major voyage of exploration. The expedition sailed to Southeast Asia, India, the Arabian Peninsula, and East Africa, establishing tributary relationships and demonstrating Ming naval supremacy. This voyage lasted until 1412 and represented the apex of Chinese maritime exploration before the Treasure Voyages were curtailed in the 1430s.",
       "key_figures": [
+        "Zheng He (Admiral, Muslim eunuch)",
         "Yongle Emperor (Ming Emperor, sponsor)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
-          "type": "primary_text",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
           "contemporary": true
+        },
+        {
+          "name": "Zheng He's voyage inscriptions and steles",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ma Huan, Ying-yai Sheng-lan (Overall Survey of the Ocean's Shores)",
+          "type": "primary_text",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The construction period (1406\u20131420) is well-documented; 1411 falls within this confirmed period.",
+      "certainty_note": "Departure date well-documented in Ming records; voyage dates are established within \u00b11 year.",
       "cross_references": [
-        "1406-001 (Forbidden City construction begins)",
-        "1420-001 (Forbidden City completed)"
+        "1405-001 (First Treasure Voyage)",
+        "1433-001 (Final Treasure Voyage)"
       ]
     },
     {
       "id": "1411-002",
-      "title": "Hussite movement gains momentum in Bohemia",
-      "region": "Bohemia (modern-day Czech Republic)",
-      "coordinates_approx": "49.8, 15.5",
-      "category": "religious",
-      "description": "The Hussite movement, inspired by the teachings of Jan Hus, is gaining momentum in Bohemia. Hus is still alive in 1411 (he will be executed in 1415 at the Council of Constance). The movement challenges papal authority and advocates for Church reform, including communion in both kinds (bread and wine) for laypeople. The movement is gaining support among the Bohemian nobility and common people, setting the stage for the Hussite Wars (1419\u20131434).",
+      "title": "Battle of Harlaw (or Battle of Red Harlaw) in Scotland",
+      "region": "Scotland (Aberdeenshire)",
+      "coordinates_approx": "57.3\u00b0N, 2.5\u00b0W",
+      "category": "military",
+      "description": "A significant conflict between the Highland forces of Donald of Isles (Lord of the Isles) and the Lowland forces of the Earl of Mar, fought near Harlaw in Aberdeenshire. The battle resulted in a tactical victory for the Lowlanders but demonstrated the military power of the Highlands. The engagement was part of broader struggles over Scottish territorial control and the integration of the Isles into the Scottish kingdom.",
       "key_figures": [
-        "Jan Hus (Bohemian reformer, still alive)",
-        "Bohemian nobility supporting reform"
+        "Donald of Isles (Highland commander)",
+        "Alexander Stewart, Earl of Mar (Lowland commander)"
       ],
       "sources": [
         {
-          "name": "Hussite manifestos and correspondence (contemporary)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Andrew of Wyntoun, Orygynale Cronykil of Scotland",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Later Hussite chronicles (1420s\u20131430s)",
+          "name": "Walter Bower, Scotichronicon",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Hussite movement's growth is confirmed for the broader period; specific events within 1411 are not individually documented.",
-      "cross_references": [
-        "1415-001 (Execution of Jan Hus)",
-        "1419-001 (Formal outbreak of Hussite Wars)"
-      ]
+      "certainty_note": "Date of 1411 is traditional; some sources place it in 1411, others suggest 1412. Contemporary documentation is limited; accounts come from later 15th-century chronicles.",
+      "cross_references": []
     },
     {
       "id": "1411-003",
-      "title": "Portuguese exploration of the African coast continues",
-      "region": "West Africa, Atlantic coast",
-      "coordinates_approx": "15.0, -15.0",
-      "category": "exploration",
-      "description": "Portuguese explorers, sponsored by Prince Henry the Navigator, continue systematic exploration of the West African coast. By 1411, Portuguese ships have established trading posts and are gathering information on African geography, peoples, and resources. The exploration is motivated by trade, religious conversion, and geographic curiosity. These voyages lay the groundwork for the Portuguese slave trade and colonial expansion.",
+      "title": "Council of Constance continues (Session phase)",
+      "region": "Constance, Holy Roman Empire (modern Germany)",
+      "coordinates_approx": "47.66\u00b0N, 9.18\u00b0E",
+      "category": "religious",
+      "description": "The Council of Constance (1414\u20131418) was in its early sessions in 1411, though the council formally opened in November 1414. However, preparatory gatherings and early ecclesiastical assemblies were occurring in 1411 as the Church prepared to address the Great Schism and heresy. The council would eventually condemn Jan Hus and resolve the papal schism.",
       "key_figures": [
-        "Prince Henry the Navigator (Portuguese sponsor)"
+        "Pope John XXIII (one of three claimants)",
+        "Sigismund, Holy Roman Emperor (convener)"
       ],
       "sources": [
         {
-          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea (written 1450s, based on earlier records)",
-          "type": "later_compilation",
+          "name": "Council of Constance records and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The formal Council of Constance began in 1414, not 1411. This entry reflects preparatory ecclesiastical activity; dating is approximate.",
+      "cross_references": [
+        "1414-001 (Council of Constance formally opens)",
+        "1415-001 (Condemnation of Jan Hus)"
+      ]
+    },
+    {
+      "id": "1411-004",
+      "title": "Hussite Wars intensify in Bohemia",
+      "region": "Bohemia (modern Czech Republic)",
+      "coordinates_approx": "49.8\u00b0N, 15.5\u00b0E",
+      "category": "military",
+      "description": "Following Jan Hus's execution in 1415, the Hussite Wars (1419\u20131434) had not yet begun, but religious and social tensions in Bohemia were escalating in 1411. The Hussite movement, demanding church reform and Czech national identity, was gathering momentum. By 1411, radical reformist preachers were active, and the Bohemian nobility was increasingly divided over religious and political authority.",
+      "key_figures": [
+        "Jan Hus (Hussite leader, executed 1415)",
+        "Wenceslaus IV (King of Bohemia)"
+      ],
+      "sources": [
+        {
+          "name": "Laurence of B\u0159ezov\u00e1, Chronicle of the Hussites",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary papal and imperial correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of tensions in 1411 is inferred from broader historical context; specific events for this year are not well-documented.",
+      "cross_references": [
+        "1415-001 (Execution of Jan Hus)",
+        "1419-001 (Hussite Wars formally begin)"
+      ]
+    },
+    {
+      "id": "1411-005",
+      "title": "Montezuma I consolidates Aztec power",
+      "region": "Aztec Empire (modern Mexico)",
+      "coordinates_approx": "19.4\u00b0N, 99.1\u00b0W",
+      "category": "political",
+      "description": "Montezuma I (Montezuma Ilhuicamina), who ruled 1440\u20131469, was not yet emperor in 1411. However, the Aztec Empire under Itzcoatl (r. 1427\u20131440) was in the process of consolidating its dominance over the Valley of Mexico. By 1411, the Mexica were emerging as a major power following their alliance with Texcoco and Tlacopan. The empire was expanding militarily and administratively.",
+      "key_figures": [
+        "Itzcoatl (Aztec Emperor, r. 1427\u20131440)"
+      ],
+      "sources": [
+        {
+          "name": "Codex Mendoza",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Sahag\u00fan, Florentine Codex",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Portuguese exploration was ongoing; specific events in 1411 are not well-documented. The broader campaign is confirmed, but individual voyage dates are often approximate.",
+      "certainty_note": "Specific events for 1411 in Aztec history are not well-documented in surviving sources. This entry reflects the broader context of Aztec expansion during this period.",
       "cross_references": [
-        "1434-001 (Cape Bojador crossed)",
-        "1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+        "1427-001 (Itzcoatl becomes emperor)",
+        "1440-001 (Montezuma I becomes emperor)"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events are well-documented for 1411 in most regions. The claim that Portuguese exploration was systematic and continuous is not well-supported by contemporary documentation; most detailed records come from later compilations (Zurara, 1450s). The Hussite movement's 'momentum' in 1411 is inferred from the broader context; specific events within 1411 are not documented.",
-  "historiographic_note": "Documentation for 1411 is very sparse. Most surviving records are from China (Ming official records) and fragmentary European sources. African, American, and Oceanic events are entirely undocumented. The historical record is heavily biased toward elite political events and major construction projects; economic, social, and cultural developments are largely invisible.",
+  "disconfirming_evidence": "The dating of the Battle of Harlaw is disputed; some modern scholarship places it in 1411, while other sources suggest 1412 or even earlier. The significance of the battle has been debated\u2014some historians view it as a major turning point in Scottish Highland-Lowland relations, while others see it as a relatively minor skirmish in a longer process of integration. The entry on Bohemian tensions in 1411 is speculative; no major events are specifically documented for this year, and the escalation of Hussite sentiment is inferred from broader trends rather than documented incidents.",
+  "historiographic_note": "Documentation for 1411 is uneven. European events (Scotland, the Holy Roman Empire) are recorded in chronicles, though often with dating uncertainties and retrospective interpretation. Chinese records are rich and contemporary, particularly for the Zheng He voyages. Mesoamerican history relies on post-conquest codices and oral traditions recorded by Spanish friars, introducing significant interpretive challenges. Sub-Saharan Africa, Southeast Asia, and the Pacific are largely absent from surviving written records for this year. The surviving sources are heavily weighted toward elite political and military events; economic, social, and cultural history is underrepresented.",
   "graph_edges": [
     {
       "from": "1411-001",
-      "to": "1420-001",
-      "relation": "led_to",
-      "note": "Forbidden City construction in 1411 was part of the project completed in 1420"
+      "to": "1405-001",
+      "relation": "part_of",
+      "note": "Third voyage in the series of Zheng He's treasure voyages"
     },
     {
       "from": "1411-002",
+      "to": "1411-004",
+      "relation": "contemporary_with",
+      "note": "Both represent regional conflicts during a period of religious and political upheaval in Europe"
+    },
+    {
+      "from": "1411-004",
       "to": "1415-001",
       "relation": "led_to",
-      "note": "Hussite movement's growth in 1411 led to Jan Hus's execution in 1415"
+      "note": "Escalating tensions in Bohemia led to Jan Hus's trial and execution"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:08:14.387440",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

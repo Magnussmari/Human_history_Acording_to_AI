@@ -1,28 +1,29 @@
 {
   "year": 1412,
   "year_label": "1412 CE",
-  "era_context": "The early 15th century is marked by the Council of Constance's preparation (convening in 1414), the Ming Dynasty's consolidation under the Yongle Emperor, the Ottoman Empire's recovery from the Interregnum, and the Hussite movement's growth in Bohemia. The Renaissance is emerging in Italy; the Forbidden City is under construction in Beijing. In Africa, the Songhai Empire is consolidating; in the Americas, the Aztec Empire is expanding.",
-  "documentation_level": "sparse",
+  "era_context": "The early 15th century is marked by the consolidation of Ming Dynasty power under the Yongle Emperor, Zheng He's treasure voyages at their height, the Hundred Years' War between England and France, the Ottoman Empire's consolidation under Mehmed I (who will accede in 1413), and the Western Schism in the Catholic Church. The Inca Empire is expanding under Viracocha Inca (traditional dating disputed). Joan of Arc is traditionally dated as born in 1412 (though sources vary).",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Oceania and Pacific islands",
-    "Interior of the Americas",
-    "Central Asia and the Steppe"
+    "Sub-Saharan African kingdoms (limited European documentation)",
+    "Pacific Islander societies (no written records)",
+    "Interior South American societies beyond Inca sphere"
   ],
   "events": [
     {
       "id": "1412-001",
-      "title": "Joan of Arc born (traditional date)",
-      "region": "Domr\u00e9my, Kingdom of France",
+      "title": "Joan of Arc born (traditional date); early life in Domr\u00e9my",
+      "region": "Kingdom of France, Domr\u00e9my",
       "coordinates_approx": "48.35, 5.65",
       "category": "cultural",
-      "description": "Joan of Arc (Jeanne d'Arc) is traditionally dated to have been born in 1412 in the village of Domr\u00e9my in northeastern France. However, her exact birth date is uncertain; some sources place it as late as 1413 or 1414. Joan would later become a military leader during the Hundred Years' War, claiming divine inspiration. She was captured, tried for heresy, and executed in 1431. Her life and death became central to French national identity and Catholic hagiography.",
+      "description": "Joan of Arc is traditionally dated as born in 1412, though some sources give 1411 or 1413. Joan's early life in the village of Domr\u00e9my in northeastern France is poorly documented; most accounts come from her trial records (1431) and later hagiographies. By 1412, she would be a child in a region affected by the Hundred Years' War. Her later military leadership (1429\u20131431) will make her one of the most famous figures of the medieval period. The exact date of her birth is uncertain, and the year 1412 is one of several estimates.",
       "key_figures": [
-        "Joan of Arc (future military leader and saint)"
+        "Joan of Arc (Jeanne d'Arc, future military leader)",
+        "Jacques d'Arc (father, peasant)",
+        "Isabelle Rom\u00e9e (mother)"
       ],
       "sources": [
         {
-          "name": "Trial records of Joan of Arc (1431, contemporary to her trial)",
+          "name": "Joan of Arc trial records (Proc\u00e8s de condamnation, 1431, contemporary to her adult life)",
           "type": "primary_text",
           "contemporary": false
         },
@@ -33,88 +34,258 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Joan's birth date is not precisely documented. The year 1412 is traditional but uncertain; sources vary between 1412 and 1414. Her trial records (1431) do not specify her exact birth date.",
+      "certainty_note": "Joan's birth date is uncertain; sources vary between 1411 and 1413. The year 1412 is a traditional estimate but is not definitively established. Included here as a cultural reference point, but with low confidence in the specific dating.",
       "cross_references": [
-        "1429-001 (Joan of Arc's military campaigns begin)",
-        "1431-001 (Joan of Arc executed)"
+        "1429-001 (Joan's military campaigns begin)",
+        "1431-001 (Joan's trial and execution)"
       ]
     },
     {
       "id": "1412-002",
-      "title": "Ming Dynasty consolidates administrative control",
-      "region": "Ming China",
-      "coordinates_approx": "35.0, 110.0",
-      "category": "political",
-      "description": "The Ming Dynasty under the Yongle Emperor (r. 1402\u20131424) continues consolidating administrative control over China. The Yongle Emperor has moved the capital from Nanjing to Beijing (1421) and is undertaking major construction projects, including the Forbidden City. The Ming state is centralizing power, reforming the bureaucracy, and expanding military capabilities. This period represents the height of Ming power and cultural achievement.",
+      "title": "Zheng He's treasure voyages continue; massive fleet operations",
+      "region": "Indian Ocean, East Africa, Arabian Peninsula, Ming China",
+      "coordinates_approx": "0, 40",
+      "category": "exploration",
+      "description": "Admiral Zheng He's treasure voyages continue under the sponsorship of the Yongle Emperor. By 1412, the voyages are at their peak in terms of scale and geographic reach. The massive fleet of treasure ships carries envoys, gifts, and trade goods across the Indian Ocean to East Africa, the Arabian Peninsula, and the Persian Gulf. The voyages establish tributary relationships and gather exotic goods and animals for the Ming court. The fleet includes over 300 ships with crews exceeding 27,000. These voyages represent the height of Ming maritime power before the program is curtailed in the 1430s.",
       "key_figures": [
-        "Yongle Emperor (Ming Emperor)",
-        "Zheng He (Admiral, explorer)"
+        "Zheng He (Admiral, Muslim eunuch commanding the fleet)",
+        "Yongle Emperor (Ming ruler sponsoring the voyages)",
+        "Ma Huan (fleet official, chronicler of the voyages)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
+          "name": "Ming Shilu (Ming Veritable Records, official court records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ma Huan, Yingya Shenglan (Overall Survey of the Ocean's Shores, written 1416\u20131422, participant account)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broader consolidation is confirmed; specific events within 1412 are not individually documented in surviving sources.",
+      "certainty": "confirmed",
+      "certainty_note": "Zheng He's voyages are extensively documented in Ming records. The year 1412 falls within the period of active voyages.",
       "cross_references": [
-        "1402-001 (Yongle Emperor ascends)",
-        "1421-001 (Capital moved to Beijing)"
+        "1405-001 (First voyage begins)",
+        "1433-001 (Final voyage)"
       ]
     },
     {
       "id": "1412-003",
-      "title": "Ottoman Empire under Mehmed I stabilizes after Interregnum",
-      "region": "Ottoman Empire, Anatolia and Balkans",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Yongle Emperor consolidates Ming power; Forbidden City construction continues",
+      "region": "Ming China, Beijing",
+      "coordinates_approx": "39.92, 116.41",
       "category": "political",
-      "description": "The Ottoman Empire is in the process of stabilizing after the Interregnum (1402\u20131413), a period of civil conflict following Timur's invasion. Mehmed I ascends to the throne in 1413, but the transition is not yet complete in 1412. The Ottoman state is rebuilding its military and administrative structures. This period marks the beginning of Ottoman recovery and expansion.",
+      "description": "The Yongle Emperor (r. 1402\u20131424) continues to consolidate Ming power and oversee the construction of the Forbidden City, begun in 1406. By 1412, the palace complex is under active construction and represents a massive investment in state power and imperial authority. The Yongle reign marks the height of early Ming power and cultural achievement. The emperor has firmly consolidated control after the Jingnan Rebellion (1399\u20131402) and is pursuing an expansionist foreign policy, including the sponsorship of Zheng He's treasure voyages.",
       "key_figures": [
-        "Mehmed I (future Ottoman Sultan, ascends 1413)"
+        "Yongle Emperor (Zhu Di, Ming ruler)",
+        "Cai Xin (chief eunuch, major influence on court)",
+        "Architects and engineers (names largely unrecorded)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles (later compilations)",
+          "name": "Ming Shilu (Ming Veritable Records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from the Forbidden City (excavation and architectural analysis)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Forbidden City's construction timeline is well-documented. By 1412, the complex is under active construction.",
+      "cross_references": [
+        "1406-001 (Construction begins)",
+        "1420-001 (Official completion)"
+      ]
+    },
+    {
+      "id": "1412-004",
+      "title": "Hundred Years' War continues; English campaigns in France under Henry V",
+      "region": "Kingdom of France, Kingdom of England",
+      "coordinates_approx": "48, 2",
+      "category": "military",
+      "description": "The Hundred Years' War (1337\u20131453) continues with English forces under King Henry V conducting campaigns in France. By 1412, Henry V has recently become king (1413) and is consolidating his power in England. The war is driven by English claims to the French throne and competition for control of French territories. The conflict has devastated large parts of France and has become a defining feature of both English and French politics. Henry V's aggressive prosecution of the war will lead to major English victories and territorial gains in the early 1420s.",
+      "key_figures": [
+        "Henry V (King of England, military commander, accedes 1413)",
+        "Henry IV (King of England, father of Henry V, dies 1413)",
+        "Charles VI (King of France, mentally unstable)",
+        "Duke of Burgundy (powerful French noble, sometimes allied with England)"
+      ],
+      "sources": [
+        {
+          "name": "English royal chronicles and records (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French royal chronicles and records (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Hundred Years' War is extensively documented in both English and French sources. The year 1412 falls within a period of English military campaigns.",
+      "cross_references": [
+        "1413-004 (Henry V accedes to throne)",
+        "1415-002 (Battle of Agincourt)",
+        "1453-001 (English expelled from France)"
+      ]
+    },
+    {
+      "id": "1412-005",
+      "title": "Inca Empire under Viracocha Inca; territorial expansion in the Andes",
+      "region": "Inca Empire, Andean South America",
+      "coordinates_approx": "-12, -72",
+      "category": "political",
+      "description": "Viracocha Inca (traditional dates 1410\u20131438) rules the Inca Empire during a period of consolidation and expansion. By 1412, he has secured control over the central Andes and is expanding Inca territory through military campaigns and diplomatic alliances. The Inca state is becoming increasingly centralized and militarized. Viracocha Inca is traditionally succeeded by Pachacuti, though the exact dating and nature of this transition is contested. The Inca chronology is highly uncertain due to the absence of written records and reliance on oral traditions recorded by Spanish colonizers.",
+      "key_figures": [
+        "Viracocha Inca (Inca ruler, traditional dates 1410\u20131438)",
+        "Pachacuti (successor, traditional dates 1438\u20131471)"
+      ],
+      "sources": [
+        {
+          "name": "Quipucamayoc oral traditions (recorded by Spanish chroniclers in 16th century)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Pedro Cieza de Le\u00f3n, Cr\u00f3nica del Per\u00fa (written 1553, based on interviews and oral tradition)",
           "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Inca sites (stratigraphy, radiocarbon dating)",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The Ottoman Interregnum is confirmed to have ended in 1413; 1412 marks the final year of instability before Mehmed I's accession.",
+      "certainty_note": "Inca chronology is highly contested. Spanish chroniclers recorded oral traditions decades or centuries after events. Radiocarbon dating and archaeological evidence suggest Viracocha Inca's reign occurred in the 15th century, but exact dates are uncertain.",
       "cross_references": [
-        "1402-001 (Ottoman Interregnum begins)",
-        "1413-001 (Mehmed I ascends)"
+        "1410-001 (Viracocha Inca's accession, traditional dating)",
+        "1438-001 (Pachacuti's rise, alternative dating)"
+      ]
+    },
+    {
+      "id": "1412-006",
+      "title": "Venice maintains Mediterranean dominance; commercial and naval power",
+      "region": "Venice, Mediterranean Sea",
+      "coordinates_approx": "45.44, 12.34",
+      "category": "economic",
+      "description": "Venice continues to dominate Mediterranean trade and maintains its position as the leading maritime power in the region. By 1412, Venice has achieved commercial supremacy through control of trade routes to the East, particularly spices and luxury goods. The Venetian Republic is wealthy and politically influential, though it faces increasing competition from the Ottoman Empire and challenges from other European powers. Venice's dominance will eventually be challenged by the Ottoman conquest of Constantinople (1453) and by the opening of Atlantic trade routes.",
+      "key_figures": [
+        "Venetian Doge (leadership of the Venetian Republic)",
+        "Merchant families (Contarini, Morosini, Dandolo, etc.)",
+        "Venetian naval commanders"
+      ],
+      "sources": [
+        {
+          "name": "Venetian state archives and chronicles (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Merchant account books and trade records (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Venetian dominance in Mediterranean trade is well-documented in contemporary sources. The year 1412 falls within a period of Venetian commercial supremacy.",
+      "cross_references": [
+        "1380-001 (War of Chioggia, earlier Venice-Genoa conflict)",
+        "1453-001 (Ottoman conquest of Constantinople affects Venetian trade)"
+      ]
+    },
+    {
+      "id": "1412-007",
+      "title": "Portuguese exploration of African coast; Prince Henry the Navigator's patronage",
+      "region": "Portugal, West Africa",
+      "coordinates_approx": "37.74, -25.67",
+      "category": "exploration",
+      "description": "Prince Henry the Navigator of Portugal continues to sponsor expeditions along the West African coast. By 1412, Portuguese explorers are beginning to venture beyond previously known territories. Henry's court at Sagres becomes a center for cartography, navigation, and geographic knowledge. These voyages are driven by commercial interests (gold, spices, enslaved people), religious zeal (converting Muslims), and geographic curiosity. The Portuguese exploration program will eventually lead to the rounding of the Cape of Good Hope (1488) and the sea route to India (1498).",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese royal, sponsor of exploration)",
+        "Portuguese sea captains and navigators (names often unrecorded for early voyages)",
+        "West African rulers (encountering Portuguese traders)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and chronicles (contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gomes Eanes de Zurara, Cr\u00f3nica da Guin\u00e9 (Chronicle of Guinea, written 1450s, based on court records)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration in 1412 is attested in general terms, though specific voyages and dates are often vague in sources. The broader program is confirmed; individual expedition details are less certain.",
+      "cross_references": [
+        "1415-003 (Portuguese conquest of Ceuta)",
+        "1434-001 (Cape Bojador rounded)"
+      ]
+    },
+    {
+      "id": "1412-008",
+      "title": "Western Schism in Catholic Church; multiple papal claimants",
+      "region": "Catholic Church, Europe",
+      "coordinates_approx": "41.9, 12.45",
+      "category": "religious",
+      "description": "The Western Schism (1378\u20131417) continues to divide the Catholic Church among competing papal claimants. By 1412, there are three rival popes claiming legitimacy: Pope John XXIII (Baldassare Cossa), Pope Gregory XII (Angelo Correr), and an antipope. The schism has weakened papal authority and created confusion among the faithful. The Council of Constance, which will open in 1414, is being planned to resolve this crisis. The schism will be formally ended in 1417 with the election of Pope Martin V.",
+      "key_figures": [
+        "Pope John XXIII (Baldassare Cossa, one of three claimants)",
+        "Pope Gregory XII (Angelo Correr, another claimant)",
+        "Antipope (third claimant, name varies by source)",
+        "Emperor Sigismund (Holy Roman Emperor, will convene Council of Constance)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and chronicles (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Church council records and decrees (contemporary documentation)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Western Schism is extensively documented in ecclesiastical sources. The year 1412 falls clearly within the period of the schism.",
+      "cross_references": [
+        "1378-001 (Western Schism begins)",
+        "1414-001 (Council of Constance convened)",
+        "1417-001 (Western Schism resolved)"
       ]
     }
   ],
-  "disconfirming_evidence": "Joan of Arc's birth date of 1412 is traditional but not confirmed by contemporary documentation. Her trial records do not specify her birth year, and later hagiographies may have imposed a conventional date. The claim that the Ottoman Empire was 'stabilizing' in 1412 is somewhat misleading\u2014the Interregnum did not formally end until 1413, and even Mehmed I's reign was marked by continued instability and rebellions.",
-  "historiographic_note": "Documentation for 1412 is very sparse. Most surviving records are from China (Ming official records) and fragmentary European sources. Joan of Arc's birth is known only through later tradition, not contemporary documentation. African, American, and Oceanic events are entirely undocumented. The historical record is heavily biased toward elite political events and major construction projects; everyday life and social developments are invisible.",
+  "disconfirming_evidence": "Joan of Arc's birth year is uncertain; sources vary between 1411 and 1413, with 1412 being a traditional estimate but not definitively established. The dating of Inca rulers is highly contested. Traditional chronologies place Viracocha Inca at 1410\u20131438, but modern scholars debate these dates based on archaeological evidence and reanalysis of Spanish chronicles. The significance of Portuguese exploration in 1412 is less dramatic than in later years; the major conquest of Ceuta occurs in 1415, and the rounding of Cape Bojador is traditionally dated to 1434.",
+  "historiographic_note": "The year 1412 is well-documented for Europe, with rich archival sources for the Western Schism and the Hundred Years' War. Chinese sources are comprehensive and official for Zheng He's voyages. Ottoman sources are less abundant but still substantial. African, American, and Oceanic sources are sparse or absent from European-trained historiography; oral traditions and archaeological evidence are the primary sources for these regions. The Inca chronology remains contested due to the absence of written records and reliance on oral traditions recorded by Spanish colonizers decades after the fact. Joan of Arc's birth date is particularly uncertain, with multiple sources giving different years. European sources may overrepresent the significance of European events relative to events in other regions.",
   "graph_edges": [
     {
       "from": "1412-001",
-      "to": "1431-001",
+      "to": "1429-001",
       "relation": "led_to",
-      "note": "Joan of Arc's birth in 1412 (traditional date) led to her execution in 1431"
+      "note": "Joan of Arc's birth (traditional date) leads to her later military campaigns"
     },
     {
-      "from": "1412-002",
-      "to": "1421-001",
+      "from": "1412-008",
+      "to": "1414-001",
       "relation": "led_to",
-      "note": "Ming consolidation in 1412 led to the capital's move to Beijing in 1421"
+      "note": "Western Schism crisis leads to convening of Council of Constance"
     },
     {
-      "from": "1412-003",
-      "to": "1413-001",
+      "from": "1412-004",
+      "to": "1415-002",
       "relation": "led_to",
-      "note": "Ottoman instability in 1412 ended with Mehmed I's accession in 1413"
+      "note": "English military campaigns in France culminate in Battle of Agincourt"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:08:14.387117",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

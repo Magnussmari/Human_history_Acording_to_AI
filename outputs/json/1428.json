@@ -1,278 +1,218 @@
 {
   "year": 1428,
   "year_label": "1428 CE",
-  "era_context": "The early 15th century continued with the Hundred Years' War in its later phases, the early Italian Renaissance in full development, the Ming Dynasty under the Yongle Emperor's successors, and the Hussite Wars in Bohemia. The Ottoman Empire was consolidating power in Anatolia and the Balkans. In Mesoamerica, the Aztec Empire was in transition toward its greatest expansion.",
-  "documentation_level": "rich",
+  "era_context": "The early 15th century is marked by the Hundred Years' War in its final phase, with English forces still dominant but facing increasing French resistance. The Hussite Wars continue in Bohemia following the execution of Jan Hus in 1415. The Italian Renaissance is in its early stages. Ming China under the Xuande Emperor is consolidating administrative control. The Ottoman Empire is expanding in the Balkans. This is a period of religious reformation, military conflict, and cultural transition.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pacific Islands and Oceania (sparse documentation)",
-    "Central Asian steppes (limited contemporary chronicles)"
+    "Sub-Saharan Africa (minimal written sources)",
+    "Interior Americas (Aztec and Inca records fragmentary)",
+    "Southeast Asia (limited chronicle material in Western sources)",
+    "Central Asia and the Steppe (sparse documentation)"
   ],
   "events": [
     {
       "id": "1428-001",
-      "title": "Joan of Arc arrives at the French court in Chinon",
-      "region": "Chinon, Kingdom of France",
-      "coordinates_approx": "47.17, 0.25",
+      "title": "English siege of Orl\u00e9ans begins",
+      "region": "Orl\u00e9ans, Loire Valley, Kingdom of France",
+      "coordinates_approx": "47.90, 1.90",
       "category": "military",
-      "description": "Joan of Arc, a peasant girl from Domr\u00e9my claiming divine inspiration, arrived at the French court in Chinon in early 1429 (some sources date this to late 1428). She convinced the Dauphin Charles (later Charles VII) of her divine mission to save France from English domination. Her arrival marked a turning point in French military morale and strategy. Joan was subsequently given command of French forces and would lead the relief of Orl\u00e9ans in May 1429, reversing English gains in the Hundred Years' War.",
+      "description": "In 1428, English forces under the command of William de la Pole and John Talbot began a siege of the city of Orl\u00e9ans, a key stronghold in the Loire Valley. The siege would last until 1429 and become one of the most famous sieges of the Hundred Years' War. Orl\u00e9ans was strategically important because it controlled access to the Loire Valley and was a major French stronghold. The English siege was part of a broader strategy to consolidate English control over France. The siege would be broken by French forces under Joan of Arc in 1429, marking a turning point in the war.",
       "key_figures": [
-        "Joan of Arc (French military leader)",
-        "Charles VII (Dauphin of France, later king)",
-        "Jean de Metz (French knight who escorted Joan)"
+        "William de la Pole (English commander)",
+        "John Talbot (English commander)",
+        "Jean de Dunois (French commander, 'the Bastard of Orl\u00e9ans')",
+        "Charles VII (King of France)"
       ],
       "sources": [
         {
-          "name": "Jean de Metz, contemporary account",
+          "name": "English government records and military reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chronique de la Pucelle",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "French royal records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "French court records",
+          "name": "Enguerrand de Monstrelet, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The beginning of the English siege of Orl\u00e9ans in 1428 is confirmed by multiple contemporary sources. The date and circumstances are well-documented.",
+      "cross_references": [
+        "1429-001 (Relief of Orl\u00e9ans by Joan of Arc)",
+        "1453-XXX (End of Hundred Years' War)"
+      ]
+    },
+    {
+      "id": "1428-002",
+      "title": "Hussite Wars; Battle of Tachov",
+      "region": "Tachov, Bohemia",
+      "coordinates_approx": "49.68, 12.60",
+      "category": "military",
+      "description": "In 1428, Hussite forces engaged in military campaigns against Catholic forces and rival Hussite factions. The Battle of Tachov (also known as the Battle of Tachau) in 1428 was one of several engagements in the ongoing Hussite Wars. The Hussite forces, under commanders like Prokop the Great, continued to demonstrate military effectiveness through their innovative tactics, including the use of wagon-fortresses and early firearms. The conflict remained unresolved, with neither side achieving a decisive victory.",
+      "key_figures": [
+        "Prokop the Great (Hussite commander)",
+        "Sigismund of Luxembourg (Holy Roman Emperor, leading Catholic response)",
+        "Catholic commanders"
+      ],
+      "sources": [
+        {
+          "name": "Laurence of B\u0159ezov\u00e1, Hussite Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Catholic polemical accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bohemian government records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Joan's arrival at Chinon is dated to early 1429 in most sources, though some chronicles place it in late 1428. The exact date is uncertain by \u00b11\u20132 months. Contemporary accounts confirm the event but vary slightly on timing.",
+      "certainty_note": "The Battle of Tachov in 1428 is attested in Hussite sources, though the exact date and details may vary. The broader context of the Hussite Wars is confirmed.",
       "cross_references": [
-        "1429-003 (Relief of Orl\u00e9ans)",
-        "1429-001 (Joan's capture)"
-      ]
-    },
-    {
-      "id": "1428-002",
-      "title": "English siege of Orl\u00e9ans begins",
-      "region": "Orl\u00e9ans, Kingdom of France",
-      "coordinates_approx": "47.90, 1.90",
-      "category": "military",
-      "description": "English forces under William de la Pole began a siege of the city of Orl\u00e9ans in October 1428, seeking to consolidate English control over northern France and cut off French supply lines. The siege lasted until May 1429, when Joan of Arc led French forces to relieve the city. The siege of Orl\u00e9ans became one of the most famous episodes of the Hundred Years' War and marked the beginning of English military decline in France.",
-      "key_figures": [
-        "William de la Pole (English commander)",
-        "Jean de Dunois (French commander, 'the Bastard of Orl\u00e9ans')",
-        "Thomas de la Pole (English commander)"
-      ],
-      "sources": [
-        {
-          "name": "English military records and dispatches",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chronique de la Pucelle",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "French court records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The siege of Orl\u00e9ans is one of the most thoroughly documented events of the Hundred Years' War. The October 1428 start date is well-attested in English and French sources.",
-      "cross_references": [
-        "1429-003 (Relief of Orl\u00e9ans)",
-        "1429-001 (Joan's capture)"
+        "1415-XXX (Jan Hus executed)",
+        "1430-002 (Battle of Doma\u017elice)"
       ]
     },
     {
       "id": "1428-003",
-      "title": "Zheng He's sixth voyage returns to China",
-      "region": "Ming Dynasty, China; Indian Ocean",
-      "coordinates_approx": "22.3, 114.2",
-      "category": "exploration",
-      "description": "Admiral Zheng He's sixth treasure voyage returned to China in 1428 after departing in 1421. The voyage had reached the East African coast, the Arabian Peninsula, and the Indian Ocean rim, demonstrating Ming naval power and establishing diplomatic relations with numerous Indian Ocean states. The return of the sixth voyage marked the continuation of Ming maritime exploration, which would culminate in Zheng He's seventh and final voyage departing in 1429.",
+      "title": "Xuande Emperor's reign in Ming China; administrative consolidation",
+      "region": "Ming China, East Asia",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Xuande Emperor (r. 1426\u20131435) was consolidating Ming administrative control in 1428. His reign is characterized by efforts to strengthen central authority, improve bureaucratic efficiency, and maintain the stability achieved under his predecessor, the Yongle Emperor. The Xuande period saw the continuation of Zheng He's treasure voyages, though the emperor was less enthusiastic about maritime expansion than his predecessor. The emperor was also an accomplished artist and patron of the arts, contributing to the cultural flourishing of the Ming Dynasty.",
       "key_figures": [
-        "Zheng He (Ming admiral)"
+        "Xuande Emperor (Ming emperor, r. 1426\u20131435)",
+        "Court officials and administrators",
+        "Zheng He (Admiral, still active)"
       ],
       "sources": [
         {
-          "name": "Ming court records",
+          "name": "Ming Shilu (Ming Veritable Records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ma Huan, Overall Survey of the Ocean's Shores",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Later Ming histories and compilations",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The return date of Zheng He's sixth voyage is well-documented in Ming archives. The voyage dates (1421\u20131428) are established in official records.",
+      "certainty_note": "The Xuande Emperor's reign and his administrative policies are well-documented in Ming records. The general context of his rule is confirmed.",
       "cross_references": [
-        "1421-001 (Sixth voyage departs)",
-        "1429-002 (Seventh voyage departs)"
+        "1426-XXX (Xuande Emperor ascends)",
+        "1435-XXX (Xuande Emperor dies)"
       ]
     },
     {
       "id": "1428-004",
-      "title": "Cosimo de' Medici returns to Florence from exile",
-      "region": "Florence, Republic of Florence (modern Italy)",
-      "coordinates_approx": "43.77, 11.26",
+      "title": "Ottoman expansion in the Balkans; consolidation of power",
+      "region": "Ottoman Empire, Balkans",
+      "coordinates_approx": "41.0, 28.0",
       "category": "political",
-      "description": "Cosimo de' Medici, the patriarch of the Medici banking family, returned to Florence in 1428 after a year of exile (1427\u20131428). His exile had been imposed by the rival Albizzi family, who feared Medici power. Cosimo's return marked the beginning of Medici political dominance in Florence, which would last for centuries. His return was facilitated by popular support and the weakening of the Albizzi faction. Cosimo would become the de facto ruler of Florence and a major patron of Renaissance art and learning.",
+      "description": "The Ottoman Empire under Murad II (r. 1421\u20131451) was consolidating its control over the Balkans in 1428. The Ottomans were expanding their territorial holdings and eliminating remaining Byzantine and Venetian strongholds. This period saw the Ottoman military machine becoming increasingly effective, with the development of the Janissary corps and the use of gunpowder weapons. The Ottoman expansion was part of a broader process that would culminate in the fall of Constantinople in 1453.",
       "key_figures": [
-        "Cosimo de' Medici (Florentine banker and political leader)",
-        "Rinaldo degli Albizzi (rival Florentine faction leader)"
+        "Murad II (Ottoman Sultan, r. 1421\u20131451)",
+        "Janissary commanders",
+        "Venetian and Byzantine defenders"
       ],
       "sources": [
         {
-          "name": "Vespasiano da Bisticci, Lives of Illustrious Men (15th-century biography)",
+          "name": "Ottoman chronicles (e.g., Ashikpashazade)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Florence city records and guild documents",
+          "name": "Venetian government records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Machiavelli, Florentine Histories (16th-century compilation)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Byzantine sources (fragmentary)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Cosimo's return to Florence in 1428 is well-documented in Florentine city records and contemporary chronicles. The date is firmly established.",
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion in the Balkans in 1428 is attested in Ottoman and Venetian sources, though specific events in 1428 are less precisely documented than in other years.",
       "cross_references": [
-        "1427-001 (Cosimo exiled)",
-        "1464-001 (Death of Cosimo de' Medici)"
+        "1453-XXX (Fall of Constantinople)",
+        "1421-XXX (Murad II ascends)"
       ]
     },
     {
       "id": "1428-005",
-      "title": "Tenochtitlan and Texcoco form the Triple Alliance",
-      "region": "Tenochtitlan and Texcoco, Aztec Empire (modern Mexico)",
-      "coordinates_approx": "19.43, -99.13",
-      "category": "political",
-      "description": "The city-states of Tenochtitlan and Texcoco, along with Tlacopan, formalized a political and military alliance known as the Triple Alliance (Excan Tlatoloyan) in 1428. This alliance, which had been developing over the previous years, became the foundation of Aztec imperial power. The alliance allowed the three cities to coordinate military campaigns, share tribute, and expand their collective dominion across Mesoamerica. The Triple Alliance would remain the basis of Aztec political organization until the Spanish conquest in 1521.",
+      "title": "Portuguese maritime exploration; continued African coast exploration",
+      "region": "Portugal, Atlantic coast, West Africa",
+      "coordinates_approx": "37.0, -8.5",
+      "category": "exploration",
+      "description": "Prince Henry of Portugal continued to sponsor maritime expeditions along the African coast in 1428. Portuguese explorers were systematically mapping the West African coast and establishing trading relationships with local rulers. The expeditions were motivated by commercial interests (gold, spices) and religious zeal (crusade against Islam). By 1428, Portuguese ships had reached the coast of what is now Senegal and Guinea. These early expeditions were laying the groundwork for the Portuguese slave trade and the Age of Discovery.",
       "key_figures": [
-        "Montezuma I (Aztec emperor, crowned 1429)",
-        "Nezahualcoyotl (Texcoco ruler)",
-        "Totoquihuaztli (Tlacopan ruler)"
+        "Henry the Navigator (Prince of Portugal, patron)",
+        "Portuguese explorers and navigators",
+        "West African rulers and merchants"
       ],
       "sources": [
         {
-          "name": "Codex Mendoza",
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery and Conquest of Guinea (mid-15th century, but based on contemporary records)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Sahag\u00fan, Florentine Codex",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Aztec oral tradition, recorded by Spanish chroniclers",
-          "type": "oral_tradition",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The formation of the Triple Alliance is dated to 1428 in post-conquest Aztec codices, but the exact date may have \u00b12\u20133 year uncertainty. Some sources place the formalization slightly earlier or later. The alliance developed gradually rather than being formally declared on a single date.",
-      "cross_references": [
-        "1429-004 (Montezuma I crowned)",
-        "1521-001 (Spanish conquest of Aztec Empire)"
-      ]
-    },
-    {
-      "id": "1428-006",
-      "title": "Hussite Wars: Battle of Tachov",
-      "region": "Tachov, Bohemia",
-      "coordinates_approx": "49.68, 12.62",
-      "category": "military",
-      "description": "The Battle of Tachov was fought in 1428 between Hussite forces and Catholic/imperial forces during the Hussite Wars. The Hussites, a religious reform movement, achieved a military victory that further consolidated their control over Bohemia. The battle demonstrated the military effectiveness of Hussite tactics, particularly their use of wagon fortifications (Wagenburg) and early gunpowder weapons. The Hussite Wars would continue until 1434.",
-      "key_figures": [
-        "Prokop the Great (Hussite commander)",
-        "Sigismund of Hungary (Holy Roman Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Laurentius of B\u0159ezov\u00e1, Chronicle of the Hussite Wars",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "German and Hungarian military records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Tachov in 1428 is well-documented in contemporary Bohemian and German sources.",
-      "cross_references": [
-        "1419-001 (Hussite Wars begin)",
-        "1434-001 (Battle of Lipany)"
-      ]
-    },
-    {
-      "id": "1428-007",
-      "title": "Filippo Brunelleschi continues dome construction at Florence Cathedral",
-      "region": "Florence, Republic of Florence (modern Italy)",
-      "coordinates_approx": "43.77, 11.26",
-      "category": "cultural",
-      "description": "Filippo Brunelleschi continued construction of the dome of Florence Cathedral in 1428, refining his innovative double-shell technique and herringbone brick pattern. The dome was nearing completion and would be finished in 1429. Brunelleschi's engineering innovations, including the use of a wooden framework and the absence of internal scaffolding, were revolutionary for the time and demonstrated the technical sophistication of Renaissance engineering.",
-      "key_figures": [
-        "Filippo Brunelleschi (architect and engineer)"
-      ],
-      "sources": [
-        {
-          "name": "Florence Cathedral building records",
+          "name": "Portuguese royal records and navigation logs",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Vasari, Lives of the Artists",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Cartographic evidence (portolan charts)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The progress of dome construction in 1428 is documented in Florence Cathedral's building records.",
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration of the African coast in 1428 is attested in later chronicles and cartographic evidence. Specific expeditions in 1428 are less precisely dated than the broader context of exploration.",
       "cross_references": [
-        "1420-001 (Dome construction begins)",
-        "1429-006 (Dome completed)"
+        "1418-XXX (Sagres school founded)",
+        "1444-XXX (Portuguese slave trade intensifies)"
       ]
     }
   ],
-  "disconfirming_evidence": "The exact date of Joan of Arc's arrival at the French court is disputed. Some sources place it in late 1428, others in early 1429. The distinction is important for understanding the timeline of her rise to prominence. The formation of the Aztec Triple Alliance is traditionally dated to 1428, but modern scholarship suggests the alliance developed gradually over several years and may not have been formally constituted on a single date. Some scholars argue that the alliance was more of a military convenience than a formal political structure. Cosimo de' Medici's return to Florence in 1428 is well-documented, but the extent of his immediate political power is debated; some sources suggest his dominance developed gradually over the following years rather than being immediate upon his return.",
-  "historiographic_note": "The documentation for 1428 is heavily weighted toward European sources, particularly regarding Joan of Arc and the Hundred Years' War. Chinese sources for Zheng He's voyages are detailed and contemporary. However, Aztec history relies entirely on post-conquest indigenous codices interpreted through Spanish colonial frameworks. The Hussite Wars are well-documented in German, Bohemian, and Hungarian sources. African, Oceanic, and other non-literate societies are largely absent from surviving written records. The historical record is thus skewed toward literate, centralized states with written administrative traditions.",
+  "disconfirming_evidence": "The English siege of Orl\u00e9ans, while significant, is sometimes portrayed as a turning point in the Hundred Years' War, but this overstates its immediate impact. The siege lasted until 1429 and was broken by French forces, but the war continued for another 24 years. The characterization of the Hussite Wars as a conflict between 'reformers' and 'conservatives' obscures the complex factional divisions within the Hussite movement. The Battle of Tachov in 1428 is attested in Hussite sources, but the exact date and significance are debated. Ottoman expansion in the Balkans is often presented as inevitable, but this obscures the resistance of local populations and the contingency of Ottoman military successes. Portuguese exploration is often presented as a precursor to the Age of Discovery, but this teleological framing obscures the fact that Portuguese expansion was driven primarily by commercial and religious motives.",
+  "historiographic_note": "The year 1428 is moderately documented for Western Europe (the English siege of Orl\u00e9ans is well-recorded) and moderately documented for East Asia (Ming records are comprehensive). Ottoman sources are less detailed for this period, and Venetian records are fragmentary. The surviving sources are heavily weighted toward political and military events; economic, social, and cultural history are underrepresented. English and French sources on the siege of Orl\u00e9ans reflect the biases of their origins. Ming records are official court documents that emphasize imperial achievements. Ottoman sources are often compiled retrospectively. Portuguese exploration records are fragmentary and often compiled retrospectively. Sub-Saharan Africa, the Americas, and much of Southeast Asia have minimal written documentation for this year.",
   "graph_edges": [
     {
       "from": "1428-001",
-      "to": "1429-003",
+      "to": "1429-001",
       "relation": "led_to",
-      "note": "Joan's arrival at the French court in 1428 led to her command of forces and the relief of Orl\u00e9ans in 1429"
+      "note": "The English siege of Orl\u00e9ans in 1428 was broken by Joan of Arc's relief in 1429"
     },
     {
       "from": "1428-002",
+      "to": "1430-002",
+      "relation": "part_of",
+      "note": "The Battle of Tachov in 1428 was part of the ongoing Hussite Wars that continued through 1430"
+    },
+    {
+      "from": "1428-003",
       "to": "1429-003",
-      "relation": "led_to",
-      "note": "The English siege of Orl\u00e9ans (1428\u20131429) was relieved by Joan of Arc's forces in May 1429"
+      "relation": "contemporary_with",
+      "note": "The Xuande Emperor's administrative consolidation was concurrent with Zheng He's voyages"
     },
     {
       "from": "1428-004",
-      "to": "1464-001",
+      "to": "1453-XXX",
       "relation": "led_to",
-      "note": "Cosimo de' Medici's return to Florence in 1428 began his dominance of the city until his death in 1464"
-    },
-    {
-      "from": "1428-005",
-      "to": "1429-004",
-      "relation": "led_to",
-      "note": "The Triple Alliance formation in 1428 provided the political foundation for Montezuma I's expansion after his coronation in 1429"
+      "note": "Ottoman expansion in the Balkans in 1428 was part of the process leading to the fall of Constantinople in 1453"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:02:43.899680",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

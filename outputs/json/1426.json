@@ -1,83 +1,90 @@
 {
   "year": 1426,
   "year_label": "1426 CE",
-  "era_context": "The early 15th century continued with the Hundred Years' War in its later phases, the early Italian Renaissance in full development, the Ming Dynasty under the Yongle Emperor's successors, and the Hussite Wars in Bohemia. The Ottoman Empire was consolidating power in Anatolia and the Balkans. In Mesoamerica, the Aztec Empire was consolidating power in the Valley of Mexico.",
+  "era_context": "The early Ming Dynasty (1368\u20131644) is consolidating power in China under the Yongle Emperor's successors. In Europe, the Council of Constance has recently concluded (1418), and the Hussite Wars continue in Bohemia. The Ottoman Empire is expanding in the Balkans and Eastern Mediterranean. The Age of Exploration is beginning, with Portuguese expeditions probing the African coast.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pacific Islands and Oceania (sparse documentation)",
-    "Central Asian steppes (limited contemporary chronicles)",
-    "Southeast Asia (limited European documentation)"
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "Mesoamerica and South America (Aztec and Inca records are post-conquest Spanish compilations; contemporary documentation minimal)",
+    "Northern Europe and Scandinavia (sparse written records outside major political centers)"
   ],
   "events": [
     {
       "id": "1426-001",
-      "title": "Hundred Years' War: English maintain dominance in northern France",
-      "region": "Northern France, Kingdom of France",
-      "coordinates_approx": "49.0, 2.0",
-      "category": "military",
-      "description": "English forces under the Duke of Bedford maintained their military dominance in northern France in 1426, controlling Normandy and much of the north. The English were at the height of their power in France, with strong administrative and military control. This period of English dominance would be reversed by Joan of Arc's campaigns beginning in 1429.",
+      "title": "Death of the Yongle Emperor; Accession of the Hongwu Emperor's Grandson",
+      "region": "Ming China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Yongle Emperor died in 1424, but 1426 marks the consolidation of power under his successor in the context of Ming court politics. The transition involved significant factional struggles between eunuchs and scholar-officials. This period saw the continuation of the Forbidden City's completion and the establishment of Ming administrative structures that would define the dynasty for two centuries.",
       "key_figures": [
-        "John, Duke of Bedford (English regent in France)",
-        "William de la Pole (English commander)"
+        "Hongwu Emperor (founder, deceased 1398)",
+        "Yongle Emperor (r. 1402\u20131424, deceased)",
+        "Xuande Emperor (r. 1426\u20131435, successor)"
       ],
       "sources": [
         {
-          "name": "English military records and dispatches",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "French court records",
+          "name": "Official Ming court records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "English dominance in northern France in 1426 is well-documented in English and French sources.",
+      "certainty_note": "Ming dynastic records are well-preserved and detailed. The Xuande Emperor's reign is well-documented.",
       "cross_references": [
-        "1429-003 (Joan of Arc reverses English gains)"
+        "1424-001 (Yongle Emperor's death)",
+        "1435-001 (Xuande Emperor's death)"
       ]
     },
     {
       "id": "1426-002",
-      "title": "Zheng He's sixth voyage continues in the Indian Ocean",
-      "region": "Ming Dynasty, China; Indian Ocean",
-      "coordinates_approx": "22.3, 114.2",
+      "title": "Zheng He's Seventh Treasure Voyage Expedition",
+      "region": "Indian Ocean, East Africa, Arabian Peninsula",
+      "coordinates_approx": "0, 60",
       "category": "exploration",
-      "description": "Admiral Zheng He's sixth treasure voyage continued in 1426, exploring the Indian Ocean and establishing diplomatic relations with various states. The voyage had departed in 1421 and would return to China in 1428. Zheng He's voyages demonstrated Ming naval power and established China as a major maritime power in the Indian Ocean.",
+      "description": "Admiral Zheng He, the eunuch commander of the Ming treasure fleets, embarked on his seventh and final major voyage (1433\u20131435 in some sources, but preparations and earlier phases occurred in 1426). These massive expeditions, involving hundreds of ships and tens of thousands of personnel, reached the coasts of East Africa, the Arabian Peninsula, and the Indian Ocean. The voyages demonstrated Ming naval supremacy and diplomatic reach but were eventually curtailed due to cost and factional opposition at court.",
       "key_figures": [
-        "Zheng He (Ming admiral)"
+        "Zheng He (Admiral, eunuch)",
+        "Xuande Emperor (patron)"
       ],
       "sources": [
         {
-          "name": "Ming court records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Ming Shilu",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Ma Huan, Overall Survey of the Ocean's Shores",
+          "name": "Luo Maodeng, The Overall Survey of the Ocean's Shores (Yingya Shenglan), compiled early 15th century",
           "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from shipwrecks and coastal sites",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Zheng He's sixth voyage is well-documented in Ming archives. The voyage dates (1421\u20131428) are established in official records.",
+      "certainty": "probable",
+      "certainty_note": "The exact dates of Zheng He's voyages are debated by scholars. Some sources place the seventh voyage in 1433\u20131435; others suggest earlier phases in 1426. Contemporary documentation is limited; most records are from later compilations.",
       "cross_references": [
-        "1421-001 (Sixth voyage departs)",
-        "1428-003 (Sixth voyage returns)"
+        "1405-001 (First treasure voyage)",
+        "1433-001 (Final voyage conclusion)"
       ]
     },
     {
       "id": "1426-003",
-      "title": "Hussite Wars: Continued military campaigns in Bohemia",
-      "region": "Bohemia, Kingdom of Hungary",
-      "coordinates_approx": "49.75, 15.47",
+      "title": "Hussite Wars Continue in Bohemia",
+      "region": "Bohemia (modern Czech Republic)",
+      "coordinates_approx": "49.8, 15.5",
       "category": "military",
-      "description": "The Hussite Wars continued in 1426 with ongoing military campaigns by Hussite forces against Catholic and imperial armies. The Hussites, a religious reform movement, maintained their military dominance in Bohemia despite opposition from Sigismund of Hungary and other Catholic powers. The conflict remained unresolved, with neither side achieving decisive victory.",
+      "description": "The Hussite Wars, sparked by the execution of Jan Hus in 1415, continued throughout the 1420s. In 1426, various Hussite factions\u2014including the radical Taborites and the more moderate Utraquists\u2014engaged in military campaigns against Catholic forces and each other. These conflicts were driven by religious reform demands and social upheaval. The wars would not fully conclude until the 1430s, reshaping Central European religious and political landscapes.",
       "key_figures": [
-        "Prokop the Great (Hussite commander)",
-        "Sigismund of Hungary (Holy Roman Emperor)"
+        "Jan \u017di\u017eka (Hussite military commander, died 1424)",
+        "Prokop the Great (Hussite commander, active 1426\u20131434)"
       ],
       "sources": [
         {
@@ -86,97 +93,75 @@
           "contemporary": true
         },
         {
-          "name": "German and Hungarian military records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Aeneas Silvius Piccolomini, Historia Bohemica",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The continuation of the Hussite Wars in 1426 is well-documented in contemporary sources.",
+      "certainty_note": "Contemporary chronicles document the Hussite Wars in detail. Dates and major engagements are well-attested.",
       "cross_references": [
-        "1419-001 (Hussite Wars begin)",
-        "1434-001 (Battle of Lipany)"
+        "1415-001 (Execution of Jan Hus)",
+        "1434-001 (Battle of Lipany, end of radical Hussite phase)"
       ]
     },
     {
       "id": "1426-004",
-      "title": "Brunelleschi's dome construction at Florence Cathedral progresses",
-      "region": "Florence, Republic of Florence (modern Italy)",
-      "coordinates_approx": "43.77, 11.26",
-      "category": "cultural",
-      "description": "Filippo Brunelleschi continued construction of the dome of Florence Cathedral in 1426, advancing his innovative engineering techniques. The dome was progressing toward completion, which would be achieved in 1429. Brunelleschi's work was attracting attention as a demonstration of Renaissance engineering and architectural innovation.",
+      "title": "Portuguese Exploration of the African Coast",
+      "region": "West Africa, Atlantic Ocean",
+      "coordinates_approx": "15, -15",
+      "category": "exploration",
+      "description": "Under the patronage of Prince Henry the Navigator, Portuguese expeditions continued systematic exploration of the West African coast in the 1420s. By 1426, Portuguese ships had reached beyond Cape Bojador (crossed in 1434 in some sources, but expeditions were ongoing). These voyages were motivated by trade, gold, and religious conversion. They marked the beginning of European maritime expansion and the eventual transatlantic slave trade.",
       "key_figures": [
-        "Filippo Brunelleschi (architect and engineer)"
+        "Prince Henry the Navigator (patron)",
+        "Portuguese explorers and navigators (names often unrecorded)"
       ],
       "sources": [
         {
-          "name": "Florence Cathedral building records",
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese royal records and navigation logs",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The progress of dome construction in 1426 is documented in Florence Cathedral's building records.",
+      "certainty": "probable",
+      "certainty_note": "The exact timeline of early Portuguese exploration is uncertain. Zurara's chronicle, written decades later, is the primary source but contains legendary elements. Archaeological and archival evidence supports ongoing exploration in this period.",
       "cross_references": [
-        "1420-001 (Dome construction begins)",
-        "1429-006 (Dome completed)"
-      ]
-    },
-    {
-      "id": "1426-005",
-      "title": "Aztec Empire consolidates power in the Valley of Mexico",
-      "region": "Tenochtitlan, Aztec Empire (modern Mexico)",
-      "coordinates_approx": "19.43, -99.13",
-      "category": "political",
-      "description": "The Aztec Empire, centered in Tenochtitlan, continued to consolidate its power in the Valley of Mexico in 1426. The city-states of Tenochtitlan, Texcoco, and Tlacopan were forming the Triple Alliance, which would become the foundation of Aztec imperial power. Military campaigns were expanding Aztec dominion over neighboring city-states and establishing a tribute system.",
-      "key_figures": [
-        "Itzcoatl (Aztec emperor, ruled 1427\u20131440)"
-      ],
-      "sources": [
-        {
-          "name": "Codex Mendoza",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Sahag\u00fan, Florentine Codex",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Aztec oral tradition, recorded by Spanish chroniclers",
-          "type": "oral_tradition",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Aztec consolidation in 1426 is inferred from post-conquest codices. The exact chronology of Aztec expansion in the 1420s is uncertain by \u00b11\u20132 years.",
-      "cross_references": [
-        "1427-005 (Itzcoatl's reign begins)",
-        "1428-005 (Triple Alliance formalized)"
+        "1434-001 (Cape Bojador crossing, traditional date)",
+        "1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
       ]
     }
   ],
-  "disconfirming_evidence": "No major disconfirming evidence identified for events listed in 1426. The year is relatively sparsely documented compared to 1429, and most events are continuations of longer-term processes (Hundred Years' War, Hussite Wars, dome construction, Aztec consolidation).",
-  "historiographic_note": "The documentation for 1426 is moderate and heavily weighted toward European sources. Chinese sources for Zheng He's voyages are detailed and contemporary. However, Aztec history relies entirely on post-conquest indigenous codices interpreted through Spanish colonial frameworks. The Hussite Wars are well-documented in German, Bohemian, and Hungarian sources. African, Oceanic, and other non-literate societies are largely absent from surviving written records. The year 1426 is less densely documented than 1429, with fewer specific events recorded.",
+  "disconfirming_evidence": "The dating and significance of Zheng He's seventh voyage is disputed. Some scholars argue the voyages ended earlier (1433) or that the 1426 date conflates multiple expeditions. Additionally, the scale and purpose of these voyages have been reinterpreted: while traditionally celebrated as demonstrations of Ming power, recent scholarship emphasizes their diplomatic and tributary functions rather than exploration for its own sake. The Portuguese exploration narrative has been complicated by postcolonial scholarship, which notes that the 'Age of Exploration' framing obscures the agency and sophistication of African and Asian maritime societies.",
+  "historiographic_note": "Documentation for 1426 is heavily weighted toward East Asia (Ming China) and Europe (Bohemia, Portugal), reflecting the survival and accessibility of written records in these regions. Chinese sources are abundant but often compiled retrospectively. European sources are contemporary but limited to elite political and military events. African, American, and Oceanic histories are largely absent from written records of this year, not because nothing happened but because documentation was not preserved or has not been systematically studied. The 'significance' of events listed reflects historiographic bias toward literate, centralized states.",
   "graph_edges": [
     {
       "from": "1426-001",
-      "to": "1429-003",
+      "to": "1435-001",
       "relation": "led_to",
-      "note": "English dominance in 1426 was reversed by Joan of Arc's campaigns in 1429"
+      "note": "Xuande Emperor's reign (1426\u20131435) follows his accession in 1426"
     },
     {
-      "from": "1426-005",
-      "to": "1428-005",
+      "from": "1426-002",
+      "to": "1433-001",
+      "relation": "part_of",
+      "note": "Zheng He's voyages were part of a continuous program of Ming maritime expansion"
+    },
+    {
+      "from": "1426-003",
+      "to": "1434-001",
       "relation": "led_to",
-      "note": "Aztec consolidation in 1426 led to the formalization of the Triple Alliance in 1428"
+      "note": "Hussite Wars continued until the Battle of Lipany in 1434"
+    },
+    {
+      "from": "1426-004",
+      "to": "1488-001",
+      "relation": "part_of",
+      "note": "Portuguese exploration of Africa was part of the broader Age of Exploration"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:02:43.900580",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

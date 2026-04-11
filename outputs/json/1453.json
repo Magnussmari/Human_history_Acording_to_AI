@@ -1,219 +1,297 @@
 {
   "year": 1453,
   "year_label": "1453 CE",
-  "era_context": "The year 1453 marks a pivotal moment in world history: the fall of Constantinople to the Ottoman Empire, the conclusion of the Hundred Years' War in Western Europe, and the consolidation of Ming power in China. The late medieval period is giving way to the early modern era, characterized by the rise of centralized nation-states, maritime exploration, and the beginning of European global expansion. In East Asia, the Ming Dynasty is at its height. In the Islamic world, the Ottoman Empire is emerging as a major power. Sub-Saharan Africa remains largely unknown to Europeans, though Portuguese exploration is beginning.",
+  "era_context": "The year 1453 marks a major turning point in world history. In Europe, the Hundred Years' War ends with English defeat, the Ottoman Empire conquers Constantinople (ending the Byzantine Empire), and the early Renaissance is flourishing in Italy. In East Asia, the Ming Dynasty is consolidating power under the Zhengtong Emperor. In Africa, Portuguese exploration is accelerating. The fall of Constantinople is widely recognized as marking the end of the medieval period and the beginning of the early modern era in European historiography, though this periodization is debated by modern scholars.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan African interior (no written records; Portuguese sources are coastal and biased)",
-    "Central Asian steppe (Ottoman-focused sources dominate; Timurid successor states underrepresented)",
-    "Mesoamerica and South America (no European sources yet; indigenous codices are post-conquest compilations)"
+    "Sub-Saharan Africa (limited European documentation; indigenous records sparse)",
+    "Southeast Asia and the Pacific (limited European awareness)",
+    "Central Asia (post-Timurid fragmentation poorly documented)",
+    "Americas (no European contact; indigenous records not accessible to Western sources)"
   ],
   "events": [
     {
       "id": "1453-001",
-      "title": "Fall of Constantinople to the Ottoman Empire",
-      "region": "Byzantine Empire / Ottoman Empire",
+      "title": "Fall of Constantinople: Ottoman Conquest of the Byzantine Empire",
+      "region": "Ottoman Empire, Byzantine Empire, Constantinople",
       "coordinates_approx": "41.01, 28.98",
       "category": "military",
-      "description": "On May 29, 1453, Ottoman forces under Sultan Mehmed II conquered Constantinople after a 53-day siege, ending the Byzantine Empire and establishing Ottoman dominance in the Eastern Mediterranean. The city's fall marked the end of a thousand-year-old Christian empire and the beginning of Ottoman rule over the Balkans and Anatolia. The conquest was achieved through advanced siege warfare, including the use of large cannons, and the breaching of the city's legendary Theodosian Walls. The fall of Constantinople had profound geopolitical consequences: it prompted Western European states to seek defensive alliances, accelerated Portuguese maritime exploration as an alternative route to Asia, and established the Ottoman Empire as a major European and Mediterranean power.",
+      "description": "On 29 May 1453, Ottoman forces under Mehmed II breached the walls of Constantinople after a 53-day siege, ending the Byzantine Empire and establishing Ottoman control over the city. The last Byzantine Emperor, Constantine XI Palaiologus, died in the final defense. The conquest marked the end of the last surviving remnant of the Roman Empire and had profound geopolitical consequences: it eliminated a major Christian power in the Eastern Mediterranean, established the Ottomans as a dominant regional power, and prompted a wave of Greek and Byzantine refugee scholars to migrate westward, contributing to the Italian Renaissance. The event is traditionally marked as the end of the medieval period in European historiography.",
       "key_figures": [
         "Mehmed II (Ottoman Sultan, 'the Conqueror')",
-        "Constantine XI Palaiologus (Last Byzantine Emperor, died in the siege)",
-        "Giustiniani Longo (Genoese military commander defending the city)"
+        "Constantine XI Palaiologus (Last Byzantine Emperor, killed in defense)",
+        "Giustiniani Longo (Genoese military commander)",
+        "Grand Vizier \u00c7andarl\u0131 Ibrahim Pasha (Ottoman administrator)"
       ],
       "sources": [
         {
-          "name": "Kritovoulos, History of Mehmed the Conqueror (written c. 1467, contemporary account by Ottoman historian)",
+          "name": "Kritovoulos of Imbros. History of Mehmed the Conqueror (written c. 1467, contemporary account by Ottoman-aligned Greek)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Doukas, Historia Turco-Byzantina (Byzantine perspective, written after 1453)",
-          "type": "later_compilation",
+          "name": "Doukas, Michael. History (written c. 1470s, Byzantine perspective)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Contemporary Ottoman records and Mehmed II's correspondence",
+          "name": "Ottoman chronicles and Mehmed II's court records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian and Genoese diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Venetian and Genoese merchant accounts and diplomatic correspondence",
+          "name": "Papal correspondence and Western European chronicles",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The fall of Constantinople is one of the most thoroughly documented events of the medieval period, with multiple contemporary and near-contemporary sources from Ottoman, Byzantine, Venetian, and Genoese perspectives. The date of May 29, 1453, is precisely established.",
+      "certainty_note": "The fall of Constantinople is one of the most thoroughly documented events of the medieval period. The date of 29 May 1453 is secure, based on multiple contemporary sources from Ottoman, Byzantine, Venetian, and Western European perspectives.",
       "cross_references": [
-        "Led to 1454-001 (Treaty of Lodi, Italian states seek defensive alliance)",
-        "Led to 1454-002 (Portuguese exploration accelerates)"
+        "1204-001 (Fourth Crusade and Latin conquest of Constantinople, earlier major siege)",
+        "1456-001 (Siege of Belgrade, Ottoman expansion continues)",
+        "1492-001 (Fall of Granada, end of Islamic rule in Iberia, parallel to Constantinople)"
       ]
     },
     {
       "id": "1453-002",
-      "title": "King Sejo's coup d'\u00e9tat in Joseon Korea",
-      "region": "Korea",
-      "coordinates_approx": "37.5, 127.0",
-      "category": "political",
-      "description": "In October 1453, Prince Sejo led a military coup against his young nephew King Danjong, seizing power and establishing himself as regent and later king (r. 1455\u20131468). The coup was motivated by factional disputes within the Joseon court and Sejo's ambitions for power. Danjong was forced to abdicate and was later killed in 1455. Sejo's coup marked a significant shift in Joseon politics, establishing a period of strong centralized rule and military reform. The event is well-documented in Korean court records and represents a major turning point in Joseon Dynasty history.",
+      "title": "End of the Hundred Years' War: Battle of Castillon",
+      "region": "Kingdom of France, Gascony, Castillon",
+      "coordinates_approx": "44.80, 0.08",
+      "category": "military",
+      "description": "The Battle of Castillon on 17 July 1453 marked the final major engagement of the Hundred Years' War between England and France. French forces under Jean de Dunois defeated an English army, effectively ending English military dominance in France. The battle demonstrated the superiority of French artillery and infantry tactics over traditional English longbow formations. The English were forced to withdraw from Gascony, their last major holding in France, ending 300 years of English territorial claims in France. The war's end consolidated French national power and marked a major shift in European geopolitics.",
       "key_figures": [
-        "Prince Sejo (coup leader, later King Sejo)",
-        "King Danjong (deposed, age 12 at coup)",
-        "Joseon court officials and military commanders"
+        "Jean de Dunois (French commander, 'the Bastard of Orleans')",
+        "John Talbot (English commander, elderly veteran)",
+        "King Charles VII of France (reigning monarch)",
+        "King Henry VI of England (reigning monarch)"
       ],
       "sources": [
         {
-          "name": "Joseon Wangjo Sillok (Annals of the Joseon Kings)",
+          "name": "Jean de Wavrin. Recueil des Croniques et Anchiennes Istories de la Grant Bretaigne (written c. 1470s)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Court records and official histories compiled during Sejo's reign",
-          "type": "primary_text",
+          "name": "French royal chronicles and military records",
+          "type": "chronicle",
           "contemporary": true
+        },
+        {
+          "name": "English royal records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from medieval military history",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Sejo's coup is precisely dated to October 1453 in Korean court records and is extensively documented in official histories.",
+      "certainty_note": "The Battle of Castillon is well-documented in French and English sources. The date of 17 July 1453 is secure. The battle is traditionally marked as the end of the Hundred Years' War, though some sources extend the conflict to 1475.",
       "cross_references": [
-        "Led to 1454-006 (Sejo consolidates power)"
+        "1337-001 (Beginning of the Hundred Years' War)",
+        "1455-001 (Battle of St. Albans, English domestic conflict following loss of France)"
       ]
     },
     {
       "id": "1453-003",
-      "title": "End of the Hundred Years' War between England and France",
-      "region": "Western Europe / France / England",
-      "coordinates_approx": "48.0, 2.0",
-      "category": "military",
-      "description": "The Hundred Years' War (1337\u20131453), a prolonged conflict between the English and French crowns over succession to the French throne, effectively ended in 1453 with the English loss of Bordeaux, their last major stronghold in France. The final phase of the war saw French forces, strengthened by military innovations and the use of artillery, systematically reclaim English-held territories. By 1453, England had lost nearly all its continental possessions except Calais (which would be lost in 1558). The war's conclusion marked the emergence of France as a consolidated nation-state and the decline of English continental ambitions, redirecting English attention toward internal conflicts (the Wars of the Roses) and eventual maritime expansion.",
+      "title": "Ming Dynasty: Zhengtong Emperor's Reign and Court Politics",
+      "region": "Ming China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "The Zhengtong Emperor (Yingzong) was reigning over the Ming Dynasty in 1453, following his restoration to power in 1449 after the Tumu Crisis. Court politics were dominated by factional struggles between the civil bureaucracy and the eunuch faction. The emperor's authority was contested, and power was distributed among various court factions. Military campaigns against Mongol tribes on the northern frontier continued, with mixed results. The period saw ongoing administrative consolidation and cultural development.",
       "key_figures": [
-        "King Henry VI of England (weak ruler during final phase)",
-        "King Charles VII of France (victor)",
-        "Joan of Arc (died 1431, but her legacy influenced the war's final phase)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary English and French chronicles (e.g., Jean de Monstrelet, Chronique)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Royal records and diplomatic correspondence from English and French archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Military records and accounts of the siege of Bordeaux (1452\u20131453)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The end of the Hundred Years' War is precisely dated to 1453 with the fall of Bordeaux. Contemporary sources from both English and French perspectives confirm the date and significance.",
-      "cross_references": [
-        "Led to 1455-001 (Wars of the Roses begin in England)"
-      ]
-    },
-    {
-      "id": "1453-004",
-      "title": "Portuguese exploration reaches the Azores",
-      "region": "Atlantic Ocean / Azores",
-      "coordinates_approx": "38.0, -28.0",
-      "category": "exploration",
-      "description": "Portuguese navigators, under the patronage of Prince Henry the Navigator, had established settlements in the Azores by 1453. The islands, located approximately 1,500 kilometers west of Portugal, had been discovered in the early 1430s but were sparsely settled. By 1453, Portuguese colonization efforts were intensifying, with settlers establishing agricultural colonies and using the islands as a base for further Atlantic exploration. The Azores became crucial waypoints for Portuguese voyages to Africa and eventually to the Americas.",
-      "key_figures": [
-        "Prince Henry the Navigator (patron)",
-        "Portuguese Crown (sponsor)",
-        "Portuguese settlers and navigators"
-      ],
-      "sources": [
-        {
-          "name": "Portuguese royal records and navigational charts (Arquivo Nacional da Torre do Tombo)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later Portuguese chronicles and accounts of exploration (e.g., Gomes Eanes de Zurara, Cr\u00f3nica da Guin\u00e9)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Azores were discovered in the 1430s, and by 1453 Portuguese settlement was underway, but precise dating of specific settlement events is uncertain due to sparse contemporary documentation.",
-      "cross_references": [
-        "Part of broader Portuguese Age of Discovery (1420s\u20131500s)"
-      ]
-    },
-    {
-      "id": "1453-005",
-      "title": "Ming Dynasty under Emperor Zhengtong faces Tumu Crisis aftermath",
-      "region": "China / Ming Dynasty",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "military",
-      "description": "In 1453, the Ming Dynasty was recovering from the Tumu Crisis of 1449, when Emperor Zhengtong was captured by Mongol forces during a military campaign. By 1453, Zhengtong had been restored to the throne (in 1457), and the Ming court was consolidating power and reorganizing its military defenses. The crisis had exposed vulnerabilities in Ming military organization and prompted reforms in frontier defense and military strategy. The period saw the strengthening of the Great Wall and the reorganization of military garrisons.",
-      "key_figures": [
-        "Emperor Zhengtong (r. 1435\u20131449, 1457\u20131464)",
-        "Emperor Jingtai (r. 1449\u20131457, regent during Zhengtong's captivity)",
-        "Ming court officials and military commanders"
+        "Zhengtong Emperor (Yingzong) (reigning emperor)",
+        "Eunuch faction leaders",
+        "Ming civil bureaucrats",
+        "Ming military commanders"
       ],
       "sources": [
         {
           "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Official Ming court records and imperial edicts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Official Ming histories and court records",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Ming studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Tumu Crisis and its aftermath are well-documented in Ming court records. The year 1453 falls within the period of recovery and reorganization following the crisis.",
+      "certainty_note": "Ming official records provide detailed documentation of court politics and imperial governance in 1453.",
       "cross_references": [
-        "Follows from 1449-001 (Tumu Crisis)"
+        "1449-001 (Tumu Crisis and Zhengtong's initial deposition)",
+        "1456-005 (Zhengtong's restoration and consolidation)"
+      ]
+    },
+    {
+      "id": "1453-004",
+      "title": "Portuguese Exploration: Expansion of Atlantic Voyages",
+      "region": "West Africa, Portuguese Atlantic Exploration",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "Portuguese navigators, sponsored by Prince Henry the Navigator, continued systematic exploration of the West African coast. By 1453, Portuguese vessels had reached the region of modern-day Guinea and Sierra Leone. The Portuguese established trading posts and forts to facilitate trade in gold, ivory, and enslaved people. The exploration program was driven by commercial interests, religious zeal, and royal ambition. These voyages laid the groundwork for Portuguese colonial expansion in Africa and the eventual Age of Exploration.",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese royal patron)",
+        "King Afonso V of Portugal (reigning monarch)",
+        "Portuguese navigators and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara. Cr\u00f3nica da Descoberta da Guin\u00e9 (written c. 1453\u20131460)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal charters and trading licenses",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Portuguese maritime history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration in 1453 is well-documented in general terms, but specific dates and locations of individual voyages are sometimes uncertain.",
+      "cross_references": [
+        "1444-001 (Earlier Portuguese exploration under Henry the Navigator)",
+        "1454-003 (Continued Portuguese expansion)"
+      ]
+    },
+    {
+      "id": "1453-005",
+      "title": "Ottoman Empire: Consolidation After Constantinople",
+      "region": "Ottoman Empire, Eastern Mediterranean",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "Following the conquest of Constantinople in May 1453, the Ottoman Empire moved rapidly to consolidate control over the city and the surrounding region. The Ottoman administration reorganized the city's governance, converted major churches to mosques, and began reconstruction and repopulation efforts. The conquest of Constantinople provided the Ottomans with a major naval base and strategic position in the Eastern Mediterranean. The empire's prestige was greatly enhanced, and Ottoman expansion continued in subsequent years.",
+      "key_figures": [
+        "Mehmed II (Ottoman Sultan)",
+        "Ottoman administrators and military officials",
+        "Grand Vizier \u00c7andarl\u0131 Ibrahim Pasha"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and Mehmed II's court records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian and Genoese diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence and Western European chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ottoman studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman consolidation after the conquest of Constantinople is well-documented in Ottoman, Venetian, and Western sources.",
+      "cross_references": [
+        "1453-001 (Fall of Constantinople)",
+        "1456-001 (Siege of Belgrade, Ottoman expansion continues)"
+      ]
+    },
+    {
+      "id": "1453-006",
+      "title": "Italian Renaissance: Flourishing of Arts and Humanism",
+      "region": "Italian States, particularly Florence, Venice, and Milan",
+      "coordinates_approx": "43.77, 11.25",
+      "category": "cultural",
+      "description": "The year 1453 falls within the height of the Italian Renaissance, a period of extraordinary cultural and intellectual flourishing. In Florence, the Medici family patronized artists and scholars; in Venice, the republic was at the height of its commercial and cultural power; in Milan, the Sforza court was becoming a major center of Renaissance culture. Artists such as Donatello, Botticelli, and Leonardo da Vinci were active or beginning their careers. Humanist scholars were recovering classical texts and developing new approaches to learning. The fall of Constantinople in 1453 prompted a wave of Greek scholars to migrate westward, bringing Byzantine manuscripts and knowledge that enriched Italian intellectual life.",
+      "key_figures": [
+        "Cosimo de' Medici (Florentine patron of the arts)",
+        "Francesco Sforza (Duke of Milan)",
+        "Doge Francesco Foscari (Venice)",
+        "Donatello (sculptor)",
+        "Botticelli (painter, beginning career)",
+        "Leonardo da Vinci (artist and inventor, born 1452)"
+      ],
+      "sources": [
+        {
+          "name": "Vasari, Giorgio. Lives of the Most Excellent Painters, Sculptors, and Architects (written 16th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Italian state archives and patronage records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Renaissance studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The flourishing of the Italian Renaissance in 1453 is well-documented through surviving artworks, patronage records, and later historical accounts.",
+      "cross_references": [
+        "1453-001 (Fall of Constantinople, influx of Greek scholars to Italy)",
+        "1492-001 (End of the Italian Renaissance period, often dated to 1494 or 1527)"
       ]
     }
   ],
-  "disconfirming_evidence": "The fall of Constantinople is sometimes portrayed in Western historiography as a sudden, catastrophic event marking the 'end of the Middle Ages' and the 'beginning of the modern world.' Modern scholarship emphasizes that the Byzantine Empire had been in decline for centuries, that the Ottoman conquest was a gradual process rather than a sudden rupture, and that the 'medieval-to-modern' transition is a historiographic construct rather than a historical reality. The Hundred Years' War's end in 1453 is sometimes overstated as a definitive conclusion; English forces continued to hold Calais and maintained claims to French territories, and the war's legacy continued to shape Anglo-French relations for centuries. The significance of Portuguese exploration in 1453 is often exaggerated in Eurocentric narratives; the Azores and African coast were not 'discovered' but were known to indigenous peoples and Arab traders, and Portuguese exploration was one of many maritime activities occurring globally.",
-  "historiographic_note": "The year 1453 is exceptionally well-documented for Europe and East Asia, with rich archival sources from the Ottoman Empire, Byzantine Empire, England, France, Portugal, and Ming China. However, sources are heavily skewed toward elite political and military history; economic and social history are less detailed. The 'fall of Constantinople' narrative dominates Western historiography, often overshadowing other significant events of the year. Sub-Saharan African sources are almost entirely absent except through Portuguese colonial-era accounts. Indigenous American sources for this period are post-conquest compilations. The historiographic bias toward European events reflects the dominance of European-trained historians and the survival of European archives; non-European events are often underrepresented or filtered through European perspectives.",
+  "disconfirming_evidence": "The fall of Constantinople is often presented as a watershed moment marking the end of the medieval period and the beginning of the early modern era, but modern scholarship increasingly questions this periodization. The Byzantine Empire had been in decline for centuries, and the fall of Constantinople did not immediately transform European politics or culture\u2014the impact was gradual. The idea that the conquest 'ended the medieval period' is a retrospective construction by later historians, not a contemporary perception. The Battle of Castillon is traditionally marked as the end of the Hundred Years' War, but some sources extend the conflict to 1475 or beyond, and the battle itself was not immediately recognized as decisive at the time. The influx of Greek scholars to Italy following Constantinople's fall is often exaggerated; many Greek scholars had already migrated to Italy before 1453, and the migration continued gradually rather than as a sudden wave. The Italian Renaissance is sometimes presented as a unified movement beginning in the 14th century, but it was actually a complex, regionally varied phenomenon with multiple centers and chronologies.",
+  "historiographic_note": "Documentation for 1453 is rich for Europe and the Ottoman Empire, with extensive contemporary sources for the fall of Constantinople (Ottoman, Byzantine, Venetian, Genoese, and Western European perspectives). The Battle of Castillon is well-documented in French and English sources. Italian sources provide detailed accounts of Renaissance cultural developments. Chinese sources (Ming Shilu) are comprehensive for court politics. African sources are absent from surviving Western records; Portuguese exploration is documented only from the European perspective. Biases include: Western-centric focus on the fall of Constantinople as a 'watershed moment,' court-sponsored narratives in Ottoman and Chinese sources, Italian-centric focus on the Renaissance, and the complete absence of African indigenous perspectives on Portuguese contact. The periodization of 1453 as the 'end of the medieval period' reflects modern historiographic conventions rather than contemporary perceptions.",
   "graph_edges": [
     {
       "from": "1453-001",
-      "to": "1454-001",
+      "to": "1456-001",
       "relation": "led_to",
-      "note": "The fall of Constantinople prompted Italian states to seek defensive alliances"
+      "note": "Fall of Constantinople prompts Ottoman expansion, leading to Siege of Belgrade"
     },
     {
       "from": "1453-001",
-      "to": "1454-002",
+      "to": "1453-006",
       "relation": "led_to",
-      "note": "The fall of Constantinople accelerated Portuguese maritime exploration as an alternative route to Asia"
+      "note": "Fall of Constantinople prompts influx of Greek scholars to Italy, enriching Renaissance"
     },
     {
       "from": "1453-002",
-      "to": "1454-006",
+      "to": "1455-001",
       "relation": "led_to",
-      "note": "Sejo's coup led to his consolidation of power in 1454"
+      "note": "End of Hundred Years' War leads to English domestic conflict (Wars of the Roses)"
     },
     {
       "from": "1453-003",
-      "to": "1455-001",
-      "relation": "led_to",
-      "note": "The end of the Hundred Years' War led to the Wars of the Roses in England"
+      "to": "1449-001",
+      "relation": "part_of",
+      "note": "Continuation of Ming court politics following Tumu Crisis"
+    },
+    {
+      "from": "1453-004",
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "Continuation of Portuguese Atlantic exploration program"
     },
     {
       "from": "1453-005",
-      "to": "1449-001",
-      "relation": "caused_by",
-      "note": "The recovery from the Tumu Crisis of 1449"
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "Ottoman consolidation follows the conquest of Constantinople"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:53:24.592141",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

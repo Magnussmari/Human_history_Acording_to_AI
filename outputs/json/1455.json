@@ -1,202 +1,227 @@
 {
   "year": 1455,
   "year_label": "1455 CE",
-  "era_context": "The mid-15th century was a period of significant political consolidation and transition in Europe and Asia. The Ottoman Empire was expanding aggressively, the Italian Renaissance was flourishing, the Hundred Years' War was in its final stages, and the Ming Dynasty maintained stability in China. This was a transitional period between medieval and early modern political structures, marked by the rise of centralized nation-states and the decline of feudal systems.",
-  "documentation_level": "rich",
+  "era_context": "The mid-15th century is a period of transition in Europe: the Hundred Years' War has just ended (1453), nation-states are consolidating power, and the Ottoman Empire is expanding aggressively following the conquest of Constantinople. In East Asia, the Ming Dynasty is in its mid-reign under the Zhengtong Emperor. In Africa, Portuguese exploration is accelerating. The early Renaissance is beginning in Italy, and printing technology is spreading from Mainz.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Interior Americas (Aztec and Inca records fragmentary)",
-    "Central Asia and Steppe regions (limited documentation)"
+    "Sub-Saharan Africa (limited European documentation; indigenous records sparse)",
+    "Southeast Asia and the Pacific (limited European awareness)",
+    "Central Asia (post-Timurid fragmentation poorly documented)",
+    "Americas (no European contact; indigenous records not accessible to Western sources)"
   ],
   "events": [
     {
       "id": "1455-001",
-      "title": "First Battle of St. Albans (Wars of the Roses begin)",
-      "region": "England, St. Albans",
-      "coordinates_approx": "51.7\u00b0N, 0.3\u00b0W",
+      "title": "Battle of St. Albans: First Battle of the Wars of the Roses",
+      "region": "Kingdom of England, St. Albans",
+      "coordinates_approx": "51.75, -0.34",
       "category": "military",
-      "description": "The First Battle of St. Albans in 1455 marked the beginning of the Wars of the Roses, a series of civil conflicts between the Houses of York and Lancaster for control of the English throne. This battle was fought between the Duke of Somerset and the Duke of York, with York's forces emerging victorious. The Wars of the Roses would continue for 30 years and significantly weaken English power, contributing to the end of the Hundred Years' War.",
+      "description": "The first major engagement of the Wars of the Roses, a dynastic conflict between the Houses of York and Lancaster for control of the English throne, took place at St. Albans. The Duke of Somerset was killed, and the Duke of York emerged as a powerful faction leader. This battle marked the beginning of three decades of civil war that would reshape English politics and eventually lead to the Tudor dynasty. The conflict was rooted in the weakness of Henry VI and competing claims to the throne.",
       "key_figures": [
-        "Richard, Duke of York",
-        "Edmund Beaufort, Duke of Somerset",
-        "Henry VI (King of England, r. 1422\u20131461, 1470\u20131471)"
+        "Richard, Duke of York (Yorkist leader)",
+        "Edmund Beaufort, Duke of Somerset (Lancastrian commander, killed)",
+        "Henry VI (reigning king, Lancastrian)"
       ],
       "sources": [
         {
-          "name": "English royal chronicles and records",
+          "name": "Hall, Edward. The Union of the Two Noble and Illustre Famelies of Yorke and Lancaster (written early 16th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Paston Letters (contemporary correspondence)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary English chronicles (Hall, Holinshed)",
+          "name": "English royal chronicles and parliamentary records",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The First Battle of St. Albans is well-documented in English records. The date is certain.",
+      "certainty_note": "The battle is well-documented in contemporary English sources. The date of 22 May 1455 is secure.",
       "cross_references": [
-        "Led to 1485-001 (Battle of Bosworth Field, end of Wars of the Roses)"
+        "1485-001 (Battle of Bosworth Field, end of Wars of the Roses)",
+        "1453-001 (End of Hundred Years' War, context for English domestic conflict)"
       ]
     },
     {
       "id": "1455-002",
-      "title": "Ottoman-Venetian tensions in the Mediterranean",
-      "region": "Eastern Mediterranean, Aegean",
-      "coordinates_approx": "39.0\u00b0N, 25.0\u00b0E",
-      "category": "military",
-      "description": "Tensions between the Ottoman Empire and Venice were escalating in 1455, as the Ottomans sought to consolidate control over Mediterranean trade routes and island territories. These tensions would erupt into open war in 1463 (First Venetian-Ottoman War). The conflict represented the broader struggle between the declining Venetian maritime republic and the rising Ottoman Empire.",
+      "title": "Gutenberg Bible Completion (Alternative Dating)",
+      "region": "Holy Roman Empire, Mainz",
+      "coordinates_approx": "50.00, 8.27",
+      "category": "technological",
+      "description": "Some sources date the completion of the Gutenberg Bible (42-line Bible) to 1455 rather than 1456, based on ambiguities in the colophon and binding records. The first major printed book using movable type, it represents a watershed moment in the history of information technology. The exact completion date remains debated among scholars, with evidence supporting both 1455 and 1456.",
       "key_figures": [
-        "Mehmed II (Ottoman Sultan)",
-        "Venetian Senate and merchant republic leadership"
+        "Johannes Gutenberg (inventor and printer)",
+        "Johann Fust (financial backer)",
+        "Peter Sch\u00f6ffer (printer and partner)"
       ],
       "sources": [
         {
-          "name": "Venetian state archives and diplomatic correspondence",
+          "name": "Gutenberg Bible colophon (ambiguous dating)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ottoman chronicles",
-          "type": "chronicle",
+          "name": "Mainz guild and city records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic debate in printing history scholarship",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Pre-war tensions are documented in Venetian records, though specific incidents in 1455 are not always precisely dated.",
+      "certainty": "approximate",
+      "certainty_note": "The completion date is disputed between 1455 and 1456. Modern scholarship is divided; 1456 is more commonly cited, but 1455 has scholarly support.",
       "cross_references": [
-        "Led to 1463-001 (First Venetian-Ottoman War begins)"
+        "1456-004 (Alternative dating of Gutenberg Bible)",
+        "1440-001 (Invention of movable-type printing)"
       ]
     },
     {
       "id": "1455-003",
-      "title": "Afonso V of Portugal campaigns in North Africa",
-      "region": "North Africa, Morocco",
-      "coordinates_approx": "35.5\u00b0N, 5.5\u00b0W",
-      "category": "military",
-      "description": "Afonso V of Portugal, known as 'the African,' continued Portuguese military campaigns in North Africa, seeking to expand Portuguese influence and promote Christian crusading ideals. These campaigns were part of the broader Portuguese Age of Exploration and the Reconquista's extension into Africa. Portuguese expansion in North Africa would continue through the 1460s and beyond.",
+      "title": "Portuguese Exploration: Expansion Along African Coast",
+      "region": "West Africa, Portuguese Atlantic Exploration",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "Portuguese navigators, sponsored by Prince Henry the Navigator, continued systematic exploration of the West African coast, establishing trading posts and forts. By 1455, Portuguese vessels had reached the region of modern-day Sierra Leone and Guinea. These expeditions were driven by commercial interests (gold, ivory, slaves) and religious zeal (conversion of African peoples). The voyages laid the groundwork for Portuguese colonial expansion in Africa.",
       "key_figures": [
-        "Afonso V (King of Portugal, r. 1438\u20131481)",
-        "Portuguese military commanders"
+        "Prince Henry the Navigator (Portuguese royal patron)",
+        "King Afonso V of Portugal (reigning monarch)",
+        "Various Portuguese navigators and merchants"
       ],
       "sources": [
         {
-          "name": "Portuguese royal chronicles and records",
+          "name": "Gomes Eanes de Zurara. Cr\u00f3nica da Descoberta da Guin\u00e9 (written c. 1453\u20131460)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese royal charters and trading licenses",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery and Conquest of Guinea",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Portuguese maritime history",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Portuguese campaigns in North Africa during this period are documented, though specific operations in 1455 are not always precisely dated.",
+      "certainty_note": "The general trajectory of Portuguese exploration is well-documented, but specific voyages and dates in the 1450s are sometimes conflated or uncertain. 1455 is a conventional date for continued expansion.",
       "cross_references": [
-        "Part of broader Portuguese Age of Exploration",
-        "Led to 1471-001 (Portuguese conquest of Tangier)"
+        "1444-001 (Earlier Portuguese exploration)",
+        "1456-003 (Dinis Dias reaches Cape Verde)"
       ]
     },
     {
       "id": "1455-004",
-      "title": "Ming Dynasty stability under Emperor Zhengtong",
-      "region": "Ming China, Beijing",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "title": "Ming Dynasty: Continued Consolidation Under Zhengtong Emperor",
+      "region": "Ming China",
+      "coordinates_approx": "39.90, 116.41",
       "category": "political",
-      "description": "In 1455, the Ming Dynasty was experiencing relative stability under Emperor Zhengtong (who had been restored to power in 1457, but was still in power in 1455 as Jingtai's successor). The Ming court was consolidating power and managing threats from Mongol incursions on the northern frontier. This period saw the continuation of Ming cultural and economic development.",
+      "description": "The Zhengtong Emperor (Yingzong) continued to consolidate power following his restoration in 1449 after the Tumu Crisis. Court factions, particularly the eunuch faction led by Wang Zhen's successors, wielded significant influence. Military campaigns against Mongol tribes on the northern frontier continued, with mixed results. The period saw ongoing tension between civil bureaucracy and eunuch power.",
       "key_figures": [
-        "Zhengtong (Ming Emperor, r. 1435\u20131449)",
-        "Jingtai (Ming Emperor, r. 1449\u20131457)",
-        "Ming court officials"
+        "Zhengtong Emperor (Yingzong) (reigning emperor)",
+        "Eunuch faction leaders",
+        "Ming military commanders"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Ming Veritable Records)",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Official Ming court records and imperial edicts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary Ming court chronicles",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Historiographic consensus from Ming studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Ming Dynasty's stability during this period is documented in Ming records, though specific events in 1455 are not always precisely dated.",
+      "certainty": "confirmed",
+      "certainty_note": "Ming official records provide detailed documentation of court politics and military campaigns in 1455.",
       "cross_references": [
-        "Follows from 1449-001 (Tumu Crisis)",
-        "Led to 1457-003 (Restoration of Zhengtong)"
+        "1449-001 (Tumu Crisis and initial deposition)",
+        "1456-005 (Zhengtong's restoration)"
       ]
     },
     {
       "id": "1455-005",
-      "title": "Ashikaga shogunate fragmentation in Japan",
-      "region": "Japan, Kyoto",
-      "coordinates_approx": "35.0\u00b0N, 135.8\u00b0E",
+      "title": "Ottoman Empire: Consolidation After Constantinople",
+      "region": "Ottoman Empire, Eastern Mediterranean",
+      "coordinates_approx": "41.01, 28.98",
       "category": "political",
-      "description": "The Ashikaga shogunate continued to experience fragmentation and loss of central authority in 1455. Competing daimyo factions were consolidating regional power, and the shogun's authority was increasingly challenged. This period of decentralization would eventually lead to the Sengoku (Warring States) period, which began in 1467 with the Onin War.",
+      "description": "Following the conquest of Constantinople in 1453, Mehmed II consolidated Ottoman control over the Eastern Mediterranean and the Balkans. The Ottoman navy expanded, and campaigns against Venetian and Genoese holdings continued. The empire was reorganizing its administrative structure to incorporate newly conquered territories. This period saw the Ottoman Empire emerge as a major Mediterranean power.",
       "key_figures": [
-        "Ashikaga Yoshimasa (Shogun, r. 1449\u20131473)",
-        "Competing daimyo factions"
+        "Mehmed II (Ottoman Sultan)",
+        "Ottoman military and administrative officials"
       ],
       "sources": [
         {
-          "name": "Onin War chronicles and later Japanese historical compilations",
+          "name": "Ottoman chronicles and court records",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Daimyo records and temple chronicles",
+          "name": "Venetian and Genoese diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ottoman studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general political fragmentation of this period is well-documented, though specific events within 1455 are not always precisely dated.",
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman consolidation in 1455 is well-documented in Ottoman and Venetian sources.",
       "cross_references": [
-        "Led to 1467-001 (Onin War begins)"
+        "1453-001 (Fall of Constantinople)",
+        "1456-001 (Siege of Belgrade)"
       ]
     }
   ],
-  "disconfirming_evidence": "The First Battle of St. Albans is sometimes dated to May 22, 1455, but some sources give slightly different dates. The battle's significance as the 'beginning' of the Wars of the Roses is somewhat conventional; some scholars argue that the conflict had deeper roots in the 1450s or earlier. The Ming Dynasty's political situation in 1455 is complex; Emperor Zhengtong had been deposed in 1449 and was succeeded by Jingtai, so 1455 was during Jingtai's reign, not Zhengtong's. This can cause confusion in secondary sources.",
-  "historiographic_note": "Documentation for 1455 is rich in European sources, particularly from England, Portugal, Venice, and the Ottoman Empire. English sources on the Wars of the Roses are abundant but often biased toward the victorious Tudor dynasty. Chinese sources are abundant but focus on court-centered events. Japanese sources are available but often later compilations. African and American sources are virtually absent from the surviving written record. The bias toward political and military events is pronounced; economic, cultural, and social developments are less systematically recorded. Ottoman sources are often later compilations rather than contemporary records.",
+  "disconfirming_evidence": "The Battle of St. Albans, while symbolically important as the 'first' battle of the Wars of the Roses, was relatively small in scale and did not immediately trigger sustained conflict\u2014there was a period of attempted reconciliation between 1455 and 1459. The significance of the battle has been somewhat inflated by later Tudor historians seeking to establish a clear narrative of dynastic struggle. The Gutenberg Bible dating remains genuinely ambiguous; the colophon does not provide a definitive date, and scholarly consensus has shifted between 1455 and 1456 multiple times. Portuguese exploration in 1455 is sometimes presented as more systematic and organized than it actually was; many voyages were private ventures with royal sponsorship rather than state-directed expeditions.",
+  "historiographic_note": "Documentation for 1455 is moderate for Europe and the Ottoman Empire, with good coverage of political and military events. English sources (Paston Letters, chronicles) provide detailed contemporary accounts of St. Albans. Ottoman and Venetian sources document Mediterranean politics. Chinese sources (Ming Shilu) are comprehensive for court politics. African sources are absent from surviving Western records; Portuguese exploration is documented only from the European perspective. Biases include: English-centric focus on the Wars of the Roses in Western historiography, court-sponsored narratives in Ottoman and Chinese sources, and the complete absence of African indigenous perspectives on Portuguese contact.",
   "graph_edges": [
     {
       "from": "1455-001",
       "to": "1485-001",
       "relation": "led_to",
-      "note": "The First Battle of St. Albans initiated the Wars of the Roses, which ended with the Battle of Bosworth Field in 1485."
+      "note": "First battle of the Wars of the Roses leads to three decades of conflict ending at Bosworth Field"
     },
     {
       "from": "1455-002",
-      "to": "1463-001",
-      "relation": "led_to",
-      "note": "Escalating Ottoman-Venetian tensions erupted into open war in 1463."
+      "to": "1456-004",
+      "relation": "contemporary_with",
+      "note": "Gutenberg Bible completion is dated to either 1455 or 1456; both dates are plausible"
     },
     {
       "from": "1455-003",
-      "to": "1471-001",
-      "relation": "led_to",
-      "note": "Portuguese campaigns in North Africa continued and expanded, leading to the conquest of Tangier in 1471."
+      "to": "1444-001",
+      "relation": "part_of",
+      "note": "Continuation of Portuguese Atlantic exploration program"
     },
     {
       "from": "1455-004",
-      "to": "1457-003",
-      "relation": "led_to",
-      "note": "The Ming Dynasty's stability during this period led to the restoration of Zhengtong in 1457."
+      "to": "1449-001",
+      "relation": "part_of",
+      "note": "Continuation of Ming court consolidation after Tumu Crisis"
     },
     {
       "from": "1455-005",
-      "to": "1467-001",
+      "to": "1453-001",
       "relation": "led_to",
-      "note": "The political fragmentation of the Ashikaga shogunate led to the Onin War in 1467."
+      "note": "Ottoman consolidation follows the conquest of Constantinople"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:51:09.524288",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

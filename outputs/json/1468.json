@@ -1,219 +1,197 @@
 {
   "year": 1468,
   "year_label": "1468 CE",
-  "era_context": "The late 15th century, a period of state consolidation in Europe, maritime exploration, and the height of the Italian Renaissance. In Asia, the Ming Dynasty maintained stability, while the Ottoman Empire continued its expansion. In the Americas, the Inca Empire was at its territorial peak. This was a transitional moment between medieval and early modern political structures.",
+  "era_context": "The late 15th century saw the consolidation of European nation-states, the height of the Italian Renaissance, and the dominance of the Ottoman Empire in the Eastern Mediterranean. In Asia, the Ming Dynasty controlled China; various Southeast Asian kingdoms competed for regional influence; and the Khmer Empire had long since fragmented. This was a period of increasing European maritime exploration and the early stages of what would become the Age of Discovery.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan African interior",
-    "Southeast Asian kingdoms",
-    "Central Asian steppes (limited written records)"
+    "Sub-Saharan Africa (limited written records; Portuguese sources are colonial-inflected)",
+    "Interior Southeast Asia (sparse European documentation; local chronicles underrepresented)",
+    "Oceania and Pacific islands (virtually no written records)",
+    "Central Asia and the Steppe (limited documentation in Western sources)"
   ],
   "events": [
     {
       "id": "1468-001",
-      "title": "Skanderbeg (Gjergj Kastrioti) dies",
-      "region": "Albania and the Balkans",
-      "coordinates_approx": "41.3\u00b0N, 19.8\u00b0E",
+      "title": "Sonni Ali conquers Timbuktu (Songhai Empire)",
+      "region": "West Africa / Songhai Empire",
+      "coordinates_approx": "16.77, -3.01",
       "category": "military",
-      "description": "Skanderbeg, the Albanian military leader who resisted Ottoman expansion for approximately 25 years, died on 17 January 1468 (some sources cite 1467). His death removed the primary military obstacle to Ottoman consolidation in Albania and the southern Balkans. Skanderbeg had maintained Albanian independence through a combination of guerrilla warfare, diplomatic alliances with Venice and the Papacy, and strategic fortifications. His death was a turning point; within a decade, the Ottoman Empire completed its conquest of Albania.",
+      "description": "In 1468, Sonni Ali of the Songhai Empire conquered the city of Timbuktu from the Tuareg. This conquest was a major military achievement and marked a turning point in West African history. Timbuktu was a major center of Islamic learning and trade, and its conquest gave Songhai control over an important commercial and intellectual hub. The conquest of Timbuktu was part of Sonni Ali's broader campaign to expand Songhai power and territory in the Niger River valley. By 1468, Songhai was becoming the dominant power in the Sahel region, succeeding the Mali Empire in regional dominance.",
       "key_figures": [
-        "Skanderbeg (Gjergj Kastrioti, deceased)",
-        "Mehmed II (Ottoman Sultan)",
-        "Pope Paul II (papal ally)"
+        "Sonni Ali (Songhai Emperor, r. 1464\u20131492)"
       ],
       "sources": [
         {
-          "name": "Marin Barleti. Vita et Gesta Scanderbegi (written 1508, based on earlier sources)",
+          "name": "Tarikh al-Sudan by Abd al-Rahman al-Sadi (written 17th century, but based on earlier oral traditions and records)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ottoman court records and Venetian diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Tarikh al-Fattash (compiled 16th\u201317th century)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Papal archives",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Oral traditions of Songhai and Timbuktu",
+          "type": "oral_tradition",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Skanderbeg's death date is well-documented in Ottoman, Venetian, and papal sources. The date 17 January 1468 is widely accepted in modern scholarship.",
+      "certainty": "traditional",
+      "certainty_note": "The conquest of Timbuktu is traditionally dated to 1468, though some sources place it in 1469 or nearby years. The exact date is uncertain due to reliance on later chronicles (Tarikh al-Sudan, Tarikh al-Fattash) written in the 16th\u201317th centuries and oral traditions. Modern scholarship generally accepts that the conquest occurred in the late 1460s, with 1468 being the most commonly cited date.",
       "cross_references": [
-        "1443-001 (Skanderbeg's rebellion begins)",
-        "1478-001 (Ottoman conquest of Albania completed)"
+        "1464-001: Sonni Ali becomes Songhai Emperor",
+        "1492-001: Death of Sonni Ali"
       ]
     },
     {
       "id": "1468-002",
-      "title": "Cosimo de' Medici dies; Lorenzo de' Medici assumes leadership of Florence",
-      "region": "Florence, Italian Peninsula",
-      "coordinates_approx": "43.8\u00b0N, 11.3\u00b0E",
-      "category": "political",
-      "description": "Cosimo de' Medici, the patriarch of the Medici family and de facto ruler of Florence, died on 1 August 1464 (some sources cite 1468 for the transition of full power to his grandson Lorenzo). Lorenzo de' Medici, known as 'Lorenzo the Magnificent,' assumed leadership of the Medici family and Florence's political affairs. Lorenzo became one of the most influential patrons of the Italian Renaissance, supporting artists, architects, and humanist scholars. His rule marked the height of Florentine cultural and political influence in Italy.",
-      "key_figures": [
-        "Cosimo de' Medici (deceased, or transitioning power)",
-        "Lorenzo de' Medici (new leader)",
-        "Piero de' Medici (Lorenzo's father, died 1469)"
-      ],
-      "sources": [
-        {
-          "name": "Machiavelli, Niccol\u00f2. Florentine Histories",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Medici family correspondence and Florentine state records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Vespasiano da Bisticci. Lives of Illustrious Men",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Cosimo de' Medici died in 1464, but the transition of full power to Lorenzo occurred gradually. By 1468\u20131469, Lorenzo had assumed primary leadership. The exact year of transition is somewhat ambiguous in sources.",
-      "cross_references": [
-        "1464-001 (Cosimo de' Medici's death)",
-        "1469-001 (Piero de' Medici's death)"
-      ]
-    },
-    {
-      "id": "1468-003",
-      "title": "Sonni Ali of Songhai defeats Timbuktu and consolidates Songhai Empire",
-      "region": "West Africa, Songhai Empire (modern Mali, Burkina Faso, Niger)",
-      "coordinates_approx": "16.8\u00b0N, 3.0\u00b0W",
+      "title": "Venetian-Ottoman War (Fourth Venetian-Ottoman War) continues",
+      "region": "Eastern Mediterranean / Balkans",
+      "coordinates_approx": "42.50, 19.50",
       "category": "military",
-      "description": "Sonni Ali (also known as Ali Ber), the ruler of the Songhai Empire, captured Timbuktu from the Tuareg in 1468 and consolidated Songhai's control over the Niger River valley. This conquest marked the beginning of Songhai's rise as the dominant power in West Africa, replacing the declining Mali Empire. Sonni Ali's military campaigns expanded Songhai's territory and wealth, based on control of trans-Saharan trade routes. His reign (1464\u20131492) transformed Songhai into one of the largest and most powerful African empires of the era.",
+      "description": "The Fourth Venetian-Ottoman War (1463\u20131479) continued in 1468, with the Ottoman Empire making steady territorial gains against Venice. In 1468, the Ottomans were consolidating their control over the Balkans and the Aegean, while Venice was losing territory and influence. The war was economically devastating for Venice and contributed to the shift in Mediterranean power from Venice to the Ottoman Empire. By 1468, it was becoming clear that Venice would not be able to reverse Ottoman expansion.",
       "key_figures": [
-        "Sonni Ali (Songhai ruler)",
-        "Tuareg leaders (defeated)",
-        "Askia Muhammad (successor, not yet in power)"
-      ],
-      "sources": [
-        {
-          "name": "Tarikh al-Sudan (History of Sudan) by al-Sadi, written 17th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Tarikh al-Fattash by Mahmud Kati, written 16th\u201317th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Arab geographers and traders' accounts (Ibn Battuta, al-Idrisi, etc.)",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Sonni Ali's conquest of Timbuktu is attested in later Arabic chronicles written in the 16th\u201317th centuries. The date 1468 is conventional; exact dating is uncertain due to the reliance on oral traditions and later compilations. The event is historically significant but the precise year should be treated as approximate (\u00b12\u20133 years).",
-      "cross_references": [
-        "1492-003 (Sonni Ali's death and succession)"
-      ]
-    },
-    {
-      "id": "1468-004",
-      "title": "Portuguese explorers reach Cape Verde",
-      "region": "West Africa, Cape Verde Islands",
-      "coordinates_approx": "16.7\u00b0N, 23.6\u00b0W",
-      "category": "exploration",
-      "description": "Portuguese explorers, continuing Prince Henry the Navigator's maritime program, reached and began to settle the Cape Verde Islands off the coast of West Africa. The islands were uninhabited and became a Portuguese colony, serving as a way station for ships traveling to and from Africa and later the Americas. The settlement of Cape Verde marked another step in Portugal's systematic exploration and colonization of the Atlantic.",
-      "key_figures": [
-        "Prince Henry the Navigator (Portuguese royal patron)",
-        "Diogo Gomes (explorer, attributed with discovery)",
-        "Ant\u00f3nio da Noli (explorer, attributed with discovery)"
-      ],
-      "sources": [
-        {
-          "name": "Gomes Eanes de Zurara. Cr\u00f3nica da Guin\u00e9",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Portuguese royal archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Cape Verde settlements",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Portuguese discovery and settlement of Cape Verde is traditionally dated to 1460\u20131462, but sustained settlement and colonization efforts continued through the 1460s\u20131470s. The date 1468 represents the consolidation of Portuguese control.",
-      "cross_references": [
-        "1460-001 (Initial discovery of Cape Verde)"
-      ]
-    },
-    {
-      "id": "1468-005",
-      "title": "Matthias Corvinus of Hungary defeats Ottoman forces at Vaslui",
-      "region": "Wallachia and Hungary, Eastern Europe",
-      "coordinates_approx": "46.6\u00b0N, 27.7\u00b0E",
-      "category": "military",
-      "description": "King Matthias Corvinus of Hungary led a military campaign against Ottoman expansion in the Balkans, achieving a notable victory at Vaslui (in modern-day Romania) in 1468. This victory temporarily halted Ottoman advances into Hungary and Wallachia, though it did not reverse Ottoman territorial gains. Matthias Corvinus was one of the most capable military leaders of the era and used his victories to strengthen Hungary's position as a regional power.",
-      "key_figures": [
-        "Matthias Corvinus (King of Hungary)",
         "Mehmed II (Ottoman Sultan)",
-        "Stephen the Great (Moldavian ally)"
+        "Doge Cristoforo Moro (Venice, r. 1462\u20131471)"
       ],
       "sources": [
         {
-          "name": "Hungarian royal chronicles and court records",
+          "name": "Venetian state papers and diplomatic correspondence (Archivio di Stato, Venice)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ottoman court records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Venetian diplomatic correspondence",
+          "name": "Ottoman court records (Topkapi Palace archives)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Vaslui and Matthias Corvinus's military campaigns are well-documented in Hungarian, Ottoman, and Venetian sources. The date 1468 is secure.",
+      "certainty_note": "The Fourth Venetian-Ottoman War (1463\u20131479) is well-documented in both Venetian and Ottoman sources. 1468 falls clearly within the conflict period.",
       "cross_references": [
-        "1456-001 (Matthias Corvinus becomes king)",
-        "1479-001 (Peace treaty between Hungary and Ottoman Empire)"
+        "1463-001: Start of Fourth Venetian-Ottoman War",
+        "1470-005: Ottoman capture of Negroponte",
+        "1479-001: Treaty of Constantinople"
+      ]
+    },
+    {
+      "id": "1468-003",
+      "title": "Portuguese exploration of the African coast",
+      "region": "West Africa / Atlantic",
+      "coordinates_approx": "5.00, -5.00",
+      "category": "exploration",
+      "description": "In 1468, Portuguese explorers and merchants continued their systematic exploration and trade expansion along the West African coast. The Portuguese were establishing trading posts and forts to facilitate trade in gold, ivory, and other goods. By 1468, the Portuguese had a well-established network of coastal settlements and were beginning to explore further south along the African coast. This expansion was driven by the desire to find a sea route to Asia and to access African trade goods directly.",
+      "key_figures": [
+        "King Afonso V of Portugal (r. 1438\u20131481)",
+        "Portuguese sea captains and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal documents and trading records (Arquivo Nacional da Torre do Tombo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cr\u00f3nica da Guin\u00e9 by Gomes Eanes de Zurara",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese exploration and trade expansion along the African coast is well-documented, though specific dates for individual voyages are sometimes approximate. The general trajectory is confirmed.",
+      "cross_references": [
+        "1415-001: Portuguese conquest of Ceuta",
+        "1470-002: Portuguese exploration continues"
+      ]
+    },
+    {
+      "id": "1468-004",
+      "title": "Ming Dynasty under Chenghua Emperor",
+      "region": "China",
+      "coordinates_approx": "31.23, 121.47",
+      "category": "political",
+      "description": "In 1468, the Ming Dynasty under Emperor Zhu Jianshen (r. 1464\u20131487) continued to consolidate its control over China. The Ming faced threats from Mongol incursions from the north and were gradually shifting resources from naval exploration to land-based defense. By 1468, the era of Zheng He's great treasure voyages (1405\u20131433) was long past, and the Ming were increasingly focused on maintaining control of their land borders. This shift represented a critical juncture in world history: while Europe was beginning its age of oceanic exploration, China was withdrawing from the seas.",
+      "key_figures": [
+        "Zhu Jianshen / Chenghua Emperor (r. 1464\u20131487)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Ming consolidation and naval retrenchment is well-documented. Specific events in 1468 are less clearly attested, but the broader context is secure.",
+      "cross_references": [
+        "1405-001: First Zheng He voyage",
+        "1433-001: Final Zheng He voyage"
+      ]
+    },
+    {
+      "id": "1468-005",
+      "title": "Italian Renaissance: Patronage and artistic development",
+      "region": "Italy",
+      "coordinates_approx": "43.77, 11.25",
+      "category": "cultural",
+      "description": "In 1468, the Italian Renaissance was in full flourish, with major artistic and intellectual developments occurring in Florence, Rome, Venice, and other Italian city-states. Patronage by wealthy families such as the Medici, the Sforza, and the Este families supported the work of artists, architects, and scholars. In 1468, major artistic projects were underway, including the construction and decoration of churches, palaces, and public buildings. The Renaissance represented a revival of classical learning and a new emphasis on humanism, perspective in art, and the study of ancient texts.",
+      "key_figures": [
+        "Lorenzo de' Medici (r. 1469\u20131492, but his rise to power was beginning in 1468)",
+        "Pope Paul II (r. 1464\u20131471)",
+        "Various Italian artists and architects"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary chronicles and letters by Italian humanists and artists",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Giorgio Vasari, Lives of the Artists (written 16th century, but based on earlier records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archival records from Italian city-states (Florence, Venice, Rome, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Italian Renaissance is well-documented through contemporary chronicles, letters, and archival records. However, the specific significance of 1468 is less clear; the Renaissance was a gradual process rather than a series of discrete events. The year 1468 is representative of the broader period rather than marking a specific turning point.",
+      "cross_references": [
+        "1469-001: Lorenzo de' Medici becomes de facto ruler of Florence",
+        "1492-001: Death of Lorenzo de' Medici"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Skanderbeg's resistance is sometimes romanticized in nationalist historiography as a major obstacle to Ottoman expansion. However, modern scholarship suggests that Ottoman resources and military organization were so superior that Skanderbeg's resistance, while militarily impressive, had limited strategic impact on the broader Ottoman conquest of the Balkans. The Ottoman Empire would have consolidated the region regardless of Skanderbeg's efforts, though perhaps with a longer timeline. Additionally, the date of Cosimo de' Medici's death (1464) and the transition of power to Lorenzo is sometimes conflated; Lorenzo did not assume full leadership until after his father Piero's death in 1469.",
-  "historiographic_note": "European events in 1468 are well-documented through archival sources, diplomatic correspondence, and near-contemporary chronicles. African history relies heavily on later Arabic chronicles (16th\u201317th centuries) that recorded oral traditions, introducing significant dating uncertainty. Ottoman sources are reliable for military and administrative matters but less detailed on cultural and economic history. The historical record is heavily weighted toward elite political and military events; the lives of ordinary people, women, and non-elite actors are largely invisible.",
+  "disconfirming_evidence": "The dating of Sonni Ali's conquest of Timbuktu is uncertain. While 1468 is often cited, some sources place it in 1469 or nearby years. The exact date cannot be definitively established from the available sources. Additionally, the significance of the Italian Renaissance in 1468 is somewhat overstated in this entry. The Renaissance was a gradual process spanning centuries, not a series of discrete events. 1468 is representative of the period but does not mark a specific turning point or major event.",
+  "historiographic_note": "The historical record for 1468 is rich for Europe and the Ottoman Empire, with abundant documentary sources. For West Africa, information comes primarily from later Islamic chronicles (Tarikh al-Sudan, Tarikh al-Fattash) written in the 16th\u201317th centuries, introducing significant temporal distance and potential bias. For the Americas, no written records exist from this period. For Southeast Asia and the Pacific, documentation is minimal. The surviving sources reflect the concerns of literate elites and likely underrepresent the experiences of common people, women, and non-literate societies.",
   "graph_edges": [
     {
       "from": "1468-001",
-      "to": "1478-001",
-      "relation": "led_to",
-      "note": "Skanderbeg's death removed the primary obstacle to Ottoman consolidation in Albania."
+      "to": "1464-001",
+      "relation": "part_of",
+      "note": "Sonni Ali's conquest of Timbuktu was part of his broader campaign to expand Songhai power (r. 1464\u20131492)"
     },
     {
-      "from": "1468-003",
-      "to": "1492-003",
+      "from": "1468-001",
+      "to": "1492-001",
       "relation": "led_to",
-      "note": "Sonni Ali's consolidation of Songhai power led to the empire's dominance in West Africa until his death in 1492."
+      "note": "The conquest of Timbuktu in 1468 established Songhai dominance in the Sahel, which lasted until Sonni Ali's death in 1492"
+    },
+    {
+      "from": "1468-002",
+      "to": "1463-001",
+      "relation": "part_of",
+      "note": "The Fourth Venetian-Ottoman War (1463\u20131479) was ongoing in 1468"
     },
     {
       "from": "1468-005",
-      "to": "1479-001",
-      "relation": "led_to",
-      "note": "Matthias Corvinus's military victories against the Ottomans eventually led to a peace treaty in 1479."
+      "to": "1469-001",
+      "relation": "contemporary_with",
+      "note": "The Italian Renaissance was ongoing during the same period as the marriage of Isabella and Ferdinand"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:47:59.038517",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

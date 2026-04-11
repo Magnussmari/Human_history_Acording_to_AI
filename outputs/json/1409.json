@@ -1,191 +1,202 @@
 {
   "year": 1409,
   "year_label": "1409 CE",
-  "era_context": "The early 15th century spans the late medieval period in Europe, the Ming Dynasty's consolidation in China, the Ottoman Empire's expansion in the Balkans and Anatolia, and the Zheng He treasure voyages in the Indian Ocean. In Europe, the Great Schism in the Catholic Church is being addressed at the Council of Pisa; the Hundred Years' War continues between England and France; and the Portuguese Age of Exploration is beginning. In Africa, the Mali Empire has fragmented, and the Songhai Empire is rising. In the Americas, the Aztec Empire under Montezuma I is expanding, and the Inca Empire is consolidating power under Pachacuti's successors.",
+  "era_context": "The early 15th century saw the Ming Dynasty consolidating power under the Yongle Emperor, the Ottoman Empire expanding in the Balkans, the Great Schism in the Western Church reaching a critical point, and the Hussite movement building momentum in Bohemia. The Zheng He treasure voyages were in their early phases. In the Americas, the Aztec Empire was consolidating power, and the Inca Empire was expanding.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited European documentation; oral traditions and later compilations dominate)",
-    "Southeast Asia and the Pacific (sparse European records; Chinese sources exist but may be underrepresented)",
-    "Indigenous Americas (reliance on post-conquest Spanish accounts and archaeological inference)"
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asia (fragmentary records)",
+    "Pacific Islands (no written records)",
+    "Central Asia (limited documentation)"
   ],
   "events": [
     {
       "id": "1409-001",
       "title": "Council of Pisa convenes to resolve the Great Schism",
-      "region": "Papal States / Italy",
-      "coordinates_approx": "43.7167, 11.2500",
+      "region": "Pisa, Republic of Pisa (modern Italy)",
+      "coordinates_approx": "43.7\u00b0N, 10.4\u00b0E",
       "category": "religious",
-      "description": "The Council of Pisa opens on 25 March 1409, convened to end the Western Schism in the Catholic Church, which had divided papal allegiance between Rome and Avignon since 1378. Bishops and cardinals from across Christendom gather to address the crisis of competing papal claimants. The council deposes both Pope Gregory XII (Rome) and Antipope Benedict XIII (Avignon) and elects Alexander V as a compromise candidate. However, the two deposed claimants refuse to acknowledge the council's authority, temporarily creating three papal claimants instead of two, deepening the crisis before eventual resolution at Constance (1414\u20131418).",
+      "description": "The Council of Pisa (1409\u20131410) convened in March 1409 to address the Great Schism, which had divided the Western Church since 1378. The council attempted to resolve the crisis by deposing both papal claimants (Gregory XII in Rome and Benedict XIII in Avignon) and electing a new pope, Alexander V. However, the council's actions were not universally accepted, and the schism effectively continued with three papal claimants. The council represented a significant attempt at ecclesiastical reform and conciliar authority.",
       "key_figures": [
-        "Pope Gregory XII (deposed claimant)",
-        "Antipope Benedict XIII (deposed claimant)",
-        "Pope Alexander V (elected compromise candidate)",
+        "Pope Gregory XII (Roman claimant, deposed)",
+        "Pope Benedict XIII (Avignon claimant, deposed)",
+        "Alexander V (newly elected pope)",
         "Cardinal Baldassare Cossa (later Pope John XXIII)"
       ],
       "sources": [
         {
-          "name": "Dietrich of Niem, De Schismate (contemporary chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Gesta Concilii Pisani (Council records)",
+          "name": "Council of Pisa records and decrees",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on the Council of Pisa",
-          "type": "historiographic_consensus",
+          "name": "Papal bulls and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles (Monstrelet, Froissart)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Council of Pisa is well-documented in contemporary chronicles and official council records. The date of 25 March 1409 is firmly established.",
+      "certainty_note": "The Council of Pisa convened in March 1409; the date is well-established in multiple contemporary sources.",
       "cross_references": [
-        "Follows from 1378 (beginning of Great Schism)",
-        "Leads to 1414-001 (Council of Constance)"
+        "1378-001 (Great Schism begins)",
+        "1410-003 (Schism continuation)",
+        "1414-001 (Council of Constance begins)"
       ]
     },
     {
       "id": "1409-002",
-      "title": "Zheng He's treasure fleet departs on its second voyage",
-      "region": "Ming China / Indian Ocean",
-      "coordinates_approx": "22.3193, 114.1694",
+      "title": "Zheng He's Second Treasure Voyage departs from China",
+      "region": "Ming China, Indian Ocean",
+      "coordinates_approx": "22.3\u00b0N, 114.2\u00b0E",
       "category": "exploration",
-      "description": "Admiral Zheng He (\u912d\u548c), commanding a massive treasure fleet of over 300 ships and 27,000 men, departs from Nanjing in late 1409 on the second of his seven great voyages. The fleet carries diplomatic gifts, trade goods, and military personnel, sailing to Southeast Asia, the Indian Ocean, East Africa, and the Arabian Peninsula. These voyages represent the peak of Ming naval power and exploration, establishing tributary relationships and demonstrating Chinese maritime supremacy. The voyages cease after 1433, following a shift in imperial policy toward land-based defense and Confucian orthodoxy's skepticism of maritime commerce.",
+      "description": "Admiral Zheng He, commanding a massive fleet, departed on his second major voyage of exploration in 1409 (some sources date this to 1407). The expedition sailed to Southeast Asia, India, the Arabian Peninsula, and East Africa, establishing tributary relationships and demonstrating Ming naval supremacy. The voyage lasted approximately three years and returned in 1410.",
       "key_figures": [
-        "Zheng He (Admiral, Muslim eunuch)",
-        "Emperor Yongle (Ming Dynasty patron)",
-        "Wang Jinghong (fleet official)"
+        "Zheng He (Admiral)",
+        "Yongle Emperor (Ming Emperor, sponsor)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Ming Veritable Records)",
-          "type": "primary_text",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Luo Maodeng, Longjiang Baochuan (later compilation, 16th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from shipwrecks and port sites",
-          "type": "archaeological",
+          "name": "Ma Huan, Ying-yai Sheng-lan",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Zheng He's voyages are well-documented in Ming imperial records. The second voyage's departure date is established as late 1409 or early 1410 in contemporary sources.",
+      "certainty": "probable",
+      "certainty_note": "The departure date of the second voyage is disputed; some sources place it in 1407, others in 1409. Dating is uncertain by \u00b12 years.",
       "cross_references": [
-        "Part of broader Ming maritime expansion (1405\u20131433)",
-        "Contemporary with Portuguese exploration (1409 onwards)"
+        "1405-001 (First Treasure Voyage)",
+        "1410-002 (Second Treasure Voyage returns)",
+        "1411-001 (Third Treasure Voyage departs)"
       ]
     },
     {
       "id": "1409-003",
-      "title": "Battle of Agincourt preparations and English military mobilization",
-      "region": "England / France",
-      "coordinates_approx": "50.4667, 2.1333",
-      "category": "military",
-      "description": "Following the assassination of Louis, Duke of Orl\u00e9ans in 1407, factional conflict between Burgundians and Armagnacs intensifies in France. In England, King Henry V consolidates power and begins military preparations for a renewed invasion of France, claiming the French throne. The English mobilize armies, secure alliances with Burgundy, and prepare for the campaign that will culminate in the Battle of Agincourt in October 1415. These preparations represent a major escalation in the Hundred Years' War and signal Henry V's aggressive foreign policy.",
+      "title": "Jan Hus becomes rector of Charles University in Prague",
+      "region": "Bohemia (Prague)",
+      "coordinates_approx": "50.1\u00b0N, 14.4\u00b0E",
+      "category": "religious",
+      "description": "Jan Hus, the Bohemian religious reformer, became rector of Charles University in Prague in 1409. This position gave him significant influence over the university and the Hussite movement, which was gaining momentum in Bohemia. Hus's teachings emphasized church reform, Czech national identity, and the authority of scripture, challenging papal authority and ecclesiastical corruption. His prominence at the university helped spread reformist ideas throughout Bohemia.",
       "key_figures": [
-        "King Henry V of England",
-        "Duke of Burgundy (John the Fearless)",
-        "Armagnac faction leaders"
+        "Jan Hus (Rector of Charles University, reformer)",
+        "Wenceslaus IV (King of Bohemia)"
       ],
       "sources": [
         {
-          "name": "Froissart, Chronicles (near-contemporary, compiled earlier but updated)",
+          "name": "Contemporary Bohemian chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "English royal records and parliamentary rolls",
+          "name": "University of Prague records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Henry V's reign",
-          "type": "historiographic_consensus",
+          "name": "Laurence of B\u0159ezov\u00e1, Chronicle of the Hussites",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general timeline of Henry V's military preparations is well-established. Specific events in 1409 are inferred from broader political context rather than single-year documentation.",
+      "certainty": "confirmed",
+      "certainty_note": "Hus's appointment as rector in 1409 is well-documented in university records and contemporary chronicles.",
       "cross_references": [
-        "Follows from 1407-001 (assassination of Louis of Orl\u00e9ans)",
-        "Leads to 1415-001 (Battle of Agincourt)"
+        "1411-004 (Hussite tensions escalate)",
+        "1415-001 (Jan Hus executed)"
       ]
     },
     {
       "id": "1409-004",
-      "title": "Portuguese exploration of the African coast accelerates",
-      "region": "Portugal / West Africa",
-      "coordinates_approx": "37.0000, -8.0000",
-      "category": "exploration",
-      "description": "Under the patronage of Prince Henry the Navigator, Portuguese expeditions continue to explore and map the West African coast. By 1409, Portuguese ships have established trading posts and forts along the Moroccan and Mauritanian coasts, seeking gold, spices, and enslaved people. These early voyages lay the groundwork for the Portuguese Age of Exploration and the eventual rounding of the Cape of Good Hope. The expeditions are motivated by economic gain, religious conversion, and geographic curiosity, and they mark the beginning of European colonial expansion in Africa.",
+      "title": "Ottoman Empire consolidates Balkan territories",
+      "region": "Ottoman Empire (Balkans)",
+      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
+      "category": "political",
+      "description": "In 1409, the Ottoman Empire under Mehmed I (r. 1413\u20131421) was not yet in power; the empire was under Musa II (r. 1421\u20131422) or in a period of transition. However, the Ottoman Empire was consolidating its control over the Balkans during this period, expanding its territorial holdings and establishing administrative structures. The empire was in a phase of consolidation and preparation for further expansion.",
       "key_figures": [
-        "Prince Henry the Navigator (Portuguese patron)",
-        "Portuguese sea captains and navigators"
+        "Mehmed I (Ottoman Sultan, r. 1413\u20131421)"
       ],
       "sources": [
         {
-          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery and Conquest of Guinea (15th-century compilation)",
-          "type": "later_compilation",
+          "name": "Ottoman chronicles and records",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Portuguese royal records and trading post documentation",
+          "name": "Byzantine and Venetian sources",
           "type": "primary_text",
           "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ottoman succession and specific events in 1409 are not clearly documented; this entry reflects the broader context of Ottoman expansion during this period.",
+      "cross_references": [
+        "1413-001 (Mehmed I becomes Ottoman Sultan)"
+      ]
+    },
+    {
+      "id": "1409-005",
+      "title": "Aztec Empire under Itzcoatl consolidates power",
+      "region": "Aztec Empire (modern Mexico)",
+      "coordinates_approx": "19.4\u00b0N, 99.1\u00b0W",
+      "category": "political",
+      "description": "The Aztec Empire under Itzcoatl (r. 1427\u20131440) was not yet in power in 1409; the empire was under Chimalpopoca (r. 1417\u20131427). However, by 1409, the Mexica were emerging as a major power in the Valley of Mexico. The empire was expanding militarily and establishing tributary relationships with neighboring city-states.",
+      "key_figures": [
+        "Chimalpopoca (Aztec Emperor, r. 1417\u20131427)"
+      ],
+      "sources": [
+        {
+          "name": "Codex Mendoza",
+          "type": "primary_text",
+          "contemporary": false
         },
         {
-          "name": "Archaeological evidence from Portuguese forts in West Africa",
-          "type": "archaeological",
+          "name": "Sahag\u00fan, Florentine Codex",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Portuguese exploration of the African coast is well-documented, but specific events in 1409 are less precisely dated. The general trajectory of exploration is confirmed; individual voyage dates may be approximate.",
+      "certainty": "approximate",
+      "certainty_note": "Specific events for 1409 in Aztec history are not well-documented in surviving sources. This entry reflects the broader context of Aztec expansion during this period.",
       "cross_references": [
-        "Part of broader Portuguese Age of Exploration (1415\u20131500s)",
-        "Contemporary with Zheng He's voyages (1405\u20131433)"
+        "1427-001 (Itzcoatl becomes emperor)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Council of Pisa is sometimes portrayed as a decisive resolution to the Great Schism, but modern scholarship emphasizes that it actually worsened the crisis by creating three papal claimants instead of two. The council's authority was disputed, and its elected pope (Alexander V) was not universally recognized. The schism was not truly resolved until the Council of Constance (1414\u20131418). Additionally, the significance of Zheng He's voyages has been subject to historiographic debate: some scholars argue they were primarily diplomatic and tributary missions rather than voyages of discovery or trade expansion, and their cessation after 1433 reflects deliberate imperial policy rather than decline. The 'Age of Exploration' framing applied to Portuguese activities in 1409 is somewhat anachronistic; these were primarily trading and raiding expeditions, not systematic exploration in the later sense.",
-  "historiographic_note": "Documentation for 1409 is uneven. European events (Council of Pisa, English-French conflict) are well-recorded in contemporary chronicles and official records, with a bias toward Western institutional history. Chinese sources (Ming Shilu) provide detailed records of Zheng He's voyages, though these reflect imperial court perspectives. African and indigenous American history relies heavily on later European accounts, oral traditions, and archaeology, introducing significant gaps and potential biases. The 'Age of Exploration' narrative itself reflects a Eurocentric historiographic tradition that privileges European agency and discovery over non-European maritime activity (such as Zheng He's voyages, which were arguably more extensive but are often marginalized in Western historical accounts).",
+  "disconfirming_evidence": "The dating of Zheng He's second voyage is disputed; some sources place the departure in 1407, others in 1409. The significance of 1409 as a departure date versus 1407 is not definitively established in modern scholarship. The entry on Ottoman consolidation is speculative; no major events are specifically documented for 1409 in Ottoman history. The entry on Aztec expansion reflects broader trends rather than documented incidents for this specific year. Jan Hus's appointment as rector in 1409 is confirmed, but the significance of this event in relation to the broader Hussite movement is sometimes overstated; the movement was already gaining momentum before his appointment.",
+  "historiographic_note": "Documentation for 1409 is moderate but uneven. European events (the Council of Pisa, Jan Hus's appointment) are well-recorded in contemporary sources. Chinese records are rich and contemporary, though the dating of Zheng He's voyages is disputed. Mesoamerican and South American history relies on post-conquest sources, introducing significant interpretive challenges and chronological uncertainty. The surviving sources are heavily weighted toward elite political and religious events; economic, social, and cultural history is underrepresented. Sub-Saharan Africa, Southeast Asia, and the Pacific are largely absent from surviving written records. The Council of Pisa is well-documented, but its failure to resolve the schism is sometimes presented as a more decisive failure than it was; the council did achieve some consolidation of ecclesiastical authority, even if the schism formally continued.",
   "graph_edges": [
+    {
+      "from": "1409-001",
+      "to": "1378-001",
+      "relation": "part_of",
+      "note": "Council of Pisa was an attempt to resolve the Great Schism that began in 1378"
+    },
     {
       "from": "1409-001",
       "to": "1414-001",
       "relation": "led_to",
-      "note": "Council of Pisa's failure to resolve the schism led directly to the convening of the Council of Constance"
-    },
-    {
-      "from": "1409-002",
-      "to": "1433-001",
-      "relation": "part_of",
-      "note": "Second voyage is part of Zheng He's broader series of treasure voyages (1405\u20131433)"
+      "note": "Council of Pisa's failure to fully resolve the schism led to the Council of Constance"
     },
     {
       "from": "1409-003",
       "to": "1415-001",
       "relation": "led_to",
-      "note": "English military preparations in 1409 culminated in the Battle of Agincourt in 1415"
+      "note": "Jan Hus's prominence at Charles University led to his trial and execution"
     },
     {
-      "from": "1409-004",
-      "to": "1500-001",
+      "from": "1409-002",
+      "to": "1405-001",
       "relation": "part_of",
-      "note": "Portuguese exploration in 1409 is part of the broader Age of Exploration (15th\u201317th centuries)"
+      "note": "Second Treasure Voyage in the series of Zheng He's expeditions"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:09:42.564572",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

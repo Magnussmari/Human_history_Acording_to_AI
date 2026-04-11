@@ -1,205 +1,323 @@
 {
   "year": 1481,
   "year_label": "1481 CE",
-  "era_context": "Late 15th century: The Italian Renaissance is flourishing; the Ottoman Empire is consolidating power; the Iberian Reconquista is in its final phase; the Ming Dynasty in China is stable; the Aztec Empire is expanding; European maritime exploration is accelerating.",
+  "era_context": "The late 15th century marks the final consolidation of European nation-states, the height of the Italian Renaissance, the Ottoman expansion in the Mediterranean and Balkans, the Ming Dynasty's stable rule in China, and the eve of European global exploration. In Iberia, the Catholic Monarchs are completing the Reconquista; in Africa, Portuguese trading posts are expanding; in the Americas, the Aztec and Inca empires remain at their territorial zenith.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan African interior (limited contemporary documentation)",
-    "Southeast Asian polities (sparse European sources)",
-    "Pacific Islander societies (no contemporary written record)"
+    "Sub-Saharan Africa beyond Portuguese coastal contacts",
+    "Interior Southeast Asia and the Pacific Islands",
+    "Northern Eurasia and Siberia"
   ],
   "events": [
     {
       "id": "1481-001",
-      "title": "Tizoc ascends to Aztec throne",
-      "region": "Mesoamerica / Aztec Empire",
-      "coordinates_approx": "19.4326, -99.1332",
-      "category": "political",
-      "description": "Tizoc ascends to the throne of the Aztec Empire in 1481, becoming the eighth Aztec emperor (r. 1481\u20131486). Tizoc succeeded his brother Axayacatl and was himself succeeded by his brother Ahuitzotl. Tizoc's ascension marked a transition in Aztec leadership, though his reign is less celebrated in Aztec tradition than those of his predecessors and successors. Tizoc's reign was characterized by military consolidation and the maintenance of tribute networks, though his campaigns were less aggressive than those of Axayacatl or Ahuitzotl. Tizoc's reign maintained the stability of the empire during a period of transition.",
+      "title": "Ottoman Conquest of Otranto and Withdrawal from Southern Italy",
+      "region": "Ottoman Empire, Kingdom of Naples, Southern Italy",
+      "coordinates_approx": "40.15, 18.49",
+      "category": "military",
+      "description": "Ottoman forces under Mehmed II captured the Italian port city of Otranto in 1480 and held it through 1481. The occupation represented the furthest Ottoman penetration into Western Europe and caused panic in Christian Europe. Following Mehmed's death in May 1481 and internal Ottoman succession disputes, the new Sultan Bayezid II negotiated a peace treaty with Naples in April 1481, withdrawing Ottoman forces from Otranto. The brief occupation demonstrated Ottoman naval power and European vulnerability, but the withdrawal marked a strategic Ottoman pivot toward consolidating Anatolian and Balkan holdings rather than further Mediterranean expansion.",
       "key_figures": [
-        "Tizoc (newly ascended Aztec emperor)",
-        "Axayacatl (previous emperor, deceased)"
+        "Mehmed II (Ottoman Sultan, died May 1481)",
+        "Bayezid II (Ottoman Sultan, r. 1481\u20131512)",
+        "Ferdinand I of Naples (King of Naples)"
       ],
       "sources": [
         {
-          "name": "Codex Mendoza (16th-century Aztec pictorial record)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Ottoman chronicles (Tursun Beg, Osman Aga); Venetian and Neapolitan diplomatic records",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Sahag\u00fan, Florentine Codex (16th-century ethnographic record)",
-          "type": "later_compilation",
+          "name": "Historiographic consensus in Ottoman and Mediterranean studies",
+          "type": "historiographic_consensus",
           "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The withdrawal and peace treaty are well-documented in Ottoman, Venetian, and Neapolitan sources from 1481.",
+      "cross_references": [
+        "1480-001 (Ottoman capture of Otranto)",
+        "1481-002 (Ottoman succession crisis)"
+      ]
+    },
+    {
+      "id": "1481-002",
+      "title": "Ottoman Succession Crisis and Consolidation of Bayezid II",
+      "region": "Ottoman Empire, Anatolia, Balkans",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "political",
+      "description": "Following the death of Mehmed II on 3 May 1481, the Ottoman succession was contested between his sons Bayezid II and Cem (Djem). Bayezid II, supported by the Janissaries and the vizierial establishment, secured the throne and consolidated power through 1481. Cem fled to the Mamluk Sultanate and later to the Knights Hospitaller, becoming a pawn in European-Ottoman diplomacy for years. Bayezid II's consolidation marked a shift from aggressive conquest toward administrative stability and economic development, though the threat of Cem's return remained a destabilizing factor in Ottoman politics.",
+      "key_figures": [
+        "Bayezid II (Ottoman Sultan, r. 1481\u20131512)",
+        "Cem Sultan (Mehmed II's son, claimant)",
+        "Grand Vizier Karamani Mehmed Pasha"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Tursun Beg, Osman Aga); Venetian diplomatic correspondence",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Aztec chronology",
+          "name": "Historiographic consensus on Ottoman succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The succession and Bayezid II's consolidation are well-attested in contemporary Ottoman and Venetian sources.",
+      "cross_references": [
+        "1481-001 (Ottoman withdrawal from Otranto)",
+        "1482-001 (Cem's refuge with the Knights Hospitaller)"
+      ]
+    },
+    {
+      "id": "1481-003",
+      "title": "Portuguese Expansion: Establishment of S\u00e3o Jorge da Mina (Elmina Castle)",
+      "region": "West Africa, Gold Coast (modern Ghana)",
+      "coordinates_approx": "5.31, -3.21",
+      "category": "exploration",
+      "description": "Portuguese explorer Diogo de Azambuja, under the direction of King John II, established the fortress of S\u00e3o Jorge da Mina (Elmina Castle) on the Gold Coast in 1481. This was the first permanent European fortified trading post in sub-Saharan Africa and represented a major escalation in Portuguese commercial and colonial ambitions. The castle served as a hub for the gold trade and later the slave trade, fundamentally altering the economic and political dynamics of the West African coast. The establishment of Elmina marked the beginning of sustained European presence in sub-Saharan Africa and the intensification of the Atlantic slave trade.",
+      "key_figures": [
+        "Diogo de Azambuja (Portuguese explorer and commander)",
+        "King John II of Portugal (r. 1481\u20131495)",
+        "Local Akan rulers (negotiating partners)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal chronicles and Azambuja's reports; Gomes Eanes de Zurara, Cr\u00f3nica da Guin\u00e9",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Elmina Castle excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding of Elmina in 1481 is well-documented in Portuguese royal records and confirmed by archaeological evidence.",
+      "cross_references": [
+        "1482-002 (Further Portuguese expansion in West Africa)",
+        "1500-001 (Portuguese arrival in Brazil)"
+      ]
+    },
+    {
+      "id": "1481-004",
+      "title": "Accession of John II of Portugal; Consolidation of Royal Authority",
+      "region": "Kingdom of Portugal",
+      "coordinates_approx": "39.5, -8.0",
+      "category": "political",
+      "description": "John II ascended to the Portuguese throne on 28 November 1481 following the death of his father, Afonso V. John II, known as 'the Perfect King,' immediately moved to consolidate royal authority by suppressing the power of the nobility, particularly the Duke of Braganza and other great lords who had accumulated excessive influence during his father's reign. He executed or exiled numerous nobles, reasserted royal control over the judiciary and military, and redirected state resources toward maritime exploration and trade expansion. His reign marked a turning point in Portuguese history, establishing the crown as the dominant force in Portuguese society and enabling the sustained investment in African exploration and the eventual voyage of Vasco da Gama.",
+      "key_figures": [
+        "John II of Portugal (r. 1481\u20131495)",
+        "Afonso V of Portugal (previous king, d. 1481)",
+        "Duke of Braganza (executed 1483)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal chronicles; Rui de Pina, Cr\u00f3nica de El-Rei D. Jo\u00e3o II",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Portuguese political consolidation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "John II's accession and early consolidation are well-documented in Portuguese royal records.",
+      "cross_references": [
+        "1481-003 (Elmina Castle establishment under John II)",
+        "1483-001 (Execution of Duke of Braganza)"
+      ]
+    },
+    {
+      "id": "1481-005",
+      "title": "Zheng He's Treasure Fleet Voyages: Continuation of Ming Maritime Expansion",
+      "region": "Ming China, Indian Ocean, East Africa",
+      "coordinates_approx": "22.3, 114.2",
+      "category": "exploration",
+      "description": "Admiral Zheng He's treasure fleet voyages, which began in 1405, continued through the early 1480s as part of the Ming Dynasty's demonstration of naval power and tributary diplomacy. By 1481, the voyages were in their final phase; the last voyage departed in 1433 and returned by 1435, but the legacy of these expeditions\u2014the largest maritime undertakings of the pre-modern world\u2014continued to shape Ming foreign relations and Indian Ocean trade networks. The voyages had established Chinese naval supremacy and brought tribute missions from across the Indian Ocean, though by 1481 the Ming court was beginning to shift resources away from maritime exploration toward land-based military concerns on the northern frontier.",
+      "key_figures": [
+        "Zheng He (Admiral, d. 1433, but legacy continued)",
+        "Emperor Yongle (r. 1402\u20131424, initiator of voyages)",
+        "Emperor Chenghua (r. 1464\u20131487, during whose reign maritime interest declined)"
+      ],
+      "sources": [
+        {
+          "name": "Ming imperial records; Zheng He's voyage records and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese chronicles and historiographic consensus",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Aztec chronology for this period relies on later indigenous codices and Spanish-era compilations. The date of Tizoc's ascension is approximate; the broader pattern of succession is confirmed by multiple sources.",
+      "certainty_note": "The voyages themselves ended by 1435, but their ongoing diplomatic and trade impact in 1481 is inferred from Ming records of tributary relations and trade.",
       "cross_references": [
-        "Follows from Axayacatl's reign (1469\u20131481)",
-        "Precedes Ahuitzotl's reign (1486\u20131502)"
+        "1405-001 (Zheng He's first voyage)",
+        "1435-001 (End of Zheng He's voyages)"
       ]
     },
     {
-      "id": "1481-002",
-      "title": "Spanish Inquisition intensifies under Ferdinand and Isabella",
-      "region": "Spain / Iberian Peninsula",
-      "coordinates_approx": "40.4168, -3.7038",
+      "id": "1481-006",
+      "title": "Spanish Inquisition: Intensification of Heresy Trials and Persecution",
+      "region": "Kingdom of Castile and Aragon, Iberia",
+      "coordinates_approx": "40.0, -3.5",
       "category": "religious",
-      "description": "The Spanish Inquisition, established in 1478 under the authority of Pope Sixtus IV and the Spanish monarchs Ferdinand and Isabella, intensifies its activities in 1481. In 1481, the Inquisition held its first auto-da-f\u00e9 (public execution) in Seville, marking the beginning of systematic persecution of heretics, Jews, and Muslims. The Inquisition's activities were part of the broader effort by Ferdinand and Isabella to consolidate Catholic orthodoxy in Spain and to complete the Reconquista. The intensification of the Inquisition in 1481 marked the beginning of a period of religious persecution that would last for centuries and would eventually lead to the expulsion of Jews from Spain in 1492.",
+      "description": "The Spanish Inquisition, established in 1478 by the Catholic Monarchs Ferdinand and Isabella, intensified its operations in 1481 with increased heresy trials, forced conversions, and executions. The first auto-da-f\u00e9 (public execution of heretics) in Seville occurred in 1481, marking the escalation of the Inquisition from an institutional framework to active persecution. The Inquisition targeted Jews, Muslims, and Christian heretics, with the goal of enforcing religious uniformity across the newly unified Spanish kingdoms. The persecution would culminate in the expulsion of Jews in 1492 and Muslims in the early 17th century, fundamentally reshaping Spanish society and economy.",
       "key_figures": [
-        "Ferdinand II of Aragon (Spanish king)",
-        "Isabella I of Castile (Spanish queen)",
-        "Tom\u00e1s de Torquemada (Inquisitor General)"
+        "Ferdinand II of Aragon (co-monarch)",
+        "Isabella I of Castile (co-monarch)",
+        "Tom\u00e1s de Torquemada (Inquisitor General, r. 1483\u20131498)"
       ],
       "sources": [
         {
-          "name": "Inquisition records and documents",
+          "name": "Spanish royal records; Inquisitorial documents and trial records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish royal archives",
-          "type": "archival",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary chronicles and later histories",
-          "type": "chronicle",
+          "name": "Historiographic consensus on the Spanish Inquisition",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Spanish Inquisition's establishment in 1478 and its intensification in 1481 are well-documented in Inquisition records and Spanish royal archives. The date of the first auto-da-f\u00e9 in Seville (1481) is confirmed by multiple sources.",
+      "certainty_note": "The intensification of Inquisitorial activity in 1481 is documented in Spanish royal records and Inquisitorial archives.",
       "cross_references": [
-        "Part of the Spanish Reconquista and religious consolidation",
-        "Led to the expulsion of Jews from Spain (1492)"
+        "1478-001 (Establishment of Spanish Inquisition)",
+        "1492-001 (Expulsion of Jews from Spain)"
       ]
     },
     {
-      "id": "1481-003",
-      "title": "Ottoman-Venetian War concludes with Treaty of Constantinople",
-      "region": "Eastern Mediterranean / Ottoman Empire",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "military",
-      "description": "The Ottoman-Venetian War (1477\u20131479), also known as the Fourth Venetian-Ottoman War, concludes with the Treaty of Constantinople in January 1479. However, the treaty's aftermath and the consolidation of Ottoman power continued into 1481. The war had resulted in Ottoman victories and the loss of Venetian territories in the Eastern Mediterranean. The treaty marked the end of Venetian naval dominance in the Eastern Mediterranean and the beginning of Ottoman hegemony. In 1481, the Ottoman Empire under Bayezid II was consolidating its power and expanding its control over the Eastern Mediterranean and the Balkans. The conclusion of the war with Venice allowed the Ottomans to focus on other military campaigns and territorial expansion.",
-      "key_figures": [
-        "Bayezid II (Ottoman Sultan, r. 1481\u20131512)",
-        "Mehmed II (previous Ottoman Sultan, d. 1481)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles and records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Venetian diplomatic records and archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Treaty of Constantinople (1479)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Treaty of Constantinople is dated to January 1479. The consolidation of Ottoman power under Bayezid II in 1481 is well-documented.",
-      "cross_references": [
-        "Follows from the Ottoman-Venetian War (1477\u20131479)",
-        "Part of Ottoman expansion in the Eastern Mediterranean"
-      ]
-    },
-    {
-      "id": "1481-004",
-      "title": "Mehmed II dies; Bayezid II ascends to Ottoman throne",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0082, 28.9784",
+      "id": "1481-007",
+      "title": "Inca Empire: Reign of Topa Inca Yupanqui; Continued Expansion",
+      "region": "Inca Empire, South America (modern Peru, Bolivia, Ecuador, Chile, Argentina)",
+      "coordinates_approx": "-12.0, -68.0",
       "category": "political",
-      "description": "Mehmed II, the Ottoman Sultan known as 'the Conqueror' for his conquest of Constantinople in 1453, dies on 3 May 1481. Mehmed II is succeeded by his son Bayezid II (r. 1481\u20131512). Bayezid II's ascension marked a transition in Ottoman leadership, though the empire's expansionist trajectory continued. Bayezid II's reign was characterized by consolidation of Ottoman power, the expansion of Ottoman control over the Eastern Mediterranean and the Balkans, and the development of Ottoman administrative and cultural institutions. The death of Mehmed II and the ascension of Bayezid II marked the end of an era of aggressive Ottoman expansion and the beginning of a period of consolidation and cultural flourishing.",
+      "description": "Topa Inca Yupanqui, the tenth Sapa Inca, ruled the Inca Empire from approximately 1471 to 1493. By 1481, he had consolidated control over vast territories and was continuing the expansion of the empire through military campaigns and administrative reorganization. His reign saw the construction of major infrastructure projects, including roads, administrative centers, and agricultural terraces. The empire reached its greatest territorial extent under his rule, stretching from modern-day Colombia to central Chile. However, the rapid expansion and centralization also created internal tensions and administrative challenges that would become apparent after his death.",
       "key_figures": [
-        "Mehmed II (deceased Ottoman Sultan)",
-        "Bayezid II (newly ascended Ottoman Sultan)"
+        "Topa Inca Yupanqui (Sapa Inca, r. ~1471\u20131493)",
+        "Pachacuti (previous Sapa Inca, d. ~1471)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles and records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Quipucamayoc (Inca record keepers); Spanish colonial chronicles (Garcilaso de la Vega, Cobo)",
+          "type": "oral_tradition",
+          "contemporary": false
         },
         {
-          "name": "Ottoman imperial archives",
-          "type": "archival",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Mehmed II's death date (3 May 1481) is precisely documented in Ottoman records. Bayezid II's ascension is confirmed by multiple sources.",
-      "cross_references": [
-        "Follows from Mehmed II's reign (1444\u20131481)",
-        "Precedes Bayezid II's reign (1481\u20131512)"
-      ]
-    },
-    {
-      "id": "1481-005",
-      "title": "Chenghua Emperor rules Ming Dynasty",
-      "region": "China",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "The Chenghua Emperor (r. 1464\u20131487) continues his reign over the Ming Dynasty in 1481. The Chenghua Emperor's reign is characterized by relative stability and cultural flourishing. In 1481, the Ming Dynasty was at the height of its power, with a strong bureaucracy, flourishing arts and literature, and extensive trade networks. The Chenghua Emperor's reign saw the continuation of the Great Wall's construction and maintenance, the consolidation of Ming control over China, and the development of Ming ceramics and porcelain.",
-      "key_figures": [
-        "Chenghua Emperor (Ming Dynasty, r. 1464\u20131487)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Dynasty imperial records and archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ming histories and official chronicles",
-          "type": "chronicle",
+          "name": "Archaeological evidence from Inca sites and infrastructure",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Chenghua Emperor's reign dates are certain.",
+      "certainty": "approximate",
+      "certainty_note": "Inca chronology is uncertain; dates are reconstructed from Spanish colonial sources and oral traditions recorded after the conquest. Topa Inca's reign is traditionally dated 1471\u20131493, but exact dates are debated.",
       "cross_references": [
-        "Part of Ming Dynasty history"
+        "1471-001 (Topa Inca's accession)",
+        "1493-001 (Topa Inca's death and succession)"
+      ]
+    },
+    {
+      "id": "1481-008",
+      "title": "Aztec Empire: Reign of Axayacatl; Consolidation and Military Campaigns",
+      "region": "Aztec Empire, Mesoamerica (modern Mexico)",
+      "coordinates_approx": "19.4, -99.1",
+      "category": "political",
+      "description": "Axayacatl, the sixth Aztec emperor, ruled from 1469 to 1481. By 1481, his reign was in its final year, and he had consolidated Aztec power through military campaigns, tribute collection, and administrative reforms. His reign saw the expansion of Aztec territory and the strengthening of the triple alliance with Texcoco and Tlacopan. However, his later years were marked by illness and declining military activity. His death in 1481 would be followed by the accession of his brother Tizoc, marking a transition in Aztec leadership and a shift toward more religious and ceremonial emphasis.",
+      "key_figures": [
+        "Axayacatl (Aztec Emperor, r. 1469\u20131481)",
+        "Tizoc (successor, r. 1481\u20131486)"
+      ],
+      "sources": [
+        {
+          "name": "Aztec codices (Codex Mendoza, Codex Florentinus); Spanish colonial chronicles (Sahag\u00fan, Dur\u00e1n)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tenochtitlan and Aztec sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Aztec chronology is reconstructed from post-conquest Spanish sources and Aztec codices. Axayacatl's death in 1481 is traditionally dated, but exact dates are uncertain.",
+      "cross_references": [
+        "1469-001 (Axayacatl's accession)",
+        "1481-009 (Tizoc's accession)"
+      ]
+    },
+    {
+      "id": "1481-009",
+      "title": "Accession of Tizoc as Sixth Aztec Emperor",
+      "region": "Aztec Empire, Mesoamerica (modern Mexico)",
+      "coordinates_approx": "19.4, -99.1",
+      "category": "political",
+      "description": "Following the death of Axayacatl in 1481, his brother Tizoc ascended to the Aztec throne. Tizoc's reign (1481\u20131486) marked a significant shift in Aztec priorities from aggressive military expansion toward religious ceremony and internal consolidation. His coronation was marked by a military campaign to capture sacrificial victims for his coronation ceremony, a practice that would define his reign. However, Tizoc's military campaigns were less successful than those of his predecessors, and his reign saw a relative decline in Aztec territorial expansion. His emphasis on religious ceremony and sacrifice, while important to Aztec cosmology, was viewed by some as a departure from the military dynamism of earlier emperors.",
+      "key_figures": [
+        "Tizoc (Aztec Emperor, r. 1481\u20131486)",
+        "Axayacatl (previous emperor, d. 1481)"
+      ],
+      "sources": [
+        {
+          "name": "Aztec codices (Codex Mendoza, Codex Florentinus); Spanish colonial chronicles (Sahag\u00fan, Dur\u00e1n)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tenochtitlan",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Tizoc's accession in 1481 is traditionally dated, but exact dates are uncertain. The date is reconstructed from post-conquest Spanish sources and Aztec codices.",
+      "cross_references": [
+        "1481-008 (Axayacatl's death)",
+        "1486-001 (Tizoc's death and succession of Ahuitzotl)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Aztec chronology for 1481 is approximate and depends on later indigenous sources; no contemporary Aztec written records survive for this specific year. Some sources dispute the exact date of Mehmed II's death, though 3 May 1481 is the most widely accepted date. The characterization of Bayezid II's reign as one of 'consolidation' rather than expansion is debated by some scholars, who point to continued Ottoman territorial gains.",
-  "historiographic_note": "1481 is well-documented in European sources (Spanish Inquisition records, Ottoman chronicles, Venetian diplomatic records) but relies on later compilations for non-European regions. Aztec history depends entirely on post-conquest indigenous codices and Spanish-era ethnographic records. Chinese sources are abundant but often focus on court politics. African and Southeast Asian sources are sparse in European archives.",
+  "disconfirming_evidence": "The dating of Aztec and Inca rulers remains contested among scholars. Some scholars argue that Axayacatl's death occurred in 1480 rather than 1481, and Inca chronology is particularly uncertain, with some scholars proposing dates for Topa Inca's reign as 1463\u20131493 rather than 1471\u20131493. The significance of the Ottoman withdrawal from Otranto has been debated: some scholars emphasize it as a strategic Ottoman decision to consolidate power, while others view it as a forced retreat due to internal succession crisis. The impact of Zheng He's voyages on Ming foreign policy by 1481 is sometimes overstated; by this date, the Ming court had already begun to deprioritize maritime exploration in favor of land-based military concerns.",
+  "historiographic_note": "The historical record for 1481 is rich for Europe, the Ottoman Empire, and East Asia, but sparse for sub-Saharan Africa beyond Portuguese coastal contacts, interior Southeast Asia, and the Americas (where dating is reconstructed from post-conquest sources). European sources are dominated by court chronicles and diplomatic records, which may overemphasize political and military events while underrepresenting economic and social developments. The Spanish Inquisition's records are extensive but reflect the perspective of the persecutors rather than the persecuted. Aztec and Inca history is reconstructed from Spanish colonial sources written decades or centuries after the events, filtered through indigenous oral traditions and Spanish interpretive frameworks. African history is largely absent from European records of this period, representing a significant gap in the historical record.",
   "graph_edges": [
     {
       "from": "1481-001",
-      "to": "1486-AHUITZOTL",
-      "relation": "led_to",
-      "note": "Tizoc's reign prepared the way for Ahuitzotl's more expansionist policies"
+      "to": "1481-002",
+      "relation": "contemporary_with",
+      "note": "Ottoman withdrawal from Otranto and succession crisis occurred simultaneously"
     },
     {
       "from": "1481-002",
-      "to": "1492-EXPULSION",
-      "relation": "led_to",
-      "note": "The intensification of the Spanish Inquisition in 1481 led to the expulsion of Jews from Spain in 1492"
+      "to": "1481-001",
+      "relation": "caused_by",
+      "note": "Succession crisis and Mehmed II's death led to Ottoman withdrawal from Otranto"
     },
     {
       "from": "1481-004",
-      "to": "1512-BAYEZID_DEATH",
+      "to": "1481-003",
       "relation": "led_to",
-      "note": "Bayezid II's ascension in 1481 began his 31-year reign"
+      "note": "John II's consolidation of royal authority enabled sustained investment in maritime exploration"
+    },
+    {
+      "from": "1481-008",
+      "to": "1481-009",
+      "relation": "led_to",
+      "note": "Axayacatl's death led to Tizoc's accession"
+    },
+    {
+      "from": "1481-003",
+      "to": "1500-001",
+      "relation": "part_of",
+      "note": "Elmina Castle establishment was part of Portuguese expansion that led to arrival in Brazil"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:42:16.515048",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
