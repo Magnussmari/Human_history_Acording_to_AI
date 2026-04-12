@@ -1,0 +1,85 @@
+{
+  "year": -960,
+  "year_label": "960 BCE",
+  "era_context": "Early Iron Age II. Ashur-dan II of Assyria was in the final years of his reign (he died c. 912 BCE). In the Levant, the traditional Solomonic period continued (though disputed). Egypt was in the late 21st Dynasty, approaching its end. Greece was in the Geometric period. The Zhou Dynasty in China was in its middle period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-960-001",
+      "title": "Ashur-dan II's reign (continued consolidation of Assyrian power)",
+      "region": "Mesopotamia (Assyrian Empire)",
+      "coordinates_approx": "36.1, 43.3",
+      "category": "political",
+      "description": "Ashur-dan II continued his reign during this year, maintaining and consolidating Assyrian military and political power. His reign (934\u2013912 BCE) was crucial in reversing Assyrian decline and laying the foundation for the later Neo-Assyrian Empire. However, no specific events for 960 BCE are documented in surviving sources.",
+      "key_figures": [
+        "Ashur-dan II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Inscriptions of Ashur-dan II",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan II's reign dates are well-established, but specific events within individual years are not documented.",
+      "cross_references": [
+        "-964-001",
+        "-963-001",
+        "-961-001"
+      ]
+    },
+    {
+      "id": "-960-002",
+      "title": "Late 21st Dynasty Egypt (continued fragmentation)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt in 960 BCE remained fragmented under the late 21st Dynasty, with power divided between the High Priests of Amun at Thebes and the kings at Tanis. This period of division weakened Egypt's international position and marked the transition from the New Kingdom to the Late Period.",
+      "key_figures": [
+        "High Priests of Amun",
+        "Kings of Tanis"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the 21st Dynasty is well-documented, though precise dating varies among scholars.",
+      "cross_references": [
+        "-962-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for 960 BCE. The broader historiographic issue is that very few events can be reliably assigned to specific years in this period; most sources provide only reign dates and general descriptions of periods.",
+  "historiographic_note": "The historical record for 960 BCE is extremely sparse. No contemporary sources document specific events for this year. The record is almost entirely dependent on later king lists and inscriptions that provide reign dates but not year-by-year narratives. This reflects the nature of ancient documentation: most sources were not designed to provide detailed chronological records of individual years. The absence of evidence for most regions (Greece, China, the Americas, Africa, etc.) reflects both the limitations of surviving sources and the Mesopotamian/Egyptian focus of available documentation.",
+  "graph_edges": [
+    {
+      "from": "-960-001",
+      "to": "-912-ASHUR_DAN_II_DEATH",
+      "relation": "part_of",
+      "note": "Ashur-dan II's reign ended c. 912 BCE."
+    },
+    {
+      "from": "-960-002",
+      "to": "-945-21ST_DYNASTY_END",
+      "relation": "part_of",
+      "note": "The 21st Dynasty fragmentation continued until the dynasty's end."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "year": -949,
+  "year_label": "949 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is in its formative phase under Ashurnasirpal II (883\u2013859 BCE), who will soon initiate aggressive expansionism. In Greece, the Geometric period dominates; the Archaic period has not yet begun. Egypt is in the Third Intermediate Period, fragmented under weak Tanite dynasties (21st Dynasty). The Zhou Dynasty in China is in its middle phase, with regional states consolidating power. This is a period of state formation, iron-working adoption, and the emergence of alphabetic writing in the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources; archaeological record incomplete)",
+    "Oceania and Pacific (no written records; archaeological dating uncertain)",
+    "Pre-Columbian Americas (no written chronology; dating by radiocarbon with wide margins)"
+  ],
+  "events": [
+    {
+      "id": "-949-001",
+      "title": "Ashurnasirpal II consolidates Assyrian power and begins military campaigns",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "military",
+      "description": "Ashurnasirpal II (r. 883\u2013859 BCE) is in the early years of his reign, establishing the military and administrative infrastructure that will define the Neo-Assyrian Empire. By 949 BCE, he has begun campaigns to reassert Assyrian dominance over northern Mesopotamia and the Levantine periphery. His reign marks a turning point: the adoption of iron weapons at scale, the creation of a standing army, and the systematic use of terror and deportation as state policy. These innovations will reshape the political map of the Near East for the next century.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria, r. 883\u2013859 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's annals and palace inscriptions from Kalhu (Nimrud)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nimrud excavations (British Museum, University of Chicago)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurnasirpal II's reign is well-attested through inscriptions and palace reliefs. The specific year 949 BCE falls within his documented reign (883\u2013859 BCE), but individual campaign dates within his reign are sometimes approximate (\u00b12\u20133 years). Regnal chronology for this period is secure to within a year or two.",
+      "cross_references": [
+        "Relates to broader Neo-Assyrian expansion documented through -880 to -700 BCE"
+      ]
+    },
+    {
+      "id": "-949-002",
+      "title": "Zhou Dynasty in China: Reign of King Kang of Zhou",
+      "region": "China (Yellow River valley, Central Plains)",
+      "coordinates_approx": "34.3, 109.3",
+      "category": "political",
+      "description": "King Kang of Zhou (r. 1005\u2013978 BCE in traditional chronology; some scholars place him c. 1000\u2013970 BCE) is ruling during a period of relative stability in the early Western Zhou. The Zhou have consolidated control over the Central Plains following their conquest of the Shang Dynasty (c. 1046 BCE). By the mid-10th century BCE, the Zhou feudal system is maturing: regional lords (zhuhou) govern semi-autonomous territories under nominal Zhou suzerainty. Bronze technology is well-established; iron is beginning to appear in the archaeological record. The period is characterized by cultural refinement and the development of early Chinese philosophical and administrative thought.",
+      "key_figures": [
+        "King Kang of Zhou (r. 1005\u2013978 BCE traditional; c. 1000\u2013970 BCE revised)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (jinwen) from the period",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Anyang and other Zhou sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Zhou chronology for the 10th century BCE remains contested. Traditional dates place Kang of Zhou's reign at 1005\u2013978 BCE, but modern scholarship (particularly the Xia-Shang-Zhou Chronology Project) suggests revisions of \u00b120\u201330 years. The year 949 BCE is assigned here by convention within the broader reign, but the exact dating is uncertain by 1\u20132 decades.",
+      "cross_references": [
+        "Part of the Western Zhou period (c. 1046\u2013771 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of King Kang of Zhou's reign (1005\u2013978 BCE) has been challenged by modern chronological studies. Some scholars, using astronomical calculations and archaeological stratigraphy, propose dates c. 1000\u2013970 BCE or even later. This introduces uncertainty of \u00b120\u201330 years for events in this reign. Additionally, the 'golden age' narrative of early Zhou stability may be overstated; evidence suggests regional tensions and the gradual fragmentation of Zhou authority were already underway by the mid-10th century BCE, complicating the picture of unified rule.",
+  "historiographic_note": "The historical record for 949 BCE is heavily weighted toward Mesopotamia and China, where written sources and epigraphic evidence are relatively abundant. The Assyrian record is particularly rich due to the survival of palace inscriptions and reliefs. However, the record is sparse for Egypt (which was politically fragmented and left fewer contemporary records for this period), the Levant (where alphabetic writing was emerging but few long texts survive), and absent for most of Africa, Europe, and the Americas. The surviving sources are also biased toward elite, state-sponsored narratives; the experiences of common people, women, and non-state societies are largely invisible. Chronological precision is highest for Mesopotamia (\u00b11\u20132 years) and lower for China (\u00b110\u201330 years depending on the scholar).",
+  "graph_edges": [
+    {
+      "from": "-949-001",
+      "to": "-880-001",
+      "relation": "part_of",
+      "note": "Ashurnasirpal II's early campaigns are part of the broader Neo-Assyrian expansion that will intensify in the following decades"
+    },
+    {
+      "from": "-949-002",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "The Zhou feudal system of this period will eventually fragment, leading to the Spring and Autumn period after 771 BCE"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "year": -962,
+  "year_label": "962 BCE",
+  "era_context": "Early Iron Age II continues. Ashur-dan II remained on the Assyrian throne. In Egypt, the 21st Dynasty was nearing its end (it ended c. 945 BCE in some chronologies, c. 935 BCE in others). In the Levant, the Kingdom of Israel under Solomon (traditional dating c. 970\u2013931 BCE) was at or near its height, though the historicity and extent of Solomon's kingdom remain debated. Greece was in the Geometric period. China's Zhou Dynasty was in its middle period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-962-001",
+      "title": "Reign of Solomon of Israel (traditional dating, disputed historicity)",
+      "region": "Levant (Kingdom of Israel)",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "According to biblical tradition, Solomon (r. c. 970\u2013931 BCE in traditional chronology) was ruling Israel during this period, overseeing the construction of the First Temple in Jerusalem and consolidating a regional empire. However, modern archaeology has found limited material evidence for a large, centralized Solomonic kingdom. Some scholars argue for a much smaller polity; others defend a larger kingdom but with revised dating. The year 962 BCE falls within the traditional reign period, but the historical reality remains contested.",
+      "key_figures": [
+        "Solomon (King of Israel, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (1 Kings, 2 Chronicles)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological surveys and excavations in Israel/Palestine",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "Solomon's existence is debated. The biblical account was compiled centuries after the events it describes. Archaeological evidence for a large Solomonic kingdom is limited; some scholars argue for a much smaller polity or deny his historicity entirely. The traditional dating itself is uncertain and has been revised multiple times.",
+      "cross_references": []
+    },
+    {
+      "id": "-962-002",
+      "title": "Late 21st Dynasty Egypt (fragmented rule)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt in 962 BCE was in the late 21st Dynasty, a period of political fragmentation in which power was divided between the High Priests of Amun at Thebes in Upper Egypt and the kings ruling from Tanis in Lower Egypt. This division of authority weakened central control and marked the beginning of Egypt's decline as a major imperial power. The dynasty would end within a few decades.",
+      "key_figures": [
+        "High Priests of Amun (Thebes)",
+        "Kings of Tanis (Lower Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on 21st Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the 21st Dynasty is well-documented in Egyptian sources, though precise dating of individual reigns within this period varies among scholars (\u00b15\u201310 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The historicity of Solomon is one of the most contested issues in biblical archaeology. While the biblical account describes a large, wealthy kingdom with extensive building projects, archaeological surveys have found limited evidence for large-scale construction or centralized administration in 10th-century BCE Israel/Palestine. Some scholars argue that the 'United Monarchy' (David and Solomon) is largely a literary invention or greatly exaggerated. Others defend a smaller but real Solomonic state. The debate remains unresolved.",
+  "historiographic_note": "The record for 962 BCE is heavily skewed toward the Levant and Egypt, with Assyrian sources providing some context. The biblical account of Solomon is the most detailed source but is problematic as history: it was written centuries after the events, reflects theological rather than historical concerns, and is contradicted by archaeological evidence. Egyptian sources are more reliable but fragmentary for this period. No contemporary sources from Greece, China, or other regions document events in 962 BCE.",
+  "graph_edges": [
+    {
+      "from": "-962-001",
+      "to": "-931-SOLOMON_DEATH",
+      "relation": "part_of",
+      "note": "Solomon's traditional reign spans c. 970\u2013931 BCE."
+    },
+    {
+      "from": "-962-002",
+      "to": "-945-21ST_DYNASTY_END",
+      "relation": "part_of",
+      "note": "The 21st Dynasty fragmentation continued until the dynasty's end."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "year": -950,
+  "year_label": "950 BCE",
+  "era_context": "Early Iron Age II in the Near East and Mediterranean. Ashur-dan II is in the final years of his reign in Assyria (r. 934\u2013912 BCE). Egypt is in the late 21st Dynasty, with political fragmentation between Tanis and Thebes. Greece is in the Geometric period; the alphabet has not yet been adopted. The Zhou Dynasty in China is in its middle period, with stable feudal administration. In the Levant, the Iron Age city-states are consolidating power; this is the era of early Israel and Judah, though their political organization and chronology remain debated.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (pre-literate; archaeological record thin)",
+    "Mesoamerica (no synchronized chronology)",
+    "Oceania (no written records)",
+    "India (Vedic period; no synchronized chronology)"
+  ],
+  "events": [
+    {
+      "id": "-950-001",
+      "title": "Ashur-dan II's military campaigns in the Levant and upper Euphrates region",
+      "region": "Mesopotamia and the Levant (Assyrian sphere of influence)",
+      "coordinates_approx": "40.0, 35.0",
+      "category": "military",
+      "description": "Ashur-dan II continues his campaigns to consolidate Assyrian power and expand influence over the Aramean states and the upper Euphrates region. By 950 BCE, Assyrian military dominance is well-established in northern Mesopotamia. These campaigns do not yet extend far into the Levant proper but establish Assyrian hegemony over the trade routes and buffer states. The campaigns are documented in Ashur-dan II's royal inscriptions and represent the beginning of Assyrian imperial expansion that will intensify under his successors.",
+      "key_figures": [
+        "Ashur-dan II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashur-dan II's royal inscriptions and annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Neo-Assyrian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan II's campaigns are well-attested in Assyrian sources. The specific year 950 BCE is assigned by modern chronological consensus with uncertainty of \u00b12\u20133 years due to the ongoing 'middle' vs. 'low' chronology debate.",
+      "cross_references": [
+        "-954-001"
+      ]
+    },
+    {
+      "id": "-950-002",
+      "title": "Late 21st Dynasty Egypt: fragmentation and priestly power at Thebes",
+      "region": "Egypt (Upper and Lower Egypt)",
+      "coordinates_approx": "25.0, 32.0",
+      "category": "political",
+      "description": "By 950 BCE, Egypt's 21st Dynasty is in its final phase, characterized by political fragmentation. The High Priests of Amun at Thebes control Upper Egypt and accumulate vast wealth and land. The kings at Tanis control Lower Egypt but with diminishing authority. This division of power between the priesthood and the monarchy is a defining feature of the late 21st Dynasty and will lead to the rise of the 22nd Dynasty (Libyan) shortly after. The fragmentation reflects the decline of centralized pharaonic authority that began after the 20th Dynasty.",
+      "key_figures": [
+        "High Priests of Amun at Thebes (names uncertain for this specific year)",
+        "Kings of Tanis (21st Dynasty, names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records from Thebes and Tanis",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on late 21st Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the 21st Dynasty is well-attested. The specific year 950 BCE is assigned by modern Egyptological consensus, but Egyptian chronology for this period has uncertainties of \u00b15\u201310 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the late 21st Dynasty and the transition to the 22nd Dynasty is subject to ongoing scholarly debate. Some Egyptologists place the end of the 21st Dynasty and the rise of the 22nd Dynasty (Shoshenq I) at 945 BCE, others at 950 BCE or later. This introduces uncertainty into the absolute dating of events in Egypt for this period. Additionally, the extent of Assyrian influence in the Levant by 950 BCE is debated; some scholars argue that Assyrian hegemony was not firmly established until the reign of Ashurnasirpal II (883\u2013859 BCE).",
+  "historiographic_note": "The historical record for 950 BCE is heavily skewed toward the Near East, particularly Assyria and Egypt. Mesopotamian sources (Assyrian inscriptions) are relatively abundant. Egyptian sources are fragmentary but present. Greek sources are absent; the Geometric period is known only through archaeology. Chinese sources (oracle bones, early Zhou records) exist but are not synchronized to this specific year. The record is almost entirely absent for Africa south of Egypt, Northern Europe, the Americas, and Oceania. The chronology of this period is subject to the 'middle' vs. 'low' chronology debate in Mesopotamian studies, which can shift absolute dates by 50\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-950-001",
+      "to": "-883-ASHURNASIRPAL_II_CAMPAIGNS",
+      "relation": "led_to",
+      "note": "Ashur-dan II's consolidation of Assyrian power under his successors leads to the aggressive expansion campaigns of Ashurnasirpal II"
+    },
+    {
+      "from": "-950-002",
+      "to": "-945-22ND_DYNASTY_RISE",
+      "relation": "led_to",
+      "note": "The fragmentation of the 21st Dynasty leads to the rise of the 22nd Dynasty (Libyan) within a few years"
+    }
+  ]
+}

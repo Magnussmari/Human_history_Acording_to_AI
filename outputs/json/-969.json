@@ -1,0 +1,76 @@
+{
+  "year": -969,
+  "year_label": "969 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is consolidating power under Ashurnasirpal II (883\u2013859 BCE), though this year falls slightly before his reign. In the Aegean, the Greek Dark Ages are ending; the Geometric period is well established. In Egypt, the 21st Dynasty (Tanite Period) is in decline; the 22nd Dynasty (Libyan) will soon emerge. In China, the Western Zhou dynasty is in its later phase, approaching the Spring and Autumn period. The Iron Age is transforming warfare, agriculture, and settlement patterns across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Mesoamerica (no written chronology synchronized to Gregorian calendar)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Northern Europe (pre-literate societies, archaeological record only)"
+  ],
+  "events": [
+    {
+      "id": "-969-001",
+      "title": "Reign of Shalmaneser III begins (traditional dating)",
+      "region": "Neo-Assyrian Empire, Mesopotamia",
+      "coordinates_approx": "36.2, 43.0",
+      "category": "political",
+      "description": "Shalmaneser III ascends the throne of Assyria, following the reign of Ashurnasirpal II. His reign (traditionally dated 858\u2013824 BCE) is marked by extensive military campaigns against coalitions of western states, including Israel, Damascus, and Phoenician cities. He will become one of the most militarily active Assyrian kings, conducting annual campaigns and expanding Assyrian hegemony into the Levant. His annals, preserved in cuneiform, provide detailed records of these campaigns and represent some of the most reliable documentation of Iron Age Levantine politics.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III's Royal Annals (cuneiform inscriptions from Kalhu/Nimrud)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (Babylonian chronicle correlating Assyrian and Babylonian rulers)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Traditional Assyrian chronology places Shalmaneser III's accession in 858 BCE, but absolute dating of this period relies on astronomical calculations (Venus observations in Ammisaduqa omen series) and king list synchronisms. Margin of error is \u00b12\u20133 years.",
+      "cross_references": [
+        "Relates to -853-001 (Battle of Qarqar, Shalmaneser III's campaign)"
+      ]
+    },
+    {
+      "id": "-969-002",
+      "title": "Possible dating of early Geometric pottery in the Aegean",
+      "region": "Aegean Greece",
+      "coordinates_approx": "38.5, 23.5",
+      "category": "cultural",
+      "description": "The Geometric period in Greece (c. 900\u2013700 BCE) is well underway. Pottery with geometric designs, iron tools, and small-scale settlements characterize this era. The Greek Dark Ages are ending, and the foundations of the polis are being laid. This year falls within the Early Geometric II phase, marked by increasing trade contacts with the Near East and the Levant, visible in pottery styles and occasional Near Eastern imports.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Athenian Agora, Corinth, and other Aegean sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and stratigraphic analysis (Desborough, Coldstream)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Aegean chronology for this period is based on pottery typology and occasional synchronisms with Near Eastern dated contexts. Absolute dating is uncertain by \u00b120\u201330 years. This year is assigned by convention within the Geometric period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Shalmaneser III's accession to 858 BCE is based on the 'Middle Chronology' of Mesopotamia. Some scholars (notably Heinsohn and others) have proposed a 'Low Chronology' that would shift these dates by 50\u2013100+ years. However, the Middle Chronology remains the scholarly consensus and is used here. Additionally, the exact year of Shalmaneser III's accession is sometimes given as 859 BCE in older sources; modern scholarship converges on 858 BCE based on Babylonian synchronisms.",
+  "historiographic_note": "Documentation for 969 BCE is heavily skewed toward Mesopotamia and the Levant, where cuneiform and later chronicles provide a framework. Aegean Greece has only archaeological evidence; Egypt's 21st Dynasty is poorly documented. Sub-Saharan Africa, the Americas, and most of Asia have no written records for this year. The surviving sources are predominantly from royal courts and temples, biasing the record toward elite political and military events. The absence of evidence for most regions should not be interpreted as absence of historical significance.",
+  "graph_edges": [
+    {
+      "from": "-969-001",
+      "to": "-853-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's accession initiates a series of western campaigns culminating in the Battle of Qarqar in 853 BCE"
+    }
+  ]
+}
