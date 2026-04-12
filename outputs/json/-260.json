@@ -1,0 +1,122 @@
+{
+  "year": -260,
+  "year_label": "260 BCE",
+  "era_context": "The Hellenistic world in the mid-3rd century BCE, dominated by the Successor States following Alexander's death. The Seleucid Empire under Antiochus II controls the eastern Mediterranean and Asia; the Ptolemaic Dynasty rules Egypt; the Antigonid dynasty controls Macedonia. In India, the Mauryan Empire under Ashoka is in its mature phase, having recently completed major military conquests. Rome is consolidating power in Italy and beginning expansion into the Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Greek/Roman contact zones",
+    "East Asia beyond Chinese dynastic records (limited cross-cultural documentation)"
+  ],
+  "events": [
+    {
+      "id": "-260-001",
+      "title": "Battle of Chios",
+      "region": "Aegean Sea, Greek islands",
+      "coordinates_approx": "38.37, 26.13",
+      "category": "military",
+      "description": "A major naval engagement fought between the Ptolemaic fleet under Antigonus II Gonatas and the combined forces of the Seleucid Empire and the Aetolian League. The battle resulted in a Ptolemaic victory and temporarily secured Ptolemaic naval dominance in the Aegean. This victory was significant in the ongoing struggle for control of the eastern Mediterranean and demonstrated the continued military strength of Egypt under the Ptolemies.",
+      "key_figures": [
+        "Antigonus II Gonatas (Macedonian commander)",
+        "Antiochus II Theos (Seleucid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Book 5)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The battle is attested in later Hellenistic histories but exact dating within 260 BCE is approximate. Ancient sources sometimes conflate or misdate naval engagements of this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-260-002",
+      "title": "Ashoka's Reign Consolidation",
+      "region": "Mauryan Empire, Indian subcontinent",
+      "coordinates_approx": "25.0, 78.0",
+      "category": "political",
+      "description": "By 260 BCE, Ashoka had established himself as the dominant ruler of the Mauryan Empire following the Kalinga War (traditionally dated to c. 261 BCE). This year falls within his period of religious transformation and administrative consolidation, where he shifted from military expansion to dharma-based governance. He was establishing edicts and promoting Buddhism across his empire, fundamentally reshaping Indian political and religious culture.",
+      "key_figures": [
+        "Ashoka (Mauryan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ashoka's Rock Edicts (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Arthashastra (attributed to Kautilya, compiled later but describing Mauryan administration)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Buddhist texts (Pali Canon, compiled later)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashoka's reign dates are debated by scholars; traditional dating places him c. 268\u2013232 BCE, but some scholars argue for c. 260\u2013218 BCE. The exact year of the Kalinga War is uncertain (\u00b11\u20133 years).",
+      "cross_references": [
+        "-261-001"
+      ]
+    },
+    {
+      "id": "-260-003",
+      "title": "First Punic War Ongoing",
+      "region": "Mediterranean, Sicily, North Africa",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "military",
+      "description": "The First Punic War between Rome and Carthage (264\u2013241 BCE) was in its fourth year. Roman forces were engaged in campaigns in Sicily and naval operations in the Mediterranean. This period saw Rome's transition from a land-based power to a naval power, with significant investment in shipbuilding and naval tactics. The war would ultimately reshape the balance of power in the western Mediterranean.",
+      "key_figures": [
+        "Regulus (Roman general)",
+        "Xanthippus (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Books 17\u201318)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Punic War dates are well-established in ancient sources. Specific campaigns of 260 BCE are documented in later histories.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ashoka's reign and the Kalinga War remains contested. Some modern scholars (notably Romila Thapar) argue for a later dating (c. 260\u2013218 BCE) rather than the traditional c. 268\u2013232 BCE, which would shift the significance of events attributed to this year. The Battle of Chios is sometimes conflated with other Hellenistic naval engagements in modern scholarship, and its exact date and participants are debated.",
+  "historiographic_note": "Documentation for 260 BCE is uneven. Hellenistic history relies heavily on Polybius and later Greek historians, who wrote 50\u2013100 years after events and sometimes conflated or misplaced naval battles. Indian history depends on Ashoka's edicts (contemporary epigraphic evidence) and later Buddhist texts with significant legendary elements. Roman history is better documented through Livy and Polybius, though these sources are also later compilations. The surviving record is biased toward political and military events; economic and social history is sparse.",
+  "graph_edges": [
+    {
+      "from": "-260-001",
+      "to": "-259-001",
+      "relation": "led_to",
+      "note": "Naval dominance established at Chios influenced subsequent Ptolemaic-Seleucid conflicts"
+    },
+    {
+      "from": "-260-002",
+      "to": "-261-001",
+      "relation": "part_of",
+      "note": "Ashoka's consolidation phase following the Kalinga War"
+    },
+    {
+      "from": "-260-003",
+      "to": "-241-001",
+      "relation": "part_of",
+      "note": "First Punic War ongoing; will conclude in 241 BCE"
+    }
+  ]
+}

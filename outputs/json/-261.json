@@ -1,0 +1,123 @@
+{
+  "year": -261,
+  "year_label": "261 BCE",
+  "era_context": "Mid-3rd century BCE Hellenistic world and early Mauryan consolidation. The Seleucid Empire, Ptolemaic Egypt, and Macedonian kingdoms compete for dominance in the eastern Mediterranean. In India, Ashoka is in the midst of or recently completed the Kalinga War, a pivotal moment in his transformation from military conqueror to dharma-based ruler. Rome continues the First Punic War against Carthage.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (limited cross-cultural documentation)"
+  ],
+  "events": [
+    {
+      "id": "-261-001",
+      "title": "Kalinga War (Traditional Dating)",
+      "region": "Kalinga, eastern India",
+      "coordinates_approx": "19.5, 85.5",
+      "category": "military",
+      "description": "The Kalinga War, traditionally dated to c. 261 BCE, was a major military campaign in which Ashoka conquered the kingdom of Kalinga (modern Odisha). The war was devastating, resulting in significant casualties and destruction. According to Buddhist texts and Ashoka's own edicts, the scale of suffering prompted Ashoka's spiritual transformation. He subsequently renounced military conquest and adopted dharma (righteous governance) as his governing principle, fundamentally reshaping the Mauryan Empire's ideology and policies.",
+      "key_figures": [
+        "Ashoka (Mauryan Emperor)",
+        "King of Kalinga (unnamed in most sources)"
+      ],
+      "sources": [
+        {
+          "name": "Ashoka's Rock Edicts XIII (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Buddhist texts (Dipavamsa, Mahavamsa, Pali Canon)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Arthashastra (attributed to Kautilya)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The traditional dating of the Kalinga War to c. 261 BCE comes from Buddhist texts compiled centuries later. Modern scholars debate whether this date is accurate; some propose c. 260 BCE or even later (c. 250 BCE). The exact year is uncertain by \u00b15\u201310 years. Ashoka's own edicts do not provide a specific date.",
+      "cross_references": [
+        "-260-002"
+      ]
+    },
+    {
+      "id": "-261-002",
+      "title": "Antiochus II Theos Consolidates Seleucid Power",
+      "region": "Seleucid Empire, eastern Mediterranean and Asia",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "Antiochus II Theos (r. c. 261\u2013246 BCE) was consolidating his rule over the Seleucid Empire during this period. He faced challenges from rival Hellenistic powers, including the Ptolemaic Dynasty and Macedonian kingdoms. His reign was marked by military campaigns to secure Seleucid territories and diplomatic maneuvering. He would later marry Berenice II of Egypt (c. 252 BCE) in a political alliance, but this marriage would ultimately lead to succession disputes after his death.",
+      "key_figures": [
+        "Antiochus II Theos (Seleucid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus II's reign dates are well-established (c. 261\u2013246 BCE), but specific events within 261 BCE are not well-documented in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-261-003",
+      "title": "First Punic War: Roman Naval Expansion",
+      "region": "Mediterranean, Sicily",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "military",
+      "description": "The First Punic War (264\u2013241 BCE) was in its third year. Rome was rapidly building a navy to compete with Carthage's established naval power. This period saw significant Roman investment in shipbuilding, naval tactics, and the development of the corvus (boarding bridge), which would give Roman marines an advantage in naval combat. The war was reshaping Roman military culture and strategic priorities.",
+      "key_figures": [
+        "Duilius (Roman admiral, victor at Mylae in 260 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Punic War timeline is well-established. The Battle of Mylae (260 BCE) is documented, and 261 BCE falls within the documented period of Roman naval expansion.",
+      "cross_references": [
+        "-260-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Kalinga War to 261 BCE is traditional but increasingly questioned by modern scholars. Some scholars argue for c. 260 BCE, while others propose c. 250 BCE or even later. The Buddhist texts that provide the traditional date were compiled centuries after the events they describe, and their chronological reliability is disputed. Additionally, some scholars question whether the Kalinga War was as catastrophic as Buddhist sources suggest, or whether these accounts were exaggerated for religious and moral purposes. The exact casualties and extent of destruction remain uncertain.",
+  "historiographic_note": "The historical record for 261 BCE is heavily dependent on later compilations. For India, Buddhist texts provide the primary narrative, but these were written 200+ years after events and contain legendary elements. For the Hellenistic world, Polybius and later historians are the main sources, written 50\u2013100 years after events. For Rome, Livy's history is based on earlier sources now lost. The surviving record privileges political and military narratives; economic, social, and cultural history is sparse. There is significant bias toward court-sponsored narratives and victor accounts.",
+  "graph_edges": [
+    {
+      "from": "-261-001",
+      "to": "-260-002",
+      "relation": "led_to",
+      "note": "Kalinga War prompted Ashoka's spiritual transformation and shift to dharma-based governance"
+    },
+    {
+      "from": "-261-002",
+      "to": "-252-001",
+      "relation": "led_to",
+      "note": "Antiochus II's consolidation of power led to his marriage to Berenice II and subsequent succession disputes"
+    },
+    {
+      "from": "-261-003",
+      "to": "-241-001",
+      "relation": "part_of",
+      "note": "First Punic War ongoing; will conclude in 241 BCE"
+    }
+  ]
+}
