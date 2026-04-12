@@ -1,0 +1,83 @@
+{
+  "year": -2098,
+  "year_label": "2098 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt (Dynasty VI). The Akkadian Empire is in its final decades before Gutian dominance. The Indus Valley Civilization remains in its mature urban phase. In China, the Xia Dynasty (if historical) is in its early centuries, though archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-2098-001",
+      "title": "Continued decline of Akkadian central authority",
+      "region": "Mesopotamia",
+      "coordinates_approx": "43.0, 34.0",
+      "category": "political",
+      "description": "The Akkadian Empire's administrative apparatus continues to weaken as provincial governors assert independence and Gutian pressure increases. Cuneiform administrative texts from this period show reduced correspondence from peripheral regions and increased local autonomy. The empire's trade networks, which had extended to the Indus Valley and Levant, begin to contract. This period represents the transition from centralized Akkadian rule to fragmented city-state governance.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts and letters (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Akkadian decline is well-documented, but specific events in individual years are not recorded in surviving sources. Dating is approximate within \u00b110 years.",
+      "cross_references": [
+        "-2099-002"
+      ]
+    },
+    {
+      "id": "-2098-002",
+      "title": "Indus Valley trade networks at peak activity",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization's trade with Mesopotamia, the Persian Gulf, and the Levant reaches its peak during this period. Indus seals and weights are found in Mesopotamian contexts, and Mesopotamian goods appear in Indus sites. This trade is facilitated by maritime routes and possibly overland routes through the Zagros. The standardized Indus weights and measures suggest sophisticated commercial organization. No specific events are documented, but this period represents the height of Indus commercial expansion.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites (Ur, Lagash, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is archaeologically confirmed. The peak of this trade is traditionally dated to the mature Harappan phase (c. 2600\u20131900 BCE), which includes this year.",
+      "cross_references": [
+        "-2099-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the extent and nature of Akkadian 'collapse' is debated; some scholars argue for a more gradual transition rather than a sudden catastrophic fall, and the role of climate change versus military invasion remains contested.",
+  "historiographic_note": "This year falls in a period of extremely sparse contemporary documentation. No specific events are recorded for this year in any surviving source. The narrative above is reconstructed from broader trends evident in administrative texts and archaeological sequences. The chronology remains uncertain (\u00b110\u201320 years). Egyptian sources are silent on Mesopotamian events, and vice versa. The Indus Valley Civilization leaves no written historical record.",
+  "graph_edges": [
+    {
+      "from": "-2098-001",
+      "to": "-2099-002",
+      "relation": "part_of",
+      "note": "Continuation of Akkadian decline and Gutian pressure."
+    },
+    {
+      "from": "-2098-002",
+      "to": "-2099-003",
+      "relation": "part_of",
+      "note": "Continuation of Indus Valley mature phase and trade activity."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "year": -2101,
+  "year_label": "2101 BCE",
+  "era_context": "Ur III dynasty in southern Mesopotamia under Shulgi; Egyptian Middle Kingdom under Amenemhat III (or his predecessor, depending on chronology); Indus Valley Civilization at peak urban complexity. This year falls within a period of high administrative sophistication in the Old World's major civilizations, though all face mounting external pressures from nomadic groups and environmental stress.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2101-001",
+      "title": "Ur III military campaigns in the Zagros and against Elam",
+      "region": "Mesopotamia and Zagros Mountains",
+      "coordinates_approx": "33.0, 47.0",
+      "category": "military",
+      "description": "During Shulgi's reign, Ur III maintains military pressure on neighboring regions. Campaigns are documented against Elamite territories to the east and mountain peoples in the Zagros. These campaigns serve both to secure trade routes and to extract tribute. However, the military burden and the increasing infiltration of Amorite groups into Mesopotamian territories suggest that Ur III's military dominance is beginning to face serious challenges, even if contemporary inscriptions present these campaigns as victories.",
+      "key_figures": [
+        "Shulgi (King of Ur III)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative and military tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions of Shulgi",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Military campaigns are attested in contemporary records, but specific dating to individual years is often uncertain. Assignment to -2101 is conventional.",
+      "cross_references": []
+    },
+    {
+      "id": "-2101-002",
+      "title": "Egyptian Middle Kingdom administrative stability under strong pharaonic control",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 31.0",
+      "category": "political",
+      "description": "Egypt during this period (whether under Amenemhat III or his immediate predecessor, depending on chronology) exhibits strong centralized administration, extensive building projects, and control over Nubian territories. The state manages large-scale irrigation projects, maintains trade networks with the Levant and beyond, and supports a sophisticated bureaucracy. This represents a period of relative stability and prosperity in the Middle Kingdom, though demographic and economic pressures are building beneath the surface.",
+      "key_figures": [
+        "Amenemhat III or Amenemhat II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple and administrative inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Middle Kingdom sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for this period is uncertain by \u00b150\u2013100 years depending on the scholar. The general characterization of Middle Kingdom stability is secure, but specific pharaonic attribution is debated.",
+      "cross_references": []
+    },
+    {
+      "id": "-2101-003",
+      "title": "Indus Valley trade networks at peak activity",
+      "region": "Indus Valley and trade routes to Mesopotamia and Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. Seals and standardized weights suggest organized long-distance commerce. Indus artifacts appear in Mesopotamian sites, and Mesopotamian goods are found in Indus contexts. This trade is facilitated by maritime routes and overland caravan networks. The sophistication of Indus urban centers and their apparent lack of monumental religious or military architecture suggest a civilization organized around trade and administration rather than conquest.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade connections are well-established through archaeological evidence. Dating to specific years is not possible, but the general period is secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The characterization of Ur III as militarily dominant is complicated by evidence of increasing Amorite settlement within Mesopotamia itself during this period, suggesting that military campaigns may have been less successful than royal inscriptions claim. Egyptian chronology remains contested, with some scholars placing Amenemhat III's reign significantly earlier or later than conventional dating. The Indus Valley Civilization's trade networks are inferred from archaeological evidence; the absence of written records limits understanding of the political or economic organization of this trade.",
+  "historiographic_note": "This year is documented primarily through administrative records (Mesopotamia), royal inscriptions (Egypt), and archaeology (Indus Valley). All sources are biased toward elite activities and monumental achievements. The cuneiform record is concentrated in specific archives and may not represent the full scope of Ur III activities. Egyptian records are temple and royal inscriptions, which emphasize pharaonic power and may obscure internal tensions. The Indus Valley Civilization is known almost entirely through archaeology; the undeciphered script prevents direct access to contemporary thought or political ideology.",
+  "graph_edges": [
+    {
+      "from": "-2101-001",
+      "to": "-2100-001",
+      "relation": "contemporary_with",
+      "note": "Shulgi's military campaigns continue across multiple years"
+    },
+    {
+      "from": "-2101-002",
+      "to": "-2100-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian Middle Kingdom stability persists"
+    },
+    {
+      "from": "-2101-003",
+      "to": "-2100-003",
+      "relation": "contemporary_with",
+      "note": "Indus Valley trade networks remain active"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "year": -2102,
+  "year_label": "2102 BCE",
+  "era_context": "Ur III dynasty under Shulgi in Mesopotamia; Egyptian Middle Kingdom in its mature phase; Indus Valley Civilization at peak complexity. This period represents the height of Bronze Age urban civilization in the Old World, characterized by sophisticated administration, long-distance trade, and monumental architecture. However, all major civilizations face mounting pressure from nomadic groups and environmental stress.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Central Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2102-001",
+      "title": "Shulgi's administrative reforms in Ur III continue; standardization of measures and labor management",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "political",
+      "description": "Shulgi's reign is characterized by extensive administrative reforms that standardize weights, measures, and bureaucratic procedures across the Ur III state. Thousands of cuneiform tablets document the management of state resources, including agricultural production, textile manufacturing, and labor allocation. These reforms represent an early example of centralized state administration and suggest a sophisticated understanding of resource management and record-keeping. The system is designed to maximize state revenue and control over the economy.",
+      "key_figures": [
+        "Shulgi (King of Ur III)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shulgi's administrative reforms are extensively documented in contemporary cuneiform records. The reforms span his entire reign (c. 2094\u20132047 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-2102-002",
+      "title": "Egyptian Middle Kingdom: Nubian expansion and resource extraction",
+      "region": "Egypt and Nubia",
+      "coordinates_approx": "22.0, 31.0",
+      "category": "military",
+      "description": "During the Middle Kingdom, Egyptian pharaohs maintain and expand control over Nubian territories, primarily to secure access to gold, ivory, incense, and other luxury goods. Military expeditions and the establishment of fortresses along the Nile in Nubia are documented. This expansion represents both military dominance and economic motivation, as Nubian resources are essential to Egyptian elite consumption and trade networks.",
+      "key_figures": [
+        "Amenemhat III or predecessor (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nubian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian control over Nubia during the Middle Kingdom is well-established, but specific dating of individual campaigns is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-2102-003",
+      "title": "Indus Valley Civilization: Urban centers at peak population and complexity",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "Major Indus Valley cities like Harappa and Mohenjo-daro are at or near their peak population and architectural complexity around this time. These cities exhibit sophisticated urban planning with standardized brick sizes, elaborate drainage systems, public baths, and evidence of organized craft production. The civilization's apparent lack of monumental religious or military architecture suggests a society organized around trade, administration, and craft production rather than conquest or religious display. The undeciphered script limits understanding of political organization and ideology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and sophistication of Indus Valley cities at this time is well-established through archaeology. Absolute dating is based on stratigraphic and radiocarbon evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The characterization of Ur III as a stable, well-administered state is complicated by evidence of increasing Amorite infiltration and settlement within Mesopotamia during this period. Some scholars argue that the extensive administrative records may reflect an attempt to maintain control in the face of declining state power rather than evidence of stable dominance. Egyptian chronology for the Middle Kingdom remains debated, with some scholars placing key pharaohs significantly earlier or later than conventional dating. The Indus Valley Civilization's apparent lack of monumental military or religious architecture has been interpreted by some scholars as evidence of a fundamentally different social organization, though others argue that such monuments may have been destroyed or are not yet excavated.",
+  "historiographic_note": "Documentation for this year is moderate but heavily biased toward elite activities and monumental achievements. Mesopotamian records are concentrated in specific archives and may not represent the full scope of state activities or the experiences of non-elite populations. Egyptian records are primarily royal and temple inscriptions, which emphasize pharaonic power and may obscure internal tensions or challenges. The Indus Valley Civilization is known almost entirely through archaeology; the undeciphered script prevents direct access to contemporary thought, political ideology, or historical narratives. All three civilizations are documented, but the perspectives are limited to what elites chose to record or what archaeologists have recovered.",
+  "graph_edges": [
+    {
+      "from": "-2102-001",
+      "to": "-2050-001",
+      "relation": "led_to",
+      "note": "Shulgi's administrative system eventually collapses with Ur III c. 2004 BCE"
+    },
+    {
+      "from": "-2102-002",
+      "to": "-2050-002",
+      "relation": "led_to",
+      "note": "Egyptian control over Nubia continues into the Second Intermediate Period"
+    },
+    {
+      "from": "-2102-003",
+      "to": "-2050-003",
+      "relation": "led_to",
+      "note": "Indus Valley Civilization begins decline phase c. 2050 BCE"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "year": -2088,
+  "year_label": "2088 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its final decades. The Akkad Empire under Naram-Sin is approaching the end of its reign and the empire's collapse. The Indus Valley Civilization continues its mature phase. In China, the semi-legendary Xia Dynasty persists. This is a period of imperial decline and transition.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2088-001",
+      "title": "Pepi II's reign \u2014 Old Kingdom in terminal decline",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continued, but the Old Kingdom's centralized authority was severely weakened. Provincial governors had become virtually independent rulers, controlling their own armies and resources. The royal treasury was depleted by the costs of maintaining the mortuary cult system and military expeditions. Within a generation, the Old Kingdom would collapse into the First Intermediate Period, characterized by political fragmentation and the rise of regional dynasties.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Old Kingdom officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally dated c. 2278\u20132184 BCE; -2088 falls within this range with \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "-2085-001",
+        "-2086-001",
+        "-2087-001"
+      ]
+    },
+    {
+      "id": "-2088-002",
+      "title": "Akkad Empire \u2014 Naram-Sin's reign nearing its end",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's reign was approaching its end (he died c. 2218 BCE in traditional chronology). The Akkad Empire faced mounting pressure from the Gutians and other highland peoples. Internal administrative strain from maintaining vast territorial conquests was evident. The empire's collapse would follow within a generation, as the Gutians invaded and fragmented Akkadian control.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested; specific dating to -2088 is approximate. His death is traditionally dated c. 2218 BCE, placing -2088 within his final years.",
+      "cross_references": [
+        "-2085-002",
+        "-2086-002",
+        "-2087-002"
+      ]
+    },
+    {
+      "id": "-2088-003",
+      "title": "Indus Valley Civilization \u2014 continued stability",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization maintained its characteristic urban organization and trade networks. No major disruptions are evident in the archaeological record for this period. The civilization would eventually decline around 1900 BCE, but the causes\u2014climate change, environmental degradation, invasion, or internal collapse\u2014remain debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is archaeologically confirmed; specific dating to -2088 is approximate.",
+      "cross_references": [
+        "-2085-003",
+        "-2086-003",
+        "-2087-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed.",
+  "historiographic_note": "Documentation for -2088 remains sparse. The historical record is dominated by elite narratives. Absolute chronology carries \u00b150\u2013100 year uncertainty. The Indus Valley's decline and the causes of the Akkad Empire's collapse remain subjects of scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-2088-001",
+      "to": "-2084-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Pepi II's reign marks the end of the Old Kingdom; the First Intermediate Period follows within a generation."
+    },
+    {
+      "from": "-2088-002",
+      "to": "-2084-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "Naram-Sin's death and the Akkad Empire's collapse followed within ~30 years."
+    }
+  ]
+}

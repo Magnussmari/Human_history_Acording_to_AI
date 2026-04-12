@@ -1,0 +1,134 @@
+{
+  "year": -2089,
+  "year_label": "2089 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its final phase. The Akkad Empire under Naram-Sin remains powerful but faces increasing external pressure. The Indus Valley Civilization is in its mature phase. In China, the semi-legendary Xia Dynasty persists in traditional chronology. This is a period of imperial consolidation masking underlying fragmentation across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2089-001",
+      "title": "Pepi II's reign \u2014 Old Kingdom administration",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continued during this year. The pharaoh maintained formal control over Egypt, but provincial governors (nomarchs) wielded increasing power. The royal mortuary cult system remained a major drain on resources. Inscriptions from officials document continued expeditions to Nubia and the Red Sea, but these were increasingly conducted under local authority. The centralized Old Kingdom state was in its final decades.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Old Kingdom officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally dated c. 2278\u20132184 BCE; -2089 falls within this range with \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "-2085-001",
+        "-2086-001",
+        "-2087-001",
+        "-2088-001"
+      ]
+    },
+    {
+      "id": "-2089-002",
+      "title": "Akkad Empire \u2014 Naram-Sin's military campaigns",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's reign continued with sustained military campaigns and administrative consolidation. The empire maintained control over vast territories, but evidence suggests increasing pressure from the Gutians and other highland peoples. The costs of maintaining such a large empire were substantial, and internal strain was mounting. Naram-Sin's reign would end within ~30 years, followed by the empire's rapid collapse.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested; specific dating to -2089 is approximate.",
+      "cross_references": [
+        "-2085-002",
+        "-2086-002",
+        "-2087-002",
+        "-2088-002"
+      ]
+    },
+    {
+      "id": "-2089-003",
+      "title": "Indus Valley Civilization \u2014 mature phase continuity",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization maintained its characteristic urban organization, standardized weights and measures, and long-distance trade networks. Major cities like Mohenjo-daro and Harappa continued to function as centers of commerce and administration. The civilization's internal organization and the meaning of its undeciphered script remain unknown. Archaeological evidence shows no major disruptions during this period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is archaeologically confirmed; specific dating to -2089 is approximate.",
+      "cross_references": [
+        "-2085-003",
+        "-2086-003",
+        "-2087-003",
+        "-2088-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed.",
+  "historiographic_note": "Documentation for -2089 remains sparse and relies on the same sources as previous years in this batch. Absolute chronology carries \u00b150\u2013100 year uncertainty. The historical record is dominated by elite narratives from Egypt and Mesopotamia. The Indus Valley is known primarily through archaeology, with no written history. The causes of the Old Kingdom's decline and the Akkad Empire's collapse remain subjects of scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-2089-001",
+      "to": "-2088-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Pepi II's reign."
+    },
+    {
+      "from": "-2089-002",
+      "to": "-2088-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of Naram-Sin's military campaigns."
+    },
+    {
+      "from": "-2089-001",
+      "to": "-2084-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Pepi II's reign marks the end of the Old Kingdom; the First Intermediate Period follows within a generation."
+    },
+    {
+      "from": "-2089-002",
+      "to": "-2084-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "Naram-Sin's reign and the Akkad Empire's collapse followed within ~30 years."
+    }
+  ]
+}

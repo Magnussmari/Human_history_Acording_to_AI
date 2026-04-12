@@ -1,0 +1,112 @@
+{
+  "year": -2100,
+  "year_label": "2100 BCE",
+  "era_context": "The Third Dynasty of Ur (Ur III) dominates southern Mesopotamia, representing the last major Sumerian state before Amorite incursions. Egypt's Middle Kingdom (12th Dynasty) is in its mature phase under strong pharaonic control. The Indus Valley Civilization is at its peak in the Indian subcontinent. Bronze Age trade networks connect the Mediterranean, Mesopotamia, and the Indus. This is an era of administrative sophistication, monumental architecture, and cuneiform literacy, but also of increasing pressure from pastoral nomadic groups on settled civilizations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "Southeast Asia (limited written records)",
+    "Mesoamerica (pre-Classic period, minimal external documentation)"
+  ],
+  "events": [
+    {
+      "id": "-2100-001",
+      "title": "Reign of Shulgi of Ur III continues; administrative reforms and military campaigns",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "political",
+      "description": "Shulgi, the second king of the Ur III dynasty, continues his extensive reign (c. 2094\u20132047 BCE). He consolidates Sumerian power through military campaigns against the Zagros highlands and Elamite territories, and implements sweeping administrative reforms that standardize weights, measures, and bureaucratic procedures across his realm. His reign represents the apex of Sumerian centralized administration, with thousands of cuneiform tablets documenting state management of agriculture, textiles, and labor. However, external pressure from Amorite groups intensifies during this period.",
+      "key_figures": [
+        "Shulgi (King of Ur III)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shulgi's reign is extensively documented in contemporary cuneiform records. Dating within \u00b12 years is standard for this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-2100-002",
+      "title": "Amenemhat III consolidates Egyptian Middle Kingdom power",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 31.0",
+      "category": "political",
+      "description": "Amenemhat III (r. c. 1860\u20131814 BCE in conventional chronology, though some scholars place him earlier) is in his reign during this period. He represents the height of Middle Kingdom Egyptian power, undertaking extensive building projects including the Labyrinth at Hawara and expanding control over Nubia. His administration is characterized by strong centralized authority, extensive trade networks, and sophisticated irrigation management in the Fayum region. His reign marks the last period of strong pharaonic control before the Second Intermediate Period.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Middle Kingdom remains debated. Conventional dating places Amenemhat III's reign c. 1860\u20131814 BCE, but some scholars argue for dates up to 150 years earlier. Assignment to -2100 is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-2100-003",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is at or near its peak around 2100 BCE. Major cities like Harappa and Mohenjo-daro exhibit sophisticated urban planning with standardized brick sizes, drainage systems, and evidence of long-distance trade. The civilization is characterized by undeciphered script, standardized weights and measures, and apparent absence of monumental religious architecture. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The reasons for the civilization's eventual decline remain debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and sophistication of the Indus Valley Civilization at this time is well-established through archaeology. Dating is based on stratigraphic and radiocarbon evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Amenemhat III has been challenged by some scholars who argue for earlier dates based on astronomical calculations and revised radiocarbon chronologies. This would shift Egyptian Middle Kingdom chronology by up to 150 years, affecting synchronizations with Mesopotamian and Levantine chronologies. The causes of Ur III's eventual collapse (c. 2004 BCE) are debated: while Amorite invasion is traditionally cited, some scholars emphasize internal administrative strain and climate change (the 4.2 kya event). The Indus Valley Civilization's decline is similarly contested\u2014theories range from environmental change (river course shifts, drought) to invasion to internal collapse, with no scholarly consensus.",
+  "historiographic_note": "Documentation for Mesopotamia and Egypt is rich but chronologically contested. Ur III cuneiform tablets provide exceptional administrative detail but are concentrated in specific archives. Egyptian records are biased toward royal and temple activities. The Indus Valley Civilization is known almost entirely through archaeology; the undeciphered script limits understanding of political structure and ideology. Sub-Saharan Africa, northern Europe, and most of Asia are poorly documented for this period, creating a false impression of civilization distribution. Chronological synchronization between regions remains uncertain by \u00b150\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-2100-001",
+      "to": "-2050-001",
+      "relation": "led_to",
+      "note": "Shulgi's reign ends c. 2047 BCE; his successors face increasing Amorite pressure leading to Ur III's collapse"
+    },
+    {
+      "from": "-2100-002",
+      "to": "-2050-002",
+      "relation": "led_to",
+      "note": "Amenemhat III's reign transitions to the Second Intermediate Period within a few decades"
+    },
+    {
+      "from": "-2100-003",
+      "to": "-2050-003",
+      "relation": "led_to",
+      "note": "Indus Valley Civilization begins decline phase c. 2050 BCE"
+    }
+  ]
+}
