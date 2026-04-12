@@ -1,0 +1,110 @@
+{
+  "year": 539,
+  "year_label": "539 CE",
+  "era_context": "Justinian I's reconquest of the Western Roman Empire is in full swing, with the Gothic War in Italy ongoing since 535. The Eastern Roman Empire is at the height of its territorial expansion and cultural achievement. The Sasanid Empire under Khosrow I is consolidating power and preparing for renewed conflict with Rome. In China, the Eastern Wei Dynasty is in its final years before being replaced by Northern Qi. This is the pre-plague period, before the Plague of Justinian's major impact.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond the Roman frontier",
+    "Southeast Asia and Oceania"
+  ],
+  "events": [
+    {
+      "id": "539-001",
+      "title": "Belisarius begins siege of Ravenna",
+      "region": "Italy, Eastern Roman Empire",
+      "coordinates_approx": "44.42, 12.20",
+      "category": "military",
+      "description": "The Byzantine general Belisarius, having conquered much of Italy from the Ostrogoths, begins a prolonged siege of Ravenna, the capital of the Ostrogothic kingdom. The siege will last until 540, when the city finally falls. Ravenna's capture is strategically crucial as it represents the last major stronghold of Ostrogothic power and will effectively end organized Gothic resistance in Italy.",
+      "key_figures": [
+        "Belisarius (Byzantine general)",
+        "Totila (Ostrogothic king)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (De Bellis)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Procopius provides detailed accounts of the siege of Ravenna, which began in 539 and concluded in 540.",
+      "cross_references": [
+        "540-001 (fall of Ravenna)"
+      ]
+    },
+    {
+      "id": "539-002",
+      "title": "Khosrow I consolidates Sasanid power and prepares invasion of Roman Syria",
+      "region": "Sasanid Empire, Persia",
+      "coordinates_approx": "33.00, 53.00",
+      "category": "political",
+      "description": "King Khosrow I (Anushirvan), having secured his position against internal rivals and the Hephthalite Huns, consolidates Sasanid power and begins preparations for a major military campaign against the Eastern Roman Empire. This consolidation of power sets the stage for the invasion of Syria in 540 and the broader Persian-Roman conflicts of the 540s\u2013560s.",
+      "key_figures": [
+        "Khosrow I (Sasanid King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (Persian Wars)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khosrow's consolidation of power is well-documented, though the exact chronology of internal Sasanid politics in 539 is less precise. The invasion of Syria in 540 is well-attested, suggesting preparations in 539.",
+      "cross_references": [
+        "540-002 (invasion of Syria)"
+      ]
+    },
+    {
+      "id": "539-003",
+      "title": "Eastern Wei Dynasty in decline; Gao family consolidates power",
+      "region": "Northern China",
+      "coordinates_approx": "36.00, 114.00",
+      "category": "political",
+      "description": "The Eastern Wei Dynasty, nominally ruling northern China since 534, is increasingly dominated by the Gao family, who hold real military and political power. The Gao family's consolidation of control will lead to the formal establishment of the Northern Qi Dynasty in 550. This period reflects the ongoing fragmentation of China during the Northern and Southern Dynasties.",
+      "key_figures": [
+        "Gao Huan (military strongman)",
+        "Gao Yang (son of Gao Huan)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Wei (Wei Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gao family's rise to power is documented in Chinese historical records, though the precise chronology of events in 539 is less detailed than for later years.",
+      "cross_references": [
+        "550-001 (formal establishment of Northern Qi)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact start date of the siege of Ravenna is sometimes given as 538 or 539 in different sources; 539 is the more widely accepted date. Procopius's account is generally reliable but contains some rhetorical embellishments. The characterization of Khosrow I's consolidation of power in 539 is somewhat speculative; the sources focus more on the invasion of 540 and subsequent events.",
+  "historiographic_note": "The year 539 is moderately well-documented for the Byzantine Empire and Sasanid Persia, primarily through Procopius's accounts. Chinese sources are available but were compiled centuries after the events. Western European sources remain sparse. The historical record is concentrated on the Mediterranean and Near East; other regions are largely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "539-001",
+      "to": "540-001",
+      "relation": "led_to",
+      "note": "The siege of Ravenna begun in 539 concludes with the city's fall in 540."
+    },
+    {
+      "from": "539-002",
+      "to": "540-002",
+      "relation": "led_to",
+      "note": "Khosrow's consolidation of power in 539 enables the invasion of Syria in 540."
+    }
+  ]
+}

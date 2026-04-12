@@ -1,0 +1,113 @@
+{
+  "year": 549,
+  "year_label": "549 CE",
+  "era_context": "Justinian I's reconquest of Italy is in its final, most intense phase. The Ostrogothic Kingdom under Totila is mounting a fierce resistance against Byzantine forces. In Persia, Khosrow I continues his reign of consolidation and expansion. In China, the Eastern Wei Dynasty is in its final year before transition to Northern Qi. In Mesoamerica, Classic Maya civilization remains at a high point of cultural and political development.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "549-001",
+      "title": "Totila's Campaigns Against Byzantine Forces in Italy",
+      "region": "Italy, Roman Empire (Byzantine)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "military",
+      "description": "Totila, King of the Ostrogoths, continues his military campaigns against Byzantine forces in Italy. In 549, Totila is consolidating Gothic control over much of the peninsula, moving toward the siege of Rome that would occur in 550. His strategy involves both direct military confrontation and the capture of key cities and fortifications. Totila's campaigns represent the last major Gothic resistance to Byzantine reconquest.",
+      "key_figures": [
+        "Totila (King of the Ostrogoths)",
+        "Belisarius (Byzantine general)",
+        "Narses (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius of Caesarea, History of the Wars (Book V, covering the Gothic War)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Procopius provides detailed accounts of the Gothic War, but the precise chronology of individual campaigns in 549 is sometimes difficult to extract from his narrative structure.",
+      "cross_references": [
+        "Led to 550-001 (Totila's siege of Rome)"
+      ]
+    },
+    {
+      "id": "549-002",
+      "title": "Nika Riots Aftermath: Constantinople Reconstruction Continues",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "cultural",
+      "description": "In the aftermath of the Nika Riots (532 CE), Constantinople continues its reconstruction and embellishment under Justinian I. The Hagia Sophia, completed in 537, stands as a symbol of Byzantine power and Orthodox Christianity. By 549, the city has recovered from the riots and is experiencing a period of cultural and architectural flourishing. Justinian's building program extends throughout the empire, including fortifications, churches, and public works.",
+      "key_figures": [
+        "Justinian I (Byzantine Emperor)",
+        "Anthemius of Tralles and Isidore of Miletus (architects of Hagia Sophia)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius of Caesarea, On Buildings (De aedificiis)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Malalas, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general context of Justinian's building program is well-attested. Specific projects in 549 are less precisely documented.",
+      "cross_references": [
+        "Part of broader Justinian I reign (527\u2013565)"
+      ]
+    },
+    {
+      "id": "549-003",
+      "title": "Eastern Wei Dynasty in Decline; Gao Family Consolidates Power",
+      "region": "Northern China",
+      "coordinates_approx": "36.0, 115.0",
+      "category": "political",
+      "description": "The Eastern Wei Dynasty (534\u2013550) is in its final year. The Gao family, which has effectively controlled the state through regency, is preparing for the formal transition to the Northern Qi Dynasty. In 549, the Eastern Wei is weakening as the Gao consolidate their power base. This transition reflects broader patterns of military aristocratic families displacing nominal imperial authority in the fragmented Chinese landscape.",
+      "key_figures": [
+        "Gao Yang (future founder of Northern Qi)",
+        "Gao Huan (regent, father of Gao Yang)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Wei (Weishu)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political situation is clear, but specific events in 549 are less detailed in surviving sources.",
+      "cross_references": [
+        "Led to 550-003 (formal establishment of Northern Qi)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. The chronology of Totila's campaigns is generally accepted, though some scholars debate minor details of the sequence and timing of specific engagements.",
+  "historiographic_note": "The year 549 CE is moderately well-documented for the Byzantine Empire and Italy due to Procopius's detailed accounts. Chinese sources are less precise for individual years in this period. Mesoamerican history relies on archaeological evidence and epigraphic dating, which is approximate for specific years. The historical record is heavily weighted toward the Mediterranean world and China; other regions have minimal documentation.",
+  "graph_edges": [
+    {
+      "from": "549-001",
+      "to": "550-001",
+      "relation": "led_to",
+      "note": "Totila's 549 campaigns set the stage for the siege of Rome in 550"
+    },
+    {
+      "from": "549-003",
+      "to": "550-003",
+      "relation": "led_to",
+      "note": "Eastern Wei's decline in 549 led to formal transition to Northern Qi in 550"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "year": 537,
+  "year_label": "537 CE",
+  "era_context": "Justinian I's reconquest of the Western Roman Empire is in full progress, with the Gothic War in Italy ongoing since 535. The Eastern Roman Empire is at its territorial and cultural peak. The Sasanid Empire under Khosrow I is consolidating power. In China, the Eastern Wei Dynasty is in its final years. This is the pre-plague period.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Roman frontier",
+    "Southeast Asia and Oceania"
+  ],
+  "events": [
+    {
+      "id": "537-001",
+      "title": "Hagia Sophia completed in Constantinople",
+      "region": "Constantinople, Eastern Roman Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "cultural",
+      "description": "The Hagia Sophia, the great cathedral of Constantinople commissioned by Justinian I, is completed after approximately five years of construction (532\u2013537). Designed by the mathematicians Anthemius of Tralles and Isidore of Miletus, it is one of the most remarkable architectural achievements of the ancient world, featuring an enormous dome that appears to float above the structure. The building represents the height of Byzantine engineering and artistic achievement and will remain the largest cathedral in Christendom for nearly a thousand years.",
+      "key_figures": [
+        "Justinian I (Eastern Roman Emperor)",
+        "Anthemius of Tralles (architect)",
+        "Isidore of Miletus (architect)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, On Buildings (De Aedificiis)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Malalas, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological and architectural evidence from the structure",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The completion of Hagia Sophia in 537 is well-attested in contemporary sources. Procopius provides detailed descriptions of the building and its construction. The date is confirmed by multiple sources.",
+      "cross_references": []
+    },
+    {
+      "id": "537-002",
+      "title": "Gothic War continues; Belisarius advances in Italy",
+      "region": "Italy, Eastern Roman Empire",
+      "coordinates_approx": "42.50, 12.50",
+      "category": "military",
+      "description": "The Gothic War, which began in 535, continues with Byzantine forces under Belisarius making steady progress against the Ostrogoths. By 537, much of Italy has been brought under Byzantine control, though the Ostrogothic king Totila continues to resist. The war is in its middle phase, with the outcome still uncertain.",
+      "key_figures": [
+        "Belisarius (Byzantine general)",
+        "Totila (Ostrogothic king)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (De Bellis)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Procopius provides detailed accounts of the Gothic War's progression. The year 537 falls within the well-documented middle phase of the conflict.",
+      "cross_references": [
+        "535-001 (start of Gothic War)",
+        "540-001 (siege of Ravenna)"
+      ]
+    },
+    {
+      "id": "537-003",
+      "title": "Nika Riots aftermath; Constantinople stabilized",
+      "region": "Constantinople, Eastern Roman Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "Two years after the devastating Nika Riots of 532, Constantinople has been rebuilt and stabilized under Justinian I. The riots, which killed tens of thousands and nearly toppled the emperor, are now a memory, and the city is experiencing a period of relative peace and prosperity. The completion of Hagia Sophia in 537 symbolizes this recovery and Justinian's triumph over the crisis.",
+      "key_figures": [
+        "Justinian I (Eastern Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars and On Buildings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Malalas, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The stabilization of Constantinople after the Nika Riots is well-documented. The year 537 is characterized as a period of recovery and reconstruction.",
+      "cross_references": [
+        "532-001 (Nika Riots)"
+      ]
+    },
+    {
+      "id": "537-004",
+      "title": "Eastern Wei Dynasty in decline; Gao family consolidates power",
+      "region": "Northern China",
+      "coordinates_approx": "36.00, 114.00",
+      "category": "political",
+      "description": "The Eastern Wei Dynasty continues its decline as the Gao family consolidates power. The dynasty will formally end in 550 with the establishment of the Northern Qi Dynasty. This period reflects the ongoing political fragmentation of China during the Northern and Southern Dynasties.",
+      "key_figures": [
+        "Gao Huan (military strongman)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Eastern Wei is documented in Chinese historical records, though the specific events of 537 are not detailed.",
+      "cross_references": [
+        "550-001 (establishment of Northern Qi)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The completion date of Hagia Sophia is traditionally given as 537, but some sources suggest the building may not have been fully completed or dedicated until later. Procopius's account is generally reliable, but the exact date of completion versus dedication may differ. The characterization of Constantinople's stabilization after the Nika Riots is based on Procopius's narrative, which emphasizes Justinian's triumph but may not capture the full extent of ongoing social tensions.",
+  "historiographic_note": "The year 537 is well-documented for the Byzantine Empire, primarily through Procopius's detailed accounts. The completion of Hagia Sophia is one of the most significant events of the era and is extensively documented. Chinese sources are available but were compiled centuries later. Western European sources remain sparse. The historical record is heavily weighted toward the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "537-001",
+      "to": "541-002",
+      "relation": "contemporary_with",
+      "note": "Hagia Sophia's completion represents the height of Byzantine cultural achievement, which will be tested by the plague's arrival in 541."
+    },
+    {
+      "from": "537-002",
+      "to": "540-001",
+      "relation": "led_to",
+      "note": "The ongoing Gothic War in 537 continues toward the siege of Ravenna in 539\u2013540."
+    },
+    {
+      "from": "537-003",
+      "to": "537-001",
+      "relation": "contemporary_with",
+      "note": "The completion of Hagia Sophia symbolizes Constantinople's recovery from the Nika Riots."
+    }
+  ]
+}
