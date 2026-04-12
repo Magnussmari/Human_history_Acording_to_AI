@@ -1,0 +1,115 @@
+{
+  "year": 459,
+  "year_label": "459 BCE",
+  "era_context": "Classical Greece continues in the early Classical period. Athens is at the height of its imperial expansion under Cimon and the emerging influence of Pericles. The Delian League is consolidating Athenian control over the Aegean. Sparta and Athens have not yet entered into direct conflict, though tensions are rising. Egypt remains under Persian control with ongoing instability. China's Spring and Autumn period continues with fragmented states.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "India (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "459-001",
+      "title": "Continuation of Athenian Egyptian campaign",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "The Athenian expedition to Egypt, dispatched in 460 BCE, continues its operations against Persian-held territory. The campaign maintains momentum, with Athenian forces supporting the Egyptian rebel Inarus. However, the campaign is logistically overextended and will face increasing Persian resistance. This year represents the midpoint of what will become a costly and ultimately failed venture.",
+      "key_figures": [
+        "Cimon (Athenian commander)",
+        "Inarus (Egyptian rebel leader)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1.104",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 11",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of the campaign is inferred from the broader chronology of the expedition (460\u2013454 BCE). No specific events are recorded for 459 BCE itself.",
+      "cross_references": [
+        "460-001 (initiation of campaign)",
+        "454-001 (catastrophic conclusion)"
+      ]
+    },
+    {
+      "id": "459-002",
+      "title": "Athenian naval operations in the Aegean and Cyprus",
+      "region": "Aegean Sea, Cyprus",
+      "coordinates_approx": "37.0, 25.0",
+      "category": "military",
+      "description": "While the main Athenian force is engaged in Egypt, secondary Athenian naval squadrons continue operations in the Aegean and Cyprus, consolidating control over the Delian League and securing maritime routes. These operations are less dramatic than the Egyptian campaign but represent the steady expansion of Athenian naval hegemony.",
+      "key_figures": [
+        "Athenian naval commanders (names not preserved)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1.98\u2013104",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides attests to ongoing Athenian naval activity in this period but does not provide year-by-year detail. The assignment to 459 BCE is conventional.",
+      "cross_references": [
+        "460-001 (broader context of Athenian expansion)"
+      ]
+    },
+    {
+      "id": "459-003",
+      "title": "Tensions between Athens and Sparta escalate",
+      "region": "Greece (Athens and Sparta)",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Growing Athenian imperial ambitions and democratic reforms create friction with Sparta, the conservative land power. Sparta views Athens' expansion with alarm and begins to see the Delian League as a threat to its own hegemony. These tensions will culminate in the First Peloponnesian War (461\u2013446 BCE), which may have begun by this year or shortly after.",
+      "key_figures": [
+        "Ephialtes (Athenian democratic leader)",
+        "Pericles (Athenian political leader)",
+        "Spartan ephors and kings (names not specified in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1.102\u2013103",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of tensions is well-documented, but the precise chronology is debated. Some scholars place the outbreak of the First Peloponnesian War in 461 BCE, others in 459 BCE.",
+      "cross_references": [
+        "461-001 (broader political context)",
+        "446-001 (Peace of Callias and end of First Peloponnesian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of specific events in 459 BCE is highly uncertain. Thucydides does not provide a year-by-year narrative for this period, and later sources are often contradictory. The outbreak of the First Peloponnesian War is variously dated to 461, 459, or 457 BCE by different scholars. No major events are definitively attested to 459 BCE specifically; the entries above represent inferences from the broader chronology.",
+  "historiographic_note": "The historical record for 459 BCE is sparse and largely reconstructed from Thucydides' summary narrative and later compilations. No contemporary Athenian inscriptions or documents are known to survive for this specific year. The Egyptian perspective is almost entirely absent from Greek sources. The dating of events in this period is conventional and subject to significant scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "459-001",
+      "to": "454-001",
+      "relation": "led_to",
+      "note": "The Egyptian campaign continues toward its eventual failure"
+    },
+    {
+      "from": "459-003",
+      "to": "461-001",
+      "relation": "contemporary_with",
+      "note": "Tensions between Athens and Sparta are part of the broader political context"
+    }
+  ]
+}

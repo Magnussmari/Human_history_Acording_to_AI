@@ -1,0 +1,125 @@
+{
+  "year": 463,
+  "year_label": "463 CE",
+  "era_context": "The Eastern Roman Empire under Emperor Leo I is stable but facing external threats from the Vandals and Persians. The Western Roman Empire has effectively ceased to exist as a political entity; Germanic kingdoms control former Roman territories. In China, the Northern Wei Dynasty continues its decline, while the Southern Dynasties (Liu Song, Southern Qi) compete for control of southern China. This is the high period of late antiquity, characterized by religious ferment, economic contraction in the west, and the consolidation of successor states.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine and Danube",
+    "Central Asia and the Silk Road",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "463-001",
+      "title": "Byzantine-Vandal tensions and naval operations in the Mediterranean",
+      "region": "Mediterranean Sea, Eastern Roman Empire",
+      "coordinates_approx": "36.0, 15.0",
+      "category": "military",
+      "description": "The Eastern Roman Empire continues to face pressure from the Vandal Kingdom's naval dominance. Emperor Leo I authorizes military operations to counter Vandal piracy and territorial expansion. The Byzantine navy, while weakened compared to earlier periods, remains a significant force. The year 463 falls within a period of escalating tensions that will culminate in the major Byzantine-Vandal War of 468. The Vandals, under King Gaiseric, control North Africa and use their naval superiority to raid Roman territories and disrupt trade.",
+      "key_figures": [
+        "Leo I (Byzantine emperor)",
+        "Gaiseric (Vandal king)",
+        "Aspar (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Victor of Vita, History of the Persecution of the Vandals",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The pattern of Byzantine-Vandal conflict in the 460s is well documented. Specific events in 463 are less precisely dated.",
+      "cross_references": [
+        "Part of the broader Byzantine-Vandal Wars (455\u2013534)",
+        "Leads to the major Byzantine-Vandal War of 468"
+      ]
+    },
+    {
+      "id": "463-002",
+      "title": "Northern Wei Dynasty: Emperor Wencheng's reign and sinicization policies",
+      "region": "Northern China (Northern Wei territory)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "cultural",
+      "description": "Emperor Wencheng of the Northern Wei Dynasty (r. 452\u2013465) continues his policies of sinicization, adopting Han Chinese administrative practices and cultural norms. This policy creates tension with the Xianbei military aristocracy, who fear the loss of their cultural identity and military dominance. The year 463 falls within a period of cultural and political transition in the Northern Wei, as the dynasty attempts to balance Xianbei military traditions with Han Chinese bureaucratic sophistication. The sinicization policies will contribute to the dynasty's eventual fragmentation.",
+      "key_figures": [
+        "Emperor Wencheng of Northern Wei (r. 452\u2013465)"
+      ],
+      "sources": [
+        {
+          "name": "Wei Shu (History of the Wei Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Wencheng's reign and his sinicization policies are well documented in Chinese historical sources. Specific events in 463 are less precisely dated.",
+      "cross_references": [
+        "Part of the Northern Wei Dynasty's cultural transformation (439\u2013534)",
+        "Related to the Northern Wei's eventual fragmentation (534)"
+      ]
+    },
+    {
+      "id": "463-003",
+      "title": "Liu Song Dynasty: political instability and military decline in southern China",
+      "region": "Southern China (Liu Song territory)",
+      "coordinates_approx": "32.0, 118.8",
+      "category": "political",
+      "description": "The Liu Song Dynasty, which had ruled southern China since 420 CE, is in its final years (it will fall in 479 CE). The dynasty is weakened by court intrigues, factional strife, and the rise of military strongmen. Emperor Xiaowu of Liu Song (r. 454\u2013464) is in power, but his authority is contested. The year 463 falls within a period of decline for the Liu Song, as the Southern Qi Dynasty gains strength and prepares to supplant it.",
+      "key_figures": [
+        "Emperor Xiaowu of Liu Song (r. 454\u2013464)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shu (History of the Liu Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Liu Song Dynasty's decline in the 460s is well documented. Specific events in 463 are less precisely dated.",
+      "cross_references": [
+        "Part of the Liu Song Dynasty's decline (420\u2013479)",
+        "Leads to the Liu Song's fall in 479"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Northern Wei's sinicization often presents it as a linear process of cultural assimilation; however, modern scholarship (particularly work by Dien and Holcombe) emphasizes the resistance and complexity of this process, with significant Xianbei cultural persistence and periodic reversals of sinicization policies. Additionally, the extent to which sinicization directly caused the Northern Wei's fragmentation is debated; some scholars emphasize military and economic factors more than cultural ones.",
+  "historiographic_note": "The historical record for 463 CE is similar to that of 464 and 465: dominated by Byzantine and Chinese sources, with sparse Western European documentation. The year 463 is less precisely documented than 465, as it lacks the dramatic event of Leo I's death. Archaeological evidence is minimal. The bias toward political and military history means that economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "463-001",
+      "to": "468-001",
+      "relation": "led_to",
+      "note": "Byzantine-Vandal tensions in 463 lead to the major Byzantine-Vandal War of 468"
+    },
+    {
+      "from": "463-002",
+      "to": "534-001",
+      "relation": "led_to",
+      "note": "Northern Wei sinicization policies in 463 contribute to the dynasty's fragmentation in 534"
+    },
+    {
+      "from": "463-003",
+      "to": "479-001",
+      "relation": "led_to",
+      "note": "Liu Song political instability in 463 leads to the dynasty's fall in 479"
+    }
+  ]
+}
