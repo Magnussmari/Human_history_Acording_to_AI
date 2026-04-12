@@ -1,0 +1,87 @@
+{
+  "year": -1705,
+  "year_label": "1706 BCE",
+  "era_context": "The Middle Bronze Age (MBA) in the Levant and Egypt; the Old Babylonian period in Mesopotamia under Hammurabi's successors; the Shang dynasty in early China; the Minoan civilization at its height in Crete. This is a period of established state formation, long-distance trade networks, and the consolidation of early legal codes.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written records)",
+    "Central Asia (limited contemporary sources)",
+    "Oceania (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-1705-001",
+      "title": "Reign of Hammurabi continues; consolidation of Babylonian hegemony",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Hammurabi (r. c. 1792\u20131750 BCE) continues his military campaigns and administrative consolidation. By this period, Babylon has become the dominant power in southern Mesopotamia, having defeated rivals including Larsa and Eshnunna. The Code of Hammurabi, one of the earliest written legal codes, was likely compiled and promulgated during this reign, though the exact year remains debated. This represents a major shift toward centralized, written law.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Code of Hammurabi (stele and clay copies)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old Babylonian administrative texts and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's reign is well-attested, but the exact year of promulgation of the Code is debated among scholars (estimates range c. 1754\u20131750 BCE). The year -1705 falls within his reign but the specific events of this year are not individually documented.",
+      "cross_references": [
+        "Follows from broader Old Babylonian period consolidation"
+      ]
+    },
+    {
+      "id": "-1705-002",
+      "title": "Minoan Crete at height of prosperity; palace complexes active",
+      "region": "Crete, Eastern Mediterranean",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "cultural",
+      "description": "The Minoan civilization of Crete is in its Middle Minoan III period (c. 1700\u20131550 BCE), characterized by elaborate palace complexes at Knossos, Phaistos, and Malia. These centers served administrative, religious, and economic functions. Minoan pottery, frescoes, and maritime trade networks are at their height. The civilization shows no evidence of fortifications, suggesting relative peace and prosperity.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Knossos, Phaistos, Malia (Evans, Hazzidakis, Giamalakis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Minoan pottery and fresco analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Middle Minoan III period is well-established archaeologically through stratigraphy and pottery typology. Absolute dating relies on Egyptian synchronisms and radiocarbon, with \u00b150-year margins typical for this era.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Hammurabi's reign and the promulgation of his Code remains contested. Some scholars place Hammurabi's reign in the 17th century BCE rather than the 18th, which would shift the significance of events attributed to this year. Additionally, the 'Minoan prosperity' narrative has been complicated by recent scholarship suggesting periodic disruptions and environmental stress (volcanic activity, climate variation) that may have been more significant than earlier accounts acknowledged.",
+  "historiographic_note": "Documentation for -1705 is heavily skewed toward Mesopotamia and the Eastern Mediterranean, where written records and extensive archaeology exist. Mesopotamian sources are primarily administrative texts and later king lists; contemporary narrative accounts are rare. Egyptian records for this period are sparse. Sub-Saharan Africa, Northern Europe, and most of Asia have no written records for this year; knowledge of these regions relies entirely on archaeology, which is unevenly distributed. The 'significance' of events listed reflects the geographic bias of surviving sources rather than objective historical importance.",
+  "graph_edges": [
+    {
+      "from": "-1705-001",
+      "to": "-1750-XXX",
+      "relation": "part_of",
+      "note": "Hammurabi's reign spans c. 1792\u20131750 BCE; this year falls within that period"
+    },
+    {
+      "from": "-1705-002",
+      "to": "-1550-XXX",
+      "relation": "led_to",
+      "note": "Minoan prosperity of this period ends with the Thera eruption and subsequent decline c. 1550 BCE"
+    }
+  ]
+}

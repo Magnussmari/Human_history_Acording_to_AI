@@ -1,0 +1,74 @@
+{
+  "year": -1701,
+  "year_label": "1701 BCE",
+  "era_context": "Continuation of the Middle Bronze Age. The Old Babylonian period was in its final decades under the successors of Hammurabi (who died c. 1750 BCE). The Hittite Old Kingdom was expanding in Anatolia. Egypt remained fragmented in the Second Intermediate Period. The Indus Valley civilization was in its final urban phase or early post-urban transition. Mycenaean Greece was in the Early Bronze Age III, with early palace complexes beginning to emerge.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "The Americas",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-1701-001",
+      "title": "Old Babylonian Empire in decline; regional fragmentation in Mesopotamia",
+      "region": "Mesopotamia (modern Iraq and Syria)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "The Old Babylonian Empire, which had reached its zenith under Hammurabi (r. 1792\u20131750 BCE), was fragmenting after his death. His successors lacked his military and administrative prowess. Regional powers\u2014the Kassites to the east, the Amorite kingdoms to the north and west, and the Sealand Dynasty in the south\u2014were encroaching on Babylonian territory. By -1701, Babylon controlled only a fraction of its former domain. This decline would culminate in the Kassite conquest of Babylon around 1600 BCE.",
+      "key_figures": [
+        "Samsu-iluna (Hammurabi's son, r. c. 1749\u20131712 BCE, reigning during this period)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and chronicles (Babylonian Chronicle P, ABC 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts and letters from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Babylon is well-attested in cuneiform sources. Samsu-iluna's reign is dated c. 1749\u20131712 BCE, placing -1701 in his middle years. Exact dating varies by \u00b110\u201320 years depending on chronological system.",
+      "cross_references": []
+    },
+    {
+      "id": "-1701-002",
+      "title": "Hittite military campaigns in northern Syria and Mesopotamia",
+      "region": "Anatolia, northern Syria, and Mesopotamia",
+      "coordinates_approx": "37.0, 36.0",
+      "category": "military",
+      "description": "The Hittite Old Kingdom, under kings such as Hantili I and his successors, conducted military campaigns to expand influence into northern Syria and contest Babylonian and Amorite power. These campaigns were part of a broader pattern of Hittite expansion that would continue through the 17th century BCE. The Hittites were establishing themselves as a major military power, though detailed records of specific campaigns in -1701 are not preserved.",
+      "key_figures": [
+        "Hantili I or his successor (exact ruler uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Later Hittite annals and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite expansion in this period is attested, but specific campaigns and their dating are poorly preserved. Assignment to -1701 is conventional rather than based on contemporary documentation.",
+      "cross_references": [
+        "-1701-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of the Old Babylonian period is contested. Some scholars use a 'low chronology' that places Hammurabi's reign c. 1728\u20131686 BCE, while others use a 'middle chronology' (c. 1792\u20131750 BCE) or 'high chronology' (c. 1848\u20131806 BCE). This affects the dating of Samsu-iluna's reign and the pace of Babylon's decline. The causes of Babylonian decline are debated: some emphasize external military pressure, others internal administrative failure or climate stress.",
+  "historiographic_note": "Documentation for -1701 relies almost entirely on cuneiform texts from Mesopotamia and later Hittite sources. Egyptian records are sparse for this period. The Indus Valley is known only through archaeology. The historical record is heavily weighted toward political and military events recorded by elites; economic, social, and cultural developments are less well-documented. Chronological uncertainty of \u00b150 years is typical for this period.",
+  "graph_edges": [
+    {
+      "from": "-1701-001",
+      "to": "-1701-002",
+      "relation": "contemporary_with",
+      "note": "Babylonian decline and Hittite expansion were concurrent, with the Hittites benefiting from Mesopotamian fragmentation."
+    }
+  ]
+}

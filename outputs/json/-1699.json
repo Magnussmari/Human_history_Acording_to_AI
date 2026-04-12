@@ -1,0 +1,121 @@
+{
+  "year": -1699,
+  "year_label": "1700 BCE",
+  "era_context": "The Middle Bronze Age in the Eastern Mediterranean and Near East. The Old Babylonian period under Hammurabi's successors in Mesopotamia; the Middle Kingdom in Egypt under the 12th Dynasty (ending ~1650 BCE); the Minoan civilization flourishing on Crete; Indo-European migrations reshaping the Anatolian and Steppe regions. Writing systems (cuneiform, hieroglyphic, Linear A) are well-established. Long-distance trade networks connect Egypt, Mesopotamia, the Levant, Anatolia, and the Aegean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse in training data)",
+    "East Asia (Shang dynasty emerging in China, but detailed year-by-year records absent)",
+    "Americas (no written records; archaeological dating imprecise for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1699-001",
+      "title": "Reign of Samsu-iluna, King of Babylon",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-iluna (r. ~1749\u20131712 BCE) continues the Old Babylonian dynasty established by his father Hammurabi. This year falls within his reign, a period marked by military campaigns against the Kassites and other neighboring powers, and by the gradual erosion of Babylonian territorial control. His reign saw the composition and circulation of copies of Hammurabi's Code, cementing its cultural legacy. The political stability of the Old Babylonian state was increasingly challenged by external pressures.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets and inscriptions from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign dates are established by Mesopotamian chronology (Middle Chronology places him ~1749\u20131712 BCE), but year-by-year events are rarely attested. This year is assigned to his reign by chronological convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-1699-002",
+      "title": "Middle Kingdom Egypt under Amenemhat III",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III (r. ~1860\u20131814 BCE, 12th Dynasty) is in the latter part of his long reign, one of the most prosperous and culturally productive periods of the Middle Kingdom. He undertakes extensive building projects, including the Labyrinth at Hawara and temples at Dendera and Medamud. Trade with Nubia, the Levant, and the Aegean is robust. His reign represents the apex of Middle Kingdom stability and artistic achievement before the fragmentation of the Second Intermediate Period.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Abydos, Turin Papyrus)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hawara, Dendera, and Medamud",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenemhat III's reign is well-attested in Egyptian records. Absolute dating relies on astronomical calculations and radiocarbon; the Middle Chronology places him ~1860\u20131814 BCE, but \u00b150-year uncertainty remains.",
+      "cross_references": []
+    },
+    {
+      "id": "-1699-003",
+      "title": "Minoan Civilization at Peak (Crete)",
+      "region": "Crete and the Aegean",
+      "coordinates_approx": "35.3, 25.1",
+      "category": "cultural",
+      "description": "The Minoan civilization on Crete is at or near its height during the Middle Minoan III period (c. 1700\u20131550 BCE). Palaces at Knossos, Phaistos, and Malia are centers of administrative, religious, and economic activity. Linear A script is in use for administrative purposes. Minoan pottery, frescoes, and maritime trade networks extend throughout the Eastern Mediterranean. The society is characterized by apparent gender-balanced religious practices and a sophisticated urban culture without monumental fortifications.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Knossos, Phaistos, and Malia (Evans, Pernier, Hazzidakis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear A inscriptions (undeciphered, but datable by stratigraphy)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Minoan pottery and frescoes (stratigraphy and typology)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Minoan civilization's chronology is based on stratigraphic sequences, pottery typology, and cross-dating with Egyptian chronology. Absolute dating \u00b150\u2013100 years; this year is assigned to the Middle Minoan III period by convention.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Minoan civilization and its synchronization with Egyptian chronology remains contested. Some scholars argue for a 'Low Chronology' that would place the peak of Minoan civilization ~100\u2013150 years later than the Middle Chronology used here. The nature of Minoan political organization (whether centralized or a loose confederation of palace centers) is debated. The absence of monumental fortifications has been interpreted as evidence of peace, but some scholars argue it reflects different defensive strategies or that fortifications have simply not been archaeologically identified.",
+  "historiographic_note": "This year falls in a period with moderate documentation. Egyptian records are abundant and relatively reliable; Mesopotamian cuneiform provides administrative detail but rarely year-by-year narrative. The Minoan civilization left no deciphered written records (Linear A remains undeciphered), so understanding relies entirely on archaeology. The chronology of this period is anchored to Egyptian king lists and astronomical calculations, but absolute dating carries \u00b150\u2013100 year uncertainty. The historical record is biased toward elite activities (palaces, temples, trade) and toward regions with writing systems or intensive archaeological investigation. Sub-Saharan Africa, East Asia, and the Americas are essentially absent from the historical record at this date.",
+  "graph_edges": [
+    {
+      "from": "-1699-001",
+      "to": "-1700-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-iluna's reign spans multiple years; this is a continuous political entity."
+    },
+    {
+      "from": "-1699-002",
+      "to": "-1700-002",
+      "relation": "contemporary_with",
+      "note": "Amenemhat III's reign spans multiple years; this is a continuous political entity."
+    },
+    {
+      "from": "-1699-003",
+      "to": "-1700-003",
+      "relation": "contemporary_with",
+      "note": "The Minoan civilization is a continuous cultural phenomenon spanning centuries."
+    }
+  ]
+}

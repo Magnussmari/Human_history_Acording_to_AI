@@ -1,0 +1,109 @@
+{
+  "year": -1700,
+  "year_label": "1700 BCE",
+  "era_context": "The Middle Bronze Age across the Eastern Mediterranean and Near East. The Old Babylonian Empire under Hammurabi's successors was in decline; the Hittite Old Kingdom was consolidating power in Anatolia. Egypt was in the Second Intermediate Period, with the Middle Kingdom having collapsed and regional fragmentation underway. In the Indus Valley, the mature Harappan civilization was in its final phases. The Mycenaean culture was emerging in Greece. This was a period of significant population movement, state formation, and the spread of Indo-European languages.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse settlement evidence)",
+    "Southeast Asia (limited contemporary documentation)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1700-001",
+      "title": "Decline of the Indus Valley Civilization (Harappan Phase III-IV transition)",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "demographic",
+      "description": "The mature Harappan civilization, which had flourished for nearly 1,000 years, entered a period of marked decline and fragmentation. Urban centers were abandoned or contracted, standardized weights and measures fell out of use, and long-distance trade networks collapsed. The causes remain debated\u2014climate change (weakening of the monsoon), tectonic shifts affecting river systems, or internal social stress. Population dispersed into smaller settlements in Gujarat and the Ganges valley. This transition marks the end of the Bronze Age urban phase in South Asia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mohenjo-daro, Harappa, and Dholavira excavations",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic data (monsoon weakening) from sediment cores and paleobotanical analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline is archaeologically well-attested, but the precise dating and causation remain contested. The transition is typically placed around 1900\u20131700 BCE; assignment to -1700 is conventional.",
+      "cross_references": []
+    },
+    {
+      "id": "-1700-002",
+      "title": "Hittite consolidation under the Old Kingdom",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 34.0",
+      "category": "political",
+      "description": "The Hittite Old Kingdom, centered at Hattusa, was consolidating territorial control over central Anatolia and establishing itself as a major regional power. Kings such as Hantili I and his successors expanded Hittite influence through military campaigns and diplomatic marriages. The kingdom adopted cuneiform writing and Babylonian administrative practices, blending them with Indo-European political structures. This period saw the emergence of the Hittites as a serious rival to Egypt and Babylon.",
+      "key_figures": [
+        "Hantili I (Hittite king, r. c. 1650\u20131620 BCE, but Old Kingdom consolidation spans this period)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Hittite Laws (KBo VI 26), preserved in cuneiform",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Later Hittite chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process is attested in later Hittite texts and inscriptions. Precise dating of individual reigns in the Old Kingdom remains uncertain; chronologies vary by \u00b150\u2013100 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1700-003",
+      "title": "Egypt's Second Intermediate Period: fragmentation and Asiatic settlement",
+      "region": "Egypt and the Levant",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Following the collapse of the Middle Kingdom (c. 1650 BCE), Egypt entered a period of political fragmentation. Central authority weakened, and the Nile Delta saw increasing settlement by Asiatic peoples, later called the Hyksos (likely Levantine and Syrian groups). These settlers gradually gained power in the north, eventually establishing the 15th Dynasty. The south remained under native Egyptian control (13th\u201317th Dynasties). This period saw cultural mixing, the introduction of new technologies (horse-drawn chariots, composite bows), and significant demographic change.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos king list)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Delta sites (Tell el-Dab'a, Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation is well-attested archaeologically and in later Egyptian records. Dating of the transition varies; -1700 is a conventional marker for the advanced Second Intermediate Period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise causation of Harappan decline is disputed: some scholars emphasize climate change and monsoon failure; others argue for internal social collapse or invasion. No archaeological evidence of violent destruction supports invasion theories at most sites. The identity and origins of the Hyksos remain debated\u2014they are not necessarily a unified 'invasion' but rather gradual settlement and assimilation. Egyptian chronology for this period is contested, with some scholars proposing dates 100\u2013150 years earlier or later than the conventional framework.",
+  "historiographic_note": "Documentation for -1700 is heavily skewed toward the Near East and Egypt, where written records and extensive archaeology exist. The Indus Valley is known primarily through archaeology, with no deciphered contemporary writing. Greece, Anatolia, and the Levant are better documented through archaeology than contemporary texts. Sub-Saharan Africa, northern Europe, and the Americas are essentially absent from the historical record at this date, though settlement and cultural development were occurring. The surviving sources are often elite-focused (royal inscriptions, king lists) and may obscure broader social and economic realities.",
+  "graph_edges": [
+    {
+      "from": "-1700-001",
+      "to": "-1700-003",
+      "relation": "contemporary_with",
+      "note": "Both the Harappan decline and Egyptian fragmentation occurred during the same broad period of climate stress and state collapse in the early 2nd millennium BCE."
+    },
+    {
+      "from": "-1700-002",
+      "to": "-1700-003",
+      "relation": "contemporary_with",
+      "note": "Hittite consolidation and Egyptian fragmentation were concurrent processes reshaping the Near Eastern political landscape."
+    }
+  ]
+}
