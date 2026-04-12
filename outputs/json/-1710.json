@@ -1,0 +1,80 @@
+{
+  "year": -1710,
+  "year_label": "1711 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom period in Egypt is ending (c. 1786 BCE), with the Second Intermediate Period beginning. In Mesopotamia, the Old Babylonian period is in its final phase under Hammurabi's successors. The Hittite Old Kingdom is not yet established. In the Indus Valley Civilization, the mature phase is declining. China's Xia Dynasty (traditional dating) or early Shang Dynasty is in its formative period, though dating remains highly contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Mesoamerica (no written records; archaeological record is sparse)",
+    "Northern Europe (no written records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1710-001",
+      "title": "Reign of Samsu-iluna of Babylon (approximate period)",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Samsu-iluna, son of Hammurabi, ruled Babylon during a period of territorial contraction and internal instability. His reign saw the loss of southern Mesopotamian territories to the Sealand Dynasty and pressure from Kassite groups to the east. The Old Babylonian state was fragmenting, marking the transition toward the Kassite period. His military campaigns were less successful than his father's, and the empire's reach diminished significantly.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation, 1st millennium BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-iluna's reign is traditionally dated c. 1750\u20131712 BCE, but absolute chronology for this period remains contested. The \u00b120-year uncertainty reflects ongoing debate between 'high' and 'low' chronologies.",
+      "cross_references": []
+    },
+    {
+      "id": "-1710-002",
+      "title": "Decline of the Indus Valley Civilization (mature phase ending)",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "demographic",
+      "description": "By 1710 BCE, the mature phase of the Indus Valley Civilization (c. 2600\u20131900 BCE) was in its final stages of decline. Major urban centers like Harappa and Mohenjo-daro were being abandoned or significantly reduced in population. The causes remain debated: climate change (reduced monsoon precipitation), tectonic activity, or internal socio-economic factors. This marks the transition to the Late Harappan phase, characterized by smaller settlements and loss of standardized urban planning.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic data (sediment cores, tree rings)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the mature Indus civilization is archaeologically well-attested, though the precise dating and causation remain subjects of scholarly debate. The transition is placed c. 1900\u20131700 BCE by most scholars.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Samsu-iluna's reign (c. 1750\u20131712 BCE) is based on the Babylonian King List, which contains inflated reign lengths and is not contemporary. Modern scholars debate whether the 'high chronology' (placing Hammurabi c. 1792\u20131750 BCE) or 'low chronology' (c. 1696\u20131654 BCE) is correct, creating \u00b1100-year uncertainty for this entire period. The causes of Indus Valley decline are disputed: some scholars emphasize climate change, others point to tectonic subsidence or invasion, and still others argue for gradual socio-economic transformation rather than 'collapse.'",
+  "historiographic_note": "Documentation for 1710 BCE is extremely limited. Mesopotamian evidence comes from administrative texts and later king lists, which are biased toward political elites and may contain chronological distortions. The Indus Valley evidence is purely archaeological, with no contemporary written records (the Indus script remains undeciphered). Egyptian records from this period are sparse due to the Second Intermediate Period's political fragmentation. The entire chronology of the early 2nd millennium BCE remains contested among scholars, with competing 'high,' 'middle,' and 'low' chronologies creating uncertainty of \u00b150\u2013100 years. Non-Mediterranean and non-Mesopotamian regions are almost entirely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-1710-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign led to the fragmentation of the Old Babylonian state and the rise of the Kassite dynasty"
+    },
+    {
+      "from": "-1710-002",
+      "to": "-1700-002",
+      "relation": "part_of",
+      "note": "The decline of the Indus Valley Civilization was a multi-century process spanning the late 2nd millennium BCE"
+    }
+  ]
+}

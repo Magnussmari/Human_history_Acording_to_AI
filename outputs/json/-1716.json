@@ -1,0 +1,83 @@
+{
+  "year": -1716,
+  "year_label": "1717 BCE",
+  "era_context": "Middle Bronze Age in the Levant and Egypt's 13th Dynasty. Mesopotamia is in the late Old Babylonian period under Samsu-iluna. The Indus Valley Civilisation continues in its mature phase. In China, the traditional Xia dynasty is claimed by later sources, though archaeological evidence for this specific year is absent. The Hittite Old Kingdom has not yet emerged in Anatolia; the region is fragmented among smaller polities.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Oceania and Pacific",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia (limited archaeological dating precision)"
+  ],
+  "events": [
+    {
+      "id": "-1716-001",
+      "title": "Continued reign of Samsu-iluna; administrative consolidation in Babylon",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4218",
+      "category": "political",
+      "description": "Samsu-iluna's reign continued during this year, with evidence of administrative activity in cuneiform tablets. The king issued edicts and managed the remaining territories of Babylon, though the empire was contracting. Pressure from the Kassites in the Zagros and the Sea-Land dynasty in southern Mesopotamia was mounting, but Babylon maintained its core territories and cultural influence.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-iluna's reign is conventionally dated c. 1750\u20131712 BCE. This year falls within that range, but absolute chronology remains uncertain by \u00b15\u201310 years.",
+      "cross_references": [
+        "-1715-001"
+      ]
+    },
+    {
+      "id": "-1716-002",
+      "title": "13th Dynasty Egypt: administrative fragmentation and regional autonomy",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt, which ruled from c. 1795\u20131650 BCE, was characterised by weak central authority and the rise of regional governors (nomarchs) with increasing autonomy. By this year, the dynasty had lost control of Nubia and was struggling to maintain authority in Upper Egypt. The Delta was increasingly populated by Asiatic settlers. The dynasty produced numerous short-reigned kings, suggesting political instability and possibly competing claims to the throne.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus of Turin)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Thebes and Memphis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 13th Dynasty's chronology is debated; some scholars place it earlier or later. The general pattern of fragmentation is well-attested archaeologically, but precise dating of individual reigns is uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 13th Dynasty's chronology is one of the most contested periods in Egyptian history. Some scholars (e.g., Krauss) argue for a much earlier date (c. 1850\u20131700 BCE), while others place it later. The number of kings and their sequence is also debated. The traditional narrative of a 'weak' 13th Dynasty may overstate the degree of collapse; recent scholarship suggests more continuity and administrative competence than once thought.",
+  "historiographic_note": "Written sources for this year are extremely limited. Mesopotamian evidence comes from administrative tablets; Egyptian evidence is fragmentary and often undated. The archaeological record provides the most reliable information about settlement patterns, trade, and material culture. The absence of monumental inscriptions from this period in Egypt reflects either genuine political weakness or the loss of records over time. Bias toward literate elites means that the majority of the population is invisible in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-1716-001",
+      "to": "-1715-001",
+      "relation": "contemporary_with",
+      "note": "Same reign and period as -1715-001."
+    },
+    {
+      "from": "-1716-002",
+      "to": "-1650-002",
+      "relation": "led_to",
+      "note": "The fragmentation of the 13th Dynasty led to the emergence of the Hyksos 15th Dynasty in the Delta."
+    }
+  ]
+}

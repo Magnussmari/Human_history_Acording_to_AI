@@ -1,0 +1,80 @@
+{
+  "year": -1715,
+  "year_label": "1716 BCE",
+  "era_context": "The Middle Bronze Age (MB IIB\u2013C) in the Levant and Egypt's Second Intermediate Period. In Mesopotamia, the Old Babylonian period is in decline; Hammurabi's dynasty (18th century BCE) has passed, and regional fragmentation is increasing. In Egypt, the 13th Dynasty is weakening, with decentralised rule and Asiatic (Hyksos) infiltration beginning in the Delta. The Indus Valley Civilisation is in its late mature phase. In China, the Xia dynasty (traditional dating) or early Shang period is claimed by later sources, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "Oceania and Pacific (no written records; archaeological dating imprecise)",
+    "Northern Europe (pre-literate; archaeological record fragmented)",
+    "Mesoamerica (no written records; archaeological dating uncertain for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1715-001",
+      "title": "Reign of Samsu-iluna of Babylon (traditional endpoint or continuation)",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4218",
+      "category": "political",
+      "description": "Samsu-iluna, son of Hammurabi, ruled Babylon during a period of territorial contraction and internal instability. By this year, Babylon's grip on its empire was weakening due to pressure from the Kassites to the east and the Sea-Land dynasty in the south. The reign marks the transition from the height of Old Babylonian power to fragmentation. His death or near-death occurred around this period, though exact dating remains uncertain.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-iluna's reign is dated to c. 1750\u20131712 BCE by most scholars, but absolute chronology for this period remains debated. This year falls within his reign by conventional dating, but \u00b15\u201310 year uncertainty is standard.",
+      "cross_references": []
+    },
+    {
+      "id": "-1715-002",
+      "title": "Continued Hyksos infiltration into the Nile Delta",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "30.8, 31.2",
+      "category": "demographic",
+      "description": "During the 13th Dynasty, Asiatic populations (later called Hyksos by Greek sources) continued to settle in the eastern Delta. This was not a sudden invasion but a gradual process of migration and settlement, likely driven by climatic stress and economic opportunity. By the mid-17th century BCE, these groups would establish their own dynasties (15th and 16th), but in the early 18th century, they were still integrating into Egyptian society as labourers, soldiers, and administrators.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later Greek compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The process of Hyksos settlement is archaeologically attested at Tell el-Dab'a with stratified evidence, but precise dating of individual phases remains uncertain. This year is assigned within the broader infiltration period by convention.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a sudden 'Hyksos invasion' is now rejected by most scholars in favour of a gradual settlement model. The term 'Hyksos' itself is a Greek corruption of Egyptian 'Heka-khasut' (rulers of foreign lands) and was not used by Egyptians of this period. Additionally, the absolute chronology of the 13th Dynasty and early Hyksos presence remains contested; some scholars place the major Hyksos settlement 50\u2013100 years later than conventional dating.",
+  "historiographic_note": "This year falls in a period of sparse written documentation outside Mesopotamia and Egypt. Mesopotamian sources are primarily administrative tablets and king lists compiled centuries later. Egyptian sources are fragmentary; the 13th Dynasty left few monumental inscriptions. The archaeological record is our primary source for understanding settlement patterns and material culture. Bias toward literate, centralised states means that the experiences of pastoral, nomadic, and non-elite populations are largely invisible. The Indus Valley Civilisation and early Chinese dynasties are known primarily through archaeology, with later legendary accounts of uncertain reliability.",
+  "graph_edges": [
+    {
+      "from": "-1715-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign ended the Old Babylonian period; his successors faced rapid decline and fragmentation."
+    },
+    {
+      "from": "-1715-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "Continued Hyksos settlement in the Delta eventually led to the establishment of the 15th Dynasty (Hyksos kingdom) c. 1650 BCE."
+    }
+  ]
+}

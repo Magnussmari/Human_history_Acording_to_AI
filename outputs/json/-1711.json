@@ -1,0 +1,81 @@
+{
+  "year": -1711,
+  "year_label": "1712 BCE",
+  "era_context": "Continuation of the Middle Bronze Age in the Levant and Egypt; the Old Babylonian period in Mesopotamia is in its final decades. The Hittite Old Kingdom has not yet begun. In Egypt, the Second Intermediate Period is establishing itself, with the Thirteenth Dynasty fragmenting and foreign (Hyksos) groups beginning to settle in the Delta. The Indus Valley Civilization is in its terminal mature phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "East Asia (beyond traditional Chinese sources, which are themselves legendary for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1711-001",
+      "title": "Continued fragmentation of Egyptian authority (Second Intermediate Period)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During this year, Egypt's Thirteenth Dynasty was losing control over Upper Egypt and the Delta. The centralized authority that characterized the Middle Kingdom had collapsed, and regional governors (nomarchs) were asserting independence. Foreign groups, later called the Hyksos (Asiatic settlers), were increasing their presence in the Delta region. This period saw the fragmentation of Egypt into competing power centers, a process that would culminate in the Fifteenth Dynasty (Hyksos) rule by c. 1650 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside-era compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Second Intermediate Period is poorly documented; the exact chronology of the Thirteenth Dynasty's decline is uncertain. Dating relies on later king lists and scattered contemporary inscriptions.",
+      "cross_references": []
+    },
+    {
+      "id": "-1711-002",
+      "title": "Kassite pressure on Babylonian borders",
+      "region": "Mesopotamia (Babylon and the Zagros)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Kassite groups from the Zagros Mountains were increasing pressure on Babylon's eastern frontier during Samsu-iluna's reign. These Indo-European or Caucasian-origin peoples would eventually establish the Kassite Dynasty, which would rule Babylon for over four centuries. By 1712 BCE, Kassite raids and infiltration were becoming a significant threat to Old Babylonian territorial integrity.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and military texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Kassite pressure is attested in contemporary texts, though specific events and dates are often unclear. The transition to Kassite rule occurred c. 1595 BCE, but the process of infiltration and pressure spanned several centuries.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Second Intermediate Period in Egypt is highly disputed. Some scholars place the beginning of Hyksos rule as early as c. 1750 BCE, while others date it to c. 1650 BCE or later. The 'Hyksos' themselves are a contested category: they were not a unified invasion force but rather a gradual settlement of Asiatic peoples in the Delta, and the term 'Hyksos' (from Egyptian 'Heka-khasut,' 'rulers of foreign lands') may be a later historiographic construct. The Kassite origins and early history are similarly obscure; their Indo-European or Caucasian identity is inferred from linguistic evidence, not contemporary sources.",
+  "historiographic_note": "1712 BCE falls in one of the most poorly documented periods of ancient history. Egyptian sources are fragmentary and biased toward the few surviving royal inscriptions. Mesopotamian evidence is limited to administrative texts and later king lists. The chronology of this entire period is contested, with competing chronological systems creating \u00b150\u2013100 year uncertainties. The Second Intermediate Period in Egypt was long viewed as a 'dark age' of decline and foreign invasion, but modern scholarship emphasizes continuity and gradual socio-political transformation rather than catastrophic collapse. The absence of written records from most of the world means that this year is essentially invisible outside the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-1711-001",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "The fragmentation of Egyptian authority in the early Second Intermediate Period led to the establishment of Hyksos rule in the Delta"
+    },
+    {
+      "from": "-1711-002",
+      "to": "-1595-001",
+      "relation": "led_to",
+      "note": "Kassite pressure on Babylon culminated in the establishment of the Kassite Dynasty c. 1595 BCE"
+    }
+  ]
+}

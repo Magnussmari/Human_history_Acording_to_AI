@@ -1,0 +1,100 @@
+{
+  "year": -1725,
+  "year_label": "1726 BCE",
+  "era_context": "The Middle Bronze Age (MBA) in the Levant and Egypt; the Old Babylonian period in Mesopotamia under the Amorite dynasties. Egypt's 13th Dynasty was fragmenting, with power increasingly decentralized. In Mesopotamia, Hammurabi of Babylon had died c. 1750 BCE, and his successors were consolidating or losing territorial control. The Indus Valley Civilization was in its mature phase. Mycenaean Greece did not yet exist; the Aegean was in the Early Bronze Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written chronology for this era)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1725-001",
+      "title": "Reign of Apepi (Apophis) \u2014 Hyksos rule in Egypt",
+      "region": "Egypt (Lower Egypt / Nile Delta)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "Apepi (also Apophis or Awoserre) is traditionally dated to this period as a major Hyksos (Asiatic) ruler of the 15th Dynasty in Lower Egypt. The Hyksos had infiltrated the Delta during the 13th Dynasty collapse and established a parallel kingdom. Apepi's reign is attested in Egyptian administrative records and later king lists. His rule represents the consolidation of foreign Asiatic control over northern Egypt, a period of cultural and political tension between the Hyksos north and the native Egyptian 17th Dynasty in Upper Egypt (Thebes). This division would persist until the New Kingdom reunification under Ahmose I (c. 1550 BCE).",
+      "key_figures": [
+        "Apepi/Apophis (Hyksos pharaoh, 15th Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Scarabs and administrative seals from the Delta",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hyksos chronology is notoriously uncertain. Apepi's reign is traditionally placed c. 1585\u20131542 BCE by some scholars, but other chronologies place him earlier or later. The Turin King List gives reign lengths, but absolute dating depends on synchronisms with Mesopotamia and radiocarbon calibration, which remain debated. Assignment to -1725 is conventional but carries \u00b130\u201350 year uncertainty.",
+      "cross_references": [
+        "Relates to broader Hyksos period (c. 1650\u20131550 BCE)",
+        "Precedes 17th Dynasty Theban resistance and New Kingdom reunification"
+      ]
+    },
+    {
+      "id": "-1725-002",
+      "title": "Continued fragmentation of Egypt's 13th Dynasty",
+      "region": "Egypt (Upper Egypt / Thebes region)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt, which had ruled from c. 1795 BCE, was in advanced decline by this period. Central authority had weakened, and regional governors (nomarchs) increasingly acted independently. The Theban region (Upper Egypt) was becoming a power center under local rulers who would eventually form the 17th Dynasty. This fragmentation created a power vacuum that allowed Hyksos infiltration into the Delta. The 13th Dynasty would formally end c. 1650 BCE, but by -1725 it was already a shadow of its former authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative records and tomb inscriptions from Upper Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Middle Kingdom decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general decline of the 13th Dynasty is well-attested; specific events in -1725 are not. This entry describes the broader context rather than a discrete event.",
+      "cross_references": [
+        "Part of the broader Second Intermediate Period (c. 1650\u20131550 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Hyksos chronology is one of the most contested areas in Egyptology. Traditional dating places Apepi in the 16th\u201317th centuries BCE, but some scholars (e.g., Bietak) argue for a lower chronology placing him in the 17th century BCE. Others propose an even higher chronology. The assignment of Apepi to -1725 is conventional but lacks strong independent confirmation. Additionally, the extent of Hyksos 'invasion' versus gradual infiltration and settlement is debated; some scholars minimize the military conquest narrative in favor of a more gradual process of Asiatic settlement during the 13th Dynasty collapse.",
+  "historiographic_note": "The historical record for Egypt in this period is heavily dependent on king lists compiled centuries or millennia after the events, supplemented by archaeological evidence (scarabs, administrative records, tomb inscriptions). The Hyksos period was later portrayed by native Egyptian sources as a foreign occupation and humiliation, introducing potential bias. Mesopotamian and Levantine sources for this period are more abundant but do not directly illuminate Egyptian events. The absence of contemporary narrative texts from this era means we rely on administrative fragments and later compilations, both of which are subject to gaps and reinterpretation.",
+  "graph_edges": [
+    {
+      "from": "-1725-001",
+      "to": "-1550-AHMOSE_REUNIFICATION",
+      "relation": "led_to",
+      "note": "Hyksos rule under Apepi eventually provoked Theban resistance and the New Kingdom reunification under Ahmose I"
+    },
+    {
+      "from": "-1725-002",
+      "to": "-1725-001",
+      "relation": "contemporary_with",
+      "note": "13th Dynasty fragmentation and Hyksos consolidation occurred in parallel"
+    }
+  ]
+}

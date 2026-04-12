@@ -1,0 +1,81 @@
+{
+  "year": -1713,
+  "year_label": "1714 BCE",
+  "era_context": "Middle Bronze Age in the Levant and Egypt; the Old Babylonian period in Mesopotamia is in its final decades under Samsu-iluna. Egypt's Thirteenth Dynasty is fragmenting, and the Second Intermediate Period is underway. The Hittite Old Kingdom has not yet begun. In the Indus Valley, the mature civilization is in its final stages of decline. In China, the traditional Xia Dynasty is in its legendary period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "East Asia (beyond legendary Chinese sources)"
+  ],
+  "events": [
+    {
+      "id": "-1713-001",
+      "title": "Samsu-iluna's reign in Babylon (continued)",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Samsu-iluna continued his reign over a diminishing Babylonian state. His military campaigns against the Sealand Dynasty and Kassite groups were largely unsuccessful, and the territorial extent of Babylon was contracting. The Old Babylonian period was entering its final phase, and the state was fragmenting into competing power centers. Samsu-iluna's reign represents the transition from the Old Babylonian to the Kassite period, though this transition would not be completed until c. 1595 BCE.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-iluna's reign is traditionally dated c. 1750\u20131712 BCE, but absolute chronology for this period remains contested. The \u00b120-year uncertainty reflects ongoing debate between competing chronologies.",
+      "cross_references": []
+    },
+    {
+      "id": "-1713-002",
+      "title": "Egyptian Thirteenth Dynasty fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Thirteenth Dynasty of Egypt was in the process of fragmenting into competing regional power centers. Central authority from Memphis was weakening, and provincial governors were asserting increasing independence. This period saw the gradual loss of Egyptian control over Nubia and the Levantine territories. The fragmentation of the Thirteenth Dynasty would eventually lead to the rise of the Fifteenth Dynasty (Hyksos) in the Delta and the Seventeenth Dynasty in Upper Egypt.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Second Intermediate Period is poorly documented; the exact chronology of the Thirteenth Dynasty's decline is uncertain. Dating relies on later king lists and scattered contemporary inscriptions.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology of Samsu-iluna's reign and the Old Babylonian period is based on the Babylonian King List, which contains inflated reign lengths and is not contemporary. Modern scholars debate whether the 'high chronology' or 'low chronology' is correct, creating \u00b1100-year uncertainty. The Egyptian Thirteenth Dynasty's chronology is similarly contested; some scholars place its end as early as c. 1750 BCE, while others date it to c. 1650 BCE or later. The concept of a 'Second Intermediate Period' as a unified 'dark age' is increasingly questioned by modern scholars, who emphasize continuity and gradual transformation rather than catastrophic collapse.",
+  "historiographic_note": "1714 BCE is almost entirely undocumented outside of Mesopotamia and Egypt. The Mesopotamian evidence is limited to administrative texts and later king lists, which are biased toward political elites. Egyptian sources are fragmentary and biased toward royal inscriptions. The chronology of the early 2nd millennium BCE remains contested, with competing chronological systems creating \u00b150\u2013100 year uncertainties. The entire world outside the Mediterranean and Near East is essentially invisible in the historical record for this year. The Second Intermediate Period in Egypt was long viewed as a 'dark age,' but modern scholarship emphasizes continuity and gradual socio-political transformation.",
+  "graph_edges": [
+    {
+      "from": "-1713-001",
+      "to": "-1595-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign and the fragmentation of the Old Babylonian state led to the establishment of the Kassite Dynasty"
+    },
+    {
+      "from": "-1713-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the Thirteenth Dynasty led to the establishment of the Fifteenth Dynasty (Hyksos) in the Delta"
+    }
+  ]
+}

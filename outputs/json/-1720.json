@@ -1,0 +1,109 @@
+{
+  "year": -1720,
+  "year_label": "1720 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom is in decline in Egypt (13th Dynasty), while Hyksos presence grows in the Delta. In Mesopotamia, the Old Babylonian period is ending; Hammurabi's dynasty is weakening. The Indus Valley Civilization is in its mature phase. In China, the Xia dynasty is traditionally dated to this period, though archaeological confirmation remains contested. This is an era of regional consolidation, trade network expansion, and increasing pressure from pastoral populations on settled states.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written records for this period)",
+    "Pacific Islands (oral tradition only)"
+  ],
+  "events": [
+    {
+      "id": "-1720-001",
+      "title": "Reign of Ammisaduqa of Babylon (traditional dating)",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Ammisaduqa, son of Ammiditana, is traditionally dated to rule during this period as part of the First Babylonian Dynasty. His reign is marked by continued military campaigns against neighboring states and efforts to maintain Babylonian hegemony in southern Mesopotamia. However, the dynasty's power is waning, and external pressures from the Hittites and other powers are increasing. His astronomical diaries (omen series) are among the few contemporary records.",
+      "key_figures": [
+        "Ammisaduqa (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Omen series attributed to Ammisaduqa's reign",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Babylonian chronology for this period is contested. The 'Middle Chronology' places Ammisaduqa's reign c. 1646\u20131626 BCE; the 'Low Chronology' places it c. 1550\u20131530 BCE. Traditional assignment to -1720 follows older scholarship. Modern consensus increasingly favors lower dates.",
+      "cross_references": []
+    },
+    {
+      "id": "-1720-002",
+      "title": "Hyksos consolidation in the Nile Delta",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "30.8, 31.2",
+      "category": "political",
+      "description": "During the 13th Dynasty of Egypt, Asiatic populations (Hyksos) continue to settle and consolidate power in the northern Delta. This period marks the gradual transition toward Hyksos dominance in Lower Egypt, though Upper Egypt remains under native Egyptian control. The process is not a sudden invasion but a gradual infiltration and political takeover over several generations. Egyptian administrative records show increasing Asiatic names in official positions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian administrative papyri and king lists (13th Dynasty records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's History of Egypt (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of Hyksos settlement is debated. Archaeological evidence from Tell el-Dab'a shows Asiatic settlement from c. 1800 BCE onward, with consolidation of power occurring gradually through the 13th Dynasty. Precise dating of this year's events is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1720-003",
+      "title": "Indus Valley Civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height during this period, with major urban centers like Harappa and Mohenjo-daro functioning as sophisticated trade hubs. The civilization is characterized by standardized weights and measures, planned urban layouts, and extensive trade networks extending to Mesopotamia and the Persian Gulf. However, no monumental inscriptions or clear political records survive, making it difficult to identify specific events for this year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Indus Valley Civilization's chronology is established through radiocarbon dating and stratigraphic analysis. The mature phase is dated c. 2600\u20131900 BCE. Assignment to -1720 is within this range but no specific events are known for this year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ammisaduqa's reign to c. 1720 BCE is now widely disputed by modern chronologists. The 'Low Chronology,' increasingly favored by scholars, places his reign approximately 170 years later (c. 1550\u20131530 BCE). This shift has significant implications for synchronizing Mesopotamian and Egyptian chronologies. Additionally, the characterization of Hyksos settlement as a 'conquest' or 'invasion' is contradicted by archaeological evidence, which shows gradual infiltration and integration rather than military conquest.",
+  "historiographic_note": "Documentation for 1720 BCE is extremely sparse and heavily dependent on later compilations and king lists whose chronologies are contested. The Babylonian King List, our primary source for Mesopotamian rulers, was compiled centuries after the events it describes and contains internal inconsistencies. Egyptian records from the 13th Dynasty are fragmentary. The Indus Valley Civilization left no written records that have been deciphered, limiting our understanding to material culture. Mesopotamian and Egyptian chronologies for this period are not yet synchronized with high confidence, and different scholarly schools (High, Middle, Low Chronology) can place the same events 100+ years apart. Bias toward Mesopotamian and Egyptian sources means that developments in other regions (China, the Indus, the Steppe) are poorly documented or invisible.",
+  "graph_edges": [
+    {
+      "from": "-1720-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "Ammisaduqa's reign precedes the final collapse of the Old Babylonian Dynasty"
+    },
+    {
+      "from": "-1720-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "Hyksos consolidation in the Delta leads to establishment of the 15th Dynasty"
+    }
+  ]
+}

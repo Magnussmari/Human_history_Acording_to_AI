@@ -1,0 +1,120 @@
+{
+  "year": -1732,
+  "year_label": "1733 BCE",
+  "era_context": "Middle Bronze Age in the Levant and Egypt; Egypt's 12th Dynasty is in its final phase or early 13th Dynasty. Mesopotamia is fragmented among city-states and regional powers. The Indus Valley Civilization is in its mature phase. Shang Dynasty is consolidating in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1732-001",
+      "title": "Egyptian administrative continuity during dynastic transition (Egypt)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During this period, Egypt maintained administrative continuity despite the weakening of central pharaonic authority. The transition from the 12th to 13th Dynasty was not marked by a sharp break but by a gradual dispersal of power to regional governors (nomarchs) and the rise of local dynasties. The 13th Dynasty, when it emerged, was characterized by rapid succession of rulers and reduced territorial control. However, cultural and administrative practices persisted, and Egypt remained a significant regional power. The period saw continued temple construction and maintenance of religious institutions.",
+      "key_figures": [
+        "Rulers of the late 12th/early 13th Dynasty (names and order disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos list)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative papyri and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the 12th/13th Dynasty transition is uncertain by \u00b150 years or more. The assignment to -1732 is conventional within a broader transitional period.",
+      "cross_references": [
+        "-1731-001",
+        "-1730-001"
+      ]
+    },
+    {
+      "id": "-1732-002",
+      "title": "Indus Valley Civilization urban centers functioning (South Asia)",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The major urban centers of the Indus Valley Civilization\u2014Harappa, Mohenjo-daro, Dholavira, and others\u2014were functioning as centers of craft production, trade, and administration. Archaeological evidence shows the production of pottery, stone tools, bronze items, and other goods. The civilization's standardized systems of weights, measures, and script facilitated economic and administrative coordination. Public buildings, including possible granaries and administrative structures, suggest centralized planning and resource management. The civilization's material culture shows remarkable consistency across a vast geographic area.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at major Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's existence and urban character are well-established archaeologically. The specific dating to -1732 is approximate within the broader mature phase (c. 2500\u20131900 BCE).",
+      "cross_references": [
+        "-1730-002",
+        "-1731-002"
+      ]
+    },
+    {
+      "id": "-1732-003",
+      "title": "Shang Dynasty military campaigns and territorial expansion (China)",
+      "region": "China (Yellow River valley and surrounding regions)",
+      "coordinates_approx": "34.0, 110.0",
+      "category": "military",
+      "description": "The Shang Dynasty was engaged in military campaigns to consolidate and expand its territorial control during this period. Oracle bone inscriptions record military expeditions against neighboring peoples and the capture of prisoners for sacrifice and labor. The Shang military organization included chariots, bronze weapons, and organized infantry. These campaigns were part of the broader process of Shang consolidation and the establishment of hegemony over the Yellow River valley and surrounding regions. Military success was attributed to divine favor, as recorded in oracle bone divinations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions recording military campaigns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of bronze weapons and chariots from Shang sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shang military campaigns are attested in oracle bones, but the specific dating of individual campaigns is uncertain. The assignment to -1732 is approximate within the broader consolidation period.",
+      "cross_references": [
+        "-1730-003",
+        "-1731-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 12th/13th Dynasty transition remains disputed, with some scholars placing it significantly earlier or later than -1732. The Indus Valley Civilization's decline is sometimes attributed to a single catastrophic event (flood, invasion, climate change), but recent scholarship emphasizes gradual, multi-causal processes. The Shang Dynasty's chronology is contested; some scholars place the dynasty's rise much later than traditionally assumed, which would affect the dating of military campaigns.",
+  "historiographic_note": "The year -1732 falls in a period of significant chronological uncertainty. Egyptian sources are relatively abundant but their absolute dating is uncertain. The Indus Valley Civilization is well-documented archaeologically but lacks written historical narratives. Shang China's history is reconstructed from oracle bones and later compilations. The overall historical record for this year is sparse and heavily dependent on archaeological inference and chronological assumptions that remain contested.",
+  "graph_edges": [
+    {
+      "from": "-1732-001",
+      "to": "-1700-001",
+      "relation": "part_of",
+      "note": "The administrative transition in Egypt continued as part of the broader Second Intermediate Period"
+    },
+    {
+      "from": "-1732-003",
+      "to": "-1600-001",
+      "relation": "part_of",
+      "note": "Shang military consolidation was part of the dynasty's broader rise to dominance in East Asia"
+    }
+  ]
+}

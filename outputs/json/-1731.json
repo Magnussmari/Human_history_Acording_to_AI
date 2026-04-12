@@ -1,0 +1,111 @@
+{
+  "year": -1731,
+  "year_label": "1732 BCE",
+  "era_context": "Continuation of the Middle Bronze Age in the Levant and Egypt; the 12th Dynasty of Egypt is in its final phases or transitioning to the 13th Dynasty. Mesopotamia remains fragmented. The Indus Valley Civilization continues its mature phase. Shang Dynasty is consolidating in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "Central Asia (limited documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1731-001",
+      "title": "Egyptian 12th Dynasty in transition or decline (Egypt)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "By -1731, the 12th Dynasty was either in its final years or had recently transitioned to the 13th Dynasty, depending on chronological scheme. The period marks the beginning of Egypt's Second Intermediate Period, characterized by weakening central authority, fragmentation of power among regional governors, and the eventual rise of foreign dynasties (the Hyksos). The transition was gradual rather than catastrophic, with administrative structures persisting even as pharaonic power declined. This period saw increased Asiatic immigration into the Delta region.",
+      "key_figures": [
+        "Amenemhat IV or Sobekneferu (final rulers of 12th Dynasty, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites and administrative centers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition between the 12th and 13th Dynasties is poorly dated. Chronologies vary by 50+ years. The assignment to -1731 is conventional within a broader transitional period.",
+      "cross_references": [
+        "-1730-001"
+      ]
+    },
+    {
+      "id": "-1731-002",
+      "title": "Indus Valley Civilization trade networks active (South Asia)",
+      "region": "Indus Valley and trade routes to Mesopotamia and Persian Gulf",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive trade networks during this period. Archaeological evidence shows the exchange of goods, including lapis lazuli from Afghanistan, carnelian from Gujarat, and Indus seals found in Mesopotamian contexts. This trade was facilitated by maritime routes through the Arabian Sea and overland routes through the Hindu Kush and Balochistan. The standardized weights and measures of the Indus civilization facilitated commerce and suggest centralized economic coordination. Trade goods included textiles, agricultural products, and manufactured items.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from port sites (Lothal) and trade goods found in Mesopotamia",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals found in Mesopotamian contexts (Ur, Lagash, etc.)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-attested archaeologically. The specific dating to -1731 is approximate, but the trade networks are confirmed for the broader mature Indus period.",
+      "cross_references": [
+        "-1730-002"
+      ]
+    },
+    {
+      "id": "-1731-003",
+      "title": "Shang Dynasty oracle bone divination practices (China)",
+      "region": "China (Yellow River valley, Zhengzhou/Anyang region)",
+      "coordinates_approx": "34.0, 110.0",
+      "category": "religious",
+      "description": "The Shang Dynasty was actively practicing oracle bone divination (scapulomancy) during this period, as evidenced by extensive oracle bone inscriptions. These bones recorded questions posed to ancestors and deities regarding harvests, military campaigns, weather, and other matters of state concern. The practice reflects the Shang's religious worldview, which centered on ancestor veneration and communication with the divine through divination. Oracle bones represent some of the earliest written records in East Asia and provide insight into Shang governance, military organization, and cosmology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (jiaguwen) from Anyang and other Shang sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological context and stratigraphy from Anyang excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Oracle bone divination is well-attested in Shang archaeology. The practice is confirmed for the Shang period, though absolute dating of individual bones remains uncertain.",
+      "cross_references": [
+        "-1730-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the 12th/13th Dynasty transition is highly disputed. Some scholars place the end of the 12th Dynasty as early as c. 1800 BCE, others as late as c. 1750 BCE. The 'Second Intermediate Period' is not a sharp break but a gradual process of decentralization. The Indus Valley trade networks' decline is sometimes attributed to the civilization's collapse, but recent scholarship suggests trade may have continued in modified forms even as urban centers declined. The Shang Dynasty's chronology remains contested, with some scholars placing the dynasty's rise much later than traditionally assumed.",
+  "historiographic_note": "The year -1731 falls in a period of significant chronological uncertainty for the ancient world. Egyptian sources are relatively abundant but their absolute dating depends on astronomical calculations and radiocarbon calibration, which yield varying results. The Indus Valley Civilization is well-documented archaeologically but lacks written historical narratives. Shang China's history is reconstructed from oracle bones and later compilations, both of which have limitations. The overall historical record for this year is sparse and heavily dependent on archaeological inference rather than contemporary written documentation.",
+  "graph_edges": [
+    {
+      "from": "-1731-001",
+      "to": "-1750-001",
+      "relation": "part_of",
+      "note": "The decline of the 12th Dynasty was part of a broader process of decentralization in Egypt during the late Middle Kingdom"
+    },
+    {
+      "from": "-1731-002",
+      "to": "-1700-002",
+      "relation": "led_to",
+      "note": "Indus trade networks would gradually decline as the civilization transitioned in subsequent decades"
+    }
+  ]
+}
