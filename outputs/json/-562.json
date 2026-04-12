@@ -1,0 +1,87 @@
+{
+  "year": -562,
+  "year_label": "562 BCE",
+  "era_context": "Mid-6th century BCE: a pivotal year marking the death of Nebuchadnezzar II and the beginning of the end for the Neo-Babylonian Empire. The Achaemenid Persian Empire under Cyrus II continues to expand. In Greece, the Archaic period is transitioning toward the Classical period. In India, the traditional Buddhist chronology places Siddhartha Gautama in his early adulthood.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no contemporary written sources)",
+    "Northern Europe (no written documentation)",
+    "East Asia (sparse contemporary sources)",
+    "Mesoamerica (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-562-001",
+      "title": "Death of Nebuchadnezzar II; succession crisis in Babylon",
+      "region": "Neo-Babylonian Empire, Babylon",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Nebuchadnezzar II died in 562 BCE after a reign of 43 years (605\u2013562 BCE). His death triggered a succession dispute that weakened the Neo-Babylonian Empire. His son Amel-Marduk succeeded him but faced opposition and was eventually deposed. This succession crisis marked the beginning of the empire's decline and created an opening for Persian expansion. The instability lasted several years and culminated in the rise of Nabonidus (556 BCE), whose unconventional religious policies further destabilised the realm.",
+      "key_figures": [
+        "Nebuchadnezzar II (deceased)",
+        "Amel-Marduk (successor, r. 562\u2013560 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nebuchadnezzar II's death in 562 BCE is well-established in Babylonian chronicles and king lists. The succession of Amel-Marduk is documented.",
+      "cross_references": [
+        "-560-001"
+      ]
+    },
+    {
+      "id": "-562-002",
+      "title": "Cyrus II consolidates Persian control; expansion toward Babylon",
+      "region": "Achaemenid Persian Empire",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "With Babylon weakened by succession disputes, Cyrus II continued to consolidate Persian power and expand the empire's reach. The Persian Empire now controlled territories from Anatolia to Central Asia. The instability in Babylon created an opportunity for Persian expansion that would culminate in the conquest of Babylon in 539 BCE. Cyrus's strategic position strengthened during this period.",
+      "key_figures": [
+        "Cyrus II (Achaemenid king)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Nabonidus Chronicle (Babylonian cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Persian expansion is well-documented, but specific events in 562 BCE are not precisely dated. The assignment is based on the broader historical context.",
+      "cross_references": [
+        "-539-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact nature and duration of the Babylonian succession crisis is debated. Some sources suggest Amel-Marduk's reign was brief and troubled; others provide limited detail. The relationship between internal Babylonian instability and Persian expansion is inferred from the broader historical pattern rather than explicitly documented for this specific year.",
+  "historiographic_note": "The year 562 BCE is well-documented for Babylon through cuneiform sources, which provide reliable contemporary records. Greek sources (Herodotus, Berossus) are valuable but written later. The record is heavily weighted toward the Near East. Indian, Chinese, and other regional sources are absent or extremely sparse for this year.",
+  "graph_edges": [
+    {
+      "from": "-562-001",
+      "to": "-560-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar II's death initiated the succession crisis that continued under Amel-Marduk"
+    },
+    {
+      "from": "-562-001",
+      "to": "-539-001",
+      "relation": "led_to",
+      "note": "The succession crisis weakened Babylon and enabled Cyrus II's eventual conquest"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "year": -563,
+  "year_label": "563 BCE",
+  "era_context": "Mid-6th century BCE: the Achaemenid Persian Empire under Cyrus II is consolidating control over the Near East and Anatolia. The Neo-Babylonian Empire under Nebuchadnezzar II remains a major power. In Greece, the Archaic period is in its final phase; city-states are developing democratic and oligarchic institutions. In India, the lifetime of Siddhartha Gautama (if the traditional Buddhist chronology is accepted) continues.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no contemporary written sources)",
+    "Northern Europe (no written documentation)",
+    "East Asia (limited contemporary sources; Chinese records are sparse for this period)",
+    "Mesoamerica (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-563-001",
+      "title": "Cyrus II's campaigns in Central Asia and the Steppe",
+      "region": "Achaemenid Persian Empire, Central Asia, Scythian territories",
+      "coordinates_approx": "40.0, 65.0",
+      "category": "military",
+      "description": "During the 560s BCE, Cyrus II conducted military campaigns in Central Asia and against Scythian and other steppe peoples to secure the northeastern frontier of the Persian Empire. These campaigns extended Persian control into regions beyond the traditional Near Eastern heartland and established the empire's vast territorial reach. The exact chronology of individual campaigns is uncertain, but this period saw significant Persian military expansion.",
+      "key_figures": [
+        "Cyrus II (Achaemenid king)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I, IV)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ctesias, Persica (Greek historian, 5th century BCE, based on Persian sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus and later Greek sources describe Cyrus's campaigns in Central Asia, but precise dating is uncertain. The campaigns likely occurred in the 560s\u2013550s BCE. Assignment to 563 BCE is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-563-002",
+      "title": "Nebuchadnezzar II's final years; Babylon's cultural and architectural zenith",
+      "region": "Neo-Babylonian Empire, Babylon",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "cultural",
+      "description": "Nebuchadnezzar II (r. 605\u2013562 BCE) was in the last years of his reign. Babylon's monumental architecture\u2014the Ishtar Gate, the processional way, the walls\u2014was complete or nearing completion. Babylonian scholarship in mathematics, astronomy, and medicine was flourishing. The empire's economy was strong, supported by trade and tribute. This period represents the peak of Neo-Babylonian cultural and political power before the succession crisis that would follow Nebuchadnezzar's death.",
+      "key_figures": [
+        "Nebuchadnezzar II (Neo-Babylonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Babylon",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nebuchadnezzar II's reign is well-documented. The year 563 BCE falls within his documented rule (605\u2013562 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Cyrus II's Central Asian campaigns is disputed. Herodotus provides a narrative, but later sources (Ctesias, Strabo) offer conflicting details. Some modern scholars question whether all campaigns attributed to Cyrus actually occurred or whether some were conflated with later Persian military actions. The dating of individual campaigns to specific years is not possible from available sources.",
+  "historiographic_note": "For 563 BCE, documentation is primarily from the Near East (Babylonian cuneiform sources) and later Greek accounts. Contemporary written sources from India, China, and other regions are absent or extremely sparse. The historical record is skewed toward the Achaemenid and Neo-Babylonian empires. Greek sources, while valuable, are retrospective and reflect Greek interests and biases.",
+  "graph_edges": [
+    {
+      "from": "-563-001",
+      "to": "-530-001",
+      "relation": "led_to",
+      "note": "Cyrus II's Central Asian campaigns established the northeastern frontier of the Achaemenid Empire"
+    }
+  ]
+}

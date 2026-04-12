@@ -1,0 +1,79 @@
+{
+  "year": -561,
+  "year_label": "561 BCE",
+  "era_context": "Mid-6th century BCE: the Neo-Babylonian Empire is in decline following Nebuchadnezzar II's death. Amel-Marduk rules Babylon but faces internal opposition. The Achaemenid Persian Empire under Cyrus II continues to expand and consolidate. In Greece, the Archaic period is in its final decades. In India, the traditional Buddhist chronology places Siddhartha Gautama in his early adulthood.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no contemporary written sources)",
+    "Northern Europe (no written documentation)",
+    "East Asia (sparse contemporary sources)",
+    "Mesoamerica (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-561-001",
+      "title": "Amel-Marduk's troubled reign in Babylon",
+      "region": "Neo-Babylonian Empire, Babylon",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Amel-Marduk (r. 562\u2013560 BCE) ruled Babylon during a period of internal instability. Ancient sources describe him as mentally unstable or impious, though these accounts may reflect the bias of later chroniclers or his opponents. His reign was marked by opposition from the priesthood and nobility. He was eventually deposed and executed in 560 BCE, after a reign of only two years. This instability further weakened Babylon's ability to resist Persian expansion.",
+      "key_figures": [
+        "Amel-Marduk (Neo-Babylonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amel-Marduk's reign and deposition are documented in Babylonian chronicles. The year 561 BCE falls within his reign (562\u2013560 BCE).",
+      "cross_references": [
+        "-562-001",
+        "-560-001"
+      ]
+    },
+    {
+      "id": "-561-002",
+      "title": "Cyrus II's empire reaches its territorial zenith",
+      "region": "Achaemenid Persian Empire",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "By 561 BCE, Cyrus II had consolidated control over a vast empire stretching from Anatolia to Central Asia. The Persian administrative system was being developed to govern these diverse territories. The empire's military strength and economic resources were unmatched in the Near East at this time. Babylon remained the only major independent power, but its internal weakness made it vulnerable to Persian conquest.",
+      "key_figures": [
+        "Cyrus II (Achaemenid king)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cyrus Cylinder (cuneiform inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general extent of Cyrus II's empire by the 560s BCE is well-established. Specific events in 561 BCE are not precisely dated; the assignment is based on the broader historical trajectory.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The characterisation of Amel-Marduk as mentally unstable or impious may reflect bias from later sources or from his opponents. Modern scholarship is cautious about accepting these characterisations at face value. The actual reasons for his deposition may have been political or religious disputes rather than personal incapacity.",
+  "historiographic_note": "Documentation for 561 BCE comes primarily from Babylonian cuneiform sources and later Greek accounts. The record is heavily weighted toward the Near East. Indian, Chinese, and other regional sources are absent or extremely sparse. The characterisation of Amel-Marduk is influenced by sources written after his deposition, which may reflect the biases of his successors.",
+  "graph_edges": [
+    {
+      "from": "-561-001",
+      "to": "-560-001",
+      "relation": "led_to",
+      "note": "Amel-Marduk's troubled reign led to his deposition and execution in 560 BCE"
+    }
+  ]
+}
