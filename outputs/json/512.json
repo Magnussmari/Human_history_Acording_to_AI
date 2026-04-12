@@ -1,0 +1,55 @@
+{
+  "year": 512,
+  "year_label": "512 CE",
+  "era_context": "The Eastern Roman Empire under Anastasius I is in its final years. The Ostrogothic Kingdom under Theodoric is stable. In Persia, Kavadh I rules. In China, the Northern Wei Dynasty is fragmenting into Eastern and Western Wei (formal split in 534, but the process is underway). This is a period of relative stability in the Mediterranean, but underlying tensions are building.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Oceania",
+    "Sassanid Persia",
+    "China (limited detail in Western sources)"
+  ],
+  "events": [
+    {
+      "id": "512-001",
+      "title": "Northern Wei Dynasty fragmentation in China",
+      "region": "China (Northern Wei)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Northern Wei Dynasty, which has ruled northern China since 386 CE, is experiencing increasing internal instability. By 512 CE, the dynasty is fragmenting due to succession disputes, military factionalism, and the power of the imperial harem and eunuchs. The formal split into Eastern and Western Wei will occur in 534 CE, but the process of disintegration is well underway. This period marks the beginning of the end for Northern Wei centralized authority.",
+      "key_figures": [
+        "Emperor Xuanwu of Northern Wei (r. 500\u2013515 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang (11th century, drawing on earlier chronicles)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Wei Shu (Book of Wei), compiled 6th century",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of Northern Wei fragmentation is well-attested in Chinese historiography. Specific events in 512 are less distinctly documented; dating is approximate.",
+      "cross_references": [
+        "534-001 (Formal split of Northern Wei into Eastern and Western Wei)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major events are definitively dated to 512 CE in surviving sources. The year is historically negligible as a discrete unit. The Northern Wei fragmentation is a process spanning decades, not an event localized to 512.",
+  "historiographic_note": "Documentation for 512 CE is sparse. Chinese sources (later compilations like the Zizhi Tongjian) provide some information about Northern Wei, but specific events in 512 are not distinctly marked. Western sources (Byzantine, Sassanid) are silent on China. The historical record is fragmented across regional traditions with minimal cross-regional synthesis.",
+  "graph_edges": [
+    {
+      "from": "512-001",
+      "to": "534-001",
+      "relation": "led_to",
+      "note": "Northern Wei fragmentation process culminates in formal split into Eastern and Western Wei in 534"
+    }
+  ]
+}

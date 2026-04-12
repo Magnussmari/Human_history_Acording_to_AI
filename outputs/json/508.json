@@ -1,0 +1,122 @@
+{
+  "year": 508,
+  "year_label": "508 BCE",
+  "era_context": "Athens is consolidating its democratic institutions under Cleisthenes; the transition from tyranny to democracy is ongoing. Rome has recently established the Republic and is beginning its expansion in Italy. The Persian Achaemenid Empire under Darius I continues to dominate the eastern Mediterranean and Near East. Greece is fragmented into competing city-states, with Sparta and Athens emerging as major powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India",
+    "East Asia (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "508-001",
+      "title": "Cleisthenes' Tribal Reforms Fully Implemented in Athens",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Cleisthenes' reorganization of the Athenian citizen body into ten new tribes based on geographic demes (local districts) was fully implemented around 508 BCE. This reform replaced the old kinship-based tribal system and significantly reduced the power of aristocratic families. The new system distributed political power more widely among the citizen body and created a more inclusive political structure. The demes became the basic units of Athenian administration and remained so throughout the Classical period. This reform was foundational to the development of Athenian democracy.",
+      "key_figures": [
+        "Cleisthenes (reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book 6",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reforms are well-attested in ancient sources, but the precise date of full implementation is uncertain. Some sources place the reforms in 510 BCE, others in 508 BCE or even 507 BCE. The reforms were likely implemented gradually over several years.",
+      "cross_references": [
+        "510-002 (Cleisthenes begins reforms)",
+        "507-001 (Cleisthenes' reforms consolidated)"
+      ]
+    },
+    {
+      "id": "508-002",
+      "title": "Early Roman Republic Consolidates Power in Latium",
+      "region": "Latium, Italy",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "political",
+      "description": "In the early years of the Roman Republic, Rome consolidated its power in Latium and began to expand its influence over neighboring Latin communities. The Republic faced challenges from neighboring peoples and from internal conflicts between patricians and plebeians. The early Republic was characterized by military campaigns to secure Rome's position in the region. Archaeological evidence suggests that Rome was indeed expanding its influence during this period, though the specific events and dates are often uncertain.",
+      "key_figures": [
+        "Early Roman consuls (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 2",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Latium",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The consolidation of Roman power in Latium is attested archaeologically and in later historical accounts, but the specific events and dates of 508 BCE are not clearly documented. The early Republic's history is poorly documented, and many details in Livy are considered unreliable.",
+      "cross_references": [
+        "509-001 (foundation of the Republic)"
+      ]
+    },
+    {
+      "id": "508-003",
+      "title": "Darius I Campaigns in the Balkans and Thrace",
+      "region": "Thrace and the Balkans, Persian Empire",
+      "coordinates_approx": "42.0, 25.0",
+      "category": "military",
+      "description": "Darius I of Persia conducted military campaigns in Thrace and the Balkans, extending Persian control northward into Europe. These campaigns were part of Darius's broader strategy to expand and consolidate the Persian Empire. The campaigns brought Persian forces into contact with Greek city-states and Scythian peoples. The exact dates and extent of these campaigns are debated, but they occurred during Darius's reign (522\u2013486 BCE) and likely included operations around 508 BCE or shortly thereafter. These campaigns set the stage for later Persian-Greek conflicts.",
+      "key_figures": [
+        "Darius I (Achaemenid king)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book 4",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from Persepolis",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Darius's campaigns in Thrace and the Balkans are attested in Herodotus, but the precise dates are uncertain. Herodotus places these campaigns at different points in his narrative, and the chronology is debated. The campaigns likely occurred sometime during Darius's reign, possibly around 508 BCE or in the years following.",
+      "cross_references": [
+        "490-001 (Marathon campaign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Cleisthenes' reforms is uncertain, and some scholars argue that the full implementation of the tribal system may have occurred later than 508 BCE, possibly around 507 BCE or even later. The sources do not provide a clear chronology for the implementation of the reforms. For Rome, the early Republic's history is highly unreliable, and many of the events described in Livy are considered legendary or invented. The specific events of 508 BCE in Rome are not clearly documented. For Darius's campaigns, Herodotus's account is sometimes contradicted by other sources and by modern scholarship, and the precise dates and extent of the campaigns are debated.",
+  "historiographic_note": "The historical record for 508 BCE is moderate in quality. For Athens, the sources (Aristotle, Herodotus) provide information about Cleisthenes' reforms, but the precise chronology is uncertain. For Rome, the sources (Livy, Dionysius) are writing centuries after the events and are heavily influenced by Roman ideology. Archaeological evidence is limited but provides some support for the general narrative of Roman expansion. For Persia, the sources are limited to Herodotus and inscriptions, which provide some information but are not always consistent. The sources are biased toward the victors and may underrepresent alternative perspectives.",
+  "graph_edges": [
+    {
+      "from": "508-001",
+      "to": "507-001",
+      "relation": "led_to",
+      "note": "Full implementation of tribal reforms led to further consolidation of democratic institutions"
+    },
+    {
+      "from": "508-002",
+      "to": "500-001",
+      "relation": "led_to",
+      "note": "Early Roman consolidation in Latium set the stage for further expansion"
+    },
+    {
+      "from": "508-003",
+      "to": "490-001",
+      "relation": "led_to",
+      "note": "Darius's Balkan campaigns contributed to Persian-Greek tensions leading to the Persian Wars"
+    }
+  ]
+}

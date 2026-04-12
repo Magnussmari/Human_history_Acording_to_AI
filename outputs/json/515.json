@@ -1,0 +1,109 @@
+{
+  "year": 515,
+  "year_label": "515 CE",
+  "era_context": "The Eastern Roman (Byzantine) Empire under Anastasius I consolidates control in the eastern Mediterranean and Near East. The Ostrogothic Kingdom under Theodoric rules Italy. In Persia, the Sassanid Empire under Kavadh I experiences internal religious and political ferment. In China, the Northern Wei Dynasty is fragmenting into Eastern and Western Wei. This is the early 6th century, a period of post-Roman political fragmentation in the West and religious upheaval across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond the Rhine and Danube (sparse documentation)",
+    "Central Asia (limited detail beyond Silk Road trade references)",
+    "Mesoamerica (Maya sources exist but are sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "515-001",
+      "title": "Nika Riots precursor tensions in Constantinople",
+      "region": "Byzantine Empire (Constantinople)",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "political",
+      "description": "While the major Nika Riots occur in 532 CE, the period 515\u2013520 sees escalating factional violence between the Blues and Greens chariot-racing factions in Constantinople. These tensions reflect deeper class and religious divisions within the city. The riots of 515 are smaller but foreshadow the catastrophic uprising of 532. Anastasius I's reign is marked by fiscal austerity and religious controversy (his suspected Monophysite sympathies), both fueling urban discontent.",
+      "key_figures": [
+        "Anastasius I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (written 550s CE, describing events of early 6th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "John Malalas, Chronicle (compiled 6th century, covering earlier periods)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Factional violence is attested for this period, but specific dating to 515 is approximate. Procopius and Malalas are writing decades later and conflate or compress events.",
+      "cross_references": [
+        "532-001 (Nika Riots proper)"
+      ]
+    },
+    {
+      "id": "515-002",
+      "title": "Council of Tyre and ecclesiastical disputes in the Eastern Roman Empire",
+      "region": "Byzantine Empire (Tyre, Levant)",
+      "coordinates_approx": "33.2732, 35.1856",
+      "category": "religious",
+      "description": "Ecclesiastical councils and synods continue to address Christological disputes (Monophysitism vs. Chalcedonian orthodoxy) that divide the Eastern Roman Empire. While no single council of major ecumenical significance is definitively dated to 515, the period is marked by ongoing theological controversy and imperial intervention in church affairs under Anastasius I. These disputes have profound political consequences, affecting loyalty and tax compliance in Egypt and Syria.",
+      "key_figures": [
+        "Anastasius I (Byzantine Emperor)",
+        "Patriarch of Constantinople (various)"
+      ],
+      "sources": [
+        {
+          "name": "Ecclesiastical histories by Evagrius Scholasticus and Theodoret of Cyrrhus (compiled 6th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader pattern of religious controversy is well-attested; specific councils and their dates in this year are less certain. Dating relies on later compilations.",
+      "cross_references": []
+    },
+    {
+      "id": "515-003",
+      "title": "Ostrogothic Kingdom consolidation under Theodoric in Italy",
+      "region": "Ostrogothic Kingdom (Italy)",
+      "coordinates_approx": "41.8719, 12.5674",
+      "category": "political",
+      "description": "Theodoric the Great, king of the Ostrogoths, continues his reign in Italy (493\u2013526 CE). By 515, his kingdom is administratively stable, maintaining Roman institutions and law while Ostrogothic military elites hold power. He corresponds with Byzantine Emperor Anastasius I and other Germanic kings. This period represents the height of Ostrogothic power and cultural synthesis before the Gothic Wars (535\u2013554 CE) devastate the peninsula.",
+      "key_figures": [
+        "Theodoric the Great (Ostrogothic King)",
+        "Boethius (Roman statesman and philosopher, serving Theodoric)"
+      ],
+      "sources": [
+        {
+          "name": "Cassiodorus, Variae (letters and documents of Theodoric's reign, compiled early 6th century)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Procopius, History of the Wars (written 550s CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Theodoric's reign and administrative activities are well-documented in Cassiodorus's contemporary records. The year 515 falls within a well-attested period of his rule.",
+      "cross_references": [
+        "526-001 (Death of Theodoric)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of 515 CE as a discrete historical year is limited. No major political, military, or cultural turning point is definitively dated to this year. The Nika Riots, often associated with early 6th-century Byzantine instability, actually occur in 532 CE, not 515. Ecclesiastical disputes are continuous across this period rather than event-specific. The year 515 is historically significant primarily as part of broader trends (Ostrogothic stability, Byzantine religious controversy, Persian internal strife) rather than as a year of decisive change.",
+  "historiographic_note": "Documentation for 515 CE is moderate but unevenly distributed. Byzantine sources (Procopius, Malalas, Cassiodorus) provide the richest detail, but they are often written decades after the events and compress or conflate chronology. Sassanid sources are sparse in surviving form (later Islamic historiography provides some information). Western European sources are minimal. The year 515 is not a focal point in surviving historical narratives; it is reconstructed from broader period descriptions. Bias toward Byzantine and ecclesiastical history is pronounced; political and military events in Persia, Central Asia, and the Germanic kingdoms are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "515-001",
+      "to": "532-001",
+      "relation": "led_to",
+      "note": "Factional tensions in Constantinople escalate from 515 to culminate in the Nika Riots of 532"
+    },
+    {
+      "from": "515-003",
+      "to": "526-001",
+      "relation": "led_to",
+      "note": "Theodoric's stable reign ends with his death in 526, followed by succession crisis and eventual Gothic Wars"
+    }
+  ]
+}
