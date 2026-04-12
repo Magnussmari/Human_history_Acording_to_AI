@@ -1,0 +1,122 @@
+{
+  "year": -2157,
+  "year_label": "2157 BCE",
+  "era_context": "The Old Kingdom of Egypt has fully transitioned into the First Intermediate Period, with regional powers dominating the political landscape. In Mesopotamia, the Akkadian Empire is in its final stages of collapse, with Gutian rulers controlling much of the region and southern city-states like Ur beginning to consolidate power. The Indus Valley Civilization remains at its mature peak. In China, the traditional Xia Dynasty is in its early centuries, though no contemporary records exist.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "East Asia (beyond traditional chronology)"
+  ],
+  "events": [
+    {
+      "id": "-2157-001",
+      "title": "Gutian rule consolidates in central and northern Mesopotamia",
+      "region": "Mesopotamia (modern Iraq, Syria)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Gutian peoples, who invaded Mesopotamia following the Akkadian collapse, consolidate their control over central and northern regions. Gutian rulers establish a loose hegemony, though their authority is fragmented and contested by surviving Akkadian enclaves and emerging Sumerian city-states in the south. The Gutian period (c. 2200\u20132000 BCE, though dates are debated) is characterized by political fragmentation, reduced long-distance trade, and a general decline in monumental construction. However, recent scholarship suggests that Gutian rule was less destructive and more integrated with local populations than earlier narratives portrayed.",
+      "key_figures": [
+        "Gutian rulers (names largely unknown; attested in Sumerian King List)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts from southern Mesopotamia",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian occupation is attested in the Sumerian King List and archaeological evidence, but the precise chronology and extent of their control are debated. Dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "Follows from Akkadian collapse (-2159-001)",
+        "Precedes Ur III rise (c. -2112)"
+      ]
+    },
+    {
+      "id": "-2157-002",
+      "title": "Harappan civilization: continued urban development and standardization",
+      "region": "Indus Valley (modern Pakistan, northwest India)",
+      "coordinates_approx": "27.0, 71.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues its mature phase with ongoing urban development, standardized weights and measures, and sophisticated drainage systems. Major cities like Mohenjo-daro and Harappa maintain their planned layouts and administrative structures. The Indus script remains in active use on seals, pottery, and other objects, though its meaning remains undeciphered. Long-distance trade networks continue to connect the Indus to Mesopotamia, the Persian Gulf, and possibly the Arabian Peninsula.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Harappan sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence is robust. Absolute dating relies on radiocarbon and stratigraphic correlation, with typical uncertainty of \u00b150\u2013100 years.",
+      "cross_references": [
+        "Part of Harappan mature phase (c. -2600 to -1900)",
+        "Precedes Harappan decline (c. -1900)"
+      ]
+    },
+    {
+      "id": "-2157-003",
+      "title": "Egyptian First Intermediate Period: nomarchal autonomy and local conflicts",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Intermediate Period continues with regional governors exercising increasing autonomy. Nomarchs in Upper Egypt (particularly around Thebes and Aswan) and Lower Egypt (Delta) conduct local military campaigns and record their achievements in autobiographical inscriptions. The central authority of the Seventh and Eighth Dynasties in Memphis is largely nominal. Local prosperity and cultural development continue despite the absence of a unified state, suggesting that the 'intermediate period' was not uniformly a time of decline.",
+      "key_figures": [
+        "Ankhtifi (nomarch of Hierakonpolis)",
+        "Sirenput I (nomarch of Aswan)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of local monument construction and settlement patterns",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad narrative is well-attested; precise dating of individual events is uncertain by \u00b120\u201350 years.",
+      "cross_references": [
+        "Part of First Intermediate Period (c. -2180 to -2055)",
+        "Precedes Middle Kingdom reunification"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional portrayal of the Gutian period as a time of barbaric destruction and cultural decline is increasingly challenged by modern scholarship, which emphasizes continuity, integration, and the persistence of Mesopotamian cultural practices under Gutian rule. Similarly, the First Intermediate Period in Egypt is no longer viewed as uniformly chaotic; recent studies suggest regional prosperity and cultural vitality coexisted with political fragmentation.",
+  "historiographic_note": "The historical record for -2157 remains sparse and heavily dependent on king lists, autobiographical inscriptions, and archaeological evidence. Dating uncertainty is \u00b150\u2013100 years for Mesopotamia and Egypt. The Indus Valley Civilization's undeciphered script limits understanding of political developments. Chinese history for this period is entirely dependent on traditional chronologies lacking contemporary written confirmation. The broader context is one of political fragmentation and regional autonomy, but precise chronology remains contested.",
+  "graph_edges": [
+    {
+      "from": "-2157-001",
+      "to": "-2112-UR_III_RISE",
+      "relation": "led_to",
+      "note": "Gutian rule precedes Ur III consolidation and rise to hegemony"
+    },
+    {
+      "from": "-2157-003",
+      "to": "-2055-MIDDLE_KINGDOM",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation precedes Middle Kingdom reunification"
+    }
+  ]
+}

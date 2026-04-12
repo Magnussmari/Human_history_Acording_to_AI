@@ -1,0 +1,113 @@
+{
+  "year": -2166,
+  "year_label": "2166 BCE",
+  "era_context": "Late Old Kingdom Egypt in final fragmentation; Akkadian Empire in terminal decline under Gutian pressure; Indus Valley Civilization at peak development; Early Bronze Age III in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2166-001",
+      "title": "Egyptian Sixth Dynasty: final years of nominal central authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty is in its final years. Pepi II's reign (if he is still alive at this date) is characterized by minimal central authority. Regional governors operate as independent rulers. The transition to the First Intermediate Period is imminent. Royal building projects have ceased; the state apparatus is fragmenting into regional power bases.",
+      "key_figures": [
+        "Pepi II (Pharaoh, nominal authority, possibly deceased by this date)"
+      ],
+      "sources": [
+        {
+          "name": "King lists (Abydos, Turin)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact date of Pepi II's death is uncertain; some scholars place it c. 2184 BCE, others c. 2150 BCE. This year is assigned by convention.",
+      "cross_references": [
+        "-2167-001"
+      ]
+    },
+    {
+      "id": "-2166-002",
+      "title": "Akkadian Empire: Gutian invasions accelerate; Naram-Sin's reign ends",
+      "region": "Mesopotamia, Zagros",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "Naram-Sin's reign ends (traditional date c. 2218 BCE, though some scholars place it later). His successors face overwhelming pressure from Gutian incursions from the Zagros Mountains. Akkadian control over Mesopotamia is rapidly collapsing. Southern city-states reassert independence. The Akkadian Empire, which had dominated the region for over a century, is fragmenting into regional powers and Gutian-controlled territories.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, end of reign)",
+        "Shar-kali-sharri (Naram-Sin's successor, traditional dates 2217\u20132193 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records showing collapse of central authority",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The end of Naram-Sin's reign and the onset of Gutian invasions are well-documented but with dating uncertainty of \u00b110\u201320 years.",
+      "cross_references": [
+        "-2167-002"
+      ]
+    },
+    {
+      "id": "-2166-003",
+      "title": "Indus Valley Civilization: continued flourishing and trade integration",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues at peak development. Urban centres are densely populated; trade networks are extensive. The civilization appears unaffected by the political upheavals in Mesopotamia and Egypt. Maritime trade with Mesopotamia continues, though the Akkadian collapse may eventually disrupt these networks. The civilization's internal organization remains opaque.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's existence and flourishing is archaeologically confirmed; absolute dating is \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2167-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's death and the precise chronology of the Akkadian collapse remain contested. Some scholars argue for a much earlier collapse (c. 2200 BCE), while others place it later (c. 2150 BCE). The 'Akkadian drought' hypothesis (Weiss et al., 1993) linking the collapse to climate change is debated; some scholars emphasize political and military factors instead. The Egyptian chronology for this period is uncertain by \u00b120\u201330 years.",
+  "historiographic_note": "This year falls within a period of significant historical transition in Mesopotamia and Egypt, but written documentation is fragmentary. The historical record is reconstructed from king lists, inscriptions, and administrative records, all of which have dating uncertainties. The Indus Valley remains archaeologically known but historically opaque. The collapse of the Akkadian Empire is one of the earliest documented cases of imperial collapse, but the causes (climate, military, internal rebellion) remain debated.",
+  "graph_edges": [
+    {
+      "from": "-2166-002",
+      "to": "-2150-GUTIAN_PERIOD",
+      "relation": "led_to",
+      "note": "Akkadian collapse leads to Gutian dominance in Mesopotamia"
+    },
+    {
+      "from": "-2166-001",
+      "to": "-2150-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Old Kingdom collapse leads to First Intermediate Period"
+    }
+  ]
+}

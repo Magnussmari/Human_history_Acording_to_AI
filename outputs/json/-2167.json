@@ -1,0 +1,115 @@
+{
+  "year": -2167,
+  "year_label": "2167 BCE",
+  "era_context": "Late Old Kingdom Egypt in advanced fragmentation; Akkadian Empire at zenith but facing mounting pressure from Gutian incursions and internal resistance. Indus Valley Civilization at peak development. Early Bronze Age III in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2167-001",
+      "title": "Egyptian Old Kingdom: nomarchs consolidate independent power; royal authority minimal",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "By this point in the late Sixth Dynasty, provincial governors have effectively become independent rulers. Tomb inscriptions of nomarchs (e.g., from Aswan, Abydos, Siut) record their own military expeditions, trade missions, and building projects without reference to royal authority. The central government in Memphis retains nominal prestige but little practical power. This marks the transition into the First Intermediate Period (c. 2181\u20132055 BCE).",
+      "key_figures": [
+        "Pepi II (Pharaoh, nominal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and autobiographies of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of local elite building projects",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact year of transition is uncertain; this date is assigned by convention within the broader fragmentation period.",
+      "cross_references": [
+        "-2169-001",
+        "-2168-001"
+      ]
+    },
+    {
+      "id": "-2167-002",
+      "title": "Akkadian Empire: Gutian pressure increases; internal instability mounting",
+      "region": "Mesopotamia, Zagros",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "Naram-Sin's reign is in its final years. Inscriptions record continued military campaigns, but evidence suggests increasing difficulty in maintaining control over conquered territories. The Gutians, a highland people from the Zagros, are beginning to infiltrate Mesopotamian territories. Internal rebellions in southern city-states (Lagash, Umma) are becoming more frequent. The empire is overextended and facing simultaneous external and internal pressures.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, late reign)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records showing internal unrest",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-documented; dating within his reign is secure to \u00b12\u20133 years.",
+      "cross_references": [
+        "-2169-002",
+        "-2168-002"
+      ]
+    },
+    {
+      "id": "-2167-003",
+      "title": "Indus Valley Civilization: peak urban population and standardized trade networks",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization reaches its maximum urban development. Major cities like Harappa and Mohenjo-daro are densely populated with standardized weights, measures, and seals. Trade networks extend from the Persian Gulf to Mesopotamia and possibly to the Levant. The civilization's internal organization remains unknown due to the undeciphered script, but material culture suggests a highly organized, possibly theocratic or mercantile society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and surveys (Possehl, Kenoyer)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and flourishing of the Indus Valley Civilization is archaeologically confirmed; absolute dating is \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2169-003",
+        "-2168-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Naram-Sin's death and the onset of Gutian invasions is debated. Some scholars place the Gutian invasion earlier (c. 2200 BCE), while others date it later (c. 2150 BCE). The 'Akkadian drought' hypothesis remains contested. The Egyptian chronology for this period is uncertain by \u00b120\u201330 years.",
+  "historiographic_note": "This year falls within a period of sparse written documentation for Egypt and increasing instability in Mesopotamia. The historical record is reconstructed from fragmentary sources. The Indus Valley remains archaeologically known but historically opaque. Bias toward Mesopotamian and Egyptian sources means that developments in other regions (Anatolia, the Levant, the Steppe) are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-2167-001",
+      "to": "-2150-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Old Kingdom fragmentation culminates in First Intermediate Period"
+    },
+    {
+      "from": "-2167-002",
+      "to": "-2150-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "Akkadian overextension and Gutian pressure lead to empire's collapse"
+    }
+  ]
+}

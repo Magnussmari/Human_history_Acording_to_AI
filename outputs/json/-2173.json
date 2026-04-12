@@ -1,0 +1,116 @@
+{
+  "year": -2173,
+  "year_label": "2173 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt (Dynasty VI), the Akkadian Empire at its height in Mesopotamia, and the mature Harappan civilization in the Indus Valley. The 4.2 ka event (a major climate shift toward aridity) is beginning to manifest in reduced Nile flood levels and precipitation changes across the Eastern Mediterranean and Near East, though contemporary sources do not yet explicitly document this crisis. This is a period of apparent stability masking underlying systemic stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "East Asia (beyond legendary Xia dynasty accounts)"
+  ],
+  "events": [
+    {
+      "id": "-2173-001",
+      "title": "Pepi II of Egypt \u2014 continued reign amid provincial fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign continues. By this period, the nomarchs (provincial governors) have become increasingly autonomous, accumulating wealth and power independently of the pharaonic center. Inscriptions from nomarchs' tombs (e.g., Harkhuf in Aswan) document their own military campaigns, trade expeditions, and monument-building, suggesting a devolution of royal authority. The central administration remains functional but is losing monopoly on power and resources. No specific crisis is documented for this year, but the structural weakening of Old Kingdom centralization is evident in contemporary records.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt",
+        "Harkhuf, nomarch of Aswan (contemporary official)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Harkhuf and other nomarchs from their tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and ostraca from Memphis and provincial centers",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of Old Kingdom authority is well-attested in contemporary epigraphic evidence. The specific year -2173 is assigned by convention within Pepi II's reign; absolute dating remains uncertain (\u00b150\u2013100 years).",
+      "cross_references": [
+        "Follows from -2174-001 (Pepi II's continued reign)"
+      ]
+    },
+    {
+      "id": "-2173-002",
+      "title": "Naram-Sin of Akkad \u2014 military campaigns and administrative consolidation",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues his military and administrative consolidation of the Akkadian Empire. Cuneiform texts document extensive military organization, tribute collection from vassal states, and resource management. The empire is at its territorial maximum, but internal rebellions and resource strain are mounting. No specific campaign is documented for this year, but the general pattern of imperial consolidation and strain is evident in administrative records.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad and Sumer"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative cuneiform tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Naram-Sin's reign is confirmed, but no specific events are documented for -2173. The year is assigned by convention within his reign; absolute dating varies by \u00b150\u2013100 years.",
+      "cross_references": [
+        "Follows from -2174-002 (Naram-Sin's continued reign)"
+      ]
+    },
+    {
+      "id": "-2173-003",
+      "title": "Climate stress begins: reduced Nile floods and precipitation changes",
+      "region": "Egypt, Mesopotamia, Eastern Mediterranean, Levant",
+      "coordinates_approx": "30.0, 35.0",
+      "category": "environmental",
+      "description": "The 4.2 ka event (a major climate shift toward aridity, c. 2200\u20132100 BCE) is beginning to manifest in reduced Nile flood levels and decreased precipitation across the Eastern Mediterranean and Near East. This shift is not yet explicitly documented in contemporary written sources, but paleoclimatic evidence (ice cores, tree rings, lake sediments) shows a clear trend toward drier conditions. The impact on agriculture and water resources will become catastrophic within the next 50\u2013100 years, contributing to the collapse of the Old Kingdom in Egypt and the Akkadian Empire in Mesopotamia. For -2173, the stress is beginning but not yet critical.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence: Greenland ice cores (GISP2), tree rings, lake sediments",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Nile flood records (later compiled from administrative records and temple inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The 4.2 ka event is confirmed by multiple independent paleoclimatic proxies. However, the specific year -2173 is assigned by convention; the event occurred over a period of decades to centuries (c. 2200\u20132100 BCE). Contemporary written sources do not explicitly document this climate shift.",
+      "cross_references": [
+        "Led to -2200-001 (intensification of climate crisis)",
+        "Led to -2184-001 (collapse of Old Kingdom Egypt)",
+        "Led to -2218-001 (collapse of Akkadian Empire)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for -2173 itself, but the broader chronology of the 4.2 ka event and its synchronization with political collapses in Egypt and Mesopotamia remains debated. Some scholars argue that climate stress was a contributing factor but not the primary cause of these collapses; others emphasize internal political and economic factors. The exact dating of the climate shift and its regional impacts vary by source.",
+  "historiographic_note": "Documentation for -2173 is minimal. No specific events are recorded for this year in surviving sources. The year is reconstructed by interpolation within longer reigns (Pepi II, Naram-Sin) and by paleoclimatic inference. The historical record is heavily skewed toward Egypt and Mesopotamia; other regions are essentially invisible. The 4.2 ka event is known from paleoclimatic evidence, not from contemporary written sources, illustrating the gap between environmental history and narrative history.",
+  "graph_edges": [
+    {
+      "from": "-2173-003",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Early stages of the 4.2 ka event contributed to intensifying climate stress over the following decades."
+    },
+    {
+      "from": "-2173-003",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Climate stress contributed to the collapse of the Old Kingdom in Egypt."
+    }
+  ]
+}

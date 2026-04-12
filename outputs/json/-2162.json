@@ -1,0 +1,122 @@
+{
+  "year": -2162,
+  "year_label": "2162 BCE",
+  "era_context": "Identical to -2160 and -2161. The Old Kingdom of Egypt is in its final phase, the Akkad Empire is collapsing, the Indus Valley Civilization is at its mature peak, and the Xia Dynasty (if historical) is in its early phase. This year falls within the broader transition period from centralized Old Kingdom/Akkad rule to the fragmented First Intermediate Period/Ur III period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-2162-001",
+      "title": "Akkad Empire in advanced collapse; city-states reassert independence",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Akkad Empire's central authority is severely weakened. Cuneiform records from this period show city-states such as Lagash, Uruk, Ur, and Nippur operating as independent entities, conducting their own military campaigns and trade. The Akkad kings' ability to enforce tribute and military service has collapsed. Gutian pressure from the highlands continues to destabilize the region. This period is characterized by political fragmentation, local warfare, and the emergence of competing power centers. The transition from Akkad to the Ur III period is now well underway.",
+      "key_figures": [
+        "Shar-kali-sharri (last Akkad king, if still reigning)",
+        "Lagash city-state rulers"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative texts from Lagash, Uruk, and Nippur",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy at multiple Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkad collapse is well-attested, but precise dating within the 22nd century BCE is uncertain. 2162 BCE is assigned by convention within the collapse period.",
+      "cross_references": [
+        "Continuation of -2160-001 and -2161-001",
+        "Part of broader Akkad collapse sequence"
+      ]
+    },
+    {
+      "id": "-2162-002",
+      "title": "Harappan civilization maintains mature urban organization and trade networks",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues to function as a highly organized urban society. Major cities such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan maintain their standardized urban planning, administrative systems, and trade networks. Archaeological evidence shows no significant disruption or decline during this period. The civilization's stability contrasts sharply with the political fragmentation occurring in Mesopotamia and Egypt. The reasons for the Harappan civilization's organizational coherence during this period are not fully understood; some scholars suggest a decentralized political system that did not depend on a single central authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's existence and stability during the mature phase (c. 2600\u20131900 BCE) are well-established through extensive archaeological evidence.",
+      "cross_references": [
+        "Continuation of -2160-002 and -2161-002",
+        "Precedes -1900-era Harappan decline"
+      ]
+    },
+    {
+      "id": "-2162-003",
+      "title": "Egyptian Sixth Dynasty in final decline; pharaonic authority fragmenting",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt is in its final years. Pharaonic authority is severely weakened, and regional governors (nomarchs) are consolidating autonomous power bases. Tomb inscriptions from this period document the nomarchs' military campaigns, administrative achievements, and accumulation of wealth and resources. The pharaonic center's loss of control is evident in the reduced scale of royal monuments and the increased prominence of provincial elite tombs. This period marks the transition from the Old Kingdom to the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (if still reigning, though reign length is disputed)",
+        "Regional nomarchs"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical tomb inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Sixth Dynasty is well-documented, but Egyptian chronology for this period remains uncertain.",
+      "cross_references": [
+        "Continuation of -2160-003 and -2161-003",
+        "Part of broader Old Kingdom collapse sequence"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The year 2162 BCE is not individually distinguished in surviving sources; it is part of a broader transition period.",
+  "historiographic_note": "Documentation for 2162 BCE is sparse and undifferentiated from -2160 and -2161. The year is not individually documented in surviving sources. Egyptian chronology remains uncertain; Mesopotamian dating relies on the Sumerian King List and archaeological stratigraphy. The Indus Valley is well-documented archaeologically but lacks contemporary written narratives. Bias toward elite political narratives; economic and social conditions are inferred from material remains.",
+  "graph_edges": [
+    {
+      "from": "-2162-001",
+      "to": "-2100-era Ur III hegemony",
+      "relation": "led_to",
+      "note": "The Akkad collapse directly enabled the rise of Ur III."
+    },
+    {
+      "from": "-2162-003",
+      "to": "-2100-era First Intermediate Period",
+      "relation": "led_to",
+      "note": "The fragmentation of the Sixth Dynasty culminated in the First Intermediate Period."
+    }
+  ]
+}

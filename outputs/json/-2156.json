@@ -1,0 +1,120 @@
+{
+  "year": -2156,
+  "year_label": "2156 BCE",
+  "era_context": "The Old Kingdom of Egypt has fully transitioned into the First Intermediate Period. In Mesopotamia, the Akkadian Empire has collapsed, and Gutian rulers control much of the region while southern city-states consolidate power. The Indus Valley Civilization remains at its mature peak. In China, the traditional Xia Dynasty is in its early centuries, though no contemporary written records exist. This is a period of political fragmentation and regional autonomy across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "East Asia (beyond traditional chronology)"
+  ],
+  "events": [
+    {
+      "id": "-2156-001",
+      "title": "Mesopotamian political fragmentation: city-states and Gutian rule coexist",
+      "region": "Mesopotamia (modern Iraq, Syria)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Mesopotamia remains politically fragmented, with Gutian rulers controlling central and northern regions while southern city-states (Ur, Lagash, Nippur) maintain semi-autonomous status. Trade and communication between regions are reduced compared to the Akkadian period, but not entirely severed. Local administrative texts from southern cities continue to be produced, suggesting that despite political fragmentation, urban life and local governance persist. The period is characterized by reduced monumental construction and a general contraction of long-distance trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform administrative texts from southern Mesopotamian cities",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and administrative activity",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad narrative of political fragmentation is well-attested; precise dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "Part of Gutian period (c. -2200 to -2000)",
+        "Precedes Ur III consolidation (c. -2112)"
+      ]
+    },
+    {
+      "id": "-2156-002",
+      "title": "Harappan civilization: peak of urban planning and standardization",
+      "region": "Indus Valley (modern Pakistan, northwest India)",
+      "coordinates_approx": "27.0, 71.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues at its mature peak. Urban centers are characterized by standardized brick sizes, planned street layouts, sophisticated drainage systems, and evidence of centralized administration. The Indus script is in active use on seals and pottery. Long-distance trade networks connect the Indus to Mesopotamia, the Persian Gulf, and possibly the Arabian Peninsula. The civilization's material culture suggests a high degree of social organization and economic sophistication.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence is robust. Absolute dating relies on radiocarbon and stratigraphic correlation, with typical uncertainty of \u00b150\u2013100 years.",
+      "cross_references": [
+        "Part of Harappan mature phase (c. -2600 to -1900)",
+        "Precedes Harappan decline (c. -1900)"
+      ]
+    },
+    {
+      "id": "-2156-003",
+      "title": "Egyptian First Intermediate Period: continued regional autonomy",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Intermediate Period continues with regional governors exercising autonomous power. The Seventh and Eighth Dynasties in Memphis maintain nominal authority, but real power rests with nomarchs in Upper and Lower Egypt. Local conflicts and military campaigns are recorded in autobiographical inscriptions. Despite the absence of a unified state, local prosperity and cultural development continue, with nomarchs commissioning tombs, temples, and other monuments.",
+      "key_figures": [
+        "Ankhtifi (nomarch of Hierakonpolis)",
+        "Sirenput I (nomarch of Aswan)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of local monument construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad narrative is well-attested; precise dating is uncertain by \u00b120\u201350 years.",
+      "cross_references": [
+        "Part of First Intermediate Period (c. -2180 to -2055)",
+        "Precedes Middle Kingdom reunification (c. -2055)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the First Intermediate Period as a time of chaos and decline is increasingly nuanced by modern scholarship, which emphasizes regional prosperity and cultural vitality. The Gutian period is similarly being reinterpreted as a time of integration and continuity rather than barbaric destruction.",
+  "historiographic_note": "The historical record for -2156 remains sparse and heavily dependent on king lists, autobiographical inscriptions, and archaeological evidence. Dating uncertainty is \u00b150\u2013100 years for Mesopotamia and Egypt. The Indus Valley Civilization's undeciphered script limits understanding of political developments. Chinese history for this period is entirely dependent on traditional chronologies lacking contemporary written confirmation.",
+  "graph_edges": [
+    {
+      "from": "-2156-001",
+      "to": "-2112-UR_III_RISE",
+      "relation": "led_to",
+      "note": "Mesopotamian fragmentation precedes Ur III consolidation"
+    },
+    {
+      "from": "-2156-003",
+      "to": "-2055-MIDDLE_KINGDOM",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation precedes Middle Kingdom reunification"
+    }
+  ]
+}

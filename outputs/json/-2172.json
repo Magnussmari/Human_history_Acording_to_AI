@@ -1,0 +1,93 @@
+{
+  "year": -2172,
+  "year_label": "2172 BCE",
+  "era_context": "Late Old Kingdom Egypt (Dynasty VI), Akkadian Empire at its height, mature Harappan civilization. The 4.2 ka event is progressing; climate stress is mounting but not yet catastrophic in most regions. This is a transitional year within longer-term processes of political fragmentation and environmental change.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2172-001",
+      "title": "Pepi II of Egypt \u2014 reign continues amid administrative strain",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign continues. The fragmentation of Old Kingdom authority is accelerating; nomarchs are increasingly independent, and central revenue collection is becoming difficult. Administrative records show continued bureaucratic activity, but the coherence of the state is visibly eroding. No specific crisis is documented for this year, but the trajectory toward the First Intermediate Period is clear.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri and epigraphic records from contemporary tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is confirmed; the year -2172 is assigned by convention. Absolute dating remains uncertain (\u00b150\u2013100 years).",
+      "cross_references": [
+        "Follows from -2173-001"
+      ]
+    },
+    {
+      "id": "-2172-002",
+      "title": "Naram-Sin of Akkad \u2014 empire under strain from rebellions and climate stress",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's reign continues, but the Akkadian Empire is increasingly strained by internal rebellions and resource pressure from climate change. Cuneiform texts document military campaigns against rebellious regions and vassal states. The empire is beginning to show signs of overextension and resource stress, though it has not yet collapsed. No specific campaign is documented for -2172, but the general pattern of military strain is evident.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad and Sumer"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative cuneiform tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Naram-Sin's reign is confirmed; the year -2172 is assigned by convention. Absolute dating varies by \u00b150\u2013100 years.",
+      "cross_references": [
+        "Follows from -2173-002"
+      ]
+    },
+    {
+      "id": "-2172-003",
+      "title": "4.2 ka event \u2014 climate stress intensifies across Eastern Mediterranean and Near East",
+      "region": "Egypt, Mesopotamia, Levant, Eastern Mediterranean",
+      "coordinates_approx": "30.0, 35.0",
+      "category": "environmental",
+      "description": "The 4.2 ka event continues to intensify. Paleoclimatic evidence shows further reduction in precipitation and Nile flood levels. The impact on agriculture is becoming more severe, though not yet catastrophic. Reduced water availability is beginning to stress both Egyptian and Mesopotamian agricultural systems. Contemporary written sources do not explicitly document this crisis, but the environmental stress is evident in paleoclimatic proxies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence: ice cores, tree rings, lake sediments",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The 4.2 ka event is confirmed by paleoclimatic evidence. The specific year -2172 is assigned by convention within the broader event (c. 2200\u20132100 BCE).",
+      "cross_references": [
+        "Follows from -2173-003",
+        "Led to -2200-001 (intensification of climate crisis)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence for -2172 specifically. The broader debate about the 4.2 ka event's role in political collapses continues; some scholars emphasize internal political factors over climate stress.",
+  "historiographic_note": "Documentation for -2172 is minimal. No specific events are recorded. The year is reconstructed by interpolation and paleoclimatic inference. The historical record remains heavily skewed toward Egypt and Mesopotamia.",
+  "graph_edges": [
+    {
+      "from": "-2172-003",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Intensifying climate stress contributed to the broader crisis of the late 3rd millennium BCE."
+    }
+  ]
+}

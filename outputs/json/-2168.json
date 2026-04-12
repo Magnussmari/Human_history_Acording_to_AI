@@ -1,0 +1,112 @@
+{
+  "year": -2168,
+  "year_label": "2168 BCE",
+  "era_context": "Continuation of late Old Kingdom Egypt's fragmentation and Akkadian imperial dominance in Mesopotamia. The Indus Valley Civilization remains at peak urban development. Early Bronze Age III continues in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond oracle bone records",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2168-001",
+      "title": "Continued fragmentation of Egyptian Old Kingdom; local elite consolidation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty's authority continues to weaken. Provincial governors (nomarchs) in Upper Egypt (Aswan, Abydos, Thebes) and Lower Egypt (Memphis region) increasingly operate as autonomous rulers, maintaining their own armies and trade networks. Royal building projects diminish; elite tomb construction shifts from royal to local patronage. The central administration's ability to levy taxes and conscript labor is severely compromised.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Sixth Dynasty, traditional reign)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb biographies of provincial officials (Aswan, Abydos)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Decline in royal monument construction (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Dating within Pepi II's reign is uncertain; this year is assigned by convention within the broader fragmentation period.",
+      "cross_references": [
+        "-2169-001"
+      ]
+    },
+    {
+      "id": "-2168-002",
+      "title": "Akkadian military campaigns in the Zagros and Levant continue under Naram-Sin",
+      "region": "Mesopotamia, Zagros Mountains, Levant",
+      "coordinates_approx": "34.0, 33.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions record ongoing campaigns against the Lullubi (Zagros) and other highland peoples. The Naram-Sin Stele depicts the king in divine form, suggesting deification of the ruler\u2014a significant ideological shift. Akkadian control over trade routes and resource extraction (timber, stone, metals) remains strong, but resistance from conquered territories is increasing.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns are well-documented; dating within his reign is secure.",
+      "cross_references": [
+        "-2169-002"
+      ]
+    },
+    {
+      "id": "-2168-003",
+      "title": "Indus Valley Civilization: continued maritime trade with Mesopotamia",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "Trade between the Indus Valley and Mesopotamia (Akkad) continues to flourish. Indus seals and weights are found in Mesopotamian contexts, indicating standardized commercial exchange. The Indus civilization's ports (likely Lothal and other coastal sites) facilitate trade in timber, ivory, lapis lazuli, and other luxury goods. The civilization's internal organization remains opaque due to the undeciphered script.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts referencing 'Meluhha'",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are archaeologically confirmed; absolute dating is \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2169-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronology of the late Sixth Dynasty remains contested, with some scholars proposing significantly different reign lengths and dates.",
+  "historiographic_note": "This year falls within a period of sparse written documentation for Egypt. The historical record is reconstructed from tomb inscriptions, administrative fragments, and later king lists. Mesopotamian records are more abundant but concentrated in southern city-states. The Indus Valley remains archaeologically known but historically opaque.",
+  "graph_edges": [
+    {
+      "from": "-2168-001",
+      "to": "-2169-001",
+      "relation": "part_of",
+      "note": "Continuation of Old Kingdom fragmentation"
+    },
+    {
+      "from": "-2168-002",
+      "to": "-2169-002",
+      "relation": "part_of",
+      "note": "Continuation of Akkadian imperial campaigns"
+    }
+  ]
+}
