@@ -1,0 +1,91 @@
+{
+  "year": -174,
+  "year_label": "174 BCE",
+  "era_context": "The Hellenistic world in the mid-2nd century BCE, dominated by the Seleucid Empire in the East, Ptolemaic Egypt in the South, and rising Roman power in the West. The Parthian Empire was consolidating control in Mesopotamia and Iran. In China, the Han Dynasty under Emperor Xuan was in its early reign. This period marks the transition toward Roman hegemony in the Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman contact zones",
+    "Mesoamerica (no contemporary written records in Western tradition)"
+  ],
+  "events": [
+    {
+      "id": "-174-001",
+      "title": "Antiochus IV Epiphanes becomes Seleucid King",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia, Persia)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Antiochus IV ascended to the Seleucid throne following the death of his brother Seleucus IV Philopator. He was initially held as a hostage in Rome but was released and returned to claim the kingship. His reign would be marked by aggressive Hellenization policies, military campaigns to restore Seleucid power, and ultimately the Maccabean Revolt in Judea. His accession represented a shift toward more expansionist policies in the eastern Mediterranean.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Seleucus IV Philopator (predecessor, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees 1:10",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Livy, History of Rome",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Antiochus IV is well-attested in multiple Hellenistic and later sources. Dating to 175 BCE is standard in modern scholarship, though some sources place it in 174 BCE.",
+      "cross_references": [
+        "Relates to -167-001 (Maccabean Revolt)",
+        "Follows from death of Seleucus IV in -175"
+      ]
+    },
+    {
+      "id": "-174-002",
+      "title": "Roman embassy and diplomatic pressure in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean (Rome, Seleucid Empire, Egypt, Greece)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Rome continued to consolidate its influence in the Eastern Mediterranean through diplomatic missions and the threat of military intervention. The Senate maintained pressure on Hellenistic powers to prevent any single power from dominating the region. This period saw increasing Roman oversight of Seleucid and Ptolemaic affairs, setting the stage for eventual Roman conquest of the East.",
+      "key_figures": [
+        "Roman Senate",
+        "Antiochus IV Epiphanes"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Books 28-29)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Livy, History of Rome (Books 41-42)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman diplomatic activity in this period is well-documented, though specific embassies in 174 BCE are not always precisely dated in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Antiochus IV's accession is debated among scholars. While 175 BCE is more commonly cited in modern scholarship, some ancient sources and modern historians place it in 174 BCE. The significance of this event in triggering the Maccabean Revolt is sometimes overstated; the revolt was a complex response to multiple Seleucid policies rather than a direct consequence of the succession itself.",
+  "historiographic_note": "The historical record for 174 BCE is dominated by Hellenistic and Roman sources, with limited perspectives from the Seleucid court itself. The Polybius and Livy accounts are our primary sources, but both were written from a Greco-Roman perspective. Jewish sources (1 Maccabees) provide an alternative viewpoint but were compiled later. Chinese and Indian sources for this period are sparse in Western scholarship. The record is biased toward political and military events; economic and social history is poorly attested.",
+  "graph_edges": [
+    {
+      "from": "-174-001",
+      "to": "-167-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's policies as king eventually triggered the Maccabean Revolt"
+    },
+    {
+      "from": "-174-001",
+      "to": "-175-SUCCESSION",
+      "relation": "caused_by",
+      "note": "Followed the death of Seleucus IV Philopator"
+    }
+  ]
+}

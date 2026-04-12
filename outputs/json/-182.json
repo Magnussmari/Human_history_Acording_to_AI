@@ -1,26 +1,25 @@
 {
   "year": -182,
   "year_label": "182 BCE",
-  "era_context": "The early Hellenistic period continues with the same major powers and dynamics as 180\u2013181 BCE. The Seleucid Empire under Antiochus III is in a phase of territorial consolidation; Ptolemaic Egypt is weakened by regency struggles; Rome is not yet directly involved in Eastern Mediterranean conflicts but is watching developments closely. The Han Dynasty in China continues its consolidation under Emperor Wen. This year falls within a relatively stable period before the major conflicts of the 170s BCE.",
-  "documentation_level": "sparse",
+  "era_context": "The early Hellenistic period with the Seleucid Empire actively campaigning in the Eastern Mediterranean. The Han Dynasty under Emperor Wen is consolidating power and promoting economic recovery. The Ptolemaic Kingdom is engaged in military conflict with the Seleucids. In India, regional kingdoms are competing for dominance following the Mauryan collapse. The Roman Republic is expanding its influence in the Mediterranean.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Central Asia",
     "Mesoamerica",
-    "India",
     "Southeast Asia"
   ],
   "events": [
     {
       "id": "-182-001",
-      "title": "Seleucid military consolidation in Syria and Phoenicia",
-      "region": "Seleucid Empire (Syria, Phoenicia, Coele-Syria)",
-      "coordinates_approx": "34.5, 35.5",
+      "title": "Seleucid-Egyptian War \u2014 Antiochus III's campaigns continue in the Eastern Mediterranean",
+      "region": "Levant, Eastern Mediterranean, Seleucid Empire",
+      "coordinates_approx": "33.5, 35.5",
       "category": "military",
-      "description": "Antiochus III continues military operations to consolidate Seleucid control over southern Syria and Phoenicia. These campaigns are part of a sustained effort to recover territories lost to Ptolemaic Egypt during the Third Syrian War. The operations are generally successful and strengthen Seleucid control over the eastern Mediterranean region, though they do not yet provoke direct Roman intervention.",
+      "description": "The Fifth Syrian War between the Seleucid Empire and Ptolemaic Egypt continued with Antiochus III maintaining military pressure on Egyptian-held territories. The Seleucid king sought to consolidate his control over Coele-Syria, Phoenicia, and other strategic regions. This period of the war demonstrated the military capabilities of the Seleucid Empire and its ability to project power across the Eastern Mediterranean. The conflict would eventually lead to Roman intervention and reshape the balance of power in the region.",
       "key_figures": [
-        "Antiochus III (Seleucid King)"
+        "Antiochus III (Seleucid King)",
+        "Ptolemy IV Philopator (Egyptian Pharaoh)"
       ],
       "sources": [
         {
@@ -30,57 +29,122 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Polybius is the main source, but the specific events of 182 BCE are not clearly distinguished from those of 180\u2013181 BCE. Dating is approximate within \u00b12\u20133 years.",
+      "certainty_note": "The year-by-year progression of the Fifth Syrian War is not precisely documented in surviving sources. The year -182 is assigned by convention within the broader conflict period.",
       "cross_references": [
-        "-180-001",
-        "-181-001"
+        "Part of broader Fifth Syrian War",
+        "Precedes Roman intervention in Eastern Mediterranean affairs"
       ]
     },
     {
       "id": "-182-002",
-      "title": "Ptolemaic Egypt under regency of Cleopatra I",
-      "region": "Ptolemaic Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Cleopatra I continues as regent for the young Ptolemy VI Philometor. The regency period is marked by internal power struggles and administrative challenges. Egypt's military capacity is weakened by internal divisions, making it vulnerable to Seleucid expansion. The regency will continue until Cleopatra I's death around 176 BCE.",
+      "title": "Han Dynasty \u2014 Confucian scholarship and administrative reform under Emperor Wen",
+      "region": "China, Han Empire",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "cultural",
+      "description": "Emperor Wen of Han continued his promotion of Confucian scholarship and administrative reform, moving away from the harsh Legalist policies of earlier periods. This shift in ideology and governance had profound implications for Chinese civilization, establishing a model of benevolent rule and bureaucratic meritocracy that would influence Chinese statecraft for centuries. Wen's patronage of Confucian scholars and his emphasis on moral governance created a cultural and intellectual environment that fostered the development of Chinese philosophy and literature.",
       "key_figures": [
-        "Cleopatra I (regent)",
-        "Ptolemy VI Philometor (young king)"
+        "Emperor Wen of Han",
+        "Confucian scholars and advisors"
       ],
       "sources": [
         {
-          "name": "Papyri from Egypt (administrative records)",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
         },
+        {
+          "name": "Han Shu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty history and Emperor Wen's cultural policies are well-documented in Chinese historical sources.",
+      "cross_references": [
+        "Part of broader Han consolidation",
+        "Precedes the flourishing of Chinese culture under Emperor Wu"
+      ]
+    },
+    {
+      "id": "-182-003",
+      "title": "Chola Dynasty \u2014 Rise of power in southern India",
+      "region": "Southern India, Tamil region",
+      "coordinates_approx": "11.0, 79.5",
+      "category": "political",
+      "description": "The Chola Dynasty was rising to prominence in southern India during this period, competing with the Pandya and Chera kingdoms for control of the Tamil region. The Cholas were developing maritime trade networks and military capabilities that would eventually make them one of the dominant powers in southern India. This period saw the consolidation of Chola power and the beginning of their expansion, which would eventually lead to the creation of a major maritime empire.",
+      "key_figures": [
+        "Chola rulers (specific names uncertain for this period)"
+      ],
+      "sources": [
+        {
+          "name": "Sangam literature (Tamil poetry, compiled later but preserving older traditions)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Chola sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact chronology of early Chola history is uncertain. Sangam literature provides cultural information but is difficult to date precisely. The year -182 is assigned by convention within the period of Chola rise.",
+      "cross_references": [
+        "Contemporary with Shunga consolidation in central India",
+        "Part of broader regional fragmentation in India"
+      ]
+    },
+    {
+      "id": "-182-004",
+      "title": "Ptolemaic Egypt \u2014 Administrative and military consolidation",
+      "region": "Egypt, Ptolemaic Kingdom",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy IV Philopator continued to consolidate Ptolemaic power despite military losses to the Seleucids. The Ptolemaic state maintained its administrative structures and military capabilities, though the dynasty's territorial extent was being reduced. This period saw the continuation of Greek-Egyptian cultural synthesis and the maintenance of Ptolemaic economic and naval power.",
+      "key_figures": [
+        "Ptolemy IV Philopator",
+        "Ptolemaic ministers and administrators"
+      ],
+      "sources": [
         {
           "name": "Polybius, Histories",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "epigraphic",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The regency of Cleopatra I is well-attested, but the specific events of 182 BCE are not clearly documented. Dating is approximate within \u00b12 years.",
+      "certainty_note": "Ptolemaic administrative structures are documented in papyri and Greek sources, though specific events for this year are not detailed.",
       "cross_references": [
-        "-180-002",
-        "-181-002"
+        "Contemporary with Seleucid-Egyptian War",
+        "Part of broader Hellenistic political dynamics"
       ]
     }
   ],
-  "disconfirming_evidence": "The year 182 BCE is not a major turning point in any surviving historical tradition, and specific events of this year are poorly documented. Modern scholarship has questioned whether the Seleucid campaigns of this period were as significant as older historiography suggested. The regency of Cleopatra I is well-attested, but the specific political events of 182 BCE are not clearly distinguished from those of surrounding years.",
-  "historiographic_note": "The historical record for 182 BCE is sparse and relies on sources written decades or centuries after the events. Polybius is the main source for Mediterranean affairs, but he does not provide year-by-year precision for this period. Egyptian papyri provide administrative evidence but are not narrative sources. The year 182 BCE is not a major turning point in any surviving historical tradition, which explains the lack of detailed contemporary documentation. This year is essentially a continuation of the trends visible in 180\u2013181 BCE.",
+  "disconfirming_evidence": "The exact chronology of the Fifth Syrian War remains disputed among scholars. The dating of early Chola history is particularly uncertain, with Sangam literature providing cultural information but limited chronological precision. Modern scholarship has revised the narrative of Ptolemaic decline, emphasizing the continued strength of the Ptolemaic state during this period.",
+  "historiographic_note": "The historical record for 182 BCE is similar to previous years: dominated by Greek and Roman sources for the Mediterranean, with detailed Chinese sources for the Han Dynasty, and limited contemporary documentation for India and Egypt. The record is heavily biased toward the Mediterranean and China.",
   "graph_edges": [
     {
       "from": "-182-001",
-      "to": "-180-001",
-      "relation": "part_of",
-      "note": "Part of the broader Seleucid consolidation campaign in Syria"
+      "to": "-181-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of the Fifth Syrian War"
     },
     {
       "from": "-182-002",
-      "to": "-170-001",
-      "relation": "led_to",
-      "note": "Continued regency instability in Egypt contributed to Seleucid aggression"
+      "to": "-181-002",
+      "relation": "contemporary_with",
+      "note": "Emperor Wen's reign continues"
+    },
+    {
+      "from": "-182-003",
+      "to": "-180-003",
+      "relation": "contemporary_with",
+      "note": "Regional competition in India continues"
     }
   ]
 }

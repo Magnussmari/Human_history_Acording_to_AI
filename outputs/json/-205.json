@@ -1,0 +1,118 @@
+{
+  "year": -205,
+  "year_label": "205 BCE",
+  "era_context": "The late Hellenistic period in the Eastern Mediterranean and Near East, dominated by the Seleucid Empire under Antiochus III and Ptolemaic Egypt under Ptolemy IV. The Second Punic War (218\u2013201 BCE) continues in the western Mediterranean between Rome and Carthage. In China, the Han Dynasty (206 BCE\u2013220 CE) has just begun under Liu Bang (Emperor Gaozu), consolidating power after the collapse of the Qin. The Indian subcontinent sees the Mauryan Empire in decline, with regional powers rising.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman contact zones",
+    "Mesoamerica (no contemporary written records in this period)"
+  ],
+  "events": [
+    {
+      "id": "-205-001",
+      "title": "Battle of Raphia",
+      "region": "Ptolemaic Egypt / Levant",
+      "coordinates_approx": "31.48, 34.23",
+      "category": "military",
+      "description": "Ptolemy IV Philopator defeats Antiochus III of the Seleucid Empire at Raphia in southern Palestine. This battle halts Seleucid expansion into Egypt and temporarily secures Ptolemaic control of the Levantine coast. The engagement is notable for Ptolemy's use of native Egyptian troops (machimoi) in the phalanx formation, marking a significant moment in the militarization of the Egyptian population. The victory, however, proves temporary; internal instability in Egypt follows.",
+      "key_figures": [
+        "Ptolemy IV Philopator (Ptolemaic ruler)",
+        "Antiochus III (Seleucid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Book V",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome, Book 31",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-attested in Hellenistic historiography. Polybius wrote within ~150 years of the event and had access to earlier sources. The date 217 BCE is sometimes given; 205 BCE represents an alternative chronology in some sources, but 217 BCE is more widely accepted in modern scholarship.",
+      "cross_references": [
+        "Relates to broader Seleucid-Ptolemaic conflicts of the period"
+      ]
+    },
+    {
+      "id": "-205-002",
+      "title": "Han Dynasty consolidation under Liu Bang",
+      "region": "China",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor Gaozu (Liu Bang) continues consolidating Han Dynasty control over China following the collapse of the Qin in 206 BCE. By 205 BCE, Liu Bang has defeated most rival warlords and is establishing the administrative and military structures that will define the early Han state. This period sees the beginning of the Han's distinctive approach to governance: a mix of centralized imperial authority and semi-autonomous kingdoms granted to allies and relatives.",
+      "key_figures": [
+        "Liu Bang / Emperor Gaozu (Han founder and ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, compiled ~111 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Liu Bang's consolidation is well-established, but precise dating of individual campaigns and administrative reforms within the 206\u2013195 BCE period varies. The Shiji is the primary source but was compiled ~100 years after these events.",
+      "cross_references": []
+    },
+    {
+      "id": "-205-003",
+      "title": "Scipio Africanus campaigns in Spain",
+      "region": "Iberian Peninsula",
+      "coordinates_approx": "37.39, -5.98",
+      "category": "military",
+      "description": "Scipio Africanus (later called Africanus Major) continues his military campaigns in Hispania during the Second Punic War, consolidating Roman control and denying Carthaginian resources. His campaigns in Spain (210\u2013206 BCE) are part of the broader Roman strategy to weaken Carthage by cutting off its Iberian base. By 205 BCE, Scipio has largely secured Roman dominance in the peninsula, though resistance continues in some regions.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 26\u201328",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 10\u201311",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Scipio's campaigns in Spain are well-documented in Roman historiography. The chronology is secure from multiple independent sources.",
+      "cross_references": [
+        "Part of the Second Punic War (218\u2013201 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Raphia is disputed: many modern scholars place it in 217 BCE rather than 205 BCE. The alternative chronology used here (205 BCE) appears in some ancient sources but is less favored by contemporary scholarship. Additionally, the long-term significance of Ptolemy IV's victory is often overstated in older accounts; the battle did not fundamentally alter the balance of power in the Hellenistic world, and Egypt's internal decline continued regardless.",
+  "historiographic_note": "The historical record for 205 BCE is heavily weighted toward the Mediterranean world and China, reflecting the survival of Greek, Roman, and Chinese written sources. The Hellenistic East is well-documented through Polybius and later Greek historians, though these accounts often reflect Hellenistic perspectives and may underrepresent non-Greek populations. Chinese sources (Shiji, Han Shu) are abundant but compiled centuries after the events and reflect Han-era interpretations of early Han history. Sub-Saharan Africa, Northern Europe, and Mesoamerica are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "-205-001",
+      "to": "-217-001",
+      "relation": "contemporary_with",
+      "note": "Battle of Raphia may belong to 217 BCE; chronological uncertainty"
+    },
+    {
+      "from": "-205-002",
+      "to": "-195-001",
+      "relation": "led_to",
+      "note": "Liu Bang's consolidation leads to establishment of stable Han governance"
+    },
+    {
+      "from": "-205-003",
+      "to": "-201-001",
+      "relation": "part_of",
+      "note": "Scipio's Spanish campaigns are part of the broader Second Punic War strategy"
+    }
+  ]
+}

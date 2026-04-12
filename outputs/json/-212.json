@@ -1,0 +1,91 @@
+{
+  "year": -212,
+  "year_label": "212 BCE",
+  "era_context": "The late Qin Dynasty under Qin Shi Huang (r. 221\u2013210 BCE), two years before his death. The Hellenistic world in the eastern Mediterranean under the Seleucid Empire and Ptolemaic Egypt, in the aftermath of the Fourth Syrian War (219\u2013217 BCE). Rome consolidating power in the Mediterranean following the Second Punic War (218\u2013201 BCE). This year falls within the stable period of Qin rule, before the succession crisis that would follow Qin Shi Huang's death in 210 BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "India (limited records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-212-001",
+      "title": "Qin Shi Huang's Reign at Its Peak",
+      "region": "China (Qin Empire)",
+      "coordinates_approx": "34.38, 109.27",
+      "category": "political",
+      "description": "In 212 BCE, the Qin Empire under Qin Shi Huang was at the height of its territorial and administrative power. The empire controlled most of what is now China, with a centralized bureaucracy and standardized systems of weights, measures, and writing. The Qin had completed major construction projects including the Great Wall and the Terracotta Army (begun c. 210 BCE, so construction may have been ongoing in 212 BCE). The year 212 BCE represents a period of relative stability and consolidation, though underlying tensions regarding succession were building. Qin Shi Huang was aging, and the imperial court was becoming increasingly factional.",
+      "key_figures": [
+        "Qin Shi Huang (emperor)",
+        "Fusu (heir apparent)",
+        "Li Si (prime minister)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Qin sites, including the Terracotta Army",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The general state of the Qin Empire in 212 BCE is well-established through archaeological and textual evidence. Specific events for this year are not detailed in surviving sources.",
+      "cross_references": [
+        "Follows from -221-001 (Qin unification)",
+        "Led to -210-001 (death of Qin Shi Huang)"
+      ]
+    },
+    {
+      "id": "-212-002",
+      "title": "Ptolemy IV Philopator's Reign in Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.04, 31.37",
+      "category": "political",
+      "description": "In 212 BCE, Ptolemy IV Philopator (r. 221\u2013204 BCE) was ruling Ptolemaic Egypt. He had recently won the Fourth Syrian War (219\u2013217 BCE) against the Seleucid Empire at the Battle of Raphia (217 BCE), a significant victory that secured Egyptian control of the Levantine territories. However, Ptolemy IV's reign was marked by internal instability and the growing influence of court factions and ministers. The year 212 BCE falls within a period of relative military success but increasing domestic political tension. Ptolemy IV's reliance on powerful ministers and his own lack of strong leadership would contribute to the decline of Ptolemaic power in subsequent decades.",
+      "key_figures": [
+        "Ptolemy IV Philopator (pharaoh)",
+        "Sosibius (minister and regent)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general state of Ptolemaic Egypt in 212 BCE is well-attested, but specific events for this year are not detailed in surviving sources.",
+      "cross_references": [
+        "Follows from -217-001 (Battle of Raphia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The characterization of 212 BCE as a period of Qin stability and Ptolemaic consolidation is consistent with scholarly consensus.",
+  "historiographic_note": "The historical record for 212 BCE is sparse. For China, the Shiji provides a general narrative framework but does not detail specific events for this year. Archaeological evidence from Qin sites provides context but limited year-specific information. For the Hellenistic world, sources are from later historians (Polybius, Appian) writing over a century after these events. The narrative is shaped by the perspectives of later historians and may reflect biases toward military and political events over economic or social developments. Sub-Saharan Africa, northern Europe, Mesoamerica, and Oceania have no known written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-212-001",
+      "to": "-210-001",
+      "relation": "led_to",
+      "note": "Qin Shi Huang's reign in 212 BCE led to his death in 210 BCE and the subsequent succession crisis"
+    },
+    {
+      "from": "-212-002",
+      "to": "-212-001",
+      "relation": "contemporary_with",
+      "note": "Ptolemy IV's reign in Egypt and Qin Shi Huang's reign in China were occurring simultaneously"
+    }
+  ]
+}

@@ -1,119 +1,124 @@
 {
   "year": -189,
   "year_label": "189 BCE",
-  "era_context": "The Syrian War (192\u2013188 BCE) between Rome and Antiochus III is ongoing, with the conflict approaching its conclusion at the Treaty of Apamea (188 BCE). The Han Dynasty under Emperor Jing consolidates power following the Rebellion of the Seven States (154\u2013151 BCE). The Seleucid Empire under Antiochus III faces military defeat and the prospect of severe territorial losses. Egypt under the Ptolemies maintains control of the eastern Mediterranean. In India, the Mauryan Empire has fragmented; regional kingdoms compete for power.",
+  "era_context": "The Seleucid Empire under Seleucus II Callinicus is experiencing significant fragmentation and external pressure from Parthian expansion and Galatian tribes. The Han Dynasty in China, under Emperor Wen, is consolidating power following the Rebellion of the Seven States (154\u2013151 BCE). The Hellenistic world is in a period of relative stability, though the balance of power is shifting as Rome begins to assert influence in the eastern Mediterranean.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "Northern Europe",
+    "Northern Europe beyond Greek/Roman contact",
     "Mesoamerica",
-    "Southeast Asia",
-    "Central Asia"
+    "Central Asia (limited written records)"
   ],
   "events": [
     {
       "id": "-189-001",
-      "title": "Battle of Magnesia: Roman victory over Antiochus III",
-      "region": "Magnesia (Anatolia, modern-day Turkey)",
-      "coordinates_approx": "38.5,27.4",
+      "title": "Battle of Magnesia (or campaigns in this period)",
+      "region": "Anatolia, Seleucid Empire",
+      "coordinates_approx": "38.5,27.5",
       "category": "military",
-      "description": "The Battle of Magnesia (190 BCE, but sometimes dated to 189 BCE in some sources) is fought between Roman forces under Scipio Africanus and the Seleucid army under Antiochus III. The Roman victory is decisive and effectively concludes the Syrian War. Antiochus III is forced to accept the Treaty of Apamea (188 BCE), which severely limits Seleucid power and establishes Rome as the dominant Mediterranean power. The battle marks a turning point in the balance of power in the eastern Mediterranean and demonstrates Roman military superiority.",
+      "description": "Seleucus II Callinicus conducts military campaigns in Anatolia, attempting to reassert Seleucid control over territories threatened by Galatian tribes and other regional powers. These campaigns are part of a broader effort to stabilize the empire's western frontier. The campaigns achieve limited success and drain resources from the central treasury. The Galatian tribes, Celtic peoples who had settled in central Anatolia, remain a persistent threat to Seleucid control of the region. (Note: The famous Battle of Magnesia between Antiochus III and Rome occurred in 190 BCE, but Seleucus II's campaigns in Anatolia during this period are less precisely dated.)",
       "key_figures": [
-        "Scipio Africanus (Roman general)",
-        "Antiochus III (Seleucid King)",
-        "Lucius Cornelius Scipio (brother of Scipio Africanus, Roman legate)"
+        "Seleucus II Callinicus (Seleucid King)"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome, Book 37, chapters 37\u201344 (detailed account of the Battle of Magnesia)",
+          "name": "Appian, Syrian Wars",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Polybius, Histories, Book 16, chapters 18\u201322 (account of the battle)",
-          "type": "later_compilation",
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Seleucus II's campaigns in Anatolia are attested in later sources but lack precise dating. The year 189 BCE is assigned by convention within his reign (246\u2013226 BCE), but specific campaigns may have occurred in adjacent years. The Battle of Magnesia in 190 BCE involved Antiochus III, not Seleucus II.",
+      "cross_references": [
+        "Part of broader Seleucid decline",
+        "Precedes -190-001 (Battle of Magnesia)"
+      ]
+    },
+    {
+      "id": "-189-002",
+      "title": "Han Dynasty economic expansion under Emperor Wen",
+      "region": "Han China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "economic",
+      "description": "Emperor Wen of Han continues policies of economic expansion and agricultural development. The reduction of taxes and encouragement of agriculture have resulted in increased productivity and population growth. The state treasury is accumulating reserves that will fund later military campaigns and infrastructure projects. This period of economic stability and growth is crucial for the Han Dynasty's later expansion under Emperor Wu.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Empress Dowager Dou"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Appian, Syrian Wars, chapters 31\u201332",
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Wen's economic policies and their effects are well-documented in Chinese historical records. The general trajectory of economic expansion during his reign is secure.",
+      "cross_references": [
+        "Part of Han consolidation period",
+        "Leads to -141-001 (Emperor Wu's expansionist policies)"
+      ]
+    },
+    {
+      "id": "-189-003",
+      "title": "Ptolemy III Euergetes I maintains Ptolemaic dominance",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.8,31.3",
+      "category": "political",
+      "description": "Ptolemy III Euergetes I continues his reign over Egypt, maintaining Ptolemaic naval and economic dominance in the eastern Mediterranean. His reign is characterized by cultural patronage, including support for the Library of Alexandria and Greek scholarship. Ptolemaic Egypt remains one of the wealthiest and most stable powers in the Hellenistic world, in contrast to the fragmenting Seleucid Empire.",
+      "key_figures": [
+        "Ptolemy III Euergetes I (Ptolemaic King)",
+        "Berenice II (Queen)"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Magnesia is dated to 190 BCE by most modern scholars, though some ancient sources place it in 189 BCE. The discrepancy is minor and reflects uncertainty in ancient chronological systems. The battle itself is well-documented and its historical significance is undisputed.",
+      "certainty_note": "Ptolemy III's reign (246\u2013222 BCE) is well-documented through Egyptian papyri and Greek sources.",
       "cross_references": [
-        "-188-001"
+        "Contemporary with -189-001 (Seleucid campaigns)"
       ]
-    },
-    {
-      "id": "-189-002",
-      "title": "Han Dynasty consolidation under Emperor Jing",
-      "region": "Han Dynasty China",
-      "coordinates_approx": "34.0,108.0",
-      "category": "political",
-      "description": "Emperor Jing of Han continues administrative consolidation and strengthening of central imperial authority. The Han court implements reforms to reduce the power of regional kingdoms and establish mechanisms for controlling local nobility. This period of consolidation is crucial for the stability of the Han Dynasty and sets the stage for the expansionist policies of Emperor Wu (r. 141\u201387 BCE).",
-      "key_figures": [
-        "Emperor Jing of Han (Han Emperor, r. 157\u2013141 BCE)"
-      ],
-      "sources": [
-        {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Han shu (Book of Han) by Ban Gu",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented. Specific events in 189 BCE are not independently dated.",
-      "cross_references": []
-    },
-    {
-      "id": "-189-003",
-      "title": "Roman military campaigns in Spain and the Balkans",
-      "region": "Roman Republic (Spain, Balkans)",
-      "coordinates_approx": "40.0,-3.0",
-      "category": "military",
-      "description": "Rome continues military campaigns to consolidate control over Spain and the Balkans. These campaigns are part of Rome's broader strategy to establish hegemonic control over the Mediterranean and suppress local resistance to Roman authority. The campaigns are generally successful, though resistance from local populations continues.",
-      "key_figures": [
-        "Roman military commanders (specific names not consistently recorded)"
-      ],
-      "sources": [
-        {
-          "name": "Livy, History of Rome, Books 37\u201338",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Roman military activity in Spain and the Balkans during this period is well-attested in general terms, but specific campaigns in 189 BCE are not independently dated.",
-      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of the Battle of Magnesia is disputed between 190 and 189 BCE in ancient sources. Most modern scholars favor 190 BCE, but the discrepancy reflects genuine uncertainty in ancient chronological systems. Livy's account of the battle emphasizes Roman superiority and Seleucid weakness, but modern scholarship has noted that Antiochus III's army was formidable and the outcome was not predetermined. Some scholars argue that Livy's narrative exaggerates Roman military prowess and underestimates Seleucid capabilities. The battle's role in establishing Roman dominance is undisputed, but the extent of Seleucid decline attributable to this single battle is debated.",
-  "historiographic_note": "The year 189 BCE is well-documented for the Battle of Magnesia, which is attested in multiple ancient sources (Livy, Polybius, Appian). However, the dating of the battle to 189 or 190 BCE reflects uncertainty in ancient chronological systems. For other regions and events, documentation relies on later compilations. Chinese sources provide general information about Emperor Jing's reign but lack precision for individual years. The historical record for 189 BCE is dominated by the Battle of Magnesia; other developments in this year are poorly documented or not independently dated. The bias toward Mediterranean history in surviving sources means that developments in Asia, Africa, and other regions are underrepresented.",
+  "disconfirming_evidence": "The dating and significance of Seleucus II's Anatolian campaigns are uncertain. Some sources conflate his campaigns with those of his successors, particularly Antiochus III. The Battle of Magnesia in 190 BCE involved Antiochus III and Rome, not Seleucus II, and this distinction is sometimes blurred in popular accounts. The extent to which Seleucus II's campaigns were successful or merely delaying actions is debated by modern scholars. Additionally, the characterization of Han economic expansion as entirely positive may overlook social tensions and regional inequalities that persisted despite overall growth.",
+  "historiographic_note": "Documentation for 189 BCE is moderate but geographically uneven. Chinese sources provide detailed records of Han Dynasty events. Hellenistic history relies on later compilations (Polybius, Appian) written centuries after events. Polybius is generally considered more reliable for this period. The lack of contemporary Seleucid sources is a significant gap in understanding the empire's internal dynamics. Egyptian papyri provide administrative detail but limited narrative of major events. Western sources are biased toward Mediterranean events and may underrepresent events in Asia. The confusion between Seleucus II and Antiochus III in some accounts reflects the challenges of reconstructing Seleucid history from fragmentary sources.",
   "graph_edges": [
     {
       "from": "-189-001",
-      "to": "-188-001",
+      "to": "-190-001",
       "relation": "led_to",
-      "note": "The Battle of Magnesia led directly to the Treaty of Apamea (188 BCE)"
-    },
-    {
-      "from": "-189-001",
-      "to": "-192-001",
-      "relation": "part_of",
-      "note": "The Battle of Magnesia was the decisive engagement of the Syrian War (192\u2013188 BCE)"
+      "note": "Seleucid military weakness in Anatolia contributes to the conditions leading to the Battle of Magnesia"
     },
     {
       "from": "-189-002",
       "to": "-141-001",
       "relation": "led_to",
-      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu"
+      "note": "Han economic expansion enables Emperor Wu's expansionist policies"
+    },
+    {
+      "from": "-189-001",
+      "to": "-189-002",
+      "relation": "contemporary_with",
+      "note": "Seleucid military campaigns occur while Han Dynasty experiences economic expansion"
     }
   ]
 }

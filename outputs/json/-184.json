@@ -1,26 +1,25 @@
 {
   "year": -184,
   "year_label": "184 BCE",
-  "era_context": "The early Hellenistic period continues with the same major powers and dynamics. The Seleucid Empire under Antiochus III is consolidating territorial control in the eastern Mediterranean; Ptolemaic Egypt is weakened by regency struggles following the death of Ptolemy V; Rome is not yet directly involved in Eastern Mediterranean conflicts but is consolidating power in the western Mediterranean. The Han Dynasty in China continues its consolidation under Emperor Wen. This year falls within a relatively stable period before the major conflicts of the 170s BCE.",
-  "documentation_level": "sparse",
+  "era_context": "The early Hellenistic period with the Seleucid Empire under Antiochus III actively campaigning in the Eastern Mediterranean. The Han Dynasty under Emperor Wen is consolidating power and promoting economic recovery. The Ptolemaic Kingdom is engaged in military conflict with the Seleucids. In India, regional kingdoms are competing for dominance following the Mauryan collapse. The Roman Republic is expanding its influence in the Mediterranean.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Central Asia",
     "Mesoamerica",
-    "India",
     "Southeast Asia"
   ],
   "events": [
     {
       "id": "-184-001",
-      "title": "Seleucid military operations in the eastern Mediterranean",
-      "region": "Seleucid Empire (Syria, Phoenicia, Coele-Syria)",
-      "coordinates_approx": "34.5, 35.5",
+      "title": "Seleucid-Egyptian War \u2014 Fifth Syrian War continues with territorial campaigns",
+      "region": "Levant, Eastern Mediterranean",
+      "coordinates_approx": "33.5, 35.5",
       "category": "military",
-      "description": "Antiochus III continues military operations to consolidate Seleucid control over territories in the eastern Mediterranean. These campaigns are part of a sustained effort to recover territories lost to Ptolemaic Egypt and to strengthen Seleucid dominance in the region. The operations are generally successful and do not yet provoke direct Roman intervention.",
+      "description": "The Fifth Syrian War between the Seleucid Empire and Ptolemaic Egypt continued with Antiochus III maintaining military pressure on Egyptian-held territories. The conflict involved multiple campaigns and engagements as the Seleucids sought to consolidate their control over Coele-Syria, Phoenicia, and other strategic regions. This year represents a continuation of the broader military struggle that would eventually lead to Roman intervention and reshape the balance of power in the Eastern Mediterranean.",
       "key_figures": [
-        "Antiochus III (Seleucid King)"
+        "Antiochus III (Seleucid King)",
+        "Ptolemy IV Philopator (Egyptian Pharaoh)"
       ],
       "sources": [
         {
@@ -30,60 +29,129 @@
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Polybius is the main source, but specific events of 184 BCE are not clearly distinguished from those of surrounding years. Dating is approximate within \u00b13\u20134 years.",
+      "certainty_note": "The year-by-year progression of the Fifth Syrian War is not precisely documented in surviving sources. The year -184 is assigned by convention within the broader conflict period.",
       "cross_references": [
-        "-180-001",
-        "-181-001",
-        "-182-001",
-        "-183-001"
+        "Part of broader Fifth Syrian War",
+        "Precedes Roman intervention in Eastern Mediterranean affairs"
       ]
     },
     {
       "id": "-184-002",
-      "title": "Ptolemaic Egypt in regency period following Ptolemy V's death",
-      "region": "Ptolemaic Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Following the death of Ptolemy V (c. 180 BCE), Ptolemy VI Philometor is placed under regency. The regency period is marked by internal power struggles and administrative challenges. Egypt's military capacity is weakened by internal divisions, making it vulnerable to Seleucid expansion. The regency will continue until Cleopatra I's death around 176 BCE.",
+      "title": "Han Dynasty \u2014 Emperor Wen's reign continues with consolidation and economic growth",
+      "region": "China, Han Empire",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "economic",
+      "description": "Emperor Wen of Han continued his reign, consolidating Han power and promoting economic growth and recovery. His policies of reduced taxation and encouragement of agricultural production led to significant economic expansion and the accumulation of state reserves. This period saw the Han state's financial stability and the foundation for future military expansion and the development of trade networks.",
       "key_figures": [
-        "Ptolemy VI Philometor (young king)",
-        "Cleopatra I (regent)"
+        "Emperor Wen of Han",
+        "Empress Dou"
       ],
       "sources": [
         {
-          "name": "Papyri from Egypt (administrative records)",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
         },
+        {
+          "name": "Han Shu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty chronology is well-established through Chinese historical sources.",
+      "cross_references": [
+        "Part of broader Han consolidation",
+        "Precedes expansion under Emperor Wu"
+      ]
+    },
+    {
+      "id": "-184-003",
+      "title": "Mauryan Empire \u2014 Final collapse and regional fragmentation in India",
+      "region": "Indian subcontinent",
+      "coordinates_approx": "20.0, 78.0",
+      "category": "political",
+      "description": "By 184 BCE, the Mauryan Empire had completely collapsed, and the Indian subcontinent was divided among regional kingdoms and dynasties. The Shunga Dynasty controlled central India, while the Chola, Pandya, and Chera kingdoms dominated the south. The Satavahana Dynasty was emerging in the Deccan. This period saw the complete fragmentation of centralized imperial authority and the rise of regional powers that would compete for dominance across the subcontinent.",
+      "key_figures": [
+        "Pushyamitra Shunga (Shunga Dynasty ruler)",
+        "Regional rulers of Chola, Pandya, Chera, and Satavahana kingdoms"
+      ],
+      "sources": [
+        {
+          "name": "Puranas",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Indian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact chronology of the Mauryan collapse is debated. The year -184 is assigned by convention within the period of regional fragmentation.",
+      "cross_references": [
+        "Follows from Ashoka's reign and the empire's gradual decline",
+        "Contemporary with regional competition in India"
+      ]
+    },
+    {
+      "id": "-184-004",
+      "title": "Ptolemaic Egypt \u2014 Ptolemy IV Philopator's reign and dynastic stability",
+      "region": "Egypt, Ptolemaic Kingdom",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy IV Philopator continued his reign, maintaining Ptolemaic power and dynastic stability despite military losses to the Seleucids. The Ptolemaic state remained a major power in the Eastern Mediterranean, with significant economic resources and naval capabilities. This period saw the continuation of Greek-Egyptian cultural synthesis and the maintenance of Ptolemaic administrative structures.",
+      "key_figures": [
+        "Ptolemy IV Philopator",
+        "Ptolemaic ministers and administrators"
+      ],
+      "sources": [
         {
           "name": "Polybius, Histories",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "epigraphic",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The regency of Cleopatra I is well-attested, but the specific events of 184 BCE are not clearly documented. Dating is approximate within \u00b12\u20133 years.",
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemaic chronology is well-established through Egyptian papyri and Greek sources.",
       "cross_references": [
-        "-180-002",
-        "-181-002",
-        "-182-002"
+        "Contemporary with Seleucid-Egyptian War",
+        "Part of broader Hellenistic political dynamics"
       ]
     }
   ],
-  "disconfirming_evidence": "The year 184 BCE is not a major turning point in any surviving historical tradition. Specific events of this year are poorly documented. Modern scholarship has questioned whether the Seleucid campaigns of this period were as significant as older historiography suggested. The year 184 BCE appears to be a continuation of trends visible in 180\u2013183 BCE with no major new developments.",
-  "historiographic_note": "The historical record for 184 BCE is extremely sparse. No major events are clearly documented for this specific year in surviving sources. Polybius, the main source for Mediterranean affairs, does not provide year-by-year precision for this period. Egyptian papyri provide administrative evidence but are not narrative sources. The year 184 BCE is not a major turning point in any surviving historical tradition, which explains the near-complete absence of contemporary documentation. This year is essentially a continuation of the trends visible in 180\u2013183 BCE. The dating of Ptolemy V's death to c. 180 BCE is approximate, and some sources place it in 181 or 182 BCE, which affects the precise dating of the regency period.",
+  "disconfirming_evidence": "The exact chronology of the Fifth Syrian War remains disputed among scholars. Some modern historians place the conflict in different periods than the conventional dating used here. The dating of the Mauryan collapse is also debated, with some scholars arguing for dates significantly different from the traditional chronology. Modern scholarship has revised the narrative of Ptolemaic decline, emphasizing the continued strength of the Ptolemaic state during this period.",
+  "historiographic_note": "The historical record for 184 BCE is similar to previous years: dominated by Greek and Roman sources for the Mediterranean, with detailed Chinese sources for the Han Dynasty, and limited contemporary documentation for India and Egypt. The record is heavily biased toward the Mediterranean and China; sub-Saharan Africa, northern Europe, and the Americas are essentially absent from contemporary documentation. For India, the record relies heavily on later Puranic texts and Buddhist compilations, with limited contemporary documentation.",
   "graph_edges": [
     {
       "from": "-184-001",
-      "to": "-180-001",
-      "relation": "part_of",
-      "note": "Part of the broader Seleucid consolidation campaign in Syria"
+      "to": "-183-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of the Fifth Syrian War"
     },
     {
       "from": "-184-002",
-      "to": "-170-001",
-      "relation": "led_to",
-      "note": "Continued regency instability in Egypt contributed to Seleucid aggression in the Sixth Syrian War"
+      "to": "-183-002",
+      "relation": "contemporary_with",
+      "note": "Emperor Wen's reign continues"
+    },
+    {
+      "from": "-184-003",
+      "to": "-180-003",
+      "relation": "part_of",
+      "note": "Part of broader Mauryan collapse and regional fragmentation"
+    },
+    {
+      "from": "-184-001",
+      "to": "-184-004",
+      "relation": "contemporary_with",
+      "note": "Seleucid-Egyptian conflict during Ptolemy IV's reign"
     }
   ]
 }

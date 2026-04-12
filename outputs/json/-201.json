@@ -1,0 +1,123 @@
+{
+  "year": -201,
+  "year_label": "201 BCE",
+  "era_context": "The immediate aftermath of the Second Punic War (218\u2013201 BCE), which ended with Rome's victory over Carthage and Hannibal. Rome is consolidating its dominance in the western Mediterranean. In the east, the Seleucid Empire under Antiochus III is expanding, and the Ptolemaic Empire is weakening. The Han Dynasty in China is in its early consolidation phase. This is a pivotal moment in which Rome's rise to Mediterranean hegemony becomes irreversible.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-201-001",
+      "title": "Treaty of Zama ratified / Second Punic War formally concluded",
+      "region": "North Africa, Mediterranean",
+      "coordinates_approx": "36.5, 9.0",
+      "category": "political",
+      "description": "The Second Punic War, which had devastated the Mediterranean world for 17 years, formally ended with the ratification of the Treaty of Zama (signed in 202 BCE, ratified in 201 BCE). Rome imposed harsh terms on Carthage: loss of all overseas territories, payment of a massive indemnity (10,000 talents of silver), and severe restrictions on military power. Hannibal, the Carthaginian general, went into exile. The treaty marked Rome's emergence as the dominant Mediterranean power and Carthage's reduction to a minor regional state. The war had cost hundreds of thousands of lives and fundamentally altered the geopolitical balance.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)",
+        "Hannibal (Carthaginian general)",
+        "Roman Senate",
+        "Carthaginian Senate"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 30\u201331",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 15\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Roman History, Book 8 (Punic Wars)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary sources confirm the treaty's ratification in 201 BCE. Livy and Polybius wrote within ~150 years. The date is secure.",
+      "cross_references": [
+        "Follows from -202-002 (Battle of Zama)",
+        "Led to -200-002 (Second Macedonian War, as Rome now had resources to intervene in the east)"
+      ]
+    },
+    {
+      "id": "-201-002",
+      "title": "Antiochus III consolidates control of former Seleucid territories",
+      "region": "Seleucid Empire, Levant, Mesopotamia",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Following his earlier victories, Antiochus III continued his campaign to recover territories that had broken away from Seleucid control during the period of weakness after the death of Seleucus I. In 201 BCE, he was consolidating control over Coele-Syria, Phoenicia, and other regions in the Levant. This period of expansion would culminate in the Battle of Panium (200 BCE) and would eventually provoke Roman intervention. Antiochus's ambitions to restore the Seleucid Empire to its former glory were ultimately checked by Rome.",
+      "key_figures": [
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Books 15\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome, Books 33\u201337",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus III's campaigns are well-attested, but the specific dating of individual campaigns is approximate. The year 201 BCE falls within his period of expansion, but no source explicitly dates a specific event to 201 BCE.",
+      "cross_references": [
+        "Led to -200-001 (Battle of Panium)"
+      ]
+    },
+    {
+      "id": "-201-003",
+      "title": "Han Dynasty: Kangxi's reign continues; internal consolidation",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "Emperor Kangxi of the Han Dynasty (r. 157\u2013141 BCE) continued his reign during this period, focusing on internal consolidation and maintaining stability on the northern frontier through the heqin policy with the Xiongnu. The early Han period was marked by the gradual centralization of power, the establishment of the civil service examination system (though not yet fully formalized), and the expansion of trade networks. The year 201 BCE falls within a period of relative stability and prosperity for the Han Dynasty.",
+      "key_figures": [
+        "Emperor Kangxi (Han Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, Chapters 10\u201312 (Han Dynasty annals)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, Chapters 1\u20134",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Kangxi's reign is well-attested in Chinese sources, but the year 201 BCE does not correspond to any specific event recorded in the sources. The certainty is 'probable' based on the broader context of his reign.",
+      "cross_references": [
+        "Part of broader Han Dynasty consolidation period (-206 to -141 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Some modern scholars debate the exact terms of the Treaty of Zama, particularly regarding the indemnity amount and the timeline of payment. However, the basic fact of the treaty's ratification in 201 BCE is not disputed. The significance of the Second Punic War in establishing Roman dominance is universally accepted, though some scholars emphasize that Rome's hegemony was not yet complete and that the eastern Mediterranean remained contested until after the Macedonian Wars.",
+  "historiographic_note": "The year 201 BCE is well-documented for the Mediterranean world through Greek and Roman sources (Livy, Polybius, Appian). Chinese sources are less detailed for this specific year but provide context for the Han Dynasty. The record is heavily weighted toward political and military events. The sources reflect Roman and Greek perspectives; Carthaginian sources are almost entirely lost. Economic and social history are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-201-001",
+      "to": "-200-002",
+      "relation": "led_to",
+      "note": "Rome's victory in the Second Punic War freed resources for intervention in the east, leading to the Second Macedonian War"
+    },
+    {
+      "from": "-201-002",
+      "to": "-200-001",
+      "relation": "led_to",
+      "note": "Antiochus III's consolidation of Levantine territories led to the Battle of Panium"
+    }
+  ]
+}

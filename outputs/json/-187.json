@@ -1,23 +1,53 @@
 {
   "year": -187,
   "year_label": "187 BCE",
-  "era_context": "The Seleucid Empire under Seleucus II faces continued fragmentation and external pressure. The Han Dynasty under Emperor Jing consolidates power following the Rebellion of the Seven States. Rome expands its dominance in the Mediterranean and Balkans. The Ptolemaic Dynasty controls Egypt and the eastern Mediterranean. In India, regional kingdoms compete for power in the absence of a unified Mauryan Empire.",
+  "era_context": "The Seleucid Empire under Seleucus II Callinicus is experiencing significant internal and external pressures. The Han Dynasty in China, under Emperor Wen, is consolidating power following the Rebellion of the Seven States (154\u2013151 BCE). The Hellenistic world is in a period of relative stability before the rise of Rome as a dominant Mediterranean power.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "Northern Europe",
+    "Northern Europe beyond Greek/Roman contact",
     "Mesoamerica",
-    "Southeast Asia",
-    "Central Asia (Parthian Empire emerging but sources are sparse)"
+    "Central Asia (limited written records)"
   ],
   "events": [
     {
       "id": "-187-001",
-      "title": "Seleucus II continues military campaigns in Anatolia",
-      "region": "Seleucid Empire (Anatolia, Syria)",
-      "coordinates_approx": "37.0,35.0",
-      "category": "military",
-      "description": "Seleucus II Callinicus continues military operations to maintain control over Anatolia and resist Ptolemaic expansion. These campaigns are part of ongoing efforts to stabilize the Seleucid Empire, which faces pressure from Egypt, rising Parthian power in the east, and internal dissent. The campaigns have limited success, reflecting the structural decline of Seleucid central authority.",
+      "title": "Aftermath of the Rebellion of the Seven States in Han China",
+      "region": "Han China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "The Rebellion of the Seven States (154\u2013151 BCE) has recently concluded, and Emperor Wen of Han is consolidating centralized authority. The rebellion, led by regional kings who feared loss of power, has been suppressed, and Wen implements reforms to prevent future challenges to central authority. These reforms include reducing the power of regional kingdoms, strengthening the central bureaucracy, and implementing economic policies that promote stability and recovery. The successful suppression of this rebellion marks a turning point in Han Dynasty history, establishing the precedent for centralized imperial authority.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Empress Dowager Dou",
+        "Regional kings (now subdued)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Rebellion of the Seven States (154\u2013151 BCE) is well-documented in Chinese historical records. The year 187 BCE falls within the consolidation period following the rebellion, which is secure in the historical record.",
+      "cross_references": [
+        "Follows from -154-001 (Rebellion of the Seven States)",
+        "Leads to -141-001 (Emperor Wu's accession and expansion)"
+      ]
+    },
+    {
+      "id": "-187-002",
+      "title": "Seleucus II Callinicus faces internal fragmentation",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "36.0,40.0",
+      "category": "political",
+      "description": "Seleucus II Callinicus, ruling the Seleucid Empire, faces significant challenges to his authority from regional governors and rival claimants. The empire is fragmenting as eastern satrapies fall under Parthian control and western territories are threatened by Galatian tribes and other regional powers. Seleucus II's reign is marked by military campaigns to reassert control, but these efforts are only partially successful. The internal fragmentation of the Seleucid Empire during this period sets the stage for its eventual decline and the rise of Rome as the dominant Mediterranean power.",
       "key_figures": [
         "Seleucus II Callinicus (Seleucid King)"
       ],
@@ -29,76 +59,72 @@
         },
         {
           "name": "Polybius, Histories",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Seleucus II's reign is well-dated (246\u2013226 BCE), but specific campaigns in 187 BCE are not independently documented. The year is assigned by convention.",
-      "cross_references": []
-    },
-    {
-      "id": "-187-002",
-      "title": "Han Dynasty consolidation continues under Emperor Jing",
-      "region": "Han Dynasty China",
-      "coordinates_approx": "34.0,108.0",
-      "category": "political",
-      "description": "Emperor Jing continues the process of centralizing Han authority and reducing the power of regional kingdoms. Administrative reforms strengthen the imperial bureaucracy and establish mechanisms for controlling local nobility. This period of consolidation is crucial for the later expansionist policies of Emperor Wu (r. 141\u201387 BCE).",
-      "key_figures": [
-        "Emperor Jing of Han (Han Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
-          "type": "later_compilation",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Han shu (Book of Han) by Ban Gu",
+          "name": "Strabo, Geography",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented. Specific events in 187 BCE are not independently dated.",
-      "cross_references": []
+      "certainty_note": "The general pattern of Seleucid fragmentation during Seleucus II's reign (246\u2013226 BCE) is well-attested in later sources. Specific events within 187 BCE are not individually dated in surviving texts.",
+      "cross_references": [
+        "Part of broader Seleucid decline",
+        "Contemporary with -187-001 (Han consolidation)"
+      ]
     },
     {
       "id": "-187-003",
-      "title": "Roman expansion in Spain and North Africa",
-      "region": "Roman Republic (Spain, North Africa)",
-      "coordinates_approx": "40.0,-3.0",
-      "category": "military",
-      "description": "Rome continues consolidation of its control over former Carthaginian territories in Spain and North Africa. Military campaigns are undertaken to suppress local resistance and establish Roman administrative authority. These campaigns are part of Rome's broader strategy to transform the Mediterranean into a Roman-dominated sphere.",
+      "title": "Ptolemy III Euergetes I maintains Ptolemaic power",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.8,31.3",
+      "category": "political",
+      "description": "Ptolemy III Euergetes I continues his reign over Egypt, maintaining Ptolemaic naval and economic dominance in the eastern Mediterranean. His reign is characterized by cultural patronage, including support for the Library of Alexandria and Greek scholarship. Ptolemaic Egypt remains one of the wealthiest and most stable powers in the Hellenistic world, in contrast to the fragmenting Seleucid Empire.",
       "key_figures": [
-        "Roman military commanders (specific names not consistently recorded)"
+        "Ptolemy III Euergetes I (Ptolemaic King)",
+        "Berenice II (Queen)"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome, Books 39\u201340",
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Roman military activity in Spain and North Africa during this period is well-attested in general terms, but specific campaigns in 187 BCE are not independently dated.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy III's reign (246\u2013222 BCE) is well-documented through Egyptian papyri and Greek sources. The general pattern of Ptolemaic stability during his reign is secure.",
+      "cross_references": [
+        "Contemporary with -187-002 (Seleucid fragmentation)"
+      ]
     }
   ],
-  "disconfirming_evidence": "No major events are specifically dated to 187 BCE in primary sources. The year falls within broader historical processes (Seleucid decline, Han consolidation, Roman expansion) that span decades. Modern scholarship emphasizes that these processes are continuous rather than marked by discrete annual events. The assignment of events to 187 BCE is largely conventional and does not reflect contemporary documentation of specific occurrences in this year.",
-  "historiographic_note": "Documentation for 187 BCE is sparse and relies heavily on later compilations. No contemporary sources specifically record events of this year. Chinese sources (Shiji, Han shu) provide general information about Emperor Jing's reign but lack precision for individual years. Western sources (Livy, Polybius, Appian) are similarly general for this period. The historical record for 187 BCE is essentially a reconstruction based on broader chronological frameworks and general knowledge of the period. Archaeological evidence (coins, inscriptions) provides some independent confirmation of political chronologies but is limited for specific annual events.",
+  "disconfirming_evidence": "The dating and significance of specific Seleucid military campaigns under Seleucus II are disputed by modern scholars. Some sources suggest that the empire's fragmentation was more gradual than dramatic, with Parthian expansion occurring over decades rather than in sudden conquests. The extent to which Seleucus II's campaigns were successful or merely delaying actions is debated. Additionally, some scholars question whether the 'Rebellion of the Seven States' in China was as unified or as significant as traditional accounts suggest, though the general fact of the rebellion and its suppression is secure.",
+  "historiographic_note": "Documentation for 187 BCE is moderate but geographically and chronologically uneven. Chinese sources (Shiji, Han Shu) provide detailed, near-contemporary records of Han Dynasty events, with the Rebellion of the Seven States being particularly well-documented. Hellenistic history relies heavily on later Greek and Roman compilations (Polybius, Appian, Strabo) written centuries after events. Polybius is generally considered more reliable for this period than Appian. Egyptian papyri provide administrative detail but limited narrative of major events. The lack of contemporary Seleucid sources is a significant gap in understanding the empire's internal dynamics. Western sources are biased toward Mediterranean events and may underrepresent or misrepresent events in Asia.",
   "graph_edges": [
     {
-      "from": "-187-002",
+      "from": "-187-001",
       "to": "-141-001",
       "relation": "led_to",
-      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu"
+      "note": "Han consolidation under Wen enables Emperor Wu's expansionist policies"
     },
     {
-      "from": "-187-003",
-      "to": "-146-001",
-      "relation": "part_of",
-      "note": "Roman consolidation in Spain and North Africa continued through the mid-2nd century BCE"
+      "from": "-187-002",
+      "to": "-160-001",
+      "relation": "led_to",
+      "note": "Seleucid fragmentation accelerates, eventually establishing Parthia as a major power"
+    },
+    {
+      "from": "-187-001",
+      "to": "-187-002",
+      "relation": "contemporary_with",
+      "note": "Han consolidation occurs while Seleucid Empire fragments"
     }
   ]
 }

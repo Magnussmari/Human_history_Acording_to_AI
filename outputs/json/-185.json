@@ -1,109 +1,123 @@
 {
   "year": -185,
   "year_label": "185 BCE",
-  "era_context": "The Seleucid Empire under Seleucus II Callinicus faces internal fragmentation and external pressure from Ptolemaic Egypt and rising Parthian power in the east. The Han Dynasty in China consolidates control after the Rebellion of the Seven States (154\u2013151 BCE). Rome is in the early phase of Mediterranean expansion following the Second Punic War (218\u2013201 BCE). The Mauryan Empire in India has collapsed; regional kingdoms compete for dominance.",
+  "era_context": "The Seleucid Empire under Seleucus II Callinicus faces internal fragmentation and external pressure from Parthian expansion in the east and Egyptian Ptolemaic rivalry in the west. In China, the Han Dynasty under Emperor Wen consolidates power following the Rebellion of the Seven States (154\u2013151 BCE). The Mediterranean world is entering the final phase of Hellenistic political competition before Roman dominance.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Northern Europe beyond Roman contact zones",
-    "Mesoamerica (Maya records exist but are sparse for this specific year)"
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Greek/Roman contact zones",
+    "Mesoamerica (no contemporary written records in Western tradition)"
   ],
   "events": [
     {
       "id": "-185-001",
-      "title": "Seleucus II Callinicus campaigns in Anatolia and Syria",
-      "region": "Seleucid Empire (Anatolia, Syria, Mesopotamia)",
-      "coordinates_approx": "37.0,35.0",
+      "title": "Seleucus II Callinicus faces Parthian expansion in the east",
+      "region": "Seleucid Empire, Parthia",
+      "coordinates_approx": "36.0,50.0",
       "category": "military",
-      "description": "Seleucus II, ruling the Seleucid Empire, undertakes military campaigns to consolidate control over Anatolia and reassert authority in Syria following the earlier War of the Brothers (246\u2013241 BCE). These campaigns are part of a broader effort to stabilize the empire against Ptolemaic encroachment and internal dissent. The campaigns have limited documented success, reflecting the structural weakness of Seleucid central authority in this period.",
+      "description": "Seleucus II Callinicus, ruling the Seleucid Empire, confronts the rising Parthian Kingdom under Arsaces II, which has begun expanding westward from the Caspian region. The Parthians seize control of the Seleucid eastern satrapies, including Bactria and regions along the Silk Road. This marks a critical shift in power dynamics in western Asia, as the Seleucids lose direct control of their richest eastern territories. The conflict establishes Parthia as a major regional power that will eventually rival Rome.",
       "key_figures": [
-        "Seleucus II Callinicus (Seleucid King)"
+        "Seleucus II Callinicus (Seleucid King)",
+        "Arsaces II (Parthian King)"
       ],
       "sources": [
         {
-          "name": "Appian, Syrian Wars; Polybius, Histories (Books 5\u20136, covering Seleucid affairs)",
+          "name": "Appian, Syrian Wars",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Seleucid chronology",
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Parthian expansion",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Seleucus II's reign is dated 246\u2013226 BCE with reasonable confidence from numismatic and chronicle evidence, but specific campaigns in 185 BCE are not independently dated to this precise year. Assignment is approximate within his reign.",
-      "cross_references": []
+      "certainty_note": "Dating of Parthian expansion is approximate; sources are later compilations. The general timeframe of Seleucus II's reign (246\u2013226 BCE) is secure, but specific events within it are often undated in surviving texts.",
+      "cross_references": [
+        "Follows from -187-001 (Rebellion of Seven States aftermath)",
+        "Leads to -160-001 (Parthian consolidation)"
+      ]
     },
     {
       "id": "-185-002",
-      "title": "Han Dynasty consolidation under Emperor Jing",
-      "region": "Han Dynasty China",
-      "coordinates_approx": "34.0,108.0",
+      "title": "Han Dynasty consolidation under Emperor Wen",
+      "region": "Han China",
+      "coordinates_approx": "34.3,108.9",
       "category": "political",
-      "description": "Emperor Jing of Han (r. 157\u2013141 BCE) consolidates central authority following the suppression of the Rebellion of the Seven States (154\u2013151 BCE). By 185 BCE, the Han court has reasserted control over regional kingdoms and begun administrative reforms to strengthen imperial governance. This period marks the stabilization of Han rule after internal conflict and sets the stage for the expansionist policies of Emperor Wu.",
+      "description": "Emperor Wen of Han, having successfully suppressed the Rebellion of the Seven States (154\u2013151 BCE), consolidates centralized authority and implements policies of relative peace and economic recovery. He reduces taxes, encourages agriculture, and builds the administrative apparatus that will define Han governance. This period marks the transition from the turbulent early Han to the stable, prosperous era that will culminate in the reign of Emperor Wu.",
       "key_figures": [
-        "Emperor Jing of Han (Han Emperor)",
-        "Dou Ying (Chancellor, died 180 BCE)"
+        "Emperor Wen of Han",
+        "Empress Dowager Dou"
       ],
       "sources": [
         {
-          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
-          "type": "later_compilation",
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Han shu (Book of Han) by Ban Gu, compiled 1st century CE",
-          "type": "later_compilation",
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Emperor Jing's reign dates are well-established (157\u2013141 BCE). Events within his reign are dated through chronicle sources, which are generally reliable for major political developments but may lack precision for specific years.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Wen's reign dates (180\u2013157 BCE) are well-established in Chinese historiography. Events within his reign are documented in official chronicles compiled within centuries of the events.",
+      "cross_references": [
+        "Part of broader Han consolidation period",
+        "Leads to -141-001 (Emperor Wu's accession)"
+      ]
     },
     {
       "id": "-185-003",
-      "title": "Roman expansion in the Mediterranean: Post-Second Punic War consolidation",
-      "region": "Roman Republic and Mediterranean",
-      "coordinates_approx": "41.9,12.5",
+      "title": "Ptolemaic Egypt under Ptolemy III Euergetes I",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.8,31.3",
       "category": "political",
-      "description": "In the aftermath of the Second Punic War (218\u2013201 BCE), Rome consolidates its position as the dominant Mediterranean power. By 185 BCE, Roman forces are engaged in campaigns against Macedon and in the Balkans, and Rome is establishing hegemony over former Carthaginian territories in Spain and North Africa. This period sees the rise of Roman military dominance and the beginning of Rome's transformation into an imperial power.",
+      "description": "Ptolemy III Euergetes I continues his reign over Egypt, maintaining Ptolemaic naval supremacy in the eastern Mediterranean and managing the complex relationship with the Seleucid Empire. His reign is marked by cultural patronage, expansion of the Library of Alexandria, and military campaigns to secure Ptolemaic interests. Egypt remains one of the wealthiest and most stable powers in the Hellenistic world.",
       "key_figures": [
-        "Scipio Africanus (retired from public life, died 183 BCE)",
-        "Manius Acilius Glabrio (Roman consul, active in Macedonian campaigns)"
+        "Ptolemy III Euergetes I (Ptolemaic King)",
+        "Berenice II (Queen)"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome (Books 39\u201340, covering 200\u2013186 BCE)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Polybius, Histories (Books 18\u201320, covering Mediterranean affairs)",
+          "name": "Strabo, Geography",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Roman chronology for this period is well-established through consular lists and Livy's narrative. Specific military campaigns are dated with reasonable confidence, though some details may be rhetorical elaboration.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy III's reign (246\u2013222 BCE) is well-documented through Egyptian papyri and Greek sources. Specific events within 185 BCE are less precisely dated but fall within his confirmed reign period.",
+      "cross_references": [
+        "Contemporary with -185-001 (Seleucid-Parthian conflict)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The significance of 185 BCE as a distinct historical turning point is not strongly supported by sources. Rather, this year falls within broader processes of consolidation and transition (Han stabilization, Seleucid decline, Roman expansion) that span decades. No major events are specifically dated to 185 BCE in primary sources; the year is assigned by modern chronological convention. Modern scholarship emphasizes that the 'Rebellion of the Seven States' (154\u2013151 BCE) was the crucial Han turning point, not events in 185 BCE specifically.",
-  "historiographic_note": "Documentation for 185 BCE is heavily dependent on later compilations (Livy, Sima Qian, Appian) written 100\u2013300 years after the events. These sources are generally reliable for major political and military developments but often lack precision for specific years and may conflate or reorder events. Chinese sources (Shiji, Han shu) are more detailed for Han Dynasty affairs but reflect court-sponsored historiography. Western sources are biased toward Roman and Hellenistic perspectives; information on Parthian, Indian, and other regions is sparse. Archaeological evidence (coins, inscriptions) provides some independent confirmation of political chronologies but is limited for specific annual events.",
+  "disconfirming_evidence": "The significance of Parthian expansion in 185 BCE is sometimes overstated in popular histories. Modern scholarship suggests the process was gradual rather than a sudden conquest, with Parthian control of eastern satrapies becoming firm only over decades. The exact dating of when Parthia seized specific territories remains uncertain, with some scholars placing major territorial gains later in Seleucus II's reign or even under his successors.",
+  "historiographic_note": "Documentation for 185 BCE is moderate but unevenly distributed. Chinese sources (Shiji, Han Shu) provide detailed, contemporary-adjacent records of Han Dynasty events. Hellenistic history relies heavily on later Greek and Roman compilations (Appian, Strabo) written centuries after events. Parthian history is particularly sparse in surviving texts; much of what we know comes from Seleucid and later Roman sources, creating potential bias toward Seleucid perspectives. Egyptian papyri provide administrative detail but limited narrative of major events.",
   "graph_edges": [
+    {
+      "from": "-185-001",
+      "to": "-160-001",
+      "relation": "led_to",
+      "note": "Parthian expansion in 185 BCE accelerates, eventually establishing Parthia as a major power"
+    },
     {
       "from": "-185-002",
       "to": "-141-001",
       "relation": "led_to",
-      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu (r. 141\u201387 BCE)"
-    },
-    {
-      "from": "-185-001",
-      "to": "-175-001",
-      "relation": "part_of",
-      "note": "Seleucid military campaigns continued throughout Seleucus II's reign (246\u2013226 BCE)"
+      "note": "Han consolidation under Wen enables the expansionist policies of Emperor Wu"
     }
   ]
 }

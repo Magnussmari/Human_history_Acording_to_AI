@@ -1,36 +1,37 @@
 {
   "year": -192,
   "year_label": "192 BCE",
-  "era_context": "The Late Hellenistic period is entering a phase of major conflict. The Fifth Syrian War (202-195 BCE) has recently concluded with Seleucid victory and Egyptian weakness. Antiochus III is at the height of his power and is now turning his attention westward, toward Asia Minor and Greece. Rome is consolidating its dominance in the Mediterranean. The Aetolian League in Greece is seeking allies against Roman expansion. China under Emperor Wen continues a period of stability and economic growth.",
+  "era_context": "The early 2nd century BCE enters a period of major conflict in the Eastern Mediterranean. The Syrian War (192\u2013188 BCE) between Rome and Antiochus III the Great begins, marking Rome's first major military intervention in the East and fundamentally reshaping the balance of power. The Seleucid Empire, despite Antiochus III's military prowess, faces the rising power of Rome. The Ptolemaic Kingdom remains relatively stable but increasingly dependent on Roman goodwill. The Han Dynasty under Emperor Wen continues its period of stability and economic growth.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Mesoamerica and South America",
+    "Central Asia (limited detail)",
+    "Mesoamerica",
     "Southeast Asia"
   ],
   "events": [
     {
       "id": "-192-001",
-      "title": "Outbreak of the Syrian War (Antiochus War); Antiochus III invades Greece",
-      "region": "Greece and Asia Minor (Seleucid Empire vs. Rome)",
-      "coordinates_approx": "38.0, 23.0",
+      "title": "Antiochus III invades Greece; Syrian War begins",
+      "region": "Greece, Seleucid Empire",
+      "coordinates_approx": "38.0,23.0",
       "category": "military",
-      "description": "Antiochus III, encouraged by the Aetolian League and other Greek states seeking to resist Roman expansion, invades Greece with a large army. This marks the beginning of the Syrian War (192-188 BCE), a major conflict between the Seleucid Empire and Rome. Antiochus lands in Thessaly with approximately 10,000 troops and begins operations against Roman-allied forces. The invasion is initially successful, but it will ultimately lead to Antiochus's defeat and the decline of Seleucid power in the Mediterranean. The war is a turning point in Hellenistic history, establishing Rome as the dominant power in the eastern Mediterranean.",
+      "description": "Antiochus III the Great, seeking to expand Seleucid power into Greece and the Aegean, invades Greece with a substantial army. He is invited by the Aetolian League, a Greek confederation opposed to Macedonian dominance. This invasion marks the beginning of the Syrian War (192\u2013188 BCE), Rome's first major military conflict in the Eastern Mediterranean. Antiochus III's invasion is initially successful, but it triggers Roman intervention and ultimately leads to his defeat.",
       "key_figures": [
-        "Antiochus III (Seleucid King)",
-        "Manius Acilius Glabrio (Roman commander)",
-        "Aetolian League leaders"
+        "Antiochus III the Great (Seleucid King)",
+        "Aetolian League (Greek allies)",
+        "Manius Acilius Glabrio (Roman commander)"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome (Book 35-36)",
+          "name": "Livy, History of Rome (Books 35\u201336)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Polybius, Histories (Book 12-13)",
-          "type": "chronicle",
+          "name": "Polybius, Histories (Books 5\u20138)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
@@ -40,32 +41,60 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The outbreak of the Syrian War in 192 BCE is well-attested in multiple independent sources. The date is secure.",
+      "certainty_note": "The invasion of Greece by Antiochus III in 192 BCE is well-documented in multiple ancient sources. The date is firmly established.",
       "cross_references": [
-        "-188-001 (Peace of Apamea, end of Syrian War)",
-        "-193-002 (Hannibal's refuge with Antiochus)"
+        "Leads to -191-001 (Battle of Thermopylae)"
       ]
     },
     {
       "id": "-192-002",
-      "title": "Battle of Thermopylae; Roman victory over Antiochus III",
-      "region": "Greece (Thermopylae)",
-      "coordinates_approx": "38.8, 22.5",
-      "category": "military",
-      "description": "Roman forces under Manius Acilius Glabrio defeat Antiochus III at the Battle of Thermopylae. Antiochus, despite his numerical superiority, is outmaneuvered by the Romans, who use superior tactics and knowledge of the terrain. The battle is a decisive Roman victory and marks a turning point in the Syrian War. Antiochus is forced to retreat from Greece, and his invasion of the Balkans is effectively ended. The battle demonstrates Roman military superiority and the decline of Hellenistic military power.",
+      "title": "Roman Senate declares war on Antiochus III",
+      "region": "Roman Republic",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "In response to Antiochus III's invasion of Greece, the Roman Senate formally declares war on the Seleucid King. This is a pivotal moment in Roman history, marking Rome's first major military intervention in the Eastern Mediterranean and the beginning of Rome's dominance over the Hellenistic world. The declaration of war is made after diplomatic efforts fail and Antiochus III refuses to withdraw from Greece.",
       "key_figures": [
-        "Manius Acilius Glabrio (Roman commander)",
-        "Antiochus III (Seleucid King)"
+        "Roman Senate",
+        "Antiochus III the Great"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome (Book 36, Chapter 15-19)",
+          "name": "Livy, History of Rome (Book 35)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Polybius, Histories (Book 12)",
-          "type": "chronicle",
+          "name": "Polybius, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Roman declaration of war in 192 BCE is well-documented. The date is firmly established.",
+      "cross_references": [
+        "Related to -192-001"
+      ]
+    },
+    {
+      "id": "-192-003",
+      "title": "Hannibal flees to Antiochus III's court",
+      "region": "Eastern Mediterranean, Seleucid Empire",
+      "coordinates_approx": "35.0,35.0",
+      "category": "political",
+      "description": "Hannibal, the famous Carthaginian general who fought Rome during the Second Punic War, flees to the court of Antiochus III. Hannibal had been living in exile in Bithynia (in Anatolia) and now seeks refuge with Antiochus III, hoping to encourage the Seleucid King to continue his war against Rome. Hannibal becomes an advisor to Antiochus III, though his influence on the war's outcome is debated by historians.",
+      "key_figures": [
+        "Hannibal (Carthaginian general)",
+        "Antiochus III the Great"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Book 35)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Hannibal",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
@@ -74,63 +103,59 @@
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Thermopylae in 192 BCE is well-attested in multiple sources. The date is secure. Ancient sources provide detailed accounts of the battle, though some details are disputed.",
+      "certainty": "probable",
+      "certainty_note": "Hannibal's flight to Antiochus III is attested in multiple sources, but the precise date (192 or 195 BCE) is debated. Most modern scholars place it around 195 BCE, but some sources suggest 192 BCE.",
       "cross_references": [
-        "-192-001 (Outbreak of Syrian War)",
-        "-188-001 (Peace of Apamea)"
+        "Related to Hannibal's earlier exile in -195 onwards"
       ]
     },
     {
-      "id": "-192-003",
-      "title": "Antiochus III retreats from Greece; returns to Asia Minor",
-      "region": "Eastern Mediterranean (Seleucid Empire)",
-      "coordinates_approx": "35.0, 35.0",
-      "category": "military",
-      "description": "Following his defeat at Thermopylae, Antiochus III withdraws his forces from Greece and returns to Asia Minor. The retreat marks the end of Seleucid hopes for dominance in the Balkans and Greece. Antiochus will continue to fight the Romans in Asia Minor, but the strategic initiative has passed to Rome. The retreat is a significant moment in the decline of Hellenistic power and the rise of Roman dominance.",
+      "id": "-192-004",
+      "title": "Han Dynasty: Emperor Wen's reign continues; economic stability",
+      "region": "Han China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Wen of Han continues his reign, maintaining the policies of economic development and Confucian governance that have characterized his rule since 180 BCE. The Han state remains stable and prosperous, with no major military conflicts or internal crises in 192 BCE. This period of stability allows for continued cultural and technological advancement.",
       "key_figures": [
-        "Antiochus III (Seleucid King)"
+        "Emperor Wen of Han"
       ],
       "sources": [
         {
-          "name": "Livy, History of Rome (Book 36)",
+          "name": "Shiji (Records of the Grand Historian)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Polybius, Histories (Book 12)",
-          "type": "chronicle",
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The retreat of Antiochus III from Greece is well-attested in multiple sources. The date is secure within \u00b11 year.",
-      "cross_references": [
-        "-192-002 (Battle of Thermopylae)",
-        "-188-001 (Peace of Apamea)"
-      ]
+      "certainty_note": "Emperor Wen's reign and general policies are well-documented. Specific events in 192 BCE are not individually attested but fit the documented pattern.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The exact date of the Battle of Thermopylae in the Syrian War is sometimes confused with the famous Battle of Thermopylae (480 BCE) against the Persians. Some sources provide slightly different casualty figures and tactical details. However, the overall narrative of the battle and its significance is well-established. The date of 192 BCE is secure.",
-  "historiographic_note": "The Syrian War is one of the best-documented events of the Hellenistic period, with detailed accounts from multiple sources, particularly Livy and Polybius. However, the sources are heavily weighted toward the Roman perspective. Seleucid and Greek viewpoints are underrepresented. The dating of events is generally reliable to within \u00b11 year. The war marks a major turning point in Mediterranean history and is extensively studied by modern scholars.",
+  "disconfirming_evidence": "The dating of Hannibal's flight to Antiochus III is disputed. Some sources place it in 195 BCE, others in 192 BCE. The significance of Hannibal's role in the Syrian War is also debated; some scholars argue he had minimal influence on Antiochus III's strategy, while others suggest he was a significant advisor. The extent to which Antiochus III's invasion of Greece was a calculated strategic move versus a response to Aetolian invitations is also contested.",
+  "historiographic_note": "For 192 BCE, sources are rich for the Syrian War and Roman-Seleucid conflict, but primarily from later compilations (Livy, Polybius, Appian). These sources are based on earlier works now lost, and their reliability varies. Chinese sources remain contemporary in spirit but compiled centuries later. The record is heavily weighted toward military and political history; economic and social developments are underrepresented. The perspective is Greco-Roman-centric; other regions are largely absent from surviving written records.",
   "graph_edges": [
     {
       "from": "-192-001",
-      "to": "-192-002",
+      "to": "-191-001",
       "relation": "led_to",
-      "note": "The invasion of Greece led directly to the Battle of Thermopylae"
+      "note": "Antiochus III's invasion led to Battle of Thermopylae"
     },
     {
       "from": "-192-002",
-      "to": "-192-003",
+      "to": "-191-002",
       "relation": "led_to",
-      "note": "The Roman victory at Thermopylae forced Antiochus to retreat from Greece"
+      "note": "Roman declaration of war led to military campaigns"
     },
     {
-      "from": "-192-001",
-      "to": "-188-001",
-      "relation": "led_to",
-      "note": "The Syrian War that began in 192 BCE ended with the Peace of Apamea in 188 BCE"
+      "from": "-192-003",
+      "to": "-191-001",
+      "relation": "contemporary_with",
+      "note": "Hannibal's arrival at Antiochus III's court coincided with Syrian War"
     }
   ]
 }

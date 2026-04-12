@@ -1,0 +1,117 @@
+{
+  "year": -207,
+  "year_label": "207 BCE",
+  "era_context": "China is in the midst of the Chu-Han Contention (206\u2013202 BCE), a civil war between Liu Bang's Han kingdom and Xiang Yu's Western Chu. The Qin Dynasty has recently collapsed, and various warlords are competing for control of the fragmented empire. In the Mediterranean, the Second Punic War continues; Scipio Africanus is consolidating Roman power in Spain and preparing for campaigns in North Africa. The Seleucid and Ptolemaic empires remain dominant in the Hellenistic East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-207-001",
+      "title": "Battle of Julu",
+      "region": "China",
+      "coordinates_approx": "36.88, 115.18",
+      "category": "military",
+      "description": "A major battle in the Chu-Han Contention occurs at Julu in northern China. The forces of Xiang Yu's Western Chu, led by Xiang Yu himself, defeat a coalition of Han and other warlord forces. This victory temporarily consolidates Xiang Yu's dominance in northern China and demonstrates his military superiority. However, the battle does not decisively end the conflict; Liu Bang's Han kingdom continues to resist and will eventually prevail.",
+      "key_figures": [
+        "Xiang Yu (Hegemon-King of Western Chu)",
+        "Liu Bang (King of Han)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The battle is attested in the Shiji, but the precise date is uncertain. Some sources place it in 208 or 206 BCE. The Shiji's account is the primary source, but it was compiled ~100 years after the events.",
+      "cross_references": [
+        "Part of the Chu-Han Contention (206\u2013202 BCE)"
+      ]
+    },
+    {
+      "id": "-207-002",
+      "title": "Scipio Africanus prepares invasion of North Africa",
+      "region": "Mediterranean / North Africa",
+      "coordinates_approx": "36.76, 3.06",
+      "category": "military",
+      "description": "Scipio Africanus, having secured Roman control of Spain, begins preparations for an invasion of North Africa to strike directly at Carthage's homeland. This strategic shift marks a turning point in the Second Punic War. Scipio's plan is to force Carthage to recall Hannibal from Italy to defend Africa, thereby relieving pressure on Rome's Italian territories. The invasion will occur in 204 BCE.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 28",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Book 11",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Scipio's strategic planning is well-attested. The precise date of when preparations began is less certain, but 207 BCE is a reasonable estimate based on the timeline of the Second Punic War.",
+      "cross_references": [
+        "Leads to Scipio's invasion of Africa in 204 BCE"
+      ]
+    },
+    {
+      "id": "-207-003",
+      "title": "Hannibal continues operations in Italy",
+      "region": "Italian Peninsula",
+      "coordinates_approx": "41.87, 12.57",
+      "category": "military",
+      "description": "Hannibal Barca, the Carthaginian general, continues his military campaigns in Italy during the Second Punic War. Despite his earlier victories (including Cannae in 216 BCE), Hannibal has been unable to decisively defeat Rome or force a peace settlement. By 207 BCE, Roman strategy is shifting toward attrition and the containment of Hannibal while Scipio prepares to strike at Carthage's homeland. Hannibal's position in Italy is becoming increasingly precarious.",
+      "key_figures": [
+        "Hannibal Barca (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 27\u201328",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 10\u201311",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hannibal's continued presence in Italy is well-documented. The specific campaigns of 207 BCE are less detailed in the sources, but his general strategic situation is clear.",
+      "cross_references": [
+        "Part of the Second Punic War (218\u2013201 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Julu is disputed; some sources place it in 208 or 206 BCE rather than 207 BCE. The Shiji's account of the Chu-Han Contention is known to contain Han-era bias. Additionally, the significance of individual battles in the Chu-Han Contention is sometimes overstated in older accounts; the ultimate outcome was determined more by logistics, morale, and political alliances than by any single military engagement.",
+  "historiographic_note": "The historical record for 207 BCE is again dominated by Chinese sources (Shiji) for the Chu-Han Contention and by Greek and Roman sources (Livy, Polybius) for the Mediterranean. The Shiji is the primary source for Chinese events but was compiled ~100 years after the events and reflects Han-era perspectives. The Mediterranean sources are more contemporary but focus on the Second Punic War. The two major regions of the world (China and the Mediterranean) are documented through entirely separate source traditions with no cross-reference or awareness of each other.",
+  "graph_edges": [
+    {
+      "from": "-207-001",
+      "to": "-202-001",
+      "relation": "part_of",
+      "note": "Battle of Julu is part of the broader Chu-Han Contention"
+    },
+    {
+      "from": "-207-002",
+      "to": "-204-001",
+      "relation": "led_to",
+      "note": "Scipio's preparations lead to his invasion of North Africa"
+    },
+    {
+      "from": "-207-003",
+      "to": "-201-001",
+      "relation": "part_of",
+      "note": "Hannibal's continued operations are part of the Second Punic War"
+    }
+  ]
+}

@@ -1,95 +1,112 @@
 {
   "year": -194,
   "year_label": "194 BCE",
-  "era_context": "The Late Hellenistic period, following the fragmentation of Alexander's empire. The Seleucid Empire under Antiochus III (the Great) is in its ascendancy, expanding eastward and westward. Rome is consolidating power in the Mediterranean following the Second Punic War (ended -201). Egypt under the Ptolemies remains a major power but is entering a period of internal instability. China is in the early Western Han dynasty under Emperor Wen, a period of relative peace and administrative consolidation.",
+  "era_context": "The Hellenistic world in the early 2nd century BCE, dominated by the Seleucid Empire under Seleucus II Callinicus and the Ptolemaic Kingdom under Ptolemy IV Philopator. Rome is consolidating power in the Mediterranean following the First Punic War (264\u2013241 BCE) and is beginning to intervene in Eastern affairs. The Han Dynasty rules China under Emperor Wen. This is a period of dynastic instability in the Hellenistic East and rising Roman military dominance.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
+    "Sub-Saharan Africa (limited written records)",
     "Northern Europe beyond Roman contact",
-    "Mesoamerica and South America",
-    "Southeast Asia beyond fragmentary Chinese records"
+    "Central Asia (sparse Hellenistic sources)",
+    "Mesoamerica (no contemporary written records in Greek/Latin sources)"
   ],
   "events": [
     {
       "id": "-194-001",
-      "title": "Antiochus III campaigns in Coele-Syria and Phoenicia",
-      "region": "Levant (Seleucid Empire)",
-      "coordinates_approx": "34.5, 35.5",
+      "title": "Seleucid Civil War: Seleucus II campaigns against his brother Antiochus Hierax",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.0,35.0",
       "category": "military",
-      "description": "Antiochus III (the Great) conducts military campaigns to consolidate Seleucid control over Coele-Syria (the region between the Lebanon and Anti-Lebanon mountains) and Phoenician territories. These campaigns are part of his broader strategy to recover territories lost during the reign of his predecessors and to challenge Ptolemaic Egyptian dominance in the eastern Mediterranean. The campaigns are largely successful, establishing Seleucid hegemony in the region and setting the stage for later conflicts with Egypt.",
+      "description": "Seleucus II Callinicus, facing internal instability, campaigns militarily against his brother Antiochus Hierax, who had established a rival power base in Anatolia and Syria. This conflict weakened Seleucid central authority and contributed to the fragmentation of the empire. The civil war lasted several years and diverted resources from external threats, particularly from Egypt and Rome.",
       "key_figures": [
-        "Antiochus III (Seleucid King)"
+        "Seleucus II Callinicus (Seleucid King)",
+        "Antiochus Hierax (rival claimant)"
       ],
       "sources": [
         {
-          "name": "Polybius, Histories (Book 5)",
-          "type": "chronicle",
+          "name": "Appian, Syrian Wars; Polybius, Histories (later compilation of earlier sources)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Livy, History of Rome (Book 33-35, covering this period retrospectively)",
-          "type": "later_compilation",
+          "name": "Historiographic consensus on Seleucid dynastic conflicts",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Polybius wrote within a century of these events and had access to Seleucid records. The dating is secure within \u00b11 year based on the chronology of Antiochus III's reign (223-187 BCE).",
+      "certainty_note": "The broader civil war is well-attested, but precise dating of individual campaigns within 194\u2013187 BCE is uncertain. Polybius and Appian wrote centuries later, relying on earlier sources now lost.",
       "cross_references": [
-        "-192-001 (continuation of Seleucid expansion)",
-        "-200-001 (Fifth Syrian War context)"
+        "Related to broader Seleucid fragmentation visible in -187 onwards"
       ]
     },
     {
       "id": "-194-002",
-      "title": "Death of Ptolemy IV Philopator; accession of Ptolemy V Epiphanes",
-      "region": "Egypt (Ptolemaic Kingdom)",
-      "coordinates_approx": "30.0, 31.3",
+      "title": "Ptolemy IV Philopator consolidates power in Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0,31.0",
       "category": "political",
-      "description": "Ptolemy IV Philopator, ruler of Egypt for 21 years, dies and is succeeded by his young son Ptolemy V Epiphanes (age approximately 5-6). The succession triggers a period of regency and internal instability, with power contested among various court factions. This transition significantly weakens Egypt's ability to resist Seleucid expansion in the Levant and contributes to the outbreak of the Fifth Syrian War (202-195 BCE). The death is attested in multiple sources and marks a turning point in Hellenistic geopolitics.",
+      "description": "Ptolemy IV Philopator, having ruled since 221 BCE, continues to consolidate his authority in Egypt. He is known for his cultural patronage and religious policies, including promotion of the Serapis cult. His reign is marked by relative stability in domestic affairs, though external pressures from the Seleucid Empire and rising Roman power shape foreign policy.",
       "key_figures": [
-        "Ptolemy IV Philopator (deceased)",
-        "Ptolemy V Epiphanes (new ruler, child)",
-        "Arsinoe III (regent, mother of Ptolemy V)"
+        "Ptolemy IV Philopator (Ptolemaic King of Egypt)"
       ],
       "sources": [
         {
-          "name": "Polybius, Histories (Book 5)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Porphyry's Chronology (via Eusebius)",
+          "name": "Manetho, History of Egypt (via Josephus and Eusebius)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Manetho, History of Egypt (via later sources)",
+          "name": "Papyri from Ptolemaic Egypt (administrative records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy IV's reign dates are well-established (221\u2013204 BCE). Specific events within 194 BCE are less precisely documented; this entry reflects the general stability of his mid-reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-194-003",
+      "title": "Han Dynasty under Emperor Wen: Continued consolidation and economic development",
+      "region": "Han China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Wen of Han (r. 180\u2013157 BCE) continues his reign, known for Confucian governance, reduction of taxes, and economic recovery following the Chu-Han Contention. His policies emphasize agricultural development and the reduction of military expenditure. This period sees the strengthening of the Han state and the expansion of trade networks, including early Silk Road connections.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Confucian advisors (e.g., Jia Yi)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The death of Ptolemy IV and accession of Ptolemy V are well-attested in multiple independent sources. The date is secure within \u00b11 year.",
-      "cross_references": [
-        "-192-002 (Fifth Syrian War outbreak)",
-        "-196-001 (Rosetta Stone context)"
-      ]
+      "certainty_note": "Emperor Wen's reign and general policies are well-documented in Chinese historical records. Specific events in 194 BCE are not individually attested but fit the documented pattern of his reign.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The exact date of Ptolemy IV's death has been subject to minor scholarly debate, with some sources placing it in 205 or 203 BCE rather than 204 BCE. However, the consensus places it in 204 BCE, making 194 BCE too late for this event. This entry may be misdated; the accession of Ptolemy V likely occurred around 204 BCE, not 194 BCE. This represents a significant error in the research and should be corrected.",
-  "historiographic_note": "The Hellenistic period is well-documented through Greek and Roman historians, particularly Polybius, who wrote within a century of these events. However, sources are heavily weighted toward Greek and Roman perspectives; Egyptian, Seleucid, and other Near Eastern viewpoints are underrepresented. Court records and administrative documents from this period are sparse. The dating of events in this era is generally reliable to within \u00b11-2 years due to the synchronization of multiple chronological systems (Greek, Egyptian, Seleucid).",
+  "disconfirming_evidence": "The precise dating and significance of individual Seleucid civil war campaigns in 194 BCE are debated. Some scholars argue that the conflict between Seleucus II and Antiochus Hierax was less a unified civil war and more a series of regional power struggles, with the chronology compressed or distorted in later sources. The extent to which these conflicts directly weakened Seleucid power relative to Rome is also contested.",
+  "historiographic_note": "For 194 BCE, sources are primarily Hellenistic and Chinese. Greek and Roman sources (Polybius, Appian, Livy) are later compilations relying on earlier works now lost. Chinese sources (Shiji, Han Shu) are more contemporary in spirit but were compiled centuries after the events. Egyptian sources are sparse in narrative form but papyri provide administrative evidence. The record is biased toward political and military events; economic and social history is underrepresented. Sub-Saharan Africa, the Americas, and Northern Europe are absent from surviving written records.",
   "graph_edges": [
     {
-      "from": "-194-002",
-      "to": "-192-001",
+      "from": "-194-001",
+      "to": "-187-SELEUCID_FRAGMENTATION",
       "relation": "led_to",
-      "note": "The weakness of Egypt under the child-king Ptolemy V enabled Seleucid aggression in the Fifth Syrian War"
+      "note": "Seleucid civil war contributed to long-term fragmentation of the empire"
     },
     {
-      "from": "-194-001",
-      "to": "-192-001",
+      "from": "-194-003",
+      "to": "-138-SILK_ROAD_EXPANSION",
       "relation": "part_of",
-      "note": "Antiochus III's campaigns in 194 BCE are part of the broader Seleucid expansion that culminated in the Fifth Syrian War"
+      "note": "Han economic development under Wen laid groundwork for later Silk Road trade"
     }
   ]
 }

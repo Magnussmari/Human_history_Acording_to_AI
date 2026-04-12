@@ -1,0 +1,107 @@
+{
+  "year": -209,
+  "year_label": "209 BCE",
+  "era_context": "The Chu-Han Contention in China is in its early-to-middle phase, with no clear victor yet emerging. The Second Punic War in the Mediterranean is entering its final decade; Scipio Africanus is consolidating Roman power in Spain and preparing for the invasion of North Africa. The Seleucid and Ptolemaic empires remain the dominant powers in the Hellenistic East. In India, the Mauryan Empire is in decline, with regional powers beginning to assert independence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-209-001",
+      "title": "Liu Bang captures Luoyang",
+      "region": "China",
+      "coordinates_approx": "34.68, 112.45",
+      "category": "military",
+      "description": "Liu Bang's Han forces capture the city of Luoyang, a major strategic center in central China and the former capital of the Zhou Dynasty. This victory is significant because it gives Liu Bang control of a major population and economic center, strengthening his position in the Chu-Han Contention. The capture of Luoyang demonstrates that Liu Bang's forces are capable of defeating Xiang Yu's armies in pitched battles and are expanding their territorial control.",
+      "key_figures": [
+        "Liu Bang (King of Han)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The capture of Luoyang is attested in the Shiji, but the precise date is uncertain. Some sources place it in 208 or 210 BCE. The Shiji is the primary source but was compiled ~100 years after the events.",
+      "cross_references": [
+        "Part of the Chu-Han Contention (206\u2013202 BCE)"
+      ]
+    },
+    {
+      "id": "-209-002",
+      "title": "Scipio Africanus defeats Mago Barca in Spain",
+      "region": "Iberian Peninsula",
+      "coordinates_approx": "37.39, -5.98",
+      "category": "military",
+      "description": "Scipio Africanus defeats Mago Barca (Hannibal's brother) in a battle in Spain. This victory further consolidates Roman control of the peninsula and demonstrates Scipio's military superiority. Mago's defeat is a setback for Carthage's efforts to maintain a presence in Spain and reinforces the strategic necessity of Scipio's planned invasion of North Africa.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)",
+        "Mago Barca (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 28",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Scipio's victories over Mago are attested in the sources, but the precise date of individual engagements is uncertain. The general timeline is secure.",
+      "cross_references": [
+        "Part of the Second Punic War (218\u2013201 BCE)"
+      ]
+    },
+    {
+      "id": "-209-003",
+      "title": "Antiochus III consolidates Seleucid power",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "33.31, 44.36",
+      "category": "political",
+      "description": "Antiochus III (later called Antiochus the Great) continues to consolidate power within the Seleucid Empire. By 209 BCE, he is establishing himself as a major force in the Hellenistic world and is beginning to expand Seleucid territory. His reign (223\u2013187 BCE) will be marked by military campaigns to recover lost Seleucid territories and to challenge Ptolemaic Egypt for dominance in the eastern Mediterranean.",
+      "key_figures": [
+        "Antiochus III (Seleucid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Books 5\u20138",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus III's reign and his consolidation of power are well-attested in Hellenistic sources. The specific events of 209 BCE are less detailed, but the general trajectory is clear.",
+      "cross_references": [
+        "Leads to Antiochus III's major military campaigns in the 200s BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Shiji's account of Liu Bang's capture of Luoyang is attested, but the precise date is uncertain and varies in different sources. The significance of individual victories in the Chu-Han Contention is sometimes overstated in older accounts. Additionally, the Shiji contains clear Han-era bias that may distort the historical record.",
+  "historiographic_note": "The historical record for 209 BCE is dominated by Chinese sources (Shiji) for the Chu-Han Contention and by Greek and Roman sources (Livy, Polybius) for the Mediterranean. The Shiji is the primary source for Chinese events but was compiled ~100 years after the events and reflects Han-era perspectives. The Mediterranean sources are more contemporary but focus on the Second Punic War and the Seleucid Empire. The two major regions of the world are documented through entirely separate source traditions with no cross-reference or awareness of each other.",
+  "graph_edges": [
+    {
+      "from": "-209-001",
+      "to": "-202-001",
+      "relation": "part_of",
+      "note": "Liu Bang's capture of Luoyang is part of his eventual victory in the Chu-Han Contention"
+    },
+    {
+      "from": "-209-002",
+      "to": "-204-001",
+      "relation": "led_to",
+      "note": "Scipio's victories in Spain prepare the way for his invasion of North Africa"
+    },
+    {
+      "from": "-209-003",
+      "to": "-200-001",
+      "relation": "led_to",
+      "note": "Antiochus III's consolidation of power leads to his major military campaigns"
+    }
+  ]
+}

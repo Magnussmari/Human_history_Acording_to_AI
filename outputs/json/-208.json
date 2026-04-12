@@ -1,0 +1,113 @@
+{
+  "year": -208,
+  "year_label": "208 BCE",
+  "era_context": "The Chu-Han Contention in China continues, with Xiang Yu's Western Chu and Liu Bang's Han kingdom locked in a prolonged conflict. The Second Punic War in the Mediterranean is entering its final phase; Scipio Africanus has secured Spain and is preparing for the invasion of North Africa. The Seleucid and Ptolemaic empires remain the dominant powers in the Hellenistic East, though internal instability is growing in both.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "-208-001",
+      "title": "Continued Chu-Han Contention in China",
+      "region": "China",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "military",
+      "description": "The civil war between Xiang Yu's Western Chu and Liu Bang's Han kingdom continues without decisive resolution. Both sides engage in campaigns and maneuvers to gain advantage, but neither achieves a knockout blow. Liu Bang's strategy focuses on consolidating his base in the Han region and building alliances with other warlords, while Xiang Yu attempts to maintain his dominance through military superiority. The conflict will continue until 202 BCE, when Liu Bang finally defeats Xiang Yu and establishes the Han Dynasty.",
+      "key_figures": [
+        "Xiang Yu (Hegemon-King of Western Chu)",
+        "Liu Bang (King of Han)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of the Chu-Han Contention is well-established, but specific events and campaigns of 208 BCE are not clearly delineated in the sources. The Shiji provides the primary narrative but was compiled ~100 years after the events.",
+      "cross_references": [
+        "Part of the Chu-Han Contention (206\u2013202 BCE)"
+      ]
+    },
+    {
+      "id": "-208-002",
+      "title": "Scipio Africanus campaigns in southern Spain",
+      "region": "Iberian Peninsula",
+      "coordinates_approx": "37.39, -5.98",
+      "category": "military",
+      "description": "Scipio Africanus continues military operations in southern Spain, mopping up remaining Carthaginian resistance and consolidating Roman control. These campaigns are part of the broader strategy to eliminate Carthaginian power in the western Mediterranean before launching the invasion of North Africa. By 208 BCE, Roman dominance in Spain is nearly complete.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 28",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Scipio's continued campaigns in Spain are attested in the sources, but specific details of 208 BCE are limited. The general timeline is secure.",
+      "cross_references": [
+        "Part of the Second Punic War (218\u2013201 BCE)"
+      ]
+    },
+    {
+      "id": "-208-003",
+      "title": "Hannibal's brother Mago arrives in Italy with reinforcements",
+      "region": "Italian Peninsula",
+      "coordinates_approx": "41.87, 12.57",
+      "category": "military",
+      "description": "Mago Barca, Hannibal's younger brother, arrives in Italy with a Carthaginian fleet and reinforcements to support Hannibal's campaign. This represents Carthage's attempt to bolster Hannibal's position in Italy as Roman pressure increases. However, Mago's arrival is too late to significantly alter the strategic situation; Roman forces are too strong, and Scipio's preparations for the invasion of North Africa are already underway.",
+      "key_figures": [
+        "Mago Barca (Carthaginian general)",
+        "Hannibal Barca (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 28",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Book 11",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mago's arrival in Italy is well-documented in Roman sources. The date 208 BCE is secure.",
+      "cross_references": [
+        "Part of the Second Punic War (218\u2013201 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Shiji's account of the Chu-Han Contention contains clear Han-era bias against Xiang Yu. Modern scholarship has questioned some of the Shiji's characterizations and has suggested that the conflict was more evenly matched than the sources suggest. Additionally, the significance of individual campaigns in 208 BCE is difficult to assess from the surviving sources.",
+  "historiographic_note": "The historical record for 208 BCE is again dominated by Chinese sources (Shiji) for the Chu-Han Contention and by Greek and Roman sources (Livy, Polybius) for the Mediterranean. The Shiji is the primary source for Chinese events but was compiled ~100 years after the events. The Mediterranean sources are more contemporary but focus on the Second Punic War. The two major regions of the world are documented through entirely separate source traditions.",
+  "graph_edges": [
+    {
+      "from": "-208-001",
+      "to": "-202-001",
+      "relation": "part_of",
+      "note": "Continued Chu-Han Contention leads to Liu Bang's eventual victory"
+    },
+    {
+      "from": "-208-002",
+      "to": "-204-001",
+      "relation": "led_to",
+      "note": "Scipio's Spanish campaigns prepare the way for his invasion of North Africa"
+    },
+    {
+      "from": "-208-003",
+      "to": "-201-001",
+      "relation": "part_of",
+      "note": "Mago's arrival is part of Carthage's final efforts in the Second Punic War"
+    }
+  ]
+}

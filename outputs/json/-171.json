@@ -1,0 +1,103 @@
+{
+  "year": -171,
+  "year_label": "171 BCE",
+  "era_context": "The Third Macedonian War begins this year, marking a major turning point in Eastern Mediterranean history. Antiochus IV is consolidating power and preparing for his Egyptian campaigns. The Ptolemaic Dynasty is fractured. Rome is mobilizing for war against Perseus of Macedon. This year marks the beginning of the end of Hellenistic independence in the Eastern Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-171-001",
+      "title": "Outbreak of the Third Macedonian War",
+      "region": "Macedon, Greece, and the Eastern Mediterranean",
+      "coordinates_approx": "40.5, 22.0",
+      "category": "military",
+      "description": "The Third Macedonian War began when Perseus of Macedon, seeking to restore Macedonian power and challenge Roman hegemony, attacked Roman allies in Greece. Rome responded with military force under the command of various generals. The war would last until 168 BCE and result in the decisive Roman victory at Pydna, effectively ending Macedonian independence and establishing Rome as the dominant power in the Eastern Mediterranean. This conflict marked the beginning of the end for Hellenistic political independence.",
+      "key_figures": [
+        "Perseus of Macedon (Macedonian King)",
+        "Roman Senate and generals",
+        "Eumenes II of Pergamon (Roman ally)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Books 27-29)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Livy, History of Rome (Books 42-45)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The outbreak of the Third Macedonian War in 171 BCE is well-attested in multiple contemporary and near-contemporary sources. The date is secure.",
+      "cross_references": [
+        "Led to -168-001 (Battle of Pydna)",
+        "Contemporary with -171-002"
+      ]
+    },
+    {
+      "id": "-171-002",
+      "title": "Antiochus IV's first Egyptian campaign",
+      "region": "Egypt and Seleucid Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Antiochus IV launched his first military campaign into Egypt, exploiting the internal divisions of the Ptolemaic Dynasty. He invaded Egypt under the pretext of supporting the young Ptolemy VI Philometor against his regent brother Ptolemy VIII. The campaign was initially successful, and Antiochus gained significant territory and influence in Egypt. However, the campaign would eventually be checked by Roman intervention in 168 BCE.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Ptolemy VI Philometor (Egyptian King)",
+        "Ptolemy VIII Euergetes II (Egyptian regent)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Book 28)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "1 Maccabees 1:16-19",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (Book 42)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The dating of Antiochus IV's first Egyptian campaign is debated. Some sources place it in 170 BCE, others in 169 BCE. 171 BCE is a reasonable estimate based on the available evidence, but the exact year is uncertain.",
+      "cross_references": [
+        "Related to -171-001 (Third Macedonian War)",
+        "Led to -168-001 (Roman intervention)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Antiochus IV's first Egyptian campaign is disputed. While 171 BCE is a plausible date, some modern scholars prefer 170 or 169 BCE. The exact sequence and timing of events in the early 170s BCE is not clearly established in surviving sources. Additionally, the significance of the Third Macedonian War in triggering Roman intervention in the East is sometimes overstated; Rome was already committed to maintaining the balance of power in the Eastern Mediterranean.",
+  "historiographic_note": "171 BCE is better documented than the preceding years, primarily because of the outbreak of the Third Macedonian War. However, the record is still dominated by Greco-Roman sources (Polybius and Livy), which focus on military and political events. The perspective of Macedon, Egypt, and the Seleucid Empire is filtered through these sources. Jewish sources (1 Maccabees) provide an alternative viewpoint on Antiochus IV's Egyptian campaigns. Events outside the Mediterranean world are almost entirely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-171-001",
+      "to": "-168-001",
+      "relation": "led_to",
+      "note": "The Third Macedonian War led to Roman dominance in the Eastern Mediterranean"
+    },
+    {
+      "from": "-171-002",
+      "to": "-168-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's Egyptian campaign was checked by Roman intervention"
+    },
+    {
+      "from": "-171-001",
+      "to": "-171-002",
+      "relation": "contemporary_with",
+      "note": "Both events occurred in the same year, reshaping the Eastern Mediterranean"
+    }
+  ]
+}
