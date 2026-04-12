@@ -1,0 +1,85 @@
+{
+  "year": -2706,
+  "year_label": "2706 BCE",
+  "era_context": "Continuation of Early Dynastic Period III in Mesopotamia; Egyptian Old Kingdom (Dynasty IV). The Indus Valley Civilization remains in its mature phase. This is a period of relative stability in major civilizations, with established trade networks and urban systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "Most of the Americas"
+  ],
+  "events": [
+    {
+      "id": "-2706-001",
+      "title": "Continuation of Egyptian Old Kingdom pyramid construction",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "cultural",
+      "description": "Pyramid construction and monumental architecture continue as central features of Egyptian royal ideology and labor organization. The reign of Menkaure or his successor continues the tradition of massive stone construction projects. These projects required sophisticated organization of labor, quarrying, and transportation systems.",
+      "key_figures": [
+        "Menkaure or Shepseskaf (Dynasty IV pharaohs)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pyramid complexes and temple sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "King lists and administrative records (later copies)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pyramid construction is archaeologically confirmed for this period, but specific events and precise dating within Dynasty IV remain uncertain.",
+      "cross_references": [
+        "-2705-001"
+      ]
+    },
+    {
+      "id": "-2706-002",
+      "title": "Indus Valley trade networks active; long-distance exchange",
+      "region": "Indus Valley and beyond, South Asia and Near East",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "economic",
+      "description": "Archaeological evidence shows that Indus Valley goods (seals, pottery, beads) are found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This indicates established trade routes and commercial relationships. The nature of this trade\u2014whether direct or through intermediaries\u2014remains debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological finds of Indus seals in Mesopotamian sites (Ur, Uruk, Lagash)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian goods found in Indus Valley contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Long-distance trade between the Indus Valley and Mesopotamia is archaeologically well-established for the mature Indus phase.",
+      "cross_references": [
+        "-2705-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the nature and extent of Indus-Mesopotamian trade remains debated; some scholars argue for indirect trade through intermediaries (possibly the Gulf region or Oman) rather than direct contact.",
+  "historiographic_note": "2706 BCE falls in a period where written records are extremely sparse outside Egypt and Mesopotamia. The historical record is dominated by archaeological evidence of material culture and monumental construction. Political events, military campaigns, and individual rulers are largely undocumented except in later king lists and inscriptions. The bias toward elite and monumental activities is pronounced.",
+  "graph_edges": [
+    {
+      "from": "-2706-001",
+      "to": "-2705-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Dynasty IV pyramid-building tradition"
+    },
+    {
+      "from": "-2706-002",
+      "to": "-2705-002",
+      "relation": "part_of",
+      "note": "Indus Valley trade networks are part of the mature civilization phase"
+    }
+  ]
+}

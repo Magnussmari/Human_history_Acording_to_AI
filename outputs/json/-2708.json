@@ -1,0 +1,83 @@
+{
+  "year": -2708,
+  "year_label": "2708 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; Egyptian Old Kingdom (Dynasty IV). The Indus Valley Civilization is in its mature phase. This is a period of established civilizations with developed urban systems, trade networks, and political structures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "Most of the Americas"
+  ],
+  "events": [
+    {
+      "id": "-2708-001",
+      "title": "Indus Valley Civilization: urban centers and standardized systems",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization maintains its characteristic features: planned urban centers with standardized brick sizes, sophisticated drainage systems, and standardized weights and measures. Seals with undeciphered script continue to be produced. The civilization shows remarkable uniformity across a vast geographic area, suggesting either a centralized authority or a shared cultural system.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized artifacts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's material culture is archaeologically well-established. Absolute dating relies on radiocarbon and stratigraphic correlation.",
+      "cross_references": [
+        "-2705-002",
+        "-2706-002"
+      ]
+    },
+    {
+      "id": "-2708-002",
+      "title": "Egyptian Old Kingdom: continuation of monumental construction",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "cultural",
+      "description": "Monumental construction projects continue as a defining feature of the Old Kingdom. Temples, tombs, and administrative buildings are constructed throughout the Nile Valley. The organization of labor, quarrying, and transportation systems demonstrates sophisticated administrative capabilities.",
+      "key_figures": [
+        "Menkaure or Shepseskaf (Dynasty IV pharaohs)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from monumental sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Monumental construction in the Old Kingdom is archaeologically confirmed. Specific dating within Dynasty IV remains uncertain.",
+      "cross_references": [
+        "-2705-001",
+        "-2706-001",
+        "-2707-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The Indus Valley Civilization's uniformity and the nature of its political organization remain debated; some scholars argue for a centralized state, while others suggest a more decentralized system of city-states.",
+  "historiographic_note": "2708 BCE is a year for which no specific historical events are documented in written sources. The historical record consists entirely of archaeological evidence. The bias toward material culture and monumental architecture is pronounced. The lives of ordinary people, political events, and military campaigns are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2708-001",
+      "to": "-2705-002",
+      "relation": "part_of",
+      "note": "Indus Valley Civilization's mature phase"
+    },
+    {
+      "from": "-2708-002",
+      "to": "-2705-001",
+      "relation": "part_of",
+      "note": "Egyptian Old Kingdom Dynasty IV"
+    }
+  ]
+}

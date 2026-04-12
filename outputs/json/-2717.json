@@ -1,0 +1,109 @@
+{
+  "year": -2717,
+  "year_label": "2717 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is in its final decades of territorial dominance. Egypt's Old Kingdom is fragmenting. The Indus Valley Civilization continues its mature urban phase. Traditional Chinese historiography places this within the Xia Dynasty, though archaeological evidence is lacking.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific and Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2717-001",
+      "title": "Akkadian Empire faces increasing external and internal pressure",
+      "region": "Mesopotamia",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "military",
+      "description": "By this point in Naram-Sin's reign, the Akkadian Empire faces mounting challenges. Gutian raids from the Zagros Mountains intensify. Internally, the empire's vast territorial extent makes administration and military defense increasingly difficult. Akkadian inscriptions record continued military campaigns, but the tone suggests defensive rather than expansionist operations. The empire's resources are being stretched thin.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military challenges are documented in contemporary inscriptions. The specific year -2717 is approximate within his reign.",
+      "cross_references": [
+        "-2718-001",
+        "-2200-001"
+      ]
+    },
+    {
+      "id": "-2717-002",
+      "title": "First Intermediate Period begins in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The transition from the Old Kingdom (Dynasty VI) to the First Intermediate Period (Dynasties VII\u2013X) occurs during this period. Central pharaonic authority has effectively collapsed. Egypt fragments into competing regional powers controlled by nomarchs. This period is characterized by political fragmentation, reduced monumental construction, and a shift in cultural and religious emphasis. The unified state that characterized the Old Kingdom ceases to exist.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian king lists, tomb inscriptions, and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition from Dynasty VI to the First Intermediate Period is confirmed, but the exact dating is debated. Traditional chronology places this c. 2184 BCE, but some scholars propose dates 50\u2013100 years earlier or later. Assignment to -2717 reflects this uncertainty.",
+      "cross_references": [
+        "-2719-002",
+        "-2718-002"
+      ]
+    },
+    {
+      "id": "-2717-003",
+      "title": "Indus Valley Civilization continues mature urban phase",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization remains in its mature phase, with no evidence of decline or disruption at this time. Major cities continue to function, trade networks remain active, and urban planning and standardization continue. This contrasts sharply with the political fragmentation occurring in Egypt and the military pressures on the Akkadian Empire.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's continued stability during this period is supported by archaeological evidence. Absolute dating remains uncertain (\u00b1100\u2013150 years).",
+      "cross_references": [
+        "-2719-003",
+        "-2718-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the transition from Dynasty VI to the First Intermediate Period is contested. Some scholars argue it occurred earlier (c. 2250 BCE), while others place it later (c. 2150 BCE). The Akkadian Empire's collapse is sometimes attributed primarily to external Gutian invasion, but recent scholarship emphasizes internal instability, climate change (possibly related to the 4.2 kiloyear event), and overextension as contributing factors. The Xia Dynasty, traditionally dated to this period, remains unconfirmed archaeologically.",
+  "historiographic_note": "This period marks a major transition in the ancient world: the collapse of centralized empires in Mesopotamia and Egypt, while the Indus Valley Civilization continues uninterrupted. This contrast reveals the different trajectories of ancient civilizations and suggests that the factors driving collapse in one region did not affect others. The surviving sources are heavily weighted toward Mesopotamia and Egypt; the Indus Valley is known only through archaeology, limiting our understanding of political and social events.",
+  "graph_edges": [
+    {
+      "from": "-2717-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire collapses within a generation due to Gutian invasion and internal instability"
+    },
+    {
+      "from": "-2717-002",
+      "to": "-2100-001",
+      "relation": "led_to",
+      "note": "First Intermediate Period lasts until the Middle Kingdom (c. 2055 BCE)"
+    }
+  ]
+}

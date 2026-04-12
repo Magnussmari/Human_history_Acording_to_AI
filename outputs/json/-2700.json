@@ -1,0 +1,116 @@
+{
+  "year": -2700,
+  "year_label": "2700 BCE",
+  "era_context": "The Early Dynastic Period III in Mesopotamia; the height of the Akkadian Empire under Sargon of Akkad and his successors. In Egypt, the Old Kingdom (Fourth Dynasty) is in its final phase, with pyramid construction at its zenith. The Indus Valley Civilization is in its mature phase. Bronze Age societies dominate the Eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse evidence)",
+    "Southeast Asia (limited contemporary documentation)",
+    "Pre-Columbian Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-2700-001",
+      "title": "Reign of Menkaure, Fourth Dynasty Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Menkaure rules as pharaoh of the Fourth Dynasty, continuing the tradition of monumental pyramid construction. His reign marks the later phase of the Old Kingdom's pyramid age. He commissioned the Pyramid of Menkaure at Giza, smaller than those of his predecessors but still a major architectural undertaking. His reign represents the consolidation of pharaonic power and divine kingship ideology, though some evidence suggests economic strain from the costs of monument building.",
+      "key_figures": [
+        "Menkaure (Pharaoh, Fourth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid of Menkaure (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Menkaure's reign is traditionally dated to c. 2490\u20132472 BCE, placing him slightly earlier than 2700 BCE. The exact chronology of the Fourth Dynasty remains debated; Egyptian chronology for this period has \u00b150\u2013100 year uncertainty. Assigned here by conventional dating frameworks.",
+      "cross_references": []
+    },
+    {
+      "id": "-2700-002",
+      "title": "Akkadian Empire consolidation under Sargon of Akkad",
+      "region": "Mesopotamia (Akkad, Sumer)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Sargon of Akkad (r. c. 2334\u20132279 BCE) is in the middle of his reign, having established the world's first multi-ethnic empire by military conquest. He unified Mesopotamia under Akkadian rule, displacing Sumerian city-states. His reign saw the spread of the Akkadian language and administrative system across the region. Sargon's military innovations, including the use of professional standing armies, set a precedent for later empires.",
+      "key_figures": [
+        "Sargon of Akkad (Sharru-kin, founder of Akkadian Empire)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad inscriptions and later Babylonian chronicles",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Akkadian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's dates are debated; conventional chronology places him c. 2334\u20132279 BCE, making 2700 BCE slightly after his reign began. Some scholars argue for a lower chronology placing him later. The year 2700 BCE may fall within his reign or slightly before, depending on chronological framework used.",
+      "cross_references": []
+    },
+    {
+      "id": "-2700-003",
+      "title": "Indus Valley Civilization mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height, with major urban centers like Harappa and Mohenjo-daro fully developed. These cities feature sophisticated urban planning, standardized weights and measures, and an undeciphered writing system. Trade networks extend to Mesopotamia and the Persian Gulf. The civilization demonstrates advanced drainage systems, public baths, and evidence of organized labor and centralized administration.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically, dated c. 2600\u20131900 BCE. 2700 BCE falls within this period with high confidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon of Akkad and the Fourth Dynasty of Egypt remains contested among scholars. Some chronological systems (lower chronology) place Sargon's reign significantly later than the conventional dating used here, which would push his empire's consolidation to after 2700 BCE. Additionally, the significance of 2700 BCE as a specific turning point is largely conventional; no major documented events are universally agreed to have occurred precisely in this year across multiple civilizations.",
+  "historiographic_note": "The historical record for 2700 BCE is heavily weighted toward Egypt and Mesopotamia, where written records and monumental archaeology are abundant. The Indus Valley Civilization, despite its sophistication, remains poorly understood due to the undeciphered script. African, European, and East Asian histories for this period are reconstructed primarily from archaeology with minimal written documentation. Egyptian chronology for the Old Kingdom has inherent uncertainty of \u00b150\u2013100 years due to gaps in king lists and the lack of absolute dating methods for this period. Mesopotamian chronology is similarly uncertain. The surviving record reflects the preservation bias toward monumental, literate civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2700-001",
+      "to": "-2700-002",
+      "relation": "contemporary_with",
+      "note": "Menkaure's reign and Sargon's empire-building occurred in overlapping periods, though exact synchronization is uncertain due to chronological debates."
+    },
+    {
+      "from": "-2700-003",
+      "to": "-2700-002",
+      "relation": "contemporary_with",
+      "note": "The Indus Valley Civilization's mature phase overlaps with Akkadian expansion; trade connections may have existed but are not well-documented."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "year": -2705,
+  "year_label": "2705 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; the height of Sumerian city-state power before Akkadian unification. Egypt is in the Old Kingdom (Dynasty IV\u2013V transition), with pyramid construction at its peak. The Indus Valley Civilization is in its mature phase. Bronze Age societies dominate the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia (limited contemporary sources)",
+    "Oceania (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2705-001",
+      "title": "Reign of Menkaure, Egyptian pharaoh (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure rules as the sixth pharaoh of Dynasty IV, continuing the tradition of monumental pyramid construction. His reign marks the later phase of the Old Kingdom's pyramid-building era. He commissioned the Menkaure's Pyramid at Giza, smaller than his predecessors' but still a major undertaking. His reign is attested in king lists and temple inscriptions, though specific events are poorly documented.",
+      "key_figures": [
+        "Menkaure (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside compilation of earlier king lists)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (temple inscriptions)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Menkaure's Pyramid complex, Giza",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Menkaure's reign is well-attested in Egyptian records, but precise dating within Dynasty IV remains debated. Conventional chronology places him c. 2490\u20132472 BCE; this year is assigned by convention within that range.",
+      "cross_references": []
+    },
+    {
+      "id": "-2705-002",
+      "title": "Mature Indus Valley Civilization urban centers flourishing",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "Major urban centers such as Harappa and Mohenjo-daro are at their peak of development, with sophisticated urban planning, standardized weights and measures, and extensive trade networks. Seals with undeciphered script are produced in large quantities. The civilization shows no evidence of monumental temples or palaces, suggesting a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically. Absolute dating relies on radiocarbon and stratigraphic correlation; this year falls within the widely accepted mature phase (c. 2600\u20131900 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-2705-003",
+      "title": "Sumerian city-states in competition; Lagash-Umma conflict period",
+      "region": "Mesopotamia, Sumer (modern southern Iraq)",
+      "coordinates_approx": "31.5\u00b0N, 46.0\u00b0E",
+      "category": "political",
+      "description": "Sumerian city-states including Lagash, Umma, Uruk, and Ur compete for regional dominance and control of irrigation resources. This period is characterized by frequent conflicts over water rights and territorial boundaries. The conflict between Lagash and Umma is documented in later inscriptions and king lists, though precise dating of individual campaigns is uncertain.",
+      "key_figures": [
+        "Eannatum of Lagash (possibly; reign dates disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation with traditional dating)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions of Eannatum and successors (later copies)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Lagash-Umma conflicts are attested in later inscriptions and the Sumerian King List, but contemporary documentation is lacking. Dating is highly uncertain and depends on chronological models that remain debated among scholars.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Menkaure's reign and the Indus Valley Civilization's mature phase relies heavily on radiocarbon calibration and stratigraphic correlation, both of which have undergone significant revision in recent decades. Some scholars argue for a 'low chronology' that would place these events 100\u2013200 years later. The Sumerian King List's dating for this period is notoriously unreliable; some scholars place the Lagash-Umma conflicts significantly later (c. 2450 BCE or later). No disconfirming evidence has been identified for the basic facts of Egyptian pyramid construction or Indus urban development, but absolute dating remains contested.",
+  "historiographic_note": "Documentation for 2705 BCE is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence is abundant. Mesopotamian written records from this period are sparse and often later compilations. Sub-Saharan Africa, Europe, and most of Asia are virtually absent from the historical record at this date, not because nothing was happening but because writing had not yet developed or records have not survived. The surviving sources are biased toward monumental architecture and elite activities; the lives of ordinary people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2705-001",
+      "to": "-2700-001",
+      "relation": "part_of",
+      "note": "Menkaure's reign continues into the following years; part of Dynasty IV's pyramid-building tradition"
+    },
+    {
+      "from": "-2705-002",
+      "to": "-2600-001",
+      "relation": "part_of",
+      "note": "Indus Valley Civilization's mature phase spans several centuries"
+    }
+  ]
+}

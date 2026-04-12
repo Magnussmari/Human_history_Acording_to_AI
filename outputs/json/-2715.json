@@ -1,0 +1,100 @@
+{
+  "year": -2715,
+  "year_label": "2715 BCE",
+  "era_context": "Early Bronze Age III, in the final years of the Akkadian Empire. Egypt is in the First Intermediate Period. The Indus Valley Civilization is in its mature phase. This year falls within the traditional dating of the Xia Dynasty in China, though archaeological confirmation is lacking.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific and Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2715-001",
+      "title": "Akkadian Empire in final decline; Gutian invasion imminent",
+      "region": "Mesopotamia",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "military",
+      "description": "The Akkadian Empire is in its final years. Naram-Sin has died (c. 2218 BCE), and his successors lack his military prowess and administrative ability. Gutian pressure from the Zagros Mountains intensifies. The empire's territorial control is rapidly contracting. Within a few years, the Gutians will overrun Mesopotamia, ending Akkadian political dominance. This represents one of the ancient world's first documented imperial collapses.",
+      "key_figures": [
+        "Shar-kali-sharri (Naram-Sin's successor, King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and the Sumerian King List",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian Empire's final decline is documented in contemporary inscriptions. The specific year -2715 is approximate within this period of collapse (c. 2218\u20132200 BCE).",
+      "cross_references": [
+        "-2716-001",
+        "-2200-001"
+      ]
+    },
+    {
+      "id": "-2715-002",
+      "title": "Egyptian First Intermediate Period: Theban Dynasty XI consolidates Upper Egypt",
+      "region": "Upper Egypt",
+      "coordinates_approx": "25.5, 32.5",
+      "category": "political",
+      "description": "The Theban Dynasty XI is consolidating power in Upper Egypt during the First Intermediate Period. Theban rulers are expanding their territorial control and beginning the process that will eventually lead to the reunification of Egypt under the Middle Kingdom. This represents the emergence of a new power center that will reshape Egyptian politics.",
+      "key_figures": [
+        "Mentuhotep I or II (Theban Dynasty XI, exact dating uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and Theban tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Theban Dynasty XI's consolidation of Upper Egypt is confirmed, but the exact dating and identification of individual rulers is debated. Assignment to -2715 reflects uncertainty within the First Intermediate Period.",
+      "cross_references": [
+        "-2716-002",
+        "-2055-001"
+      ]
+    },
+    {
+      "id": "-2715-003",
+      "title": "Indus Valley Civilization: mature phase continues",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization remains in its mature phase, with no evidence of disruption or decline. Major urban centers like Harappa and Mohenjo-daro continue to function. Trade networks remain active. This stability is remarkable given the political upheaval occurring in Mesopotamia and Egypt during this same period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's continued stability is supported by archaeological evidence.",
+      "cross_references": [
+        "-2716-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Akkadian collapse is debated. Some scholars place it c. 2200 BCE (conventional Middle Chronology), while others propose c. 2250 BCE or later. The role of the Gutian invasion versus internal collapse and climate change (possibly the 4.2 kiloyear event) is contested. The Theban Dynasty XI's exact chronology and the dating of individual rulers remain uncertain. The Xia Dynasty remains unconfirmed archaeologically.",
+  "historiographic_note": "This year marks the cusp of major transitions in the ancient world. The Akkadian Empire is about to collapse, Egypt is fragmented, yet the Indus Valley Civilization continues uninterrupted. This contrast reveals that ancient history was not a single narrative but multiple parallel developments with different trajectories. The surviving sources are heavily weighted toward Mesopotamia and Egypt; the Indus Valley remains largely invisible due to the lack of deciphered writing. Sub-Saharan Africa, northern Europe, and most of Asia are entirely absent from the historical record, not because nothing happened but because writing had not developed or records have not survived.",
+  "graph_edges": [
+    {
+      "from": "-2715-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian collapse occurs within a few years"
+    },
+    {
+      "from": "-2715-002",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "Theban Dynasty XI eventually reunifies Egypt under the Middle Kingdom"
+    }
+  ]
+}

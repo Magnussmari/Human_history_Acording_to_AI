@@ -1,0 +1,86 @@
+{
+  "year": -2707,
+  "year_label": "2707 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; Egyptian Old Kingdom (Dynasty IV). The Indus Valley Civilization is in its mature phase. This year falls within a period of relative stability and continuity in major civilizations, with established political structures and trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "Most of the Americas"
+  ],
+  "events": [
+    {
+      "id": "-2707-001",
+      "title": "Egyptian Old Kingdom administrative and religious continuity",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "The Egyptian state continues to function with established administrative structures, religious practices, and monumental construction programs. The pharaoh maintains control over the Nile Valley and organizes labor for state projects. This period is characterized by relative stability and the consolidation of Old Kingdom institutions.",
+      "key_figures": [
+        "Menkaure or Shepseskaf (Dynasty IV pharaohs)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative records and inscriptions (later copies)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuity of Old Kingdom institutions is well-established, but specific events for this particular year are not documented.",
+      "cross_references": [
+        "-2705-001",
+        "-2706-001"
+      ]
+    },
+    {
+      "id": "-2707-002",
+      "title": "Sumerian city-states maintain regional competition and trade",
+      "region": "Mesopotamia, Sumer",
+      "coordinates_approx": "31.5\u00b0N, 46.0\u00b0E",
+      "category": "economic",
+      "description": "Sumerian city-states continue to compete for resources and maintain trade networks. Archaeological evidence shows that goods, ideas, and possibly people move between city-states. The political landscape is fragmented, with no single dominant power, though some cities (such as Uruk or Lagash) may have had greater influence at different times.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Sumerian sites (pottery, seals, inscriptions)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of competing city-states and trade networks is archaeologically confirmed, but specific events for this year are not documented.",
+      "cross_references": [
+        "-2705-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the Sumerian King List's chronology for this period is highly disputed, and some scholars place major political shifts (such as the rise of Akkad) significantly earlier or later than traditional dating suggests.",
+  "historiographic_note": "2707 BCE is a year for which virtually no specific historical events are documented. The historical record consists entirely of archaeological evidence and later compilations. The absence of contemporary written records means that political events, military campaigns, and individual actions are largely invisible. The surviving evidence is biased toward material culture and monumental architecture.",
+  "graph_edges": [
+    {
+      "from": "-2707-001",
+      "to": "-2705-001",
+      "relation": "part_of",
+      "note": "Continuation of Dynasty IV"
+    },
+    {
+      "from": "-2707-002",
+      "to": "-2705-003",
+      "relation": "contemporary_with",
+      "note": "Sumerian city-state competition continues"
+    }
+  ]
+}

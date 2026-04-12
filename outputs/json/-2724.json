@@ -1,0 +1,79 @@
+{
+  "year": -2724,
+  "year_label": "2724 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its mid-to-late phase (Dynasty IV\u2013V transition period). In Mesopotamia, the Early Dynastic III period is underway, with competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase. Writing systems are established in Egypt and Mesopotamia; cuneiform and hieroglyphics are primary administrative tools.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2724-001",
+      "title": "Reign of Menkaure (Mycerinus) \u2014 Fourth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure, fourth king of Dynasty IV, is attested as ruling during this approximate period. He is famous for commissioning the third of the three major Giza pyramids, though construction likely spanned multiple years. His reign marks the later phase of the Old Kingdom's pyramid-building era, with increasing administrative complexity and resource mobilization. The pyramid of Menkaure is notably smaller than those of Khufu and Khafre, possibly reflecting economic or political constraints.",
+      "key_figures": [
+        "Menkaure (Mycerinus) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside compilation of earlier king lists)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (temple inscription, Nineteenth Dynasty)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Pyramid of Menkaure at Giza",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Menkaure's reign is traditionally dated to c. 2532\u20132503 BCE by some Egyptologists, but absolute chronology for the Old Kingdom remains debated. This year falls within the probable range of his reign, but the exact year is uncertain by \u00b110\u201320 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2724-002",
+      "title": "Mature Indus Valley Civilization \u2014 Urban Development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak during this period, with major urban centers such as Harappa and Mohenjo-daro fully developed. These cities exhibit sophisticated urban planning, standardized weights and measures, and extensive trade networks. The civilization's undeciphered script appears on seals and pottery. No monumental temples or palaces have been identified, suggesting a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (ongoing since early 20th century)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Indus Valley Civilization's mature phase is dated c. 2600\u20131900 BCE by most scholars. This year falls comfortably within that range, though the civilization's internal chronology lacks the precision of Egyptian or Mesopotamian records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom of Egypt remains contested. Some scholars argue for a 'low chronology' that would place Menkaure's reign significantly later (c. 2490\u20132472 BCE), while others defend a 'high chronology' placing it earlier. The Indus Valley Civilization's script remains undeciphered, so claims about its administrative or religious organization are inferred from material culture rather than textual evidence, introducing interpretive uncertainty.",
+  "historiographic_note": "This period is documented primarily through Egyptian king lists (compiled centuries after the events) and archaeological evidence. Egyptian sources are heavily biased toward royal and monumental activity; the lives of ordinary people are largely invisible. The Indus Valley Civilization is known almost entirely through archaeology, with no contemporary written records that can be reliably interpreted. Mesopotamian records for this period are fragmentary. The historical record is heavily skewed toward literate, monumental civilizations; vast regions of the world leave no written trace.",
+  "graph_edges": [
+    {
+      "from": "-2724-001",
+      "to": "-2700-DYNASTY_IV_DECLINE",
+      "relation": "part_of",
+      "note": "Menkaure's reign is part of the late Old Kingdom, which will decline within a few generations"
+    }
+  ]
+}
