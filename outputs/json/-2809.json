@@ -1,0 +1,82 @@
+{
+  "year": -2809,
+  "year_label": "2809 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Akkadian Empire under Naram-Sin is at its territorial zenith, controlling much of Mesopotamia and parts of the Levant. In Egypt, the Old Kingdom (6th Dynasty) is in decline; regional power is fragmenting. The Indus Valley Civilization is in its mature phase. This period marks the height of early imperial expansion in Mesopotamia before systemic collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2809-001",
+      "title": "Naram-Sin's Military Campaigns in the Levant",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Naram-Sin of Akkad continues aggressive expansion into the Levant and Syria, consolidating Akkadian control over trade routes and vassal states. Inscriptions record campaigns against Ebla and other city-states. These campaigns are part of Naram-Sin's broader imperial project, which extended Akkadian hegemony to its maximum extent. The military pressure on peripheral regions contributed to destabilization that would later contribute to the empire's collapse.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele and royal inscriptions from Akkad",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ebla and Tell Brak",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested (c. 2254\u20132218 BCE in conventional chronology), but specific events within individual years are difficult to date precisely. This event is assigned to -2809 by convention within his reign period.",
+      "cross_references": [
+        "Relates to broader Akkadian imperial expansion documented across -2815 to -2800"
+      ]
+    },
+    {
+      "id": "-2809-002",
+      "title": "Indus Valley Civilization at Peak Urban Development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture) is at its mature phase, with major urban centers like Mohenjo-daro and Harappa fully developed. Standardized weights, measures, and seals indicate sophisticated trade networks. This period represents the height of urban planning and craft specialization in the Indus region before the civilization's gradual decline in the following centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and Dholavira",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and artifacts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's chronology is well-established through radiocarbon dating and stratigraphic analysis. The mature phase (c. 2600\u20131900 BCE) is well-documented archaeologically.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's reign remains subject to scholarly debate. The conventional 'middle chronology' places him c. 2254\u20132218 BCE, but the 'low chronology' dates him to c. 2154\u20132118 BCE, a difference of roughly 100 years. This affects the precise dating of events within his reign. Additionally, the extent of Akkadian control in the Levant is debated; some scholars argue that Akkadian hegemony was more limited and indirect than inscriptions suggest.",
+  "historiographic_note": "This period is documented primarily through Akkadian royal inscriptions (which are propagandistic and may exaggerate military success) and archaeological evidence from destroyed sites (which may or may not be attributable to Akkadian campaigns). The Indus Valley Civilization left no deciphered written records, so understanding of this civilization relies entirely on archaeology. Egyptian records from this period are fragmentary due to the decline of the Old Kingdom. The historical record is heavily skewed toward Mesopotamia and the Levant; vast regions of the world are essentially invisible in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-2809-001",
+      "to": "-2800-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's aggressive expansion and resource demands contributed to the systemic pressures that led to the Akkadian Empire's collapse within a generation."
+    },
+    {
+      "from": "-2809-002",
+      "to": "-2750-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The mature Indus Valley Civilization of this period gradually declined over the following centuries, with causes still debated (climate change, resource depletion, or internal factors)."
+    }
+  ]
+}

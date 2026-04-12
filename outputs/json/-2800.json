@@ -1,0 +1,111 @@
+{
+  "year": -2800,
+  "year_label": "2800 BCE",
+  "era_context": "The Early Bronze Age III (EB III) in the Levant and Mesopotamia; the height of the Early Dynastic Period in Sumer; the Indus Valley Civilisation in its mature phase; Old Kingdom Egypt in decline (late Dynasty 5 or early Dynasty 6). This is a period of established urban centres, long-distance trade networks, and increasingly complex political hierarchies across Eurasia and Africa.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Southeast Asia (limited contemporary documentation)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2800-001",
+      "title": "Reign of Enmetena of Lagash",
+      "region": "Mesopotamia (Sumer, city-state of Lagash)",
+      "coordinates_approx": "32.17, 46.08",
+      "category": "political",
+      "description": "Enmetena, ruler of the Sumerian city-state of Lagash, is attested in inscriptions dating to this period. He is known for his military campaigns against neighbouring Umma and his construction of temples and irrigation works. His reign exemplifies the competitive city-state politics of Early Dynastic Sumer, where control of water resources and trade routes drove conflict.",
+      "key_figures": [
+        "Enmetena (ensi/governor of Lagash)"
+      ],
+      "sources": [
+        {
+          "name": "Enmetena's inscriptions (clay cones and cylinders from Lagash)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Enmetena's reign is attested in contemporary inscriptions, but absolute dating within the Early Dynastic period remains uncertain by \u00b150\u2013100 years depending on chronological system used (Middle vs. Low Chronology).",
+      "cross_references": []
+    },
+    {
+      "id": "-2800-002",
+      "title": "Mature Indus Valley Civilisation urban centres",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "Major urban centres of the Indus Valley Civilisation\u2014including Mohenjo-daro, Harappa, and Dholavira\u2014are at their peak of development and population. These cities exhibit sophisticated urban planning, standardised weights and measures, and extensive trade networks reaching Mesopotamia, the Persian Gulf, and Central Asia. The civilisation's undeciphered script appears on seals and pottery.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilisation is well-established archaeologically. Absolute dating via radiocarbon places the mature phase c. 2600\u20131900 BCE; this year falls within that range with high confidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-2800-003",
+      "title": "Old Kingdom Egypt in transition (Dynasty 5\u20136)",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Egypt during this period is transitioning from the height of the Old Kingdom (Dynasty 5) toward Dynasty 6. Royal power is gradually decentralising as provincial governors (nomarchs) gain autonomy. Pyramid construction continues but with less monumental scale than earlier dynasties. Trade with the Levant and Nubia remains active.",
+      "key_figures": [
+        "Pharaohs of Dynasty 5\u20136 (specific ruler uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and provincial tombs",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom is debated; this year is assigned to the Dynasty 5\u20136 transition by convention, but absolute dating carries \u00b150\u2013100 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Indus Valley Civilisation's mature phase has been revised downward in recent decades based on improved radiocarbon calibration; some scholars now place the peak closer to 2500\u20132000 BCE rather than earlier estimates. The 'decline' of the Old Kingdom is increasingly understood not as a collapse but as a gradual shift in political structure rather than a crisis. Enmetena's exact chronological position within Early Dynastic Sumer remains contested between competing chronological systems (Middle Chronology vs. Low Chronology), which can shift his reign by 100+ years.",
+  "historiographic_note": "This year falls in a period where written records exist only in Mesopotamia and Egypt, with limited epigraphic evidence from the Indus Valley (undeciphered script). The historical record is heavily skewed toward literate civilisations; vast regions of the world leave no written trace. Egyptian and Mesopotamian chronologies for this period depend on king lists compiled centuries later and are subject to ongoing scholarly revision. Archaeological dating via radiocarbon introduces \u00b150\u2013100 year margins of error. The absence of records from most of the world should not be interpreted as the absence of history.",
+  "graph_edges": [
+    {
+      "from": "-2800-002",
+      "to": "-2600-001",
+      "relation": "part_of",
+      "note": "Indus Valley Civilisation continues into the 26th century BCE"
+    },
+    {
+      "from": "-2800-003",
+      "to": "-2750-001",
+      "relation": "led_to",
+      "note": "Decentralisation of Old Kingdom power accelerates in Dynasty 6"
+    }
+  ]
+}

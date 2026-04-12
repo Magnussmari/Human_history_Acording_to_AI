@@ -1,0 +1,115 @@
+{
+  "year": -2805,
+  "year_label": "2805 BCE",
+  "era_context": "Early Bronze Age III, final years of Naram-Sin's reign. The Akkadian Empire is on the verge of collapse, though this may not have been apparent to contemporaries. Egypt's Old Kingdom has ended, and the First Intermediate Period is beginning. The Indus Valley Civilization remains stable. This is a pivotal year in the history of early imperial collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2805-001",
+      "title": "Naram-Sin's Reign Approaches Its End",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin's reign is in its final years (he will die c. 2218 BCE in conventional chronology). Despite his military successes and administrative reforms, the Akkadian Empire is fragmenting. Vassal states are rebelling, and the central government's ability to maintain control is declining. The empire that Naram-Sin inherited and expanded is beginning to unravel, though the full collapse will occur within a generation after his death.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative texts from Akkad",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and destruction layers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but the precise chronology within his reign is uncertain. The collapse of the Akkadian Empire is well-documented, but the timing of individual events is difficult to establish.",
+      "cross_references": [
+        "Related to -2809-001, -2808-001, -2807-001 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2805-002",
+      "title": "First Intermediate Period Begins in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Intermediate Period officially begins with the end of the 6th Dynasty. Egypt fragments into competing regional powers, with the 7th and 8th Dynasties ruling from Memphis while other regions are controlled by independent nomarchs. This period marks a dramatic shift from the centralized authority of the Old Kingdom to a decentralized, fragmented political system. The transition is marked by a decline in monumental construction, changes in burial practices, and evidence of social upheaval.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and monumental construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The transition from the Old Kingdom to the First Intermediate Period is well-attested in Egyptian sources and archaeological evidence. However, the precise dating of this transition is uncertain, with scholars debating whether it occurred c. 2180 BCE or c. 2150 BCE.",
+      "cross_references": [
+        "Related to -2808-002, -2806-002 (fragmentation of Old Kingdom)"
+      ]
+    },
+    {
+      "id": "-2805-003",
+      "title": "Indus Valley Civilization Continues Stable Development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues its mature phase, with no apparent disruption or decline at this time. Urban centers remain fully developed, and trade networks continue to function. This contrasts sharply with the political upheaval occurring in Mesopotamia and Egypt, suggesting that the Indus Valley was insulated from the broader regional crises of this period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and artifacts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's chronology is well-established through radiocarbon dating and stratigraphic analysis. The mature phase continued until c. 1900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent to which Naram-Sin's reign was successful is debated. Some scholars argue that the Naram-Sin Stele and other inscriptions exaggerate his military successes and that the Akkadian Empire was already in decline during his reign. The dating of the Akkadian collapse is also uncertain; some scholars place it c. 2200 BCE, while others argue for dates as late as c. 2150 BCE. The causes of the Akkadian collapse remain debated, with scholars emphasizing climate change, military defeat, internal rebellion, or some combination of these factors. The dating of the First Intermediate Period is also uncertain, with scholars debating whether it began c. 2180 BCE or c. 2150 BCE.",
+  "historiographic_note": "The historical record for this year is sparse and heavily dependent on Akkadian royal inscriptions and Egyptian administrative texts. Archaeological evidence of settlement patterns, destruction layers, and resource use provides important context, but interpretation remains contested. The Indus Valley Civilization's stability during this period is notable and suggests that the crises affecting Mesopotamia and Egypt did not have global impact. The broader world remains largely invisible in surviving sources. This period represents one of the earliest examples of systemic state collapse, and its causes and mechanisms remain subjects of scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-2805-001",
+      "to": "-2800-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's reign ended with the Akkadian Empire on the verge of collapse, which occurred within a generation."
+    },
+    {
+      "from": "-2805-002",
+      "to": "-2750-EGYPTIAN_MIDDLE_KINGDOM",
+      "relation": "led_to",
+      "note": "The First Intermediate Period lasted several centuries before Egypt was reunified during the Middle Kingdom."
+    },
+    {
+      "from": "-2805-003",
+      "to": "-2750-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilization remained stable during this period but would gradually decline over the following centuries."
+    }
+  ]
+}

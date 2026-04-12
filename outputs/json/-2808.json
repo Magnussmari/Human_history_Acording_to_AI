@@ -1,0 +1,85 @@
+{
+  "year": -2808,
+  "year_label": "2808 BCE",
+  "era_context": "Continuation of Early Bronze Age III. Naram-Sin's Akkadian Empire remains at its territorial peak. Egypt's Old Kingdom is fragmenting into the First Intermediate Period. The Indus Valley Civilization continues its mature phase. This is a period of imperial consolidation in Mesopotamia, but underlying ecological and political stresses are building.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2808-001",
+      "title": "Akkadian Administrative Consolidation Under Naram-Sin",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin continues administrative reforms to consolidate Akkadian control over conquered territories. He deifies himself and establishes a new model of divine kingship, as evidenced by inscriptions and the famous Naram-Sin Stele. These reforms represent an attempt to legitimize and stabilize Akkadian rule over a vast, ethnically diverse empire. The deification of the king was a novel claim in Mesopotamian tradition and reflects the unprecedented scale of Akkadian power.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele (limestone stele from Sippar)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions and administrative texts from Akkad",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's deification and administrative reforms are well-attested in inscriptions, but the precise chronology within his reign is uncertain. This event is assigned to -2808 by convention.",
+      "cross_references": [
+        "Related to -2809-001 (military campaigns)"
+      ]
+    },
+    {
+      "id": "-2808-002",
+      "title": "Egyptian Old Kingdom Fragmentation Accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 6th Dynasty of Egypt is in advanced decline. Central authority is weakening as regional governors (nomarchs) accumulate power and resources. The pyramid-building projects that characterized earlier Old Kingdom dynasties have ceased or greatly diminished. This period marks the transition toward the First Intermediate Period, when Egypt will fragment into competing regional powers.",
+      "key_figures": [
+        "Pepi II (possibly reigning during this period, though his dates are disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the late Old Kingdom is notoriously uncertain. Pepi II's reign is variously dated from c. 2278\u20132184 BCE to c. 2278\u20132184 BCE, with some scholars proposing much shorter reigns. The process of fragmentation is well-attested, but precise dating of individual years is unreliable.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Naram-Sin Stele, while iconic, is a propagandistic monument and may not accurately represent the extent of Akkadian control or the success of Naram-Sin's campaigns. Some scholars argue that the stele was created to legitimize Naram-Sin's rule in the face of growing instability, rather than to commemorate genuine military victories. The dating of Pepi II's reign is highly disputed; some Egyptologists argue for a much shorter reign (c. 64 years) while others propose an exceptionally long reign (c. 94 years), which would dramatically shift the chronology of the late Old Kingdom.",
+  "historiographic_note": "The historical record for this year is dominated by Akkadian royal inscriptions and Egyptian administrative texts, both of which are biased toward elite perspectives. The Akkadian sources are explicitly propagandistic. Egyptian sources from this period are fragmentary and often come from provincial tombs rather than central records. Archaeological evidence of settlement patterns and resource use provides some counterbalance, but interpretation remains contested. The broader world remains largely invisible in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-2808-001",
+      "to": "-2800-AKKADIAN_COLLAPSE",
+      "relation": "part_of",
+      "note": "Naram-Sin's administrative consolidation was an attempt to stabilize an empire that was already under stress."
+    },
+    {
+      "from": "-2808-002",
+      "to": "-2800-EGYPTIAN_FIRST_INTERMEDIATE",
+      "relation": "led_to",
+      "note": "The fragmentation of the Old Kingdom accelerated during this period and culminated in the First Intermediate Period."
+    }
+  ]
+}

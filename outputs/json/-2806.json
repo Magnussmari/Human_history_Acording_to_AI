@@ -1,0 +1,87 @@
+{
+  "year": -2806,
+  "year_label": "2806 BCE",
+  "era_context": "Early Bronze Age III, mid-reign of Naram-Sin. The Akkadian Empire continues to dominate Mesopotamia, but underlying stresses are becoming more apparent. Egypt's Old Kingdom is in its final decades. The Indus Valley Civilization remains in its mature phase. This period represents the last years of Akkadian imperial stability before systemic collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2806-001",
+      "title": "Akkadian Empire Faces Internal and External Pressures",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Despite Naram-Sin's military successes and administrative reforms, the Akkadian Empire faces mounting pressures. Vassal states are becoming restless, and resource demands for maintaining the empire are straining the economy. Archaeological evidence suggests that agricultural production may have been declining due to environmental stress (possibly drought). These pressures would culminate in the empire's collapse within a generation, but at this point, Akkadian power still appears dominant.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative texts from Akkad",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and resource use",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The pressures facing the Akkadian Empire are inferred from archaeological evidence and the historical record of the empire's collapse. The precise timing of these pressures is uncertain.",
+      "cross_references": [
+        "Related to -2800-AKKADIAN_COLLAPSE"
+      ]
+    },
+    {
+      "id": "-2806-002",
+      "title": "Egyptian Old Kingdom Reaches Its End",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 6th Dynasty of Egypt is in its final years. Central authority has largely collapsed, and regional governors have become effectively independent. The transition to the First Intermediate Period is imminent. This marks the end of the Old Kingdom, one of the most stable and culturally productive periods in Egyptian history.",
+      "key_figures": [
+        "Pepi II (possibly reigning during this period, though his dates are disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced monumental construction and settlement patterns",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the late Old Kingdom is notoriously uncertain. The transition to the First Intermediate Period is well-attested, but the precise dating of individual years is unreliable.",
+      "cross_references": [
+        "Related to -2808-002 (fragmentation of Old Kingdom)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent to which environmental stress (drought) contributed to the Akkadian Empire's collapse is debated. Some scholars argue that climate change was a primary driver, while others emphasize political and military factors. The dating of the Akkadian collapse is also uncertain; some scholars place it c. 2200 BCE, while others argue for dates as late as c. 2150 BCE. The chronology of Pepi II's reign remains highly disputed, with some scholars arguing for a much shorter reign than traditionally assumed.",
+  "historiographic_note": "The historical record for this year is sparse and heavily dependent on Akkadian royal inscriptions and Egyptian administrative texts. Archaeological evidence of settlement patterns, resource use, and environmental conditions provides important context, but interpretation remains contested. The broader world remains largely invisible in surviving sources. The collapse of the Akkadian Empire is one of the earliest examples of systemic state collapse, and its causes remain debated among scholars.",
+  "graph_edges": [
+    {
+      "from": "-2806-001",
+      "to": "-2800-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "The mounting pressures on the Akkadian Empire during this period directly contributed to its collapse within a few years."
+    },
+    {
+      "from": "-2806-002",
+      "to": "-2800-EGYPTIAN_FIRST_INTERMEDIATE",
+      "relation": "led_to",
+      "note": "The collapse of the Old Kingdom culminated in the First Intermediate Period."
+    }
+  ]
+}

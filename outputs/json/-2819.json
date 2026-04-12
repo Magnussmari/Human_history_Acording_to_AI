@@ -1,0 +1,80 @@
+{
+  "year": -2819,
+  "year_label": "2819 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its later phases, with the Fifth Dynasty (c. 2494\u20132345 BCE) ruling. In Mesopotamia, the Early Dynastic Period III (c. 2600\u20132334 BCE) sees competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase (c. 2500\u20131900 BCE). Writing systems are established in Egypt, Mesopotamia, and the Indus Valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley region",
+    "The Americas (no written records; archaeological evidence is fragmentary)"
+  ],
+  "events": [
+    {
+      "id": "-2819-001",
+      "title": "Reign of Pharaoh Neferirkare Kakai (Fifth Dynasty Egypt)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Neferirkare Kakai rules as the third pharaoh of Egypt's Fifth Dynasty. His reign is documented through temple reliefs, administrative papyri, and inscriptions. He commissioned the construction of a mortuary temple at Abusir and continued the tradition of sun temple building. His reign represents the height of Fifth Dynasty administrative sophistication, though the central authority of the pharaoh was gradually declining relative to the priesthood of Ra.",
+      "key_figures": [
+        "Neferirkare Kakai (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Abusir temple reliefs and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Fifth Dynasty chronology is debated; this year is assigned within a probable range of \u00b110\u201315 years based on king list synchronisms and radiocarbon dating of associated materials.",
+      "cross_references": []
+    },
+    {
+      "id": "-2819-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers such as Harappa and Mohenjo-daro functioning as planned cities with standardized weights, measures, and seals. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilization is characterized by sophisticated urban planning, undeciphered script on seals, and evidence of organized religious and administrative systems. No monumental temples or palaces have been identified, suggesting a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically, though absolute dating relies on radiocarbon and stratigraphic correlation. This year falls within the widely accepted mature phase (c. 2500\u20131900 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Fifth Dynasty and the Indus Valley Civilization remains subject to debate. Some scholars argue for a higher chronology (placing these events 50\u2013100 years earlier), while others support a lower chronology. The exact dating of Neferirkare Kakai's reign varies by source by up to 20 years. Additionally, the interpretation of Indus Valley social organization as 'egalitarian' or 'hierarchical' is contested; some scholars argue for a merchant republic model, others for a theocratic state.",
+  "historiographic_note": "Documentation for this period is heavily skewed toward literate civilizations (Egypt, Mesopotamia, Indus Valley). The historical record is dominated by Egyptian temple inscriptions and administrative records, which emphasize pharaonic ideology and religious activity. Mesopotamian sources for this specific year are limited. The Indus Valley Civilization's undeciphered script means that political and social history must be inferred from archaeology alone. Sub-Saharan Africa, Northern Europe, East Asia, and the Americas are essentially absent from the written record, though archaeological evidence suggests complex societies were developing in some regions.",
+  "graph_edges": [
+    {
+      "from": "-2819-001",
+      "to": "-2818-001",
+      "relation": "led_to",
+      "note": "Continuation of Fifth Dynasty rule in Egypt"
+    },
+    {
+      "from": "-2819-002",
+      "to": "-2800-001",
+      "relation": "part_of",
+      "note": "Mature phase of Indus Valley Civilization continues until c. 1900 BCE"
+    }
+  ]
+}
