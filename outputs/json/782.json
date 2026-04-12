@@ -1,0 +1,134 @@
+{
+  "year": 782,
+  "year_label": "782 CE",
+  "era_context": "The Abbasid Caliphate is in the final years before Harun al-Rashid's reign. Charlemagne continues his expansion of Frankish power and conquest of Saxony. The Tang Dynasty under Emperor Dezong faces ongoing internal instability. This is a period of military consolidation and political transition across major Eurasian civilizations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "782-001",
+      "title": "Massacre of S\u00fcntel (Massacre of the Saxons)",
+      "region": "Frankish Empire (Saxony, modern Germany)",
+      "coordinates_approx": "52.2, 9.5",
+      "category": "military",
+      "description": "Charlemagne orders the execution of approximately 4,500 Saxon prisoners at S\u00fcntel (also called the Massacre of the Saxons). This brutal act follows a Saxon rebellion and is intended to crush Saxon resistance through terror. The massacre is one of the most infamous episodes of the Saxon Wars and marks an escalation in Charlemagne's use of violence to enforce Frankish control and Christianization. The event is controversial even in contemporary sources and represents a turning point in the conflict.",
+      "key_figures": [
+        "Charlemagne (King of the Franks)",
+        "Widukind (Saxon leader, escaped the massacre)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Frankish Annals (Annales Regni Francorum)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Einhard, Life of Charlemagne",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Massacre of S\u00fcntel is documented in the Royal Frankish Annals, a near-contemporary source. The date 782 is standard in historiography. The number of victims (4,500) is reported in sources but may be exaggerated.",
+      "cross_references": []
+    },
+    {
+      "id": "782-002",
+      "title": "Charlemagne establishes the Capitulare Saxonicum",
+      "region": "Frankish Empire (Saxony)",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "legal",
+      "description": "Following the Massacre of S\u00fcntel, Charlemagne issues the Capitulare Saxonicum (Saxon Capitulary), a legal code designed to impose Frankish and Christian law on the conquered Saxon territories. The code establishes harsh penalties for violations of Christian law and Frankish authority, including death for pagan practices. The capitulary represents Charlemagne's strategy of combining military conquest with legal and religious reform.",
+      "key_figures": [
+        "Charlemagne (King of the Franks)"
+      ],
+      "sources": [
+        {
+          "name": "Capitulare Saxonicum (primary legal text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Royal Frankish Annals",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Capitulare Saxonicum is preserved as a primary legal text. Its date is traditionally placed around 782, though some scholars suggest it may have been issued in stages over several years.",
+      "cross_references": [
+        "782-MASSACRE_SUNTEL"
+      ]
+    },
+    {
+      "id": "782-003",
+      "title": "Byzantine-Arab border conflicts",
+      "region": "Byzantine Empire / Islamic Caliphate (Anatolia/Syria border)",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "military",
+      "description": "Ongoing military conflicts between Byzantine and Arab forces continue along the Anatolia-Syria border. These raids and counter-raids are characteristic of the 8th-century frontier, with neither side achieving decisive advantage. The conflicts disrupt trade and cause casualties among border populations.",
+      "key_figures": [
+        "Empress Irene (Byzantine regent)",
+        "Constantine VI (young Byzantine emperor)",
+        "Al-Mahdi (Abbasid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Byzantine-Arab conflicts are well-documented as a general phenomenon, but specific engagements in 782 are less precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "782-004",
+      "title": "Tang Dynasty continues Central Asian campaigns",
+      "region": "Tang Dynasty / Central Asia",
+      "coordinates_approx": "40.0, 85.0",
+      "category": "military",
+      "description": "The Tang Dynasty continues military operations in Central Asia under Emperor Dezong. Tang forces engage with Tibetan and Arab forces for control of the Silk Road and regional dominance. These campaigns are increasingly costly and contribute to the dynasty's financial strain.",
+      "key_figures": [
+        "Emperor Dezong of Tang (r. 779\u2013805)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tang military activities in Central Asia are documented in Chinese historical records, though specific campaigns in 782 are less precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Massacre of S\u00fcntel is documented in the Royal Frankish Annals, but the exact number of victims (4,500) is disputed by modern scholars. Some sources suggest the number may be exaggerated for propaganda purposes. Additionally, the precise date of the Capitulare Saxonicum is debated; some scholars argue it was issued in stages rather than as a single document in 782.",
+  "historiographic_note": "Documentation for 782 CE is moderate but reflects the biases of court-sponsored historiography. Frankish sources (Royal Frankish Annals) provide near-contemporary documentation of the Massacre of S\u00fcntel, though the account may be influenced by Charlemagne's court perspective. Islamic and Byzantine sources are less detailed for this specific year. Chinese sources are abundant but focus on court politics. The historical record emphasizes elite political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "782-001",
+      "to": "782-002",
+      "relation": "led_to",
+      "note": "The Massacre of S\u00fcntel prompted the issuance of the Capitulare Saxonicum"
+    },
+    {
+      "from": "782-001",
+      "to": "804-SAXON_WARS_END",
+      "relation": "part_of",
+      "note": "The Massacre of S\u00fcntel is a major escalation in the Saxon Wars (772\u2013804)"
+    }
+  ]
+}

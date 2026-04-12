@@ -1,0 +1,127 @@
+{
+  "year": 788,
+  "year_label": "788 CE",
+  "era_context": "The late 8th century under Charlemagne's expanding Frankish Empire and the early Abbasid Caliphate. In the Byzantine Empire, Irene continues as regent for the young Constantine VI. The Tang Dynasty in China maintains its cultural zenith. Japan's Nara period is in its final years. This is a period of significant religious and political consolidation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (virtually no written sources)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern and Eastern Europe beyond Frankish sphere (minimal documentation)",
+    "Southeast Asia (limited sources; primarily known through Chinese records)"
+  ],
+  "events": [
+    {
+      "id": "788-001",
+      "title": "Charlemagne annexes Bavaria; Tassilo III deposed",
+      "region": "Bavaria (modern Germany and Austria)",
+      "coordinates_approx": "48.5, 12.0",
+      "category": "political",
+      "description": "Charlemagne moves against Tassilo III, Duke of Bavaria, who has maintained semi-independence from Frankish overlordship. Tassilo is deposed and forced into a monastery, and Bavaria is incorporated directly into the Frankish realm. This represents a major expansion of Charlemagne's territorial control and eliminates a rival power center in Central Europe. The annexation is justified by Frankish sources as a response to Tassilo's alleged disloyalty and his ties to the Lombard kingdom.",
+      "key_figures": [
+        "Charlemagne (King of the Franks, r. 768\u2013814)",
+        "Tassilo III (Duke of Bavaria, r. 748\u2013788)",
+        "Desiderius (Lombard King, r. 756\u2013774)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Regni Francorum (Royal Frankish Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Einhard, Vita Karoli Magni (Life of Charlemagne)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The deposition of Tassilo III and annexation of Bavaria are documented in contemporary Frankish annals. The event's chronology and basic facts are secure, though Frankish sources present a one-sided narrative.",
+      "cross_references": [
+        "Follows from 774-001 (Charlemagne's conquest of Lombard kingdom)",
+        "Precedes 800-001 (Charlemagne's coronation as Emperor)"
+      ]
+    },
+    {
+      "id": "788-002",
+      "title": "Harun al-Rashid campaigns against Byzantine Empire",
+      "region": "Byzantine-Abbasid frontier (Anatolia and Syria)",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "military",
+      "description": "Harun al-Rashid launches military campaigns against the Byzantine Empire, continuing the pattern of Byzantine-Arab Wars. These campaigns are part of Harun's broader military expansion and are documented in Islamic sources as successful raids and territorial gains. The campaigns reflect the military strength of the early Abbasid Caliphate under Harun's leadership.",
+      "key_figures": [
+        "Harun al-Rashid (Abbasid Caliph, r. 786\u2013809)",
+        "Constantine VI (Byzantine Emperor, r. 780\u2013797, under regency of Irene)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Harun al-Rashid's military campaigns against Byzantium are well-attested in Islamic historiography, but specific campaigns in 788 are not detailed in surviving sources. The event is inferred from the broader pattern of Abbasid-Byzantine conflict during this period.",
+      "cross_references": [
+        "Part of Byzantine-Arab Wars (633\u20131050s)",
+        "Contemporary with Charlemagne's Bavarian campaign"
+      ]
+    },
+    {
+      "id": "788-003",
+      "title": "Japanese Emperor Kanmu consolidates administrative reforms",
+      "region": "Japan (Yamato state)",
+      "coordinates_approx": "34.7, 135.8",
+      "category": "political",
+      "description": "Emperor Kanmu (r. 781\u2013806) continues administrative and military reforms aimed at reducing Buddhist monastic influence and centralizing imperial authority. These reforms include military reorganization, land redistribution, and efforts to establish a new capital away from Nara. The reforms are part of the broader transition from the Nara to the Heian period and reflect Kanmu's vision of a more centralized, militarized state.",
+      "key_figures": [
+        "Emperor Kanmu (r. 781\u2013806)",
+        "Fujiwara no Tanetsugu (court official, d. 785)"
+      ],
+      "sources": [
+        {
+          "name": "Nihon Koki (Chronicles of Japan, Continued)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Rikkokushi (Six National Histories of Japan)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Kanmu's administrative reforms are documented in Japanese court records and chronicles. The reforms' scope and timing are well-established in Japanese historiography.",
+      "cross_references": [
+        "Part of Nara-to-Heian transition (780s\u2013794)",
+        "Precedes 794-001 (establishment of Heian-ky\u014d)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Frankish narrative of Tassilo III's deposition emphasizes his disloyalty and alleged conspiracy with the Lombards, but modern scholarship suggests that Charlemagne's annexation of Bavaria was primarily motivated by territorial expansion and the elimination of a rival power center rather than by Tassilo's specific misdeeds. Tassilo's forced monasticism may have been harsher than Frankish sources acknowledge. Harun al-Rashid's campaigns against Byzantium in 788 are not specifically documented; sources may conflate events from different years or periods.",
+  "historiographic_note": "Documentation for 788 is strong for the Frankish Empire and Japan, where contemporary or near-contemporary sources survive. Byzantine and Abbasid sources are later compilations, introducing chronological uncertainty. Frankish sources present a court-centered narrative that may overstate Charlemagne's authority and understate resistance to his policies. Japanese sources reflect court perspectives and may not capture regional variations in the implementation of Kanmu's reforms. Non-European regions beyond the Islamic world and Japan remain essentially undocumented.",
+  "graph_edges": [
+    {
+      "from": "788-001",
+      "to": "774-001",
+      "relation": "caused_by",
+      "note": "Charlemagne's earlier conquest of the Lombard kingdom enabled the annexation of Bavaria"
+    },
+    {
+      "from": "788-001",
+      "to": "800-001",
+      "relation": "led_to",
+      "note": "Bavarian annexation strengthens Charlemagne's position, leading to his imperial coronation"
+    },
+    {
+      "from": "788-003",
+      "to": "794-001",
+      "relation": "led_to",
+      "note": "Kanmu's reforms culminate in the establishment of Heian-ky\u014d"
+    }
+  ]
+}
