@@ -1,0 +1,96 @@
+{
+  "year": -2193,
+  "year_label": "2193 BCE",
+  "era_context": "The Akkadian Empire is in its final years under Shar-kali-sharri. Egypt's Sixth Dynasty is in terminal decline. The Indus Valley Civilization remains stable and prosperous. This year marks the cusp of major political transitions across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2193-001",
+      "title": "Akkadian Empire: Shar-kali-sharri's reign ends; empire collapses",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Shar-kali-sharri (r. c. 2217\u20132193 BCE), the last effective Akkadian king, dies or is deposed. His reign marks the final attempt to maintain Akkadian hegemony in Mesopotamia. Upon his death, the empire rapidly disintegrates into regional city-states and falls under Gutian control. The Sumerian King List records a succession of short-lived Akkadian rulers after Shar-kali-sharri, followed by the Gutian dynasty. This event marks the definitive end of the Akkadian Empire and the beginning of the Gutian period (c. 2193\u20132113 BCE).",
+      "key_figures": [
+        "Shar-kali-sharri (last Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sumerian King List places Shar-kali-sharri's reign end at c. 2193 BCE, but this date is uncertain by \u00b15\u201310 years depending on the chronological system used. The event itself (end of Akkadian rule) is secure.",
+      "cross_references": [
+        "Culmination of -2190-001 (Akkadian collapse)",
+        "Leads to -2170-001 (Gutian period and Neo-Sumerian revival)"
+      ]
+    },
+    {
+      "id": "-2193-002",
+      "title": "Egypt: Sixth Dynasty ends; First Intermediate Period begins",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt formally ends, traditionally dated to c. 2184 BCE, though some scholars place the transition earlier. The pharaonic state fragments into competing regional powers. The First Intermediate Period (c. 2184\u20132055 BCE) begins, characterized by the rise of the Heracleopolitan (Ninth and Tenth) Dynasties in Lower Egypt and the Eleventh Dynasty in Upper Egypt. Central authority collapses; nomarchs rule as independent princes. This transition is marked in king lists and by the absence of major royal monuments.",
+      "key_figures": [
+        "Pepi II (last Sixth Dynasty pharaoh, if still reigning)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos King List)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of discontinuity in royal building and administration",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The transition from Sixth to Seventh Dynasty and the beginning of the First Intermediate Period is traditionally dated c. 2184 BCE, but this is uncertain by \u00b110\u201320 years. The event itself is secure.",
+      "cross_references": [
+        "Culmination of -2190-002 (Old Kingdom decline)",
+        "Leads to -2170-001 (First Intermediate Period)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Shar-kali-sharri's reign end (c. 2193 BCE) is based on the Sumerian King List, which is known to contain inflated reign lengths and may not be reliable for precise chronology. Some scholars argue the Akkadian collapse occurred earlier (c. 2200 BCE) or later (c. 2180 BCE). Similarly, the Sixth Dynasty's end is traditionally dated c. 2184 BCE, but some scholars place it as early as c. 2200 BCE or as late as c. 2170 BCE. The synchronization of these two collapses may be coincidental rather than causally linked.",
+  "historiographic_note": "The year -2193 is not directly documented in surviving sources, but it is assigned significance by modern chronological systems based on the Sumerian King List and Egyptian king lists. These sources are compilations written centuries or millennia after the events, and their precision is questionable. The 'collapse' narrative is constructed from fragmentary evidence: administrative records showing declining activity, inscriptions showing changing power structures, and archaeological stratigraphy showing discontinuity. No contemporary source describes the events of -2193 BCE as they unfolded.",
+  "graph_edges": [
+    {
+      "from": "-2193-001",
+      "to": "-2170-001",
+      "relation": "led_to",
+      "note": "Akkadian collapse led to Gutian period and Neo-Sumerian revival"
+    },
+    {
+      "from": "-2193-002",
+      "to": "-2170-001",
+      "relation": "led_to",
+      "note": "Sixth Dynasty collapse led to First Intermediate Period"
+    },
+    {
+      "from": "-2193-001",
+      "to": "-2193-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Egyptian collapses occurred in the same era, suggesting possible systemic or climatic factors"
+    }
+  ]
+}

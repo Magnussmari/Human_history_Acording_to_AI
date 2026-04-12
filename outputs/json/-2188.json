@@ -1,0 +1,114 @@
+{
+  "year": -2188,
+  "year_label": "2188 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final decades; the Sixth Dynasty is fragmenting. The Akkadian Empire in Mesopotamia is under severe stress from climate, rebellion, and external pressure. The 4.2 ka climate event is at or near its peak. The Indus Valley Civilization is at its urban peak. Traditional Chinese chronology places this within the Xia Dynasty.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Steppe regions",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2188-001",
+      "title": "Egyptian Sixth Dynasty: Central authority weakens; provincial governors consolidate power",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty continues its decline. Provincial governors (nomarchs) increasingly operate as independent rulers, maintaining their own armies, treasuries, and administrative structures. Tomb inscriptions from this period (e.g., from Aswan, Abydos, and other provincial centres) show officials with titles and authority that rival those of the central government. The royal court's power is increasingly confined to the Memphis region. Archaeological evidence shows that provincial elites are investing in local monuments and infrastructure rather than contributing to royal projects. The pyramid-building programme has effectively ceased.",
+      "key_figures": [
+        "Pepi II (Sixth Dynasty pharaoh, traditional reign 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological remains from provincial sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Sixth Dynasty is well-attested in the archaeological record. The precise year is uncertain.",
+      "cross_references": [
+        "Part of Old Kingdom decline",
+        "Leads to First Intermediate Period"
+      ]
+    },
+    {
+      "id": "-2188-002",
+      "title": "Akkadian Empire: Severe climate stress and resource scarcity; military pressure from Gutians",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "environmental",
+      "description": "The 4.2 ka climate event is at or near its peak intensity. Paleoclimate records show severe aridification across the Near East. Cuneiform records document famine, reduced agricultural output, and resource scarcity in Mesopotamia. The Akkadian Empire faces acute stress from multiple sources: climate-induced famine, military pressure from Gutian peoples in the Zagros Mountains, and internal rebellion from Akkadian generals and peripheral regions. Administrative records show disruption of trade networks and loss of control over outlying territories. The empire is fragmenting into regional power bases, though formal collapse will not occur for another 30 years.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimate records (ice cores, tree rings, lake sediments)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative and economic records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The 4.2 ka climate event is well-documented in paleoclimate records. The impact on Mesopotamia is documented in cuneiform records.",
+      "cross_references": [
+        "Contemporary with Egyptian Old Kingdom decline",
+        "Part of broader 4.2 ka climate crisis"
+      ]
+    },
+    {
+      "id": "-2188-003",
+      "title": "Indus Valley Civilization: Mature urban phase; extensive trade networks",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues its mature phase without apparent disruption. Major cities such as Harappa, Mohenjo-daro, Dholavira, and Kalibangan show evidence of sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, Central Asia, and possibly the Caucasus. Archaeological stratigraphy shows continuous occupation and cultural continuity. The civilization appears resilient to the 4.2 ka climate event, possibly due to regional climate differences or greater adaptive capacity.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established through archaeology.",
+      "cross_references": [
+        "Contemporary with crises in Egypt and Mesopotamia",
+        "Shows regional variation in climate impact"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 4.2 ka climate event's global uniformity is questioned by the Indus Valley Civilization's apparent resilience. Additionally, some scholars argue that the Akkadian collapse was primarily driven by internal political factors rather than climate alone.",
+  "historiographic_note": "This year falls within a period of sparse documentation. Egypt and Mesopotamia have written records, but these are often compiled much later. The Indus Valley has abundant archaeology but no deciphered writing. The 4.2 ka climate event is well-documented in paleoclimate records.",
+  "graph_edges": [
+    {
+      "from": "-2188-002",
+      "to": "-2187-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian stress continues"
+    }
+  ]
+}

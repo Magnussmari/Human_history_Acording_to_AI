@@ -1,0 +1,58 @@
+{
+  "year": -2192,
+  "year_label": "2192 BCE",
+  "era_context": "The Akkadian Empire is in advanced decline. Egypt's Sixth Dynasty is fragmenting. The Indus Valley Civilization is in its mature phase. This year falls within a broader period of political reorganization and collapse across the Old World, possibly linked to climate stress (aridification in the Levant and Mesopotamia).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2192-001",
+      "title": "Possible climate stress: Aridification in the Levant and Mesopotamia",
+      "region": "Mesopotamia, Levant, Egypt",
+      "coordinates_approx": "33.0, 40.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, lake sediments, tree rings) suggests a period of increased aridity in the eastern Mediterranean and Mesopotamia during the late 22nd century BCE. This climate shift may have contributed to agricultural stress, famine, and population displacement, exacerbating the political collapse of the Akkadian Empire and the fragmentation of Egypt's Old Kingdom. Some scholars link this to the 4.2 kiloyear event, a global climate anomaly. However, the precise dating and causal relationship remain debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic data (ice cores, lake sediments, tree rings)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on climate-driven collapse",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Paleoclimatic evidence suggests aridification in this period, but precise dating is uncertain (\u00b150\u2013100 years). The causal link to political collapse is plausible but not definitively proven.",
+      "cross_references": [
+        "Contemporary with -2190-001 and -2190-002 (Akkadian and Egyptian collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 4.2 kiloyear event and its role in Old World collapse is increasingly questioned. Some scholars argue that climate stress was a contributing factor rather than a primary cause, and that political and military factors (Gutian invasions, elite conflict) were more decisive. Additionally, the precise dating of the climate anomaly remains uncertain, and its global extent is debated.",
+  "historiographic_note": "The year -2192 is not documented in any surviving written source. The only evidence for this year is indirect: paleoclimatic data and the broader historical context. This illustrates the severe limitations of historical knowledge for the early 2nd millennium BCE. Year-by-year precision is impossible; we can only speak of decades or centuries.",
+  "graph_edges": [
+    {
+      "from": "-2192-001",
+      "to": "-2190-001",
+      "relation": "led_to",
+      "note": "Climate stress may have contributed to Akkadian collapse"
+    },
+    {
+      "from": "-2192-001",
+      "to": "-2190-002",
+      "relation": "led_to",
+      "note": "Climate stress may have contributed to Egyptian Old Kingdom fragmentation"
+    }
+  ]
+}

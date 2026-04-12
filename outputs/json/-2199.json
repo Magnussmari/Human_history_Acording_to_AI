@@ -1,0 +1,98 @@
+{
+  "year": -2199,
+  "year_label": "2199 BCE",
+  "era_context": "The late Third Dynasty of Egypt under Huni; the Old Kingdom in its final phase before the Fourth Dynasty's monumental pyramid-building era. Contemporaneously, the Akkad Empire in Mesopotamia was in decline following Naram-Sin's reign, with city-states reasserting independence. The Indus Valley Civilization was in its mature phase (Harappan period). Early Bronze Age cultures dominated the Mediterranean and Aegean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "East Asia beyond the Shang dynasty region (limited written records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2199-001",
+      "title": "Reign of Huni, Third Dynasty Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Huni is traditionally dated as the final pharaoh of Egypt's Third Dynasty, though his reign length and exact chronology remain debated. He is credited with completing or initiating the Meidum Pyramid, though attribution is contested between Huni and his successor Sneferu. His reign marks the transition toward the Fourth Dynasty's architectural innovations. The exact dates of his rule are uncertain, with estimates ranging across several decades.",
+      "key_figures": [
+        "Huni (Pharaoh, Third Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Meidum Pyramid archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Huni's reign is attested in later king lists, but contemporary inscriptions are minimal. Pyramid attribution and reign length are debated; dating to circa 2599\u20132575 BCE is conventional but uncertain by \u00b110\u201315 years.",
+      "cross_references": [
+        "Follows from -2210-001 (Khaba, Third Dynasty)",
+        "Precedes -2195-001 (Sneferu, Fourth Dynasty)"
+      ]
+    },
+    {
+      "id": "-2199-002",
+      "title": "Akkad Empire fragmentation and city-state resurgence",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Following the collapse of centralized Akkadian authority under Naram-Sin's successors (circa 2200 BCE), Mesopotamian city-states reasserted independence. Lagash, Uruk, and other southern cities re-established local rule. This period saw the rise of the Ur III dynasty in the south and the emergence of Amorite and other tribal groups in the north and west. The transition from Akkad to the subsequent Ur III period was gradual and regionally uneven.",
+      "key_figures": [
+        "Shu-durul (last Akkad king, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts from Lagash and Uruk",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy at Ur, Uruk, and Lagash",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of Akkad is well-attested archaeologically and in later chronicles. The exact chronology of city-state resurgence varies by region; dating is approximate within \u00b110 years.",
+      "cross_references": [
+        "Part of broader Akkad collapse (circa 2200 BCE)",
+        "Precedes Ur III consolidation (-2112-001)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact reign dates of Huni and the precise chronology of the Akkad collapse are heavily debated. Some scholars argue the Akkad collapse occurred earlier (circa 2154 BCE in the conventional chronology) or later, depending on which chronological system is adopted (short, middle, or long chronology). The attribution of the Meidum Pyramid to Huni is contested; some evidence suggests Sneferu may have completed or substantially modified it. No disconfirming evidence undermines the events listed, but their dating and significance are subject to ongoing scholarly revision.",
+  "historiographic_note": "The historical record for 2199 BCE is heavily dependent on later king lists (Turin, Abydos) compiled during the New Kingdom, centuries after the events they describe. Archaeological evidence from pyramid complexes and cuneiform tablets provides material grounding, but gaps remain. Egyptian chronology for the Old Kingdom is debated across three competing systems (short, middle, long), creating \u00b1100-year uncertainty. Mesopotamian sources are more abundant but fragmented by region. The record is biased toward monumental and administrative activity; the lives of non-elite populations are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2199-001",
+      "to": "-2195-001",
+      "relation": "led_to",
+      "note": "Huni's reign transitions to Sneferu's Fourth Dynasty, marking the beginning of the pyramid age proper"
+    },
+    {
+      "from": "-2199-002",
+      "to": "-2112-001",
+      "relation": "led_to",
+      "note": "City-state fragmentation eventually consolidated under Ur III dynasty"
+    }
+  ]
+}

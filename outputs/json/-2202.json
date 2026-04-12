@@ -1,0 +1,111 @@
+{
+  "year": -2202,
+  "year_label": "2202 BCE",
+  "era_context": "Akkadian Empire under Naram-Sin; Old Kingdom Egypt (6th Dynasty) in decline; Harappan civilization in mature phase; Xia Dynasty traditionally dated to this era. The 4.2 kya climate event is ongoing, with paleoclimatic evidence indicating widespread aridification across Eurasia and Africa.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2202-001",
+      "title": "Akkadian Empire under Naram-Sin; military consolidation and ideological innovation",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "Naram-Sin's reign continues. The Akkadian Empire maintains control over Mesopotamia and extends influence into surrounding regions. Naram-Sin's deification represents a significant ideological shift in Mesopotamian kingship, elevating the king to divine status. This innovation is attested in inscriptions and seals. However, the empire faces increasing pressure from external groups and internal strains.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and seals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian-period sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but precise year-by-year chronology is uncertain. The year -2202 is assigned by convention.",
+      "cross_references": [
+        "Part of Akkadian imperial period"
+      ]
+    },
+    {
+      "id": "-2202-002",
+      "title": "4.2 kya climate event ongoing; paleoclimatic evidence of aridification",
+      "region": "Global (Eurasia, Africa)",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "The 4.2 kya climate event (c. 2200\u20132100 BCE) is ongoing. Paleoclimatic evidence from ice cores, tree rings, lake sediments, and Nile flood records indicates widespread aridification across Eurasia and Africa. Precipitation decreases, temperatures fluctuate, and monsoon patterns shift. This climate deterioration is implicated in the collapse of multiple civilizations (Akkadian, Egyptian Old Kingdom) and the stress on others (Indus Valley). However, the precise impact on any specific year is difficult to quantify.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence (ice cores from Greenland and Antarctica, tree rings, lake sediments)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Nile flood level records (inferred from sediment cores and historical records)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The 4.2 kya climate event is well-established in paleoclimatic records. However, the precise dating (c. 2200\u20132100 BCE) has an uncertainty of \u00b150 years, and the impact on specific societies in specific years is inferred rather than directly documented.",
+      "cross_references": [
+        "Implicated in Akkadian collapse and Egyptian First Intermediate Period"
+      ]
+    },
+    {
+      "id": "-2202-003",
+      "title": "Harappan civilization; possible early signs of environmental stress",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "environmental",
+      "description": "The Indus Valley Civilization remains in its mature phase, but some scholars suggest that environmental stress linked to the 4.2 kya climate event may be beginning to affect the region. Changes in river courses, reduced precipitation, and shifts in monsoon patterns may have begun to impact agricultural productivity. However, major disruptions are not evident until later (c. 1900 BCE), and the civilization continues to flourish at this time.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus Valley sites; paleoclimatic data",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Paleoclimatic evidence (monsoon records, river sediments)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing and impact of climate change on the Indus Valley Civilization are debated. Some scholars emphasize climate stress; others emphasize internal factors or later dating of the civilization's decline. The year -2202 is assigned as an approximate marker within the broader 4.2 kya event.",
+      "cross_references": [
+        "Related to broader 4.2 kya climate event"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 4.2 kya climate event's precise impact on the Indus Valley Civilization at this time is debated. Some scholars argue that the civilization's decline occurred later (c. 1900 BCE) and was driven by internal factors rather than climate. The causal link between climate and the Akkadian collapse is inferred from paleoclimatic and archaeological evidence but is not directly documented in contemporary texts.",
+  "historiographic_note": "The year -2202 is not distinctly documented in historical sources. Most events of this period are dated to broader ranges. The surviving sources are heavily weighted toward Mesopotamia and Egypt. Paleoclimatic evidence provides a global perspective on climate change, but its impact on specific societies in specific years is difficult to quantify. The undeciphered Indus script limits understanding of the civilization's response to environmental stress.",
+  "graph_edges": [
+    {
+      "from": "-2202-002",
+      "to": "-2200-002",
+      "relation": "led_to",
+      "note": "4.2 kya climate event contributes to Akkadian collapse"
+    },
+    {
+      "from": "-2202-002",
+      "to": "-2200-003",
+      "relation": "led_to",
+      "note": "4.2 kya climate event contributes to Egyptian First Intermediate Period"
+    }
+  ]
+}
