@@ -1,0 +1,113 @@
+{
+  "year": 129,
+  "year_label": "129 CE",
+  "era_context": "Hadrian's reign continues; the emperor is in the eastern provinces of the Roman Empire, conducting an extended tour of inspection and cultural patronage. In China, the Han Dynasty remains under child emperors and regents. The Kushan Empire is at its height in Central Asia and northern India. In Judaea, the aftermath of the Bar Kokhba Revolt (132\u2013135 CE) has not yet occurred, but tensions remain high.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "129-001",
+      "title": "Hadrian's eastern tour: Syria and the Levant",
+      "region": "Roman Syria, Levant",
+      "coordinates_approx": "34.7\u00b0N, 36.2\u00b0E",
+      "category": "political",
+      "description": "Emperor Hadrian continues his extensive tour of the eastern provinces, visiting Syria, Judaea, and Arabia. He inspects military installations, meets with local elites, and participates in religious ceremonies. In Syria, he visits Antioch and other major cities, reinforcing Roman authority and gathering intelligence on the stability of the eastern frontier. This tour is part of Hadrian's broader strategy of personal imperial presence to consolidate control and assess provincial conditions.",
+      "key_figures": [
+        "Hadrian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 69",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta, Life of Hadrian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hadrian's eastern tour is well-documented, but the precise itinerary and dating of specific visits are sometimes uncertain. The tour is generally dated to 129\u2013132 CE.",
+      "cross_references": []
+    },
+    {
+      "id": "129-002",
+      "title": "Kushan Empire under Kanishka I: Buddhist patronage and coinage",
+      "region": "Kushan Empire, Central Asia, northern India",
+      "coordinates_approx": "35.0\u00b0N, 70.0\u00b0E",
+      "category": "cultural",
+      "description": "The Kushan Empire, under Kanishka I (r. c. 127\u2013150 CE, though dating is disputed), continues to flourish as a major power controlling trade routes between China, India, and the Mediterranean. Kanishka is a major patron of Buddhism, commissioning monasteries and supporting the spread of Mahayana Buddhism. His coins, minted in multiple cities, bear inscriptions in Greek, Prakrit, and Kharoshthi, reflecting the empire's multicultural character. The empire's wealth derives from control of the Silk Road trade.",
+      "key_figures": [
+        "Kanishka I (Kushan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (Kushan coins)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Buddhist texts and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Indian and Chinese sources (Ramayana, Chinese chronicles)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Kanishka's reign is well-attested through numismatic and epigraphic evidence, but his exact dates are debated by scholars (some place him c. 127\u2013150 CE, others c. 144\u2013172 CE). The cultural and religious significance is confirmed.",
+      "cross_references": []
+    },
+    {
+      "id": "129-003",
+      "title": "Han Dynasty administrative continuity under Emperor Shun",
+      "region": "Han China",
+      "coordinates_approx": "34.6\u00b0N, 112.4\u00b0E",
+      "category": "political",
+      "description": "Emperor Shun of Han (r. 125\u2013144 CE) continues to reign, though effective power remains with the imperial harem and eunuchs. The Han bureaucracy functions through the examination system and the imperial secretariat, maintaining administrative continuity despite factional struggles at court. Provincial governors report to the capital, and the tax system continues to fund the military and public works. However, corruption and eunuch influence are growing problems.",
+      "key_figures": [
+        "Emperor Shun of Han"
+      ],
+      "sources": [
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad administrative structure is well-documented, but specific events in 129 CE are not always precisely recorded.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Kanishka I's dating is one of the most disputed issues in Indian and Central Asian history. Some scholars place his reign in the 1st century CE, others in the 2nd century CE. The traditional dating used here (c. 127\u2013150 CE) is one of several competing chronologies. No disconfirming evidence undermines the other events listed.",
+  "historiographic_note": "Documentation for 129 CE is moderate. Roman sources are relatively abundant but often written decades or centuries after events. Chinese sources are detailed but compiled much later. Indian and Central Asian sources are sparse and often fragmentary. The perspective remains heavily weighted toward elite political and military history.",
+  "graph_edges": [
+    {
+      "from": "129-001",
+      "to": "130-001",
+      "relation": "led_to",
+      "note": "Hadrian's eastern tour continues into 130 CE, culminating in his visit to Egypt"
+    },
+    {
+      "from": "129-002",
+      "to": "concept: Silk Road trade",
+      "relation": "part_of",
+      "note": "Kushan prosperity depends on control of Central Asian trade routes"
+    }
+  ]
+}

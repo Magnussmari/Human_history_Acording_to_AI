@@ -1,0 +1,135 @@
+{
+  "year": 113,
+  "year_label": "113 CE",
+  "era_context": "Trajan's Parthian Campaign is in full swing, with Roman forces advancing deeper into Mesopotamia. The Kitos War continues to devastate Jewish communities across the eastern Mediterranean. The Eastern Han Dynasty in China remains stable. The Kushan Empire flourishes on the Silk Road. This is a year of major military conflict across multiple theaters of the known world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia (limited contemporary sources)",
+    "India (limited contemporary sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "113-001",
+      "title": "Trajan advances toward Ctesiphon",
+      "region": "Mesopotamia, Parthian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Trajan's forces continue their advance through Mesopotamia, capturing key cities and establishing Roman control over the region. The campaign moves toward Ctesiphon, the Parthian capital, which will be captured in 116 CE. Roman legions establish supply lines and fortifications across Mesopotamia. The campaign represents an unprecedented extension of Roman military power into the heart of the Parthian Empire.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general)",
+        "Osroes I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general progression of the campaign is well-documented, but specific events within 113 CE are not precisely dated in surviving sources. The year is assigned based on the overall timeline of the campaign (114\u2013116 CE).",
+      "cross_references": [
+        "Part of 114-001 (Parthian Campaign)",
+        "Leads to 116-001 (capture of Ctesiphon)"
+      ]
+    },
+    {
+      "id": "113-002",
+      "title": "Kitos War reaches peak intensity",
+      "region": "Cyrenaica, Egypt, Cyprus, Mesopotamia",
+      "coordinates_approx": "32.5, 24.0",
+      "category": "military",
+      "description": "The Jewish uprising continues with intense violence across multiple regions. In Cyrenaica, the revolt reaches its peak, with massive destruction of Greek and Roman settlements. Cassius Dio reports that 220,000 people were killed in Cyrenaica alone (though this figure is likely exaggerated). The uprising also affects Egypt, Cyprus, and Mesopotamia, where Jewish communities clash with Roman authorities and Greek settlers. The rebellion is characterized by religious fervor and social upheaval.",
+      "key_figures": [
+        "Lucuas (Jewish rebel leader in Cyrenaica)",
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general, sent to suppress the revolt)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Cyrenaica and Cyprus",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The intensity of the uprising in 113 CE is inferred from the overall timeline and archaeological evidence of destruction. Specific events within this year are not well-documented in surviving written sources.",
+      "cross_references": [
+        "Follows from 115-001 (outbreak of Kitos War)",
+        "Leads to 117-001 (suppression by Quietus)"
+      ]
+    },
+    {
+      "id": "113-003",
+      "title": "Eastern Han Dynasty maintains stability",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Eastern Han Dynasty continues under Emperor An, maintaining administrative stability and control over the Silk Road trade routes. The empire manages relationships with nomadic groups on the northern frontier and maintains internal order. This period represents the height of Eastern Han prosperity before the dynasty's decline in the late 2nd century CE.",
+      "key_figures": [
+        "Emperor An of Han (r. 106\u2013125 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji and subsequent dynastic histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Eastern Han chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han chronology is well-established through Chinese historical records. Emperor An's reign dates are secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The casualty figures reported by Cassius Dio for the Kitos War (220,000 killed in Cyrenaica) are widely regarded by modern scholars as exaggerated or unreliable. The actual scale of the uprising remains uncertain. Some scholars question whether the Kitos War should be classified as a single unified rebellion or as multiple separate uprisings that happened to occur simultaneously. The religious motivations of the rebels are debated\u2014some sources emphasize messianic expectations, while others focus on economic and political grievances.",
+  "historiographic_note": "The historical record for 113 CE is heavily dependent on Cassius Dio and other late sources. No contemporary accounts survive from either the Roman or Jewish perspective. Archaeological evidence from affected regions provides material confirmation of destruction but not precise dating to individual years. The narrative is shaped by Roman imperial historiography, which emphasizes the scale of the threat and the necessity of suppression. The Parthian Campaign receives more attention in surviving sources than the Kitos War, possibly reflecting the priorities of Roman historians.",
+  "graph_edges": [
+    {
+      "from": "113-001",
+      "to": "114-001",
+      "relation": "part_of",
+      "note": "Advance toward Ctesiphon is part of the Parthian Campaign"
+    },
+    {
+      "from": "113-001",
+      "to": "116-001",
+      "relation": "led_to",
+      "note": "Campaign advances lead to capture of Ctesiphon in 116 CE"
+    },
+    {
+      "from": "113-002",
+      "to": "115-001",
+      "relation": "caused_by",
+      "note": "Continuation of the Kitos War that began in 115 CE"
+    },
+    {
+      "from": "113-002",
+      "to": "117-001",
+      "relation": "led_to",
+      "note": "Peak intensity leads to suppression by Quietus in 117 CE"
+    }
+  ]
+}

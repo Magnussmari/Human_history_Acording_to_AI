@@ -1,0 +1,136 @@
+{
+  "year": 124,
+  "year_label": "124 CE",
+  "era_context": "Hadrian's reign continues with consolidation of the empire's borders and cultural policies. The Eastern Han Dynasty under Emperor Andi remains stable but increasingly influenced by eunuch factions. The Parthian Empire maintains control of the Silk Road. This period represents the height of Roman imperial reach and the beginning of long-distance Eurasian trade networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia and Oceania (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "124-001",
+      "title": "Hadrian's Wall construction progresses in Britain",
+      "region": "Roman Britain",
+      "coordinates_approx": "54.9, -2.5",
+      "category": "military",
+      "description": "Construction of Hadrian's Wall continues under the governorship of Aulus Platorius Nepos. The wall, stretching 80 Roman miles (73 miles/117 km) across northern Britain, is a major engineering undertaking involving legions and auxiliary troops. By 124 CE, significant portions of the wall's stone structure are completed or nearing completion, with forts and milecastles established at regular intervals.",
+      "key_figures": [
+        "Hadrian (Roman Emperor)",
+        "Aulus Platorius Nepos (Governor of Britannia)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Hadrian's Wall",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions on wall stones and forts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence firmly establishes ongoing construction. Specific progress in 124 CE is inferred from stratigraphic analysis.",
+      "cross_references": []
+    },
+    {
+      "id": "124-002",
+      "title": "Silk Road trade networks flourish",
+      "region": "Central Asia and China",
+      "coordinates_approx": "40.0, 95.0",
+      "category": "economic",
+      "description": "The Silk Road trade networks connecting China, Central Asia, Parthia, and the Roman Empire are at a high point of activity. Chinese silk, spices, and ceramics flow westward; Roman glass, metalwork, and luxury goods flow eastward. The Han Dynasty maintains diplomatic and trade relations with the Parthian Empire, though direct contact is mediated through intermediaries. This period sees the establishment of trading posts and the growth of cosmopolitan cities like Samarkand.",
+      "key_figures": [
+        "Han Dynasty merchants and officials",
+        "Parthian intermediaries"
+      ],
+      "sources": [
+        {
+          "name": "Chinese historical records (Hanshu, Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Central Asian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Periplus of the Erythraean Sea",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence and importance of Silk Road trade in the 2nd century CE is well-established. Specific events in 124 CE are not documented; this reflects the broader context of trade network activity.",
+      "cross_references": []
+    },
+    {
+      "id": "124-003",
+      "title": "Emperor Andi of Han continues reign",
+      "region": "China (Eastern Han Dynasty)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Andi of Han continues his reign, now in his 19th year. The court remains under the influence of the Dou family regency and eunuch factions. This period is characterized by relative stability but increasing factional tensions that will eventually destabilize the dynasty. The emperor's authority is gradually eroded by competing power centers.",
+      "key_figures": [
+        "Emperor Andi of Han",
+        "Dou Xian (Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Andi's reign dates are well-established in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "124-004",
+      "title": "Parthian Empire maintains control of Mesopotamia",
+      "region": "Parthian Empire (Mesopotamia and Persia)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Parthian Empire under the Arsacid dynasty maintains firm control of Mesopotamia and the Persian plateau. The empire serves as a crucial intermediary in Silk Road trade, controlling the flow of goods between China and the Roman Empire. Parthian military strength, particularly its cavalry, remains a significant counterbalance to Roman power in the eastern Mediterranean.",
+      "key_figures": [
+        "Parthian Arsacid rulers (specific ruler for 124 CE uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Roman historical sources (Dio Cassius, later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Parthian control of Mesopotamia is well-established. Specific events in 124 CE are not documented; this reflects the broader geopolitical context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the precise extent of Hadrian's Wall completion by 124 CE remains debated among archaeologists; some argue the stone wall was not substantially complete until the 130s CE.",
+  "historiographic_note": "Documentation for 124 CE is dominated by Roman and Chinese sources. The Parthian Empire is known primarily through Roman accounts and numismatic evidence, which may be biased against Parthian interests. Sub-Saharan Africa, Northern Europe, and Southeast Asia remain virtually absent from contemporary written records. Economic history must be inferred from archaeology and trade goods rather than written sources.",
+  "graph_edges": [
+    {
+      "from": "124-001",
+      "to": "125-002",
+      "relation": "part_of",
+      "note": "Continuation of Hadrian's Wall construction"
+    },
+    {
+      "from": "124-002",
+      "to": "200-001",
+      "relation": "led_to",
+      "note": "Silk Road trade networks continue to expand and develop"
+    }
+  ]
+}

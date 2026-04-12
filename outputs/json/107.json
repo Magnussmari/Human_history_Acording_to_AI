@@ -1,0 +1,106 @@
+{
+  "year": 107,
+  "year_label": "107 CE",
+  "era_context": "The Roman Empire under Trajan is consolidating its control of Dacia following the conquest of 106 CE. The Eastern Han Dynasty in China is stable under Empress Deng's regency. The Parthian Empire remains a major power in the Near East. This is a period of relative peace and administrative consolidation across the major empires.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontiers",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "107-001",
+      "title": "Trajan celebrates Dacian victory with games and spectacles in Rome",
+      "region": "Rome, Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "Emperor Trajan celebrates the conquest of Dacia with elaborate games, gladiatorial combats, and public spectacles in Rome. These celebrations last for several months and commemorate the military victory. The games are attended by thousands of spectators and feature exotic animals, gladiators, and mock naval battles. The spectacles serve to reinforce Trajan's popularity and legitimacy.",
+      "key_figures": [
+        "Trajan (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Panegyricus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dio Cassius describes elaborate games celebrating the Dacian victory, though the exact dating to 107 CE is not always precise. The games likely occurred in 106\u2013107 CE.",
+      "cross_references": [
+        "Related to 106-001"
+      ]
+    },
+    {
+      "id": "107-002",
+      "title": "Eastern Han court: Empress Deng's influence at its height",
+      "region": "China (Eastern Han), capital at Luoyang",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "Empress Deng's regency reaches its height of influence and effectiveness. She is noted for her administrative competence, her support for Confucian scholarship, and her ability to manage court factions. Her influence extends to military appointments and fiscal policy. She maintains the stability of the Han Dynasty during a period when it might otherwise have fragmented.",
+      "key_figures": [
+        "Empress Deng (Regent)",
+        "Andi (Han Emperor, minor)"
+      ],
+      "sources": [
+        {
+          "name": "Later Han History (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outlines of Empress Deng's regency are well-established; specific events in 107 CE are not always precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "107-003",
+      "title": "Parthian diplomatic missions to Rome and China",
+      "region": "Parthian Empire, Roman Empire, China",
+      "coordinates_approx": "37.0, 44.0",
+      "category": "political",
+      "description": "The Parthian Empire, seeking to maintain its position as a major power and to manage relations with Rome and China, sends diplomatic missions to both empires. These missions serve to establish trade agreements, exchange intelligence, and manage territorial disputes. The Parthians are particularly concerned about Roman expansion in the Near East following the conquest of Dacia.",
+      "key_figures": [
+        "Osroes I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historical records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Parthian diplomatic activity is well-documented; specific missions in 107 CE are inferred from the broader trajectory of relations.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Trajan's games as a triumphant celebration of military victory has been complicated by modern scholarship, which emphasizes the enormous cost of the games and the economic strain they placed on the empire. Empress Deng's regency, while generally competent, was not without internal opposition and factional conflict.",
+  "historiographic_note": "Documentation for 107 CE is moderate for the Roman and Chinese empires, relying on later chronicles and some contemporary accounts. The Parthian perspective is underrepresented in surviving sources. The games and spectacles are known primarily through later historical accounts.",
+  "graph_edges": [
+    {
+      "from": "107-001",
+      "to": "106-001",
+      "relation": "part_of",
+      "note": "Celebration of the Dacian conquest"
+    },
+    {
+      "from": "107-002",
+      "to": "121-001",
+      "relation": "led_to",
+      "note": "Empress Deng's regency ends with her death in 121 CE"
+    }
+  ]
+}

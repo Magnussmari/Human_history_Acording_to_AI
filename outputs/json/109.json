@@ -1,0 +1,106 @@
+{
+  "year": 109,
+  "year_label": "109 CE",
+  "era_context": "The Roman Empire under Trajan consolidates control of newly conquered Dacia. The Eastern Han Dynasty in China maintains stability under Empress Deng's regency. The Parthian Empire remains the dominant power in Mesopotamia and the Levant. This is a period of relative peace and administrative consolidation across the major empires, though underlying tensions persist.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontiers",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "109-001",
+      "title": "Trajan establishes Roman military infrastructure in Dacia",
+      "region": "Dacia (modern Romania), Roman Empire",
+      "coordinates_approx": "45.5, 24.5",
+      "category": "military",
+      "description": "Following the formal conquest of Dacia in 106 CE, Trajan's administration establishes a network of military forts, roads, and administrative centers to consolidate Roman control. This infrastructure project continues through 109 CE and represents a massive investment in securing the new province. The construction of roads and fortifications facilitates trade and military mobility.",
+      "key_figures": [
+        "Trajan (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Dacian forts and roads",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence of Roman military infrastructure in Dacia is extensive and well-dated to the early 2nd century CE.",
+      "cross_references": [
+        "Related to 110-001"
+      ]
+    },
+    {
+      "id": "109-002",
+      "title": "Eastern Han court politics: Empress Deng's continued regency",
+      "region": "China (Eastern Han), capital at Luoyang",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "Empress Deng continues her regency over the young Emperor Andi, maintaining stability in the Han court. Her administration is noted for competence and relative freedom from the factional violence that will plague later Han reigns. She maintains the civil service examination system and supports Confucian scholarship.",
+      "key_figures": [
+        "Empress Deng (Regent)",
+        "Andi (Han Emperor, minor)"
+      ],
+      "sources": [
+        {
+          "name": "Later Han History (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outlines of Empress Deng's regency are well-established; specific events in 109 CE are not always precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "109-003",
+      "title": "Satavahana Empire consolidates power in the Deccan",
+      "region": "Deccan Plateau, India",
+      "coordinates_approx": "18.0, 75.0",
+      "category": "political",
+      "description": "The Satavahana Empire, ruling much of the Deccan Plateau and western India, continues to consolidate its power and expand trade networks. This period sees the flourishing of Satavahana art, architecture, and commerce, particularly along trade routes connecting to the Roman Empire and Southeast Asia. The empire's patronage of Buddhism and Hinduism shapes the religious landscape of India.",
+      "key_figures": [
+        "Gautamiputra Satakarni (Satavahana ruler, r. c. 106\u2013130 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Satavahana inscriptions and coins",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Satavahana sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The dating of Satavahana rulers is debated among scholars; Gautamiputra Satakarni's reign is placed c. 106\u2013130 CE, but the exact chronology is uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Trajan's Dacian conquest as an unqualified success has been revised by modern scholarship to emphasize the economic burden and the difficulty of maintaining the province. The Satavahana chronology remains contested; some scholars place Gautamiputra Satakarni's reign earlier or later than the traditional dating.",
+  "historiographic_note": "Documentation for 109 CE is moderate for the Roman and Chinese empires, relying on later chronicles and archaeological evidence. Contemporary written records are sparse. The Satavahana Empire is known primarily through inscriptions, coins, and archaeological remains, with limited narrative sources. The Parthian Empire is underrepresented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "109-001",
+      "to": "110-001",
+      "relation": "part_of",
+      "note": "Continuation of Dacian consolidation"
+    },
+    {
+      "from": "109-002",
+      "to": "121-001",
+      "relation": "led_to",
+      "note": "Empress Deng's regency ends with her death in 121 CE"
+    }
+  ]
+}

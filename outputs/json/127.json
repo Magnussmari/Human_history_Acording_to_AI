@@ -1,0 +1,118 @@
+{
+  "year": 127,
+  "year_label": "127 CE",
+  "era_context": "Hadrian's reign continues; the emperor is consolidating the empire and beginning his provincial tours. In China, the Han Dynasty is under child emperors and regents, with growing eunuch influence. The Kushan Empire is at its height under Kanishka I (dating disputed). In Judaea, Roman rule is established but tensions simmer.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "127-001",
+      "title": "Hadrian's reign: consolidation and architectural patronage",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "By 127 CE, Hadrian has been emperor for a decade (r. 117\u2013138 CE). His reign is characterized by consolidation of the empire's frontiers, abandonment of Trajan's expansionist policies, and massive investment in architecture and culture. Hadrian's policy is to strengthen existing borders rather than expand them. He initiates major building projects across the empire, including the Pantheon in Rome, Hadrian's Wall in Britain, and numerous temples and public buildings. This period marks a shift from military expansion to cultural and administrative consolidation.",
+      "key_figures": [
+        "Hadrian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 69",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta, Life of Hadrian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from across the Roman Empire",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hadrian's reign and his policies are well-attested in multiple sources. The broad characterization of his reign as one of consolidation and cultural patronage is historiographic consensus.",
+      "cross_references": []
+    },
+    {
+      "id": "127-002",
+      "title": "Han Dynasty: Emperor Shun's reign and eunuch influence",
+      "region": "Han China, capital Luoyang",
+      "coordinates_approx": "34.6\u00b0N, 112.4\u00b0E",
+      "category": "political",
+      "description": "Emperor Shun of Han (r. 125\u2013144 CE) continues to reign as a child emperor, with real power exercised by the imperial harem and increasingly by eunuchs. By 127 CE, the eunuch faction is growing in influence, a trend that will accelerate throughout the 2nd century CE and contribute to the Han Dynasty's eventual collapse. The bureaucracy continues to function through the examination system, but court factionalism undermines effective governance. Corruption and factional struggles weaken the central authority.",
+      "key_figures": [
+        "Emperor Shun of Han (r. 125\u2013144 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political dynamics are well-documented, but specific events in 127 CE are not always precisely recorded.",
+      "cross_references": []
+    },
+    {
+      "id": "127-003",
+      "title": "Kanishka I's reign: Kushan Empire at its height",
+      "region": "Kushan Empire, Central Asia, northern India",
+      "coordinates_approx": "35.0\u00b0N, 70.0\u00b0E",
+      "category": "political",
+      "description": "The Kushan Empire, under Kanishka I (r. c. 127\u2013150 CE, though dating is disputed), is at its height as a major power controlling trade routes between China, India, and the Mediterranean. Kanishka is a major patron of Buddhism and a skilled administrator. The empire's wealth derives from control of the Silk Road trade and taxation of merchants. Kanishka's coins, minted in multiple cities, bear inscriptions in Greek, Prakrit, and Kharoshthi, reflecting the empire's multicultural character. The empire serves as a crucial intermediary in trade and cultural exchange between East and West.",
+      "key_figures": [
+        "Kanishka I (Kushan Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (Kushan coins)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Buddhist texts and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Indian and Chinese sources",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Kanishka's reign is well-attested through numismatic and epigraphic evidence, but his exact dates are debated by scholars. The dating c. 127\u2013150 CE is one of several competing chronologies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Kanishka I's dating remains one of the most disputed issues in Indian and Central Asian history. Some scholars place his reign in the 1st century CE, others in the 2nd century CE. The traditional dating used here (c. 127\u2013150 CE) is contested. No disconfirming evidence undermines the other events listed.",
+  "historiographic_note": "Documentation for 127 CE is moderate. Roman sources are relatively abundant but often written decades or centuries after events. Chinese sources are detailed but compiled much later. Indian and Central Asian sources are sparse and often fragmentary. The perspective remains heavily weighted toward elite political and military history.",
+  "graph_edges": [
+    {
+      "from": "127-001",
+      "to": "concept: Roman frontier consolidation",
+      "relation": "part_of",
+      "note": "Hadrian's reign exemplifies a shift from expansion to consolidation"
+    },
+    {
+      "from": "127-003",
+      "to": "concept: Silk Road trade",
+      "relation": "part_of",
+      "note": "Kushan prosperity depends on control of Central Asian trade routes"
+    }
+  ]
+}

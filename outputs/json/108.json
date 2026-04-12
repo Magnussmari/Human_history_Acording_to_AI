@@ -1,0 +1,103 @@
+{
+  "year": 108,
+  "year_label": "108 CE",
+  "era_context": "The Roman Empire under Trajan is consolidating its control of Dacia and managing its vast territorial holdings. The Eastern Han Dynasty in China is stable under Empress Deng's regency. The Parthian Empire remains a major power in the Near East. This is a period of relative peace and administrative consolidation, though underlying tensions persist between Rome and Parthia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontiers",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "108-001",
+      "title": "Roman military campaigns on the Danube frontier",
+      "region": "Danube frontier, Roman Empire",
+      "coordinates_approx": "45.0, 25.0",
+      "category": "military",
+      "description": "Trajan continues military operations to secure the Danube frontier and consolidate Roman control of Dacia. These campaigns involve suppressing resistance from Dacian remnants and defending against incursions from Germanic and Sarmatian tribes. The operations are part of the broader effort to establish Roman hegemony in the region.",
+      "key_figures": [
+        "Trajan (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Danube forts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Trajan's frontier operations is well-documented; specific events in 108 CE are inferred from the broader trajectory of his reign.",
+      "cross_references": [
+        "Related to 106-001, 109-001"
+      ]
+    },
+    {
+      "id": "108-002",
+      "title": "Han Dynasty examination system expansion",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Under Empress Deng's regency, the Han Dynasty continues to expand and refine the civil service examination system, which selects officials based on merit and Confucian learning rather than purely on aristocratic birth. This system strengthens the central bureaucracy and reduces the power of hereditary aristocrats. The expansion of the examination system is a key feature of Han administrative reform.",
+      "key_figures": [
+        "Empress Deng (Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Later Han History (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The expansion of the examination system during Empress Deng's regency is well-documented in Chinese historiography, though specific dates for individual reforms are not always precise.",
+      "cross_references": []
+    },
+    {
+      "id": "108-003",
+      "title": "Silk Road trade flourishes under Han and Parthian control",
+      "region": "Central Asia, connecting China, Parthia, and Rome",
+      "coordinates_approx": "40.0, 75.0",
+      "category": "economic",
+      "description": "The Silk Road trade routes, connecting China, Central Asia, the Parthian Empire, and the Roman Empire, continue to flourish in 108 CE. Chinese silk, spices, and ceramics flow westward, while Roman glass, metalwork, and other goods flow eastward. The Parthian Empire controls key sections of the route and profits from the transit trade. This trade facilitates cultural and technological exchange across Eurasia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Silk Road sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records and later accounts",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Silk Road trade is well-documented through archaeological evidence and later historical accounts. The trade was active and flourishing during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Silk Road as a unified, continuous trade network has been complicated by modern scholarship, which emphasizes the fragmented, relay-based nature of the trade and the role of intermediaries. The Han examination system, while important, did not immediately eliminate aristocratic privilege or create a purely meritocratic bureaucracy.",
+  "historiographic_note": "Documentation for 108 CE is moderate for the Roman and Chinese empires, relying on later chronicles and archaeological evidence. Contemporary written records are sparse. The Parthian perspective is underrepresented in surviving sources. Trade and economic activity are known primarily through archaeological evidence and later accounts.",
+  "graph_edges": [
+    {
+      "from": "108-001",
+      "to": "113-001",
+      "relation": "led_to",
+      "note": "Frontier consolidation strengthens Trajan's position for the Parthian War"
+    },
+    {
+      "from": "108-003",
+      "to": "200-001",
+      "relation": "part_of",
+      "note": "Continuation of Silk Road trade throughout the 2nd century CE"
+    }
+  ]
+}

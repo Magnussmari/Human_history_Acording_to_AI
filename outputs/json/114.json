@@ -1,0 +1,136 @@
+{
+  "year": 114,
+  "year_label": "114 CE",
+  "era_context": "Trajan's reign (98\u2013117 CE) reaches its military zenith with the launch of the Parthian Campaign. The Roman Empire is at maximum territorial extent. The Kitos War continues across the eastern Mediterranean. The Eastern Han Dynasty in China maintains stability under Emperor An. The Kushan Empire controls the Silk Road trade routes connecting East and West.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "114-001",
+      "title": "Trajan launches Parthian Campaign",
+      "region": "Mesopotamia, Armenia, Parthian Empire",
+      "coordinates_approx": "35.0, 44.0",
+      "category": "military",
+      "description": "Emperor Trajan personally leads a major military campaign against the Parthian Empire, beginning with the conquest of Armenia and advancing into Mesopotamia. The campaign aims to establish Roman control over the wealthy Mesopotamian region and eliminate Parthian influence. Trajan's forces capture key cities including Ctesiphon (the Parthian capital) by 116 CE. This represents the last major territorial expansion of the Roman Empire and temporarily extends Roman control to the Persian Gulf.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general)",
+        "Osroes I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The launch of the Parthian Campaign in 114 CE is consistently dated across multiple sources. The campaign is one of the best-documented military operations of the Roman Empire, though detailed accounts come from later historians.",
+      "cross_references": [
+        "Follows from 115-002 (preparations)",
+        "Leads to 116-001 (capture of Ctesiphon)"
+      ]
+    },
+    {
+      "id": "114-002",
+      "title": "Kitos War continues in Mesopotamia",
+      "region": "Mesopotamia, Cyrenaica, Egypt, Cyprus",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "The Jewish uprising that began in 115 CE continues to rage across multiple regions. In Mesopotamia, Jewish rebels clash with Roman forces and Greek settlers. The conflict is particularly intense in Cyrenaica and Cyprus, where entire communities are destroyed. The uprising is concurrent with Trajan's Parthian Campaign, stretching Roman military resources.",
+      "key_figures": [
+        "Lucuas (Jewish rebel leader)",
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of the Kitos War into 114 CE is inferred from the overall timeline of the uprising (115\u2013117 CE). Specific events within this year are not well-documented in surviving sources.",
+      "cross_references": [
+        "Follows from 115-001 (outbreak of Kitos War)"
+      ]
+    },
+    {
+      "id": "114-003",
+      "title": "Roman conquest of Armenia",
+      "region": "Armenia",
+      "coordinates_approx": "40.0, 45.0",
+      "category": "military",
+      "description": "As part of the Parthian Campaign, Trajan's forces conquer Armenia, a kingdom that had long been contested between Rome and Parthia. The conquest establishes direct Roman control over this strategic region and removes a Parthian ally from the equation. Armenia is briefly organized as a Roman province before being abandoned after Trajan's death.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Parthamasiris (Armenian King, deposed)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Armenia in 114 CE is consistently dated across sources and is a well-documented phase of the Parthian Campaign.",
+      "cross_references": [
+        "Part of 114-001 (Parthian Campaign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact sequence and timing of events during the Parthian Campaign are debated. Some sources suggest Trajan captured Ctesiphon in 115 CE rather than 116 CE. The strategic rationale for the campaign is contested: some scholars argue it was motivated by genuine imperial ambition, while others suggest it was a response to Parthian aggression or internal Roman political pressures. The sustainability of Roman control over Mesopotamia is questioned by modern historians\u2014the territory was abandoned within a few years, suggesting the conquest was not strategically viable.",
+  "historiographic_note": "The Parthian Campaign is one of the best-documented military operations of the Roman Empire, yet all detailed accounts come from historians writing 100+ years later. No contemporary military dispatches or official records survive. The narrative is shaped by Roman imperial ideology, which emphasizes Trajan's military genius and the empire's invincibility. Parthian sources, if they existed, are entirely lost, leaving only the Roman perspective. The concurrent Kitos War receives less attention in surviving sources, possibly because it was seen as a secondary theater or because it involved Jewish rebels rather than a major imperial power.",
+  "graph_edges": [
+    {
+      "from": "114-001",
+      "to": "115-002",
+      "relation": "caused_by",
+      "note": "Campaign launches following preparations in 115 CE"
+    },
+    {
+      "from": "114-001",
+      "to": "116-001",
+      "relation": "led_to",
+      "note": "Campaign continues with capture of Ctesiphon in 116 CE"
+    },
+    {
+      "from": "114-002",
+      "to": "115-001",
+      "relation": "caused_by",
+      "note": "Continuation of the Kitos War that began in 115 CE"
+    },
+    {
+      "from": "114-003",
+      "to": "114-001",
+      "relation": "part_of",
+      "note": "Conquest of Armenia is a phase of the Parthian Campaign"
+    }
+  ]
+}

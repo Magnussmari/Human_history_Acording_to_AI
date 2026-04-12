@@ -1,0 +1,135 @@
+{
+  "year": 112,
+  "year_label": "112 CE",
+  "era_context": "Trajan's Parthian Campaign continues to advance through Mesopotamia. The Kitos War persists across the eastern Mediterranean and Near East. The Eastern Han Dynasty in China remains stable under Emperor An. The Kushan Empire controls the Silk Road. This is a period of sustained military conflict and imperial expansion across multiple regions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia (limited contemporary sources)",
+    "India (limited contemporary sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "112-001",
+      "title": "Trajan's campaign in Mesopotamia continues",
+      "region": "Mesopotamia, Parthian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Trajan's forces continue their advance through Mesopotamia, consolidating control over conquered territories and preparing for the final assault on Ctesiphon. Roman legions establish supply lines, fortifications, and administrative structures across the region. The campaign is logistically complex, requiring coordination of multiple legions and supply chains stretching back to the Mediterranean.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general)",
+        "Osroes I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general progression of the campaign is well-documented, but specific events within 112 CE are not precisely dated in surviving sources. The year is assigned based on the overall timeline of the campaign (114\u2013116 CE).",
+      "cross_references": [
+        "Part of 114-001 (Parthian Campaign)",
+        "Leads to 116-001 (capture of Ctesiphon)"
+      ]
+    },
+    {
+      "id": "112-002",
+      "title": "Kitos War continues with Roman suppression efforts",
+      "region": "Cyrenaica, Egypt, Cyprus, Mesopotamia",
+      "coordinates_approx": "32.5, 24.0",
+      "category": "military",
+      "description": "The Jewish uprising continues across multiple regions, though Roman suppression efforts are beginning to take effect. Quietus, a Roman general, is dispatched to suppress the revolt in Mesopotamia and other affected regions. The conflict remains intense, with significant casualties on both sides. The uprising is characterized by religious fervor and resistance to Roman imperial authority.",
+      "key_figures": [
+        "Lucuas (Jewish rebel leader in Cyrenaica)",
+        "Quietus (Roman general, sent to suppress the revolt)",
+        "Trajan (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from affected regions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of the Kitos War into 112 CE is inferred from the overall timeline (115\u2013117 CE). Specific events within this year are not well-documented in surviving written sources.",
+      "cross_references": [
+        "Follows from 115-001 (outbreak of Kitos War)",
+        "Leads to 117-001 (final suppression)"
+      ]
+    },
+    {
+      "id": "112-003",
+      "title": "Eastern Han Dynasty administrative continuity",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Eastern Han Dynasty continues under Emperor An, maintaining administrative stability and control over the Silk Road trade routes. The empire manages relationships with nomadic groups on the northern frontier and maintains internal order. This period represents the height of Eastern Han prosperity.",
+      "key_figures": [
+        "Emperor An of Han (r. 106\u2013125 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji and subsequent dynastic histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Eastern Han chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han chronology is well-established through Chinese historical records. Emperor An's reign dates are secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact timeline of Quietus's suppression of the Kitos War is debated. Some sources suggest the suppression began earlier (in 115 or 116 CE), while others place it later. The effectiveness of Roman suppression efforts is contested\u2014some scholars argue the revolt was largely suppressed by 116 CE, while others suggest it persisted into 117 CE. The religious and political motivations of the rebels remain disputed.",
+  "historiographic_note": "The historical record for 112 CE is heavily dependent on Cassius Dio and other late sources. No contemporary accounts survive from either the Roman or Jewish perspective. Archaeological evidence from affected regions provides material confirmation of destruction but not precise dating to individual years. The narrative is shaped by Roman imperial historiography. The Parthian Campaign receives more attention in surviving sources than the Kitos War.",
+  "graph_edges": [
+    {
+      "from": "112-001",
+      "to": "114-001",
+      "relation": "part_of",
+      "note": "Campaign continuation is part of the Parthian Campaign"
+    },
+    {
+      "from": "112-001",
+      "to": "116-001",
+      "relation": "led_to",
+      "note": "Campaign advances lead to capture of Ctesiphon in 116 CE"
+    },
+    {
+      "from": "112-002",
+      "to": "115-001",
+      "relation": "caused_by",
+      "note": "Continuation of the Kitos War that began in 115 CE"
+    },
+    {
+      "from": "112-002",
+      "to": "117-001",
+      "relation": "led_to",
+      "note": "Suppression efforts lead to final suppression in 117 CE"
+    }
+  ]
+}

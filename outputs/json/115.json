@@ -1,0 +1,126 @@
+{
+  "year": 115,
+  "year_label": "115 CE",
+  "era_context": "The Roman Empire under Trajan (98\u2013117 CE) at its territorial apex following the conquest of Dacia (106 CE). The Parthian Empire controls Mesopotamia and the eastern frontier. In China, the Han Dynasty (206 BCE\u2013220 CE) is in its final century of stability under the Eastern Han. Jewish communities across the Mediterranean and Near East are recovering from the First Jewish-Roman War (66\u201370 CE) and its aftermath.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record for this specific year)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "115-001",
+      "title": "Kitos War / Second Jewish-Roman War begins",
+      "region": "Cyrenaica, Egypt, Cyprus, Mesopotamia",
+      "coordinates_approx": "32.5, 24.0",
+      "category": "military",
+      "description": "A major Jewish uprising erupts across the eastern Mediterranean and Mesopotamia, likely triggered by tensions over taxation, religious autonomy, and Roman imperial overreach. The revolt is particularly violent in Cyrenaica (Libya), where Jewish insurgents under leadership including Lucuas (or Andreas) attack Greek and Roman settlements. The uprising spreads to Egypt, Cyprus, and Mesopotamia. This conflict, known as the Kitos War or Second Jewish-Roman War, will last until approximately 117 CE and result in massive casualties and destruction of Jewish communities.",
+      "key_figures": [
+        "Lucuas (Jewish rebel leader in Cyrenaica)",
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general, sent to suppress the revolt)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Orosius, History Against the Pagans",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The outbreak date of 115 CE is widely accepted in modern scholarship, though Cassius Dio wrote ~100 years later. No contemporary Jewish or Roman primary sources survive for this specific year, but the uprising is attested in multiple later sources with consistent dating.",
+      "cross_references": [
+        "Follows from 70-001 (First Jewish-Roman War)",
+        "Leads to 117-001 (suppression under Trajan)"
+      ]
+    },
+    {
+      "id": "115-002",
+      "title": "Trajan's Parthian Campaign preparations",
+      "region": "Roman Empire, Mesopotamia",
+      "coordinates_approx": "35.0, 44.0",
+      "category": "military",
+      "description": "Trajan begins military preparations for a major campaign against the Parthian Empire, likely motivated by control of Mesopotamia and the desire to secure the eastern frontier. This campaign will be launched in 114 CE and represents the last major Roman territorial expansion. The preparations involve mobilizing legions and establishing supply lines across the eastern provinces.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Quietus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 68)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The timing of preparations is inferred from the launch of the campaign in 114 CE. No contemporary military records survive, but the sequence is consistent across later sources.",
+      "cross_references": [
+        "Leads to 114-001 (Parthian Campaign launch)"
+      ]
+    },
+    {
+      "id": "115-003",
+      "title": "Han Dynasty administrative stability under Emperor Hadrian's contemporary",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Eastern Han Dynasty continues under stable administration during this period. The empire maintains control over the Silk Road trade routes and manages relationships with nomadic groups on the northern frontier. This year falls within a period of relative peace and prosperity before the dynasty's decline in the late 2nd century CE.",
+      "key_figures": [
+        "Emperor An of Han (r. 106\u2013125 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and subsequent dynastic histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Eastern Han chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han chronology is well-established through Chinese historical records and archaeological evidence. Emperor An's reign dates are secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Kitos War's exact starting date is debated. Some scholars place the outbreak in 116 CE rather than 115 CE, based on different interpretations of Cassius Dio's account. The scale of the uprising and casualty figures reported in later sources (Cassius Dio claims 220,000 killed in Cyrenaica alone) are likely exaggerated for rhetorical effect. The causes of the revolt remain contested: some scholars emphasize religious messianism, others focus on economic grievances and Roman administrative pressure.",
+  "historiographic_note": "The historical record for 115 CE is heavily dependent on Cassius Dio, writing in the early 3rd century CE\u2014nearly 200 years after the events. No contemporary Jewish sources survive for this period, creating a significant gap in understanding the rebels' perspective. Roman military records, if they existed, are lost. The narrative is shaped by Roman imperial historiography, which tends to emphasize the scale of the threat and the necessity of suppression. Archaeological evidence from affected regions (Cyrenaica, Cyprus) provides material confirmation of destruction but not precise dating to individual years.",
+  "graph_edges": [
+    {
+      "from": "115-001",
+      "to": "70-001",
+      "relation": "caused_by",
+      "note": "The Kitos War emerges from unresolved tensions following the First Jewish-Roman War"
+    },
+    {
+      "from": "115-001",
+      "to": "117-001",
+      "relation": "led_to",
+      "note": "The uprising is suppressed by Trajan's forces over the next two years"
+    },
+    {
+      "from": "115-002",
+      "to": "114-001",
+      "relation": "led_to",
+      "note": "Preparations lead to the launch of Trajan's Parthian Campaign"
+    }
+  ]
+}
