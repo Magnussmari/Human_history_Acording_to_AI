@@ -1,0 +1,133 @@
+{
+  "year": 285,
+  "year_label": "285 CE",
+  "era_context": "The Roman Empire under Diocletian's early reign, following the Crisis of the Third Century. Diocletian (r. 284\u2013305 CE) has recently assumed power and is consolidating authority. The empire is fractured into competing power centres; Carinus rules the West while Diocletian controls the East. This is a period of military reorganisation, administrative reform, and attempted stabilisation after decades of civil war and barbarian incursions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited Roman sources)",
+    "Northern Europe beyond Rhine/Danube frontier (sparse Roman documentation)",
+    "Interior of China and Central Asia (limited cross-cultural records)"
+  ],
+  "events": [
+    {
+      "id": "285-001",
+      "title": "Diocletian defeats Carinus at the Battle of the Margus River",
+      "region": "Moesia Superior (modern Serbia/Balkans)",
+      "coordinates_approx": "44.5, 21.0",
+      "category": "military",
+      "description": "Diocletian's forces engage the Western Roman Emperor Carinus in a decisive confrontation along the Margus River. Carinus is killed in the battle, eliminating the last rival to Diocletian's authority in the West. This victory consolidates Diocletian's sole rule over the entire Roman Empire and marks the effective end of the Crisis of the Third Century's most acute phase. The battle is a turning point enabling Diocletian's subsequent administrative reforms.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, East)",
+        "Carinus (Roman Emperor, West, killed in battle)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, De mortibus persecutorum",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "No contemporary accounts survive. All sources are 4th-century compilations written 50\u2013100 years after the event. The battle's occurrence and Carinus's death are attested across multiple sources, but precise dating and tactical details are uncertain. Some sources place the battle in 285, others suggest 286.",
+      "cross_references": [
+        "284-001 (Diocletian's accession)",
+        "286-001 (Maximian appointed as co-emperor)"
+      ]
+    },
+    {
+      "id": "285-002",
+      "title": "Diocletian consolidates control over the Eastern Roman Empire",
+      "region": "Eastern Roman Empire (Egypt, Syria, Asia Minor, Balkans)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Following his victory over Carinus, Diocletian establishes firm administrative control over the Eastern provinces. He begins implementing military and fiscal reforms, including the reorganisation of provincial boundaries and the strengthening of frontier defences. This consolidation is foundational to his later Tetrarchic system and represents the beginning of the empire's stabilisation after the Third Century Crisis.",
+      "key_figures": [
+        "Diocletian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus from numismatic and epigraphic evidence",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        },
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "No single contemporary narrative source. Inferred from coin hoards, inscriptions, and later historical accounts. The general trajectory is clear, but specific administrative changes in 285 are difficult to date precisely.",
+      "cross_references": [
+        "285-001 (Battle of Margus)",
+        "286-001 (Tetrarchy begins to form)"
+      ]
+    },
+    {
+      "id": "285-003",
+      "title": "Carausius declares himself Roman Emperor in Britain",
+      "region": "Roman Britain",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "political",
+      "description": "Carausius, a Roman naval commander, seizes control of Britain and declares himself emperor, establishing an independent Romano-British state. He claims legitimacy as a Roman ruler and issues coins bearing imperial titles. His revolt is partly motivated by grievances over command and partly by the opportunity to exploit Britain's wealth and strategic position. This event marks the beginning of Britain's effective separation from direct imperial control for over a decade.",
+      "key_figures": [
+        "Carausius (Roman naval commander, self-proclaimed Emperor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Carausius)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Carausius's coinage is contemporary and abundant. Later historical sources confirm the event. Dating to 286\u2013287 is more commonly cited in modern scholarship, but some sources place the beginning of his revolt in 285.",
+      "cross_references": [
+        "286-002 (Maximian campaigns against Carausius)",
+        "296-001 (Carausius's regime ends)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of the Margus River and Carausius's revolt is contested. Some modern scholars place both events in 286 rather than 285. The sources are late compilations with no contemporary narrative accounts, making precise chronology difficult. Carausius's motivations are debated: some sources emphasise his grievance over command, others suggest opportunism. The extent of his legitimacy as a 'Roman' emperor versus a usurper is historiographically contested.",
+  "historiographic_note": "The historical record for 285 CE is moderate but heavily dependent on late 4th-century compilations. Contemporary sources are limited to coins, inscriptions, and fragmentary references in later works. The Western perspective dominates surviving sources; Eastern Roman and provincial perspectives are underrepresented. The narrative is shaped by authors writing after Constantine's rise, which may colour their portrayal of Diocletian. Archaeological evidence (coins, inscriptions) provides some independent verification but is unevenly distributed geographically.",
+  "graph_edges": [
+    {
+      "from": "285-001",
+      "to": "284-001",
+      "relation": "caused_by",
+      "note": "Diocletian's accession in 284 led directly to conflict with Carinus, culminating in the Battle of the Margus in 285"
+    },
+    {
+      "from": "285-001",
+      "to": "286-001",
+      "relation": "led_to",
+      "note": "Diocletian's victory enabled the appointment of Maximian as co-emperor and the formalisation of the Tetrarchy"
+    },
+    {
+      "from": "285-003",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Carausius's usurpation in 285 led to a decade-long conflict with the legitimate empire, ending in his assassination in 296"
+    }
+  ]
+}

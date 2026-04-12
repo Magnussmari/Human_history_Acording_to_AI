@@ -1,0 +1,115 @@
+{
+  "year": 290,
+  "year_label": "290 CE",
+  "era_context": "The Roman Empire under Diocletian's Tetrarchy (established 293 CE) is entering its final phase of consolidation. The empire is divided into Eastern and Western halves, each ruled by an Augustus and a Caesar. Britain, Gaul, and the Rhine frontier remain under pressure from Germanic tribes. The Eastern frontier faces Sassanid Persian threats. Christianity is still a persecuted minority religion, though growing in urban centres.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record only)",
+    "East Asia (Chinese sources exist but may be underrepresented in Western training data)",
+    "Mesoamerica (no written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "290-001",
+      "title": "Carausius rules Britain as breakaway Roman usurper",
+      "region": "Roman Britain",
+      "coordinates_approx": "51.5, -2.0",
+      "category": "political",
+      "description": "Marcus Aurelius Mausaeus Carausius, a Roman naval commander, declares himself emperor and establishes an independent Romano-British state. He controls the British Isles and parts of northern Gaul (Menapi territory). Carausius mints coins with the legend 'RSR' (Restitutor Britanniae) and maintains Roman administrative structures while resisting central imperial authority. This breakaway state will persist until 296 CE, representing a significant challenge to Diocletian's authority and territorial integrity.",
+      "key_figures": [
+        "Carausius (Roman naval officer, self-proclaimed emperor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins minted by Carausius)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Carausius's rule is attested by contemporary coins and later Roman historians. The exact year of his usurpation is debated (some sources place it 286\u2013287 CE), but 290 CE is within the accepted range of his reign.",
+      "cross_references": [
+        "296-001 (Constantius Chlorus reconquers Britain)"
+      ]
+    },
+    {
+      "id": "290-002",
+      "title": "Diocletian campaigns on the Danube frontier",
+      "region": "Roman Danube frontier (Moesia, Dacia)",
+      "coordinates_approx": "44.5, 24.0",
+      "category": "military",
+      "description": "Diocletian conducts military operations against Germanic and Dacian tribes along the Danube River. These campaigns are part of his broader strategy to stabilize the empire's frontiers after years of civil war and barbarian incursions. The exact nature and scale of these operations in 290 CE are poorly documented, but they form part of the broader Danube frontier consolidation that characterizes the early Tetrarchic period.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Diocletian's frontier campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Diocletian's Danube campaigns are attested in later sources, but precise dating and details for 290 CE specifically are uncertain. The campaigns likely occurred across multiple years in the late 280s and early 290s.",
+      "cross_references": []
+    },
+    {
+      "id": "290-003",
+      "title": "Maximian consolidates control in the Western Roman Empire",
+      "region": "Roman Gaul, Spain, North Africa",
+      "coordinates_approx": "46.0, 2.0",
+      "category": "political",
+      "description": "Maximian, appointed as Caesar in 286 CE and elevated to Augustus in 287 CE, continues consolidating his authority over the Western Roman Empire. He campaigns against usurpers, barbarian raiders, and internal dissidents. By 290 CE, his position is secure, and he is recognized as co-emperor alongside Diocletian in the East. His rule is characterized by military campaigns and administrative reorganization.",
+      "key_figures": [
+        "Maximian (Roman Emperor, Augustus of the West)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Maximian's consolidation of power is well-attested in later sources. The specific events of 290 CE are less detailed, but his overall trajectory is clear.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Carausius's usurpation is disputed. Some scholars place it in 286\u2013287 CE rather than 290 CE, based on numismatic and literary evidence. The significance of Diocletian's Danube campaigns in 290 CE specifically is unclear; they may have occurred in adjacent years. No major disconfirming evidence challenges the broad political narrative of the Tetrarchy's consolidation.",
+  "historiographic_note": "The historical record for 290 CE is heavily dependent on later compilations (Aurelius Victor, Eutropius) written in the 4th century, often with propagandistic intent. Contemporary sources are sparse. Numismatic evidence (coins) provides some grounding for Carausius's rule in Britain. The Western perspective dominates; Eastern Roman (Byzantine) sources are limited. Archaeological evidence from frontier sites provides indirect confirmation of military activity but rarely precise dating.",
+  "graph_edges": [
+    {
+      "from": "290-001",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Carausius's breakaway state provokes Constantius Chlorus's reconquest campaign"
+    },
+    {
+      "from": "290-002",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Part of Diocletian's broader frontier consolidation strategy"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "year": 289,
+  "year_label": "289 CE",
+  "era_context": "The Roman Tetrarchy is in its early consolidation phase. Diocletian rules the East from Nicomedia; Maximian rules the West from Milan. The empire faces multiple frontier pressures: Germanic tribes on the Rhine and Danube, Sassanid Persia in the East, and internal usurpers (notably Carausius in Britain). Christianity remains a persecuted minority. The administrative and military reforms of Diocletian are being implemented across the empire.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese sources may exist but are underrepresented)",
+    "Mesoamerica",
+    "India (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "289-001",
+      "title": "Carausius consolidates control of Britain and northern Gaul",
+      "region": "Roman Britain and Menapi territory (northern Gaul)",
+      "coordinates_approx": "51.5, -2.0",
+      "category": "political",
+      "description": "Carausius, the Romano-British usurper, continues to consolidate his breakaway state. He controls Britain and the Menapi region of Gaul, minting coins and maintaining Roman administrative structures. His regime is recognized as a de facto independent state by some contemporaries, though Diocletian and Maximian view him as a usurper. Carausius's control is strongest in Britain, where he has significant naval and military support.",
+      "key_figures": [
+        "Carausius (self-proclaimed emperor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (coins of Carausius)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Carausius's rule is confirmed by contemporary coins. The specific events of 289 CE are less detailed, but his continued control is certain.",
+      "cross_references": [
+        "290-001 (Carausius's usurpation)"
+      ]
+    },
+    {
+      "id": "289-002",
+      "title": "Diocletian's administrative reforms continue across the Eastern Empire",
+      "region": "Roman Eastern Empire (Egypt, Syria, Asia Minor, Balkans)",
+      "coordinates_approx": "40.0, 30.0",
+      "category": "political",
+      "description": "Diocletian continues implementing his sweeping administrative and military reforms across the Eastern Roman Empire. These reforms include the division of provinces into smaller administrative units, the reorganization of the military into mobile field armies and frontier garrisons, and the centralization of tax collection. The reforms are designed to improve governance and military response to threats. By 289 CE, these reforms are well underway, though their full implementation will take several more years.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Diocletian's reforms",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diocletian's reforms are well-attested in later sources and by their long-term effects. The specific timeline for 289 CE is less certain, but the reforms were ongoing during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Carausius's rule and his relationship with the central imperial authorities is debated. Some sources suggest he may have been initially tolerated or even recognized by Maximian before becoming a full usurper. The dating of specific administrative reforms under Diocletian is also uncertain; some may have occurred earlier or later than traditionally assigned.",
+  "historiographic_note": "The historical record for 289 CE is sparse and heavily dependent on later sources. Contemporary documentation is minimal. Numismatic evidence provides some grounding for Carausius's rule. The Eastern Empire's administrative reforms are attested in later sources but lack contemporary documentation. The perspective is heavily Western-Roman; Eastern sources are limited. Archaeological evidence from frontier sites and administrative centres provides indirect confirmation but rarely precise dating.",
+  "graph_edges": [
+    {
+      "from": "289-001",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Carausius's continued usurpation eventually provokes military response"
+    }
+  ]
+}

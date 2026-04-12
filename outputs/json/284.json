@@ -1,0 +1,137 @@
+{
+  "year": 284,
+  "year_label": "284 CE",
+  "era_context": "The final year of the Crisis of the Third Century. The Roman Empire is fractured among multiple claimants. Numerian rules the East but is assassinated this year; Carinus rules the West. The empire faces simultaneous threats from Germanic tribes on the Rhine and Danube, Sassanid Persia in the East, and internal civil war. This is a moment of acute instability before Diocletian's reforms begin to stabilise the empire.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontiers",
+    "Central Asia and interior China"
+  ],
+  "events": [
+    {
+      "id": "284-001",
+      "title": "Diocletian proclaimed Roman Emperor by the army",
+      "region": "Nicomedia, Bithynia (modern Turkey)",
+      "coordinates_approx": "40.75, 29.95",
+      "category": "political",
+      "description": "Following the assassination of the Eastern Roman Emperor Numerian, the army proclaims Diocletian, a military officer of Dalmatian origin, as the new emperor. Diocletian is acclaimed by troops in Nicomedia and immediately moves to consolidate power in the Eastern provinces. His accession marks the beginning of the end of the Crisis of the Third Century and the start of a new era of imperial stability and administrative reform. Diocletian will rule for 21 years and fundamentally reshape the empire's structure.",
+      "key_figures": [
+        "Diocletian (proclaimed Roman Emperor)",
+        "Numerian (assassinated predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, De mortibus persecutorum",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Diocletian)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Diocletian's accession is attested in multiple late sources and confirmed by contemporary coinage. The date of 284 CE is firmly established in historiographic consensus.",
+      "cross_references": [
+        "285-001 (Battle of the Margus River)",
+        "286-001 (Maximian appointed co-emperor)"
+      ]
+    },
+    {
+      "id": "284-002",
+      "title": "Numerian assassinated; succession crisis in the Eastern Roman Empire",
+      "region": "Eastern Roman Empire (Bithynia)",
+      "coordinates_approx": "40.75, 29.95",
+      "category": "political",
+      "description": "The Eastern Roman Emperor Numerian is assassinated, likely by his praetorian prefect Aper or other court conspirators. The circumstances of his death are murky, but it precipitates an immediate succession crisis. The army, dissatisfied with the existing power structure and threatened by external enemies, moves quickly to elevate Diocletian. Numerian's death marks the effective end of the Aurelian dynasty's dominance and opens the way for Diocletian's rise.",
+      "key_figures": [
+        "Numerian (Eastern Roman Emperor, assassinated)",
+        "Aper (Praetorian Prefect, suspected conspirator)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, De mortibus persecutorum",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Numerian's assassination is attested in multiple sources. The date (284 CE) is secure. The identity of the conspirators and precise circumstances are less certain, as sources differ.",
+      "cross_references": [
+        "284-001 (Diocletian's accession)"
+      ]
+    },
+    {
+      "id": "284-003",
+      "title": "Carinus continues rule of the Western Roman Empire",
+      "region": "Western Roman Empire",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Carinus, son of the former emperor Carus, continues his rule of the Western Roman Empire. He faces military pressures on the Rhine frontier and internal instability. Carinus is unaware or dismissive of the threat posed by Diocletian's rise in the East. His reign will be short-lived, ending in defeat and death at the Battle of the Margus River in 285 CE. His rule represents the last gasp of the old imperial order before Diocletian's reforms.",
+      "key_figures": [
+        "Carinus (Western Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Carinus)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Carinus's continued rule in 284 is confirmed by coinage and historical sources. His reign is well-attested, though detailed events are sparse.",
+      "cross_references": [
+        "285-001 (Battle of the Margus River)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The circumstances of Numerian's assassination are disputed. Some sources blame Aper directly; others suggest broader court conspiracies. The extent of Carinus's military competence is debated\u2014some sources portray him as weak, others as a capable but unlucky commander. The precise date of Diocletian's proclamation (whether late 284 or very early 285) is occasionally contested in modern scholarship, though 284 is the consensus.",
+  "historiographic_note": "The historical record for 284 CE is moderate but dependent on late compilations. No contemporary narrative sources survive. Coinage and inscriptions provide independent verification of rulers and basic chronology. The sources are shaped by authors writing after Constantine's rise, which may bias their portrayal of Diocletian as a reformer. The Western perspective dominates; Eastern and provincial viewpoints are underrepresented. The political instability of the period means that detailed administrative or military information is sparse.",
+  "graph_edges": [
+    {
+      "from": "284-001",
+      "to": "284-002",
+      "relation": "caused_by",
+      "note": "Numerian's assassination directly precipitated Diocletian's proclamation"
+    },
+    {
+      "from": "284-001",
+      "to": "285-001",
+      "relation": "led_to",
+      "note": "Diocletian's accession in 284 led to conflict with Carinus, culminating in the Battle of the Margus in 285"
+    },
+    {
+      "from": "284-003",
+      "to": "285-001",
+      "relation": "led_to",
+      "note": "Carinus's continued rule in the West set up the confrontation with Diocletian that ended in 285"
+    }
+  ]
+}

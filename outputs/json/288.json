@@ -1,0 +1,124 @@
+{
+  "year": 288,
+  "year_label": "288 CE",
+  "era_context": "The Roman Empire is in the early phase of Diocletian's Tetrarchy. Diocletian (Augustus of the East) and Maximian (Augustus of the West, elevated in 287 CE) are consolidating their authority. The empire faces multiple crises: the usurper Carausius controls Britain, Germanic tribes pressure the Rhine frontier, and the Sassanid Persians threaten the Eastern frontier. The administrative and military reforms that will define the Tetrarchic system are being implemented. Christianity remains persecuted but growing.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "East Asia (Chinese sources may exist but underrepresented)",
+    "Mesoamerica",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "288-001",
+      "title": "Maximian elevated to Augustus; Tetrarchy formally established",
+      "region": "Roman Empire (Western and Eastern)",
+      "coordinates_approx": "40.0, 15.0",
+      "category": "political",
+      "description": "Diocletian elevates Maximian from Caesar to Augustus, formally establishing the Tetrarchic system of imperial rule. The empire is now divided into four administrative zones: Diocletian rules the Eastern Empire from Nicomedia; Maximian rules the Western Empire from Milan; each Augustus has a Caesar beneath him (Galerius in the East, Constantius Chlorus in the West). This system is designed to improve governance, military response, and succession planning. The elevation of Maximian marks the formal beginning of the Tetrarchy, though the system will not be fully operational until 293 CE when the Caesars are appointed.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)",
+        "Maximian (Roman Emperor, Augustus of the West)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on the Tetrarchy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The elevation of Maximian to Augustus is well-attested in multiple later sources. The date of 287 CE is sometimes given, but 288 CE is also plausible based on different source traditions.",
+      "cross_references": [
+        "293-001 (Appointment of Caesars completes the Tetrarchy)"
+      ]
+    },
+    {
+      "id": "288-002",
+      "title": "Carausius declares himself emperor of Britain",
+      "region": "Roman Britain",
+      "coordinates_approx": "51.5, -2.0",
+      "category": "political",
+      "description": "Marcus Aurelius Mausaeus Carausius, a Roman naval commander of Menapian origin, declares himself emperor and establishes an independent state in Britain. He controls the British Isles and parts of northern Gaul (the Menapi territory). Carausius mints coins with the legend 'RSR' (Restitutor Britanniae) and maintains Roman administrative and military structures. His usurpation is a significant challenge to Diocletian and Maximian's authority. The exact dating of Carausius's usurpation is debated (some sources place it in 286\u2013287 CE), but 288 CE is within the accepted range.",
+      "key_figures": [
+        "Carausius (Roman naval officer, self-proclaimed emperor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (coins of Carausius)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Carausius's usurpation is confirmed by contemporary coins and attested in later sources. The exact year is debated; 286\u2013290 CE are all plausible based on different source traditions.",
+      "cross_references": [
+        "296-001 (Constantius Chlorus reconquers Britain)"
+      ]
+    },
+    {
+      "id": "288-003",
+      "title": "Maximian campaigns against Germanic tribes on the Rhine",
+      "region": "Roman Rhine frontier (Germania, Gaul)",
+      "coordinates_approx": "50.0, 8.0",
+      "category": "military",
+      "description": "Maximian conducts military campaigns against Germanic tribes raiding the Rhine frontier. These campaigns are part of his broader strategy to stabilize the Western Empire after years of civil war and barbarian incursions. The exact nature and scale of these operations are poorly documented, but they form part of the broader frontier consolidation that characterizes the early Tetrarchic period.",
+      "key_figures": [
+        "Maximian (Roman Emperor, Augustus of the West)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Maximian's frontier campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Maximian's Rhine campaigns are attested in later sources, but precise dating and details for 288 CE specifically are uncertain. The campaigns likely occurred across multiple years in the late 280s and early 290s.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Maximian's elevation to Augustus is disputed. Some sources place it in 286 CE, others in 287 CE, and some in 288 CE. The dating of Carausius's usurpation is similarly debated, with scholars proposing dates ranging from 286 to 290 CE. The significance and scale of Maximian's Rhine campaigns in 288 CE specifically are unclear.",
+  "historiographic_note": "The historical record for 288 CE is sparse and heavily dependent on later sources written in the 4th century, often with propagandistic intent. Contemporary documentation is minimal. Numismatic evidence (coins) provides some grounding for Carausius's rule. The perspective is heavily Western-Roman; Eastern sources are limited. Archaeological evidence from frontier sites provides indirect confirmation of military activity but rarely precise dating. The Tetrarchic system is well-attested in later sources, but the exact chronology of its establishment is debated.",
+  "graph_edges": [
+    {
+      "from": "288-001",
+      "to": "293-001",
+      "relation": "led_to",
+      "note": "Maximian's elevation as Augustus leads to the appointment of Caesars in 293 CE"
+    },
+    {
+      "from": "288-002",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Carausius's usurpation provokes military response from Constantius Chlorus"
+    }
+  ]
+}

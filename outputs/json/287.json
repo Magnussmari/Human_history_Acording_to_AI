@@ -1,0 +1,119 @@
+{
+  "year": 287,
+  "year_label": "287 CE",
+  "era_context": "The Roman Empire under Diocletian is undergoing radical administrative and military reorganization. Diocletian has ruled as sole Augustus since 284 CE, but in 287 CE he elevates Maximian to co-Augustus, formally dividing the empire into Eastern and Western halves. This marks the beginning of the Tetrarchic system. The empire faces multiple crises: usurpers (notably Carausius in Britain), Germanic tribes on the Rhine and Danube, and Sassanid Persia in the East. Christianity remains persecuted but growing in urban centres.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "East Asia (Chinese sources may exist but underrepresented)",
+    "Mesoamerica",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "287-001",
+      "title": "Diocletian elevates Maximian to Augustus; division of the empire",
+      "region": "Roman Empire (Eastern and Western)",
+      "coordinates_approx": "40.0, 15.0",
+      "category": "political",
+      "description": "Diocletian elevates Maximian, his trusted general, to the rank of Augustus (co-emperor) and assigns him rule of the Western Roman Empire. Diocletian retains the Eastern Empire. This division marks the formal beginning of the Tetrarchic system, though it will not be fully operational until 293 CE when Caesars are appointed beneath each Augustus. The elevation of Maximian is designed to improve governance and military response to the multiple crises facing the empire. Maximian establishes his capital at Milan and begins consolidating his authority over Gaul, Spain, Britain, and North Africa.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)",
+        "Maximian (Roman general, elevated to Augustus of the West)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on the Tetrarchy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The elevation of Maximian to Augustus is well-attested in multiple later sources. The date of 287 CE is the most commonly accepted, though some sources place it in 286 CE.",
+      "cross_references": [
+        "293-001 (Appointment of Caesars completes the Tetrarchy)"
+      ]
+    },
+    {
+      "id": "287-002",
+      "title": "Carausius usurps control of Britain and northern Gaul",
+      "region": "Roman Britain and Menapi territory (northern Gaul)",
+      "coordinates_approx": "51.5, -2.0",
+      "category": "political",
+      "description": "Marcus Aurelius Mausaeus Carausius, a Roman naval commander of Menapian origin, declares himself emperor and establishes an independent state in Britain. He controls the British Isles and parts of northern Gaul. Carausius mints coins with the legend 'RSR' (Restitutor Britanniae) and maintains Roman administrative structures. His usurpation is a significant challenge to the newly divided imperial authority. The exact dating of Carausius's usurpation is debated (some sources place it in 286 CE, others in 288\u2013290 CE), but 287 CE is within the accepted range.",
+      "key_figures": [
+        "Carausius (Roman naval officer, self-proclaimed emperor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (coins of Carausius)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Carausius's usurpation is confirmed by contemporary coins. The exact year is debated; 286\u2013290 CE are all plausible based on different source traditions.",
+      "cross_references": [
+        "296-001 (Constantius Chlorus reconquers Britain)"
+      ]
+    },
+    {
+      "id": "287-003",
+      "title": "Maximian consolidates authority in the Western Empire",
+      "region": "Roman Western Empire (Gaul, Spain, North Africa, Britain)",
+      "coordinates_approx": "46.0, 2.0",
+      "category": "political",
+      "description": "Following his elevation to Augustus, Maximian begins consolidating his authority over the Western Roman Empire. He campaigns against usurpers, barbarian raiders, and internal dissidents. His immediate challenges include suppressing the usurper Carausius in Britain, defending the Rhine frontier against Germanic tribes, and stabilizing North Africa. Maximian establishes his capital at Milan and begins implementing administrative reforms parallel to those of Diocletian in the East.",
+      "key_figures": [
+        "Maximian (Roman Emperor, Augustus of the West)"
+      ],
+      "sources": [
+        {
+          "name": "Aurelius Victor, Liber de Caesaribus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Maximian's consolidation of power is well-attested in later sources. The specific events of 287 CE are less detailed, but his overall trajectory is clear.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Maximian's elevation to Augustus is disputed. Some sources place it in 286 CE, others in 287 CE, and some in 288 CE. The dating of Carausius's usurpation is similarly debated. Some modern scholars argue that Carausius may have initially been tolerated or even recognized by Maximian before becoming a full usurper, complicating the traditional narrative of immediate opposition.",
+  "historiographic_note": "The historical record for 287 CE is sparse and heavily dependent on later sources written in the 4th century, often with propagandistic intent. Contemporary documentation is minimal. Numismatic evidence (coins) provides some grounding for Carausius's rule. The perspective is heavily Western-Roman; Eastern sources are limited. Archaeological evidence from frontier sites and administrative centres provides indirect confirmation but rarely precise dating. The Tetrarchic system is well-attested in later sources, but the exact chronology of its establishment is debated among modern scholars.",
+  "graph_edges": [
+    {
+      "from": "287-001",
+      "to": "293-001",
+      "relation": "led_to",
+      "note": "Maximian's elevation as Augustus leads to the appointment of Caesars in 293 CE"
+    },
+    {
+      "from": "287-002",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Carausius's usurpation provokes military response from Constantius Chlorus"
+    }
+  ]
+}
