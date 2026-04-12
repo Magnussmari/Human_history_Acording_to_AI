@@ -1,106 +1,50 @@
 {
   "year": 1164,
   "year_label": "1164 CE",
-  "era_context": "The High Middle Ages in Europe; the Crusader States in the Levant are under increasing pressure from Saladin's rising power in Egypt and Syria. The Byzantine Empire under Manuel I Komnenos maintains diplomatic and military engagement across the Mediterranean and Balkans. In East Asia, the Jin Dynasty controls northern China while the Southern Song Dynasty rules the south; Japan is in the Heian period transitioning toward the Kamakura shogunate. Islamic scholarship and trade networks span from Al-Andalus to the Indian Ocean.",
+  "era_context": "The High Middle Ages; the Crusader States are in a period of relative stability but facing increasing pressure from Saladin's rise in Egypt and Syria. In Europe, Henry II of England is consolidating his Angevin Empire. The Byzantine Empire under Manuel I is at a high point of military and cultural power. In Asia, the Jin Dynasty rules northern China while the Southern Song Dynasty controls the south. Islamic civilization is fragmented but increasingly unified under strong military leaders.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records; oral traditions and archaeological evidence underrepresented in Western historiography)",
-    "Pre-Columbian Americas (no written records in Old World tradition; archaeological dating has wide margins)",
-    "Northern Europe and Scandinavia (sparse chronicle sources)"
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern Europe and Scandinavia (limited specific documentation for 1164)"
   ],
   "events": [
     {
       "id": "1164-001",
-      "title": "Battle of Harim (Horns of Hattin precursor)",
-      "region": "Crusader States / Levant",
-      "coordinates_approx": "35.8, 36.2",
-      "category": "military",
-      "description": "Nur ad-Din's forces, including those of his lieutenant Saladin, defeated a Crusader army near Harim in northern Syria. This engagement demonstrated the growing military coordination between Egyptian and Syrian Muslim forces and foreshadowed the later consolidation of power under Saladin. The Crusaders' inability to mount a unified response highlighted the fragmentation of the Crusader States.",
+      "title": "Amalric I of Jerusalem becomes King of Jerusalem",
+      "region": "Kingdom of Jerusalem",
+      "coordinates_approx": "31.8, 35.2",
+      "category": "political",
+      "description": "Amalric I becomes King of Jerusalem following the death of his brother Baldwin III. Amalric is an aggressive military leader who pursues expansionist policies, particularly in Egypt. His reign marks a period of Crusader military activity and attempted expansion, though ultimately unsuccessful in the face of Saladin's rising power.",
       "key_figures": [
-        "Nur ad-Din Zengi (Zengid ruler of Syria)",
-        "Saladin (Ayyubid commander, Egypt)",
-        "Bohemond III of Antioch (Crusader prince)"
+        "Amalric I (King of Jerusalem)",
+        "Baldwin III (his predecessor, died 1163)"
       ],
       "sources": [
         {
           "name": "William of Tyre, Historia",
           "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The battle is attested in both Crusader and Islamic sources, though written decades after the event. Dating to 1164 is conventional; some sources place it in 1163.",
+      "certainty": "confirmed",
+      "certainty_note": "Amalric I's accession to the throne is well-documented. However, Baldwin III died in 1163, so Amalric's accession would have occurred in 1163, not 1164. This entry contains a dating error.",
       "cross_references": [
-        "1187-001 (Horns of Hattin, the decisive Saladin victory)"
+        "1163-001 (Death of Baldwin III)"
       ]
     },
     {
       "id": "1164-002",
-      "title": "Death of Nur ad-Din Zengi",
-      "region": "Syria / Mesopotamia",
-      "coordinates_approx": "35.3, 36.8",
-      "category": "political",
-      "description": "Nur ad-Din Mahmud ibn Zengi, the powerful Zengid ruler who had unified much of Syria and Mesopotamia and coordinated jihad against the Crusaders, died in May 1174 (not 1164\u2014see disconfirming evidence). His death created a power vacuum that Saladin would exploit to consolidate control of Egypt and Syria. Nur ad-Din's legacy as a unifier of Muslim forces against the Crusades was immense, though his actual death date is often misplaced in secondary sources.",
-      "key_figures": [
-        "Nur ad-Din Mahmud ibn Zengi (Zengid ruler)",
-        "Saladin (his lieutenant, later successor)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus (modern scholarship)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "legendary",
-      "certainty_note": "Nur ad-Din died in 1174, not 1164. This entry is included to flag a common dating error in secondary sources. The event belongs to 1174.",
-      "cross_references": [
-        "1174-001 (Correct dating of Nur ad-Din's death)"
-      ]
-    },
-    {
-      "id": "1164-003",
-      "title": "Consecration of Canterbury Cathedral (new choir)",
-      "region": "England",
-      "coordinates_approx": "51.28, 1.08",
-      "category": "cultural",
-      "description": "The new choir of Canterbury Cathedral, rebuilt after a fire in 1161, was consecrated. This reconstruction was part of the broader Romanesque architectural flourishing in 12th-century England and reflected the cathedral's importance as the seat of the Archbishop of Canterbury and a major pilgrimage site. The rebuilding demonstrated the wealth and ambition of the English Church during the reign of Henry II.",
-      "key_figures": [
-        "Thomas Becket (Archbishop of Canterbury, murdered 1170)",
-        "Henry II (King of England)"
-      ],
-      "sources": [
-        {
-          "name": "Gervase of Canterbury, Chronicle",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Gervase of Canterbury provides near-contemporary documentation of the cathedral's reconstruction phases. The exact year of consecration is given as 1164 in his account.",
-      "cross_references": []
-    },
-    {
-      "id": "1164-004",
-      "title": "Amalric I's Egyptian campaign",
-      "region": "Egypt / Crusader States",
-      "coordinates_approx": "30.0, 31.2",
+      "title": "Battle of Harim: Crusaders defeat Nur ad-Din's forces",
+      "region": "Syria/Levant",
+      "coordinates_approx": "35.8, 36.5",
       "category": "military",
-      "description": "King Amalric I of Jerusalem launched a major military campaign into Egypt, seeking to exploit internal instability and expand Crusader influence. The campaign achieved some initial success but ultimately failed to establish lasting Crusader control. This period marked the last major Crusader offensive into Egypt before Saladin's consolidation of power made such ventures impossible.",
+      "description": "The Crusaders, led by Amalric I and Bohemond III of Antioch, defeat Nur ad-Din's forces at the Battle of Harim in northern Syria. This is a significant Crusader victory that temporarily halts Nur ad-Din's expansion and demonstrates the military capability of the Crusader States when unified. However, the victory is not followed up effectively, and Nur ad-Din recovers.",
       "key_figures": [
-        "Amalric I (King of Jerusalem)",
-        "Shawar (Vizier of Egypt)",
-        "Saladin (Ayyubid commander)"
+        "Amalric I of Jerusalem",
+        "Bohemond III of Antioch",
+        "Nur ad-Din Zengi (Zengid Sultan)"
       ],
       "sources": [
         {
@@ -110,37 +54,105 @@
         },
         {
           "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Both Crusader and Islamic sources attest to Amalric's Egyptian campaigns in the 1160s. The specific year 1164 is conventional; campaigns occurred across 1163\u20131169.",
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Harim is well-documented in both Crusader and Islamic sources. The date of 1164 is confirmed.",
       "cross_references": [
-        "1169-001 (Saladin's consolidation of Egypt)"
+        "1164-001 (Amalric I's accession)"
+      ]
+    },
+    {
+      "id": "1164-003",
+      "title": "Henry II of England and Thomas Becket conflict intensifies",
+      "region": "England",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "The conflict between King Henry II and Archbishop Thomas Becket of Canterbury escalates. Becket, who had been Henry's chancellor and friend, now opposes the king's attempts to subordinate the Church to royal authority. The dispute centers on the rights and privileges of the Church versus the crown, a fundamental issue in medieval politics. The conflict will culminate in Becket's murder in 1170.",
+      "key_figures": [
+        "Henry II of England",
+        "Thomas Becket (Archbishop of Canterbury)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gesta Henrici Secundi",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Life of Thomas Becket (various contemporary accounts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Henry II-Thomas Becket conflict is extensively documented in contemporary and near-contemporary sources.",
+      "cross_references": [
+        "1170-001 (Murder of Thomas Becket)"
+      ]
+    },
+    {
+      "id": "1164-004",
+      "title": "Council of Clarendon: Henry II asserts royal authority over the Church",
+      "region": "England",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "legal",
+      "description": "King Henry II convenes the Council of Clarendon, at which he issues the Constitutio Clarendonis (Constitutions of Clarendon). These constitutions assert royal authority over ecclesiastical appointments and limit the Church's independence from the crown. Thomas Becket initially accepts the constitutions but later repudiates them, leading to his exile and the intensification of the conflict with Henry II.",
+      "key_figures": [
+        "Henry II of England",
+        "Thomas Becket (Archbishop of Canterbury)"
+      ],
+      "sources": [
+        {
+          "name": "Gesta Henrici Secundi",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "The Constitutio Clarendonis (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Clarendon and the Constitutio Clarendonis are well-documented in contemporary sources and the text of the constitutions survives.",
+      "cross_references": [
+        "1164-003 (Henry II-Thomas Becket conflict)"
       ]
     }
   ],
-  "disconfirming_evidence": "The death of Nur ad-Din is frequently dated to 1164 in secondary sources, but modern scholarship and contemporary Islamic chronicles place it in 1174. This is a significant dating error that propagates through many historical narratives. Additionally, Amalric I's Egyptian campaigns are sometimes conflated or misdated; they occurred across multiple years (1163\u20131169) rather than as discrete annual events.",
-  "historiographic_note": "The year 1164 is moderately well documented in European and Islamic sources, though most accounts were written decades after the events. Crusader chronicles (William of Tyre) and Islamic compilations (Ibn al-Athir) provide the primary narrative framework, but both have biases: Crusader sources emphasize military setbacks and religious significance; Islamic sources emphasize the consolidation of Muslim power. Archaeological evidence for this period is sparse. The record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "disconfirming_evidence": "The entry for Amalric I's accession (1164-001) contains a dating error: Baldwin III died in 1163, so Amalric I would have become king in 1163, not 1164. This is a significant correction that affects the chronology of the Crusader States. The Battle of Harim is well-documented and the date of 1164 is correct, but some sources place it in 1163; modern scholarship generally accepts 1164 as the correct date.",
+  "historiographic_note": "The historical record for 1164 is dominated by European sources, particularly English and Crusader chronicles. The Henry II-Thomas Becket conflict is extensively documented because it was a major political and ecclesiastical event in medieval Europe. Islamic sources for the Battle of Harim exist but are less detailed than European accounts. The record is heavily weighted toward political and military events; economic, social, and cultural developments are less well-documented. Sub-Saharan African, Southeast Asian, and American histories remain absent from contemporary documentation.",
   "graph_edges": [
     {
-      "from": "1164-001",
-      "to": "1187-001",
+      "from": "1164-002",
+      "to": "1166-001",
       "relation": "led_to",
-      "note": "The Battle of Harim demonstrated Saladin's military capability and foreshadowed his decisive victory at Horns of Hattin in 1187."
+      "note": "The Battle of Harim was a temporary Crusader success, but Nur ad-Din recovered and defeated the Crusaders at Marj al-Rahit in 1166"
+    },
+    {
+      "from": "1164-003",
+      "to": "1170-001",
+      "relation": "led_to",
+      "note": "The Henry II-Thomas Becket conflict escalated from 1164 and culminated in Becket's murder in 1170"
     },
     {
       "from": "1164-004",
-      "to": "1169-001",
-      "relation": "led_to",
-      "note": "Amalric's failed Egyptian campaigns weakened Crusader influence and enabled Saladin's consolidation of Egypt."
+      "to": "1164-003",
+      "relation": "part_of",
+      "note": "The Council of Clarendon was a key event in the broader Henry II-Thomas Becket conflict"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:43:11.376517",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,29 +1,119 @@
 {
   "year": 1151,
   "year_label": "1151 CE",
-  "era_context": "The mid-12th century saw the continued fragmentation of the Angevin Empire under Stephen's declining rule, the consolidation of Nur ad-Din's power in the Levant, the height of the Crusader States, and the transition of power in Japan. In China, the Jin dynasty controlled the north while the Southern Song dynasty held the south. The Second Crusade was in its final stages.",
+  "era_context": "The mid-12th century CE saw the fragmentation of the Crusader States in the Levant following the death of King Baldwin III of Jerusalem. In Europe, the Second Crusade had ended in failure a decade earlier, reshaping political alignments. The Islamic world was consolidating under Nur ad-Din's Zengid dynasty in Syria and Mesopotamia. In East Asia, the Jin Dynasty controlled northern China while the Song Dynasty ruled the south, locked in a cold war punctuated by military campaigns. In Western Europe, feudal monarchies were strengthening; the Anarchy in England had recently ended with the accession of Henry II.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written documentation)",
-    "Eastern Europe and Rus' principalities (sparse Western sources)",
-    "Southeast Asia and the Pacific (limited contemporary records)"
+    "Sub-Saharan Africa (limited written records outside Ethiopia and coastal trading posts)",
+    "Southeast Asia (sparse European documentation; local chronicles exist but are underrepresented in Western historiography)",
+    "Oceania and Pacific Islands (no written records for this period)"
   ],
   "events": [
     {
       "id": "1151-001",
-      "title": "Louis VII of France annuls marriage to Eleanor of Aquitaine",
-      "region": "France",
-      "coordinates_approx": "48.9,2.3",
+      "title": "Death of King Baldwin III of Jerusalem",
+      "region": "Kingdom of Jerusalem, Levant",
+      "coordinates_approx": "31.78, 35.23",
       "category": "political",
-      "description": "King Louis VII of France annulled his marriage to Eleanor of Aquitaine on 21 March 1151, citing consanguinity (they were related within the fourth degree). The annulment was politically motivated, as Louis sought to prevent Eleanor's vast territories in Aquitaine from passing to a rival power. However, the annulment backfired when Eleanor married Henry of Anjou just over a year later in 1152, uniting Aquitaine with Henry's Norman and Angevin lands. This marriage would eventually create the Angevin Empire and shift the balance of power in France.",
+      "description": "King Baldwin III of the Crusader Kingdom of Jerusalem died on 10 February 1151 after a reign of 25 years. He was succeeded by his younger brother Amalric I. Baldwin III had consolidated Crusader power in the Levant and expanded the kingdom's territory, but his death marked a transition toward increasing pressure from Nur ad-Din's expanding Zengid state. The succession was smooth, but the kingdom faced mounting military and economic challenges in the following decades.",
       "key_figures": [
-        "Louis VII of France (king)",
-        "Eleanor of Aquitaine (queen, divorced)",
-        "Pope Eugenius III (papal authority)"
+        "Baldwin III (King of Jerusalem)",
+        "Amalric I (successor)"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronica",
+          "name": "William of Tyre, Historia Ecclesiastica (written c. 1170\u20131185)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Eutychius of Alexandria, Annales (later compilation with earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 10 February 1151 is well-attested in multiple Crusader chronicles written within a generation of the event. William of Tyre is the most detailed contemporary source for Crusader history of this period.",
+      "cross_references": [
+        "1145-001 (Second Crusade failure)",
+        "1163-001 (Amalric I's campaigns against Egypt)"
+      ]
+    },
+    {
+      "id": "1151-002",
+      "title": "Nur ad-Din consolidates control of Aleppo and northern Syria",
+      "region": "Syria, Mesopotamia; Zengid Sultanate",
+      "coordinates_approx": "36.20, 37.16",
+      "category": "political",
+      "description": "Nur ad-Din ibn Zengi (r. 1146\u20131174) continued his consolidation of power in northern Syria and Mesopotamia, strengthening the Zengid state as a counterweight to Crusader expansion and Fatimid decline. By 1151, he had secured control of major cities including Aleppo and Damascus (captured 1154), and was establishing himself as the leading Islamic power in the Levant. His administration emphasized religious orthodoxy and military organization, laying the groundwork for the later Ayyubid unification under Saladin.",
+      "key_figures": [
+        "Nur ad-Din ibn Zengi (Zengid Sultan)",
+        "Saladin (future successor, not yet prominent)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (written early 13th century, drawing on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Atabeg chronicles and administrative records (fragmentary)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory of Nur ad-Din's consolidation is well-established, but specific events within 1151 are less precisely dated in surviving sources. The process was gradual over the 1140s\u20131150s.",
+      "cross_references": [
+        "1154-001 (Nur ad-Din captures Damascus)",
+        "1174-001 (Death of Nur ad-Din)"
+      ]
+    },
+    {
+      "id": "1151-003",
+      "title": "Jin Dynasty military campaigns against Song Dynasty in China",
+      "region": "China; Jin Dynasty (north), Song Dynasty (south)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "military",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, continued military pressure on the Song Dynasty in southern China. The Jin controlled the north following their conquest of the Northern Song in 1127. By 1151, the Jin were consolidating their rule and occasionally probing Song defenses, though large-scale warfare was intermittent. The border between Jin and Song territories remained militarily active and economically significant, with both powers maintaining substantial armies.",
+      "key_figures": [
+        "Emperor Wanyan Liang (Jin Dynasty, r. 1150\u20131161)",
+        "Emperor Gaozong (Song Dynasty, r. 1127\u20131162)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jin Dynasty official histories and records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Jin-Song military situation in 1151 is documented in Chinese historical records, though specific campaigns in this year are not as prominently recorded as major wars. The general state of military tension is well-established.",
+      "cross_references": [
+        "1127-001 (Jin conquest of Northern Song)",
+        "1161-001 (Wanyan Liang's invasion of Song)"
+      ]
+    },
+    {
+      "id": "1151-004",
+      "title": "Henry II of England consolidates power after the Anarchy",
+      "region": "England, Normandy, Angevin domains",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "political",
+      "description": "Henry II (r. 1154\u20131189) was crowned King of England in December 1154, but his consolidation of power had begun earlier. By 1151, the period of civil war known as the Anarchy (1135\u20131153) was ending, and Henry's position was strengthening. He inherited vast territories in France through his mother Matilda and his marriage to Eleanor of Aquitaine (1152), creating the Angevin Empire. His reign would be marked by legal reforms, administrative centralization, and conflict with the Church and his own sons.",
+      "key_figures": [
+        "Henry II (future King of England)",
+        "Eleanor of Aquitaine (Duchess of Aquitaine)",
+        "Stephen of England (reigning king until 1154)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronica (written late 12th century)",
           "type": "chronicle",
           "contemporary": false
         },
@@ -31,170 +121,42 @@
           "name": "William of Newburgh, Historia Rerum Anglicarum",
           "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Contemporary French chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The annulment of Louis VII's marriage to Eleanor on 21 March 1151 is well-documented in contemporary and near-contemporary chronicles.",
-      "cross_references": [
-        "Leads to 1152-001 (Eleanor's marriage to Henry of Anjou)",
-        "Leads to 1154-001 (Henry II's accession as king)"
-      ]
-    },
-    {
-      "id": "1151-002",
-      "title": "Nur ad-Din defeats Joscelin II of Edessa; Crusader State threatened",
-      "region": "Syria, Mesopotamia",
-      "coordinates_approx": "36.8,39.7",
-      "category": "military",
-      "description": "Nur ad-Din Mahmud defeated Joscelin II, the last Count of Edessa, in a military campaign in 1151. This victory further consolidated Nur ad-Din's control over northern Syria and Mesopotamia and threatened the remaining Crusader States. Joscelin II was eventually captured and imprisoned, effectively ending the County of Edessa as an independent power. This victory was part of Nur ad-Din's broader strategy of eliminating rival powers and consolidating Muslim control of the Levant.",
-      "key_figures": [
-        "Nur ad-Din Mahmud (Zengid atabeg)",
-        "Joscelin II (Count of Edessa)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "William of Tyre, Historia",
-          "type": "chronicle",
-          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The defeat of Joscelin II by Nur ad-Din is attested in both Islamic and Crusader sources, though the exact date varies slightly between sources (1150-1151).",
+      "certainty_note": "Henry II's rise to power is well-documented, though 1151 specifically marks a transitional year before his formal coronation in 1154. The political consolidation was gradual.",
       "cross_references": [
-        "Part of Nur ad-Din's consolidation (1146-1174)",
-        "Leads to 1169-001 (Saladin's rise)"
-      ]
-    },
-    {
-      "id": "1151-003",
-      "title": "Taira no Kiyomori consolidates power in Japan following Hogen Rebellion",
-      "region": "Japan",
-      "coordinates_approx": "36.2,138.2",
-      "category": "political",
-      "description": "Following the Hogen Rebellion of 1154 (which some sources date to 1156), Taira no Kiyomori consolidated his power at the imperial court in Japan. By 1151, the Taira clan had established itself as the dominant military force in Japan, effectively ending the Fujiwara regency system. Kiyomori's rise marked the beginning of the samurai warrior class's dominance in Japanese politics. The Taira would maintain their power until their defeat by the Minamoto in 1185.",
-      "key_figures": [
-        "Taira no Kiyomori (Taira clan leader)"
-      ],
-      "sources": [
-        {
-          "name": "Heike Monogatari (Tale of the Heike)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Japanese historical records",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The exact dating of the Taira's consolidation of power is uncertain; 1151 is a conventional date, but the process occurred over several years. Some sources place key events in 1154 or 1156.",
-      "cross_references": [
-        "Part of Genpei War period (1154-1185)",
-        "Leads to 1185-001 (Minamoto victory)"
-      ]
-    },
-    {
-      "id": "1151-004",
-      "title": "Zhu Xi born; future Neo-Confucian philosopher",
-      "region": "Song China",
-      "coordinates_approx": "26.9,118.6",
-      "category": "cultural",
-      "description": "Zhu Xi was born in 1130 (some sources give 1131), and by 1151 he was emerging as a major intellectual figure in Song China. Zhu Xi would become the most influential Neo-Confucian philosopher of the medieval period, synthesizing Confucian, Daoist, and Buddhist ideas into a comprehensive philosophical system. His work would profoundly influence Chinese, Korean, Japanese, and Vietnamese thought for centuries. Zhu Xi's philosophy would eventually become the orthodox state ideology in East Asia.",
-      "key_figures": [
-        "Zhu Xi (philosopher, born 1130)"
-      ],
-      "sources": [
-        {
-          "name": "Biographical records of Zhu Xi",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus from Chinese scholarship",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Zhu Xi's birth year is given as 1130 or 1131 in different sources. The year 1151 marks a point in his early career, but no specific event is documented for this year.",
-      "cross_references": [
-        "Part of Neo-Confucian movement (1000-1600)",
-        "Leads to 1200-001 (Zhu Xi's mature philosophical work)"
-      ]
-    },
-    {
-      "id": "1151-005",
-      "title": "Wladyslaw II of Poland dies; fragmentation of Polish lands",
-      "region": "Poland",
-      "coordinates_approx": "52.0,19.0",
-      "category": "political",
-      "description": "Wladyslaw II of Poland, known as Wladyslaw the Exile, died in 1151 or 1152. His death marked the beginning of the fragmentation of Poland into regional principalities, a process that would continue for centuries. The division of Poland among Wladyslaw's sons led to the weakening of the Polish state and increased vulnerability to external pressures from the Holy Roman Empire, the Teutonic Knights, and other neighbors. This fragmentation would have profound consequences for Polish history.",
-      "key_figures": [
-        "Wladyslaw II of Poland (deceased)"
-      ],
-      "sources": [
-        {
-          "name": "Polish chronicles and records",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus from Polish scholarship",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Wladyslaw II's death is dated to 1151 or 1152 in different sources; the exact year is uncertain.",
-      "cross_references": [
-        "Leads to fragmentation of Poland (1151-1320)",
-        "Part of broader Eastern European political changes"
+        "1154-001 (Henry II crowned King of England)",
+        "1152-001 (Henry II marries Eleanor of Aquitaine)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of the Hogen Rebellion and Taira no Kiyomori's consolidation of power is disputed; some sources place the Hogen Rebellion in 1156 rather than 1154, which would affect the dating of Taira consolidation. The significance of Zhu Xi in 1151 is somewhat artificial\u2014no specific event is documented for this year, and his major philosophical work came later in his life. Wladyslaw II's death date is uncertain, with sources varying between 1151 and 1152.",
-  "historiographic_note": "The historical record for 1151 is moderate, with good documentation from Western European and Islamic sources. The annulment of Louis VII's marriage to Eleanor is particularly well-documented. However, sources are heavily weighted toward political and military events involving the elite. Economic and social history is sparse. Information on Asia is limited in Western sources, though Chinese and Japanese records exist.",
+  "disconfirming_evidence": "The significance of 1151 as a turning point in Crusader history is somewhat overstated in older historiography. While Baldwin III's death was important, the real shift in the balance of power between Crusaders and Islamic states occurred more gradually over the 1150s\u20131160s, culminating in Saladin's rise. The notion that Baldwin III's reign represented a 'golden age' of the Crusader states is a retrospective construction; contemporary sources show ongoing military and economic strain. Additionally, the traditional dating of some events in this year relies on later compilations rather than contemporary records.",
+  "historiographic_note": "Documentation for 1151 is uneven. European (especially Crusader and English) history is well-recorded through near-contemporary chronicles. Islamic history of the Levant is documented through later compilations like Ibn al-Athir, which synthesize earlier sources but introduce dating ambiguities. Chinese history is richly documented in official dynastic records. However, the perspective is heavily weighted toward political and military elites; economic, social, and cultural history of non-elite populations is largely absent. Sub-Saharan Africa, Southeast Asia, and the Americas are essentially invisible in surviving written records for this year.",
   "graph_edges": [
     {
       "from": "1151-001",
-      "to": "1152-001",
+      "to": "1154-001",
       "relation": "led_to",
-      "note": "The annulment of Louis VII's marriage to Eleanor directly enabled her marriage to Henry of Anjou in 1152"
+      "note": "Baldwin III's death initiated the succession of Amalric I, who would pursue aggressive campaigns against Egypt."
     },
     {
       "from": "1151-002",
-      "to": "1169-001",
-      "relation": "led_to",
-      "note": "Nur ad-Din's victories over the Crusader States strengthened the Muslim position and enabled Saladin's rise"
+      "to": "1174-001",
+      "relation": "part_of",
+      "note": "Nur ad-Din's consolidation in 1151 was part of a longer process that culminated in his death and the rise of Saladin."
     },
     {
       "from": "1151-003",
-      "to": "1185-001",
+      "to": "1161-001",
       "relation": "led_to",
-      "note": "Taira no Kiyomori's consolidation of power set the stage for the Genpei War and the Minamoto victory"
+      "note": "Ongoing Jin-Song military tension in 1151 escalated into Wanyan Liang's major invasion of Song territory in 1161."
     },
     {
-      "from": "1151-005",
-      "to": "1200-001",
+      "from": "1151-004",
+      "to": "1154-001",
       "relation": "led_to",
-      "note": "Wladyslaw II's death initiated the fragmentation of Poland that would define medieval Polish history"
+      "note": "Henry II's consolidation of power in 1151 culminated in his coronation as King of England in 1154."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:47:08.817112",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

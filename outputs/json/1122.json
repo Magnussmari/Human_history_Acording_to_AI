@@ -1,181 +1,178 @@
 {
   "year": 1122,
   "year_label": "1122 CE",
-  "era_context": "The early 12th century CE saw the resolution of the Investiture Controversy, a defining conflict of the High Middle Ages. The Song Dynasty ruled southern China before the Jin conquest (1127). The Islamic world was fragmented among competing dynasties. Europe was transitioning from the tumultuous 11th century toward greater feudal stability and ecclesiastical reform.",
-  "documentation_level": "rich",
+  "era_context": "The early 12th century continues with the Crusader States consolidating in the Levant, the Song Dynasty at its economic and cultural peak in China, and the Holy Roman Empire under Henry V's rule. This is an era of religious ferment, with the Investiture Controversy reaching its climax and the Gregorian Reform movement consolidating its gains. Technological advancement and the consolidation of feudal hierarchies characterize this period across Europe and Asia.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Southeast Asia",
-    "Pre-Columbian Americas",
-    "Central Asia (limited sources)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Pre-Columbian Americas (no written records)",
+    "Central Asia and the Steppe (limited sources)"
   ],
   "events": [
     {
       "id": "1122-001",
-      "title": "Concordat of Worms signed",
-      "region": "Holy Roman Empire, Papal States",
-      "coordinates_approx": "49.6316, 8.3567",
-      "category": "legal",
-      "description": "On 23 September 1122, Pope Callixtus II and Holy Roman Emperor Henry V signed the Concordat of Worms, ending the Investiture Controversy that had dominated Church-state relations for nearly 50 years. The concordat established a compromise: the Church would elect bishops and abbots freely, but the emperor retained the right to invest them with secular authority (regalia) through a scepter. This settlement represented a significant assertion of ecclesiastical independence while acknowledging imperial prerogatives. The agreement was formalized in two documents\u2014the papal privilege and the imperial decree\u2014and was ratified by the First Lateran Council in 1123.",
+      "title": "Concordat of Worms; settlement of the Investiture Controversy",
+      "region": "Holy Roman Empire (Central Europe)",
+      "coordinates_approx": "49.6, 8.4",
+      "category": "political",
+      "description": "The Concordat of Worms, signed on 23 September 1122, was a landmark agreement between Pope Calixtus II and Emperor Henry V that settled the Investiture Controversy, one of the most significant conflicts of the 11th and early 12th centuries. The concordat established a compromise: the Church would elect bishops and invest them with spiritual authority, while the emperor would invest them with temporal authority (lands and secular power). This agreement ended decades of conflict between the papacy and the Holy Roman Empire and represented a major victory for the Church's independence from secular authority. The concordat was ratified by the First Lateran Council in 1123.",
       "key_figures": [
-        "Pope Callixtus II (Guido of Burgundy)",
-        "Holy Roman Emperor Henry V",
-        "Cardinal bishops and imperial advisors"
+        "Pope Calixtus II",
+        "Emperor Henry V",
+        "Cardinal Lambert of Ostia (papal legate)"
       ],
       "sources": [
         {
-          "name": "Concordat of Worms (primary text of the agreement)",
+          "name": "Concordat of Worms (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chronicle of Sigebert of Gembloux",
+          "name": "Liber Pontificalis (Book of the Popes)",
           "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Liber Pontificalis",
-          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Concordat of Worms is one of the most thoroughly documented agreements of the medieval period. The date (23 September 1122) is secure, and the text survives in multiple copies.",
+      "certainty_note": "The Concordat of Worms is one of the most well-documented events of the 12th century, with the original text surviving and multiple contemporary accounts.",
       "cross_references": [
-        "1123-001 (First Lateran Council, which ratified the concordat)"
+        "1123-001 (First Lateran Council)"
       ]
     },
     {
       "id": "1122-002",
-      "title": "Death of Emperor Henry V (anticipated but occurred 1125)",
-      "region": "Holy Roman Empire",
-      "coordinates_approx": "50.0, 10.0",
-      "category": "political",
-      "description": "Note: Henry V did not die in 1122 but in 1125. However, 1122 marked the end of his major conflicts with the papacy. After the Concordat of Worms, Henry V's reign entered a period of relative stability, though he faced increasing opposition from German princes and continued struggles over succession. The concordat represented the apex of his ecclesiastical authority.",
+      "title": "Song Dynasty's economic peak; technological and commercial advancement",
+      "region": "Song Dynasty (China)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "economic",
+      "description": "By 1122, the Song Dynasty had reached the height of its economic power and technological achievement. The Song economy was the most advanced in the world at this time, with sophisticated banking systems, extensive trade networks, and advanced manufacturing (particularly in ceramics, textiles, and metalwork). The Song Dynasty's technological innovations included water-powered mills, advanced printing technology, and improvements in agriculture. By 1122, the Song Dynasty controlled approximately 60% of the world's GDP (in modern economic terms), making it the wealthiest state in the world.",
       "key_figures": [
-        "Holy Roman Emperor Henry V"
+        "Emperor Huizong (Song Dynasty, r. 1100\u20131126)"
       ],
       "sources": [
         {
-          "name": "Chronicle of Sigebert of Gembloux",
+          "name": "Song Huiyao (Collected Statutes of the Song Dynasty)",
           "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Guang, Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty economic achievements are well-documented in Chinese historical records and confirmed by archaeological evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "1122-003",
+      "title": "Crusader consolidation in the Levant; establishment of military orders",
+      "region": "Levant (Syria, Palestine, Mesopotamia)",
+      "coordinates_approx": "35.0, 36.0",
+      "category": "military",
+      "description": "By 1122, the Crusader States were consolidating their control of the Levant and establishing military and religious orders to defend their territories. The Knights Templar, founded in 1119, were becoming an important military force by 1122. These military orders combined monastic discipline with military training and were crucial to the defense of the Crusader States. By 1122, the Crusaders had established a network of castles and fortifications throughout the Levant and were developing sophisticated military strategies.",
+      "key_figures": [
+        "Baldwin II (King of Jerusalem)",
+        "Hugues de Payens (founder of the Knights Templar)"
+      ],
+      "sources": [
+        {
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Crusader States and the establishment of military orders are well-documented in Crusader chronicles.",
+      "cross_references": [
+        "1119-001 (Founding of the Knights Templar)"
+      ]
+    },
+    {
+      "id": "1122-004",
+      "title": "Norman consolidation in Sicily; Roger II's rise to power",
+      "region": "Sicily and Southern Italy",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "political",
+      "description": "By 1122, the Norman conquest of Sicily was largely complete, and Roger II was consolidating power as Count of Sicily. Roger II would be crowned the first King of Sicily in 1130, but by 1122, he was already the dominant Norman leader in Sicily. The Norman state in Sicily was becoming a major Mediterranean power, blending Norman, Byzantine, and Islamic administrative and cultural traditions. By 1122, Sicily was developing a sophisticated multicultural court and becoming a center of learning and culture.",
+      "key_figures": [
+        "Roger II (Count of Sicily, later King)"
+      ],
+      "sources": [
+        {
+          "name": "Geoffrey Malaterra, De rebus gestis Rogerii Comitis Normannorum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Norman consolidation in Sicily is well-documented in contemporary and near-contemporary chronicles.",
+      "cross_references": [
+        "1130-001 (Roger II crowned King of Sicily)"
+      ]
+    },
+    {
+      "id": "1122-005",
+      "title": "Monastic reform and Cistercian expansion; Bernard of Clairvaux's influence",
+      "region": "Western Europe",
+      "coordinates_approx": "48.0, 5.0",
+      "category": "religious",
+      "description": "By 1122, the Cistercian Order was rapidly expanding across Western Europe under the leadership of Bernard of Clairvaux (who joined the order in 1112). The Cistercians promoted strict monastic discipline, agricultural innovation, and spiritual renewal. By 1122, the order had established numerous abbeys and was becoming a major landowner and economic force. The Cistercian expansion reflected broader religious ferment and the desire for monastic reform that characterized the 12th century. Bernard of Clairvaux was becoming increasingly influential as a spiritual leader and advisor to popes and kings.",
+      "key_figures": [
+        "Bernard of Clairvaux (Cistercian abbot)",
+        "Stephen Harding (Cistercian abbot general)"
+      ],
+      "sources": [
+        {
+          "name": "Bernard of Clairvaux, Letters and writings",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry V's reign and the concordat are well-documented. The note about his death in 1125 (not 1122) is a correction to potential confusion.",
-      "cross_references": [
-        "1125-001 (Death of Henry V)"
-      ]
-    },
-    {
-      "id": "1122-003",
-      "title": "Crusader consolidation in the Levant",
-      "region": "Levant (Syria, Palestine, Lebanon)",
-      "coordinates_approx": "33.5, 35.5",
-      "category": "military",
-      "description": "In 1122, Crusader forces continued their consolidation of territorial gains made during the First Crusade (1096\u20131099). The Kingdom of Jerusalem, the County of Edessa, the Principality of Antioch, and the County of Tripoli were establishing administrative structures and fortifications. The year saw ongoing military campaigns against Seljuk and Fatimid forces, with the Crusaders gradually expanding their control of the coastal regions and key inland strongholds.",
-      "key_figures": [
-        "King Baldwin II of Jerusalem (reigned 1118\u20131131)",
-        "Tancred of Antioch (regent of Antioch)",
-        "Seljuk and Fatimid commanders"
-      ],
-      "sources": [
-        {
-          "name": "Chronicle of Fulcher of Chartres",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Gesta Francorum et aliorum Hierosolymitanorum",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Crusader consolidation in 1122 is attested in chronicles but often lacks specific dated events. The broader trend is secure.",
-      "cross_references": []
-    },
-    {
-      "id": "1122-004",
-      "title": "Song Dynasty cultural flourishing",
-      "region": "Song China",
-      "coordinates_approx": "30.0, 115.0",
-      "category": "cultural",
-      "description": "The Song Dynasty, particularly under Emperor Huizong (reigned 1100\u20131126), was experiencing a period of cultural and artistic flourishing. In 1122, the imperial court was patronizing scholars, artists, and poets. The Song period is renowned for advances in landscape painting, calligraphy, and poetry. Emperor Huizong himself was an accomplished painter and calligrapher. This cultural efflorescence would be interrupted by the Jin conquest of northern China in 1127.",
-      "key_figures": [
-        "Emperor Huizong of Song",
-        "Song scholars and artists"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Song culture",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Song cultural achievements are well-documented in Chinese sources. Specific events in 1122 are not always precisely dated but fit within the broader pattern of cultural patronage.",
-      "cross_references": []
-    },
-    {
-      "id": "1122-005",
-      "title": "Seljuk Sultanate of Rum consolidation",
-      "region": "Anatolia",
-      "coordinates_approx": "39.0, 35.0",
-      "category": "political",
-      "description": "The Seljuk Sultanate of Rum, established in central Anatolia after the Battle of Manzikert (1071), continued to consolidate its power in 1122. Under Sultan Mesud I (reigned 1116\u20131156), the Seljuks were establishing administrative structures, building fortifications, and expanding their territory at the expense of the Byzantine Empire. The sultanate was becoming a major regional power in the eastern Mediterranean.",
-      "key_figures": [
-        "Seljuk Sultan Mesud I"
-      ],
-      "sources": [
-        {
-          "name": "Islamic chronicles (e.g., Ibn al-Athir's Complete History)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (e.g., Anna Komnena's Alexiad)",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Seljuk consolidation in Anatolia is attested in Islamic and Byzantine sources, but specific events in 1122 are not always precisely documented.",
+      "certainty_note": "The Cistercian expansion and Bernard of Clairvaux's influence are well-documented in monastic records and Bernard's writings.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The Concordat of Worms is often portrayed as a decisive papal victory in the Investiture Controversy, but modern scholarship emphasizes the compromise nature of the agreement. The emperor retained significant influence over ecclesiastical appointments through the investiture of regalia, and secular rulers continued to exercise substantial control over Church affairs throughout the 12th century. The concordat did not end Church-state tensions; it merely shifted the terms of conflict. Additionally, the agreement was not universally accepted; some reformers viewed it as a betrayal of ecclesiastical independence.",
-  "historiographic_note": "Documentation for 1122 is rich for Western European ecclesiastical and political affairs, moderate for Byzantine and Islamic sources, and sparse for Asia, Africa, and the Americas. The Concordat of Worms is one of the best-documented agreements of the medieval period, but the surviving sources reflect the perspectives of literate elites and religious institutions. The experiences of common people are largely absent from the record. There is a significant Western bias in the historiography of this period.",
+  "disconfirming_evidence": "The Concordat of Worms is sometimes portrayed as a complete victory for the Church, but modern scholarship recognizes it as a compromise that left significant imperial authority over ecclesiastical appointments. The concordat did not immediately end all conflicts between the papacy and the Holy Roman Empire; disputes continued throughout the 12th century. The significance of Song Dynasty economic achievements in 1122 is sometimes overstated; the dynasty's economic dominance was gradual and continued to develop through the 12th century. No major disconfirming evidence was identified for the other events listed.",
+  "historiographic_note": "The historical record for 1122 is dominated by European and Chinese sources. The Concordat of Worms is exceptionally well-documented, with the original text surviving and multiple contemporary accounts. Islamic sources are underrepresented in Western scholarship. The year is documented primarily through chronicles written decades or centuries later, introducing potential bias toward court-sponsored narratives and religious perspectives. Archaeological evidence for this year is minimal. The significance of 1122 lies primarily in the Concordat of Worms, which was a major turning point in the relationship between the papacy and the Holy Roman Empire. The other events listed are part of broader trends of consolidation and expansion rather than unique to 1122.",
   "graph_edges": [
     {
       "from": "1122-001",
       "to": "1123-001",
       "relation": "led_to",
-      "note": "The Concordat of Worms was ratified by the First Lateran Council in 1123."
+      "note": "The Concordat of Worms (1122) was ratified by the First Lateran Council (1123)"
     },
     {
-      "from": "1122-001",
-      "to": "1076-001",
-      "relation": "caused_by",
-      "note": "The concordat resolved the Investiture Controversy that began with the conflict between Pope Gregory VII and Emperor Henry IV in 1076."
+      "from": "1122-002",
+      "to": "1127-002",
+      "relation": "contemporary_with",
+      "note": "Song Dynasty's economic peak in 1122 coincided with the beginning of the Jin-Song Wars in 1127"
     },
     {
       "from": "1122-003",
-      "to": "1099-001",
+      "to": "1144-001",
       "relation": "part_of",
-      "note": "Crusader consolidation in 1122 was a continuation of the territorial expansion that began with the First Crusade (1096\u20131099)."
+      "note": "Crusader consolidation in 1122 was part of the broader struggle that led to Zengi's conquest of Edessa in 1144"
+    },
+    {
+      "from": "1122-004",
+      "to": "1130-001",
+      "relation": "led_to",
+      "note": "Roger II's consolidation of power in 1122 led to his coronation as King of Sicily in 1130"
+    },
+    {
+      "from": "1122-005",
+      "to": "1123-001",
+      "relation": "contemporary_with",
+      "note": "Cistercian expansion and monastic reform in 1122 were part of the broader ecclesiastical reform movement reflected in the First Lateran Council (1123)"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:56:51.368204",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

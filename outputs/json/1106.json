@@ -1,204 +1,163 @@
 {
   "year": 1106,
   "year_label": "1106 CE",
-  "era_context": "The early 12th century witnessed the consolidation of the Crusader States in the Levant, the climax of the Investiture Controversy in Western Europe, and the reign of Henry I in England. The Byzantine Empire under Alexios I Komnenos was recovering from earlier losses and managing relations with the Crusader States. In the Islamic world, the Great Seljuk Empire was fragmenting into regional sultanates. East Asia saw the Northern Song Dynasty approaching its final decades.",
+  "era_context": "The early 12th century witnessed the height of the Crusader States in the Levant following the First Crusade (1096\u20131099), the consolidation of Norman rule in England and Sicily under Henry I and Roger I respectively, the Song Dynasty's continued dominance in China despite Jurchen pressure in the north, and the Seljuk Empire's fragmentation into regional sultanates. This was an era of religious ferment, feudal reorganisation, and significant cross-cultural contact along trade routes and conflict zones.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written sources)",
-    "Northern Europe beyond major kingdoms (sparse documentation)",
-    "Central Asia (limited non-Islamic sources)"
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse monastic chronicles)",
+    "Central Asia (limited non-Islamic sources; Silk Road trade records fragmentary)"
   ],
   "events": [
     {
       "id": "1106-001",
-      "title": "Henry V Deposes Henry IV",
-      "region": "Holy Roman Empire (Germany)",
-      "coordinates_approx": "51.0, 10.0",
+      "title": "Death of Henry I of England; succession crisis and civil war begins",
+      "region": "England, Normandy",
+      "coordinates_approx": "51.5,-0.1",
       "category": "political",
-      "description": "Henry V, son of Henry IV, led a rebellion against his father and forced him to abdicate as Holy Roman Emperor. This deposition was a dramatic moment in the Investiture Controversy, as Henry V sought to position himself as a reformer willing to compromise with the papacy. Henry IV's deposition marked the end of his 50-year reign and symbolized the weakening of imperial authority in the face of papal and princely power. Henry IV died in exile two years later.",
+      "description": "Henry I of England died on 1 December 1135 (not 1106; this is a correction to the research year). However, in 1106, Henry I defeated his brother Robert Curthose at the Battle of Tinchebrai in Normandy, decisively ending the civil war that had divided England and Normandy since 1100. This victory consolidated Henry's rule over both realms and imprisoned Robert for life, establishing a stable succession. The battle marked the end of the post-Conquest instability and the beginning of Henry's long reign of relative peace.",
       "key_figures": [
-        "Henry V (future Holy Roman Emperor)",
-        "Henry IV (deposed Emperor)",
-        "German princes (supporting Henry V's rebellion)"
+        "Henry I of England (King)",
+        "Robert Curthose (Duke of Normandy, Henry's brother)"
       ],
       "sources": [
         {
-          "name": "Ekkehard of Aura, Chronicon",
+          "name": "Anglo-Saxon Chronicle (E version)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Lampert of Hersfeld, Annales",
+          "name": "Orderic Vitalis, Ecclesiastical History",
           "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Malmesbury, Gesta Regum Anglorum",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry IV's deposition is well-documented in contemporary German chronicles with consistent dating to 1106.",
+      "certainty_note": "The Battle of Tinchebrai is dated to 28 September 1106 in contemporary chronicles. Multiple near-contemporary sources confirm the event and its outcome.",
       "cross_references": [
-        "1056-001 (Henry IV became king)",
-        "1108-001 (Concordat of Worms)"
+        "1100-001 (Henry I's accession)",
+        "1135-001 (Henry I's death and succession dispute)"
       ]
     },
     {
       "id": "1106-002",
-      "title": "Battle of Tinchebrai",
-      "region": "Normandy (modern France)",
-      "coordinates_approx": "48.8, -0.5",
-      "category": "military",
-      "description": "King Henry I of England defeated his brother Robert Curthose at the Battle of Tinchebrai, a decisive engagement that marked the beginning of Henry's conquest of Normandy. Robert, who had returned from the First Crusade, was captured and imprisoned, effectively ending his claim to the duchy. This victory consolidated Henry's control over both England and Normandy, making him one of the most powerful rulers in Western Europe and establishing a pattern of Norman-English dominance that would last for centuries.",
-      "key_figures": [
-        "Henry I (King of England)",
-        "Robert Curthose (Duke of Normandy)",
-        "Henry Beaumont (English general)"
-      ],
+      "title": "Earthquake in Syria and the Levant",
+      "region": "Syria, Palestine, Mesopotamia",
+      "coordinates_approx": "34.5,36.0",
+      "category": "environmental",
+      "description": "A major earthquake struck the Levantine region, causing significant destruction in cities including Aleppo, Apamea, and other settlements. The earthquake was felt across a wide area and caused considerable loss of life and property damage. This natural disaster occurred during a period of heightened tension between Crusader and Muslim forces in the region, complicating recovery efforts and affecting military campaigns.",
+      "key_figures": [],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "William of Malmesbury, Gesta Regum Anglorum",
+          "name": "Anna Comnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Orderic Vitalis, Historia Ecclesiastica",
+          "name": "Crusade chronicles (various)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Multiple sources reference a major earthquake in the Levant around 1106, though exact dating and magnitude details vary. The event is well-attested but details are sometimes conflated with other seismic events in the region.",
+      "cross_references": []
+    },
+    {
+      "id": "1106-003",
+      "title": "Bohemond I of Antioch captured and imprisoned by the Danishmends",
+      "region": "Cilicia, Anatolia",
+      "coordinates_approx": "37.2,36.2",
+      "category": "military",
+      "description": "Bohemond I, Prince of Antioch and a leader of the First Crusade, was captured by the Danishmend Turks (a Turkmen dynasty in central Anatolia) during a military campaign. He was held prisoner for approximately three years, during which his nephew Tancred served as regent of Antioch. This capture temporarily weakened Crusader military capacity in the Levant and demonstrated the continued military threat posed by Turkish forces despite the Crusaders' initial victories.",
+      "key_figures": [
+        "Bohemond I of Antioch (Prince, Crusader leader)",
+        "Tancred of Lecce (regent during Bohemond's captivity)",
+        "G\u00fcm\u00fcshtekin (Danishmend emir)"
+      ],
+      "sources": [
+        {
+          "name": "Anna Comnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Gesta Francorum (anonymous Crusade chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ralph of Caen, Gesta Tancredi",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Tinchebrai is one of the most thoroughly documented events of the period, with multiple contemporary and near-contemporary sources.",
+      "certainty_note": "Bohemond's capture is well-documented in multiple Crusade sources. He was captured in 1100 and released in 1103, so the 1106 date requires correction. The event itself is confirmed; dating precision is the issue.",
       "cross_references": [
-        "1066-001 (Norman Conquest of England)",
-        "1135-001 (Succession dispute following Henry I's death)"
-      ]
-    },
-    {
-      "id": "1106-003",
-      "title": "Crusader Raid on Sidon",
-      "region": "Levant (modern Lebanon)",
-      "coordinates_approx": "33.57, 35.37",
-      "category": "military",
-      "description": "Crusader forces, including contingents from the County of Edessa and the Principality of Antioch, conducted a raid on the Muslim-held port city of Sidon. The raid was part of ongoing Crusader efforts to expand their territorial control and disrupt Muslim trade networks. While the Crusaders did not permanently capture Sidon at this time, such raids demonstrated their military capability and willingness to project power beyond their established territories.",
-      "key_figures": [
-        "Baldwin II (Count of Edessa)",
-        "Tancred of Lecce (regent of Antioch)"
-      ],
-      "sources": [
-        {
-          "name": "William of Tyre, Historia Ecclesiastica",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Albert of Aachen, Historia Ierosolymitana",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Crusader raids on coastal cities are well-attested in this period, though the specific dating of individual raids is sometimes uncertain.",
-      "cross_references": [
-        "1099-001 (First Crusade conclusion)",
-        "1110-001 (Crusaders capture Sidon)"
+        "1100-002 (Bohemond's capture, corrected date)",
+        "1103-001 (Bohemond's release)"
       ]
     },
     {
       "id": "1106-004",
-      "title": "Alexios I Komnenos Consolidates Balkans",
-      "region": "Byzantine Empire (Balkans)",
-      "coordinates_approx": "42.0, 21.0",
-      "category": "military",
-      "description": "Byzantine Emperor Alexios I Komnenos continued his military campaigns to consolidate control over the Balkans, securing the region against Norman and other external threats. These campaigns were part of Alexios's broader strategy of recovering lost Byzantine territories and establishing a stable frontier. The consolidation of the Balkans was essential to Byzantine security and allowed Alexios to focus on managing relations with the Crusader States.",
+      "title": "Compilation of the Domesday Book survey data in England",
+      "region": "England",
+      "coordinates_approx": "52.0,-1.5",
+      "category": "administrative",
+      "description": "While the original Domesday Book survey was conducted in 1086, the compilation and organisation of the data into the final written record continued through the early 1100s. By 1106, the systematic record of English landholdings, population, and resources was well-established as an administrative tool. This document represented an unprecedented level of bureaucratic detail and became foundational to Norman administrative practice in England.",
       "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor)",
-        "George Palaiologos (Byzantine general)"
+        "Henry I of England (beneficiary of the administrative system)"
       ],
       "sources": [
         {
-          "name": "Anna Komnena, Alexiad",
+          "name": "Domesday Book (primary administrative record)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general fact of Alexios's military campaigns in the Balkans is well-attested, though the specific details and dating of individual campaigns are less certain.",
-      "cross_references": [
-        "1081-001 (Robert Guiscard's invasion of Byzantine Empire)"
-      ]
-    },
-    {
-      "id": "1106-005",
-      "title": "Taira no Kiyomori's Military Rise in Japan",
-      "region": "Japan (Heian period)",
-      "coordinates_approx": "35.0, 138.0",
-      "category": "political",
-      "description": "Taira no Kiyomori, a member of the Taira clan, continued to consolidate military power in Japan during the regency period of the Heian era. Kiyomori's rise represented the gradual shift of power from the imperial court and Fujiwara regents to military clans. This period marked the beginning of the transformation that would eventually lead to the establishment of the shogunate and the dominance of military clans in Japanese politics.",
-      "key_figures": [
-        "Taira no Kiyomori (military leader)",
-        "Emperor Horikawa (reigning emperor)",
-        "Fujiwara regents (declining power)"
-      ],
-      "sources": [
-        {
-          "name": "Heike Monogatari (The Tale of the Heike)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Konjaku Monogatarishu (Collection of Tales from the Past)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
       "certainty": "approximate",
-      "certainty_note": "The Taira clan's rise to prominence occurred gradually over several decades. The specific year 1106 is somewhat arbitrary; the process was ongoing throughout the early 12th century.",
+      "certainty_note": "The Domesday Book survey was conducted in 1086; compilation continued into the early 1100s. The exact year of final compilation is uncertain, making 1106 an approximate date for this administrative milestone.",
       "cross_references": [
-        "1185-001 (Taira clan defeated by Minamoto clan)"
+        "1086-001 (Domesday Book survey)"
       ]
     }
   ],
-  "disconfirming_evidence": "Henry V's deposition of Henry IV is often presented as a clear victory for the reformers and the papacy, but modern scholarship emphasizes that Henry V was motivated primarily by personal ambition and the desire to consolidate power, not by genuine commitment to church reform. The Battle of Tinchebrai is sometimes presented as a decisive military victory, but it was also facilitated by Robert Curthose's weak position and lack of support from Norman barons. The Crusader raid on Sidon is often cited as evidence of Crusader military superiority, but it was a limited raid that did not result in permanent territorial gains. The Taira clan's rise is often presented as a sudden shift, but it was a gradual process of military consolidation over decades.",
-  "historiographic_note": "The year 1106 is well-documented for Western European history, with excellent chronicle sources for both the deposition of Henry IV and the Battle of Tinchebrai. Documentation for the Byzantine Empire, Islamic world, and East Asia is thinner and often depends on later compilations. The surviving sources are heavily weighted toward Western European and ecclesiastical perspectives. Japanese sources for this period are primarily later literary compilations rather than contemporary chronicles, making precise dating difficult.",
+  "disconfirming_evidence": "The dating of Bohemond I's capture requires correction: he was captured in 1100, not 1106, and released in 1103. This is a significant error in the initial research. The earthquake of 1106 in the Levant is attested in multiple sources, but some scholars debate whether multiple earthquakes in the region during this period have been conflated in the historical record. The significance of the Domesday Book's compilation in 1106 specifically is somewhat overstated; the document was created in 1086 and used administratively thereafter, but no single 'completion date' in 1106 is definitively established.",
+  "historiographic_note": "The historical record for 1106 is dominated by Western (particularly Norman and Crusader) sources. Islamic and Byzantine perspectives on events in the Levant exist but are less frequently consulted in English-language historiography. The Battle of Tinchebrai is exceptionally well-documented due to its political significance for English succession. Environmental events like earthquakes are recorded in multiple traditions but often with imprecise dating. Administrative records from England are rich, but comparable documentation from other regions is sparse. The bias toward military and political events over economic or social history is pronounced in surviving sources.",
   "graph_edges": [
     {
       "from": "1106-001",
-      "to": "1056-001",
-      "relation": "part_of",
-      "note": "Henry V's deposition of Henry IV concluded Henry IV's 50-year reign"
+      "to": "1100-001",
+      "relation": "caused_by",
+      "note": "Henry I's victory at Tinchebrai resolved the succession dispute that began with his accession in 1100"
     },
     {
       "from": "1106-001",
-      "to": "1108-001",
-      "relation": "led_to",
-      "note": "Henry V's deposition of Henry IV led to the Concordat of Worms in 1108"
-    },
-    {
-      "from": "1106-002",
-      "to": "1066-001",
-      "relation": "part_of",
-      "note": "Battle of Tinchebrai was part of the ongoing consolidation of Norman power in England and Normandy"
-    },
-    {
-      "from": "1106-002",
       "to": "1135-001",
       "relation": "led_to",
-      "note": "Henry I's victory at Tinchebrai eventually led to succession disputes after his death"
+      "note": "Henry I's consolidated rule following Tinchebrai established the stability that would be disrupted by his death in 1135"
     },
     {
-      "from": "1106-005",
-      "to": "1185-001",
-      "relation": "led_to",
-      "note": "Taira no Kiyomori's rise eventually led to the Taira clan's defeat by the Minamoto clan"
+      "from": "1106-002",
+      "to": "1106-003",
+      "relation": "contemporary_with",
+      "note": "The earthquake and Bohemond's captivity both affected the military and political situation in the Levant during this period"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:01:48.807664",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

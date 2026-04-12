@@ -1,229 +1,225 @@
 {
   "year": 1187,
   "year_label": "1187 CE",
-  "era_context": "The year 1187 marks a pivotal moment in the history of the Crusades and the medieval Mediterranean. Saladin's decisive victory at Hattin and subsequent conquest of Jerusalem represent the greatest Islamic military success against the Crusader states since their establishment in 1099. In Western Europe, the Angevin Empire under Henry II is at its territorial height but internally unstable. In Japan, the Genpei War between the Minamoto and Taira clans is reaching its climax. In China, the Jin Dynasty controls the north while the Song Dynasty rules the south.",
+  "era_context": "The year 1187 CE marks a pivotal moment in the history of the Crusader states and the Islamic Levant. Saladin's victory at the Battle of Hattin and his subsequent conquest of Jerusalem represented the most significant reversal of Crusader fortunes since the First Crusade (1096\u20131099). In East Asia, Minamoto Yoritomo was consolidating power in Japan following the Genpei War (1180\u20131185), while the Jin Dynasty controlled northern China and the Southern Song Dynasty held the south. The Islamic world remained fragmented among competing dynasties.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Crusade narratives",
+    "Central Asia and the Steppe",
+    "Americas and Oceania"
+  ],
   "events": [
     {
       "id": "1187-001",
-      "title": "Battle of Hattin: Saladin's Decisive Victory Over the Crusaders",
-      "region": "Levant, near Tiberias",
-      "coordinates_approx": "32.8, 35.4",
+      "title": "Battle of Hattin and Saladin's conquest of Jerusalem",
+      "region": "Levant (modern Israel/Palestine)",
+      "coordinates_approx": "32.8\u00b0N, 35.5\u00b0E",
       "category": "military",
-      "description": "On 4 July 1187, Saladin defeated the combined forces of the Crusader Kingdom of Jerusalem at the Battle of Hattin, near the Horns of Hattin in Galilee. The Crusader army, led by Guy of Lusignan and including the Grand Masters of the Templars and Hospitallers, was decisively defeated. Saladin's forces surrounded and destroyed the Crusader army, killing or capturing most of its soldiers. The battle resulted in the capture of the True Cross, a relic of immense religious significance. Hattin was the most catastrophic Crusader military defeat since the establishment of the Crusader states in 1099, and it opened the way for Saladin's conquest of the Crusader-held territories, including Jerusalem.",
+      "description": "On 4 July 1187, Saladin defeated the Crusader forces at the Battle of Hattin, near the Sea of Galilee. This decisive victory broke the military power of the Kingdom of Jerusalem and opened the way for Saladin's conquest of the Levant. Following Hattin, Saladin systematically conquered Crusader-held cities, culminating in the capture of Jerusalem on 2 October 1187. The loss of Jerusalem, the holiest city in Christendom, shocked Western Europe and precipitated the Third Crusade (1189\u20131192). Saladin's victory represented the most significant reversal of Crusader fortunes since the First Crusade and fundamentally altered the balance of power in the eastern Mediterranean.",
       "key_figures": [
-        "Saladin (Salah ad-Din Yusuf ibn Ayyub)",
+        "Saladin / Salah ad-Din (Ayyubid sultan)",
         "Guy of Lusignan (King of Jerusalem)",
-        "Reynald of Ch\u00e2tillon (Crusader noble, executed after the battle)",
-        "Gerard of Ridefort (Grand Master of the Templars)",
-        "Bohemond III of Antioch"
+        "Reynald of Ch\u00e2tillon (Crusader lord)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Baha ad-Din ibn Shaddad, Al-Nawadir as-Sultaniyya",
+          "name": "Imad ad-Din al-Isfahani, Al-Fath al-Qussi fi al-Fath al-Qudsi (The Conquest of the Holy City)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "William of Tyre, Historia",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Hattin is one of the most thoroughly documented events of the medieval period, with accounts from both Islamic and Crusader sources. The date of 4 July 1187 is secure.",
-      "cross_references": [
-        "1187-002 (Conquest of Jerusalem)",
-        "1189-002 (Third Crusade recruitment)"
-      ]
-    },
-    {
-      "id": "1187-002",
-      "title": "Saladin's Conquest of Jerusalem",
-      "region": "Levant, Jerusalem",
-      "coordinates_approx": "31.77, 35.23",
-      "category": "military",
-      "description": "Following his victory at Hattin, Saladin besieged and conquered Jerusalem on 2 October 1187. The city, which had been held by the Crusaders since 1099, surrendered after a brief siege. Saladin granted the city's Christian inhabitants safe passage and allowed them to ransom themselves, in contrast to the massacre that had followed the Crusaders' conquest in 1099. The conquest of Jerusalem was the culmination of Saladin's campaign and represented a symbolic and strategic victory for Islam. The fall of Jerusalem shocked Western Christendom and prompted the call for the Third Crusade. Saladin's treatment of the city's Christian population was noted for its relative clemency and contributed to his reputation in both Islamic and Western sources.",
-      "key_figures": [
-        "Saladin (Salah ad-Din Yusuf ibn Ayyub)",
-        "Balian of Ibelin (Crusader defender)",
-        "Patriarch Heraclius of Jerusalem"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Baha ad-Din ibn Shaddad, Al-Nawadir as-Sultaniyya",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The conquest of Jerusalem on 2 October 1187 is well-documented in both Islamic and Crusader sources. The date is secure.",
-      "cross_references": [
-        "1187-001 (Battle of Hattin, preceding victory)",
-        "1189-002 (Third Crusade recruitment in response)"
-      ]
-    },
-    {
-      "id": "1187-003",
-      "title": "Papal Call for the Third Crusade",
-      "region": "Rome, Western Europe",
-      "coordinates_approx": "41.9, 12.5",
-      "category": "religious",
-      "description": "In response to the fall of Jerusalem, Pope Gregory VIII issued a call for the Third Crusade in October 1187. The papal bull Audita tremendi summoned the Christian powers of Western Europe to undertake a crusade to recover Jerusalem and the Holy Land. The call was issued shortly after news of Hattin and Jerusalem's fall reached Rome. The Third Crusade would become one of the largest and most famous crusades, involving the major monarchs of Western Europe, including Richard I of England, Philip II of France, and Frederick Barbarossa of the Holy Roman Empire. The crusade would dominate European politics and military affairs for the next several years.",
-      "key_figures": [
-        "Pope Gregory VIII",
-        "Richard I of England (future crusader)",
-        "Philip II of France (future crusader)",
-        "Frederick Barbarossa (Holy Roman Emperor, future crusader)"
-      ],
-      "sources": [
-        {
-          "name": "Papal bull Audita tremendi",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Roger of Howden, Chronica",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The papal call for the Third Crusade is documented in the papal bull and contemporary chronicles. The date is secure.",
-      "cross_references": [
-        "1187-001 (Battle of Hattin, precipitating cause)",
-        "1187-002 (Conquest of Jerusalem, precipitating cause)",
-        "1189-002 (Crusade recruitment and preparation)"
-      ]
-    },
-    {
-      "id": "1187-004",
-      "title": "Battle of Dannoura (Genpei War): Minamoto Victory Over the Taira",
-      "region": "Japan, Inland Sea",
-      "coordinates_approx": "34.2, 132.0",
-      "category": "military",
-      "description": "On 24 April 1185 (or 1187 in some sources), the Minamoto clan achieved a decisive naval victory over the Taira clan at the Battle of Dannoura (also called the Battle of Yashima) in the Inland Sea. This battle marked the effective end of the Taira clan's power and the beginning of Minamoto dominance in Japan. The Taira were nearly annihilated, with many nobles drowning in the sea. The young Taira Emperor Antoku died in the battle. The Minamoto victory established the conditions for the establishment of the Kamakura shogunate and the beginning of samurai military rule in Japan. Note: Some sources date this battle to 1185; the dating is somewhat uncertain.",
-      "key_figures": [
-        "Minamoto no Yoritomo (Minamoto clan leader)",
-        "Minamoto no Yoshitsune (Minamoto general)",
-        "Taira no Koremori (Taira commander)",
-        "Emperor Antoku (Taira-aligned child emperor, died in battle)"
-      ],
-      "sources": [
-        {
-          "name": "Heike Monogatari (The Tale of the Heike)",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (The Complete History)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Genpei Seisui Ki",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Battle of Dannoura is traditionally dated to 1185, but some sources place it in 1187. Modern scholarship generally favors 1185, but the exact date is uncertain. The battle is a major event in Japanese history, but the dating uncertainty reflects the nature of Japanese historical sources from this period.",
-      "cross_references": [
-        "1185-002 (Alternative dating for Battle of Dannoura)",
-        "1189-003 (Final Minamoto consolidation)"
-      ]
-    },
-    {
-      "id": "1187-005",
-      "title": "Saladin's Conquest of Acre and Other Crusader Cities",
-      "region": "Levant, coastal cities",
-      "coordinates_approx": "32.9, 35.1",
-      "category": "military",
-      "description": "Following his victory at Hattin and conquest of Jerusalem, Saladin systematically conquered the remaining major Crusader-held cities in the Levant in 1187. Acre, one of the most important Crusader ports, fell to Saladin in July 1187. Other cities, including Jaffa, Caesarea, and Arsuf, were also conquered. By the end of 1187, Saladin had eliminated most Crusader-held territories in the Levant, with only a few isolated strongholds remaining. This systematic conquest demonstrated Saladin's military superiority and the collapse of Crusader military power in the region. The conquest of Acre was particularly significant because it would later become the focus of the Third Crusade.",
-      "key_figures": [
-        "Saladin (Salah ad-Din Yusuf ibn Ayyub)",
-        "Crusader defenders of various cities"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "name": "William of Tyre, Historia (continued by later chroniclers)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Baha ad-Din ibn Shaddad, Al-Nawadir as-Sultaniyya",
+          "name": "Various Crusader and Islamic chronicles",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Saladin's conquest of Acre and other cities in 1187 is well-documented in Islamic sources. The dates are secure.",
+      "certainty_note": "The Battle of Hattin and the conquest of Jerusalem are among the most thoroughly documented events of the medieval period, with multiple contemporary sources from both Crusader and Islamic perspectives. The dates (4 July for Hattin, 2 October for Jerusalem) are firmly established.",
       "cross_references": [
-        "1187-001 (Battle of Hattin, preceding victory)",
-        "1191-003 (Third Crusade siege of Acre)"
+        "1189-001 (Third Crusade launched in response)",
+        "1191-001 (Battle of Arsuf, Crusader counteroffensive)"
+      ]
+    },
+    {
+      "id": "1187-002",
+      "title": "Saladin's systematic conquest of Crusader strongholds in the Levant",
+      "region": "Levant (modern Israel/Palestine, Syria, Lebanon)",
+      "coordinates_approx": "33.0\u00b0N, 35.5\u00b0E",
+      "category": "military",
+      "description": "Following his victory at Hattin, Saladin systematically conquered Crusader-held cities and strongholds throughout the Levant in 1187. Major cities including Acre, Jaffa, Caesarea, Arsuf, and others fell to Ayyubid forces. The rapid collapse of Crusader military power was remarkable\u2014within months, the Kingdom of Jerusalem had been reduced to a few coastal enclaves. This systematic conquest demonstrated Saladin's military organization and strategic vision, as well as the demoralization of Crusader forces following Hattin.",
+      "key_figures": [
+        "Saladin / Salah ad-Din (Ayyubid sultan)",
+        "Al-Adil (Saladin's brother, military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Imad ad-Din al-Isfahani, Al-Fath al-Qussi fi al-Fath al-Qudsi",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Various Crusader chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The systematic conquest of Crusader strongholds in 1187 is well-documented in multiple contemporary sources from both Islamic and Crusader perspectives.",
+      "cross_references": [
+        "1187-001 (Battle of Hattin)"
+      ]
+    },
+    {
+      "id": "1187-003",
+      "title": "Minamoto Yoritomo consolidates military authority in Japan; Genpei War concludes",
+      "region": "Japan",
+      "coordinates_approx": "35.3\u00b0N, 139.5\u00b0E",
+      "category": "political",
+      "description": "The Genpei War (1180\u20131185), which saw the Minamoto clan defeat the Taira clan, concluded in 1185, but 1187 marks a key phase in Minamoto Yoritomo's consolidation of military authority. Yoritomo established the Kamakura shogunate, a military government that would dominate Japanese politics for nearly seven centuries. In 1187, Yoritomo received imperial recognition of his military authority and began organizing the samurai class into a hierarchical feudal structure. This transformation fundamentally altered Japanese governance, shifting power from the imperial court in Kyoto to the military government in Kamakura.",
+      "key_figures": [
+        "Minamoto Yoritomo (Shogun)",
+        "Emperor Go-Toba"
+      ],
+      "sources": [
+        {
+          "name": "Azuma Kagami (Mirror of the East), compiled in the 13th century but based on contemporary records",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Heike Monogatari (Tale of the Heike), oral tradition compiled in written form",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Genpei War's conclusion in 1185 is well-established, but the exact chronology of Yoritomo's consolidation of authority in 1187 is somewhat uncertain due to reliance on later compilations.",
+      "cross_references": [
+        "1185-001 (Genpei War conclusion)"
+      ]
+    },
+    {
+      "id": "1187-004",
+      "title": "Jin Dynasty under Emperor Zhangzong; administrative and cultural consolidation",
+      "region": "Northern China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, controlled northern China in 1187. Emperor Zhangzong would ascend to the throne in 1189, but in 1187 the Jin Dynasty was in a period of relative stability under the preceding emperor. The dynasty maintained sophisticated administrative systems and continued to develop cultural traditions that integrated Jurchen and Han Chinese elements. The Jin Dynasty faced periodic challenges from Jurchen tribal factions and the rising Mongol confederation in the north, but 1187 was a year of relative peace.",
+      "key_figures": [
+        "Emperor Zhangzong of Jin (r. 1189\u20131208, not yet ascended in 1187)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Dynasty official records and later Chinese dynastic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general political and cultural trajectory is established through Chinese historical sources, but specific events within 1187 are not always clearly dated.",
+      "cross_references": [
+        "1115-001 (Jin Dynasty establishment)"
+      ]
+    },
+    {
+      "id": "1187-005",
+      "title": "Southern Song Dynasty maintains territorial integrity and economic vitality",
+      "region": "Southern China",
+      "coordinates_approx": "30.0\u00b0N, 120.0\u00b0E",
+      "category": "economic",
+      "description": "The Southern Song Dynasty, despite its reduced territorial extent compared to the Northern Song, maintained significant economic vitality and political stability in 1187. Maritime trade flourished through ports such as Quanzhou and Hangzhou. The dynasty supported scholarly and artistic pursuits, and Neo-Confucian philosophy continued to develop. The reign of Emperor Xiaozong (1163\u20131189) represented a period of relative peace and cultural achievement, even as the dynasty faced long-term military pressure from the Jin Dynasty to the north.",
+      "key_figures": [
+        "Emperor Xiaozong of Song (r. 1163\u20131189)"
+      ],
+      "sources": [
+        {
+          "name": "Song Dynasty official records and later Chinese dynastic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from port cities and commercial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general economic and cultural trajectory is well-established, though specific events within 1187 are not always clearly documented.",
+      "cross_references": [
+        "1141-001 (Treaty of Shaoxing)"
+      ]
+    },
+    {
+      "id": "1187-006",
+      "title": "Khmer Empire under Jayavarman VII; temple construction and territorial expansion",
+      "region": "Southeast Asia (modern Cambodia)",
+      "coordinates_approx": "13.4\u00b0N, 103.8\u00b0E",
+      "category": "cultural",
+      "description": "Jayavarman VII, who ascended to the Khmer throne around 1181, continued his ambitious program of temple construction and territorial expansion in 1187. He commissioned major religious structures, integrating Buddhist iconography with Khmer architectural traditions. This period represents the height of Khmer cultural and political power, though the empire's territorial extent and administrative capacity were beginning to face challenges from neighboring polities.",
+      "key_figures": [
+        "Jayavarman VII (Khmer king)"
+      ],
+      "sources": [
+        {
+          "name": "Bayon temple inscriptions and architectural evidence",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese diplomatic records (Zhou Daguan's later account, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general chronology of Jayavarman VII's reign is established through epigraphic evidence, though specific events within individual years are often uncertain.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's ascension)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of the Battle of Dannoura is disputed. While many sources place it in 1185, some place it in 1187. Modern scholarship generally favors 1185, but the uncertainty reflects the limitations of Japanese historical sources from this period. Additionally, some scholars have questioned the exact casualty figures and the degree of Taira annihilation reported in later sources like the Heike Monogatari, suggesting that the battle may have been less decisive than traditionally portrayed. The treatment of Saladin's clemency toward Jerusalem's Christian population is sometimes exaggerated in later sources; while his treatment was relatively merciful compared to the 1099 conquest, it was still a military conquest and displacement of the Christian population.",
-  "historiographic_note": "The year 1187 is exceptionally well-documented in Western European and Islamic sources, which focus heavily on Saladin's military victories and the fall of Jerusalem. The event had enormous religious and political significance for both Christianity and Islam, and it is extensively recorded in contemporary chronicles from both traditions. Japanese sources (Heike Monogatari and related texts) are later compilations, introducing potential legendary elements into the Genpei War narrative. The historical record is heavily weighted toward the Mediterranean and Western Europe; documentation of events in Asia beyond Japan, Africa beyond Egypt, and the Americas is sparse or absent. The surviving sources reflect the interests of literate elites (clergy, nobility, court scribes) and may underrepresent popular movements, economic disruptions, or events in non-literate societies. The fall of Jerusalem had enormous symbolic significance and may have overshadowed other important events occurring in 1187.",
+  "disconfirming_evidence": "The narrative of Saladin as a unified, all-powerful opponent has been complicated by recent scholarship emphasizing the fragmentation and internal tensions within the Ayyubid confederation. While Saladin's victory at Hattin was decisive, his control over the Ayyubid confederation was not absolute, and he faced challenges from rival emirs and family members. Additionally, some modern scholarship has questioned the extent of Saladin's religious motivation, suggesting that his campaigns were driven as much by political ambition and the desire to consolidate power as by religious zeal. The characterization of the Crusaders as uniformly defeated and demoralized has also been nuanced by recent scholarship, which notes that some Crusader forces remained organized and capable of resistance even after Hattin. Furthermore, the narrative of Saladin's 'clemency' in the conquest of Jerusalem (in contrast to the Crusaders' massacre in 1099) has been questioned by some scholars, who note that Saladin's treatment of the city was pragmatic rather than purely merciful.",
+  "historiographic_note": "The year 1187 is exceptionally well-documented for the Crusader Levant and Islamic Middle East, with multiple contemporary chronicles from both Crusader and Islamic perspectives. The Battle of Hattin and the conquest of Jerusalem are among the most thoroughly documented events of the medieval period. However, this creates a potential bias toward military and political events in the Mediterranean and Near East. Documentation for East Asia relies on later compilations and official histories, which may emphasize court-centered narratives. The events in the Levant are extensively documented in European sources but receive less detailed attention in sources from other regions, reflecting the different geographic and cultural focuses of surviving chronicles. Sub-Saharan Africa, Northern Europe, Central Asia, and the Americas remain poorly documented for this year. The surviving sources are predominantly written by elites (court scribes, religious chroniclers) and may underrepresent the experiences of common people, women, and non-literate populations.",
   "graph_edges": [
     {
       "from": "1187-001",
       "to": "1187-002",
       "relation": "led_to",
-      "note": "The victory at Hattin directly enabled Saladin's conquest of Jerusalem"
+      "note": "Victory at Hattin enabled Saladin's systematic conquest of Crusader strongholds"
     },
     {
       "from": "1187-001",
-      "to": "1187-003",
+      "to": "1189-001",
       "relation": "caused_by",
-      "note": "Hattin's outcome prompted the papal call for the Third Crusade"
-    },
-    {
-      "from": "1187-002",
-      "to": "1187-003",
-      "relation": "caused_by",
-      "note": "The fall of Jerusalem directly prompted the papal call for the Third Crusade"
+      "note": "Battle of Hattin and conquest of Jerusalem precipitated the Third Crusade"
     },
     {
       "from": "1187-003",
-      "to": "1189-002",
-      "relation": "led_to",
-      "note": "The papal call for the Third Crusade led to recruitment and preparation in 1189"
-    },
-    {
-      "from": "1187-001",
-      "to": "1187-005",
-      "relation": "led_to",
-      "note": "The victory at Hattin enabled Saladin's systematic conquest of Crusader cities"
+      "to": "1185-001",
+      "relation": "part_of",
+      "note": "Yoritomo's consolidation followed the Genpei War"
     },
     {
       "from": "1187-004",
-      "to": "1189-003",
-      "relation": "led_to",
-      "note": "The Minamoto victory at Dannoura led to final consolidation of Minamoto power in 1189"
+      "to": "1187-005",
+      "relation": "contemporary_with",
+      "note": "Jin Dynasty in north and Southern Song Dynasty in south maintained their division"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:35:20.890247",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

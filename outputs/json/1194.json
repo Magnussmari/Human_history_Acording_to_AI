@@ -1,21 +1,128 @@
 {
   "year": 1194,
   "year_label": "1194 CE",
-  "era_context": "The late 12th century in Eurasia was marked by the fragmentation of large empires and the rise of regional powers. In Europe, the Third Crusade had recently concluded (1192); the Angevin Empire under Richard I was contested; the Holy Roman Empire was in flux under Henry VI. In the Islamic world, Saladin's Ayyubid sultanate dominated the Levant and Egypt. In South Asia, the Delhi Sultanate was consolidating power after the Battle of Tarain (1192). In East Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south; Japan was in the Kamakura period. The Khmer Empire in Southeast Asia was at its height under Jayavarman VII.",
-  "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "era_context": "1194 CE is in the late 12th century, a period of significant political and military upheaval across Eurasia. The Ayyubid succession crisis was ongoing following Saladin's death (1193). Richard I of England was being released from captivity in the Holy Roman Empire, marking a turning point in the Angevin-Capetian conflict. The Khmer Empire under Jayavarman VII was consolidating power and beginning major temple construction. Japan's Kamakura shogunate was in its early years of consolidation. The Byzantine Empire was experiencing internal instability under Alexios III.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Central Asia and the Steppe (limited contemporary records)",
+    "Mesoamerica and South America (no written records in European tradition)"
+  ],
   "events": [
     {
       "id": "1194-001",
-      "title": "Death of Saladin",
-      "region": "Levant / Ayyubid Sultanate",
-      "coordinates_approx": "33.5136, 36.2765",
+      "title": "Richard I of England released from captivity; ransom paid",
+      "region": "Holy Roman Empire, England, Normandy",
+      "coordinates_approx": "48.2082, 16.3738",
       "category": "political",
-      "description": "Saladin (\u1e62al\u0101\u1e25 ad-D\u012bn Y\u016bsuf ibn Ayy\u016bb), the Kurdish military commander and founder of the Ayyubid dynasty, died on 4 March 1194 in Damascus at approximately 55 years of age. His death marked the end of a transformative career that had unified much of the Islamic Levant, defeated the Crusader Kingdom of Jerusalem at the Battle of Hattin (1187), and recaptured Jerusalem itself. His death precipitated the fragmentation of his empire among his sons and emirs, leading to civil conflict within the Ayyubid domains and weakening unified Islamic resistance to Crusader expansion in the short term. Saladin's legacy as a symbol of Islamic military virtue and chivalry endured for centuries.",
+      "description": "King Richard I of England (Richard the Lionheart) was released from captivity in the Holy Roman Empire in February 1194 after paying a ransom of 150,000 marks (approximately 100,000 pounds of silver). Richard had been captured in 1192 while returning from the Third Crusade and held by Duke Leopold V of Austria and later by Emperor Henry VI. His release was a major political event, as it allowed Richard to return to his continental domains and resume his conflict with Philip II Augustus of France. The ransom was one of the largest sums ever paid in medieval Europe and required extraordinary taxation in England. Richard's return marked the beginning of his final years of military campaigning in Normandy and Anjou.",
       "key_figures": [
-        "Saladin (\u1e62al\u0101\u1e25 ad-D\u012bn Y\u016bsuf ibn Ayy\u016bb)",
-        "Al-Afdal (eldest son, succeeded as nominal leader)",
-        "Al-Aziz Uthman (son, took Egypt)"
+        "Richard I of England (King, Duke of Normandy and Aquitaine)",
+        "Emperor Henry VI (Holy Roman Emperor, captor)",
+        "Philip II Augustus (King of France, rival)",
+        "Hubert Walter (Archbishop of Canterbury, negotiator of ransom)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronica",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ralph of Coggeshall, Chronicon Anglicanum",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi (Itinerary of the Crusaders and Deeds of King Richard)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Richard's release in February 1194 is well-documented in contemporary English and Norman chronicles. The ransom amount and date are confirmed by multiple sources.",
+      "cross_references": [
+        "1192-001 (Richard's capture)",
+        "1199-001 (Richard's death)"
+      ]
+    },
+    {
+      "id": "1194-002",
+      "title": "Minamoto Yoritomo consolidates Kamakura shogunate; administrative reforms",
+      "region": "Japan (Kamakura shogunate)",
+      "coordinates_approx": "35.3295, 139.5475",
+      "category": "political",
+      "description": "Minamoto Yoritomo (1147\u20131199), founder of the Kamakura shogunate, was consolidating his military and administrative authority over Japan in 1194. He had defeated the Taira clan in 1185 and established the shogunate in 1185, but continued to face challenges from rival clans and the imperial court. In 1194, Yoritomo was implementing administrative reforms and strengthening the military apparatus of the shogunate. He was also consolidating his control over the eastern provinces (Kanto region) and extending his influence over the western provinces. Yoritomo's system of military governance (bakufu) would outlast him and define Japanese politics for centuries.",
+      "key_figures": [
+        "Minamoto Yoritomo (Shogun, founder of Kamakura shogunate)",
+        "Emperor Go-Toba (reigning emperor, nominal authority)",
+        "Hojo Tokimasa (Yoritomo's father-in-law, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Azuma Kagami (Mirror of the East), compiled 13th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Heike Monogatari (Tale of the Heike), oral tradition compiled 13th century",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Yoritomo's consolidation of power is well-attested in later Japanese chronicles. Specific events of 1194 are less precisely dated; the broader trajectory is clear, but year-by-year details rely on 13th-century compilations.",
+      "cross_references": [
+        "1185-001 (Minamoto victory at Dan-no-ura; establishment of shogunate)",
+        "1199-001 (Yoritomo's death)"
+      ]
+    },
+    {
+      "id": "1194-003",
+      "title": "Jayavarman VII begins major temple construction; Bayon and Ta Prohm projects",
+      "region": "Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.3667, 103.8500",
+      "category": "cultural",
+      "description": "Jayavarman VII (r. 1181\u20131219) was actively engaged in major temple construction projects in 1194. He commissioned the construction of the Bayon temple complex (with its distinctive towers carved with faces) and Ta Prohm temple, among others. These temples were built as part of Jayavarman VII's broader programme of Buddhist patronage and monumental architecture. The construction of these temples required enormous resources, labour, and coordination, reflecting the power and wealth of the Khmer Empire at its height. The dating of these construction projects is debated, but most scholars place major work in the 1190s\u20131210s. These temples remain among the most impressive examples of Khmer architecture and art.",
+      "key_figures": [
+        "Jayavarman VII (Khmer king, patron of arts and architecture)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Bayon and Ta Prohm temple complexes, Angkor",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic evidence from Khmer inscriptions at Bayon and Ta Prohm",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zhou Daguan, Record of Cambodia (Zhenla Fengtu Ji), written 1297",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jayavarman VII's temple construction is well-attested. The exact dating of construction phases is debated among archaeologists; most place major work in the 1190s\u20131210s, but some argue for earlier or later phases.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's accession)",
+        "1219-001 (Jayavarman VII's death)"
+      ]
+    },
+    {
+      "id": "1194-004",
+      "title": "Ayyubid succession disputes; al-Afdal consolidates power in Egypt",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "Following Saladin's death in 1193, his son al-Afdal Nur ad-Din Ali was consolidating his power as regent in Egypt in 1194. However, al-Afdal faced challenges from his brothers and other emirs who controlled different parts of the fragmented Ayyubid state. Al-Afdal held Cairo and Egypt but lacked the military genius and political authority of his father. The succession disputes weakened the Ayyubid state and would eventually lead to al-Afdal's loss of power in 1198. These internal conflicts are attested in Islamic chronicles and later historiographic accounts.",
+      "key_figures": [
+        "Al-Afdal Nur ad-Din Ali (Saladin's eldest son, regent in Egypt)",
+        "Al-Aziz Isa (Saladin's son, governor of Egypt)",
+        "Al-Zahir Ghazi (Saladin's son, governor of Aleppo)"
       ],
       "sources": [
         {
@@ -24,216 +131,79 @@
           "contemporary": false
         },
         {
-          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin (al-Nawadir as-Sultaniyya)",
+          "name": "Baha ad-Din ibn Shaddad, Life of Saladin (al-Nawadir al-Sultaniyya)",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Imad ad-Din al-Isfahani, Conquest of Syria (Fath al-Quds)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The date of Saladin's death (4 March 1194 / 27 Safar 589 AH) is well-attested in multiple near-contemporary Islamic chronicles. His death is one of the most securely dated events of the 12th century Islamic world.",
-      "cross_references": [
-        "1187-001 (Battle of Hattin)",
-        "1192-001 (Treaty of Jaffa)"
-      ]
-    },
-    {
-      "id": "1194-002",
-      "title": "Fragmentation of the Ayyubid Sultanate",
-      "region": "Levant, Egypt, Mesopotamia",
-      "coordinates_approx": null,
-      "category": "political",
-      "description": "Following Saladin's death, his empire rapidly fragmented among his sons and emirs. Al-Afdal retained nominal authority in Damascus and the Levant, but real power devolved to regional strongmen: Al-Aziz Uthman controlled Egypt, Al-Zahir Ghazi held Aleppo, and various emirs ruled semi-independently in Mesopotamia and the Levant. This decentralization, which would persist for decades, weakened the unified Islamic response to Crusader incursions and created opportunities for internal conflict. The fragmentation reflected both the personal nature of Saladin's authority and the structural tensions within the Ayyubid system between centralized sultanate and autonomous emiral power.",
-      "key_figures": [
-        "Al-Afdal (eldest son)",
-        "Al-Aziz Uthman (son, Egypt)",
-        "Al-Zahir Ghazi (son, Aleppo)",
-        "Al-Adil (brother, Mesopotamia)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Ayyubid succession",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The broad outlines of Ayyubid fragmentation are well-documented in multiple sources. The precise chronology of power shifts in 1194\u20131195 is less certain, but the general pattern is secure.",
-      "cross_references": [
-        "1194-001 (Death of Saladin)"
-      ]
-    },
-    {
-      "id": "1194-003",
-      "title": "Battle of Jaffa / Crusader-Ayyubid Conflict",
-      "region": "Levant / Crusader States",
-      "coordinates_approx": "32.3047, 34.7515",
-      "category": "military",
-      "description": "In the aftermath of Saladin's death and the fragmentation of Ayyubid authority, Crusader forces under Richard I's successors and local Crusader lords engaged in renewed military campaigns against weakened Ayyubid garrisons. While no single major battle is definitively dated to 1194, the period saw sustained Crusader pressure on coastal fortifications and trade routes, exploiting the power vacuum created by Saladin's succession crisis. These campaigns were part of the broader Third Crusade aftermath and the consolidation of Crusader holdings in the Levant during the 1190s.",
-      "key_figures": [
-        "Henry of Champagne (Crusader ruler in Levant)",
-        "Al-Afdal (Ayyubid nominal leader)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus on Crusader-Ayyubid conflict in the 1190s",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The specific events of 1194 in the Levantine theater are poorly documented. This entry reflects the broader pattern of Crusader-Ayyubid conflict during this period rather than a single confirmed event.",
-      "cross_references": [
-        "1192-001 (Treaty of Jaffa)"
-      ]
-    },
-    {
-      "id": "1194-004",
-      "title": "Consolidation of Delhi Sultanate Authority",
-      "region": "Northern India / Delhi Sultanate",
-      "coordinates_approx": "28.6139, 77.2090",
-      "category": "political",
-      "description": "Following the decisive victory at the Second Battle of Tarain (1192), Muhammad of Ghor and his general Qutb ud-Din Aibak consolidated control over northern India. By 1194, the Delhi Sultanate had established administrative structures in conquered territories and was expanding its reach into central India. The sultanate's consolidation involved both military campaigns and the establishment of Islamic administrative and legal systems in Hindu-majority regions. This period marked the beginning of sustained Islamic rule in South Asia, which would last for centuries.",
-      "key_figures": [
-        "Muhammad of Ghor (Ghurid ruler)",
-        "Qutb ud-Din Aibak (general and governor)"
-      ],
-      "sources": [
-        {
-          "name": "Taj ul-Maasir by Hasan Nizami (early 13th-century chronicle)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Delhi Sultanate origins",
-          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broad chronology of Delhi Sultanate consolidation is secure, but specific events of 1194 are not well-documented in contemporary sources. Dating relies on later chronicles and historiographic reconstruction.",
+      "certainty_note": "The Ayyubid succession disputes are attested in Islamic chronicles, but the precise chronology of events in 1194 is uncertain. Most sources were compiled decades or centuries after the events.",
       "cross_references": [
-        "1192-002 (Second Battle of Tarain)"
+        "1193-001 (Saladin's death)",
+        "1198-001 (Al-Afdal's loss of power)"
       ]
     },
     {
       "id": "1194-005",
-      "title": "Jayavarman VII's Temple Construction Program",
-      "region": "Khmer Empire / Cambodia",
-      "coordinates_approx": "13.3667, 103.8500",
+      "title": "Zhu Xi active in Song China; philosophical writings and teaching",
+      "region": "Song Dynasty China",
+      "coordinates_approx": "30.2741, 120.1551",
       "category": "cultural",
-      "description": "Jayavarman VII, the great Khmer king, continued his ambitious program of temple and infrastructure construction throughout the 1190s. In 1194 and the surrounding years, major projects included the expansion of Angkor Thom and the construction of the Bayon temple complex, which would become one of the most iconic structures of the Khmer Empire. These projects reflected both Jayavarman's Buddhist piety and his desire to consolidate power through monumental architecture. The construction program employed vast labor forces and represented the peak of Khmer architectural and organizational achievement.",
+      "description": "Zhu Xi (1130\u20131200), the most influential Neo-Confucian philosopher of the Song Dynasty, was in his mid-60s in 1194 and at the height of his intellectual influence. He had spent decades developing and refining his philosophical system, which synthesised Confucian ethics with Buddhist and Daoist metaphysics. In 1194, Zhu Xi was likely engaged in teaching, writing, and correspondence with other scholars. His commentaries on the Confucian classics (particularly the Four Books) would become the orthodox interpretation for centuries. Zhu Xi's work would profoundly shape East Asian intellectual life and governance for the next 700+ years.",
       "key_figures": [
-        "Jayavarman VII (Khmer king)"
+        "Zhu Xi (Neo-Confucian philosopher, scholar-official)"
       ],
       "sources": [
         {
-          "name": "Archaeological evidence from Angkor (temple inscriptions and stratigraphy)",
-          "type": "archaeological",
+          "name": "Zhu Xi's collected writings (Zhu Zi Quan Shu)",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Khmer inscriptions on temple walls",
-          "type": "epigraphic",
+          "name": "Song Dynasty official records and biographical compilations",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Jayavarman VII's reign is well-documented through inscriptions and archaeological evidence. The precise chronology of individual construction projects is less certain, but the general pattern of temple construction in the 1190s is secure.",
-      "cross_references": []
-    },
-    {
-      "id": "1194-006",
-      "title": "Henry VI's Consolidation of the Holy Roman Empire",
-      "region": "Holy Roman Empire / Central Europe",
-      "coordinates_approx": null,
-      "category": "political",
-      "description": "Henry VI, Holy Roman Emperor and King of Sicily, worked to consolidate his authority over the fragmented territories of the Holy Roman Empire and his Sicilian inheritance. In 1194, Henry VI was at the height of his power, having secured his position through military campaigns and dynastic marriages. However, his reign was marked by tensions between imperial authority and the autonomy of German princes, a conflict that would define the Empire for centuries. Henry VI's death in 1197 would precipitate a succession crisis that weakened imperial authority.",
-      "key_figures": [
-        "Henry VI (Holy Roman Emperor)",
-        "Constance of Sicily (wife and queen)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus on Henry VI's reign",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "German chronicles of the period",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Henry VI's political position in 1194 is well-documented in historiographic sources, though specific events of this year are not extensively recorded.",
-      "cross_references": []
-    },
-    {
-      "id": "1194-007",
-      "title": "Minamoto Yoritomo's Consolidation of Power in Japan",
-      "region": "Japan / Kamakura Shogunate",
-      "coordinates_approx": "35.3295, 139.5471",
-      "category": "political",
-      "description": "Minamoto Yoritomo, the founder of the Kamakura Shogunate, continued to consolidate his military and political authority over Japan in 1194. Having defeated the Taira clan in 1185, Yoritomo established a military government (bakufu) that would govern Japan for nearly 150 years. By 1194, Yoritomo had secured his position as the dominant military power and was working to establish the institutional structures of the shogunate. His government represented a shift in Japanese political power from the imperial court to the military aristocracy.",
-      "key_figures": [
-        "Minamoto Yoritomo (Shogun)",
-        "Emperor Go-Toba (nominal ruler)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus on Kamakura Shogunate origins",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Japanese chronicles (Azuma Kagami and others)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Yoritomo's consolidation of power is well-documented in Japanese sources, though the precise chronology of events in 1194 is less certain.",
+      "certainty": "confirmed",
+      "certainty_note": "Zhu Xi's life and career are well-documented in Song records and his own voluminous writings. His intellectual activity in 1194 is attested, though specific works or events of that year are not always precisely dated.",
       "cross_references": [
-        "1185-001 (Defeat of Taira clan)"
+        "1200-001 (Zhu Xi's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Saladin's death in 1194 is sometimes overstated in Western historiography as marking an immediate and complete collapse of Islamic unity. Modern scholarship emphasizes that the Ayyubid fragmentation was gradual and that regional Ayyubid rulers maintained considerable military and administrative capacity. The notion that Saladin's death immediately 'opened the door' to Crusader reconquest is complicated by the fact that Crusader expansion was limited and often unsuccessful in the decades following 1194. Additionally, some sources attribute greater agency to Saladin's successors than earlier historiography allowed.",
-  "historiographic_note": "The year 1194 is well-documented for major political events in the Islamic world, Europe, and East Asia, but documentation is heavily skewed toward elite political and military history. Economic, social, and cultural developments are poorly recorded for most regions. Islamic sources are abundant for the Middle East and Levant but sparse for Central Asia and the Indian subcontinent. European sources are dominated by Crusade narratives and royal chronicles, with limited coverage of non-elite society. East Asian sources (Japanese and Chinese) are relatively rich for political history but less detailed for social and economic conditions. African and Oceanic history is almost entirely absent from contemporary documentation.",
+  "disconfirming_evidence": "Richard I's release (1194-001) is sometimes portrayed as a triumphant return to power; however, modern scholarship emphasises that the ransom payment severely strained English finances and that Richard's remaining years were marked by continuous military campaigns that ultimately weakened the Angevin position. The significance of al-Afdal's consolidation (1194-004) is sometimes overstated; modern scholarship suggests that the Ayyubid state remained militarily coherent despite factional disputes. The dating of Jayavarman VII's temple construction (1194-003) is contested; some scholars argue for earlier (1180s) or later (1210s) primary construction phases.",
+  "historiographic_note": "Documentation for 1194 is moderate to good for Europe, the Islamic world, and East Asia, but relies heavily on later compilations and chronicles rather than contemporary records. European sources are predominantly Latin and Norman; Islamic sources are primarily Arabic chronicles written decades or centuries later. Japanese sources are almost entirely from 13th-century compilations (Azuma Kagami, Heike Monogatari), introducing potential anachronism and narrative bias. Khmer sources are primarily archaeological and epigraphic, with limited written historical narrative. Sub-Saharan Africa, Northern Europe, and Central Asia are underrepresented in surviving documentation. The record is shaped by the interests of literate elites (courts, monasteries, temples) and may omit significant events in non-literate or non-elite communities.",
   "graph_edges": [
     {
       "from": "1194-001",
-      "to": "1194-002",
+      "to": "1192-001",
       "relation": "caused_by",
-      "note": "Saladin's death directly precipitated the fragmentation of the Ayyubid Sultanate"
+      "note": "Richard's release in 1194 was a direct consequence of his capture in 1192."
+    },
+    {
+      "from": "1194-001",
+      "to": "1199-001",
+      "relation": "led_to",
+      "note": "Richard's return in 1194 enabled his final military campaigns, which ended with his death in 1199."
     },
     {
       "from": "1194-002",
-      "to": "1194-003",
-      "relation": "led_to",
-      "note": "Ayyubid fragmentation weakened Islamic military capacity and enabled Crusader pressure"
+      "to": "1185-001",
+      "relation": "part_of",
+      "note": "Yoritomo's consolidation in 1194 was a continuation of his establishment of the shogunate in 1185."
+    },
+    {
+      "from": "1194-003",
+      "to": "1181-001",
+      "relation": "part_of",
+      "note": "Jayavarman VII's temple construction was part of his broader consolidation of power and cultural patronage."
     },
     {
       "from": "1194-004",
-      "to": "1200-001",
-      "relation": "led_to",
-      "note": "Delhi Sultanate consolidation in 1194 set the stage for further expansion in the early 13th century"
+      "to": "1193-001",
+      "relation": "caused_by",
+      "note": "Al-Afdal's consolidation in 1194 was a direct consequence of Saladin's death in 1193."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:33:33.677847",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

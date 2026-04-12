@@ -1,81 +1,85 @@
 {
   "year": 1179,
   "year_label": "1179 CE",
-  "era_context": "The late 12th century CE saw the Crusader states in the Levant in terminal decline following Saladin's victories. In Europe, the High Middle Ages were marked by feudal consolidation, the growth of royal power (particularly in England under Henry II and his sons), and the expansion of scholasticism. In Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south; the Khmer Empire was at its height under Jayavarman VII; and Japan was transitioning between the Heian and Kamakura periods.",
+  "era_context": "The late 12th century CE was a period of significant geopolitical realignment and cultural flourishing. The Crusader states were weakening as Saladin consolidated Islamic power. In Europe, the High Middle Ages saw the growth of cathedral schools, the development of Gothic architecture, and the strengthening of feudal monarchies. In Asia, the Jin Dynasty controlled northern China, the Song Dynasty the south, and the Khmer Empire was at its height. The Islamic world was experiencing the rise of the Ayyubid dynasty and the decline of the Zengid atabeg system.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for most regions)",
-    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
-    "Central Asia and the Steppe (limited non-Islamic sources)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern and Eastern Europe beyond major kingdoms (sparse documentation)",
+    "Pre-Columbian Americas (no written records in Old World tradition)",
+    "Southeast Asia beyond the Khmer Empire (limited sources)"
   ],
   "events": [
     {
       "id": "1179-001",
-      "title": "Battle of Marj al-Rahit (Saladin's victory over Crusaders)",
-      "region": "Levant (near Damascus, modern Syria)",
-      "coordinates_approx": "33.5, 36.3",
-      "category": "military",
-      "description": "Saladin defeated a Crusader relief force attempting to aid the besieged castle of Karak. This victory consolidated Saladin's control over the region and demonstrated the military superiority of his unified Muslim forces over the fragmented Crusader states. The battle occurred during Saladin's campaign to eliminate Crusader strongholds in the Levant, a process that would culminate in the fall of Jerusalem in 1187.",
-      "key_figures": [
-        "Saladin (Ayyubid Sultan)",
-        "Raynald of Ch\u00e2tillon (Crusader lord)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Baha al-Din Ibn Shaddad, Life of Saladin",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The battle is well-attested in Islamic sources written within a generation of the event. The date is secure in Islamic historiography.",
-      "cross_references": [
-        "1187-001 (Fall of Jerusalem, culmination of Saladin's campaign)"
-      ]
-    },
-    {
-      "id": "1179-002",
-      "title": "Third Lateran Council convened by Pope Alexander III",
-      "region": "Rome, Papal States",
-      "coordinates_approx": "41.9, 12.5",
+      "title": "Third Lateran Council",
+      "region": "Christendom (Rome)",
+      "coordinates_approx": "41.90, 12.46",
       "category": "religious",
-      "description": "Pope Alexander III convened the Third Lateran Council in March 1179, one of the most important ecumenical councils of the medieval Church. The council addressed heresy (particularly the Waldensian and Cathar movements), reformed clerical discipline, regulated the papal election process, and issued canons on marriage, simony, and crusading. The council's decrees shaped Catholic practice for centuries and represented the Church's response to doctrinal challenges and internal corruption.",
+      "description": "The Third Lateran Council convened in March 1179 under Pope Alexander III. The council addressed a range of ecclesiastical issues, including the regulation of clerical conduct, the suppression of heresy, and the organization of the Church's hierarchy. Canon 27 of the council addressed the treatment of lepers and the establishment of hospitals, reflecting growing concern for social welfare. The council also addressed the problem of simony (the sale of church offices) and the need for clerical education. The Third Lateran Council represented the Church's attempt to reform itself and strengthen its institutional structures.",
       "key_figures": [
         "Pope Alexander III",
-        "Cardinal deacons and bishops from across Christendom"
+        "Cardinals and bishops from across Christendom"
       ],
       "sources": [
         {
-          "name": "Concilium Lateranense III, official council decrees",
+          "name": "Concilium Lateranense III (Third Lateran Council), official decrees",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Liber Pontificalis (papal biography collection)",
+          "name": "Roger of Howden, Chronica",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Third Lateran Council is precisely documented in contemporary ecclesiastical records and chronicles.",
+      "cross_references": [
+        "1179-002 (Waldensian movement and heresy suppression)"
+      ]
+    },
+    {
+      "id": "1179-002",
+      "title": "Waldensian movement and heresy suppression",
+      "region": "Western Europe (France, Italy)",
+      "coordinates_approx": "45.18, 5.73",
+      "category": "religious",
+      "description": "The Waldensian movement, founded by Peter Waldo in the 1170s, was formally condemned as heretical at the Third Lateran Council in 1179. The Waldensians advocated for apostolic poverty and the right of laypeople to preach, challenging the Church's monopoly on religious authority. Their condemnation at the council marked the beginning of systematic persecution that would continue for centuries. The movement represented a significant challenge to ecclesiastical authority and foreshadowed later reform movements, including the Protestant Reformation.",
+      "key_figures": [
+        "Peter Waldo (Waldensian founder)",
+        "Pope Alexander III"
+      ],
+      "sources": [
+        {
+          "name": "Concilium Lateranense III, Canon 27",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis (Book of the Popes)",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The council is extensively documented in official ecclesiastical records and contemporary chronicles. The date and decrees are secure.",
-      "cross_references": []
+      "certainty_note": "The condemnation of the Waldensians at the Third Lateran Council in 1179 is well-documented.",
+      "cross_references": [
+        "1179-001 (Third Lateran Council)"
+      ]
     },
     {
       "id": "1179-003",
-      "title": "Death of Henry II of England; succession of Richard I",
-      "region": "England and Angevin domains",
-      "coordinates_approx": "52.0, -2.0",
+      "title": "Henry II's conflict with his sons",
+      "region": "Angevin Empire (England, Normandy, Aquitaine)",
+      "coordinates_approx": "51.51, -0.13",
       "category": "political",
-      "description": "Henry II, King of England and Duke of Normandy, died on 6 July 1179 at Chinon Castle. He was succeeded by his son Richard I (Richard the Lionheart), who would become one of the most famous Crusader kings. Henry's death marked the end of a reign that had consolidated English royal power and expanded the Angevin Empire across much of western France. Richard's accession would lead to his immediate involvement in the Third Crusade.",
+      "description": "King Henry II of England faced ongoing conflicts with his sons, particularly Richard (the future Richard the Lionheart) and John, over the division of his vast Angevin territories. In 1179, these tensions were escalating, with Richard increasingly asserting his independence in Aquitaine and challenging his father's authority. These family conflicts would eventually lead to open rebellion and civil war, fundamentally weakening the Angevin position and contributing to the rise of Philip II Augustus of France. The year 1179 marks a critical point in the deterioration of Henry II's family relationships.",
       "key_figures": [
-        "Henry II (deceased)",
-        "Richard I (new king)",
-        "Eleanor of Aquitaine (queen mother)"
+        "Henry II (King of England, r. 1154\u20131189)",
+        "Richard I (future King of England, r. 1189\u20131199)",
+        "John (future King of England, r. 1199\u20131216)",
+        "Eleanor of Aquitaine (Dowager Queen)"
       ],
       "sources": [
         {
@@ -84,64 +88,112 @@
           "contemporary": true
         },
         {
-          "name": "Ralph of Diceto, Historical Works",
+          "name": "Gesta Henrici Secundi",
           "type": "chronicle",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Henry II's death is extensively documented in English and Norman chronicles. The date is secure.",
+      "certainty": "probable",
+      "certainty_note": "The general context of Henry II's family conflicts is well-documented; specific events of 1179 are less precisely dated.",
       "cross_references": [
-        "1191-001 (Richard I's participation in Third Crusade)"
+        "1189-001 (Henry II's death and Richard's accession)"
       ]
     },
     {
       "id": "1179-004",
-      "title": "Jayavarman VII's continued construction at Angkor Thom",
-      "region": "Khmer Empire (modern Cambodia)",
-      "coordinates_approx": "13.4, 104.0",
-      "category": "cultural",
-      "description": "Jayavarman VII, the greatest builder-king of the Khmer Empire, continued his massive architectural and urban planning projects at Angkor Thom, the capital. In 1179, he was in the midst of constructing the Bayon temple complex and expanding the city's infrastructure. His reign (1181\u20131219) represented the peak of Khmer power and artistic achievement, with extensive temple construction, road networks, and hospital systems reflecting both religious devotion and administrative sophistication.",
+      "title": "Saladin's military campaigns in the Levant",
+      "region": "Levant (Ayyubid Sultanate)",
+      "coordinates_approx": "33.51, 36.28",
+      "category": "military",
+      "description": "Saladin continued his military consolidation in the Levant in 1179, conducting campaigns against remaining Zengid strongholds and Crusader territories. His forces besieged and captured several fortifications, including the castle of Shawbak (also known as Montreal). These campaigns were part of Saladin's broader strategy to unify Muslim forces and isolate the Crusader states. The year 1179 marks a critical phase in Saladin's rise to dominance in the eastern Mediterranean.",
       "key_figures": [
-        "Jayavarman VII (Khmer king)"
+        "Saladin (Ayyubid Sultan, r. 1174\u20131193)",
+        "Al-Adil I (Saladin's brother, military commander)"
       ],
       "sources": [
         {
-          "name": "Bayon temple inscriptions and architectural analysis",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Zhou Daguan, Records of Cambodia (13th century account of Angkor)",
+          "name": "Baha ad-Din ibn Shaddad, Life of Saladin",
+          "type": "biography",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Saladin's military campaigns are documented in Islamic sources, though many were compiled after his death. Specific campaigns of 1179 are less precisely dated than later events.",
+      "cross_references": [
+        "1187-001 (Battle of Hattin)"
+      ]
+    },
+    {
+      "id": "1179-005",
+      "title": "Jin Dynasty military preparations",
+      "region": "Northern China (Jin Dynasty)",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "military",
+      "description": "The Jin Dynasty under Emperor Shizong (r. 1161\u20131189) continued military preparations and reforms in 1179. These preparations were designed to strengthen the Jin state's military capabilities and maintain its control over northern China. The Jin maintained a sophisticated military organization that combined Jurchen cavalry traditions with Han Chinese infantry and siege warfare techniques. The year 1179 marks a period of relative stability and military strength for the Jin Dynasty.",
+      "key_figures": [
+        "Emperor Shizong of Jin (r. 1161\u20131189)"
+      ],
+      "sources": [
+        {
+          "name": "Jurchen Jin Shih (Jin History)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Jayavarman VII's reign is well-documented through inscriptions and architectural evidence, but the precise dating of individual construction phases within his reign is approximate (\u00b15 years). He likely became king in 1181, so 1179 may predate his reign; this entry reflects ongoing construction projects in the Angkor region during this period.",
+      "certainty_note": "Jin Dynasty military activities are documented in later compilations; specific events of 1179 are not individually highlighted.",
+      "cross_references": [
+        "1161-001 (Shizong's accession)"
+      ]
+    },
+    {
+      "id": "1179-006",
+      "title": "Song Dynasty economic and cultural development",
+      "region": "Southern China (Song Dynasty)",
+      "coordinates_approx": "30.27, 120.15",
+      "category": "cultural",
+      "description": "The Southern Song Dynasty under Emperor Xiaozong (r. 1163\u20131189) continued its cultural and economic development in 1179. The Song Dynasty was renowned for its advances in printing, ceramics, painting, and philosophy. The year 1179 marks a period of cultural flourishing, with the development of Neo-Confucian philosophy and the production of sophisticated works of art and literature. Despite military pressures from the Jin Dynasty, the Song maintained a sophisticated and prosperous civilization.",
+      "key_figures": [
+        "Emperor Xiaozong of Song (r. 1163\u20131189)",
+        "Zhu Xi (Neo-Confucian philosopher, b. 1130)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Song Dynasty cultural development is documented in later compilations; specific events of 1179 are not individually highlighted.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of Jayavarman VII's accession is debated among scholars; some sources place it in 1181, others earlier. If 1181 is correct, the Bayon construction would not have begun in 1179. The entry above reflects this uncertainty by framing it as ongoing regional construction rather than definitively attributing it to Jayavarman VII's reign.",
-  "historiographic_note": "Documentation for 1179 is strong for Western Europe and the Islamic world, moderate for East Asia, and sparse for sub-Saharan Africa and the Americas. Western sources (particularly English chronicles) are abundant but reflect a Crusader-centric perspective. Islamic sources provide crucial counternarrative but are often compiled generations after events. Khmer sources are primarily epigraphic and architectural, limiting narrative detail.",
+  "disconfirming_evidence": "The significance of the Third Lateran Council is sometimes overstated in popular histories. While the council addressed important ecclesiastical issues, its actual impact on heresy suppression was limited; the Waldensian movement continued to grow despite condemnation. Additionally, the claim that Henry II's family conflicts in 1179 were the primary cause of the Angevin decline is disputed by some scholars who argue that structural factors (the rise of the French monarchy, the weakness of the Angevin administrative system) were more important than personal conflicts.",
+  "historiographic_note": "Documentation for 1179 is heavily weighted toward Western Europe and the Islamic world. Ecclesiastical sources (papal records, council decrees) are abundant and detailed. English and French chronicles provide extensive coverage of political and military events, but often reflect court perspectives. Islamic sources on Saladin are preserved primarily in later compilations, introducing potential bias. East Asian sources (Jin and Song records) are preserved in Yuan-era compilations, creating temporal distance. Sub-Saharan Africa, the Americas, and much of northern Europe remain poorly documented for this specific year. The historical record privileges political, military, and religious events over social, economic, or environmental changes.",
   "graph_edges": [
     {
       "from": "1179-001",
-      "to": "1187-001",
+      "to": "1179-002",
       "relation": "led_to",
-      "note": "Saladin's victory at Marj al-Rahit was part of the campaign that culminated in the fall of Jerusalem"
+      "note": "The Third Lateran Council directly led to the formal condemnation of the Waldensian movement"
     },
     {
       "from": "1179-003",
-      "to": "1191-001",
+      "to": "1189-001",
       "relation": "led_to",
-      "note": "Richard I's accession in 1179 led directly to his leadership of the Third Crusade"
+      "note": "Henry II's family conflicts in 1179 escalated to open rebellion and civil war by 1189"
+    },
+    {
+      "from": "1179-004",
+      "to": "1187-001",
+      "relation": "led_to",
+      "note": "Saladin's military campaigns in 1179 were part of the consolidation that enabled his victory at Hattin in 1187"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:39:13.679531",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

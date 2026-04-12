@@ -1,53 +1,55 @@
 {
   "year": 1195,
   "year_label": "1195 CE",
-  "era_context": "The late 12th century is marked by the decline of the Crusader states following Saladin's victories, the consolidation of feudal monarchies in Western Europe, and the rise of merchant republics in Italy. The Holy Roman Empire under Emperor Henry VI remains powerful. In Asia, the Jin Dynasty controls northern China, the Song Dynasty the south, and the Ghurid Empire expands in Central Asia and India. This is the age of the troubadours, Gothic cathedral construction, and the early development of universities.",
-  "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "era_context": "1195 CE falls within the late 12th century, a period of significant political fragmentation and cultural flourishing across Eurasia. The Ayyubid succession crisis following Saladin's death (1193) was ongoing. The Angevin Empire under Richard I was under pressure from Philip II Augustus. The Khmer Empire under Jayavarman VII was at its territorial peak. Japan's Kamakura shogunate was consolidating power. The Byzantine Empire was in decline, facing internal instability and external pressure from Crusaders and Turks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Central Asia and the Steppe (limited contemporary records)",
+    "Mesoamerica and South America (no written records in European tradition)"
+  ],
   "events": [
     {
       "id": "1195-001",
-      "title": "Emperor Henry VI's consolidation of power and attempts at hereditary succession",
-      "region": "Holy Roman Empire, Germany, Sicily, Italy",
-      "coordinates_approx": "51.1657, 10.4515",
+      "title": "Canute VI of Denmark dies; succession of Valdemar II",
+      "region": "Denmark, Scandinavia",
+      "coordinates_approx": "55.6761, 12.5683",
       "category": "political",
-      "description": "Emperor Henry VI of the Staufen dynasty continued to consolidate his power over the Holy Roman Empire, Germany, Sicily, and southern Italy. In 1195, Henry VI undertook efforts to establish a hereditary succession for his young son Frederick (later Frederick II), attempting to transform the elective Holy Roman Empire into a hereditary monarchy. These efforts generated significant opposition from the German princes, who feared the loss of their electoral privileges, and from the papacy, which opposed the concentration of power in Staufen hands. Henry VI's aggressive policies and attempts to expand imperial power would ultimately fail, and his death in 1197 would trigger a succession crisis.",
+      "description": "King Canute VI of Denmark died on 12 November 1191 (not 1195, but his succession triggered events that dominated the 1190s). His son Valdemar II (Valdemar the Conqueror) succeeded him and would become one of Denmark's greatest medieval kings. By 1195, Valdemar II was consolidating power and beginning the military campaigns that would expand Danish territory and influence in the Baltic and North Sea. Valdemar's reign (1191\u20131241) marked the height of Danish medieval power. This succession is attested in Scandinavian chronicles and later historiographic synthesis.",
       "key_figures": [
-        "Henry VI (Holy Roman Emperor)",
-        "Constance of Sicily (empress)",
-        "Frederick (young heir, future Frederick II)",
-        "German princes and Italian nobles"
+        "Valdemar II of Denmark (King, known as 'the Conqueror')",
+        "Archbishop Absalon of Lund (advisor and military leader)"
       ],
       "sources": [
         {
-          "name": "Chronica Regia Coloniensis (Cologne Royal Chronicle)",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Saxo Grammaticus, Gesta Danorum (History of the Danes), compiled early 13th century",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Liber ad honorem Augusti by Peter of Eboli (contemporary chronicle)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Danish royal chronicles and annals",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Henry VI's efforts to establish hereditary succession are well-documented in contemporary German and Italian sources.",
+      "certainty": "probable",
+      "certainty_note": "Valdemar II's accession is well-attested, but the specific dating of events in 1195 relies on later compilations. Saxo Grammaticus wrote in the early 13th century, introducing potential chronological distortion.",
       "cross_references": [
-        "1197-001 (Henry VI's death)",
-        "1198-002 (Succession crisis)"
+        "1191-001 (Canute VI's death and Valdemar II's accession)",
+        "1202-001 (Valdemar II's conquest of Estonia)"
       ]
     },
     {
       "id": "1195-002",
-      "title": "Richard I's military campaigns and fortification of Normandy",
-      "region": "England, Normandy, Aquitaine",
-      "coordinates_approx": "49.1829, -0.3707",
-      "category": "military",
-      "description": "King Richard I of England (Richard the Lionheart) continued his military campaigns to defend and expand his continental holdings against the encroachments of King Philip II of France. In 1195, Richard undertook campaigns in Normandy and Aquitaine, fortifying his positions and engaging in military operations against French forces. Richard's military prowess and resources allowed him to maintain dominance in the region, but the costs of these campaigns were substantial and contributed to the financial strain on the English crown.",
+      "title": "Hubert Walter appointed Archbishop of Canterbury; English ecclesiastical reform",
+      "region": "England, Canterbury",
+      "coordinates_approx": "51.2787, 1.0874",
+      "category": "religious",
+      "description": "Hubert Walter (c. 1140\u20131205), a prominent English cleric and administrator, was appointed Archbishop of Canterbury in 1193 and was actively engaged in ecclesiastical and political affairs in 1195. He served as justiciar (chief administrator) under Richard I and later King John, making him one of the most powerful figures in England. Walter was instrumental in raising Richard's ransom (1194) and in managing English affairs during the king's absences. His tenure as archbishop was marked by efforts to reform the English church and strengthen ecclesiastical authority. Walter's career exemplifies the intersection of religious and secular power in medieval England.",
       "key_figures": [
-        "Richard I (King of England)",
-        "Philip II of France (rival)",
-        "Norman and Angevin barons"
+        "Hubert Walter (Archbishop of Canterbury, Justiciar of England)",
+        "Richard I (King of England)"
       ],
       "sources": [
         {
@@ -62,127 +64,134 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Richard's military campaigns in 1195 are documented in contemporary English chronicles.",
+      "certainty_note": "Hubert Walter's appointment and activities are well-documented in contemporary English chronicles. His role in 1195 is attested in multiple sources.",
       "cross_references": [
-        "1196-002 (Richard's continued campaigns)",
-        "1199-001 (Richard's death)"
+        "1193-001 (Hubert Walter's appointment as Archbishop)",
+        "1205-001 (Hubert Walter's death)"
       ]
     },
     {
       "id": "1195-003",
-      "title": "Saladin's rule and consolidation of the Ayyubid state",
-      "region": "Egypt, Levant, Syria",
-      "coordinates_approx": "30.0444, 31.2357",
+      "title": "Byzantine civil war; Andronikos II Palaiologos and Alexios III conflict",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0082, 28.9784",
       "category": "political",
-      "description": "Saladin (Salah ad-Din Yusuf ibn Ayyub) continued to rule the Ayyubid state, which dominated Egypt, Syria, and the Levant. By 1195, Saladin had consolidated his power and established a unified Islamic state that posed a formidable challenge to the remaining Crusader states. His administrative reforms, military organization, and religious legitimacy made the Ayyubid state one of the most powerful in the medieval Islamic world. Saladin would die in 1193, but his state would continue under his successors.",
+      "description": "The Byzantine Empire was in turmoil in the 1190s. Emperor Andronikos II Palaiologos (r. 1282\u20131328) had not yet come to power, but the empire was ruled by Alexios III Angelos (r. 1195\u20131203), who seized power in a coup in 1195. Alexios III deposed and blinded his brother Isaac II Angelos, consolidating power through military force. This internal instability weakened the empire's ability to resist external threats from Crusaders, Turks, and Balkan states. The coup is attested in Byzantine chronicles and later historiographic accounts. This period marks the beginning of the end for the Byzantine Empire's control of the eastern Mediterranean.",
       "key_figures": [
-        "Saladin (Ayyubid founder and ruler)"
+        "Alexios III Angelos (Byzantine Emperor, usurper)",
+        "Isaac II Angelos (deposed emperor)",
+        "Euphrosyne Doukaina Kamatera (empress, wife of Alexios III)"
       ],
       "sources": [
         {
-          "name": "Baha ad-Din ibn Shaddad, Sirat Saladin (Biography of Saladin)",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Niketas Choniates, History (Historia), written early 13th century",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
-          "type": "later_compilation",
+          "name": "Byzantine imperial records and chronicles",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Saladin's rule and the consolidation of the Ayyubid state are well-documented in both Islamic and Crusader sources. However, note that Saladin died in 1193, so this entry describes the state he founded, not his direct rule in 1195.",
+      "certainty_note": "Alexios III's coup in 1195 is well-documented in Byzantine sources. The date and basic facts are confirmed, though interpretations of the causes and consequences vary.",
       "cross_references": [
-        "1193-001 (Saladin's death)",
-        "1187-001 (Battle of Hattin and conquest of Jerusalem)"
+        "1203-001 (Fourth Crusade and fall of Constantinople)"
       ]
     },
     {
       "id": "1195-004",
-      "title": "Ghurid military expansion in northern India under Muhammad of Ghor",
+      "title": "Ghurid Empire expansion in India; Muhammad of Ghor campaigns",
       "region": "Northern India, Afghanistan",
       "coordinates_approx": "28.6139, 77.2090",
       "category": "military",
-      "description": "Muhammad of Ghor (also known as Muhammad Ghori) continued his military campaigns in northern India, consolidating Ghurid control over territories previously held by the Rajput kingdoms and the declining Pala Empire. His campaigns, particularly in the Ganges valley and around Delhi, marked the beginning of sustained Islamic military presence in the Indian subcontinent. The Ghurid conquests introduced new military technologies, administrative systems, and religious institutions that would transform northern Indian society.",
+      "description": "Muhammad of Ghor (Muhammad Ghori, c. 1149\u20131206), ruler of the Ghurid Empire, was actively expanding his control over northern India in the 1190s. In 1192, he defeated the Rajput confederation at the Second Battle of Tarain, opening the way for Islamic conquest of northern India. By 1195, Muhammad of Ghor was consolidating his gains and establishing the foundations of the Delhi Sultanate, which would dominate northern India for centuries. His military campaigns and administrative innovations marked a turning point in Indian history, transitioning from Hindu-dominated kingdoms to Islamic sultanates. The Ghurid expansion is attested in Islamic chronicles and later Indian historical sources.",
       "key_figures": [
-        "Muhammad of Ghor (Ghurid commander)",
-        "Rajput rulers (various, in resistance)"
+        "Muhammad of Ghor (Ghurid ruler, military conqueror)",
+        "Qutb ud-Din Aibak (Muhammad's general, founder of Delhi Sultanate)"
       ],
       "sources": [
         {
-          "name": "Taj-ul-Maasir by Hasan Nizami (early 13th-century chronicle)",
+          "name": "Taj-ul-Maasir by Hasan Nizami, compiled early 13th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Ghurid expansion",
-          "type": "historiographic_consensus",
+          "name": "Firishta, History of the Muhammadan Empire in India, compiled 16th century",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Ghurid campaigns are documented in later Islamic chronicles compiled within a generation or two of the events. Exact dating of individual campaigns is uncertain, but the broader chronology of expansion is accepted by modern scholarship.",
+      "certainty_note": "Muhammad of Ghor's military campaigns are attested in Islamic sources, but precise dating of events in 1195 is uncertain. Most sources were compiled centuries after the events, introducing potential chronological distortion.",
       "cross_references": [
-        "1196-004 (Ghurid expansion)",
-        "1206-001 (Establishment of Delhi Sultanate)"
+        "1192-001 (Second Battle of Tarain)",
+        "1206-001 (Muhammad of Ghor's death; establishment of Delhi Sultanate)"
       ]
     },
     {
       "id": "1195-005",
-      "title": "Song Dynasty under Emperor Ningzong and cultural flourishing",
-      "region": "Southern Song China",
-      "coordinates_approx": "30.2741, 120.1551",
+      "title": "Angkor Wat temple complex in use; Khmer religious and administrative centre",
+      "region": "Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.3627, 103.8673",
       "category": "cultural",
-      "description": "Emperor Ningzong of the Southern Song Dynasty (r. 1194\u20131224) was firmly established in power by 1195, having consolidated control after the regency period. His reign saw continued cultural flourishing, including advances in Neo-Confucian philosophy, landscape painting, and ceramic production. The Song Dynasty maintained a sophisticated court culture and supported scholarly and artistic pursuits. Despite military pressure from the Jin Dynasty to the north, the Song Dynasty remained economically and culturally vibrant.",
+      "description": "Angkor Wat, the largest religious monument in the world, was in active use as a Hindu temple (and later Buddhist temple) in 1195. Built in the early 12th century under King Suryavarman II, Angkor Wat served as both a religious centre and a symbol of Khmer power and cosmological understanding. By the late 12th century, under Jayavarman VII, the temple was being incorporated into a broader Buddhist religious and administrative complex. The temple's bas-reliefs, architecture, and inscriptions provide evidence of Khmer religious practices, military organisation, and daily life. Angkor Wat remains one of the most significant archaeological sites in Southeast Asia.",
       "key_figures": [
-        "Emperor Ningzong (Song Dynasty)",
-        "Neo-Confucian scholars and artists"
+        "Jayavarman VII (Khmer king, patron of Buddhist temples)",
+        "Suryavarman II (earlier builder of Angkor Wat, r. 1113\u20131150)"
       ],
       "sources": [
         {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
+          "name": "Archaeological evidence from Angkor Wat temple complex",
+          "type": "archaeological",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Song Dynasty culture",
-          "type": "historiographic_consensus",
+          "name": "Epigraphic evidence from Khmer inscriptions at Angkor Wat",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zhou Daguan, Record of Cambodia (Zhenla Fengtu Ji), written 1297",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Emperor Ningzong's reign and the cultural achievements of the Song Dynasty are well-documented in the official Song histories and in surviving artifacts and texts.",
+      "certainty_note": "Angkor Wat's existence and use in 1195 are confirmed by archaeological evidence and epigraphic records. The temple's religious and administrative functions are well-attested.",
       "cross_references": [
-        "1127-001 (Jin Dynasty conquest of northern China)"
+        "1113-001 (Suryavarman II's construction of Angkor Wat)",
+        "1181-001 (Jayavarman VII's accession and Buddhist patronage)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Henry VI as an exceptionally powerful emperor is complicated by modern scholarship, which emphasizes the structural limitations of imperial authority and the rise of princely power. While Henry VI was indeed powerful, his attempts to establish hereditary succession and to centralize imperial authority ultimately failed, and his death in 1197 revealed the fragility of his power base. Additionally, the characterization of Richard I as a powerful and successful military leader, while generally accurate, sometimes obscures the fact that his military campaigns were costly and contributed to the financial strain that would weaken his successors' positions.",
-  "historiographic_note": "The year 1195 is exceptionally well-documented for Western Europe, with contemporary chronicles providing rich detail on political and military events. Documentation for the Islamic world, Central Asia, and India is sparser, relying on later compilations and historiographic consensus. Chinese sources are abundant but compiled centuries after the events. The historical record is heavily weighted toward political, military, and religious events; economic and social developments are less systematically documented. There is a significant bias toward elite narratives and the perspectives of rulers, clergy, and military leaders; the experiences of common people are largely absent from surviving sources.",
+  "disconfirming_evidence": "The significance of Alexios III's coup (1195-003) is sometimes portrayed as a straightforward usurpation; however, modern scholarship suggests that Isaac II's mental and physical decline made the succession crisis more complex, and Alexios III's initial support from the aristocracy was broader than simple usurpation narratives suggest. The dating of Muhammad of Ghor's campaigns (1195-004) is uncertain; some sources place key events in 1192, others in 1195 or later. The precise chronology of Ghurid expansion is debated among historians. Valdemar II's early reign (1195-001) is sometimes portrayed as immediately triumphant, but modern scholarship emphasises that his consolidation of power took several years and faced significant opposition.",
+  "historiographic_note": "Documentation for 1195 is moderate, with good coverage of Europe, the Islamic world, and East Asia, but relying heavily on later compilations. European sources are predominantly Latin and Norman; Islamic sources are primarily Arabic chronicles written decades or centuries later. Byzantine sources are from Niketas Choniates, written in the early 13th century, introducing chronological uncertainty. Indian sources are almost entirely from later compilations (13th century or later), making precise dating difficult. Khmer sources are primarily archaeological and epigraphic. The record is shaped by the interests of literate elites and may omit significant events in non-literate communities. Scandinavian sources are particularly sparse for this period, relying on Saxo Grammaticus's later compilation.",
   "graph_edges": [
     {
       "from": "1195-001",
-      "to": "1197-001",
-      "relation": "led_to",
-      "note": "Henry VI's attempts to establish hereditary succession in 1195 were followed by his death in 1197, which triggered a succession crisis."
+      "to": "1191-001",
+      "relation": "caused_by",
+      "note": "Valdemar II's consolidation of power in 1195 followed his accession in 1191."
     },
     {
-      "from": "1195-002",
-      "to": "1196-002",
-      "relation": "contemporary_with",
-      "note": "Richard's military campaigns in 1195 were part of the broader conflict with Philip II that continued in 1196."
+      "from": "1195-003",
+      "to": "1203-001",
+      "relation": "led_to",
+      "note": "Alexios III's internal instability contributed to the Byzantine Empire's vulnerability to the Fourth Crusade in 1203."
     },
     {
       "from": "1195-004",
-      "to": "1206-001",
-      "relation": "led_to",
-      "note": "Ghurid military expansion in 1195 established the foundation for the Delhi Sultanate established in 1206."
+      "to": "1192-001",
+      "relation": "part_of",
+      "note": "Muhammad of Ghor's consolidation in 1195 was part of his broader conquest of northern India following the Second Battle of Tarain."
+    },
+    {
+      "from": "1195-005",
+      "to": "1113-001",
+      "relation": "part_of",
+      "note": "Angkor Wat's continued use in 1195 was part of its long history as a religious and administrative centre."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:31:25.037877",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

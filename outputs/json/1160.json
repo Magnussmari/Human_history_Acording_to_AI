@@ -1,140 +1,132 @@
 {
   "year": 1160,
   "year_label": "1160 CE",
-  "era_context": "The High Middle Ages in Europe; the Crusader States are in a period of relative stability following the Second Crusade (1147\u20131149). Nur ad-Din Zengi controls Syria and coordinates with Egyptian forces against the Crusaders. The Byzantine Empire under Manuel I Komnenos maintains its diplomatic and military presence in the Mediterranean and Balkans. In East Asia, the Jin Dynasty controls northern China; the Southern Song Dynasty rules the south. Islamic scholarship and trade networks span the Mediterranean and Indian Ocean.",
+  "era_context": "The mid-12th century CE was a period of Crusader retrenchment in the Levant, feudal consolidation in Western Europe, and the height of the Jin Dynasty's power in northern China. In Japan, the Heian period was in its final decades, with the rise of the samurai class and the Taira clan's dominance. The Islamic world experienced significant cultural production, particularly in Al-Andalus and the Ayyubid territories. This was also a period of technological advancement in Europe, including improvements in agricultural techniques and the expansion of trade networks.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pre-Columbian Americas (no Old World written records)",
-    "Northern Europe and Scandinavia (sparse sources)",
-    "Central Asia and the Steppe (limited written records)"
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Northern Europe beyond major kingdoms (sparse records)",
+    "Central Asia and the Steppe (fragmentary sources)",
+    "Mesoamerica and South America (no written records in European tradition)"
   ],
   "events": [
     {
       "id": "1160-001",
-      "title": "Baldwin III of Jerusalem dies",
-      "region": "Crusader States",
-      "coordinates_approx": "31.78, 35.23",
-      "category": "political",
-      "description": "Baldwin III, King of Jerusalem, died after a reign marked by military campaigns against Nur ad-Din and efforts to consolidate Crusader power in the Levant. His death marked the succession of his brother Amalric I, who would pursue more ambitious military campaigns into Egypt. Baldwin III's reign had been relatively successful in maintaining Crusader territorial integrity despite pressure from Nur ad-Din's forces.",
+      "title": "Taira clan defeats Minamoto clan at the Battle of Heiji",
+      "region": "Japan (Kyoto region)",
+      "coordinates_approx": "35.0\u00b0N, 135.8\u00b0E",
+      "category": "military",
+      "description": "The Taira clan, led by Taira no Kiyomori, defeated the Minamoto clan in the Heiji Rebellion, a brief but significant conflict in Japan. This victory consolidated Taira dominance over the imperial court and marked a major step toward the establishment of the Taira shogunate. The Heiji Rebellion arose from factional disputes within the imperial court and the growing power of military clans. The Taira's victory led to the execution or exile of key Minamoto leaders, though some, including the young Minamoto no Yoritomo, escaped and would later lead the Minamoto's resurgence.",
       "key_figures": [
-        "Baldwin III (King of Jerusalem)",
-        "Amalric I (his successor)"
+        "Taira no Kiyomori (Taira clan leader)",
+        "Minamoto no Yoshitomo (Minamoto clan leader, killed in the rebellion)",
+        "Minamoto no Yoritomo (young survivor, later founder of Kamakura shogunate)"
       ],
       "sources": [
         {
-          "name": "William of Tyre, Historia",
-          "type": "chronicle",
+          "name": "Heiji Monogatari (The Tale of Heiji)",
+          "type": "later_compilation",
           "contemporary": false
+        },
+        {
+          "name": "Genpei J\u014dsuiki (Chronicle of the Genpei War)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Japanese court records (Kugy\u014d bugy\u014d)",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "William of Tyre provides detailed accounts of Baldwin III's reign and death. The date is well established in Crusader sources.",
+      "certainty_note": "The Heiji Rebellion is well-attested in Japanese historical records and literary sources. Dating to 1160 is secure in the Japanese calendar system (Heiji 2).",
       "cross_references": [
-        "1161-002 (Amalric I's succession)"
+        "1185-001 (Minamoto victory at Dan-no-ura, reversing Taira dominance)",
+        "1192-001 (Minamoto no Yoritomo establishes Kamakura shogunate)"
       ]
     },
     {
       "id": "1160-002",
-      "title": "Nur ad-Din's military campaigns in Syria",
-      "region": "Syria / Mesopotamia",
-      "coordinates_approx": "35.3, 36.8",
-      "category": "military",
-      "description": "Nur ad-Din Zengi continued his military campaigns to consolidate control over Syria and Mesopotamia, strengthening his position against both the Crusaders and rival Muslim factions. His campaigns were part of a broader strategy to unify Muslim forces under his leadership and coordinate jihad against the Crusader States. Nur ad-Din's military success and administrative reforms made him one of the most powerful rulers in the Islamic world.",
+      "title": "Nur ad-Din Zengi consolidates Ayyubid power in Syria",
+      "region": "Syria and the Levant",
+      "coordinates_approx": "33.5\u00b0N, 36.3\u00b0E",
+      "category": "political",
+      "description": "Nur ad-Din Zengi (Nur ad-Din Mahmud), the Zengid ruler of Syria and northern Mesopotamia, continued to consolidate power and expand Ayyubid influence in the region. Nur ad-Din was a key figure in the early Crusades period, known for his military campaigns against the Crusader States and his patronage of Islamic institutions. His reign (1146\u20131174) saw the strengthening of Islamic military and administrative structures in the Levant, laying groundwork for Saladin's later campaigns. Nur ad-Din's court was a center of Islamic learning and culture.",
       "key_figures": [
-        "Nur ad-Din Mahmud ibn Zengi (Zengid ruler)",
-        "Saladin (his lieutenant, Egypt)"
+        "Nur ad-Din Zengi (Zengid ruler of Syria)",
+        "Saladin (rising military commander under Nur ad-Din's patronage)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus (modern scholarship)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Nur ad-Din's military campaigns occurred across the 1150s\u20131170s. The year 1160 is conventional; specific events of this year are not well documented in surviving sources.",
-      "cross_references": []
-    },
-    {
-      "id": "1160-003",
-      "title": "Byzantine-Norman conflict in southern Italy",
-      "region": "Southern Italy / Mediterranean",
-      "coordinates_approx": "40.5, 15.5",
-      "category": "military",
-      "description": "Tensions between the Byzantine Empire under Manuel I Komnenos and the Norman Kingdom of Sicily escalated into military conflict. Manuel I sought to recover Byzantine territories in southern Italy and Sicily, while Norman kings resisted Byzantine hegemony. These conflicts were part of the broader struggle for dominance in the Mediterranean during the 12th century.",
-      "key_figures": [
-        "Manuel I Komnenos (Byzantine Emperor)",
-        "William I (King of Sicily)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus (modern scholarship)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine and Norman chronicles",
+          "name": "Imad ad-Din al-Isfahani, chronicles",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Byzantine-Norman conflicts occurred across the 1150s\u20131180s. The year 1160 is conventional; specific events of this year are not well documented in surviving sources.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's consolidation of power is well-documented, but no single dramatic event is reliably dated to 1160 specifically. The year falls within a period of gradual political consolidation.",
+      "cross_references": [
+        "1174-001 (Nur ad-Din's death and Saladin's rise)",
+        "1187-001 (Saladin's conquest of Jerusalem)"
+      ]
     },
     {
-      "id": "1160-004",
-      "title": "Expansion of Hanseatic League trade networks",
-      "region": "Northern Europe / Baltic",
-      "coordinates_approx": "54.0, 12.0",
-      "category": "economic",
-      "description": "The Hanseatic League, a confederation of merchant guilds and market towns in northern Europe, continued its expansion of trade networks across the Baltic and North Sea. The League's growth reflected the increasing importance of long-distance trade in medieval Europe and the rise of merchant power. By the 12th century, the Hanseatic League was becoming a major economic and political force in northern Europe.",
+      "id": "1160-003",
+      "title": "Henry II of England establishes legal reforms",
+      "region": "England and Normandy",
+      "coordinates_approx": "51.5\u00b0N, -0.1\u00b0E",
+      "category": "legal",
+      "description": "Henry II of England continued his program of legal and administrative reforms during the 1160s, establishing the foundations of English common law. These reforms included the expansion of royal courts, the development of standardized legal procedures, and the assertion of royal authority over feudal lords and the Church. The Assize of Clarendon (1166) was a key document in this process, establishing procedures for criminal justice. These reforms had lasting impact on the development of English law and governance.",
       "key_figures": [
-        "Merchant guilds and town councils of northern Europe"
+        "Henry II (King of England, Duke of Normandy and Anjou)",
+        "Thomas Becket (Archbishop of Canterbury, in conflict with Henry II)"
       ],
       "sources": [
         {
-          "name": "Historiographic consensus (modern scholarship)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Later medieval trade records and chronicles",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Assize of Clarendon (1166)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Hanseatic League's development occurred gradually across the 12th\u201314th centuries. The year 1160 is conventional; the League's formal organization did not occur until later (13th century).",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "Henry II's legal reforms are well-documented in contemporary chronicles and legal documents. The Assize of Clarendon is dated to 1166, but the broader reform program spans the 1160s.",
+      "cross_references": [
+        "1170-001 (Murder of Thomas Becket)",
+        "1189-001 (Henry II's death)"
+      ]
     }
   ],
-  "disconfirming_evidence": "Baldwin III's death is sometimes dated to 1162 rather than 1160; sources vary on the exact year. Additionally, the Hanseatic League's formal organization did not occur until the 13th century; the entry for 1160 describes the gradual expansion of trade networks that would eventually lead to the League's formation, but the League itself did not exist as a formal organization in 1160.",
-  "historiographic_note": "The year 1160 is moderately well documented in European sources, particularly regarding the Crusader States and the Byzantine Empire. Islamic sources provide parallel accounts of Syrian and Egyptian politics. However, most accounts were written decades or centuries after the events. The record is heavily weighted toward political and military events; economic and social developments are underrepresented. For northern Europe and the Baltic, the historical record is sparse; the Hanseatic League's early development is poorly documented in surviving sources.",
+  "disconfirming_evidence": "The Heiji Rebellion is sometimes dated to 1159 rather than 1160, depending on the calendar system used (Japanese lunar calendar vs. proleptic Gregorian). Modern scholarship generally accepts 1160 as the correct date in the Gregorian system. No major disconfirming evidence was identified for other events listed.",
+  "historiographic_note": "The year 1160 CE is moderately well-documented in European and East Asian sources, but documentation is sparse for most other regions. European sources are dominated by monastic chronicles and royal records, creating a Western and ecclesiastical bias. Japanese sources are rich but often focus on court politics and military narratives. Islamic sources are abundant for the Levant and Egypt but thinner for other regions. The historical record for 1160 is reasonably complete for Europe, the Islamic world, and East Asia, but nearly absent for sub-Saharan Africa, the Americas, and much of Central Asia.",
   "graph_edges": [
     {
       "from": "1160-001",
-      "to": "1161-002",
+      "to": "1185-001",
       "relation": "led_to",
-      "note": "Baldwin III's death in 1160 led to the succession of Amalric I, who was crowned in 1161."
+      "note": "Taira victory at Heiji led to Minamoto exile and later resurgence"
     },
     {
       "from": "1160-002",
       "to": "1174-001",
+      "relation": "part_of",
+      "note": "Nur ad-Din's consolidation was part of a longer trajectory of Ayyubid expansion"
+    },
+    {
+      "from": "1160-003",
+      "to": "1170-001",
       "relation": "led_to",
-      "note": "Nur ad-Din's military campaigns in the 1160s set the stage for Saladin's consolidation of power after Nur ad-Din's death in 1174."
+      "note": "Henry II's legal reforms and assertion of royal authority contributed to conflict with Thomas Becket"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:43:11.378159",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,211 +1,216 @@
 {
   "year": 1189,
   "year_label": "1189 CE",
-  "era_context": "The late 12th century in the Eastern Mediterranean and Near East is dominated by the Crusades and their aftermath. The Ayyubid Sultanate under Saladin has recently defeated the Crusader Kingdom of Jerusalem at the Battle of Hattin (1187), triggering the Third Crusade. In Western Europe, the Angevin Empire under Henry II is fragmenting as his sons Richard and John contest succession. In Asia, the Jin Dynasty controls northern China while the Song Dynasty holds the south; in Japan, the Genpei War between the Minamoto and Taira clans is reaching its climax.",
+  "era_context": "The Third Crusade was launched in 1189 in response to Saladin's conquest of Jerusalem in 1187 and his victory at Hattin. Major European rulers\u2014Frederick Barbarossa, Philip II of France, and Richard I of England\u2014mobilized their forces. In East Asia, Minamoto Yoritomo was consolidating power in Japan following the Genpei War (1180\u20131185), while the Jin Dynasty controlled northern China and the Southern Song Dynasty held the south. The Islamic world remained fragmented among competing dynasties.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Crusade narratives",
+    "Central Asia and the Steppe"
+  ],
   "events": [
     {
       "id": "1189-001",
-      "title": "Death of Henry II of England; Accession of Richard I (Richard the Lionheart)",
-      "region": "England, Angevin Empire",
-      "coordinates_approx": "51.5074, -0.1278",
-      "category": "political",
-      "description": "Henry II, King of England and Duke of Normandy, died on 6 July 1189 at Chinon Castle after a brief illness, likely dysentery. His death followed military defeats to his sons Richard and Philip II of France, who had allied against him. Richard I succeeded to the throne and immediately began preparations for the Third Crusade, which had been called in response to Saladin's victory at Hattin. Richard's accession marked a shift in Angevin policy toward crusading commitment and away from Henry's defensive posture in France.",
+      "title": "Third Crusade officially launched; major European rulers mobilize forces",
+      "region": "Europe and Mediterranean",
+      "coordinates_approx": "48.0\u00b0N, 2.0\u00b0E",
+      "category": "military",
+      "description": "The Third Crusade was formally launched in 1189, initiated by Pope Gregory VIII in response to Saladin's conquest of Jerusalem in 1187. The three major European powers\u2014the Holy Roman Empire under Frederick I Barbarossa, France under Philip II, and England under Richard I\u2014committed significant military and financial resources. The Crusade represented the largest coordinated military effort by Western European powers since the First Crusade (1096\u20131099). The campaign would continue until 1192 and, despite initial successes, would ultimately fail to recapture Jerusalem.",
       "key_figures": [
-        "Henry II (deceased King of England)",
-        "Richard I (new King of England)",
+        "Pope Gregory VIII",
+        "Frederick I Barbarossa (Holy Roman Emperor)",
         "Philip II of France",
-        "John (Richard's younger brother)"
+        "Richard I of England"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronica",
+          "name": "Papal bulls and ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Ralph of Diceto, Ymagines Historiarum",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Gesta Henrici Secundi (attributed to Roger of Howden)",
+          "name": "Various European chronicles (Rigord, Annales Colonienses, etc.)",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death date and succession are well-documented in contemporary English chronicles. Multiple independent sources confirm the date of 6 July 1189.",
+      "certainty_note": "The launch of the Third Crusade in 1189 is well-documented in multiple contemporary sources from papal, European, and later Islamic perspectives.",
       "cross_references": [
-        "1187-001 (Battle of Hattin, precipitating cause)",
-        "1191-001 (Third Crusade departure)"
+        "1187-001 (Saladin's conquest of Jerusalem)",
+        "1190-001 (Siege of Acre begins)"
       ]
     },
     {
       "id": "1189-002",
-      "title": "Third Crusade Recruitment and Preparation",
-      "region": "Western Europe, England, France, Holy Roman Empire",
-      "coordinates_approx": null,
-      "category": "military",
-      "description": "Following Richard I's accession, recruitment for the Third Crusade intensified across Western Europe. Richard imposed the Saladin Tithe (a 10% tax on income and moveable property) to finance crusading efforts. Philip II of France and the German Emperor Henry VI also mobilized forces. The crusade represented a coordinated response by Western Christendom to Saladin's conquest of Jerusalem and the defeat at Hattin. Recruitment continued through 1190, with the main armies departing in 1191.",
+      "title": "Saladin consolidates control over the Levant and Egypt; establishes Ayyubid administrative structures",
+      "region": "Levant and Egypt",
+      "coordinates_approx": "30.0\u00b0N, 31.0\u00b0E",
+      "category": "political",
+      "description": "Following his victory at Hattin (1187) and conquest of Jerusalem, Saladin continued to consolidate Ayyubid control over the Levant and Egypt in 1189. He reorganized administrative structures, appointed governors to major cities, and strengthened military defenses against anticipated Crusader counterattacks. Saladin's consolidation efforts were pragmatic and focused on maintaining control over conquered territories while preparing for the expected Third Crusade response.",
       "key_figures": [
-        "Richard I of England",
-        "Philip II of France",
-        "Henry VI, Holy Roman Emperor",
-        "Pope Gregory VIII (who called the crusade in 1187)"
+        "Saladin / Salah ad-Din (Ayyubid sultan)",
+        "Al-Adil (Saladin's brother, military commander)"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronica",
+          "name": "Imad ad-Din al-Isfahani, Al-Fath al-Qussi fi al-Fath al-Qudsi",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Recruitment and taxation are well-documented in English and French chronicles. The Saladin Tithe is explicitly recorded in multiple sources.",
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Saladin's consolidation is clear from Islamic sources, though specific administrative details for 1189 are sparse.",
       "cross_references": [
-        "1187-001 (Battle of Hattin, precipitating cause)",
-        "1191-002 (Departure of crusade armies)"
+        "1187-001 (Hattin and conquest of Jerusalem)"
       ]
     },
     {
       "id": "1189-003",
-      "title": "Minamoto Victory at the Battle of Dannoura (Genpei War conclusion)",
-      "region": "Japan, Inland Sea",
-      "coordinates_approx": "34.2, 132.0",
-      "category": "military",
-      "description": "The Genpei War between the Minamoto and Taira clans culminated in the naval Battle of Dannoura (also called the Battle of Yashima) in 1185, but the final decisive engagement occurred in 1189 when Minamoto no Yoritomo's forces defeated the last Taira strongholds. The Minamoto established the Kamakura shogunate, marking the beginning of samurai military rule in Japan and the end of the Heian period's court-centered governance. This transition fundamentally restructured Japanese political and military organization.",
+      "title": "Minamoto Yoritomo establishes the Kamakura shogunate; formal military government in Japan",
+      "region": "Japan",
+      "coordinates_approx": "35.3\u00b0N, 139.5\u00b0E",
+      "category": "political",
+      "description": "Minamoto Yoritomo, having defeated the Taira clan in the Genpei War (1180\u20131185), formally established the Kamakura shogunate in 1185, but 1189 marks a key phase in its consolidation. Yoritomo received imperial recognition of his military authority and began organizing the samurai class into a hierarchical feudal structure. The establishment of the shogunate represented a fundamental transformation of Japanese governance, shifting power from the imperial court in Kyoto to the military government in Kamakura. This system would dominate Japanese politics for nearly seven centuries.",
       "key_figures": [
-        "Minamoto no Yoritomo (Minamoto commander)",
-        "Minamoto no Yoshitsune (Minamoto general)",
-        "Taira no Koremori (Taira commander, died 1185)"
+        "Minamoto Yoritomo (Shogun)",
+        "Emperor Go-Toba"
       ],
       "sources": [
         {
-          "name": "Heike Monogatari (The Tale of the Heike)",
+          "name": "Azuma Kagami (Mirror of the East)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Genpei Seisui Ki",
-          "type": "chronicle",
+          "name": "Heike Monogatari (Tale of the Heike)",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The main Taira defeat occurred at Dannoura in 1185. Final mopping-up operations and consolidation of Minamoto power extended into 1189. Dating of the final conclusion is approximate; sources vary slightly on when the war definitively ended.",
+      "certainty_note": "The establishment of the Kamakura shogunate is traditionally dated to 1185, but 1189 represents a key consolidation phase. The exact chronology of administrative developments is uncertain due to reliance on later compilations.",
       "cross_references": [
-        "1185-002 (Battle of Dannoura, main Taira defeat)",
-        "1192-001 (Formal establishment of Kamakura shogunate)"
+        "1185-001 (Genpei War conclusion)"
       ]
     },
     {
       "id": "1189-004",
-      "title": "Saladin's Consolidation of Ayyubid Control in the Levant",
-      "region": "Levant, Egypt, Syria",
-      "coordinates_approx": "33.5, 36.0",
+      "title": "Jin Dynasty under Emperor Zhangzong; administrative and cultural consolidation",
+      "region": "Northern China",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
       "category": "political",
-      "description": "In 1189, Saladin (Salah ad-Din Yusuf ibn Ayyub) consolidated Ayyubid control over the eastern Mediterranean following his victory at Hattin and conquest of Jerusalem in 1187. He faced the imminent arrival of the Third Crusade but used 1189 to strengthen fortifications, reorganize provincial administration, and secure supply lines. His consolidation efforts included reinforcing coastal cities and managing the diverse populations under Ayyubid rule. This period saw Saladin at the height of his power and prestige in the Islamic world.",
+      "description": "Emperor Zhangzong of the Jin Dynasty ascended to the throne in 1189, initiating a period of administrative reform and cultural development. He promoted the integration of Jurchen and Han Chinese traditions, supported Confucian scholarship, and attempted to strengthen the Jin Dynasty's administrative apparatus. This period represents a phase of relative stability and cultural flourishing in the Jin Dynasty, though underlying tensions between Jurchen and Han Chinese populations and external threats from the Mongol confederation in the north remained latent.",
       "key_figures": [
-        "Saladin (Salah ad-Din Yusuf ibn Ayyub)",
-        "Al-Adil (Saladin's brother, governor of Egypt)",
-        "Al-Afdal (Saladin's son)"
+        "Emperor Zhangzong of Jin (r. 1189\u20131208)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Baha ad-Din ibn Shaddad, Al-Nawadir as-Sultaniyya",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Saladin's administrative and military consolidation in 1189 is well-documented in contemporary Islamic chronicles. His preparations for the Third Crusade are extensively recorded.",
-      "cross_references": [
-        "1187-001 (Battle of Hattin)",
-        "1187-002 (Conquest of Jerusalem)",
-        "1191-003 (Third Crusade arrival in Levant)"
-      ]
-    },
-    {
-      "id": "1189-005",
-      "title": "Establishment of the Teutonic Order's Presence in the Holy Land",
-      "region": "Levant, Palestine",
-      "coordinates_approx": "31.9, 35.2",
-      "category": "religious",
-      "description": "The Teutonic Order, a military-religious order founded in 1190 but with roots in earlier German crusading efforts, began organizing its presence in the Holy Land during the Third Crusade period. German crusaders, including those from the Holy Roman Empire, arrived in the Levant in 1189\u20131191. The Teutonic Order would eventually become one of the major crusading powers, though its primary focus would later shift to the Baltic. This period marks the beginning of organized German military-religious participation in the Crusades.",
-      "key_figures": [
-        "German crusaders and nobles",
-        "Frederick Barbarossa (Holy Roman Emperor, died 1190 en route)"
-      ],
-      "sources": [
-        {
-          "name": "Itinerarium Peregrinorum et Gesta Regis Ricardi",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on Teutonic Order origins",
+          "name": "Jin Dynasty official records and later Chinese dynastic histories",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Teutonic Order's formal establishment is dated to 1190, but German crusading participation in 1189 is documented. The exact organizational structure in 1189 is less clear than in subsequent years.",
+      "certainty": "confirmed",
+      "certainty_note": "The ascension of Emperor Zhangzong in 1189 is well-documented in Chinese historical sources.",
       "cross_references": [
-        "1190-001 (Formal founding of Teutonic Order)",
-        "1191-002 (Third Crusade armies in Levant)"
+        "1115-001 (Jin Dynasty establishment)"
+      ]
+    },
+    {
+      "id": "1189-005",
+      "title": "Southern Song Dynasty maintains territorial integrity and economic vitality",
+      "region": "Southern China",
+      "coordinates_approx": "30.0\u00b0N, 120.0\u00b0E",
+      "category": "political",
+      "description": "The Southern Song Dynasty, despite its reduced territorial extent compared to the Northern Song, maintained significant economic vitality and political stability in 1189. Maritime trade flourished, and the dynasty supported scholarly and artistic pursuits. The reign of Emperor Guangzong (1189\u20131194) represented a period of relative peace and cultural achievement, even as the dynasty faced long-term military pressure from the Jin Dynasty to the north.",
+      "key_figures": [
+        "Emperor Guangzong of Song (r. 1189\u20131194)"
+      ],
+      "sources": [
+        {
+          "name": "Song Dynasty official records and later Chinese dynastic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The ascension of Emperor Guangzong in 1189 is well-documented in Chinese historical sources.",
+      "cross_references": [
+        "1141-001 (Treaty of Shaoxing)"
+      ]
+    },
+    {
+      "id": "1189-006",
+      "title": "Khmer Empire under Jayavarman VII; continued temple construction and territorial expansion",
+      "region": "Southeast Asia (modern Cambodia)",
+      "coordinates_approx": "13.4\u00b0N, 103.8\u00b0E",
+      "category": "cultural",
+      "description": "Jayavarman VII, who ascended to the Khmer throne around 1181, continued his ambitious program of temple construction and territorial expansion in 1189. He commissioned major religious structures, integrating Buddhist iconography with Khmer architectural traditions. This period represents the height of Khmer cultural and political power, though the empire's territorial extent and administrative capacity were beginning to face challenges from neighboring polities.",
+      "key_figures": [
+        "Jayavarman VII (Khmer king)"
+      ],
+      "sources": [
+        {
+          "name": "Bayon temple inscriptions and architectural evidence",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese diplomatic records (Zhou Daguan's later account, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general chronology of Jayavarman VII's reign is established through epigraphic evidence, though specific events within individual years are often uncertain.",
+      "cross_references": [
+        "1181-001 (Jayavarman VII's ascension)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of the final Minamoto victory in the Genpei War is sometimes placed at 1185 (Battle of Dannoura) rather than 1189. Modern scholarship increasingly recognizes that the war's conclusion was gradual, with final Taira resistance eliminated by 1189, but some sources treat 1185 as the definitive end. The significance of 1189 in Japan is thus somewhat dependent on historiographic convention. Additionally, the Teutonic Order's founding date is traditionally given as 1190, making its 1189 activities preliminary rather than formally institutional.",
-  "historiographic_note": "The year 1189 is exceptionally well-documented in Western European sources, particularly English and French chronicles, which focus heavily on Richard I's accession and crusade preparations. Islamic sources provide detailed accounts of Saladin's consolidation. Japanese sources (Heike Monogatari and related texts) are later compilations, introducing potential legendary elements into the Genpei War narrative. The historical record is heavily weighted toward the Mediterranean and Western Europe; documentation of events in Asia, Africa beyond Egypt, and the Americas is sparse or absent. The surviving sources reflect the interests of literate elites (clergy, nobility, court scribes) and may underrepresent popular movements, economic disruptions, or events in non-literate societies.",
+  "disconfirming_evidence": "The narrative of the Third Crusade as a unified, coordinated campaign has been complicated by modern scholarship. Rather than a single coherent effort, the Crusade was marked by separate national contingents with different strategic objectives and timelines. Frederick Barbarossa's German forces followed a different route and timeline than the French and English forces, and tensions between Richard and Philip would eventually lead to Philip's early departure from the Crusade. Additionally, the characterization of the Crusade as a response to Saladin's 'aggression' has been questioned by some scholars, who note that Crusader expansion into the Levant was itself a form of territorial conquest and that Saladin's actions were partly defensive responses to Crusader presence.",
+  "historiographic_note": "The year 1189 is exceptionally well-documented for the Crusader Levant and European Crusade narratives, with multiple contemporary chronicles from European, papal, and later Islamic sources. However, this creates a potential bias toward military and political events in the Mediterranean. Documentation for East Asia relies on later compilations and official histories, which may emphasize court-centered narratives. The launch of the Third Crusade is extensively documented in European sources but receives less detailed attention in Islamic sources, reflecting the different geographic and cultural focuses of surviving chronicles. Sub-Saharan Africa and Northern Europe remain poorly documented for this year.",
   "graph_edges": [
     {
       "from": "1189-001",
-      "to": "1191-002",
+      "to": "1187-001",
+      "relation": "caused_by",
+      "note": "Third Crusade was launched in response to Saladin's conquest of Jerusalem"
+    },
+    {
+      "from": "1189-001",
+      "to": "1190-001",
       "relation": "led_to",
-      "note": "Richard I's accession directly led to intensified Third Crusade preparations and his departure for the Holy Land"
+      "note": "Third Crusade mobilization led to Siege of Acre in 1190"
     },
     {
       "from": "1189-002",
-      "to": "1191-002",
-      "relation": "led_to",
-      "note": "Recruitment and preparation in 1189 culminated in the departure of crusade armies in 1191"
+      "to": "1187-001",
+      "relation": "part_of",
+      "note": "Saladin's consolidation followed his conquest of Jerusalem"
     },
     {
       "from": "1189-003",
-      "to": "1192-001",
-      "relation": "led_to",
-      "note": "Minamoto consolidation of power in 1189 led to the formal establishment of the Kamakura shogunate in 1192"
-    },
-    {
-      "from": "1187-001",
-      "to": "1189-001",
-      "relation": "caused_by",
-      "note": "Hattin's aftermath destabilized the Angevin Empire and contributed to Henry II's downfall"
+      "to": "1185-001",
+      "relation": "part_of",
+      "note": "Kamakura shogunate establishment followed the Genpei War"
     },
     {
       "from": "1189-004",
-      "to": "1191-003",
-      "relation": "led_to",
-      "note": "Saladin's consolidation in 1189 set the stage for his confrontation with the Third Crusade in 1191"
+      "to": "1189-005",
+      "relation": "contemporary_with",
+      "note": "Jin Dynasty in north and Southern Song Dynasty in south maintained their division"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:35:20.888440",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

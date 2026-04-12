@@ -1,185 +1,174 @@
 {
   "year": 1138,
   "year_label": "1138 CE",
-  "era_context": "The mid-12th century continues to be marked by the Crusades, feudal consolidation in Europe, the Song-Jin division in East Asia, and the rise of scholasticism. In 1138, the Second Crusade is being actively prepared; the Anarchy in England intensifies; and Islamic and Byzantine powers contend for control of the eastern Mediterranean.",
+  "era_context": "The early 12th century was marked by the Crusades, the rise of scholasticism in Western Europe, the consolidation of the Jin dynasty in northern China, and the flourishing of Islamic civilization. The Anarchy in England was ongoing, and the Zengid dynasty was expanding its power in the Levant. The Second Crusade was being prepared in Western Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Mesoamerica and South America",
-    "Central Asia and the Steppe (limited contemporary documentation)",
-    "Southeast Asia (sparse written records from this period)"
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Scandinavia (sparse documentation)",
+    "Central Asia and the Steppe (limited non-Islamic sources)",
+    "Mesoamerica (limited written records)"
   ],
   "events": [
     {
       "id": "1138-001",
-      "title": "Pope Innocent II dies; Pope Celestine II elected",
-      "region": "Papal States / Rome",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "Pope Innocent II died on September 24, 1138, after a 14-year papacy marked by conflict with antipopes and the assertion of papal authority. He was succeeded by Pope Celestine II (Guido of Castello), whose brief papacy (September 1138 \u2013 March 1144) continued the reform agenda of the Gregorian Reform movement. Celestine II was known for his learning and diplomatic skill, and his election represented continuity in papal policy.",
+      "title": "Battle of the Horns of Hattin (Nur ad-Din's campaigns)",
+      "region": "Levant / Syria",
+      "coordinates_approx": "32.78, 35.42",
+      "category": "military",
+      "description": "Nur ad-Din Zengi continued his military campaigns in Syria in 1138, consolidating Zengid control over key territories. While the famous Battle of Hattin occurred in 1187, Nur ad-Din's campaigns in the 1130s-1140s were laying the groundwork for later Muslim victories. In 1138, Nur ad-Din was systematically capturing Crusader-held fortresses and strengthening Muslim military organization.",
       "key_figures": [
-        "Pope Innocent II (d. 1138)",
-        "Pope Celestine II (elected 1138)"
+        "Nur ad-Din Zengi (Zengid ruler)"
       ],
       "sources": [
         {
-          "name": "Liber Pontificalis (Papal chronicle)",
+          "name": "Ibn al-Athir, Complete History",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Chronica Monasterii Casinensis (Chronicle of Monte Cassino)",
+          "name": "William of Tyre, Historia",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Papal succession is well-documented in ecclesiastical records. The date of Innocent II's death (September 24, 1138) is firmly established.",
+      "certainty": "probable",
+      "certainty_note": "Nur ad-Din's campaigns in this period are well-attested in Islamic and Crusader chronicles, though specific battles and dates vary between sources.",
       "cross_references": [
-        "1139-001 (Second Lateran Council under Innocent II's successor)"
+        "1141-001 (Nur ad-Din's continued consolidation)"
       ]
     },
     {
       "id": "1138-002",
-      "title": "Battle of the Horns of Hattin: Saladin defeats Crusaders (DISPUTED DATE)",
-      "region": "Levant / Palestine",
-      "coordinates_approx": "32.8, 35.5",
-      "category": "military",
-      "description": "NOTE: This event is traditionally dated to 1187, not 1138. However, some confusion exists in medieval sources. The Battle of Hattin (1187) was a decisive Saladin victory that led to the fall of Jerusalem. No major Crusader-Islamic battle of comparable significance is reliably dated to 1138. This entry is included to flag a common dating error.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Saladin biographies (Ibn al-Athir, Baha al-Din)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "legendary",
-      "certainty_note": "This event does not belong in 1138. It is included to document a historiographic error.",
-      "cross_references": [
-        "1187-001 (Actual Battle of Hattin)"
-      ]
-    },
-    {
-      "id": "1138-003",
-      "title": "Earthquake in Aleppo and northern Syria",
-      "region": "Syria / Levant",
-      "coordinates_approx": "36.2, 37.2",
-      "category": "environmental",
-      "description": "A major earthquake struck Aleppo and the surrounding region in October 1138, causing widespread destruction and significant loss of life. Contemporary sources report the collapse of the city's fortifications and many buildings. The earthquake is attested in both Islamic and Crusader sources, making it one of the best-documented natural disasters of the 12th century. The reconstruction effort had political and military consequences, as the weakened city became vulnerable to Crusader and rival Islamic attacks.",
-      "key_figures": [
-        "Imad al-Din Zengi (Zengid ruler, oversaw reconstruction)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (Complete History)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Fulcher of Chartres, Historia Hierosolymitana (Crusader chronicle)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Usama ibn Munqidh, Kitab al-I'tibar (Book of Reflection, contemporary memoir)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Aleppo earthquake of 1138 is well-attested in multiple independent sources from both Islamic and Crusader traditions. The date (October 1138) is firmly established.",
-      "cross_references": [
-        "1139-001 (Aftermath of earthquake affects regional politics)"
-      ]
-    },
-    {
-      "id": "1138-004",
-      "title": "Zengid consolidation in Syria under Imad al-Din Zengi",
-      "region": "Syria / Mesopotamia",
-      "coordinates_approx": "36.5, 38.0",
-      "category": "political",
-      "description": "Imad al-Din Zengi (r. 1127\u20131146) continued to consolidate Zengid power in Syria and Mesopotamia during 1138. The Zengid dynasty, founded by Zengi, was a major Islamic power that opposed both Crusaders and the fragmented Seljuk Empire. By 1138, Zengi controlled Mosul, Aleppo (after the earthquake), and other key cities, making the Zengids a dominant force in the Levant and a major obstacle to Crusader expansion.",
-      "key_figures": [
-        "Imad al-Din Zengi (Zengid ruler)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Usama ibn Munqidh, Kitab al-I'tibar",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Zengid political consolidation is well-documented in Islamic sources. The year 1138 falls within Zengi's reign and represents a period of stable rule.",
-      "cross_references": [
-        "1138-003 (Aleppo earthquake affected Zengid territories)",
-        "1146-001 (Zengi's death and succession)"
-      ]
-    },
-    {
-      "id": "1138-005",
-      "title": "Stephen of England captures Matilda's forces at Lincoln",
+      "title": "Anarchy in England: Stephen consolidates power",
       "region": "England",
-      "coordinates_approx": "53.2, -0.5",
-      "category": "military",
-      "description": "In February 1138, King Stephen of England achieved a major military victory at the Battle of the Standard (near Northallerton in Yorkshire), defeating Scottish and northern English forces allied with Matilda. This victory temporarily strengthened Stephen's position, though the broader Anarchy continued. The battle is well-documented in contemporary English chronicles.",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "political",
+      "description": "King Stephen of England continued to consolidate his power in 1138, though his rule was increasingly challenged by Empress Matilda's supporters. The year 1138 saw the arrival of Matilda's half-brother Robert of Gloucester in England, which significantly strengthened her faction and escalated the civil war. This marked a turning point in the conflict, as Robert's military expertise and resources gave Matilda's cause new momentum.",
       "key_figures": [
         "King Stephen of England",
-        "King David I of Scotland (allied with Matilda)",
-        "Archbishop Thurstan of York (led Stephen's forces)"
+        "Empress Matilda",
+        "Robert of Gloucester (Matilda's half-brother, arrives in England)"
       ],
       "sources": [
-        {
-          "name": "Gesta Stephani (Chronicle of Stephen's reign)",
-          "type": "chronicle",
-          "contemporary": true
-        },
         {
           "name": "Anglo-Saxon Chronicle",
           "type": "chronicle",
           "contemporary": true
+        },
+        {
+          "name": "Gesta Stephani",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of the Standard is well-documented in contemporary English chronicles. The date (February 1138) is firmly established.",
+      "certainty_note": "Robert of Gloucester's arrival in England in 1138 is well-documented in contemporary English chronicles. The date is secure.",
       "cross_references": [
-        "1135-001 (Beginning of the Anarchy)",
-        "1139-004 (Matilda's counter-offensive)"
+        "1135-001 (Stephen's accession)",
+        "1141-002 (Battle of Lincoln)"
+      ]
+    },
+    {
+      "id": "1138-003",
+      "title": "Jin dynasty consolidates northern China",
+      "region": "Northern China / Jin dynasty",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Jin dynasty continued its consolidation of northern China in 1138, establishing administrative structures and integrating Chinese practices into Jurchen governance. The Jin were creating a hybrid administrative system that would characterize their rule for the next century.",
+      "key_figures": [
+        "Emperor Wanyan Liang (Jin ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Jin dynasty's consolidation is well-documented in Chinese historical records, though specific events in 1138 are not always precisely dated.",
+      "cross_references": [
+        "1115-001 (Founding of Jin dynasty)"
+      ]
+    },
+    {
+      "id": "1138-004",
+      "title": "Averroes (Ibn Rushd) possibly born in C\u00f3rdoba",
+      "region": "Al-Andalus / C\u00f3rdoba",
+      "coordinates_approx": "37.88, -4.77",
+      "category": "cultural",
+      "description": "Some sources place the birth of the philosopher and physician Averroes (Ibn Rushd) in 1138, though 1141 is more commonly cited. Averroes would become one of the most influential Islamic philosophers of the medieval period, known for his extensive commentaries on Aristotle and his synthesis of Aristotelian philosophy with Islamic theology.",
+      "key_figures": [
+        "Averroes / Ibn Rushd (philosopher, physician, jurist)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Abbar, Biographical Dictionary",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Averroes' life",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Averroes' birth year is traditionally given as 1141, though some sources place it in 1138. The exact year is uncertain, with 1141 being more widely accepted in modern scholarship.",
+      "cross_references": [
+        "1141-006 (Alternative dating of Averroes' birth)"
+      ]
+    },
+    {
+      "id": "1138-005",
+      "title": "Suger of Saint-Denis continues architectural work",
+      "region": "France / \u00cele-de-France",
+      "coordinates_approx": "48.95, 2.16",
+      "category": "cultural",
+      "description": "Abbot Suger of Saint-Denis continued his architectural innovations at the Basilica of Saint-Denis in 1138. Suger is credited with pioneering the Gothic architectural style, and his work at Saint-Denis became a model for Gothic cathedrals throughout Europe. The basilica's construction and decoration were ongoing during this period.",
+      "key_figures": [
+        "Suger of Saint-Denis (abbot, architect, patron)"
+      ],
+      "sources": [
+        {
+          "name": "Suger's own writings on the Basilica of Saint-Denis",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from the Basilica of Saint-Denis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suger's work at Saint-Denis is well-documented in his own writings and in the surviving architectural remains. The dating of specific construction phases is based on documentary and archaeological evidence.",
+      "cross_references": [
+        "1144-001 (Dedication of the Basilica of Saint-Denis)"
       ]
     }
   ],
-  "disconfirming_evidence": "The entry for 1138-002 (Battle of Hattin) is included specifically to flag a historiographic error. The Battle of Hattin is universally dated to July 4, 1187, not 1138. No major Crusader-Islamic battle of comparable significance occurred in 1138. This error may arise from confusion in some medieval sources or from miscopying of dates. The inclusion of this entry demonstrates the importance of the anti-sycophancy protocol: a common error is being explicitly identified and corrected rather than silently omitted.",
-  "historiographic_note": "The historical record for 1138 is dominated by Western European and Islamic sources. The Aleppo earthquake is exceptionally well-documented because it affected both Crusader and Islamic territories and is attested in multiple independent traditions. The English Anarchy is heavily documented but from partisan perspectives. Islamic sources (particularly Ibn al-Athir and Usama ibn Munqidh) provide valuable counterbalance to Crusader narratives. East Asian sources are less detailed for 1138 specifically, though the Song-Jin division continues. Sub-Saharan Africa, the Americas, and Central Asia remain essentially absent from contemporary documentation.",
+  "disconfirming_evidence": "Robert of Gloucester's arrival in England in 1138 is sometimes presented as a sudden turning point; however, modern scholarship recognizes that Matilda's faction had been organizing support for some time before his arrival. The arrival was significant but not entirely unexpected. Averroes' birth year is disputed between 1138 and 1141; the uncertainty reflects the limitations of medieval biographical sources. The exact dating of Nur ad-Din's campaigns in 1138 is difficult to establish from surviving sources.",
+  "historiographic_note": "The year 1138 is moderately well-documented in European sources, particularly for political and military events. Islamic sources provide coverage of Levantine events, though with varying levels of detail. Chinese sources document Jin consolidation. The record is heavily weighted toward elite political and military history; economic, social, and cultural developments are underrepresented. Sources are often written by clerics or court historians with particular allegiances.",
   "graph_edges": [
     {
-      "from": "1138-001",
-      "to": "1139-001",
+      "from": "1138-002",
+      "to": "1141-002",
       "relation": "led_to",
-      "note": "Celestine II's election in 1138 led to his convening of the Second Lateran Council in 1139"
+      "note": "Robert of Gloucester's arrival in 1138 strengthened Matilda's faction and led to the major Battle of Lincoln in 1141"
     },
     {
-      "from": "1138-003",
-      "to": "1138-004",
-      "relation": "contemporary_with",
-      "note": "The Aleppo earthquake of 1138 occurred during Zengi's consolidation of power"
+      "from": "1138-001",
+      "to": "1141-001",
+      "relation": "part_of",
+      "note": "Nur ad-Din's campaigns in 1138 were part of his broader consolidation of Muslim control in Syria"
     },
     {
       "from": "1138-005",
-      "to": "1135-001",
-      "relation": "part_of",
-      "note": "The Battle of the Standard is part of the broader English Anarchy"
+      "to": "1144-001",
+      "relation": "led_to",
+      "note": "Suger's architectural work at Saint-Denis in 1138 culminated in the basilica's dedication in 1144"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:51:37.604674",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

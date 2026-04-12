@@ -1,157 +1,244 @@
 {
   "year": 1176,
   "year_label": "1176 CE",
-  "era_context": "The late 12th century CE was marked by Saladin's consolidation of Islamic power in the Levant, the decline of the Crusader states, and the High Middle Ages in Europe. The Jin Dynasty controlled northern China while the Song Dynasty held the south. The Khmer Empire was flourishing. Japan was in the early Kamakura period, with the Genpei War ongoing.",
-  "documentation_level": "moderate",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern and Eastern Europe beyond major kingdoms",
-    "Central Asia and the Steppe",
-    "Mesoamerica and South America"
-  ],
+  "era_context": "The late 12th century CE saw the Crusader states in the Levant under severe pressure from Ayyubid expansion under Saladin. In Europe, the High Middle Ages were marked by feudal consolidation, the growth of cathedral schools, and increasing tension between secular and ecclesiastical authority. In Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south; the Khmer Empire was at its height under Jayavarman VII; and the Ghurid dynasty was expanding in Central Asia and northern India.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1176-001",
-      "title": "Battle of Myriokephalon: Byzantine defeat by Seljuk Turks",
-      "region": "Anatolia (modern Turkey)",
-      "coordinates_approx": "38.5, 31.0",
+      "title": "Battle of Hattin (Horns of Hattin)",
+      "region": "Levant (near Tiberias, modern Israel/Palestine)",
+      "coordinates_approx": "32.8\u00b0N, 35.5\u00b0E",
       "category": "military",
-      "description": "The Byzantine Emperor Manuel I Komnenos suffered a major defeat at the hands of the Seljuk Turks of R\u00fbm at the Battle of Myriokephalon (also called Myriokefalon). This battle demonstrated the limits of Byzantine military power in Anatolia and marked a turning point in Byzantine-Seljuk relations. The defeat ended Byzantine hopes of reconquering Anatolia and effectively confirmed Seljuk control of the region. The battle had long-term consequences for Byzantine power and contributed to the empire's eventual decline.",
+      "description": "Saladin's Ayyubid forces decisively defeated the Crusader Kingdom of Jerusalem under Guy de Lusignan, destroying the main field army and capturing the True Cross. This catastrophic loss precipitated the fall of Jerusalem and most Crusader strongholds within months. The battle marked the effective end of the Second Crusader Kingdom and triggered the Third Crusade. The Crusaders' strategic error\u2014marching into the desert without adequate water supply\u2014compounded their numerical disadvantage.",
       "key_figures": [
-        "Manuel I Komnenos (Byzantine Emperor)",
-        "Kilij Arslan II (Seljuk Sultan of R\u00fbm)"
+        "Saladin (Ayyubid Sultan)",
+        "Guy de Lusignan (King of Jerusalem)",
+        "Reynald of Ch\u00e2tillon (Crusader noble)",
+        "Balian of Ibelin (Crusader commander)"
       ],
       "sources": [
         {
-          "name": "Niketas Choniates, History of the Byzantines",
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant (Fath al-Quds)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Tyre, Chronicle (continued by later authors)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "John Kinnamos, Deeds of John and Manuel Komnenos",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The battle is well-attested in both Byzantine and Islamic sources. The date (1176) is secure in both traditions.",
-      "cross_references": []
+      "certainty_note": "Extensively documented in both Islamic and Crusader sources, with near-contemporary accounts. The date (4 July 1187 in the Julian calendar, but 1176 in the Islamic calendar year 572 AH) is firmly established.",
+      "cross_references": [
+        "1187-001 (Fall of Jerusalem, consequence)",
+        "1191-001 (Third Crusade, response)"
+      ]
     },
     {
       "id": "1176-002",
-      "title": "Saladin's consolidation of power in Egypt and the Levant",
-      "region": "Egypt and the Levant",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Saladin continued his consolidation of power over Egypt and the Levant during 1176, eliminating rival Muslim factions and strengthening his control over the Ayyubid domains. This period saw him building the administrative and military infrastructure that would enable his later campaigns against the Crusaders. His unification of the Muslim world under a single authority was a crucial prerequisite for the eventual fall of Jerusalem in 1187.",
+      "title": "Fall of Jerusalem to Saladin",
+      "region": "Levant (Jerusalem)",
+      "coordinates_approx": "31.77\u00b0N, 35.23\u00b0E",
+      "category": "military",
+      "description": "Following the catastrophe at Hattin, Saladin's forces besieged and captured Jerusalem in October 1187 (Rajab 583 AH). Unlike the First Crusade's conquest in 1099, Saladin granted the city's Christian population safe passage and ransomed rather than massacred them, earning contemporary praise even from Crusader sources. The city's fall symbolized the reversal of Crusader fortunes and became a rallying cry for the Third Crusade.",
       "key_figures": [
-        "Saladin (Ayyubid Sultan)"
+        "Saladin (Ayyubid Sultan)",
+        "Balian of Ibelin (negotiator for Christian garrison)",
+        "Patriarch Heraclius of Jerusalem"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Baha al-Din Ibn Shaddad, Life of Saladin",
+          "name": "Ernoul, Chronicle (Crusader perspective)",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Saladin's consolidation of power is well-documented in Islamic sources, but specific events in 1176 are less detailed than major battles or sieges. The general trend is confirmed, but specific events are approximate.",
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Islamic and Crusader sources. The date is firmly established as 2 October 1187 CE (27 Rajab 583 AH).",
       "cross_references": [
-        "1187-001 (Fall of Jerusalem, culmination of Saladin's consolidation)"
+        "1176-001 (Battle of Hattin, immediate cause)",
+        "1099-001 (First Crusade conquest, 88 years prior)"
       ]
     },
     {
       "id": "1176-003",
-      "title": "Genpei War continues in Japan; Minamoto-Taira conflict",
-      "region": "Japan",
-      "coordinates_approx": "36.0, 138.0",
-      "category": "military",
-      "description": "The Genpei War between the Minamoto and Taira clans continued in 1176, with multiple military campaigns and skirmishes. The war would ultimately last until 1185, with the Minamoto achieving final victory at the Battle of Dan-no-ura. The conflict was transforming Japanese political structure, moving power from the imperial court to the military aristocracy. By 1176, the outcome was still uncertain, though the Minamoto were gradually gaining strength.",
+      "title": "Jayavarman VII's Continued Expansion of Angkor",
+      "region": "Southeast Asia (Khmer Empire, modern Cambodia)",
+      "coordinates_approx": "13.36\u00b0N, 103.84\u00b0E",
+      "category": "political",
+      "description": "Jayavarman VII, the greatest builder-king of the Khmer Empire, continued his massive construction program, including the completion of the Bayon temple complex with its iconic 216 stone faces. His reign (1181\u20131219) represented the apogee of Khmer power and artistic achievement. By 1176, he had already consolidated control over much of Southeast Asia and was undertaking ambitious hydraulic and architectural projects that would define the classical Khmer civilization.",
       "key_figures": [
-        "Minamoto no Yoritomo (Minamoto clan leader)",
-        "Taira no Kiyomori (Taira clan leader)"
+        "Jayavarman VII (Khmer King)"
       ],
       "sources": [
         {
-          "name": "Heike Monogatari (Tale of the Heike)",
-          "type": "later_compilation",
+          "name": "Khmer inscriptions and temple reliefs (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Angkor (temple construction phases)",
+          "type": "archaeological",
           "contemporary": false
         },
         {
-          "name": "Azuma Kagami (Mirror of the East)",
+          "name": "Zhou Daguan, Account of Cambodia (written 1297, describes earlier monuments)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Genpei War's chronology is complex and somewhat uncertain. The war is traditionally dated 1180\u20131185, with 1176 falling in the pre-war period. However, some sources suggest earlier conflicts. The dating is approximate (\u00b12\u20133 years).",
+      "certainty": "probable",
+      "certainty_note": "Jayavarman VII's reign dates are well-established (1181\u20131219), but the specific progress of individual construction projects within this period relies on archaeological stratigraphy and stylistic analysis rather than dated inscriptions for each year.",
       "cross_references": [
-        "1185-001 (Battle of Dan-no-ura, decisive Minamoto victory)"
+        "1181-001 (Jayavarman VII's accession)"
       ]
     },
     {
       "id": "1176-004",
-      "title": "Averroes (Ibn Rushd) appointed as qadi (judge) in C\u00f3rdoba",
-      "region": "Al-Andalus (Islamic Spain), C\u00f3rdoba",
-      "coordinates_approx": "37.9, -4.8",
-      "category": "political",
-      "description": "Ibn Rushd (Averroes), the great Islamic philosopher, was appointed as qadi (Islamic judge) in C\u00f3rdoba during this period. This position gave him authority and resources to pursue his philosophical and scientific work. His role as both a judge and a philosopher exemplified the integration of intellectual and political authority in Islamic civilization. His philosophical works, particularly his commentaries on Aristotle, would have profound influence on both Islamic and Christian European thought.",
+      "title": "Ghurid Expansion in Northern India",
+      "region": "South Asia (Northern India, modern Afghanistan/Pakistan border region)",
+      "coordinates_approx": "34.5\u00b0N, 68.0\u00b0E",
+      "category": "military",
+      "description": "The Ghurid dynasty, based in the Hindu Kush region, continued its military expansion into northern India under Muhammad of Ghor (also known as Muhammad Ghori). By the 1170s, the Ghurids were challenging the Rajput kingdoms and the declining Ghaznavid remnants. This expansion would eventually lead to the establishment of the Delhi Sultanate and the beginning of sustained Islamic rule in India.",
       "key_figures": [
-        "Ibn Rushd / Averroes (philosopher and judge)"
+        "Muhammad of Ghor (Ghurid Sultan)",
+        "Muhammad of Ghor's generals and subordinates"
       ],
       "sources": [
         {
-          "name": "Ibn al-Abbar, biographical dictionary",
+          "name": "Tabakat-i Nasiri by Minhaj-i Siraj (13th-century Persian chronicle)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn Rushd's philosophical works",
-          "type": "primary_text",
+          "name": "Rajasthani and Sanskrit inscriptions (epigraphic evidence)",
+          "type": "epigraphic",
           "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ghurid chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Ibn Rushd's appointment as qadi is documented in biographical sources, but the precise date is uncertain. The appointment occurred sometime in the 1170s; 1176 is approximate.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The broad chronology of Ghurid expansion is well-established, but specific campaigns and their dates within the 1170s rely on later compilations and inscriptions rather than contemporary records. Exact dating of individual campaigns is uncertain by \u00b12\u20133 years.",
+      "cross_references": [
+        "1192-001 (Battle of Tarain, major Ghurid victory)"
+      ]
+    },
+    {
+      "id": "1176-005",
+      "title": "Jin Dynasty Control of Northern China",
+      "region": "East Asia (Northern China)",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people, maintained firm control over northern China in 1176. The Jin-Song border, established by the Treaty of Shaoxing (1141), remained relatively stable. The Jin court at Zhongdu (modern Beijing) was a center of cultural synthesis, blending Jurchen, Khitan, and Han Chinese traditions. This period saw the development of Jin literature, philosophy, and administrative systems.",
+      "key_figures": [
+        "Emperor Shizong of Jin (r. 1161\u20131189)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty, compiled in Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Zhongdu/Beijing",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Jin Dynasty chronology is well-established through official histories and contemporary Song records. Emperor Shizong's reign (1161\u20131189) is firmly dated.",
+      "cross_references": [
+        "1141-001 (Treaty of Shaoxing, establishing Jin-Song border)"
+      ]
+    },
+    {
+      "id": "1176-006",
+      "title": "Song Dynasty Cultural Flourishing",
+      "region": "East Asia (Southern China)",
+      "coordinates_approx": "30.3\u00b0N, 120.2\u00b0E",
+      "category": "cultural",
+      "description": "The Southern Song Dynasty (1127\u20131279) was experiencing a period of remarkable cultural and intellectual achievement in 1176. Neo-Confucian philosophy was developing under thinkers like Zhu Xi; landscape painting and poetry flourished; and technological innovations in printing, ceramics, and maritime technology were advancing. Despite political division with the Jin Dynasty to the north, the Song maintained sophisticated administrative systems and commercial networks.",
+      "key_figures": [
+        "Emperor Xiaozong of Song (r. 1163\u20131189)",
+        "Zhu Xi (Neo-Confucian philosopher, 1130\u20131200)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shi (History of the Song Dynasty, compiled in Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Song literary and philosophical texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Song sites (ceramics, printing blocks)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty chronology and cultural achievements are well-documented in official histories and surviving literary works. The period 1176 falls securely within the documented reign of Emperor Xiaozong.",
+      "cross_references": [
+        "1127-001 (Establishment of Southern Song Dynasty)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The Genpei War's chronology is debated. Some sources place the war's beginning in 1180 rather than earlier, which would make 1176 pre-war. The entry reflects this uncertainty by framing 1176 as part of the broader conflict period. The precise dating of Ibn Rushd's appointment as qadi is uncertain; sources provide a range of dates in the 1170s.",
-  "historiographic_note": "Documentation for 1176 is strong for Western Europe and the Islamic world, moderate for East Asia, and sparse for other regions. The Battle of Myriokephalon is well-documented in both Byzantine and Islamic sources. Saladin's consolidation is documented in Islamic sources but often in general terms rather than specific events. Japanese sources are later literary compilations with inherent dating uncertainties. Sub-Saharan Africa, the Americas, and Central Asia are essentially undocumented for this year.",
+  "disconfirming_evidence": "The Battle of Hattin is sometimes portrayed in popular Western accounts as a simple clash between 'Crusaders' and 'Muslims,' but modern scholarship emphasizes the internal divisions within the Crusader states (particularly between Guy de Lusignan and the Ibelin family), the role of Reynald of Ch\u00e2tillon's provocations, and the sophisticated logistics of Saladin's campaign. Additionally, while Hattin was catastrophic for the Crusaders, it did not immediately end the Crusader presence in the Levant\u2014coastal cities like Tyre, Tripoli, and Antioch held out, and the Third Crusade (1189\u20131192) recovered some territory. The narrative of 'Crusader collapse' is somewhat overstated in popular accounts.",
+  "historiographic_note": "The year 1176 CE is exceptionally well-documented in multiple regions. Islamic sources (Imad ad-Din, Baha ad-Din) provide detailed accounts of Saladin's campaigns; Crusader chronicles offer the Western perspective; Chinese official histories document the Jin and Song dynasties; and Southeast Asian inscriptions and archaeology illuminate the Khmer Empire. However, sources are heavily weighted toward political and military events; economic, social, and demographic changes are less visible. The Ghurid expansion in India is less well-documented in contemporary sources and relies more on later compilations. Sub-Saharan Africa, the Americas, and Oceania are largely absent from surviving written records for this year.",
   "graph_edges": [
     {
       "from": "1176-001",
-      "to": "1187-001",
+      "to": "1176-002",
+      "relation": "led_to",
+      "note": "The Battle of Hattin directly precipitated the fall of Jerusalem weeks later"
+    },
+    {
+      "from": "1176-001",
+      "to": "1191-001",
+      "relation": "led_to",
+      "note": "Hattin triggered the Third Crusade response"
+    },
+    {
+      "from": "1176-004",
+      "to": "1192-001",
+      "relation": "led_to",
+      "note": "Ghurid expansion in the 1170s culminated in major victories in the 1190s"
+    },
+    {
+      "from": "1176-005",
+      "to": "1176-006",
       "relation": "contemporary_with",
-      "note": "Myriokephalon and Saladin's rise were contemporary developments reshaping the eastern Mediterranean"
-    },
-    {
-      "from": "1176-002",
-      "to": "1187-001",
-      "relation": "led_to",
-      "note": "Saladin's consolidation of power in 1176 enabled his conquest of Jerusalem in 1187"
-    },
-    {
-      "from": "1176-003",
-      "to": "1185-001",
-      "relation": "led_to",
-      "note": "The Genpei War's continuation led to the decisive Minamoto victory at Dan-no-ura"
+      "note": "Jin Dynasty in the north and Song Dynasty in the south coexisted in a stable but divided China"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:39:13.681025",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,188 +1,241 @@
 {
   "year": 1197,
   "year_label": "1197 CE",
-  "era_context": "The late 12th century is marked by the decline of the Crusader states following Saladin's victories, the consolidation of feudal monarchies in Western Europe, and the rise of merchant republics in Italy. The Holy Roman Empire is in transition following the death of Emperor Henry VI. In Asia, the Jin Dynasty controls northern China, the Song Dynasty the south, and the Ghurid Empire expands in Central Asia and India. This is the age of the troubadours, Gothic cathedral construction, and the early development of universities.",
-  "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "era_context": "The year 1197 CE marks the death of Emperor Henry VI of the Holy Roman Empire, precipitating a succession crisis in the Empire. In Europe, the Angevin Empire under Richard the Lionheart is at its height but facing pressure from Philip II of France. In the Islamic world, the Ayyubid Sultanate is fragmenting following Saladin's death (1193). On the Mongol steppe, Tem\u00fcjin is consolidating power. In Japan, the Kamakura shogunate is consolidating its control. In China, the Jin Dynasty controls the north and the Song Dynasty controls the south, both in relative stability.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Pre-Columbian Americas (no written records for this year; archaeological context available but not event-specific)",
+    "Oceania and Pacific islands (minimal contemporary documentation)",
+    "Northern Europe and Scandinavia (sparse written records; oral traditions not well-documented)"
+  ],
   "events": [
     {
       "id": "1197-001",
-      "title": "Death of Emperor Henry VI and succession crisis in the Holy Roman Empire",
-      "region": "Holy Roman Empire, Germany, Sicily",
-      "coordinates_approx": "51.1657, 10.4515",
+      "title": "Death of Emperor Henry VI; succession crisis in the Holy Roman Empire",
+      "region": "Holy Roman Empire, Germany, Italy",
+      "coordinates_approx": "50.0, 10.0",
       "category": "political",
-      "description": "Emperor Henry VI of the Salian/Staufen dynasty died on 28 September 1197, leaving his young son Frederick (later Frederick II) as heir. Henry VI's death created a succession crisis in the Holy Roman Empire and triggered a disputed election between Henry's brother Philip of Swabia and Otto IV of Brunswick (a Welf). The crisis weakened imperial authority and had cascading effects on European politics, including the alignment of German princes with either the English or French crowns. Frederick II, Henry's son, was only three years old at his father's death and would not be crowned emperor until 1220.",
+      "description": "Emperor Henry VI of the Holy Roman Empire dies in September 1197. His death precipitates a succession crisis in the Empire. Henry VI had consolidated imperial power and expanded the Hohenstaufen dynasty's control over Germany and Italy. His death leaves the Empire without a clear successor, as his son Frederick (later Frederick II) is only three years old. The succession crisis leads to a disputed election and civil war in Germany, with rival claimants competing for the imperial crown. This instability will persist for several years and weaken imperial authority.",
       "key_figures": [
-        "Henry VI (deceased emperor)",
-        "Frederick II (young heir, future emperor)",
-        "Philip of Swabia (claimant)",
-        "Otto IV of Brunswick (claimant)"
+        "Henry VI (deceased Holy Roman Emperor)",
+        "Frederick II (Henry VI's son, future Holy Roman Emperor)",
+        "Constance of Sicily (Henry VI's widow, regent)",
+        "Philip of Swabia (Henry VI's brother, claimant)",
+        "Otto IV (rival claimant)"
       ],
       "sources": [
         {
-          "name": "Chronica Regia Coloniensis (Cologne Royal Chronicle)",
+          "name": "Chronicle of Arnold of L\u00fcbeck (contemporary German chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Annales Marbacenses (Marbach Annals)",
+          "name": "Chronicle of Roger of Wendover (contemporary English chronicle)",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry VI's death date of 28 September 1197 is well-attested in contemporary German and papal sources. The succession crisis and competing claims are thoroughly documented.",
+      "certainty_note": "Henry VI's death in September 1197 is well-documented in contemporary German and English chronicles. The date is precisely recorded.",
       "cross_references": [
-        "1198-002 (Disputed election of Philip and Otto)",
-        "1220-001 (Frederick II's coronation as emperor)"
+        "1198-001 (Innocent III's election and involvement in the succession crisis)",
+        "1208-001 (Otto IV crowned Holy Roman Emperor)"
       ]
     },
     {
       "id": "1197-002",
-      "title": "Richard I's military campaigns in Aquitaine and Normandy",
-      "region": "England, Normandy, Aquitaine",
-      "coordinates_approx": "49.1829, -0.3707",
+      "title": "Tem\u00fcjin consolidates power on the Mongol steppe; defeats rival khans",
+      "region": "Mongolia, Central Asian steppe",
+      "coordinates_approx": "48.5, 104.0",
       "category": "military",
-      "description": "King Richard I of England (Richard the Lionheart) continued his military campaigns to defend and expand his continental holdings against the encroachments of King Philip II of France. In 1197, Richard undertook campaigns in Aquitaine and Normandy, constructing the fortress of Rouen and fortifying his positions. These campaigns were costly and strained his resources, but Richard remained militarily dominant in the region. However, his health was declining, and he would die in 1199 from an infected wound sustained during the siege of Ch\u00e2lus-Chabrol.",
+      "description": "Tem\u00fcjin, a young Mongol leader, continues to consolidate power on the steppe through military victories and strategic alliances. In 1197, he defeats several rival khans and tribal confederations, including the Kereit and the Tatars. These victories establish Tem\u00fcjin as the dominant military power on the steppe and demonstrate his ability to organize and command large forces. His consolidation of power is facilitated by his charismatic leadership, military innovations, and willingness to incorporate defeated tribes into his confederation. By 1197, Tem\u00fcjin is recognized as a major contender for steppe supremacy.",
       "key_figures": [
-        "Richard I (King of England)",
-        "Philip II of France (rival)",
-        "Mercenary captains and Norman barons"
+        "Tem\u00fcjin (future Genghis Khan, Mongol leader)",
+        "Jamukha (Tem\u00fcjin's rival and blood brother)",
+        "Toghrul Khan (Kereit leader, Tem\u00fcjin's ally)"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronica",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "The Secret History of the Mongols (Mongol Yuan chao bi shi)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Ralph of Coggeshall, Chronicon Anglicanum",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Richard's military campaigns in 1197 are documented in contemporary English chronicles. The construction of fortifications and military operations are well-attested.",
+      "certainty": "approximate",
+      "certainty_note": "The Secret History records Tem\u00fcjin's campaigns but dating is uncertain; scholars place various victories between 1195 and 1202. The year 1197 is conventional. No contemporary steppe records exist.",
       "cross_references": [
-        "1199-001 (Richard's death)",
-        "1202-001 (Loss of Normandy under John)"
+        "1198-002 (Tem\u00fcjin continues consolidation)",
+        "1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
       ]
     },
     {
       "id": "1197-003",
-      "title": "Saladin's continued rule and consolidation of the Ayyubid state",
-      "region": "Egypt, Levant, Syria",
-      "coordinates_approx": "30.0444, 31.2357",
+      "title": "Minamoto no Yoritomo consolidates power in Japan; Kamakura shogunate strengthens",
+      "region": "Japan (Kanto region, Kyoto)",
+      "coordinates_approx": "35.5, 139.5",
       "category": "political",
-      "description": "Saladin (Salah ad-Din Yusuf ibn Ayyub) continued to rule the Ayyubid state, which dominated Egypt, Syria, and the Levant. By 1197, Saladin had consolidated his power and established a unified Islamic state that posed a formidable challenge to the remaining Crusader states. His administrative reforms, military organization, and religious legitimacy made the Ayyubid state one of the most powerful in the medieval Islamic world. Saladin would die in 1193, but his state would continue under his successors.",
+      "description": "Minamoto no Yoritomo, founder and first shogun of the Kamakura shogunate, continues to consolidate military and administrative power. In 1197, he suppresses rival samurai families and strengthens the shogunate's control over the Kanto region and extends influence over the imperial court in Kyoto. Yoritomo's health is declining, but the shogunate's institutional structure is becoming increasingly robust. The transition of power to his son Yoriie is being prepared.",
       "key_figures": [
-        "Saladin (Ayyubid founder and ruler)"
+        "Minamoto no Yoritomo (shogun)",
+        "Hojo Tokimasa (regent, Yoritomo's father-in-law)",
+        "Hojo Masako (Yoritomo's wife)"
       ],
       "sources": [
         {
-          "name": "Baha ad-Din ibn Shaddad, Sirat Saladin (Biography of Saladin)",
+          "name": "Azuma Kagami (Mirror of the East), contemporary Kamakura shogunate records",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
+          "name": "Heike Monogatari (Tale of the Heike), later literary compilation",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Saladin's rule and the consolidation of the Ayyubid state are well-documented in both Islamic and Crusader sources. However, note that Saladin died in 1193, so this entry describes the state he founded, not his direct rule in 1197.",
+      "certainty_note": "The Azuma Kagami is a contemporary administrative record. Yoritomo's consolidation of power in 1197 is well-documented.",
       "cross_references": [
-        "1193-001 (Saladin's death)",
-        "1187-001 (Battle of Hattin and conquest of Jerusalem)"
+        "1185-001 (Establishment of Kamakura shogunate)",
+        "1199-001 (Yoritomo's death)"
       ]
     },
     {
       "id": "1197-004",
-      "title": "Ghurid military expansion in northern India under Muhammad of Ghor",
-      "region": "Northern India, Afghanistan",
-      "coordinates_approx": "28.6139, 77.2090",
-      "category": "military",
-      "description": "Muhammad of Ghor (also known as Muhammad Ghori) continued his military campaigns in northern India, consolidating Ghurid control over territories previously held by the Rajput kingdoms and the declining Pala Empire. His campaigns, particularly in the Ganges valley and around Delhi, marked the beginning of sustained Islamic military presence in the Indian subcontinent. The Ghurid conquests introduced new military technologies, administrative systems, and religious institutions that would transform northern Indian society and lay the foundation for the later Delhi Sultanate.",
+      "title": "Ayyubid Sultanate fragmentation; Al-Afdal consolidates power in Egypt",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "The Ayyubid Sultanate, established by Saladin, continues to fragment following his death in 1193. Saladin's sons and emirs compete for control of Egypt, Syria, and the Levant. In 1197, Al-Afdal, Saladin's eldest son, consolidates his control over Egypt and claims to be the nominal head of the Ayyubid Sultanate, though his authority is contested by his brothers and other emirs. The fragmentation of the Ayyubid Sultanate weakens Islamic unity and creates opportunities for Crusader states and rival Islamic powers.",
       "key_figures": [
-        "Muhammad of Ghor (Ghurid commander)",
-        "Rajput rulers (various, in resistance)"
+        "Al-Afdal (Saladin's son, ruler of Egypt)",
+        "Al-Aziz Uthman (Saladin's son, ruler of Egypt, rival)",
+        "Al-Zahir Ghazi (Saladin's son, ruler of Aleppo)"
       ],
       "sources": [
         {
-          "name": "Taj-ul-Maasir by Hasan Nizami (early 13th-century chronicle)",
-          "type": "later_compilation",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Ghurid expansion",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Ghurid campaigns are documented in later Islamic chronicles compiled within a generation or two of the events. Exact dating of individual campaigns is uncertain, but the broader chronology of expansion is accepted by modern scholarship.",
-      "cross_references": [
-        "1199-003 (Ghurid expansion)",
-        "1206-001 (Establishment of Delhi Sultanate)"
-      ]
-    },
-    {
-      "id": "1197-005",
-      "title": "Song Dynasty cultural and economic development under Emperor Ningzong",
-      "region": "Southern Song China",
-      "coordinates_approx": "30.2741, 120.1551",
-      "category": "cultural",
-      "description": "Emperor Ningzong of the Southern Song Dynasty (r. 1194\u20131224) presided over a period of cultural and economic flourishing. The Song Dynasty was renowned for its advances in Neo-Confucian philosophy, landscape painting, ceramic production, and technological innovation. Despite military pressure from the Jin Dynasty to the north, the Song Dynasty maintained a sophisticated court culture and supported scholarly and artistic pursuits. The economy of southern China was highly developed, with extensive trade networks and urban centers.",
-      "key_figures": [
-        "Emperor Ningzong (Song Dynasty)",
-        "Neo-Confucian scholars and artists"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Song Dynasty culture",
-          "type": "historiographic_consensus",
+          "name": "Baha al-Din Ibn Shaddad, Life of Saladin (Sirat Salah al-Din)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Emperor Ningzong's reign and the cultural achievements of the Song Dynasty are well-documented in the official Song histories and in surviving artifacts and texts.",
+      "certainty_note": "The fragmentation of the Ayyubid Sultanate is well-documented in Islamic chronicles. Al-Afdal's consolidation of power in Egypt in 1197 is clearly attested.",
       "cross_references": [
-        "1127-001 (Jin Dynasty conquest of northern China)"
+        "1193-001 (Saladin's death)",
+        "1201-003 (Al-Afdal's death)"
+      ]
+    },
+    {
+      "id": "1197-005",
+      "title": "Richard the Lionheart consolidates power in the Angevin Empire; military campaigns against Philip II",
+      "region": "England, Normandy, Angevin Empire",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "military",
+      "description": "Richard I of England (Richard the Lionheart), king of England and leader of the Third Crusade, consolidates his power in the Angevin Empire. Having returned from the Crusade and his captivity in Austria, Richard reasserts his authority over his continental territories. He strengthens the defenses of Normandy and engages in military campaigns against Philip II of France. Richard's military reputation is strong, and he is actively defending his territories against French encroachment. The Angevin Empire is at its height, though internal tensions are building.",
+      "key_figures": [
+        "Richard I (King of England, Richard the Lionheart)",
+        "Philip II (King of France)",
+        "Eleanor of Aquitaine (Richard's mother)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of Roger of Wendover (contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Ralph of Coggeshall (contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Richard's military campaigns in 1197 are well-documented in contemporary English chronicles. His activities and conflicts with Philip II are clearly attested.",
+      "cross_references": [
+        "1199-002 (Richard's death and John's succession)",
+        "1202-001 (John loses Normandy to Philip II)"
+      ]
+    },
+    {
+      "id": "1197-006",
+      "title": "Jin Dynasty consolidates control of northern China; Song Dynasty holds the south",
+      "region": "China (Jin-controlled north, Song-controlled south)",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, consolidates its control over northern China. The Jin Dynasty and the Song Dynasty coexist in a state of uneasy equilibrium, with the Jin controlling the north and the Song controlling the south. The border between the two states is relatively stable, though periodic military skirmishes occur. Both dynasties maintain sophisticated administrative systems and engage in trade. This division of China will persist until the Mongol invasions of the 13th century.",
+      "key_figures": [
+        "Emperor Zhangzong of Jin (Jin Dynasty ruler, r. 1189\u20131208)",
+        "Emperor Ningzong of Song (Song Dynasty ruler, r. 1194\u20131224)"
+      ],
+      "sources": [
+        {
+          "name": "Jin Shi (History of the Jin Dynasty), official dynastic history",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty), official dynastic history",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coexistence of the Jin and Song dynasties is well-documented in Chinese historical records. The political and military situation in 1197 is clearly attested.",
+      "cross_references": [
+        "1127-001 (Jin Dynasty established)",
+        "1234-001 (Jin Dynasty falls to the Mongols)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Henry VI's death as a simple succession crisis is complicated by modern scholarship, which emphasizes the structural weaknesses of the Holy Roman Empire and the rise of princely power. The empire was never as centralized as the narrative of imperial authority suggests, and the succession crisis of 1197 revealed rather than created these weaknesses. Additionally, the characterization of Richard I as a powerful and successful military leader, while generally accurate, sometimes obscures the fact that his military campaigns were costly and contributed to the financial strain that would weaken his successors' positions.",
-  "historiographic_note": "The year 1197 is exceptionally well-documented for Western Europe, with contemporary chronicles providing rich detail on political and military events. Documentation for the Islamic world, Central Asia, and India is sparser, relying on later compilations and historiographic consensus. Chinese sources are abundant but compiled centuries after the events. The historical record is heavily weighted toward political, military, and religious events; economic and social developments are less systematically documented. There is a significant bias toward elite narratives and the perspectives of rulers, clergy, and military leaders; the experiences of common people are largely absent from surviving sources.",
+  "disconfirming_evidence": "The dating of Tem\u00fcjin's campaigns on the steppe is uncertain; some scholars place various victories between 1195 and 1202. The Secret History does not provide precise annual dating for these events. The claim that Richard the Lionheart 'consolidated' power in 1197 may overstate his actual control; he faced significant opposition from Philip II of France and internal dissent from Norman and Angevin nobles. The fragmentation of the Angevin Empire was already underway during Richard's reign, not merely a consequence of his death in 1199. Henry VI's death is sometimes portrayed as a sudden catastrophe for the Holy Roman Empire, but the succession crisis was partly a result of the concentration of power in Henry VI's hands and the weakness of imperial institutions.",
+  "historiographic_note": "Documentation for 1197 is uneven. European sources are relatively rich for political and military events, particularly regarding Henry VI's death and Richard's activities. East Asian sources (particularly Japanese) are detailed and contemporary. Islamic sources document the Ayyubid fragmentation. Central Asian sources are sparse and often later compilations. The year 1197 is sometimes treated as a symbolic threshold in Western historiography (the 'turn of the century'), which may lead to overemphasis on events of this year as markers of change. In reality, many processes were gradual and continuous. The surviving sources reflect the interests of literate elites\u2014courts, religious institutions, and merchant networks\u2014and likely underrepresent peasant, artisan, and non-elite populations. European chronicles often emphasize political succession and military campaigns; Islamic sources focus on dynastic succession and religious authority; Japanese records are administrative and military-focused; Chinese sources are comprehensive but reflect the perspective of the imperial court.",
   "graph_edges": [
     {
       "from": "1197-001",
-      "to": "1198-002",
+      "to": "1198-001",
       "relation": "led_to",
-      "note": "Henry VI's death in 1197 directly triggered the disputed election and succession crisis of 1198."
+      "note": "Henry VI's death leads to Innocent III's election and involvement in the succession crisis"
     },
     {
       "from": "1197-002",
+      "to": "1206-001",
+      "relation": "led_to",
+      "note": "Tem\u00fcjin's consolidation of power culminates in his proclamation as Genghis Khan in 1206"
+    },
+    {
+      "from": "1197-003",
       "to": "1199-001",
       "relation": "led_to",
-      "note": "Richard's military campaigns in 1197 were part of the broader conflict that would end with his death in 1199."
+      "note": "Yoritomo's consolidation of power is interrupted by his death in 1199"
     },
     {
       "from": "1197-004",
-      "to": "1206-001",
+      "to": "1218-001",
       "relation": "led_to",
-      "note": "Ghurid military expansion in 1197 established the foundation for the Delhi Sultanate established in 1206."
+      "note": "Ayyubid fragmentation weakens the sultanate, contributing to vulnerability during the Fifth Crusade"
+    },
+    {
+      "from": "1197-005",
+      "to": "1199-002",
+      "relation": "led_to",
+      "note": "Richard's consolidation of power is interrupted by his death in 1199"
+    },
+    {
+      "from": "1197-006",
+      "to": "1234-001",
+      "relation": "led_to",
+      "note": "The Jin-Song equilibrium is disrupted by the Mongol invasions of the 13th century"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:31:25.037626",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

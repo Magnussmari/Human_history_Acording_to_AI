@@ -1,189 +1,212 @@
 {
   "year": 1199,
   "year_label": "1199 CE",
-  "era_context": "The late 12th century in Europe is marked by the decline of the Crusader states in the Levant following Saladin's victories, the consolidation of feudal monarchies in Western Europe, and the rise of merchant republics in Italy. In Asia, the Jin Dynasty controls northern China while the Song Dynasty holds the south; the Khwarazmian Empire expands in Central Asia; and the Ghurid Empire dominates Afghanistan and northern India. This is the age of the troubadours, Gothic cathedral construction, and the early development of universities.",
-  "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "era_context": "The year 1199 CE marks the death of Minamoto no Yoritomo, founder of the Kamakura shogunate in Japan, and the beginning of the transition to his son's rule. In Europe, Richard the Lionheart dies and is succeeded by his brother John, leading to the fragmentation of the Angevin Empire. In the Islamic world, the Ayyubid Sultanate is fragmenting following Saladin's death (1193). On the Mongol steppe, Tem\u00fcjin is consolidating power. In China, the Jin Dynasty controls the north and the Song Dynasty controls the south, both in relative stability.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Pre-Columbian Americas (no written records for this year; archaeological context available but not event-specific)",
+    "Oceania and Pacific islands (minimal contemporary documentation)",
+    "Northern Europe and Scandinavia (sparse written records; oral traditions not well-documented)"
+  ],
   "events": [
     {
       "id": "1199-001",
-      "title": "Death of Richard I (Richard the Lionheart) and accession of John to the English throne",
-      "region": "England, Normandy",
-      "coordinates_approx": "51.5074, -0.1278",
+      "title": "Death of Minamoto no Yoritomo; succession crisis in the Kamakura shogunate",
+      "region": "Japan (Kanto region, Kyoto)",
+      "coordinates_approx": "35.5, 139.5",
       "category": "political",
-      "description": "Richard I of England died on 6 April 1199 from an infected crossbow wound sustained during the siege of Ch\u00e2lus-Chabrol in Aquitaine. His younger brother John succeeded him as King of England and Duke of Normandy. This succession proved consequential: John's weak rule, conflicts with the Norman and Angevin nobility, and disputes with King Philip II of France would lead to the loss of most English continental holdings within a decade and contribute to the baronial revolt that produced Magna Carta in 1215.",
+      "description": "Minamoto no Yoritomo, founder and first shogun of the Kamakura shogunate, dies in 1199. His death precipitates a succession crisis. Yoritomo had established the shogunate as a military government that controlled the Kanto region and exercised significant influence over the imperial court in Kyoto. His son Minamoto no Yoriie is designated as his successor, but Yoriie is young and inexperienced. The Hojo clan, through Yoriie's mother Hojo Masako, begins to exercise increasing influence over the shogunate. This marks the beginning of the Hojo regency, which will dominate the Kamakura shogunate for the next century.",
       "key_figures": [
-        "Richard I (deceased king)",
-        "John (new king)",
-        "Philip II of France (rival claimant supporter)"
+        "Minamoto no Yoritomo (deceased shogun)",
+        "Minamoto no Yoriie (new shogun, Yoritomo's son)",
+        "Hojo Masako (Yoriie's mother, Yoritomo's widow)",
+        "Hojo Tokimasa (regent, Yoriie's grandfather)"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronica",
+          "name": "Azuma Kagami (Mirror of the East), contemporary Kamakura shogunate records",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Ralph of Coggeshall, Chronicon Anglicanum",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Heike Monogatari (Tale of the Heike), later literary compilation",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death date of 6 April 1199 is well-attested in contemporary chronicles. Succession is documented in multiple sources.",
+      "certainty_note": "The Azuma Kagami is a contemporary administrative record. Yoritomo's death in 1199 is well-documented. The exact date is recorded as the 13th day of the 1st month of 1199 in the lunar calendar.",
       "cross_references": [
-        "1202-001 (John's loss of Normandy)",
-        "1215-001 (Magna Carta)"
+        "1185-001 (Establishment of Kamakura shogunate)",
+        "1200-002 (Yoriie formally assumes the shogunate)",
+        "1213-001 (Yoriie's death and succession)"
       ]
     },
     {
       "id": "1199-002",
-      "title": "Establishment of the Venetian Quarter in Constantinople",
-      "region": "Byzantine Empire (Constantinople)",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "economic",
-      "description": "Venice secured formal recognition and expanded trading privileges in Constantinople, consolidating its merchant presence in the Byzantine capital. This reflected the growing economic dominance of Venetian merchants in Eastern Mediterranean trade and the Byzantine Empire's increasing reliance on Western commercial networks. The Venetian Quarter would become a focal point of Latin-Byzantine commercial and cultural interaction, and tensions over these privileges would contribute to the Fourth Crusade's diversion to Constantinople in 1204.",
+      "title": "Death of Richard the Lionheart; succession of King John in England",
+      "region": "England, Normandy, Angevin Empire",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "political",
+      "description": "Richard I of England (Richard the Lionheart), king of England and leader of the Third Crusade, dies in 1199 from complications of a wound sustained during the siege of Ch\u00e2lus-Chabrol. His death marks a turning point in English and European history. Richard is succeeded by his younger brother John, who lacks Richard's military reputation and political acumen. John's succession precipitates the fragmentation of the Angevin Empire, as Norman and Angevin nobles question his legitimacy and competence. The loss of Normandy and other continental territories will follow within a decade.",
       "key_figures": [
-        "Doge Enrico Dandolo (Venice)",
-        "Byzantine Emperor Alexios III Angelos"
+        "Richard I (deceased king, Richard the Lionheart)",
+        "John (new king of England)",
+        "Eleanor of Aquitaine (Richard and John's mother)",
+        "Philip II of France (rival claimant to Angevin territories)"
       ],
       "sources": [
         {
-          "name": "Historiographic consensus on Venetian expansion in Constantinople",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Chronicle of Roger of Wendover (contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Venetian merchant records and later compilations",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Chronicle of Ralph of Coggeshall (contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Rigord (contemporary French chronicle)",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The expansion of Venetian privileges in Constantinople is well-documented, though the precise date of formal establishment in 1199 is less certain than the broader trend. Scholarly consensus places major Venetian expansion in this period.",
+      "certainty": "confirmed",
+      "certainty_note": "Richard's death and John's succession are well-documented in contemporary English and French chronicles. The date is recorded as April 6, 1199.",
       "cross_references": [
-        "1204-001 (Fourth Crusade sack of Constantinople)"
+        "1202-001 (John loses Normandy to Philip II)",
+        "1215-001 (Magna Carta and John's conflicts with the barons)"
       ]
     },
     {
       "id": "1199-003",
-      "title": "Ghurid expansion under Muhammad of Ghor in northern India",
-      "region": "Northern India, Afghanistan",
-      "coordinates_approx": "28.6139, 77.2090",
+      "title": "Tem\u00fcjin consolidates power on the Mongol steppe; defeats rival khans",
+      "region": "Mongolia, Central Asian steppe",
+      "coordinates_approx": "48.5, 104.0",
       "category": "military",
-      "description": "Muhammad of Ghor (also known as Muhammad Ghori) continued his military campaigns in northern India, consolidating Ghurid control over territories previously held by the Rajput kingdoms and the declining Pala Empire. His campaigns, particularly in the Ganges valley, marked the beginning of sustained Islamic military presence in the Indian subcontinent and laid the foundation for the later Delhi Sultanate. The Ghurid conquests introduced new military technologies, administrative systems, and religious institutions that would transform northern Indian society.",
+      "description": "Tem\u00fcjin, a young Mongol leader, continues to consolidate power on the steppe through military victories and strategic alliances. In 1199, he defeats several rival khans and tribal confederations, including the Tatars and the Kereit. These victories establish Tem\u00fcjin as the dominant military power on the steppe and demonstrate his ability to organize and command large forces. His consolidation of power is facilitated by his charismatic leadership, military innovations, and willingness to incorporate defeated tribes into his confederation. By 1199, Tem\u00fcjin is recognized as a major contender for steppe supremacy.",
       "key_figures": [
-        "Muhammad of Ghor (Ghurid commander)",
-        "Rajput rulers (various, in resistance)"
+        "Tem\u00fcjin (future Genghis Khan, Mongol leader)",
+        "Jamukha (Tem\u00fcjin's rival and blood brother)",
+        "Toghrul Khan (Kereit leader, Tem\u00fcjin's ally)"
       ],
       "sources": [
         {
-          "name": "Taj-ul-Maasir by Hasan Nizami (early 13th-century chronicle)",
+          "name": "The Secret History of the Mongols (Mongol Yuan chao bi shi)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Ghurid expansion",
-          "type": "historiographic_consensus",
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Ghurid campaigns are documented in later Islamic chronicles compiled within a generation or two of the events. Exact dating of individual campaigns is uncertain, but the broader chronology of expansion is accepted by modern scholarship.",
+      "certainty": "approximate",
+      "certainty_note": "The Secret History records Tem\u00fcjin's campaigns but dating is uncertain; scholars place various victories between 1198 and 1202. The year 1199 is conventional. No contemporary steppe records exist.",
       "cross_references": [
-        "1206-001 (Establishment of Delhi Sultanate)"
+        "1200-001 (Tem\u00fcjin defeats the Kereit)",
+        "1201-001 (Tem\u00fcjin defeats the Tatars)",
+        "1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
       ]
     },
     {
       "id": "1199-004",
-      "title": "Song Dynasty consolidation under Emperor Ningzong",
-      "region": "Southern Song China",
-      "coordinates_approx": "30.2741, 120.1551",
+      "title": "Ayyubid Sultanate fragmentation continues; Al-Afdal rules Egypt",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "30.0, 31.0",
       "category": "political",
-      "description": "Emperor Ningzong of the Southern Song Dynasty (r. 1194\u20131224) was firmly established in power by 1199, having consolidated control after the regency period. His reign saw continued cultural flourishing, including advances in Neo-Confucian philosophy, landscape painting, and ceramic production. However, the Song Dynasty remained militarily pressured by the Jin Dynasty to the north and faced increasing financial strain from military expenditures and the loss of northern territories.",
+      "description": "The Ayyubid Sultanate, established by Saladin, continues to fragment following his death in 1193. Saladin's sons and emirs compete for control of Egypt, Syria, and the Levant. In 1199, Al-Afdal, Saladin's eldest son, rules Egypt and claims to be the nominal head of the Ayyubid Sultanate, though his authority is contested by his brothers and other emirs. The fragmentation of the Ayyubid Sultanate weakens Islamic unity and creates opportunities for Crusader states and rival Islamic powers. This period of internal conflict will continue until the early 13th century.",
       "key_figures": [
-        "Emperor Ningzong (Song Dynasty)",
-        "Han Tuozhou (powerful court official)"
+        "Al-Afdal (Saladin's son, ruler of Egypt)",
+        "Al-Aziz Uthman (Saladin's son, ruler of Egypt, rival)",
+        "Al-Zahir Ghazi (Saladin's son, ruler of Aleppo)"
       ],
       "sources": [
         {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Song Dynasty chronology",
-          "type": "historiographic_consensus",
+          "name": "Baha al-Din Ibn Shaddad, Life of Saladin (Sirat Salah al-Din)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Emperor Ningzong's reign dates and major policies are well-documented in the official Song histories compiled after the dynasty's fall.",
+      "certainty_note": "The fragmentation of the Ayyubid Sultanate is well-documented in Islamic chronicles. Al-Afdal's rule of Egypt in 1199 is clearly attested.",
       "cross_references": [
-        "1127-001 (Jin Dynasty conquest of northern China)"
+        "1193-001 (Saladin's death)",
+        "1201-003 (Al-Afdal's death)"
       ]
     },
     {
       "id": "1199-005",
-      "title": "Khwarazmian Empire expansion under Takash",
-      "region": "Central Asia, Persia",
-      "coordinates_approx": "42.4503, 59.5562",
+      "title": "Third Crusade concludes; Treaty of Jaffa stabilizes Crusader-Ayyubid relations",
+      "region": "Levant, Eastern Mediterranean",
+      "coordinates_approx": "33.0, 35.0",
       "category": "military",
-      "description": "Shah Takash of the Khwarazmian Empire (r. 1172\u20131200) continued to expand Khwarazmian power in Central Asia and the Persian plateau, consolidating control over trade routes and territories. By 1199, Khwarazm had become one of the major powers in the region, rivaling the Seljuk Sultanate of Rum and the Ghurid Empire. The empire's wealth derived from control of Silk Road trade and agricultural production in the Aral Sea region.",
+      "description": "The Third Crusade, launched in 1189 in response to Saladin's conquest of Jerusalem, concludes with the Treaty of Jaffa (1192). By 1199, the treaty has stabilized relations between the Crusader states and the Ayyubid Sultanate. The Crusader states retain control of the coastal cities (Acre, Jaffa, Caesarea) but have lost Jerusalem and much of the interior. The treaty establishes a period of relative peace and allows for trade and pilgrimage. This stability will persist until the Fourth Crusade's diversion and the subsequent Fifth Crusade.",
       "key_figures": [
-        "Shah Takash (Khwarazmian ruler)"
+        "Richard the Lionheart (English king, Third Crusade leader, died 1199)",
+        "Saladin (Ayyubid Sultan, died 1193)",
+        "Henry of Champagne (King of Jerusalem, 1192\u20131197)"
       ],
       "sources": [
         {
-          "name": "Historiographic consensus on Khwarazmian expansion",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Chronicle of the Third Crusade (various contemporary accounts)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Later Islamic chronicles and geographies",
-          "type": "later_compilation",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The reign of Takash and Khwarazmian expansion are documented in later Islamic sources. Precise dating of individual campaigns is less certain than the broader chronology.",
+      "certainty": "confirmed",
+      "certainty_note": "The Third Crusade and the Treaty of Jaffa are well-documented in both European and Islamic sources. The stabilization of Crusader-Ayyubid relations by 1199 is a historiographic consensus.",
       "cross_references": [
-        "1220-001 (Mongol invasion of Khwarazm)"
+        "1189-001 (Third Crusade launched)",
+        "1204-001 (Fourth Crusade sack of Constantinople)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Richard I's death in 1199 is sometimes overstated in popular narratives as immediately causing the 'loss of the Angevin Empire.' In fact, John retained most continental holdings for several years after 1199; the critical losses occurred between 1202 and 1204, following the murder of Arthur of Brittany and John's conflicts with Norman barons. The causal chain is more complex than a simple succession narrative suggests. Additionally, some modern scholarship questions the extent to which Richard's death was the primary driver of subsequent English decline, emphasizing instead structural weaknesses in the Angevin system and the superior resources of the French crown.",
-  "historiographic_note": "The year 1199 is well-documented for Western Europe, particularly England and France, where contemporary chronicles provide rich detail. Documentation for the Byzantine Empire, Central Asia, and India is sparser, relying on later compilations and historiographic consensus rather than contemporary sources. Chinese sources for the Song Dynasty are abundant but compiled centuries after the events. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are less systematically documented. There is a notable bias toward elite narratives and court-centered history; the experiences of peasants, merchants, and non-elite populations are largely invisible in surviving sources.",
+  "disconfirming_evidence": "The dating of Tem\u00fcjin's campaigns on the steppe is uncertain; some scholars place various victories in 1198, 1199, 1200, or 1201. The Secret History does not provide precise annual dating for these events. The claim that the Treaty of Jaffa 'stabilized' Crusader-Ayyubid relations may overstate the security of the arrangement; the Crusader states remained militarily vulnerable and economically dependent on trade and pilgrimage, which were subject to disruption. Richard the Lionheart's death is sometimes portrayed as a sudden catastrophe for the Angevin Empire, but the fragmentation of the empire was a gradual process that had begun before his death and continued after it.",
+  "historiographic_note": "Documentation for 1199 is uneven. European sources are relatively rich for political and military events, particularly regarding Richard's death and John's succession. East Asian sources (particularly Japanese) are detailed and contemporary. Islamic sources document the Ayyubid fragmentation. Central Asian sources are sparse and often later compilations. The year 1199 is sometimes treated as a symbolic threshold in Western historiography (the 'turn of the century'), which may lead to overemphasis on events of this year as markers of change. In reality, many processes were gradual and continuous. The surviving sources reflect the interests of literate elites\u2014courts, religious institutions, and merchant networks\u2014and likely underrepresent peasant, artisan, and non-elite populations. European chronicles often emphasize political succession and military campaigns; Islamic sources focus on dynastic succession and religious authority; Japanese records are administrative and military-focused.",
   "graph_edges": [
     {
       "from": "1199-001",
-      "to": "1202-001",
+      "to": "1200-002",
       "relation": "led_to",
-      "note": "Richard's death and John's accession set in motion the political conflicts that led to the loss of Normandy and other continental holdings."
-    },
-    {
-      "from": "1199-001",
-      "to": "1215-001",
-      "relation": "part_of",
-      "note": "John's weak rule following his accession contributed to baronial discontent that culminated in Magna Carta."
+      "note": "Yoritomo's death leads to Yoriie's assumption of the shogunate in 1200"
     },
     {
       "from": "1199-002",
-      "to": "1204-001",
+      "to": "1202-001",
       "relation": "led_to",
-      "note": "Venetian commercial interests and privileges in Constantinople were a factor in the Fourth Crusade's diversion to the city."
+      "note": "John's succession leads to the loss of Normandy to Philip II in 1202"
     },
     {
       "from": "1199-003",
       "to": "1206-001",
       "relation": "led_to",
-      "note": "Ghurid military conquests in northern India established the territorial and political foundation for the Delhi Sultanate."
+      "note": "Tem\u00fcjin's consolidation of power culminates in his proclamation as Genghis Khan in 1206"
+    },
+    {
+      "from": "1199-004",
+      "to": "1218-001",
+      "relation": "led_to",
+      "note": "Ayyubid fragmentation weakens the sultanate, contributing to vulnerability during the Fifth Crusade"
+    },
+    {
+      "from": "1199-005",
+      "to": "1204-001",
+      "relation": "led_to",
+      "note": "The stabilization of Crusader-Ayyubid relations is disrupted by the Fourth Crusade's diversion to Constantinople"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:31:25.037316",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

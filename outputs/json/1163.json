@@ -1,113 +1,140 @@
 {
   "year": 1163,
   "year_label": "1163 CE",
-  "era_context": "The High Middle Ages; the Crusader States are consolidating after the Second Crusade (1147\u20131149). Nur ad-Din Zengi rules Syria and coordinates with Egyptian forces against the Crusaders. The Byzantine Empire under Manuel I maintains its diplomatic and military presence. In East Asia, the Jin Dynasty controls northern China; the Southern Song Dynasty rules the south. Islamic scholarship and trade networks are at their height.",
+  "era_context": "The High Middle Ages; the Crusader States are in a period of relative stability but facing increasing pressure from Saladin's consolidation of power in Egypt. In Europe, Henry II of England is consolidating his Angevin Empire and beginning his conflict with the Church over ecclesiastical authority. The Byzantine Empire under Manuel I is at a high point of power. In Asia, the Jin Dynasty rules northern China while the Southern Song Dynasty controls the south. Islamic civilization is fragmented but increasingly unified under strong military leaders like Saladin and Nur ad-Din.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pre-Columbian Americas (no Old World written records)",
-    "Northern Europe and Scandinavia (sparse sources)"
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern Europe and Scandinavia (limited specific documentation for 1163)"
   ],
   "events": [
     {
       "id": "1163-001",
-      "title": "Amalric I's first Egyptian campaign",
-      "region": "Egypt / Crusader States",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "military",
-      "description": "King Amalric I of Jerusalem launched the first of several campaigns into Egypt, seeking to exploit the power struggle between the Fatimid Caliphate and the rising Zengid/Ayyubid forces. The campaign achieved some territorial gains but failed to establish permanent Crusader control. This marked the beginning of a decade-long struggle for dominance in Egypt that would ultimately result in Saladin's consolidation of power.",
+      "title": "Death of Baldwin III of Jerusalem",
+      "region": "Kingdom of Jerusalem",
+      "coordinates_approx": "31.8, 35.2",
+      "category": "political",
+      "description": "Baldwin III, King of Jerusalem, dies after a reign marked by military campaigns against Nur ad-Din and attempts to expand Crusader influence in Egypt. His death marks the end of an era of relative Crusader strength; his successor, Amalric I, will continue aggressive policies but ultimately face the rising power of Saladin. Baldwin III was known for his military leadership and his attempts to maintain Crusader dominance in the Levant.",
       "key_figures": [
-        "Amalric I (King of Jerusalem)",
-        "Shawar (Vizier of Egypt)",
-        "Nur ad-Din Zengi (Zengid ruler of Syria)"
+        "Baldwin III (King of Jerusalem)",
+        "Amalric I (his brother and successor)"
       ],
       "sources": [
         {
           "name": "William of Tyre, Historia",
           "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "William of Tyre provides detailed accounts of Amalric's Egyptian campaigns. The dating of individual campaigns across 1163\u20131169 is somewhat uncertain; sources sometimes conflate or reorder them.",
+      "certainty": "confirmed",
+      "certainty_note": "Baldwin III's death in 1163 is well-documented in Crusader sources. The date is confirmed.",
       "cross_references": [
-        "1164-004 (Amalric's continued Egyptian campaigns)"
+        "1164-001 (Amalric I's accession)"
       ]
     },
     {
       "id": "1163-002",
-      "title": "Construction of Notre-Dame de Chartres begins",
-      "region": "France",
-      "coordinates_approx": "48.45, 1.49",
-      "category": "cultural",
-      "description": "The construction of the Gothic cathedral of Notre-Dame de Chartres began, replacing an earlier Romanesque structure. The cathedral would become one of the masterpieces of Gothic architecture and a major pilgrimage site dedicated to the Virgin Mary. The project reflected the wealth and piety of the French nobility and the Church during the High Middle Ages.",
+      "title": "Thomas Becket becomes Archbishop of Canterbury",
+      "region": "England",
+      "coordinates_approx": "51.3, 1.1",
+      "category": "religious",
+      "description": "Thomas Becket is appointed Archbishop of Canterbury by King Henry II. Becket had been Henry's chancellor and close friend, and the king expects him to continue to serve royal interests as archbishop. However, Becket undergoes a transformation upon taking office, becoming a strong defender of ecclesiastical independence and opposing Henry's attempts to subordinate the Church to royal authority. This appointment marks the beginning of one of the most famous conflicts in medieval history.",
       "key_figures": [
-        "Bishop Renaud de Mou\u00e7on (Bishop of Chartres)"
+        "Thomas Becket (Archbishop of Canterbury)",
+        "Henry II of England"
       ],
       "sources": [
         {
-          "name": "Historiographic consensus (architectural and archaeological evidence)",
-          "type": "historiographic_consensus",
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Later medieval chronicles and records",
-          "type": "later_compilation",
+          "name": "Life of Thomas Becket (various contemporary accounts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thomas Becket's appointment as Archbishop of Canterbury in 1163 is well-documented in contemporary sources.",
+      "cross_references": [
+        "1164-003 (Henry II-Thomas Becket conflict intensifies)",
+        "1170-001 (Murder of Thomas Becket)"
+      ]
+    },
+    {
+      "id": "1163-003",
+      "title": "Saladin consolidates power in Egypt following the death of the Fatimid Caliph",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Saladin, serving as vizier under Nur ad-Din, continues to consolidate his control over Egypt following the death of the Fatimid Caliph al-Adid in 1160. By 1163, Saladin has eliminated rival factions and established himself as the dominant military and political figure in Egypt. This consolidation is crucial to his later ability to unify Egypt and Syria and challenge the Crusader States.",
+      "key_figures": [
+        "Saladin (Ayyubid vizier and military commander)",
+        "Nur ad-Din (Saladin's overlord in Syria)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Imad ad-Din al-Isfahani, Conquest of Syria",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Saladin's consolidation of power in Egypt is well-documented in Islamic sources. The process began after the death of al-Adid in 1160 and was largely complete by the mid-1160s.",
+      "cross_references": [
+        "1169-001 (Saladin's formal establishment of Ayyubid rule)"
+      ]
+    },
+    {
+      "id": "1163-004",
+      "title": "Byzantine Emperor Manuel I campaigns in Cilicia and Syria",
+      "region": "Cilicia/Syria/Byzantine Empire",
+      "coordinates_approx": "36.5, 34.5",
+      "category": "military",
+      "description": "Emperor Manuel I Komnenos of the Byzantine Empire conducts military campaigns in Cilicia and Syria to expand Byzantine influence and challenge the Crusader States and Muslim powers. Manuel's reign is characterized by aggressive military expansion and the attempt to restore Byzantine power in the Mediterranean and the Levant. These campaigns are part of his broader strategy to reassert Byzantine dominance in the eastern Mediterranean.",
+      "key_figures": [
+        "Manuel I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Niketas Choniates, History",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The start date of construction is traditionally given as 1163, based on later medieval records and architectural analysis. Some sources suggest construction began after a fire in 1194, but the consensus places the Gothic reconstruction beginning in 1163.",
-      "cross_references": []
-    },
-    {
-      "id": "1163-003",
-      "title": "Council of Tours",
-      "region": "France",
-      "coordinates_approx": "47.39, 0.69",
-      "category": "religious",
-      "description": "A church council was held at Tours, addressing ecclesiastical discipline and heresy. The council reflected the Church's ongoing efforts to combat heterodox movements and maintain doctrinal unity during a period of religious ferment in Western Europe. The council's decrees were part of the broader ecclesiastical reform movement of the 12th century.",
-      "key_figures": [
-        "Pope Alexander III (Papacy)",
-        "French bishops and clergy"
-      ],
-      "sources": [
-        {
-          "name": "Conciliar records and later compilations",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Council of Tours is attested in later ecclesiastical records, but contemporary documentation is sparse. The exact year and significance are somewhat uncertain.",
+      "certainty_note": "Manuel I conducted multiple campaigns in Cilicia and Syria throughout his reign (1143\u20131180); the specific events of 1163 are less clearly documented than the broader pattern.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The start date of Notre-Dame de Chartres is disputed. While 1163 is the traditional date, some modern scholarship suggests that the major Gothic reconstruction began after a fire in 1194, with earlier construction being Romanesque. The distinction matters for understanding the development of Gothic architecture. Additionally, the Council of Tours in 1163 is attested in later sources but may be confused with other councils of the same period.",
-  "historiographic_note": "The year 1163 is moderately well documented in European sources, particularly regarding the Crusader States and the French Church. Islamic sources provide parallel accounts of Egyptian and Syrian politics. However, most accounts were written decades or centuries after the events. The record is heavily weighted toward political, military, and ecclesiastical events; economic and social developments are underrepresented. Archaeological evidence is limited to architectural remains.",
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the specific significance of 1163 as a distinct year is somewhat arbitrary; the broader patterns of Saladin's consolidation, Thomas Becket's appointment, and Byzantine military activity span multiple years and are not uniquely defined by 1163.",
+  "historiographic_note": "The historical record for 1163 is heavily weighted toward European sources, particularly English and Crusader chronicles. The appointment of Thomas Becket as Archbishop of Canterbury is extensively documented because it was a major political and ecclesiastical event in medieval Europe. Islamic sources for Saladin's consolidation of power exist but are often later compilations. Byzantine sources are rich but less integrated into Western historical narratives. The record is heavily weighted toward political and religious events; economic, social, and cultural developments are less well-documented. Sub-Saharan African, Southeast Asian, and American histories remain absent from contemporary documentation.",
   "graph_edges": [
     {
       "from": "1163-001",
-      "to": "1164-004",
-      "relation": "contemporary_with",
-      "note": "Amalric's Egyptian campaigns continued across 1163\u20131169 as part of a sustained effort to control Egypt."
+      "to": "1164-001",
+      "relation": "led_to",
+      "note": "Baldwin III's death in 1163 led to Amalric I's accession in 1164"
     },
     {
       "from": "1163-002",
-      "to": "1220-001",
+      "to": "1164-003",
       "relation": "led_to",
-      "note": "The construction of Notre-Dame de Chartres, begun in 1163, continued for decades and became a masterpiece of Gothic architecture."
+      "note": "Thomas Becket's appointment as Archbishop in 1163 led to the intensification of the Henry II-Thomas Becket conflict in 1164"
+    },
+    {
+      "from": "1163-003",
+      "to": "1166-001",
+      "relation": "led_to",
+      "note": "Saladin's consolidation of power in Egypt in 1163 was part of the process that led to his military victories in 1166"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:43:11.376960",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

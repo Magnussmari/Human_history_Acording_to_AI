@@ -1,52 +1,56 @@
 {
   "year": 1196,
   "year_label": "1196 CE",
-  "era_context": "The late 12th century is marked by the decline of the Crusader states following Saladin's victories, the consolidation of feudal monarchies in Western Europe, and the rise of merchant republics in Italy. The Holy Roman Empire under Emperor Henry VI remains powerful but faces succession challenges. In Asia, the Jin Dynasty controls northern China, the Song Dynasty the south, and the Ghurid Empire expands in Central Asia and India. This is the age of the troubadours, Gothic cathedral construction, and the early development of universities.",
-  "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "era_context": "The late 12th century CE saw the fragmentation of the Angevin Empire under Richard I and the rise of Philip II Augustus of France. In the Islamic world, Saladin's Ayyubid dynasty dominated the Levant and Egypt following the recapture of Jerusalem (1187). The Khmer Empire under Jayavarman VII was at its territorial and cultural zenith in Southeast Asia. In Japan, the Minamoto clan had recently consolidated power, establishing the Kamakura shogunate (1185). Europe was in the High Middle Ages, marked by feudal consolidation, crusading ideology, and the growth of urban centres.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Northern Europe and Scandinavia (sparse chronicle coverage)",
+    "Central Asia and the Steppe (limited contemporary documentation)"
+  ],
   "events": [
     {
       "id": "1196-001",
-      "title": "Emperor Henry VI's continued rule and consolidation of Staufen power",
-      "region": "Holy Roman Empire, Germany, Sicily, Italy",
-      "coordinates_approx": "51.1657, 10.4515",
+      "title": "Death of Saladin; succession crisis in the Ayyubid dynasty",
+      "region": "Levant, Egypt, Mesopotamia",
+      "coordinates_approx": "31.9454, 35.9284",
       "category": "political",
-      "description": "Emperor Henry VI of the Staufen dynasty continued to consolidate his power over the Holy Roman Empire, Germany, Sicily, and southern Italy. Henry VI was one of the most powerful emperors of the medieval period, combining the imperial crown with control of Sicily through his marriage to Constance of Sicily. His reign was marked by efforts to centralize imperial authority and to establish a hereditary succession. However, his aggressive policies and attempts to expand imperial power generated opposition from the German princes and the papacy. Henry VI would die in 1197, ending the period of Staufen dominance.",
+      "description": "Saladin (\u1e62al\u0101\u1e25 ad-D\u012bn Y\u016bsuf ibn Ayy\u016bb) died on 4 March 1193 (not 1196, but his death triggered a succession crisis that dominated 1196). His sons and emirs competed for control of the fragmented Ayyubid state. Al-Afdal, his eldest son, held Cairo and Egypt but faced challenges from his brothers al-Aziz and al-Zahir, who controlled other territories. This fragmentation weakened Ayyubid unity and would have long-term consequences for Crusader-Muslim relations in the Levant. The succession dispute is attested in contemporary chronicles and later historiographic synthesis.",
       "key_figures": [
-        "Henry VI (Holy Roman Emperor)",
-        "Constance of Sicily (empress)",
-        "German princes and Italian nobles"
+        "Al-Afdal Nur ad-Din Ali (Saladin's eldest son, regent in Egypt)",
+        "Al-Aziz Isa (Saladin's son, governor of Egypt)",
+        "Al-Zahir Ghazi (Saladin's son, governor of Aleppo)"
       ],
       "sources": [
         {
-          "name": "Chronica Regia Coloniensis (Cologne Royal Chronicle)",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Liber ad honorem Augusti by Peter of Eboli (contemporary chronicle)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Baha ad-Din ibn Shaddad, Life of Saladin (al-Nawadir al-Sultaniyya)",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry VI's rule and his consolidation of power are well-documented in contemporary German and Italian sources.",
+      "certainty_note": "Saladin's death is well-documented in Islamic chronicles. The succession crisis of 1196 is attested in multiple sources, though the exact chronology of factional disputes varies slightly between accounts.",
       "cross_references": [
-        "1197-001 (Henry VI's death)",
-        "1198-002 (Succession crisis)"
+        "1187-001 (Saladin's capture of Jerusalem)",
+        "1198-001 (Al-Afdal's loss of power)"
       ]
     },
     {
       "id": "1196-002",
-      "title": "Richard I's military campaigns and conflict with Philip II of France",
-      "region": "England, Normandy, Aquitaine, France",
-      "coordinates_approx": "49.1829, -0.3707",
-      "category": "military",
-      "description": "King Richard I of England (Richard the Lionheart) continued his military campaigns to defend and expand his continental holdings against the encroachments of King Philip II of France. In 1196, Richard undertook campaigns in Normandy and Aquitaine, fortifying his positions and engaging in military operations against French forces. These campaigns were costly and strained his resources, but Richard remained militarily dominant in the region. The conflict between Richard and Philip would continue until Richard's death in 1199.",
+      "title": "Richard I of England returns from Crusade; conflict with Philip II",
+      "region": "England, Normandy, Anjou, France",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "Richard I (Richard the Lionheart) returned to his continental domains in 1194 after his release from captivity in the Holy Roman Empire (1192\u20131194). By 1196, he was actively campaigning against Philip II Augustus of France to recover lost Angevin territories. The conflict centred on Normandy and the Loire Valley, where Philip had made significant gains during Richard's absence. Richard's military campaigns were largely successful in 1196, but the ongoing war drained resources and contributed to the eventual collapse of Angevin power under his successor, King John. This conflict is central to understanding the fragmentation of the Angevin Empire.",
       "key_figures": [
-        "Richard I (King of England)",
-        "Philip II of France (rival)",
-        "Norman and Angevin barons"
+        "Richard I of England (King of England, Duke of Normandy and Aquitaine)",
+        "Philip II Augustus (King of France)",
+        "William Marshal (English military commander)"
       ],
       "sources": [
         {
@@ -61,127 +65,137 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Richard's military campaigns in 1196 are documented in contemporary English chronicles.",
+      "certainty_note": "Richard's military campaigns in 1196 are well-documented in contemporary English and Norman chronicles. Specific battle dates and outcomes are attested.",
       "cross_references": [
-        "1197-002 (Richard's continued campaigns)",
-        "1199-001 (Richard's death)"
+        "1192-001 (Richard's capture and ransom)",
+        "1199-001 (Richard's death and succession of John)"
       ]
     },
     {
       "id": "1196-003",
-      "title": "Saladin's rule and consolidation of the Ayyubid state",
-      "region": "Egypt, Levant, Syria",
-      "coordinates_approx": "30.0444, 31.2357",
-      "category": "political",
-      "description": "Saladin (Salah ad-Din Yusuf ibn Ayyub) continued to rule the Ayyubid state, which dominated Egypt, Syria, and the Levant. By 1196, Saladin had consolidated his power and established a unified Islamic state that posed a formidable challenge to the remaining Crusader states. His administrative reforms, military organization, and religious legitimacy made the Ayyubid state one of the most powerful in the medieval Islamic world. Saladin would die in 1193, but his state would continue under his successors.",
+      "title": "Jayavarman VII consolidates Khmer power; construction of Bayon temple complex",
+      "region": "Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.3667, 103.8500",
+      "category": "cultural",
+      "description": "Jayavarman VII (r. 1181\u20131219) was at the height of his power and cultural patronage in 1196. He had recently completed major military campaigns to expand Khmer territory and was commissioning monumental temple construction, including the Bayon temple complex in Angkor. The Bayon is notable for its distinctive towers carved with faces (likely representing Avalokiteshvara or the king himself) and its extensive bas-reliefs depicting historical scenes and daily life. This period represents the apogee of Khmer architectural and artistic achievement. The dating of Bayon's construction is debated, but most scholars place major construction phases between 1190\u20131210.",
       "key_figures": [
-        "Saladin (Ayyubid founder and ruler)"
+        "Jayavarman VII (Khmer king, patron of arts and architecture)"
       ],
       "sources": [
         {
-          "name": "Baha ad-Din ibn Shaddad, Sirat Saladin (Biography of Saladin)",
-          "type": "chronicle",
+          "name": "Archaeological evidence from Bayon temple complex, Angkor",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic evidence from Khmer inscriptions at Bayon",
+          "type": "epigraphic",
           "contemporary": true
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
+          "name": "Zhou Daguan, Record of Cambodia (Zhenla Fengtu Ji), written 1297",
           "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Saladin's rule and the consolidation of the Ayyubid state are well-documented in both Islamic and Crusader sources. However, note that Saladin died in 1193, so this entry describes the state he founded, not his direct rule in 1196.",
-      "cross_references": [
-        "1193-001 (Saladin's death)",
-        "1187-001 (Battle of Hattin and conquest of Jerusalem)"
-      ]
-    },
-    {
-      "id": "1196-004",
-      "title": "Ghurid military expansion in northern India under Muhammad of Ghor",
-      "region": "Northern India, Afghanistan",
-      "coordinates_approx": "28.6139, 77.2090",
-      "category": "military",
-      "description": "Muhammad of Ghor (also known as Muhammad Ghori) continued his military campaigns in northern India, consolidating Ghurid control over territories previously held by the Rajput kingdoms and the declining Pala Empire. His campaigns, particularly in the Ganges valley and around Delhi, marked the beginning of sustained Islamic military presence in the Indian subcontinent. The Ghurid conquests introduced new military technologies, administrative systems, and religious institutions that would transform northern Indian society.",
-      "key_figures": [
-        "Muhammad of Ghor (Ghurid commander)",
-        "Rajput rulers (various, in resistance)"
-      ],
-      "sources": [
-        {
-          "name": "Taj-ul-Maasir by Hasan Nizami (early 13th-century chronicle)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Ghurid expansion",
-          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Ghurid campaigns are documented in later Islamic chronicles compiled within a generation or two of the events. Exact dating of individual campaigns is uncertain, but the broader chronology of expansion is accepted by modern scholarship.",
+      "certainty_note": "Jayavarman VII's reign and patronage are well-attested. The exact dating of Bayon's construction phases is debated among archaeologists; most place major work in the 1190s\u20131210s, but some argue for earlier or later phases.",
       "cross_references": [
-        "1197-004 (Ghurid expansion)",
-        "1206-001 (Establishment of Delhi Sultanate)"
+        "1181-001 (Jayavarman VII's accession)",
+        "1219-001 (Jayavarman VII's death)"
       ]
     },
     {
-      "id": "1196-005",
-      "title": "Jin Dynasty consolidation under Emperor Zhangzong",
-      "region": "Northern China",
-      "coordinates_approx": "39.9042, 116.4074",
+      "id": "1196-004",
+      "title": "Minamoto Yoritomo consolidates shogunal authority in Japan",
+      "region": "Japan (Kamakura shogunate)",
+      "coordinates_approx": "35.3295, 139.5475",
       "category": "political",
-      "description": "Emperor Zhangzong of the Jin Dynasty (r. 1190\u20131208) continued to consolidate Jin control over northern China. The Jin Dynasty, which had conquered northern China in 1127, maintained a sophisticated court culture and administrative system. Zhangzong's reign was marked by cultural development and military consolidation. The Jin Dynasty remained militarily superior to the Song Dynasty to the south, and the border between the two states remained militarized and unstable.",
+      "description": "Minamoto Yoritomo (1147\u20131199), founder of the Kamakura shogunate, was consolidating his military and administrative authority over Japan in 1196. He had defeated the Taira clan in 1185 and established the shogunate in 1185, but continued to face challenges from rival clans and the imperial court. In 1196, Yoritomo was strengthening the administrative apparatus of the shogunate and securing his position as the dominant military power in Japan. His system of military governance (bakufu) would outlast him and define Japanese politics for centuries. This period marks the transition from aristocratic (Heian) to military (Kamakura) rule.",
       "key_figures": [
-        "Emperor Zhangzong of Jin (Jin Dynasty ruler)"
+        "Minamoto Yoritomo (Shogun, founder of Kamakura shogunate)",
+        "Emperor Go-Toba (reigning emperor, nominal authority)"
       ],
       "sources": [
         {
-          "name": "Jin Shi (History of the Jin Dynasty)",
+          "name": "Azuma Kagami (Mirror of the East), compiled 13th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Jin Dynasty history",
-          "type": "historiographic_consensus",
+          "name": "Heike Monogatari (Tale of the Heike), oral tradition compiled 13th century",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Emperor Zhangzong's reign and the consolidation of Jin power are well-documented in the official Jin history.",
+      "certainty": "probable",
+      "certainty_note": "Yoritomo's consolidation of power is well-attested in later Japanese chronicles. Specific events of 1196 are less precisely dated; the broader trajectory is clear, but year-by-year details rely on later compilations.",
       "cross_references": [
-        "1127-001 (Jin conquest of northern China)",
-        "1234-001 (Fall of the Jin Dynasty to the Mongols)"
+        "1185-001 (Minamoto victory at Dan-no-ura; establishment of shogunate)",
+        "1199-001 (Yoritomo's death)"
+      ]
+    },
+    {
+      "id": "1196-005",
+      "title": "Zhu Xi active in Song China; Neo-Confucian philosophy development",
+      "region": "Song Dynasty China",
+      "coordinates_approx": "30.2741, 120.1551",
+      "category": "cultural",
+      "description": "Zhu Xi (1130\u20131200), the most influential Neo-Confucian philosopher of the Song Dynasty, was in his mid-60s in 1196 and at the height of his intellectual influence. He had spent decades developing and refining his philosophical system, which synthesised Confucian ethics with Buddhist and Daoist metaphysics. His commentaries on the Confucian classics (particularly the Four Books) would become the orthodox interpretation for centuries. In 1196, Zhu Xi was likely engaged in teaching, writing, and correspondence with other scholars. His work would profoundly shape East Asian intellectual life and governance for the next 700+ years.",
+      "key_figures": [
+        "Zhu Xi (Neo-Confucian philosopher, scholar-official)"
+      ],
+      "sources": [
+        {
+          "name": "Zhu Xi's collected writings (Zhu Zi Quan Shu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Song Dynasty official records and biographical compilations",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Zhu Xi's life and career are well-documented in Song records and his own voluminous writings. His intellectual activity in 1196 is attested, though specific works or events of that year are not always precisely dated.",
+      "cross_references": [
+        "1200-001 (Zhu Xi's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Henry VI as an exceptionally powerful emperor is complicated by modern scholarship, which emphasizes the structural limitations of imperial authority and the rise of princely power. While Henry VI was indeed powerful, his attempts to establish hereditary succession and to centralize imperial authority ultimately failed, and his death in 1197 revealed the fragility of his power base. Additionally, the characterization of Richard I as a powerful and successful military leader, while generally accurate, sometimes obscures the fact that his military campaigns were costly and contributed to the financial strain that would weaken his successors' positions.",
-  "historiographic_note": "The year 1196 is exceptionally well-documented for Western Europe, with contemporary chronicles providing rich detail on political and military events. Documentation for the Islamic world, Central Asia, and India is sparser, relying on later compilations and historiographic consensus. Chinese sources are abundant but compiled centuries after the events. The historical record is heavily weighted toward political, military, and religious events; economic and social developments are less systematically documented. There is a significant bias toward elite narratives and the perspectives of rulers, clergy, and military leaders; the experiences of common people are largely absent from surviving sources.",
+  "disconfirming_evidence": "The significance of the Ayyubid succession crisis (1196-001) is sometimes overstated in Western historiography as a 'weakness' that benefited Crusaders; however, modern scholarship emphasises that the Ayyubid state remained militarily and administratively coherent despite factional disputes, and Crusader gains were limited. The dating of Bayon temple construction (1196-003) remains contested; some scholars argue for earlier (1180s) or later (1210s) primary construction phases, making 1196 an approximate rather than confirmed date for major work. Zhu Xi's influence (1196-005) is sometimes anachronistically projected backward; while he was influential in his lifetime, his canonisation as the orthodox interpreter of Confucianism occurred after his death, particularly during the Yuan and Ming dynasties.",
+  "historiographic_note": "Documentation for 1196 is moderate to good for Europe, the Islamic world, and East Asia, but relies heavily on later compilations and chronicles rather than contemporary records. European sources are predominantly Latin and Norman; Islamic sources are primarily Arabic chronicles written decades or centuries later. Japanese sources are almost entirely from 13th-century compilations (Azuma Kagami, Heike Monogatari), introducing potential anachronism and narrative bias. Khmer sources are primarily archaeological and epigraphic, with limited written historical narrative. Sub-Saharan Africa, Northern Europe, and Central Asia are underrepresented in surviving documentation. The record is shaped by the interests of literate elites (courts, monasteries, temples) and may omit significant events in non-literate or non-elite communities.",
   "graph_edges": [
     {
       "from": "1196-001",
-      "to": "1197-001",
-      "relation": "led_to",
-      "note": "Henry VI's consolidation of power in 1196 was followed by his death in 1197, which triggered a succession crisis."
+      "to": "1187-001",
+      "relation": "caused_by",
+      "note": "Saladin's death and succession crisis were a direct consequence of his earlier military conquests and the centralisation of power in his person."
     },
     {
       "from": "1196-002",
-      "to": "1197-002",
-      "relation": "contemporary_with",
-      "note": "Richard's military campaigns in 1196 were part of the broader conflict with Philip II that continued in 1197."
+      "to": "1192-001",
+      "relation": "caused_by",
+      "note": "Richard's return and renewed conflict with Philip II were enabled by his release from captivity in 1194."
+    },
+    {
+      "from": "1196-003",
+      "to": "1181-001",
+      "relation": "part_of",
+      "note": "Jayavarman VII's temple construction was part of his broader consolidation of power and cultural patronage."
     },
     {
       "from": "1196-004",
-      "to": "1206-001",
-      "relation": "led_to",
-      "note": "Ghurid military expansion in 1196 established the foundation for the Delhi Sultanate established in 1206."
+      "to": "1185-001",
+      "relation": "part_of",
+      "note": "Yoritomo's consolidation in 1196 was a continuation of his establishment of the shogunate in 1185."
+    },
+    {
+      "from": "1196-005",
+      "to": "Song_Dynasty_intellectual_tradition",
+      "relation": "part_of",
+      "note": "Zhu Xi's work was part of the broader Neo-Confucian intellectual movement of the Song Dynasty."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:31:25.037764",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,168 +1,125 @@
 {
   "year": 1156,
   "year_label": "1156 CE",
-  "era_context": "The mid-12th century continues with the consolidation of major powers: the Angevin Empire in Western Europe, the Zengid dynasty in the Islamic Near East, the Byzantine Empire under Manuel I, the Jin Dynasty in northern China, and the Song Dynasty in the south. This is a period of relative stability in many regions, though underlying tensions are building that will lead to major conflicts in the coming decades.",
+  "era_context": "The mid-12th century in Eurasia was marked by fragmentation and transition. In Europe, the Second Crusade had recently ended (1149); feudal kingdoms competed for power while the Papacy reasserted authority. In the Islamic world, the Zengid dynasty controlled Syria and Mesopotamia; the Fatimid Caliphate was in terminal decline in Egypt. In East Asia, the Jin Dynasty ruled northern China while the Southern Song Dynasty controlled the south; Japan was entering the Heian period's final decades, with samurai clans rising in power. The Khmer Empire in Southeast Asia was at its height under Jayavarman VII's reign.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern Europe beyond major kingdoms",
-    "Pre-Columbian Americas",
-    "Central Asia and the Steppe"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Francia and the Holy Roman Empire (sparse documentation)",
+    "Central Asian steppe politics (fragmentary sources)"
   ],
   "events": [
     {
       "id": "1156-001",
-      "title": "Hogen Rebellion in Japan; Taira Clan Victory",
-      "region": "Japan, Kyoto",
+      "title": "H\u014dgen Rebellion in Japan",
+      "region": "Japan (Kyoto and surrounding provinces)",
       "coordinates_approx": "35.0116, 135.7681",
       "category": "military",
-      "description": "The Hogen Rebellion (Hogen no Ran) erupted in 1156 as a conflict between rival branches of the imperial family and their samurai supporters. The Taira clan, led by Taira no Kiyomori, defeated the Minamoto clan and their allies, establishing Taira dominance at the imperial court. This rebellion marked a crucial step in the rise of the samurai warrior class and the decline of the Heian aristocracy. The victory gave the Taira clan unprecedented power and set the stage for their dominance of Japanese politics until the Gempei War (1180\u20131185).",
+      "description": "The H\u014dgen Rebellion erupted in the capital Kyoto between rival branches of the imperial family and their samurai supporters. Emperor Sutoku and his supporters (the H\u014dgen faction) clashed with the forces of Emperor Go-Shirakawa and the Taira clan. The conflict lasted only days but marked a watershed moment: the victory of the Taira clan and the military class (samurai) over court nobility, fundamentally shifting power away from the imperial court toward military government (bakufu). This rebellion is often cited as the beginning of the samurai-dominated period in Japanese history.",
       "key_figures": [
+        "Emperor Sutoku (claimant)",
+        "Emperor Go-Shirakawa (reigning emperor)",
         "Taira no Kiyomori (Taira clan leader)",
-        "Minamoto no Tameyoshi (Minamoto clan leader)",
-        "Emperor Go-Shirakawa (Japanese Emperor)"
+        "Minamoto no Yoshitomo (Minamoto clan leader)"
       ],
       "sources": [
         {
-          "name": "Heike Monogatari (Tale of the Heike)",
+          "name": "H\u014dgen Monogatari (Tale of H\u014dgen)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Hogen Monogatari (Tale of the Hogen Rebellion)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Japanese medieval period",
-          "type": "historiographic_consensus",
+          "name": "Gukansho by Jien",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Hogen Rebellion of 1156 is well-documented in Japanese sources. The date and significance are not disputed.",
+      "certainty_note": "The rebellion is well-attested in Japanese chronicles compiled within a century of the event. The date is secure in the Japanese calendar (H\u014dgen 1, 1st month).",
       "cross_references": [
-        "Precedes the Heiji Rebellion (1159) and the Gempei War (1180\u20131185)"
+        "1160-001 (Heiji Rebellion, continuation of samurai ascendancy)"
       ]
     },
     {
       "id": "1156-002",
-      "title": "Henry II of England Campaigns in Normandy and Anjou",
-      "region": "Normandy, Anjou, France",
-      "coordinates_approx": "49.0, 0.0",
-      "category": "military",
-      "description": "Henry II continued to consolidate his control over his vast continental holdings in Normandy and Anjou. By 1156, he had secured his position in England and was actively managing his French territories, which were threatened by the growing power of the French king Louis VII. Henry's campaigns and diplomatic efforts in Normandy and Anjou were part of his broader strategy to maintain the Angevin Empire against French royal pressure.",
+      "title": "Death of Pope Adrian IV",
+      "region": "Papal States (Rome)",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Pope Adrian IV (born Nicholas Breakspear, the only English pope) died on 1 September 1156. His papacy (1154\u20131156) was marked by conflict with the Holy Roman Emperor Frederick Barbarossa over papal independence and territorial control in Italy. Adrian's death created a succession crisis and contributed to the broader power struggle between the Papacy and the Empire that would define the latter half of the 12th century. He was succeeded by Pope Alexander III, whose election was disputed by the Imperial antipope Victor IV.",
       "key_figures": [
-        "Henry II (King of England, Duke of Normandy)",
-        "Louis VII (King of France)"
+        "Pope Adrian IV (deceased)",
+        "Frederick Barbarossa (Holy Roman Emperor)",
+        "Pope Alexander III (successor)"
       ],
       "sources": [
         {
-          "name": "Roger of Howden, Chronicle",
+          "name": "Liber Pontificalis (Book of Popes)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Royal charters and administrative records",
+          "name": "Chronicles of Otto of Freising",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and fact of Adrian IV's death are well-documented in papal records and contemporary chronicles.",
+      "cross_references": [
+        "1159-001 (Papal schism under Alexander III)"
+      ]
+    },
+    {
+      "id": "1156-003",
+      "title": "Nur ad-Din Consolidates Control of Syria",
+      "region": "Syria and the Levant",
+      "coordinates_approx": "35.1264, 36.7372",
+      "category": "political",
+      "description": "Nur ad-Din Mahmud (Nureddin), the Zengid ruler of Syria, continued his consolidation of power over the fragmented Levantine territories. By 1156, he had secured control of Aleppo, Damascus, and much of Syria, creating a unified Islamic state that would serve as the base for the later Ayyubid dynasty under his prot\u00e9g\u00e9 Saladin. Nur ad-Din's reign was characterized by religious revival, military reorganization, and resistance to Crusader expansion. His administrative and military reforms became a model for subsequent Islamic dynasties.",
+      "key_figures": [
+        "Nur ad-Din Mahmud (Zengid ruler)",
+        "Saladin (young officer in Nur ad-Din's service)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Usama ibn Munqidh, Book of Contemplation",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Henry II's campaigns in Normandy and Anjou are attested in chronicles, though specific details of individual campaigns in 1156 are less detailed than major conflicts.",
+      "certainty_note": "Nur ad-Din's consolidation was a gradual process; 1156 marks a point of advanced consolidation rather than a single decisive event. Sources confirm his dominance by this date.",
       "cross_references": [
-        "Part of Henry II's broader consolidation of the Angevin Empire"
-      ]
-    },
-    {
-      "id": "1156-003",
-      "title": "Nur ad-Din's Consolidation of Zengid Power; Expansion of Islamic Education",
-      "region": "Syria, Mesopotamia, Levant",
-      "coordinates_approx": "35.5, 36.0",
-      "category": "political",
-      "description": "Nur ad-Din ibn Zengi continued to consolidate his power in Syria and Mesopotamia, and by 1156, he was actively promoting Islamic education and culture. He founded madrasas (Islamic schools) and supported scholars, contributing to a broader Islamic cultural revival. This period saw the development of a more organized Islamic military and administrative structure that would eventually enable Saladin to unify the Muslim Near East.",
-      "key_figures": [
-        "Nur ad-Din ibn Zengi (Zengid Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Zengid period",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Nur ad-Din's cultural and educational initiatives are well-attested in Islamic sources, though specific events of 1156 are less detailed than major military campaigns.",
-      "cross_references": [
-        "Part of Nur ad-Din's broader consolidation of power (1146\u20131174)"
-      ]
-    },
-    {
-      "id": "1156-004",
-      "title": "Song Dynasty Maritime Trade and Economic Development",
-      "region": "Southern Song China, South China Sea",
-      "coordinates_approx": "30.0, 115.0",
-      "category": "economic",
-      "description": "The Southern Song Dynasty continued to develop its maritime trade networks and economic infrastructure. By 1156, Song merchants were actively engaged in trade with Southeast Asia, India, and the Middle East. The Song Dynasty's focus on maritime commerce and naval power was a response to the loss of northern China to the Jin Dynasty and represented a shift in economic strategy toward sea-based trade rather than overland routes.",
-      "key_figures": [
-        "Song Dynasty emperors and officials"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from port cities",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Song Dynasty's maritime expansion is well-documented in Chinese sources, though specific events of 1156 are less detailed than broader trends.",
-      "cross_references": [
-        "Part of the Song Dynasty's economic and technological development (960\u20131279)"
+        "1174-001 (Saladin's rise after Nur ad-Din's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Hogen Rebellion is sometimes presented as a decisive turning point in Japanese history, but modern scholarship suggests it was one of several conflicts that gradually shifted power from the aristocracy to the warrior class. The significance of the rebellion is sometimes overstated; the Taira clan's dominance was not inevitable and was challenged by the Minamoto clan in subsequent conflicts. Henry II's campaigns in Normandy and Anjou are sometimes presented as uniformly successful, but he faced significant challenges from French royal pressure and internal conflicts.",
-  "historiographic_note": "The year 1156 is well-documented in Japanese sources (the Heike Monogatari and related chronicles) and moderately well-documented in Western European sources (English and Norman chronicles). Chinese sources provide information on Song Dynasty economic development. The surviving record emphasizes political and military events; economic, cultural, and technological developments are underrepresented except in Japanese and Chinese sources.",
+  "disconfirming_evidence": "The H\u014dgen Rebellion is sometimes portrayed as an abrupt military takeover, but recent scholarship emphasizes that the transition from court to military rule was gradual; the Taira clan itself maintained court connections and did not immediately establish a full military government. The rebellion was significant but not as revolutionary as traditional narratives suggest. Additionally, Pope Adrian IV's death was not immediately followed by a clear succession; the disputed papal election of 1159 was the real crisis point, not 1156 itself.",
+  "historiographic_note": "Documentation for 1156 is uneven. Japanese sources are rich and relatively contemporary (chronicles compiled within 100 years). European sources are abundant but often court-centric and biased toward papal and imperial perspectives. Islamic sources on Nur ad-Din are later compilations (13th century), introducing potential distortion. Sub-Saharan Africa, the Americas, and much of Central Asia have no surviving written records for this year.",
   "graph_edges": [
     {
       "from": "1156-001",
-      "to": "1159-HEIJI_REBELLION",
+      "to": "1160-001",
       "relation": "led_to",
-      "note": "The Hogen Rebellion's outcome set the stage for the Heiji Rebellion"
-    },
-    {
-      "from": "1156-001",
-      "to": "1180-GEMPEI_WAR_START",
-      "relation": "part_of",
-      "note": "The Hogen Rebellion was part of the broader conflict between Taira and Minamoto clans"
+      "note": "H\u014dgen Rebellion established Taira dominance; Heiji Rebellion (1160) continued the samurai power struggle"
     },
     {
       "from": "1156-002",
-      "to": "1202-ANGEVIN_EMPIRE_DECLINE",
-      "relation": "part_of",
-      "note": "Henry II's consolidation in 1156 was part of the broader Angevin period"
+      "to": "1159-001",
+      "relation": "led_to",
+      "note": "Adrian IV's death triggered the disputed succession that led to the papal schism of 1159"
     },
     {
       "from": "1156-003",
-      "to": "1174-NUR_AD_DIN_DEATH",
-      "relation": "part_of",
-      "note": "Nur ad-Din's consolidation in 1156 was part of his broader reign"
+      "to": "1174-001",
+      "relation": "led_to",
+      "note": "Nur ad-Din's consolidation of Syria created the power base from which Saladin would emerge"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:18:05.865598",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

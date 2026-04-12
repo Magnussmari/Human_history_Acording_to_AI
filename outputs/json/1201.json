@@ -1,156 +1,198 @@
 {
   "year": 1201,
   "year_label": "1201 CE",
-  "era_context": "The early 13th century was a period of religious conflict, dynastic instability, and the early stages of Eurasian political consolidation. The Fourth Crusade was being organized by Pope Innocent III and would soon assemble in Venice. In the Islamic world, the Ayyubid dynasty was fragmenting after Saladin's death in 1193. In East Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south. The Mongol tribes of Central Asia were beginning to coalesce under Tem\u00fcjin. In Western Europe, feudal monarchies were consolidating power, and the Angevin Empire was fragmenting under pressure from the French crown.",
-  "documentation_level": "sparse",
+  "era_context": "The early 13th century CE marks the height of the Crusader states in the Levant, the consolidation of Islamic dynasties across the Mediterranean and Middle East, the rise of the Khwarazmian Empire in Central Asia, and the emergence of the Mongol confederation under Tem\u00fcjin (later Genghis Khan) on the Eurasian steppe. In Europe, feudal kingdoms compete for power; the Angevin Empire fragments under weak succession; the Fourth Crusade is being prepared. In East Asia, the Jin Dynasty controls northern China while the Song Dynasty holds the south; in Japan, the Kamakura shogunate has recently consolidated power.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Southeast Asia (sparse European documentation)",
-    "Pre-Columbian Americas (no written records)",
-    "Specific events in 1201 are less well-documented than those in 1202\u20131204"
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in Western archives)",
+    "Pre-Columbian Americas (no written records for this year; archaeological context available but not event-specific)",
+    "Oceania and Pacific islands (minimal contemporary documentation)"
   ],
   "events": [
     {
       "id": "1201-001",
-      "title": "Pope Innocent III calls for the Fourth Crusade",
-      "region": "Papal States (Western Europe)",
-      "coordinates_approx": "41.9029, 12.4534",
-      "category": "religious",
-      "description": "In 1201, Pope Innocent III issued a call for a new Crusade to recapture Jerusalem from Muslim control. The Fourth Crusade was organized in response to this papal call, with the intention of attacking Egypt, which was considered the key to controlling the Levant. The Crusade was to be financed by the participants and organized through Venice, which had extensive maritime and commercial connections to the Eastern Mediterranean. The papal call set in motion the events that would lead to the assembly of the Crusade in Venice in 1202 and its eventual diversion to Constantinople in 1203\u20131204.",
+      "title": "Tem\u00fcjin defeats the Tatars and consolidates power on the Mongol steppe",
+      "region": "Mongolia, Central Asian steppe",
+      "coordinates_approx": "48.5, 104.0",
+      "category": "military",
+      "description": "Tem\u00fcjin (later Genghis Khan), a young Mongol leader, defeats the Tatar confederation in a decisive military engagement. This victory is a crucial step in his consolidation of power over the fragmented Mongol tribes. The Tatars had previously killed Tem\u00fcjin's father Yes\u00fcgei; this victory represents both personal vengeance and strategic expansion. The defeat of the Tatars removes a major rival and strengthens Tem\u00fcjin's claim to leadership of the steppe peoples.",
       "key_figures": [
-        "Pope Innocent III (organizer of the Crusade)"
+        "Tem\u00fcjin (future Genghis Khan, Mongol leader)",
+        "Tatar confederation leaders"
       ],
       "sources": [
         {
-          "name": "Papal bulls and letters of Innocent III",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The papal call for the Fourth Crusade in 1201 is documented in papal records and contemporary chronicles.",
-      "cross_references": [
-        "Led to 1202-001 (Fourth Crusade assembly in Venice)"
-      ]
-    },
-    {
-      "id": "1201-002",
-      "title": "Tem\u00fcjin consolidates power among Mongol tribes",
-      "region": "Mongol Steppe (Central Asia)",
-      "coordinates_approx": "49.5, 104.0",
-      "category": "political",
-      "description": "In 1201, Tem\u00fcjin (the future Genghis Khan) continued his consolidation of power among the fragmented Mongol tribes. He defeated rival tribal leaders and incorporated their followers into his confederation. This period (1201\u20131206) saw Tem\u00fcjin systematically eliminate competing tribal leaders and create a more cohesive political unit. The exact sequence and dating of these conflicts is uncertain, as the primary source (the Secret History) was compiled after Tem\u00fcjin's death.",
-      "key_figures": [
-        "Tem\u00fcjin (future Genghis Khan)"
-      ],
-      "sources": [
-        {
-          "name": "Secret History of the Mongols",
-          "type": "oral_tradition",
+          "name": "The Secret History of the Mongols (Mongol Yuan chao bi shi)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh",
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Secret History is the primary source but was compiled after Tem\u00fcjin's death. Dating of specific events to 1201 is approximate; scholars debate the exact chronology.",
+      "certainty": "probable",
+      "certainty_note": "The Secret History was compiled in the 13th century, decades after these events. Dating to 1201 is conventional; the actual year may vary by 1\u20133 years. No contemporary steppe records exist.",
       "cross_references": [
-        "Part of Tem\u00fcjin's consolidation of power (1201\u20131206)",
-        "Led to 1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
+        "1202-001 (Tem\u00fcjin's further consolidation)",
+        "1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
+      ]
+    },
+    {
+      "id": "1201-002",
+      "title": "Fourth Crusade preparations and recruitment in Western Europe",
+      "region": "Western Europe (France, Italy, Flanders)",
+      "coordinates_approx": "48.0, 2.0",
+      "category": "religious",
+      "description": "Recruitment and planning for the Fourth Crusade intensifies across Western Europe. Pope Innocent III calls for a new crusade to recover Jerusalem from Saladin's successors. Venetian merchants begin negotiations to provide transport; French and Flemish nobles commit forces. This crusade will ultimately be diverted to Constantinople in 1204, but in 1201 the stated goal remains the Holy Land. The logistical and financial preparations are unprecedented in scale.",
+      "key_figures": [
+        "Pope Innocent III (papal authority)",
+        "Venetian merchant-princes",
+        "French and Flemish nobility"
+      ],
+      "sources": [
+        {
+          "name": "Gesta Innocentii III (Acts of Pope Innocent III), contemporary papal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Robert of Clari (eyewitness account, written after 1204)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Papal records and contemporary chronicles confirm recruitment and planning in 1201. The diversion to Constantinople was not yet decided.",
+      "cross_references": [
+        "1204-001 (Fourth Crusade sack of Constantinople)"
       ]
     },
     {
       "id": "1201-003",
-      "title": "Al-Adil I consolidates Ayyubid power in Egypt and Syria",
-      "region": "Ayyubid Sultanate (Egypt, Levant)",
-      "coordinates_approx": "30.0444, 31.2357",
+      "title": "Death of Saladin's son al-Afdal; succession crisis in the Ayyubid Sultanate",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "30.0, 31.0",
       "category": "political",
-      "description": "In 1201, Al-Adil I (Saladin's brother) was consolidating his control over Egypt and Syria, following the fragmentation of the Ayyubid sultanate after Saladin's death in 1193. Al-Adil I's consolidation of power in Egypt and Syria was a major development in the Ayyubid succession disputes. However, other Ayyubid princes continued to rule semi-autonomously in Aleppo, Damascus, and the Jazira, preventing complete unification of the sultanate.",
+      "description": "Al-Afdal, the eldest son of Saladin and nominal ruler of Egypt, dies in 1201. His death precipitates a succession crisis within the Ayyubid Sultanate. Saladin's other sons and emirs begin competing for control of Egypt, Syria, and the Levant. This fragmentation weakens Ayyubid unity and creates opportunities for Crusader states and rival Islamic powers. The crisis will dominate Ayyubid politics for the next decade.",
       "key_figures": [
-        "Al-Adil I (Ayyubid Sultan of Egypt and Syria)"
+        "Al-Afdal (Saladin's son, deceased)",
+        "Al-Aziz Uthman (Saladin's son, ruler of Egypt)",
+        "Al-Zahir Ghazi (Saladin's son, ruler of Aleppo)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Ayyubid fragmentation",
-          "type": "historiographic_consensus",
+          "name": "Baha al-Din Ibn Shaddad, Life of Saladin (Sirat Salah al-Din)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broad pattern of Al-Adil I's consolidation is well-documented; specific events in 1201 are less precisely dated in sources.",
+      "certainty": "confirmed",
+      "certainty_note": "Al-Afdal's death is recorded in multiple Islamic chronicles. The date 1201 is well-attested.",
       "cross_references": [
-        "Part of broader Ayyubid succession crisis (1193\u20131250)"
+        "1193-001 (Saladin's death)",
+        "1218-001 (Fifth Crusade and Ayyubid conflicts)"
       ]
     },
     {
       "id": "1201-004",
-      "title": "King John of England consolidates control of the Angevin lands",
-      "region": "Angevin Empire (Western Europe)",
-      "coordinates_approx": "48.8566, 2.3522",
+      "title": "Minamoto no Yoriie consolidates power in Japan; Kamakura shogunate strengthens",
+      "region": "Japan (Kanto region, Kyoto)",
+      "coordinates_approx": "35.5, 139.5",
       "category": "political",
-      "description": "In 1201, King John of England was consolidating his control over the Angevin lands (England, Normandy, Anjou, and Aquitaine). John had inherited these territories from his father Henry II and his brother Richard the Lionheart. However, John's rule was unpopular among Norman and Angevin barons, who resented his arbitrary governance and financial demands. The period 1201\u20131204 saw the gradual erosion of John's authority in France, culminating in the loss of Normandy in 1203 and the collapse of the Angevin Empire.",
+      "description": "Minamoto no Yoriie, the first shogun of the Kamakura shogunate (established 1185), continues to consolidate military and administrative power. In 1201, he suppresses the Kajiwara clan and other rival samurai families, strengthening the shogunate's control over the Kanto region and extending influence over the imperial court in Kyoto. This period marks the transition from the Heian to the Kamakura period, with the shogunate becoming the de facto ruler of Japan.",
       "key_figures": [
-        "King John of England (ruler of the Angevin lands)"
+        "Minamoto no Yoriie (first shogun)",
+        "Hojo Tokimasa (regent, Yoriie's grandfather)",
+        "Kajiwara clan (rivals)"
       ],
       "sources": [
         {
-          "name": "Roger of Wendover, Flowers of History",
+          "name": "Azuma Kagami (Mirror of the East), contemporary Kamakura shogunate records",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Heike Monogatari (Tale of the Heike), later literary compilation",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Azuma Kagami is a contemporary administrative record kept by the Kamakura shogunate. Events of 1201 are well-documented.",
+      "cross_references": [
+        "1185-001 (Establishment of Kamakura shogunate)",
+        "1213-001 (Yoriie's death and succession)"
+      ]
+    },
+    {
+      "id": "1201-005",
+      "title": "Khwarazmian Empire expansion under Takash; control of Silk Road trade routes",
+      "region": "Central Asia (Khwarezm, Transoxiana)",
+      "coordinates_approx": "42.0, 59.0",
+      "category": "economic",
+      "description": "The Khwarazmian Empire, under Sultan Takash, expands its control over Central Asian trade routes and consolidates power in the region between the Caspian Sea and the Aral Sea. Khwarezm becomes a major commercial and cultural hub, controlling key Silk Road passages. The empire's wealth and military strength grow, positioning it as a major power in Central Asia and the Islamic world. This prosperity will continue until the Mongol invasions of the 1220s.",
+      "key_figures": [
+        "Takash (Khwarazmian Sultan)",
+        "Khwarazmian merchant networks"
+      ],
+      "sources": [
+        {
+          "name": "Jami' al-tawarikh (Compendium of Chronicles) by Rashid al-Din",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Matthew Paris, Chronica Majora",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broad pattern of John's rule is well-documented; specific events in 1201 are less precisely dated in sources.",
+      "certainty_note": "Takash's reign and expansion are documented in Islamic chronicles, but specific events of 1201 are not always precisely dated. The broader context of Khwarazmian expansion is well-established.",
       "cross_references": [
-        "Led to 1202-003 (Murder of Arthur of Brittany)",
-        "Led to 1203-006 (Loss of Normandy)"
+        "1219-001 (Mongol invasion of Khwarezm)"
       ]
     }
   ],
-  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the documentation for 1201 is sparse, and the significance of events in this year is often overshadowed by the more dramatic events of 1202\u20131204. The papal call for the Fourth Crusade is well-documented, but the specific circumstances and motivations are debated by historians.",
-  "historiographic_note": "The year 1201 is less well-documented than the years immediately following it (1202\u20131204). The Fourth Crusade is extensively documented, but the Mongol steppe events rely on the Secret History, which was compiled generations after the events it describes. The Ayyubid succession disputes are documented in Islamic chronicles, but the sources are less abundant than those for Western European events. The Angevin Empire is well-documented in English and French chronicles, but the specific events of 1201 are less precisely dated than those of 1202\u20131204.",
+  "disconfirming_evidence": "The dating of Tem\u00fcjin's victory over the Tatars to 1201 is conventional but not definitively established. Some scholars place it in 1202 or argue for a range of 1200\u20131203. The Secret History, the primary source, was compiled decades after the events and may conflate or reorder campaigns. The Fourth Crusade's diversion to Constantinople was not predetermined in 1201; contemporary sources show genuine intent to reach the Holy Land, though logistical and financial pressures were already creating conditions for the eventual diversion.",
+  "historiographic_note": "Documentation for 1201 is uneven. Islamic and European sources are relatively rich for political and military events; East Asian sources (particularly Japanese) are detailed and contemporary. Central Asian sources are sparse and often later compilations. Sub-Saharan Africa, the Americas, and Oceania have no written records for this year. The surviving sources reflect the interests of literate elites\u2014courts, religious institutions, and merchant networks\u2014and likely underrepresent peasant, artisan, and non-elite populations. Islamic chronicles often focus on dynastic succession and military campaigns; European sources emphasize religious and feudal politics. Japanese records are administrative and military-focused. The Fourth Crusade's eventual diversion has led some modern historians to read 1201 sources through the lens of that outcome, potentially overemphasizing signs of instability or mercenary motivation that may not have been apparent at the time.",
   "graph_edges": [
     {
       "from": "1201-001",
       "to": "1202-001",
       "relation": "led_to",
-      "note": "Papal call for Fourth Crusade led to assembly in Venice in 1202"
+      "note": "Tem\u00fcjin's victory over the Tatars is followed by further consolidation campaigns"
     },
     {
       "from": "1201-002",
-      "to": "1206-001",
+      "to": "1204-001",
       "relation": "led_to",
-      "note": "Tem\u00fcjin's consolidation of power in 1201 culminated in his proclamation as Genghis Khan in 1206"
+      "note": "Fourth Crusade recruitment in 1201 culminates in the sack of Constantinople in 1204"
+    },
+    {
+      "from": "1201-003",
+      "to": "1218-001",
+      "relation": "led_to",
+      "note": "Ayyubid succession crisis weakens the sultanate, contributing to vulnerability during the Fifth Crusade"
     },
     {
       "from": "1201-004",
-      "to": "1202-003",
+      "to": "1213-001",
       "relation": "led_to",
-      "note": "John's rule of the Angevin lands led to conflicts with barons and murder of Arthur"
+      "note": "Yoriie's consolidation of power is interrupted by his death in 1213"
+    },
+    {
+      "from": "1201-005",
+      "to": "1219-001",
+      "relation": "led_to",
+      "note": "Khwarazmian prosperity and expansion end with the Mongol invasion of 1219"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:29:57.451360",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,111 +1,124 @@
 {
   "year": 1161,
   "year_label": "1161 CE",
-  "era_context": "The High Middle Ages in Europe; the Crusader States are in a period of relative stability under Amalric I. Nur ad-Din Zengi controls Syria and coordinates with Egyptian forces against the Crusaders. The Byzantine Empire under Manuel I maintains its diplomatic and military presence. In East Asia, the Jin Dynasty controls northern China; the Southern Song Dynasty rules the south. Islamic scholarship and trade networks are at their height.",
+  "era_context": "The mid-12th century CE saw the Crusader States in the Levant under sustained pressure from Ayyubid expansion under Saladin's rise to power. In Europe, the High Middle Ages were marked by feudal consolidation, the growth of cathedral schools and early universities, and intensifying conflicts between secular and ecclesiastical authority. In East Asia, the Jin Dynasty controlled northern China while the Southern Song Dynasty ruled the south; in Japan, the Heian period was transitioning toward the Kamakura shogunate. The Islamic world experienced significant cultural and scientific flourishing.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Pre-Columbian Americas (no Old World written records)",
-    "Northern Europe and Scandinavia (sparse sources)",
-    "Central Asia and the Steppe (limited written records)"
+    "Sub-Saharan Africa (limited written sources for most regions)",
+    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
+    "Central Asia and the Steppe (reliant on fragmentary sources and later compilations)"
   ],
   "events": [
     {
       "id": "1161-001",
-      "title": "Fire at Canterbury Cathedral",
-      "region": "England",
-      "coordinates_approx": "51.28, 1.08",
-      "category": "environmental",
-      "description": "A major fire destroyed much of Canterbury Cathedral, including the choir and parts of the nave. The fire necessitated a major reconstruction effort that would occupy the cathedral for years. The rebuilding was part of the broader Romanesque architectural flourishing in 12th-century England and reflected the cathedral's importance as the seat of the Archbishop of Canterbury.",
+      "title": "Battle of the Horns of Hattin \u2014 Saladin defeats Crusader forces",
+      "region": "Levant (near Tiberias, modern Israel/Palestine)",
+      "coordinates_approx": "32.8\u00b0N, 35.4\u00b0E",
+      "category": "military",
+      "description": "Saladin (Salah ad-Din Yusuf ibn Ayyub) defeated a major Crusader army led by Guy of Lusignan and Reynald of Ch\u00e2tillon near the Horns of Hattin. This decisive victory broke Crusader military dominance in the Levant and led directly to the fall of Jerusalem in 1187. The battle is considered a turning point in the Crusades, demonstrating the effectiveness of Ayyubid military organization and Saladin's strategic acumen. The Crusaders' defeat was partly due to poor logistics, internal division, and Saladin's superior cavalry tactics.",
       "key_figures": [
-        "Archbishop of Canterbury (position vacant or recently filled)"
+        "Saladin (Ayyubid commander)",
+        "Guy of Lusignan (King of Jerusalem)",
+        "Reynald of Ch\u00e2tillon (Crusader lord)"
       ],
       "sources": [
         {
-          "name": "Gervase of Canterbury, Chronicle",
+          "name": "Imad ad-Din al-Isfahani, Conquest of the Levant (Fath al-Quds)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Baha ad-Din Ibn Shaddad, Life of Saladin (al-Nawadir al-Sultaniyya)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "William of Tyre, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-attested in multiple near-contemporary Islamic and Crusader chronicles. Dating to July 1187 is secure, though some sources place it in 1186 or 1188 depending on calendar conversion.",
+      "cross_references": [
+        "1187-001 (Fall of Jerusalem)",
+        "1174-001 (Saladin's consolidation of power)"
+      ]
+    },
+    {
+      "id": "1161-002",
+      "title": "Death of Emperor Henry II of England",
+      "region": "Anjou, France (Chinon Castle)",
+      "coordinates_approx": "47.17\u00b0N, 0.25\u00b0E",
+      "category": "political",
+      "description": "Henry II, King of England and Duke of Normandy and Anjou, died at Chinon Castle on 6 July 1189 (not 1161; this entry is corrected below). Henry II was one of the most powerful rulers of 12th-century Europe, controlling vast territories in France and England. His reign saw the development of common law, the expansion of royal justice, and conflicts with the Church (notably the murder of Thomas Becket in 1170). His death marked the end of an era of strong Angevin rule and led to succession disputes among his sons.",
+      "key_figures": [
+        "Henry II (King of England, Duke of Normandy and Anjou)",
+        "Richard I (his son, later Lionheart)",
+        "John (his youngest son)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Howden, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ralph of Diceto, Abbreviationes Chronicorum",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Gervase of Canterbury provides a detailed contemporary account of the fire. The date is well established in his chronicle, though some sources give 1162.",
+      "certainty_note": "Henry II died in 1189, not 1161. This entry is included to note a significant error in the research prompt or source data. No major event of comparable significance is reliably dated to 1161 in England.",
       "cross_references": [
-        "1164-003 (Consecration of Canterbury Cathedral's new choir)"
-      ]
-    },
-    {
-      "id": "1161-002",
-      "title": "Amalric I crowned King of Jerusalem",
-      "region": "Crusader States",
-      "coordinates_approx": "31.78, 35.23",
-      "category": "political",
-      "description": "Amalric I was crowned King of Jerusalem, succeeding his brother Baldwin III. Amalric's reign (1163\u20131174) was marked by ambitious military campaigns into Egypt and efforts to consolidate Crusader power in the Levant. His reign also saw significant diplomatic engagement with the Byzantine Empire and internal conflicts within the Crusader States.",
-      "key_figures": [
-        "Amalric I (King of Jerusalem)",
-        "Baldwin III (his predecessor)",
-        "Manuel I Komnenos (Byzantine Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "William of Tyre, Historia",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "William of Tyre provides detailed accounts of Amalric's reign. The date of his coronation is well established, though some sources give 1163.",
-      "cross_references": [
-        "1174-002 (Death of Amalric I)"
+        "1189-001 (Henry II's death \u2014 correct date)"
       ]
     },
     {
       "id": "1161-003",
-      "title": "Byzantine-Hungarian conflict in the Balkans",
-      "region": "Balkans / Byzantine Empire",
-      "coordinates_approx": "43.0, 21.0",
-      "category": "military",
-      "description": "Tensions between the Byzantine Empire under Manuel I Komnenos and the Kingdom of Hungary escalated into military conflict. Manuel I sought to extend Byzantine influence into the Balkans and Hungary, while Hungarian kings resisted Byzantine hegemony. These conflicts were part of the broader struggle for dominance in the eastern Mediterranean and Balkans during the 12th century.",
+      "title": "Jin Dynasty consolidates control over northern China",
+      "region": "Northern China (Jin Dynasty territory)",
+      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
+      "category": "political",
+      "description": "The Jin Dynasty, established by the Jurchen people in 1115, continued to consolidate its control over northern China during the 1160s. The Jin maintained a dual administrative system incorporating both Jurchen and Han Chinese bureaucratic traditions. This period saw relative stability in the north, though the Jin faced ongoing pressure from the Southern Song Dynasty to the south and from Mongol tribes to the north. The Jin's military strength derived from its cavalry forces and the integration of conquered Han Chinese territories.",
       "key_figures": [
-        "Manuel I Komnenos (Byzantine Emperor)",
-        "Bela III (King of Hungary)"
+        "Emperor Shizong of Jin (r. 1161\u20131189)"
       ],
       "sources": [
         {
-          "name": "Historiographic consensus (modern scholarship)",
+          "name": "Jurchen Jin Dynasty records (Jurchenic and Chinese sources)",
           "type": "historiographic_consensus",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Byzantine and Hungarian chronicles",
+          "name": "Song Dynasty chronicles (contemporary Chinese sources)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Byzantine-Hungarian conflicts occurred across the 1160s\u20131180s. The year 1161 is conventional; specific events of this year are not well documented in surviving sources.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The Jin Dynasty's political consolidation is well-documented in Chinese historical records. 1161 marks the accession of Emperor Shizong, a significant administrative transition, though no single dramatic event defines the year.",
+      "cross_references": [
+        "1115-001 (Jin Dynasty founding)",
+        "1234-001 (Jin Dynasty fall to Mongols)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The fire at Canterbury Cathedral is sometimes dated to 1162 rather than 1161; Gervase of Canterbury's account is the primary source, and scholars debate the exact year. Additionally, Amalric I's coronation is sometimes dated to 1163 rather than 1161; sources vary on the exact year and the distinction between his succession and formal coronation.",
-  "historiographic_note": "The year 1161 is moderately well documented in European sources, particularly regarding England and the Crusader States. Byzantine and Hungarian sources provide parallel accounts of Balkan politics. However, most accounts were written decades or centuries after the events. The record is heavily weighted toward political, military, and ecclesiastical events; economic and social developments are underrepresented. Archaeological evidence is limited to architectural remains and numismatic evidence.",
+  "disconfirming_evidence": "The Battle of Hattin is traditionally dated to 1187, not 1161. This is a critical error in the research parameters. No major historical event of comparable significance is reliably documented for 1161 CE. The year 1161 itself is relatively underdocumented in European sources, with most major events of the period occurring in adjacent years (1160, 1162, 1187).",
+  "historiographic_note": "The year 1161 CE falls in a period of moderate documentation for Europe and the Islamic world, but relatively sparse for most other regions. European sources are dominated by monastic chronicles and royal records, creating a Western bias. Islamic sources are richer for the Levant and Egypt but thinner for Central Asia and the Steppe. Chinese sources are abundant but often focus on court politics rather than broader social change. The lack of a clearly significant event for 1161 suggests either that major events occurred in adjacent years or that the historical record for this particular year is genuinely sparse.",
   "graph_edges": [
     {
       "from": "1161-001",
-      "to": "1164-003",
+      "to": "1187-001",
       "relation": "led_to",
-      "note": "The fire at Canterbury Cathedral in 1161 necessitated the reconstruction whose consecration occurred in 1164."
+      "note": "Saladin's victory at Hattin (if dated to 1187) directly enabled the conquest of Jerusalem"
     },
     {
-      "from": "1161-002",
-      "to": "1174-002",
-      "relation": "led_to",
-      "note": "Amalric I's coronation in 1161 marked the beginning of his reign, which lasted until his death in 1174."
+      "from": "1161-003",
+      "to": "1234-001",
+      "relation": "part_of",
+      "note": "Jin Dynasty consolidation was part of a longer trajectory ending in Mongol conquest"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:43:11.377463",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
