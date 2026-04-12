@@ -1,0 +1,89 @@
+{
+  "year": -1619,
+  "year_label": "1620 BCE",
+  "era_context": "The Middle Bronze Age in the Eastern Mediterranean and Near East. The Hyksos dominate Egypt's Second Intermediate Period; Mycenaean Greece is in the early shaft-grave period; the Hittite Old Kingdom is consolidating power in Anatolia; Babylon under Hammurabi's successors is in decline; the Shang dynasty is established in China. This is an era of palace-based economies, chariot warfare emerging, and long-distance trade networks linking Egypt, the Levant, Anatolia, and the Aegean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Central Asia and the steppes (sparse written sources; primarily archaeological)",
+    "Mesoamerica (no written records; archaeological evidence limited)",
+    "South Asia (Indus Valley Civilization in decline; limited textual sources)"
+  ],
+  "events": [
+    {
+      "id": "-1619-001",
+      "title": "Hyksos consolidation of control over Lower Egypt",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "The Hyksos, a Levantine dynasty, maintain firm control over the Nile Delta and Lower Egypt during the Second Intermediate Period. Archaeological evidence shows continued settlement at Avaris (Tell el-Dab'a) and administrative structures typical of the 15th Dynasty. The Hyksos introduced horse-drawn chariots and new military technologies to Egypt, fundamentally altering warfare. Their rule was later portrayed negatively by New Kingdom Egyptian sources, but they facilitated trade networks and cultural exchange across the Eastern Mediterranean.",
+      "key_figures": [
+        "Hyksos rulers of the 15th Dynasty (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "New Kingdom Egyptian temple inscriptions and king lists",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hyksos period is well-attested archaeologically at Avaris, but precise year-by-year chronology for the 15th Dynasty remains debated. Radiocarbon dating and stratigraphic evidence place this era around 1650\u20131550 BCE, but individual regnal years are uncertain.",
+      "cross_references": [
+        "Relates to -1550-001 (Ahmose I expulsion of Hyksos)"
+      ]
+    },
+    {
+      "id": "-1619-002",
+      "title": "Hittite Old Kingdom expansion under Hantili I or successor",
+      "region": "Anatolia (Hittite heartland)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "The Hittite Old Kingdom continues consolidation of power in central Anatolia. This period saw the establishment of Hattusa as the capital and the development of the cuneiform administrative system. The Hittites were expanding their influence over neighboring Anatolian kingdoms and beginning to contest control of northern Syria with other powers. Hittite military organization and legal codes (later codified in the Hittite Laws) were being refined during this era.",
+      "key_figures": [
+        "Hantili I (if still reigning) or his successor"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Hittite Laws (KBo VI 26)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa (Bo\u011fazk\u00f6y)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for the Old Kingdom is debated; dates range across a 150-year window. This year is assigned by convention within the broader Old Kingdom period (c. 1650\u20131450 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Hyksos period and the Second Intermediate Period remains contentious. Some scholars argue for a 'high chronology' placing the Hyksos expulsion around 1550 BCE; others favor a 'low chronology' around 1480 BCE. This affects the precise placement of events in this year. Additionally, the negative portrayal of the Hyksos in New Kingdom sources may reflect political bias rather than historical reality; modern scholarship increasingly views them as facilitators of cultural and technological exchange rather than destructive invaders.",
+  "historiographic_note": "Documentation for 1620 BCE is heavily dependent on archaeological evidence and later compilations. Contemporary written sources are sparse. Egyptian sources are biased toward the New Kingdom perspective, which denigrated the Hyksos. Hittite sources are more abundant but still fragmentary for this specific period. The chronology of the Middle Bronze Age remains one of the most contested areas in ancient Near Eastern studies, with competing 'high,' 'middle,' and 'low' chronologies differing by up to 150 years. Sub-Saharan Africa, the Americas, and much of Central Asia have no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-1619-001",
+      "to": "-1550-001",
+      "relation": "led_to",
+      "note": "Hyksos control of Egypt eventually provoked the New Kingdom reaction under Ahmose I"
+    },
+    {
+      "from": "-1619-002",
+      "to": "-1450-001",
+      "relation": "part_of",
+      "note": "Hittite Old Kingdom expansion continued through the Middle Bronze Age"
+    }
+  ]
+}
