@@ -1,0 +1,81 @@
+{
+  "year": 444,
+  "year_label": "444 BCE",
+  "era_context": "Classical Greece in the immediate aftermath of the Thirty Years' Peace. Athens continues its cultural and political ascendancy under Pericles. The Achaemenid Persian Empire remains stable under Artaxerxes I. This is a period of relative stability in the Mediterranean, though underlying tensions persist.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent (limited Greek awareness)"
+  ],
+  "events": [
+    {
+      "id": "444-001",
+      "title": "Thurii colony formally established",
+      "region": "Magna Graecia (southern Italy)",
+      "coordinates_approx": "40.28, 17.25",
+      "category": "exploration",
+      "description": "The Panhellenic colony of Thurii was formally established and organized, following the initial settlement in 445 BCE. The city was laid out according to a grid plan (attributed to Hippodamus of Miletus) and received settlers from multiple Greek cities. The colony represented a major Athenian initiative to extend Greek influence westward and served as a cultural and commercial hub in Magna Graecia.",
+      "key_figures": [
+        "Hippodamus of Miletus (urban planner)",
+        "Pericles (patron)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Library of History 12.10\u201311",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Thurii excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The founding and organization of Thurii occurred over several years (445\u2013443 BCE). The date 444 BCE is assigned by convention as the year of formal establishment, but sources vary on the precise chronology.",
+      "cross_references": [
+        "Related to 445-003"
+      ]
+    },
+    {
+      "id": "444-002",
+      "title": "Ostracism of Thucydides son of Melesias",
+      "region": "Athens, Classical Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Thucydides son of Melesias, a prominent conservative politician and rival of Pericles, was ostracized from Athens. This removal of a major political opponent consolidated Pericles' dominance and eliminated the last significant internal challenge to his leadership. The ostracism reflected the factional struggles within Athenian democracy and Pericles' ability to mobilize the assembly against his rivals.",
+      "key_figures": [
+        "Thucydides son of Melesias (ostracized politician)",
+        "Pericles (beneficiary)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles 11",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians 28.2",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ostracism of Thucydides is well-attested, but the precise date is debated among scholars. Some sources suggest 443 BCE, others 444 BCE. The date is not firmly fixed in contemporary records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thucydides' ostracism is uncertain. While traditionally placed in 444 BCE, some modern scholars argue for 443 BCE. The sources do not provide a definitive date, and the ostracism may have occurred over a period of years. The significance of this event is also debated\u2014some scholars view it as a major turning point in Athenian politics, while others see it as a relatively minor factional dispute.",
+  "historiographic_note": "The historical record for 444 BCE is sparse. Most events of this year are either continuations of earlier developments (Thurii) or political events known only through later biographical sources. Contemporary inscriptions are rare. The sources are heavily dependent on Plutarch and Aristotle, both writing centuries after the events. There is a significant risk of anachronism and projection of later political categories onto earlier events. The record is almost entirely Athenian-centric.",
+  "graph_edges": [
+    {
+      "from": "444-002",
+      "to": "445-001",
+      "relation": "contemporary_with",
+      "note": "Thucydides' ostracism occurred in the same period as Pericles' citizenship law, both reflecting Pericles' consolidation of power."
+    }
+  ]
+}

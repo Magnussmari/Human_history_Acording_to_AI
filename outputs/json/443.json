@@ -1,0 +1,82 @@
+{
+  "year": 443,
+  "year_label": "443 BCE",
+  "era_context": "Classical Greece at the height of Athenian power and cultural achievement under Pericles. The Thirty Years' Peace is holding, though underlying tensions persist. This is the era of the Parthenon's construction and the flourishing of Athenian drama, philosophy, and rhetoric. The Persian Empire remains stable under Artaxerxes I.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "443-001",
+      "title": "Ostracism of Thucydides son of Melesias (alternative dating)",
+      "region": "Athens, Classical Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Thucydides son of Melesias, the last significant political rival to Pericles, was ostracized from Athens. This event is sometimes dated to 443 BCE rather than 444 BCE. The ostracism removed the primary conservative opposition to Pericles' policies and his ambitious building program, particularly the Parthenon project. After this date, Pericles faced no serious internal political challenge.",
+      "key_figures": [
+        "Thucydides son of Melesias (ostracized)",
+        "Pericles (dominant politician)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles 11",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians 28.2",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The ostracism is confirmed, but the date is uncertain. Ancient sources do not provide a precise year; modern scholars debate whether it occurred in 444 or 443 BCE. The date 443 BCE is one scholarly convention.",
+      "cross_references": [
+        "Related to 444-002"
+      ]
+    },
+    {
+      "id": "443-002",
+      "title": "Parthenon construction in progress",
+      "region": "Athens, Classical Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "The Parthenon, the great temple to Athena on the Acropolis, was under active construction. Work began around 447 BCE and continued through the 430s BCE. By 443 BCE, the building was in its middle stages of construction. The project was sponsored by Pericles and represented the height of Classical Greek architectural and sculptural achievement. The Parthenon became the symbol of Athenian power and cultural superiority.",
+      "key_figures": [
+        "Pericles (patron)",
+        "Phidias (sculptor, overseer of artistic program)",
+        "Iktinos and Kallikrates (architects)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles 12\u201313",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The construction timeline of the Parthenon is well-established through archaeological evidence and ancient sources. The building was under construction during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thucydides' ostracism remains uncertain; some scholars place it in 444 BCE, others in 443 BCE. The sources do not provide definitive evidence. The significance attributed to this event in later sources may reflect later political narratives rather than contemporary importance.",
+  "historiographic_note": "The historical record for 443 BCE is sparse and heavily dependent on later sources. Most information comes from Plutarch's biography of Pericles, written in the 1st century CE, nearly 500 years after the events. Archaeological evidence from the Acropolis provides material confirmation of the Parthenon's construction but limited detail about specific events of this year. The sources are entirely Athenian-centric; no contemporary records from other Greek cities or the Persian Empire survive for this year.",
+  "graph_edges": [
+    {
+      "from": "443-001",
+      "to": "443-002",
+      "relation": "contemporary_with",
+      "note": "Thucydides' ostracism removed the primary political obstacle to Pericles' ambitious building program, including the Parthenon."
+    }
+  ]
+}

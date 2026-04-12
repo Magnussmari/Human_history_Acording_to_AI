@@ -1,0 +1,78 @@
+{
+  "year": 441,
+  "year_label": "441 BCE",
+  "era_context": "Classical Greece during the height of Athenian power under Pericles. The Thirty Years' Peace is holding. The Parthenon is nearing completion. This is the era of Classical Greek drama, philosophy, and democratic politics. The Persian Empire remains stable under Artaxerxes I.",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Indian subcontinent",
+    "Most of the Mediterranean outside Athens"
+  ],
+  "events": [
+    {
+      "id": "441-001",
+      "title": "Sophocles' Antigone performed (alternative dating)",
+      "region": "Athens, Classical Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Sophocles' tragedy Antigone was performed at the City Dionysia festival in Athens. Some scholars date the first performance to 441 BCE rather than 442 BCE. The play explores the conflict between divine law and human authority through the story of Antigone's defiance of King Creon. It became one of the most celebrated works of Classical Greek drama and reflects the intellectual concerns of mid-5th century Athens.",
+      "key_figures": [
+        "Sophocles (playwright)"
+      ],
+      "sources": [
+        {
+          "name": "Ancient biographical tradition (date uncertain)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The date of Antigone's first performance is not definitively established. Scholars debate whether it was 442 or 441 BCE. The date is determined by stylistic analysis and later biographical traditions, neither of which provides certainty.",
+      "cross_references": [
+        "Related to 442-001"
+      ]
+    },
+    {
+      "id": "441-002",
+      "title": "Samian War begins",
+      "region": "Samos and Athenian sphere, Aegean Sea",
+      "coordinates_approx": "37.75, 26.98",
+      "category": "military",
+      "description": "Athens launched a military campaign against the island of Samos, which had rebelled against Athenian hegemony. The Samian War lasted approximately one year (441\u2013440 BCE) and resulted in Athens reasserting control over the island. The conflict demonstrated Athenian military power and the limits of tolerance for rebellion within the Athenian Empire. The war was costly and diverted resources from other projects.",
+      "key_figures": [
+        "Pericles (Athenian commander)",
+        "Melissus of Samos (Samian philosopher and military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War 1.115\u2013117",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles 25\u201328",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Samian War is well-attested in ancient sources. Thucydides provides a detailed account. The date 441 BCE for the beginning of the war is well-established.",
+      "cross_references": [
+        "Led to 440-001 (continuation of Samian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Sophocles' Antigone remains uncertain; scholars debate whether it was 442 or 441 BCE. The ancient sources do not provide definitive evidence. The Samian War is well-attested, but some details in Thucydides' account are disputed by modern scholars, particularly regarding the causes of the rebellion and the extent of Athenian brutality.",
+  "historiographic_note": "The historical record for 441 BCE is sparse but somewhat richer than 442 BCE due to the Samian War. Thucydides provides a detailed account of the war, though he was not a contemporary witness. The sources are heavily Athenian-centric; the Samian perspective is almost entirely absent. The date of Sophocles' Antigone is uncertain and represents a gap in the record. Archaeological evidence from Samos provides material confirmation of the conflict but limited detail about specific events.",
+  "graph_edges": [
+    {
+      "from": "441-002",
+      "to": "440-001",
+      "relation": "led_to",
+      "note": "The Samian War continued into 440 BCE, resulting in Athenian victory and the reassertion of control over Samos."
+    }
+  ]
+}

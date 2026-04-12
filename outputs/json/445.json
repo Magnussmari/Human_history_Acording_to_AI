@@ -1,0 +1,112 @@
+{
+  "year": 445,
+  "year_label": "445 BCE",
+  "era_context": "Classical Greece during the height of the Athenian Empire under Pericles. The First Peloponnesian War (460\u2013446 BCE) has recently concluded with the Thirty Years' Peace. Athens is at the peak of its democratic and cultural influence, undertaking major building projects and consolidating its maritime hegemony. The Achaemenid Persian Empire remains the dominant power in the eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Greek and Roman awareness",
+    "East Asia (contemporary Chinese records exist but are not well-integrated into Western historiography of this period)",
+    "Mesoamerica (no written records contemporary with Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "445-001",
+      "title": "Pericles' Citizenship Law enacted",
+      "region": "Athens, Classical Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "legal",
+      "description": "Pericles introduced a law restricting Athenian citizenship to those born of two Athenian parents (both mother and father). This marked a significant tightening of citizenship criteria and reflected growing anxiety about the purity of the citizen body. The law had profound implications for women's status and marriage practices, as it made marriages between Athenian men and foreign women produce non-citizen children. This legislation would remain in effect for most of the Classical period and shaped Athenian identity.",
+      "key_figures": [
+        "Pericles (strategos, leading politician of Athens)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles 37.5",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians 26.4",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The law is well-attested in later sources, but the precise date of 445 BCE is conventional; some scholars place it slightly earlier (c. 451 BCE). The sources are not contemporary but derive from reliable Athenian institutional records.",
+      "cross_references": []
+    },
+    {
+      "id": "445-002",
+      "title": "Thirty Years' Peace ratified between Athens and Sparta",
+      "region": "Greece (Peloponnese and Attica)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "political",
+      "description": "The peace treaty formally ending the First Peloponnesian War was ratified, establishing a 30-year period of nominal peace between the Athenian and Spartan alliance systems. The treaty recognized Athenian control of the Aegean and its maritime empire while acknowledging Spartan hegemony in the Peloponnese. However, the peace was fragile and contained ambiguities that would lead to disputes; it ultimately lasted only 14 years before the outbreak of the Peloponnesian War in 431 BCE.",
+      "key_figures": [
+        "Pericles (Athens)",
+        "Pleistoanax (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War 1.114\u2013115",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles 24",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thucydides provides a detailed account of the treaty's terms and ratification. The date 445 BCE is well-established in ancient sources.",
+      "cross_references": [
+        "Leads to 431-001 (outbreak of Peloponnesian War)"
+      ]
+    },
+    {
+      "id": "445-003",
+      "title": "Athenian colonization of Thurii in southern Italy",
+      "region": "Magna Graecia (southern Italy)",
+      "coordinates_approx": "40.28, 17.25",
+      "category": "exploration",
+      "description": "Athens, under Pericles' direction, established a major Panhellenic colony at Thurii in southern Italy, replacing the earlier city of Sybaris. The colony was designed as a new model settlement with a democratic constitution and was intended to extend Athenian influence into the western Mediterranean. The venture attracted settlers from across the Greek world and represented Athenian cultural and political ambitions beyond the Aegean.",
+      "key_figures": [
+        "Pericles (initiator)",
+        "Hippodamus of Miletus (urban planner, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Library of History 12.10\u201311",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography 6.1.13",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The founding of Thurii is attested in multiple ancient sources, but dating varies slightly (some sources suggest 444 BCE). The date 445 BCE is conventional. Archaeological evidence from the site confirms Greek settlement in this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Pericles' citizenship law is disputed. While traditionally placed in 445 BCE, some modern scholars (notably Carawan) argue for a date closer to 451 BCE or even later. The precise terms and implications of the law are also debated\u2014some scholars question whether it applied retroactively or only to future generations. The Thirty Years' Peace, while confirmed, is sometimes interpreted differently regarding its enforceability and the intentions of the signatories.",
+  "historiographic_note": "The historical record for 445 BCE is relatively rich but mediated entirely through later sources. Thucydides, writing decades after these events, provides the most detailed account of the Thirty Years' Peace, but he was not a contemporary witness. Plutarch and other biographers drew on earlier sources now lost. Athenian institutional records (inscriptions, decrees) are sparse for this specific year. The sources are heavily Athenian-centric; Spartan and other Greek perspectives are underrepresented. Archaeological evidence from Thurii and other sites provides material confirmation but limited detail about specific events.",
+  "graph_edges": [
+    {
+      "from": "445-002",
+      "to": "431-001",
+      "relation": "led_to",
+      "note": "The Thirty Years' Peace, despite its name, lasted only 14 years before tensions erupted into the Peloponnesian War."
+    },
+    {
+      "from": "445-001",
+      "to": "431-001",
+      "relation": "part_of",
+      "note": "Pericles' citizenship law reflected and reinforced the exclusionary ideology that would characterize Athenian policy during the Peloponnesian War."
+    }
+  ]
+}
