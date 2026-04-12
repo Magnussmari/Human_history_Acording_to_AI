@@ -1,0 +1,91 @@
+{
+  "year": -2656,
+  "year_label": "2656 BCE",
+  "era_context": "Early Bronze Age III in the Near East and Mediterranean. Egypt's Dynasty 6 has recently begun (or is about to begin, depending on chronology). Mesopotamia is in the Early Dynastic III period, with Akkadian expansion underway or imminent. The Indus Valley Civilization is in its mature phase. This period is characterized by established urban civilization and long-distance trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2656-001",
+      "title": "Accession of Teti, Dynasty 6, Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "30.0, 31.1",
+      "category": "political",
+      "description": "Teti (also spelled Othoes or Atoti) accedes to the throne as the first pharaoh of Dynasty 6. His reign marks the formal beginning of a new dynasty and the continuation of the Old Kingdom, though with increasing decentralization. Teti is attested through his pyramid at Saqqara and various administrative records. His reign is relatively poorly documented compared to earlier Dynasty 5 pharaohs, reflecting the gradual decline of centralized record-keeping. Teti's reign lasted approximately 12 years according to the Turin King List, though this figure is uncertain.",
+      "key_figures": [
+        "Teti \u2014 First pharaoh of Dynasty 6, Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid of Teti, Saqqara",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Teti's existence and general reign period are well-attested. However, the precise dating of his accession is uncertain; conventional chronology places it c. 2345 BCE, but alternative chronologies differ by 50\u2013100 years. The assignment to -2656 is approximate.",
+      "cross_references": [
+        "-2657-001"
+      ]
+    },
+    {
+      "id": "-2656-002",
+      "title": "Akkadian military campaigns (traditional dating)",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "According to traditional Mesopotamian chronology, Sargon of Akkad is in the midst of his military campaigns to consolidate Mesopotamia under Akkadian rule. Sargon's inscriptions describe campaigns against Sumerian city-states, the conquest of the Levant, and the establishment of the world's first multi-ethnic empire. However, the dating of these campaigns is highly contested. The conventional 'middle chronology' places Sargon's reign c. 2334\u20132279 BCE, while the 'low chronology' places it c. 2154\u20132118 BCE. The assignment to -2656 reflects traditional dating but carries significant uncertainty.",
+      "key_figures": [
+        "Sargon of Akkad \u2014 Founder of the Akkadian Empire"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad inscriptions (e.g., Sargon Legend, Victory Stele)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "Sargon's military campaigns are attested in later sources, but their precise dating is among the most debated in ancient history. The assignment to -2656 reflects traditional chronology but may be off by a century or more.",
+      "cross_references": [
+        "-2658-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon of Akkad and his military campaigns is highly disputed. Some scholars argue for a 'low chronology' that would place Sargon in the 22nd century BCE, centuries after -2656. The Sumerian King List, a primary source for Sargon's chronology, contains legendary elements and chronological inconsistencies. No contemporary inscriptions from Sargon's reign have been definitively dated to -2656 specifically. The causes and extent of Akkadian expansion are also debated.",
+  "historiographic_note": "The historical record for -2656 remains sparse. Egyptian sources are more abundant but focused on elite narratives. Mesopotamian sources for this period are fragmentary and often legendary. The Indus Valley Civilization leaves no readable written records. The assignment of specific events to -2656 is largely arbitrary; year-level precision is not supported by the available evidence.",
+  "graph_edges": [
+    {
+      "from": "-2656-001",
+      "to": "-2650-DYNASTY_6_CONSOLIDATION",
+      "relation": "part_of",
+      "note": "Teti's reign is part of Dynasty 6's early phase"
+    },
+    {
+      "from": "-2656-002",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "part_of",
+      "note": "Sargon's campaigns are part of the Akkadian Empire's rise and eventual collapse"
+    }
+  ]
+}

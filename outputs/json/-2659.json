@@ -1,0 +1,89 @@
+{
+  "year": -2659,
+  "year_label": "2659 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in its later phases (Dynasty 5\u20136 transition period). In Mesopotamia, the Early Dynastic III period is underway, with city-states competing for regional dominance. The Indus Valley Civilization is in its mature phase. Writing systems are established in Egypt and Mesopotamia; monumental architecture defines elite power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2659-001",
+      "title": "Reign of Unas (Wenis), last pharaoh of Dynasty 5, Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "30.0, 31.1",
+      "category": "political",
+      "description": "Unas (also spelled Wenis or Oenas) is attested as the final ruler of Egypt's Fifth Dynasty. His reign marks the end of a period of relative stability and the beginning of centralized power's gradual decline. Unas is notable for commissioning the Pyramid Texts, the oldest known religious texts in Egypt, inscribed in his pyramid at Saqqara. These texts represent a major shift in funerary ideology and the codification of royal religious practice. His reign likely spanned approximately 2375\u20132345 BCE in conventional chronology, though this dating carries \u00b120\u201330 year uncertainty.",
+      "key_figures": [
+        "Unas (Wenis) \u2014 Pharaoh of Egypt, Dynasty 5"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid Texts of Unas, Saqqara",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Unas's existence and general reign period are well-attested through his pyramid and inscriptions. However, precise dating within the 24th century BCE is uncertain; conventional chronology places him c. 2375\u20132345 BCE, but alternative chronologies shift this by 50\u2013100 years. The assignment to -2659 is approximate.",
+      "cross_references": [
+        "Follows from Dynasty 5 consolidation; precedes Dynasty 6 political fragmentation"
+      ]
+    },
+    {
+      "id": "-2659-002",
+      "title": "Mature phase of Indus Valley Civilization",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (also called Harappan Civilization) is in its mature phase, characterized by planned urban settlements, standardized weights and measures, and undeciphered script. Major cities such as Harappa, Mohenjo-daro, and Dholavira are thriving centers of trade and administration. The civilization spans approximately 1.5 million square kilometers and represents one of the world's earliest urban complexes. No monumental temples or palaces have been identified, suggesting a different form of social organization than contemporary Mesopotamian or Egyptian societies. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established through extensive archaeological evidence. Dating to c. 2600\u20131900 BCE is based on stratigraphic analysis and radiocarbon dating. The assignment to -2659 places this year within the mature phase; the civilization's exact chronology remains debated (\u00b150\u2013100 years depending on methodology).",
+      "cross_references": [
+        "Contemporary with Egyptian Dynasty 5 and Mesopotamian Early Dynastic III"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Unas's reign (c. 2375\u20132345 BCE) is based on the Turin King List and Abydos King List, which themselves contain inconsistencies and were compiled centuries after the events they describe. Some scholars argue for a 'low chronology' that would place Unas 50\u2013100 years later. The Indus Valley Civilization's chronology is similarly debated; some scholars propose a 'short chronology' that would shift the mature phase earlier or later by a century or more. No contemporary written records from Egypt or Mesopotamia explicitly mention events in -2659 specifically, making year-level precision impossible.",
+  "historiographic_note": "The historical record for -2659 is heavily dependent on Egyptian and Indus Valley archaeological evidence. Egyptian sources are biased toward royal and elite narratives; the lives of common people are largely invisible. The Indus script remains undeciphered, limiting our understanding of Indus Valley society to material culture and settlement patterns. Mesopotamian records for this period are fragmentary. The dating of all three civilizations relies on radiocarbon calibration, which carries inherent uncertainty. Sub-Saharan Africa, northern Europe, East Asia, and the Americas are essentially absent from the historical record for this year, not because nothing happened but because writing had not yet developed or surviving evidence is minimal.",
+  "graph_edges": [
+    {
+      "from": "-2659-001",
+      "to": "-2650-DYNASTY_6_TRANSITION",
+      "relation": "led_to",
+      "note": "Unas's reign marks the end of Dynasty 5; his successor inaugurates Dynasty 6, a period of gradual decentralization"
+    },
+    {
+      "from": "-2659-002",
+      "to": "-2200-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The mature Indus Valley Civilization continues for several centuries before decline c. 1900 BCE"
+    }
+  ]
+}

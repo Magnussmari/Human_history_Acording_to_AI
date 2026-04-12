@@ -1,0 +1,98 @@
+{
+  "year": -2665,
+  "year_label": "2665 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Sargon of Akkad at the height of its power and territorial extent. Old Kingdom Egypt in Dynasty 5\u20136 transition. Indus Valley Civilization at mature phase. Chinese Bronze Age cultures developing. This is a period of imperial consolidation, monumental construction, and expanding long-distance trade networks across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Most of the Americas"
+  ],
+  "events": [
+    {
+      "id": "-2665-001",
+      "title": "Akkadian Empire at maximum territorial extent under Sargon of Akkad",
+      "region": "Mesopotamia, Levant, Anatolia, Upper Mesopotamia, Persian Gulf",
+      "coordinates_approx": "34.0, 42.0",
+      "category": "political",
+      "description": "By this period, Sargon of Akkad had established the Akkadian Empire as the dominant political and military power in the ancient Near East. The empire stretched from the Persian Gulf to the Mediterranean coast and into Anatolia. Akkadian became the lingua franca of administration and trade. The empire's success was based on military innovation (professional standing army), administrative centralization, and control of trade networks. This period represents the apex of Akkadian power before internal instability and external pressure led to its fragmentation.",
+      "key_figures": [
+        "Sargon of Akkad (r. ~2334\u20132279 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon inscriptions (later copies and fragments)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Akkadian-period sites across Mesopotamia and the Levant",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's reign and the extent of the Akkadian Empire are well-attested archaeologically and in later inscriptions. However, precise year-by-year dating is uncertain. Chronological systems (Middle vs. Low Chronology) differ by \u00b150\u2013100 years. The assignment of maximum extent to -2665 is conventional.",
+      "cross_references": [
+        "Precedes Akkadian collapse ~-2200",
+        "Part of broader Early Bronze Age III period"
+      ]
+    },
+    {
+      "id": "-2665-002",
+      "title": "Indus Valley Civilization mature phase \u2014 urban centers and trade networks",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continued to flourish during this period, with major urban centers such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan functioning as centers of administration, craft production, and trade. The civilization maintained extensive trade networks extending to Mesopotamia, the Persian Gulf, Central Asia, and possibly beyond. Standardized weights and measures, planned urban layouts, and advanced drainage systems characterized the civilization. The undeciphered Indus script was in use for administrative and commercial purposes.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan mature phase is well-established archaeologically. Radiocarbon dating places the mature Harappan period circa 2600\u20131900 BCE. Dating precision is \u00b150\u2013100 years.",
+      "cross_references": [
+        "Part of broader Harappan civilization period (~2600\u20131900 BCE)",
+        "Contemporary with Akkadian Empire expansion"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon of Akkad's reign remains contested. Middle Chronology places him ~2334\u20132279 BCE; Low Chronology places him ~2270\u20132215 BCE. This creates \u00b150\u2013100 year uncertainty. Some scholars argue that certain military campaigns attributed to Sargon in later inscriptions may be literary elaborations rather than historical events. The Harappan civilization's relationship to Akkadian trade is debated: some scholars emphasize direct contact; others suggest indirect trade through intermediaries. The mechanism of Harappan decline (climate, internal factors, external pressure) is contested.",
+  "historiographic_note": "Documentation for -2665 is minimal and mediated through later sources. No contemporary written records from this specific year are known to survive. The Akkadian historical record is based on later inscriptions and king lists, which may contain legendary elements. The Indus Valley record is entirely archaeological; the undeciphered script limits interpretation. Egyptian records from this period exist but do not provide year-specific information. The chronological systems used to date this period are themselves debated, introducing systematic uncertainty of \u00b150\u2013100 years. The historical record is heavily skewed toward Mesopotamia and the Indus Valley; most of the world has no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-2665-001",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "The Akkadian Empire at its height eventually collapsed due to internal instability and external pressure"
+    },
+    {
+      "from": "-2665-001",
+      "to": "-2665-002",
+      "relation": "contemporary_with",
+      "note": "The Akkadian Empire and Indus Valley Civilization were contemporaneous and may have engaged in direct or indirect trade"
+    },
+    {
+      "from": "-2665-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization entered a period of decline and fragmentation around -1900 BCE"
+    }
+  ]
+}

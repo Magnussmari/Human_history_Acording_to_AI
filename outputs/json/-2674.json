@@ -1,0 +1,96 @@
+{
+  "year": -2674,
+  "year_label": "2674 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its mid-to-late phase (Dynasty IV\u2013V transition period). In Mesopotamia, the Early Dynastic III period is underway, with competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase. Writing systems are well-established in Egypt and Mesopotamia; cuneiform and hieroglyphic records provide the primary documentary evidence for this era.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2674-001",
+      "title": "Reign of Khafre, Pharaoh of Egypt (approximate period)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Khafre (also spelled Chephren) ruled Egypt during Dynasty IV of the Old Kingdom. He is best known for commissioning the construction of the second-largest pyramid at Giza and the Great Sphinx. His reign represents the apex of Old Kingdom pyramid construction and centralized pharaonic power. The exact dates of his reign are debated, with estimates ranging from approximately 2558\u20132532 BCE to 2520\u20132494 BCE depending on chronological reconstruction methods.",
+      "key_figures": [
+        "Khafre (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khafre's reign is well-attested in Egyptian records and archaeological evidence, but absolute dating relies on king lists compiled centuries after his death and modern chronological reconstruction. The assignment to 2674 BCE is conventional and subject to \u00b150-year uncertainty depending on which chronological system is used (high, middle, or low chronology).",
+      "cross_references": [
+        "Follows from reign of Khufu (-2689 to -2666 approximate)",
+        "Precedes reign of Menkaure (-2666 to -2649 approximate)"
+      ]
+    },
+    {
+      "id": "-2674-002",
+      "title": "Continued construction or maintenance of Giza pyramid complex",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.975\u00b0N, 31.134\u00b0E",
+      "category": "technological",
+      "description": "During the reign of Khafre, the Giza plateau was the site of intensive construction activity. The Great Sphinx and the Pyramid of Khafre were either under construction or recently completed during this period. This represents the peak of Old Kingdom monumental architecture, requiring sophisticated organizational, mathematical, and logistical capabilities. The construction involved quarrying, transport, and placement of massive limestone and granite blocks, some weighing over 2 tons.",
+      "key_figures": [
+        "Khafre (Pharaoh)",
+        "Unnamed architects and engineers"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and construction marks at Giza",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Quarry marks and tool marks on blocks",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The construction of Khafre's pyramid and the Great Sphinx is archaeologically confirmed, but the precise timeline within his reign is uncertain. Stylistic and structural analysis suggests these monuments date to his reign, but year-by-year dating is not possible.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronological placement of Khafre's reign at 2674 BCE is contested. Different chronological systems place his reign at significantly different absolute dates: the high chronology places him earlier (c. 2558\u20132532 BCE), the middle chronology in the mid-range (c. 2520\u20132494 BCE), and the low chronology later (c. 2480\u20132454 BCE). This represents a potential \u00b1100-year uncertainty. Additionally, some scholars debate whether the Great Sphinx was constructed during Khafre's reign or earlier, though the weight of evidence favors Khafre's attribution.",
+  "historiographic_note": "The historical record for this period is heavily dependent on Egyptian king lists (Turin, Abydos, Saqqara) compiled during the New Kingdom, centuries after the Old Kingdom. These lists are generally reliable for relative chronology but provide no absolute dates. Absolute dating relies on astronomical calculations (heliacal rising of Sirius), radiocarbon dating (with significant margins of error for this period), and correlation with other chronological systems. The surviving sources are heavily biased toward royal monuments and administrative records; the lives of common people are largely invisible. Archaeological evidence from Giza is rich but does not provide precise year-by-year dating.",
+  "graph_edges": [
+    {
+      "from": "-2674-001",
+      "to": "-2689-001",
+      "relation": "caused_by",
+      "note": "Khafre's reign follows that of Khufu; he inherited the established pharaonic system and pyramid-building tradition"
+    },
+    {
+      "from": "-2674-002",
+      "to": "-2674-001",
+      "relation": "part_of",
+      "note": "Pyramid construction was a major undertaking of Khafre's reign"
+    }
+  ]
+}

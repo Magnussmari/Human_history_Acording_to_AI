@@ -1,0 +1,121 @@
+{
+  "year": -2655,
+  "year_label": "2655 BCE",
+  "era_context": "Early Bronze Age III in the Near East and Mediterranean. Egypt's Dynasty 6 is in its early phase under Teti. Mesopotamia is in the Early Dynastic III period, with Akkadian expansion (if conventional chronology is correct) underway. The Indus Valley Civilization is in its mature phase. This period is characterized by established urban civilization, monumental architecture, and long-distance trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2655-001",
+      "title": "Reign of Teti, Dynasty 6, Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "30.0, 31.1",
+      "category": "political",
+      "description": "Teti's reign continues. Dynasty 6 is characterized by increasing decentralization, with provincial governors (nomarchs) gaining power and autonomy. The causes of this decentralization are debated: some scholars point to climate change and Nile flood failures (the 4.2 kiloyear event); others emphasize the growing power of the priesthood and provincial elites. Teti's reign is relatively poorly documented compared to earlier Old Kingdom pharaohs, reflecting the gradual decline of centralized record-keeping. Administrative records from this period show evidence of provincial autonomy and the fragmentation of centralized authority.",
+      "key_figures": [
+        "Teti \u2014 Pharaoh of Dynasty 6, Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid of Teti and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Teti's reign is well-attested, but the precise year-by-year chronology is uncertain. The assignment to -2655 is arbitrary within his multi-year reign.",
+      "cross_references": [
+        "-2656-001"
+      ]
+    },
+    {
+      "id": "-2655-002",
+      "title": "Indus Valley Civilization urban development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is in its mature phase, with major urban centers such as Harappa, Mohenjo-daro, and Dholavira thriving. These cities are characterized by planned street grids, standardized brick sizes, sophisticated drainage systems, and public buildings. The civilization spans approximately 1.5 million square kilometers and represents one of the world's earliest urban complexes. The social organization of the Indus Valley Civilization remains enigmatic; no monumental temples or palaces have been identified, suggesting a different form of social organization than contemporary Mesopotamian or Egyptian societies. The undeciphered Indus script limits our understanding of the civilization's political and religious systems.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established through extensive archaeological evidence. Dating to c. 2600\u20131900 BCE is based on stratigraphic analysis and radiocarbon dating. The assignment to -2655 places this year within the mature phase.",
+      "cross_references": [
+        "-2659-002"
+      ]
+    },
+    {
+      "id": "-2655-003",
+      "title": "Early Dynastic III city-states in Mesopotamia",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Mesopotamian city-states such as Lagash, Umma, Uruk, and Ur are competing for regional dominance during the Early Dynastic III period. These city-states are characterized by independent rulers (ensi or lugal), monumental temples, and organized armies. The Sumerian King List records the reigns of various rulers during this period, though the list is known to contain legendary elements and chronological inconsistencies. Conflicts between city-states over water rights and territorial control are attested in later inscriptions. The period is characterized by the development of writing, monumental architecture, and organized warfare.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites (e.g., Lagash, Uruk, Ur)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later inscriptions describing conflicts between city-states",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Early Dynastic III city-states is well-established, but the precise chronology and dating of specific rulers is uncertain. The Sumerian King List is known to contain legendary elements and chronological inconsistencies.",
+      "cross_references": [
+        "-2658-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The causes of the Old Kingdom's decline and Dynasty 6's decentralization are debated. Some scholars attribute it to climate change (the 4.2 kiloyear event), while others emphasize internal political factors. The evidence is ambiguous. The Indus Valley Civilization's social organization remains speculative due to the undeciphered script. The Sumerian King List's chronology is known to be unreliable, with legendary elements and inconsistencies.",
+  "historiographic_note": "The historical record for -2655 is sparse and heavily dependent on later sources and archaeological evidence. Egyptian sources are more abundant but focused on elite narratives. Mesopotamian sources for this period are fragmentary and often legendary. The Indus Valley Civilization leaves no readable written records. The assignment of specific events to -2655 is largely arbitrary; year-level precision is not supported by the available evidence. The historical record is biased toward elite narratives and monumental architecture; the lives of common people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2655-001",
+      "to": "-2200-OLD_KINGDOM_COLLAPSE",
+      "relation": "part_of",
+      "note": "Teti's reign is part of Dynasty 6, which precedes the Old Kingdom's collapse"
+    },
+    {
+      "from": "-2655-002",
+      "to": "-2200-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The mature Indus Valley Civilization continues for several centuries before decline"
+    },
+    {
+      "from": "-2655-003",
+      "to": "-2334-AKKADIAN_RISE",
+      "relation": "led_to",
+      "note": "Early Dynastic III city-states are eventually unified under Akkadian rule (if conventional chronology is correct)"
+    }
+  ]
+}

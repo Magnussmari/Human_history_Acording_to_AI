@@ -1,0 +1,91 @@
+{
+  "year": -2669,
+  "year_label": "2669 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its later phases (Dynasty 5\u20136 transition); the Akkadian Empire under Sargon of Akkad is consolidating control over Mesopotamia and surrounding regions. In the Indus Valley, the mature Harappan civilization is at its height. Chinese Bronze Age cultures (Xia or early Shang) are developing in the Yellow River valley. This is a period of expanding state formation, long-distance trade networks, and monumental architecture across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological record)",
+    "Mesoamerica (Early Preclassic period poorly dated at annual resolution)",
+    "Southeast Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-2669-001",
+      "title": "Akkadian consolidation under Sargon of Akkad \u2014 military campaigns in northern Mesopotamia and the Levant",
+      "region": "Mesopotamia, Levant, Upper Mesopotamia",
+      "coordinates_approx": "34.5, 42.0",
+      "category": "military",
+      "description": "Sargon of Akkad continued his systematic conquest and consolidation of Mesopotamian city-states and surrounding territories. This period saw Akkadian military expansion into the Levantine coast and Upper Mesopotamia, establishing the first multi-ethnic empire in the region. The campaigns were documented in later Akkadian inscriptions and king lists. Sargon's reign fundamentally altered the political structure of Mesopotamia, replacing city-state autonomy with centralized imperial rule.",
+      "key_figures": [
+        "Sargon of Akkad (Sharru-kin, r. ~2334\u20132279 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad inscriptions (later copies and fragments)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Akkadian-period sites (Nippur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's reign is well-attested in later inscriptions and the Sumerian King List, but precise year-by-year dating within his reign is uncertain. Chronological systems (Middle vs. Low Chronology) place his reign \u00b150\u2013100 years. This event is assigned to -2669 based on Middle Chronology; Low Chronology would place it ~60 years later.",
+      "cross_references": [
+        "Follows from broader Akkadian expansion beginning ~-2334",
+        "Precedes Akkadian collapse ~-2200"
+      ]
+    },
+    {
+      "id": "-2669-002",
+      "title": "Mature Harappan civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture) was at its mature phase, with major urban centers such as Mohenjo-daro, Harappa, and Dholavira fully developed and functioning as centers of trade, craft production, and administration. This period is characterized by standardized weights and measures, planned urban layouts, advanced drainage systems, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's writing system remained in use, though it remains undeciphered.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan mature phase is well-established archaeologically. Radiocarbon dating places the mature Harappan period circa 2600\u20131900 BCE, with -2669 falling within this range. Dating precision is \u00b150\u2013100 years.",
+      "cross_references": [
+        "Part of broader Harappan civilization period (~2600\u20131900 BCE)",
+        "Precedes Harappan decline and fragmentation ~-1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon of Akkad's reign remains contested between Middle Chronology (placing him ~2334\u20132279 BCE) and Low Chronology (placing him ~2270\u20132215 BCE). This creates \u00b150\u2013100 year uncertainty for events assigned to his reign. Some scholars argue that certain 'Akkadian' military campaigns attributed to Sargon may reflect later literary elaboration rather than historical events. The Harappan civilization's decline mechanism is debated: some scholars emphasize climate change and river course shifts; others stress internal social factors or external pressure. No single cause is universally accepted.",
+  "historiographic_note": "Documentation for this period is heavily skewed toward Mesopotamia and the Indus Valley, where written records and extensive archaeological evidence exist. Egyptian records from Dynasty 5\u20136 are available but do not provide year-specific events for -2669. The Akkadian historical record is mediated through later copies and inscriptions; contemporary documentation is sparse. The Harappan record is entirely archaeological; the undeciphered script limits interpretation. Sub-Saharan Africa, northern Europe, and most of the Americas have no written records for this period; knowledge is archaeological only. Mesopotamian and Egyptian chronologies remain debated, introducing systematic uncertainty of \u00b150\u2013100 years for this entire period.",
+  "graph_edges": [
+    {
+      "from": "-2669-001",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Akkadian imperial expansion under Sargon eventually collapsed due to internal instability and external pressure, fragmenting Mesopotamia"
+    },
+    {
+      "from": "-2669-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization entered a period of decline and fragmentation around -1900 BCE"
+    }
+  ]
+}
