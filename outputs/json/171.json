@@ -1,0 +1,151 @@
+{
+  "year": 171,
+  "year_label": "171 CE",
+  "era_context": "Marcus Aurelius is returning to the Danube frontier to address renewed military pressure from Germanic tribes. The Roman Empire is transitioning from a period of eastern consolidation to renewed military engagement in the North. In China, the Eastern Han Dynasty is in advanced decline, with religious movements gaining followers. The Kushan Empire remains prosperous. This year marks the beginning of the final phase of Marcus Aurelius's reign, dominated by the Marcomannic Wars.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier (limited archaeological evidence)",
+    "Pre-Columbian Americas",
+    "Southeast Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "171-001",
+      "title": "Marcus Aurelius returns to the Danube frontier to address Germanic threats",
+      "region": "Roman Empire (Danube frontier)",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "Marcus Aurelius arrives at the Danube frontier to personally oversee military operations against Germanic tribes. His presence signals the empire's commitment to defending the northern frontier. The emperor establishes his headquarters in the region and begins organizing military campaigns. This marks the beginning of the Marcomannic Wars, which will dominate the final decade of his reign.",
+      "key_figures": [
+        "Marcus Aurelius (Roman emperor)",
+        "Germanic tribal leaders (names not recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general timeline of Marcus Aurelius's return to the frontier is well-attested. The specific timing within 171 CE is less precisely dated.",
+      "cross_references": [
+        "172-001",
+        "172-002"
+      ]
+    },
+    {
+      "id": "171-002",
+      "title": "Marcomanni and Quadi tribes conduct raids across the Danube",
+      "region": "Roman Empire (Danube frontier) and Germanic territories",
+      "coordinates_approx": "48.0,18.0",
+      "category": "military",
+      "description": "Germanic tribes, particularly the Marcomanni and Quadi, conduct raids across the Danube into Roman territory. These raids cause significant damage and loss of life, prompting Roman military response. The raids reflect broader pressures on Germanic populations, possibly related to climate change, population growth, or migration from further east.",
+      "key_figures": [
+        "Marcomanni and Quadi tribal leaders (names not recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Danube region",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Germanic raids is well-attested. Specific raids within 171 CE are not precisely dated.",
+      "cross_references": [
+        "171-001"
+      ]
+    },
+    {
+      "id": "171-003",
+      "title": "Eastern Han Dynasty faces severe administrative crisis",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "The Eastern Han court reaches a critical point of dysfunction. Eunuch factions and scholar-officials engage in open conflict. Regional military governors exercise near-complete autonomy. The imperial treasury is depleted. Central authority is fragmenting. This crisis accelerates the dynasty's collapse, which will occur within two decades.",
+      "key_figures": [
+        "Emperor Kangxi (Eastern Han emperor)",
+        "Eunuch factions and scholar-officials"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general crisis is well-documented. Specific events within 171 CE are not precisely dated.",
+      "cross_references": [
+        "172-003",
+        "184-001"
+      ]
+    },
+    {
+      "id": "171-004",
+      "title": "Kushan Empire continues to dominate Central Asian trade",
+      "region": "Kushan Empire (Central Asia, northern India)",
+      "coordinates_approx": "35.0,70.0",
+      "category": "economic",
+      "description": "The Kushan Empire under Kanishka II continues to control key Silk Road trade routes, generating significant wealth and facilitating cultural exchange. Kushan coins and inscriptions from this period attest to the empire's continued prosperity and cosmopolitan character.",
+      "key_figures": [
+        "Kanishka II (Kushan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Kushan coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Kanishka II's reign is well-established. The year 171 CE falls securely within his rule.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the beginning of the Marcomannic Wars is debated. Some scholars place the initial major conflict slightly earlier or later than 171 CE. The extent of Germanic raids in any given year is difficult to determine from surviving sources, which tend to provide only general narratives rather than year-by-year accounts. The Historia Augusta's account of this period contains some legendary elements.",
+  "historiographic_note": "Documentation for 171 CE is moderate for the Roman Empire, with good evidence from ancient chronicles and later compilations. Archaeological evidence from the Danube frontier provides material confirmation of military activity. Chinese sources are less precise about individual years during this period of decline. The record is heavily weighted toward military and political events. Economic and social developments are underrepresented. Sub-Saharan Africa, Northern Europe beyond the Roman frontier, and the Americas remain absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "171-001",
+      "to": "171-002",
+      "relation": "contemporary_with",
+      "note": "Marcus Aurelius's arrival at the frontier coincided with Germanic raids"
+    },
+    {
+      "from": "171-001",
+      "to": "180-001",
+      "relation": "led_to",
+      "note": "Marcus Aurelius's frontier campaigns continued until his death in 180 CE"
+    },
+    {
+      "from": "171-003",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "Administrative crisis contributed to the Yellow Turban Rebellion and Eastern Han collapse"
+    }
+  ]
+}

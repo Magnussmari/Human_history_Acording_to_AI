@@ -1,0 +1,131 @@
+{
+  "year": 162,
+  "year_label": "162 CE",
+  "era_context": "The Antonine Plague is in its second year of spread through the Roman Empire. The Parthian War is in full swing. Marcus Aurelius and Lucius Verus are co-emperors, with Lucius commanding military operations in the East. In China, the Han Dynasty is weakening under Emperor Huan. The Jewish diaspora is adjusting to Roman rule after the Bar Kokhba Revolt.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Interior of the Americas",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "162-001",
+      "title": "Antonine Plague spreads from the Parthian frontier into the Roman heartland",
+      "region": "Roman Empire (Mediterranean basin)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The plague, introduced via the Parthian War, spreads from military camps on the eastern frontier into the civilian population of the Roman Empire. By 162 CE, it is documented in major cities including Rome, Alexandria, and Antioch. Mortality rates are high, particularly among children and the elderly. The plague will continue to spread and kill millions over the next decade. Contemporary observers, including the physician Galen, document symptoms and attempt treatments, though their understanding of the disease's cause is limited.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Lucius Verus (co-emperor)",
+        "Galen (physician)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, medical writings and case observations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's spread in 162 CE is attested in multiple sources. Galen's contemporary observations provide strong evidence for the plague's presence and impact in this year.",
+      "cross_references": [
+        "161-001 (Parthian War, source of plague)",
+        "165-001 (plague peak)"
+      ]
+    },
+    {
+      "id": "162-002",
+      "title": "Lucius Verus assumes command of the Parthian War; Roman forces advance",
+      "region": "Mesopotamia and the Parthian frontier",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Lucius Verus, co-emperor with Marcus Aurelius, takes direct command of Roman military operations against the Parthian Empire. Under his leadership (and that of capable generals like Avidius Cassius), Roman forces advance into Mesopotamia and capture key cities. The war is initially successful for Rome, though the plague's presence in the army will eventually force a withdrawal. Lucius Verus's military reputation is enhanced by these early victories, though he will die of plague in 169 CE.",
+      "key_figures": [
+        "Lucius Verus (co-emperor, military commander)",
+        "Marcus Aurelius (co-emperor)",
+        "Avidius Cassius (Roman general)",
+        "Vologases IV (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Lucius Verus's assumption of command and the initial Roman advances are well-documented in historical sources. The date of 162 CE is secure.",
+      "cross_references": [
+        "161-001 (Parthian War begins)",
+        "164-002 (war concludes)",
+        "169-001 (Lucius Verus dies)"
+      ]
+    },
+    {
+      "id": "162-003",
+      "title": "Han Dynasty scholar-officials petition against eunuch influence",
+      "region": "Han China (capital: Luoyang)",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "Scholar-officials at the Han court petition Emperor Huan to reduce the influence of eunuchs in government. The petition is unsuccessful; eunuchs retain their power and influence. This conflict reflects the deep institutional problems of the late Han Dynasty, as the balance of power between the emperor, eunuchs, and scholar-officials becomes increasingly unstable. These factional conflicts will intensify over the next two decades and contribute to the dynasty's collapse.",
+      "key_figures": [
+        "Emperor Huan of Han (r. 146\u2013168 CE)",
+        "Scholar-official faction (names disputed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Factional conflicts in the Han court during this period are well-attested, but the specific dating of individual petitions and events is uncertain. Chinese sources compiled centuries later may conflate or misdate events.",
+      "cross_references": [
+        "164-003 (continued factional instability)",
+        "184-001 (Yellow Turban Rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of the plague's spread into the Roman heartland is uncertain; some sources suggest it began earlier (161 CE) or later (163 CE). The plague's identification as smallpox or measles is based on modern epidemiological inference, not contemporary diagnosis. Some scholars dispute the scale of mortality attributed to the plague in later sources. The Han court petition of 162 CE is poorly documented; later sources may have invented or misplaced this event.",
+  "historiographic_note": "Roman sources for 162 CE are moderate in detail, with Galen's medical observations providing valuable contemporary evidence. Chinese sources are sparse and compiled centuries later. The plague's impact is well-documented in medical and literary sources but may be exaggerated in later accounts. Parthian perspectives are almost entirely lost. The year is well-documented for the Mediterranean world but poorly documented for most of the world.",
+  "graph_edges": [
+    {
+      "from": "162-001",
+      "to": "161-001",
+      "relation": "caused_by",
+      "note": "Plague introduced via the Parthian War"
+    },
+    {
+      "from": "162-002",
+      "to": "161-001",
+      "relation": "part_of",
+      "note": "Continuation of the Parthian War"
+    },
+    {
+      "from": "162-003",
+      "to": "164-003",
+      "relation": "contemporary_with",
+      "note": "Ongoing factional conflicts in the Han court"
+    }
+  ]
+}

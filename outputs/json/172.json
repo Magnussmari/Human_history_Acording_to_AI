@@ -1,0 +1,117 @@
+{
+  "year": 172,
+  "year_label": "172 CE",
+  "era_context": "Marcus Aurelius is in the final stages of his eastern tour, having spent approximately two years consolidating provincial authority following the Avidius Cassius revolt. The Roman Empire is entering a period of renewed military pressure on the northern frontier. In China, the Eastern Han Dynasty continues its decline. The Kushan Empire remains prosperous. This year marks a transition point in Marcus Aurelius's reign, as he prepares to return to the Danube frontier.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Pre-Columbian Americas",
+    "Southeast Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "172-001",
+      "title": "Marcus Aurelius prepares to return to the Danube frontier",
+      "region": "Roman Empire",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "After approximately two years in the eastern provinces, Marcus Aurelius begins preparations to return to the Danube frontier, where military pressure from Germanic tribes and other northern peoples has increased. The emperor's return marks a shift in imperial priorities back to the northern frontier. His eastern consolidation is considered successful, having restored loyalty and reorganized provincial administration.",
+      "key_figures": [
+        "Marcus Aurelius (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general timeline of Marcus Aurelius's return is well-attested. The specific timing within 172 CE is less precisely dated.",
+      "cross_references": [
+        "173-001",
+        "174-001"
+      ]
+    },
+    {
+      "id": "172-002",
+      "title": "Germanic tribes increase pressure on Roman Danube frontier",
+      "region": "Roman Empire (Danube frontier)",
+      "coordinates_approx": "45.0,25.0",
+      "category": "military",
+      "description": "Germanic tribes, including the Marcomanni and Quadi, increase military pressure on the Roman Danube frontier. This escalation of conflict prompts Marcus Aurelius's return from the East and signals the beginning of renewed military campaigns on the northern frontier. The pressure reflects broader population movements and resource competition in Northern Europe.",
+      "key_figures": [
+        "Germanic tribal leaders (names not recorded in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general increase in frontier pressure is well-attested. Specific military engagements within 172 CE are not precisely dated.",
+      "cross_references": [
+        "172-001"
+      ]
+    },
+    {
+      "id": "172-003",
+      "title": "Eastern Han Dynasty continues decline; Yellow Turban movement emerges",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "35.0,110.0",
+      "category": "religious",
+      "description": "The Eastern Han court's weakness and corruption fuel the emergence of Daoist and messianic religious movements, including the proto-Yellow Turban movement. These movements attract followers among the peasantry and lower classes, offering spiritual salvation and social critique. The movements will formally organize into the Yellow Turban Rebellion within a decade, hastening the dynasty's collapse.",
+      "key_figures": [
+        "Early Daoist religious leaders (names not clearly recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The emergence of these movements is attested in later sources. The precise dating of early organizational phases is uncertain.",
+      "cross_references": [
+        "173-003",
+        "184-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact timing of Marcus Aurelius's return from the East is debated by scholars. Some sources suggest he remained in the eastern provinces longer than others indicate. The precise nature and intensity of Germanic pressure on the Danube frontier in 172 CE is not clearly documented; some scholars argue that the threat may have been exaggerated by later sources.",
+  "historiographic_note": "Documentation for 172 CE is moderate for the Roman Empire, though specific military events are less well-attested than political consolidation. Chinese sources are less precise about individual years during this period of decline. The record remains heavily weighted toward elite political and military events. The emergence of religious movements is documented only in later sources, making precise dating difficult. Sub-Saharan Africa, Northern Europe, and the Americas remain absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "172-001",
+      "to": "172-002",
+      "relation": "caused_by",
+      "note": "Germanic pressure prompted Marcus Aurelius's return to the Danube frontier"
+    },
+    {
+      "from": "172-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Early religious movements contributed to the Yellow Turban Rebellion"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "year": 175,
+  "year_label": "175 CE",
+  "era_context": "The Roman Empire under Marcus Aurelius (161\u2013180 CE) at the height of the Antonine period. The Parthian Empire controls Mesopotamia and the eastern frontier. In China, the Eastern Han Dynasty is in decline, facing internal strife and the rise of regional warlords. The Kushan Empire dominates Central Asia and the Silk Road trade routes. This is a period of relative stability in the Mediterranean but increasing pressure on Rome's northern and eastern borders.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological evidence sparse)",
+    "Pre-Columbian Americas (no written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "175-001",
+      "title": "Avidius Cassius declares himself emperor in Egypt and Syria",
+      "region": "Roman Empire (Egypt, Syria, Mesopotamia)",
+      "coordinates_approx": "30.0,-25.0",
+      "category": "political",
+      "description": "Avidius Cassius, a prominent Roman general and governor of Syria, revolts against Marcus Aurelius and declares himself emperor. He gains support in Egypt and parts of the eastern provinces, exploiting rumors of Marcus Aurelius's death. The revolt lasts approximately three months before being suppressed. Though short-lived, the rebellion reveals deep tensions in the eastern provinces and Marcus Aurelius's need to travel east to restore loyalty and reorganize provincial administration.",
+      "key_figures": [
+        "Avidius Cassius (Roman general and usurper)",
+        "Marcus Aurelius (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (Book 71)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Coins and inscriptions from Egypt and Syria",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The revolt is well-attested in multiple ancient sources and numismatic evidence. Dating to 175 CE is secure.",
+      "cross_references": []
+    },
+    {
+      "id": "175-002",
+      "title": "Marcus Aurelius begins journey to the East to suppress Cassius revolt",
+      "region": "Roman Empire",
+      "coordinates_approx": "40.0,15.0",
+      "category": "military",
+      "description": "Following news of Avidius Cassius's rebellion, Marcus Aurelius departs from the Danube frontier (where he had been conducting the Marcomannic Wars) and travels eastward with his court and military entourage. This journey marks a significant shift in imperial priorities and demonstrates the emperor's personal authority in crisis management. The journey itself becomes a political statement, reasserting central imperial control over the provinces.",
+      "key_figures": [
+        "Marcus Aurelius (Roman emperor)",
+        "Lucilla (daughter of Marcus Aurelius)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The journey is well-documented in ancient sources. The timing and route are established by historiographic consensus.",
+      "cross_references": [
+        "175-001"
+      ]
+    },
+    {
+      "id": "175-003",
+      "title": "Eastern Han Dynasty faces succession crisis and factional strife in China",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "The Eastern Han court experiences severe internal conflict between eunuch factions and scholar-officials. Emperor Kangxi (r. 168\u2013189 CE) is a weak ruler, and real power is contested between the imperial harem, eunuchs, and Confucian bureaucrats. This period marks the beginning of the dynasty's terminal decline, with regional warlords increasingly asserting autonomy. The Yellow Turban Rebellion will erupt within a decade, hastening the dynasty's collapse.",
+      "key_figures": [
+        "Emperor Kangxi (Eastern Han emperor)",
+        "Eunuch factions at court"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political instability of this period is well-attested. Specific events within 175 CE are less precisely dated in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta, a primary source for Avidius Cassius's revolt, is known to contain legendary and fabricated material. Modern scholars debate the exact timeline and extent of Cassius's support, though the basic fact of the rebellion is not disputed. Some sources suggest the revolt may have been shorter-lived than traditionally portrayed, with Cassius's death occurring before Marcus Aurelius even reached the East.",
+  "historiographic_note": "Documentation for 175 CE is strong for the Roman Empire, particularly the eastern provinces, due to multiple ancient sources and numismatic evidence. Chinese sources are less precise about specific events within individual years during this period. The record is heavily weighted toward elite political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "175-001",
+      "to": "175-002",
+      "relation": "led_to",
+      "note": "The Cassius revolt prompted Marcus Aurelius's eastern journey"
+    },
+    {
+      "from": "175-003",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "Eastern Han factional strife contributed to the Yellow Turban Rebellion and dynasty's collapse"
+    }
+  ]
+}

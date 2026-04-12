@@ -1,0 +1,125 @@
+{
+  "year": 163,
+  "year_label": "163 CE",
+  "era_context": "The Antonine Plague is in its third year of devastating the Roman Empire. The Parthian War is in its final phase. Marcus Aurelius is consolidating power and beginning to write his *Meditations*. In China, the Han Dynasty continues its decline under Emperor Huan. The Jewish diaspora is settling into the post-Bar Kokhba period.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Interior of the Americas",
+    "Southeast Asia",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "163-001",
+      "title": "Antonine Plague spreads to the Danube frontier; Germanic tribes affected",
+      "region": "Roman Empire (Danube frontier and Germanic territories)",
+      "coordinates_approx": "48.2, 17.1",
+      "category": "demographic",
+      "description": "The plague spreads beyond Roman borders to Germanic and other barbarian populations along the Danube frontier. This has significant long-term consequences: weakened Germanic tribes become more vulnerable to internal conflicts and to pressure from other barbarian groups. Some scholars argue that the plague's impact on barbarian populations contributed to the later migrations and invasions of the 3rd century CE. The plague's reach demonstrates the interconnectedness of the ancient world.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, medical observations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The plague's spread to barbarian populations is attested in sources, but the specific dating is uncertain. The year 163 CE is approximate based on the plague's documented progression.",
+      "cross_references": [
+        "165-001 (plague peak)",
+        "180-001 (plague aftermath and Marcomanni Wars)"
+      ]
+    },
+    {
+      "id": "163-002",
+      "title": "Lucius Verus campaigns in Mesopotamia; plague affects military operations",
+      "region": "Mesopotamia and the Parthian frontier",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Lucius Verus, co-emperor with Marcus Aurelius, continues military operations in Mesopotamia against the Parthian Empire. The plague's presence in the army significantly hampers operations; troop morale is low, and recruitment is difficult. Despite these challenges, Roman forces maintain control of key positions. Lucius Verus himself will contract the plague and die in 169 CE, making this campaign one of his final major military actions.",
+      "key_figures": [
+        "Lucius Verus (co-emperor)",
+        "Marcus Aurelius (co-emperor)",
+        "Avidius Cassius (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Lucius Verus's military campaigns in Mesopotamia during 161\u2013166 CE are well-documented. The specific year 163 CE is within the confirmed period of his operations.",
+      "cross_references": [
+        "164-002 (Parthian War conclusion)",
+        "169-001 (Lucius Verus's death)"
+      ]
+    },
+    {
+      "id": "163-003",
+      "title": "Apuleius of Madauros writes The Golden Ass (approximate date)",
+      "region": "Roman Empire (North Africa)",
+      "coordinates_approx": "35.8, 6.1",
+      "category": "cultural",
+      "description": "The Roman author Apuleius of Madauros (in North Africa) composes *The Golden Ass* (*Metamorphoses*), a picaresque novel about a man transformed into a donkey and his adventures. The work is significant as one of the few surviving complete novels from antiquity and provides valuable insights into Roman provincial life, religious practices, and popular culture. The novel's treatment of the goddess Isis is particularly important for understanding religious syncretism in the Roman Empire.",
+      "key_figures": [
+        "Apuleius of Madauros (author, c. 125\u2013180 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Apuleius, The Golden Ass (surviving manuscript tradition)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biographical tradition in later sources",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Apuleius's floruit is well-established (mid-2nd century CE), but the precise date of *The Golden Ass* is uncertain. Scholars place it between 155\u2013180 CE; 163 is a conventional midpoint. The work survives intact.",
+      "cross_references": [
+        "165-003 (Lucian's True History, contemporary literary work)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The claim that the plague spread to Germanic populations is based on inference and later sources; contemporary Germanic sources do not exist. Some scholars dispute whether the plague actually reached barbarian populations or whether its impact on them was significant. The dating of Apuleius's *The Golden Ass* is highly uncertain; some scholars place it as late as 180 CE or even later.",
+  "historiographic_note": "Roman sources for 163 CE are moderate in detail, focused on military and political events. Chinese sources are sparse. The plague's impact is well-documented in medical and literary sources but may be exaggerated in later accounts. Parthian and Germanic perspectives are almost entirely absent. The year is well-documented for the Mediterranean world but poorly documented for most of the world.",
+  "graph_edges": [
+    {
+      "from": "163-001",
+      "to": "165-001",
+      "relation": "contemporary_with",
+      "note": "Plague spreads across the empire"
+    },
+    {
+      "from": "163-002",
+      "to": "164-002",
+      "relation": "contemporary_with",
+      "note": "Parthian War continues"
+    },
+    {
+      "from": "163-003",
+      "to": "concept: Roman novel",
+      "relation": "part_of",
+      "note": "Apuleius contributes to the development of the Roman novel"
+    }
+  ]
+}

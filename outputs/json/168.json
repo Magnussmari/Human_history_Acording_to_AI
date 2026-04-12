@@ -1,0 +1,126 @@
+{
+  "year": 168,
+  "year_label": "168 CE",
+  "era_context": "Marcus Aurelius's reign continues; the Marcomannic Wars are in their third year. The Antonine Plague remains active across the Roman Empire. In China, Emperor Lingdi ascends the throne (r. 168\u2013189 CE), beginning a period of severe court instability and eunuch dominance. The Parthian Empire remains Rome's primary eastern rival.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "India (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "168-001",
+      "title": "Emperor Lingdi ascends Eastern Han throne",
+      "region": "China, Eastern Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Lingdi (r. 168\u2013189 CE) ascends the throne at approximately age 12, following the death of Emperor Kangdi. His youth and inexperience create a power vacuum filled by eunuch factions, particularly the Ten Eunuchs. This succession marks the beginning of the most unstable period of the Eastern Han Dynasty, characterized by court factionalism, corruption, and the erosion of imperial authority. The reign sets the stage for the Yellow Turban Rebellion (184 CE) and the dynasty's collapse.",
+      "key_figures": [
+        "Emperor Lingdi (Eastern Han, r. 168\u2013189 CE)",
+        "The Ten Eunuchs (court faction)",
+        "Empress Dowager Dou (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi), compiled by Chen Shou (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Lingdi's accession in 168 CE is well-attested in Chinese historical sources, though written centuries later. The date is reliable.",
+      "cross_references": [
+        "184-001 (Yellow Turban Rebellion)",
+        "189-001 (Lingdi's death and succession crisis)"
+      ]
+    },
+    {
+      "id": "168-002",
+      "title": "Marcomannic Wars continue on Danube frontier",
+      "region": "Roman Empire, Danube frontier",
+      "coordinates_approx": "45.5, 20.0",
+      "category": "military",
+      "description": "Marcus Aurelius maintains military operations against Germanic and Sarmatian tribes along the Danube. The campaign is characterized by defensive consolidation and punitive expeditions. Specific battles are poorly dated, but the campaign's continuation is attested in historical sources.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Marcomannic Wars (166\u2013180 CE) are well-attested as a continuous campaign, but individual years are not clearly differentiated in surviving sources.",
+      "cross_references": [
+        "166-001 (War onset)",
+        "180-001 (War conclusion)"
+      ]
+    },
+    {
+      "id": "168-003",
+      "title": "Antonine Plague continues in Roman Empire",
+      "region": "Roman Empire (widespread)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The Antonine Plague continues its devastating sweep through the Roman Empire. Urban centers experience severe mortality. Contemporary sources describe overwhelming death rates and social disruption. The plague contributes to military recruitment difficulties and economic strain.",
+      "key_figures": [
+        "Galen of Pergamon (physician)",
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, On the Affected Parts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's continuation in 168 CE is attested in Galen's medical observations and historical sources.",
+      "cross_references": [
+        "165-001 (Plague onset)",
+        "180-001 (Plague subsides)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'Ten Eunuchs' as a discrete faction is a historiographic construct; eunuch influence in the Han court was more diffuse and fluctuating. Modern scholarship questions whether the Antonine Plague's mortality was as catastrophic as traditional sources suggest. The specific pathogen remains debated (smallpox, measles, or other).",
+  "historiographic_note": "Documentation for 168 CE is moderate. Emperor Lingdi's accession is well-attested in Chinese sources, though written centuries later. Roman sources (Cassius Dio, Historia Augusta) are retrospective and subject to narrative bias. The year 168 CE is a natural boundary in Chinese history (Lingdi's accession) but an arbitrary point in Roman history. Western-centric bias persists: Roman and Chinese sources dominate; Parthian, Indian, and African perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "168-001",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Lingdi's weak rule and eunuch dominance create conditions for Yellow Turban Rebellion"
+    },
+    {
+      "from": "168-002",
+      "to": "166-001",
+      "relation": "part_of",
+      "note": "Marcomannic Wars continue from their onset in 166 CE"
+    },
+    {
+      "from": "168-003",
+      "to": "165-001",
+      "relation": "part_of",
+      "note": "Antonine Plague continues from its onset in 165 CE"
+    }
+  ]
+}

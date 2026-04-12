@@ -1,0 +1,120 @@
+{
+  "year": 174,
+  "year_label": "174 CE",
+  "era_context": "Marcus Aurelius continues his reign during a period of military and political consolidation following the Avidius Cassius revolt. The Roman Empire is stabilizing its eastern provinces. In China, the Eastern Han Dynasty continues its decline amid factional strife. The Kushan Empire remains a major power in Central Asia. This year falls within the broader Antonine period of relative (if fragile) imperial stability.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Pre-Columbian Americas",
+    "Southeast Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "174-001",
+      "title": "Marcus Aurelius consolidates control in eastern provinces following Cassius revolt",
+      "region": "Roman Empire (Egypt, Syria, Mesopotamia)",
+      "coordinates_approx": "30.0,-25.0",
+      "category": "political",
+      "description": "In the aftermath of Avidius Cassius's failed rebellion, Marcus Aurelius reorganizes provincial administration in the East. He removes or replaces officials suspected of disloyalty, redistributes military commands, and reasserts direct imperial authority. The emperor's presence in the eastern provinces serves both as a show of strength and as an opportunity to address grievances and consolidate support among the provincial elite.",
+      "key_figures": [
+        "Marcus Aurelius (Roman emperor)",
+        "Provincial governors and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions and papyri from Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process of consolidation is well-attested; specific administrative changes within 174 CE are less precisely dated.",
+      "cross_references": [
+        "175-001",
+        "175-002"
+      ]
+    },
+    {
+      "id": "174-002",
+      "title": "Parthian Empire maintains stability under Vologases IV",
+      "region": "Parthian Empire (Mesopotamia, Persia, Central Asia)",
+      "coordinates_approx": "35.0,50.0",
+      "category": "political",
+      "description": "Vologases IV (r. 147\u2013191 CE) continues his reign as Parthian king, maintaining the empire's control over Mesopotamia and the Silk Road trade routes. The Parthian Empire remains Rome's primary rival in the East, though direct military conflict is limited during this period. The empire's stability supports continued trade and cultural exchange along the Silk Road.",
+      "key_figures": [
+        "Vologases IV (Parthian king)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Vologases IV's reign dates are well-established. The year 174 CE falls securely within his rule.",
+      "cross_references": []
+    },
+    {
+      "id": "174-003",
+      "title": "Eastern Han court continues factional struggles; regional warlords gain power",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "The Eastern Han court remains fractured between eunuch factions and scholar-officials. Regional military governors (jiedushi) increasingly exercise autonomous power, weakening central imperial authority. This decentralization of power accelerates the dynasty's decline and sets the stage for the warlord period that will follow the Yellow Turban Rebellion.",
+      "key_figures": [
+        "Emperor Kangxi (Eastern Han emperor)",
+        "Regional military governors"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend is well-documented; specific events within 174 CE are not precisely dated in surviving sources.",
+      "cross_references": [
+        "175-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's account of Marcus Aurelius's eastern consolidation contains some legendary elements and may conflate events from 175\u2013176 CE. Modern scholarship suggests the reorganization was more gradual and less dramatic than some ancient sources imply. The extent of Cassius's support in the eastern provinces may have been exaggerated by later sources seeking to emphasize the emperor's authority.",
+  "historiographic_note": "Documentation for 174 CE is moderate for the Roman Empire, with good evidence from inscriptions and coins. Chinese sources are less precise about individual years during this period of decline. The record remains heavily weighted toward elite political events. Economic and social developments are underrepresented. Non-Mediterranean and non-East Asian regions are largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "174-001",
+      "to": "175-001",
+      "relation": "caused_by",
+      "note": "Consolidation followed the Cassius revolt of 175 CE"
+    },
+    {
+      "from": "174-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Regional warlord autonomy contributed to the Yellow Turban Rebellion and Eastern Han collapse"
+    }
+  ]
+}

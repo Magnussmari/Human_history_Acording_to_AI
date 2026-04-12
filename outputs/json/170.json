@@ -1,0 +1,125 @@
+{
+  "year": 170,
+  "year_label": "170 CE",
+  "era_context": "The reign of Roman Emperor Marcus Aurelius (161\u2013180 CE), a period of Stoic philosophy and military consolidation. The Antonine Plague (165\u2013180 CE) continues to ravage the empire. In China, the Eastern Han Dynasty is in decline, with eunuch factions and regional warlords fragmenting central authority. The Parthian Empire remains Rome's primary eastern rival.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman frontier (sparse archaeological evidence for this specific year)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "170-001",
+      "title": "Marcus Aurelius campaigns on the Danube frontier",
+      "region": "Roman Empire, Danube frontier (modern-day Hungary, Serbia, Romania)",
+      "coordinates_approx": "45.5, 20.0",
+      "category": "military",
+      "description": "Marcus Aurelius continues his Marcomannic Wars against Germanic and Sarmatian tribes along the Danube. This year marks sustained military operations to contain incursions and stabilize the frontier. The campaign is documented in the Historia Augusta and contemporary sources, though specific battles are often conflated across years. The emperor's presence on the frontier reinforces Roman military discipline and strategy.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Cassius Dio (historian, contemporary observer)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Marcomannic Wars span 166\u2013180 CE; specific events within individual years are often poorly dated. This entry reflects the general campaign activity attested for the period, not a discrete event datable to 170 specifically.",
+      "cross_references": [
+        "165-001 (Parthian War, preceding conflict)",
+        "180-001 (End of Marcomannic Wars)"
+      ]
+    },
+    {
+      "id": "170-002",
+      "title": "Antonine Plague continues in Roman Empire",
+      "region": "Roman Empire (widespread)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The Antonine Plague (likely smallpox or measles, introduced via Parthian trade routes c. 165 CE) continues its devastating sweep through the empire. Mortality is particularly severe in urban centers and military camps. Contemporary sources report mass deaths, economic disruption, and labor shortages. The plague contributes to military recruitment difficulties and fiscal strain.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Galen of Pergamon (physician, contemporary observer)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, On the Affected Parts and other medical writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague is well-attested in contemporary medical and historical sources. Galen's descriptions are firsthand. Dating to specific years within the plague's span (165\u2013180) is approximate, but the plague's continuation in 170 is certain.",
+      "cross_references": [
+        "165-001 (Plague onset)",
+        "180-001 (Plague subsides)"
+      ]
+    },
+    {
+      "id": "170-003",
+      "title": "Eastern Han Dynasty fragmentation accelerates",
+      "region": "China, Eastern Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Eastern Han court at Luoyang faces mounting instability as eunuch factions (the Ten Eunuchs) consolidate power and regional warlords assert autonomy. Imperial authority weakens; provincial governors increasingly act independently. This period of decline sets the stage for the Yellow Turban Rebellion (184 CE) and the eventual collapse of the dynasty (220 CE).",
+      "key_figures": [
+        "Emperor Lingdi (Eastern Han, r. 168\u2013189 CE)",
+        "The Ten Eunuchs (court faction)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi), compiled by Chen Shou (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Han decline is well-documented, but specific events within individual years are often poorly dated in surviving sources. The year 170 falls within the documented period of eunuch dominance and regional fragmentation.",
+      "cross_references": [
+        "184-001 (Yellow Turban Rebellion)",
+        "220-001 (Formal end of Eastern Han)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific dating of individual Marcomannic War engagements to 170 CE is uncertain; modern scholarship treats the entire campaign (166\u2013180) as a continuous conflict with poorly differentiated annual events. The Antonine Plague's identification as smallpox or measles remains debated; some scholars propose other pathogens. The 'Ten Eunuchs' as a discrete faction is a historiographic construct; eunuch influence in the Han court was more diffuse and fluctuating than this label suggests.",
+  "historiographic_note": "Documentation for 170 CE is moderate but unevenly distributed. Roman sources (Cassius Dio, Historia Augusta) are relatively abundant but written decades or centuries after events, introducing narrative bias and conflation. Chinese sources are similarly retrospective compilations. The Antonine Plague is well-attested in medical and historical sources, but specific mortality figures are unreliable. The year 170 itself is not a natural boundary in any of these narratives; it is an arbitrary point in longer processes of military, epidemiological, and political change. Western-centric bias is present in the surviving record: Roman and Chinese sources dominate; Parthian, Indian, and African perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "170-001",
+      "to": "165-001",
+      "relation": "part_of",
+      "note": "Marcomannic Wars are part of the broader Roman military consolidation following the Parthian War"
+    },
+    {
+      "from": "170-002",
+      "to": "165-001",
+      "relation": "caused_by",
+      "note": "Antonine Plague introduced via Parthian trade routes during the Parthian War"
+    },
+    {
+      "from": "170-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Han fragmentation and eunuch dominance create conditions for Yellow Turban Rebellion"
+    }
+  ]
+}

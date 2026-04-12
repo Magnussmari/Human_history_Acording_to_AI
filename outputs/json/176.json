@@ -1,0 +1,89 @@
+{
+  "year": 176,
+  "year_label": "176 CE",
+  "era_context": "The fourth year of Commodus's reign. The Roman Empire is in a period of relative stability, though underlying tensions continue to build. The Antonine Plague has largely subsided. In China, the Eastern Han Dynasty is in its final decades of effective rule. The Kushan Empire remains dominant in Central Asia. This is a year of consolidation across the major empires, with no major documented crises.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe (beyond the Roman frontier)",
+    "Southeast Asia",
+    "Japan and Korea"
+  ],
+  "events": [
+    {
+      "id": "176-001",
+      "title": "Commodus's reign: continued administrative consolidation",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "In 176 CE, Commodus continues his pattern of administrative consolidation and reliance on a small circle of courtiers. The emperor's focus remains on pleasure and spectacle. The empire is stable and prosperous, and Commodus's erratic behavior has not yet become a major source of political instability. However, the underlying pattern of bypassing senatorial authority and concentrating power in the imperial household is establishing a precedent that will contribute to political instability in later years.",
+      "key_figures": [
+        "Commodus (Emperor)",
+        "Saoterus (chamberlain)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Commodus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 72",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Commodus's governance is well-attested. Specific events in 176 CE are not individually documented.",
+      "cross_references": [
+        "Follows from 177-001 (Commodus's consolidation continues)"
+      ]
+    },
+    {
+      "id": "176-002",
+      "title": "Eastern Han: provincial warlordism accelerates",
+      "region": "China (Eastern Han provinces)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "In 176 CE, the Eastern Han Dynasty's provincial administration continues to deteriorate. Provincial governors and military commanders consolidate independent power bases, exploiting the paralysis at the imperial court. Tax collection becomes increasingly irregular; central authority over the provinces weakens further. Banditry and peasant unrest continue to increase. The imperial court remains dominated by factional conflict between eunuchs and literati-officials. This decentralization of power is a direct precondition for the warlordism that will follow the Yellow Turban Rebellion (184 CE).",
+      "key_figures": [
+        "Emperor Lingdi (r. 168\u2013189 CE)",
+        "Provincial governors and military commanders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Modern scholarship (Rafe de Crespigny, A Biographical Dictionary of Later Han to the Three Kingdoms)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trajectory of provincial decentralization is well-documented. Specific events in 176 CE are not individually attested.",
+      "cross_references": [
+        "Follows from 177-002 (Yellow Turban Rebellion preconditions intensify)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's account of Commodus's early reign is heavily biased and sometimes fabricated; modern scholars treat it with caution. The specific dating of events in 176 CE is uncertain; many events assigned to this year are inferred from broader patterns rather than documented in contemporary sources.",
+  "historiographic_note": "The year 176 CE is sparsely documented. Specific events are rarely attested in surviving sources; the historical record for this year consists largely of inferences from broader patterns and later compilations. The Historia Augusta and Cassius Dio remain the primary sources for Roman history, both with significant limitations. Chinese sources are similarly late compilations. The historical record is heavily biased toward elite political events; the lived experience of ordinary people is largely invisible. Sub-Saharan Africa, Mesoamerica, northern Europe, Southeast Asia, Japan, and Korea are essentially absent from the surviving written record.",
+  "graph_edges": [
+    {
+      "from": "176-001",
+      "to": "177-001",
+      "relation": "part_of",
+      "note": "Commodus's consolidation in 176 CE is part of the ongoing process that began in 177 CE."
+    },
+    {
+      "from": "176-002",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "The accelerating provincial warlordism in 176 CE directly contributes to the conditions that precipitate the Yellow Turban Rebellion in 184 CE."
+    }
+  ]
+}

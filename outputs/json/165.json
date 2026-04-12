@@ -1,0 +1,125 @@
+{
+  "year": 165,
+  "year_label": "165 CE",
+  "era_context": "The Roman Empire under Marcus Aurelius (161\u2013180 CE) faces the Antonine Plague, a devastating pandemic sweeping through the Mediterranean world. The Parthian War (161\u2013166 CE) has recently concluded with Roman victory in Mesopotamia. This is the height of the Pax Romana, yet internal and external pressures are mounting. In China, the Han Dynasty is in terminal decline; the Yellow Turban Rebellion will erupt within two decades.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record for this specific year)",
+    "Interior of the Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "165-001",
+      "title": "Antonine Plague reaches peak mortality in Rome and the Mediterranean",
+      "region": "Roman Empire (Mediterranean basin)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The plague (likely smallpox or measles, introduced via the Parthian War) reaches its height in Rome and surrounding provinces. Mortality rates in urban centres are catastrophic; contemporary sources describe mass graves and the breakdown of normal civic functions. The plague will kill an estimated 5\u201310 million people across the empire over the next decade. Marcus Aurelius himself contracts the disease but survives. The pandemic fundamentally disrupts military recruitment, economic production, and social stability.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Galen (physician, contemporary observer)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, On the Causes of Diseases and other medical writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta (later compilation, 4th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (written early 3rd century, describes events)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's occurrence and severity are attested in multiple contemporary and near-contemporary sources. Dating to 165\u2013180 CE is secure; the specific year 165 marks the documented peak in Rome.",
+      "cross_references": [
+        "161-001 (Parthian War, source of plague)",
+        "166-001 (continued plague mortality)"
+      ]
+    },
+    {
+      "id": "165-002",
+      "title": "Roman embassy to the Han Dynasty court",
+      "region": "Roman Empire and Han China (diplomatic contact)",
+      "coordinates_approx": null,
+      "category": "exploration",
+      "description": "A Roman embassy, possibly led by a merchant or envoy named Marcus (details disputed), reaches the Han court at Luoyang. This represents one of the earliest documented direct contacts between the Roman and Chinese empires. The embassy exchanges gifts and establishes preliminary diplomatic relations, though sustained trade and communication remain limited. The event is significant for demonstrating long-distance awareness and the beginning of the Silk Road's formal diplomatic phase.",
+      "key_figures": [
+        "Marcus (Roman envoy, identity disputed)",
+        "Emperor Huan of Han (r. 146\u2013168 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han Dynasty), compiled 5th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (mentions embassy)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The embassy is attested in Chinese sources (Hou Hanshu), but the date is uncertain\u2014some scholars place it in 166 CE. The identity of the Roman envoy is disputed; 'Marcus' may be a Romanisation or corruption of another name. The event is historically probable but details are sparse.",
+      "cross_references": [
+        "166-002 (possible alternative dating of same embassy)"
+      ]
+    },
+    {
+      "id": "165-003",
+      "title": "Lucian of Samosata writes True History (approximate date)",
+      "region": "Roman Empire (Syria/Anatolia)",
+      "coordinates_approx": "35.8, 36.7",
+      "category": "cultural",
+      "description": "The Greek satirist and rhetorician Lucian of Samosata composes his *True History* (*Vera Historia*), a proto-science-fiction narrative featuring space travel, alien life, and interplanetary warfare. Though written as satire and parody of credulous travel narratives, the work is significant as an early example of imaginative speculation about worlds beyond Earth. It survives as a major work of Greco-Roman literature and demonstrates the intellectual playfulness of the Second Sophistic period.",
+      "key_figures": [
+        "Lucian of Samosata (author, c. 125\u2013180 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Lucian, True History (surviving manuscript tradition)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biographical tradition in later Greek sources",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Lucian's floruit is well-established (mid-2nd century CE), but the precise date of *True History* is uncertain. Scholars place it between 160\u2013180 CE; 165 is a conventional midpoint. The work survives intact, so its existence is confirmed, but the exact year of composition is not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating and identity of the Roman embassy to Han China is disputed. Some scholars argue the embassy occurred in 166 CE, not 165 CE, or that multiple embassies occurred in this period and have been conflated in later sources. The name 'Marcus' for the envoy is uncertain and may reflect later Romanisation rather than the envoy's actual identity. Additionally, the significance of this embassy has been overstated in popular histories; it did not immediately establish sustained diplomatic relations or trade, and the Han court's response was largely ceremonial.",
+  "historiographic_note": "The year 165 CE is well-documented for the Roman Empire due to the prominence of the Antonine Plague in literary sources and the detailed medical observations of Galen. However, sources are heavily weighted toward the Mediterranean world and the Roman perspective. Chinese sources for this year are sparse and often compiled centuries later. Sub-Saharan Africa, the Indian subcontinent, and the Americas have no written records for this specific year. The surviving sources reflect elite, urban perspectives; rural and non-literate populations are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "165-001",
+      "to": "161-001",
+      "relation": "caused_by",
+      "note": "The Antonine Plague was introduced to the Roman Empire via the Parthian War (161\u2013166 CE)"
+    },
+    {
+      "from": "165-002",
+      "to": "concept: Silk Road",
+      "relation": "part_of",
+      "note": "Early diplomatic contact along emerging long-distance trade routes"
+    },
+    {
+      "from": "165-003",
+      "to": "concept: Second Sophistic",
+      "relation": "part_of",
+      "note": "Lucian exemplifies the rhetorical and literary culture of the Second Sophistic period"
+    }
+  ]
+}

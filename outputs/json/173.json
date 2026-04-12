@@ -1,0 +1,121 @@
+{
+  "year": 173,
+  "year_label": "173 CE",
+  "era_context": "Marcus Aurelius is in the eastern provinces consolidating imperial authority. The Roman Empire is in a period of relative stability, though military pressures persist on multiple frontiers. In China, the Eastern Han Dynasty continues its decline. The Kushan Empire remains dominant in Central Asia. This year falls within the broader Antonine period, characterized by philosophical emperor rule and military pragmatism.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Pre-Columbian Americas",
+    "Southeast Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "173-001",
+      "title": "Marcus Aurelius travels through Syria and Egypt, consolidating provincial loyalty",
+      "region": "Roman Empire (Syria, Egypt)",
+      "coordinates_approx": "30.0,-25.0",
+      "category": "political",
+      "description": "Marcus Aurelius continues his eastern tour, visiting major cities in Syria and Egypt. His presence serves to reassert imperial authority and address provincial concerns following the Cassius revolt. The emperor's travels are documented through inscriptions and coins issued in his honor. This journey reinforces the connection between the emperor and the provinces while allowing him to gather intelligence on provincial administration and loyalty.",
+      "key_figures": [
+        "Marcus Aurelius (Roman emperor)",
+        "Lucilla (daughter, accompanying the emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Inscriptions from Syria and Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Coins issued during the eastern tour",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general itinerary of Marcus Aurelius's eastern tour is well-attested. Specific locations visited in 173 CE are less precisely dated.",
+      "cross_references": [
+        "175-002",
+        "174-001"
+      ]
+    },
+    {
+      "id": "173-002",
+      "title": "Kushan Empire under Kanishka II maintains Silk Road trade dominance",
+      "region": "Kushan Empire (Central Asia, northern India)",
+      "coordinates_approx": "35.0,70.0",
+      "category": "economic",
+      "description": "The Kushan Empire, under Kanishka II (r. 160\u2013190 CE), continues to dominate Central Asian trade routes and the Silk Road. The empire's control of key trade nodes generates significant wealth and facilitates cultural and religious exchange between East and West. Kushan coins and inscriptions from this period attest to the empire's prosperity and cosmopolitan character, blending Greek, Persian, and Indian cultural elements.",
+      "key_figures": [
+        "Kanishka II (Kushan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Kushan coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Kanishka II's reign is well-established through numismatic and epigraphic evidence. The year 173 CE falls securely within his rule.",
+      "cross_references": []
+    },
+    {
+      "id": "173-003",
+      "title": "Eastern Han Dynasty experiences continued administrative decline",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "35.0,110.0",
+      "category": "political",
+      "description": "The Eastern Han court continues to be plagued by factional strife between eunuchs and scholar-officials. Central authority weakens as regional military governors consolidate power. The imperial treasury is strained by military expenditures and administrative inefficiency. This period of decline accelerates the dynasty's trajectory toward collapse, which will occur within two decades.",
+      "key_figures": [
+        "Emperor Kangxi (Eastern Han emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of decline is well-documented. Specific events within 173 CE are not precisely dated.",
+      "cross_references": [
+        "174-003",
+        "175-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise itinerary of Marcus Aurelius's eastern tour is uncertain; ancient sources do not provide a detailed day-by-day account. Some scholars debate whether the emperor visited all the locations traditionally attributed to him. The significance of the tour may have been exaggerated by later sources seeking to emphasize imperial authority.",
+  "historiographic_note": "Documentation for 173 CE is moderate for the Roman Empire, with good epigraphic and numismatic evidence. Chinese sources are less precise about individual years during this period. The record is heavily weighted toward elite political and military events. Economic developments (particularly trade) are better documented for the Kushan Empire than for other regions. Sub-Saharan Africa, Northern Europe, and the Americas remain absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "173-001",
+      "to": "174-001",
+      "relation": "part_of",
+      "note": "Part of Marcus Aurelius's broader consolidation of eastern provinces"
+    },
+    {
+      "from": "173-002",
+      "to": "173-001",
+      "relation": "contemporary_with",
+      "note": "Kushan trade dominance and Roman eastern consolidation occurred simultaneously"
+    }
+  ]
+}

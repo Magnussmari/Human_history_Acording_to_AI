@@ -1,0 +1,133 @@
+{
+  "year": 164,
+  "year_label": "164 CE",
+  "era_context": "The Antonine Plague continues to ravage the Roman Empire; Marcus Aurelius is actively campaigning and writing his philosophical meditations. The Parthian War is concluding. In China, the Han Dynasty is weakening under Emperor Huan; factional conflicts between eunuchs and scholar-officials intensify. The Jewish Bar Kokhba Revolt aftermath has settled into uneasy Roman control of Judaea.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Interior of the Americas",
+    "Southeast Asia (sparse written records)"
+  ],
+  "events": [
+    {
+      "id": "164-001",
+      "title": "Antonine Plague continues; mortality peaks in military camps",
+      "region": "Roman Empire (especially military frontier zones)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The plague continues its devastating course, with particularly high mortality among Roman legions stationed on the Parthian frontier and along the Danube. Military recruitment becomes difficult; the empire begins to rely more heavily on barbarian foederati (allied troops) to maintain frontier defences. The plague's impact on military strength will have long-term strategic consequences for Roman security.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Lucius Verus (co-emperor, d. 169 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, medical writings and observations",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's continuation is well-attested. The specific impact on military camps is documented in Galen and later military histories.",
+      "cross_references": [
+        "165-001 (plague peak in Rome)",
+        "166-001 (plague aftermath)"
+      ]
+    },
+    {
+      "id": "164-002",
+      "title": "Parthian War concludes; Roman forces withdraw from Mesopotamia",
+      "region": "Mesopotamia and the Parthian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "The Parthian War (161\u2013166 CE), initiated by Parthian King Vologases IV's invasion of Armenia, concludes with a Roman victory. Roman forces under Avidius Cassius have captured Ctesiphon (the Parthian capital) and secured Roman control of Mesopotamia and Armenia. However, the plague's spread through the army forces a Roman withdrawal and the establishment of a negotiated peace. The war is costly in lives and resources, and the plague's introduction to the Roman world is a long-term consequence.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Lucius Verus (co-emperor, military commander)",
+        "Avidius Cassius (Roman general)",
+        "Vologases IV (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian sources (fragmentary, via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Parthian War's conclusion is well-documented in Roman sources. The date of 164\u2013166 CE is secure; 164 marks the final phase of Roman withdrawal.",
+      "cross_references": [
+        "161-001 (war begins)",
+        "165-001 (plague spreads)"
+      ]
+    },
+    {
+      "id": "164-003",
+      "title": "Han Dynasty court purges eunuch faction; scholar-officials gain temporary power",
+      "region": "Han China (capital: Luoyang)",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "A factional struggle within the Han court results in a temporary purge of eunuch officials by scholar-bureaucrats. However, the purge is incomplete and short-lived; eunuchs retain significant power. This conflict reflects the deep institutional decay of the Han Dynasty, as the balance between imperial authority, eunuch influence, and scholar-official power becomes increasingly unstable. Within two decades, these factional conflicts will contribute to the dynasty's collapse.",
+      "key_figures": [
+        "Emperor Huan of Han (r. 146\u2013168 CE)",
+        "Eunuch faction (names disputed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, 11th century compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Factional conflicts in the Han court during this period are well-attested, but the specific dating and details of individual purges are often uncertain. Chinese sources compiled centuries later may conflate or misdate events. The general trend is clear; the specific year is approximate.",
+      "cross_references": [
+        "166-003 (continued factional instability)",
+        "184-001 (Yellow Turban Rebellion, consequence of Han decay)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Parthian War's conclusion is sometimes placed in 166 CE rather than 164 CE. Some sources suggest the war continued in a reduced capacity beyond 166 CE. The significance of the Roman victory is also disputed; some scholars argue that the Parthian Empire recovered quickly and that Roman gains were temporary and strategically limited. The Han court purge of 164 CE is poorly documented; later sources may have invented or misplaced this event.",
+  "historiographic_note": "Roman sources for 164 CE are reasonably detailed, though heavily focused on military and political elites. Chinese sources are sparse and compiled centuries after the events. The plague's impact is well-documented in medical and literary sources but may be exaggerated in later accounts. Parthian perspectives are almost entirely lost; we see the war only through Roman eyes. The year is well-documented for the Mediterranean world but poorly documented for Asia, Africa, and the Americas.",
+  "graph_edges": [
+    {
+      "from": "164-001",
+      "to": "165-001",
+      "relation": "contemporary_with",
+      "note": "Plague mortality continues across the empire"
+    },
+    {
+      "from": "164-002",
+      "to": "161-001",
+      "relation": "led_to",
+      "note": "Conclusion of the Parthian War initiated in 161 CE"
+    },
+    {
+      "from": "164-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Han factional instability contributes to the conditions leading to the Yellow Turban Rebellion"
+    }
+  ]
+}

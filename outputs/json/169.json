@@ -1,0 +1,125 @@
+{
+  "year": 169,
+  "year_label": "169 CE",
+  "era_context": "Continuation of Marcus Aurelius's reign and the Marcomannic Wars. The Antonine Plague remains active. In China, the Eastern Han Dynasty continues its decline under Emperor Lingdi. The Parthian Empire maintains its eastern frontier against Rome.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "India (limited contemporary written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "169-001",
+      "title": "Marcus Aurelius continues Danube campaigns",
+      "region": "Roman Empire, Danube frontier",
+      "coordinates_approx": "45.5, 20.0",
+      "category": "military",
+      "description": "Marcus Aurelius maintains military pressure on Germanic and Sarmatian tribes along the Danube. The emperor's military strategy focuses on defensive consolidation and punitive expeditions. Specific battles are poorly dated in surviving sources, but the campaign's continuation is attested in historical chronicles.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Marcomannic Wars (166\u2013180 CE) are well-attested as a continuous campaign, but individual years are not clearly differentiated in surviving sources.",
+      "cross_references": [
+        "170-001 (Preceding year's campaign)",
+        "180-001 (End of wars)"
+      ]
+    },
+    {
+      "id": "169-002",
+      "title": "Antonine Plague mortality peaks in urban centers",
+      "region": "Roman Empire (widespread, especially cities)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The Antonine Plague reaches peak mortality in major urban centers including Rome, Alexandria, and Antioch. Contemporary sources describe overwhelming death rates, overwhelmed burial practices, and social disruption. Galen's medical observations from this period provide detailed descriptions of symptoms and mortality patterns.",
+      "key_figures": [
+        "Galen of Pergamon (physician)",
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, On the Affected Parts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Galen's firsthand medical observations confirm the plague's severity in 169 CE. The specific year is attested in his writings.",
+      "cross_references": [
+        "170-002 (Plague continuation)",
+        "165-001 (Plague onset)"
+      ]
+    },
+    {
+      "id": "169-003",
+      "title": "Eastern Han court instability under Emperor Lingdi",
+      "region": "China, Eastern Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Lingdi's reign is marked by increasing eunuch influence and court factionalism. Regional governors exercise growing autonomy. The imperial treasury is depleted by military expenditures and plague-related disruptions. This year represents a continuation of the Han Dynasty's structural decline.",
+      "key_figures": [
+        "Emperor Lingdi (Eastern Han, r. 168\u2013189 CE)",
+        "The Ten Eunuchs (court faction)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi), compiled by Chen Shou (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Han decline is well-documented, but specific events within 169 CE are not clearly dated in surviving sources.",
+      "cross_references": [
+        "170-003 (Preceding year's political situation)",
+        "184-001 (Yellow Turban Rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The identification of the Antonine Plague as a specific pathogen (smallpox, measles, or other) remains debated among modern scholars. Some recent scholarship questions whether the plague's mortality was as catastrophic as traditional sources suggest, noting that population recovery was relatively rapid. The 'Ten Eunuchs' as a discrete faction is a historiographic construct; eunuch influence in the Han court was more fluid and less organized than this label implies.",
+  "historiographic_note": "Documentation for 169 CE is moderate but heavily dependent on retrospective sources written decades or centuries later. Roman sources (Cassius Dio, Historia Augusta) are subject to narrative bias and conflation of events across years. Galen's medical observations are valuable primary evidence but are focused on symptomatology rather than epidemiological precision. Chinese sources are similarly retrospective. The year 169 CE is not a natural boundary in any historical narrative; it is an arbitrary point in longer processes. Western-centric bias persists: Roman and Chinese sources dominate; Parthian, Indian, and African perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "169-001",
+      "to": "170-001",
+      "relation": "contemporary_with",
+      "note": "Marcomannic Wars continue across both years"
+    },
+    {
+      "from": "169-002",
+      "to": "170-002",
+      "relation": "contemporary_with",
+      "note": "Antonine Plague continues across both years"
+    },
+    {
+      "from": "169-003",
+      "to": "170-003",
+      "relation": "contemporary_with",
+      "note": "Han Dynasty decline continues across both years"
+    }
+  ]
+}

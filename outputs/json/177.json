@@ -1,0 +1,89 @@
+{
+  "year": 177,
+  "year_label": "177 CE",
+  "era_context": "The third year of Commodus's reign. The Roman Empire is in a period of relative stability, though underlying tensions are building. The Antonine Plague has largely subsided. In China, the Eastern Han Dynasty continues its decline. The Kushan Empire remains dominant in Central Asia. This is a year of consolidation and transition across the major empires, with no major documented crises.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe (beyond the Roman frontier)",
+    "Southeast Asia",
+    "Japan and Korea"
+  ],
+  "events": [
+    {
+      "id": "177-001",
+      "title": "Commodus's reign: administrative consolidation continues",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "In 177 CE, Commodus continues his pattern of administrative consolidation, relying on a small circle of courtiers and bypassing traditional senatorial channels. The emperor's focus remains on pleasure and spectacle rather than military or administrative affairs. The Historia Augusta records that Commodus is increasingly interested in gladiatorial combat and other entertainments, a pattern that will intensify in later years. However, in 177 CE, the empire remains stable and prosperous, and Commodus's erratic behavior has not yet become a major source of political instability.",
+      "key_figures": [
+        "Commodus (Emperor)",
+        "Saoterus (chamberlain)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Commodus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 72",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Commodus's governance is well-attested. Specific events in 177 CE are not individually documented; the year is assigned as a point in the ongoing consolidation by convention.",
+      "cross_references": [
+        "Follows from 178-001 (Commodus's consolidation continues)"
+      ]
+    },
+    {
+      "id": "177-002",
+      "title": "Eastern Han: Yellow Turban Rebellion preconditions intensify",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "In 177 CE, the preconditions for the Yellow Turban Rebellion (184 CE) continue to intensify. Peasant unrest, banditry, and provincial decentralization are accelerating. The imperial court remains paralyzed by factional conflict between eunuchs and literati-officials. Tax collection is irregular; central authority over the provinces continues to weaken. The Daoist religious movement, which will provide the ideological framework for the Yellow Turban Rebellion, is gaining followers among the peasantry. However, the rebellion itself is still seven years away.",
+      "key_figures": [
+        "Emperor Lingdi (r. 168\u2013189 CE)",
+        "Zhang Jue (Daoist religious leader; not yet prominent in 177 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Modern scholarship (Rafe de Crespigny, A Biographical Dictionary of Later Han to the Three Kingdoms)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trajectory of Eastern Han decline is well-documented. Specific events in 177 CE are not individually attested; the year is assigned as a point in the escalating crisis by convention.",
+      "cross_references": [
+        "Follows from 178-003 (Eastern Han provincial decentralization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's account of Commodus's early reign is heavily biased and sometimes fabricated; modern scholars treat it with caution. The specific dating of events in 177 CE is uncertain; many events assigned to this year are inferred from broader patterns rather than documented in contemporary sources. The Yellow Turban Rebellion's preconditions are well-documented in retrospect, but the specific state of affairs in 177 CE is not precisely documented.",
+  "historiographic_note": "The year 177 CE is sparsely documented. Specific events are rarely attested in surviving sources; the historical record for this year consists largely of inferences from broader patterns and later compilations. The Historia Augusta and Cassius Dio remain the primary sources for Roman history, both with significant limitations. Chinese sources are similarly late compilations. The historical record is heavily biased toward elite political events; the lived experience of ordinary people is largely invisible. Sub-Saharan Africa, Mesoamerica, northern Europe, Southeast Asia, Japan, and Korea are essentially absent from the surviving written record.",
+  "graph_edges": [
+    {
+      "from": "177-001",
+      "to": "178-001",
+      "relation": "part_of",
+      "note": "Commodus's consolidation in 177 CE is part of the ongoing process that began in 178 CE."
+    },
+    {
+      "from": "177-002",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "The intensifying preconditions for the Yellow Turban Rebellion in 177 CE directly contribute to the rebellion's outbreak in 184 CE."
+    }
+  ]
+}

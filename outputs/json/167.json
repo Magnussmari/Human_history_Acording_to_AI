@@ -1,0 +1,126 @@
+{
+  "year": 167,
+  "year_label": "167 CE",
+  "era_context": "Marcus Aurelius's reign continues; the Marcomannic Wars are in their second year. The Antonine Plague is active across the Roman Empire. In China, the Eastern Han Dynasty is in the early years of Emperor Lingdi's reign, marked by eunuch dominance and court instability. The Parthian Empire remains Rome's primary eastern rival.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "India (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "167-001",
+      "title": "Marcomannic Wars intensify on Danube frontier",
+      "region": "Roman Empire, Danube frontier",
+      "coordinates_approx": "45.5, 20.0",
+      "category": "military",
+      "description": "Marcus Aurelius intensifies military operations against Germanic and Sarmatian tribes along the Danube. The campaign is characterized by large-scale military mobilization and defensive consolidation. Specific battles are poorly dated, but the campaign's intensity is attested in historical sources. The emperor's personal presence on the frontier reinforces Roman military discipline.",
+      "key_figures": [
+        "Marcus Aurelius (Roman Emperor)",
+        "Lucius Verus (co-emperor, d. 169 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Marcus Aurelius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Marcomannic Wars (166\u2013180 CE) are well-attested as a continuous campaign, but individual years are not clearly differentiated in surviving sources.",
+      "cross_references": [
+        "166-001 (War onset)",
+        "180-001 (War conclusion)"
+      ]
+    },
+    {
+      "id": "167-002",
+      "title": "Antonine Plague spreads through Roman military",
+      "region": "Roman Empire, particularly military camps",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "demographic",
+      "description": "The Antonine Plague spreads rapidly through Roman military camps along the Danube and throughout the empire. Military recruitment becomes difficult due to high mortality. Contemporary sources describe severe impact on military effectiveness and morale. The plague contributes to the empire's military and economic strain.",
+      "key_figures": [
+        "Galen of Pergamon (physician)",
+        "Marcus Aurelius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Galen, On the Affected Parts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 71",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The plague's impact on Roman military is attested in Galen's observations and historical sources.",
+      "cross_references": [
+        "165-001 (Plague onset)",
+        "180-001 (Plague subsides)"
+      ]
+    },
+    {
+      "id": "167-003",
+      "title": "Eastern Han court factionalism under Emperor Lingdi",
+      "region": "China, Eastern Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Lingdi's early reign is characterized by intense court factionalism between eunuch factions and scholar-officials. The Ten Eunuchs consolidate power, marginalizing traditional bureaucratic authority. Regional governors exercise growing autonomy. This period of instability sets the stage for future crises.",
+      "key_figures": [
+        "Emperor Lingdi (Eastern Han, r. 168\u2013189 CE)",
+        "The Ten Eunuchs (court faction)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi), compiled by Chen Shou (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Han decline is well-documented, but specific events within 167 CE are not clearly dated in surviving sources.",
+      "cross_references": [
+        "168-001 (Lingdi's accession)",
+        "184-001 (Yellow Turban Rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'Ten Eunuchs' as a discrete faction is a historiographic construct; eunuch influence in the Han court was more diffuse and fluctuating. Modern scholarship questions whether the Antonine Plague's mortality was as catastrophic as traditional sources suggest. The specific pathogen remains debated.",
+  "historiographic_note": "Documentation for 167 CE is moderate but heavily dependent on retrospective sources. Roman sources (Cassius Dio, Historia Augusta) are written decades or centuries later and subject to narrative bias. Chinese sources are similarly retrospective. The year 167 CE is an arbitrary point in both Roman and Chinese historical narratives. Western-centric bias persists: Roman and Chinese sources dominate; Parthian, Indian, and African perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "167-001",
+      "to": "166-001",
+      "relation": "part_of",
+      "note": "Marcomannic Wars continue from their onset in 166 CE"
+    },
+    {
+      "from": "167-002",
+      "to": "165-001",
+      "relation": "part_of",
+      "note": "Antonine Plague continues from its onset in 165 CE"
+    },
+    {
+      "from": "167-003",
+      "to": "168-001",
+      "relation": "contemporary_with",
+      "note": "Han court instability continues under Lingdi"
+    }
+  ]
+}
