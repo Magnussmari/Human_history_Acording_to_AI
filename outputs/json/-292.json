@@ -1,0 +1,120 @@
+{
+  "year": -292,
+  "year_label": "292 BCE",
+  "era_context": "Early Hellenistic period, with the three major kingdoms (Ptolemaic Egypt, Seleucid Syria, Macedon) firmly established. Rome is consolidating its control over Italy. The Mauryan Empire is expanding in India. This is a period of relative stability and cultural flourishing in the Mediterranean world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-292-001",
+      "title": "Seleucus I consolidates eastern territories",
+      "region": "Seleucid Empire, Mesopotamia, Syria, Anatolia",
+      "coordinates_approx": "35.0,40.0",
+      "category": "political",
+      "description": "Seleucus I Nicator continues to consolidate his vast eastern empire, which stretches from Anatolia to India. By 292 BCE, the Seleucid administrative system is well-established, with satrapies governing distant provinces. Seleucus maintains control through a combination of military garrisons, diplomatic alliances, and the adoption of local administrative practices. The empire is prosperous, with trade routes connecting east and west. However, the sheer size of the empire makes it difficult to govern, and centrifugal forces are beginning to emerge.",
+      "key_figures": [
+        "Seleucus I Nicator (King of the Seleucid Empire)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Seleucus I's empire is well-attested, though specific events for 292 BCE are not documented. The general trajectory is clear.",
+      "cross_references": [
+        "Follows from -301-001 (Battle of Ipsus)"
+      ]
+    },
+    {
+      "id": "-292-002",
+      "title": "Greek city-states navigate Macedonian hegemony",
+      "region": "Greece, Athens, Sparta, Corinth",
+      "coordinates_approx": "38.0,23.0",
+      "category": "political",
+      "description": "The Greek city-states, particularly Athens and Sparta, continue to operate within the framework of Macedonian hegemony established after Alexander's death. By 292 BCE, the city-states have largely accepted their subordinate status, though they maintain internal autonomy and cultural independence. Athens, in particular, is experiencing a cultural renaissance under the patronage of wealthy citizens and the influence of Hellenistic philosophy. The Stoic school, founded by Zeno of Citium, is gaining followers in Athens.",
+      "key_figures": [
+        "Zeno of Citium (Stoic philosopher)",
+        "Antigonus II Gonatas (Macedonian overlord)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, various works",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political situation is well-attested, though specific events for 292 BCE are not documented.",
+      "cross_references": [
+        "Contemporary with -292-001 (Seleucus I's consolidation)"
+      ]
+    },
+    {
+      "id": "-292-003",
+      "title": "Roman military expansion and infrastructure development",
+      "region": "Italy, Rome",
+      "coordinates_approx": "41.9,12.5",
+      "category": "technological",
+      "description": "Following the conclusion of the Third Samnite War, Rome is investing in infrastructure and military development. The construction of roads, aqueducts, and fortifications is accelerating. The Roman military system is being refined and standardized. By 292 BCE, Rome has the most advanced military infrastructure in the Mediterranean world, which will prove crucial in its later conflicts with Carthage and the Hellenistic kingdoms.",
+      "key_figures": [
+        "Manius Curius Dentatus (Roman general and censor)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab Urbe Condita",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Frontinus, Strategemata",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Roman infrastructure development is well-attested, though specific projects for 292 BCE are not documented.",
+      "cross_references": [
+        "Follows from -291-001 (Third Samnite War concludes)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Seleucus I's empire as a unified, stable entity is complicated by the fact that it was already beginning to fragment by this period. The Seleucid Empire's size made it inherently unstable, and centrifugal forces were stronger than traditional accounts suggest. Additionally, the Greek city-states' acceptance of Macedonian hegemony was not as complete or willing as sometimes portrayed; resistance and resentment continued throughout this period.",
+  "historiographic_note": "The historical record for 292 BCE remains heavily weighted toward the Mediterranean world. The sources are almost entirely later compilations, and specific events for this year are rarely documented. The record is biased toward political and military history; economic, social, and cultural developments are underrepresented. The perspective is predominantly Greek and Roman; non-Mediterranean civilizations are largely absent from the surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-292-001",
+      "to": "-301-001",
+      "relation": "caused_by",
+      "note": "Seleucus I's consolidation follows from the Battle of Ipsus"
+    },
+    {
+      "from": "-292-003",
+      "to": "-280-001",
+      "relation": "led_to",
+      "note": "Roman infrastructure development supports later military campaigns"
+    }
+  ]
+}

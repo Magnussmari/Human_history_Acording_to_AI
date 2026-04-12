@@ -1,0 +1,123 @@
+{
+  "year": -291,
+  "year_label": "291 BCE",
+  "era_context": "Continuation of the early Hellenistic period. The three major Hellenistic kingdoms are consolidating their power. Rome is completing its conquest of Italy. The Mauryan Empire is at its height. This is a period of relative stability after the tumultuous Diadochi wars, though regional conflicts continue.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-291-001",
+      "title": "Third Samnite War concludes with Roman victory",
+      "region": "Central Italy, Samnium",
+      "coordinates_approx": "41.5,14.5",
+      "category": "military",
+      "description": "The Third Samnite War, which began in 298 BCE, concludes with a decisive Roman victory. The final battle at Sentinum (295 BCE) or the subsequent campaigns in 291 BCE establish Roman supremacy over the Samnites and their allies. This victory consolidates Roman control over the Italian peninsula and eliminates the last major internal threat to Roman hegemony. The Samnites are incorporated into the Roman system as allies or subjects, and Rome's military reputation is greatly enhanced.",
+      "key_figures": [
+        "Manius Curius Dentatus (Roman consul and general)",
+        "Gaius Fabricius Luscinus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab Urbe Condita (Book 10)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The war's conclusion is dated variously to 290\u2013291 BCE in different sources. The exact year is uncertain by \u00b11 year.",
+      "cross_references": [
+        "Follows from -298-001 (Third Samnite War begins)",
+        "Precedes -280-001 (Pyrrhus invades Italy)"
+      ]
+    },
+    {
+      "id": "-291-002",
+      "title": "Antigonus II Gonatas secures Macedonian throne",
+      "region": "Macedon, Greece",
+      "coordinates_approx": "40.5,21.5",
+      "category": "political",
+      "description": "Antigonus II Gonatas, son of Demetrius Poliorcetes, consolidates his control over Macedon and parts of Greece. After his father's death in 283 BCE and a period of instability, Antigonus has established himself as the legitimate king. By 291 BCE, his position is secure, and he is recognized as a major Hellenistic power. He maintains control through a combination of military strength and diplomatic alliances with other Greek city-states.",
+      "key_figures": [
+        "Antigonus II Gonatas (King of Macedon)",
+        "Demetrius Poliorcetes (Antigonus's father, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Antigonus II's power is well-attested, though the exact timeline is somewhat uncertain. By 291 BCE, he is clearly in control.",
+      "cross_references": [
+        "Follows from -283-001 (Demetrius Poliorcetes's death)"
+      ]
+    },
+    {
+      "id": "-291-003",
+      "title": "Ptolemy II Philadelphus rules Egypt",
+      "region": "Egypt, Alexandria",
+      "coordinates_approx": "31.2,29.9",
+      "category": "political",
+      "description": "Ptolemy II Philadelphus continues his reign over Egypt, which he shares with his father Ptolemy I Soter until the latter's death around 283 BCE. By 291 BCE, Ptolemy II is the sole ruler and is consolidating his power. He is known for his cultural patronage, particularly of the Library and Museum of Alexandria, and for his administrative reforms. Egypt under Ptolemy II is prosperous and stable, serving as a model of Hellenistic governance.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (Pharaoh of Egypt)",
+        "Ptolemy I Soter (Ptolemy II's father, deceased by this time)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy II's reign is well-documented through Egyptian papyri and Greek sources. The dates are secure.",
+      "cross_references": [
+        "Follows from -283-001 (Ptolemy I's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Third Samnite War's conclusion is disputed, with some sources placing it in 290 BCE and others in 291 BCE. The significance of this war in Roman history is sometimes overstated; while it was important, it was not as transformative as the later Punic Wars. Additionally, the traditional narrative of Roman inevitability in Italy is complicated by the fact that Rome faced serious challenges from Pyrrhus just a decade later.",
+  "historiographic_note": "The historical record for 291 BCE is similar to that of 290 BCE: heavily weighted toward the Mediterranean world, with good documentation of political and military events but less information about economic, social, and cultural developments. The sources are almost entirely later compilations, as contemporary written records from this period are rare.",
+  "graph_edges": [
+    {
+      "from": "-291-001",
+      "to": "-298-001",
+      "relation": "caused_by",
+      "note": "Conclusion of the Third Samnite War"
+    },
+    {
+      "from": "-291-002",
+      "to": "-283-001",
+      "relation": "caused_by",
+      "note": "Antigonus II's consolidation follows his father's death"
+    }
+  ]
+}

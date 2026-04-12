@@ -1,0 +1,127 @@
+{
+  "year": -293,
+  "year_label": "293 BCE",
+  "era_context": "Early Hellenistic period, with the three major kingdoms firmly established and consolidating their power. Rome is at peace internally but beginning to look toward expansion beyond Italy. The Mauryan Empire is at its height. This is a period of cultural and economic development across the Mediterranean and Asia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-293-001",
+      "title": "Demetrius of Phalerum serves as administrator of Egypt",
+      "region": "Egypt, Alexandria",
+      "coordinates_approx": "31.2,29.9",
+      "category": "cultural",
+      "description": "Demetrius of Phalerum, an Athenian statesman and philosopher, serves as administrator (epistates) of Egypt under Ptolemy II Philadelphus. He is instrumental in the development of the Library of Alexandria and the Museum, which become centers of Hellenistic learning and culture. Demetrius brings Greek intellectual traditions to Egypt and helps establish Alexandria as the intellectual capital of the Hellenistic world. His tenure marks the beginning of a period of intense cultural synthesis between Greek and Egyptian traditions.",
+      "key_figures": [
+        "Demetrius of Phalerum (Athenian administrator)",
+        "Ptolemy II Philadelphus (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Demetrius of Phalerum's service in Egypt is well-attested, though the exact dates are somewhat uncertain. He is generally dated to the early reign of Ptolemy II, around 293\u2013283 BCE.",
+      "cross_references": [
+        "Contemporary with -293-002 (Library of Alexandria development)"
+      ]
+    },
+    {
+      "id": "-293-002",
+      "title": "Library and Museum of Alexandria flourish",
+      "region": "Egypt, Alexandria",
+      "coordinates_approx": "31.2,29.9",
+      "category": "cultural",
+      "description": "The Library and Museum of Alexandria, founded by Ptolemy I and expanded under Ptolemy II, are becoming the premier centers of learning in the Hellenistic world. By 293 BCE, the Library is acquiring manuscripts from across the Mediterranean and Asia, and the Museum is attracting scholars, scientists, and philosophers from all over the known world. The institution is supported by royal patronage and represents the Ptolemaic commitment to preserving and advancing knowledge. This marks the beginning of Alexandria's role as the intellectual capital of the ancient world.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (Pharaoh of Egypt)",
+        "Demetrius of Phalerum (Administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The development of the Library and Museum is well-attested, though the exact timeline is somewhat uncertain. The institution was founded by Ptolemy I and expanded under Ptolemy II, with significant development occurring in the early 290s BCE.",
+      "cross_references": [
+        "Contemporary with -293-001 (Demetrius of Phalerum's service)"
+      ]
+    },
+    {
+      "id": "-293-003",
+      "title": "Ashoka's reign continues in Mauryan Empire",
+      "region": "Indian subcontinent, Magadha",
+      "coordinates_approx": "25.5,85.0",
+      "category": "political",
+      "description": "The Mauryan Empire under Ashoka (traditional dates 268\u2013232 BCE) continues to expand and consolidate its power. By 293 BCE, if Ashoka is indeed reigning, the empire is at its height, controlling much of the Indian subcontinent. The administrative system based on Kautilya's principles is functioning effectively. However, if Ashoka's reign begins later (around 265 BCE), then his father Bindusara or another predecessor is ruling at this time. The exact dating of Ashoka's reign remains uncertain.",
+      "key_figures": [
+        "Ashoka (Mauryan Emperor, traditional dates 268\u2013232 BCE)",
+        "Bindusara (Ashoka's father, if still reigning)"
+      ],
+      "sources": [
+        {
+          "name": "Ashoka's Edicts (Rock and Pillar Edicts)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Buddhist chronicles (Mahavamsa, Dipavamsa)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Ashoka's reign is debated. Traditional sources place it at 268\u2013232 BCE, but modern scholars propose various alternative dates. The year 293 BCE falls within the probable range of his reign or his father's reign, but specific events for this year are not documented.",
+      "cross_references": [
+        "Follows from -290-002 (Mauryan Empire expansion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Library of Alexandria as a unified, coherent institution is complicated by the fact that it was actually a collection of different libraries and institutions that developed over time. The Library was not as comprehensive or organized as sometimes portrayed, and many manuscripts were lost or never acquired. Additionally, the dating of Demetrius of Phalerum's service in Egypt is uncertain; some scholars place it earlier or later than 293 BCE.",
+  "historiographic_note": "The historical record for 293 BCE is similar to previous years: heavily weighted toward the Mediterranean world, with good documentation of political and cultural events but less information about economic and social developments. The sources are almost entirely later compilations. The perspective is predominantly Greek and Roman; non-Mediterranean civilizations are largely absent from the surviving sources. The focus on the Library of Alexandria reflects a bias toward intellectual and cultural history in the surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-293-001",
+      "to": "-293-002",
+      "relation": "contemporary_with",
+      "note": "Demetrius of Phalerum's service is contemporary with the Library's development"
+    },
+    {
+      "from": "-293-002",
+      "to": "-100-001",
+      "relation": "led_to",
+      "note": "The Library of Alexandria becomes a major center of learning for centuries"
+    }
+  ]
+}

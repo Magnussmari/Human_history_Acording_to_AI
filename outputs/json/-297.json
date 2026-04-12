@@ -1,0 +1,124 @@
+{
+  "year": -297,
+  "year_label": "297 BCE",
+  "era_context": "The Hellenistic kingdoms are now firmly established. Seleucus I controls a vast empire in Asia; Ptolemy I and II rule Egypt; Lysimachus dominates Thrace and parts of Asia Minor; Macedon is ruled by Antigonus II Gonatas. In China, the Qin state continues its rise during the late Warring States period. In India, the Mauryan Empire is expanding. The Mediterranean world is characterized by dynastic competition and cultural synthesis.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-297-001",
+      "title": "Demetrius I Poliorcetes establishes himself in Macedon",
+      "region": "Macedon",
+      "coordinates_approx": "40.6, 22.0",
+      "category": "political",
+      "description": "After his failed siege of Rhodes and subsequent campaigns, Demetrius I Poliorcetes moved to consolidate power in Macedon. Around 297 BCE, he established himself as king of Macedon, displacing or marginalizing other claimants. This marked a significant shift in Demetrius's fortunes, as he transitioned from a wandering military commander to a territorial ruler. His rule in Macedon was contested and unstable, but it represented an attempt to rebuild his power base after the losses at Ipsus.",
+      "key_figures": [
+        "Demetrius I Poliorcetes (King of Macedon)",
+        "Antigonus II Gonatas (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Demetrius's establishment in Macedon is uncertain. Ancient sources suggest c. 297 BCE, but some scholars place it as late as 294 BCE. The exact year is approximate.",
+      "cross_references": [
+        "Follows from -299-001 (aftermath of Ipsus)",
+        "Precedes -288-001 (Demetrius's loss of Macedon)"
+      ]
+    },
+    {
+      "id": "-297-002",
+      "title": "Lysimachus consolidates control of Thrace and western Asia Minor",
+      "region": "Thrace and western Asia Minor",
+      "coordinates_approx": "41.0, 25.0",
+      "category": "political",
+      "description": "Lysimachus, one of the major Diadochi, consolidated his control over Thrace and the western portions of Asia Minor following the Battle of Ipsus. By 297 BCE, he had established a stable kingdom with Lysimacheia as a major city. Lysimachus was known for his administrative competence and military prowess. His kingdom was one of the most stable of the Hellenistic successor states, though it would eventually be challenged by Seleucus I.",
+      "key_figures": [
+        "Lysimachus (King of Thrace and western Asia Minor)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Lysimachus's consolidation is well-attested in ancient sources, though specific events in 297 BCE are not clearly dated. The general process is confirmed by historiographic consensus.",
+      "cross_references": [
+        "Follows from -299-001 (Battle of Ipsus)",
+        "Precedes -281-001 (Lysimachus's death)"
+      ]
+    },
+    {
+      "id": "-297-003",
+      "title": "Qin state expands military and administrative capacity",
+      "region": "Qin state, China",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "political",
+      "description": "During this period of the late Warring States, the Qin state under Qin Shi Huang continued to strengthen its military and administrative systems. Legalist reforms were being implemented, and the state was expanding its territorial control at the expense of neighboring states. Though no specific event is documented for 297 BCE, this year falls within the broader period of Qin's rise to dominance, which would culminate in the unification of China in 221 BCE.",
+      "key_figures": [
+        "Qin Shi Huang (King of Qin)",
+        "L\u00fc Buwei (Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Qin administrative records and archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific event is documented for 297 BCE in Chinese sources. This entry reflects the broader historical context of Qin's rise rather than a specific dated event.",
+      "cross_references": [
+        "Part of broader Qin unification process (-221-001)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Demetrius I's establishment in Macedon is disputed. Some sources suggest 297 BCE, others 294 BCE or even later. The significance of Lysimachus's consolidation in 297 BCE specifically is uncertain; the process was gradual and not tied to a specific event in this year. No specific events are documented for Qin in 297 BCE; the entry reflects broader historical context rather than a dated event.",
+  "historiographic_note": "The Hellenistic period is documented through Greek sources, many written centuries after the events. The sources tend to emphasize military and political events involving major kingdoms, with less attention to economic or social developments. Chinese history for this period relies heavily on the Shiji, which may impose later narrative structures on earlier events. Archaeological evidence provides some corroboration but is sparse for specific years.",
+  "graph_edges": [
+    {
+      "from": "-297-001",
+      "to": "-288-001",
+      "relation": "led_to",
+      "note": "Demetrius's establishment in Macedon led to his eventual loss of the kingdom"
+    },
+    {
+      "from": "-297-002",
+      "to": "-281-001",
+      "relation": "led_to",
+      "note": "Lysimachus's consolidation ended with his death in 281 BCE"
+    },
+    {
+      "from": "-297-003",
+      "to": "-221-001",
+      "relation": "part_of",
+      "note": "Qin consolidation in 297 BCE was part of the broader process leading to unification in 221 BCE"
+    }
+  ]
+}

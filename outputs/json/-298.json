@@ -1,0 +1,129 @@
+{
+  "year": -298,
+  "year_label": "298 BCE",
+  "era_context": "Continuation of the Hellenistic consolidation period. The Diadochi Wars are concluding; Seleucus, Lysimachus, and Ptolemy II are establishing stable kingdoms. In China, the Qin state continues its rise during the late Warring States period. In India, the Mauryan Empire is expanding under Ashoka's predecessors. The Mediterranean world remains fragmented among Greek powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-298-001",
+      "title": "Seleucus I consolidates Seleucid territories in Asia Minor and Syria",
+      "region": "Seleucid Empire (Asia Minor, Syria, Mesopotamia)",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "Following the Battle of Ipsus in 301 BCE, Seleucus I Nicator spent the subsequent years consolidating his vast territorial holdings. By 298 BCE, he had established administrative structures across Asia Minor, Syria, and Mesopotamia. He founded new cities, including Antioch on the Orontes (founded c. 300 BCE), which became the capital of the Seleucid Empire. This period saw the establishment of the Seleucid bureaucratic system and the integration of conquered territories into a coherent state structure.",
+      "key_figures": [
+        "Seleucus I Nicator (Seleucid founder and king)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Antioch and other Seleucid cities",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process is well-attested, though specific events in 298 BCE are not clearly dated in sources. The founding of Antioch is traditionally dated to c. 300 BCE, but the exact year is uncertain.",
+      "cross_references": [
+        "Follows from -299-001 (Battle of Ipsus)",
+        "Part of broader Seleucid state-building"
+      ]
+    },
+    {
+      "id": "-298-002",
+      "title": "Siege of Rhodes concludes; Demetrius I negotiates settlement",
+      "region": "Rhodes, Aegean Sea",
+      "coordinates_approx": "36.4, 28.2",
+      "category": "military",
+      "description": "The siege of Rhodes, which had begun in 305 or 304 BCE (dating uncertain), concluded in 298 or 297 BCE with a negotiated settlement. Demetrius I Poliorcetes, unable to breach the city's defenses despite advanced siege technology, agreed to withdraw in exchange for tribute and the Rhodians' neutrality. The Rhodians subsequently erected the Colossus of Rhodes (begun c. 292 BCE) to commemorate their victory. The siege is celebrated in ancient sources as a triumph of civic resistance and engineering.",
+      "key_figures": [
+        "Demetrius I Poliorcetes (Macedonian general)",
+        "Rhodian city council and defenders"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege's conclusion is attested in ancient sources, but the exact year is disputed. Some sources suggest 304 BCE, others 298 or 297 BCE. The dating remains uncertain among modern scholars.",
+      "cross_references": [
+        "Follows from -299-002 (siege begins)",
+        "Precedes -292-001 (Colossus of Rhodes construction)"
+      ]
+    },
+    {
+      "id": "-298-003",
+      "title": "Ptolemy II Philadelphus becomes co-regent of Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.8, 31.3",
+      "category": "political",
+      "description": "Ptolemy II Philadelphus, son of Ptolemy I Soter, became co-regent of Egypt around 298 BCE (exact date uncertain). This arrangement allowed Ptolemy I to gradually transfer power to his son while maintaining authority. Ptolemy II would eventually become sole ruler around 283 BCE. This period saw the consolidation of Ptolemaic power in Egypt and the Mediterranean, including control of Cyprus and other territories. Ptolemy II is known for his cultural patronage and the expansion of the Library of Alexandria.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (co-regent, later pharaoh)",
+        "Ptolemy I Soter (retiring pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, History of Egypt (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Ptolemaic Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact date of Ptolemy II's co-regency is uncertain. Ancient sources suggest c. 298 BCE, but some scholars place it as late as 285 BCE. The dating is approximate based on historiographic consensus.",
+      "cross_references": [
+        "Precedes -283-001 (Ptolemy II becomes sole ruler)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Siege of Rhodes conclusion is highly disputed. Some modern scholars place it in 304 BCE, others in 298 or 297 BCE. The exact year of Ptolemy II's co-regency is also uncertain; some sources suggest it occurred later, around 285 BCE. These dating uncertainties reflect the limitations of ancient chronological sources for this period.",
+  "historiographic_note": "The Hellenistic period is documented through Greek sources, many written centuries after the events. Egyptian history relies on Manetho's chronology, which is preserved only in later compilations and contains internal inconsistencies. Archaeological evidence from Ptolemaic Egypt (papyri, inscriptions) provides some corroboration but is not always precisely dated. The sources tend to emphasize political and military events involving major kingdoms, with less attention to economic or social developments.",
+  "graph_edges": [
+    {
+      "from": "-298-001",
+      "to": "-283-001",
+      "relation": "part_of",
+      "note": "Seleucid consolidation continued until the death of Seleucus I in 281 BCE"
+    },
+    {
+      "from": "-298-002",
+      "to": "-292-001",
+      "relation": "led_to",
+      "note": "Rhodian victory in the siege led to the construction of the Colossus of Rhodes"
+    },
+    {
+      "from": "-298-003",
+      "to": "-283-001",
+      "relation": "led_to",
+      "note": "Ptolemy II's co-regency led to his sole rule in 283 BCE"
+    }
+  ]
+}
