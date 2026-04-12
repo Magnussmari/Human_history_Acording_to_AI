@@ -1,0 +1,104 @@
+{
+  "year": -359,
+  "year_label": "359 BCE",
+  "era_context": "The mid-4th century BCE in the Eastern Mediterranean and Near East is dominated by the rise of Macedon under Philip II, the decline of the Persian Achaemenid Empire under Artaxerxes III, and the fragmentation of Greek city-states. In China, the Warring States period continues with increasing military sophistication. Egypt remains under Persian control but with recurring rebellions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek/Roman awareness",
+    "Central Asia beyond Persian tributary networks",
+    "Oceania and Pacific regions"
+  ],
+  "events": [
+    {
+      "id": "-359-001",
+      "title": "Philip II becomes King of Macedon",
+      "region": "Macedon (northern Greece)",
+      "coordinates_approx": "40.6, 22.0",
+      "category": "political",
+      "description": "Philip II ascends to the throne of Macedon following the death of his brother Perdiccas III. At approximately 23 years old, Philip inherits a kingdom threatened by internal instability and external enemies (Illyrians, Thracians, and rival Greek city-states). He immediately begins military and administrative reforms that will transform Macedon from a peripheral Balkan kingdom into the dominant power of Greece within two decades. His reign marks the beginning of Macedonian hegemony and the eventual conquest of the Persian Empire under his son Alexander.",
+      "key_figures": [
+        "Philip II (King of Macedon)",
+        "Perdiccas III (predecessor, deceased)",
+        "Bardylis (Illyrian king, rival)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (1st century BCE compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Justin, Epitome of Pompeius Trogus (2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Alexander (1st\u20132nd century CE, contains references to Philip's reign)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Philip II in 359 BCE is well-attested in multiple ancient sources, though no contemporary documents survive. The date is accepted by modern scholarship with high confidence.",
+      "cross_references": [
+        "Follows from -360-001 (death of Perdiccas III)",
+        "Leads to -358-001 (Philip's military victories)",
+        "-356-001 (birth of Alexander the Great)"
+      ]
+    },
+    {
+      "id": "-359-002",
+      "title": "Artaxerxes III campaigns in Egypt and Phoenicia",
+      "region": "Persian Empire (Egypt, Phoenicia, Levant)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Artaxerxes III Ochus, the Achaemenid Persian king, conducts military campaigns to reassert control over rebellious Egyptian territories and Phoenician cities. Egypt had revolted under Nectanebo II, and Phoenician cities were increasingly independent. Artaxerxes III's campaigns are part of a broader effort to stabilize the Persian Empire's western provinces, though these efforts will ultimately prove temporary. The campaigns demonstrate both the military capability and the internal fragility of the late Achaemenid state.",
+      "key_figures": [
+        "Artaxerxes III Ochus (Persian King)",
+        "Nectanebo II (Egyptian pharaoh, rebel)",
+        "Sidon (Phoenician city, resisting)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (Egyptian history, preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns of Artaxerxes III in this period are attested in multiple sources, but precise dating of individual campaigns within the 360s\u2013350s BCE is uncertain. This entry is assigned to 359 BCE by convention, but the campaigns may have spanned several years.",
+      "cross_references": [
+        "Part of broader Persian decline narrative",
+        "Contemporary with Philip II's rise in Macedon"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Philip II's accession has been debated by modern scholars. Some sources place it in 360 BCE rather than 359 BCE, with uncertainty of \u00b11 year. The traditional date of 359 BCE is widely accepted but not universally certain. Additionally, the significance of Artaxerxes III's campaigns is sometimes overstated in older historiography; modern scholarship recognizes that Persian control remained substantial despite rebellions.",
+  "historiographic_note": "The historical record for 359 BCE is dominated by Greek and later Hellenistic sources, creating a Western-centric bias. Information about Macedon comes primarily from later compilations by Diodorus and Justin, not contemporary documents. Persian history relies heavily on Greek accounts of Persian affairs, which are often hostile or distorted. Egyptian sources are sparse and fragmentary. Chinese sources for this period (Warring States period) are better preserved but rarely cross-referenced with Western chronologies. The survival of sources is heavily skewed toward political and military history; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-359-001",
+      "to": "-358-001",
+      "relation": "led_to",
+      "note": "Philip II's accession enables his military reforms and victories in the following year"
+    },
+    {
+      "from": "-359-001",
+      "to": "-356-001",
+      "relation": "part_of",
+      "note": "Philip's reign encompasses the birth of Alexander the Great"
+    },
+    {
+      "from": "-359-002",
+      "to": "-350-001",
+      "relation": "led_to",
+      "note": "Artaxerxes III's campaigns are part of the broader Persian decline that accelerates toward Alexander's conquest"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "year": -357,
+  "year_label": "357 BCE",
+  "era_context": "Philip II continues his military expansion in the Balkans and begins to intervene in Greek affairs. The Persian Achaemenid Empire faces continued instability. The Greek city-states, particularly Athens and Thebes, remain powerful but increasingly threatened by Macedonian expansion. In China, the Warring States period continues.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-357-001",
+      "title": "Philip II intervenes in Thessalian affairs",
+      "region": "Thessaly (central Greece)",
+      "coordinates_approx": "39.5, 22.5",
+      "category": "political",
+      "description": "Philip II begins to intervene in the internal conflicts of Thessaly, a region in central Greece. Thessaly is fragmented among competing aristocratic factions, and Philip exploits these divisions to extend Macedonian influence southward. This intervention marks the beginning of Philip's expansion into Greek affairs proper, moving beyond the Balkans. Thessaly's resources and strategic location make it valuable to Philip's ambitions.",
+      "key_figures": [
+        "Philip II (King of Macedon)",
+        "Thessalian aristocrats (various factions)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Demosthenes, Philippics (contemporary Athenian orations)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Philip's intervention in Thessaly is attested in multiple sources, but the precise chronology is debated. Some sources place the beginning of Philip's Thessalian involvement in 357 or 356 BCE.",
+      "cross_references": [
+        "Follows from -358-001 (Philip's military successes)",
+        "Leads to -356-001 (continued Macedonian expansion)"
+      ]
+    },
+    {
+      "id": "-357-002",
+      "title": "Third Sacred War begins in Greece",
+      "region": "Central Greece (Phocis, Delphi)",
+      "coordinates_approx": "38.5, 22.5",
+      "category": "military",
+      "description": "The Third Sacred War begins when Phocis seizes control of the sanctuary of Apollo at Delphi and its treasury. This war will last approximately ten years and will involve most of the Greek city-states. The conflict provides Philip II with an opportunity to intervene in Greek affairs under the pretext of defending the sanctuary. The war is significant because it demonstrates the fragmentation of the Greek city-state system and creates the conditions for Macedonian dominance.",
+      "key_figures": [
+        "Phocians (led by various generals)",
+        "Thebes (opposing Phocis)",
+        "Athens (opposing Phocis)",
+        "Philip II (eventual beneficiary)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Demosthenes, Philippics",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Third Sacred War is well-attested in multiple ancient sources. The date of 357 BCE is widely accepted by modern scholarship.",
+      "cross_references": [
+        "Contemporary with -357-001 (Philip's Thessalian intervention)",
+        "Leads to -346-001 (end of Third Sacred War)"
+      ]
+    },
+    {
+      "id": "-357-003",
+      "title": "Social War begins in Athens",
+      "region": "Athenian Empire (Aegean Sea)",
+      "coordinates_approx": "37.5, 23.5",
+      "category": "military",
+      "description": "The Social War (also called the Allies' War) begins when several members of the Athenian maritime confederacy rebel against Athenian control. The rebels include Rhodes, Chios, Cos, and Byzantium. The war reflects the decline of Athenian naval power and the unwillingness of allies to remain under Athenian domination. The conflict weakens Athens at a critical moment when Philip II is rising in the north, reducing Athens' ability to respond to the Macedonian threat.",
+      "key_figures": [
+        "Athenians (led by various generals)",
+        "Rhodians, Chians, Coans, Byzantines (rebels)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Demosthenes, Philippics",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Social War is well-attested in ancient sources. The date of 357 BCE is widely accepted.",
+      "cross_references": [
+        "Contemporary with -357-002 (Third Sacred War)",
+        "Weakens Athens relative to Macedon",
+        "Leads to -355-001 (end of Social War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the beginning of Philip's Thessalian intervention is debated, with some sources placing it in 356 BCE. The significance of the Third Sacred War is sometimes overstated; modern scholarship recognizes that it was one of several conflicts that weakened Greek unity. The Social War's impact on Athenian power is sometimes exaggerated; Athens remained a significant power despite the rebellion.",
+  "historiographic_note": "Sources for 357 BCE are primarily Greek, with significant bias toward Athenian and Theban perspectives. Demosthenes' Philippics are contemporary primary sources but are rhetorical and politically motivated, not objective historical accounts. Later compilations by Diodorus and Pausanias are valuable but written centuries after the events. Persian and Egyptian sources are almost entirely absent from the record for this year. The record is heavily weighted toward political and military history.",
+  "graph_edges": [
+    {
+      "from": "-357-001",
+      "to": "-356-001",
+      "relation": "led_to",
+      "note": "Philip's Thessalian intervention continues to expand"
+    },
+    {
+      "from": "-357-002",
+      "to": "-346-001",
+      "relation": "led_to",
+      "note": "Third Sacred War continues for approximately ten years"
+    },
+    {
+      "from": "-357-003",
+      "to": "-355-001",
+      "relation": "led_to",
+      "note": "Social War continues for approximately two years"
+    },
+    {
+      "from": "-357-002",
+      "to": "-357-003",
+      "relation": "contemporary_with",
+      "note": "Both conflicts weaken Greek unity and create opportunities for Macedonian expansion"
+    }
+  ]
+}

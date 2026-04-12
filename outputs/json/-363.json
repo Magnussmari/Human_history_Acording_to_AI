@@ -1,0 +1,109 @@
+{
+  "year": -363,
+  "year_label": "363 BCE",
+  "era_context": "The Classical Greek world continues under Theban hegemony, with Epaminondas at the height of his power. The Persian Empire under Artaxerxes II faces internal challenges from satrap rebellions. The Roman Republic is consolidating control in central Italy. In China, the Warring States period continues with increasing military competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia and Oceania",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-363-001",
+      "title": "Epaminondas leads Theban expedition into the Peloponnese",
+      "region": "Greece (Peloponnese, Boeotia)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "military",
+      "description": "Epaminondas continues Theban military campaigns in the Peloponnese, seeking to maintain Theban dominance and prevent the re-emergence of Spartan or Athenian power. These campaigns involve complex diplomatic and military maneuvering among Greek city-states. The exact sequence of events in 363 BCE is difficult to establish from surviving sources, but Theban military activity in this region is well-attested for this general period.",
+      "key_figures": [
+        "Epaminondas (Theban general)",
+        "Pelopidas (Theban general)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Theban military activity in the Peloponnese during this period is attested, but the specific events of 363 BCE are not always clearly distinguished from adjacent years.",
+      "cross_references": [
+        "-364-001",
+        "-362-001"
+      ]
+    },
+    {
+      "id": "-363-002",
+      "title": "Satraps' Revolt against Artaxerxes II reaches critical phase",
+      "region": "Persian Empire (Anatolia, Syria, Egypt)",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "military",
+      "description": "The rebellion of Persian satraps against the central authority of Artaxerxes II intensifies during this period. Multiple provincial governors, including the satrap of Egypt and others in Anatolia and Syria, rebel against the Great King's authority. The revolt is eventually suppressed, but the exact chronology is disputed among modern scholars, with some sources placing the peak of the rebellion in 363 BCE and others in adjacent years.",
+      "key_figures": [
+        "Artaxerxes II Mnemon (Persian Great King)",
+        "Orontes (satrap of Armenia, rebel leader)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Artaxerxes",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Satraps' Revolt is well-attested, but its precise chronology is disputed. Different sources place the rebellion's peak between 366 and 360 BCE.",
+      "cross_references": [
+        "-366-001",
+        "-360-001"
+      ]
+    },
+    {
+      "id": "-363-003",
+      "title": "Roman military campaigns in Latium and Campania",
+      "region": "Italy (Latium, Campania)",
+      "coordinates_approx": "41.5, 14.0",
+      "category": "military",
+      "description": "The Roman Republic continues its military consolidation of central Italy. Campaigns against neighboring peoples and city-states are ongoing, though specific events of 363 BCE are not clearly attested in surviving sources. Rome's military organization and tactics are gradually becoming more sophisticated, laying the groundwork for later expansion.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Livy, Ab Urbe Condita",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Roman history of this period is known primarily through Livy, whose sources are now lost. Specific events of 363 BCE are difficult to verify.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Satraps' Revolt is highly disputed. Some modern scholars argue that the rebellion did not reach its peak until 360 BCE or later, making the significance of 363 BCE uncertain. The role of Epaminondas in Greek politics is sometimes exaggerated in later sources that emphasize individual great men over structural political changes.",
+  "historiographic_note": "Sources for 363 BCE are primarily Greek and Persian accounts preserved in later compilations. The Greek sources often reflect Athenian biases and may overemphasize Theban military activity. Persian sources are known only through Greek intermediaries. Roman history relies entirely on Livy. Chinese sources are similarly late compilations. The year 363 BCE is not particularly well-attested in any surviving source tradition; much of what is known about this year is inferred from broader patterns in the surrounding decades.",
+  "graph_edges": [
+    {
+      "from": "-363-001",
+      "to": "-362-001",
+      "relation": "led_to",
+      "note": "Theban military campaigns continue until the Battle of Mantinea"
+    },
+    {
+      "from": "-363-002",
+      "to": "-360-001",
+      "relation": "led_to",
+      "note": "Satraps' Revolt continues and eventually leads to succession crisis"
+    }
+  ]
+}

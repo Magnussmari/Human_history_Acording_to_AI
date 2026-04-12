@@ -1,0 +1,90 @@
+{
+  "year": -358,
+  "year_label": "358 BCE",
+  "era_context": "Philip II of Macedon consolidates power and begins his military expansion. The Persian Achaemenid Empire continues to face internal instability. Greek city-states remain fragmented and competitive. In China, the Warring States period continues with increasing military innovation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-358-001",
+      "title": "Philip II defeats the Illyrians and Paeonians",
+      "region": "Macedon and northern Balkans",
+      "coordinates_approx": "41.0, 21.0",
+      "category": "military",
+      "description": "In his first year as king, Philip II achieves significant military victories against the Illyrians (under Bardylis) and the Paeonians, who had threatened Macedonian territory. These victories secure Macedon's northern frontier and establish Philip's military reputation. The victories are enabled by Philip's military reforms, including the development of the Macedonian phalanx and improved cavalry tactics. These early successes consolidate Philip's internal position and allow him to turn his attention southward toward Greek affairs.",
+      "key_figures": [
+        "Philip II (King of Macedon)",
+        "Bardylis (Illyrian king)",
+        "Paeonians (northern neighbors)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Justin, Epitome of Pompeius Trogus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The victories are attested in ancient sources, but precise dating within Philip's early reign (359\u2013357 BCE) is uncertain. Assigned to 358 BCE by convention.",
+      "cross_references": [
+        "Follows from -359-001 (Philip's accession)",
+        "Leads to -357-001 (Philip's continued expansion)"
+      ]
+    },
+    {
+      "id": "-358-002",
+      "title": "Nectanebo II consolidates Egyptian independence",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Nectanebo II, the last native Egyptian pharaoh of the 30th Dynasty, consolidates his control over Egypt and maintains independence from Persian rule. He undertakes building projects and military preparations to defend against Persian reconquest. Nectanebo II's reign represents a brief resurgence of Egyptian independence and cultural vitality, though it will ultimately be short-lived as Persian forces will reconquer Egypt within a decade.",
+      "key_figures": [
+        "Nectanebo II (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, Aegyptiaca (preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Egyptian temples and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nectanebo II's reign is attested archaeologically and in later historical compilations. The precise chronology of his reign is debated, with some uncertainty of \u00b12\u20133 years.",
+      "cross_references": [
+        "Contemporary with -359-002 (Artaxerxes III's campaigns)",
+        "Part of broader Egyptian independence narrative"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Philip II's early military campaigns is uncertain, with some sources placing key victories in 357 or 356 BCE rather than 358 BCE. The significance of these victories is sometimes overstated in older historiography; modern scholarship recognizes that Philip's consolidation of power was gradual and faced ongoing challenges. The extent of Nectanebo II's independence is debated; some scholars argue that Persian overlordship remained nominal rather than substantive.",
+  "historiographic_note": "Sources for 358 BCE are primarily Greek and later Hellenistic compilations, with significant bias toward Macedonian and Greek affairs. Egyptian sources are fragmentary and often preserved only through later Greek writers. Persian sources are almost entirely lost, forcing reliance on Greek accounts of Persian affairs. The record is heavily weighted toward political and military history; economic and social developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-358-001",
+      "to": "-357-001",
+      "relation": "led_to",
+      "note": "Philip's early victories enable continued expansion"
+    },
+    {
+      "from": "-358-001",
+      "to": "-338-001",
+      "relation": "part_of",
+      "note": "Part of Philip's broader campaign to dominate Greece"
+    }
+  ]
+}
