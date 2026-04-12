@@ -1,0 +1,107 @@
+{
+  "year": -22,
+  "year_label": "22 BCE",
+  "era_context": "The early Augustan principate, consolidating power after the civil wars. The Parthian Empire dominates the Near East. In China, the Western Han dynasty is in its final decades under Emperor Xuan. Egypt is a Roman province. The Hellenistic world is being absorbed into Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Interior of the Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-22-001",
+      "title": "Cantabrian Wars in Hispania",
+      "region": "Hispania (Spain and Portugal), particularly Cantabria and Lusitania",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "The Cantabrian Wars (29\u201319 BCE) continued under Augustus's command. Roman forces were engaged in subduing the last independent tribes in northwestern Hispania. The campaigns were difficult and protracted, involving mountain warfare against fierce resistance. By 22 BCE, the Romans were making progress toward final victory.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Cantabrian and Lusitanian tribes (resistance)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Cantabrian Wars are well-documented, but the exact year-by-year progress is uncertain.",
+      "cross_references": [
+        "Continues from -23-001",
+        "Leads to -21-001"
+      ]
+    },
+    {
+      "id": "-22-002",
+      "title": "Augustus's health crisis and succession concerns",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus suffered a serious illness in 23 BCE (some sources place it in 22 BCE), which raised urgent questions about succession. The emperor was in his early 40s but had no adult son. He considered adopting his nephew Marcellus, the husband of his daughter Julia, as his heir. This succession crisis revealed the fragility of the principate and the lack of clear constitutional procedures for transferring power. The crisis was resolved when Augustus recovered, but it highlighted the need for a clear succession plan.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Marcellus (nephew and potential heir)",
+        "Julia (daughter of Augustus)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Augustus's illness is well-attested, but the exact date is debated (23 or 22 BCE). The succession crisis is clearly documented.",
+      "cross_references": [
+        "Leads to -23-002 (Marcellus's death)"
+      ]
+    },
+    {
+      "id": "-22-003",
+      "title": "Western Han court politics under Emperor Xuan",
+      "region": "China, Han Empire",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han (r. 74\u201349 BCE) continued to consolidate power in his mid-reign. Court factions were forming around potential heirs, and the influence of consort families and eunuchs was growing. The stability of the dynasty was increasingly dependent on the emperor's personal authority.",
+      "key_figures": [
+        "Emperor Xuan of Han",
+        "Consort families and court officials"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han court politics are documented in Chinese chronicles, but specific events in 22 BCE are not precisely dated.",
+      "cross_references": [
+        "Related to -20-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Augustus's illness is disputed: some sources place it in 23 BCE, others in 22 BCE. The exact year-by-year progress of the Cantabrian Wars is uncertain.",
+  "historiographic_note": "The year 22 BCE is moderately well-documented for the Roman world through later historians. Chinese sources are abundant but often compiled centuries after the events. Western-centric bias is significant: Mediterranean and Chinese developments are well-attested, while sub-Saharan Africa, northern Europe, and the Americas are invisible. Sources are often retrospective.",
+  "graph_edges": [
+    {
+      "from": "-22-002",
+      "to": "-23-002",
+      "relation": "led_to",
+      "note": "Augustus's succession crisis leads to Marcellus's death in 23 BCE"
+    }
+  ]
+}

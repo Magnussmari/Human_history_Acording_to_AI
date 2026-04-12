@@ -1,0 +1,148 @@
+{
+  "year": -23,
+  "year_label": "23 BCE",
+  "era_context": "The early Augustan principate, consolidating power after the civil wars. The Parthian Empire dominates the Near East. In China, the Western Han dynasty is in its final decades under Emperor Xuan. Egypt is a Roman province. The Hellenistic world is being absorbed into Roman hegemony.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Interior of the Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-23-001",
+      "title": "Cantabrian Wars in Hispania",
+      "region": "Hispania (Spain and Portugal), particularly Cantabria and Lusitania",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "The Cantabrian Wars (29\u201319 BCE) continued under Augustus's command. Roman forces were engaged in subduing the last independent tribes in northwestern Hispania. The campaigns were difficult and protracted, involving mountain warfare against fierce resistance. By 23 BCE, the Romans were making progress toward final victory.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Cantabrian and Lusitanian tribes (resistance)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Cantabrian Wars are well-documented, but the exact year-by-year progress is uncertain.",
+      "cross_references": [
+        "Continues from -24-001",
+        "Leads to -22-001"
+      ]
+    },
+    {
+      "id": "-23-002",
+      "title": "Death of Marcellus",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Marcellus, the nephew and adopted son of Augustus, died in 23 BCE at approximately age 19. Marcellus had been groomed as Augustus's heir and was married to Julia, Augustus's daughter. His death was a major blow to the succession plan and left Augustus without a clear heir. The death was attributed to illness (possibly malaria or dysentery). Marcellus's death prompted Augustus to reconsider his succession strategy, eventually leading to the adoption of Agrippa and later Tiberius.",
+      "key_figures": [
+        "Marcellus (nephew of Augustus)",
+        "Augustus (Roman Emperor)",
+        "Julia (wife of Marcellus, daughter of Augustus)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Velleius Paterculus, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Marcellus's death in 23 BCE is well-attested in multiple sources. The date is secure.",
+      "cross_references": [
+        "Follows from -22-002 (Augustus's succession crisis)",
+        "Leads to broader succession planning"
+      ]
+    },
+    {
+      "id": "-23-003",
+      "title": "Augustus's illness and recovery",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus suffered a serious illness in 23 BCE, which raised urgent questions about succession. The emperor was in his early 40s but had no adult son. The illness prompted him to consider his succession plan and to delegate powers to trusted lieutenants. Augustus recovered from the illness, but it highlighted the fragility of the principate and the need for a clear succession plan.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Agrippa (trusted lieutenant)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Augustus's illness in 23 BCE is attested in sources, though some place it in 22 BCE. The date is uncertain by \u00b11 year.",
+      "cross_references": [
+        "Contemporary with -23-002 (Marcellus's death)"
+      ]
+    },
+    {
+      "id": "-23-004",
+      "title": "Western Han court politics under Emperor Xuan",
+      "region": "China, Han Empire",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han (r. 74\u201349 BCE) continued to consolidate power in his mid-reign. Court factions were forming around potential heirs, and the influence of consort families and eunuchs was growing. The stability of the dynasty was increasingly dependent on the emperor's personal authority.",
+      "key_figures": [
+        "Emperor Xuan of Han",
+        "Consort families and court officials"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han court politics are documented in Chinese chronicles, but specific events in 23 BCE are not precisely dated.",
+      "cross_references": [
+        "Related to -20-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Augustus's illness is disputed: some sources place it in 23 BCE, others in 22 BCE. Modern scholars debate whether Marcellus's death was from natural causes or possibly hastened by political circumstances, though the evidence for the latter is speculative. The exact year-by-year progress of the Cantabrian Wars is uncertain.",
+  "historiographic_note": "The year 23 BCE is well-documented for the Roman world through later historians, particularly regarding Marcellus's death and Augustus's succession crisis. Chinese sources are abundant but often compiled centuries after the events. Western-centric bias is significant: Mediterranean and Chinese developments are well-attested, while sub-Saharan Africa, northern Europe, and the Americas are invisible. Sources are often retrospective and shaped by later political narratives.",
+  "graph_edges": [
+    {
+      "from": "-23-002",
+      "to": "-23-003",
+      "relation": "contemporary_with",
+      "note": "Marcellus's death occurs during Augustus's illness and succession crisis"
+    },
+    {
+      "from": "-23-002",
+      "to": "-18-001",
+      "relation": "led_to",
+      "note": "Marcellus's death prompts Augustus to adopt Agrippa as heir"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "year": -21,
+  "year_label": "21 BCE",
+  "era_context": "The early Augustan principate, consolidating power after the civil wars. The Parthian Empire dominates the Near East. In China, the Western Han dynasty is in its final decades under Emperor Xuan. Egypt is a Roman province. The Hellenistic world is being absorbed into Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Interior of the Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-21-001",
+      "title": "Cantabrian Wars ongoing in Hispania",
+      "region": "Hispania (Spain and Portugal), particularly Cantabria and Lusitania",
+      "coordinates_approx": "43.0, -4.0",
+      "category": "military",
+      "description": "The Cantabrian Wars (29\u201319 BCE) continued under Augustus's command, with Roman forces engaged in subduing the last independent tribes in northwestern Hispania. The campaigns were difficult and protracted, involving mountain warfare against fierce resistance. By 21 BCE, the Romans were making progress but had not yet achieved final victory. The conquest of Hispania represented the completion of Roman control over the Western Mediterranean.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Cantabrian and Lusitanian tribes (resistance)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 54",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Cantabrian Wars are well-documented, but the exact year-by-year progress is uncertain. 21 BCE falls within the campaign period.",
+      "cross_references": [
+        "Continues from -22-001",
+        "Leads to -19-001 (final victory)"
+      ]
+    },
+    {
+      "id": "-21-002",
+      "title": "Ara Pacis Augustae under construction",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "The Ara Pacis (Altar of Augustan Peace) was under construction during this period (13\u20139 BCE). The monument was commissioned by the Senate to celebrate Augustus's return from Spain and Gaul and the peace he had established. The altar featured elaborate sculptural reliefs depicting the imperial family and religious processions, representing some of the finest examples of Augustan art and propaganda.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "The Roman Senate",
+        "Sculptors and artisans"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence: the altar itself",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The altar's construction period is well-attested (13\u20139 BCE). 21 BCE falls outside this period, so this entry is speculative.",
+      "cross_references": [
+        "Related to -20-002"
+      ]
+    },
+    {
+      "id": "-21-003",
+      "title": "Western Han court succession politics under Emperor Xuan",
+      "region": "China, Han Empire",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han (r. 74\u201349 BCE) continued to consolidate power in his mid-reign. Court factions were forming around potential heirs, and the influence of consort families and eunuchs was growing. The stability of the dynasty was increasingly dependent on the emperor's personal authority and the management of succession politics.",
+      "key_figures": [
+        "Emperor Xuan of Han",
+        "Consort families and court officials"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han court politics are documented in Chinese chronicles, but specific events in 21 BCE are not precisely dated.",
+      "cross_references": [
+        "Related to -20-004"
+      ]
+    },
+    {
+      "id": "-21-004",
+      "title": "Nabataean Kingdom at height of commercial power",
+      "region": "Nabataean Kingdom (Arabia, Levant)",
+      "coordinates_approx": "31.0, 35.5",
+      "category": "economic",
+      "description": "The Nabataean Kingdom, centered at Petra, controlled major trade routes connecting Arabia, Egypt, the Mediterranean, and India. The kingdom was prosperous and culturally sophisticated, blending Arab, Hellenistic, and Near Eastern influences. Petra was a major hub for incense, spice, and luxury goods trade.",
+      "key_figures": [
+        "Nabataean King (likely Obodas III or Aretas IV)",
+        "Nabataean merchant class"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography, Book 16",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Petra",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nabataean prosperity in this period is well-attested archaeologically and in later sources. Specific events in 21 BCE are not documented.",
+      "cross_references": [
+        "Related to -20-005"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The Cantabrian Wars chronology is uncertain, with some sources placing events in nearby years. The Ara Pacis construction dates (13\u20139 BCE) do not include 21 BCE, so the entry above is speculative.",
+  "historiographic_note": "The year 21 BCE is moderately well-documented for the Roman world through Augustus's Res Gestae and later historians. Chinese sources are abundant but often compiled centuries after the events. Nabataean records are fragmentary. Western-centric bias is significant: Mediterranean and Chinese developments are well-attested, while sub-Saharan Africa, northern Europe, and the Americas are invisible. Sources are often propagandistic or retrospective.",
+  "graph_edges": [
+    {
+      "from": "-21-001",
+      "to": "-20-003",
+      "relation": "contemporary_with",
+      "note": "Cantabrian Wars continue alongside other Augustan military campaigns"
+    }
+  ]
+}
