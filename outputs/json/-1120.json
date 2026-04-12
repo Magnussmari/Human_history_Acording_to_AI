@@ -1,0 +1,119 @@
+{
+  "year": -1120,
+  "year_label": "1120 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). Egypt under Ramesses III is in the latter part of his reign. The Eastern Mediterranean continues to experience the aftermath of the Bronze Age collapse, with state reorganization, migration, and technological transition. Assyria is beginning a period of gradual resurgence. The Zhou Dynasty in China is consolidating control after the Shang collapse. This is a period of significant upheaval and transformation across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia and the Steppe",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1120-001",
+      "title": "Ramesses III's reign continues; military and administrative activities",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III continues his reign with documented military campaigns and administrative activities. The king is known for his campaigns against the Sea Peoples, Libyan groups, and other external threats, as well as for his extensive temple construction program. The Papyrus Harris I documents his achievements and benefactions. However, the exact chronology of individual events within his reign remains uncertain.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested, but specific events for 1120 BCE are not uniquely identified in surviving sources. The dating depends on the chronological system used.",
+      "cross_references": [
+        "-1124-001",
+        "-1123-001",
+        "-1122-001",
+        "-1121-001"
+      ]
+    },
+    {
+      "id": "-1120-002",
+      "title": "Iron Age settlement and technological development in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean (Levant, Cyprus, Aegean, Anatolia)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "technological",
+      "description": "Iron-working technology continues to spread and develop across the Eastern Mediterranean during this period. Archaeological evidence shows increasing use of iron tools and weapons, though bronze remains important in many regions. The transition from Bronze Age to Iron Age is gradual and regionally variable, with different areas adopting iron-working at different rates.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at multiple sites across the Eastern Mediterranean",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad pattern of Iron Age development is archaeologically confirmed, but precise dating to individual years is not possible. This year is assigned by convention within the broader period of technological transition.",
+      "cross_references": [
+        "-1124-002",
+        "-1123-002",
+        "-1122-002"
+      ]
+    },
+    {
+      "id": "-1120-003",
+      "title": "Zhou Dynasty consolidation in China",
+      "region": "China (Yellow River valley, Central Plains)",
+      "coordinates_approx": "34.0, 110.0",
+      "category": "political",
+      "description": "The Zhou Dynasty continues its consolidation of control over the Central Plains following the collapse of the Shang Dynasty. The traditional dating places the Shang collapse at 1046 BCE, though some scholars propose earlier dates (c. 1050 BCE or earlier). The Zhou established a feudal system with regional lords, and this period saw the development of new political and social structures. However, the exact chronology of early Zhou events is debated, and some scholars propose alternative dating systems.",
+      "key_figures": [
+        "King Wu of Zhou (founder, r. c. 1050\u20131049 BCE, traditional dating)",
+        "Duke of Zhou (regent and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions and bronze inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Zhou Dynasty's existence and general chronology are well-attested, but the precise dating of early Zhou events is debated. Traditional Chinese chronology places the Shang collapse at 1046 BCE, but some scholars propose earlier dates. The dating of 1120 BCE is assigned by convention within the broader period of Zhou consolidation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Late Bronze Age collapse and the early Iron Age remains contested. Some scholars propose 'high' chronologies that would place events earlier; others propose 'low' chronologies that would place them later. The dating of Ramesses III's reign is affected by these broader chronological debates. The chronology of early Zhou China is also debated; some scholars propose earlier dates for the Shang collapse and Zhou conquest than the traditional dating. The extent and nature of Ramesses III's military success against the Sea Peoples is also disputed.",
+  "historiographic_note": "Documentation for 1120 BCE is sparse and heavily dependent on Egyptian sources and Chinese oracle bone inscriptions and later chronicles. The Egyptian chronology and the Chinese chronology are the primary anchors for dating this period, but both have been revised multiple times and remain contested. Archaeological evidence provides broad patterns but rarely precise year-by-year dating. The surviving written sources are biased toward elite, state-sponsored narratives and do not provide comprehensive coverage of economic, social, or cultural developments.",
+  "graph_edges": [
+    {
+      "from": "-1120-001",
+      "to": "-1124-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign continues"
+    },
+    {
+      "from": "-1120-002",
+      "to": "-1100-001",
+      "relation": "led_to",
+      "note": "Iron Age development continues"
+    },
+    {
+      "from": "-1120-003",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Zhou consolidation leads to the establishment of the Zhou Dynasty (traditional dating)"
+    }
+  ]
+}

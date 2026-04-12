@@ -1,0 +1,78 @@
+{
+  "year": -1123,
+  "year_label": "1123 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). Egypt under Ramesses III continues to face external and internal pressures. The Hittite Empire has been defunct for ~60 years; Mycenaean Greece has collapsed; Assyria remains relatively weak. The Zhou Dynasty in China is in its early consolidation phase (Shang collapse traditionally dated to 1046 BCE, though this is debated). This is a period of significant upheaval, migration, and state reorganization across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1123-001",
+      "title": "Ramesses III's administrative and military activities",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III continues his reign with documented administrative activities, including temple construction, military campaigns, and management of Egypt's territories. Papyri from this period record administrative records, including the famous Papyrus Harris I, which documents the king's benefactions to temples and his military achievements. The exact chronology of individual events within his reign remains uncertain.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested, but specific events for this particular year are not uniquely documented.",
+      "cross_references": [
+        "-1124-001"
+      ]
+    },
+    {
+      "id": "-1123-002",
+      "title": "Continued settlement and consolidation in the Levant post-Bronze Age collapse",
+      "region": "Levant (Canaan, Phoenicia, Syria)",
+      "coordinates_approx": "34.0, 35.0",
+      "category": "demographic",
+      "description": "In the aftermath of the Bronze Age collapse, populations in the Levant continue to reorganize. Archaeological evidence shows the emergence of new settlement patterns, the development of early Iron Age city-states, and the consolidation of groups such as the Phoenicians and early Israelites. This process is gradual and regionally variable, with some areas experiencing depopulation while others see new settlement.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological surveys and excavations at sites including Sidon, Tyre, and various Canaanite settlements",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad pattern of post-collapse reorganization is archaeologically confirmed, but precise dating of individual settlements and demographic changes is difficult. This year is assigned by convention within the broader period of transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The causes and extent of the Bronze Age collapse remain debated. Some scholars emphasize climate change and drought; others stress invasions and warfare; still others propose a combination of factors. The role of the 'Sea Peoples' in this collapse is contested\u2014some scholars view them as a symptom rather than a cause. The chronology of Ramesses III's reign and the dating of specific events within it are subject to ongoing revision.",
+  "historiographic_note": "Sources for 1123 BCE are sparse and heavily weighted toward Egypt. The Egyptian chronology is the primary anchor for dating events in this period, but this chronology itself has been revised multiple times. Non-Egyptian written sources are minimal; the record relies heavily on archaeological evidence, which provides broad patterns but rarely precise year-by-year dating. The surviving sources are biased toward elite, state-sponsored narratives.",
+  "graph_edges": [
+    {
+      "from": "-1123-001",
+      "to": "-1124-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's reign spans both years"
+    },
+    {
+      "from": "-1123-002",
+      "to": "-1100-001",
+      "relation": "led_to",
+      "note": "Settlement patterns established in this period continue to develop"
+    }
+  ]
+}

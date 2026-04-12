@@ -1,0 +1,97 @@
+{
+  "year": -1135,
+  "year_label": "1135 BCE",
+  "era_context": "Late Bronze Age collapse, mid-period. Egypt under Ramesses III remains the dominant power in the eastern Mediterranean, though facing increasing internal strain and economic pressure. The Hittite Empire has been defunct for ~45 years. The Mycenaean world has collapsed. The Sea Peoples continue to be active in the eastern Mediterranean. In China, the Shang dynasty is in its final years before the Zhou conquest c. 1046 BCE. This is a period of significant civilizational transformation and stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1135-001",
+      "title": "Ramesses III's twelfth regnal year; continued reign and temple administration",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.2, 32.6",
+      "category": "political",
+      "description": "Ramesses III's reign continues with documented administrative and military activity. This year falls within the well-attested period of his rule. Papyri and temple reliefs document ongoing governance, temple administration, and military organization. The Medinet Habu temple complex remains under construction and serves as a record of his achievements.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal year 12 is well-documented. Conventional chronology places this c. 1175 BCE \u00b12 years.",
+      "cross_references": [
+        "-1139-001",
+        "-1138-001",
+        "-1137-001",
+        "-1136-001"
+      ]
+    },
+    {
+      "id": "-1135-002",
+      "title": "Shang dynasty in terminal decline; Zhou state consolidating power",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.5",
+      "category": "political",
+      "description": "The Shang dynasty is in its final years, with the Zhou state consolidating power in the Wei River valley. Archaeological evidence shows continued Shang settlement and ritual activity at Yinxu, but Zhou influence is expanding. This year represents the political fragmentation and weakening of Shang authority that preceded the Zhou conquest c. 1046 BCE. The oracle bones provide evidence of ongoing administrative and ritual concerns.",
+      "key_figures": [
+        "Di Xin (last Shang king, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy at Yinxu and Zhou sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang-Zhou transition date is debated among scholars. Traditional dating places it c. 1046 BCE, but some scholars argue for c. 1050 or even 1020 BCE. This year is assigned to the terminal Shang period by convention, but the precision is \u00b110\u201315 years.",
+      "cross_references": [
+        "-1139-002",
+        "-1138-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Shang-Zhou transition date is particularly contested among scholars. Some argue for a date as late as 1020 BCE or as early as 1050 BCE, making the assignment of events to 1135 BCE somewhat arbitrary for Chinese history. The significance of Ramesses III's reign is sometimes overstated; while he was a capable administrator, he did not reverse Egypt's long-term decline.",
+  "historiographic_note": "Documentation for 1135 BCE is extremely sparse. No specific events are recorded for this year in surviving sources. The entries above represent the broader context of Ramesses III's reign and the terminal Shang period. Egyptian chronology is well-established but not without debate. Chinese history relies on oracle bones and later chronicles, introducing dating uncertainty. The absence of specific events for this year is typical for the ancient world; most years leave no detailed historical record. The sources are predominantly elite and state-sponsored, potentially underrepresenting the experiences of common people and non-state societies.",
+  "graph_edges": [
+    {
+      "from": "-1135-001",
+      "to": "-1136-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Ramesses III's reign"
+    },
+    {
+      "from": "-1135-002",
+      "to": "-1046-SHANG_ZHOU_TRANSITION",
+      "relation": "led_to",
+      "note": "The Shang decline documented here culminates in the Zhou conquest c. 1046 BCE"
+    }
+  ]
+}

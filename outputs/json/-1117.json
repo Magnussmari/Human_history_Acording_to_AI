@@ -1,0 +1,84 @@
+{
+  "year": -1117,
+  "year_label": "1118 BCE",
+  "era_context": "The Late Bronze Age collapse continues to reshape the Mediterranean and Near Eastern world. Egypt under Ramesses III is in the middle of his reign, facing mounting pressures. The Aegean is in the post-palatial period; Mycenaean palace culture has been replaced by smaller, dispersed settlements. The Levant is undergoing cultural and settlement reorganisation. In China, the Shang Dynasty remains in its final phase, with the Zhou conquest still a few decades away.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1117-001",
+      "title": "Ramesses III \u2014 military and administrative consolidation",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III's reign continues with ongoing efforts to maintain Egyptian control over remaining territories and manage internal resources. Military campaigns against Libyan groups and naval conflicts with the Sea Peoples are documented in temple reliefs. The pharaoh's building programme, including work on temples and administrative structures, continues despite economic constraints.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested; the specific year -1117 falls within it, but individual annual events are not precisely datable.",
+      "cross_references": []
+    },
+    {
+      "id": "-1117-002",
+      "title": "Post-palatial Aegean \u2014 settlement and cultural reorganisation",
+      "region": "Aegean (Greece, Crete, Anatolia)",
+      "coordinates_approx": "38.5, 23.5",
+      "category": "cultural",
+      "description": "In the aftermath of the collapse of Mycenaean palace culture (c. 1200 BCE), the Aegean is characterised by smaller, dispersed settlements and a significant decline in material culture and literacy. The Linear B script has disappeared; monumental architecture is absent. However, continuities with the Bronze Age are evident in pottery styles and settlement patterns. This period, often called the Early Iron Age or Early Greek Dark Age, will eventually lead to the emergence of the Classical Greek city-state (polis) system.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Aegean sites (Lefkandi, Athens, Corinth, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on post-palatial Aegean",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The post-palatial period is archaeologically visible but not precisely dated to individual years. The transition spans roughly 1200\u20131050 BCE.",
+      "cross_references": [
+        "Related to Mycenaean collapse and Late Bronze Age collapse"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The term 'Dark Age' for the post-palatial Aegean has been increasingly questioned by modern scholarship. While there is a clear decline in monumental architecture and literacy, recent archaeological work has revealed more continuity with the Bronze Age and more cultural activity than the 'Dark Age' label suggests. Some scholars now prefer terms like 'Early Iron Age' or 'Early Greek period' to avoid the negative connotations of 'Dark Age.'",
+  "historiographic_note": "Documentation for -1117 is sparse and regionally variable. Egyptian records remain the most detailed source, but they focus on royal and military narratives. Archaeological evidence from the Aegean is fragmentary and subject to interpretation. The year -1117 is not individually attested in surviving records; it is assigned by convention within broader dated periods. Significant gaps exist for regions outside the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-1117-001",
+      "to": "-1119-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Ramesses III's reign and military campaigns."
+    },
+    {
+      "from": "-1117-002",
+      "to": "-1119-002",
+      "relation": "part_of",
+      "note": "Post-palatial Aegean reorganisation is part of the broader Late Bronze Age collapse process."
+    }
+  ]
+}

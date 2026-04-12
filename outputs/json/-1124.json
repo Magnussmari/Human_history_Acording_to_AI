@@ -1,0 +1,75 @@
+{
+  "year": -1124,
+  "year_label": "1124 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palatial civilization has recently fallen; the Hittite Empire collapsed c. 1180 BCE; Egypt under Ramesses III faces invasions from the Sea Peoples and internal instability; the Iron Age is beginning in some regions. Assyria is in a period of relative weakness; the Zhou Dynasty in China is consolidating control after the Shang collapse (c. 1046 BCE, but dating varies). This is an era of migration, state collapse, and technological transition.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya civilization developing but few precisely dated records for this specific year)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1124-001",
+      "title": "Ramesses III's reign continues; ongoing Sea Peoples conflicts",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) continues his reign during a period of sustained military pressure from the Sea Peoples and internal economic strain. Multiple naval and land campaigns are documented in temple reliefs and papyri. The exact chronology of individual campaigns remains debated, but this period saw significant military expenditure and administrative effort to defend Egypt's borders and maintain control of Nubia and the Levantine territories.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested, but precise year-by-year events are difficult to date. The regnal year system places this within his reign, but specific events for 1124 BCE are not uniquely identified.",
+      "cross_references": []
+    },
+    {
+      "id": "-1124-002",
+      "title": "Continued Iron Age transition in the Levant and Aegean",
+      "region": "Eastern Mediterranean (Levant, Aegean, Anatolia)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "technological",
+      "description": "Iron-working technology continues to spread and improve across the Eastern Mediterranean and Near East during the post-Bronze Age collapse period. Archaeological evidence shows increasing use of iron tools and weapons in the Levant, Cyprus, and parts of Anatolia, though bronze remains dominant in many regions. This technological transition is gradual and regionally variable, not a sudden replacement.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at sites including Megiddo, Alalakh, and Cyprus",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Iron Age transition is archaeologically confirmed, but precise dating of technological adoption varies by site and region. 1124 BCE falls within the period of transition, but no specific event is pinpointed to this year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Bronze Age collapse itself remains contested. Some scholars argue for a more gradual decline (c. 1200\u20131050 BCE) rather than a catastrophic collapse around 1200 BCE. The role and identity of the 'Sea Peoples' is debated: some scholars question whether they were a unified force or multiple distinct groups. The extent of Ramesses III's military success against them is also disputed\u2014some scholars argue the conflicts were more severe and less conclusive than temple reliefs suggest.",
+  "historiographic_note": "Documentation for 1124 BCE is heavily dependent on Egyptian sources (temple reliefs, papyri) and archaeological evidence. The Egyptian chronology itself has been subject to revision; the 'conventional' New Kingdom chronology places Ramesses III's reign c. 1186\u20131155 BCE, but some scholars propose alternative chronologies that would shift these dates by 50\u2013100 years. Non-Egyptian sources for this specific year are minimal. The record is biased toward elite, state-sponsored narratives and military achievements; economic and social conditions are less well-documented.",
+  "graph_edges": [
+    {
+      "from": "-1124-001",
+      "to": "-1120-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign continues through this period; military campaigns are ongoing"
+    },
+    {
+      "from": "-1124-002",
+      "to": "-1100-001",
+      "relation": "led_to",
+      "note": "Iron Age transition accelerates in subsequent decades"
+    }
+  ]
+}

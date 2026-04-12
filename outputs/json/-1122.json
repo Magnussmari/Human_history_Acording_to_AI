@@ -1,0 +1,80 @@
+{
+  "year": -1122,
+  "year_label": "1122 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). Egypt under Ramesses III remains the best-documented polity. The Eastern Mediterranean continues to experience the aftermath of the Bronze Age collapse: state reorganization, migration, and technological transition. Assyria is beginning a period of gradual resurgence under Ashur-uballit II and his successors (though the chronology is debated). The Zhou Dynasty in China is consolidating its control after the Shang collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia and the Steppe",
+    "South Asia (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "-1122-001",
+      "title": "Ramesses III's reign; temple construction and military campaigns",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "cultural",
+      "description": "Ramesses III continues his reign with documented temple construction and religious activities. The king is known for his extensive building program, including work at Medinet Habu, and for his military campaigns against the Sea Peoples and Libyan groups. The exact chronology of individual projects and campaigns within his reign is uncertain, but the overall pattern of royal activity is well-attested.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested, but specific events for 1122 BCE are not uniquely identified in surviving sources.",
+      "cross_references": [
+        "-1124-001",
+        "-1123-001"
+      ]
+    },
+    {
+      "id": "-1122-002",
+      "title": "Early Iron Age development in Cyprus and the Aegean",
+      "region": "Cyprus and Aegean islands",
+      "coordinates_approx": "35.0, 38.0",
+      "category": "technological",
+      "description": "Archaeological evidence shows the continued development of Iron Age technology and settlement patterns in Cyprus and the Aegean islands during this period. Cyprus, in particular, becomes an important center for iron-working and trade. The transition from Bronze Age to Iron Age is gradual and regionally variable, with Cyprus showing earlier and more extensive iron-working than some other regions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at Cypriot sites including Salamis and Kition",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad pattern of Iron Age development is archaeologically confirmed, but precise dating to individual years is not possible. This year is assigned by convention within the broader period of technological transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Late Bronze Age collapse and the subsequent Iron Age is subject to ongoing debate and revision. Some scholars propose 'high' chronologies that would place events earlier; others propose 'low' chronologies that would place them later. The dating of Ramesses III's reign is affected by these broader chronological debates. The extent and nature of iron-working adoption in different regions is also debated; some scholars argue that iron was initially a prestige material rather than a practical replacement for bronze.",
+  "historiographic_note": "Documentation for 1122 BCE is sparse and heavily dependent on Egyptian sources. The Egyptian chronology is the primary anchor for dating this period, but it has been revised multiple times and remains contested. Archaeological evidence provides broad patterns but rarely precise year-by-year dating. The surviving written sources are biased toward elite, state-sponsored narratives and do not provide comprehensive coverage of economic, social, or cultural developments.",
+  "graph_edges": [
+    {
+      "from": "-1122-001",
+      "to": "-1124-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign continues"
+    },
+    {
+      "from": "-1122-002",
+      "to": "-1100-001",
+      "relation": "led_to",
+      "note": "Iron Age development continues and accelerates"
+    }
+  ]
+}

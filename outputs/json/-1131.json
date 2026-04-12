@@ -1,0 +1,124 @@
+{
+  "year": -1131,
+  "year_label": "1131 BCE",
+  "era_context": "Late Bronze Age collapse continues. Egypt under Ramesses III faces mounting internal and external pressures. The Eastern Mediterranean remains disrupted. Neo-Hittite city-states maintain fragmented authority. The Shang Dynasty in China persists but faces increasing Zhou pressure. Iron-working technology continues to spread. This is a period of institutional stress, population movement, and technological transition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1131-001",
+      "title": "Ramesses III Year 11: Internal labor unrest and economic strain",
+      "region": "Egypt, Thebes",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "economic",
+      "description": "Ramesses III's eleventh regnal year sees evidence of labor unrest among workers at Thebes, particularly those employed in tomb construction and temple maintenance. Papyrus documents record complaints about delayed wages and food rations, reflecting the economic strain of maintaining large military and administrative establishments during the Late Bronze Age collapse. This unrest foreshadows the more serious labor strikes that will occur later in Ramesses III's reign and contribute to the decline of New Kingdom authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "Theban workers and administrators"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus documents from Thebes (administrative and labor records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Labor unrest is documented in papyri, but precise dating to Year 11 is inferred from regnal year notations. Absolute dating to 1131 BCE depends on 20th Dynasty chronology (\u00b110\u201315 years).",
+      "cross_references": [
+        "Precedes more serious labor strikes later in Ramesses III's reign"
+      ]
+    },
+    {
+      "id": "-1131-002",
+      "title": "Neo-Hittite city-states maintain trade networks and cultural continuity",
+      "region": "Anatolia, Northern Syria",
+      "coordinates_approx": "37.5\u00b0N, 36.0\u00b0E",
+      "category": "economic",
+      "description": "Archaeological evidence indicates that Neo-Hittite city-states (Carchemish, Aleppo, Tarhuntassa, and others) maintain trade networks across the Eastern Mediterranean and Near East despite the broader Late Bronze Age collapse. These city-states exchange goods with Egypt, Cyprus, and Levantine ports, suggesting that economic activity, while disrupted, continues. The city-states also maintain Hittite cultural traditions, including language, religious practices, and artistic styles, demonstrating cultural continuity despite political fragmentation.",
+      "key_figures": [
+        "Rulers of Neo-Hittite city-states"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Neo-Hittite sites (pottery, trade goods, inscriptions)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Assyrian royal inscriptions mentioning Neo-Hittite trade partners",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade networks are inferred from archaeological evidence (pottery distribution, trade goods). No contemporary sources from 1131 BCE specifically document this trade.",
+      "cross_references": [
+        "Part of broader Neo-Hittite political and economic reorganization"
+      ]
+    },
+    {
+      "id": "-1131-003",
+      "title": "Shang Dynasty faces increasing Zhou military pressure (China)",
+      "region": "China, Yellow River and Wei River valleys",
+      "coordinates_approx": "34.3\u00b0N, 114.3\u00b0E",
+      "category": "military",
+      "description": "Late Shang sources (oracle bones and later Zhou texts) suggest increasing military pressure from Zhou peoples in the Wei River valley. The Shang court faces challenges to its authority and territorial control. While the Shang Dynasty maintains its core territory in the Yellow River valley, the Zhou threat is growing. This period precedes the Zhou conquest by approximately 85 years, but military tensions are evident.",
+      "key_figures": [
+        "Shang kings (likely Xin or a predecessor)",
+        "Zhou leaders (names from later texts, not contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones from Yinxu",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Zhou Dynasty texts (Shijing, Shang shu) compiled centuries later",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated; traditional and modern dating differ by 50\u2013100+ years. Year-by-year events cannot be isolated with confidence.",
+      "cross_references": [
+        "Precedes Zhou conquest c. -1046 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of labor unrest in Ramesses III's reign is debated. Some scholars argue that papyri documenting labor complaints may represent isolated incidents rather than systemic economic crisis. The 'economic strain' narrative may be a modern historiographic construct imposed on ancient sources. Regarding Neo-Hittite trade, the evidence is indirect (pottery distribution, trade goods); no contemporary sources explicitly document trade networks or their extent. The characterization of Zhou pressure on the Shang is based largely on later Zhou texts compiled centuries after events, which may project later Zhou ideology onto earlier periods.",
+  "historiographic_note": "Egyptian papyri provide detailed evidence of labor unrest, but these are administrative documents that may not capture the full scope of economic conditions or worker perspectives. Archaeological evidence from Neo-Hittite sites provides crucial information about trade and cultural continuity, but the interpretation of pottery distribution and trade goods requires careful analysis to avoid anachronistic assumptions. Chinese sources are limited to oracle bones (divination records) and much later compilations, making it difficult to assess the actual military situation between Shang and Zhou. The 'Late Bronze Age collapse' framework continues to shape interpretation of this period, potentially obscuring regional variation and local agency.",
+  "graph_edges": [
+    {
+      "from": "-1131-001",
+      "to": "-1150-labor_strikes",
+      "relation": "led_to",
+      "note": "Early labor unrest in Year 11 precedes more serious strikes later in Ramesses III's reign"
+    },
+    {
+      "from": "-1131-002",
+      "to": "-1134-002",
+      "relation": "contemporary_with",
+      "note": "Neo-Hittite city-states maintain trade networks throughout this period"
+    },
+    {
+      "from": "-1131-003",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang-Zhou military tensions culminate in Zhou conquest"
+    }
+  ]
+}

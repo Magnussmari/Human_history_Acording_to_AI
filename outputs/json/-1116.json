@@ -1,0 +1,84 @@
+{
+  "year": -1116,
+  "year_label": "1117 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages or recently concluded. Egypt under Ramesses III is in the latter half of his reign. The Mediterranean world is transitioning from Bronze Age to Iron Age political and cultural systems. The Levant is experiencing the emergence of new Iron Age cultures. In China, the Shang Dynasty is approaching its final years; the Zhou conquest will occur within the next few decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1116-001",
+      "title": "Ramesses III \u2014 later reign, continued administration",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III's reign continues in its later phase. Administrative records suggest ongoing challenges in maintaining Egyptian authority and managing economic resources. The pharaoh's military campaigns continue, but the scope of Egyptian control is contracting. This period marks the beginning of the transition toward the Third Intermediate Period, when central pharaonic authority will be significantly weakened.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri and temple records",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-documented; the specific year -1116 falls within it, but individual annual events are not precisely datable.",
+      "cross_references": []
+    },
+    {
+      "id": "-1116-002",
+      "title": "Iron Age emergence in the Near East and Mediterranean",
+      "region": "Near East, Mediterranean, Levant",
+      "coordinates_approx": null,
+      "category": "technological",
+      "description": "The transition from Bronze Age to Iron Age is underway across the Mediterranean and Near East. Iron working technology, which had been known but not widely used, is becoming more prevalent. This technological shift is associated with the disruption of tin trade networks during the Late Bronze Age collapse, making iron a more accessible alternative to bronze. The Iron Age will eventually characterise the classical Mediterranean and Near Eastern world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from multiple sites showing iron artefacts and working sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Bronze Age to Iron Age transition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The transition to iron working is archaeologically confirmed; dating to specific years is approximate, as the process was gradual and regionally variable.",
+      "cross_references": [
+        "Related to Late Bronze Age collapse and disruption of trade networks"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The relationship between the Late Bronze Age collapse and the adoption of iron working technology is debated. While iron working does become more prevalent after the collapse, some scholars argue that the causation is not straightforward. Iron working had been known and used in limited quantities before the collapse; the disruption of tin trade may have accelerated adoption, but other factors (including the inherent advantages of iron) also played a role.",
+  "historiographic_note": "Documentation for -1116 is sparse. Egyptian administrative records remain the most detailed source, but they are biased toward royal and temple narratives. Archaeological evidence from the Near East and Mediterranean is fragmentary. The year -1116 is not individually attested in surviving records; it is assigned by convention within broader dated periods.",
+  "graph_edges": [
+    {
+      "from": "-1116-001",
+      "to": "-1119-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Ramesses III's reign."
+    },
+    {
+      "from": "-1116-002",
+      "to": "-1119-002",
+      "relation": "part_of",
+      "note": "Iron Age emergence is part of the broader Late Bronze Age collapse and transition process."
+    }
+  ]
+}

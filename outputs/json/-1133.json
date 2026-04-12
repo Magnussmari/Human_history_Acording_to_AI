@@ -1,0 +1,116 @@
+{
+  "year": -1133,
+  "year_label": "1133 BCE",
+  "era_context": "Late Bronze Age collapse continues. Egypt under Ramesses III maintains military pressure against external threats while managing internal economic strain. The Levantine coast experiences ongoing disruption from Sea Peoples and population movements. Anatolia remains fragmented into Neo-Hittite city-states. The Shang Dynasty in China faces increasing pressure from Zhou peoples. This is a period of institutional stress, warfare, and technological transition (iron-working spreading).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited sources)",
+    "Mesoamerica and South America",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1133-001",
+      "title": "Ramesses III Year 9: Continued military campaigns and administrative records",
+      "region": "Egypt",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "Ramesses III's ninth regnal year sees continued military operations and administrative consolidation. Papyrus Harris I records ongoing military expenditures and temple endowments. The pharaoh maintains control over Nubia and attempts to preserve Egyptian influence in the Levant, though with diminishing success compared to earlier New Kingdom periods. This year reflects the strain of maintaining empire during the Late Bronze Age collapse.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I (administrative record)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Egyptian regnal year dating is secure via king lists and astronomical records. Absolute dating to 1133 BCE depends on the chronology of the 20th Dynasty, which has \u00b110\u201315 year uncertainty.",
+      "cross_references": [
+        "Continuation of -1134-001 (Sea Peoples conflicts)"
+      ]
+    },
+    {
+      "id": "-1133-002",
+      "title": "Carchemish and Neo-Hittite city-states consolidate regional power",
+      "region": "Northern Syria, Anatolia",
+      "coordinates_approx": "36.8\u00b0N, 38.1\u00b0E",
+      "category": "political",
+      "description": "In the absence of centralized Hittite authority, the city-state of Carchemish emerges as a major regional power in northern Syria. Archaeological and later Assyrian sources indicate that Carchemish and allied Neo-Hittite polities maintain trade networks and military alliances. These city-states adopt iron-working technology and maintain Hittite cultural traditions while adapting to a decentralized political landscape.",
+      "key_figures": [
+        "Rulers of Carchemish (names from later Assyrian records and inscriptions)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Carchemish excavations",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Assyrian royal inscriptions (9th\u20138th century BCE) mentioning Carchemish",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of Carchemish as a regional power is inferred from archaeological stratigraphy and later textual references. No contemporary sources from 1133 BCE specifically document this process.",
+      "cross_references": [
+        "Part of broader Neo-Hittite political reorganization following -1180 collapse"
+      ]
+    },
+    {
+      "id": "-1133-003",
+      "title": "Shang Dynasty internal conflicts and Zhou pressure (China)",
+      "region": "China, Yellow River and Wei River valleys",
+      "coordinates_approx": "34.3\u00b0N, 114.3\u00b0E",
+      "category": "political",
+      "description": "Late Shang Dynasty sources (oracle bones and later Zhou texts) suggest increasing internal instability and military pressure from Zhou peoples in the Wei River valley. The Shang court faces challenges to its authority, though the dynasty maintains control of the central Yellow River region. This period precedes the Zhou conquest by approximately 87 years, but tensions are already evident.",
+      "key_figures": [
+        "Shang kings (likely Xin or a predecessor)",
+        "Zhou leaders (names from later Zhou texts, not contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones from Yinxu",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Zhou Dynasty texts (Shijing, Shang shu) compiled centuries later",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated; traditional Chinese dating and modern radiocarbon calibration differ by 50\u2013100+ years. The specific year 1133 BCE is assigned by convention to late Shang period, but year-by-year events cannot be isolated with confidence.",
+      "cross_references": [
+        "Precedes Zhou conquest c. -1046 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Ramesses III's actual military success versus propagandistic claims remains debated. Some scholars argue that the pharaoh's inscriptions exaggerate victories and that Egypt's actual control over the Levant was already severely diminished by this period. The 'Sea Peoples' as a unified threat may be a modern historiographic construct; evidence suggests dispersed maritime groups and migrants rather than a coordinated invasion. Regarding Shang-Zhou relations, later Zhou texts (compiled centuries after events) may project later Zhou ideology onto earlier periods, making contemporary Shang perspectives difficult to recover.",
+  "historiographic_note": "Egyptian sources dominate the historical record for this year, creating a Mediterranean-centric bias. Hittite and Levantine perspectives are largely lost. Chinese sources are limited to oracle bones (divination records) and much later compilations. The 'Late Bronze Age collapse' framework, while useful, may impose modern periodization on ancient actors who experienced these changes as ongoing crises rather than a unified historical period. Archaeological evidence from destruction layers and settlement abandonment provides crucial context but requires careful interpretation to avoid deterministic narratives.",
+  "graph_edges": [
+    {
+      "from": "-1133-001",
+      "to": "-1134-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's military campaigns continue across multiple regnal years"
+    },
+    {
+      "from": "-1133-003",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang internal instability and Zhou pressure culminate in Zhou conquest"
+    }
+  ]
+}
