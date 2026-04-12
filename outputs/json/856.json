@@ -1,0 +1,121 @@
+{
+  "year": 856,
+  "year_label": "856 CE",
+  "era_context": "The mid-9th century CE saw the fragmentation of the Carolingian Empire following Louis the Pious's death and the Treaty of Verdun (843). The Byzantine Empire under Michael III faced internal instability and external pressure from the Abbasid Caliphate and Rus' raiders. In East Asia, the Tang Dynasty was in terminal decline, with regional warlords consolidating power; the Srivijaya maritime empire dominated Southeast Asia. This was an era of political decentralization in Europe, religious reform movements in Islam, and technological continuity in most regions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Pre-Columbian Americas (no written records; archaeological evidence sparse for specific years)",
+    "Northern Europe beyond Frankish and Scandinavian zones"
+  ],
+  "events": [
+    {
+      "id": "856-001",
+      "title": "Anaphora of Photius and ecclesiastical crisis in Constantinople",
+      "region": "Byzantine Empire (Constantinople)",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "religious",
+      "description": "Photius, a high-ranking court official and scholar, was appointed Patriarch of Constantinople, displacing Ignatius. This appointment triggered a major ecclesiastical schism within the Byzantine Church and strained relations with Rome. The conflict centered on questions of imperial authority over the Church, monastic reform, and the legitimacy of Ignatius's deposition. Photius's appointment marked the beginning of a decades-long dispute that would contribute to broader East-West ecclesiastical tensions.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Michael III (Byzantine Emperor)",
+        "Ignatius (deposed Patriarch)"
+      ],
+      "sources": [
+        {
+          "name": "Life of Photius (Vita Photii) \u2014 later Byzantine hagiographic compilation",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Continuation of Theophanes (Theophanes Continuatus) \u2014 10th-century Byzantine chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Papal correspondence and Western ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The appointment of Photius in 858 is well-attested; some sources place the crisis's beginning in 856 with preliminary tensions. Dating varies slightly across sources (856 vs. 858), but 858 is more widely accepted by modern scholarship.",
+      "cross_references": [
+        "Relates to 863-001 (Photius's mission to the Rus')",
+        "Precedes 867-001 (Photian Schism formalized)"
+      ]
+    },
+    {
+      "id": "856-002",
+      "title": "Abbasid-Byzantine naval conflict in the Mediterranean",
+      "region": "Eastern Mediterranean (Byzantine-Abbasid frontier)",
+      "coordinates_approx": "36.5, 30.0",
+      "category": "military",
+      "description": "Ongoing raids and naval skirmishes between Byzantine and Abbasid forces continued along the Cilician and Syrian coasts. Byzantine forces under the theme system attempted to defend coastal settlements against Abbasid corsairs and raiding parties. These conflicts were part of the broader Arab-Byzantine frontier wars that had persisted since the 7th century, with neither side achieving decisive territorial gains.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Al-Mutawakkil (Abbasid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus \u2014 Byzantine chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Abbasid administrative records and later Islamic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Specific engagements in 856 are not individually well-documented; this represents the continuation of well-attested frontier warfare patterns. The year is assigned by convention within the broader conflict cycle.",
+      "cross_references": []
+    },
+    {
+      "id": "856-003",
+      "title": "Anarchy at the court of the Abbasid Caliph al-Mutawakkil",
+      "region": "Abbasid Caliphate (Samarra, Iraq)",
+      "coordinates_approx": "34.2, 43.8",
+      "category": "political",
+      "description": "Al-Mutawakkil's reign (847\u2013861) was marked by increasing instability as Turkish slave-soldiers (ghulams) and eunuchs gained power at court, undermining caliphal authority. In 856, factional violence and palace intrigues intensified, with rival military factions competing for influence over the aging caliph. This period saw the rise of the Turkish guard as a kingmaker force, a development that would reshape Abbasid governance for centuries.",
+      "key_figures": [
+        "Al-Mutawakkil (Abbasid Caliph)",
+        "Turkish military factions and eunuchs at court"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-al-Muluk) \u2014 10th-century compilation of earlier sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab) \u2014 10th-century historiographic synthesis",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general instability of al-Mutawakkil's court is well-attested; specific events in 856 are reconstructed from later compilations and may conflate events across multiple years.",
+      "cross_references": [
+        "Precedes 861-001 (assassination of al-Mutawakkil)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Photius's appointment is disputed: some sources place it in 858 rather than 856, and the exact sequence of ecclesiastical events is contested by modern scholars. The significance of 856 as a turning point in Byzantine-Abbasid relations is not universally agreed upon; some historians emphasize continuity rather than crisis in this year specifically.",
+  "historiographic_note": "Documentation for 856 is heavily weighted toward Byzantine and Islamic court history, with surviving sources being later compilations rather than contemporary records. Western European sources are sparse. The reliability of dating for specific events within the year is moderate; many sources conflate events across multiple years or provide only approximate chronologies. Abbasid sources are mediated through 10th-century historians like Tabari, introducing potential distortion. Archaeological evidence for this year is minimal.",
+  "graph_edges": [
+    {
+      "from": "856-001",
+      "to": "867-001",
+      "relation": "led_to",
+      "note": "Photius's appointment in 856/858 directly led to the formalization of the Photian Schism in 867"
+    },
+    {
+      "from": "856-003",
+      "to": "861-001",
+      "relation": "led_to",
+      "note": "Court instability and Turkish military power in 856 culminated in al-Mutawakkil's assassination in 861"
+    }
+  ]
+}

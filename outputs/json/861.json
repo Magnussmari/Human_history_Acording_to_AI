@@ -1,0 +1,125 @@
+{
+  "year": 861,
+  "year_label": "861 CE",
+  "era_context": "The mid-9th century CE witnessed the fragmentation of the Carolingian Empire following Louis the Pious's death and the Treaty of Verdun (843). The Byzantine Empire under Michael III was consolidating power in the eastern Mediterranean. The Abbasid Caliphate, though politically fractured, remained culturally dominant in the Islamic world. Viking raids continued across Europe, and the Tang Dynasty in China was in terminal decline, approaching the Huang Chao Rebellion.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "861-001",
+      "title": "Viking raid on Paris and siege by Norse forces",
+      "region": "West Francia (modern France)",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "military",
+      "description": "Norse raiders under Ragnar Lothbrok (or his sons, accounts vary) besieged Paris, demanding tribute from King Charles the Bald. The city was defended but ultimately paid ransom to end the siege. This raid exemplified the vulnerability of Frankish territories to Viking incursions and the erosion of central authority in the post-Verdun Carolingian successor states. The siege lasted several months and resulted in significant plunder.",
+      "key_figures": [
+        "Ragnar Lothbrok (legendary/semi-legendary Viking leader)",
+        "Charles the Bald (King of West Francia)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Saint-Bertin",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Gesta Normannorum by William of Jumi\u00e8ges",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege is attested in contemporary Frankish chronicles, but the identity of the Viking leader is disputed. Ragnar Lothbrok may be legendary or composite; Norse sagas place him in this era, but his historicity is debated.",
+      "cross_references": [
+        "Follows from 859-001 (earlier Viking raids on Paris)",
+        "Part of broader Viking expansion pattern 840\u2013900"
+      ]
+    },
+    {
+      "id": "861-002",
+      "title": "Photian Schism deepens: Patriarch Photius excommunicated by Pope Nicholas I",
+      "region": "Byzantine Empire and Papal States",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "religious",
+      "description": "The dispute between Patriarch Photius of Constantinople and Pope Nicholas I escalated when the Pope excommunicated Photius over jurisdictional claims in Bulgaria and theological disputes (particularly the Filioque controversy). This marked a critical moment in the growing rift between Eastern Orthodox and Roman Catholic Christianity. The conflict reflected both theological differences and political competition for influence in the Balkans.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Pope Nicholas I",
+        "Michael III (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal records)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Synodal records and papal letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The excommunication is well-documented in both Byzantine and papal sources. The date 861 is established in historiographic consensus.",
+      "cross_references": [
+        "Part of broader Photian Schism (858\u2013867)",
+        "Led to eventual Great Schism of 1054"
+      ]
+    },
+    {
+      "id": "861-003",
+      "title": "Anaphora of Saint Basil standardized in Byzantine liturgy",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "religious",
+      "description": "During the reign of Michael III, the Anaphora (Eucharistic prayer) attributed to Saint Basil the Great was formally standardized in Byzantine liturgical practice. This represented the consolidation of Orthodox liturgical tradition and reflected the broader ecclesiastical authority of the Patriarchate of Constantinople. The standardization was part of the post-Iconoclastic restoration of Orthodox practice.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Photius (Patriarch of Constantinople)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine liturgical manuscripts and synodal records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Byzantine liturgical development",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The standardization process occurred over several decades; 861 is a conventional date within the broader mid-9th-century consolidation. Exact dating is uncertain.",
+      "cross_references": [
+        "Part of post-Iconoclastic Orthodox restoration (843\u2013)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The identity and historicity of Ragnar Lothbrok remain highly disputed. While Norse sagas place him in the 9th century, modern scholarship questions whether he was a historical figure or a composite/legendary character. Some scholars argue the 861 Paris siege may have been led by other Viking commanders whose names were later conflated with the Ragnar legend. The Photian Schism's significance is sometimes overstated in Western historiography; it was a serious dispute but not the final break (which came in 1054), and Byzantine-papal relations remained complex and sometimes cooperative after 861.",
+  "historiographic_note": "The historical record for 861 is dominated by Western European (Frankish) and Byzantine sources. Frankish chronicles are relatively rich but reflect court perspectives and may exaggerate Viking threats. Byzantine sources are detailed but focus on Constantinople and ecclesiastical matters. Islamic sources for this period are less abundant in surviving form, though the Abbasid Caliphate was active. Chinese sources exist for the Tang Dynasty's decline but are not well integrated into Western historical narratives. The record is biased toward political and military events; economic and social history are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "861-001",
+      "to": "859-001",
+      "relation": "part_of",
+      "note": "Continuation of Viking raid pattern on Paris and West Francia"
+    },
+    {
+      "from": "861-002",
+      "to": "1054-SCHISM",
+      "relation": "led_to",
+      "note": "Photian Schism deepened tensions that culminated in the Great Schism of 1054"
+    },
+    {
+      "from": "861-001",
+      "to": "862-NOVGOROD",
+      "relation": "contemporary_with",
+      "note": "Part of broader Viking expansion eastward and westward in this period"
+    }
+  ]
+}

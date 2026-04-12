@@ -1,98 +1,175 @@
 {
   "year": 905,
   "year_label": "905 CE",
-  "era_context": "The early 10th century is a period of transition across Eurasia. The Tang Dynasty in China is in steep decline but still nominally in power. The Abbasid Caliphate is fragmenting. In Europe, feudal kingdoms have replaced the Carolingian Empire; the Viking Age continues. The Byzantine Empire remains a major Mediterranean power. This year falls within a broader period of imperial decline and regional fragmentation.",
-  "documentation_level": "sparse",
+  "era_context": "The early 10th century CE continues the period of fragmentation in the Islamic world and China, with the Tang Dynasty in its final years and the Abbasid Caliphate losing territorial control. In Europe, feudalism is consolidating, and the Viking Age remains in full swing. In Mesoamerica, the Postclassic period is underway with the rise of new city-states in the Yucatan Peninsula.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (no written sources)",
-    "Pre-Columbian Americas (no written records)",
-    "Northern and Eastern Europe beyond Frankish sphere",
-    "Central Asia and the Steppe (fragmentary sources)",
-    "South Asia (limited sources)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pacific Islands (oral traditions not well integrated)",
+    "Pre-Columbian North America (archaeological record fragmentary)"
   ],
   "events": [
     {
       "id": "905-001",
-      "title": "Tang Dynasty military defeats and loss of territorial control",
-      "region": "China",
-      "coordinates_approx": "34.5\u00b0N, 114.5\u00b0E",
-      "category": "military",
-      "description": "The Tang Dynasty continues to suffer military defeats and loss of territorial control in 905 CE. Regional warlords expand their power; the imperial court is weak. The Silk Road trade, which had enriched Tang for centuries, is disrupted by warfare and the rise of independent regional powers. The dynasty is approaching its formal collapse in 907 CE. This period of decline is marked by the rise of military strongmen like Zhu Wen, who will eventually depose the Tang emperor. The loss of Tang military power represents a fundamental shift in East Asian geopolitics.",
+      "title": "Tang Dynasty in Terminal Decline; Zhu Wen's Military Dominance",
+      "region": "China (Northern China, Yellow River valley)",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "political",
+      "description": "By 905, the Tang Dynasty was in its final years of formal existence (it would be officially ended in 907). Zhu Wen, the military strongman who had risen from humble origins to command the most powerful military force in northern China, was consolidating his control over the imperial court and eliminating rivals. The Tang emperors had become puppets in the hands of military strongmen; Zhu Wen's dominance was nearly complete. This period exemplifies the transition from aristocratic to military rule in China and the beginning of the Five Dynasties and Ten Kingdoms period of extreme fragmentation.",
       "key_figures": [
-        "Zhu Wen (military strongman)",
-        "Li Keyong (rival warlord)",
-        "Tang Aizong (Tang emperor)"
+        "Zhu Wen (military strongman, future emperor)",
+        "Emperor Zhaozong of Tang (nominal ruler, effectively powerless)",
+        "Emperor Ai of Tang (successor, r. 904\u2013907)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Official histories of the Five Dynasties",
+          "name": "Official histories of the Five Dynasties period",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Tang Dynasty and Zhu Wen's rise are well-documented in multiple Chinese historical sources, though compiled centuries later.",
+      "cross_references": [
+        "906-001 (Zhu Wen's consolidation)",
+        "907-001 (formal end of Tang Dynasty)"
+      ]
+    },
+    {
+      "id": "905-002",
+      "title": "Abbasid Caliphate Fragmentation; Regional Dynasties Consolidate",
+      "region": "Islamic World (Mesopotamia, Persia, North Africa, Levant)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "By 905, the Abbasid Caliphate, once the dominant Islamic power, had fragmented into numerous regional dynasties and emirates. The Tulunids in Egypt (868\u2013905), the Samanids in Central Asia (819\u2013999), the Ikhshidids in Egypt and the Levant (beginning c. 935), and various other regional powers were effectively independent, though they maintained nominal recognition of Abbasid authority. The Fatimid movement was consolidating in North Africa. This fragmentation represented a fundamental shift in Islamic political organization from centralized caliphal authority to a multipolar system of regional powers.",
+      "key_figures": [
+        "Caliph Al-Muktafi (r. 902\u2013908, Abbasid Caliph)",
+        "Ahmad ibn Tulun (founder of Tulunid dynasty, d. 884, but his successors ruled until 905)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins bearing names of regional rulers)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is well-documented in multiple Islamic historical sources and confirmed by numismatic evidence.",
+      "cross_references": [
+        "868-001 (founding of Tulunid dynasty)",
+        "909-001 (formal proclamation of Fatimid Caliphate)"
+      ]
+    },
+    {
+      "id": "905-003",
+      "title": "Battle of the Dnieper; Rus' Expansion and Viking Activity",
+      "region": "Eastern Europe (Rus' principalities, modern Ukraine and Russia)",
+      "coordinates_approx": "50.0, 30.0",
+      "category": "military",
+      "description": "The early 10th century saw intense Viking (Varangian) activity in Eastern Europe, with Norse traders and warriors establishing control over river routes and founding or consolidating settlements that would become the Kievan Rus'. While no specific battle is definitively dated to 905, this period (c. 900\u2013920) saw the consolidation of Varangian control over the Dnieper River trade route and the establishment of Kyiv as a major center. The Rus' were simultaneously conducting raids and trade missions to Constantinople and the Islamic world. This period marks the beginning of the Kievan Rus' as a recognizable political entity.",
+      "key_figures": [
+        "Oleg of Novgorod (legendary founder of Kievan Rus', traditional dates c. 879\u2013912)",
+        "Igor of Kiev (successor to Oleg, r. c. 912\u2013945)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle (Povest' vremennykh let), compiled 12th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Constantine VII's De administrando imperio)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Novgorod and Kyiv",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of early Kievan Rus' is highly uncertain. The Primary Chronicle, compiled centuries later, provides the main narrative, but its dating is debated by modern scholars. Oleg's dates are traditionally given as c. 879\u2013912, but some scholars argue for later dates.",
+      "cross_references": [
+        "912-001 (Oleg's death and Igor's succession, traditional dating)"
+      ]
+    },
+    {
+      "id": "905-004",
+      "title": "Mayan Postclassic Period: Chichen Itza and Yucatan City-States",
+      "region": "Mesoamerica (Yucatan Peninsula, modern Mexico)",
+      "coordinates_approx": "20.5, -87.5",
+      "category": "cultural",
+      "description": "The Postclassic period of Mesoamerica (c. 900\u20131519) was underway by 905, with the Classic Maya collapse having occurred centuries earlier. New city-states were rising in the Yucatan Peninsula, including Chichen Itza, which would become a major power by the 10th\u201311th centuries. The period saw the development of new architectural styles, the influence of Toltec culture from central Mexico, and the emergence of new political and religious systems. The exact chronology of early Postclassic Yucatan is debated, but this period marks a significant transition in Mesoamerican civilization.",
+      "key_figures": [
+        "Unknown rulers of emerging Yucatan city-states"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Chichen Itza and other Yucatan sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Maya codices (post-conquest compilations of pre-conquest knowledge)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish colonial accounts (Diego de Landa, Relaci\u00f3n de las cosas de Yucat\u00e1n)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The general state of Tang military decline in 905 CE is attested in Chinese sources. Specific military campaigns and defeats for 905 CE are not precisely documented; the year is assigned by convention within the broader period of Tang collapse.",
+      "certainty_note": "The chronology of the Postclassic Maya is based on archaeological stratigraphy and radiocarbon dating, with significant uncertainty in precise dating. The year 905 is assigned here as a conventional marker within the broader Postclassic transition.",
       "cross_references": [
-        "Precedes Tang Dynasty fall (907 CE)",
-        "Part of broader Five Dynasties and Ten Kingdoms period (907\u2013960 CE)"
-      ]
-    },
-    {
-      "id": "905-002",
-      "title": "Abbasid Caliphate loses control of Egypt and the Levant",
-      "region": "Egypt and the Levant, Islamic world",
-      "coordinates_approx": "30.0\u00b0N, 30.0\u00b0E",
-      "category": "political",
-      "description": "By 905 CE, the Abbasid Caliphate has lost effective control of Egypt and much of the Levant to independent governors and rival powers. The Ikhshidid dynasty is consolidating power in Egypt; the Levant is fragmented among various emirs. The Abbasid Caliph in Baghdad retains nominal authority but commands little actual power outside Iraq. This loss of control over wealthy provinces accelerates the Caliphate's decline. The fragmentation of the Islamic world is a defining feature of the early 10th century.",
-      "key_figures": [
-        "Al-Muktafi bi-Allah (Abbasid Caliph, r. 902\u2013909)",
-        "Various provincial governors and independent rulers"
-      ],
-      "sources": [
-        {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus from Islamic history scholarship",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The loss of Abbasid control over Egypt and the Levant is well-documented in Islamic sources, though the precise chronology is sometimes uncertain. The process was gradual, occurring over the late 9th and early 10th centuries.",
-      "cross_references": [
-        "Part of broader Abbasid decline",
-        "Precedes Fatimid proclamation (909 CE)"
+        "1000-001 (Chichen Itza's rise to prominence)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Tang Dynasty decline as a linear, inevitable process is questioned by modern scholars. The year 905 CE is not marked by any specific, documented event; it is assigned significance primarily by its proximity to the 907 CE collapse. The extent of Abbasid loss of control by 905 CE is sometimes overstated; the Caliphate retained some administrative capacity in Iraq and the Levant.",
-  "historiographic_note": "Documentation for 905 CE is sparse. Chinese sources provide general context for Tang decline but do not record specific events for this year. Islamic sources are similarly general. European sources are minimal. The year 905 CE is historically significant primarily as part of the broader period of Tang decline and Abbasid fragmentation, but it lacks distinctive events of its own. This year is likely underrepresented in historical narratives due to the absence of major, well-documented events.",
+  "disconfirming_evidence": "The traditional dating of Oleg of Novgorod's reign (c. 879\u2013912) has been questioned by modern scholars, with some arguing for dates a century or more later. The Primary Chronicle, the main source for early Kievan Rus', is now understood to be a 12th-century compilation with significant legendary and mythological elements, making precise dating of 10th-century events highly uncertain. Additionally, the 'Five Dynasties and Ten Kingdoms' period in China is often portrayed as purely chaotic, but recent scholarship emphasizes administrative and cultural continuities. The significance of 905 specifically is minimal; the year marks no dramatic turning point in most regions.",
+  "historiographic_note": "The historical record for 905 is dominated by East Asian and Islamic sources, with Western European documentation sparse and focused on elite events. Eastern European history relies heavily on the Primary Chronicle, a much later compilation with significant legendary elements. Mesoamerican history is based entirely on archaeology and post-conquest compilations, with no contemporary written records. The surviving sources are heavily biased toward political and military events; economic, social, and cultural history must be inferred from material evidence. Chinese and Islamic sources, while abundant, are often compiled centuries after events and reflect the biases of later dynasties and compilers.",
   "graph_edges": [
     {
       "from": "905-001",
-      "to": "907-001",
+      "to": "906-001",
       "relation": "led_to",
-      "note": "Tang military decline in 905 CE leads to dynasty's fall in 907 CE"
+      "note": "Tang Dynasty's decline and Zhu Wen's dominance in 905 led to his consolidation in 906"
     },
     {
       "from": "905-002",
       "to": "909-001",
+      "relation": "contemporary_with",
+      "note": "Abbasid fragmentation was concurrent with Fatimid consolidation"
+    },
+    {
+      "from": "905-003",
+      "to": "912-001",
       "relation": "led_to",
-      "note": "Abbasid loss of control in 905 CE accelerates fragmentation leading to Fatimid proclamation (909 CE)"
+      "note": "Varangian consolidation in Eastern Europe led to Oleg's succession by Igor"
+    },
+    {
+      "from": "905-004",
+      "to": "1000-001",
+      "relation": "part_of",
+      "note": "Early Postclassic Yucatan development led to Chichen Itza's rise"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:18:05.909280",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

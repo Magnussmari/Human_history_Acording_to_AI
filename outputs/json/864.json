@@ -1,0 +1,137 @@
+{
+  "year": 864,
+  "year_label": "864 CE",
+  "era_context": "The mid-9th century CE was marked by the consolidation of post-Carolingian kingdoms in Western Europe, the continued expansion of Viking power, the Byzantine Empire's military resurgence, and the decline of the Tang Dynasty in China. The Islamic world remained culturally vibrant, and the Abbasid Caliphate continued to be a center of scientific and philosophical advancement.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia and the steppes (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "864-001",
+      "title": "Viking raid on Constantinople",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "military",
+      "description": "A Viking fleet, likely composed of Varangian (Scandinavian) warriors who had traveled down the Dnieper River, attacked Constantinople, the capital of the Byzantine Empire. This raid was one of the earliest recorded Viking attacks on the Byzantine heartland and demonstrated the far-reaching extent of Viking expansion into Eastern Europe and the Mediterranean. The raid was repelled by Byzantine forces, but it highlighted the vulnerability of even the most powerful medieval state to Viking incursions.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Michael III (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Photius's homilies and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Viking raid on Constantinople in 864 is attested in Byzantine sources, particularly in Photius's writings. The date is well-established in the historical record.",
+      "cross_references": [
+        "860-001 (earlier Viking raid on Constantinople)",
+        "1043-001 (later Varangian-Byzantine relations)"
+      ]
+    },
+    {
+      "id": "864-002",
+      "title": "Council of Constantinople and Photian Schism escalation",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "religious",
+      "description": "A church council was convened in Constantinople to address the ongoing dispute between Patriarch Photius and Pope Nicholas I. The council reaffirmed Photius's position and condemned papal interference in Byzantine ecclesiastical affairs. This escalation of the Photian Schism represented a major moment in the developing East-West Christian divide, with fundamental disagreements over papal authority, the Filioque controversy, and the role of the patriarch.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Pope Nicholas I",
+        "Michael III (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Photius's letters and theological writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Constantinople and the Photian Schism are well-documented in contemporary ecclesiastical sources. The year 864 is established in the historical record.",
+      "cross_references": [
+        "858-001 (Photius becomes patriarch)",
+        "867-003 (Photius's deposition)"
+      ]
+    },
+    {
+      "id": "864-003",
+      "title": "Anaphora of Cyril and Methodius mission to Moravia",
+      "region": "Great Moravia, Central Europe",
+      "coordinates_approx": "48.5, 17.0",
+      "category": "religious",
+      "description": "The Byzantine missionaries Cyril and Methodius were sent by the Byzantine Emperor to the Slavic kingdom of Great Moravia to spread Christianity and Byzantine cultural influence. This mission was part of the broader Byzantine effort to extend its religious and political authority into Central Europe. Cyril and Methodius developed the Glagolitic script to translate Christian texts into Old Church Slavonic, creating a written Slavic language and laying the foundation for Slavic Christian culture.",
+      "key_figures": [
+        "Cyril (Byzantine missionary, born Constantine)",
+        "Methodius (Byzantine missionary)",
+        "Rastislav (Prince of Great Moravia)"
+      ],
+      "sources": [
+        {
+          "name": "Life of Cyril (Vita Cyrilli)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Life of Methodius (Vita Methodii)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The mission of Cyril and Methodius to Moravia is attested in later hagiographic sources. The exact date of 864 is conventional; some sources place the mission in 863 or 865. The Lives of Cyril and Methodius were written after their deaths and contain legendary elements.",
+      "cross_references": [
+        "863-001 (alternative date for Cyril and Methodius mission)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Cyril and Methodius mission to Moravia is disputed. While 864 is a commonly cited date, some sources place it in 863, and others suggest 865. The hagiographic sources (Lives of Cyril and Methodius) were written well after the events and contain legendary and miraculous elements that complicate their historical reliability. Additionally, the extent of Byzantine political motivation versus genuine missionary zeal in the mission remains debated by scholars.",
+  "historiographic_note": "The historical record for 864 CE is moderately rich for the Byzantine Empire and Western Europe, drawing on contemporary ecclesiastical sources and later chronicles. However, sources are often biased toward religious and political narratives. The Viking raid on Constantinople is well-attested but brief in the sources. For regions outside the Mediterranean and Western Europe, documentation is sparse. The Cyril and Methodius mission is known primarily through later hagiographic sources, which blend historical fact with legend.",
+  "graph_edges": [
+    {
+      "from": "864-001",
+      "to": "860-001",
+      "relation": "contemporary_with",
+      "note": "The 864 raid on Constantinople was part of the broader pattern of Viking incursions into the Mediterranean that began with the 860 raid."
+    },
+    {
+      "from": "864-002",
+      "to": "867-003",
+      "relation": "led_to",
+      "note": "The escalation of the Photian Schism in 864 led to Photius's deposition in 867."
+    },
+    {
+      "from": "864-003",
+      "to": "885-001",
+      "relation": "led_to",
+      "note": "The Cyril and Methodius mission to Moravia in 864 led to the development of Old Church Slavonic and the Christianization of Slavic peoples."
+    }
+  ]
+}

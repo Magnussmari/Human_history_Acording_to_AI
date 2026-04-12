@@ -1,101 +1,189 @@
 {
   "year": 886,
   "year_label": "886 CE",
-  "era_context": "886 CE falls during the reign of Charles III (the Fat), the last emperor to rule a substantial portion of the Frankish realm. The empire is fragmenting under pressure from Viking raids, internal aristocratic conflicts, and the rise of feudal relationships. The Viking Age is at its height, with Norse raiders active across northern Europe, the Mediterranean, and into the Atlantic. The Islamic Abbasid Caliphate is experiencing internal fragmentation with autonomous regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final decades, with regional warlords consolidating power.",
-  "documentation_level": "sparse",
+  "era_context": "The late 9th century CE, a period of fragmentation across the former Carolingian Empire and significant Viking activity in Western Europe. The Byzantine Empire under the Macedonian Renaissance was consolidating power in the Eastern Mediterranean. In East Asia, the Tang Dynasty had collapsed (907 CE imminent), and regional powers competed for dominance. The Islamic Abbasid Caliphate was in decline, with regional dynasties asserting autonomy.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia (limited contemporary sources)",
-    "Islamic world (limited Western documentation)"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Mesoamerica and North America (no written records; archaeological evidence limited)"
   ],
   "events": [
     {
       "id": "886-001",
-      "title": "Siege of Paris by Viking forces; Odo of Paris gains prestige",
-      "region": "West Francia (modern France)",
-      "coordinates_approx": "48.8566, 2.3522",
-      "category": "military",
-      "description": "A major Viking force, led by Ragnar Lothbrok (legendary) or more likely by unnamed Norse commanders, besieged Paris from 885 to 886. The siege lasted approximately one year and was eventually lifted through a combination of Frankish military action and payment of tribute (danegeld). Odo, Count of Paris, played a prominent role in the defense of the city and gained significant prestige from his resistance to the Vikings. This prestige would later help Odo secure election as King of West Francia in 888. The siege is a major event in the Viking Age and demonstrates both the vulnerability of Frankish cities and the effectiveness of Viking siege tactics.",
+      "title": "Treaty of Edington and establishment of the Danelaw",
+      "region": "England (Anglo-Saxon kingdoms)",
+      "coordinates_approx": "52.5,-1.5",
+      "category": "political",
+      "description": "Following the Treaty of Edington (878 CE), the formal division of England between Saxon and Viking territories was consolidated and recognized. King Alfred the Great of Wessex and the Viking leader Guthrum established a boundary roughly along the line of the old Roman road Watling Street, with the Danelaw (Viking-controlled territory) comprising the northeast. This settlement, formalized in the treaty and its aftermath, created a stable framework for coexistence and allowed Alfred to focus on strengthening Wessex's defenses and administrative structures. The agreement marked a turning point from constant warfare to negotiated territorial partition.",
       "key_figures": [
-        "Odo of Paris (defender of the city)",
-        "Charles III the Fat (emperor, negotiated tribute)",
-        "Unnamed Viking leaders (traditionally attributed to Ragnar Lothbrok, but this is legendary)"
+        "Alfred the Great (King of Wessex)",
+        "Guthrum (Viking leader, later \u00c6thelstan)"
       ],
       "sources": [
         {
-          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis (Poem on the Siege of Paris)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Regino of Pr\u00fcm, Chronicle",
+          "name": "Anglo-Saxon Chronicle",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Annals of Fulda",
+          "name": "Asser's Life of King Alfred",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The siege of Paris in 885\u2013886 is well-attested in contemporary and near-contemporary sources. Abbo of Saint-Germain-des-Pr\u00e9s wrote a poem about the siege, providing a contemporary account. The date is secure.",
+      "certainty": "probable",
+      "certainty_note": "The Treaty of Edington is dated to 878 CE; the events of 886 represent the consolidation and recognition of this arrangement. Dating is secure from chronicle sources, though exact year of formal recognition varies slightly in sources.",
       "cross_references": [
-        "Leads to 889-001 (Odo's election as king)"
+        "878-001 (Treaty of Edington)",
+        "910-001 (Edward the Elder's expansion)"
       ]
     },
     {
       "id": "886-002",
-      "title": "Charles III pays danegeld to Viking forces; siege of Paris lifted",
-      "region": "West Francia",
-      "coordinates_approx": "48.8566, 2.3522",
+      "title": "Recapture of London by Alfred the Great",
+      "region": "England (Mercia/Wessex border)",
+      "coordinates_approx": "51.5,-0.1",
       "category": "military",
-      "description": "Following the siege of Paris, Charles III negotiated with the Viking forces and paid a substantial tribute (danegeld) to lift the siege. This payment was controversial: it demonstrated both the emperor's military weakness and his willingness to use financial resources to resolve conflicts. The payment of danegeld became a recurring strategy in Frankish and English responses to Viking threats, though it was often criticized as encouraging further raids. The lifting of the siege marked the end of the immediate Viking threat to Paris, though Norse raiders continued to operate in the region.",
+      "description": "Alfred the Great recaptured London from Viking control, a strategically crucial city on the Thames. The recapture was part of Alfred's broader campaign to secure Wessex and Mercia against Viking incursions. London's recovery strengthened Alfred's position and allowed him to extend his authority over Mercia, which he placed under the rule of his son-in-law \u00c6thelred. The city's recapture was significant for both military and economic reasons\u2014London was a major trading center, and its control enhanced Wessex's wealth and influence.",
       "key_figures": [
-        "Charles III the Fat (emperor, negotiated payment)",
-        "Unnamed Viking leaders"
+        "Alfred the Great (King of Wessex)",
+        "\u00c6thelred (Ealdorman of Mercia, Alfred's son-in-law)"
       ],
       "sources": [
         {
-          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Regino of Pr\u00fcm, Chronicle",
+          "name": "Asser's Life of King Alfred",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The payment of danegeld and the lifting of the siege are well-attested in contemporary and near-contemporary sources. The date is secure.",
+      "certainty": "probable",
+      "certainty_note": "The Anglo-Saxon Chronicle records this event under 886 CE. The date is accepted by modern scholarship, though some sources place related military campaigns slightly earlier or later. The event itself is well-attested.",
       "cross_references": [
-        "Contemporary with 886-001 (siege of Paris)"
+        "886-001 (Danelaw consolidation)",
+        "878-001 (Treaty of Edington)"
+      ]
+    },
+    {
+      "id": "886-003",
+      "title": "Basil I's military campaigns in the Balkans",
+      "region": "Byzantine Empire (Balkans)",
+      "coordinates_approx": "42.0,21.0",
+      "category": "military",
+      "description": "The Byzantine Emperor Basil I (r. 867\u2013886 CE) continued military operations in the Balkans against Slavic and Bulgarian forces. Basil I's reign was marked by aggressive expansion and the consolidation of Byzantine power in the region. His campaigns aimed to secure Byzantine control over the Balkans and counter the rising power of the First Bulgarian Empire. These military efforts were part of the broader Macedonian Renaissance, a period of Byzantine cultural and military revival.",
+      "key_figures": [
+        "Basil I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Basil I's reign ended in 886 CE. Specific military campaigns in this year are less precisely documented than major events. The broader pattern of Balkan campaigns is well-attested; the specific events of 886 are inferred from the general historical record.",
+      "cross_references": [
+        "867-001 (Basil I's accession)",
+        "913-001 (Simeon of Bulgaria's rise)"
+      ]
+    },
+    {
+      "id": "886-004",
+      "title": "Death of Basil I and succession of Leo VI",
+      "region": "Byzantine Empire (Constantinople)",
+      "coordinates_approx": "41.0,29.0",
+      "category": "political",
+      "description": "Basil I, the founder of the Macedonian Dynasty and one of the most successful Byzantine emperors, died in 886 CE. He was succeeded by his son Leo VI (r. 886\u2013912 CE), known as Leo VI the Wise. Leo VI inherited a strong empire but faced significant challenges, including renewed pressure from the Abbasid Caliphate and internal religious controversies. Basil I's death marked the end of an era of aggressive expansion; Leo VI's reign would be characterized by more defensive postures and intellectual pursuits.",
+      "key_figures": [
+        "Basil I (Byzantine Emperor, d. 886)",
+        "Leo VI (Byzantine Emperor, r. 886\u2013912)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Basil I and succession of Leo VI in 886 CE is well-documented in Byzantine chronicles and is accepted by modern scholarship without significant dispute.",
+      "cross_references": [
+        "867-001 (Basil I's accession)",
+        "912-001 (Leo VI's death)"
+      ]
+    },
+    {
+      "id": "886-005",
+      "title": "Continued fragmentation of the Abbasid Caliphate",
+      "region": "Islamic world (Mesopotamia, Persia, Levant)",
+      "coordinates_approx": "33.0,44.0",
+      "category": "political",
+      "description": "The Abbasid Caliphate, once the dominant Islamic power, continued its fragmentation in the late 9th century. Regional dynasties\u2014including the Tulunids in Egypt, the Samanids in Central Asia, and various emirs in the Levant\u2014increasingly asserted autonomy. The Caliph in Baghdad retained symbolic religious authority but limited temporal power. This period saw the rise of competing centers of Islamic civilization and the emergence of distinct regional cultures and political structures. The fragmentation reflected broader economic, military, and administrative challenges facing the centralized caliphate.",
+      "key_figures": [
+        "Al-Muktafi (Abbasid Caliph, r. 902\u2013908, but the broader trend predates his reign)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Abbasid decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is a well-established historical trend. Specific events in 886 CE are less precisely documented; the entry reflects the broader pattern of this era.",
+      "cross_references": [
+        "868-001 (Tulunid Egypt)",
+        "909-001 (Fatimid Caliphate establishment)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional attribution of the siege of Paris to Ragnar Lothbrok is legendary and not supported by contemporary sources. Modern scholars identify the Viking leaders as unnamed Norse commanders, likely from the Great Heathen Army or related groups. The significance of the siege has been somewhat overstated in older historiography; while it was a major event, it did not fundamentally alter the balance of power in West Francia. Additionally, the payment of danegeld is sometimes portrayed as a sign of weakness, but it was also a rational strategic choice that preserved the city and the emperor's resources. No other disconfirming evidence identified for events listed.",
-  "historiographic_note": "The historical record for 886 is moderate, primarily due to the contemporary account by Abbo of Saint-Germain-des-Pr\u00e9s. This source provides a vivid but potentially biased perspective on the siege, emphasizing the heroism of the defenders and the threat posed by the Vikings. Other sources (Regino, Fulda Annals) are near-contemporary chronicles compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize the role of the emperor and underrepresent the agency of local defenders like Odo. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources.",
+  "disconfirming_evidence": "The significance of the Danelaw settlement (886-001) is sometimes overstated in popular histories as a 'permanent' division of England. Modern scholarship emphasizes that the boundary was fluid and contested for decades; the 'Danelaw' was not a formal political entity but a zone of mixed Saxon and Viking settlement. The recapture of London (886-002) is sometimes attributed to 886 CE, but some sources place it slightly earlier (885 CE) or later (887 CE); the Anglo-Saxon Chronicle's dating is not always precise for events in this period. Basil I's military campaigns (886-003) are often portrayed as uniformly successful, but recent scholarship notes significant setbacks and the limits of Byzantine power in the Balkans during this period.",
+  "historiographic_note": "The documentation for 886 CE is uneven. Western European events (England, Frankish kingdoms) are relatively well-attested through chronicles like the Anglo-Saxon Chronicle and Asser's Life of Alfred, though these sources are not contemporary and reflect the biases of their authors. Byzantine sources are richer but still compiled after the events. Islamic sources for this period are substantial but often focus on Baghdad and major cities; regional events are less well-documented. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. Archaeological evidence for this period is limited. The sources reflect the concerns of literate elites\u2014monks, court officials, and scholars\u2014and likely omit the experiences of common people, women, and non-elite populations.",
   "graph_edges": [
     {
       "from": "886-001",
-      "to": "886-002",
-      "relation": "led_to",
-      "note": "The siege of Paris led to Charles III's decision to pay danegeld to lift the siege."
+      "to": "878-001",
+      "relation": "caused_by",
+      "note": "The Danelaw consolidation of 886 was the direct result of the Treaty of Edington (878)"
     },
     {
-      "from": "886-001",
-      "to": "889-001",
+      "from": "886-002",
+      "to": "886-001",
+      "relation": "part_of",
+      "note": "The recapture of London was part of Alfred's broader consolidation of the Danelaw boundary"
+    },
+    {
+      "from": "886-004",
+      "to": "867-001",
+      "relation": "caused_by",
+      "note": "Leo VI's succession was the result of Basil I's reign and the establishment of the Macedonian Dynasty"
+    },
+    {
+      "from": "886-005",
+      "to": "909-001",
       "relation": "led_to",
-      "note": "Odo's prestige from defending Paris in 886 helped secure his election as king in 888\u2013889."
+      "note": "The fragmentation of the Abbasid Caliphate in this period contributed to the rise of the Fatimid Caliphate"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:17:45.066026",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,0 +1,110 @@
+{
+  "year": 854,
+  "year_label": "854 CE",
+  "era_context": "The mid-9th century CE was characterized by political fragmentation in Western Europe following the Treaty of Verdun (843), ecclesiastical reform movements in the Byzantine Empire and the Islamic world, and the gradual decline of the Tang Dynasty in East Asia. The Abbasid Caliphate under al-Mutawakkil was experiencing internal instability as military elites gained power. This was an era of transition, with older imperial structures weakening and new regional powers emerging.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Northern and Eastern Europe beyond Scandinavian zones",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "854-001",
+      "title": "Viking raid on Canterbury and Kent",
+      "region": "Anglo-Saxon England (Kent)",
+      "coordinates_approx": "51.2865, 1.0773",
+      "category": "military",
+      "description": "A Viking raiding party attacked Canterbury and other settlements in Kent, England. The raid was part of the broader pattern of Scandinavian incursions into England that had intensified since the early 9th century. These raids prompted English kings to develop defensive strategies, including the construction of fortified settlements (burhs) and the organization of militia forces. The raids contributed to the eventual consolidation of English kingdoms under Alfred the Great and his successors.",
+      "key_figures": [
+        "Viking raiders (unnamed)",
+        "King Aethelwulf of Wessex (contemporary ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle \u2014 contemporary English chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Asser, Life of King Alfred \u2014 9th-century biographical chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The raid on Canterbury in 854 is recorded in the Anglo-Saxon Chronicle. The date is well-attested in contemporary English sources.",
+      "cross_references": [
+        "Part of broader Viking incursion pattern (840s\u2013890s)",
+        "Precedes 865-001 (Great Heathen Army invasion)"
+      ]
+    },
+    {
+      "id": "854-002",
+      "title": "Abbasid military reorganization under al-Mutawakkil",
+      "region": "Abbasid Caliphate (Samarra, Iraq)",
+      "coordinates_approx": "34.2, 43.8",
+      "category": "military",
+      "description": "Al-Mutawakkil continued his military reorganization of the Abbasid state, relying increasingly on Turkish slave-soldiers (ghulams) and eunuchs. This shift in military organization reflected broader changes in Islamic governance, as traditional Arab military elites were displaced by foreign-born military slaves. The process was gradual but had profound long-term consequences for the structure of Islamic states.",
+      "key_figures": [
+        "Al-Mutawakkil (Abbasid Caliph, r. 847\u2013861)",
+        "Turkish military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings \u2014 10th-century compilation",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold \u2014 10th-century historiographic synthesis",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Turkish military ascendancy under al-Mutawakkil is well-attested; specific events in 854 are reconstructed from later sources and may be imprecise.",
+      "cross_references": [
+        "Part of broader transformation of Islamic military structures (9th\u201310th centuries)"
+      ]
+    },
+    {
+      "id": "854-003",
+      "title": "Byzantine-Arab frontier warfare in Cilicia",
+      "region": "Eastern Mediterranean (Cilicia, Byzantine-Arab frontier)",
+      "coordinates_approx": "36.5, 33.0",
+      "category": "military",
+      "description": "Ongoing raids and military skirmishes continued along the Byzantine-Arab frontier in Cilicia and northern Syria. Byzantine forces under the theme system attempted to defend coastal settlements and mountain passes against Abbasid and independent Arab raiders. These conflicts were part of the centuries-long Arab-Byzantine frontier wars, with neither side achieving decisive territorial gains.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Al-Mutawakkil (Abbasid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus \u2014 Byzantine chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic historical sources (Tabari, al-Mas'udi)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of frontier warfare is well-attested; specific engagements in 854 are not individually documented and are assigned by convention.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Canterbury raid in 854 is sometimes overstated in popular histories; it was one of many raids during this period and did not represent a major turning point. The characterization of al-Mutawakkil's military reorganization as a deliberate policy is debated; some scholars argue it was a gradual, reactive process rather than a planned reform.",
+  "historiographic_note": "Documentation for 854 is strongest for Western Europe, where the Anglo-Saxon Chronicle provides contemporary records. Byzantine and Islamic sources are available but often later compilations. The reliability of dating for specific military engagements is moderate; many sources conflate events across multiple years. Archaeological evidence for this year is minimal. The record is heavily weighted toward political and military history; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "854-001",
+      "to": "865-001",
+      "relation": "led_to",
+      "note": "Viking raids like the 854 Canterbury attack contributed to the conditions that led to the Great Heathen Army invasion in 865"
+    }
+  ]
+}

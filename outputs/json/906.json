@@ -1,97 +1,170 @@
 {
   "year": 906,
   "year_label": "906 CE",
-  "era_context": "The early 10th century is a period of transition and fragmentation across Eurasia. The Tang Dynasty in China is in its final years of decline (collapse in 907 CE). The Abbasid Caliphate is fragmenting, with provincial governors asserting independence. In Europe, the Carolingian Empire has long since collapsed into feudal kingdoms; the Viking Age continues. The Byzantine Empire remains stable. This year falls in the twilight of the Tang Dynasty and the height of the Viking Age.",
-  "documentation_level": "sparse",
+  "era_context": "The early 10th century CE marks the fragmentation of the Abbasid Caliphate in the Islamic world, the consolidation of the Song Dynasty's rise in China following the collapse of the Tang, the Viking Age in full swing with Norse settlement and raiding across Europe and the Atlantic, and the emergence of feudal structures in Western Europe. In Mesoamerica, the Classic Maya collapse has long since occurred; the Postclassic period is underway with new polities rising in the Yucatan.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (no written sources)",
-    "Pre-Columbian Americas (no written records)",
-    "Northern and Eastern Europe beyond Frankish sphere",
-    "Central Asia and the Steppe (fragmentary sources)",
-    "South Asia (limited sources)"
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored in training data)",
+    "Southeast Asia (sparse contemporary documentation in Western sources)",
+    "Pacific Islands (oral traditions not well integrated into chronological records)",
+    "Pre-Columbian North America (archaeological record fragmentary)"
   ],
   "events": [
     {
       "id": "906-001",
-      "title": "Tang Dynasty in terminal decline; warlord fragmentation accelerates",
-      "region": "China",
-      "coordinates_approx": "34.5\u00b0N, 114.5\u00b0E",
+      "title": "Death of Zhu Wen; Proclamation of Later Liang Dynasty",
+      "region": "China (Northern China, Yellow River valley)",
+      "coordinates_approx": "34.5, 114.5",
       "category": "political",
-      "description": "By 906 CE, the Tang Dynasty is in its final year of effective rule. Central authority has collapsed; warlords control regional territories; the imperial court is weak and manipulated by military strongmen. Zhu Wen, a military commander, is consolidating power in northern China and will depose the Tang emperor in 907 CE to found the Later Liang Dynasty. The year 906 CE represents the nadir of Tang power, with the dynasty on the verge of formal collapse. This period of fragmentation will last until the Song Dynasty's reunification in 960 CE. The decline of Tang is marked by military defeats, loss of Silk Road trade, and the rise of regional warlords.",
+      "description": "Zhu Wen, the warlord who had seized control of northern China and proclaimed himself emperor of the Later Liang Dynasty in 907, died in 912 according to most sources, but his consolidation of power and elimination of Tang remnants occurred in the years immediately preceding. By 906, Zhu Wen had effectively ended the Tang Dynasty (which formally fell in 907) and was establishing the military-administrative apparatus of Later Liang. His death marked a critical transition point in the Five Dynasties and Ten Kingdoms period, a era of extreme fragmentation in China lasting until 979. Zhu Wen's rise exemplified the militarization of Chinese politics and the shift from aristocratic to military-bureaucratic power.",
       "key_figures": [
-        "Zhu Wen (military strongman, future Emperor Taizu of Later Liang)",
-        "Tang Aizong (Tang emperor, soon to be deposed)",
-        "Li Keyong (rival warlord)"
+        "Zhu Wen (Emperor Taizu of Later Liang, r. 907\u2013912)",
+        "Emperor Zhaozong of Tang (deposed)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang, 11th century",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang, 11th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Official histories of the Five Dynasties (compiled during Song Dynasty)",
-          "type": "later_compilation",
+          "name": "Official histories of the Five Dynasties period (Wudai Shi)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general state of Tang decline in 906 CE is well-documented in Chinese sources. The specific events of 906 CE are not precisely dated; the year is assigned by convention within the broader period of Tang collapse (900\u2013907 CE).",
+      "certainty_note": "The exact year of Zhu Wen's consolidation is debated; 906\u2013907 marks the transition. Later Liang's formal proclamation is dated 907, but Zhu Wen's effective control was established by 906.",
       "cross_references": [
-        "Precedes Tang Dynasty fall (907 CE)",
-        "Part of broader Five Dynasties and Ten Kingdoms period (907\u2013960 CE)"
+        "907-001 (formal proclamation of Later Liang)",
+        "912-001 (Zhu Wen's death)"
       ]
     },
     {
       "id": "906-002",
-      "title": "Abbasid Caliphate continues fragmentation; provincial autonomy increases",
-      "region": "Islamic world",
-      "coordinates_approx": "30.0\u00b0N, 10.0\u00b0E",
+      "title": "Fatimid Caliphate Consolidation in North Africa",
+      "region": "North Africa (Ifriqiya, modern Tunisia and surrounding regions)",
+      "coordinates_approx": "35.0, 10.0",
       "category": "political",
-      "description": "The Abbasid Caliphate continues its decline in 906 CE. Provincial governors throughout the Islamic world act with increasing independence; the Caliph's authority is nominal. North Africa is dominated by independent dynasties; Spain is ruled by the Umayyad Emirate of C\u00f3rdoba; Egypt is contested. The Fatimid movement is organizing in North Africa and will proclaim a rival Caliphate in 909 CE. The Abbasid Caliphate retains religious prestige but little political power. This fragmentation is a defining feature of the early 10th century Islamic world.",
+      "description": "By 906, the Fatimid Caliphate, founded in 909 according to traditional dating but with roots in the late 9th century, was consolidating its power in North Africa. The Fatimids represented a major Shi'a challenge to Sunni Abbasid authority and would eventually expand to control Egypt and the Levant. In 906, the Fatimid movement was in its formative phase, with the Mahdi (the messianic figure) recognized by followers, though the formal proclamation of the caliphate occurred in 909. This period saw intense religious and political competition in the western Islamic world.",
       "key_figures": [
-        "Al-Muktafi bi-Allah (Abbasid Caliph, r. 902\u2013909)"
+        "Abdullah al-Mahdi (founder of Fatimid movement, recognized as Mahdi)",
+        "Abu Muhammad al-Qasim al-Rida (early Fatimid leader)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "later_compilation",
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus from Islamic history scholarship",
-          "type": "historiographic_consensus",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Fatimid movement's early chronology is contested. Traditional sources place the Mahdi's recognition and early organization in the late 9th century; 906 is assigned here as a marker of consolidation, but exact dating is uncertain.",
+      "cross_references": [
+        "909-001 (formal proclamation of Fatimid Caliphate)"
+      ]
+    },
+    {
+      "id": "906-003",
+      "title": "Viking Raids and Settlement in the North Atlantic",
+      "region": "North Atlantic, Scandinavia, British Isles, Iceland, Greenland",
+      "coordinates_approx": "60.0, -20.0",
+      "category": "exploration",
+      "description": "The early 10th century was a period of intense Viking expansion and settlement. By 906, Norse settlers had established permanent communities in Iceland (settled from c. 874 onwards) and were beginning to explore and settle Greenland (formal settlement c. 985, but exploration and temporary camps earlier). Viking raids on Western Europe, the British Isles, and coastal regions continued unabated. The Norse were also active in the eastern Baltic and had established trade routes to the Caspian Sea and beyond. This period represents the height of Viking Age expansion and influence.",
+      "key_figures": [
+        "Erik the Red (explorer, though his Greenland settlement was later, c. 985)",
+        "Various unnamed Viking jarls and chieftains"
+      ],
+      "sources": [
+        {
+          "name": "Landn\u00e1mab\u00f3k (Book of Settlements), Icelandic saga tradition, compiled 12th\u201313th century",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Eir\u00edks saga rau\u00f0a (Erik the Red's Saga), 13th century compilation",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Viking settlements in Iceland and Greenland",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking settlement patterns and dates are well-established through archaeology and saga traditions, though specific events in 906 are not individually documented. The broader pattern of expansion is confirmed.",
+      "cross_references": [
+        "874-001 (settlement of Iceland)",
+        "985-001 (Erik the Red's settlement of Greenland)"
+      ]
+    },
+    {
+      "id": "906-004",
+      "title": "Khmer Empire Stability and Temple Construction",
+      "region": "Southeast Asia (Khmer Empire, modern Cambodia)",
+      "coordinates_approx": "13.0, 104.0",
+      "category": "cultural",
+      "description": "The Khmer Empire under the Angkorian period (9th\u201315th centuries) was in a phase of relative stability and cultural flourishing in the early 10th century. King Yasovarman I (r. 889\u2013910) was engaged in extensive temple construction and administrative consolidation. The construction of Angkor Wat and related temple complexes, while primarily associated with later kings (especially Suryavarman II in the 12th century), had roots in the architectural and religious traditions being developed during this period. The Khmer were developing sophisticated hydraulic systems and expanding their territorial control.",
+      "key_figures": [
+        "Yasovarman I (King of Khmer Empire, r. 889\u2013910)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Angkor and surrounding sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records (Zhou Daguan's later account, 13th century)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general state of Abbasid fragmentation in 906 CE is well-documented. Specific events of 906 CE are not precisely dated.",
+      "certainty_note": "Yasovarman I's reign is well-attested in inscriptions. Specific events in 906 are not individually documented, but the broader context of his rule and temple construction is confirmed.",
       "cross_references": [
-        "Precedes Fatimid proclamation (909 CE)",
-        "Part of broader Abbasid decline"
+        "889-001 (Yasovarman I's accession)",
+        "910-001 (Yasovarman I's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative of Tang Dynasty decline as a linear, inevitable process is questioned by modern scholars, who point to periods of attempted recovery and reform. The year 906 CE is not marked by any specific, documented event; it is assigned significance primarily by its proximity to the 907 CE collapse. The extent of Abbasid fragmentation by 906 CE is sometimes overstated; the Caliphate retained some administrative capacity and religious authority.",
-  "historiographic_note": "Documentation for 906 CE is sparse. Chinese sources provide general context for Tang decline but do not record specific events for this year. Islamic sources are similarly general. European sources are minimal. The year 906 CE is historically significant primarily as a precursor to the Tang Dynasty's fall in 907 CE, but it lacks distinctive events of its own. This year is likely underrepresented in historical narratives due to the absence of major, well-documented events.",
+  "disconfirming_evidence": "The traditional dating of the Fatimid Caliphate's founding (909) has been questioned by some modern scholars who argue for earlier organizational roots in the late 9th century, making the distinction between 'movement' and 'caliphate' somewhat artificial. Additionally, the significance of events in 906 specifically is often overstated in general histories; the year itself is not marked by dramatic events in most regions, but rather represents a point within broader processes of change (Tang collapse, Fatimid consolidation, Viking expansion). The 'Five Dynasties and Ten Kingdoms' period in China is often portrayed as purely chaotic, but recent scholarship emphasizes continuities in administrative practice and cultural development despite political fragmentation.",
+  "historiographic_note": "The historical record for 906 is heavily weighted toward East Asia (China) and the Islamic world, where written chronicles and administrative records survive. Western European sources are sparse and often focused on monastic or royal courts. Southeast Asian history relies heavily on inscriptions and archaeology, with gaps in year-by-year documentation. Sub-Saharan Africa, the Americas, and the Pacific are virtually absent from contemporary written sources, though archaeological evidence exists. The surviving sources are biased toward elite political and military events; economic, social, and cultural history must be inferred from material evidence or later compilations. Chinese sources, while abundant, are often compiled centuries after events and reflect the biases of later dynasties.",
   "graph_edges": [
     {
       "from": "906-001",
       "to": "907-001",
       "relation": "led_to",
-      "note": "Tang decline in 906 CE leads directly to dynasty's fall in 907 CE"
+      "note": "Zhu Wen's consolidation directly led to the formal proclamation of Later Liang Dynasty in 907"
     },
     {
       "from": "906-002",
       "to": "909-001",
       "relation": "led_to",
-      "note": "Abbasid fragmentation in 906 CE leads to Fatimid proclamation (909 CE)"
+      "note": "Fatimid movement consolidation in 906 led to formal caliphate proclamation in 909"
+    },
+    {
+      "from": "906-003",
+      "to": "985-001",
+      "relation": "led_to",
+      "note": "Viking exploration and settlement patterns in the 10th century led to Erik the Red's Greenland settlement"
+    },
+    {
+      "from": "906-004",
+      "to": "1113-001",
+      "relation": "part_of",
+      "note": "Khmer temple construction traditions of the early 10th century contributed to the later construction of Angkor Wat under Suryavarman II"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:18:05.909397",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,202 +1,125 @@
 {
   "year": 911,
   "year_label": "911 CE",
-  "era_context": "The early 10th century CE is characterized by the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties, the consolidation of the Byzantine Empire, the Five Dynasties and Ten Kingdoms period in China, and the emergence of strong feudal kingdoms in Western Europe. In East Asia, the Goryeo Kingdom is consolidating control of the Korean Peninsula. The Khmer Empire in Southeast Asia is at a peak of cultural and political power. In Western Europe, the Treaty of Saint-Clair-sur-Epte (911 CE) marks a significant moment in the establishment of Normandy.",
+  "era_context": "The early 10th century marks the fragmentation of the Abbasid Caliphate's central authority, the rise of regional Islamic dynasties, the consolidation of the early medieval European kingdoms, and the establishment of Viking settlements in Normandy. The Tang Dynasty has fallen in China (907 CE); the Five Dynasties and Ten Kingdoms period is underway. In Mesoamerica, the Classic Maya collapse is centuries past; the Toltec civilization is rising.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Northern Europe beyond Scandinavia (sparse documentary evidence)",
-    "Central Asian steppe politics (fragmentary sources)",
-    "Americas (no written records)"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Oceania and Pacific islands (oral traditions not well preserved in written form)"
   ],
   "events": [
     {
       "id": "911-001",
-      "title": "Treaty of Saint-Clair-sur-Epte establishes Normandy",
-      "region": "Northern France, Normandy",
-      "coordinates_approx": "49.4,1.1",
+      "title": "Treaty of Saint-Clair-sur-Epte: Rollo and Charles III establish Normandy",
+      "region": "Frankia (modern Normandy, France)",
+      "coordinates_approx": "49.4, 0.9",
       "category": "political",
-      "description": "The Treaty of Saint-Clair-sur-Epte, signed in 911 CE, formally establishes the Duchy of Normandy in northern France. The treaty grants the Viking leader Rollo (Hrolf) and his followers the right to settle in the region in exchange for their agreement to defend the area against other Viking raids and to accept the overlordship of the Frankish king Charles III (Charles the Simple). This treaty marks a crucial moment in the integration of Norse settlers into Western European feudal society. Rollo becomes the first Duke of Normandy, and his descendants will rule the duchy for centuries. The establishment of Normandy has profound consequences for European history, including the eventual Norman conquest of England in 1066 CE.",
+      "description": "Rollo, a Viking leader, negotiates with Charles III (the Simple) of West Francia to establish a permanent Viking settlement in the Seine valley. In exchange for ceasing raids and accepting Christian baptism, Rollo receives the territory that becomes Normandy. This treaty formalizes the integration of Norse settlers into Frankish feudal structures and marks a turning point in Viking settlement patterns\u2014from raiding to territorial consolidation. The agreement is attested in near-contemporary chronicles and represents a crucial moment in the formation of medieval France.",
       "key_figures": [
-        "Rollo (Hrolf), first Duke of Normandy (r. 911\u2013927)",
-        "Charles III (Charles the Simple), King of the Franks (r. 898\u2013922)"
+        "Rollo (Viking leader, first Duke of Normandy)",
+        "Charles III the Simple (King of West Francia)"
       ],
       "sources": [
         {
-          "name": "Dudo of Saint-Quentin, History of the Normans (Historia Normannorum)",
+          "name": "Flodoard of Reims, Annals (written c. 920\u2013966, near-contemporary)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Richer of Reims, Histories (Historiae)",
+          "name": "Dudo of Saint-Quentin, History of the Normans (written early 11th century, later compilation but based on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The treaty is attested in near-contemporary chronicles, though the exact date (911 vs. 912) is debated by modern scholars. Flodoard's account is closest to contemporary, written within 10\u201315 years of the event.",
+      "cross_references": [
+        "Relates to broader Viking settlement patterns in the 9th\u201310th centuries",
+        "Precedes the establishment of the Duchy of Normandy as a major feudal power"
+      ]
+    },
+    {
+      "id": "911-002",
+      "title": "Death of Louis the Child; end of the Carolingian line in East Francia",
+      "region": "East Francia (modern Germany)",
+      "coordinates_approx": "51.0, 10.0",
+      "category": "political",
+      "description": "Louis the Child, the last Carolingian king of East Francia, dies at approximately age 18. His death marks the end of direct Carolingian rule in the eastern kingdom and precipitates a succession crisis. The German nobility elects Conrad I as king, establishing the principle of elective monarchy in East Francia and beginning the transition toward the formation of the Holy Roman Empire. This event is a watershed in medieval German history.",
+      "key_figures": [
+        "Louis the Child (last Carolingian king of East Francia)",
+        "Conrad I (elected successor)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Fulda and related East Frankish chronicles",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on the Treaty of Saint-Clair-sur-Epte",
+          "name": "Historiographic consensus on Carolingian succession",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Treaty of Saint-Clair-sur-Epte is well-documented in medieval chronicles, though written decades or centuries after the event. The date 911 CE is firmly established in historiographic consensus.",
+      "certainty_note": "The death of Louis the Child in 911 is well-attested in multiple near-contemporary sources. The date is secure.",
       "cross_references": [
-        "Part of Viking Age (793\u20131066)",
-        "Precedes Norman Conquest of England (1066)",
-        "Related to broader Viking settlement in Western Europe (9th\u201310th centuries)"
-      ]
-    },
-    {
-      "id": "911-002",
-      "title": "Zhu Wen consolidates power in Later Liang Dynasty",
-      "region": "Northern China, Later Liang state",
-      "coordinates_approx": "34.3,114.5",
-      "category": "political",
-      "description": "Zhu Wen (Emperor Taizu of Later Liang) continues to consolidate his power in northern China. By 911 CE, Zhu Wen has established the Later Liang Dynasty as the dominant military power in the Yellow River valley and is working to eliminate rival warlords and consolidate administrative control. His reign represents the militarization of Chinese politics following the Tang Dynasty's collapse. Zhu Wen's consolidation of power in northern China is part of the broader fragmentation of China into the Five Dynasties and Ten Kingdoms, a period of political instability that will last until the Song Dynasty's reunification in 960 CE.",
-      "key_figures": [
-        "Zhu Wen (Emperor Taizu of Later Liang, r. 907\u2013912)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Official histories of the Five Dynasties (Wu Dai Shi)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Zhu Wen's consolidation of power in the Later Liang Dynasty is well-documented in Chinese historical records. The date 911 CE falls within his reign (907\u2013912 CE).",
-      "cross_references": [
-        "Part of Later Liang Dynasty (907\u2013923)",
-        "Part of Five Dynasties and Ten Kingdoms period (907\u2013960)"
+        "Leads to the election of Conrad I and the fragmentation of the Carolingian Empire",
+        "Part of the broader collapse of Carolingian centralized authority"
       ]
     },
     {
       "id": "911-003",
-      "title": "Byzantine Empire under Constantine VII faces internal political challenges",
-      "region": "Byzantine Empire, Constantinople",
-      "coordinates_approx": "41.0,28.9",
-      "category": "political",
-      "description": "Constantine VII Porphyrogennetos, though born in the purple and destined to rule, faces significant challenges to his authority from powerful aristocratic families and military generals. In 911 CE, Constantine VII is still a young man, and real power is exercised by regents and powerful nobles. The period is marked by factional struggles within the Byzantine court and debates over the proper exercise of imperial authority. Constantine VII's eventual consolidation of power will come later, but the groundwork for his cultural and administrative achievements is being laid during this period of internal political struggle.",
-      "key_figures": [
-        "Constantine VII Porphyrogennetos (Byzantine Emperor, r. 913\u2013959)",
-        "Alexander (co-emperor, r. 912\u2013913)",
-        "Zoe Carbonopsina (regent and mother of Constantine VII)"
-      ],
-      "sources": [
-        {
-          "name": "Theophanes Continuatus",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Liudprand of Cremona, Antapodosis",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Byzantine internal political struggles during the early 10th century are attested in sources, but specific events for 911 CE are not always clearly documented. The entry reflects the broader context of Byzantine political instability.",
-      "cross_references": [
-        "Part of Macedonian Renaissance in Byzantine Empire (9th\u201311th centuries)",
-        "Precedes Constantine VII's assumption of active rule (913 or 920)"
-      ]
-    },
-    {
-      "id": "911-004",
       "title": "Fatimid Caliphate consolidates control in North Africa",
-      "region": "Ifriqiya (modern Tunisia), North Africa",
-      "coordinates_approx": "36.8,-10.2",
+      "region": "North Africa (Ifriqiya, modern Tunisia and surrounding regions)",
+      "coordinates_approx": "35.0, 10.0",
       "category": "political",
-      "description": "The Fatimid Caliphate, established in 909 CE (or 914 CE, depending on the source), continues to consolidate its control over North Africa. By 911 CE, the Fatimids are establishing themselves as a major Islamic power, challenging the authority of the Abbasid Caliphate in Baghdad. The Fatimid state is developing administrative structures, military forces, and economic systems that will support its expansion to Egypt and beyond. The Fatimid Caliphate represents a major schism in Islamic political authority, with the Fatimids claiming descent from Fatima (daughter of Muhammad) and asserting their right to the Caliphate.",
+      "description": "The Fatimid Caliphate, founded in 909 CE, continues to consolidate its power in North Africa. By 911, the Fatimids have established firm control over Ifriqiya (modern Tunisia) and are beginning to expand their influence. This Shi'a Islamic dynasty represents a major challenge to Abbasid Sunni orthodoxy and will eventually become one of the most powerful Islamic states of the medieval Mediterranean. The consolidation in 911 marks the transition from the Fatimid movement's founding phase to its establishment as a major regional power.",
       "key_figures": [
-        "Ubayd Allah al-Mahdi (Fatimid Caliph, r. 909\u2013934)"
+        "Abd Allah al-Mahdi (Fatimid Caliph, founder)",
+        "Muhammad al-Qa'im (Fatimid Caliph, r. 934\u2013946, but consolidation underway in 911)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
-          "type": "chronicle",
+          "name": "Al-Mas'udi, Meadows of Gold (written mid-10th century, later compilation)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Fatimid expansion",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Fatimid Caliphate's consolidation of control in North Africa during the early 10th century is attested in Islamic sources. However, specific events for 911 CE are not clearly documented; the entry reflects the broader context of Fatimid consolidation.",
+      "certainty_note": "The Fatimid consolidation in North Africa is attested in later Islamic historiography. The precise events of 911 are less clearly documented than the founding in 909 or later major expansions.",
       "cross_references": [
-        "Part of Fatimid Caliphate (909\u20131171)",
-        "Precedes Fatimid conquest of Egypt (969)"
-      ]
-    },
-    {
-      "id": "911-005",
-      "title": "Khmer Empire continues cultural and architectural development",
-      "region": "Khmer Empire (modern Cambodia)",
-      "coordinates_approx": "13.4,103.8",
-      "category": "cultural",
-      "description": "The Khmer Empire, under Yasovarman I (r. 889\u2013910 or 915, dates disputed), continues its cultural and architectural development. The empire is constructing major temple complexes and developing sophisticated hydraulic systems that support a large population. The Khmer state is a major regional power, controlling trade routes and exerting influence over neighboring states. The early 10th century represents a peak of Khmer cultural achievement in the Angkor period, with advances in architecture, art, and administration.",
-      "key_figures": [
-        "Yasovarman I (Khmer king, r. 889\u2013910/915)"
-      ],
-      "sources": [
-        {
-          "name": "Khmer inscriptions and temple epigraphy",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Angkor region",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Yasovarman I's reign dates are debated; some scholars place his death in 910 CE, others in 915 CE. The year 911 CE falls within his reign, though specific events for this year are not well-documented.",
-      "cross_references": [
-        "Part of Angkor period of Khmer civilization (9th\u201315th centuries)",
-        "Precedes mid-10th century Khmer political instability"
+        "Follows from the Fatimid founding in 909",
+        "Precedes major Fatimid expansion into Egypt and the Levant in the 10th century"
       ]
     }
   ],
-  "disconfirming_evidence": "The Treaty of Saint-Clair-sur-Epte is sometimes dated to 912 CE rather than 911 CE; modern scholarship generally accepts 911 CE as the correct date, but some sources place it in 912 CE. The significance of the treaty as a turning point in European history is sometimes overstated; the integration of Norse settlers into Western European feudal society was a gradual process that extended well beyond 911 CE. Yasovarman I's death date is uncertain; some scholars place it in 910 CE, others in 915 CE, making the year 911 CE an arbitrary point within his reign.",
-  "historiographic_note": "The year 911 CE is moderately well-documented in Western European, Chinese, and Islamic sources, but these are primarily later compilations rather than contemporary records. The Treaty of Saint-Clair-sur-Epte is the most significant documented event for this year in Western European history, but it is known primarily through later chronicles rather than contemporary documents. Chinese sources are abundant but focus on dynastic politics. Islamic sources are less detailed for this specific year. Byzantine sources are relatively rich but concentrate on Constantinople and the Mediterranean. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "disconfirming_evidence": "The date of the Treaty of Saint-Clair-sur-Epte is disputed: some modern scholars argue for 912 CE rather than 911 CE, based on discrepancies in chronicle dating. The exact terms of the treaty are also uncertain\u2014later Norman sources (Dudo of Saint-Quentin) may have embellished or reinterpreted the agreement to enhance Norman legitimacy. The significance of Rollo's baptism as a genuine conversion versus a political gesture is debated by historians.",
+  "historiographic_note": "The historical record for 911 CE is uneven. Western European events (the Norman settlement, the death of Louis the Child) are well-attested in near-contemporary chronicles, though with some dating ambiguities. Islamic sources for the Fatimid consolidation are later compilations, introducing uncertainty about specific events in 911. Eastern European, Asian, and African sources are sparse or absent from Western historiographic tradition. The surviving record is heavily weighted toward Christian Europe and the Islamic Mediterranean, reflecting the geographic distribution of literate, record-keeping societies at this time.",
   "graph_edges": [
     {
       "from": "911-001",
-      "to": "1066-NORMAN_CONQUEST",
+      "to": "912-NORMANDY_EXPANSION",
       "relation": "led_to",
-      "note": "The establishment of Normandy in 911 CE leads to the Norman Conquest of England in 1066 CE"
+      "note": "The Treaty of Saint-Clair-sur-Epte established the foundation for Normandy's growth as a feudal power"
     },
     {
       "from": "911-002",
-      "to": "912-001",
+      "to": "912-CONRAD_I_ELECTION",
       "relation": "led_to",
-      "note": "Zhu Wen's consolidation of power in 911 CE is followed by his death in 912 CE"
+      "note": "Louis the Child's death directly precipitated the election of Conrad I and the transformation of East Frankish succession"
     },
     {
-      "from": "911-004",
+      "from": "911-003",
       "to": "969-FATIMID_EGYPT",
-      "relation": "led_to",
-      "note": "Fatimid consolidation in North Africa in 911 CE precedes the conquest of Egypt in 969 CE"
-    },
-    {
-      "from": "911-001",
-      "to": "911-002",
-      "relation": "contemporary_with",
-      "note": "The Treaty of Saint-Clair-sur-Epte in Western Europe is contemporary with Zhu Wen's consolidation of power in China"
+      "relation": "part_of",
+      "note": "The 911 consolidation is part of the broader Fatimid expansion that culminated in the conquest of Egypt"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:11:21.587803",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,0 +1,121 @@
+{
+  "year": 846,
+  "year_label": "846 CE",
+  "era_context": "The mid-9th century CE witnessed the fragmentation of the Carolingian Empire following Louis the Pious's death and the subsequent Treaty of Verdun (843). The Islamic Abbasid Caliphate remained a major power in the Middle East and North Africa, while the Byzantine Empire controlled the Eastern Mediterranean. In East Asia, the Tang Dynasty was in decline, facing internal rebellions and loss of territorial control. Viking raids continued to plague Western Europe and the North Atlantic.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records in this period)"
+  ],
+  "events": [
+    {
+      "id": "846-001",
+      "title": "Arab Raid on Rome",
+      "region": "Papal States / Central Italy",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "military",
+      "description": "A fleet of Arab raiders, likely from North Africa or Sicily, attacked Rome and sacked the basilicas of St. Peter and St. Paul outside the city walls. The raiders plundered treasures and reliquaries, causing significant damage and alarm throughout Christendom. Pope Sergius II was in office during the attack. This raid demonstrated the vulnerability of Rome to maritime assault and prompted later fortification efforts, including the construction of the Leonine Wall.",
+      "key_figures": [
+        "Pope Sergius II",
+        "Arab raiders (identity disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Papal biography collection)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annals of various Frankish monasteries",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The raid is attested in multiple near-contemporary chronicles. The exact date within 846 is less certain, but the year is well-established.",
+      "cross_references": [
+        "Relates to broader pattern of Arab-Norman raids on Mediterranean Christian territories in 9th century"
+      ]
+    },
+    {
+      "id": "846-002",
+      "title": "Anarchy at the Court of the Abbasid Caliphate",
+      "region": "Abbasid Caliphate / Baghdad",
+      "coordinates_approx": "33.3128, 44.3615",
+      "category": "political",
+      "description": "The reign of Caliph al-Wathiq (r. 842\u2013847) was marked by increasing instability as Turkish slave-soldiers (ghulams) gained power at court, undermining the authority of the caliphal administration. Factional conflicts between eunuchs, military commanders, and bureaucrats weakened central authority. This period foreshadowed the later rise of the Turkish military elite and the fragmentation of Abbasid power in the following decades.",
+      "key_figures": [
+        "Caliph al-Wathiq",
+        "Turkish military commanders (names variable in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-l-Muluk)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general instability of al-Wathiq's reign is well-documented, though specific events within 846 are less precisely dated in surviving sources.",
+      "cross_references": [
+        "Part of broader decline of Abbasid central authority in 9th century"
+      ]
+    },
+    {
+      "id": "846-003",
+      "title": "Continued Decline of Tang Dynasty Authority",
+      "region": "Tang Dynasty / China",
+      "coordinates_approx": "34.2658, 108.9398",
+      "category": "political",
+      "description": "By 846, the Tang Dynasty's grip on its vast territories had severely weakened. Regional military governors (jiedushi) exercised increasing autonomy, and the central government struggled to maintain control over taxation and military resources. The Huang Chao Rebellion (875\u2013884) was still decades away, but the structural fragmentation that would enable it was already well advanced. Court factionalism and eunuch influence further undermined imperial authority.",
+      "key_figures": [
+        "Emperor Xuanzong of Tang (r. 846\u2013859)"
+      ],
+      "sources": [
+        {
+          "name": "New Tang History (Xin Tangshu), compiled 11th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old Tang History (Jiu Tangshu), compiled 10th century",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Tang decline is well-established; specific conditions in 846 are inferred from broader patterns documented in later histories.",
+      "cross_references": [
+        "Part of the broader collapse of Tang Dynasty (ending 907)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Arab raid on Rome in 846 is sometimes conflated with other raids in the 9th century (particularly 827 and later raids). Some modern scholars debate whether the 846 raid specifically targeted the papal basilicas or whether this detail was embellished in later accounts. The identity of the raiders (Arab, Berber, or mixed) remains uncertain, and some sources suggest involvement of renegade Norman or Saracen groups rather than organized North African fleets.",
+  "historiographic_note": "Documentation for 846 is uneven. Western European and Byzantine sources are relatively abundant but often focus on military and political events affecting Christian powers. Islamic sources exist but are primarily later compilations (9th\u201310th centuries) rather than contemporary records. Chinese sources are rich but court-centric. Sub-Saharan Africa, Southeast Asia, and the Americas have no written records for this year. The surviving record is heavily weighted toward elite political and military history; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "846-001",
+      "to": "847-PAPAL_FORTIFICATION",
+      "relation": "led_to",
+      "note": "Arab raid prompted Pope Leo IV to begin construction of defensive walls around Vatican"
+    },
+    {
+      "from": "846-002",
+      "to": "861-ANARCHY_AT_SAMARRA",
+      "relation": "part_of",
+      "note": "Part of broader pattern of Abbasid instability culminating in the Anarchy at Samarra (861\u2013870)"
+    },
+    {
+      "from": "846-003",
+      "to": "875-HUANG_CHAO_REBELLION",
+      "relation": "led_to",
+      "note": "Structural fragmentation of Tang authority enabled major rebellion"
+    }
+  ]
+}

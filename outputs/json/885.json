@@ -1,27 +1,25 @@
 {
   "year": 885,
   "year_label": "885 CE",
-  "era_context": "885 CE falls during the reign of Charles III (the Fat), the last emperor to rule a substantial portion of the Frankish realm. The empire is fragmenting under pressure from Viking raids, internal aristocratic conflicts, and the rise of feudal relationships. The Viking Age is at its height, with Norse raiders active across northern Europe, the Mediterranean, and into the Atlantic. The Islamic Abbasid Caliphate is experiencing internal fragmentation with autonomous regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final decades, with regional warlords consolidating power in preparation for the dynasty's collapse in 907.",
-  "documentation_level": "sparse",
+  "era_context": "The late 9th century CE, a period of significant political fragmentation and cultural transition across Europe, the Islamic world, and East Asia. In Western Europe, the Carolingian Empire had effectively dissolved, and regional kingdoms competed for power. Viking raids and settlements continued to reshape the political landscape. The Byzantine Empire under Basil I was at the height of its power. In East Asia, the Tang Dynasty was in terminal decline, with regional warlords rising to prominence.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia (limited contemporary sources)",
-    "Islamic world (limited Western documentation)"
+    "Sub-Saharan Africa (very limited written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Americas (no written records; archaeological evidence minimal)"
   ],
   "events": [
     {
       "id": "885-001",
-      "title": "Viking siege of Paris begins",
-      "region": "West Francia (modern France)",
-      "coordinates_approx": "48.8566, 2.3522",
+      "title": "Siege of Paris by Viking forces",
+      "region": "West Francia (\u00cele-de-France)",
+      "coordinates_approx": "48.9,2.4",
       "category": "military",
-      "description": "A major Viking force, estimated at 30,000\u201340,000 warriors (though modern scholars debate these figures), began a siege of Paris in late 885. The siege would last approximately one year, until 886. The Vikings, operating from bases in the Seine River valley, sought to plunder the wealthy city and extract tribute from the Frankish kingdom. The siege is one of the most famous Viking operations in the 9th century and is well-documented in contemporary and near-contemporary sources. Odo, Count of Paris, played a prominent role in organizing the defense of the city.",
+      "description": "A major Viking force, reportedly led by Ragnar Lothbrok (a legendary figure whose historicity is disputed), besieged Paris. The siege lasted several months and was one of the most significant Viking attacks on a major Frankish city. The defenders, led by Count Odo (later King Odo of West Francia), mounted a determined resistance. The siege was eventually lifted, partly through negotiation and payment of tribute (Danegeld), and partly due to the Vikings' decision to move on to other targets. The siege demonstrated both the vulnerability of Frankish cities to Viking attack and the capacity of local leaders to organize effective defense.",
       "key_figures": [
-        "Odo of Paris (defender of the city)",
-        "Charles III the Fat (emperor, distant from the siege)",
-        "Unnamed Viking leaders"
+        "Ragnar Lothbrok (legendary Viking leader; historicity disputed)",
+        "Odo of Paris (Count, later King of West Francia)",
+        "Charles III (Charles the Fat, King of West Francia)"
       ],
       "sources": [
         {
@@ -30,73 +28,162 @@
           "contemporary": true
         },
         {
-          "name": "Regino of Pr\u00fcm, Chronicle",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Annals of Fulda",
+          "name": "Annals of Saint-Vaast",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The beginning of the siege of Paris in 885 is well-attested in contemporary and near-contemporary sources. Abbo of Saint-Germain-des-Pr\u00e9s provides a contemporary account. The date is secure.",
+      "certainty_note": "The siege of Paris in 885\u2013886 CE is well-documented in contemporary and near-contemporary sources. The exact dating (885 vs. 886) varies slightly in sources; most modern scholarship places the siege as beginning in 885 and ending in 886.",
       "cross_references": [
-        "Leads to 886-001 (continuation of siege)",
-        "Leads to 886-002 (lifting of siege)"
+        "886-002 (Recapture of London)",
+        "911-001 (Treaty of Saint-Clair-sur-Epte)"
       ]
     },
     {
       "id": "885-002",
-      "title": "Charles III crowned Holy Roman Emperor",
-      "region": "Frankia (former empire)",
-      "coordinates_approx": "48.2082, 16.3738",
+      "title": "Odo of Paris emerges as a major political figure",
+      "region": "West Francia",
+      "coordinates_approx": "48.9,2.4",
       "category": "political",
-      "description": "Charles III was crowned Holy Roman Emperor in 885, consolidating his position as the nominal ruler of the Frankish realm. However, his authority was already weakening, and the coronation did not prevent the fragmentation of the empire. Charles had inherited the West Frankish kingdom in 884 and briefly reunited much of the Frankish realm, but his reign was marked by military failures (including the inability to prevent the siege of Paris) and internal aristocratic conflicts. His imperial title was more symbolic than substantive.",
+      "description": "Count Odo of Paris gained prominence through his successful defense of Paris against the Viking siege. His military success and political acumen made him a leading figure in West Francia, eventually leading to his election as King in 888 CE. Odo's rise reflected the declining authority of the Carolingian kings and the increasing power of regional magnates. His prominence also marked a shift in Frankish politics toward more localized power structures and away from centralized imperial authority.",
       "key_figures": [
-        "Charles III the Fat (crowned emperor)",
-        "Pope Stephen V (performed coronation)"
+        "Odo of Paris (Count, later King of West Francia)"
       ],
       "sources": [
         {
-          "name": "Regino of Pr\u00fcm, Chronicle",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Annals of Fulda",
+          "name": "Annals of Saint-Vaast",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Charles III's imperial coronation is attested in chronicles, but the exact date (885 vs. 884 or 886) is debated by modern scholars. The event is secure; the precise year is approximate.",
+      "certainty_note": "Odo's rise to prominence is well-attested. The specific events of 885 CE are documented, though the exact chronology of his political ascent is sometimes unclear in sources.",
       "cross_references": [
-        "Leads to 888-001 (Charles III's death and fragmentation)"
+        "885-001 (Siege of Paris)",
+        "888-001 (Odo elected King of West Francia)"
+      ]
+    },
+    {
+      "id": "885-003",
+      "title": "Continued decline of the Carolingian Empire",
+      "region": "West Francia, East Francia, Lotharingia",
+      "coordinates_approx": "48.0,8.0",
+      "category": "political",
+      "description": "The Carolingian Empire, already fragmented into West Francia, East Francia, and Lotharingia, continued its political and administrative decline. Central authority weakened further as regional magnates and local lords asserted greater autonomy. The Viking invasions, internal conflicts, and economic disruptions of the late 9th century accelerated the dissolution of Carolingian structures. This period marked the transition from the late Carolingian world to the feudal systems that would characterize medieval Europe.",
+      "key_figures": [
+        "Charles III (Charles the Fat, Emperor of East Francia and King of West Francia)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Saint-Vaast",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Carolingian decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Carolingian Empire is a well-established historical trend. Specific events in 885 CE are less precisely documented; this entry reflects the broader pattern.",
+      "cross_references": [
+        "843-001 (Treaty of Verdun, division of Carolingian Empire)",
+        "888-001 (Odo elected King; Charles the Fat deposed)"
+      ]
+    },
+    {
+      "id": "885-004",
+      "title": "Khmer Empire consolidation under Indravarman I",
+      "region": "Southeast Asia (Cambodia/Khmer region)",
+      "coordinates_approx": "13.4,104.0",
+      "category": "political",
+      "description": "Indravarman I (r. 877\u2013889 CE), founder of the Khmer Empire's classical period, continued consolidating power and expanding Khmer territory. He undertook major construction projects, including the building of temples and hydraulic systems (baray reservoirs) that would become characteristic of Khmer civilization. Indravarman I's reign marked the beginning of the Khmer Empire's classical period, a time of cultural and architectural flourishing. His administrative and engineering innovations laid the foundation for the later greatness of Angkor.",
+      "key_figures": [
+        "Indravarman I (Khmer King, r. 877\u2013889)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records (Tang and early Song)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Indravarman I's reign is attested in Khmer inscriptions and Chinese records. The specific events of 885 CE are less precisely dated; the entry reflects the broader pattern of his reign.",
+      "cross_references": [
+        "889-001 (Yasovarman I's accession)",
+        "1113-001 (Suryavarman II's reign)"
+      ]
+    },
+    {
+      "id": "885-005",
+      "title": "Tang Dynasty in terminal decline; regional warlords rise",
+      "region": "East Asia (China)",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "The Tang Dynasty, once the dominant power in East Asia, was in its final decades of decline. Central authority had effectively collapsed, and regional warlords controlled vast territories. The Huang Chao Rebellion (875\u2013884 CE) had devastated the empire, and the aftermath saw the rise of competing military strongmen. The period from 885 to 907 CE (the official end of the Tang) was characterized by fragmentation, warfare, and the emergence of the Five Dynasties and Ten Kingdoms period. This transition marked a fundamental shift in Chinese political organization.",
+      "key_figures": [
+        "Emperor Xizong of Tang (r. 873\u2013888)",
+        "Various regional warlords and military governors"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Tang histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Tang Dynasty and the rise of regional warlords in this period is well-documented in Chinese historical sources. The specific events of 885 CE are part of a well-attested broader pattern.",
+      "cross_references": [
+        "875-001 (Huang Chao Rebellion)",
+        "907-001 (Official end of Tang Dynasty)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of Charles III's imperial coronation is disputed. Some modern scholars place it in 884, others in 885 or 886. This uncertainty reflects the general problem of precise dating in late 9th-century sources. Additionally, the significance of the coronation has been somewhat overstated in older historiography; Charles III's imperial title did not grant him effective authority over the fragmented Frankish realm. The coronation was more a recognition of existing political realities than a source of new power. No other disconfirming evidence identified for events listed.",
-  "historiographic_note": "The historical record for 885 is sparse but enriched by the contemporary account of Abbo of Saint-Germain-des-Pr\u00e9s regarding the siege of Paris. Other sources are near-contemporary chronicles (Regino of Pr\u00fcm, Annals of Fulda) compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize the role of the emperor and the papacy while underrepresenting the agency of local defenders and regional magnates. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources. Many events of 885 are not precisely dated, and modern scholars continue to debate the chronology of this period.",
+  "disconfirming_evidence": "The Siege of Paris (885-001) is sometimes attributed to the legendary Ragnar Lothbrok, but modern scholarship is highly skeptical of Ragnar's historicity. The siege was likely led by other Viking commanders whose names are not well-preserved in sources. The dating of the siege is sometimes given as 886 CE rather than 885 CE; sources vary on whether it began in 885 and ended in 886, or occurred entirely in one year. Odo's role in the defense is well-attested, but some sources exaggerate his personal military prowess. The decline of the Carolingian Empire (885-003) is sometimes portrayed as sudden, but modern scholarship emphasizes the gradual nature of the process over several decades. The Khmer Empire entry (885-004) reflects limited contemporary documentation; much of what is known comes from later inscriptions and Chinese sources, which may not be entirely reliable for specific dating.",
+  "historiographic_note": "The documentation for 885 CE is uneven across regions. Western European events are relatively well-attested through chronicles and the contemporary poem by Abbo of Saint-Germain-des-Pr\u00e9s, though these sources reflect the perspectives of the literate clergy and nobility. Byzantine and Islamic sources are substantial but often focus on major political centers. Southeast Asian sources are primarily epigraphic (temple inscriptions) and Chinese records, which may not capture local perspectives. East Asian sources are rich but reflect the biases of court historians. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. Archaeological evidence for this period is limited. The sources reflect the concerns of literate elites and likely omit the experiences of common people, women, and non-elite populations.",
   "graph_edges": [
     {
       "from": "885-001",
-      "to": "886-001",
+      "to": "885-002",
       "relation": "led_to",
-      "note": "The beginning of the siege of Paris in 885 continued into 886."
+      "note": "The Siege of Paris led to Odo's emergence as a major political figure"
     },
     {
       "from": "885-002",
       "to": "888-001",
       "relation": "led_to",
-      "note": "Charles III's imperial coronation in 885 did not prevent the fragmentation that followed his death in 888."
+      "note": "Odo's prominence from the siege led to his election as King in 888"
+    },
+    {
+      "from": "885-003",
+      "to": "843-001",
+      "relation": "caused_by",
+      "note": "The decline of the Carolingian Empire was a continuation of the fragmentation that began with the Treaty of Verdun"
+    },
+    {
+      "from": "885-005",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "The decline of the Tang Dynasty in 885 led to its official collapse in 907"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:17:45.066678",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

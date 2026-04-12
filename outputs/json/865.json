@@ -1,161 +1,123 @@
 {
   "year": 865,
   "year_label": "865 CE",
-  "era_context": "The mid-9th century CE continues with the Abbasid Caliphate in severe internal crisis, the Byzantine Empire under Michael III, the Tang Dynasty in its final decades in China, and the Viking Age at its height. This is a period of significant political fragmentation and military competition across Eurasia.",
+  "era_context": "The mid-9th century CE continued to see the fragmentation of Carolingian authority, the rise of Viking power in Northern Europe, the Byzantine Empire's military and cultural renaissance under the Macedonian dynasty, and the decline of the Tang Dynasty in China. The Islamic world remained culturally and scientifically vibrant under the Abbasid Caliphate, while the Khazar Khaganate maintained control of the Eurasian steppes.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Southeast Asia (sparse contemporary documentation)",
-    "Pre-Columbian Americas (no written records)",
-    "Central Asia (limited sources beyond Islamic tradition)"
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia (limited contemporary sources)"
   ],
   "events": [
     {
       "id": "865-001",
-      "title": "Anarchy at Samarra continues with military factionalism",
-      "region": "Abbasid Caliphate, Samarra and Baghdad",
-      "coordinates_approx": "34.2\u00b0N, 43.9\u00b0E",
-      "category": "political",
-      "description": "The internal conflict within the Abbasid Caliphate continued in 865, with Turkish military factions (Mamluks) dominating the caliph and the state apparatus. The Anarchy at Samarra, which had begun around 861, saw rival commanders competing for supremacy. The caliph al-Musta'in was increasingly a puppet of military strongmen. This period saw the effective collapse of centralized caliphal authority and the emergence of regional governors as independent powers. The chaos weakened the caliphate's military capacity and accelerated the fragmentation of the Islamic world into regional powers.",
+      "title": "Viking Great Heathen Army campaigns in England",
+      "region": "England",
+      "coordinates_approx": "52.5, -1.5",
+      "category": "military",
+      "description": "The Great Heathen Army, a large Viking force, invaded England and began a systematic conquest of Anglo-Saxon kingdoms. This force, which had previously campaigned in France, now turned its attention to England with the goal of conquest and settlement rather than mere raiding. The campaign marked a turning point in Viking-English relations and set the stage for the eventual establishment of the Danelaw.",
       "key_figures": [
-        "Al-Musta'in (Abbasid Caliph)",
-        "Wasif (Turkish military commander)",
-        "Bugha al-Kabir (Turkish military commander)"
+        "Ragnar Lothbrok (legendary attribution)",
+        "Ivar the Boneless (Viking leader)",
+        "Halfdan Ragnarsson (Viking leader)"
       ],
       "sources": [
         {
-          "name": "Al-Tabari, History of the Prophets and Kings",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Anarchy at Samarra is well-documented as a continuous crisis spanning multiple years (c. 861\u2013870). The year 865 falls within this documented period.",
-      "cross_references": [
-        "866-001",
-        "867-002",
-        "868-004",
-        "869-004"
-      ]
-    },
-    {
-      "id": "865-002",
-      "title": "Conversion of Boris I of Bulgaria to Christianity",
-      "region": "Bulgaria, Eastern Europe",
-      "coordinates_approx": "43.0\u00b0N, 25.0\u00b0E",
-      "category": "religious",
-      "description": "The Bulgar Khan Boris I formally converted to Christianity, likely in 865 (though some sources place it in 864, 867, or 870). This conversion was a major geopolitical event that aligned Bulgaria with the Byzantine Empire and the Orthodox Christian world. The conversion was politically motivated, as Boris sought to strengthen ties with Byzantium and reduce Bulgarian dependence on the Frankish Empire. The adoption of Christianity transformed Bulgarian culture and society and established the Orthodox Church as a central institution. This event had long-term consequences for the religious and political development of Eastern Europe.",
-      "key_figures": [
-        "Boris I (Khan of Bulgaria)",
-        "Michael III (Byzantine Emperor)",
-        "Pope Nicholas I (Roman Pontiff)"
-      ],
-      "sources": [
-        {
-          "name": "Byzantine ecclesiastical chronicles",
+          "name": "Anglo-Saxon Chronicle",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Papal correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Bulgarian chronicles (later compilation)",
+          "name": "Icelandic sagas (Ragnar's Saga, Saga of Ivar the Boneless)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The date of Boris I's conversion is disputed among scholars. Sources place it variously in 864, 865, 867, or 870. The year 865 is one of several plausible dates, but the exact year is uncertain.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The arrival of the Great Heathen Army is attested in the Anglo-Saxon Chronicle, though the exact date and composition of the force remain debated. The legendary attributions to Ragnar Lothbrok and his sons are not contemporary.",
+      "cross_references": [
+        "866-001 (conquest of York)",
+        "878-001 (Treaty of Wedmore)"
+      ]
+    },
+    {
+      "id": "865-002",
+      "title": "Conversion of the Khazars to Judaism (traditional date)",
+      "region": "Khazar Khaganate, Caucasus and Volga region",
+      "coordinates_approx": "45.0, 48.0",
+      "category": "religious",
+      "description": "According to Jewish and some Islamic sources, the Khazar Khaganate underwent a mass conversion to Judaism during this period. The Khazars were a Turkic people who controlled a vast empire spanning the Caucasus, the Volga region, and parts of the steppes. This conversion is one of the most debated events in medieval history, with scholars disagreeing on its extent, timing, and authenticity. If it occurred, it would represent a unique case of a major state adopting Judaism as its official religion.",
+      "key_figures": [
+        "Bulan (legendary Khazar ruler, attributed with initiating conversion)",
+        "Joseph (Khazar ruler, mentioned in Khazar correspondence)"
+      ],
+      "sources": [
+        {
+          "name": "Kuzari (Judah Halevi, 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Khazar Correspondence (10th century letters)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic geographers (Al-Masudi, Ibn Fadlan)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The conversion of the Khazars to Judaism is highly disputed. The traditional date of 865 is based on later sources and is not contemporary. Modern scholars debate whether a mass conversion occurred at all, or whether it was limited to the ruling elite. The Kuzari, a major source, was written in the 12th century, centuries after the alleged event.",
+      "cross_references": [
+        "10th century (Khazar correspondence period)"
+      ]
     },
     {
       "id": "865-003",
-      "title": "Ahmad ibn Tulun consolidates power in Egypt",
-      "region": "Egypt, Abbasid Caliphate",
-      "coordinates_approx": "30.0\u00b0N, 31.2\u00b0E",
+      "title": "Tang Dynasty decline and regional fragmentation",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
       "category": "political",
-      "description": "Ahmad ibn Tulun, a Turkish slave-soldier (Mamluk) appointed as governor of Egypt by the Abbasid Caliph, continued to consolidate his power. By 865, he had secured control of Egypt and begun the process of creating an independent dynasty (the Tulunid Dynasty). He used Egypt's agricultural wealth to build a powerful military force and reduced his nominal allegiance to Baghdad to a formality. This marked the beginning of Egypt's long period of autonomy from direct Abbasid control and established a pattern of military strongmen ruling the province.",
+      "description": "The Tang Dynasty, which had ruled China for nearly three centuries, continued its rapid decline in the mid-9th century. Regional warlords increasingly asserted independence, and central imperial authority weakened. This period saw the rise of regional military governors (jiedushi) who controlled vast territories and resources. The decline would culminate in the dynasty's fall in 907 CE and the subsequent period of fragmentation known as the Five Dynasties and Ten Kingdoms period.",
       "key_figures": [
-        "Ahmad ibn Tulun (Turkish governor and founder of Tulunid Dynasty)",
-        "Caliph al-Musta'in (nominal overlord)"
+        "Emperor Yizong of Tang (r. 859\u2013873)"
       ],
       "sources": [
         {
-          "name": "Al-Tabari, History of the Prophets and Kings",
+          "name": "Zizhi Tongjian (Sima Guang's comprehensive history)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Kindi, History of the Governors of Egypt",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The consolidation of Ahmad ibn Tulun's power occurred gradually over several years (868\u2013878). The year 865 marks a point in his rise to power, though some sources date key events to 870 or later.",
-      "cross_references": []
-    },
-    {
-      "id": "865-004",
-      "title": "Byzantine military operations in Anatolia and the Aegean",
-      "region": "Byzantine Empire, Anatolia and Aegean",
-      "coordinates_approx": "39.0\u00b0N, 25.0\u00b0E",
-      "category": "military",
-      "description": "The Byzantine Empire under Michael III conducted military campaigns in Anatolia against Arab raiders and in the Aegean against piracy. These campaigns were part of a broader effort to strengthen Byzantine control of key regions and suppress threats to trade and security. The campaigns had mixed success, with some territorial gains but also significant losses to Arab raids. This represents the continuation of Byzantine military efforts to maintain control of Anatolia and the Aegean during a period of relative weakness.",
-      "key_figures": [
-        "Michael III (Byzantine Emperor)",
-        "Basil (military commander, later Emperor Basil I)"
-      ],
-      "sources": [
-        {
-          "name": "Theophanes Continuatus, Chronicle",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine imperial records",
+          "name": "Official Tang court records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Byzantine military campaigns in Anatolia and the Aegean during this period are documented, but the exact chronology of individual campaigns is uncertain. The year 865 is one of several plausible dates for major operations.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Tang Dynasty is well-documented in Chinese historical records. The year 865 falls within the documented period of imperial weakness and regional fragmentation.",
+      "cross_references": [
+        "907-001 (fall of Tang Dynasty)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The date of Boris I's conversion to Christianity is highly disputed. Modern scholarship suggests dates ranging from 864 to 870, with no consensus. The traditional date of 865 may be influenced by later chronological schemes rather than contemporary evidence. The consolidation of Ahmad ibn Tulun's power is also uncertain; some sources suggest his rise to power occurred more gradually, with 870 or later being more accurate dates for his effective autonomy. The Byzantine military campaigns in Anatolia are poorly documented for specific years; the chronology of individual campaigns is uncertain.",
-  "historiographic_note": "Documentation for 865 CE is moderate but uneven. Arab sources on the Anarchy at Samarra and the fragmentation of the caliphate are relatively abundant but written much later. Byzantine sources are less detailed for this period. The conversion of Bulgaria is known primarily through later ecclesiastical sources and papal correspondence, with limited contemporary documentation. There is a strong bias toward political and military history; economic and social developments are underrepresented. The survival of sources is uneven, with Arab and Byzantine sources better preserved than others.",
+  "disconfirming_evidence": "The Khazar conversion to Judaism is one of the most contested events in medieval history. Modern scholarship is deeply divided: some scholars argue the conversion was limited to the ruling elite or did not occur at all; others suggest it was a gradual process rather than a sudden event; still others question whether the sources are reliable. The traditional date of 865 is not supported by contemporary evidence and appears to be a later scholarly convention. Additionally, the attribution of the Great Heathen Army's invasion to Ragnar Lothbrok and his sons is now widely rejected by historians as legendary conflation.",
+  "historiographic_note": "The historical record for 865 CE is uneven. Western European and Byzantine sources are relatively abundant, though often biased toward political and military narratives. Chinese sources are rich and detailed but focus on court politics and administrative matters. The Khazar conversion is known primarily through later sources written centuries after the alleged event, making it impossible to verify with confidence. For most of the world outside these regions, contemporary documentation is minimal or absent.",
   "graph_edges": [
-    {
-      "from": "865-001",
-      "to": "865-003",
-      "relation": "led_to",
-      "note": "The Anarchy at Samarra directly enabled Ahmad ibn Tulun's rise to power in Egypt"
-    },
     {
       "from": "865-001",
       "to": "866-001",
       "relation": "led_to",
-      "note": "Continuation of the Anarchy at Samarra into 866"
+      "note": "The Great Heathen Army's campaigns in 865 led directly to the conquest of York in 866."
     },
     {
-      "from": "865-002",
-      "to": "865-003",
-      "relation": "contemporary_with",
-      "note": "Both represent major geopolitical realignments in the same year"
+      "from": "865-003",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "The fragmentation and decline of the Tang Dynasty in the mid-9th century led to its collapse in 907 and the subsequent period of disunity."
     }
   ]
 }

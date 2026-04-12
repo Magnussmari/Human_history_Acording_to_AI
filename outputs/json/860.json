@@ -1,0 +1,132 @@
+{
+  "year": 860,
+  "year_label": "860 CE",
+  "era_context": "The mid-9th century CE: the Carolingian Empire continued its fragmentation under the sons of Louis the Pious. The Byzantine Empire under Michael III faced external threats from Rus' Vikings and internal religious controversy. The Abbasid Caliphate was politically fractured but culturally vibrant. The Tang Dynasty in China was in severe decline, approaching collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Northern Europe beyond Viking-affected regions"
+  ],
+  "events": [
+    {
+      "id": "860-001",
+      "title": "Rus' Viking attack on Constantinople (Varangian raid)",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "military",
+      "description": "A fleet of Rus' Vikings (Varangians) from Novgorod and Kiev attacked Constantinople, the capital of the Byzantine Empire. The raiders, numbering perhaps 200 ships, besieged the city but were repelled by Byzantine forces and naval tactics. The attack shocked the Byzantine establishment and prompted diplomatic responses. According to some sources, this raid led to the eventual Christianization of Rus' and the establishment of formal diplomatic relations. The raid demonstrated the reach of Viking expansion into Eastern Europe and the vulnerability of even major Byzantine cities to northern raiders.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Photius (Patriarch of Constantinople)",
+        "Askold and Dir (Rus' Viking leaders, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Patriarch Photius's homily on the Rus' attack",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Primary Chronicle (Povest vremennykh let)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine chronicles and annals",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The attack is attested in contemporary Byzantine sources (Photius's homily) and later Rus' chronicles. The date 860 is well-established, though details of the raid vary between sources.",
+      "cross_references": [
+        "Led to eventual Christianization of Rus' (traditionally dated 988, but cultural contact began here)",
+        "Part of broader Varangian expansion into Eastern Europe"
+      ]
+    },
+    {
+      "id": "860-002",
+      "title": "Photius becomes Patriarch of Constantinople",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "religious",
+      "description": "Photius, a highly educated layman and imperial official, was elevated to the position of Patriarch of Constantinople, replacing Ignatius. This appointment was controversial because Photius was not ordained clergy and because it involved the deposition of the incumbent patriarch. Photius's elevation marked the beginning of his long and influential tenure and the start of the Photian Schism with Rome. His appointment reflected the power of the imperial court in ecclesiastical matters and the intellectual ferment of the Byzantine 9th century.",
+      "key_figures": [
+        "Photius (newly appointed Patriarch)",
+        "Michael III (Byzantine Emperor)",
+        "Ignatius (deposed Patriarch)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine ecclesiastical records and synodal documents",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis and papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Photius's appointment is well-documented in both Byzantine and papal sources. The date 860 is established.",
+      "cross_references": [
+        "Led to Photian Schism (858\u2013867 and beyond)",
+        "Related to 861-002 (excommunication)"
+      ]
+    },
+    {
+      "id": "860-003",
+      "title": "Anatolian campaign of Byzantine Emperor Michael III against Arab raids",
+      "region": "Byzantine Empire (Anatolia)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "Emperor Michael III conducted military campaigns in Anatolia to counter ongoing Arab raids and consolidate Byzantine control over the interior. These campaigns were part of the broader Byzantine-Arab frontier warfare that had characterized the 8th and 9th centuries. The campaigns had limited strategic success but demonstrated Byzantine military reorganization under the Macedonian Renaissance.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Petronas (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Byzantine military chronicles and imperial records",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Byzantine military campaigns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine military campaigns in Anatolia during this period are attested, but specific dating to 860 is approximate. The broader campaign season is documented, but exact chronology varies between sources.",
+      "cross_references": [
+        "Part of broader Byzantine-Arab frontier conflict (7th\u201310th centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative linking the 860 Rus' attack directly to the Christianization of Rus' is disputed by modern scholarship. While the attack may have prompted Byzantine diplomatic interest in Rus', the actual Christianization of Kievan Rus' occurred over a century later (traditionally 988 under Vladimir the Great). The causal link is often overstated in popular histories. Additionally, the identity of the Rus' Viking leaders (Askold and Dir) is uncertain; later chronicles may have conflated multiple raids or leaders. Photius's appointment in 860 is sometimes dated to 858 in some sources, creating minor chronological uncertainty.",
+  "historiographic_note": "The record for 860 is dominated by Byzantine and later Rus' sources. Byzantine sources are relatively rich for the attack on Constantinople and ecclesiastical matters but reflect imperial and patriarchal perspectives. The Primary Chronicle, the main Rus' source, was compiled in the 12th century and contains legendary elements. Western European sources are sparse for this year. Islamic sources for the Abbasid Caliphate are limited in surviving form. The record is heavily weighted toward military and religious events; economic and social history are underrepresented. There is a significant bias toward Constantinople-centric history.",
+  "graph_edges": [
+    {
+      "from": "860-001",
+      "to": "988-CHRISTIANIZATION",
+      "relation": "led_to",
+      "note": "The 860 attack initiated contact that eventually led to Christianization, though the causal link is often overstated"
+    },
+    {
+      "from": "860-002",
+      "to": "861-002",
+      "relation": "led_to",
+      "note": "Photius's appointment led to the Photian Schism and excommunication"
+    },
+    {
+      "from": "860-001",
+      "to": "861-001",
+      "relation": "contemporary_with",
+      "note": "Part of broader Viking expansion pattern in this decade"
+    }
+  ]
+}

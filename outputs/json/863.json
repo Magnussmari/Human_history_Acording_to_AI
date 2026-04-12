@@ -1,0 +1,124 @@
+{
+  "year": 863,
+  "year_label": "863 CE",
+  "era_context": "The mid-9th century CE saw the consolidation of post-Carolingian kingdoms, the rise of Viking power in Northern Europe and the Mediterranean, the Byzantine Empire's military and cultural renaissance, and the decline of the Tang Dynasty in China. The Islamic world remained a center of scientific and cultural advancement under the Abbasid Caliphate.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "863-001",
+      "title": "Cyril and Methodius mission to Great Moravia (alternative date)",
+      "region": "Great Moravia, Central Europe",
+      "coordinates_approx": "48.5, 17.0",
+      "category": "religious",
+      "description": "According to some sources, the Byzantine missionaries Cyril and Methodius were sent to Great Moravia in 863 (rather than 864) to spread Christianity and Byzantine cultural influence. This mission resulted in the development of the Glagolitic script and the translation of Christian texts into Old Church Slavonic, creating a written Slavic language and establishing the foundation for Slavic Christian culture. The mission was initiated by Prince Rastislav of Moravia, who sought to reduce the influence of the Frankish church.",
+      "key_figures": [
+        "Cyril (Byzantine missionary, born Constantine)",
+        "Methodius (Byzantine missionary)",
+        "Rastislav (Prince of Great Moravia)"
+      ],
+      "sources": [
+        {
+          "name": "Life of Cyril (Vita Cyrilli)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Life of Methodius (Vita Methodii)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of the Cyril and Methodius mission is uncertain. Different sources place it in 863, 864, or 865. The hagiographic sources were written after the missionaries' deaths and contain legendary elements. The year 863 is one of several plausible dates.",
+      "cross_references": [
+        "864-003 (alternative date for the same mission)"
+      ]
+    },
+    {
+      "id": "863-002",
+      "title": "Byzantine military campaign in Mesopotamia",
+      "region": "Byzantine Empire, Mesopotamia",
+      "coordinates_approx": "36.0, 42.0",
+      "category": "military",
+      "description": "Byzantine forces under Emperor Michael III conducted military campaigns in Mesopotamia against the Abbasid Caliphate. These campaigns were part of the broader Byzantine military resurgence of the Macedonian period. The Byzantines sought to recover lost territories and reassert their influence in the eastern Mediterranean and Near East. The campaigns had mixed results but demonstrated Byzantine military capability.",
+      "key_figures": [
+        "Michael III (Byzantine Emperor)",
+        "Petronas (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "De Administrando Imperio (Constantine VII)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Byzantine military campaigns in Mesopotamia during this period are attested in Byzantine sources, though specific dates and details are sometimes approximate. The year 863 falls within the documented period of Byzantine military activity.",
+      "cross_references": [
+        "866-002 (continued Byzantine military campaigns)"
+      ]
+    },
+    {
+      "id": "863-003",
+      "title": "Abbasid Caliphate cultural and scientific flourishing",
+      "region": "Abbasid Caliphate, Islamic world",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "cultural",
+      "description": "The Abbasid Caliphate, centered in Baghdad, continued to be a major center of scientific, mathematical, and philosophical advancement. Scholars at the House of Wisdom and other institutions made significant contributions to mathematics, astronomy, medicine, and philosophy. This period saw the translation and preservation of Greek, Persian, and Indian texts, as well as original contributions to Islamic science. The cultural and intellectual achievements of the Abbasid period had profound influence on later European and Islamic civilization.",
+      "key_figures": [
+        "Al-Kindi (Islamic philosopher and scientist)",
+        "Al-Jahiz (Islamic naturalist and writer)"
+      ],
+      "sources": [
+        {
+          "name": "Works of Al-Kindi and Al-Jahiz",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Islamic geographers and historians",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The cultural and scientific achievements of the Abbasid Caliphate in the 9th century are well-documented in contemporary Islamic sources and the surviving works of scholars. The year 863 falls within the documented period of Abbasid intellectual flourishing.",
+      "cross_references": [
+        "9th century (broader period of Abbasid cultural achievement)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of the Cyril and Methodius mission to Moravia is highly uncertain. While 863 is one commonly cited date, sources also place it in 864 or 865. The hagiographic sources (Lives of Cyril and Methodius) were written well after the events and contain miraculous and legendary elements that complicate their historical reliability. Modern scholars debate the exact chronology and the extent of the missionaries' actual influence.",
+  "historiographic_note": "The historical record for 863 CE is moderately rich for the Byzantine Empire, the Islamic world, and Western Europe, drawing on contemporary sources and later chronicles. However, sources are often biased toward political, military, and religious narratives. The Cyril and Methodius mission is known primarily through later hagiographic sources, which blend history with legend. For regions outside these areas, documentation is sparse or absent.",
+  "graph_edges": [
+    {
+      "from": "863-001",
+      "to": "864-003",
+      "relation": "contemporary_with",
+      "note": "The Cyril and Methodius mission is dated to either 863 or 864 in different sources; these entries represent alternative datings of the same event."
+    },
+    {
+      "from": "863-002",
+      "to": "866-002",
+      "relation": "part_of",
+      "note": "Byzantine military campaigns in Mesopotamia in 863 were part of the broader Macedonian military resurgence."
+    },
+    {
+      "from": "863-003",
+      "to": "9th century",
+      "relation": "part_of",
+      "note": "Abbasid cultural and scientific achievements in 863 were part of the broader intellectual flourishing of the 9th century Islamic world."
+    }
+  ]
+}

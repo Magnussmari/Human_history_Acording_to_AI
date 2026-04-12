@@ -1,89 +1,160 @@
 {
   "year": 887,
   "year_label": "887 CE",
-  "era_context": "887 CE falls in the final years of Charles III's reign and the twilight of unified Carolingian authority. The empire is fragmenting into regional kingdoms, each controlled by competing magnates and dynastic claimants. The Viking Age continues to reshape northern Europe, with Norse raiders active in England, Frankia, and the Mediterranean. The Islamic Abbasid Caliphate is experiencing internal fragmentation, with autonomous regional dynasties (Tulunids in Egypt, Samanids in Central Asia, Aghlabids in North Africa) asserting independence. In East Asia, the Tang Dynasty is in its final decades, and regional warlords are consolidating power in preparation for the dynasty's collapse in 907.",
-  "documentation_level": "sparse",
+  "era_context": "The late 9th century is marked by the fragmentation of the Carolingian Empire and the consolidation of regional kingdoms. The Viking Age is at its height, with Norse raiders active across Europe. The Abbasid Caliphate is in decline, with regional dynasties asserting independence. In East Asia, the Tang Dynasty is in its final years, approaching collapse. Japan's Heian period is well established, with aristocratic court culture flourishing and the Fujiwara family rising to dominance.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Southeast Asia",
-    "Oceania",
-    "Central Asia (limited contemporary sources)",
-    "Islamic world (limited Western documentation)"
+    "Pre-Columbian Americas",
+    "Scandinavia (limited contemporary written records)"
   ],
   "events": [
     {
       "id": "887-001",
-      "title": "Arnulf of Carinthia defeats Northmen at the Dyle River",
-      "region": "East Francia (modern Belgium/Netherlands)",
-      "coordinates_approx": "50.8, 4.5",
-      "category": "military",
-      "description": "Arnulf of Carinthia, king of East Francia, defeated a Viking (Northmen) force at the Dyle River (modern Belgium). This victory was significant as it demonstrated Arnulf's military capability and his ability to defend East Frankish territory against external threats. The battle is part of the broader pattern of Viking incursions and Frankish resistance in the late 9th century. However, the exact date of this battle is debated by modern scholars; some sources place it in 887, others in 891.",
-      "key_figures": [
-        "Arnulf of Carinthia (East Frankish king)",
-        "Unnamed Viking leaders"
-      ],
-      "sources": [
-        {
-          "name": "Annals of Fulda",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Regino of Pr\u00fcm, Chronicle",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The battle at the Dyle River is attested in chronicles, but the date is uncertain. Modern scholars debate whether it occurred in 887 or 891. The event is secure; the precise year is approximate.",
-      "cross_references": []
-    },
-    {
-      "id": "887-002",
-      "title": "Charles III's authority weakens; regional magnates consolidate power",
-      "region": "Frankia (former empire)",
-      "coordinates_approx": null,
+      "title": "Charles III (the Fat) Deposed",
+      "region": "Frankia (multiple kingdoms)",
+      "coordinates_approx": "50.0, 10.0",
       "category": "political",
-      "description": "By 887, Charles III's authority was severely weakened. Regional magnates in West Francia, East Francia, and Italy were consolidating independent power bases, and the emperor was unable to enforce his will across the realm. This period marks the effective end of centralized Carolingian authority, though Charles III remained nominally emperor until his death in January 888. The fragmentation was driven by the need for local defense against Viking raids, the rise of feudal relationships, and the ambitions of regional aristocrats.",
+      "description": "Charles III, known as Charles the Fat, is deposed from his position as ruler of the Frankish realms. Charles had briefly reunited much of the Carolingian Empire, but his authority was weakened by military failures (particularly against Vikings) and political opposition from the Frankish nobility. His deposition marks the final fragmentation of the Carolingian Empire into independent kingdoms. Charles dies in 888, shortly after his deposition.",
       "key_figures": [
-        "Charles III the Fat (weakening emperor)",
-        "Odo of Paris (West Frankish magnate)",
-        "Arnulf of Carinthia (East Frankish magnate)",
-        "Berengar II (Italian magnate)"
+        "Charles III (the Fat, deposed ruler)",
+        "Arnulf of Carinthia (beneficiary of deposition)",
+        "Odo of Paris (beneficiary of deposition)"
       ],
       "sources": [
         {
-          "name": "Regino of Pr\u00fcm, Chronicle",
+          "name": "Annales Fuldenses",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Annals of Fulda",
+          "name": "Regino of Pr\u00fcm, Chronicon",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The weakening of Charles III's authority by 887 is well-attested in chronicles. The process is secure; the precise mechanisms are debated.",
+      "certainty_note": "Charles III's deposition is well attested in contemporary chronicles. The date 887 is firmly established.",
       "cross_references": [
-        "Leads to 888-001 (Charles III's death and final fragmentation)"
+        "Leads to the coronation of Odo and Arnulf in 888",
+        "Marks the final fragmentation of the Carolingian Empire"
+      ]
+    },
+    {
+      "id": "887-002",
+      "title": "Viking Siege of Paris Concludes",
+      "region": "West Frankia (Paris)",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "military",
+      "description": "The Viking siege of Paris, which began in 885, concludes in 887 (some sources date the end to 886). The Vikings, led by Ragnar Lothbrok's sons (according to legend) or other Norse leaders, besiege the city for approximately two years. The siege is eventually lifted through a combination of Frankish military resistance (led by Odo of Paris) and payment of tribute. The siege is a major event in the Viking Age and establishes Odo's reputation as a defender of Frankia.",
+      "key_figures": [
+        "Odo of Paris (defender of Paris)",
+        "Viking leaders (names uncertain; possibly Ragnar's sons in legend)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Abbo of Saint-Germain-des-Pr\u00e9s, Bella Parisiacae Urbis (Poem on the Siege of Paris)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Viking siege of Paris is well attested in contemporary sources. The exact dates (885\u2013886 or 885\u2013887) are debated, but the siege is firmly documented.",
+      "cross_references": [
+        "Leads to Odo's prominence and coronation in 888"
+      ]
+    },
+    {
+      "id": "887-003",
+      "title": "Abbasid Caliphate Fragmentation Continues",
+      "region": "Abbasid Caliphate and successor states",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliphate continues to fragment as regional dynasties assert independence. The Tulunids control Egypt and Syria, the Samanids control Central Asia, and other regional powers emerge. The caliph's authority is increasingly confined to Baghdad and its immediate surroundings. This period marks the effective end of Abbasid centralized power, though the caliphate nominally continues.",
+      "key_figures": [
+        "Al-Muktafi (Abbasid Caliph, r. 888\u2013892, but not yet in power in 887)"
+      ],
+      "sources": [
+        {
+          "name": "Later Islamic chronicles (e.g., al-Tabari)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic and epigraphic evidence",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is well attested, but specific events in 887 are not clearly documented. The broader trend is clear; individual incidents are less so.",
+      "cross_references": [
+        "Part of the broader decline of the Abbasid Caliphate in the 9th\u201310th centuries"
+      ]
+    },
+    {
+      "id": "887-004",
+      "title": "Fujiwara no Mototsune Consolidates Power",
+      "region": "Japan (Heian period)",
+      "coordinates_approx": "35.0, 135.5",
+      "category": "political",
+      "description": "Fujiwara no Mototsune, the powerful regent and chief advisor to the Japanese imperial court, consolidates his control over court politics. Mototsune is the dominant political figure of the Heian court and effectively controls the imperial government. His power is at its height in the late 880s, and he will remain the most influential figure at court until his death in 891.",
+      "key_figures": [
+        "Fujiwara no Mototsune (Chief Regent)",
+        "Emperor Koko (r. 884\u2013887, abdicated)"
+      ],
+      "sources": [
+        {
+          "name": "Nihon Sandai Jitsuroku",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Fujiwara no Mototsune's power is well documented in Japanese court records. His consolidation of power in the late 880s is firmly attested.",
+      "cross_references": [
+        "Related to the Fujiwara regency system and the Heian period"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of the Battle of the Dyle River is disputed. Some modern scholars place it in 891, not 887. This uncertainty reflects the general problem of precise dating in late 9th-century sources. Additionally, the narrative of 'fragmentation' in 887 may be somewhat misleading: the Frankish realm had already been effectively divided since the Treaty of Verdun (843), and 887 merely represents a further stage in a long process of decentralization. No other disconfirming evidence identified for events listed.",
-  "historiographic_note": "The historical record for 887 is sparse and heavily weighted toward West and East Francia. Sources are primarily near-contemporary chronicles (Regino of Pr\u00fcm, Annals of Fulda) compiled within a generation or two of events. These sources reflect the perspective of the Frankish ecclesiastical establishment and may overemphasize political fragmentation while underrepresenting the continuity of local institutions and the agency of lay nobility. The record for the Islamic world, Byzantium, and Asia is very thin in Western sources. Many events of 887 are not precisely dated, and modern scholars continue to debate the chronology of this period.",
+  "disconfirming_evidence": "The date of Charles III's deposition is sometimes given as 887 or 888, with 887 being more widely accepted. The Viking siege of Paris is sometimes dated to 885\u2013886 or 885\u2013887, with the exact end date debated. The significance of the siege is sometimes overstated; it was a major event, but it did not permanently halt Viking expansion. The Abbasid fragmentation is sometimes presented as a sudden collapse, but it was a gradual process spanning decades. Fujiwara no Mototsune's power is sometimes portrayed as absolute, but it was subject to imperial resistance and factional disputes.",
+  "historiographic_note": "Documentation for 887 is rich in Western European and East Asian sources, but sparse in other regions. Frankish chronicles provide detailed accounts of Charles III's deposition and the Viking siege of Paris. Japanese court records document Fujiwara consolidation. Islamic sources are largely later compilations. The perspective is heavily weighted toward elite political and military history. Economic, social, and cultural developments are underrepresented. The year 887 is significant for political transitions in multiple regions, but the interconnections between these events are not apparent in surviving sources. The Viking siege of Paris is one of the best-documented events of the year, with contemporary poetic accounts (Abbo's poem) providing vivid detail.",
   "graph_edges": [
+    {
+      "from": "887-001",
+      "to": "888-001",
+      "relation": "led_to",
+      "note": "Charles III's deposition in 887 leads to Odo's coronation in 888"
+    },
+    {
+      "from": "887-001",
+      "to": "888-002",
+      "relation": "led_to",
+      "note": "Charles III's deposition in 887 leads to Arnulf's coronation in 888"
+    },
     {
       "from": "887-002",
       "to": "888-001",
       "relation": "led_to",
-      "note": "The weakening of Charles III's authority in 887 directly led to the succession disputes following his death in 888."
+      "note": "The conclusion of the Viking siege of Paris in 887 establishes Odo's reputation, leading to his coronation in 888"
+    },
+    {
+      "from": "887-003",
+      "to": "10th-century-Islamic-fragmentation",
+      "relation": "led_to",
+      "note": "Abbasid fragmentation in 887 contributes to the emergence of independent regional dynasties in the 10th century"
+    },
+    {
+      "from": "887-004",
+      "to": "890-003",
+      "relation": "led_to",
+      "note": "Fujiwara no Mototsune's consolidation of power in 887 leads to continued Fujiwara dominance in the 890s"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:17:45.065332",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

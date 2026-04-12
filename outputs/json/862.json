@@ -1,0 +1,124 @@
+{
+  "year": 862,
+  "year_label": "862 CE",
+  "era_context": "The mid-9th century CE was characterized by the fragmentation of the Carolingian Empire, the rise of Viking power in Northern Europe and the Mediterranean, the Byzantine Empire's military and cultural renaissance, and the decline of the Tang Dynasty in China. The Islamic world remained culturally and scientifically vibrant under the Abbasid Caliphate.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "862-001",
+      "title": "Foundation of Novgorod and the Varangian settlement in Eastern Europe",
+      "region": "Eastern Europe, Novgorod region",
+      "coordinates_approx": "58.5, 31.3",
+      "category": "political",
+      "description": "According to the Primary Chronicle (Povest vremennykh let), Varangian (Scandinavian) warriors, led by Rurik, were invited by Slavic tribes to establish order and rule in the region around Novgorod. This event is traditionally dated to 862 and marks the beginning of the Rurikid dynasty and the foundation of the medieval state of Kievan Rus. The Varangians established trading posts and settlements that would eventually develop into major cities. This event is foundational to Russian and Eastern European history, though its historicity is debated by modern scholars.",
+      "key_figures": [
+        "Rurik (Varangian leader, legendary/semi-legendary)"
+      ],
+      "sources": [
+        {
+          "name": "Primary Chronicle (Povest vremennykh let)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Icelandic sagas",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The foundation of Novgorod and the arrival of Rurik are attested in the Primary Chronicle, which was compiled in the 11th-12th centuries, centuries after the alleged events. The date of 862 is traditional but not contemporary. Modern scholars debate whether Rurik was a historical figure or a legendary construct, and whether the Varangian settlement was as sudden and organized as the chronicle suggests.",
+      "cross_references": [
+        "882-001 (establishment of Kievan Rus)",
+        "10th century (consolidation of Kievan Rus)"
+      ]
+    },
+    {
+      "id": "862-002",
+      "title": "Anaphora of Photius and the Photian Schism",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "religious",
+      "description": "Patriarch Photius of Constantinople continued his theological disputes with Pope Nicholas I over ecclesiastical authority and the Filioque controversy. The conflict between the Byzantine patriarch and the Roman pope represented a fundamental disagreement over the structure of Christian authority and theological interpretation. This period saw the deepening of the East-West Christian divide that would eventually lead to the Great Schism of 1054.",
+      "key_figures": [
+        "Photius (Patriarch of Constantinople)",
+        "Pope Nicholas I"
+      ],
+      "sources": [
+        {
+          "name": "Photius's letters and theological writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Photian Schism is extensively documented in contemporary ecclesiastical correspondence. The year 862 falls within the active phase of the dispute.",
+      "cross_references": [
+        "858-001 (Photius becomes patriarch)",
+        "867-003 (Photius's deposition)"
+      ]
+    },
+    {
+      "id": "862-003",
+      "title": "Tang Dynasty administrative decline and regional fragmentation",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Tang Dynasty continued its decline in the mid-9th century, with regional military governors (jiedushi) increasingly asserting independence from central imperial authority. The year 862 falls within the documented period of Tang administrative breakdown and the rise of regional warlords. This fragmentation would eventually lead to the dynasty's collapse in 907 CE and the subsequent period of disunity known as the Five Dynasties and Ten Kingdoms period.",
+      "key_figures": [
+        "Emperor Yizong of Tang (r. 859\u2013873)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Sima Guang's comprehensive history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Tang court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Tang Dynasty is well-documented in Chinese historical records. The year 862 falls within the documented period of imperial weakness and regional fragmentation.",
+      "cross_references": [
+        "865-003 (continued Tang decline)",
+        "907-001 (fall of Tang Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The foundation of Novgorod and the arrival of Rurik in 862 are highly disputed by modern scholarship. The Primary Chronicle, the main source for this event, was compiled centuries after the alleged events and contains legendary and mythological elements. Many scholars now view Rurik as a legendary or semi-legendary figure whose exploits may conflate multiple Varangian leaders or may be entirely fictional. The date of 862 is traditional but not supported by contemporary evidence. Archaeological evidence from Novgorod does not clearly support the narrative of a sudden Varangian conquest or settlement in 862.",
+  "historiographic_note": "The historical record for 862 CE is uneven. The Byzantine Empire and the Islamic world have relatively rich documentation, though often biased toward political and religious narratives. Chinese sources are detailed but focus on court politics. The foundation of Novgorod and the arrival of Rurik are known primarily through the Primary Chronicle, a later compilation that blends history with legend. For most of the world outside the Mediterranean, the Islamic world, and China, contemporary documentation is minimal or absent.",
+  "graph_edges": [
+    {
+      "from": "862-001",
+      "to": "882-001",
+      "relation": "led_to",
+      "note": "The Varangian settlement in Novgorod in 862 led to the establishment of Kievan Rus in 882."
+    },
+    {
+      "from": "862-002",
+      "to": "1054-001",
+      "relation": "led_to",
+      "note": "The Photian Schism and related East-West ecclesiastical tensions contributed to the Great Schism of 1054."
+    },
+    {
+      "from": "862-003",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "The fragmentation and decline of the Tang Dynasty in the mid-9th century led to its collapse in 907."
+    }
+  ]
+}

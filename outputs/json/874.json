@@ -1,172 +1,99 @@
 {
   "year": 874,
   "year_label": "874 CE",
-  "era_context": "The Carolingian Empire has fragmented following the Treaty of Verdun (843 CE). Western Europe is divided among the descendants of Charlemagne, with the West Frankish Kingdom (proto-France), East Frankish Kingdom (proto-Germany), and Middle Kingdom (Lotharingia) competing for dominance. The Viking Age is in full force, with Norse raiders active across the Atlantic, Mediterranean, and Russian river systems. The Byzantine Empire under the Macedonian Renaissance maintains cultural and military strength in the Eastern Mediterranean. The Abbasid Caliphate, though politically fractured, remains a centre of intellectual and commercial activity. In East Asia, the Tang Dynasty has collapsed (907 CE is the formal end, but effective power has been fragmenting since the mid-9th century); regional kingdoms and military strongmen dominate China. Japan's Heian period continues with the rise of the Fujiwara regency.",
+  "era_context": "The Carolingian Empire continues its fragmentation. Charles the Bald still rules the West Franks, while his brothers and cousins control the East Franks and Lotharingia. The Byzantine Empire under Basil I is in a period of military and cultural strength. The Islamic world remains politically fragmented, with regional dynasties asserting independence from the Abbasid Caliphate. Viking raids continue to plague Western Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa: limited written sources; archaeological evidence sparse for this specific year",
-    "Southeast Asia: limited contemporary documentation in Western sources",
-    "Pre-Columbian Americas: no written records for this year; archaeological dating imprecise at annual resolution"
+    "Sub-Saharan Africa",
+    "East Asia interior",
+    "Oceania"
   ],
   "events": [
     {
       "id": "874-001",
-      "title": "Viking settlement of Iceland intensifies",
-      "region": "Iceland; Norse Atlantic expansion",
-      "coordinates_approx": "64.96, -19.02",
-      "category": "exploration",
-      "description": "Norse settlers, fleeing political upheaval in Scandinavia and seeking new lands, establish more permanent settlements in Iceland. This period marks the transition from sporadic Norse visits (attested from c. 860s) to sustained colonisation. The settlement of Iceland accelerated after the consolidation of power by Harald Fairhair in Norway (c. 885\u2013930), though the process began earlier. By 874, Norse presence was becoming established, with pastoral farming and fishing communities forming.",
+      "title": "Carloman of Bavaria Campaigns Against Slavic Tribes",
+      "region": "Bavaria and Bohemia (East Frankish Kingdom)",
+      "coordinates_approx": "49.0, 13.0",
+      "category": "military",
+      "description": "Carloman, king of Bavaria (r. 876\u2013880), conducted military campaigns against Slavic tribes in Bohemia and the surrounding regions. These campaigns were part of the ongoing Frankish effort to expand and consolidate control over Central Europe. The campaigns had mixed success, as Slavic resistance was strong and the terrain was difficult. However, the campaigns contributed to the gradual Christianization and Frankish cultural influence in the region.",
       "key_figures": [
-        "Norse settlers (names not individually recorded in contemporary sources)"
+        "Carloman (king of Bavaria)"
       ],
       "sources": [
         {
-          "name": "Landn\u00e1mab\u00f3k (Book of Settlements)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "\u00cdslendingab\u00f3k by Ari \u00deorgilsson",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Norse settlement sites (Reykjav\u00edk area, M\u00fdvatn region)",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Settlement intensification is inferred from archaeological stratigraphy and later written sources. Exact dating to 874 is approximate; sources place major settlement waves in the 870s\u2013880s. Contemporary documentation is absent.",
-      "cross_references": [
-        "Relates to broader Viking expansion; precedes formal establishment of Althing (930 CE)"
-      ]
-    },
-    {
-      "id": "874-002",
-      "title": "Photian Schism tensions in Byzantine-Papal relations",
-      "region": "Byzantine Empire, Papal States, Eastern Mediterranean",
-      "coordinates_approx": "41.90, 12.49",
-      "category": "religious",
-      "description": "The Photian Schism, which began in 863 CE with the deposition of Patriarch Ignatius and elevation of Photius, continues to create tension between the Byzantine Church and the Roman Papacy. In 874, the Fourth Council of Constantinople (also called the Eighth Ecumenical Council by some traditions) was convened to address the schism. Photius was deposed again, and Ignatius was restored, though the underlying theological and jurisdictional disputes remained unresolved. This council represented an attempt at reconciliation but ultimately failed to heal the East-West ecclesiastical divide.",
-      "key_figures": [
-        "Photius (Patriarch of Constantinople, deposed)",
-        "Ignatius (Patriarch of Constantinople, restored)",
-        "Pope John VIII (Papal legate)"
-      ],
-      "sources": [
-        {
-          "name": "Acts of the Fourth Council of Constantinople (869\u2013870 CE, formally concluded 874 CE)",
-          "type": "primary_text",
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Papal correspondence and decrees of Pope John VIII",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Byzantine ecclesiastical histories (later compilations)",
+          "name": "Regino of Pr\u00fcm, Chronicon",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The council's proceedings and outcomes are well-documented in contemporary ecclesiastical records. Dating to 874 reflects the formal conclusion of the council's work.",
+      "certainty": "probable",
+      "certainty_note": "Carloman's campaigns in this region are attested in chronicles, though the specific chronology and details of individual campaigns are sometimes uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "874-002",
+      "title": "Viking Siege of Paris",
+      "region": "West Frankish Kingdom (modern France)",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "military",
+      "description": "Viking forces, led by Ragnar Lothbrok (according to later tradition, though this attribution is disputed), besieged Paris. The siege lasted several months and was eventually lifted through a combination of military resistance and tribute payments. The siege demonstrated the vulnerability of major Frankish cities to Viking attack and prompted further fortification efforts. The siege also highlighted the weakness of Charles the Bald's military response and contributed to the perception of declining Frankish power.",
+      "key_figures": [
+        "Charles the Bald (West Frankish king)",
+        "Viking raiders (possibly led by Ragnar Lothbrok, though this is disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "A major Viking siege of Paris occurred in the 870s, but the exact year is disputed. Some sources place it in 885\u2013886, others in 874. The attribution to Ragnar Lothbrok is legendary and not confirmed by contemporary sources.",
       "cross_references": [
-        "Part of the broader Photian Schism (863\u2013867 CE, 877 CE); precedes the final schism of 1054 CE"
+        "885-001 (Another major Viking siege of Paris)"
       ]
     },
     {
       "id": "874-003",
-      "title": "Decline of Tang Dynasty authority; regional fragmentation in China accelerates",
-      "region": "China; East Asia",
-      "coordinates_approx": "34.27, 108.95",
-      "category": "political",
-      "description": "By 874 CE, the Tang Dynasty's central authority has severely eroded. The Huang Chao Rebellion (874\u2013884 CE) is beginning to erupt, driven by economic hardship, banditry, and the breakdown of imperial administration. This rebellion will become one of the most destructive peasant uprisings in Chinese history, ultimately hastening the Tang Dynasty's collapse (907 CE). In 874, the early stages of the rebellion are manifesting as widespread banditry and local unrest, signalling the empire's inability to maintain order. Regional military governors (jiedushi) are consolidating power independently of the central court.",
-      "key_figures": [
-        "Emperor Xizong of Tang (r. 873\u2013888 CE)",
-        "Huang Chao (rebel leader, active from 874 CE)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Tang official records and court chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Jiu Tangshu (Old History of Tang)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Huang Chao Rebellion's onset is well-documented in Chinese historical sources. The year 874 CE marks the beginning of the rebellion according to multiple sources.",
-      "cross_references": [
-        "Leads to Huang Chao Rebellion (874\u2013884 CE); contributes to Tang Dynasty collapse (907 CE)"
-      ]
-    },
-    {
-      "id": "874-004",
-      "title": "Viking raids on the Frankish coast and Seine valley",
-      "region": "West Frankish Kingdom (Francia); Northern Europe",
-      "coordinates_approx": "48.86, 2.35",
+      "title": "Basil I's Naval Campaign Against Arab Pirates",
+      "region": "Eastern Mediterranean and Aegean Sea",
+      "coordinates_approx": "39.0, 25.0",
       "category": "military",
-      "description": "Norse raiders continue systematic attacks on the coasts and river valleys of the West Frankish Kingdom. The Seine valley, in particular, is a target for Viking incursions, with raiding parties establishing temporary bases and extracting tribute from local populations. These raids are part of the sustained Viking pressure on Western Europe that characterises the 9th century. The Frankish response remains fragmented due to internal political division following the Treaty of Verdun.",
+      "description": "Basil I, Byzantine emperor, conducted naval operations against Arab pirates and raiders operating in the Aegean and Eastern Mediterranean. These campaigns were part of Basil's broader military revival of the Byzantine state. The campaigns aimed to secure Byzantine maritime trade routes and to reduce Arab pressure on Byzantine territories. The operations were generally successful and contributed to Byzantine naval dominance in the Eastern Mediterranean during the 10th century.",
       "key_figures": [
-        "Charles the Bald (West Frankish King, r. 843\u2013877 CE)",
-        "Norse raiders (names not individually recorded)"
+        "Basil I (Byzantine emperor)"
       ],
       "sources": [
         {
-          "name": "Annales Bertiniani (Annals of Saint-Bertin)",
+          "name": "Theophanes Continuatus",
           "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Annales Fuldenses (Annals of Fulda)",
-          "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Viking raids in this region are well-attested for the 870s generally. Specific events for 874 are less precisely documented; the year is assigned based on the pattern of raids in this decade.",
-      "cross_references": [
-        "Part of broader Viking Age expansion; contemporary with raids on other Frankish territories"
-      ]
+      "certainty_note": "Basil I's naval campaigns are attested in Byzantine sources, though the specific chronology is sometimes uncertain. The campaigns are generally dated to his reign (867\u2013886) rather than to specific years.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The significance of 874 CE as a turning point in Chinese history is sometimes overstated. While the Huang Chao Rebellion began in 874, the Tang Dynasty's decline was gradual, and the rebellion itself, though destructive, did not immediately topple the dynasty. Some modern scholarship emphasises that regional fragmentation and military autonomy had been developing for decades before 874. Additionally, the Fourth Council of Constantinople (869\u2013874 CE) is sometimes presented as a definitive resolution to the Photian Schism, but modern ecclesiastical historians note that it resolved little and that tensions persisted until the formal schism of 1054 CE. The council's authority itself is disputed: the Eastern Orthodox tradition counts it as the Eighth Ecumenical Council, while the Roman Catholic tradition does not recognise it as ecumenical.",
-  "historiographic_note": "Documentation for 874 CE is uneven. Western European sources (Frankish annals) are relatively rich but focus on political and military events affecting the Frankish kingdoms. Byzantine ecclesiastical sources are detailed regarding the council but reflect institutional perspectives. Chinese sources are abundant but were compiled centuries later and may reflect later interpretative frameworks. Sources for Viking activities are sparse and often retrospective. Sub-Saharan Africa, Southeast Asia, and the Americas have virtually no written documentation for this year; archaeological evidence exists but cannot be dated to annual precision. The historical record for 874 CE is shaped by the survival of institutional archives (churches, courts) and the interests of later chroniclers.",
+  "disconfirming_evidence": "The Viking siege of Paris is often dated to 874 in some modern accounts, but other sources place it in 885\u2013886. The confusion arises from the fact that multiple Viking sieges of Paris occurred during this period, and the chronicles sometimes conflate them. The attribution to Ragnar Lothbrok is legendary and has no basis in contemporary sources; it derives from later Norse sagas and is not historically reliable.",
+  "historiographic_note": "Documentation for 874 is moderate in Western Europe, with the Annales Bertiniani providing the primary source. However, the sources are heavily weighted toward political and military events. The dating of specific events (particularly the Viking siege of Paris) is contested among modern scholars. Non-European regions have sparser documentation for this specific year.",
   "graph_edges": [
     {
-      "from": "874-001",
-      "to": "930-ALTHING_ESTABLISHMENT",
-      "relation": "led_to",
-      "note": "Norse settlement of Iceland in the 870s\u2013880s led to the establishment of the Althing (parliament) in 930 CE"
-    },
-    {
-      "from": "874-003",
-      "to": "884-HUANG_CHAO_REBELLION_PEAK",
-      "relation": "led_to",
-      "note": "The beginning of the Huang Chao Rebellion in 874 led to its escalation and peak in the 880s"
-    },
-    {
       "from": "874-002",
-      "to": "1054-EAST_WEST_SCHISM",
-      "relation": "led_to",
-      "note": "Unresolved tensions from the Photian Schism and the Fourth Council of Constantinople contributed to the formal East-West Schism of 1054 CE"
-    },
-    {
-      "from": "874-004",
-      "to": "911-TREATY_OF_SAINT_CLAIR_SUR_EPTE",
-      "relation": "led_to",
-      "note": "Sustained Viking pressure on the West Frankish Kingdom, including raids in 874, eventually led to the establishment of Normandy through the Treaty of Saint-Clair-sur-Epte (911 CE)"
+      "to": "885-001",
+      "relation": "part_of",
+      "note": "The Viking siege of Paris in 874 (or possibly 885\u2013886) was part of a series of major Viking attacks on the city during this period."
     }
   ]
 }

@@ -1,162 +1,109 @@
 {
   "year": 876,
   "year_label": "876 CE",
-  "era_context": "The late 9th century was characterized by the fragmentation of the Carolingian Empire, the height of the Viking Age, the decline of the Tang Dynasty in China (Huang Chao Rebellion ongoing), and the consolidation of the Byzantine Macedonian Renaissance. The Islamic Abbasid Caliphate was fragmenting into regional dynasties. This was a period of significant political instability and military conflict across Eurasia.",
+  "era_context": "The Carolingian Empire has fragmented following the Treaty of Verdun (843 CE). Western Europe is divided among the successors of Louis the Pious, with the Kingdom of the West Franks (France), East Franks (Germany), and Lotharingia competing for dominance. The Byzantine Empire under the Macedonian Renaissance is experiencing cultural and military revival. The Islamic Abbasid Caliphate is in decline, with regional dynasties asserting autonomy. Viking raids continue to destabilize Western Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written sources)",
-    "Southeast Asia (sparse documentation)",
-    "Pre-Columbian Americas (no written records)",
-    "Central Asia and the Steppe (limited sources)"
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia interior regions beyond major dynasties",
+    "Oceania and Pacific islands"
   ],
   "events": [
     {
       "id": "876-001",
-      "title": "Treaty of Verdun Aftermath: Division of the Middle Kingdom",
-      "region": "Frankish Empire (modern France, Germany, Low Countries)",
-      "coordinates_approx": "50.0, 8.0",
+      "title": "Death of Louis the German; Division of East Frankish Kingdom",
+      "region": "East Frankish Kingdom (modern Germany, Austria, Bohemia)",
+      "coordinates_approx": "50.0, 10.0",
       "category": "political",
-      "description": "In 876, following the death of Louis the German in 876, his kingdom was divided among his three sons (Charles the Fat, Louis the Younger, and Carloman), further fragmenting the already-divided Carolingian Empire. This division was formalized in the Treaty of Verdun (843) and its subsequent modifications. The fragmentation of the Frankish Empire into multiple competing kingdoms weakened central authority and made the empire increasingly vulnerable to external threats, particularly Viking raids. The division also set the stage for the eventual emergence of distinct European kingdoms (France, Germany, Italy).",
+      "description": "Louis the German, king of the East Franks since 843, died in 876. His kingdom was divided among his three sons: Carloman received Bavaria and Alemannia, Louis the Younger received Saxony and the lands east of the Rhine, and Charles the Fat received Alemannia and parts of Burgundy. This fragmentation weakened East Frankish unity and created internal rivalries that would persist for decades. The division reflected the Carolingian custom of partible inheritance and set the stage for the eventual reunification under Charles the Fat in 884.",
       "key_figures": [
-        "Louis the German (East Frankish King, d. 876)",
-        "Charles the Fat (successor, r. 876\u2013888)",
-        "Louis the Younger (successor, r. 876\u2013882)",
-        "Carloman (successor, r. 876\u2013880)"
+        "Louis the German (deceased king)",
+        "Carloman (son, Bavaria and Alemannia)",
+        "Louis the Younger (son, Saxony)",
+        "Charles the Fat (son, Alemannia and Burgundy)"
       ],
       "sources": [
         {
-          "name": "Annales Fuldenses, contemporary chronicle",
+          "name": "Annales Bertiniani (Annals of St. Bertin)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Regino of Pr\u00fcm, Chronicon, compiled early 10th century",
-          "type": "later_compilation",
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The death of Louis the German in 876 and the division of his kingdom are well-documented in contemporary Frankish annals.",
+      "certainty_note": "Contemporary chronicle sources confirm the death and division. The date 876 is well-established in Carolingian records.",
       "cross_references": [
-        "Follows from 843-001 (Treaty of Verdun)",
-        "Led to 878-002 (Treaty of Meersen)"
+        "843-001 (Treaty of Verdun, initial division)",
+        "884-001 (Charles the Fat's reunification)"
       ]
     },
     {
       "id": "876-002",
-      "title": "Huang Chao Rebellion: Continued Devastation",
-      "region": "China (Tang Dynasty)",
-      "coordinates_approx": "35.0, 110.0",
+      "title": "Viking Raid on Melun and Seine Valley",
+      "region": "West Frankish Kingdom (modern France)",
+      "coordinates_approx": "48.5, 2.7",
       "category": "military",
-      "description": "The Huang Chao Rebellion, which had begun in 875, continued to devastate northern and central China in 876. The rebellion had evolved from a localized uprising into a full-scale civil war that was destroying the economic and administrative infrastructure of the Tang Dynasty. Contemporary sources report widespread famine, displacement, and casualties. The rebellion was attracting hundreds of thousands of followers, including peasants, bandits, and disaffected soldiers. The Tang Dynasty's ability to suppress the rebellion was severely compromised by the loss of tax revenue and military resources.",
+      "description": "Viking raiders, likely operating from bases in the Seine estuary, conducted raids deep into the West Frankish heartland, targeting Melun and surrounding settlements. These raids were part of the sustained Viking pressure on the West Franks during the reign of Charles the Bald. The raids prompted fortification efforts and the negotiation of tribute payments (Danegeld-style arrangements) to secure temporary peace. Such raids contributed to the militarization of Frankish society and the rise of local strongmen.",
       "key_figures": [
-        "Huang Chao (rebel leader)",
-        "Emperor Xizong of Tang (reigning emperor)"
+        "Charles the Bald (West Frankish king)",
+        "Viking raiders (unnamed)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian by Sima Guang, compiled 11th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Jiu Tangshu, compiled 10th century",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Annales Bertiniani",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The continuation of the Huang Chao Rebellion in 876 is well-attested in Chinese historical sources.",
-      "cross_references": [
-        "Part of 875-001 (Huang Chao Rebellion, 875\u2013884)",
-        "Led to 879-001 (sack of Chang'an in 879)"
-      ]
+      "certainty": "probable",
+      "certainty_note": "Chronicles record Viking activity in this region during this period, though specific details of individual raids are sometimes conflated or dated approximately.",
+      "cross_references": []
     },
     {
       "id": "876-003",
-      "title": "Viking Raids on the English Coast",
-      "region": "Anglo-Saxon England",
-      "coordinates_approx": "52.0, -2.0",
+      "title": "Basil I Consolidates Byzantine Military Reforms",
+      "region": "Byzantine Empire (Eastern Mediterranean, Balkans, Anatolia)",
+      "coordinates_approx": "41.0, 29.0",
       "category": "military",
-      "description": "Viking forces continued to raid the English coast in 876, as part of the sustained Viking pressure on Britain and Western Europe. The Vikings had established semi-permanent bases in England and were conducting raids and settlement activities. These raids prompted the development of defensive strategies and the payment of tribute (Danegeld) by English rulers. The Viking presence in England would eventually lead to the establishment of the Danelaw (the region of England under Viking control) and the subsequent conflicts between Anglo-Saxon and Viking kingdoms.",
+      "description": "Basil I, the Macedonian emperor (r. 867\u2013886), continued his military reorganization of the Byzantine state, strengthening the thematic system and rebuilding the navy. By 876, Basil had secured the eastern frontier against Arab incursions and was preparing for campaigns in Italy and the Balkans. His reforms laid the foundation for the Byzantine military renaissance of the 10th century. The reorganization included improved recruitment, training, and the integration of foreign mercenaries.",
       "key_figures": [
-        "Unknown Viking leaders"
+        "Basil I (Byzantine emperor)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle, contemporary chronicle",
+          "name": "Theophanes Continuatus (continuation of Theophanes' chronicle)",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Asser, Life of King Alfred, compiled late 9th century",
-          "type": "later_compilation",
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Viking activity in England in 876 is documented in the Anglo-Saxon Chronicle, though the specific details and dating of individual raids are sometimes uncertain.",
-      "cross_references": [
-        "Part of broader Viking Age expansion",
-        "Related to 878-003 (Viking siege of Paris)"
-      ]
-    },
-    {
-      "id": "876-004",
-      "title": "Byzantine Military Consolidation under Basil I",
-      "region": "Byzantine Empire",
-      "coordinates_approx": "41.0, 28.0",
-      "category": "military",
-      "description": "Under the Macedonian Renaissance, Byzantine Emperor Basil I (r. 867\u2013886) continued to consolidate military power and conduct campaigns to reclaim lost territories. In 876, Byzantine forces were engaged in operations against Arab raiders in the Mediterranean and in southern Italy. These campaigns were part of a broader Byzantine strategy to reassert control over the Mediterranean and suppress piracy and Arab raids. The Macedonian Renaissance was characterized by military expansion, administrative reform, and cultural revival.",
-      "key_figures": [
-        "Basil I (Byzantine Emperor, r. 867\u2013886)"
-      ],
-      "sources": [
-        {
-          "name": "Theophanes Continuatus, chronicle compiled 10th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Constantine VII Porphyrogennetos, De Administrando Imperio, compiled 10th century",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "Byzantine military activity under Basil I during the 870s\u2013880s is documented, but specific campaigns are often dated to broader periods rather than individual years.",
-      "cross_references": [
-        "Part of Macedonian Renaissance (c. 867\u20131025)",
-        "Related to 877-004 (Byzantine recapture of Bari)"
-      ]
+      "certainty_note": "Basil's military reforms are well-documented in Byzantine sources, though the precise chronology of individual initiatives is sometimes uncertain. The reforms are generally dated to his reign (867\u2013886) rather than to specific years.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The exact date of the division of Louis the German's kingdom has been debated by modern scholars; some sources place it in 875 or 877 rather than 876. The significance of the division in terms of long-term political development has been questioned by modern historians, who argue that the fragmentation process was more gradual and complex than traditional narratives suggest. The scale of the Huang Chao Rebellion's devastation is difficult to verify from contemporary sources, and later chronicles may have exaggerated the numbers.",
-  "historiographic_note": "Documentation for 876 is again heavily weighted toward East Asia (China) and Western Europe (Frankish Empire and Anglo-Saxon England). The sources are primarily monastic chronicles and later compilations. The Byzantine Empire is documented through later compilations. Sub-Saharan Africa, Southeast Asia, and the Islamic world are poorly documented for this specific year. Bias toward court-sponsored narratives and the perspectives of the elite means that the experiences of common people, merchants, and non-elite groups are largely absent.",
+  "disconfirming_evidence": "The significance of the 876 division of the East Frankish Kingdom is sometimes overstated in older historiography as a 'permanent' fragmentation. Modern scholarship emphasizes that Carolingian partible inheritance was customary and that the reunification under Charles the Fat (884) was not anomalous. The 'fragmentation' narrative reflects later nationalist historiography more than contemporary political reality.",
+  "historiographic_note": "Documentation for 876 is strong in Western Europe, particularly for the Frankish kingdoms, thanks to the Annales Bertiniani and related chronicles. Byzantine sources are also relatively rich. However, sources are heavily weighted toward political and military events affecting the elite. Economic, social, and cultural history is poorly documented. Non-European regions (Islamic world, Asia, Africa) have sparser contemporary documentation for this specific year.",
   "graph_edges": [
     {
       "from": "876-001",
-      "to": "843-001",
-      "relation": "caused_by",
-      "note": "The division of Louis the German's kingdom in 876 was a consequence of the fragmentation process that began with the Treaty of Verdun in 843"
-    },
-    {
-      "from": "876-001",
-      "to": "878-002",
+      "to": "884-001",
       "relation": "led_to",
-      "note": "The division of Louis the German's kingdom in 876 led to further divisions formalized in the Treaty of Meersen in 878"
+      "note": "The division of Louis the German's kingdom set the stage for the eventual reunification under Charles the Fat."
     },
     {
       "from": "876-002",
-      "to": "875-001",
-      "relation": "part_of",
-      "note": "The continuation of the Huang Chao Rebellion in 876 is part of the broader rebellion that lasted from 875\u2013884"
-    },
-    {
-      "from": "876-003",
-      "to": "876-001",
+      "to": "876-003",
       "relation": "contemporary_with",
-      "note": "Viking raids on England occurred simultaneously with the Frankish political divisions"
+      "note": "Both represent military pressures on the Frankish and Byzantine worlds in the same period."
     }
   ]
 }

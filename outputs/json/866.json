@@ -1,162 +1,134 @@
 {
   "year": 866,
   "year_label": "866 CE",
-  "era_context": "The mid-9th century CE continues with the Abbasid Caliphate in severe internal crisis, the Byzantine Empire under Michael III's final years (before Basil I's accession in 867), the Tang Dynasty in its final decades in China, and the Viking Age at its height. This is a period of significant political fragmentation and military competition across Eurasia.",
+  "era_context": "The mid-9th century CE saw the fragmentation of the Carolingian Empire following the Treaty of Verdun (843), with the rise of independent kingdoms in Western Europe, the Byzantine Empire's military resurgence under the Macedonian Renaissance, the expansion of the Abbasid Caliphate's cultural and scientific influence, and the consolidation of Viking settlements in the North Atlantic and Eastern Europe. In East Asia, the Tang Dynasty was in terminal decline, with regional warlords fragmenting imperial authority.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored)",
     "Southeast Asia (sparse contemporary documentation)",
-    "Pre-Columbian Americas (no written records)",
-    "Central Asia (limited sources beyond Islamic tradition)"
+    "Pre-Columbian Americas (no written records; archaeological dating uncertain)"
   ],
   "events": [
     {
       "id": "866-001",
-      "title": "Anarchy at Samarra continues with military factionalism",
-      "region": "Abbasid Caliphate, Samarra and Baghdad",
-      "coordinates_approx": "34.2\u00b0N, 43.9\u00b0E",
-      "category": "political",
-      "description": "The internal conflict within the Abbasid Caliphate continued in 866, with Turkish military factions (Mamluks) dominating the caliph and the state apparatus. The Anarchy at Samarra, which had begun around 861, saw rival commanders competing for supremacy. The caliph al-Musta'in was increasingly a puppet of military strongmen. This period saw the effective collapse of centralized caliphal authority and the emergence of regional governors as independent powers. The chaos weakened the caliphate's military capacity and accelerated the fragmentation of the Islamic world into regional powers.",
+      "title": "Viking conquest of York (Jorvik)",
+      "region": "Northumbria, England",
+      "coordinates_approx": "53.96, -1.08",
+      "category": "military",
+      "description": "A Viking force led by Ragnar Lothbrok's sons (according to legend) or more reliably by a coalition of Norse raiders captured York from the Northumbrian kingdom. This marked the beginning of the Danelaw period and represented a major shift in Viking strategy from raiding to settlement and conquest. The city became a major Viking trading center and administrative hub, fundamentally altering the political geography of England.",
       "key_figures": [
-        "Al-Musta'in (Abbasid Caliph)",
-        "Wasif (Turkish military commander)",
-        "Bugha al-Kabir (Turkish military commander)"
+        "Ragnar Lothbrok (legendary/semi-legendary leader)",
+        "Aelle of Northumbria (Northumbrian king)"
       ],
       "sources": [
         {
-          "name": "Al-Tabari, History of the Prophets and Kings",
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ragnar's Saga (Icelandic saga)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "later_compilation",
+          "name": "Archaeological evidence from Jorvik excavations",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Anarchy at Samarra is well-documented as a continuous crisis spanning multiple years (c. 861\u2013870). The year 866 falls within this documented period.",
+      "certainty": "probable",
+      "certainty_note": "The conquest itself is well-attested in the Anglo-Saxon Chronicle, though the specific date of 866 is conventional; some sources place it in 867. The legendary attribution to Ragnar Lothbrok is not contemporary and likely conflates multiple raids.",
       "cross_references": [
-        "867-002",
-        "868-004",
-        "869-004"
+        "867-001 (continued Viking expansion)",
+        "878-001 (Treaty of Wedmore, consolidation of Danelaw)"
       ]
     },
     {
       "id": "866-002",
-      "title": "Rus' attack on Constantinople",
-      "region": "Byzantine Empire, Constantinople",
-      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
+      "title": "Basil I's military campaigns in the Balkans",
+      "region": "Byzantine Empire, Balkans",
+      "coordinates_approx": "41.0, 25.0",
       "category": "military",
-      "description": "A Rus' (Viking) fleet attacked Constantinople, the capital of the Byzantine Empire. The attack was repelled by the Byzantine navy and military forces. This raid demonstrated the reach of Rus' power and the vulnerability of even the greatest cities of the medieval world. The attack prompted Byzantine military reforms and increased attention to naval defense. This raid is one of the earliest recorded Rus' attacks on Constantinople and contributed to the eventual establishment of Rus' mercenary forces in Byzantine service. The attack also prompted increased Byzantine diplomatic engagement with the Rus' principalities.",
+      "description": "Emperor Basil I (r. 867\u2013886) initiated a series of military campaigns to restore Byzantine control over the Balkans and suppress Slavic and Bulgarian incursions. These campaigns were part of the broader Macedonian Renaissance, a period of Byzantine military and cultural revival. Basil's campaigns laid the groundwork for Byzantine dominance in the region for the next century.",
       "key_figures": [
-        "Michael III (Byzantine Emperor)",
-        "Rus' commanders (names not recorded in Byzantine sources)"
+        "Basil I (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Theophanes Continuatus, Chronicle",
-          "type": "later_compilation",
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Byzantine imperial records",
+          "name": "De Administrando Imperio (Constantine VII)",
           "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Russian Primary Chronicle (Povest' vremennykh let)",
-          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Rus' attack on Constantinople is recorded in Byzantine and later Russian sources, but the exact year is uncertain. Some sources place it in 860, 865, 866, or 867. The year 860 is often cited as the date of a major Rus' attack, but the chronology of multiple raids is unclear.",
-      "cross_references": []
-    },
-    {
-      "id": "866-003",
-      "title": "Continued fragmentation of the Abbasid Caliphate",
-      "region": "Abbasid Caliphate, various regions",
-      "coordinates_approx": null,
-      "category": "political",
-      "description": "The Abbasid Caliphate continued to fragment in 866, with regional governors and military strongmen establishing de facto autonomy. Ahmad ibn Tulun was consolidating power in Egypt, the Aghlabids controlled North Africa and Sicily, and various Turkish military commanders competed for control of the central caliphate. This period saw the effective end of unified caliphal authority and the emergence of a multipolar Islamic world. The fragmentation was driven by the Anarchy at Samarra, which prevented the central government from maintaining control over distant provinces.",
-      "key_figures": [
-        "Al-Musta'in (Abbasid Caliph)",
-        "Ahmad ibn Tulun (governor of Egypt)",
-        "Aghlabid rulers (North Africa and Sicily)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Tabari, History of the Prophets and Kings",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Regional chronicles and administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The fragmentation of the Abbasid Caliphate is well-documented in multiple sources. The year 866 falls within the documented period of rapid devolution of central authority.",
+      "certainty_note": "Basil I's reign and military activities are well-documented in Byzantine sources, though specific campaign dates are sometimes approximate. The year 866 falls within his early reign (he became co-emperor in 867, sole emperor in 886).",
       "cross_references": [
-        "866-001"
+        "867-002 (Basil I becomes sole emperor)"
       ]
     },
     {
-      "id": "866-004",
-      "title": "Byzantine military campaign in Anatolia",
-      "region": "Byzantine Empire, Anatolia",
-      "coordinates_approx": "39.0\u00b0N, 35.0\u00b0E",
-      "category": "military",
-      "description": "The Byzantine Empire under Michael III conducted military campaigns in Anatolia against Arab raiders and the Paulician heresy. These campaigns were part of a broader effort to strengthen Byzantine control of Anatolia and suppress religious dissent. The campaigns had mixed success, with some territorial gains but also significant losses to Arab raids. This represents the continuation of Byzantine military efforts to maintain control of Anatolia during a period of relative weakness.",
+      "id": "866-003",
+      "title": "Photian Schism tensions in the Byzantine Church",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "religious",
+      "description": "The dispute between Patriarch Photius and Pope Nicholas I over ecclesiastical authority and the Filioque controversy continued to escalate. Photius had been deposed and exiled, but his supporters remained influential. This period saw the deepening of East-West Christian divisions that would culminate in the Great Schism of 1054. The conflict involved questions of papal authority, monastic reform, and theological interpretation.",
       "key_figures": [
-        "Michael III (Byzantine Emperor)",
-        "Basil (military commander, later Emperor Basil I)"
+        "Photius (Patriarch of Constantinople)",
+        "Pope Nicholas I",
+        "Michael III (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Theophanes Continuatus, Chronicle",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine imperial records",
+          "name": "Photius's letters and theological writings",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes Continuatus",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Byzantine military campaigns in Anatolia during this period are documented, but the exact chronology of individual campaigns is uncertain. The year 866 is one of several plausible dates for major operations.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The Photian Schism is extensively documented in contemporary ecclesiastical correspondence and later Byzantine chronicles. The year 866 falls within the active phase of the dispute.",
+      "cross_references": [
+        "858-001 (Photius becomes patriarch)",
+        "867-003 (Photius's deposition)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The date of the Rus' attack on Constantinople is highly disputed. The famous attack of 860 is well-documented, but later raids in 866, 867, or other years may be confused with this earlier attack or may be legendary. Some scholars argue that the Rus' attacks on Constantinople were less frequent and less significant than later sources suggest. The Byzantine military campaigns in Anatolia are poorly documented for specific years; the chronology of individual campaigns is uncertain.",
-  "historiographic_note": "Documentation for 866 CE is moderate but uneven. Arab sources on the Anarchy at Samarra and the fragmentation of the caliphate are relatively abundant but written much later. Byzantine sources are less detailed for this period. The Rus' attack on Constantinople is known primarily through later sources and may be confused with other raids. There is a strong bias toward political and military history; economic and social developments are underrepresented. The survival of sources is uneven, with Arab and Byzantine sources better preserved than others.",
+  "disconfirming_evidence": "The traditional narrative of Ragnar Lothbrok leading the conquest of York is heavily disputed by modern scholarship. Most historians now view Ragnar as a legendary or semi-legendary figure whose exploits may conflate multiple Viking leaders and raids across several decades. The actual leadership and composition of the Viking force that took York in 866\u2013867 remains uncertain. Additionally, some scholars argue the date of the conquest may be 867 rather than 866, based on discrepancies in the Anglo-Saxon Chronicle's chronology.",
+  "historiographic_note": "The historical record for 866 CE is moderately rich for Western Europe and the Byzantine Empire, drawing on contemporary chronicles and later compilations. However, the sources are often court-sponsored or ecclesiastically biased, emphasizing political and religious events while underrepresenting economic, social, and cultural developments. Viking sources are primarily later Icelandic sagas, which blend historical fact with legend. For regions outside Europe and the Mediterranean, documentation is sparse or absent.",
   "graph_edges": [
     {
       "from": "866-001",
-      "to": "866-003",
+      "to": "867-001",
       "relation": "led_to",
-      "note": "The Anarchy at Samarra directly caused the fragmentation of the Abbasid Caliphate"
-    },
-    {
-      "from": "866-001",
-      "to": "867-002",
-      "relation": "led_to",
-      "note": "Continuation of the Anarchy at Samarra into 867"
+      "note": "The conquest of York initiated the Viking settlement phase in England, leading to the establishment of the Danelaw."
     },
     {
       "from": "866-002",
-      "to": "866-004",
-      "relation": "contemporary_with",
-      "note": "Both represent Byzantine military challenges in the same year"
+      "to": "867-002",
+      "relation": "part_of",
+      "note": "Basil I's military campaigns were part of his broader program of imperial restoration after becoming sole emperor."
+    },
+    {
+      "from": "866-003",
+      "to": "1054-001",
+      "relation": "led_to",
+      "note": "The Photian Schism and related East-West ecclesiastical tensions contributed to the Great Schism of 1054."
     }
   ]
 }

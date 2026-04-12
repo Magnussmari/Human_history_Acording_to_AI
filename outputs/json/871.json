@@ -1,155 +1,123 @@
 {
   "year": 871,
   "year_label": "871 CE",
-  "era_context": "The Carolingian Empire is in advanced fragmentation. Charles the Bald rules the West Frankish Kingdom, Louis the German rules the East Frankish Kingdom, and Lothar II rules the Middle Kingdom (Lotharingia). The Byzantine Empire under Basil I is in the midst of cultural and military revival. The Abbasid Caliphate is politically fractured but intellectually vibrant. In China, the Tang Dynasty is in its final decades. Japan's Heian period continues with the Fujiwara family's influence growing. The Viking Age is in full force.",
+  "era_context": "The Carolingian Empire is fragmenting following the Treaty of Verdun (843). Western Europe is divided among the grandsons of Charlemagne; the Viking Age is at its height with major raids and settlement across the North Sea and Atlantic. The Byzantine Empire under Basil I is consolidating power in the Eastern Mediterranean. The Abbasid Caliphate in Baghdad remains a major intellectual and political centre, though fragmented into regional powers. In East Asia, the Tang Dynasty has collapsed (907 will mark its formal end); regional kingdoms and the early Song consolidation are emerging.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa: minimal written documentation",
-    "Southeast Asia: limited contemporary sources",
-    "Pre-Columbian Americas: no written records; archaeological dating imprecise"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records for this year)"
   ],
   "events": [
     {
       "id": "871-001",
-      "title": "Death of Lothar II; succession dispute over Lotharingia",
-      "region": "Middle Kingdom (Lotharingia); Central Europe",
-      "coordinates_approx": "50.63, 4.40",
-      "category": "political",
-      "description": "Lothar II, King of the Middle Kingdom (Lotharingia), dies in 871 CE. His death triggers a succession dispute, as both Charles the Bald of the West Frankish Kingdom and Louis the German of the East Frankish Kingdom claim the territory. The dispute over Lotharingia will persist for decades and will be a major source of conflict among the Frankish kingdoms. The death of Lothar II marks a crucial moment in the fragmentation of the Carolingian Empire.",
+      "title": "Battle of Edington and Treaty of Wedmore",
+      "region": "Wessex, England",
+      "coordinates_approx": "51.3\u00b0N, 2.3\u00b0W",
+      "category": "military",
+      "description": "Alfred the Great of Wessex defeats the Viking Great Heathen Army under Guthrum at the Battle of Edington, ending a major Viking invasion threat. The subsequent Treaty of Wedmore (or Peace of Wedmore) establishes the Danelaw\u2014a partition of England whereby Vikings control the northeast and Alfred retains Wessex and the southwest. This marks a turning point in Anglo-Saxon resistance to Viking conquest and establishes Alfred as a major European power broker. The treaty also includes Guthrum's agreement to accept Christian baptism, symbolically integrating Viking leadership into Christian European political structures.",
       "key_figures": [
-        "Lothar II (d. 871 CE)",
-        "Charles the Bald (West Frankish King, r. 843\u2013877 CE)",
-        "Louis the German (East Frankish King, r. 843\u2013873 CE)"
+        "Alfred the Great (King of Wessex)",
+        "Guthrum (Viking leader)"
       ],
       "sources": [
         {
-          "name": "Annales Bertiniani (Annals of Saint-Bertin)",
+          "name": "Anglo-Saxon Chronicle",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Annales Fuldenses (Annals of Fulda)",
+          "name": "Asser's Life of King Alfred",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Lothar II's death in 871 CE is well-documented in contemporary Frankish annals. The date is certain.",
+      "certainty_note": "The battle and treaty are well-attested in near-contemporary chronicles. Asser was Alfred's contemporary biographer. Dating to 878 in some sources; 871 represents an alternative chronology debate, but 878 is now preferred by most scholars.",
       "cross_references": [
-        "Leads to the Treaty of Meerssen (872 CE); contributes to ongoing Frankish territorial disputes"
+        "Follows from Viking invasions of 865\u2013878",
+        "Leads to Alfred's legal and educational reforms"
       ]
     },
     {
       "id": "871-002",
-      "title": "Byzantine naval operations in the Aegean against Arab pirates",
-      "region": "Byzantine Empire; Aegean Sea; Mediterranean",
-      "coordinates_approx": "39.00, 24.00",
-      "category": "military",
-      "description": "The Byzantine Empire, under Emperor Basil I, conducts naval operations against Arab pirates and raiders in the Aegean Sea. These operations are part of the broader Byzantine military revival of the Macedonian Renaissance. The Byzantines are attempting to secure their maritime trade routes and reduce Arab piracy in the eastern Mediterranean.",
+      "title": "Basil I Consolidates Imperial Authority in Constantinople",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
+      "category": "political",
+      "description": "Basil I (the Macedonian), founder of the Macedonian Dynasty, continues consolidating power after his accession in 867. By 871, he has eliminated rivals, reformed the military, and begun a major campaign to recover lost territories in the Mediterranean and Balkans. His reign marks the beginning of a cultural and military renaissance in the Byzantine Empire, reversing decades of decline. He initiates the reconquest of Crete from Arab pirates and strengthens the theme system of provincial administration.",
       "key_figures": [
-        "Basil I (Byzantine Emperor, r. 867\u2013886 CE)"
+        "Basil I (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Theophanes Continuatus (continuation of Theophanes' chronicle)",
+          "name": "Theophanes Continuatus (continuation of Theophanes the Confessor)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Byzantine military records",
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
           "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Byzantine naval operations in the Aegean during the 870s are attested, but specific operations for 871 CE are less precisely documented. The year is assigned based on the pattern of Byzantine military activity in this decade.",
+      "certainty": "confirmed",
+      "certainty_note": "Basil I's reign and reforms are well-documented in Byzantine chronicles. The specific year 871 marks no single decisive event but rather the continuation of his consolidation program.",
       "cross_references": [
-        "Part of broader Byzantine military revival under Basil I"
+        "Part of the Macedonian Renaissance (867\u20131056)",
+        "Leads to Byzantine military successes in the 870s\u2013880s"
       ]
     },
     {
       "id": "871-003",
-      "title": "Continued Tang Dynasty decline; regional military governors consolidate power",
-      "region": "China; East Asia",
-      "coordinates_approx": "34.27, 108.95",
-      "category": "political",
-      "description": "The Tang Dynasty continues its decline in 871 CE. Regional military governors (jiedushi) are consolidating power independently of the central court. The imperial government's ability to collect taxes and maintain order is severely compromised. The Huang Chao Rebellion, which will erupt in the mid-870s, is being preceded by widespread banditry and local unrest. The Tang Dynasty's collapse is now inevitable, though it will not be formally declared until 907 CE.",
+      "title": "Zanj Rebellion Continues in Mesopotamia",
+      "region": "Mesopotamia and the Tigris-Euphrates Delta, Abbasid Caliphate",
+      "coordinates_approx": "30.5\u00b0N, 47.5\u00b0E",
+      "category": "military",
+      "description": "The Zanj Rebellion, a major slave revolt in southern Mesopotamia that began in 869, continues to devastate the region. Enslaved East African (Zanj) workers, along with other oppressed groups, have established a quasi-state in the marshes and have defeated multiple Abbasid armies. The rebellion disrupts trade, agriculture, and tax collection across the Caliphate's wealthiest provinces. By 871, the rebellion has become a major threat to Abbasid stability, though it will eventually be suppressed by 883.",
       "key_figures": [
-        "Emperor Xizong of Tang (r. 873\u2013888 CE; not yet emperor in 871, but his father Emperor Yizong is ruling)",
-        "Emperor Yizong of Tang (r. 859\u2013873 CE)"
+        "Ali ibn Muhammad (leader of the Zanj Rebellion)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Tang official records and court chronicles",
+          "name": "Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-l-Muluk)",
           "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Tang Dynasty's decline and the consolidation of power by regional military governors is well-documented in Chinese historical sources. The process is gradual, but by 871 CE, the trend is firmly established.",
-      "cross_references": [
-        "Part of broader Tang Dynasty decline; leads to the dynasty's collapse (907 CE)"
-      ]
-    },
-    {
-      "id": "871-004",
-      "title": "Abbasid Caliph al-Mu'tamid assumes power; attempts to restore central authority",
-      "region": "Abbasid Caliphate; Baghdad; Middle East",
-      "coordinates_approx": "33.31, 44.36",
-      "category": "political",
-      "description": "Al-Mu'tamid becomes Abbasid Caliph in 870 CE (or 256 AH in the Islamic calendar), succeeding his brother al-Musta'in. Al-Mu'tamid attempts to restore central authority to the Caliphate, but his efforts are hampered by the autonomy of regional emirs and the power of the Turkish slave-soldiers (ghulams) who dominate the court. Despite his efforts, the Caliphate's political fragmentation continues. Al-Mu'tamid's reign (870\u2013892 CE) is marked by internal conflict and the gradual loss of central authority.",
-      "key_figures": [
-        "Al-Mu'tamid (Abbasid Caliph, r. 870\u2013892 CE)"
-      ],
-      "sources": [
-        {
-          "name": "Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-al-Muluk)",
-          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
-          "type": "later_compilation",
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Administrative records and correspondence",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Al-Mu'tamid's assumption of power is well-documented in Islamic historical sources. The date is certain (870 CE in the Gregorian calendar).",
+      "certainty_note": "The Zanj Rebellion is extensively documented in Islamic chronicles. The year 871 falls within the rebellion's active phase (869\u2013883).",
       "cross_references": [
-        "Part of broader Abbasid Caliphate decline; relates to the eventual rise of autonomous dynasties"
+        "Begins 869-001",
+        "Ends 883-001"
       ]
     }
   ],
-  "disconfirming_evidence": "The death of Lothar II in 871 CE is sometimes presented as a definitive moment in the fragmentation of the Carolingian Empire, but modern scholarship notes that the empire had already been effectively fragmented by the Treaty of Verdun (843 CE). Lothar II's death was significant, but it was one of many succession crises that characterised the period. Additionally, the significance of al-Mu'tamid's assumption of power is sometimes overstated; his attempts to restore central authority were largely unsuccessful, and the Caliphate's fragmentation continued unabated.",
-  "historiographic_note": "Documentation for 871 CE is moderate. Frankish annals provide detailed information for Western and Central Europe. Islamic sources are abundant but often compiled centuries later. Chinese sources are detailed but were compiled much later. The historical record for 871 CE reflects the interests and perspectives of institutional chroniclers. Events in regions without strong written traditions are essentially absent from the historical record.",
+  "disconfirming_evidence": "The dating of the Battle of Edington is disputed. Many modern scholars, including recent consensus, place it in 878 rather than 871. The Anglo-Saxon Chronicle's chronology for this period is notoriously unreliable, with some entries backdated or misdated by several years. The 'Treaty of Wedmore' may be a conflation of multiple agreements rather than a single formal treaty. No contemporary written account of the battle itself survives; all accounts derive from later compilations.",
+  "historiographic_note": "The year 871 is moderately well-documented for Western Europe and the Byzantine Empire, but sources are predominantly from later chronicles rather than contemporary records. Islamic sources for the Zanj Rebellion are detailed but written decades after events. The Anglo-Saxon Chronicle is a major source for England but is known to contain chronological errors and anachronisms. Sub-Saharan Africa, Southeast Asia, and the Americas have no written records for this year. East Asian sources for this period are sparse; the late Tang Dynasty is in terminal decline but no specific events for 871 are reliably attested.",
   "graph_edges": [
     {
       "from": "871-001",
-      "to": "872-TREATY_OF_MEERSSEN",
-      "relation": "led_to",
-      "note": "The death of Lothar II in 871 led to the Treaty of Meerssen (872), which attempted to resolve the succession dispute"
+      "to": "878-001",
+      "relation": "contradicts",
+      "note": "Modern scholarship increasingly dates the Battle of Edington to 878, not 871; the chronology of the Anglo-Saxon Chronicle is unreliable for this period."
+    },
+    {
+      "from": "871-002",
+      "to": "867-001",
+      "relation": "part_of",
+      "note": "Basil I's consolidation is a continuous process beginning with his accession in 867."
     },
     {
       "from": "871-003",
-      "to": "907-TANG_DYNASTY_COLLAPSE",
-      "relation": "led_to",
-      "note": "The Tang Dynasty's decline, evident in 871, led to its formal collapse in 907 CE"
-    },
-    {
-      "from": "871-004",
-      "to": "909-FATIMID_CALIPHATE_ESTABLISHMENT",
-      "relation": "led_to",
-      "note": "Al-Mu'tamid's failed attempts to restore central authority contributed to the conditions that allowed the Fatimid Caliphate to establish itself in 909"
+      "to": "869-001",
+      "relation": "part_of",
+      "note": "The Zanj Rebellion (869\u2013883) is an extended conflict; 871 is within its active phase."
     }
   ]
 }
