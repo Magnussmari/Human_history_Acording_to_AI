@@ -1,0 +1,114 @@
+{
+  "year": -1298,
+  "year_label": "1299 BCE",
+  "era_context": "Continuation of the Late Bronze Age. Egypt under Ramesses II remained the dominant Mediterranean power. The Hittite Empire was in its final century before the Bronze Age collapse. Mycenaean Greece continued its palatial civilisation. The Shang dynasty in China maintained its administrative and cultural systems. This was a period of relative stability before the systemic disruptions that would begin around 1200 BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia and the Steppe (limited written records; archaeological evidence exists but is sparse)"
+  ],
+  "events": [
+    {
+      "id": "-1298-001",
+      "title": "Ramesses II's continued reign and administrative consolidation",
+      "region": "Egypt and the Levant",
+      "coordinates_approx": "26.2\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses II (r. 1279\u20131213 BCE) was in the second decade of his reign, a period of consolidation and monumental building. He was establishing his authority over Egypt and the Levantine territories, constructing temples and administrative infrastructure. His reign was marked by extensive building projects, including work on the temples at Abu Simbel and Karnak. The year 1298 BCE falls within a period of relative peace following earlier military campaigns.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign is well-documented. The year 1298 BCE falls securely within his reign based on Egyptian chronology.",
+      "cross_references": [
+        "Part of broader Ramesside era"
+      ]
+    },
+    {
+      "id": "-1298-002",
+      "title": "Hittite Empire under Muwatalli II or successor",
+      "region": "Anatolia (Hittite heartland)",
+      "coordinates_approx": "39.0\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire in Anatolia was in its final century of independence. By 1298 BCE, the empire was ruled by a late New Kingdom Hittite monarch (possibly Muwatalli II, r. c. 1295\u20131272 BCE, or his successor). The Hittites maintained their administrative system, military strength, and diplomatic networks. However, internal pressures and external threats were beginning to mount, presaging the collapse that would occur around 1180 BCE.",
+      "key_figures": [
+        "Muwatalli II or contemporary Hittite king"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology is tied to Egyptian synchronisation. The reign of Muwatalli II is traditionally dated to c. 1295\u20131272 BCE, placing 1298 BCE within or near his reign, but exact year-by-year dating is uncertain.",
+      "cross_references": [
+        "Precedes Hittite collapse (c. 1180 BCE)"
+      ]
+    },
+    {
+      "id": "-1298-003",
+      "title": "Mycenaean trade and palace administration",
+      "region": "Greece and the Aegean",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean palace centres continued their role as administrative and economic hubs. Linear B tablets from this period (or shortly after) record the management of agricultural resources, textile production, and trade goods. The palaces at Pylos, Mycenae, and Tiryns coordinated the collection of tribute, the organisation of labour, and the distribution of goods. This period represents the height of Mycenaean palatial economic organisation before the disruptions of the Late Bronze Age collapse.",
+      "key_figures": [
+        "Mycenaean palace administrators (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets are contemporary evidence. The tablets are not precisely dated to individual years, but they are assigned to the Late Helladic IIIB phase (c. 1300\u20131190 BCE) based on archaeological stratigraphy.",
+      "cross_references": [
+        "Part of broader Mycenaean palatial economy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronological framework remains contested, as noted for 1299 BCE. The dating of Hittite kings and the synchronisation of Hittite and Egyptian chronologies involve scholarly debate.",
+  "historiographic_note": "The historical record for 1298 BCE is similar to that for 1299 BCE: well-documented for Egypt, the Hittite Empire, and Mycenaean Greece; sparse or absent for most other regions. The surviving sources are heavily weighted toward monumental and administrative records from literate civilisations. The 'history' of this year is thus a selective snapshot of a few interconnected Mediterranean and Near Eastern societies.",
+  "graph_edges": [
+    {
+      "from": "-1298-001",
+      "to": "-1298-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II and the Hittite ruler were contemporaries, engaged in diplomatic and military competition."
+    },
+    {
+      "from": "-1298-002",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Hittite Empire in this period eventually collapsed during the Late Bronze Age collapse."
+    }
+  ]
+}

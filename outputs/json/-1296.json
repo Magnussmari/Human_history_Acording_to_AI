@@ -1,0 +1,116 @@
+{
+  "year": -1296,
+  "year_label": "1297 BCE",
+  "era_context": "Late Bronze Age, a period of relative stability and prosperity for the major Mediterranean and Near Eastern civilisations. Egypt under Ramesses II was at the height of its power. The Hittite Empire remained a major force in Anatolia. Mycenaean Greece was flourishing. The Shang dynasty in China was in its final centuries. This era would be disrupted by the Late Bronze Age collapse beginning around 1200 BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia and the Steppe",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1296-001",
+      "title": "Egyptian-Hittite diplomatic relations",
+      "region": "Egypt and Anatolia",
+      "coordinates_approx": "35.0\u00b0N, 33.0\u00b0E",
+      "category": "political",
+      "description": "Ramesses II of Egypt and the Hittite ruler maintained diplomatic relations, including correspondence and possibly trade agreements. The famous Egyptian-Hittite peace treaty (often dated to 1259 BCE, though some scholars place related diplomatic activity earlier) was preceded by decades of military competition and negotiation. By 1297 BCE, both powers had recognised the mutual benefits of peaceful coexistence and trade. Diplomatic correspondence, attested in later records, suggests active communication between the two courts.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Hittite ruler (possibly Muwatalli II or his successor)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diplomatic relations between Egypt and the Hittite Empire are well-attested. The specific year 1297 BCE is assigned by convention within the broader period of Ramesses II's reign.",
+      "cross_references": [
+        "Precedes the formal Egyptian-Hittite peace treaty (traditionally dated to 1259 BCE)"
+      ]
+    },
+    {
+      "id": "-1296-002",
+      "title": "Shang dynasty bronze-working and ritual practices",
+      "region": "China (Central Plains)",
+      "coordinates_approx": "34.5\u00b0N, 114.5\u00b0E",
+      "category": "cultural",
+      "description": "The Shang dynasty maintained its sophisticated bronze-working technology and ritual practices. Bronze vessels, weapons, and ritual objects were produced in large quantities, serving both practical and ceremonial purposes. The Shang court conducted elaborate rituals, including ancestor veneration and divination, which were central to the legitimacy of the ruler. This period represents the height of Shang cultural and technological achievement.",
+      "key_figures": [
+        "Late Shang king and court"
+      ],
+      "sources": [
+        {
+          "name": "Bronze artefacts from Yinxu and other Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shang bronze-working and ritual practices are extensively documented in archaeological remains. The year 1297 BCE is assigned by convention within the late Shang period.",
+      "cross_references": [
+        "Part of broader Shang cultural and technological system"
+      ]
+    },
+    {
+      "id": "-1296-003",
+      "title": "Mycenaean pottery production and distribution",
+      "region": "Greece and the Mediterranean",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean pottery was produced in large quantities and distributed throughout the Mediterranean and Near East. Mycenaean pottery has been found in Egypt, the Levant, Anatolia, and Cyprus, indicating extensive trade networks. The production of pottery was a major economic activity, employing potters and supporting trade. This period represents the height of Mycenaean economic integration into the broader Mediterranean trade system.",
+      "key_figures": [
+        "Mycenaean potters and merchants (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery from excavations in Greece and the Mediterranean",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets recording pottery production",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean pottery is extensively documented in archaeological remains. The year 1297 BCE is assigned by convention within the Late Helladic IIIB phase.",
+      "cross_references": [
+        "Part of broader Mycenaean economic system"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The chronological framework remains subject to scholarly debate.",
+  "historiographic_note": "The historical record for 1297 BCE is similar to that for previous years in this batch: well-documented for Egypt, the Hittite Empire, and Mycenaean Greece; sparse or absent for most other regions. The surviving sources are heavily weighted toward monumental and administrative records from literate civilisations.",
+  "graph_edges": [
+    {
+      "from": "-1296-001",
+      "to": "-1259-001",
+      "relation": "led_to",
+      "note": "Diplomatic relations between Egypt and the Hittite Empire eventually led to the formal peace treaty."
+    },
+    {
+      "from": "-1296-002",
+      "to": "-1296-003",
+      "relation": "contemporary_with",
+      "note": "Shang bronze-working and Mycenaean pottery production were contemporary developments in different regions."
+    }
+  ]
+}

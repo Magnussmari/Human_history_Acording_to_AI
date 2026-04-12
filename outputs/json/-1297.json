@@ -1,0 +1,115 @@
+{
+  "year": -1297,
+  "year_label": "1298 BCE",
+  "era_context": "Late Bronze Age, continuing the period of interconnected Mediterranean and Near Eastern civilisations. Egypt under Ramesses II, the Hittite Empire, Mycenaean Greece, and the Shang dynasty in China were all at or near their peaks of power and cultural achievement. This was a period of relative stability and prosperity before the systemic disruptions that would begin around 1200 BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia and the Steppe",
+    "South Asia (limited written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1297-001",
+      "title": "Ramesses II's monumental building programme",
+      "region": "Egypt",
+      "coordinates_approx": "26.2\u00b0N, 32.6\u00b0E",
+      "category": "cultural",
+      "description": "Ramesses II was in the midst of an ambitious programme of temple construction and renovation. Work was ongoing at Abu Simbel, Karnak, Luxor, and other major religious sites. These projects served both religious and propagandistic purposes, asserting Ramesses II's piety and power. The construction of these monuments required vast resources, labour organisation, and administrative coordination, reflecting the wealth and stability of Egypt during this period.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's building projects are extensively documented in temple inscriptions and archaeological remains. The year 1298 BCE falls within his reign.",
+      "cross_references": [
+        "Part of broader Ramesside cultural and political programme"
+      ]
+    },
+    {
+      "id": "-1297-002",
+      "title": "Shang oracle bone divination and administrative practice",
+      "region": "China (Yinxu, Anyang)",
+      "coordinates_approx": "36.1\u00b0N, 114.3\u00b0E",
+      "category": "cultural",
+      "description": "The Shang dynasty in China maintained its sophisticated system of oracle bone divination and administrative record-keeping. Divination was central to Shang governance, with the king consulting the oracle bones on matters of state, warfare, agriculture, and ritual. The oracle bone inscriptions from this period (or contemporary with it) record the concerns and practices of the Shang court, including divinations about harvests, hunts, and military campaigns.",
+      "key_figures": [
+        "Late Shang king (specific identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Yinxu",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are contemporary evidence, but they are not precisely dated to individual years. They are assigned to the late Shang period based on archaeological stratigraphy and stylistic analysis.",
+      "cross_references": [
+        "Part of broader Shang cultural and administrative system"
+      ]
+    },
+    {
+      "id": "-1297-003",
+      "title": "Mycenaean palatial administration and trade",
+      "region": "Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean palace centres continued their administrative and economic functions. The palaces served as centres of redistribution, collecting agricultural surplus and manufactured goods from the surrounding territories and redistributing them to maintain the palace hierarchy and support external trade. This period represents the height of Mycenaean palatial economic organisation.",
+      "key_figures": [
+        "Mycenaean palace administrators"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets are contemporary evidence of Mycenaean administrative practices. The tablets are assigned to the Late Helladic IIIB phase based on archaeological stratigraphy.",
+      "cross_references": [
+        "Part of broader Mycenaean palatial economy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The chronological framework remains subject to scholarly debate, as noted in previous years.",
+  "historiographic_note": "The historical record for 1298 BCE is similar to that for 1299 and 1298 BCE: well-documented for Egypt, the Hittite Empire, and Mycenaean Greece; sparse or absent for most other regions. The surviving sources are heavily weighted toward monumental and administrative records from literate civilisations. Large regions of the world have no written documentation for this year.",
+  "graph_edges": [
+    {
+      "from": "-1297-001",
+      "to": "-1297-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II and the late Shang king were contemporaries, though separated by vast distances and with no direct contact."
+    },
+    {
+      "from": "-1297-001",
+      "to": "-1297-003",
+      "relation": "contemporary_with",
+      "note": "Ramesses II and Mycenaean palace administrators were contemporaries, with some indirect contact through trade networks."
+    }
+  ]
+}

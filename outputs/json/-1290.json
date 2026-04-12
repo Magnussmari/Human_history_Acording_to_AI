@@ -1,0 +1,112 @@
+{
+  "year": -1290,
+  "year_label": "1290 BCE",
+  "era_context": "Late Bronze Age, near the end of the Late Bronze Age collapse period (c. 1200\u2013900 BCE). The New Kingdom of Egypt under Ramesses II is in its final decades; the Hittite Empire remains a major power in Anatolia; Mycenaean Greece is in the Late Helladic IIIB period; the Shang Dynasty dominates China; and the Late Bronze Age Mediterranean is experiencing increasing instability, population movements, and trade disruption.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Southeast Asia and Oceania (sparse written records)",
+    "The Americas (no written records; archaeological dating uncertain)",
+    "Northern Europe and the Steppe (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1290-001",
+      "title": "Ramesses II's reign in final years; continued Egyptian dominance in Levant",
+      "region": "Egypt, Levant, Eastern Mediterranean",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Ramesses II (r. c. 1279\u20131213 BCE) remains pharaoh and continues to maintain Egyptian control over Nubia, parts of the Levant, and trade networks. His reign is marked by extensive building projects and military campaigns. By 1290 BCE, he is in his late 60s and has ruled for nearly 40 years. His authority is still strong, though succession planning for his many sons is becoming a concern. The stability of Egyptian hegemony in the Eastern Mediterranean is beginning to show strain due to increasing Sea Peoples activity and disruptions in trade.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records (Karnak, Abu Simbel, Abydos)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign dates are well-established through Egyptian chronology, king lists, and astronomical data. His regnal year can be calculated with high confidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-1290-002",
+      "title": "Hittite Empire under Hattusili III; diplomatic and military consolidation",
+      "region": "Anatolia, Syria, Levant",
+      "coordinates_approx": "35.5,40.0",
+      "category": "political",
+      "description": "Hattusili III (r. c. 1267\u20131237 BCE) rules the Hittite Empire and maintains the peace treaty with Egypt established after the Battle of Kadesh (c. 1274 BCE). He continues diplomatic correspondence with Ramesses II and other Near Eastern powers. The Hittite state is stable but faces increasing pressure from Mycenaean Greeks, Anatolian vassals, and population movements from the north. His reign represents the height of Hittite diplomatic sophistication.",
+      "key_figures": [
+        "Hattusili III (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence mentioning Hittite relations",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hittite chronology is well-established through cuneiform records and synchronisms with Egyptian dates.",
+      "cross_references": []
+    },
+    {
+      "id": "-1290-003",
+      "title": "Mycenaean Greece in Late Helladic IIIB; palace economies and trade networks",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "economic",
+      "description": "Mycenaean palace centers (Mycenae, Tiryns, Pylos, Thebes) continue to function as administrative and economic hubs. Linear B tablets document complex bureaucratic systems managing agriculture, craft production, and trade. However, archaeological evidence suggests increasing instability: fortification walls are being reinforced, and there is evidence of localized conflicts. Trade with the Eastern Mediterranean and Egypt continues but is becoming less reliable. The palatial system is approaching its terminal phase.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Tiryns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy and pottery sequences from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The dating of Linear B tablets is secure through archaeological context. The broader characterization of Late Helladic IIIB is based on pottery chronology and stratigraphic sequences, with \u00b110\u201320 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of 1290 BCE as a discrete historical moment is largely historiographic convention rather than evidence of a major turning point. While Ramesses II and Hattusili III were indeed powerful rulers, the year 1290 BCE itself marks no documented crisis or major event. The Late Bronze Age collapse is a gradual process spanning c. 1200\u2013900 BCE, not a sudden catastrophe. Some scholars argue that the 'collapse' narrative overstates the degree of disruption and underestimates continuity in certain regions.",
+  "historiographic_note": "The historical record for 1290 BCE is heavily weighted toward Egypt and the Hittite Empire, which produced extensive written records. Mycenaean Greece is known through archaeological evidence and Linear B tablets, but these provide limited narrative detail. The broader Mediterranean, Levant, and Near East are documented through Egyptian and Hittite sources, which are inherently biased toward the interests of these imperial powers. Sub-Saharan Africa, most of Asia, and the Americas are essentially absent from the written record for this year. The 'Late Bronze Age' framework itself is a modern historiographic construct based on material culture periodization.",
+  "graph_edges": [
+    {
+      "from": "-1290-001",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Ramesses II's reign ends c. 1213 BCE; succession crises and weakening Egyptian authority contribute to the broader instability of the Late Bronze Age collapse."
+    },
+    {
+      "from": "-1290-002",
+      "to": "-1200-002",
+      "relation": "led_to",
+      "note": "Hattusili III's successors face increasing pressure from northern invaders and internal instability; the Hittite Empire collapses c. 1180 BCE."
+    },
+    {
+      "from": "-1290-003",
+      "to": "-1200-003",
+      "relation": "led_to",
+      "note": "Mycenaean palace centers are destroyed c. 1200\u20131150 BCE; the palatial system collapses, marking the end of the Bronze Age in Greece."
+    }
+  ]
+}

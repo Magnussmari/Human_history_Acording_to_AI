@@ -1,0 +1,114 @@
+{
+  "year": -1291,
+  "year_label": "1291 BCE",
+  "era_context": "Late Bronze Age, approximately 11 years before the beginning of the Late Bronze Age collapse. Egypt under Ramesses II remains the dominant Mediterranean power; the Hittite Empire is stable under Hattusili III; Mycenaean palace centers continue to function; the Shang Dynasty is in its final centuries in China; and long-distance trade networks connecting Egypt, the Levant, Anatolia, and the Aegean remain active but are beginning to show signs of strain.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia and Oceania",
+    "The Americas",
+    "Northern Europe and the Steppe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1291-001",
+      "title": "Ramesses II continues reign; Egyptian administrative stability",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Ramesses II remains in power, now in his late 60s (if born c. 1303 BCE). His reign has lasted approximately 38 years. Egyptian administration continues to function effectively, with records of tax collection, military organization, and temple maintenance. The pharaoh's authority extends over Nubia to the south and into the Levant to the north. However, there are early signs of administrative strain: some records suggest difficulty in maintaining control over distant territories and increasing costs of military campaigns.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative papyri and temple records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions from temples and administrative centers",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's regnal chronology is well-established. The year 1291 BCE falls securely within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1291-002",
+      "title": "Hittite-Egyptian diplomatic relations; maintenance of peace treaty",
+      "region": "Anatolia, Levant, Eastern Mediterranean",
+      "coordinates_approx": "35.5,40.0",
+      "category": "political",
+      "description": "Hattusili III and Ramesses II maintain the peace treaty established after the Battle of Kadesh (c. 1274 BCE). Diplomatic correspondence continues, and there is evidence of trade and cultural exchange between the two powers. The treaty is reinforced by dynastic marriage: Ramesses II married a Hittite princess (Maathorneferure) c. 1258 BCE, and this alliance remains a cornerstone of Eastern Mediterranean stability. However, both powers are beginning to face challenges from external pressures.",
+      "key_figures": [
+        "Hattusili III (Hittite King)",
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The peace treaty and diplomatic relations are well-documented in both Egyptian and Hittite sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-1291-003",
+      "title": "Mycenaean trade and palace administration; evidence of increasing stress",
+      "region": "Greece, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "economic",
+      "description": "Mycenaean palace centers continue to engage in long-distance trade, exporting pottery, olive oil, and wine to Egypt, the Levant, and Anatolia. Linear B tablets document complex administrative systems managing resources and labor. However, archaeological evidence suggests increasing fortification of palace centers and evidence of localized conflicts. Some sites show signs of destruction and rebuilding, suggesting instability. The palatial economy is becoming less resilient to disruptions in trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Tiryns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The dating of Linear B tablets is secure. The interpretation of archaeological evidence as indicating 'stress' is based on modern scholarly analysis and is subject to interpretation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "1291 BCE is not marked by any documented major event or crisis. The characterization of this year as a period of 'increasing stress' is based on long-term archaeological trends rather than specific evidence for this particular year. Some scholars argue that the Late Bronze Age collapse was not inevitable and that the system could have continued had certain contingencies (such as climate disruption or invasion) not occurred. The notion that 1291 BCE was a year of particular significance is historiographic convention, not historical fact.",
+  "historiographic_note": "The historical record for 1291 BCE is sparse and heavily dependent on Egyptian and Hittite written sources, which are biased toward elite political and military narratives. Mycenaean Greece is known primarily through archaeological evidence and Linear B tablets, which provide limited narrative detail. The broader Mediterranean and Near East are documented through the lens of Egyptian and Hittite imperial interests. Large regions of the world are entirely absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1291-001",
+      "to": "-1290-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses II's reign continues across both years."
+    },
+    {
+      "from": "-1291-002",
+      "to": "-1290-002",
+      "relation": "contemporary_with",
+      "note": "Hittite-Egyptian diplomatic relations continue."
+    },
+    {
+      "from": "-1291-003",
+      "to": "-1200-003",
+      "relation": "led_to",
+      "note": "The increasing stress evident in Mycenaean archaeology leads to the collapse of the palatial system c. 1200\u20131150 BCE."
+    }
+  ]
+}
