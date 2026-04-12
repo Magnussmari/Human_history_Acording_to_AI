@@ -1,0 +1,83 @@
+{
+  "year": -767,
+  "year_label": "767 BCE",
+  "era_context": "Shalmaneser III's reign continues. In China, the Western Zhou dynasty is in its final years; the traditional date for the collapse of the Western Zhou and the beginning of the Spring and Autumn period is 771 BCE, placing 767 BCE in the twilight of the Zhou. In Greece, the Archaic period is advancing. Egypt remains fragmented. The Mediterranean world is experiencing increased interconnection through trade and colonization.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania and Southeast Asia",
+    "India",
+    "China (limited contemporary written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-767-001",
+      "title": "Western Zhou dynasty in its final years",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty is approaching its traditional end date of 771 BCE. By 767 BCE, the dynasty is experiencing internal instability, with the power of the central court weakening relative to regional lords. The exact political situation in 767 BCE is not clearly documented in surviving sources; the Shiji and other later compilations provide a narrative framework, but contemporary documentation is minimal. The period is characterized by increasing fragmentation of Zhou authority.",
+      "key_figures": [
+        "King You of Zhou (traditional ruler during this period, though dating is uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions and bronze inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The dating of the Western Zhou collapse is traditionally placed at 771 BCE, but modern scholarship debates this date. Some scholars place it slightly earlier or later. 767 BCE is assigned by chronological convention as part of the final years of the dynasty, but no specific event is documented for this year.",
+      "cross_references": [
+        "Leads to the traditional collapse of Western Zhou in 771 BCE"
+      ]
+    },
+    {
+      "id": "-767-002",
+      "title": "Shalmaneser III's continued Assyrian campaigns",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "military",
+      "description": "Shalmaneser III continues his military campaigns in the Levant and Mesopotamia. The Assyrian annals document ongoing expansion and tribute collection. The specific events of 767 BCE are not distinctly marked in surviving sources but are part of the broader pattern of annual campaigns documented in the royal inscriptions.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "767 BCE falls within Shalmaneser III's reign, but no specific event is distinctly attributed to this year. The year is assigned by chronological convention.",
+      "cross_references": [
+        "Part of broader Shalmaneser III campaign sequence"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional date for the Western Zhou collapse (771 BCE) is debated by modern scholars. Some argue for dates in the 770s or 760s BCE, or even later. The narrative of King You's misrule leading to the collapse is found in later sources (Shiji) and may be legendary or heavily stylized. No contemporary documentation of the specific political situation in 767 BCE survives.",
+  "historiographic_note": "The historical record for 767 BCE is extremely sparse. For China, the record depends on much later compilations (Shiji, written ~100 BCE) and oracle bone/bronze inscriptions that do not provide year-specific information. For Mesopotamia, the record depends on Assyrian royal annals, which are propagandistic. The year 767 BCE has no distinctly documented events; it is a placeholder in chronological reconstruction. Significant bias toward Mesopotamian and Chinese sources; other regions are essentially absent from the record.",
+  "graph_edges": [
+    {
+      "from": "-767-001",
+      "to": "-771-WESTERN_ZHOU_COLLAPSE",
+      "relation": "led_to",
+      "note": "Part of the final years of the Western Zhou dynasty"
+    },
+    {
+      "from": "-767-002",
+      "to": "-769-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Shalmaneser III's reign"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "year": -751,
+  "year_label": "751 BCE",
+  "era_context": "Continuation of the Iron Age II in the Mediterranean and Near East. Neo-Assyrian expansion under Tiglath-Pileser III is ongoing. Greek Archaic period continues with polis development and colonisation. Western Zhou in China is in terminal decline. Etruscan city-states are consolidating power in Italy.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-751-001",
+      "title": "Traditional founding date of Rome (Romulus and Remus legend)",
+      "region": "Italy (Latium)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "According to Roman tradition preserved in later sources (Livy, Plutarch), Rome was founded on the Palatine Hill in 753 BCE by Romulus, who killed his twin brother Remus. However, modern scholarship places the actual settlement and urbanisation of Rome in the 8th\u20137th centuries BCE, with the traditional date of 753 BCE (or 751 BCE in some reckonings) being a symbolic or conventional date rather than a precise historical event. Archaeological evidence shows habitation on the Palatine and other hills from c. 1000 BCE, with significant urban development occurring in the 7th century BCE under Etruscan influence. The legend serves a cultural and political function in Roman identity but does not correspond to a specific historical event.",
+      "key_figures": [
+        "Romulus (legendary founder)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab urbe condita (History of Rome from its Founding), compiled c. 27 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Romulus, compiled c. 100 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Palatine Hill and Roman Forum",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The founding of Rome by Romulus is a legendary account with no contemporary documentation. The traditional date of 753 BCE (or 751 BCE in some sources) is a conventional date assigned by later Roman chronographers. Archaeological evidence indicates gradual settlement and urbanisation rather than a single founding event.",
+      "cross_references": []
+    },
+    {
+      "id": "-751-002",
+      "title": "Tiglath-Pileser III's military campaigns continue in the Levant",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "military",
+      "description": "Tiglath-Pileser III continues his systematic campaigns to subjugate and incorporate Levantine kingdoms into the Assyrian Empire. These campaigns involve siege warfare, mass deportation of conquered populations (a deliberate policy to prevent rebellion), and the imposition of Assyrian administrative control. The campaigns are meticulously recorded in royal inscriptions and reliefs. By this period, Tiglath-Pileser has established the template for Neo-Assyrian imperial expansion that will continue under his successors.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nimrud palace reliefs",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tiglath-Pileser III's campaigns are well-documented in contemporary inscriptions and reliefs. The specific events of 751 BCE are less precisely dated than the overall reign, but fall within the confirmed period of his military activity.",
+      "cross_references": [
+        "Continuation of -750-001"
+      ]
+    },
+    {
+      "id": "-751-003",
+      "title": "Greek alphabet and writing systems spread throughout the Mediterranean",
+      "region": "Greece, Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "The adoption and adaptation of the Phoenician alphabet into the Greek alphabet continues to accelerate during the mid-8th century BCE. This development is transformative for Greek culture, enabling the recording of laws, poetry, and administrative documents. The spread of literacy, though still limited to elites, facilitates the development of the polis system and the later emergence of Greek philosophy and drama. Different Greek regions develop local variants of the alphabet (e.g., Ionic, Corinthian, Attic), which will eventually standardise.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Epigraphic evidence from early Greek inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pottery and artefacts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The spread of the Greek alphabet is attested archaeologically through inscriptions and pottery. Precise dating to individual years is uncertain; the process occurred gradually across the 8th century BCE.",
+      "cross_references": [
+        "Related to -750-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional founding date of Rome (753 BCE or 751 BCE) is not supported by archaeological evidence and is now understood by scholars as a conventional or symbolic date rather than a historical fact. Modern archaeology indicates gradual settlement and urbanisation of Rome over centuries, with significant development in the 7th century BCE under Etruscan influence. The legend of Romulus and Remus is a cultural narrative, not a historical event. Some scholars argue that the date 753 BCE was calculated backward from the consulship of Varro or other chronological systems, rather than derived from historical records.",
+  "historiographic_note": "The year 751 BCE is notable primarily for the legendary founding of Rome, which illustrates the problem of conflating legend with history. For Mesopotamia and the Levant, documentation is relatively rich through cuneiform inscriptions. For Greece, sources are primarily archaeological. For China, the Shiji provides narrative but with uncertain precision. The absence of written records for most of the world outside the Mediterranean, Near East, and China is a major gap in historical documentation for this period.",
+  "graph_edges": [
+    {
+      "from": "-751-001",
+      "to": "-509-001",
+      "relation": "led_to",
+      "note": "Legendary founding of Rome leads to the establishment of the Roman Republic in 509 BCE"
+    },
+    {
+      "from": "-751-002",
+      "to": "-745-001",
+      "relation": "part_of",
+      "note": "Continuation of Tiglath-Pileser III's reign and campaigns"
+    }
+  ]
+}

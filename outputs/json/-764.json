@@ -1,0 +1,120 @@
+{
+  "year": -764,
+  "year_label": "764 BCE",
+  "era_context": "The mid-8th century BCE spans the height of the Neo-Assyrian Empire under Shalmaneser V and his predecessors, a period of aggressive territorial expansion and administrative consolidation. In Greece, the Archaic period is underway with the emergence of the polis system and early colonisation movements. In China, the Spring and Autumn period has begun following the Zhou Dynasty's loss of central authority. Egypt is fragmented under the Late Period, with Libyan and Nubian dynasties competing for control.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited synchronisation with Old World chronology)",
+    "Southeast Asia (sparse contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-764-001",
+      "title": "Shalmaneser V's campaigns in the Levant and consolidation of Assyrian control",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser V (r. 727\u2013722 BCE) continues aggressive Assyrian expansion, consolidating control over vassal states in the Levant. This period marks intensified pressure on the Kingdom of Israel and other regional powers. The Assyrian administrative system under Shalmaneser involves mass deportation policies and the reorganisation of conquered territories into provinces, establishing a model of imperial control that will define the Neo-Assyrian state.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals (cuneiform inscriptions from Nineveh and Calah)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical records (2 Kings 17)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser V's reign is well-attested in Assyrian records, though specific campaigns in individual years are sometimes difficult to date precisely. The chronology relies on king lists and annals.",
+      "cross_references": [
+        "Relates to -722-001 (Fall of Samaria, likely end of Shalmaneser's campaign against Israel)"
+      ]
+    },
+    {
+      "id": "-764-002",
+      "title": "Early Greek colonisation movements in the western Mediterranean",
+      "region": "Greece, Italy, Sicily, Mediterranean",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "Greek city-states, particularly from Corinth and other Dorian poleis, establish colonies in southern Italy and Sicily during the mid-8th century. These settlements (apoikiai) represent both population pressure and commercial expansion. The establishment of colonies like Syracuse (traditionally dated 733 BCE, but settlement activity spans this period) facilitates trade networks and cultural exchange, laying the foundation for Magna Graecia.",
+      "key_figures": [
+        "Archias of Corinth (legendary founder of Syracuse, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War (Book VI)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Syracuse and other colonial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Greek colonisation occurred over several decades in the mid-8th century. Precise dating of individual foundations is uncertain; traditional dates from later sources (Thucydides, Strabo) are often off by 10\u201320 years. Archaeological evidence suggests settlement activity rather than single founding moments.",
+      "cross_references": []
+    },
+    {
+      "id": "-764-003",
+      "title": "Zhou Dynasty fragmentation and emergence of regional powers in China",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn period (770\u2013476 BCE) is well underway. The Zhou Dynasty's authority has collapsed following the capital's relocation to Luoyang in 771 BCE. Regional states (chu, qi, jin, qin) consolidate power and begin competing for hegemony. This period marks the transition from feudal Zhou order to a system of competing states, setting the stage for the Warring States period.",
+      "key_figures": [
+        "Duke Huan of Qi (r. 685\u2013643 BCE, prominent later in this period)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze inscriptions from regional states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Spring and Autumn period is well-documented in Chinese chronicles and bronze inscriptions. The general trajectory of Zhou decline and regional fragmentation is firmly established.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Greek colonial foundations (e.g., Syracuse in 733 BCE) has been challenged by modern archaeology, which suggests settlement activity was more gradual and less precisely datable than ancient sources imply. Some scholars argue for earlier or later dates for specific colonies. Additionally, the extent of Shalmaneser V's direct military campaigns versus administrative consolidation of earlier conquests is debated; some sources conflate his reign with his predecessors'.",
+  "historiographic_note": "The historical record for 764 BCE is uneven. Assyrian sources are abundant and contemporary, providing detailed annals of military campaigns, though these are often propagandistic and may exaggerate achievements. Greek sources are sparse and much later (Thucydides, Strabo), introducing significant dating uncertainty for colonisation events. Chinese sources (Shiji, Spring and Autumn Annals) are more reliable for the general political situation but lack year-by-year precision for this period. Egyptian sources are fragmentary due to political fragmentation. The record is heavily weighted toward the Near East and Mediterranean; sub-Saharan Africa, northern Europe, and the Americas are essentially absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "-764-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Shalmaneser V's campaigns against Israel culminate in the siege and fall of Samaria"
+    },
+    {
+      "from": "-764-002",
+      "to": "-764-003",
+      "relation": "contemporary_with",
+      "note": "Greek colonisation and Chinese state fragmentation occur in the same era, representing parallel processes of political reorganisation"
+    }
+  ]
+}

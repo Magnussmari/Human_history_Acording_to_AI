@@ -1,0 +1,72 @@
+{
+  "year": -763,
+  "year_label": "763 BCE",
+  "era_context": "Continuation of the Neo-Assyrian imperial expansion under Shalmaneser V. The Greek Archaic period proceeds with ongoing colonisation and the gradual crystallisation of the polis system. In China, the Spring and Autumn period continues with regional states consolidating power. Egypt remains fragmented under competing Libyan and Nubian dynasties.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-763-001",
+      "title": "Assyrian military campaigns and administrative consolidation under Shalmaneser V",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser V continues the Assyrian policy of territorial expansion and administrative reorganisation. The Assyrian Empire under his rule maintains pressure on vassal states and consolidates control through a combination of military force and mass deportation. This year falls within the broader period of Shalmaneser's reign (727\u2013722 BCE), during which Assyrian hegemony over the Levant is firmly established.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals (cuneiform inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser V's reign is well-documented, but specific events in individual years are often difficult to isolate from the annals. Dating relies on king lists and regnal year counts.",
+      "cross_references": [
+        "-764-001"
+      ]
+    },
+    {
+      "id": "-763-002",
+      "title": "Greek polis development and early Olympic Games tradition",
+      "region": "Greece, Peloponnese",
+      "coordinates_approx": "37.6, 23.6",
+      "category": "cultural",
+      "description": "The Greek polis system continues to develop during the Archaic period. While the traditional date for the first Olympic Games is 776 BCE (according to later Greek sources), the mid-8th century sees the consolidation of religious and athletic festivals as central to Greek identity. Olympia emerges as a major religious and athletic centre, though the formal Olympic Games as a structured quadrennial event may not yet be fully established.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Olympia",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The traditional date of 776 BCE for the first Olympic Games is based on later Greek sources and is not confirmed by contemporary evidence. Modern scholarship suggests the games evolved gradually over the 8th century rather than beginning at a single point.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the first Olympic Games to 776 BCE is not supported by contemporary evidence and is likely a later construction. Modern archaeology suggests athletic and religious activities at Olympia were more gradual in their development. Additionally, the precise chronology of Shalmaneser V's individual campaigns is debated; some scholars attribute campaigns to his predecessors or successors.",
+  "historiographic_note": "Documentation for 763 BCE is similar to 764 BCE: rich Assyrian sources, sparse and late Greek sources, and moderate Chinese sources. The record remains heavily weighted toward the Near East. The absence of contemporary Greek written sources for this period means that most information about Greek development comes from much later authors (Pausanias, Thucydides) or archaeology, introducing significant uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-763-001",
+      "to": "-764-001",
+      "relation": "part_of",
+      "note": "Continuation of Shalmaneser V's broader campaign strategy"
+    }
+  ]
+}

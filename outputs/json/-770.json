@@ -1,0 +1,79 @@
+{
+  "year": -770,
+  "year_label": "770 BCE",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire under Sargon II is consolidating power in Mesopotamia. Greece is in the Geometric period, with the alphabet recently adopted from Phoenician sources. The Zhou Dynasty rules China; the Spring and Autumn period begins around this time. Egypt is fragmented under the Late Period, with Libyan and Nubian dynasties competing for control.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited synchronization with Old World calendars)"
+  ],
+  "events": [
+    {
+      "id": "-770-001",
+      "title": "Sargon II's military campaigns in the Levant",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II of Assyria (r. 722\u2013705 BCE) conducted extensive campaigns to consolidate Neo-Assyrian control over the Levantine territories. Around 770 BCE, Assyrian forces were engaged in subjugating rebellious vassal states and expanding territorial control. These campaigns resulted in mass deportations of conquered populations\u2014a hallmark Assyrian policy designed to prevent future rebellions and redistribute labor. The campaigns strengthened Assyrian hegemony over the eastern Mediterranean trade routes.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's annals and inscriptions (clay tablets and palace reliefs from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-attested, but specific events within individual years are often grouped in annals. The date 770 BCE falls within his documented reign (722\u2013705 BCE), but precise year-by-year attribution is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-770-002",
+      "title": "Greek alphabet adoption and early inscriptions",
+      "region": "Greece, Phoenicia",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "By 770 BCE, the Greek alphabet, adapted from Phoenician script, was becoming established in Greek city-states. Early Greek inscriptions on pottery and stone from this period show the transition from oral to written culture. This shift had profound implications for law, commerce, and literature, enabling the preservation of knowledge and the development of democratic institutions that required written records.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence: inscribed pottery and stone fragments from Attica, Corinth, and other Greek sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (5.58\u201359) \u2014 later account of alphabet adoption",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The adoption of the Greek alphabet occurred gradually over the 8th century BCE. The precise dating of individual inscriptions is often uncertain; 770 BCE represents a point within this broader transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Sargon II's reign and individual campaigns is debated. Some scholars place key events slightly earlier or later based on Assyrian king list synchronisms with Egyptian and Babylonian records. The dating of early Greek inscriptions is also uncertain; some scholars argue the alphabet adoption was more gradual and began earlier (c. 800 BCE) or later (c. 750 BCE). No single event definitively anchors 770 BCE in Greek history.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Mesopotamia and the Near East, where cuneiform records and monumental inscriptions survive. Greek history relies on archaeological evidence (pottery, inscriptions) and much later literary sources (Homer, Herodotus). Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from surviving records for this year. The Assyrian record is court-sponsored and emphasizes military victories; it may underrepresent economic, cultural, or diplomatic developments.",
+  "graph_edges": [
+    {
+      "from": "-770-001",
+      "to": "-722-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns are part of his broader reign (722\u2013705 BCE)"
+    },
+    {
+      "from": "-770-002",
+      "to": "-750-001",
+      "relation": "led_to",
+      "note": "Alphabet adoption enabled the development of early Greek literature and law codes"
+    }
+  ]
+}

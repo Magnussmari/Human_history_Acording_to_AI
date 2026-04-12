@@ -1,0 +1,113 @@
+{
+  "year": -752,
+  "year_label": "752 BCE",
+  "era_context": "Iron Age II in the Mediterranean and Near East. Neo-Assyrian Empire under Tiglath-Pileser III is in the midst of aggressive expansion. Greek Archaic period continues with increasing colonisation and cultural development. Western Zhou in China is approaching final collapse. Etruscan civilisation is flourishing in Italy.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia",
+    "South Asia (limited written sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-752-001",
+      "title": "Tiglath-Pileser III's administrative and military reforms continue",
+      "region": "Mesopotamia",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Tiglath-Pileser III's reign continues with ongoing administrative reorganisation and military campaigns. His reforms include the creation of a professional standing army, the establishment of a sophisticated logistical system, and the implementation of mass deportation policies to prevent rebellion in conquered territories. These innovations represent a significant advancement in imperial administration and military organisation, setting the template for subsequent empires. The reforms are documented in royal inscriptions and archaeological evidence from Assyrian administrative centres.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions from Kalhu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nimrud and Dur-Sharrukin",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tiglath-Pileser III's reign and reforms are well-attested in contemporary cuneiform records. The specific events of 752 BCE fall within the confirmed period of his reign and administrative activity.",
+      "cross_references": [
+        "Part of -750-001 and -751-002"
+      ]
+    },
+    {
+      "id": "-752-002",
+      "title": "Greek colonisation of Sicily and southern Italy accelerates",
+      "region": "Sicily, southern Italy (Magna Graecia)",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "exploration",
+      "description": "Greek city-states, particularly from Corinth and other Dorian cities, establish colonies in Sicily and southern Italy during the mid-8th century BCE. Major colonies such as Syracuse (traditionally founded 733 BCE, though settlement may have begun earlier), Naxos, and Cumae are established during this period. These colonies serve as trading posts, agricultural settlements, and outlets for population pressure in the Greek homeland. The colonisation process is facilitated by improved maritime technology and navigation knowledge. These colonies will develop into prosperous city-states and play a significant role in Greek history.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from colonial sites (pottery, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek historians (Thucydides, Strabo) on colonisation",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Greek colonisation of Sicily and southern Italy occurred during the 8th\u20137th centuries BCE. Archaeological evidence (pottery typology, stratigraphy) places major colonisation waves in the 750\u2013700 BCE range, but precise dating to individual years is uncertain.",
+      "cross_references": [
+        "Related to -750-002"
+      ]
+    },
+    {
+      "id": "-752-003",
+      "title": "Western Zhou dynasty continues decline; regional fragmentation increases",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty continues its decline during the reign of King You (r. 781\u2013771 BCE). Central authority weakens further as regional lords (zhuhou) consolidate power and become increasingly independent. The royal court at Zongzhou struggles to maintain control over vassal states. Internal conflicts and external pressures from the Quanrong people and other groups mount. This period represents the final decades before the collapse of the Western Zhou and the transition to the Eastern Zhou period, which will be marked by the Spring and Autumn period of fragmentation and interstate warfare.",
+      "key_figures": [
+        "King You of Zhou (r. 781\u2013771 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (jinwen) from the period",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Western Zhou is well-documented in later Chinese historiography. Precise dating of individual years relies on traditional chronology, which has some uncertainty (\u00b15\u201310 years possible).",
+      "cross_references": [
+        "Part of broader Western Zhou decline; leads to -771-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the traditional dating of Greek colonies (e.g., Syracuse in 733 BCE) is based on later sources and may not reflect the actual date of initial settlement; archaeological evidence suggests earlier habitation in some cases. The chronology of Western Zhou decline is subject to scholarly debate regarding precise dates.",
+  "historiographic_note": "Documentation for 752 BCE is similar to 751 BCE: rich for Mesopotamia and the Levant (cuneiform sources), moderate for Greece (archaeology and later sources), and dependent on traditional chronology for China (Shiji). The year is not particularly distinctive in surviving records; it falls within broader periods of change and development rather than marking a specific turning point.",
+  "graph_edges": [
+    {
+      "from": "-752-001",
+      "to": "-745-001",
+      "relation": "part_of",
+      "note": "Tiglath-Pileser III's reign and reforms continue"
+    },
+    {
+      "from": "-752-002",
+      "to": "-733-001",
+      "relation": "led_to",
+      "note": "Greek colonisation accelerates, leading to establishment of major colonies"
+    }
+  ]
+}

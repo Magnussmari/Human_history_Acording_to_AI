@@ -1,0 +1,86 @@
+{
+  "year": -755,
+  "year_label": "755 BCE",
+  "era_context": "Mid-8th century BCE: The Assyrian Empire under Tiglath-Pileser III is in the midst of aggressive territorial expansion and administrative reform. In China, the Zhou Dynasty is in its Spring and Autumn period, marked by fragmentation into competing states. The Greek world is in the Archaic period, with city-states consolidating power. In Mesoamerica, Classic Maya civilization is flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Central Asia (sparse documentation)"
+  ],
+  "events": [
+    {
+      "id": "-755-001",
+      "title": "Tiglath-Pileser III's Military Campaign in Syria",
+      "region": "Assyrian Empire, Syria",
+      "coordinates_approx": "35.5, 36.5",
+      "category": "military",
+      "description": "Tiglath-Pileser III continues his systematic conquest and reorganization of the Levantine territories. This year marks part of his broader campaign to consolidate Assyrian control over Syria and establish tributary relationships with local kingdoms. The campaigns involved both direct conquest and forced deportation policies that would become hallmarks of Assyrian imperial strategy. These military successes strengthened Assyria's position as the dominant Near Eastern power.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals (inscriptions from Tiglath-Pileser III's palace)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Kalhu (Nimrud) and Dur-Sharrukin",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tiglath-Pileser III's reign is well-documented through royal inscriptions and archaeological remains. Specific year-by-year campaigns are attested, though exact dating within his reign (745\u2013727 BCE) can vary by \u00b11\u20132 years depending on chronological reconstruction.",
+      "cross_references": []
+    },
+    {
+      "id": "-755-002",
+      "title": "Establishment of Rome (Traditional Date)",
+      "region": "Latium, Italian Peninsula",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "According to Roman tradition preserved by Livy and other later sources, Rome was founded on the Palatine Hill in this year (or 753 BCE in some reckonings). The traditional account credits Romulus as the founder. However, modern archaeology indicates settlement on the site dates to the 10th century BCE, with the settlement gradually consolidating into an urban center over the 8th\u20137th centuries. The traditional date is likely a symbolic or conventional marker rather than a precise historical event.",
+      "key_figures": [
+        "Romulus (legendary founder)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab urbe condita (History of Rome from its Foundation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Romulus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Palatine Hill and Roman Forum",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The traditional founding date of Rome is preserved in literary sources written centuries after the supposed event. Modern archaeology shows continuous settlement but no single founding moment. The date 753 BCE (or 755 BCE in some traditions) is likely a conventional marker created by later Roman historians, possibly derived from genealogical calculations.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional founding of Rome in 755 BCE (or 753 BCE) is not supported by archaeological evidence. Excavations on the Palatine Hill and in the Roman Forum show that the site was inhabited from at least the 10th century BCE, with gradual urbanization occurring over several centuries. No archaeological layer corresponds to a sudden 'founding' event in the mid-8th century. Modern scholars view the traditional date as a retrospective construction, possibly based on genealogical calculations or symbolic significance rather than historical memory. The conflation of Romulus with actual settlement history is a common example of how later Roman historians imposed narrative structure on fragmentary evidence.",
+  "historiographic_note": "Documentation for 755 BCE is heavily skewed toward the Near East, particularly Assyria, where royal inscriptions provide detailed records. Greek sources for this period are sparse and often legendary. Roman sources are entirely post-hoc, written 500+ years after the supposed events. Sub-Saharan Africa, Northern Europe, and much of Central Asia have no written records for this year. Chinese sources (oracle bones, later chronicles) provide some information about the Zhou Dynasty but with less precision for individual years. The surviving record reflects the distribution of literate, record-keeping civilizations rather than a balanced global picture.",
+  "graph_edges": [
+    {
+      "from": "-755-001",
+      "to": "-745-001",
+      "relation": "part_of",
+      "note": "Tiglath-Pileser III's campaigns continued throughout his reign (745\u2013727 BCE)"
+    },
+    {
+      "from": "-755-002",
+      "to": "-509-001",
+      "relation": "led_to",
+      "note": "Traditional founding of Rome eventually led to the establishment of the Roman Republic"
+    }
+  ]
+}

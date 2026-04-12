@@ -1,0 +1,103 @@
+{
+  "year": -762,
+  "year_label": "762 BCE",
+  "era_context": "The Neo-Assyrian Empire under Shalmaneser V remains at the height of its power. The Greek Archaic period continues with the gradual emergence of the polis system and ongoing colonisation. In China, the Spring and Autumn period proceeds with regional state competition. Egypt is fragmented under the 22nd\u201323rd dynasties (Libyan and Nubian rule).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-762-001",
+      "title": "Assyrian dominance in the Levant and vassal state system",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "political",
+      "description": "Shalmaneser V's reign continues to define Assyrian hegemony in the Near East. The vassal state system, in which regional powers (including Israel, Judah, Phoenician cities, and others) pay tribute and acknowledge Assyrian overlordship, is firmly in place. This system will persist until the fall of the Assyrian Empire in 609 BCE, making this period foundational to Near Eastern geopolitics for the next 150 years.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals (cuneiform inscriptions from Nineveh)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical records (2 Kings, 2 Chronicles)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Assyrian dominance in the Levant during this period is well-attested in both Assyrian and biblical sources. The vassal state system is clearly documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-762-002",
+      "title": "Continued Greek colonisation in the western Mediterranean",
+      "region": "Greece, Italy, Sicily, Mediterranean",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "Greek colonisation of southern Italy and Sicily continues during the mid-8th century. Corinthian and other Greek poleis establish settlements that will become major centres of Magna Graecia. This process of colonisation is driven by population pressure, land scarcity, and commercial opportunity, and it facilitates the spread of Greek culture and trade networks throughout the Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War (Book VI)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from colonial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing of Greek colonisation is uncertain; traditional dates from later sources are often inaccurate. Archaeological evidence suggests settlement activity over several decades rather than precise founding dates.",
+      "cross_references": [
+        "-764-002"
+      ]
+    },
+    {
+      "id": "-762-003",
+      "title": "Spring and Autumn period: regional state competition in China",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn period continues with regional states (Qi, Jin, Chu, Qin, Song, Lu) competing for hegemony. The Zhou Dynasty's authority remains nominal. This period is characterised by diplomatic maneuvering, military alliances, and the gradual consolidation of power among the major states. The period will eventually lead to the Warring States period (475\u2013221 BCE).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Spring and Autumn period is well-documented in Chinese sources. The general political situation is clearly established.",
+      "cross_references": [
+        "-764-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the precise dating of Greek colonisation events remains uncertain, and the extent of Assyrian direct military involvement versus administrative consolidation in individual years is difficult to determine from the sources.",
+  "historiographic_note": "Documentation for 762 BCE remains moderate and regionally uneven. Assyrian sources are abundant and contemporary but propagandistic. Greek sources are sparse and much later. Chinese sources are reliable for general political trends but lack year-by-year precision. The record is heavily weighted toward the Near East and Mediterranean; other regions are essentially absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "-762-001",
+      "to": "-764-001",
+      "relation": "part_of",
+      "note": "Continuation of Assyrian hegemony in the Levant"
+    }
+  ]
+}
