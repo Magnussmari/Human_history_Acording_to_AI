@@ -1,0 +1,108 @@
+{
+  "year": -266,
+  "year_label": "266 BCE",
+  "era_context": "The Hellenistic world continues to stabilize after the Wars of the Diadochi; Antiochus I Soter is consolidating Seleucid power in Asia Minor and the eastern Mediterranean. Ptolemy II Philadelphus rules Egypt at the height of Ptolemaic prosperity. In China, Qin Shi Huang's unified empire is in its mid-reign, with major administrative and construction projects underway. The Celtic Galatians are establishing themselves in Anatolia following their invasions of the Balkans.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources for this year)",
+    "Northern Europe (sparse archaeological record)",
+    "Mesoamerica (no synchronized chronology)",
+    "India (limited synchronization with Gregorian calendar; Mauryan Empire under Ashoka, but specific events for this year are not well-documented in surviving sources)"
+  ],
+  "events": [
+    {
+      "id": "-266-001",
+      "title": "Antiochus I consolidates Seleucid control in Asia Minor",
+      "region": "Seleucid Empire, Asia Minor and eastern Mediterranean",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Antiochus I Soter continues his consolidation of Seleucid power following his victory at Corupedium (traditionally dated to 265 BCE, though some sources place it in 262 BCE). He secures control over the wealthy territories of western Asia Minor, Mesopotamia, and the Levant. His reign is characterized by military campaigns to maintain the vast Seleucid inheritance and diplomatic efforts to manage relations with other Hellenistic powers. The Seleucid Empire at this time is the largest of the post-Alexander successor states.",
+      "key_figures": [
+        "Antiochus I Soter (Seleucid king, r. -281 to -261)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography 16.2",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Antiochus I's reign is well-documented, but specific events in individual years are often uncertain. 266 BCE falls within his reign, but no specific event is definitively dated to this year.",
+      "cross_references": []
+    },
+    {
+      "id": "-266-002",
+      "title": "Ptolemy II's cultural patronage and Library of Alexandria expansion",
+      "region": "Ptolemaic Egypt, Alexandria",
+      "coordinates_approx": "31.2, 29.9",
+      "category": "cultural",
+      "description": "Ptolemy II Philadelphus continues his extensive patronage of the arts, sciences, and literature. The Library of Alexandria, founded by his father Ptolemy I, is expanded and becomes the premier repository of Greek and Near Eastern knowledge. Scholars, poets, and scientists are attracted to Alexandria from across the Hellenistic world. This period sees the commissioning of the Septuagint (Greek translation of Hebrew scriptures) and the flourishing of Hellenistic science and philosophy. Alexandria becomes the intellectual capital of the Hellenistic world.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (Ptolemaic king, r. -285 to -246)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography 17.1.8",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Alexandria (administrative and literary records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy II's cultural patronage is well-attested in multiple sources and supported by papyrological evidence. The expansion of the Library occurred throughout his reign; 266 BCE falls within this period of active patronage.",
+      "cross_references": []
+    },
+    {
+      "id": "-266-003",
+      "title": "Qin Dynasty administrative consolidation",
+      "region": "China (unified Qin state)",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "Qin Shi Huang's administrative system continues to mature. The standardization of weights, measures, currency, and writing systems across the empire is now well-established. Major construction projects, including early sections of the Great Wall and the Terracotta Army, are in progress. The Qin legal code (Qin Law) is enforced throughout the empire, establishing unprecedented centralized control. This period represents the height of Qin administrative innovation and territorial consolidation.",
+      "key_figures": [
+        "Qin Shi Huang (First Emperor of China, r. -221 to -210)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Qin sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Qin Shi Huang's reign and administrative consolidation are well-established. 266 BCE falls within his reign (r. -221 to -210).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader historiographic picture is complicated by the fact that no major events are definitively dated to 266 BCE in surviving sources. The events listed represent general trends within the reigns of Antiochus I, Ptolemy II, and Qin Shi Huang rather than specific occurrences in this particular year.",
+  "historiographic_note": "The historical record for 266 BCE is sparse in terms of specific events. Most information comes from later compilations (Appian, Strabo, Sima Qian) written centuries after the events they describe. Contemporary sources are limited to administrative papyri from Egypt and archaeological evidence from China and the Mediterranean. The absence of specific events dated to this year reflects the limitations of ancient chronology and the selective preservation of historical records. Western-centric bias is evident in the abundance of Greek sources compared to the scarcity of information from other regions.",
+  "graph_edges": [
+    {
+      "from": "-266-001",
+      "to": "-261-001",
+      "relation": "part_of",
+      "note": "Antiochus I's reign and consolidation of Seleucid power"
+    },
+    {
+      "from": "-266-002",
+      "to": "-246-001",
+      "relation": "part_of",
+      "note": "Ptolemy II's reign and cultural patronage"
+    }
+  ]
+}

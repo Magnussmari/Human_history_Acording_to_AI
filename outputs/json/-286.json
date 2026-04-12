@@ -1,0 +1,112 @@
+{
+  "year": -286,
+  "year_label": "286 BCE",
+  "era_context": "Continuation of early Hellenistic consolidation. Ptolemaic Egypt under dual rule is expanding its naval and cultural influence. Macedon under Antigonus II is stabilizing after decades of dynastic conflict. The Seleucid Empire under Antiochus I is managing vast territories from Syria to Central Asia. In China, the Warring States period continues with Qin's power growing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia beyond Seleucid administrative records",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-286-001",
+      "title": "Demetrius I of Macedon dies in captivity",
+      "region": "Macedon and Syria",
+      "coordinates_approx": "40.5, 22.0",
+      "category": "political",
+      "description": "Demetrius I Poliorcetes (the Besieger), the ambitious Macedonian king and son of Antigonus the One-Eyed, dies in captivity in Syria around this year. He had been captured by Seleucus I after his defeat at Corupedium (281 BCE) and held prisoner for several years. His death removed a potential rival to Antigonus II Gonatas and solidified the latter's position as the undisputed Macedonian ruler. Demetrius's legacy as a brilliant but ultimately unsuccessful military commander influenced later Hellenistic warfare.",
+      "key_figures": [
+        "Demetrius I Poliorcetes (deceased)",
+        "Seleucus I (captor)",
+        "Antigonus II Gonatas (beneficiary)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Demetrius's death is variously given as 286, 283, or 282 BCE in different sources. 286 BCE is one scholarly consensus, but uncertainty remains.",
+      "cross_references": [
+        "Follows from -281-001 (Battle of Corupedium and capture)",
+        "Leads to -285-002 (Antigonus II's secure rule)"
+      ]
+    },
+    {
+      "id": "-286-002",
+      "title": "Seleucus I Nicator consolidates eastern Seleucid territories",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Central Asia)",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "Seleucus I, founder of the Seleucid dynasty, continues administrative consolidation of his vast empire stretching from Syria to the Indus Valley. He maintains Demetrius I in captivity and secures his eastern borders. Seleucus is in his late 70s or early 80s at this time and will die within a few years, but his reign has established the Seleucid Empire as one of the three major Hellenistic powers.",
+      "key_figures": [
+        "Seleucus I Nicator (Seleucid founder)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seleucus I's activities in 286 BCE are not specifically documented; this entry reflects the general trajectory of his reign during this period.",
+      "cross_references": [
+        "Part of broader Seleucid consolidation (-312-001 founding)"
+      ]
+    },
+    {
+      "id": "-286-003",
+      "title": "Roman expansion in Italy continues",
+      "region": "Italy (Roman Republic)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "The Roman Republic continues its gradual expansion and consolidation of power in the Italian peninsula. In this period, Rome is engaged in conflicts with various Italian peoples and is beginning to emerge as a major regional power. The specific events of 286 BCE are not well-documented, but this year falls within the broader period of Roman expansion that would lead to dominance over Italy by the early 3rd century BCE.",
+      "key_figures": [
+        "Roman Senate and magistrates (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab Urbe Condita (History of Rome from Its Foundation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Livy's account of this period is based on earlier sources now lost and is considered less reliable for specific year-by-year events. No contemporary Roman records survive.",
+      "cross_references": [
+        "Part of broader Roman expansion in Italy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Demetrius I's death is one of the most disputed chronological points in Hellenistic history. Ancient sources give conflicting accounts, and modern scholars have proposed dates ranging from 286 to 282 BCE. Some scholars argue that Demetrius may have died earlier than traditionally thought. The significance attributed to his death in stabilizing Antigonus II's rule may be overstated; Antigonus had already secured his position militarily by 281 BCE.",
+  "historiographic_note": "Hellenistic history for this year relies almost entirely on later Greek and Roman historians writing centuries after the events. Contemporary documentary evidence is minimal. The Seleucid Empire's vast extent means that many regions are poorly documented in surviving sources. Roman history is reconstructed from Livy and other late sources, making specific year-by-year accuracy questionable. Eastern Mediterranean sources dominate; Indian, Persian, and Central Asian perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "-286-001",
+      "to": "-285-002",
+      "relation": "led_to",
+      "note": "Demetrius's death removed a rival to Antigonus II's consolidation"
+    },
+    {
+      "from": "-286-002",
+      "to": "-281-001",
+      "relation": "contemporary_with",
+      "note": "Seleucus I's consolidation occurred in the same period as Antigonus II's rise"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "year": -271,
+  "year_label": "271 BCE",
+  "era_context": "The Hellenistic world continues to stabilize after the Wars of the Diadochi. The three major Hellenistic powers\u2014Seleucid, Ptolemaic, and Antigonid\u2014are in a period of relative equilibrium, though tensions simmer beneath the surface. In China, the Warring States period continues with Qin ascendant. Rome is consolidating Italian hegemony.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "India (limited sources in Western tradition)",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-271-001",
+      "title": "Arsinoe II of Egypt marries her brother Ptolemy II",
+      "region": "Egypt, Ptolemaic kingdom",
+      "coordinates_approx": "31.0, 30.0",
+      "category": "political",
+      "description": "Arsinoe II, daughter of Ptolemy I and widow of Lysimachus, marries her brother Ptolemy II Philadelphus. This marriage, while shocking by Greek standards, is justified by Ptolemaic ideology as a means of consolidating dynastic power and is presented as a return to Egyptian pharaonic practice. Arsinoe II becomes a powerful political figure in the Ptolemaic court and is honored with a cult. The marriage strengthens the Ptolemaic dynasty and establishes a precedent for sibling marriage within the Ptolemaic royal family.",
+      "key_figures": [
+        "Arsinoe II (Ptolemaic princess)",
+        "Ptolemy II Philadelphus (Ptolemaic king)"
+      ],
+      "sources": [
+        {
+          "name": "Athenaeus, Deipnosophistae",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Commemorative coins",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The marriage is attested in papyrological evidence and later literary sources. The date is traditionally given as 275 BCE, but some scholars place it as late as 271 BCE. The exact year is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-271-002",
+      "title": "Magas of Cyrene asserts independence from Ptolemaic Egypt",
+      "region": "Cyrenaica, North Africa",
+      "coordinates_approx": "32.5, 22.0",
+      "category": "political",
+      "description": "Magas, the Ptolemaic governor of Cyrene (and half-brother of Ptolemy II), declares independence from Egypt and establishes himself as a rival Hellenistic ruler. Magas's rebellion is motivated by dynastic ambition and resentment of Ptolemaic centralization. Though ultimately unsuccessful in establishing a lasting independent kingdom, Magas's revolt demonstrates the fragility of Hellenistic political structures and the persistent threat of dynastic fragmentation.",
+      "key_figures": [
+        "Magas of Cyrene (Ptolemaic governor and rebel)"
+      ],
+      "sources": [
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Coins of Magas",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Magas's rebellion is attested in numismatic evidence and later sources, but the exact date is uncertain. Scholars place it between 275 and 268 BCE; 271 BCE is a conventional assignment.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The date of Arsinoe II's marriage to Ptolemy II is disputed. Some sources place it as early as 275 BCE, others as late as 271 BCE or even later. The significance of the marriage may be overstated in later sources; while it was politically important, it did not immediately resolve all dynastic tensions. Magas's rebellion is often portrayed as a major threat to Ptolemaic power, but it was ultimately contained and did not significantly alter the balance of power in the eastern Mediterranean.",
+  "historiographic_note": "The historical record for 271 BCE is sparse and heavily dependent on later compilations and numismatic evidence. Papyrological evidence from Egypt provides some contemporary documentation, but it is fragmentary and biased toward administrative matters. The dating of events is uncertain, and scholars often assign events to this period by convention rather than on the basis of definitive evidence. Information about other regions is minimal or absent.",
+  "graph_edges": [
+    {
+      "from": "-271-001",
+      "to": "-270-002",
+      "relation": "contemporary_with",
+      "note": "Arsinoe II's marriage occurred during the period of Ptolemy II's consolidation of naval power"
+    },
+    {
+      "from": "-271-002",
+      "to": "-265-MAGAS_DEATH",
+      "relation": "led_to",
+      "note": "Magas's rebellion eventually collapsed, but it demonstrated Ptolemaic vulnerability"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "year": -267,
+  "year_label": "267 BCE",
+  "era_context": "The Hellenistic world is in a period of relative stability following the Wars of the Diadochi. Antiochus I Soter rules the Seleucid Empire, the largest of the successor states. Ptolemy II Philadelphus is in the midst of his prosperous reign in Egypt. In China, Qin Shi Huang's unified empire is consolidating its administrative systems. The Celtic Galatians are establishing themselves in Anatolia. This is a period of cultural flourishing in the Mediterranean and administrative innovation in China.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe (sparse archaeological record)",
+    "Mesoamerica (no synchronized chronology)",
+    "India (limited documentation; Mauryan Empire under Ashoka, but specific events for this year are not well-documented)",
+    "Southeast Asia (minimal written sources for this period)"
+  ],
+  "events": [
+    {
+      "id": "-267-001",
+      "title": "Antiochus I's military campaigns in the eastern Seleucid Empire",
+      "region": "Seleucid Empire, Mesopotamia and the Levant",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Antiochus I Soter conducts military campaigns to maintain control over the vast Seleucid territories and suppress regional rebellions. The Seleucid Empire, stretching from Anatolia to the borders of India, faces constant pressure from regional powers and internal dissent. Antiochus I's reign is marked by a series of military expeditions to consolidate Seleucid authority. These campaigns are essential to maintaining the territorial integrity of the empire and preventing the fragmentation that will eventually occur in the 2nd century BCE.",
+      "key_figures": [
+        "Antiochus I Soter (Seleucid king, r. -281 to -261)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography 16.2",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus I's military campaigns are attested in later sources, but specific campaigns are often difficult to date precisely. 267 BCE falls within his reign, but no specific campaign is definitively dated to this year.",
+      "cross_references": []
+    },
+    {
+      "id": "-267-002",
+      "title": "Ptolemy II's naval dominance in the eastern Mediterranean",
+      "region": "Ptolemaic Egypt and eastern Mediterranean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Ptolemy II Philadelphus maintains Ptolemaic naval supremacy in the eastern Mediterranean. The Ptolemaic fleet, the most powerful naval force of the Hellenistic world, controls key trade routes and protects Egyptian interests. This naval dominance is a cornerstone of Ptolemaic power and prosperity, allowing Egypt to project influence far beyond its borders and maintain control over distant territories such as Cyrenaica and Cyprus. The Ptolemaic navy is a symbol of Egyptian wealth and technological sophistication.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (Ptolemaic king, r. -285 to -246)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography 17.1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Ptolemaic Egypt (naval records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemaic naval dominance during Ptolemy II's reign is well-attested in multiple sources and supported by papyrological evidence. 267 BCE falls within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-267-003",
+      "title": "Qin Dynasty Terracotta Army construction",
+      "region": "China, Xi'an region (Qin capital)",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "cultural",
+      "description": "The construction of the Terracotta Army, one of the most remarkable archaeological discoveries of the modern era, is underway at the mausoleum of Qin Shi Huang near Xi'an. This massive project, involving thousands of artisans and laborers, represents the pinnacle of Qin craftsmanship and the emperor's ambitions for the afterlife. The Terracotta Army is a testament to the organizational capacity of the Qin state and its ability to mobilize vast resources for monumental projects. The army consists of thousands of life-sized terracotta figures of soldiers, horses, and chariots.",
+      "key_figures": [
+        "Qin Shi Huang (First Emperor of China, r. -221 to -210)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Terracotta Army site",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Terracotta Army was constructed during Qin Shi Huang's reign (r. -221 to -210). Archaeological evidence confirms the project's scale and sophistication. 267 BCE falls within this period, though the exact years of construction are uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, as with 266 BCE, no major events are definitively dated to 267 BCE in surviving sources. The events listed represent general trends within the reigns of Antiochus I, Ptolemy II, and Qin Shi Huang.",
+  "historiographic_note": "The historical record for 267 BCE is sparse in terms of specific dated events. Most information derives from later compilations and archaeological evidence. The absence of specific events dated to this year is typical for the 3rd century BCE, where ancient chronology is less precise than for later periods. The surviving sources are heavily weighted toward political and military history; economic, social, and cultural history must be reconstructed from material evidence and administrative records.",
+  "graph_edges": [
+    {
+      "from": "-267-001",
+      "to": "-261-001",
+      "relation": "part_of",
+      "note": "Antiochus I's reign and military consolidation of the Seleucid Empire"
+    },
+    {
+      "from": "-267-003",
+      "to": "-210-001",
+      "relation": "part_of",
+      "note": "Qin Shi Huang's reign and monumental construction projects"
+    }
+  ]
+}

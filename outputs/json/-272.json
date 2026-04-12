@@ -1,0 +1,92 @@
+{
+  "year": -272,
+  "year_label": "272 BCE",
+  "era_context": "The Hellenistic world is in a period of relative stability, though regional conflicts continue. The Seleucid Empire under Antiochus I is consolidating control over Asia Minor and the eastern Mediterranean. Ptolemaic Egypt maintains naval supremacy. Antigonid Macedonia is stable under Antigonus II Gonatas. In China, the Warring States period continues. Rome is expanding its influence in Italy and beginning to look toward the Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "India",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-272-001",
+      "title": "Pyrrhus of Epirus dies; end of his Italian campaigns",
+      "region": "Epirus and southern Italy",
+      "coordinates_approx": "39.0, 20.0",
+      "category": "military",
+      "description": "Pyrrhus, the ambitious king of Epirus, dies in 272 BCE (or possibly 275 BCE; dating is disputed). His death marks the end of his famous campaigns in Italy and Sicily against Rome and the Carthaginians. Though Pyrrhus achieved tactical victories (the 'Pyrrhic victories'), he ultimately failed to establish a lasting kingdom in the west and withdrew to Epirus. His death removes a major threat to Roman expansion in Italy and allows Rome to consolidate its control over the peninsula. Pyrrhus's campaigns are celebrated in later sources as a heroic but ultimately futile attempt to challenge Roman power.",
+      "key_figures": [
+        "Pyrrhus of Epirus (king of Epirus)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pyrrhus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, Ab Urbe Condita",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of Pyrrhus's death is disputed. Some sources place it as early as 275 BCE, others as late as 272 BCE. The traditional date is 272 BCE, but \u00b13 years is reasonable. Plutarch's biography is the most detailed source but was written centuries after the events.",
+      "cross_references": [
+        "Follows from Pyrrhus's campaigns in Italy (280\u2013275 BCE)"
+      ]
+    },
+    {
+      "id": "-272-002",
+      "title": "Rome defeats Tarentum and consolidates control over southern Italy",
+      "region": "Southern Italy, Roman Republic",
+      "coordinates_approx": "40.5, 17.0",
+      "category": "military",
+      "description": "Following the death or withdrawal of Pyrrhus, Rome defeats Tarentum, the last major Greek city-state in southern Italy, and consolidates its control over the entire Italian peninsula. The conquest of Tarentum marks the end of Greek political independence in Italy and the beginning of Rome's transformation into a Mediterranean superpower. The city is sacked and its wealth is plundered, but it is eventually incorporated into the Roman system as a subject city.",
+      "key_figures": [
+        "Roman consuls and generals (specific names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, Ab Urbe Condita (Book 15)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Tarentum is attested in Livy and other sources, and the date is traditionally given as 272 BCE. However, some sources place it as early as 275 BCE. The exact date is uncertain, but 272 BCE is the scholarly consensus.",
+      "cross_references": [
+        "Follows from Pyrrhus's withdrawal from Italy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Pyrrhus's death is one of the most disputed dates in ancient history. While 272 BCE is the traditional date, some modern scholars argue for 275 BCE or even later. The significance of Pyrrhus's campaigns is often overstated in later sources; while they were militarily impressive, they did not significantly alter the trajectory of Roman expansion. The conquest of Tarentum is sometimes portrayed as a dramatic siege, but the city may have surrendered or been taken with less resistance than later sources suggest.",
+  "historiographic_note": "The historical record for 272 BCE is dominated by later literary sources, particularly Plutarch and Livy, who wrote centuries after the events. These sources are often biased toward the Roman perspective and may exaggerate Roman military achievements. Contemporary evidence is sparse. The dating of events in this period is notoriously uncertain, and scholars often disagree on the chronology. Information about other regions is minimal.",
+  "graph_edges": [
+    {
+      "from": "-272-001",
+      "to": "-272-002",
+      "relation": "led_to",
+      "note": "Pyrrhus's death enabled Rome to consolidate control over southern Italy"
+    },
+    {
+      "from": "-272-002",
+      "to": "-264-FIRST_PUNIC_WAR",
+      "relation": "led_to",
+      "note": "Rome's consolidation of Italy set the stage for conflict with Carthage"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "year": -285,
+  "year_label": "285 BCE",
+  "era_context": "The Hellenistic world in the aftermath of Alexander's death (323 BCE). The Diadochi wars have largely concluded; the major Hellenistic kingdoms\u2014Ptolemaic Egypt, Seleucid Syria, and Macedon under Antigonus Gonatas\u2014are consolidating power. In China, the Warring States period continues with Qin ascendant. Rome is expanding in Italy and beginning Mediterranean naval competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek and Roman contact zones",
+    "Central Asia (limited Seleucid records)",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-285-001",
+      "title": "Ptolemy II Philadelphus becomes co-regent of Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy I Soter, founder of the Ptolemaic dynasty, elevates his son Ptolemy II to co-regent status in this year or shortly before (dating varies in sources). This transition secured dynastic stability and allowed Ptolemy I to focus on consolidating Egyptian control over the eastern Mediterranean. Ptolemy II would become one of the most culturally and administratively significant Hellenistic rulers, establishing the Library of Alexandria as a major intellectual center and expanding Egyptian naval power.",
+      "key_figures": [
+        "Ptolemy I Soter (retiring founder)",
+        "Ptolemy II Philadelphus (co-regent/heir)"
+      ],
+      "sources": [
+        {
+          "name": "Porphyry's Chronology (via Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyrological evidence from Ptolemaic Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The exact year of co-regency is debated; some sources place it at 285 BCE, others at 283 or 282 BCE. Papyrological records confirm the transition occurred in this general period.",
+      "cross_references": [
+        "Follows from -305-001 (Ptolemy I's founding of dynasty)",
+        "Leads to -282-001 (Ptolemy I's death)"
+      ]
+    },
+    {
+      "id": "-285-002",
+      "title": "Antigonus II Gonatas consolidates Macedonian power",
+      "region": "Macedon and Greece",
+      "coordinates_approx": "40.5, 22.0",
+      "category": "political",
+      "description": "Antigonus II Gonatas, grandson of Antigonus the One-Eyed, continues his consolidation of Macedonian control over Greece following his victory at the Battle of Corupedium (281 BCE). By 285 BCE, he has secured his position as the dominant Macedonian power and is establishing a stable dynasty. His reign marks the beginning of the Antigonid dynasty's long rule over Macedon.",
+      "key_figures": [
+        "Antigonus II Gonatas (King of Macedon)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process spanned several years; 285 BCE represents the approximate point of secure control, though exact dating is uncertain.",
+      "cross_references": [
+        "Follows from -281-001 (Battle of Corupedium)"
+      ]
+    },
+    {
+      "id": "-285-003",
+      "title": "Qin state continues expansion in Warring States China",
+      "region": "China (Qin state)",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "During this period, the Qin state under King Huiwen (or his successor) continues its military and administrative expansion, consolidating control over the Wei River valley and preparing for the campaigns that would eventually unify China under Qin Shi Huang. The Qin's legalist administrative system and military innovations give it increasing advantage over rival states.",
+      "key_figures": [
+        "King Huiwen of Qin (or successor, dating uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bamboo Annals (Zhushu Jinian)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chinese chronology for this period is reconstructed from later sources; exact dating of individual years and rulers is uncertain. The Shiji provides the main narrative framework.",
+      "cross_references": [
+        "Part of broader Qin expansion (-221-001 unification)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Ptolemy II's co-regency is disputed. Some modern scholars argue for 283 or 282 BCE rather than 285 BCE, based on papyrological evidence and chronological calculations. The significance of this transition has sometimes been overstated in older historiography; it was a gradual process rather than a dramatic event. Chinese chronology for this period remains contested; the Bamboo Annals and Shiji sometimes disagree on dates and ruler sequences.",
+  "historiographic_note": "The Hellenistic world is well-documented through later Greek and Roman historians, though contemporary records are sparse. Egyptian papyri provide administrative detail but are fragmentary. Chinese history relies heavily on the Shiji, compiled centuries later, introducing potential bias toward Qin legitimacy. Western sources dominate surviving records; Indian, Persian, and Central Asian developments are poorly attested for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-285-001",
+      "to": "-282-001",
+      "relation": "led_to",
+      "note": "Ptolemy II's co-regency preceded his sole rule after Ptolemy I's death"
+    },
+    {
+      "from": "-285-002",
+      "to": "-279-001",
+      "relation": "led_to",
+      "note": "Antigonus II's consolidation enabled Macedonian resistance to Gallic invasions"
+    }
+  ]
+}

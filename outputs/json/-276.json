@@ -1,0 +1,115 @@
+{
+  "year": -276,
+  "year_label": "276 BCE",
+  "era_context": "The Hellenistic world continues to stabilize after the Wars of the Diadochi. Antiochus I consolidates Seleucid power in the east; Antigonus II Gonatas strengthens Macedonian control over Greece; Ptolemy II Philadelphus rules Egypt at the height of Ptolemaic prosperity. Pyrrhus of Epirus is in the final stages of his Italian campaign. Rome is consolidating its dominance in Italy. The Galatian invasions of Anatolia have recently occurred, creating new political dynamics.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-276-001",
+      "title": "Pyrrhus withdraws from Italy",
+      "region": "Southern Italy and Epirus",
+      "coordinates_approx": "39.0, 20.0",
+      "category": "military",
+      "description": "Following his defeat at Beneventum in 275 BCE, Pyrrhus evacuates his remaining forces from Italy and returns to Epirus. This withdrawal marks the end of his ambitious campaign to establish a western Mediterranean empire and represents a significant Roman victory in consolidating control over Italy. Pyrrhus's departure leaves Rome as the undisputed master of the Italian peninsula.",
+      "key_figures": [
+        "Pyrrhus I of Epirus (king)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pyrrhus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, Ab Urbe Condita",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The withdrawal is well-attested in later sources. The exact timing within 276 BCE is uncertain; some sources suggest it occurred in late 275 BCE.",
+      "cross_references": [
+        "Follows from -275-003 (Battle of Beneventum)"
+      ]
+    },
+    {
+      "id": "-276-002",
+      "title": "Antigonus II Gonatas defeats Galatians",
+      "region": "Macedon and Thrace",
+      "coordinates_approx": "41.0, 25.0",
+      "category": "military",
+      "description": "Antigonus II Gonatas achieves a significant military victory against Galatian raiders who have been threatening Macedonian territory. This victory enhances Antigonus's prestige and solidifies his control over Macedon. The Galatians, having invaded Anatolia a few years earlier, continue to pose a threat to the stability of the eastern Hellenistic world, but this Macedonian victory demonstrates the capacity of established powers to contain them.",
+      "key_figures": [
+        "Antigonus II Gonatas (Macedonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus from numismatic and epigraphic evidence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek historians (Plutarch, Pausanias)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general fact of Antigonus's conflicts with Galatians is well-attested, but the specific dating of individual engagements is uncertain. 276 BCE is assigned conventionally.",
+      "cross_references": [
+        "Related to -280-001 (Galatian invasions of Anatolia)"
+      ]
+    },
+    {
+      "id": "-276-003",
+      "title": "Ptolemy II Philadelphus consolidates Egyptian power",
+      "region": "Egypt and eastern Mediterranean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy II Philadelphus, ruling Egypt at the height of Ptolemaic prosperity, continues to expand Egyptian naval power and commercial influence throughout the eastern Mediterranean. He maintains control over Cyprus, Phoenicia, and parts of the Aegean. His reign is marked by cultural patronage, including support for the Library of Alexandria and the Septuagint translation project. Egypt remains the wealthiest and most stable of the Hellenistic powers.",
+      "key_figures": [
+        "Ptolemy II Philadelphus (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus from numismatic, epigraphic, and papyrological evidence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek and Roman historians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy II's reign and general policies are well-documented through Egyptian papyri and Greek sources. The specific events of 276 BCE are less clearly delineated.",
+      "cross_references": [
+        "Related to -275-002 (Pyrrhus's Sicilian campaign, which involved Ptolemaic interests)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Pyrrhus as a brilliant but ultimately unsuccessful general is reinforced by 276 BCE events, but some modern scholars argue that Pyrrhus's strategic objectives were more limited than ancient sources suggest, and that his withdrawal was a rational decision rather than a defeat. The significance of Antigonus II's victories over the Galatians has been questioned by some historians who argue that the Galatian threat was exaggerated in later sources to enhance the prestige of Macedonian rulers.",
+  "historiographic_note": "The historical record for 276 BCE is sparse and heavily dependent on later Greek and Roman sources, particularly Plutarch and Livy. Contemporary documents are largely lost. Egyptian papyri provide some evidence for Ptolemaic activities, but specific events of this year are not well-documented. The record is dominated by military and political narratives involving major Hellenistic powers. Economic, social, and cultural developments are poorly attested. The record is almost entirely absent for regions outside the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-276-001",
+      "to": "-275-003",
+      "relation": "caused_by",
+      "note": "Pyrrhus's withdrawal was caused by his defeat at Beneventum"
+    },
+    {
+      "from": "-276-002",
+      "to": "-280-001",
+      "relation": "part_of",
+      "note": "Antigonus's conflicts with Galatians were part of the broader Galatian invasion crisis"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "year": -273,
+  "year_label": "273 BCE",
+  "era_context": "The Hellenistic world is in a period of relative stability. The three major Hellenistic powers\u2014Seleucid, Ptolemaic, and Antigonid\u2014maintain a balance of power. In China, the Warring States period continues with Qin ascendant. Rome is consolidating control over Italy and beginning to emerge as a major Mediterranean power. In India, the Mauryan Empire under Ashoka is expanding and consolidating its power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-273-001",
+      "title": "Ashoka becomes emperor of the Mauryan Empire",
+      "region": "Indian subcontinent, Mauryan Empire",
+      "coordinates_approx": "25.0, 77.0",
+      "category": "political",
+      "description": "Ashoka, grandson of Chandragupta Maurya, becomes emperor of the Mauryan Empire following the death of his father Bindusara. Ashoka's reign marks a turning point in Indian history. Initially, Ashoka pursues aggressive military expansion, but after witnessing the horrors of the conquest of Kalinga (c. 261 BCE), he converts to Buddhism and adopts a policy of non-violence (ahimsa). Ashoka becomes one of history's most important patrons of Buddhism and uses his imperial power to spread Buddhist teachings throughout Asia. His reign marks the height of Mauryan power and influence.",
+      "key_figures": [
+        "Ashoka (Mauryan emperor)",
+        "Bindusara (Ashoka's father, previous emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ashoka's own edicts (inscribed on stone pillars and rocks)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Buddhist texts (Pali Canon, Sanskrit texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (mentions Mauryan Empire)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Ashoka's accession is uncertain. Traditional sources place it around 273 BCE, but some scholars argue for dates as late as 268 BCE. Ashoka's own edicts provide contemporary evidence, but they do not explicitly state the date of his accession. The date 273 BCE is the scholarly consensus, but \u00b15 years is reasonable.",
+      "cross_references": [
+        "Leads to Ashoka's conquest of Kalinga (c. 261 BCE) and his conversion to Buddhism"
+      ]
+    },
+    {
+      "id": "-273-002",
+      "title": "Bindusara of the Mauryan Empire dies",
+      "region": "Indian subcontinent, Mauryan Empire",
+      "coordinates_approx": "25.0, 77.0",
+      "category": "political",
+      "description": "Bindusara, the second emperor of the Mauryan Empire and father of Ashoka, dies. Bindusara had expanded the Mauryan Empire to its greatest territorial extent, controlling most of the Indian subcontinent except for the southern tip. His death marks the transition to Ashoka's reign and the beginning of a new era in Mauryan history, characterized by Buddhist influence and a shift from military expansion to cultural and religious influence.",
+      "key_figures": [
+        "Bindusara (Mauryan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Buddhist texts (Pali Canon, Sanskrit texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of Bindusara's death is uncertain. Buddhist texts and later sources place it around 273 BCE, but the exact date is not definitively established. \u00b15 years is reasonable.",
+      "cross_references": [
+        "Immediately precedes Ashoka's accession"
+      ]
+    },
+    {
+      "id": "-273-003",
+      "title": "Qin state continues expansion in China",
+      "region": "Central China, Qin state",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "The Qin state continues its military and administrative expansion during the Warring States period. Qin consolidates control over the Wei River valley and begins campaigns to absorb neighboring states. The Qin's legalist administrative system and military innovations give it a significant advantage over rival states. This period marks the intensification of Qin's preparation for the eventual unification of China.",
+      "key_figures": [
+        "Qin rulers (specific names uncertain due to chronological uncertainty)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Qin sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shiji provides a chronological framework, but dating of specific events in the Warring States period is notoriously uncertain. This year is assigned by convention within the broader expansion narrative.",
+      "cross_references": [
+        "Part of the long process leading to Qin unification (221 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Ashoka's accession is disputed. While 273 BCE is the traditional date, some modern scholars argue for dates as late as 268 BCE. The significance of Ashoka's conversion to Buddhism is sometimes overstated; while it was important for the spread of Buddhism, the Mauryan Empire remained a military and political power, and Ashoka's 'non-violence' did not prevent him from maintaining a large army and engaging in political repression. The Buddhist texts that describe Ashoka's life were written centuries after his death and may contain legendary elements.",
+  "historiographic_note": "The historical record for 273 BCE is sparse and heavily dependent on later sources. Ashoka's own edicts provide contemporary evidence for his reign, but they do not explicitly state the date of his accession. Buddhist texts provide detailed accounts of Ashoka's life and reign, but they were written centuries after the events and may contain legendary elements. Information about other regions is minimal or absent from Indian sources. The dating of events in this period is uncertain, and scholars often disagree on the chronology.",
+  "graph_edges": [
+    {
+      "from": "-273-001",
+      "to": "-261-ASHOKA_KALINGA",
+      "relation": "led_to",
+      "note": "Ashoka's accession led to his military expansion and eventual conquest of Kalinga"
+    },
+    {
+      "from": "-273-002",
+      "to": "-273-001",
+      "relation": "led_to",
+      "note": "Bindusara's death directly led to Ashoka's accession"
+    }
+  ]
+}
