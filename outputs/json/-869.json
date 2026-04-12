@@ -1,0 +1,85 @@
+{
+  "year": -869,
+  "year_label": "869 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II (883\u2013859 BCE) has recently concluded its reign; his successor Shalmaneser III (858\u2013824 BCE) is consolidating power and expanding Assyrian dominion westward. In the Levant, Aramean and Phoenician city-states remain independent but increasingly pressured. Greece is in the Early Iron Age, with the Geometric period well established; the alphabet is beginning to spread from Phoenicia. Egypt is fragmented under the late 21st Dynasty, with power divided between Thebes and the Delta.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (China, early Zhou period)",
+    "Mesoamerica",
+    "South Asia (early Iron Age India)"
+  ],
+  "events": [
+    {
+      "id": "-869-001",
+      "title": "Shalmaneser III's early campaigns in northern Syria",
+      "region": "Northern Syria / Upper Mesopotamia",
+      "coordinates_approx": "36.5, 37.0",
+      "category": "military",
+      "description": "Shalmaneser III, newly ascended to the Assyrian throne (858 BCE), begins consolidating control over vassal territories and conducting campaigns in the Levant. Early campaigns target Aramean and Hittite successor states in northern Syria. These campaigns establish the pattern of Assyrian expansion that will dominate the region for the next century.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III's annals (cuneiform inscriptions from Kalhu/Nimrud)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Assyrian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's reign is well-attested in Assyrian records. The specific year 869 BCE falls early in his reign; exact dating of individual campaigns within his first decade relies on Assyrian king list chronology, which has minor uncertainties (\u00b11\u20132 years).",
+      "cross_references": [
+        "-853-001 (Battle of Qarqar, major coalition against Shalmaneser)"
+      ]
+    },
+    {
+      "id": "-869-002",
+      "title": "Continued fragmentation of Egyptian authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 21st Dynasty of Egypt (c. 1070\u2013945 BCE) is in its final decades, with effective power divided between the High Priests of Amun at Thebes and the kings ruling from Tanis in the Delta. This period sees the gradual erosion of centralized pharaonic authority and the rise of priestly power in Upper Egypt. By 869 BCE, this bifurcation is well-established and will persist until the 22nd Dynasty's reunification efforts.",
+      "key_figures": [
+        "Psusennes II (Pharaoh of Egypt, c. 959\u2013945 BCE, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple records from Thebes and Tanis",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on late 21st Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for this period is notoriously uncertain. The 21st Dynasty's dates are debated; some scholars place Psusennes II's reign earlier or later. The assignment of 869 BCE to this period is conventional but carries \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shalmaneser III's reign and early campaigns depends on Assyrian king list synchronisms with Egyptian and Levantine records. Some scholars argue for a 'low chronology' that would shift these events by 50\u2013100 years; however, the 'middle chronology' used here (placing Shalmaneser III's accession at 858 BCE) is currently the historiographic consensus. No major disconfirming evidence undermines the events listed, but the absolute dating should be treated as approximate.",
+  "historiographic_note": "Documentation for 869 BCE is heavily skewed toward Mesopotamia and Egypt, where written records survive. Assyrian royal inscriptions are detailed but propagandistic, emphasizing military victories and minimizing defeats. Egyptian records are fragmentary and often undated. The Levantine perspective comes largely from later Assyrian accounts of resistance. Greece, the Steppe, South Asia, East Asia, and Africa south of Egypt are essentially invisible in surviving sources for this year. The historical record reflects the survival of literate, monumental civilizations; oral cultures and non-state societies leave no direct trace.",
+  "graph_edges": [
+    {
+      "from": "-869-001",
+      "to": "-853-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's early campaigns provoked a coalition of Levantine states that culminated in the Battle of Qarqar in 853 BCE."
+    },
+    {
+      "from": "-869-002",
+      "to": "-945-001",
+      "relation": "part_of",
+      "note": "The fragmentation of Egyptian authority in the 21st Dynasty is a long-term process spanning the entire dynasty."
+    }
+  ]
+}

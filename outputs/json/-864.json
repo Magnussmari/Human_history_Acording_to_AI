@@ -1,0 +1,71 @@
+{
+  "year": -864,
+  "year_label": "864 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II (883\u2013859 BCE) has recently concluded its reign; his successor Shalmaneser III (858\u2013824 BCE) is consolidating power and beginning campaigns of expansion. In Greece, the Archaic period is emerging from the Dark Ages; the Olympic Games tradition is being established (traditional date 776 BCE, but this era sees early athletic competitions). The Zhou Dynasty in China is in the Spring and Autumn period, fragmented into competing states. Egypt is in the Third Intermediate Period, with the 22nd Dynasty ruling from Tanis.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological record)",
+    "Mesoamerica (Maya records exist but are sparse for this specific year)",
+    "Oceania (no written records; archaeological evidence minimal)"
+  ],
+  "events": [
+    {
+      "id": "-864-001",
+      "title": "Shalmaneser III's Early Campaigns in the Levant",
+      "region": "Mesopotamia, Levant (Syria, Palestine)",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III, newly ascended to the Assyrian throne (858 BCE), begins a series of military campaigns to consolidate Assyrian dominance in the Levant. These campaigns target the fragmented city-states and kingdoms of Syria and Palestine, including Aramean states and Phoenician cities. The campaigns are documented in Assyrian royal inscriptions and establish a pattern of Assyrian expansion that will define the next three decades. These military actions represent the continuation of Neo-Assyrian imperial policy under a new ruler.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria, r. 858\u2013824 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III's Annals and Monumental Inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's reign is well-attested in Assyrian records. The specific year 864 BCE is assigned by Assyriological chronology based on king lists and regnal years, with \u00b11\u20132 year uncertainty typical for this period.",
+      "cross_references": [
+        "-860-001 (Battle of Qarqar, culmination of these campaigns)"
+      ]
+    },
+    {
+      "id": "-864-002",
+      "title": "Possible Eruption or Volcanic Activity in the Mediterranean",
+      "region": "Mediterranean (possibly Aegean or Italy)",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "Ice core and tree-ring evidence suggests possible volcanic activity in the mid-9th century BCE, with some studies pointing to eruptions around 864\u2013860 BCE. The precise location and magnitude are debated. Such eruptions could have affected Mediterranean climate and agriculture, though direct contemporary documentation is absent. This event is included because environmental disruptions of this scale would have had regional impact, but the dating and attribution remain uncertain.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ice core records (Greenland Ice Sheet Project, GISP2) and dendrochronological studies",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Volcanic signals in ice cores are dated with \u00b12\u20135 year precision. Attribution to a specific volcano and confirmation of impact require cross-referencing multiple proxy records. No contemporary written sources document this event.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shalmaneser III's reign and early campaigns relies on Assyrian king lists and regnal year counts, which have been revised multiple times by scholars. Some older chronologies place these events 1\u20132 years earlier or later. Additionally, the significance of individual campaigns in 864 BCE is difficult to isolate from the broader pattern of Shalmaneser's reign; no single event of 864 BCE stands out as uniquely transformative in surviving records. The volcanic activity hypothesis is speculative and not confirmed by contemporary sources.",
+  "historiographic_note": "The historical record for 864 BCE is dominated by Assyrian royal inscriptions, which are propagandistic and emphasize military victories. Levantine and Egyptian perspectives on these same events are largely absent or fragmentary. The record is heavily skewed toward elite political and military history; economic, social, and cultural developments are poorly documented. Archaeological evidence from this period is sparse and unevenly distributed geographically. For regions outside the Near East, documentation is negligible.",
+  "graph_edges": [
+    {
+      "from": "-864-001",
+      "to": "-860-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's early campaigns culminate in the Battle of Qarqar in 853 BCE (traditional dating), where he faces a coalition of western states."
+    }
+  ]
+}

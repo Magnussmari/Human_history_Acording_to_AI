@@ -1,0 +1,119 @@
+{
+  "year": -857,
+  "year_label": "857 BCE",
+  "era_context": "The Neo-Assyrian Empire under Shalmaneser III continues its aggressive expansion into the Levant. The Syrian-Palestinian coalition remains fragmented but resilient. Israel under Ahab is in the latter part of his reign. Egypt is in the late 22nd Dynasty, with limited ability to project power into the Levant. This is a period of intense military competition and shifting alliances in the Eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia beyond general dynastic records",
+    "Mesoamerica",
+    "Western Europe"
+  ],
+  "events": [
+    {
+      "id": "-857-001",
+      "title": "Shalmaneser III's eighth campaign; continued pressure on the Syrian-Palestinian coalition",
+      "region": "Levant and northern Syria",
+      "coordinates_approx": "34.5, 36.5",
+      "category": "military",
+      "description": "Shalmaneser III's eighth campaign continued the pattern of annual military expeditions into the Levant. The coalition of Syrian and Palestinian states, including Damascus and Israel, continued to resist Assyrian domination. Shalmaneser's inscriptions claim victories and tribute, but the coalition's persistence suggests that Assyrian control remained incomplete. These campaigns established the precedent for Assyrian military hegemony in the region, though full conquest would not occur until later in the century.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Shalmaneser III",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser's annals document his campaigns systematically. The eighth campaign is securely dated within Assyrian chronology.",
+      "cross_references": [
+        "-858-001 (seventh campaign)",
+        "-856-001 (ninth campaign)"
+      ]
+    },
+    {
+      "id": "-857-002",
+      "title": "Ahab's final years; military and diplomatic activity",
+      "region": "Kingdom of Israel",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Ahab's reign was entering its final phase. He continued to maintain Israel's military strength and engage in regional diplomacy. The kingdom faced pressure from both Assyria (through Shalmaneser's campaigns) and from Aram-Damascus under Hadadezer. Ahab's reign is marked in later biblical sources as a period of religious controversy (the Elijah narratives), but contemporary sources focus on his military and political achievements. His death would occur within the next few years, likely in conflict with Aram-Damascus.",
+      "key_figures": [
+        "Ahab (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (1 Kings 22)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Samaria",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ahab's reign is confirmed by Assyrian sources. His death is traditionally dated to 853 BCE, making 857 BCE near the end of his reign. Specific events in 857 BCE are not independently documented.",
+      "cross_references": [
+        "-859-002 (beginning of Ahab's reign context)",
+        "-853-001 (Ahab's death)"
+      ]
+    },
+    {
+      "id": "-857-003",
+      "title": "Hadadezer of Damascus as a major regional power",
+      "region": "Kingdom of Aram-Damascus",
+      "coordinates_approx": "33.51, 36.31",
+      "category": "political",
+      "description": "Hadadezer (also known as Ben-Hadad II in biblical sources) ruled Damascus during a period of significant regional power. He led the coalition against Shalmaneser at Qarqar and continued to be a major player in Levantine politics. Hadadezer competed with Ahab of Israel for control of trade routes and border territories. His kingdom was one of the most powerful in the Levant during this period, though it would eventually succumb to Assyrian pressure.",
+      "key_figures": [
+        "Hadadezer (King of Damascus)"
+      ],
+      "sources": [
+        {
+          "name": "Kurkh Stele and Annals of Shalmaneser III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible (1 Kings 20, 2 Kings 8)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hadadezer is attested in contemporary Assyrian inscriptions. His reign dates and major activities are secure.",
+      "cross_references": [
+        "-859-001 (Hadadezer at Qarqar)",
+        "-842-001 (Hadadezer's eventual defeat by Assyria)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Shalmaneser III's claims of consistent victories and tribute collection are not fully supported by the evidence of the coalition's continued resistance and the lack of territorial consolidation. The biblical narrative of Ahab's death in battle against Aram-Damascus (1 Kings 22) is not corroborated by contemporary sources and may be a later theological or political narrative. The exact dating of Ahab's death remains uncertain, with some scholars placing it in 853 BCE and others suggesting slightly different dates.",
+  "historiographic_note": "The historical record for 857 BCE remains dominated by Assyrian royal inscriptions. The perspective of the Levantine states is largely absent from contemporary documentation. Archaeological evidence from the Levant provides material context but is often difficult to date precisely. The biblical narratives, while containing some historical information, are much later compilations and reflect theological and political concerns that may not accurately represent events of 857 BCE.",
+  "graph_edges": [
+    {
+      "from": "-857-001",
+      "to": "-856-001",
+      "relation": "led_to",
+      "note": "Continuation of Shalmaneser's campaign pattern"
+    },
+    {
+      "from": "-857-002",
+      "to": "-857-001",
+      "relation": "contemporary_with",
+      "note": "Ahab's reign coincided with Shalmaneser's military pressure"
+    },
+    {
+      "from": "-857-003",
+      "to": "-857-001",
+      "relation": "contemporary_with",
+      "note": "Hadadezer was a major player in the regional conflicts of this period"
+    }
+  ]
+}

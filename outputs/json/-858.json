@@ -1,0 +1,118 @@
+{
+  "year": -858,
+  "year_label": "858 BCE",
+  "era_context": "Continuation of the Neo-Assyrian expansion under Shalmaneser III. The Syrian-Palestinian coalition that confronted Assyria at Qarqar in 859 BCE remains active, though internal tensions are evident. Israel under Ahab continues as a major regional power. The Levantine political landscape is characterized by shifting alliances between larger powers (Assyria, Damascus, Egypt) and smaller city-states seeking to maintain independence or advantage.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia beyond general dynastic records",
+    "Mesoamerica",
+    "Western Europe (Iron Age, but no written records)"
+  ],
+  "events": [
+    {
+      "id": "-858-001",
+      "title": "Shalmaneser III's seventh campaign into Syria-Palestine",
+      "region": "Northern Levant and Syria",
+      "coordinates_approx": "34.5, 36.5",
+      "category": "military",
+      "description": "Shalmaneser III conducted his seventh military campaign westward, following up on the inconclusive Qarqar engagement. The campaign targeted cities in northern Syria and the Levantine coast. While Shalmaneser claimed victories and tribute collection, the coalition of Syrian and Palestinian states continued to resist full Assyrian domination. These annual campaigns established a pattern of Assyrian military pressure that would intensify over the following decades, eventually leading to the fall of Damascus and Israel.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Shalmaneser III",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Epigraphic records from Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser's annals document his campaigns year by year. The seventh campaign is securely dated within the Assyrian chronological framework.",
+      "cross_references": [
+        "-859-001 (preceding Qarqar campaign)",
+        "-857-001 (continuation of campaigns)"
+      ]
+    },
+    {
+      "id": "-858-002",
+      "title": "Continued reign of Ahab; internal consolidation in Israel",
+      "region": "Kingdom of Israel",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Ahab's reign continued with focus on internal administration and military preparation. Archaeological evidence from Samaria shows continued building activity and administrative organization. The kingdom maintained its chariot force and engaged in diplomacy with neighboring powers. Ahab's relationship with Aram-Damascus (under Hadadezer) remained competitive, with periodic conflicts over control of trade routes and border territories, particularly around the Golan Heights and the Jordan Valley.",
+      "key_figures": [
+        "Ahab (King of Israel)",
+        "Hadadezer (King of Damascus)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Samaria",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible (1 Kings 20)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ahab's reign is confirmed by Assyrian sources. Specific events within Israel in 858 BCE are not independently documented; the biblical account of conflicts with Damascus is much later and may conflate multiple events.",
+      "cross_references": [
+        "-859-002 (continuation of Ahab's reign)",
+        "-853-001 (Ahab's death)"
+      ]
+    },
+    {
+      "id": "-858-003",
+      "title": "Expansion of Assyrian administrative infrastructure",
+      "region": "Neo-Assyrian Empire (Mesopotamia and conquered territories)",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Under Shalmaneser III, the Assyrian Empire continued to develop its administrative and military infrastructure. The empire established a system of provincial governance, military logistics, and intelligence networks that allowed it to project power across vast distances. This period saw the development of the famous Assyrian chariot corps and the organization of standing armies, innovations that made Assyria the dominant military power of the Near East.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Assyrian cities (Ashur, Kalhu, Dur-Sharrukin)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general development of Assyrian administrative systems is well-documented across this period. Specific innovations in 858 BCE are not individually attested.",
+      "cross_references": [
+        "Part of broader Neo-Assyrian imperial expansion (-912 to -609 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Shalmaneser III's inscriptions claim consistent military victories and tribute collection, but the persistence of the Syrian-Palestinian coalition and the lack of territorial consolidation suggest these claims may be exaggerated. Modern scholarship interprets Shalmaneser's campaigns as establishing Assyrian dominance through repeated military pressure rather than decisive conquest. The biblical narrative of Ahab's conflicts with Damascus (1 Kings 20) is not corroborated by contemporary sources and may reflect later theological or political concerns.",
+  "historiographic_note": "The record for 858 BCE remains heavily dependent on Assyrian royal inscriptions, which are inherently biased toward Assyrian success. Levantine and Egyptian perspectives are largely absent from contemporary documentation. Archaeological evidence from the Levant provides material context but is often difficult to date precisely to individual years. The absence of contemporary written records from Israel, Damascus, or Egypt means that this period is viewed almost entirely through the lens of Assyrian imperial propaganda.",
+  "graph_edges": [
+    {
+      "from": "-858-001",
+      "to": "-857-001",
+      "relation": "led_to",
+      "note": "Continuation of Shalmaneser's annual campaign pattern"
+    },
+    {
+      "from": "-858-002",
+      "to": "-858-001",
+      "relation": "contemporary_with",
+      "note": "Ahab's reign coincided with Shalmaneser's military pressure"
+    }
+  ]
+}

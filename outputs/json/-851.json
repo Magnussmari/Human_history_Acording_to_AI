@@ -1,0 +1,92 @@
+{
+  "year": -851,
+  "year_label": "851 BCE",
+  "era_context": "The Iron Age II Levant, approximately three years after the Battle of Qarqar. Shalmaneser III's reign continues. In Israel, Ahaziah's brief reign is ending or has just ended, with succession to Jehoram (or Joram). The Levantine coalition remains a significant regional force but is under increasing pressure from Assyria. Egypt under the 22nd Dynasty continues its decline. The Greek world is in the Geometric period. In China, the Western Zhou dynasty is in its final years before the traditional collapse date of 771 BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (beyond oracle bone records)",
+    "Mesoamerica",
+    "The Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-851-001",
+      "title": "Death of Ahaziah and Succession of Jehoram in Israel",
+      "region": "Kingdom of Israel (Levant)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "According to biblical tradition, Ahaziah died after a brief reign of approximately one year, and was succeeded by his brother Jehoram (also called Joram). The Hebrew Bible attributes Ahaziah's death to injuries sustained in a fall, though the historical accuracy of this account is uncertain. Jehoram's reign (traditionally dated 851\u2013840 BCE) was marked by continued military pressure from Assyria and internal religious conflict. The succession of Jehoram represents a continuation of the Omride dynasty's rule in Israel, though the kingdom faced increasing external threats.",
+      "key_figures": [
+        "Ahaziah (King of Israel, deceased)",
+        "Jehoram/Joram (King of Israel, successor)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (2 Kings 1:17, 3:1\u201327)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus based on regnal chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The date of Ahaziah's death and Jehoram's succession is derived from biblical tradition and scholarly reconstruction of Israelite chronology. No contemporary external source documents these events. Some scholars place Jehoram's reign 850\u2013843 BCE or adjust the dates by several years. The biblical narrative is a later compilation.",
+      "cross_references": [
+        "-852-001 (Ahab's death)",
+        "-852-002 (Ahaziah's succession)",
+        "-840-001 (Jehoram's death and succession of Jehu)"
+      ]
+    },
+    {
+      "id": "-851-002",
+      "title": "Levantine Coalition Stability (inferred)",
+      "region": "Northern Levant (Syria-Palestine)",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "political",
+      "description": "The Levantine coalition that confronted Shalmaneser III at Qarqar in 854 BCE appears to have remained intact and relatively stable in 851 BCE, though no specific events are documented. The succession of Jehoram in Israel and the continuation of other Levantine states' independence suggest that the coalition maintained its cohesion despite Assyrian pressure. This period represents a lull in major military confrontations, though the underlying tension between the Levantine states and Assyria remained.",
+      "key_figures": [
+        "Jehoram (King of Israel)",
+        "Hadadezer (King of Damascus, if still reigning)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic inference from the pattern of Levantine-Assyrian relations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Absence of documented Assyrian campaigns in 851 BCE",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific events are documented for 851 BCE. This entry is inferred from the broader pattern of Levantine-Assyrian relations and the known reigns of the Levantine kings. The year is assigned by convention.",
+      "cross_references": [
+        "-854-001 (Battle of Qarqar)",
+        "-851-001 (Jehoram's succession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The biblical account of Ahaziah's death from a fall is not corroborated by external sources and may be legendary. The dating of Jehoram's reign is disputed among scholars, with some placing it 850\u2013843 BCE or adjusting the dates based on different chronological systems. The assumption that the Levantine coalition remained stable in 851 BCE is an inference based on the absence of documented Assyrian campaigns; it is possible that significant events occurred but were not recorded in surviving sources.",
+  "historiographic_note": "The historical record for 851 BCE is extremely sparse. No major events are documented in surviving sources. The year falls within the reign of Shalmaneser III and the reign of Jehoram in Israel, but contemporary sources provide no detailed account of activities in 851 BCE specifically. The record is dominated by biblical tradition, which is a later compilation and reflects the perspective of the Judean scribal tradition. No contemporary Assyrian sources document the succession of Jehoram. The reliability of the biblical chronology for this period is a matter of ongoing scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-852-002",
+      "to": "-851-001",
+      "relation": "led_to",
+      "note": "Ahaziah's brief reign ended with his death and Jehoram's succession"
+    },
+    {
+      "from": "-851-001",
+      "to": "-840-001",
+      "relation": "led_to",
+      "note": "Jehoram's reign lasted approximately 11 years before his death and the succession of Jehu"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "year": -849,
+  "year_label": "849 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns. The Kingdom of Israel under Ahab is at its height; the Aramean states (Damascus, Hamath) are consolidating power. In Greece, the Archaic period is beginning; in China, the Western Zhou dynasty is in decline, approaching the Spring and Autumn period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya records exist but are sparse for this specific year)",
+    "South Asia (limited contemporary documentation outside the Vedic tradition)"
+  ],
+  "events": [
+    {
+      "id": "-849-001",
+      "title": "Shalmaneser III's campaign to the Levant; Battle of Qarqar",
+      "region": "Levant (Syria, northern Mesopotamia)",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria conducted his sixth regnal year campaign into the Levant, encountering a coalition of western states including Israel (under Ahab), Damascus (under Hadadezer), Hamath, and others at Qarqar on the Orontes River. The Monolith Inscription of Shalmaneser III records this encounter as a major military engagement. The Assyrian account claims victory, though the coalition appears to have halted further Assyrian advance westward for several years. This campaign marks a critical moment in the balance of power between the rising Neo-Assyrian Empire and the established Levantine kingdoms.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Ahab (King of Israel)",
+        "Hadadezer (King of Damascus)"
+      ],
+      "sources": [
+        {
+          "name": "Monolith Inscription of Shalmaneser III (Kurkh Monolith)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals (cuneiform records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Kurkh Monolith is a contemporary royal inscription from Shalmaneser III's reign. The battle is dated to his sixth regnal year, which corresponds to 853 BCE in most modern chronologies. However, some scholars place it in 849 BCE depending on the length of Shalmaneser's reign and regnal year calculations. The discrepancy reflects ongoing debate about absolute dating in this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-849-002",
+      "title": "Ahab of Israel at the height of his power",
+      "region": "Kingdom of Israel (Levant)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Ahab ruled the Kingdom of Israel during a period of significant territorial expansion and economic prosperity. He is recorded in both Assyrian sources (the Monolith Inscription) and the Hebrew Bible as a major regional power. His reign saw the construction of the palace at Samaria and military alliances with neighboring kingdoms. The biblical account emphasizes his religious policies, particularly his support for Baal worship and conflict with the prophet Elijah, though the historicity of specific prophetic narratives remains debated.",
+      "key_figures": [
+        "Ahab (King of Israel)",
+        "Jezebel (Queen, wife of Ahab)"
+      ],
+      "sources": [
+        {
+          "name": "Monolith Inscription of Shalmaneser III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "1 Kings 16\u201322 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Samaria excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ahab's existence and general chronology are confirmed by Assyrian sources. The exact dates of his reign are debated; most scholars place him c. 874\u2013853 BCE, making 849 BCE within his reign. The biblical narratives are much later compilations and their specific historical claims require independent verification.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Qarqar is disputed. While traditionally assigned to 853 BCE based on Shalmaneser III's regnal year count, some scholars argue for dates ranging from 854\u2013849 BCE depending on chronological reconstruction methods. The Assyrian claim of victory at Qarqar is not corroborated by other sources and may reflect propagandistic framing; the coalition's ability to resist further Assyrian westward expansion suggests the battle was at best a stalemate. The biblical portrayal of Ahab's reign emphasizes religious conflict and moral judgment rather than political-military reality, and these narratives were composed centuries after his death.",
+  "historiographic_note": "The historical record for 849 BCE in the Levant relies heavily on Assyrian royal inscriptions, which are propagandistic in nature and designed to glorify the king. The Hebrew Bible provides parallel accounts but was compiled much later (likely 6th\u20134th centuries BCE) and reflects theological rather than purely historical concerns. Archaeological evidence from Samaria and other Levantine sites provides material context but rarely permits precise year-by-year dating. For regions outside the Levant and Mesopotamia, documentation is minimal or absent. The chronology of this period remains contested among scholars, with variations of \u00b15\u201310 years not uncommon.",
+  "graph_edges": [
+    {
+      "from": "-849-001",
+      "to": "-853-QARQAR_BATTLE",
+      "relation": "contemporary_with",
+      "note": "The Battle of Qarqar is dated variously to 853 or 849 BCE; this entry assumes 849 BCE, but the event may belong to 853 BCE depending on chronological system used."
+    },
+    {
+      "from": "-849-002",
+      "to": "-853-AHAB_REIGN",
+      "relation": "part_of",
+      "note": "Ahab's reign spans multiple years; 849 BCE falls within his documented period of rule."
+    }
+  ]
+}

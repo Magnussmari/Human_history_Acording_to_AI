@@ -1,0 +1,115 @@
+{
+  "year": -855,
+  "year_label": "855 BCE",
+  "era_context": "The Neo-Assyrian Empire under Shalmaneser III continues its military dominance in the Near East. The Syrian-Palestinian coalition remains active but increasingly fragmented under Assyrian pressure. Israel under Ahab is in the final year or two of his reign. This is a transitional period in Levantine politics, with the old order of independent city-states and kingdoms giving way to Assyrian hegemony. Egypt remains politically fragmented and unable to project significant power into the Levant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia beyond general dynastic records",
+    "Mesoamerica",
+    "Western Europe"
+  ],
+  "events": [
+    {
+      "id": "-855-001",
+      "title": "Shalmaneser III's tenth campaign; consolidation of Assyrian dominance",
+      "region": "Levant and northern Syria",
+      "coordinates_approx": "34.5, 36.5",
+      "category": "military",
+      "description": "Shalmaneser III's tenth campaign continued the pattern of annual military expeditions into the Levant. By this point, Shalmaneser had established a clear pattern of military dominance, though the coalition of Syrian and Palestinian states continued to resist full political subjugation. The campaigns established Assyrian military hegemony and extracted tribute from the region, but did not result in the complete conquest and annexation that would occur under later Assyrian kings.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Shalmaneser III",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser's annals document his campaigns systematically. The tenth campaign is securely dated within Assyrian chronology.",
+      "cross_references": [
+        "-856-001 (ninth campaign)",
+        "-854-001 (eleventh campaign)"
+      ]
+    },
+    {
+      "id": "-855-002",
+      "title": "Death of Ahab of Israel; succession of Ahaziah",
+      "region": "Kingdom of Israel",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Ahab's reign ended, likely in 853 BCE according to most scholars, though some sources place his death in 855 BCE. He was succeeded by his son Ahaziah. Ahab's death marked the end of the most powerful phase of the Omride dynasty. The succession of Ahaziah, who ruled for only a brief period (likely 853\u2013852 BCE), marked a transition in Israel's political fortunes. The kingdom would face increasing pressure from both Assyria and internal instability in the following years.",
+      "key_figures": [
+        "Ahab (King of Israel, died)",
+        "Ahaziah (King of Israel, successor)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (1 Kings 22, 2 Kings 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian inscriptions (indirect reference through chronological framework)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ahab's death is traditionally dated to 853 BCE, but some scholars place it in 855 BCE. The exact year is uncertain, though it occurred in the mid-850s BCE. The biblical account of his death in battle against Aram-Damascus is not corroborated by contemporary sources.",
+      "cross_references": [
+        "-859-002 (beginning of Ahab's reign)",
+        "-853-001 (alternative dating for Ahab's death)"
+      ]
+    },
+    {
+      "id": "-855-003",
+      "title": "Hadadezer of Damascus at the height of his power",
+      "region": "Kingdom of Aram-Damascus",
+      "coordinates_approx": "33.51, 36.31",
+      "category": "political",
+      "description": "Hadadezer of Damascus remained one of the most powerful rulers in the Levant. He led the coalition against Shalmaneser at Qarqar and continued to compete with Israel for regional dominance. Damascus was a major center of trade and military power, controlling strategic routes through the Levant. Hadadezer's kingdom would eventually be conquered by Assyria, but in 855 BCE he remained a major player in regional politics.",
+      "key_figures": [
+        "Hadadezer (King of Damascus)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Shalmaneser III",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hadadezer is attested in contemporary Assyrian inscriptions. His reign and activities are well-documented.",
+      "cross_references": [
+        "-859-001 (Hadadezer at Qarqar)",
+        "-842-001 (Hadadezer's eventual defeat by Assyria)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ahab's death is uncertain; while 853 BCE is the traditional date, some scholars place it in 855 BCE or nearby years. The biblical narrative of Ahab's death in battle against Aram-Damascus is not corroborated by contemporary sources and may reflect later theological or political narratives. Shalmaneser III's claims of consistent victories are not fully supported by the evidence of the coalition's continued resistance.",
+  "historiographic_note": "The historical record for 855 BCE remains dominated by Assyrian royal inscriptions. Levantine perspectives are largely absent from contemporary documentation. The dating of Ahab's death is a point of scholarly debate, with different chronological systems placing it in different years. Archaeological evidence from the Levant provides material context but is often difficult to date precisely. The biblical narratives, while containing some historical information, are much later compilations reflecting theological and political concerns.",
+  "graph_edges": [
+    {
+      "from": "-855-001",
+      "to": "-854-001",
+      "relation": "led_to",
+      "note": "Continuation of Shalmaneser's campaign pattern"
+    },
+    {
+      "from": "-855-002",
+      "to": "-859-002",
+      "relation": "led_to",
+      "note": "End of Ahab's reign; succession of Ahaziah"
+    },
+    {
+      "from": "-855-003",
+      "to": "-842-001",
+      "relation": "led_to",
+      "note": "Hadadezer's eventual defeat by Assyria"
+    }
+  ]
+}
