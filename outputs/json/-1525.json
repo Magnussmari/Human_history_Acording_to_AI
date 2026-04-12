@@ -1,0 +1,92 @@
+{
+  "year": -1525,
+  "year_label": "1526 BCE",
+  "era_context": "Late Bronze Age Levant and Eastern Mediterranean. The Hittite Empire under Mursili II is consolidating power in Anatolia. Egypt under the 18th Dynasty (Thutmose III era) is expanding its New Kingdom dominance. Mycenaean Greece is in the early Late Bronze Age (LH IIIA). The Shang Dynasty controls the Yellow River valley in China. This is a period of intense inter-regional trade, military competition, and palace-centered administration across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records; archaeological context available but not year-specific)",
+    "Mesoamerica (no written chronology synchronized to this date; archaeological phases known but not precisely dated to individual years)",
+    "Pacific Oceania (no written records; settlement patterns inferred from archaeology)"
+  ],
+  "events": [
+    {
+      "id": "-1525-001",
+      "title": "Eruption of Thera (Santorini) \u2014 Minoan eruption",
+      "region": "Aegean Sea, Crete, Eastern Mediterranean",
+      "coordinates_approx": "36.4\u00b0N, 25.4\u00b0E",
+      "category": "environmental",
+      "description": "The catastrophic eruption of the Thera volcano (modern Santorini) occurred during the Late Bronze Age, destroying much of the Minoan civilization on Crete and generating a massive tsunami. The eruption ejected vast quantities of ash and pumice across the Eastern Mediterranean, affecting climate and agriculture across the region. This event has been proposed as a historical basis for Plato's Atlantis narrative and may have contributed to the decline of Minoan palatial culture. The eruption's precise dating remains contested, with estimates ranging from c. 1650\u20131500 BCE depending on methodology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Akrotiri, Thera; tephra layers in Mediterranean cores",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating (14C) and ice-core analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records mentioning 'Keftiu' disruption (18th Dynasty texts)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The eruption is archaeologically confirmed, but its precise date is disputed. High-precision radiocarbon dating and ice-core synchronization suggest c. 1600 BCE \u00b1 50 years; some scholars argue for c. 1525 BCE based on Egyptian chronology. Assigned to -1525 here following one major chronological framework, but \u00b175 years is realistic uncertainty.",
+      "cross_references": [
+        "Relates to decline of Minoan palatial centers (c. -1500 to -1450)",
+        "Contemporary with Hittite expansion under Mursili II"
+      ]
+    },
+    {
+      "id": "-1525-002",
+      "title": "Hittite military campaigns under Mursili II",
+      "region": "Anatolia, Syria, Upper Mesopotamia",
+      "coordinates_approx": "39.0\u00b0N, 35.0\u00b0E",
+      "category": "military",
+      "description": "Mursili II of the Hittite Empire conducted extensive military campaigns to consolidate Hittite control over Anatolia and expand into Syria and the Levant. These campaigns are documented in the Annals of Mursili II, a detailed royal inscription. The campaigns targeted rebellious vassal states and rival powers, establishing Hittite hegemony over much of the eastern Mediterranean and Near East. These military successes laid the foundation for the Hittite Empire's dominance in the Late Bronze Age.",
+      "key_figures": [
+        "Mursili II (Hittite Great King)",
+        "Suppiluliuma I (predecessor, context)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Mursili II (cuneiform texts from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records (18th Dynasty correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Annals of Mursili II are contemporary royal inscriptions, but the precise year-by-year chronology of his reign (c. 1295\u20131272 BCE in conventional dating, or c. 1450\u20131420 BCE in alternative 'low' chronologies) remains debated. Assigned here following one major chronological framework.",
+      "cross_references": [
+        "Part of broader Hittite imperial expansion",
+        "Contemporary with Egyptian 18th Dynasty expansion"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Thera eruption is highly contested. While traditionally placed c. 1500 BCE, recent high-precision radiocarbon dating and ice-core analysis suggest c. 1600 BCE, pushing it outside the conventional -1525 date. Some scholars argue for c. 1450 BCE based on Egyptian chronological synchronisms. The 'low' vs. 'high' chronology debate for the Bronze Age means Mursili II's reign could be dated 150+ years earlier or later than stated here. No single 'correct' date exists; the assignment to -1525 is conventional but disputed.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian and Hittite royal inscriptions, which are biased toward elite military and political narratives. The Thera eruption is known primarily through archaeology and later classical references (Plato), not contemporary written records. Chronological synchronization between Egyptian, Hittite, and Aegean chronologies remains a major scholarly debate, with 'high,' 'middle,' and 'low' chronologies differing by 100\u2013150 years. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this period; knowledge of these regions comes from archaeology alone. The Shang Dynasty in China is documented in oracle bone inscriptions, but year-specific events for -1525 are not clearly attested.",
+  "graph_edges": [
+    {
+      "from": "-1525-001",
+      "to": "-1500-MINOAN_DECLINE",
+      "relation": "led_to",
+      "note": "Thera eruption contributed to the decline of Minoan palatial civilization"
+    },
+    {
+      "from": "-1525-002",
+      "to": "-1450-HITTITE_HEGEMONY",
+      "relation": "part_of",
+      "note": "Mursili II's campaigns were part of sustained Hittite imperial expansion"
+    }
+  ]
+}

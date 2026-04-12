@@ -1,0 +1,82 @@
+{
+  "year": -1516,
+  "year_label": "1517 BCE",
+  "era_context": "Late Bronze Age Eastern Mediterranean and Near East. Thutmose III's reign represents the height of Egyptian imperial power. The Hittite Empire is consolidating control over Anatolia. The Mitanni kingdom remains a major regional power in northern Mesopotamia and Syria. Mycenaean Greece is in the Late Helladic II period, with palace centers developing increasing complexity. Kassite Babylon controls Mesopotamia. This is a period of relative stability and international trade before the Late Bronze Age Collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia beyond fragmentary Shang oracle bones",
+    "The Americas",
+    "Northern Europe and Scandinavia",
+    "Central Asia and the Steppe",
+    "Southeast Asia",
+    "The Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-1516-001",
+      "title": "Egyptian temple construction and religious consolidation",
+      "region": "Egypt",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "religious",
+      "description": "During Thutmose III's reign, extensive temple construction projects were undertaken, particularly at Karnak and Luxor. These temples served both religious and propagandistic purposes, reinforcing the pharaoh's divine authority and connection to the gods. The temples also functioned as centers of economic power, accumulating land and wealth. The construction of these monuments required significant labor, resources, and organizational capacity, reflecting the power and stability of the Egyptian state during this period.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "High priests and temple officials (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and architectural remains at Karnak and Luxor",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative records and papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Temple construction during Thutmose III's reign is well-documented archaeologically. Precise dating of specific construction phases to individual years is not possible.",
+      "cross_references": [
+        "-1517-001"
+      ]
+    },
+    {
+      "id": "-1516-002",
+      "title": "Mycenaean palace development in Greece",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "37.7, 23.4",
+      "category": "cultural",
+      "description": "During the Late Helladic II period (c. 1600\u20131450 BCE), Mycenaean palace centers at Mycenae, Tiryns, and Pylos were developing increasingly complex architectural and administrative structures. These palaces served as centers of political, economic, and religious authority. The development of these palace centers reflects the emergence of a hierarchical society with specialized craftspeople, administrators, and warriors. The palaces were decorated with frescoes and contained storage facilities for agricultural products and luxury goods, indicating participation in long-distance trade networks.",
+      "key_figures": [
+        "Mycenaean rulers (identities unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from palace sites at Mycenae, Tiryns, and Pylos",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B inscriptions (later, from c. 1450\u20131200 BCE)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean palace development is well-documented archaeologically, but precise dating of specific construction phases to individual years is not possible. The chronology of Late Helladic II is based on pottery typology and stratigraphic analysis, introducing uncertainty of \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Mycenaean Greece remains contested. Some scholars propose earlier dates for the emergence of palace centers, while others argue for later dates. The relationship between Mycenaean Greece and the broader Mediterranean world during this period is debated; some scholars emphasize Mycenaean independence, while others stress dependence on or subordination to Egyptian and Hittite powers. The extent of Mycenaean trade networks and the nature of Mycenaean political organization remain subjects of scholarly debate.",
+  "historiographic_note": "For Egyptian events, sources are heavily biased toward royal and religious perspectives. For Mycenaean Greece, sources are entirely archaeological; no contemporary written records survive (Linear B inscriptions are from a later period). The survival of archaeological evidence is heavily dependent on preservation conditions and the priorities of modern archaeologists. Large regions of the Mycenaean world left no substantial archaeological remains.",
+  "graph_edges": [
+    {
+      "from": "-1516-001",
+      "to": "-1517-001",
+      "relation": "contemporary_with",
+      "note": "Part of the same period of Egyptian administrative and religious consolidation"
+    }
+  ]
+}
