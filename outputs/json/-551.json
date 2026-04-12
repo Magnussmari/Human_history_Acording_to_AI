@@ -1,0 +1,105 @@
+{
+  "year": -551,
+  "year_label": "551 BCE",
+  "era_context": "Mid-6th century BCE: the Axial Age. The Persian Achaemenid Empire under Cyrus II is in the midst of rapid territorial expansion. In Greece, the Archaic period continues; city-states are developing distinct political systems. In China, the Spring and Autumn period is ongoing; the state of Lu is a significant power. In India, early Vedic traditions are being systematized; the Buddha and Mahavira are teaching or about to teach. Egypt is under Persian rule following the conquest of 525 BCE (future from this perspective).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: minimal written sources",
+    "Americas: no written records; archaeological dating imprecise",
+    "Northern Europe: sparse written sources; primarily archaeological evidence",
+    "Southeast Asia: limited written sources; primarily archaeological evidence"
+  ],
+  "events": [
+    {
+      "id": "-551-001",
+      "title": "Confucius born (traditional date)",
+      "region": "State of Lu, China",
+      "coordinates_approx": "35.6, 117.0",
+      "category": "cultural",
+      "description": "According to the Shiji (Records of the Grand Historian), Confucius (Kong Qiu, \u5b54\u4e18) is born in 551 BCE in the state of Lu during the Spring and Autumn period. Some sources date his birth to 552 BCE; the exact year is uncertain. Confucius will become the foundational figure of Confucianism, a philosophical and ethical system that profoundly influences East Asian civilization. His teachings on ritual propriety (li), filial piety, and virtuous governance will be systematized by later disciples and compiled in the Analects (Lunyu).",
+      "key_figures": [
+        "Confucius (Kong Qiu, \u5b54\u4e18)",
+        "Kong He (father, died when Confucius was young)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lunyu (Analects of Confucius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The date 551 BCE is the traditional date from the Shiji, compiled ~400 years after Confucius's death. Modern scholars debate the accuracy; some accept 551 BCE, others propose 552 BCE or alternative dates. No contemporary documentation exists. The date should be treated as approximate (\u00b15 years).",
+      "cross_references": []
+    },
+    {
+      "id": "-551-002",
+      "title": "Cyrus II continues expansion of the Persian Achaemenid Empire",
+      "region": "Achaemenid Empire, Near East, Central Asia",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "political",
+      "description": "Cyrus II (Cyrus the Great) continues his campaigns of conquest and consolidation. By 551 BCE, Persian forces are expanding eastward and consolidating control over previously conquered territories in Anatolia and the Levant. The empire is developing administrative structures to govern diverse peoples. Cyrus is establishing a reputation for relative tolerance toward conquered peoples, allowing them to maintain local religious practices and some autonomy. This approach will become a hallmark of Achaemenid imperial policy.",
+      "key_figures": [
+        "Cyrus II (Cyrus the Great, King of Persia)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Nabonidus Chronicle (Babylonian cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Cyrus's expansion is well-attested, but exact dating of campaigns within the 550s BCE is uncertain. Herodotus wrote a century later; the Nabonidus Chronicle provides near-contemporary Babylonian perspective.",
+      "cross_references": [
+        "Related to -550-001 (Cyrus's consolidation)"
+      ]
+    },
+    {
+      "id": "-551-003",
+      "title": "Thales of Miletus active in natural philosophy",
+      "region": "Ionia (Greek Asia Minor), Miletus",
+      "coordinates_approx": "37.36, 27.27",
+      "category": "scientific",
+      "description": "Thales of Miletus continues his work in natural philosophy and geometry during this period. He is engaged in systematic inquiry into the nature of matter, geometry, and astronomy. Thales represents the emergence of rational, non-mythological explanation in Greek thought. His work establishes the Milesian school of philosophy, which will influence subsequent Greek thinkers.",
+      "key_figures": [
+        "Thales of Miletus (natural philosopher, mathematician, astronomer)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Metaphysics (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of Eminent Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thales's floruit is traditionally placed around 585\u2013550 BCE, but exact dating is uncertain. No contemporary writings survive. Later sources provide biographical information written 200+ years after his death.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional birth date of Confucius (551 BCE) is questioned by some modern scholars. The Shiji date may be symbolic or approximate rather than precise. Some scholars propose 552 BCE or other dates. Additionally, the extent of Cyrus II's direct control over all conquered territories by 551 BCE is debated; some regions may have been nominally subject but not fully integrated into the imperial administration.",
+  "historiographic_note": "The historical record for 551 BCE is heavily dependent on later compilations. Chinese sources (Shiji) were compiled 400+ years later but represent the most systematic attempt to chronicle this period in East Asia. Greek sources (Herodotus, Xenophon) were written 50\u2013100 years after events. Persian sources are limited; the Nabonidus Chronicle provides a Babylonian perspective. The record is biased toward political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, the Americas, and Northern Europe are essentially absent from written sources.",
+  "graph_edges": [
+    {
+      "from": "-551-001",
+      "to": "-551-002",
+      "relation": "contemporary_with",
+      "note": "Confucius's birth and Cyrus II's expansion occur in the same era, representing parallel developments in Chinese and Persian civilization"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "year": -559,
+  "year_label": "559 BCE",
+  "era_context": "The mid-6th century BCE spans the late Archaic period in Greece, the reign of Cyrus II (the Great) in the Achaemenid Persian Empire, the later Spring and Autumn period in China under various warring states, and the Iron Age in the Mediterranean and Near East. This is an era of imperial consolidation in Persia, philosophical ferment in Greece and China, and the emergence of coinage as a medium of exchange.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological and textual evidence)",
+    "Northern Europe beyond Greek and Roman awareness",
+    "Mesoamerica (no written records of this period survive)"
+  ],
+  "events": [
+    {
+      "id": "-559-001",
+      "title": "Cyrus II defeats the Median Empire and establishes Achaemenid hegemony",
+      "region": "Persia, Media, Near East",
+      "coordinates_approx": "35.5, 52.0",
+      "category": "military",
+      "description": "Cyrus II, founder of the Achaemenid Persian Empire, consolidates power by defeating the Median king Astyages and absorbing Media into the Persian state. This victory marks the beginning of Persian imperial expansion and establishes Cyrus as the dominant power in the Near East. The conquest is attested in later Greek sources and cuneiform records, though the exact dating remains debated among scholars. This event fundamentally reshapes the geopolitical landscape of the ancient world.",
+      "key_figures": [
+        "Cyrus II (King of Persia)",
+        "Astyages (King of Media)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Nabonidus Chronicle (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cyrus Cylinder (cuneiform inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Nabonidus Chronicle and Cyrus Cylinder provide near-contemporary attestation, but Herodotus's account, written ~80 years later, contains legendary elements. Modern scholarship places the conquest in the 550s BCE, with \u00b13 year uncertainty.",
+      "cross_references": [
+        "Relates to -550-001 (Cyrus's conquest of Lydia)",
+        "Precedes -539-001 (Cyrus's conquest of Babylon)"
+      ]
+    },
+    {
+      "id": "-559-002",
+      "title": "Pisistratus consolidates tyranny in Athens",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Pisistratus, having seized power in Athens around 561 BCE, consolidates his rule and establishes a stable tyranny. By 559 BCE, he has secured his position through a combination of military support, popular policies (land redistribution, public works), and the backing of rural factions. His reign marks a transition from aristocratic factional conflict to more centralized rule, though democratic institutions remain nominally intact. Pisistratus's patronage of the arts and infrastructure projects lay groundwork for later Athenian cultural flourishing.",
+      "key_figures": [
+        "Pisistratus (Tyrant of Athens)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pisistratus's seizure of power is dated to c. 561 BCE by ancient sources, with consolidation occurring over the following years. The exact chronology is uncertain; sources written 150+ years later may conflate or misdate events.",
+      "cross_references": [
+        "Part of broader Athenian political development leading to democracy"
+      ]
+    },
+    {
+      "id": "-559-003",
+      "title": "Confucius born (traditional date)",
+      "region": "Lu, China (modern Shandong Province)",
+      "coordinates_approx": "35.6, 117.0",
+      "category": "cultural",
+      "description": "According to traditional Chinese sources, Confucius (Kong Qiu) was born in 551 BCE in the state of Lu during the Spring and Autumn period. However, some modern scholars place his birth in 552 or 553 BCE. The traditional date of 551 BCE is widely accepted in East Asian scholarship, though Western scholars sometimes cite 559 BCE as an alternative. Confucius would become one of history's most influential philosophers, shaping Chinese thought, ethics, and governance for over two millennia.",
+      "key_figures": [
+        "Confucius (Kong Qiu)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lunyu (Analects of Confucius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The birth date of Confucius is not attested in contemporary sources. The Shiji, compiled ~400 years after Confucius's death, gives 551 BCE as the traditional date. Modern scholarship debates whether this reflects actual historical memory or symbolic dating. Some sources cite 559 BCE; others 552 BCE. The uncertainty is inherent to the source tradition.",
+      "cross_references": [
+        "Foundational to Chinese philosophical tradition"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Cyrus II's conquest of Media is debated: some scholars place it as early as 553 BCE, others as late as 547 BCE. The Nabonidus Chronicle is our most reliable source, but its exact chronological alignment with Greek sources remains uncertain. Herodotus's account of Cyrus's birth and early life contains legendary elements (the story of Astyages's dream) that modern scholarship treats as mythological rather than historical. The birth date of Confucius is entirely traditional; no contemporary evidence exists, and the date may be symbolic rather than historical.",
+  "historiographic_note": "The mid-6th century BCE is well-documented for the Near East and Greece through a combination of cuneiform records, Greek historiography (though written decades or centuries later), and archaeological evidence. Chinese sources for this period are primarily later compilations (Shiji, Chunqiu). The bias toward Near Eastern and Greek sources in surviving records means that developments in India, Sub-Saharan Africa, and the Americas are largely absent from the historical record. Herodotus, our primary Greek source, wrote ~80 years after these events and incorporated legendary material. Cuneiform sources (Nabonidus Chronicle, Cyrus Cylinder) are more contemporaneous but fragmentary.",
+  "graph_edges": [
+    {
+      "from": "-559-001",
+      "to": "-550-001",
+      "relation": "led_to",
+      "note": "Cyrus's consolidation of Persian power enables his subsequent conquest of Lydia"
+    },
+    {
+      "from": "-559-002",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "Pisistratus's tyranny sets precedent for later Athenian political struggles"
+    },
+    {
+      "from": "-559-003",
+      "to": "-479-001",
+      "relation": "led_to",
+      "note": "Confucius's life and teachings shape Chinese philosophy and governance for millennia"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "year": -555,
+  "year_label": "555 BCE",
+  "era_context": "Mid-6th century BCE: Cyrus II is in the midst of his imperial expansion; Greek city-states are developing their political institutions; China's Spring and Autumn period continues with interstate conflict. This era is characterized by the rise of large territorial empires and the emergence of philosophical thought.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-555-001",
+      "title": "Cyrus II's continued expansion toward Lydia",
+      "region": "Anatolia, Persia",
+      "coordinates_approx": "38.5, 28.0",
+      "category": "military",
+      "description": "Cyrus II continues his military campaigns in western Anatolia, consolidating Persian control over territories and moving toward a confrontation with Lydia. The exact sequence of events in the mid-550s BCE is uncertain, but this period represents the buildup to the famous conflict between Cyrus and the Lydian king Croesus. Persian expansion into Anatolia brings the empire into contact with Greek city-states and establishes Persian hegemony over much of the Near East and western Asia.",
+      "key_figures": [
+        "Cyrus II (King of Persia)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Nabonidus Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The year 555 BCE falls within the period of Cyrus's Anatolian campaigns, but no specific event is attested for this year. The conquest of Lydia is traditionally dated to 546 BCE, suggesting that campaigns in 555 BCE would be preliminary operations.",
+      "cross_references": [
+        "Part of broader Cyrus II expansion",
+        "Precedes -546-001 (conquest of Lydia)"
+      ]
+    },
+    {
+      "id": "-555-002",
+      "title": "Nabonidus of Babylon consolidates power",
+      "region": "Babylon, Mesopotamia",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Nabonidus, who seized the throne of Babylon in 556 BCE, consolidates his rule and begins his reign. He is an outsider to the Babylonian royal family, and his legitimacy is contested. Nabonidus undertakes religious and military policies aimed at strengthening Babylon's position in the face of rising Persian power. He is known for his antiquarian interests and his controversial religious policies, particularly his elevation of the moon god Sin over the traditional chief god Marduk. His reign will last until the Persian conquest of Babylon in 539 BCE.",
+      "key_figures": [
+        "Nabonidus (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Nabonidus Chronicle (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nabonidus's reign is well-attested in cuneiform sources, particularly the Nabonidus Chronicle. His accession is dated to 556 BCE, and his consolidation of power would have occurred in the following years.",
+      "cross_references": [
+        "Precedes -539-001 (Persian conquest of Babylon)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Cyrus's campaigns in Anatolia remains uncertain. Some scholars argue that the conquest of Lydia occurred earlier than the traditional date of 546 BCE, while others place it later. Herodotus's account of Croesus and Cyrus contains legendary elements (the Oracle at Delphi, the story of Croesus's wealth) that modern scholarship treats as mythological embellishment rather than historical fact. Nabonidus's religious policies, particularly his elevation of Sin, are controversial and may have contributed to his unpopularity; later Babylonian sources (influenced by the priests of Marduk) portray him negatively.",
+  "historiographic_note": "555 BCE is a year for which specific historical events are poorly attested. The broader context of Cyrus II's expansion and Nabonidus's reign is well-documented, but this particular year does not stand out in surviving sources. Ancient historians typically recorded events by reign or major campaign rather than by calendar year. The bias toward Near Eastern and Greek sources means that developments in other regions are largely invisible. Herodotus, our primary Greek source, wrote ~80 years after these events and incorporated legendary material. Cuneiform sources are more contemporaneous but fragmentary.",
+  "graph_edges": [
+    {
+      "from": "-555-001",
+      "to": "-546-001",
+      "relation": "led_to",
+      "note": "Cyrus's campaigns culminate in the conquest of Lydia"
+    },
+    {
+      "from": "-555-002",
+      "to": "-539-001",
+      "relation": "led_to",
+      "note": "Nabonidus's reign ends with the Persian conquest of Babylon"
+    }
+  ]
+}
