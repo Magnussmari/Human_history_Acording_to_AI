@@ -1,0 +1,82 @@
+{
+  "year": -1415,
+  "year_label": "1415 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign or immediate successors. The New Kingdom is at its height; the Hittite Empire is consolidating power in Anatolia; Mycenaean Greece is in the Late Bronze Age IIA period; the Shang Dynasty dominates China; and the Indus Valley Civilization has already collapsed, with Vedic cultures emerging in northern India.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya civilization emerging; limited contemporary written records)",
+    "Pacific Islands (oral traditions only)"
+  ],
+  "events": [
+    {
+      "id": "-1415-001",
+      "title": "Thutmose III's military campaigns in the Levant (ongoing)",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "32.5, 34.0",
+      "category": "military",
+      "description": "Thutmose III, the 'Napoleon of Egypt,' continued his systematic campaigns to consolidate Egyptian control over the Levantine territories. These campaigns, documented in the Karnak temple inscriptions, were part of a broader strategy to secure trade routes and vassal states. The period around 1415 BCE falls within his reign (c. 1479\u20131425 BCE) when Egyptian military dominance in the eastern Mediterranean was at its peak. These campaigns established Egypt as the dominant regional power and generated significant tribute and booty.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Thutmose III's mortuary temple records",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-dated to c. 1479\u20131425 BCE; specific campaigns within this period are documented but individual year assignments are approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1415-002",
+      "title": "Hittite consolidation under Suppiluliuma I (early reign)",
+      "region": "Anatolia, Syria",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "Suppiluliuma I ascended to the Hittite throne around 1344 BCE (conventional dating), but the broader period of Hittite imperial expansion and consolidation was underway in the mid-15th century. By 1415 BCE, the Hittite Old Kingdom was transitioning toward the New Kingdom period, with increasing military organization and territorial ambitions. The exact events of 1415 BCE are not specifically documented, but this era saw the Hittites emerging as a major power challenging Egyptian dominance in the Levant.",
+      "key_figures": [
+        "Hittite rulers of the mid-15th century (specific identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives (Bo\u011fazk\u00f6y)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for the mid-15th century is less precisely dated than later periods. The assignment of specific events to 1415 BCE is conventional rather than based on contemporary documentation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Thutmose III's individual campaigns remains debated. Some scholars argue for a shorter reign (c. 1479\u20131425 BCE) while others propose alternative chronologies. The 'high' and 'low' chronologies for the Bronze Age create uncertainty of \u00b150 years for events in this period. No specific events are definitively attested to 1415 BCE; the year is assigned based on reign dates and campaign sequences.",
+  "historiographic_note": "Documentation for 1415 BCE is heavily weighted toward Egypt and the Hittite world, with Egyptian temple inscriptions and administrative records providing the most reliable evidence. The historical record is dominated by elite, court-sponsored narratives. Sub-Saharan Africa, northern Europe, and the Americas are essentially absent from written records at this date. The 'low' chronology (used here) places Thutmose III's reign in the 15th century; alternative chronologies shift these events by 50+ years. Bias toward monumental and military history means economic, social, and technological developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-1415-001",
+      "to": "-1400-001",
+      "relation": "part_of",
+      "note": "Thutmose III's campaigns continued throughout his reign"
+    },
+    {
+      "from": "-1415-002",
+      "to": "-1344-001",
+      "relation": "led_to",
+      "note": "Hittite consolidation in this period set the stage for Suppiluliuma I's imperial expansion"
+    }
+  ]
+}

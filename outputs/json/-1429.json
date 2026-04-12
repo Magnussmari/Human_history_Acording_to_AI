@@ -1,0 +1,105 @@
+{
+  "year": -1429,
+  "year_label": "1430 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign or immediate successors. Mycenaean Greece in the Late Helladic IIIA period. Shang Dynasty in China during the reign of kings in the mid-Shang period. Hittite Empire in Anatolia under \u0160uppiluliuma I or his successors. This era is marked by intensive inter-regional trade, military campaigns, and the consolidation of territorial empires across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written records; primarily archaeological)",
+    "Mesoamerica (no written records; archaeological evidence limited)",
+    "Southeast Asia (minimal contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1429-001",
+      "title": "Reign of Thutmose III or successor consolidation in Egypt",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The mid-18th Dynasty period saw continued Egyptian dominance in the Levant and Nubia. If Thutmose III was still reigning (he died c. 1425 BCE), military campaigns and administrative consolidation were ongoing. If this year falls after his death, his successors (likely Amenhotep II) were managing the vast territorial inheritance. The period is characterized by stable pharaonic authority and the maintenance of the empire through military presence and vassal relationships.",
+      "key_figures": [
+        "Thutmose III (Pharaoh, if still living)",
+        "Amenhotep II (Pharaoh, if successor)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and Thutmose III's annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on 18th Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact year of Thutmose III's death is debated (c. 1425\u20131420 BCE). This year falls within the uncertain window of his reign or immediate succession. Dating relies on king-list synchronization and astronomical calculations.",
+      "cross_references": []
+    },
+    {
+      "id": "-1429-002",
+      "title": "Mycenaean palatial activity and trade networks",
+      "region": "Mycenaean Greece, Aegean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "economic",
+      "description": "During Late Helladic IIIA, Mycenaean palace centers (Mycenae, Tiryns, Pylos) were at the height of their administrative and economic power. Extensive trade networks connected the Aegean to Egypt, the Levant, and Anatolia. Pottery, tin, and luxury goods circulated widely. This period predates the Linear B administrative records (which begin c. 1400 BCE) but is attested through archaeological stratigraphy and pottery typology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenae, Tiryns, and Pylos excavations",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and chronological frameworks (e.g., Furumark)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Late Helladic IIIA is well-established archaeologically but not precisely dated to individual years. Chronological placement relies on stratigraphic correlation with Egyptian chronology and radiocarbon dating, with margins of \u00b120\u201330 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1429-003",
+      "title": "Shang Dynasty continuity and oracle bone divination",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "cultural",
+      "description": "The Shang Dynasty was in its mature phase, with the royal court engaged in ritual divination using oracle bones (scapulae and plastrons). These bones, inscribed with divination questions and results, provide evidence of the king's concerns: weather, harvests, military campaigns, and ancestral communication. The practice of oracle bone divination was central to Shang statecraft and cosmology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu (Anyang)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 100 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Oracle bones are contemporary evidence, but individual bones are difficult to date to specific years. Chronological placement within the Shang period relies on stratigraphic context and king-list synchronization. Shang chronology itself is debated (\u00b150\u2013100 years uncertainty for this period).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thutmose III's death is contested: some scholars place it c. 1425 BCE, others c. 1420 BCE or even later. This affects whether -1429 falls within his reign or his successor's. Mycenaean chronology is also debated; some scholars argue for a higher chronology that would shift Late Helladic IIIA dates by 20\u201330 years. Shang chronology remains one of the most disputed areas in Chinese history, with competing frameworks (traditional, middle, and lower chronologies) differing by over a century for this period.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on chronological frameworks that are themselves uncertain. Egyptian sources are relatively abundant but focus on royal and military affairs; economic and social history are underrepresented. Mycenaean evidence is primarily archaeological; written records (Linear B) do not begin until c. 1400 BCE. Shang oracle bones provide unique insight into ritual and divination but are difficult to date precisely. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the historical record for this year. The surviving sources reflect the interests and literacy of elite scribal traditions in Egypt, the Levant, and China; the vast majority of human activity is invisible.",
+  "graph_edges": [
+    {
+      "from": "-1429-001",
+      "to": "-1425-001",
+      "relation": "led_to",
+      "note": "Thutmose III's reign and consolidation of empire led to the succession crisis and reign of Amenhotep II c. 1425 BCE"
+    },
+    {
+      "from": "-1429-002",
+      "to": "-1400-001",
+      "relation": "led_to",
+      "note": "Mycenaean palatial networks of this period continued and intensified, eventually documented in Linear B records c. 1400 BCE"
+    }
+  ]
+}

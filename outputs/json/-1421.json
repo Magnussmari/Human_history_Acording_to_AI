@@ -1,0 +1,103 @@
+{
+  "year": -1421,
+  "year_label": "1421 BCE",
+  "era_context": "Late Bronze Age Eastern Mediterranean and Near East. Egypt's 18th Dynasty was at its imperial zenith. The Hittite Empire controlled Anatolia and northern Syria. Mycenaean Greece was in Late Helladic IIIA. Kassite Babylonia was stable. This was an era of interconnected palace economies, international diplomacy, and military competition for control of trade routes and buffer zones.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese records exist but are not well-integrated)",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1421-001",
+      "title": "Egyptian Administrative Consolidation Under the 18th Dynasty",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "26.0, 32.0",
+      "category": "political",
+      "description": "The 18th Dynasty of Egypt maintained tight administrative control over its empire. Tribute from Nubia, the Levant, and client states flowed into Egypt. The vizier and provincial governors oversaw a complex bureaucratic system. Temple building and monument construction continued at a high pace, particularly at Karnak and Luxor. This administrative system was one of the most sophisticated in the ancient world.",
+      "key_figures": [
+        "Pharaoh (likely Thutmose III or Amenhotep II, depending on chronology)",
+        "Vizier and provincial administrators"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri and ostraca",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader administrative system is well-documented, but specific events in 1421 BCE are difficult to isolate. Chronological uncertainty affects the identification of the reigning pharaoh.",
+      "cross_references": []
+    },
+    {
+      "id": "-1421-002",
+      "title": "Mycenaean Pottery Production and Distribution",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "Mycenaean pottery workshops produced fine wares that were distributed throughout the Eastern Mediterranean. Late Helladic IIIA pottery is well-attested in archaeological contexts across the region. This pottery served both utilitarian and prestige functions and is a key marker of Mycenaean cultural influence and trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological pottery assemblages from Mycenaean and non-Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pottery typology and distribution are well-established through archaeology. Dating is secure within \u00b110 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1421-003",
+      "title": "Kassite Babylonia Under Stable Rule",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Kassite dynasty ruled Babylonia during this period with relative stability. The Kassites had adopted Babylonian culture and maintained the administrative and religious traditions of Mesopotamia. Trade with the Levant, Egypt, and the Indus Valley continued. The period was marked by cultural continuity rather than dramatic change.",
+      "key_figures": [
+        "Kassite kings (identity uncertain due to chronological debate)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform tablets and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Kassite period is well-attested, but precise dating of individual rulers and events is debated. Chronological systems vary significantly for Mesopotamia in this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Kassite dynasty is particularly disputed. Some scholars place the Kassite period 50\u2013100 years earlier or later than conventional dating. This affects the identification of specific rulers and events in 1421 BCE. The significance of Mycenaean pottery distribution is sometimes overstated; recent scholarship suggests that pottery distribution does not necessarily indicate direct trade or cultural dominance, but rather local imitation and regional exchange networks.",
+  "historiographic_note": "The historical record for 1421 BCE is dominated by Egyptian, Hittite, and Mesopotamian sources. Mycenaean Greece is known primarily through archaeology and Linear B tablets. The Levantine city-states are known mainly through Egyptian records. Chronological uncertainty is significant, with different scholarly systems placing this year in different reigns and periods. The 'Middle Chronology' is used here, but the 'Low Chronology' and 'High Chronology' would place events 20\u201350 years earlier or later. This creates substantial uncertainty for the precise dating of events.",
+  "graph_edges": [
+    {
+      "from": "-1421-001",
+      "to": "-1420-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian administrative consolidation was ongoing throughout this period"
+    },
+    {
+      "from": "-1421-003",
+      "to": "-1200-KASSITE_END",
+      "relation": "led_to",
+      "note": "Kassite rule in Babylonia continued until the end of the Late Bronze Age around 1160 BCE"
+    }
+  ]
+}

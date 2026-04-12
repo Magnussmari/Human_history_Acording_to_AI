@@ -1,0 +1,102 @@
+{
+  "year": -1422,
+  "year_label": "1422 BCE",
+  "era_context": "Late Bronze Age Eastern Mediterranean and Near East. Egypt's 18th Dynasty was at its imperial height. The Hittite Empire controlled Anatolia and northern Syria. Mycenaean Greece was in Late Helladic IIIA. Kassite Babylonia was stable. This was an era of interconnected palace economies, international diplomacy, and military competition for control of trade routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1422-001",
+      "title": "Egyptian Military Campaigns in the Levant",
+      "region": "Levant, Egypt",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "The 18th Dynasty of Egypt continued military campaigns to maintain control over Levantine territories and suppress rebellions. These campaigns were documented in temple inscriptions and administrative records. The campaigns served to reinforce Egyptian hegemony and secure tribute from city-states. The military campaigns were part of a broader strategy of imperial consolidation.",
+      "key_figures": [
+        "Pharaoh (likely Thutmose III or Amenhotep II)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Karnak and Deir el-Bahari",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of Egyptian military campaigns is well-documented, but specific events in 1422 BCE are difficult to isolate. Chronological uncertainty affects dating.",
+      "cross_references": []
+    },
+    {
+      "id": "-1422-002",
+      "title": "Hittite Control of Northern Syria",
+      "region": "Anatolia, Northern Syria",
+      "coordinates_approx": "35.5, 36.5",
+      "category": "political",
+      "description": "The Hittite Empire maintained control over northern Syria and Anatolia during this period. The Hittites and Egyptians competed for influence over buffer zones and client states in the region. Diplomatic correspondence and trade agreements were maintained. The balance of power between the Hittites and Egyptians was relatively stable during this period.",
+      "key_figures": [
+        "Hittite rulers (identity uncertain due to chronological debate)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader pattern of Hittite control is well-attested, but specific events in 1422 BCE are difficult to isolate. Hittite chronology is debated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1422-003",
+      "title": "Mycenaean Palace Economies and Linear B Administration",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "Mycenaean palatial centers maintained centralized, bureaucratic economies. Linear B tablets record administrative transactions, including the distribution of goods, labor organization, and religious offerings. The palace economies were highly organized and controlled the production and distribution of goods. This administrative system was one of the most sophisticated in the ancient world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Knossos, Pylos, and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets provide direct evidence of palace administration. Dating is secure within \u00b110 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 18th Dynasty and Hittite Empire remains debated. Some scholars place key rulers and events 20\u201350 years earlier or later than conventional dating. The significance of Linear B tablets is sometimes overstated; they provide administrative rather than narrative history, and their interpretation is sometimes contested. Recent scholarship suggests that Mycenaean palace economies were more fragmented and less centralized than previously assumed.",
+  "historiographic_note": "The historical record for 1422 BCE is dominated by Egyptian, Hittite, and Mesopotamian sources. Mycenaean Greece is known primarily through archaeology and Linear B tablets. Chronological uncertainty is significant, with different scholarly systems placing this year in different reigns and periods. The surviving sources are heavily weighted toward the literate civilizations of the Eastern Mediterranean and Near East, with little or no information about other regions.",
+  "graph_edges": [
+    {
+      "from": "-1422-001",
+      "to": "-1420-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian military campaigns were ongoing throughout this period"
+    },
+    {
+      "from": "-1422-003",
+      "to": "-1200-BRONZE_AGE_COLLAPSE",
+      "relation": "led_to",
+      "note": "Mycenaean palace economies were disrupted by the Late Bronze Age Collapse around 1200 BCE"
+    }
+  ]
+}
