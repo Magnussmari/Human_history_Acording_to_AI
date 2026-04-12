@@ -1,0 +1,116 @@
+{
+  "year": -1110,
+  "year_label": "1110 BCE",
+  "era_context": "Late Bronze Age / Early Iron Age transition. Egypt under Ramesses III is in the final 5 years of his reign (he dies c. 1155 BCE, so this is approximately 45 years into his rule). Assyria under Ashur-bel-kala is consolidating power. The Shang dynasty in China is in its final 36 years before the Zhou conquest. Iron-working is spreading. The world is transitioning from the Bronze Age collapse to a new era of state formation and imperial expansion.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1110-001",
+      "title": "Ramesses III's final years and succession planning",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III is in the final years of his reign (c. 1186\u20131155 BCE). He is preparing for succession and consolidating his legacy. His mortuary temple at Medinet Habu is complete and stands as a monument to his reign. The Papyrus Harris I, compiled during his reign, documents the extent of his achievements and the state's resources. After his death (c. 1155 BCE), Egypt will enter the Third Intermediate Period, characterised by weaker central authority and the rise of the priesthood of Amun. Ramesses III is the last great pharaoh of the New Kingdom.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)",
+        "Ramesses IV (Heir, future pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal dates and succession are well-documented.",
+      "cross_references": [
+        "-1155-001"
+      ]
+    },
+    {
+      "id": "-1110-002",
+      "title": "Ashur-bel-kala's consolidation of Assyrian power",
+      "region": "Assyria (Mesopotamia)",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Ashur-bel-kala is in the latter part of his reign (c. 1074\u20131056 BCE), consolidating Assyrian power and expanding the empire's territorial control. His reign marks a period of Assyrian resurgence after the weakness of the 12th century BCE. He establishes Assyria as a major power in the Near East, setting the stage for the imperial expansion of later kings like Ashurnasirpal II and Shalmaneser III. His inscriptions document his military campaigns, building projects, and religious activities.",
+      "key_figures": [
+        "Ashur-bel-kala (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions from Ashur and Nineveh",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-bel-kala's regnal dates are established through king lists, with a margin of \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1110-003",
+      "title": "Late Shang state under Di Xin",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "political",
+      "description": "The Shang dynasty is in its final decades under Di Xin (also called Zhou Xin), the last Shang king. The state faces internal instability, military pressure from the Zhou people to the west, and economic strain. Oracle bone inscriptions from this period show the state's preoccupation with warfare and divination. The Zhou conquest is imminent (traditionally dated 1046 BCE, 36 years away). The Shang dynasty, which has ruled for approximately 550 years, is approaching its end.",
+      "key_figures": [
+        "Di Xin / Zhou Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated. Traditional dates place Di Xin's reign c. 1075\u20131046 BCE, but some scholars propose earlier dates. Oracle bones cannot be dated precisely to individual years.",
+      "cross_references": [
+        "-1046-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The characterisation of Ramesses III as 'the last great pharaoh' is somewhat subjective. Later pharaohs of the Third Intermediate Period, particularly those of the 21st Dynasty, maintained significant power and prestige, though their territorial control was reduced. The 'decline' of Egypt is often overstated. Ashur-bel-kala's military achievements are documented in his inscriptions, but the extent of his actual territorial control is debated by modern scholars. The Shang chronology remains one of the most contested issues in Chinese history; the dates provided here follow the traditional chronology but are not universally accepted.",
+  "historiographic_note": "Sources for 1110 BCE are limited to Egypt, Mesopotamia, and China. Egyptian sources are abundant and well-preserved but are propagandistic in nature. Assyrian sources are similarly royal-centric. Chinese oracle bones provide unique insight into late Shang society but are difficult to date precisely. The rest of the world has no written records for this year. The historical record is heavily skewed toward the Near East, Egypt, and China. Sub-Saharan Africa, the Americas, Northern Europe, and Oceania have no written records for this period; knowledge of these regions depends entirely on archaeology, which provides limited temporal resolution.",
+  "graph_edges": [
+    {
+      "from": "-1110-001",
+      "to": "-1155-001",
+      "relation": "led_to",
+      "note": "Ramesses III's reign ends c. 1155 BCE; succession passes to Ramesses IV"
+    },
+    {
+      "from": "-1110-002",
+      "to": "-1074-001",
+      "relation": "part_of",
+      "note": "Ashur-bel-kala's reign spans c. 1074\u20131056 BCE"
+    },
+    {
+      "from": "-1110-003",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Late Shang instability culminates in Zhou conquest c. 1046 BCE"
+    }
+  ]
+}

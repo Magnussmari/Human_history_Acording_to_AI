@@ -1,0 +1,106 @@
+{
+  "year": -1096,
+  "year_label": "1097 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages. Egypt under Ramesses III remains the dominant power in the Eastern Mediterranean. The Mycenaean world is fully transitioned to the Early Iron Age. The Hittite Empire remains fragmented into Neo-Hittite city-states. In China, the Shang dynasty is in its final decades. This is a period of significant political and cultural reorganization.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1096-001",
+      "title": "Ramesses III's reign: administrative and military consolidation",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III continues to consolidate Egyptian power and authority. His reign is marked by extensive building projects, military campaigns, and administrative reforms. The pharaoh maintains the bureaucratic apparatus of the New Kingdom and ensures the continuation of religious rituals and temple maintenance. However, the long-term trend is one of declining pharaonic power relative to the priesthood of Amun.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-dated through Egyptian chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1096-002",
+      "title": "Phoenician maritime expansion in the Mediterranean",
+      "region": "Levant and Mediterranean",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "economic",
+      "description": "Phoenician city-states continue to expand their maritime trade networks throughout the Mediterranean. The decline of major Bronze Age powers creates opportunities for Phoenician merchants to dominate long-distance trade. Phoenician ships carry goods such as cedar, purple dye, and manufactured items throughout the Mediterranean and beyond. This period marks the beginning of Phoenician commercial hegemony in the Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician sites and Mediterranean shipwrecks",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian and Hittite records mentioning Phoenician trade",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician maritime expansion is archaeologically attested, but precise dating to specific years is uncertain.",
+      "cross_references": [
+        "-1098-002"
+      ]
+    },
+    {
+      "id": "-1096-003",
+      "title": "Shang dynasty oracle bone inscriptions; late administrative activity",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "cultural",
+      "description": "Oracle bone inscriptions from the late Shang period continue to document divination, ritual, and administrative activities. These inscriptions provide evidence of a functioning bureaucratic system, despite the dynasty's overall decline. The content reflects concerns with harvests, military campaigns, and ritual observances typical of late Shang governance.",
+      "key_figures": [
+        "Di Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Shang)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are contemporary to the Shang period, but precise dating of individual bones to specific years is not possible.",
+      "cross_references": [
+        "-1097-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Phoenician 'rise' following the Late Bronze Age collapse may oversimplify the actual historical process. Recent scholarship suggests Phoenician cities maintained greater continuity with the Bronze Age than previously thought, and were not simply 'rising' into a vacuum. Some cities show destruction layers, but others show continuity of settlement and trade. The relationship between the collapse of major Bronze Age powers and Phoenician expansion is more complex than a simple cause-and-effect narrative.",
+  "historiographic_note": "Documentation for 1097 BCE is sparse and regionally uneven. Egyptian sources are rich and contemporary; Greek and Anatolian history relies heavily on archaeology; Chinese sources are limited to oracle bones and later compilations. The 'Late Bronze Age collapse' framework may impose artificial coherence on diverse regional processes. Significant gaps exist for Africa, South Asia, and the Americas.",
+  "graph_edges": [
+    {
+      "from": "-1096-001",
+      "to": "-1096-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's reign coincides with Phoenician maritime expansion"
+    },
+    {
+      "from": "-1096-002",
+      "to": "-1098-002",
+      "relation": "part_of",
+      "note": "Phoenician maritime expansion is part of the broader consolidation of Phoenician power following the Late Bronze Age collapse"
+    }
+  ]
+}

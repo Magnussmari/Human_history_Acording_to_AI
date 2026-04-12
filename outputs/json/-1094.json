@@ -1,0 +1,90 @@
+{
+  "year": -1094,
+  "year_label": "1094 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u2013900 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palatial system has collapsed, the Hittite Empire has fallen, Egypt is in the Third Intermediate Period under weak Ramessid successors, and the Levantine coast is being reshaped by population movements and the emergence of Iron Age polities. Assyria is in a period of relative weakness. In China, the Shang dynasty is in its final phase, with the Zhou conquest imminent. This is an era of technological transition (bronze to iron), state fragmentation, and migration.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Northern Europe (sparse material evidence)",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "-1094-001",
+      "title": "Reign of Ramesses III continues; Egyptian naval conflict with Sea Peoples",
+      "region": "Egypt (Nile Delta and Eastern Mediterranean)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the middle of his reign, facing ongoing threats from Sea Peoples raiders and Libyan incursions into the Delta. Naval and land battles are documented in temple reliefs and administrative records. These conflicts represent Egypt's last major military assertion before entering a period of fragmentation and loss of imperial reach. The costs of these campaigns strain Egyptian resources.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu (Mortuary Temple of Ramesses III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-attested in Egyptian records. The specific year 1094 BCE falls within his documented reign (c. 1186\u20131155 BCE), though individual year-by-year events are not always precisely datable.",
+      "cross_references": []
+    },
+    {
+      "id": "-1094-002",
+      "title": "Late Shang dynasty in China; Zhou conquest preparations",
+      "region": "China (Yellow River valley, Shang heartland)",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "The Shang dynasty is in its final decades under King Xin (\u5e1d\u8f9b, also known as Zhou Xin). The Zhou people, based in the Wei River valley to the west, are consolidating power and preparing for conquest. Shang authority is weakening due to internal strife, military overextension, and loss of tributary support. The Shang court is documented in oracle bone inscriptions and later Zhou chronicles, though the exact chronology of this period remains debated among scholars.",
+      "key_figures": [
+        "King Xin (\u5e1d\u8f9b, Shang)",
+        "King Wu (\u6b66\u738b, Zhou, preparing for conquest)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Shang)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bamboo Annals (Zhu Shu Ji Nian)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang-Zhou transition is traditionally dated to c. 1046 BCE, but some scholars place it earlier (c. 1050\u20131020 BCE). The year 1094 BCE is assigned to this period by convention, but precise year-by-year events are not reliably datable from surviving sources.",
+      "cross_references": [
+        "-1046-001 (Zhou conquest of Shang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang-Zhou transition is heavily disputed. Traditional Chinese chronology places the conquest in 1046 BCE, but radiocarbon dating and astronomical calculations suggest dates ranging from 1050 to 1020 BCE. Some scholars argue for even earlier dates (c. 1100 BCE). The year 1094 BCE is therefore somewhat arbitrary for assigning Shang-Zhou events. Additionally, the 'Sea Peoples' conflicts attributed to Ramesses III are debated: some scholars question whether all conflicts attributed to him were actually contemporary, or whether some were conflated from earlier or later periods.",
+  "historiographic_note": "The Late Bronze Age collapse (c. 1200\u2013900 BCE) is one of the most poorly understood periods in ancient history. Egyptian records are relatively abundant but biased toward royal and military narratives. Chinese oracle bones provide contemporary evidence but are limited in scope. The Eastern Mediterranean and Levantine regions lack detailed written records for this period; much knowledge comes from archaeology, which is unevenly distributed geographically. The year 1094 BCE falls in a transition zone where documentation is sparse and chronologies are uncertain. Radiocarbon dating has revised many traditional dates, but calibration remains imperfect.",
+  "graph_edges": [
+    {
+      "from": "-1094-001",
+      "to": "-1070-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign spans c. 1186\u20131155 BCE; conflicts with Sea Peoples continue throughout this period."
+    },
+    {
+      "from": "-1094-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang decline in this period directly led to Zhou conquest c. 1046 BCE."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "year": -1104,
+  "year_label": "1104 BCE",
+  "era_context": "The Late Bronze Age collapse is underway or recently concluded (c. 1200\u20131050 BCE). The Mycenaean palatial civilisation has fallen; the Hittite Empire has disintegrated; Egypt under the late Ramessid dynasty is in decline. The Eastern Mediterranean is experiencing upheaval: the Sea Peoples have raided and settled; trade networks are fragmenting. In the Levant, Phoenician city-states are emerging. In Mesopotamia, Aramean tribes are infiltrating. In China, the Shang dynasty is in its final phase, with the Zhou conquest imminent. This is a period of transition, state collapse, and population movement across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1104-001",
+      "title": "Reign of Ramesses VI in Egypt (approximate terminal phase)",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "Ramesses VI (c. 1141\u20131131 BCE, conventional dating) is in the latter part of his reign during this period. His rule is marked by continued administrative fragmentation, with the High Priests of Amun at Thebes wielding increasing power independent of the pharaonic centre at Pi-Ramesses. Economic resources are strained; tomb robberies are documented in contemporary records. The reign represents the twilight of New Kingdom centralised authority.",
+      "key_figures": [
+        "Ramesses VI (Pharaoh)",
+        "High Priests of Amun (Thebes)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Inscriptions and Graffiti (Theban temples, Valley of the Kings)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri documenting administrative records and tomb robberies (e.g., Papyrus Abbott)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Conventional Egyptological dating places Ramesses VI c. 1141\u20131131 BCE, but absolute chronology for this period remains debated. \u00b110\u201315 year uncertainty is standard.",
+      "cross_references": []
+    },
+    {
+      "id": "-1104-002",
+      "title": "Late Bronze Age collapse: Continued fragmentation of Eastern Mediterranean trade networks",
+      "region": "Eastern Mediterranean, Levant, Anatolia",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "economic",
+      "description": "By 1104 BCE, the systemic collapse of Bronze Age palatial economies is well advanced or recently concluded. The palace economies of the Mycenaean world, the Hittite Empire, and Ugarit have disintegrated. Long-distance trade in tin, lapis lazuli, and cedar has contracted sharply. Coastal settlements show evidence of abandonment or destruction. The causes remain debated: climate change (volcanic eruption, drought), invasions by the Sea Peoples, internal systemic failure, or a combination. The result is a fragmentation into smaller, more localised polities.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at Ugarit, Mycenae, Hattusa, and coastal Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records of Sea Peoples raids (Medinet Habu inscriptions of Ramesses III, c. 1186 BCE)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The collapse itself is archaeologically confirmed; the precise dating and causation remain subjects of active scholarly debate. The period c. 1200\u20131050 BCE is well-established as a transition zone.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Late Bronze Age collapse' as a unified, catastrophic event has been questioned by recent scholarship. Some scholars argue for a more gradual, regionally variable process of transformation rather than a sudden collapse. The role of the Sea Peoples has been significantly revised: they are now understood as symptom and participant in a broader systemic crisis, not the primary cause. Climate data (ice cores, tree rings) suggest drought in the 13th\u201312th centuries BCE, but the causal chain from climate to civilisational collapse remains contested.",
+  "historiographic_note": "Documentation for 1104 BCE is sparse and heavily weighted toward Egypt and the Levant. Mesopotamian records are thin for this period. Chinese sources (oracle bones, early Zhou texts) exist but are difficult to correlate with absolute chronology. The historical record is dominated by elite, monumental sources (temple inscriptions, royal tombs); the experiences of ordinary populations are largely invisible. Interpretation is heavily shaped by 20th-century archaeological frameworks (the 'collapse' narrative) which are now being revised.",
+  "graph_edges": [
+    {
+      "from": "-1104-001",
+      "to": "-1100-001",
+      "relation": "led_to",
+      "note": "Ramesses VI's reign ends c. 1131 BCE; succeeded by Ramesses VII, continuing the decline of pharaonic authority."
+    },
+    {
+      "from": "-1104-002",
+      "to": "-1100-002",
+      "relation": "contemporary_with",
+      "note": "The fragmentation of trade networks continues through the early Iron Age."
+    }
+  ]
+}

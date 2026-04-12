@@ -1,0 +1,82 @@
+{
+  "year": -1114,
+  "year_label": "1114 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u2013900 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palatial system has recently collapsed; the Hittite Empire fell c. 1180 BCE; Egypt under Ramesses III faces invasions from the Sea Peoples and internal instability. The Iron Age is beginning in some regions. Assyria is in a period of relative weakness; China's Shang dynasty is in its final decades before Zhou conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Oceania (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-1114-001",
+      "title": "Ramesses III's reign consolidation and Sea Peoples conflicts",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the middle of his reign, having already repelled major Sea Peoples invasions in his 5th and 8th regnal years (c. 1181 and 1178 BCE). By 1114 BCE, he is consolidating control and managing internal economic strain. His mortuary temple at Medinet Habu documents these conflicts in relief inscriptions. The reign represents the last major military and architectural achievement of the New Kingdom before Egypt's gradual decline.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (compiled during Ramesses III's reign)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal dates are well-established through Egyptian king lists and astronomical dating. Events of his reign are documented in contemporary temple reliefs and administrative papyri.",
+      "cross_references": []
+    },
+    {
+      "id": "-1114-002",
+      "title": "Late Shang dynasty in final decades",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "political",
+      "description": "The Shang dynasty (c. 1600\u20131046 BCE) is in its terminal phase. King Di Xin (also called Zhou Xin), the last Shang ruler, is reigning (traditional dates c. 1075\u20131046 BCE, though some scholars place him slightly earlier). The dynasty faces internal instability, military pressure from the Zhou people to the west, and economic strain. Oracle bone inscriptions from this period show increasing concern with divination and warfare. The Zhou conquest is imminent (traditionally dated 1046 BCE).",
+      "key_figures": [
+        "Di Xin / Zhou Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Yinxu site)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109\u201391 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology remains debated. Traditional dates place Di Xin's reign c. 1075\u20131046 BCE, but some scholars propose dates 50\u2013100 years earlier. Oracle bone evidence confirms the period's instability but does not provide precise year-by-year dating.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang-Zhou transition is contested. Traditional Chinese chronology places the Zhou conquest in 1046 BCE, but some modern scholars argue for dates as early as 1050 BCE or as late as 1020 BCE. The 'Bronze Age collapse' narrative, while dominant in Mediterranean scholarship, is increasingly questioned: some regions (Egypt, Assyria) experienced disruption but not civilisational collapse. The Sea Peoples' identity and origins remain debated; they are not a unified ethnic group but rather a confederation of maritime raiders from multiple origins.",
+  "historiographic_note": "Documentation for 1114 BCE is heavily skewed toward Egypt and China, where written records and king lists provide chronological anchors. The Mediterranean and Near East rely heavily on later chronicles (e.g., Manetho for Egypt, compiled in the 3rd century BCE) and archaeological stratigraphy, which can be imprecise. Sub-Saharan Africa, Northern Europe, and the Americas have virtually no written records for this period; knowledge depends entirely on archaeology, which provides limited year-by-year resolution. Egyptian sources are often propagandistic (temple reliefs emphasise military victories). Chinese oracle bones are fragmentary and difficult to date precisely.",
+  "graph_edges": [
+    {
+      "from": "-1114-001",
+      "to": "-1155-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign spans c. 1186\u20131155 BCE; 1114 BCE falls within this period"
+    },
+    {
+      "from": "-1114-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Late Shang instability culminates in Zhou conquest c. 1046 BCE"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "year": -1098,
+  "year_label": "1099 BCE",
+  "era_context": "Continuation of the Late Bronze Age collapse period. Egypt under Ramesses III remains the dominant power in the Eastern Mediterranean, though under sustained pressure. The Mycenaean world has fully transitioned to the Early Iron Age. The Hittite Empire remains fragmented. In China, the Shang dynasty continues its final decline. This is a period of significant demographic and political reorganization across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "South Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-1098-001",
+      "title": "Ramesses III continues military campaigns; consolidation of Egyptian control",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III's reign continues with ongoing military operations against external threats and internal consolidation. The pharaoh maintains the administrative and military apparatus of the New Kingdom, though resources are increasingly strained. His reign represents the last great military pharaoh of the New Kingdom; his successors will see a gradual decline in pharaonic power relative to the priesthood of Amun.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-dated. The year 1099 BCE falls within his documented reign.",
+      "cross_references": [
+        "-1099-001"
+      ]
+    },
+    {
+      "id": "-1098-002",
+      "title": "Phoenician city-states consolidating power in the Levant",
+      "region": "Levant (Phoenicia)",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "political",
+      "description": "In the aftermath of the Late Bronze Age collapse, Phoenician city-states such as Tyre, Sidon, and Byblos are emerging as major maritime and commercial powers. These cities, which had existed during the Bronze Age, now become increasingly independent and dominant in Mediterranean trade. The decline of major Bronze Age powers (Egypt, Hittites, Mycenaeans) creates a power vacuum that Phoenician merchants exploit. This marks the beginning of Phoenician commercial dominance in the Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician sites (Tyre, Sidon, Byblos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian and Hittite records mentioning Phoenician cities",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of Phoenician power is archaeologically attested, but the precise dating of the transition from Bronze Age to Iron Age Phoenician dominance is uncertain (\u00b110\u201320 years).",
+      "cross_references": []
+    },
+    {
+      "id": "-1098-003",
+      "title": "Shang dynasty oracle bone inscriptions continue; administrative activity",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "cultural",
+      "description": "Oracle bone inscriptions from the late Shang period continue to document divination practices, ritual activities, and administrative concerns. These inscriptions provide evidence of a functioning bureaucratic and religious system, despite the dynasty's overall decline. The content of oracle bones from this period shows concerns with harvests, military campaigns, and ritual observances.",
+      "key_figures": [
+        "Di Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Shang)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are contemporary to the Shang period, but precise dating of individual bones to specific years is not possible. Assignment to 1099 BCE is conventional.",
+      "cross_references": [
+        "-1099-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The rise of Phoenician power is often presented as a straightforward consequence of the Late Bronze Age collapse, but recent scholarship suggests Phoenician cities maintained continuity with the Bronze Age and were not simply 'rising' into a vacuum. Some cities show destruction layers, but others show continuity. The narrative of 'Phoenician rise' may oversimplify a more complex process of adaptation and regional variation.",
+  "historiographic_note": "Documentation for 1099 BCE is sparse and heavily weighted toward Egypt and the Eastern Mediterranean. Chinese sources are limited to oracle bones and later compilations. The 'Late Bronze Age collapse' framework may impose artificial coherence on diverse regional processes. Significant gaps exist for Africa, South Asia, and the Americas.",
+  "graph_edges": [
+    {
+      "from": "-1098-001",
+      "to": "-1098-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian decline under Ramesses III creates space for Phoenician commercial expansion"
+    },
+    {
+      "from": "-1098-003",
+      "to": "-1099-004",
+      "relation": "contemporary_with",
+      "note": "Late Shang oracle bone activity continues during the dynasty's final decline"
+    }
+  ]
+}

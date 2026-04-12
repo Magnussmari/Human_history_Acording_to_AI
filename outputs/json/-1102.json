@@ -1,0 +1,80 @@
+{
+  "year": -1102,
+  "year_label": "1102 BCE",
+  "era_context": "Late Bronze Age to Early Iron Age transition, mid-phase. Egypt is in the late Ramessid period (Ramesses VII or VIII, conventional dating). The Hittite Empire is extinct; Mycenaean civilisation has collapsed. The Levant is reorganising into smaller polities: Phoenician city-states, Neo-Hittite kingdoms, Aramean tribes. Mesopotamia is under pressure from Aramean infiltration; Assyria is in a period of weakness. In China, the Shang dynasty is in its final years; the Zhou conquest is imminent (traditionally c. 1046 BCE). The Eastern Mediterranean is in a state of flux: old trade networks are broken, new ones are forming.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1102-001",
+      "title": "Aramean infiltration into Mesopotamia and the Levant",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "demographic",
+      "description": "Aramean tribes, semi-nomadic Semitic peoples from the Syrian and Arabian deserts, are infiltrating settled regions of Mesopotamia and the Levant. This process, which began in the 13th century BCE, accelerates during the 12th\u201311th centuries. Aramean groups settle in northern Mesopotamia, the Euphrates valley, and the Levantine interior. By the 11th century, Aramean kingdoms (Aram-Damascus, Aram-Zobah, and others) are established. This demographic shift reshapes the political map of the Levant and Mesopotamia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Assyrian royal inscriptions (e.g., Shalmaneser I, Ashur-dan I) documenting Aramean conflicts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from settlement patterns in the Levant and Mesopotamia",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Aramean infiltration is well-documented in Assyrian records and archaeological evidence. The process is gradual, spanning the 13th\u201311th centuries BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-1102-002",
+      "title": "Consolidation of Neo-Hittite kingdoms in northern Syria and Anatolia",
+      "region": "Northern Syria, southern Anatolia",
+      "coordinates_approx": "36.5, 36.5",
+      "category": "political",
+      "description": "In the aftermath of the Hittite Empire's collapse (c. 1180 BCE), successor states emerge in northern Syria and southern Anatolia. These Neo-Hittite kingdoms (Carchemish, Aleppo, Malatya, and others) maintain some continuity with Hittite culture, language, and administration, but are much smaller and less powerful. They are consolidating their territories and establishing themselves as regional powers in the 12th\u201311th centuries BCE. These kingdoms will persist until the Assyrian conquests of the 9th\u20138th centuries BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Neo-Hittite sites (Carchemish, Malatya)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Hittite and Luwian inscriptions from the Iron Age",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Neo-Hittite kingdoms are archaeologically and epigraphically attested. The process of consolidation spans the 12th\u201311th centuries BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional model of a sharp 'collapse' followed by a 'dark age' has been revised. Recent scholarship emphasises continuity and transformation rather than catastrophic discontinuity. Neo-Hittite kingdoms, for example, are now understood as adaptive successors to the Hittite Empire, maintaining institutional and cultural continuity, rather than entirely new entities. Similarly, Aramean settlement is increasingly understood as a gradual process of integration and coexistence, not a violent invasion.",
+  "historiographic_note": "Documentation for 1102 BCE is sparse. Assyrian records provide the most detailed information about Aramean movements and conflicts. Levantine archaeology is improving but remains patchy. Egyptian records are declining in informativeness as the New Kingdom wanes. The historical record is heavily weighted toward elite, political, and military events; economic, social, and cultural changes are less visible. The 'Dark Age' label itself reflects a bias toward literate, monumental cultures; the period was not dark for all peoples.",
+  "graph_edges": [
+    {
+      "from": "-1102-001",
+      "to": "-1100-004",
+      "relation": "led_to",
+      "note": "Aramean settlement continues and leads to the establishment of Aramean kingdoms in the 11th century BCE."
+    },
+    {
+      "from": "-1102-002",
+      "to": "-1100-005",
+      "relation": "led_to",
+      "note": "Neo-Hittite kingdoms persist and interact with Assyrian expansion in the 9th\u20138th centuries BCE."
+    }
+  ]
+}

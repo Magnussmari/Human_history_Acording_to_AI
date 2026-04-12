@@ -1,0 +1,79 @@
+{
+  "year": -1112,
+  "year_label": "1112 BCE",
+  "era_context": "Late Bronze Age collapse aftermath. Egypt under Ramesses III is in the latter half of his reign. Assyria is expanding under Ashur-bel-kala. The Shang dynasty in China is approaching its final collapse (Zhou conquest traditionally dated 1046 BCE, ~34 years away). Iron Age technologies are spreading. The Mediterranean world is stabilising after the upheavals of c. 1200\u20131150 BCE, though the palatial systems of the Bronze Age have not recovered.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia (limited written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1112-001",
+      "title": "Ramesses III's later reign and temple construction",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "cultural",
+      "description": "Ramesses III continues his extensive building programme, including work on temples and administrative structures. His mortuary temple at Medinet Habu is largely complete by this period and stands as one of the finest monuments of the New Kingdom. The temple reliefs document his military victories, religious activities, and administrative organisation. By 1112 BCE, Ramesses III is in the latter part of his reign (he will die c. 1155 BCE, so this is approximately 40 years into his rule). The reign represents the last great flourishing of New Kingdom Egypt before the fragmentation of the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple (archaeological and epigraphic evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal dates and building projects are well-documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1112-002",
+      "title": "Shang oracle bone divination and state anxiety",
+      "region": "China (Yellow River valley, Yinxu)",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "cultural",
+      "description": "Oracle bone inscriptions from the late Shang period (including this era) show increasing frequency of divination queries related to warfare, harvests, and supernatural threats. The Shang state is experiencing internal instability and external pressure from the Zhou people. The oracle bones, inscribed with divination records, provide evidence of the state's preoccupation with military and religious matters. These artefacts are among the earliest written records in East Asia and offer insight into late Shang concerns and cosmology.",
+      "key_figures": [
+        "Di Xin / Zhou Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu (Anyang)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are difficult to date precisely to individual years. This event is assigned to 1112 BCE by convention, representing the general late Shang period (c. 1100\u20131046 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The interpretation of oracle bones as evidence of 'state anxiety' is somewhat speculative; they may simply reflect standard divination practices. The Shang chronology remains debated, and the precise dating of oracle bones to specific years is not possible with current methods.",
+  "historiographic_note": "Sources for 1112 BCE are extremely limited. Egyptian sources dominate the historical record; Mesopotamian sources are secondary. Chinese oracle bones provide unique insight into late Shang society but are difficult to date precisely. Most of the world has no written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-1112-001",
+      "to": "-1114-001",
+      "relation": "contemporary_with",
+      "note": "Both events occur during Ramesses III's reign"
+    },
+    {
+      "from": "-1112-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Late Shang instability culminates in Zhou conquest c. 1046 BCE"
+    }
+  ]
+}

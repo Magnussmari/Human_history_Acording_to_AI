@@ -1,0 +1,80 @@
+{
+  "year": -1090,
+  "year_label": "1090 BCE",
+  "era_context": "Late Bronze Age collapse. Egypt under Ramesses III (r. c. 1186\u20131155 BCE). Shang dynasty in its final years (conquest by Zhou c. 1046 BCE). Eastern Mediterranean experiencing major population movements and state reorganization. Assyria weak. Levantine coast being reshaped by Phoenician city-states and Sea Peoples settlements.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1090-001",
+      "title": "Ramesses III's reign; Egyptian military and administrative activities",
+      "region": "Egypt",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "Ramesses III continues his reign. Egyptian administrative records document the organization of the state, including military organization, temple lands, and taxation. The reign is characterized by attempts to maintain Egyptian power and territorial control in the Levant, though Egyptian influence is gradually declining. Temple reliefs at Medinet Habu provide visual documentation of royal activities.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-documented; the year falls within his reign (c. 1186\u20131155 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-1090-002",
+      "title": "Shang dynasty in final phase; Zhou consolidation",
+      "region": "China (Shang heartland and Zhou territory)",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "The Shang dynasty is in its final decades. Oracle bone inscriptions show a state under stress, with concerns about harvests, military campaigns, and ritual matters. The Zhou people, based in the Wei River valley, are consolidating power and preparing for conquest. The exact political situation in 1090 BCE is not documented in surviving sources, but the broader trend of Shang decline and Zhou ascendancy is clear from the archaeological and textual record.",
+      "key_figures": [
+        "King Xin (\u5e1d\u8f9b, Shang)",
+        "King Wu (\u6b66\u738b, Zhou)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang-Zhou transition is traditionally dated to c. 1046 BCE, but some scholars place it earlier. The year 1090 BCE is assigned by convention, but precise year-by-year events are not reliably datable.",
+      "cross_references": [
+        "-1046-001 (Zhou conquest of Shang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang-Zhou transition remains disputed among scholars. Traditional chronology places the conquest in 1046 BCE, but radiocarbon dating and astronomical calculations suggest alternative dates ranging from 1050 to 1020 BCE. Some scholars argue for even earlier dates. The year 1090 BCE is therefore somewhat arbitrary for assigning events to this period. Additionally, the reliability of Egyptian chronology for this period has been revised multiple times based on new radiocarbon evidence and astronomical calculations.",
+  "historiographic_note": "The historical record for 1090 BCE is sparse and largely undifferentiated from surrounding years. No events specific to this year are documented in surviving sources. The year is assigned by modern chronological convention based on king lists, radiocarbon dating, and astronomical calculations, all of which remain subject to revision. The Late Bronze Age collapse (c. 1200\u2013900 BCE) is one of the most poorly understood periods in ancient history. Egyptian records are relatively abundant but biased toward royal and military narratives. Chinese oracle bones provide contemporary evidence but are limited in scope. The Eastern Mediterranean and Levantine regions lack detailed written records for this period; much knowledge comes from archaeology, which is unevenly distributed geographically.",
+  "graph_edges": [
+    {
+      "from": "-1090-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang decline in this period directly led to Zhou conquest c. 1046 BCE."
+    }
+  ]
+}

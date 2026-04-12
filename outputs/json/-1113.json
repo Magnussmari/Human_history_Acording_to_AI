@@ -1,0 +1,78 @@
+{
+  "year": -1113,
+  "year_label": "1113 BCE",
+  "era_context": "Late Bronze Age collapse continues. Egypt under Ramesses III maintains control but faces economic pressures and labour unrest (documented in later papyri). The Hittite Empire has been defunct for ~70 years; Assyria is beginning a period of expansion under Ashur-bel-kala (r. c. 1074\u20131056 BCE). The Shang dynasty in China is in its final years before the Zhou conquest. Iron-working is spreading in the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-1113-001",
+      "title": "Ramesses III's administrative and economic management",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "economic",
+      "description": "Ramesses III continues to manage Egypt's economy and labour force. Papyri from his reign (particularly the Papyrus Harris I) document extensive temple holdings, military expenditures, and administrative organisation. By this period, the pharaoh is dealing with inflation, labour strikes (notably the Deir el-Medina strikes documented in later papyri, though their precise dating is debated), and the growing power of the priesthood of Amun. The reign represents a transition point: Egypt remains a major power but is beginning the slow decline that characterises the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal dates are secure. Economic conditions are documented in contemporary administrative records.",
+      "cross_references": []
+    },
+    {
+      "id": "-1113-002",
+      "title": "Ashur-bel-kala's early reign in Assyria",
+      "region": "Assyria (Mesopotamia)",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Ashur-bel-kala (r. c. 1074\u20131056 BCE) is in the early years of his reign, a period of Assyrian expansion and military reorganisation. He campaigns in the Levant and consolidates Assyrian power after a period of relative weakness. His reign marks the beginning of the Middle Assyrian period's resurgence, though full imperial expansion will come later under Ashurnasirpal II (883\u2013859 BCE). Contemporary inscriptions document his military campaigns and building projects.",
+      "key_figures": [
+        "Ashur-bel-kala (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions from Ashur and Nineveh",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-bel-kala's regnal dates are established through Assyrian king lists, though absolute dating has a margin of \u00b15\u201310 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating and significance of labour unrest in Egypt (particularly the Deir el-Medina strikes) is debated. Some scholars attribute these to Ramesses III's reign; others place them in the reign of Ramesses IV (c. 1155\u20131149 BCE) or later. The 'decline' of Egypt is often overstated in older historiography; Egypt remained a significant power well into the Third Intermediate Period.",
+  "historiographic_note": "Sources for 1113 BCE are limited to Egypt and Mesopotamia. Egyptian sources are administrative and propagandistic; they emphasise the pharaoh's achievements and do not provide a complete picture of social conditions. Assyrian sources are similarly royal-centric. No contemporary sources exist for most of the world.",
+  "graph_edges": [
+    {
+      "from": "-1113-001",
+      "to": "-1114-001",
+      "relation": "contemporary_with",
+      "note": "Both events occur during Ramesses III's reign"
+    },
+    {
+      "from": "-1113-002",
+      "to": "-1074-001",
+      "relation": "part_of",
+      "note": "Ashur-bel-kala's reign spans c. 1074\u20131056 BCE"
+    }
+  ]
+}

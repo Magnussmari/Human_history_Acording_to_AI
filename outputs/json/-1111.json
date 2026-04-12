@@ -1,0 +1,79 @@
+{
+  "year": -1111,
+  "year_label": "1111 BCE",
+  "era_context": "Late Bronze Age / Early Iron Age transition. Egypt under Ramesses III is in the final decades of his reign (he dies c. 1155 BCE, so this is approximately 44 years into his rule). Assyria under Ashur-bel-kala is expanding militarily. The Shang dynasty in China is in its final 35 years before the Zhou conquest (traditionally dated 1046 BCE). Iron-working is becoming more widespread in the Eastern Mediterranean and Near East. The world is transitioning from the Bronze Age collapse period to a new era of state formation.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1111-001",
+      "title": "Ramesses III's final administrative period",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III is in the final years of his reign, managing Egypt's vast administrative apparatus and temple holdings. The Papyrus Harris I, compiled during his reign, documents the extent of royal and temple lands, military forces, and economic resources. By this period, the priesthood of Amun at Thebes is accumulating significant power and wealth, a trend that will accelerate after Ramesses III's death. The reign represents the last period of strong centralised pharaonic power in the New Kingdom.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and temple records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's regnal dates are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "-1111-002",
+      "title": "Ashur-bel-kala's military campaigns in the Levant",
+      "region": "Assyria and the Levant",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Ashur-bel-kala continues his military expansion, conducting campaigns in the Levant and consolidating Assyrian control over trade routes and vassal states. His inscriptions document campaigns against various Aramean and other groups. These campaigns mark the beginning of Assyrian imperial expansion that will accelerate under later kings. The period represents a shift in Near Eastern power dynamics, with Assyria emerging as a major military force.",
+      "key_figures": [
+        "Ashur-bel-kala (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions from Ashur",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-bel-kala's campaigns are documented in royal inscriptions, though absolute dating has a margin of \u00b15\u201310 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent of Ashur-bel-kala's military success is sometimes overstated in older scholarship. Some of his campaigns may have been less decisive than inscriptions suggest. The rise of Assyria is often presented as inevitable; in reality, it was contingent on military success, economic resources, and the weakness of rivals.",
+  "historiographic_note": "Sources for 1111 BCE are limited to Egypt and Mesopotamia. Egyptian sources are abundant but propagandistic. Assyrian sources are similarly royal-centric. The rest of the world has no written records for this year. The historical record is heavily skewed toward the Near East and Egypt.",
+  "graph_edges": [
+    {
+      "from": "-1111-001",
+      "to": "-1114-001",
+      "relation": "contemporary_with",
+      "note": "Both events occur during Ramesses III's reign"
+    },
+    {
+      "from": "-1111-002",
+      "to": "-1113-002",
+      "relation": "contemporary_with",
+      "note": "Both events occur during Ashur-bel-kala's reign"
+    }
+  ]
+}

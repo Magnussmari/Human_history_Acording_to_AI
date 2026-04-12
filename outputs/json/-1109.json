@@ -1,0 +1,82 @@
+{
+  "year": -1109,
+  "year_label": "1110 BCE",
+  "era_context": "Late Bronze Age collapse (c. 1200\u20131150 BCE). Egypt under Ramesses III. The Hittite Empire has fallen (c. 1180 BCE). Mycenaean Greece has collapsed. Mesopotamia is fragmented and weak. China's Shang Dynasty is in its final decades. The Eastern Mediterranean is in upheaval, with the Sea Peoples active and new Iron Age societies emerging. This is a period of widespread disruption, migration, and the transformation of the ancient world.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1109-001",
+      "title": "Ramesses III's reign \u2014 Egyptian military and administrative consolidation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the middle of his reign, a period characterized by military campaigns against the Sea Peoples and Libyans, temple construction, and administrative consolidation. His reign is the last significant period of pharaonic military power. However, Egypt's economy is strained, and evidence from Deir el-Medina suggests labor unrest and delayed wages. His reign marks the transition from the New Kingdom to the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Deir el-Medina papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-documented in Egyptian sources. Absolute dating \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1109-002",
+      "title": "Sea Peoples activity in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean (Levant, Cyprus, Anatolia)",
+      "coordinates_approx": "35.0, 33.0",
+      "category": "military",
+      "description": "The Sea Peoples continue to raid and settle in the Eastern Mediterranean. These maritime groups are documented in Egyptian records as both military threats and as populations settling in the Levant and Cyprus. Their activities contribute to the broader disruption of the Late Bronze Age and the emergence of new Iron Age societies, including the Philistines in the Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian temple reliefs and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Cyprus, Ugarit, and the Levantine coast",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Sea Peoples are well-documented in Egyptian records and archaeological contexts. However, their exact origins and composition remain debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a sudden, catastrophic 'Bronze Age collapse' has been revised by recent scholarship. Many regions experienced gradual decline rather than sudden collapse. The 'Sea Peoples' are often portrayed as a unified invasion force, but evidence suggests they were diverse groups with varied origins and motivations. Some scholars emphasize climate stress (drought) as a contributing factor, while others focus on internal political and economic disruption. The dating of Ramesses III's reign has \u00b110\u201315 year uncertainty.",
+  "historiographic_note": "The historical record for 1110 BCE is heavily weighted toward Egypt and the Eastern Mediterranean. No contemporary written records survive from Mesopotamia, Anatolia, China, or most other regions for this year. Archaeological evidence is fragmentary and difficult to date precisely. The surviving sources are biased toward elite, monumental, and military history. The dating of this period relies on Egyptological chronology, which has inherent uncertainties. Most of the world's population in 1110 BCE left no written records.",
+  "graph_edges": [
+    {
+      "from": "-1109-001",
+      "to": "-1109-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's military campaigns against the Sea Peoples are documented in the same temple reliefs."
+    }
+  ]
+}
