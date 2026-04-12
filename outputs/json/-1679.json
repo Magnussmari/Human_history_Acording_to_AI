@@ -1,0 +1,90 @@
+{
+  "year": -1679,
+  "year_label": "1680 BCE",
+  "era_context": "The Late Bronze Age collapse is beginning in the Eastern Mediterranean and Near East. The New Kingdom of Egypt under the Ramesside dynasty (19th Dynasty) is in its later phase; Ramesses III will soon face the invasions of the Sea Peoples. In Mesopotamia, the Kassite dynasty controls Babylonia. The Hittite Empire in Anatolia remains a major power. In the Aegean, Late Helladic IIIB culture dominates mainland Greece and the islands; Mycenaean palatial centres are at their height. In China, the Shang dynasty continues its rule. This is a period of interconnected trade networks, monumental construction, and increasing military pressure on established powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "South Asia (Vedic period India)",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1679-001",
+      "title": "Reign of Ramesses III begins (traditional dating)",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses III ascends to the throne of Egypt, initiating the final great reign of the New Kingdom. He will become famous for his military campaigns against the Sea Peoples and Libyans, his extensive building programmes, and his administrative reforms. His reign marks the beginning of the end of Egyptian imperial dominance in the Levant. The exact dating of his accession remains debated among Egyptologists, with some placing it circa 1186 BCE and others circa 1187 BCE in conventional chronology.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and reliefs documenting Ramesses III's reign",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative and economic records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus (e.g., Dodson & Hilton, The Complete Royal Families of Ancient Egypt)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested in Egyptian sources, but absolute dating to this specific year depends on radiocarbon calibration and king-list synchronisation. Conventional chronology places his accession circa 1186\u20131187 BCE; the proleptic Gregorian conversion to -1679 assumes standard Egyptological dating frameworks.",
+      "cross_references": [
+        "Relates to -1674-001 (Sea Peoples invasions during his reign)"
+      ]
+    },
+    {
+      "id": "-1679-002",
+      "title": "Hittite Empire under Suppiluliuma II",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "35.4\u00b0N, 33.9\u00b0E",
+      "category": "political",
+      "description": "Suppiluliuma II rules as the last great king of the Hittite Empire. He undertakes military campaigns in Syria and Cyprus, attempting to maintain Hittite dominance in the face of increasing pressure from external enemies and internal instability. His reign is marked by naval operations and efforts to secure trade routes. The empire is entering its final phase before the Bronze Age collapse.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y (Hattusa) archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma II's reign is documented in cuneiform sources, but absolute dating is uncertain. Conventional chronology places his reign in the late 13th century BCE; the assignment to -1679 follows standard Hittite chronological frameworks.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ramesses III's accession and the chronology of the Late Bronze Age collapse remain contested. Some scholars argue for a 'low chronology' that would place these events 50\u2013100 years later than conventional dating. The causes and nature of the Bronze Age collapse itself are debated: while invasions by the Sea Peoples are traditionally emphasised, recent scholarship highlights climate change, systemic economic failure, and internal instability as contributing or primary factors. The significance of individual rulers like Ramesses III may be overstated in traditional narratives that privilege Egyptian sources.",
+  "historiographic_note": "Documentation for this period is heavily skewed toward Egypt, the Hittite Empire, and the Aegean. Egyptian temple inscriptions and administrative papyri provide rich detail for Ramesses III's reign, but they are state-sponsored sources that emphasise military victories and royal piety. Hittite cuneiform texts offer a Near Eastern perspective but are fragmentary. The broader Bronze Age collapse is reconstructed from multiple sources\u2014Egyptian, Hittite, Ugaritic, Greek\u2014but the interplay of causes remains unclear. Sub-Saharan Africa, South Asia, and the Americas are essentially absent from the historical record for this year, reflecting both genuine gaps in surviving evidence and the Eurocentric bias of modern scholarship.",
+  "graph_edges": [
+    {
+      "from": "-1679-001",
+      "to": "-1674-001",
+      "relation": "led_to",
+      "note": "Ramesses III's reign encompasses the major Sea Peoples invasions of the 1170s BCE"
+    },
+    {
+      "from": "-1679-002",
+      "to": "-1675-001",
+      "relation": "contemporary_with",
+      "note": "Suppiluliuma II and Ramesses III were contemporaries during the Late Bronze Age crisis"
+    }
+  ]
+}

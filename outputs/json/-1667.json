@@ -1,0 +1,81 @@
+{
+  "year": -1667,
+  "year_label": "1668 BCE",
+  "era_context": "The Late Bronze Age in its final phase of centralized state power. The Hittite Empire is weakening; Egypt under Ramesses III is at the height of its power but facing external pressures. Mycenaean Greece is in transition. The Shang Dynasty dominates China. This is a period of apparent stability masking underlying systemic stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1667-001",
+      "title": "Hittite Empire experiences internal administrative fragmentation",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "39.0, 34.0",
+      "category": "political",
+      "description": "The Hittite Empire under \u0160uppiluliuma II shows signs of administrative fragmentation and loss of control over peripheral territories. Vassal states in Syria and the Levant become increasingly independent. This reflects the broader collapse of centralized Bronze Age state systems, driven by a combination of military pressure, economic disruption, and internal instability.",
+      "key_figures": [
+        "\u0160uppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hittite sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "\u0160uppiluliuma II's reign is dated c. 1207\u20131178 BCE; specific administrative changes are not dated to individual years. This entry reflects the documented pattern of Hittite decline assigned to this year by convention.",
+      "cross_references": [
+        "Part of the broader Late Bronze Age Collapse",
+        "Precedes the final collapse of the Hittite Empire around -1150"
+      ]
+    },
+    {
+      "id": "-1667-002",
+      "title": "Shang Dynasty maintains ritual and administrative authority in China",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "political",
+      "description": "The Shang Dynasty continues to exercise centralized authority over northern China through a combination of military force, ritual authority, and administrative control. Oracle bone inscriptions document ongoing divination practices and administrative decisions. The dynasty remains stable, in contrast to the turmoil affecting the Mediterranean and Near East.",
+      "key_figures": [
+        "Shang rulers (specific king uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are not individually dated to specific years; this entry reflects the documented Shang period. Precise year assignment is conventional.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Hittite Empire's collapse is sometimes attributed primarily to external invasion (the Sea Peoples), but modern scholarship increasingly emphasizes internal administrative failure, economic disruption, and climate stress as primary factors. The 'Sea Peoples' may have been a symptom rather than a cause of the broader collapse. Additionally, the extent of Hittite territorial loss by 1668 BCE is uncertain; some scholars argue the empire remained relatively stable until around 1200 BCE.",
+  "historiographic_note": "Documentation for this year relies heavily on Egyptian and Hittite administrative records, which are biased toward royal narratives. Archaeological evidence provides material context but lacks precise chronological resolution. The Shang Dynasty is well-documented through oracle bones, but Chinese chronology for this period remains debated among scholars. The Mediterranean and Near East are far better documented than other regions, creating a Eurocentric bias in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-1667-001",
+      "to": "-1150-001",
+      "relation": "led_to",
+      "note": "Hittite administrative fragmentation culminates in the empire's final collapse"
+    }
+  ]
+}

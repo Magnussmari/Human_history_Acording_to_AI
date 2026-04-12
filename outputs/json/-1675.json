@@ -1,0 +1,117 @@
+{
+  "year": -1675,
+  "year_label": "1676 BCE",
+  "era_context": "Late Bronze Age, Eastern Mediterranean and Near East. Ramesses III is in the middle years of his reign in Egypt. The Hittite Empire is in its final phase. Mycenaean Greece remains in the palatial period. The Kassite dynasty rules Mesopotamia. In China, the Shang dynasty continues. This is the eve of the Bronze Age collapse; the international system is still functioning, but strains are becoming more visible. Climate records suggest increasing environmental stress in some regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "South Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1675-001",
+      "title": "Hittite Empire faces internal and external crises",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "35.4\u00b0N, 33.9\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire under Suppiluliuma II faces mounting pressures from external enemies and internal instability. Cuneiform texts document military campaigns, diplomatic correspondence, and administrative challenges. The empire is struggling to maintain control over its territories and trade routes. Within a few years, the empire will collapse entirely, marking the end of the Hittite Great Kingdom.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Late Bronze Age collapse",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hittite Empire's crisis in the late 13th century BCE is documented in cuneiform texts, but the precise chronology and causes are debated. The assignment to -1675 is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1675-002",
+      "title": "Ugarit destroyed (traditional dating)",
+      "region": "Levant, Ugarit (modern Syria)",
+      "coordinates_approx": "35.6\u00b0N, 35.8\u00b0E",
+      "category": "military",
+      "description": "Ugarit is destroyed, likely by a combination of naval attack and internal collapse. The destruction is sudden and complete; the city is abandoned and not resettled. The destruction of Ugarit is one of the most dramatic events of the Bronze Age collapse and marks the end of a major international trade centre. The causes of the destruction are debated: invasion by the Sea Peoples, internal conflict, or a combination of factors.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Ras Shamra excavations showing destruction layers",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Final cuneiform texts from Ugarit, including letters expressing concern about external threats",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The destruction of Ugarit is archaeologically confirmed, but the precise dating and causes are debated. Conventional chronology places the destruction circa 1185 BCE. The assignment to -1675 follows standard dating frameworks, but some scholars argue for dates a few years earlier or later.",
+      "cross_references": [
+        "Relates to -1674-001 (Sea Peoples invasions)"
+      ]
+    },
+    {
+      "id": "-1675-003",
+      "title": "Ramesses III faces the first major Sea Peoples invasion",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Ramesses III faces the first major invasion by the Sea Peoples, a confederation of maritime raiders from the Eastern Mediterranean. The invasion is repelled, and Ramesses III commemorates the victory in temple reliefs at Medinet Habu. The Sea Peoples invasions are a major feature of the Late Bronze Age collapse and represent a significant military and political challenge to established powers.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs depicting the Sea Peoples invasion and its repulsion",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sea Peoples invasions during Ramesses III's reign are well-attested in Egyptian sources, but the precise dating of individual invasions is uncertain. Conventional chronology places the major invasions in the 1170s BCE. The assignment to -1675 is approximate.",
+      "cross_references": [
+        "Relates to -1674-001 (continuation of Sea Peoples invasions)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The destruction of Ugarit is traditionally attributed to the Sea Peoples, but recent scholarship suggests a more complex picture. Some scholars argue that internal instability and economic collapse were primary factors, with external invasion as a secondary or contributing cause. The Sea Peoples themselves are sometimes presented as a unified military force, but they may have been a diverse group of maritime raiders and migrants. The extent of their role in the Bronze Age collapse is debated.",
+  "historiographic_note": "This year falls at the cusp of the Bronze Age collapse, one of the most dramatic transitions in ancient history. The historical record is dominated by Egyptian sources (temple reliefs and administrative texts) and archaeological evidence from destroyed cities. The perspective is heavily weighted toward the viewpoint of established powers like Egypt and the Hittite Empire; the perspective of the Sea Peoples and other marginal groups is largely absent. The causes of the collapse remain debated among scholars, with competing theories emphasising invasion, climate change, economic failure, and systemic instability.",
+  "graph_edges": [
+    {
+      "from": "-1675-001",
+      "to": "-1674-002",
+      "relation": "led_to",
+      "note": "Hittite crisis leads to the empire's final collapse"
+    },
+    {
+      "from": "-1675-002",
+      "to": "-1674-001",
+      "relation": "contemporary_with",
+      "note": "Destruction of Ugarit is part of the broader Sea Peoples invasions"
+    },
+    {
+      "from": "-1675-003",
+      "to": "-1674-001",
+      "relation": "led_to",
+      "note": "First Sea Peoples invasion is followed by further invasions"
+    }
+  ]
+}

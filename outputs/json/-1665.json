@@ -1,0 +1,86 @@
+{
+  "year": -1665,
+  "year_label": "1666 BCE",
+  "era_context": "The Late Bronze Age Collapse is beginning to manifest across the Eastern Mediterranean and Near East. The Hittite Empire under \u0160uppiluliuma II is in its final decades; Egypt under Ramesses III is defending against the Sea Peoples invasions. Mycenaean Greece is in the Late Helladic IIIC period, experiencing disruption. The Shang Dynasty dominates China; Vedic culture is developing in the Indian subcontinent.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Mesoamerica (no written records; archaeological chronology uncertain)",
+    "Northern Europe (sparse archaeological evidence)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1665-001",
+      "title": "Hittite-Egyptian conflict over Syria intensifies",
+      "region": "Syria, Levant, Hittite Empire, Egypt",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Ongoing territorial disputes between the Hittite Empire and Egypt over control of Syria and the Levantine coast escalate. Both powers are increasingly distracted by external threats\u2014the Hittites by Anatolian instability and the Sea Peoples, Egypt by incursions from Libya and the Mediterranean. These conflicts foreshadow the broader collapse of Bronze Age state systems within the next two decades.",
+      "key_figures": [
+        "\u0160uppiluliuma II (Hittite Great King)",
+        "Ramesses III (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and correspondence (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple reliefs and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Specific events of 1666 BCE are not individually dated in surviving records; this entry reflects the documented pattern of Hittite-Egyptian tension in the late 13th century BCE, assigned to this year by scholarly convention based on regnal chronologies.",
+      "cross_references": [
+        "Follows from broader Hittite-Egyptian rivalry documented from -1700 onwards",
+        "Precedes the Sea Peoples invasions of -1660 to -1650"
+      ]
+    },
+    {
+      "id": "-1665-002",
+      "title": "Shang Dynasty oracle bone divination and ritual consolidation",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "religious",
+      "description": "The Shang Dynasty continues its dominance of northern China through ritual authority and divination practices. Oracle bones inscribed with divination records provide evidence of sophisticated administrative and religious systems. This period represents the height of Shang ritual culture before the dynasty's decline in the 11th century BCE.",
+      "key_figures": [
+        "Shang rulers (specific king uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu (Anyang)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are not individually dated to specific years; this entry reflects the documented Shang period (c. 1600\u20131046 BCE). Precise year assignment is conventional.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Late Bronze Age Collapse itself is contested. While traditional chronologies place major disruptions around 1200\u20131150 BCE, some scholars argue for a more gradual decline beginning earlier (c. 1250 BCE) or later (c. 1100 BCE). The role of the 'Sea Peoples' in this collapse is debated: some scholars view them as a primary cause, others as a symptom of broader systemic failure. Egyptian records may overstate the military threat posed by the Sea Peoples for propagandistic purposes.",
+  "historiographic_note": "Documentation for 1666 BCE is heavily dependent on Egyptian and Hittite administrative records and inscriptions, which are biased toward royal and military narratives. Archaeological evidence from the Levant and Anatolia provides material context but lacks precise year-by-year dating. Chinese oracle bones offer a parallel documentary tradition but are similarly difficult to assign to specific years. Sub-Saharan Africa, the Americas, and much of Southeast Asia have no written records for this period; our knowledge relies entirely on archaeology, which cannot reliably date individual years.",
+  "graph_edges": [
+    {
+      "from": "-1665-001",
+      "to": "-1660-001",
+      "relation": "led_to",
+      "note": "Hittite-Egyptian tensions contribute to the broader instability that culminates in the Sea Peoples invasions"
+    },
+    {
+      "from": "-1665-002",
+      "to": "-1046-001",
+      "relation": "part_of",
+      "note": "Shang ritual culture continues until the dynasty's fall to the Zhou"
+    }
+  ]
+}

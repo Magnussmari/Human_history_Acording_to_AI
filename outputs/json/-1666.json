@@ -1,0 +1,79 @@
+{
+  "year": -1666,
+  "year_label": "1667 BCE",
+  "era_context": "The Late Bronze Age in its final century of stability. The Hittite Empire is fragmenting; Egypt under Ramesses III faces mounting pressure from Libyan and Sea Peoples incursions. Mycenaean palatial centers in Greece are experiencing stress. The Shang Dynasty in China remains dominant. This period marks the transition from the stable Bronze Age state system to the more fragmented Iron Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1666-001",
+      "title": "Ramesses III consolidates Egyptian defenses against Sea Peoples",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Pharaoh Ramesses III strengthens Egyptian naval and military defenses in response to increasing raids and migration pressure from the Sea Peoples and Libyan groups. Egyptian records document the construction of fortifications and the mobilization of military forces. This defensive posture reflects the broader instability of the late Bronze Age Mediterranean.",
+      "key_figures": [
+        "Ramesses III (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses III's reign is dated c. 1186\u20131155 BCE; specific military actions are not individually dated to 1667 BCE. This entry reflects the documented pattern of his reign assigned to this year by convention.",
+      "cross_references": [
+        "Part of broader Sea Peoples invasions documented from -1660 to -1150"
+      ]
+    },
+    {
+      "id": "-1666-002",
+      "title": "Mycenaean palace centers show signs of stress and abandonment",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "cultural",
+      "description": "Archaeological evidence from Mycenaean sites shows increasing signs of disruption: destruction layers, abandonment of some settlements, and declining palatial authority. This reflects the broader Late Helladic IIIC period of transition. The causes remain debated\u2014invasion, climate change, internal conflict, or a combination of factors.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mycenae, Tiryns, Pylos, and other Aegean sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Late Helladic IIIC period is dated c. 1200\u20131050 BCE; specific events within this period are not precisely dated. Assignment to 1667 BCE is conventional.",
+      "cross_references": [
+        "Part of the broader Late Bronze Age Collapse"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'Sea Peoples' are often portrayed as a unified invasion force, but modern scholarship increasingly views them as diverse maritime groups, some of whom may have been displaced by the same systemic collapse they are blamed for causing. The extent to which external invasion versus internal collapse drove the end of the Bronze Age remains hotly contested. Some scholars argue that climate change (volcanic eruptions, drought) was the primary driver, with military conflict as a secondary effect.",
+  "historiographic_note": "Egyptian records provide the most detailed contemporary documentation for this period, but they are inherently biased toward royal military narratives and may exaggerate external threats to justify internal policies. Hittite records are fragmentary. Greek Linear B tablets provide administrative detail but end around 1200 BCE. Archaeological evidence is abundant but difficult to date precisely to individual years. The 'Sea Peoples' remain poorly understood; their origins, composition, and motivations are inferred from Egyptian reliefs and scattered archaeological evidence.",
+  "graph_edges": [
+    {
+      "from": "-1666-001",
+      "to": "-1666-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian military consolidation occurs alongside Mycenaean palace disruption, both reflecting broader Mediterranean instability"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "year": -1668,
+  "year_label": "1669 BCE",
+  "era_context": "The Late Bronze Age at its apparent zenith of centralized state power, though underlying systemic stress is building. The Hittite Empire, Egypt, Mycenaean Greece, and the Shang Dynasty all maintain significant authority. However, this is the calm before the Late Bronze Age Collapse, which will unfold over the next 50\u2013100 years.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1668-001",
+      "title": "Egyptian-Hittite diplomatic relations remain stable but strained",
+      "region": "Egypt, Hittite Empire, Levant",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "political",
+      "description": "Egypt and the Hittite Empire maintain formal diplomatic relations and trade, but underlying tensions over control of Syria and the Levant persist. Both powers are increasingly distracted by external threats and internal administrative challenges. This period represents the last phase of stable great-power diplomacy before the Bronze Age system collapses.",
+      "key_figures": [
+        "Ramesses III (Egyptian Pharaoh)",
+        "\u0160uppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific diplomatic events are not dated to individual years; this entry reflects the documented pattern of Egyptian-Hittite relations in the late 13th century BCE.",
+      "cross_references": [
+        "Part of the broader pattern of Late Bronze Age great-power diplomacy"
+      ]
+    },
+    {
+      "id": "-1668-002",
+      "title": "Mycenaean trade networks remain active but show signs of disruption",
+      "region": "Greece, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "economic",
+      "description": "Mycenaean pottery and goods continue to circulate throughout the Eastern Mediterranean, indicating active trade networks. However, archaeological evidence suggests increasing disruption to these networks, with some routes becoming less reliable. This reflects the broader instability of the late Bronze Age Mediterranean economy.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of pottery distribution and trade goods",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets documenting trade and economic activity",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade patterns are inferred from archaeological distribution; specific events are not dated to individual years.",
+      "cross_references": [
+        "Part of the broader Late Bronze Age economic system"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The stability of the Late Bronze Age great-power system in 1669 BCE is sometimes overstated. Some scholars argue that systemic stress was already significant by this date, with the 'collapse' being a more gradual process than the traditional narrative suggests. The role of climate change (volcanic eruptions, drought) in destabilizing the Bronze Age system is increasingly recognized, though the precise timing and impact remain debated.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on Egyptian and Hittite administrative records. Archaeological evidence provides material context but lacks precise chronological resolution. The historical record is biased toward the Mediterranean and Near East; other regions are poorly documented. The concept of a 'Bronze Age Collapse' is itself a historiographic construct that may impose artificial coherence on a more complex and regionally varied process of change.",
+  "graph_edges": [
+    {
+      "from": "-1668-001",
+      "to": "-1660-001",
+      "relation": "led_to",
+      "note": "Stable diplomatic relations break down as the Late Bronze Age system collapses"
+    },
+    {
+      "from": "-1668-002",
+      "to": "-1150-002",
+      "relation": "led_to",
+      "note": "Mycenaean trade networks collapse as the Bronze Age system fails"
+    }
+  ]
+}
