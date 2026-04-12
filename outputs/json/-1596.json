@@ -1,0 +1,116 @@
+{
+  "year": -1596,
+  "year_label": "1597 BCE",
+  "era_context": "Middle Bronze Age. The Hittite Old Kingdom is consolidating power in Anatolia under rulers like Hantili I and his successors. The Hyksos Fifteenth Dynasty controls the Nile Delta and Lower Egypt, while the native Thirteenth Dynasty continues in Upper Egypt with diminished authority. The Kassite dynasty rules Babylon and southern Mesopotamia following the Hittite sack (c. 1595 BCE). Mycenaean Greece is in the Early Bronze Age III. The Indus Valley Civilization is in post-urban decline. This is a period of regional powers and political fragmentation.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-1596-001",
+      "title": "Hittite Old Kingdom: military consolidation in Anatolia",
+      "region": "Anatolia",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "military",
+      "description": "The Hittite Old Kingdom continues military campaigns to consolidate control over Anatolia and establish Hittite dominance over rival kingdoms and city-states. The Hittites are developing military organization, fortification systems, and administrative structures that will characterize the later New Kingdom empire. This period sees the emergence of Hittite as a major regional military power.",
+      "key_figures": [
+        "Hittite Old Kingdom rulers (Hantili I and successors)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Telepinu Edict (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and other Anatolian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Hittite Old Kingdom's military activities are attested in general terms, but specific campaigns for the year -1596 are not documented.",
+      "cross_references": [
+        "Part of Hittite Old Kingdom expansion (c. 1650\u20131620 BCE)"
+      ]
+    },
+    {
+      "id": "-1596-002",
+      "title": "Kassite Babylon: early administrative development",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "The Kassite dynasty continues to establish administrative structures and consolidate control over Babylon and southern Mesopotamia. The Kassites are adopting Babylonian administrative practices, legal codes, and religious traditions while maintaining their own military and ethnic identity. This period sees the development of the feudal-style governance system that will characterize the Kassite period.",
+      "key_figures": [
+        "Early Kassite kings"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Babylon and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian king lists (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Kassite administrative development is attested, but specific events for the year -1596 are not documented.",
+      "cross_references": [
+        "Part of early Kassite period (c. 1595\u20131400 BCE)"
+      ]
+    },
+    {
+      "id": "-1596-003",
+      "title": "Hyksos Fifteenth Dynasty: administrative consolidation in Egypt",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "31.0, 30.5",
+      "category": "political",
+      "description": "The Hyksos Fifteenth Dynasty continues to consolidate administrative control over the Nile Delta and Lower Egypt. The Hyksos establish administrative centers, military garrisons, and maintain trade networks with the Levant, Nubia, and the Mediterranean. The Hyksos rulers adopt Egyptian titles and religious practices while maintaining their own cultural identity and military superiority through the use of horse-drawn chariots and composite bows.",
+      "key_figures": [
+        "Hyksos kings of the Fifteenth Dynasty"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian New Kingdom texts describing the Hyksos period (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Hyksos period is well-attested archaeologically, but specific events for the year -1596 are not documented.",
+      "cross_references": [
+        "Part of Hyksos rule in Egypt (c. 1650\u20131550 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "The year -1596 falls within a period of very sparse contemporary documentation. Specific events for this year are essentially unknown. The entries above describe broader patterns of political and military consolidation occurring during the early Kassite, Hittite Old Kingdom, and Hyksos periods. Chronological uncertainty of \u00b120\u201350 years is common for this period.",
+  "graph_edges": [
+    {
+      "from": "-1596-001",
+      "to": "-1596-002",
+      "relation": "contemporary_with",
+      "note": "Hittite military consolidation occurs alongside Kassite administrative development"
+    },
+    {
+      "from": "-1596-003",
+      "to": "-1596-001",
+      "relation": "contemporary_with",
+      "note": "Hyksos consolidation in Egypt is contemporary with Hittite and Kassite consolidation"
+    }
+  ]
+}

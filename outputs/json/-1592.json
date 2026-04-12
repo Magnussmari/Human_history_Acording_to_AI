@@ -1,0 +1,74 @@
+{
+  "year": -1592,
+  "year_label": "1593 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep II. The New Kingdom is at its territorial peak. In Anatolia, the Hittite Empire is consolidating under Tudhaliya III. In the Aegean, Mycenaean palace culture is flourishing in Late Helladic IIIA. In Mesopotamia, Kassite Babylon dominates. In China, the Shang Dynasty is in its middle period (Anyang phase).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese sources for this period are problematic; oracle bone inscriptions exist but are difficult to date precisely)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1592-001",
+      "title": "Shang Dynasty Oracle Bone Divination Practices",
+      "region": "China (Anyang, Henan Province)",
+      "coordinates_approx": "36.1, 114.3",
+      "category": "cultural",
+      "description": "During the Shang Dynasty's Anyang phase, oracle bone divination was a central practice of royal governance. Kings consulted oracle bones (scapulae and plastrons) to make decisions about warfare, agriculture, and ritual. These bones, inscribed with divination records, provide evidence of Shang administrative and religious practices. The practice reflects the integration of divination into state decision-making.",
+      "key_figures": [
+        "Shang kings (names uncertain for this specific period)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Anyang",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Anyang excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are dated archaeologically to the Anyang phase (c. 1250\u20131050 BCE in conventional chronology), but precise annual dating is not possible. This entry is assigned to this period by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-1592-002",
+      "title": "Mycenaean Palace Culture in Late Helladic IIIA",
+      "region": "Aegean (Greece)",
+      "coordinates_approx": "37.7, 23.7",
+      "category": "cultural",
+      "description": "Mycenaean palace centers at Mycenae, Tiryns, and Pylos were at their height during Late Helladic IIIA (c. 1425\u20131390 BCE). These palatial centers controlled regional trade networks, maintained military forces, and produced distinctive pottery and luxury goods. The palaces were administrative, religious, and economic centers that dominated the Aegean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenae, Tiryns, and Pylos excavations",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and stratigraphy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Late Helladic IIIA is well-dated archaeologically through pottery typology and stratigraphic sequences. The period is conventionally dated c. 1425\u20131390 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang Dynasty and oracle bone inscriptions is highly contested. Some scholars place the Anyang phase earlier (c. 1300\u20131050 BCE), while others argue for later dates. The conventional chronology used here (c. 1250\u20131050 BCE) is not universally accepted. Additionally, the interpretation of oracle bones as evidence of 'divination' versus 'record-keeping' is debated among scholars.",
+  "historiographic_note": "For this year, documentation is extremely sparse and geographically fragmented. Egyptian and Hittite sources dominate the historical record, while Chinese and Aegean evidence is archaeological rather than textual. The dating of events in China and the Aegean relies on archaeological typology and stratigraphy, which are less precise than textual chronologies. No sources exist for most of the world during this period.",
+  "graph_edges": [
+    {
+      "from": "-1592-002",
+      "to": "-1580-001",
+      "relation": "led_to",
+      "note": "Mycenaean palace culture continued to develop through Late Helladic IIIA and IIIB"
+    }
+  ]
+}

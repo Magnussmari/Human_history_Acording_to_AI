@@ -1,0 +1,82 @@
+{
+  "year": -1590,
+  "year_label": "1591 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep II. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant through military campaigns and vassal relationships. In Anatolia, the Hittite Empire under Tudhaliya III is consolidating power. In the Aegean, Late Helladic IIIA pottery indicates Mycenaean palace culture is flourishing. In Mesopotamia, Kassite Babylon dominates under Kashtiliash III.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (Iron Age transition poorly dated)",
+    "East Asia (Chinese sources for this period are sparse and later-compiled)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1590-001",
+      "title": "Amenhotep II's Nubian Campaign",
+      "region": "Nubia and Upper Egypt",
+      "coordinates_approx": "18.0, 32.0",
+      "category": "military",
+      "description": "Amenhotep II conducted military campaigns into Nubia to suppress unrest and reassert Egyptian control over gold-producing regions. The campaign is documented in temple inscriptions at Karnak and Amada. These expeditions were part of the broader New Kingdom strategy to maintain hegemony over Nubian territories and secure access to African resources, particularly gold, ivory, and incense.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Karnak and Amada",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Thutmose III and Amenhotep II military records (Urk. IV)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep II's reign is well-attested (c. 1427\u20131400 BCE in conventional chronology), but specific campaigns are sometimes difficult to date to individual years. This campaign is assigned to this period based on regnal sequence.",
+      "cross_references": []
+    },
+    {
+      "id": "-1590-002",
+      "title": "Hittite Consolidation under Tudhaliya III",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5, 33.5",
+      "category": "political",
+      "description": "Tudhaliya III of the Hittite Empire was consolidating central authority in Anatolia and expanding Hittite influence into Syria and the Levant. His reign marks a period of military reorganization and diplomatic engagement with Egypt and other regional powers. The Hittites were establishing themselves as a major imperial force during this period.",
+      "key_figures": [
+        "Tudhaliya III (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Hittite State Archives (Bo\u011fazk\u00f6y)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tudhaliya III's reign is conventionally dated c. 1420\u20131400 BCE, but Hittite chronology remains debated. High and Low chronologies differ by 50\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Hittite chronology is contested. The conventional 'Middle Chronology' places Tudhaliya III c. 1420\u20131400 BCE, but the 'Low Chronology' would place him later (c. 1370\u20131350 BCE). This affects the precise dating of events attributed to his reign. Additionally, some scholars dispute the extent of Hittite territorial control in Syria during this period, suggesting earlier Hittite expansion narratives may be overstated.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian temple inscriptions and Hittite archives, both of which are elite-authored and may emphasize military victories while downplaying defeats or logistical failures. Nubian and Levantine perspectives are largely absent from surviving records. The dating of events relies on regnal chronologies that are themselves debated (High vs. Low Chronology), introducing \u00b150\u2013100 year uncertainty into absolute dating.",
+  "graph_edges": [
+    {
+      "from": "-1590-001",
+      "to": "-1589-001",
+      "relation": "led_to",
+      "note": "Amenhotep II's campaigns established patterns of Nubian control that persisted through his reign"
+    },
+    {
+      "from": "-1590-002",
+      "to": "-1585-001",
+      "relation": "part_of",
+      "note": "Tudhaliya III's consolidation was part of broader Hittite imperial expansion in the mid-18th Dynasty period"
+    }
+  ]
+}
