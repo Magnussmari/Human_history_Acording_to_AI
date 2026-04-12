@@ -1,0 +1,118 @@
+{
+  "year": 264,
+  "year_label": "264 CE",
+  "era_context": "The Roman Empire continues its Crisis of the Third Century with rapid imperial succession and frontier instability. Claudius Gothicus is in the final years of his reign (r. 268\u2013270 CE), having achieved some military successes against Gothic invasions in the Balkans. The Sassanid Empire under Shapur I remains aggressive in the Near East. In China, the Western Jin Dynasty is consolidating power following the unification of 280 CE, though this is still in the future from 264's perspective; the Three Kingdoms period (220\u2013280 CE) is still ongoing, with the Jin state (not yet imperial) preparing for its final conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (virtually no written sources)",
+    "Northern Europe (sparse archaeological record)",
+    "Mesoamerica (no synchronized chronology)",
+    "Southeast Asia (limited documentation)",
+    "India (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "264-001",
+      "title": "Claudius Gothicus campaigns against Goths in the Balkans",
+      "region": "Roman Balkans, Danube frontier",
+      "coordinates_approx": "44.0,21.0",
+      "category": "military",
+      "description": "Emperor Claudius Gothicus (r. 268\u2013270 CE) continues military campaigns against Gothic and other barbarian incursions into the Roman Balkans. These campaigns are among the few successes of the Crisis of the Third Century period, earning him the epithet 'Gothicus.' The exact chronology of individual campaigns is uncertain, but 264 falls within the period of his major Balkan operations. His military reputation is enhanced by these victories, though they do not fundamentally resolve the empire's structural problems.",
+      "key_figures": [
+        "Claudius Gothicus (Roman Emperor, r. 268\u2013270)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Vita Claudii)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Claudius Gothicus's reign is dated 268\u2013270 CE, but the specific chronology of individual campaigns within this period is not precisely documented. The Historia Augusta is unreliable for specific dates.",
+      "cross_references": [
+        "Part of Claudius Gothicus's reign (268\u2013270)",
+        "Related to broader barbarian invasions during Crisis of the Third Century"
+      ]
+    },
+    {
+      "id": "264-002",
+      "title": "Sima Yan (future Emperor Wu of Jin) consolidates power in Jin state",
+      "region": "China, Jin state territory",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Sima Yan, who will become Emperor Wu of the Western Jin Dynasty, is consolidating power within the Jin state during the final years of the Three Kingdoms period. In 264, the Jin state is the dominant military and political power among the three kingdoms (Wei, Wu, Shu), though the formal unification of China under Jin rule will not occur until 280 CE. Sima Yan's preparations for this unification are underway, including military reorganization and political consolidation.",
+      "key_figures": [
+        "Sima Yan (future Emperor Wu of Jin, r. 266\u2013290 as emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sima Yan's rise to power is well-documented in Chinese sources, though the specific events of 264 CE are not individually detailed. The chronology is reliable within \u00b11\u20132 years.",
+      "cross_references": [
+        "Part of Three Kingdoms period (220\u2013280 CE)",
+        "Precedes Jin unification of China (280-001)"
+      ]
+    },
+    {
+      "id": "264-003",
+      "title": "Sassanid-Roman conflicts continue; frontier raids and skirmishes",
+      "region": "Sassanid Persia, Roman Near East",
+      "coordinates_approx": "35.0,44.0",
+      "category": "military",
+      "description": "Shapur I of the Sassanid Empire continues pressure on Roman-held territories in Mesopotamia and Syria. The exact nature and scale of 264 CE's conflicts are not well-documented, but the broader pattern of Sassanid expansion and Roman defensive struggles is clear. Roman military resources remain stretched due to the Crisis of the Third Century, limiting large-scale counteroffensives.",
+      "key_figures": [
+        "Shapur I (Sassanid Shah, r. 240\u2013272)"
+      ],
+      "sources": [
+        {
+          "name": "Shapur I's Res Gestae Divi Saporis (inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shapur's inscription does not provide year-by-year detail. The chronology of specific campaigns is reconstructed from multiple sources with significant uncertainty.",
+      "cross_references": [
+        "Part of Sassanid-Roman Wars (ongoing)",
+        "Related to Roman Crisis of the Third Century"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta is recognized as unreliable for specific dates and details of Claudius Gothicus's campaigns. Modern scholarship debates the exact chronology of his Balkan operations. No major disconfirming evidence identified for the Jin state consolidation or Sassanid-Roman conflicts, though the lack of detailed sources means alternative interpretations are possible.",
+  "historiographic_note": "The historical record for 264 CE is sparse and heavily dependent on later compilations. The Historia Augusta remains the primary source for Roman events, but its reliability is questionable. Chinese sources are more reliable but do not provide detailed year-by-year accounts of the pre-unification period. Sassanid sources are limited to Shapur's inscription, which is propagandistic and lacks precision. The record is heavily skewed toward military and political history; economic, social, and cultural developments are almost entirely undocumented for this year. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "264-001",
+      "to": "268-001",
+      "relation": "part_of",
+      "note": "Claudius Gothicus's Balkan campaigns were part of his broader military strategy during his reign"
+    },
+    {
+      "from": "264-002",
+      "to": "280-001",
+      "relation": "led_to",
+      "note": "Sima Yan's consolidation of power in 264 led to the Jin unification of China in 280 CE"
+    }
+  ]
+}

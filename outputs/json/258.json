@@ -1,0 +1,124 @@
+{
+  "year": 258,
+  "year_label": "258 CE",
+  "era_context": "The Roman Empire is in the depths of the Crisis of the Third Century. Emperor Valerian I (r. 253\u2013260 CE) is consolidating his power and preparing for a major campaign against Sassanid Persia. In China, the Three Kingdoms period continues with Wei, Shu, and Wu in a state of military stalemate. The Sassanid Empire under Shapur I is expanding aggressively. Germanic tribes are pressing Roman frontiers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier accounts",
+    "Central Asia and Steppe regions (sparse documentation)",
+    "Most of the Roman Empire outside major military campaigns"
+  ],
+  "events": [
+    {
+      "id": "258-001",
+      "title": "Valerian I Prepares Eastern Campaign Against Shapur I",
+      "region": "Roman Empire (Syria and Mesopotamia)",
+      "coordinates_approx": "37.0\u00b0N, 40.0\u00b0E",
+      "category": "military",
+      "description": "Emperor Valerian I, having consolidated power after his accession in 253 CE, began preparations for a major military campaign against Sassanid King Shapur I. This campaign was a response to years of Sassanid aggression and raids into Roman territory. Valerian assembled troops and resources for what would become one of the largest Roman military operations of the Crisis period. The campaign would be launched in 259 CE and culminate in disaster at Edessa in 260 CE. In 258 CE, Valerian was still in the preparation phase, gathering forces and establishing supply lines.",
+      "key_figures": [
+        "Valerian I (Roman Emperor)",
+        "Shapur I (Sassanid King)",
+        "Gallienus (Caesar, Valerian's son)"
+      ],
+      "sources": [
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general fact of Valerian's eastern campaign is well-attested, but the precise chronology of preparation (258 vs. 259 CE) is uncertain. The campaign likely began in 259 CE, so 258 CE would represent the preparation phase.",
+      "cross_references": [
+        "Led to 259-001 (Campaign execution)",
+        "Led to 260-001 (Battle of Edessa)"
+      ]
+    },
+    {
+      "id": "258-002",
+      "title": "Sassanid Raids into Roman Syria and Mesopotamia",
+      "region": "Syria and Mesopotamia",
+      "coordinates_approx": "36.0\u00b0N, 38.0\u00b0E",
+      "category": "military",
+      "description": "Sassanid forces under Shapur I continued to raid Roman-held territories in Syria and Mesopotamia. These raids were part of a sustained campaign of aggression that would culminate in the major invasion of 260 CE. The raids caused economic disruption and military strain on Roman resources. Valerian's response\u2014the preparation of a major counteroffensive\u2014was a direct reaction to this Sassanid pressure.",
+      "key_figures": [
+        "Shapur I (Sassanid King)",
+        "Roman provincial governors (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shapur I's Res Gestae Divi Sapori (references to campaigns)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Sassanid raids during this period are well-attested, but the precise dating to 258 CE versus adjacent years is uncertain. The general pattern is secure.",
+      "cross_references": [
+        "Part of broader Sassanid expansion (253\u2013262 CE)"
+      ]
+    },
+    {
+      "id": "258-003",
+      "title": "Germanic Incursions into Roman Gaul",
+      "region": "Roman Gaul",
+      "coordinates_approx": "48.0\u00b0N, 5.0\u00b0E",
+      "category": "military",
+      "description": "Germanic tribes, including Franks and Alamanni, conducted raids into Roman Gaul. These incursions were part of the broader pattern of Germanic pressure during the Crisis of the Third Century. With Roman military resources stretched thin by the eastern campaign preparations and internal instability, frontier defenses were weakened. The raids caused disruption to Gallic provinces and contributed to economic strain.",
+      "key_figures": [
+        "Germanic tribal leaders (names largely unrecorded)",
+        "Roman frontier commanders (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Gallic sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Germanic raids during this period are well-attested, but specific events and dates for 258 CE are poorly documented. The general pattern is secure.",
+      "cross_references": [
+        "Part of broader Germanic migration period (235\u2013284 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Valerian's campaign preparations is uncertain. Some sources suggest the campaign began in 258 CE, others in 259 CE. The extent of Sassanid raids in 258 CE versus adjacent years is unclear. The scale and specific incidents of Germanic incursions in 258 CE are poorly documented.",
+  "historiographic_note": "The historical record for 258 CE is sparse and heavily dependent on later compilations that are known to be unreliable. Contemporary sources are limited to numismatic evidence and fragmentary references in later chronicles. The year 258 CE is often overshadowed by the dramatic events of 260 CE (Edessa), and specific events of 258 CE may be conflated with those of adjacent years or omitted entirely. The perspective of provincial populations, Germanic tribes, and non-elite actors is almost entirely absent.",
+  "graph_edges": [
+    {
+      "from": "258-001",
+      "to": "259-001",
+      "relation": "led_to",
+      "note": "Preparation phase led to campaign execution"
+    },
+    {
+      "from": "258-002",
+      "to": "258-001",
+      "relation": "led_to",
+      "note": "Sassanid raids prompted Valerian's campaign preparations"
+    }
+  ]
+}

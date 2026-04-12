@@ -1,0 +1,120 @@
+{
+  "year": 261,
+  "year_label": "261 CE",
+  "era_context": "The Roman Empire is in the Crisis of the Third Century (235\u2013284 CE), with Claudius Gothicus approaching the end of his reign (r. 268\u2013270 CE). His military successes against Gothic invasions have temporarily stabilized the Balkan frontier. In China, the Three Kingdoms period (220\u2013280 CE) is in its final phase, with the Jin state emerging as the dominant power and preparing for its final conquests. The Sassanid Empire under Shapur I (r. 240\u2013272 CE) is at the height of its power and territorial expansion.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe (sparse archaeological record)",
+    "Mesoamerica (no synchronized chronology)",
+    "Southeast Asia (limited documentation)",
+    "India (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "261-001",
+      "title": "Jin state consolidation; Sima Yan's rise to prominence",
+      "region": "China, Jin state territory",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Sima Yan, the future Emperor Wu of the Western Jin Dynasty, is rising to prominence within the Jin state during the final years of the Three Kingdoms period. In 261 CE, Sima Yan is consolidating his position as the heir apparent and key military strategist of the Jin state. His father, Sima Zhao, remains the regent, but Sima Yan is increasingly involved in military planning and political decision-making. This period precedes the conquest of Shu Han (263 CE) and the eventual unification of China (280 CE).",
+      "key_figures": [
+        "Sima Yan (future Emperor Wu of Jin)",
+        "Sima Zhao (Jin regent, father of Sima Yan)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sima Yan's rise to prominence is documented in Chinese sources, though the specific events of 261 CE are not individually detailed. The chronology is reliable within \u00b11\u20132 years.",
+      "cross_references": [
+        "Part of Three Kingdoms period (220\u2013280 CE)",
+        "Precedes conquest of Shu Han (263-001)",
+        "Precedes Jin unification of China (280-001)"
+      ]
+    },
+    {
+      "id": "261-002",
+      "title": "Claudius Gothicus's reign; military campaigns against barbarians",
+      "region": "Roman Balkans, Danube frontier",
+      "coordinates_approx": "44.0,21.0",
+      "category": "military",
+      "description": "Emperor Claudius Gothicus (r. 268\u2013270 CE) is in the final years of his reign, during which he has achieved some military successes against Gothic and other barbarian incursions into the Roman Balkans. The year 261 CE falls within this period of relative military success, though the empire remains fragmented and economically stressed. Claudius Gothicus's military reputation is enhanced by these victories, though they do not fundamentally resolve the empire's structural problems.",
+      "key_figures": [
+        "Claudius Gothicus (Roman Emperor, r. 268\u2013270)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Vita Claudii)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Claudius Gothicus's reign is dated 268\u2013270 CE, but the specific chronology of individual campaigns is not precisely documented. The Historia Augusta is unreliable for specific dates.",
+      "cross_references": [
+        "Part of Claudius Gothicus's reign (268\u2013270)",
+        "Related to broader barbarian invasions during Crisis of the Third Century"
+      ]
+    },
+    {
+      "id": "261-003",
+      "title": "Sassanid-Roman frontier tensions; Shapur I's continued expansion",
+      "region": "Sassanid Persia, Roman Near East",
+      "coordinates_approx": "35.0,44.0",
+      "category": "military",
+      "description": "Shapur I of the Sassanid Empire continues aggressive campaigns against Roman-held territories in Mesopotamia and Syria. The exact nature and scale of 261 CE's conflicts are not well-documented, but the broader pattern of Sassanid expansion and Roman defensive struggles is clear. Roman military resources remain stretched due to the Crisis of the Third Century, limiting effective response.",
+      "key_figures": [
+        "Shapur I (Sassanid Shah, r. 240\u2013272)"
+      ],
+      "sources": [
+        {
+          "name": "Shapur I's Res Gestae Divi Saporis (inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shapur's inscription does not provide year-by-year detail. The chronology of specific campaigns is reconstructed from multiple sources with significant uncertainty.",
+      "cross_references": [
+        "Part of Sassanid-Roman Wars (ongoing)",
+        "Related to Roman Crisis of the Third Century"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. Sima Yan's rise to prominence, Claudius Gothicus's reign, and Sassanid-Roman conflicts are not disputed, though the specific chronology of individual events within these broader contexts is uncertain.",
+  "historiographic_note": "The historical record for 261 CE is sparse and heavily dependent on later compilations. Chinese sources provide more reliable information about Sima Yan's rise to prominence, though the specific events of 261 CE are not individually detailed. Roman sources remain dependent on the unreliable Historia Augusta. Sassanid sources are limited to Shapur's inscription. The record is heavily skewed toward military and political history; economic, social, and cultural developments are almost entirely undocumented. The record is dominated by elite narratives; the experiences of common people, slaves, and marginalized groups are essentially absent.",
+  "graph_edges": [
+    {
+      "from": "261-001",
+      "to": "263-001",
+      "relation": "led_to",
+      "note": "Sima Yan's rise to prominence in 261 CE led to his leadership of the conquest of Shu Han in 263 CE"
+    },
+    {
+      "from": "261-001",
+      "to": "280-001",
+      "relation": "led_to",
+      "note": "Sima Yan's consolidation of power in 261 CE led to the Jin unification of China in 280 CE"
+    }
+  ]
+}

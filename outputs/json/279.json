@@ -1,0 +1,130 @@
+{
+  "year": 279,
+  "year_label": "279 CE",
+  "era_context": "The Roman Empire under Probus continues military consolidation after the Crisis of the Third Century. The Sasanian Empire under Bahram II is in its early reign. Western Jin Dynasty in China has recently unified the empire (280 CE conquest of Eastern Wu is imminent or just completed, depending on exact dating). Germanic and Gothic tribes remain active on Roman frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "279-001",
+      "title": "Probus campaigns against Goths and Sarmatians on the Danube",
+      "region": "Roman Empire (Danube frontier, Balkans)",
+      "coordinates_approx": "44.0, 22.0",
+      "category": "military",
+      "description": "Emperor Probus conducts military operations against Gothic and Sarmatian tribes along the Danube frontier. These campaigns are part of his systematic effort to restore Roman control over the northern limes. The Goths, who had invaded the empire in previous decades, are pushed back. Probus reportedly enrolls some defeated Goths into the Roman army as auxiliary troops, a practice that becomes increasingly common in the late empire.",
+      "key_figures": [
+        "Probus (Roman Emperor, r. 276\u2013282 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Probus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Probus's Danube campaigns are attested in multiple sources, but specific dates and details are uncertain. The Historia Augusta is unreliable for precise chronology.",
+      "cross_references": [
+        "280-001 (Probus's Rhine campaigns)"
+      ]
+    },
+    {
+      "id": "279-002",
+      "title": "Probus campaigns in Asia Minor against brigands and usurpers",
+      "region": "Roman Empire (Asia Minor)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "Probus conducts campaigns in Asia Minor to suppress brigandage and restore order in the eastern provinces. The region had suffered from instability during the Crisis of the Third Century. Probus's efforts restore tax collection and administrative authority. These campaigns are less well-documented than his frontier campaigns but are attested in historical sources.",
+      "key_figures": [
+        "Probus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Probus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Historia Augusta mentions Probus's eastern campaigns but provides few specific dates. The exact year is uncertain; this event is assigned to 279 CE by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "279-003",
+      "title": "Bahram II consolidates Sasanian power and suppresses internal opposition",
+      "region": "Sasanian Empire (Persia)",
+      "coordinates_approx": "32.0, 54.0",
+      "category": "political",
+      "description": "Bahram II (r. 274\u2013293 CE) continues to consolidate his authority within the Sasanian Empire. He faces opposition from the nobility and from religious factions. Bahram II strengthens the position of the Zoroastrian priesthood and centralizes royal power. His rock reliefs and inscriptions document his reign and legitimize his rule through religious and military imagery.",
+      "key_figures": [
+        "Bahram II (Sasanian King of Kings, r. 274\u2013293 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Sasanian rock reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Bahram II's reign is documented through contemporary rock reliefs and inscriptions. The general narrative of consolidation is accepted by modern scholarship.",
+      "cross_references": []
+    },
+    {
+      "id": "279-004",
+      "title": "Western Jin Dynasty prepares for final conquest of Eastern Wu",
+      "region": "China (Western Jin and Eastern Wu)",
+      "coordinates_approx": "32.0, 110.0",
+      "category": "military",
+      "description": "The Western Jin Dynasty, under Emperor Wu, prepares military forces for the final conquest of the Eastern Wu Dynasty. Military buildup occurs along the Yangtze River frontier. The conquest will be completed in 280 CE. This period represents the culmination of decades of conflict between the two Chinese states.",
+      "key_figures": [
+        "Emperor Wu of Jin (r. 266\u2013290 CE)",
+        "Sun Hao (last emperor of Eastern Wu, r. 264\u2013280 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The preparation for the conquest of Eastern Wu is documented in Chinese sources, though specific events in 279 CE are not always clearly distinguished from those of 280 CE.",
+      "cross_references": [
+        "280-005 (Conquest of Eastern Wu)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's accounts of Probus's campaigns are often exaggerated or legendary. Modern scholarship is cautious about accepting specific claims without corroboration from other sources. The exact chronology of Probus's campaigns is uncertain; some sources place certain campaigns in different years. The significance of Probus's military achievements is sometimes overstated in older historiography; the frontier remained unstable despite his efforts.",
+  "historiographic_note": "The historical record for 279 CE is heavily dependent on the Historia Augusta, which is of uncertain reliability. Contemporary coins and inscriptions provide some corroboration. Chinese sources are more reliable and consistent. Sasanian sources are primarily epigraphic. The record is biased toward elite military and political events. Economic, social, and cultural developments are underrepresented. Most of the world outside the Mediterranean, Persia, and China is absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "279-001",
+      "to": "280-001",
+      "relation": "contemporary_with",
+      "note": "Part of Probus's broader frontier consolidation campaign"
+    },
+    {
+      "from": "279-004",
+      "to": "280-005",
+      "relation": "led_to",
+      "note": "Military preparation leads to the conquest of Eastern Wu in 280 CE"
+    }
+  ]
+}

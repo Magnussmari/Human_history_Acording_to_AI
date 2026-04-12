@@ -1,0 +1,126 @@
+{
+  "year": 257,
+  "year_label": "257 CE",
+  "era_context": "The Roman Empire is in the Crisis of the Third Century. Emperor Valerian I (r. 253\u2013260 CE) has been ruling for approximately four years and is consolidating imperial authority. The Sassanid Empire under Shapur I is expanding aggressively in the Near East. In China, the Three Kingdoms period continues. Germanic tribes are pressing Roman frontiers along the Rhine and Danube.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier accounts",
+    "Central Asia and Steppe regions (sparse documentation)",
+    "Most of the Roman Empire outside major military campaigns and administrative centers"
+  ],
+  "events": [
+    {
+      "id": "257-001",
+      "title": "Valerian I Consolidates Imperial Authority",
+      "region": "Roman Empire (multiple regions)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Emperor Valerian I, who had acceded to power in 253 CE, continued to consolidate imperial authority across the Roman Empire. By 257 CE, he had largely stabilized the western frontier and was preparing to address the Sassanid threat in the east. Valerian's reign represented a temporary stabilization of the Crisis of the Third Century, though the underlying structural problems of the empire remained. His consolidation of power involved military reforms, administrative reorganization, and the elevation of his son Gallienus to the rank of Caesar.",
+      "key_figures": [
+        "Valerian I (Roman Emperor)",
+        "Gallienus (Caesar, Valerian's son)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Valerian biography)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Valerian)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Valerian's consolidation of power is well-attested. The specific events and timeline of 257 CE are less clearly documented than for other years.",
+      "cross_references": [
+        "Follows from 253-001 (Valerian's accession)"
+      ]
+    },
+    {
+      "id": "257-002",
+      "title": "Sassanid Expansion Under Shapur I",
+      "region": "Sassanid Empire and Near East",
+      "coordinates_approx": "35.0\u00b0N, 50.0\u00b0E",
+      "category": "political",
+      "description": "Shapur I, the Sassanid King, continued to expand Sassanid power and influence in the Near East. By 257 CE, Shapur had consolidated control over Mesopotamia and was preparing for major campaigns against Roman territory. His expansion was facilitated by Roman internal instability and military overextension. Shapur's reign (r. 240\u2013270 CE) represented the height of Sassanid power and the most serious challenge to Roman dominance in the Near East since the Parthian Wars.",
+      "key_figures": [
+        "Shapur I (Sassanid King)"
+      ],
+      "sources": [
+        {
+          "name": "Shapur I's Res Gestae Divi Sapori",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shapur I's expansion is well-attested in Sassanid sources. The specific events of 257 CE are less clearly documented.",
+      "cross_references": [
+        "Led to 260-001 (Battle of Edessa)"
+      ]
+    },
+    {
+      "id": "257-003",
+      "title": "Germanic Pressure on Roman Frontiers",
+      "region": "Roman frontier regions (Rhine and Danube)",
+      "coordinates_approx": "50.0\u00b0N, 15.0\u00b0E",
+      "category": "military",
+      "description": "Germanic tribes continued to press Roman frontiers along the Rhine and Danube. With Roman military resources stretched thin by internal instability and the eastern threat, frontier defenses were weakened. Germanic raids into Gaul and the Balkans continued during this period. The exact scale and specific incidents of 257 CE are poorly documented, but the general pattern of Germanic pressure is well-attested.",
+      "key_figures": [
+        "Germanic tribal leaders (names largely unrecorded)",
+        "Roman frontier commanders (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from frontier sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Germanic pressure during this period is well-attested, but specific events and dates for 257 CE are poorly documented.",
+      "cross_references": [
+        "Part of broader Germanic migration period (235\u2013284 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 257 CE are poorly documented in surviving sources. The year is often overshadowed by the dramatic events of 260 CE (Edessa) and the broader narrative of the Crisis of the Third Century. It is possible that some events attributed to 257 CE actually occurred in adjacent years.",
+  "historiographic_note": "The historical record for 257 CE is sparse and heavily dependent on later compilations (Historia Augusta, Zosimus) that are known to be unreliable. Contemporary sources are limited to numismatic evidence and fragmentary references in later chronicles. The year 257 CE is often overlooked in historical narratives, which tend to focus on more dramatic events. The perspective of provincial populations, Germanic tribes, and non-elite actors is almost entirely absent.",
+  "graph_edges": [
+    {
+      "from": "257-001",
+      "to": "258-001",
+      "relation": "led_to",
+      "note": "Consolidation of authority enabled preparation for eastern campaign"
+    },
+    {
+      "from": "257-002",
+      "to": "260-001",
+      "relation": "led_to",
+      "note": "Sassanid expansion culminated in Battle of Edessa"
+    }
+  ]
+}
