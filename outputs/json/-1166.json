@@ -1,0 +1,106 @@
+{
+  "year": -1166,
+  "year_label": "1167 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages across the Eastern Mediterranean and Near East. Ramesses III continues to rule Egypt, managing the aftermath of major conflicts. The Mycenaean world has largely collapsed. The Levantine coast is in transition. In China, the Shang Dynasty continues its late phase. This is a period of systemic transformation rather than stability, with old Bronze Age orders giving way to new Iron Age configurations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1166-001",
+      "title": "Ramesses III's Eighth Regnal Year: Post-Conflict Consolidation and Temple Construction",
+      "region": "Egypt",
+      "coordinates_approx": "26.2\u00b0N, 32.6\u00b0E",
+      "category": "cultural",
+      "description": "Ramesses III continues his reign, now in its eighth year (c. 1178 BCE in most chronologies). By this point, the major military threats from the Sea Peoples have been repelled or contained, and Ramesses III is consolidating his power through temple construction and religious patronage. The Medinet Habu temple, his mortuary temple, is under construction and will serve as a major monument to his reign. This shift from military to cultural/religious activity reflects the stabilisation of Egypt after the crisis years of the early 1180s BCE.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's regnal chronology is well-established. The construction of Medinet Habu is documented, though the exact year-by-year progress is not recorded. \u00b12 years uncertainty is typical.",
+      "cross_references": [
+        "Related to -1169-001 (earlier military campaigns)"
+      ]
+    },
+    {
+      "id": "-1166-002",
+      "title": "Emergence of Iron Age Settlement Patterns in Greece: Post-Collapse Reorganisation",
+      "region": "Greece",
+      "coordinates_approx": "38.0\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "In the aftermath of the Mycenaean collapse, new settlement patterns are emerging in Greece. Smaller, dispersed communities replace the centralised palatial centres. Iron Age material culture is becoming dominant, though the transition is gradual. This period marks the beginning of the Greek Dark Ages (c. 1100\u2013800 BCE), a period of reduced literacy, smaller settlements, and simpler material culture. The transformation from Bronze Age to Iron Age Greece is a defining feature of this era.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and settlement patterns from multiple Greek sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition from Mycenaean to Dark Ages settlement patterns is archaeologically well-attested but occurred over several decades. Assigning it to 1167 BCE is conventional.",
+      "cross_references": [
+        "Related to -1169-002 (Mycenaean collapse)"
+      ]
+    },
+    {
+      "id": "-1166-003",
+      "title": "Phoenician Emergence: Sidon and Tyre Begin Iron Age Expansion",
+      "region": "Levant (Phoenicia)",
+      "coordinates_approx": "33.6\u00b0N, 35.4\u00b0E",
+      "category": "economic",
+      "description": "As the Late Bronze Age collapse recedes, Levantine port cities such as Sidon and Tyre begin to recover and expand. These cities, which will become the major Phoenician centres of the Iron Age, are starting to re-establish trade networks and maritime commerce. Archaeological evidence shows renewed activity at these sites during the late 12th and early 11th centuries BCE. This marks the beginning of Phoenician dominance of Mediterranean trade, which will characterise the Iron Age.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Sidon and Tyre excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The emergence of Phoenician centres is archaeologically attested, but the exact chronology of individual sites' recovery is uncertain. \u00b110\u201315 years uncertainty is typical.",
+      "cross_references": [
+        "Related to -1169-003 (Levantine disruption)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the narrative of Phoenician emergence as a direct consequence of the Late Bronze Age collapse is somewhat simplified; Phoenician identity and maritime dominance developed gradually over several centuries rather than emerging suddenly after the collapse.",
+  "historiographic_note": "The historical record for 1167 BCE is sparse and relies heavily on Egyptian sources and archaeological evidence. The shift from military to cultural activity in Ramesses III's reign is inferred from temple construction and religious texts rather than explicitly dated events. The emergence of Iron Age Greece and Phoenician centres is archaeologically attested but not precisely dated to individual years. The record remains heavily weighted toward Egypt and the Eastern Mediterranean.",
+  "graph_edges": [
+    {
+      "from": "-1166-001",
+      "to": "-1169-001",
+      "relation": "led_to",
+      "note": "Military victories in early reign lead to consolidation and temple construction in later years"
+    },
+    {
+      "from": "-1166-002",
+      "to": "-1169-002",
+      "relation": "part_of",
+      "note": "Continuation of Mycenaean collapse and emergence of Dark Ages settlement patterns"
+    },
+    {
+      "from": "-1166-003",
+      "to": "-1169-003",
+      "relation": "led_to",
+      "note": "Recovery from Late Bronze Age disruption leads to Phoenician expansion"
+    }
+  ]
+}
