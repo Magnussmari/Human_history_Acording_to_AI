@@ -1,0 +1,86 @@
+{
+  "year": -2499,
+  "year_label": "2499 BCE",
+  "era_context": "The late Early Dynastic Period in Mesopotamia (c. 2900\u20132334 BCE), characterized by competing city-states in southern Mesopotamia (Sumer) and the rise of Akkadian-speaking peoples in the north. Egypt is in the Old Kingdom, specifically the reign of Khufu or his immediate successors (Fourth Dynasty, c. 2589\u20132504 BCE). The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE). Bronze Age societies dominate the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley region (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2499-001",
+      "title": "Reign of Khufu or successor in Egypt (Fourth Dynasty)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "The Fourth Dynasty of Egypt continues its period of centralized power and monumental construction. This era is marked by the construction of the Great Pyramids and the consolidation of pharaonic authority. The exact year-by-year chronology of the Old Kingdom remains debated among Egyptologists, with multiple competing chronologies (high, middle, and low) differing by up to 200 years. Khufu's reign is traditionally dated c. 2589\u20132566 BCE, but this year may fall within his reign or that of his successor Khafre.",
+      "key_figures": [
+        "Khufu (Pharaoh, if still reigning)",
+        "Khafre (Pharaoh, if successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian Old Kingdom chronology is notoriously uncertain. Multiple competing chronologies place this year within the Fourth Dynasty, but the exact pharaoh and regnal year cannot be determined without resolving broader chronological debates. Dating is approximate \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2499-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers such as Harappa and Mohenjo-daro functioning as sophisticated planned cities with standardized weights, measures, and seals. Trade networks extend to Mesopotamia and the Persian Gulf. The civilization is characterized by undeciphered script, advanced urban planning, and apparent absence of monumental religious or military architecture. No specific events are attested for this particular year; this entry marks the broader cultural context.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and weights (undeciphered script)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and flourishing of the Indus Valley Civilization in this period is archaeologically confirmed. Absolute dating relies on radiocarbon and stratigraphic analysis, with the mature phase dated c. 2600\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Egyptian Old Kingdom is heavily disputed. The 'high chronology' places Khufu's reign c. 2589\u20132566 BCE; the 'middle chronology' c. 2558\u20132535 BCE; and the 'low chronology' c. 2509\u20132483 BCE. This year (-2499 BCE) may fall before, during, or after Khufu's reign depending on which chronology is adopted. No consensus exists on the precise dating of individual regnal years in the Fourth Dynasty. Additionally, some scholars question whether the Indus Valley Civilization's chronology should be adjusted based on new radiocarbon evidence, potentially shifting dates by 50\u2013100 years.",
+  "historiographic_note": "For Egypt, the historical record consists of king lists (compiled centuries after the events), later Greek historiography (Manetho), and archaeological evidence from monuments and administrative records. The record is heavily biased toward royal and elite activities; the lives of common people are largely invisible. For the Indus Valley, the undeciphered script means that political, religious, and economic details remain unknown; interpretation relies entirely on material culture and archaeological inference. Both regions lack contemporary written records for specific events in this year.",
+  "graph_edges": [
+    {
+      "from": "-2499-001",
+      "to": "-2498-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Fourth Dynasty rule in Egypt"
+    },
+    {
+      "from": "-2499-002",
+      "to": "-2498-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of Indus Valley Civilization's mature phase"
+    }
+  ]
+}

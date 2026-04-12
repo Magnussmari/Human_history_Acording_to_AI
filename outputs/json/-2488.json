@@ -1,0 +1,84 @@
+{
+  "year": -2488,
+  "year_label": "2488 BCE",
+  "era_context": "Continuation of the Old Kingdom's final phase in Egypt (Dynasty VI). The Akkadian Empire remains at or near its territorial peak under Naram-Sin. The Indus Valley Civilization maintains its extensive urban network and trade systems. In Mesopotamia, city-states and regional powers coexist under Akkadian hegemony. This is the height of the Bronze Age in the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia (limited archaeological data)"
+  ],
+  "events": [
+    {
+      "id": "-2488-001",
+      "title": "Continued Akkadian imperial administration and trade",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "economic",
+      "description": "During Naram-Sin's reign, the Akkadian Empire maintains extensive trade networks and administrative systems. Akkadian language and culture spread throughout the empire. Cuneiform records document commercial transactions, military logistics, and bureaucratic organization. The empire's economic reach extends from the Persian Gulf to the Mediterranean and Anatolia. However, maintaining such a vast territory strains resources and military capacity.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian cuneiform tablets from Nippur, Lagash, and other sites",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from trade goods and settlement patterns",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Akkadian trade and administration during Naram-Sin's reign is well attested. The specific year -2488 is assigned by convention within his reign; no contemporary source dates events to this specific year.",
+      "cross_references": [
+        "-2489-002 (Akkadian military expansion)"
+      ]
+    },
+    {
+      "id": "-2488-002",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture, c. 2600\u20131900 BCE) is at or near its maximum urban extent and population during this period. Major cities like Harappa, Mohenjo-daro, Dholavira, and Kalibangan are fully developed with standardized weights, measures, and urban planning. Extensive trade networks connect the Indus Valley to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's writing system remains undeciphered, limiting understanding of political and religious organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform references to 'Meluhha' (likely the Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's existence and development during this period is archaeologically confirmed. Absolute dating relies on radiocarbon and stratigraphic analysis; the conventional chronology places the mature phase c. 2600\u20131900 BCE, with \u00b1100-year margins.",
+      "cross_references": [
+        "Part of broader Bronze Age global development"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional view of the Indus Valley Civilization as a unified, centralized state is increasingly questioned. Recent scholarship suggests a more decentralized, network-based organization. Additionally, the 'decline' of the Indus civilization around 1900 BCE is no longer attributed solely to external invasion (the 'Aryan invasion' hypothesis) but to a combination of environmental change, internal fragmentation, and possibly migration. The undeciphered script limits our ability to verify political narratives.",
+  "historiographic_note": "For Egypt and Mesopotamia, the record consists of king lists, inscriptions, and administrative documents\u2014all elite-focused and potentially propagandistic. For the Indus Valley, the record is purely archaeological; the absence of deciphered writing creates a significant interpretive gap. Chronologies across regions are synchronized through limited synchronisms (e.g., Mesopotamian references to Meluhha) and radiocarbon dating, both of which carry uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-2488-001",
+      "to": "-2488-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Indus Valley civilizations coexist and trade with each other during this period."
+    }
+  ]
+}

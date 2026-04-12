@@ -1,0 +1,94 @@
+{
+  "year": -2487,
+  "year_label": "2487 BCE",
+  "era_context": "The Old Kingdom of Egypt continues under Dynasty VI, with Pepi II's reign ongoing (traditional dating). The Akkadian Empire under Naram-Sin remains the dominant power in Mesopotamia and the Levant. The Indus Valley Civilization is at its mature phase. This period represents the height of Bronze Age civilization in the Old World, with complex urban societies, long-distance trade, and sophisticated administrative systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "East Asia (beyond legendary Xia Dynasty)"
+  ],
+  "events": [
+    {
+      "id": "-2487-001",
+      "title": "Egyptian Old Kingdom administrative continuity under Pepi II",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues with maintenance of Old Kingdom administrative structures, including the provincial governor system and temple economies. Inscriptions from officials like Harkhuf document continued military and trade expeditions to Nubia and the Sinai. The Old Kingdom's characteristic pyramid-building and monumental architecture continue, though on a smaller scale than earlier dynasties. The exact nature and extent of Pepi II's authority over provincial governors remains debated.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)",
+        "Harkhuf (Governor and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Harkhuf at Aswan",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid texts and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is attested, but absolute dating is uncertain by \u00b150\u2013100 years. No contemporary source dates events to this specific year.",
+      "cross_references": [
+        "-2489-001 (Pepi II's reign)"
+      ]
+    },
+    {
+      "id": "-2487-002",
+      "title": "Akkadian administrative consolidation and potential internal strain",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin's reign continues, with evidence of both administrative consolidation and potential internal tensions. Cuneiform records document the organization of the empire into provinces and the appointment of governors. However, some scholars interpret certain inscriptions and the later historical record as suggesting growing resistance from conquered territories and Sumerian city-states. The empire's military expenditure and territorial overextension may have begun to strain resources, though this interpretation is debated.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian cuneiform administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naram-Sin's inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Babylonian chronicles (e.g., Sumerian King List)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and administrative activities are well attested. The interpretation of internal strain is more speculative and based on later sources and scholarly inference.",
+      "cross_references": [
+        "-2489-002 (Akkadian military expansion)",
+        "-2200-AKKADIAN_COLLAPSE (eventual collapse of the empire)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Pepi II as a weak ruler presiding over Old Kingdom decline is increasingly questioned by modern Egyptologists. Recent scholarship suggests his reign may have been shorter than traditionally believed (possibly 30\u201340 years rather than 64 years) and that the Old Kingdom's end was more gradual than the 'collapse' narrative suggests. For Akkad, the interpretation of internal strain during Naram-Sin's reign is speculative; some scholars argue the empire remained stable until external pressures (possibly climate change, Gutian invasions) caused its collapse.",
+  "historiographic_note": "Both Egyptian and Akkadian records are elite-focused and propagandistic. Egyptian sources come from officials' tombs and temple inscriptions; Akkadian sources are royal inscriptions and administrative documents. Neither provides a complete picture of society or economy. The absence of contemporary sources from conquered territories limits understanding of resistance or dissent. Chronological synchronization between Egypt and Mesopotamia relies on limited synchronisms and radiocarbon dating.",
+  "graph_edges": [
+    {
+      "from": "-2487-001",
+      "to": "-2487-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II and Naram-Sin rule simultaneously, representing the two major Old World powers."
+    }
+  ]
+}

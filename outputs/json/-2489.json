@@ -1,0 +1,96 @@
+{
+  "year": -2489,
+  "year_label": "2489 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2345\u20132181 BCE). The Akkadian Empire under Naram-Sin dominates Mesopotamia and the Levant. In the Indus Valley, the mature Harappan civilization is at its height, with extensive trade networks. China's Xia Dynasty (traditional dating) is in its legendary period; archaeological evidence for this era remains contested. The Bronze Age is well established across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no writing system yet)",
+    "Pacific Islands (oral tradition only)"
+  ],
+  "events": [
+    {
+      "id": "-2489-001",
+      "title": "Reign of Pepi II of Egypt (traditional chronology)",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II (also called Neferkare) is traditionally dated to rule during this period, though his exact reign length and dates remain highly disputed among Egyptologists. He is credited with maintaining Old Kingdom stability and conducting military campaigns in Nubia and the Sinai. His reign is often associated with the beginning of the Old Kingdom's decline, though this narrative is increasingly questioned by modern scholarship. The Turin King List and other sources place him in Dynasty VI, but absolute dating remains uncertain by \u00b150\u2013100 years.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions from officials' tombs (e.g., Weni, Harkhuf)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom is contested. Conventional dating places Pepi II c. 2278\u20132184 BCE, but some scholars argue for dates 50\u2013100 years earlier or later. No contemporary royal inscriptions securely dated to this specific year survive.",
+      "cross_references": [
+        "Related to -2485-001 (Akkadian Empire under Naram-Sin, contemporary power)"
+      ]
+    },
+    {
+      "id": "-2489-002",
+      "title": "Akkadian Empire military campaigns under Naram-Sin",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin of Akkad (r. c. 2254\u20132218 BCE, conventional dating) continues aggressive expansion of the Akkadian Empire during this period. He campaigns in the Zagros Mountains, Anatolia, and the Levant, establishing the empire's greatest territorial extent. His inscriptions boast of military victories and divine sanction. However, the exact chronology of individual campaigns is uncertain, and some scholars debate whether all attributed campaigns occurred within his reign or span multiple rulers.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's own inscriptions and stele (e.g., Victory Stele of Naram-Sin, Louvre)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shattered Obelisk inscription",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Babylonian chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well attested in contemporary inscriptions, but the precise dating of individual campaigns and the exact year of this entry are uncertain. Mesopotamian chronology for this period has a margin of error of \u00b120\u201350 years.",
+      "cross_references": [
+        "Part of broader Akkadian imperial expansion (-2500 to -2200 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Pepi II's reign as a period of decline leading to the Old Kingdom's collapse is increasingly questioned. Recent scholarship (e.g., work by Miroslav Verner) suggests the Old Kingdom's end was more gradual and less catastrophic than earlier historiography portrayed. The 'Sixth Dynasty collapse' may be partly a historiographic construct. Additionally, some scholars argue that Pepi II's reign length (traditionally given as 64 years) is exaggerated and may reflect conflation of multiple rulers.",
+  "historiographic_note": "This period is heavily dependent on Egyptian king lists compiled centuries or millennia after the events, combined with fragmentary epigraphic evidence from officials' tombs. Akkadian sources are contemporary but propagandistic. Absolute dating relies on astronomical calculations, radiocarbon dating (with wide margins), and synchronisms with Egyptian chronology\u2014all contested. The historical record is biased toward elite, literate societies (Egypt, Akkad, Indus Valley); vast regions of the world are archaeologically invisible or undocumented.",
+  "graph_edges": [
+    {
+      "from": "-2489-001",
+      "to": "-2485-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II and Naram-Sin ruled during overlapping periods; both represent major Old World powers of the late 3rd millennium BCE."
+    },
+    {
+      "from": "-2489-002",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Akkadian imperial overextension contributed to the empire's collapse within ~30\u201350 years."
+    }
+  ]
+}

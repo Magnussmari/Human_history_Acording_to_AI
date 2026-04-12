@@ -1,0 +1,86 @@
+{
+  "year": -2486,
+  "year_label": "2486 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) continues under Pepi II. The Akkadian Empire under Naram-Sin remains the dominant Mesopotamian power. The Indus Valley Civilization maintains its mature urban phase. This period is characterized by complex, interconnected Bronze Age civilizations with extensive trade networks and administrative sophistication.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2486-001",
+      "title": "Egyptian trade and military expeditions to Nubia and the Levant",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "25.0, 32.0",
+      "category": "exploration",
+      "description": "During Pepi II's reign, Egyptian officials continue to conduct trade and military expeditions to Nubia (seeking gold, incense, and exotic goods) and the Levant (seeking cedar and other resources). Harkhuf's inscriptions document multiple journeys to Nubia, bringing back valuable goods and establishing Egyptian influence in the region. These expeditions represent Egypt's continued economic and political reach during the Old Kingdom's final phase.",
+      "key_figures": [
+        "Harkhuf (Governor and expedition leader)",
+        "Pepi II (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Harkhuf's autobiographical inscriptions at Aswan",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Egyptian goods in Nubian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Harkhuf's expeditions are well attested in his inscriptions. The specific year -2486 is assigned by convention; no contemporary source dates events to this year.",
+      "cross_references": [
+        "-2489-001 (Pepi II's reign)"
+      ]
+    },
+    {
+      "id": "-2486-002",
+      "title": "Indus Valley trade with Mesopotamia and the Persian Gulf",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf region. Indus seals and weights are found in Mesopotamian sites, and Mesopotamian cuneiform texts reference trade with 'Meluhha' (likely the Indus Valley). This trade involves luxury goods, raw materials, and possibly manufactured items. The trade is facilitated by maritime routes and possibly overland routes through the Persian Gulf and Oman.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian sites (e.g., Ur, Lagash)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform references to Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Indus goods in Gulf sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Indus-Mesopotamian trade is archaeologically confirmed. The specific year -2486 is assigned by convention; the trade continued over centuries.",
+      "cross_references": [
+        "-2488-002 (Indus Valley Civilization at peak)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Harkhuf's expeditions are debated. Some scholars question whether all four expeditions attributed to him occurred during Pepi II's reign or whether the inscriptions conflate multiple rulers' reigns. Additionally, the interpretation of Harkhuf's role as primarily military versus primarily commercial is contested. For Indus-Mesopotamian trade, the exact mechanisms and volume of trade are uncertain; the presence of Indus seals in Mesopotamia does not necessarily indicate large-scale commerce.",
+  "historiographic_note": "Egyptian sources are limited to elite inscriptions and administrative records. Mesopotamian sources are similarly elite-focused. The Indus Valley record is purely archaeological, with no written records to clarify the nature of trade or political relationships. Chronological synchronization relies on limited synchronisms and radiocarbon dating, both of which carry uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-2486-001",
+      "to": "-2486-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Indus Valley civilizations coexist and maintain trade networks during this period."
+    }
+  ]
+}

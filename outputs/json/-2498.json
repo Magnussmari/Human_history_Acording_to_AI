@@ -1,0 +1,84 @@
+{
+  "year": -2498,
+  "year_label": "2498 BCE",
+  "era_context": "Continuation of the late Early Dynastic Period in Mesopotamia. Egypt remains in the Fourth Dynasty of the Old Kingdom. The Indus Valley Civilization continues its mature phase. This period represents the height of Bronze Age civilization in the Old World, with established trade networks connecting Egypt, Mesopotamia, the Indus Valley, and the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond the Indus region",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2498-001",
+      "title": "Continuation of Fourth Dynasty Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "The Fourth Dynasty continues. If Khufu was still reigning in -2499, he may have died around this time, with succession to Khafre (or another successor). The exact chronology remains uncertain. Monumental construction projects continue, and the centralized state apparatus maintains control over the Nile Valley. No specific events are documented for this particular year.",
+      "key_figures": [
+        "Khafre (Pharaoh, probable)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chronological uncertainty persists. This year is assigned to the Fourth Dynasty based on conventional chronology, but the exact regnal year and pharaoh cannot be determined with confidence.",
+      "cross_references": [
+        "-2499-001"
+      ]
+    },
+    {
+      "id": "-2498-002",
+      "title": "Indus Valley Civilization trade networks active",
+      "region": "Indus Valley and Persian Gulf trade routes",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "Trade between the Indus Valley and Mesopotamia is well-attested archaeologically through the presence of Indus seals and weights in Mesopotamian sites and vice versa. This trade likely continued throughout the mature phase of the Indus civilization. Goods exchanged included lapis lazuli, carnelian, timber, and manufactured items. No specific events are documented for this year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals and weights found in Mesopotamian sites (Ur, Lagash, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus Valley artifacts found in Gulf trade centers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of trade networks is archaeologically confirmed. The specific timing and intensity of trade in any given year cannot be determined.",
+      "cross_references": [
+        "-2499-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the broader chronological framework for this year remains contested, as noted above.",
+  "historiographic_note": "The historical record for -2498 BCE is extremely thin. No contemporary written records document specific events. The record consists of archaeological evidence and later compilations. For Egypt, the bias toward monumental and royal records means that political, economic, and social changes are largely invisible unless they affected the elite or left archaeological traces. For the Indus Valley, the undeciphered script means that no written history exists for this period.",
+  "graph_edges": [
+    {
+      "from": "-2498-001",
+      "to": "-2497-001",
+      "relation": "led_to",
+      "note": "Continuation of Fourth Dynasty rule"
+    },
+    {
+      "from": "-2498-002",
+      "to": "-2497-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of Indus Valley trade networks"
+    }
+  ]
+}

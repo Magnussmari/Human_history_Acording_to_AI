@@ -1,0 +1,95 @@
+{
+  "year": -2480,
+  "year_label": "2480 BCE",
+  "era_context": "The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its mature phase, with the Fourth Dynasty (c. 2613\u20132494 BCE) nearing its end. The great pyramid-building age is concluding; Khufu and Khafre's monuments dominate the Giza plateau. In Mesopotamia, the Early Dynastic Period III (c. 2600\u20132334 BCE) sees competing city-states (Lagash, Umma, Uruk, Ur) engaged in territorial disputes. The Indus Valley Civilization is in its mature phase (c. 2500\u20131900 BCE), with large urban centres like Harappa and Mohenjo-daro flourishing. In the Aegean, Early Bronze Age II cultures are developing.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age evidence)",
+    "East Asia beyond the Indus region (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2480-001",
+      "title": "Reign of Menkaure, Fourth Dynasty Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure (Mycerinus in Greek sources) rules as pharaoh of the Fourth Dynasty. He is known for constructing the third great pyramid at Giza, smaller than those of Khufu and Khafre but still monumental. His reign marks a transition toward the end of the pyramid-building age; later inscriptions and administrative records suggest increasing decentralization of power to provincial governors. The exact dates of his reign are debated, with estimates ranging from c. 2490\u20132472 BCE, placing this year near the middle or end of his rule.",
+      "key_figures": [
+        "Menkaure (Mycerinus) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid of Menkaure, Giza \u2014 archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Menkaure's reign is traditionally dated c. 2490\u20132472 BCE, but Egyptian chronology for the Old Kingdom remains debated. Radiocarbon dating and astronomical calculations offer conflicting results. This year is assigned within the probable range of his reign by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-2480-002",
+      "title": "Mature phase of Indus Valley Civilization",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5\u00b0N, 68.5\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height, with major urban centres like Harappa, Mohenjo-daro, Dholavira, and Kalibangan fully developed. These cities exhibit sophisticated urban planning with grid-pattern streets, standardized weights and measures, and an undeciphered writing system. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. No monumental temples or palaces have been identified, suggesting a non-hierarchical or differently organized society. This period represents the peak of Indus urban culture before gradual decline begins around 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating of Indus sites",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus phase is well-established archaeologically. Radiocarbon dating places the mature phase c. 2500\u20131900 BCE; this year falls solidly within that range.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Menkaure's reign is contested. Some scholars argue for a higher chronology (earlier dates), while others support a lower chronology (later dates). The Turin King List and Abydos King List provide regnal lengths, but their absolute dating depends on synchronisms with other chronologies (Mesopotamian, Aegean) that are themselves debated. The significance of Menkaure's reign as a 'transition' toward decentralization is a modern historiographic interpretation; contemporary sources do not explicitly frame it this way. The Indus Valley Civilization's lack of monumental religious architecture has led some scholars to propose egalitarian or merchant-dominated social structures, but this remains speculative.",
+  "historiographic_note": "The historical record for 2480 BCE is heavily dependent on Egyptian king lists compiled centuries or millennia after the events, supplemented by archaeological evidence. Egyptian chronology for the Old Kingdom is notoriously uncertain, with competing 'high,' 'middle,' and 'low' chronologies differing by up to 200 years. The Indus Valley Civilization is known primarily through archaeology; the undeciphered script prevents direct historical narrative. Mesopotamian records from this period are fragmentary and city-specific. The absence of written records from most of the world means that vast regions (Africa, Europe, East Asia, the Americas) are invisible in this historical record, reflecting a profound bias toward literate civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2480-001",
+      "to": "-2490-MENKAURE_ACCESSION",
+      "relation": "part_of",
+      "note": "Menkaure's reign spans multiple years; this year falls within his rule"
+    },
+    {
+      "from": "-2480-002",
+      "to": "-1900-INDUS_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Indus phase eventually transitions to decline around 1900 BCE"
+    }
+  ]
+}
