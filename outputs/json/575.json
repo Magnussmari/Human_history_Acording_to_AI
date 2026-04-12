@@ -1,0 +1,120 @@
+{
+  "year": 575,
+  "year_label": "575 CE",
+  "era_context": "The late 6th century CE spans the reign of Byzantine Emperor Justin II (565\u2013578 CE) in the Eastern Roman Empire, the Sasanid Persian Empire under Khosrow I Anushirvan (531\u2013579 CE), and the early Sui Dynasty in China under Emperor Wen (581\u2013604 CE, though Wen had not yet seized power). This period marks the tail end of the Byzantine-Sasanid Wars, ongoing religious ferment in the Mediterranean and Near East, and the fragmentation of post-Roman Europe under various Germanic kingdoms. In East Asia, the Northern Zhou Dynasty was collapsing, paving the way for Sui unification.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond the Frankish realm (sparse documentation)",
+    "Pre-Columbian Americas (no written records; archaeological evidence sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "575-001",
+      "title": "Byzantine-Sasanid War: Siege of Dara",
+      "region": "Mesopotamia (modern-day Turkey/Syria border)",
+      "coordinates_approx": "37.5, 40.5",
+      "category": "military",
+      "description": "The Byzantine fortress city of Dara, a key stronghold on the Mesopotamian frontier, came under siege by Sasanid forces under Khosrow I. The siege was part of the broader Byzantine-Sasanid Wars that had dominated the region since 540 CE. The fortress held strategic importance as a bulwark against Persian expansion into Byzantine Mesopotamia. The siege lasted several months and represented a critical moment in the ongoing struggle for control of the Fertile Crescent.",
+      "key_figures": [
+        "Khosrow I Anushirvan (Sasanid Shah)",
+        "Justin II (Byzantine Emperor)",
+        "Narses (Byzantine general, though aging by this date)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (Books I\u2013VIII)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Menander Protector, History",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Dara is attested in Byzantine chronicles, but precise dating within the 570s is uncertain. Procopius and later historians place it in the context of the wars, but exact year is debated among scholars. Assigned to 575 by historiographic convention.",
+      "cross_references": [
+        "Relates to broader Byzantine-Sasanid conflict spanning 540\u2013591 CE"
+      ]
+    },
+    {
+      "id": "575-002",
+      "title": "Avar Raids on Byzantine Balkans",
+      "region": "Balkans (modern-day Serbia, Bulgaria, Greece)",
+      "coordinates_approx": "42.5, 21.0",
+      "category": "military",
+      "description": "The Avars, a nomadic confederation that had established themselves in the Pannonian Plain, conducted raids into Byzantine-controlled territories in the Balkans. These raids were part of a sustained pattern of pressure on Byzantine frontiers in the 570s. The Avars were increasingly asserting dominance over the region and would become a major threat to Byzantine security in subsequent decades. These incursions prompted Byzantine military responses and diplomatic negotiations.",
+      "key_figures": [
+        "Bayan I (Avar Khagan, r. ~558\u2013602 CE)",
+        "Justin II (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Menander Protector, History",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Avar raids in the 570s are well-attested in Byzantine sources, but specific events in 575 are not always precisely dated. The pattern is clear; the exact year is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "575-003",
+      "title": "Northern Zhou Dynasty Decline in China",
+      "region": "Northern China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Northern Zhou Dynasty (557\u2013581 CE) was in its final years of decline. Emperor Wu of Zhou had died in 578 CE, and his successor, Emperor Xuan, was a minor. The dynasty was fragmenting under pressure from internal factionalism and the rising power of the Sui Dynasty in the south. By 575, the Northern Zhou was effectively a spent force, though it would not formally fall until 581 CE. This period saw the consolidation of power by Yang Jian, who would found the Sui Dynasty.",
+      "key_figures": [
+        "Emperor Xuan of Northern Zhou (r. 578\u2013581 CE)",
+        "Yang Jian (future Sui founder, then regent/general)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Zhou (Zhou Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of Northern Zhou in the 570s is well-documented in Chinese historical records. The dynasty's collapse is a major historiographic consensus event.",
+      "cross_references": [
+        "Leads to Sui Dynasty unification in 581 CE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the Siege of Dara to 575 CE is debated. Some scholars place it earlier (572\u2013573 CE) or later (576\u2013577 CE) based on different interpretations of Procopius and Menander. The significance of Avar raids in 575 specifically is difficult to isolate from the broader pattern of Avar pressure in the 570s\u2013580s. No major disconfirming evidence undermines the events listed, but precision is limited.",
+  "historiographic_note": "The historical record for 575 CE is moderate but heavily weighted toward Byzantine and Chinese sources. Byzantine chronicles (Procopius, Menander, Theophylact) are the primary sources for the Mediterranean and Near East, but they were written decades or centuries after events and reflect court perspectives. Chinese sources are more systematic but also reflect dynastic historiography. Sasanid sources are sparse and mostly lost; our knowledge of Sasanid actions comes largely through Byzantine accounts. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the written record for this year.",
+  "graph_edges": [
+    {
+      "from": "575-001",
+      "to": "540-XXX",
+      "relation": "part_of",
+      "note": "Part of the broader Byzantine-Sasanid Wars (540\u2013591 CE)"
+    },
+    {
+      "from": "575-003",
+      "to": "581-XXX",
+      "relation": "led_to",
+      "note": "Northern Zhou decline directly led to Sui Dynasty unification in 581 CE"
+    }
+  ]
+}

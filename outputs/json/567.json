@@ -1,0 +1,127 @@
+{
+  "year": 567,
+  "year_label": "567 CE",
+  "era_context": "The late 6th century CE was a period of major imperial consolidation and conflict. The Byzantine Empire under Justin II was engaged in military campaigns on multiple fronts. The Sasanid Persian Empire under Khosrau I remained a major power. In China, the Northern Zhou Dynasty was consolidating control over the north. In Arabia, the pre-Islamic period continued with Mecca as a major trade center. This was a period of significant religious and cultural transformation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (sparse documentation)",
+    "Mesoamerica (limited Maya records)",
+    "Southeast Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "567-001",
+      "title": "Byzantine-Sasanid War: Siege of Ctesiphon campaign",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5597, 44.5547",
+      "category": "military",
+      "description": "Byzantine forces under Justin II's command (or under his generals) conducted military operations against Sasanid positions in Mesopotamia. The campaign included attempts to capture or besiege key Sasanid strongholds. These operations were part of the broader Byzantine strategy to recover lost territories and weaken Sasanid power. The campaigns were costly and ultimately unsuccessful in achieving lasting territorial gains.",
+      "key_figures": [
+        "Justin II (Byzantine Emperor)",
+        "Khosrau I (Sasanid Emperor)",
+        "Narses (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (contemporary, 6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle (9th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Procopius documents Byzantine-Sasanid conflicts during this period, but the specific year 567 CE is approximate for individual military operations.",
+      "cross_references": [
+        "Part of Byzantine-Sasanid Wars (540-630 CE)",
+        "Related to 570-002 (Justin II's reign)"
+      ]
+    },
+    {
+      "id": "567-002",
+      "title": "Northern Zhou-Turk alliance negotiations",
+      "region": "Northern China and Central Asia",
+      "coordinates_approx": "40.0, 100.0",
+      "category": "political",
+      "description": "The Northern Zhou Dynasty engaged in diplomatic negotiations with the Turkic Kaganate in Central Asia. These negotiations were part of broader efforts to secure the northern frontier and establish trade relationships. The Northern Zhou sought to balance the power of the Turks while maintaining control over the Silk Road trade routes.",
+      "key_figures": [
+        "Emperor Wu of Northern Zhou",
+        "Turkic Kaganate rulers (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, 11th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Zhou (official history, 7th century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chinese sources document Northern Zhou-Turkic relations, but the specific year 567 CE is approximate for individual diplomatic events.",
+      "cross_references": [
+        "Part of Northern Zhou foreign policy (560s-580s CE)",
+        "Related to 568-002 (Byzantine-Turkic contacts)"
+      ]
+    },
+    {
+      "id": "567-003",
+      "title": "Aksumite-Sasanid conflict in Yemen continues",
+      "region": "Yemen and Red Sea region",
+      "coordinates_approx": "15.3694, 44.2044",
+      "category": "military",
+      "description": "The ongoing conflict between the Aksumite Empire and Sasanid-backed forces in Yemen continued. The Aksumites sought to maintain their control over the Red Sea trade routes and the Christian kingdoms of Yemen. This conflict was part of the broader competition between the Byzantine and Sasanid empires for influence in the Arabian Peninsula and the Indian Ocean trade networks.",
+      "key_figures": [
+        "Aksumite rulers (names uncertain)",
+        "Khosrau I (Sasanid Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (contemporary, 6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cosmas Indicopleustes, Christian Topography (6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Procopius and Cosmas document Aksumite-Sasanid conflicts in Yemen, but the specific year 567 CE is approximate for individual engagements.",
+      "cross_references": [
+        "Part of broader Aksumite-Sasanid competition (6th century CE)",
+        "Related to 569-003 (Aksumite-Sasanid conflict)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific dating of Byzantine-Sasanid military operations in 567 CE is uncertain. While Procopius documents the broader conflict, modern scholars debate the exact chronology of individual campaigns. The significance of Northern Zhou-Turkic negotiations should not be overstated\u2014formal alliances came later. Aksumite-Sasanid conflicts in Yemen are attested, but the specific year 567 CE may not be precisely accurate for all events attributed to it.",
+  "historiographic_note": "Documentation for 567 CE relies on Byzantine and Chinese written sources, which are detailed but sometimes conflicting in their chronologies. Procopius provides a contemporary Byzantine perspective, but his account is shaped by imperial ideology. Chinese sources are comprehensive but compiled centuries after events. Arabian and Aksumite history for this period is less well-documented in surviving written sources. The geographic bias toward the Mediterranean and China reflects the distribution of surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "567-001",
+      "to": "570-002",
+      "relation": "contemporary_with",
+      "note": "Byzantine-Sasanid conflicts occurred during Justin II's reign"
+    },
+    {
+      "from": "567-002",
+      "to": "581-001",
+      "relation": "led_to",
+      "note": "Northern Zhou-Turkic relations influenced later Sui Dynasty foreign policy"
+    },
+    {
+      "from": "567-003",
+      "to": "569-003",
+      "relation": "contemporary_with",
+      "note": "Aksumite-Sasanid conflicts in Yemen were ongoing"
+    }
+  ]
+}

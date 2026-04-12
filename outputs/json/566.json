@@ -1,0 +1,127 @@
+{
+  "year": 566,
+  "year_label": "566 CE",
+  "era_context": "The late 6th century CE was a period of major imperial consolidation and conflict. The Byzantine Empire under Justin II (who ascended in 565 CE) was engaged in military campaigns on multiple fronts. The Sasanid Persian Empire under Khosrau I remained a major power. In China, the Northern Zhou Dynasty was consolidating control over the north. In Arabia, the pre-Islamic period continued with Mecca as a major trade center. This was a period of significant religious and cultural transformation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe (sparse documentation)",
+    "Mesoamerica (limited Maya records)",
+    "Southeast Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "566-001",
+      "title": "Byzantine-Sasanid War: Justin II's military campaigns begin",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "35.5, 41.0",
+      "category": "military",
+      "description": "Justin II, who had recently ascended to the Byzantine throne in 565 CE, initiated aggressive military campaigns against the Sasanid Persians. These campaigns were intended to recover territories lost during the reign of his predecessor Justinian I and to establish Byzantine military dominance. The campaigns were costly and would eventually contribute to the financial strain that weakened the Byzantine Empire.",
+      "key_figures": [
+        "Justin II (Byzantine Emperor)",
+        "Khosrau I (Sasanid Emperor)",
+        "Narses (Byzantine general)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (contemporary, 6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle (9th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Procopius documents the beginning of Justin II's military campaigns against the Sasanids. The year 566 CE is approximate for the start of major operations.",
+      "cross_references": [
+        "Follows from 565-001 (Justin II's accession)",
+        "Part of Byzantine-Sasanid Wars (540-630 CE)"
+      ]
+    },
+    {
+      "id": "566-002",
+      "title": "Northern Zhou consolidation of power",
+      "region": "Northern China",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "Emperor Wu of Northern Zhou continued the consolidation of power in northern China. The dynasty had recently unified the north in 577 CE and was now consolidating administrative control. This period saw the development of military and administrative reforms that would later be adopted by the Sui Dynasty. The Northern Zhou were known for their efficient bureaucracy and military organization.",
+      "key_figures": [
+        "Emperor Wu of Northern Zhou",
+        "Yang Jian (future Sui founder)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, 11th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Zhou (official history, 7th century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Chinese sources document Northern Zhou consolidation, though specific events in 566 CE are less precisely dated than the broader trajectory.",
+      "cross_references": [
+        "Part of Northern Zhou unification (577-589 CE)",
+        "Led to 581-001 (Sui Dynasty founding)"
+      ]
+    },
+    {
+      "id": "566-003",
+      "title": "Aksumite-Sasanid competition in Arabian Peninsula",
+      "region": "Yemen and Red Sea region",
+      "coordinates_approx": "15.3694, 44.2044",
+      "category": "political",
+      "description": "The Aksumite Empire and the Sasanid Persian Empire competed for influence and control over Yemen and the Red Sea trade routes. The Aksumites, who were Christian, sought to maintain their dominance over the lucrative trade networks connecting the Mediterranean, Red Sea, and Indian Ocean. This competition was part of the broader struggle between the Byzantine and Sasanid empires for influence in the Arabian Peninsula.",
+      "key_figures": [
+        "Aksumite rulers (names uncertain)",
+        "Khosrau I (Sasanid Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars (contemporary, 6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cosmas Indicopleustes, Christian Topography (6th century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Procopius and Cosmas document Aksumite-Sasanid competition in Yemen, but the specific year 566 CE is approximate for individual events.",
+      "cross_references": [
+        "Part of broader Aksumite-Sasanid competition (6th century CE)",
+        "Related to 567-003 (Aksumite-Sasanid conflict)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific dating of Byzantine-Sasanid military operations in 566 CE is uncertain. While Procopius documents the broader conflict, modern scholars debate the exact chronology of individual campaigns. The significance of Aksumite-Sasanid competition should not be overstated\u2014the Aksumites were gradually losing influence in the Arabian Peninsula during this period. Northern Zhou consolidation is well-documented, but the specific year 566 CE may not be precisely accurate for all events attributed to it.",
+  "historiographic_note": "Documentation for 566 CE relies on Byzantine and Chinese written sources, which are detailed but sometimes conflicting in their chronologies. Procopius provides a contemporary Byzantine perspective, but his account is shaped by imperial ideology. Chinese sources are comprehensive but compiled centuries after events. Arabian and Aksumite history for this period is less well-documented in surviving written sources. The geographic bias toward the Mediterranean and China reflects the distribution of surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "566-001",
+      "to": "570-002",
+      "relation": "led_to",
+      "note": "Justin II's military campaigns continued throughout his reign"
+    },
+    {
+      "from": "566-002",
+      "to": "581-001",
+      "relation": "led_to",
+      "note": "Northern Zhou consolidation led to Sui Dynasty founding"
+    },
+    {
+      "from": "566-003",
+      "to": "567-003",
+      "relation": "led_to",
+      "note": "Aksumite-Sasanid competition continued in subsequent years"
+    }
+  ]
+}
