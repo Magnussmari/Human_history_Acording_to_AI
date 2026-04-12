@@ -1,18 +1,76 @@
 {
   "year": -1817,
   "year_label": "1818 BCE",
-  "era_context": "The Late Bronze Age, mature phase. The Hittite Empire, Egypt's New Kingdom (Eighteenth Dynasty), Mycenaean Greece (Late Helladic IIIA), and the Shang Dynasty in China are the dominant civilizations. This is an era of palace-centered states, long-distance trade, chariot-based military dominance, and complex diplomatic relations between major powers.",
+  "era_context": "The Late Bronze Age is in its mature phase. The Hittite Empire is consolidating power under Mursili II. Egypt under Ramesses II is in the early-to-middle decades of his long reign, a period of military expansion and monumental building. Mycenaean Greece is in the Late Helladic IIIA period, with palace centers at Mycenae, Tiryns, and Pylos flourishing. The Shang Dynasty in China continues its rule over the Yellow River valley. This is an era of relatively stable, palace-centered polities and active long-distance trade.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Mesoamerica",
     "Northern Europe and the Steppe",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia (limited written records)"
+    "Southeast Asia and the Pacific",
+    "Central Asia",
+    "South Asia (limited written records for this period)"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified. No events are attested to this year.",
-  "historiographic_note": "The historical record for 1818 BCE is entirely absent in terms of specific, year-dated events. This year is archaeologically and textually undifferentiated. All knowledge of this period comes from broader regnal chronologies, archaeological stratigraphy, and the assumption of continuity in Late Bronze Age palace economies and trade networks. The chronology is uncertain by \u00b110\u201315 years or more. No civilization's written sources explicitly document events from this year.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-1817-001",
+      "title": "Ramesses II's military campaigns in Nubia and the Levant",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "20.0, 30.0",
+      "category": "military",
+      "description": "Ramesses II conducted extensive military campaigns to consolidate Egyptian control over Nubia and the Levant. These campaigns are documented in temple reliefs and inscriptions at Abu Simbel, Karnak, and other sites. The campaigns served both to expand Egyptian territorial control and to secure access to valuable resources, including gold from Nubia and cedar from the Levant. These military successes contributed to Ramesses II's reputation as a great warrior-pharaoh.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Abu Simbel, Karnak, and Luxor",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's military campaigns are extensively documented in Egyptian sources. The dating is secure to within \u00b12\u20133 years based on Egyptian chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1817-002",
+      "title": "Mycenaean palace centers in Greece flourish in Late Helladic IIIA",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7, 23.0",
+      "category": "cultural",
+      "description": "The Mycenaean palace centers at Mycenae, Tiryns, Pylos, and other sites were at the height of their power and cultural sophistication during the Late Helladic IIIA period. These palatial centers controlled extensive territories and participated in Mediterranean trade networks. Archaeological evidence shows sophisticated architecture, Linear B writing (an early form of Greek), advanced pottery, and evidence of long-distance trade connections with Egypt, the Hittite Empire, and the Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Late Helladic IIIA period is well-attested archaeologically. Absolute dating is based on synchronisms with Egyptian chronology and has \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent of Mycenaean political centralization and the nature of their interaction with Near Eastern powers remain subjects of scholarly debate. Some scholars argue that Mycenaean Greece was less centralized and less directly involved in Near Eastern politics than traditional narratives suggest.",
+  "historiographic_note": "The historical record for 1818 BCE is dominated by Egyptian and Hittite sources, which provide detailed accounts of military and political events. Mycenaean Greece is known primarily through archaeology and Linear B tablets, which provide information about palace administration and trade but limited narrative history. The absolute chronology of this period depends on synchronisms between Egyptian, Hittite, and Mycenaean chronologies, which carry \u00b110\u201315 year uncertainty. Most of the world remains undocumented in written records.",
+  "graph_edges": [
+    {
+      "from": "-1817-001",
+      "to": "-1817-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II's military campaigns and Mycenaean flourishing were contemporary; Mycenaean Greeks may have served as mercenaries or trading partners with Egypt."
+    }
+  ]
 }

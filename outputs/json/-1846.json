@@ -1,0 +1,93 @@
+{
+  "year": -1846,
+  "year_label": "1847 BCE",
+  "era_context": "Continuation of the Middle Bronze Age in the Levant and Egypt; the 12th Dynasty of Egypt is in its final phase or early 13th Dynasty (chronology-dependent). In Mesopotamia, the Old Babylonian period is fragmenting into regional powers. The Indus Valley Civilization remains in its mature phase. In China, the traditional Xia Dynasty or early Shang period is proposed, though dating is highly speculative. This is a period of regional consolidation and the beginning of demographic and climatic stress in some regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia (beyond traditional Chinese sources)"
+  ],
+  "events": [
+    {
+      "id": "-1846-001",
+      "title": "Continued reign of Amenemhat III or succession crisis in Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "If Amenemhat III's reign extends to this year, it represents the continued height of 12th Dynasty power. Alternatively, if his reign has ended, Egypt may be entering the 13th Dynasty, a period of rapid succession and declining central authority. The exact transition point is unclear due to chronological uncertainty. Administrative records show continued building projects and trade, but evidence of internal instability begins to accumulate in some sources.",
+      "key_figures": [
+        "Amenemhat III (if still reigning) or his successor"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact year of Amenemhat III's death and the succession is uncertain. Different chronologies place this transition at different points in the 1850s\u20131800s BCE range.",
+      "cross_references": [
+        "-1845-001"
+      ]
+    },
+    {
+      "id": "-1846-002",
+      "title": "Decline of Old Babylonian hegemony in Mesopotamia",
+      "region": "Mesopotamia (modern Iraq and Syria)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "The Old Babylonian period (c. 2000\u20131600 BCE) is in its final phase. The reign of Hammurabi (c. 1792\u20131750 BCE, traditional dating) may be approaching or underway, depending on chronology. Regional powers in Assyria, the Levant, and Anatolia are asserting independence. Trade networks are disrupted by political fragmentation. This period marks the transition from Old Babylonian to Kassite dominance.",
+      "key_figures": [
+        "Hammurabi (if reigning) or his predecessors"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative and legal texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Babylon and regional sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the Old Babylonian period is debated. The 'middle chronology' places Hammurabi c. 1792\u20131750 BCE; the 'low chronology' places him c. 1696\u20131654 BCE. This year falls in the uncertain transition zone.",
+      "cross_references": [
+        "Related to broader Mesopotamian political fragmentation in the 1850s\u20131750s BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of both Egypt and Mesopotamia for this period is highly uncertain. The 'middle chronology' is increasingly challenged by radiocarbon evidence and astronomical calculations, which suggest a 'low chronology' placing these events 50\u2013100 years later. If the low chronology is correct, the events described here may not have occurred in this year at all. Additionally, the assumption that major political transitions occurred in specific years is often an artifact of king list compilation rather than historical fact.",
+  "historiographic_note": "The historical record for -1846 is even sparser than for -1845. We are largely dependent on king lists (compiled centuries later) and scattered archaeological evidence. The narrative of 'decline' in the Old Babylonian period is partly a historiographic construct based on the assumption that centralized power is the norm. Regional diversity and decentralization may have been equally significant developments. Sub-Saharan Africa, Europe, and the Americas remain absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1846-001",
+      "to": "-1800-EGYPT",
+      "relation": "led_to",
+      "note": "Transition from 12th to 13th Dynasty, marking the end of the Middle Kingdom"
+    },
+    {
+      "from": "-1846-002",
+      "to": "-1750-HAMMURABI",
+      "relation": "led_to",
+      "note": "Old Babylonian fragmentation eventually resolved by Hammurabi's expansion"
+    }
+  ]
+}

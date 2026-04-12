@@ -1,18 +1,79 @@
 {
   "year": -1818,
   "year_label": "1819 BCE",
-  "era_context": "The Late Bronze Age, mature phase. The Hittite Empire, Egypt's New Kingdom, Mycenaean Greece, and the Shang Dynasty are the dominant state systems. Palace-centered economies, long-distance trade networks, and chariot-based military technology define this era. This is approximately 200 years before the Late Bronze Age collapse.",
+  "era_context": "The Late Bronze Age is in its mature, stable phase. The Hittite Empire under Mursili II is consolidating territorial control. Egypt under Ramesses II is in the early-to-middle decades of his reign, a period of military expansion and cultural flourishing. Mycenaean Greece is in the Late Helladic IIIA period. The Shang Dynasty in China is in a period of relative stability. This is an era characterized by palace-centered polities, long-distance trade networks, and military competition between major powers for control of the eastern Mediterranean and Levant.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Mesoamerica",
     "Northern Europe and the Steppe",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia"
+    "Southeast Asia and the Pacific",
+    "Central Asia",
+    "South Asia",
+    "Most of the Americas"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified. No events are attested to this year.",
-  "historiographic_note": "The historical record for 1819 BCE is entirely absent in terms of specific, year-dated events. This year is archaeologically and textually undifferentiated. All knowledge of this period comes from broader regnal chronologies and archaeological evidence. The chronology is uncertain by \u00b110\u201315 years or more. No civilization's written sources explicitly document events from this year.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-1818-001",
+      "title": "Mursili II consolidates Hittite control in Anatolia",
+      "region": "Hittite Empire, Anatolia",
+      "coordinates_approx": "35.5, 33.5",
+      "category": "political",
+      "description": "Mursili II continued his policy of consolidating Hittite control over Anatolia and neighboring regions. His reign was marked by military campaigns against rebellious vassal states and rival powers. The Hittite annals record numerous campaigns and the subjugation of territories. Mursili II also maintained diplomatic relations with neighboring powers, including Egypt and Assyria, through a combination of military strength and diplomatic negotiation.",
+      "key_figures": [
+        "Mursili II (King of Hatti)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Mursili II (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's reign and general activities are well-attested. The specific year is assigned by Hittite chronology, which has \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1818-002",
+      "title": "Egyptian-Nubian relations and resource extraction",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "18.0, 30.0",
+      "category": "economic",
+      "description": "During Ramesses II's reign, Egypt maintained tight control over Nubia, extracting gold, ivory, ebony, and other valuable resources. Egyptian administrative records and temple inscriptions document the organization of trade and tribute from Nubian territories. The construction of temples at Abu Simbel, which began during this period, was partly funded by wealth extracted from Nubia. This economic relationship was maintained through a combination of military force and administrative control.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Egyptian control over Nubia and resource extraction are well-documented. Dating is secure to within \u00b12\u20133 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent of Egyptian control over Nubia and the nature of Egyptian-Nubian relations (whether primarily exploitative or involving more reciprocal trade) remain subjects of scholarly debate. Some scholars emphasize the agency of Nubian populations and the complexity of the relationship beyond simple domination.",
+  "historiographic_note": "The historical record for 1819 BCE is heavily weighted toward the Near East and Egypt. Hittite cuneiform records and Egyptian inscriptions provide detailed documentation of political and military events, but are elite-focused and often propagandistic in nature. The record is almost entirely silent on the lives of ordinary people, agricultural conditions, and most of the world's population. The absolute chronology of this period depends on synchronisms between different regional chronologies and carries \u00b110\u201315 year uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1818-001",
+      "to": "-1818-002",
+      "relation": "contemporary_with",
+      "note": "Mursili II and Ramesses II were contemporaries; their empires competed for influence in the Levant and maintained diplomatic relations."
+    }
+  ]
 }

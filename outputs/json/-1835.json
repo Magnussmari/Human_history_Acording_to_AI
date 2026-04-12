@@ -1,0 +1,80 @@
+{
+  "year": -1835,
+  "year_label": "1836 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Second Intermediate Period in Egypt (13th\u201317th Dynasties) with fragmented political authority. In Mesopotamia, the Old Babylonian period under Hammurabi's successors. In the Indus Valley, the mature phase of the Indus Valley Civilization. In China, the Shang dynasty was in its early phase (traditional dating places Shang c. 1600\u20131046 BCE, though this remains contested). The Hittite Old Kingdom was consolidating power in Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Mesoamerica (no written chronology; archaeological dating uncertain)",
+    "Northern Europe (pre-literate societies; archaeological record thin)",
+    "Pacific and Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1835-001",
+      "title": "Reign of Samsu-iluna, King of Babylon",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4218",
+      "category": "political",
+      "description": "Samsu-iluna (r. c. 1749\u20131712 BCE in traditional chronology, though some scholars place him c. 1685\u20131648 BCE) was ruling Babylon during this period. His reign was marked by military campaigns against the Kassites and other rivals, and by efforts to maintain Babylonian hegemony in southern Mesopotamia. He issued legal and administrative documents that provide insight into Old Babylonian governance. His reign represents the later phase of Hammurabi's dynasty's power, before the rise of Kassite dominance.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation with traditional dates)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative and legal documents from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign is well-attested in cuneiform sources, but absolute dating of the Old Babylonian period remains debated. The 'middle chronology' places him c. 1749\u20131712 BCE; the 'low chronology' places him c. 1685\u20131648 BCE. Assignment to -1835 follows middle chronology convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-1835-002",
+      "title": "Mature phase of Indus Valley Civilization",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its peak, with major urban centers such as Harappa, Mohenjo-daro, Dholavira, and Lothal flourishing. These cities exhibited sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. The civilization's undeciphered script appears on seals and pottery. No monumental temples or palaces have been identified, suggesting a different form of social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and Lothal",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and pottery with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically. Absolute dating relies on radiocarbon and stratigraphic evidence; the mature phase is generally dated c. 2500\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Babylonian period, including Samsu-iluna's reign, remains contested among scholars. The 'middle chronology' (used here) differs from the 'low chronology' by approximately 60\u201370 years. Some scholars argue for even greater adjustments based on astronomical calculations and Egyptian synchronisms. The traditional Babylonian King List provides reign lengths but is known to contain errors and exaggerations. For the Indus Valley Civilization, the absence of monumental religious or palatial architecture has led some scholars to propose a radically different social structure than previously assumed\u2014possibly more egalitarian or theocratic in ways not yet understood.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on cuneiform sources from Mesopotamia and archaeological evidence from the Indus Valley. Egyptian records from the Second Intermediate Period are fragmentary and difficult to synchronize with Mesopotamian chronology. The chronology of the Old Babylonian period remains one of the most contentious issues in ancient Near Eastern studies, with competing 'high,' 'middle,' and 'low' chronologies differing by decades. For the Indus Valley, the lack of deciphered writing limits understanding of political, religious, and social structures. Sub-Saharan Africa, the Americas, and northern Europe are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1835-001",
+      "to": "-1836-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-iluna's reign spans multiple years; this represents continuity of Babylonian rule."
+    },
+    {
+      "from": "-1835-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "The mature Indus Valley Civilization phase is part of a longer cultural continuum."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "year": -1813,
+  "year_label": "1814 BCE",
+  "era_context": "Late Bronze Age. The Hittite Empire under \u0160uppiluliuma I is expanding its power and influence. Egypt is in the 18th Dynasty, a period of imperial expansion and cultural achievement. Mycenaean Greece is developing its palace civilization. Babylon is under Kassite rule. The Shang Dynasty continues in China. This is a period of complex international relations and military competition for control of trade routes and resources.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Americas",
+    "Oceania",
+    "Central Asia and the Steppe",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1813-001",
+      "title": "Hittite military campaigns in northern Syria",
+      "region": "Hittite Empire, Syria, Levant",
+      "coordinates_approx": "35.5, 36.5",
+      "category": "military",
+      "description": "\u0160uppiluliuma I launches military campaigns into northern Syria, targeting Mitanni-aligned states and Egyptian vassal cities. These campaigns are part of a broader strategy to expand Hittite territorial control and establish vassal relationships with key Levantine powers. The campaigns are successful in establishing Hittite dominance over much of northern Syria and the Levant.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma I's campaigns in Syria are well-attested, but precise year-by-year dating is uncertain by \u00b12\u20133 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1813-002",
+      "title": "Egyptian administrative control of Levantine vassal states",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "political",
+      "description": "Egypt maintains administrative control over Levantine vassal states through a system of governors and tribute collection. The pharaoh (likely Amenhotep II or Thutmose IV) oversees this system, which ensures Egyptian access to resources and maintains Egyptian influence in the region. However, this control is increasingly challenged by Hittite expansion.",
+      "key_figures": [
+        "Egyptian Pharaoh (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Egyptian control is well-established; specific events in this year are inferred from broader historical trends.",
+      "cross_references": []
+    },
+    {
+      "id": "-1813-003",
+      "title": "Mycenaean trade and cultural exchange with the Eastern Mediterranean",
+      "region": "Greece, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "Mycenaean traders are actively engaged in trade with Egypt, the Levant, and Anatolia, exchanging Greek pottery, olive oil, and wine for Eastern Mediterranean goods. This trade is facilitated by Mycenaean maritime networks and reflects the integration of Mycenaean Greece into broader Mediterranean economic systems. Mycenaean pottery is found in Egyptian and Levantine contexts, indicating active trade relationships.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in Eastern Mediterranean contexts",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian and Levantine records mentioning Mycenaean traders",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Mycenaean trade is well-established; specific trade relationships in this year are inferred from broader patterns.",
+      "cross_references": []
+    },
+    {
+      "id": "-1813-004",
+      "title": "Shang Dynasty military campaigns and territorial expansion",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "military",
+      "description": "The Shang Dynasty continues its military campaigns against neighboring peoples and rival polities, expanding Shang territorial control and consolidating Shang power in the North China Plain. These campaigns are recorded in oracle bone inscriptions and reflect the Shang king's role as a military leader and protector of the realm.",
+      "key_figures": [
+        "Shang king (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (jiaguwen)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones provide contemporary evidence, but their assignment to specific years is uncertain by \u00b150\u2013100 years due to disputes over Shang chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of \u0160uppiluliuma I's reign is debated, with some scholars placing his major campaigns earlier or later than 1814 BCE by 50\u2013100 years. The assignment of this year to his Syrian campaigns is therefore provisional. Additionally, the identity of the reigning Egyptian pharaoh is uncertain due to chronological disputes in Egyptology. Some scholars argue that the major Hittite-Egyptian military confrontations did not occur until the reign of Ramesses II, making the tensions described here speculative.",
+  "historiographic_note": "The record for 1814 BCE is similar to previous years: dominated by Near Eastern and Egyptian sources, with Mycenaean and Chinese evidence from archaeology and inscriptions. The Hittite and Egyptian archives are the most detailed, but these are state-sponsored documents that emphasize royal achievements. The record is heavily skewed toward elite political and military history. Economic structures, social organization, and the lives of common people are underrepresented. Sub-Saharan Africa, the Americas, Oceania, and Central Asia are essentially absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1813-001",
+      "to": "-1812-001",
+      "relation": "led_to",
+      "note": "Hittite consolidation of power in Anatolia enables military campaigns into Syria."
+    },
+    {
+      "from": "-1813-001",
+      "to": "-1813-002",
+      "relation": "contradicts",
+      "note": "Hittite expansion in Syria directly challenges Egyptian control of Levantine vassal states."
+    },
+    {
+      "from": "-1813-003",
+      "to": "-1813-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade occurs in the same Mediterranean world where Hittite-Egyptian tensions play out."
+    }
+  ]
+}

@@ -1,46 +1,51 @@
 {
   "year": -1831,
   "year_label": "1832 BCE",
-  "era_context": "Continuation of the Middle Bronze Age in the Levant; the 12th Dynasty of Egypt in its final century; the Old Babylonian period in Mesopotamia; the mature Indus Valley Civilization. This year falls within a period of relative stability in Egypt and the Near East, though regional powers are consolidating territorial control. Trade networks linking Egypt, Mesopotamia, the Levant, and the Indus Valley are active.",
+  "era_context": "Continuation of the Middle Kingdom in Egypt (12th Dynasty); fragmented Mesopotamia with competing Amorite dynasties; mature Indus Valley Civilization; traditional dating places this within the Xia Dynasty in China (though this remains archaeologically unconfirmed).",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Oceania",
     "Mesoamerica",
-    "East Asia (beyond traditional Xia Dynasty accounts)"
+    "Oceania",
+    "East Asia (beyond traditional Chinese chronology)"
   ],
   "events": [
     {
       "id": "-1831-001",
-      "title": "Continued reign of Amenemhat III, Egypt",
-      "region": "Egypt",
+      "title": "Amenemhat III's administrative consolidation in Egypt",
+      "region": "Egypt (12th Dynasty)",
       "coordinates_approx": "26.0, 31.0",
       "category": "political",
-      "description": "Amenemhat III continues his reign, maintaining Egypt's prosperity and stability. This period is marked by continued construction projects and administrative consolidation. The 12th Dynasty remains at the height of its power, with effective control over Nubia and trade routes to the Levant and beyond.",
+      "description": "During the reign of Amenemhat III, Egypt maintained strong centralized control over the Nile Valley and conducted extensive trade with Nubia, the Levant, and the Aegean. Administrative records from this period show sophisticated tax collection, grain storage systems, and military organization. The year -1831 falls within a period of relative peace and prosperity, with no major military campaigns recorded.",
       "key_figures": [
-        "Amenemhat III (Pharaoh of Egypt)"
+        "Amenemhat III (Pharaoh)"
       ],
       "sources": [
         {
-          "name": "Turin King List",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from temple and tomb inscriptions",
+          "name": "Administrative papyri and temple inscriptions",
           "type": "epigraphic",
           "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites and administrative centers",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Amenemhat III's reign is well-documented, but precise year-by-year events are not recorded in surviving sources. This entry reflects the continuation of his attested reign.",
-      "cross_references": [
-        "-1830-001"
-      ]
+      "certainty_note": "Amenemhat III's reign is well-documented, but specific events within individual years are rarely recorded. This description reflects the general character of his reign rather than events specific to -1831.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "No specific events are recorded for 1832 BCE in surviving sources. The entry above reflects general historical context rather than documented events for this particular year. This highlights the sparsity of year-specific documentation for the Middle Bronze Age.",
-  "historiographic_note": "For this year, no specific events are attested in contemporary or near-contemporary sources. The historical record for the Middle Bronze Age is episodic rather than annalistic; major events (reigns, military campaigns, construction projects) are recorded, but individual years often leave no trace. This reflects both the nature of ancient record-keeping and the loss of most written materials over time.",
-  "graph_edges": []
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the assumption that Amenemhat III's reign was uniformly peaceful is questioned by some scholars who point to evidence of military activity in Nubia and the Levant during the later 12th Dynasty, though the precise dating of these campaigns remains uncertain.",
+  "historiographic_note": "For this year, the historical record is even sparser than for -1830. No specific events are recorded in surviving sources for -1831 itself. The description above reflects the broader context of Amenemhat III's reign. Egyptian sources dominate the available evidence; other regions are either archaeologically attested without written records or entirely undocumented.",
+  "graph_edges": [
+    {
+      "from": "-1831-001",
+      "to": "-1830-001",
+      "relation": "contemporary_with",
+      "note": "Both years fall within Amenemhat III's reign and reflect the same period of Egyptian stability."
+    }
+  ]
 }

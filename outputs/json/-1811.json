@@ -1,0 +1,107 @@
+{
+  "year": -1811,
+  "year_label": "1812 BCE",
+  "era_context": "Continuation of the Late Bronze Age. The Hittite Empire is consolidating power under \u0160uppiluliuma I. Egypt is in the 18th Dynasty, a period of imperial expansion and cultural flourishing. Mycenaean Greece is developing its palace-centered civilization. Babylon is under Kassite rule. The Shang Dynasty continues in China. This is a period of active international diplomacy, with the Amarna Letters (from a slightly later period) providing evidence of extensive correspondence between major powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Americas",
+    "Oceania",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1811-001",
+      "title": "Hittite-Egyptian diplomatic tensions over Levantine control",
+      "region": "Levant, Egypt, Hittite Empire",
+      "coordinates_approx": "34.0, 35.0",
+      "category": "political",
+      "description": "As Hittite power expands under \u0160uppiluliuma I, tensions with Egypt over control of Levantine territories intensify. Both powers seek to dominate key city-states and trade routes. This period likely sees increased military posturing and diplomatic maneuvering, though major pitched battles may not occur until later. The competition for vassal states and resources shapes the geopolitical landscape of the Eastern Mediterranean.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)",
+        "Egyptian Pharaoh (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite diplomatic correspondence and royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Hittite-Egyptian rivalry is well-established; specific events in this year are inferred from broader historical trends rather than dated records.",
+      "cross_references": []
+    },
+    {
+      "id": "-1811-002",
+      "title": "Mycenaean palace culture and trade networks",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "Mycenaean Greece is in the Late Helladic II period, characterized by the development of palace-centered societies at sites like Mycenae, Tiryns, and Pylos. These palaces serve as administrative, religious, and economic centers. Mycenaean traders are active throughout the Mediterranean, exchanging goods with Egypt, the Levant, and Anatolia. The Linear B script is beginning to develop, though it will not be fully attested until later.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery and trade goods from Mediterranean contexts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean chronology is based on pottery typology and stratigraphic sequences; absolute dating is uncertain by \u00b110\u201320 years. The assignment of this year to Late Helladic II is conventional.",
+      "cross_references": []
+    },
+    {
+      "id": "-1811-003",
+      "title": "Kassite Babylon under Agum II",
+      "region": "Babylon, Mesopotamia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Babylon under Kassite rule is consolidating its power and establishing itself as a major Mesopotamian state. Agum II (or a contemporary Kassite king) rules from Babylon, managing relationships with neighboring powers and maintaining internal stability. The Kassites introduce new administrative practices and military technologies, including the horse-drawn chariot.",
+      "key_figures": [
+        "Agum II or contemporary Kassite king"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Kassite inscriptions and administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kassite chronology is uncertain by \u00b150\u2013100 years. The identity of the reigning king in 1812 BCE is disputed among scholars.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Kassite period is one of the most disputed in ancient history. Some scholars place Agum II much earlier or later than 1812 BCE. Additionally, the extent of Hittite-Egyptian conflict in this specific year is uncertain; some scholars argue that major military confrontations did not occur until the reign of Ramesses II (c. 1279\u20131213 BCE), making the tensions described here speculative.",
+  "historiographic_note": "The record for 1812 BCE is similar to that for 1811 BCE: dominated by Near Eastern and Egyptian sources, with Mycenaean evidence from archaeology rather than written records. The Hittite and Egyptian archives provide the most detailed information, but these are state-sponsored documents that may omit or distort events. Mesopotamian sources are less abundant for this specific year. The record is heavily skewed toward elite political and military history; the lives of common people, economic structures, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-1811-001",
+      "to": "-1810-001",
+      "relation": "contemporary_with",
+      "note": "Hittite expansion and Egyptian-Hittite tensions are ongoing processes."
+    },
+    {
+      "from": "-1811-002",
+      "to": "-1811-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean traders are active in the same Mediterranean world where Hittite-Egyptian tensions play out."
+    }
+  ]
+}

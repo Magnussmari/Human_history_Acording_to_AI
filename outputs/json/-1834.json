@@ -1,17 +1,51 @@
 {
   "year": -1834,
   "year_label": "1835 BCE",
-  "era_context": "Middle Bronze Age; 12th Dynasty Egypt under Amenemhat III; Old Babylonian period in Mesopotamia; mature Indus Valley Civilization. This period is characterized by palace-centered administration, extensive trade networks, and relative political stability in the Near East. Egypt's 12th Dynasty represents the apex of the Middle Kingdom, with strong central authority and ambitious building programs.",
+  "era_context": "Middle Kingdom Egypt (12th Dynasty, Amenemhat III); Mesopotamia fragmented; Indus Valley Civilization; traditional Xia Dynasty in China.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Oceania",
     "Mesoamerica",
+    "Oceania",
     "East Asia"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
-  "historiographic_note": "No specific events are attested for 1835 BCE in surviving sources. Like the surrounding years, this year falls within a period for which year-by-year documentation does not exist. The historical record for the Middle Bronze Age is characterized by the recording of major events (reigns, military campaigns, construction projects) rather than annalistic year-by-year accounts. Most years leave no trace in surviving sources, reflecting both the limitations of ancient record-keeping and the loss of written materials over millennia.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-1834-001",
+      "title": "Amenemhat III's reign continues; Fayum development",
+      "region": "Egypt (12th Dynasty)",
+      "coordinates_approx": "29.3, 30.8",
+      "category": "economic",
+      "description": "Amenemhat III undertook extensive hydraulic engineering projects in the Fayum region, including the construction of dikes and irrigation systems to expand arable land. These projects were among the most ambitious public works of the Middle Kingdom and required significant labor organization and resource allocation. The year -1834 falls within the period of these developments, which had lasting economic and demographic impacts on Egypt.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Fayum region; temple inscriptions",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later historical accounts by Strabo and other Greco-Roman writers",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fayum projects are well-attested archaeologically and in later historical accounts, but the precise dating of individual phases of construction is uncertain. Assignment to -1834 is approximate within Amenemhat III's reign.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The scale and chronology of Amenemhat III's Fayum projects have been debated by scholars. Some argue that the most extensive development occurred earlier in his reign, while others suggest it continued into the later 12th Dynasty. The attribution of all Fayum development to Amenemhat III alone may be an oversimplification; his successors likely continued these projects.",
+  "historiographic_note": "The year -1834 is documented only through archaeological evidence and later historical accounts. No contemporary written records specifically mention events of this year. The Fayum projects are known from their physical remains and from later Greek and Roman descriptions, but precise dating relies on stratigraphic analysis and regnal chronology, both of which carry significant uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1834-001",
+      "to": "-1808-001",
+      "relation": "led_to",
+      "note": "The Fayum development projects had long-term economic impacts that extended beyond Amenemhat III's reign and contributed to Egypt's prosperity in the later 12th Dynasty."
+    }
+  ]
 }

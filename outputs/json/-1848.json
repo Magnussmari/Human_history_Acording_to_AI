@@ -1,0 +1,95 @@
+{
+  "year": -1848,
+  "year_label": "1849 BCE",
+  "era_context": "Middle Bronze Age in the Levant and Egypt; the 12th Dynasty of Egypt is ending or the 13th Dynasty is in its early phase. In Mesopotamia, the Old Babylonian period is fragmenting. The Indus Valley Civilization is in its late mature phase or early decline. In China, the traditional Xia Dynasty or early Shang period is proposed, though dating is highly speculative. This is a period of regional consolidation, environmental stress, and the beginning of major demographic shifts.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-1848-001",
+      "title": "13th Dynasty Egypt: period of rapid succession and administrative fragmentation",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt (c. 1795\u20131650 BCE, traditional dating) is characterized by rapid succession of pharaohs (over 70 rulers in ~150 years according to the Turin King List), declining central authority, and the rise of provincial governors. This period marks the transition from the Middle Kingdom to the Second Intermediate Period. Foreign (Asiatic) settlement in the Delta increases. Trade networks are disrupted. The exact dating and causes of this fragmentation are debated.",
+      "key_figures": [
+        "Various 13th Dynasty pharaohs (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The 13th Dynasty is well-attested in king lists and archaeological evidence, but the exact dating and chronology of individual reigns are uncertain. The assignment of this year to the 13th Dynasty follows the 'middle chronology' but is not definitive.",
+      "cross_references": [
+        "-1845-001",
+        "-1846-001",
+        "-1847-001"
+      ]
+    },
+    {
+      "id": "-1848-002",
+      "title": "Hittite expansion in Anatolia and the Levant",
+      "region": "Anatolia and the Levant (modern Turkey and Syria)",
+      "coordinates_approx": "37.0, 36.0",
+      "category": "military",
+      "description": "The Hittites, an Indo-European people, are expanding their power in Anatolia and beginning to exert influence in the Levant. The Old Hittite Kingdom (c. 1650\u20131450 BCE, traditional dating) is in its early phase. This expansion is part of broader Indo-European migrations and the rise of new military powers in the Bronze Age. The Hittites will eventually become one of the major powers of the Late Bronze Age.",
+      "key_figures": [
+        "Early Hittite kings (names and dates uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts and king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and other Anatolian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence and general chronology of the Old Hittite Kingdom is confirmed by cuneiform texts and archaeology. However, the precise dating of early Hittite expansion is uncertain, with some scholars placing it later (c. 1600 BCE or later).",
+      "cross_references": [
+        "Related to broader Bronze Age military expansion and Indo-European migrations"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 13th Dynasty and the Old Hittite Kingdom is highly uncertain. The 'middle chronology' places the 13th Dynasty c. 1795\u20131650 BCE and the Old Hittite Kingdom c. 1650\u20131450 BCE. However, the 'low chronology' places these periods 50\u2013100 years later. Additionally, the narrative of 'rapid succession' in the 13th Dynasty is based on the Turin King List, which may not accurately reflect the actual duration of individual reigns. Some scholars argue that the 13th Dynasty was more stable than traditionally portrayed.",
+  "historiographic_note": "The historical record for -1848 is sparse and heavily dependent on king lists and scattered archaeological evidence. The narrative of 'fragmentation' in Egypt is partly a historiographic construct based on the assumption that centralized power is the norm. The rise of provincial governors and foreign settlement may have been gradual processes rather than sudden changes. The sources are biased toward monumental and administrative records; the experiences of ordinary people and the diversity of regional responses are underrepresented. Sub-Saharan Africa, Europe, and the Americas remain absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1848-001",
+      "to": "-1650-HYKSOS",
+      "relation": "led_to",
+      "note": "13th Dynasty fragmentation eventually led to Hyksos domination of Egypt"
+    },
+    {
+      "from": "-1848-002",
+      "to": "-1600-HITTITES",
+      "relation": "part_of",
+      "note": "Early Hittite expansion, which continued through the Old Hittite Kingdom"
+    }
+  ]
+}

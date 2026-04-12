@@ -1,0 +1,107 @@
+{
+  "year": -1810,
+  "year_label": "1811 BCE",
+  "era_context": "The Late Bronze Age in the Eastern Mediterranean and Near East. The Hittite Empire under \u0160uppiluliuma I is at its height, dominating Anatolia and northern Syria. Egypt under the 18th Dynasty (Thutmose III era has passed; we are in the reign of Amenhotep II or his successor). Mycenaean Greece is in the Late Helladic II period. Babylon is fragmented; Kassite rule is consolidating. The Shang Dynasty dominates China. This is a period of intense interstate diplomacy, military campaigns, and trade networks connecting the Mediterranean, Near East, and Asia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "Americas (no written records; archaeological dating for this period is imprecise)",
+    "Oceania (oral traditions not preserved; archaeological record thin)"
+  ],
+  "events": [
+    {
+      "id": "-1810-001",
+      "title": "Hittite military campaign in Syria under \u0160uppiluliuma I",
+      "region": "Hittite Empire, Syria, Levant",
+      "coordinates_approx": "35.5, 36.5",
+      "category": "military",
+      "description": "\u0160uppiluliuma I, the Hittite Great King, continues his systematic conquest and consolidation of northern Syria and the Levantine territories. This period marks the height of Hittite imperial expansion, with campaigns against Mitanni-aligned states and Egyptian interests in the region. The Hittites establish vassal relationships with key city-states, securing trade routes and strategic buffer zones. These campaigns are documented in Hittite royal inscriptions and represent a major shift in the balance of power in the Eastern Mediterranean.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals (\u0160uppiluliuma I's deeds)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Hittite activities",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma I's reign is well-attested, but precise year-by-year dating of individual campaigns is uncertain by \u00b12\u20133 years. This event is placed within his known period of major expansion (c. 1814\u20131791 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-1810-002",
+      "title": "Egyptian-Nubian relations and Nubian gold trade",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "25.0, 32.0",
+      "category": "economic",
+      "description": "During the 18th Dynasty, Egypt maintains active trade and military control over Nubian territories, particularly for access to gold, ivory, and incense. This period sees continued Egyptian administrative presence in Lower Nubia and exploitation of resources. The relationship is characterized by both trade and military domination, with Egyptian garrisons and officials stationed in key Nubian centers.",
+      "key_figures": [
+        "Pharaoh (likely Amenhotep II or Thutmose IV, depending on exact dating)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nubian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Egyptian-Nubian relations is well-established; specific events in this year are inferred from general administrative practices rather than dated records.",
+      "cross_references": []
+    },
+    {
+      "id": "-1810-003",
+      "title": "Shang Dynasty consolidation in China",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "political",
+      "description": "The Shang Dynasty continues its rule over the North China Plain, with the royal court engaged in ritual, divination, and military campaigns against neighboring peoples. This period is characterized by the development of oracle bone script and the consolidation of Shang religious and political authority. Shang kings conduct military expeditions against the Shang Guo (Shang state) and other rival polities.",
+      "key_figures": [
+        "Shang king (identity uncertain; likely mid-reign Shang monarch)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (jiaguwen)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is notoriously uncertain. Traditional dating places this in the reign of a mid-period Shang king, but absolute dating is disputed by \u00b150\u2013100 years among scholars. Oracle bones provide contemporary evidence but are difficult to assign to specific years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of \u0160uppiluliuma I's reign is itself debated: some scholars place his major campaigns earlier (c. 1344\u20131322 BCE in conventional chronology), while others argue for a lower chronology that would shift these events by 50\u2013100 years. The assignment of this year to his campaigns is therefore provisional. Additionally, the identity of the reigning Egyptian pharaoh in 1811 BCE is uncertain due to chronological disputes between Egyptologists regarding the length of individual reigns in the 18th Dynasty.",
+  "historiographic_note": "The historical record for this year is dominated by Near Eastern and Egyptian sources, reflecting the bias of surviving written records toward literate, centralized states. Hittite, Egyptian, and Mesopotamian archives provide rich documentation, but these are court-sponsored records that emphasize royal achievements and may downplay military setbacks or internal instability. Chinese oracle bones provide contemporary evidence but are fragmentary and difficult to interpret. The record is heavily skewed toward political and military history; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, the Americas, and Oceania are essentially absent from the written record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1810-001",
+      "to": "-1809-001",
+      "relation": "led_to",
+      "note": "Hittite expansion in Syria continues in subsequent years, establishing a lasting empire."
+    },
+    {
+      "from": "-1810-002",
+      "to": "-1810-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Hittite interests in the Levant are contemporary and sometimes in conflict."
+    }
+  ]
+}

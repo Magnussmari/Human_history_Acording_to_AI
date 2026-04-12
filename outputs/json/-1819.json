@@ -1,18 +1,84 @@
 {
   "year": -1819,
   "year_label": "1820 BCE",
-  "era_context": "The Late Bronze Age, mature phase. The Hittite Empire, Egypt's New Kingdom (Eighteenth Dynasty), Mycenaean Greece (Late Helladic IIIA), and the Shang Dynasty in China are the dominant civilizations. Palace-centered economies, long-distance trade networks, and chariot-based military technology characterize this era. This is approximately 200 years before the Late Bronze Age collapse.",
+  "era_context": "The Late Bronze Age is in its mature phase. The Hittite Empire under Mursili II is consolidating power. Egypt under Ramesses II is in the early decades of his long reign, a period of military expansion and monumental building projects. Mycenaean Greece is flourishing in the Late Helladic IIIA period. The Shang Dynasty in China is in a period of relative stability. This is an era of palace-centered polities, long-distance trade networks, and military competition between major powers.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Mesoamerica",
     "Northern Europe and the Steppe",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia"
+    "Southeast Asia and the Pacific",
+    "Central Asia",
+    "South Asia",
+    "Most of the Americas"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified. No events are attested to this year.",
-  "historiographic_note": "The historical record for 1820 BCE is entirely absent in terms of specific, year-dated events. This year is archaeologically and textually undifferentiated. All knowledge of this period comes from broader regnal chronologies and archaeological evidence. The chronology is uncertain by \u00b110\u201315 years or more. No civilization's written sources explicitly document events from this year.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-1819-001",
+      "title": "Ramesses II begins construction of Abu Simbel temples",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "22.3, 31.6",
+      "category": "cultural",
+      "description": "Ramesses II initiated the construction of the Abu Simbel temples, one of ancient Egypt's most iconic monuments. The construction of the Great Temple of Abu Simbel, dedicated to Ramesses II himself and the gods Ra-Horakhty, Ptah, and Amun, began during this period and continued for several years. The temple served both as a religious monument and as a symbol of Egyptian power and control over Nubia. The construction involved massive stone-cutting and engineering feats, and the temple was positioned so that the sun would illuminate the inner sanctuary twice a year.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs at Abu Simbel",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Abu Simbel",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The construction of Abu Simbel is well-attested. The specific start date is traditionally placed in the early decades of Ramesses II's reign, but the exact year carries \u00b15\u201310 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1819-002",
+      "title": "Hittite military campaigns and territorial consolidation",
+      "region": "Hittite Empire, Anatolia, Syria",
+      "coordinates_approx": "36.0, 34.0",
+      "category": "military",
+      "description": "Mursili II continued his military campaigns to consolidate Hittite control over Anatolia and the Levant. The Hittite annals record numerous campaigns against rebellious vassal states and rival powers. These campaigns were part of a broader strategy to maintain Hittite hegemony in the eastern Mediterranean and Near East. The campaigns involved both military conquest and diplomatic negotiation with neighboring powers.",
+      "key_figures": [
+        "Mursili II (King of Hatti)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Mursili II (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's military campaigns are well-attested in Hittite records. The specific year is assigned by Hittite chronology, which has \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the start of Abu Simbel's construction to the early years of Ramesses II's reign is based on stylistic analysis and historical tradition, but the exact year is not definitively established. Some scholars argue for slightly different dates within a \u00b15\u201310 year range. Additionally, the extent of Mursili II's military success and the stability of Hittite control over conquered territories remain subjects of scholarly debate.",
+  "historiographic_note": "The historical record for 1820 BCE is dominated by Egyptian and Hittite sources. Egyptian temple inscriptions and administrative records provide detailed documentation of Ramesses II's building projects and military campaigns. Hittite cuneiform records document Mursili II's military and diplomatic activities. However, these sources are elite-focused and often propagandistic, emphasizing the achievements of the pharaoh and king while providing little insight into the lives of ordinary people or the broader economic and social conditions. The absolute chronology of this period depends on synchronisms between different regional chronologies and carries \u00b110\u201315 year uncertainty. Most of the world remains undocumented in written records.",
+  "graph_edges": [
+    {
+      "from": "-1819-001",
+      "to": "-1819-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II's construction of Abu Simbel and Mursili II's military campaigns were contemporary; both rulers were consolidating power and projecting authority during this period."
+    }
+  ]
 }

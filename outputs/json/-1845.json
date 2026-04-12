@@ -1,0 +1,100 @@
+{
+  "year": -1845,
+  "year_label": "1846 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom period in Egypt under the 12th Dynasty (or early 13th Dynasty, depending on chronology). In Mesopotamia, the Old Babylonian period is in decline; Kassite expansion is beginning. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty (traditional dating) or early Shang period is proposed by some scholars, though this remains highly contested. This is a period of regional palace economies, long-distance trade networks, and increasing military competition.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written records for this period)",
+    "Oceania (oral traditions only)",
+    "Central Asia (limited archaeological synthesis)"
+  ],
+  "events": [
+    {
+      "id": "-1845-001",
+      "title": "Reign of Amenemhat III of Egypt (traditional dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III is traditionally dated to the late 12th Dynasty, though some chronologies place him earlier or later. He is attested as a major builder and administrator, with extensive construction at Hawara and Labyrinth. His reign represents a peak of Middle Kingdom prosperity and centralized authority. However, the exact dating of his reign remains one of the most contested issues in Egyptian chronology, with proposals ranging from c. 1860\u20131814 BCE to c. 1855\u20131808 BCE depending on the chronological system employed.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hawara, Labyrinth, and Dahshur",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Scarabs and administrative documents bearing Amenemhat III's cartouche",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The reign of Amenemhat III is well-attested archaeologically and in king lists, but absolute dating depends on radiocarbon calibration and astronomical calculations. Different chronological systems (high, middle, low) place this reign across a 50+ year range. Assignment to -1845 follows the 'middle chronology' convention but is not definitive.",
+      "cross_references": [
+        "Related to broader 12th Dynasty stability and trade networks attested in -1850s to -1800s"
+      ]
+    },
+    {
+      "id": "-1845-002",
+      "title": "Mature phase of Indus Valley Civilization",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE, traditional dating) is in its mature urban phase, characterized by planned cities (Harappa, Mohenjo-daro), standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. Writing system remains undeciphered. No monumental temples or palaces suggest a non-hierarchical or differently organized society. This period represents one of the world's earliest urban civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and script (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform references to 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and broad chronology of the Indus Valley Civilization is confirmed by extensive archaeological evidence. However, the precise dating of the mature phase and its internal periodization remain debated. Radiocarbon dates suggest c. 2600\u20131900 BCE, but some scholars argue for later dates.",
+      "cross_references": [
+        "Trade connections with Mesopotamia and Egypt attested in contemporary records"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Amenemhat III's reign is one of the most contentious issues in Egyptology. While his existence and major works are confirmed, the absolute chronology varies by 50+ years depending on the system used. Some scholars place him in the 19th century BCE, others in the 18th century. This uncertainty cascades through the entire Egyptian chronology and affects dating of contemporary events in the Levant and Mesopotamia. Additionally, the 'middle chronology' used here is increasingly challenged by radiocarbon evidence, which tends to support a 'low chronology' placing this period later (c. 1750\u20131700 BCE for the late 12th Dynasty).",
+  "historiographic_note": "The historical record for this year is heavily dependent on Egyptian sources, which are abundant but suffer from chronological uncertainty. Mesopotamian records are sparse for this period (Old Babylonian decline). The Indus Valley Civilization is known only through archaeology and undeciphered script, limiting narrative reconstruction. Sub-Saharan Africa, Europe, and the Americas are essentially absent from the written record. The surviving sources are biased toward monumental and administrative records; daily life, trade, and non-elite activities are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-1845-001",
+      "to": "-1800-EGYPT",
+      "relation": "led_to",
+      "note": "Amenemhat III's reign represents the peak of 12th Dynasty power; his successors faced declining central authority"
+    },
+    {
+      "from": "-1845-002",
+      "to": "-1900-INDUS",
+      "relation": "part_of",
+      "note": "Mature Indus Valley Civilization phase, which began c. 2600 BCE and declined c. 1900 BCE"
+    }
+  ]
+}

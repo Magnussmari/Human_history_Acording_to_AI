@@ -1,47 +1,76 @@
 {
   "year": -1816,
   "year_label": "1817 BCE",
-  "era_context": "The Late Bronze Age in its mature phase. The Hittite Empire, Egypt's New Kingdom, Mycenaean Greece, and the Shang Dynasty in China are the dominant state systems. Long-distance trade networks connect the Mediterranean, Near East, and Asia. Chariot warfare is the dominant military technology. Palace economies are centered on royal redistribution and craft production. This is approximately 200 years before the Late Bronze Age collapse.",
+  "era_context": "The Late Bronze Age is in its mature phase. The Hittite Empire under Mursili II is at the height of its territorial power. Egypt under Ramesses II is conducting major military campaigns and initiating vast building projects. Mycenaean Greece is flourishing in the Late Helladic IIIA period. The Shang Dynasty in China is in a period of relative stability. Long-distance trade networks connecting the Mediterranean, Near East, and beyond are active and prosperous.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Mesoamerica",
     "Northern Europe and the Steppe",
-    "Southeast Asia",
-    "Oceania"
+    "Southeast Asia and the Pacific",
+    "Central Asia (limited written records)"
   ],
   "events": [
     {
       "id": "-1816-001",
-      "title": "Continuation of Late Bronze Age palace economies and trade networks",
-      "region": "Eastern Mediterranean, Near East, Egypt, Anatolia",
-      "coordinates_approx": null,
-      "category": "economic",
-      "description": "During this period, the palace-centered economies of the Late Bronze Age were functioning at their height. Tin from Central Asia and Afghanistan was traded westward to supply bronze production in Anatolia, the Levant, and Egypt. Cedar from Lebanon was exported to Egypt for shipbuilding and temple construction. Mycenaean pottery was traded throughout the Mediterranean. The Hittite Empire controlled trade routes through Anatolia. No specific events are attested to this year, but the broader economic system was active and interconnected.",
-      "key_figures": [],
+      "title": "Hittite-Egyptian diplomatic relations under Mursili II and Ramesses II",
+      "region": "Hittite Empire, Egypt, Levant",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "political",
+      "description": "During this period, the Hittite Empire and Egypt maintained a complex relationship of rivalry and occasional cooperation. Both powers sought to control vassal states in the Levant and Syria. Diplomatic correspondence (attested in later archives) suggests negotiations over territorial boundaries and the status of contested regions. This period precedes the famous Battle of Kadesh (c. 1274 BCE) by several decades, but the underlying tensions and diplomatic maneuvering are evident in contemporary records.",
+      "key_figures": [
+        "Mursili II (King of Hatti)",
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
       "sources": [
         {
-          "name": "Archaeological evidence from shipwrecks (e.g., Uluburun wreck, dated to c. 1300 BCE)",
-          "type": "archaeological",
-          "contemporary": false
-        },
-        {
-          "name": "Amarna Letters (diplomatic and trade correspondence)",
+          "name": "Hittite diplomatic correspondence and annals",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Late Bronze Age trade networks",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Egyptian administrative records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The existence of these trade networks is well-attested archaeologically and through diplomatic correspondence. However, no specific events are documented for 1817 BCE; this entry describes the broader context rather than a discrete event.",
+      "certainty_note": "The general pattern of Hittite-Egyptian rivalry is well-attested; specific diplomatic events for this year are inferred from broader chronological frameworks.",
+      "cross_references": []
+    },
+    {
+      "id": "-1816-002",
+      "title": "Shang Dynasty in China maintains control over the Yellow River valley",
+      "region": "China, Shang Dynasty",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "political",
+      "description": "The Shang Dynasty, which ruled much of northern China, was in a period of relative stability and cultural flourishing during this era. Archaeological evidence from sites like Anyang shows a sophisticated palace-centered society with advanced bronze-working technology, oracle bone divination practices, and a hierarchical social structure. The Shang maintained control over trade routes and vassal territories through a combination of military force and ritual authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Anyang",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Shang Dynasty's existence and general chronology are well-established through oracle bones and archaeology. However, the absolute dating of specific years within the Shang period remains uncertain; scholars debate whether the Shang Dynasty began c. 1600 or c. 1200 BCE.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, it should be noted that the assignment of this year to any specific historical events is essentially arbitrary; no contemporary sources date events to 1817 BCE specifically. The broader context of Late Bronze Age trade and palace economies is well-established, but the year itself is historically undifferentiated.",
-  "historiographic_note": "The historical record for 1817 BCE is essentially non-existent in terms of year-specific documentation. All knowledge of this year is inferential, based on regnal chronologies, archaeological stratigraphy, and the assumption that the broader patterns of the Late Bronze Age (trade, palace economies, diplomatic relations) continued unchanged. The chronology is uncertain by \u00b110\u201315 years or more. No written sources from any civilization explicitly document events from this year.",
-  "graph_edges": []
+  "disconfirming_evidence": "The absolute chronology of the Shang Dynasty is contested. Some scholars argue for a 'short chronology' that would place the Shang Dynasty several centuries later than traditionally dated. This would shift the events described here significantly. Additionally, the extent of Shang territorial control and the nature of their political system (whether centralized or more loosely confederated) remain subjects of scholarly debate.",
+  "historiographic_note": "Documentation for 1817 BCE is heavily skewed toward the Near East and Egypt. The Hittite and Egyptian records are elite-focused, recording military campaigns and diplomatic relations but providing little insight into economic conditions, agricultural production, or the lives of non-elite populations. Chinese sources (oracle bones) are similarly elite-focused, recording divination practices and royal activities. The absolute chronology of this period depends on synchronisms between different regional chronologies (Egyptian king lists, Hittite records, Chinese traditional dating), and these synchronisms carry significant uncertainty. Most of the world's population and civilizations are entirely absent from written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-1816-001",
+      "to": "-1815-001",
+      "relation": "contemporary_with",
+      "note": "Diplomatic relations between Hittites and Egypt continued across these years."
+    }
+  ]
 }

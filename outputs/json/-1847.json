@@ -1,0 +1,91 @@
+{
+  "year": -1847,
+  "year_label": "1848 BCE",
+  "era_context": "Middle Bronze Age in the Levant and Egypt; the 12th Dynasty of Egypt is in its final decades or the 13th Dynasty is beginning. In Mesopotamia, the Old Babylonian period is fragmenting. The Indus Valley Civilization is in its mature phase but may be experiencing early signs of stress (climate, trade disruption). In China, the traditional Xia Dynasty or early Shang period is proposed, though this remains highly speculative. This is a period of regional consolidation and increasing environmental and political stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-1847-001",
+      "title": "Late 12th Dynasty Egypt or early 13th Dynasty transition",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt is in a period of transition. The 12th Dynasty, which represented the height of Middle Kingdom centralization, is ending or has recently ended. The 13th Dynasty, characterized by rapid succession and declining central authority, is beginning or underway. This transition is marked by administrative fragmentation, the rise of provincial governors, and the beginning of foreign (Asiatic) settlement in the Delta. The exact dating of this transition is uncertain.",
+      "key_figures": [
+        "Late 12th Dynasty pharaohs or early 13th Dynasty rulers (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition from the 12th to 13th Dynasty is well-attested archaeologically and in king lists, but the exact dating is uncertain. Different chronologies place this transition across a 50+ year range.",
+      "cross_references": [
+        "-1845-001"
+      ]
+    },
+    {
+      "id": "-1847-002",
+      "title": "Possible climate stress and early decline of Indus Valley Civilization",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "environmental",
+      "description": "Some scholars argue that the Indus Valley Civilization began to experience environmental stress in the mid-2nd millennium BCE, possibly due to climate change (reduced monsoon rainfall), tectonic activity, or river course changes. This stress may have contributed to the gradual decline of the civilization, which was largely abandoned by c. 1900 BCE (traditional dating). However, the causes and chronology of the Indus decline remain highly debated. Some scholars argue for a more gradual transformation rather than a sudden collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic and geological evidence (ice cores, sediment cores, river studies)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of settlement abandonment and cultural change",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The environmental stress hypothesis is supported by paleoclimatic evidence, but the exact timing and causation remain debated. The decline of the Indus Valley Civilization is traditionally dated to c. 1900 BCE, but some scholars argue for a longer, more gradual process.",
+      "cross_references": [
+        "-1845-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'decline' of the Indus Valley Civilization is increasingly questioned by scholars who argue for a more complex picture of cultural transformation rather than collapse. Some sites show continuity of settlement and cultural practices into the post-Indus period. Additionally, the environmental stress hypothesis, while supported by paleoclimatic evidence, does not fully explain the abandonment of major cities. Alternative explanations include social reorganization, trade disruption, and migration. The chronology of the Indus decline is also uncertain, with some scholars placing it as late as c. 1700 BCE.",
+  "historiographic_note": "The historical record for -1847 is sparse and heavily dependent on archaeological evidence and king lists. The narrative of 'decline' in both Egypt and the Indus Valley is partly a historiographic construct. The sources are biased toward monumental and administrative records; the experiences of ordinary people and the diversity of regional responses to environmental and political stress are underrepresented. Sub-Saharan Africa, Europe, and the Americas remain absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1847-001",
+      "to": "-1800-EGYPT",
+      "relation": "part_of",
+      "note": "Transition from 12th to 13th Dynasty, marking the end of the Middle Kingdom"
+    },
+    {
+      "from": "-1847-002",
+      "to": "-1900-INDUS",
+      "relation": "led_to",
+      "note": "Environmental stress may have contributed to the decline of the Indus Valley Civilization"
+    }
+  ]
+}
