@@ -1,0 +1,92 @@
+{
+  "year": -439,
+  "year_label": "439 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles was at the height of its power and cultural achievement. The Thirty Years' Peace (445 BCE) had been in effect for six years. The Persian Empire under Artaxerxes I was stable and powerful. This period represents the final years of peace before the Peloponnesian War (431 BCE).",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Central Asia",
+    "Americas",
+    "Most of the Persian Empire beyond Greek sources"
+  ],
+  "events": [
+    {
+      "id": "-439-001",
+      "title": "Athenian siege of Samos",
+      "region": "Samos, Ionian Sea, Greece",
+      "coordinates_approx": "37.75\u00b0N, 26.98\u00b0E",
+      "category": "military",
+      "description": "Athens besieged and conquered the island of Samos, which had revolted from the Delian League. The siege lasted approximately nine months (traditionally dated to 440\u2013439 BCE, with the conquest completed in 439 BCE). Pericles personally led the Athenian forces. The conquest was brutal and reasserted Athenian control over the League. This was one of the last major military actions before the Peloponnesian War and demonstrated Athenian willingness to use force against allies.",
+      "key_figures": [
+        "Pericles (Athenian strategos and commander)",
+        "Samian rebels"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1.115\u2013117",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles, 25\u201328",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, 12.27\u201328",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Samian War is well-attested in ancient sources, but the exact dating is uncertain. Thucydides places it before the Peloponnesian War, and most scholars date it to 440\u2013439 BCE. The completion date of 439 BCE is conventional; some sources suggest 440 BCE.",
+      "cross_references": [
+        "Demonstrates Athenian imperial power in the Delian League",
+        "Occurs shortly before -431-001 (Peloponnesian War)",
+        "Shows Athenian willingness to use force against allies"
+      ]
+    },
+    {
+      "id": "-439-002",
+      "title": "Parthenon construction continues",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "cultural",
+      "description": "The Parthenon remained under construction, likely in its final phases. The building program continued despite the military campaign against Samos. Phidias' sculptural work was ongoing or nearing completion.",
+      "key_figures": [
+        "Pericles (patron)",
+        "Phidias (sculptor)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Parthenon's construction timeline is approximately 447\u2013432 BCE. 439 BCE falls within this period, but no specific events for this year are documented.",
+      "cross_references": [
+        "Continuation of earlier Parthenon construction entries"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Samian War to 440\u2013439 BCE is based primarily on Thucydides' narrative, which was written decades later. Some modern scholars have questioned the exact chronology. The war's significance as a demonstration of Athenian imperial power is generally accepted, but its role in causing the Peloponnesian War is debated; some historians view it as a symptom of Athenian aggression rather than a primary cause.",
+  "historiographic_note": "The historical record for 439 BCE is dominated by the Samian War, which is well-attested in ancient sources but dated with some uncertainty. The record is heavily weighted toward Athens and Greek sources; Persian and other perspectives are absent. Archaeological evidence (inscriptions, coins, architectural remains) provides some corroboration but is limited. The year represents a significant military event in Athenian history, but the broader context of the Persian Empire and other regions remains largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-439-001",
+      "to": "-431-001",
+      "relation": "led_to",
+      "note": "Samian War demonstrated Athenian imperial aggression and contributed to Spartan fears that led to the Peloponnesian War"
+    },
+    {
+      "from": "-439-001",
+      "to": "-435-001",
+      "relation": "contemporary_with",
+      "note": "Samian War occurred during the same period as rising tensions over Corcyra and Potidaea"
+    }
+  ]
+}

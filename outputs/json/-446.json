@@ -1,0 +1,131 @@
+{
+  "year": -446,
+  "year_label": "446 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles is consolidating power following the First Peloponnesian War. The Athenian Empire is expanding through the Delian League. Sparta and its allies remain the dominant land power in Greece. The Persian Empire under Artaxerxes I controls the eastern Mediterranean and Near East.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese sources may exist but underrepresented)"
+  ],
+  "events": [
+    {
+      "id": "-446-001",
+      "title": "First Peloponnesian War concludes with peace negotiations",
+      "region": "Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "military",
+      "description": "The First Peloponnesian War, which began around 460 BCE, is winding down through negotiations. Sparta, having suffered setbacks and facing internal challenges, seeks peace. Athens, under Pericles, is willing to negotiate from a position of strength. The peace will be formally ratified in 445 BCE, but the diplomatic process is underway in 446 BCE. This conflict has demonstrated the limitations of both Athenian naval power and Spartan land dominance.",
+      "key_figures": [
+        "Pericles (Athenian leader)",
+        "Pleistoanax (Spartan king)",
+        "Ephialtes (Athenian reformer, recently assassinated)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The end date of the First Peloponnesian War is traditionally placed at 445 BCE with the Thirty Years' Peace, but negotiations likely occurred in 446 BCE. Thucydides provides the main account.",
+      "cross_references": [
+        "Leads to -445-001 (Thirty Years' Peace ratified)"
+      ]
+    },
+    {
+      "id": "-446-002",
+      "title": "Parthenon construction progresses; sculptural program underway",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.9711, 23.7267",
+      "category": "cultural",
+      "description": "The Parthenon, begun around 447 BCE, continues construction. The building's main structure is being erected, and the sculptural program under Phidias is in progress. This represents one of the most ambitious architectural projects of the Classical world, employing thousands of workers and consuming significant resources from the Athenian treasury.",
+      "key_figures": [
+        "Phidias (sculptor)",
+        "Iktinos and Kallikrates (architects)",
+        "Pericles (political sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological stratigraphy and building techniques confirm construction timeline. The Parthenon was completed around 432 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-446-003",
+      "title": "Athenian democracy continues development under Pericles",
+      "region": "Athens",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Pericles' democratic reforms and policies continue to shape Athenian governance. The Assembly (Ekklesia) is the primary decision-making body, with all male citizens eligible to participate. Pericles introduces payment for jury service and other offices, enabling poorer citizens to participate in government. This period sees the flourishing of democratic institutions, though slavery and the exclusion of women and non-citizens remain fundamental to the system.",
+      "key_figures": [
+        "Pericles (strategos and leading politician)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Athenian democracy is well-attested; specific reforms in 446 BCE are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-446-004",
+      "title": "Sophocles active in Athenian theater; cultural flourishing",
+      "region": "Athens",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Sophocles, one of the great Athenian tragedians, is active in the theater. This period marks the height of Classical Greek drama, with annual competitions at the City Dionysia festival. Sophocles, Aeschylus, and Euripides are producing works that explore fundamental questions of justice, fate, and human nature. These plays are performed before thousands of Athenian citizens and serve as a form of civic education.",
+      "key_figures": [
+        "Sophocles (tragedian)",
+        "Aeschylus (tragedian)",
+        "Euripides (tragedian)"
+      ],
+      "sources": [
+        {
+          "name": "Surviving plays and ancient biographical tradition",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sophocles' life dates are approximately 496\u2013406 BCE. Specific plays produced in 446 BCE are not documented, but he was active during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of the end of the First Peloponnesian War is sometimes disputed, with some sources suggesting it ended in 447 BCE rather than 445 BCE. The extent to which Pericles' democratic reforms were genuinely popular or imposed is debated by modern scholars. Some argue that payment for office-holding was introduced later than traditionally believed.",
+  "historiographic_note": "The historical record for 446 BCE is heavily dependent on Thucydides and later sources like Plutarch. Athenian sources dominate; perspectives from Sparta, Corinth, and other poleis are filtered through Athenian accounts. Archaeological evidence provides material confirmation of building projects and settlement patterns. The record is weighted toward elite political and military history; the lives of ordinary citizens, slaves, and women are largely absent.",
+  "graph_edges": [
+    {
+      "from": "-446-001",
+      "to": "-445-001",
+      "relation": "led_to",
+      "note": "Peace negotiations led to the Thirty Years' Peace in 445 BCE"
+    },
+    {
+      "from": "-446-002",
+      "to": "-432-001",
+      "relation": "part_of",
+      "note": "Parthenon construction continued until completion around 432 BCE"
+    }
+  ]
+}

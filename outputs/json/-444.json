@@ -1,0 +1,110 @@
+{
+  "year": -444,
+  "year_label": "444 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles is consolidating power and preparing for major building projects. The Delian League is being transformed into an Athenian empire. In China, the Spring and Autumn period is in its final decades; the state of Qi is experiencing internal conflict. The Persian Empire under Artaxerxes I is stable.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most of Asia beyond China and Persia"
+  ],
+  "events": [
+    {
+      "id": "-444-001",
+      "title": "Athenian foundation of Thurii in southern Italy",
+      "region": "Thurii, southern Italy (Magna Graecia)",
+      "coordinates_approx": "39.8, 16.2",
+      "category": "exploration",
+      "description": "Athens, under Pericles, participates in the foundation of the colony of Thurii in southern Italy, replacing the earlier colony of Sybaris. The colony is established as a Panhellenic venture, attracting settlers from across Greece. Herodotus is said to have participated in the settlement. Thurii becomes an important Greek city in Magna Graecia and serves Athenian interests in the western Mediterranean.",
+      "key_figures": [
+        "Pericles (Athenian patron)",
+        "Herodotus (historian, possible settler)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The foundation of Thurii is attested in multiple ancient sources. The dating to 444 BCE is conventional but not definitively established by contemporary evidence. Some sources place it in 443 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-444-002",
+      "title": "Pericles consolidates political power in Athens",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Pericles is at the height of his political influence in Athens. He dominates the assembly and the strategia (military magistracy). His policies of imperial expansion, building projects, and democratic reforms are being implemented. This period marks the beginning of what later historians call the 'Periclean Age,' characterized by extraordinary cultural and political achievement.",
+      "key_figures": [
+        "Pericles (Athenian strategos)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book II",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pericles' political dominance in the 440s BCE is well-attested. Specific events in 444 BCE are not distinctly documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-444-003",
+      "title": "Delian League transformation into Athenian Empire",
+      "region": "Aegean Sea, Delian League",
+      "coordinates_approx": "37.0, 25.5",
+      "category": "political",
+      "description": "The Delian League, originally formed as a voluntary alliance against Persian threats, is being systematically transformed into an Athenian empire. Athens imposes tribute, establishes colonies, and suppresses attempts at independence. This process, occurring throughout the 440s BCE, generates resentment among allied states and contributes to the eventual outbreak of the Peloponnesian War.",
+      "key_figures": [
+        "Pericles (Athenian leader)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The transformation of the Delian League is well-attested as a general process. Specific events in 444 BCE are not distinctly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thurii's foundation is disputed. Some ancient sources place it in 443 BCE rather than 444 BCE. The extent of Athenian involvement in the colony's foundation is debated; it may have been more of a Panhellenic venture than an Athenian project. The characterization of Pericles' dominance as uncontested may be an oversimplification; political opposition continued, though it was less organized after the ostracism of Thucydides son of Melesias.",
+  "historiographic_note": "The historical record for 444 BCE is extremely sparse. Almost no events are specifically documented for this year. The year is known primarily through its position within the broader Periclean era. Information derives almost entirely from later literary sources (Plutarch, Thucydides, Strabo) rather than contemporary documents. Archaeological evidence provides information about Thurii's foundation but not about specific events in 444 BCE. No contemporary Athenian inscriptions or documents specifically dated to 444 BCE have been identified. Information about other regions is essentially absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-444-001",
+      "to": "-444-002",
+      "relation": "contemporary_with",
+      "note": "Thurii foundation reflects Pericles' imperial ambitions"
+    },
+    {
+      "from": "-444-003",
+      "to": "-431-001",
+      "relation": "led_to",
+      "note": "Transformation of Delian League into empire generates resentment leading to Peloponnesian War"
+    }
+  ]
+}

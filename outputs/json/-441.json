@@ -1,0 +1,75 @@
+{
+  "year": -441,
+  "year_label": "441 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles continues to consolidate imperial power. The Samian revolt is either ongoing or recently concluded (dating disputed). In China, the Spring and Autumn period is in its final decades. The Persian Empire under Artaxerxes I remains stable.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most of Asia beyond China and Persia"
+  ],
+  "events": [
+    {
+      "id": "-441-001",
+      "title": "Samian revolt against Athens (alternative dating)",
+      "region": "Samos, Aegean Sea",
+      "coordinates_approx": "37.75, 26.98",
+      "category": "military",
+      "description": "Some ancient sources date the Samian revolt to 441 BCE rather than 440 BCE. The chronology of this event is disputed among modern scholars. If the revolt occurred in 441 BCE, it would have lasted into 440 BCE. The rebellion was suppressed by Pericles and resulted in Samos losing its autonomy and naval power.",
+      "key_figures": [
+        "Pericles (Athenian strategos)",
+        "Melissus of Samos (Samian general)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Samian revolt is historically confirmed, but its precise dating is uncertain. Ancient sources vary between 441 and 440 BCE. Modern scholarship remains divided.",
+      "cross_references": [
+        "-440-001 (alternative dating of same event)"
+      ]
+    },
+    {
+      "id": "-441-002",
+      "title": "Naxos and other Aegean islands under Athenian pressure",
+      "region": "Aegean Sea, Delian League",
+      "coordinates_approx": "37.0, 25.5",
+      "category": "political",
+      "description": "During this period, Athens consolidates control over Delian League members, converting the alliance into an empire. Islands that attempt to withdraw or resist are forcibly subjugated. The transformation of the Delian League from a voluntary alliance to an Athenian imperial system is a gradual process occurring throughout the 440s BCE, with the Samian revolt as a major flashpoint.",
+      "key_figures": [
+        "Pericles (Athenian leader)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process is well-attested. Specific events in 441 BCE are not distinctly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Samian revolt is the primary source of uncertainty. Thucydides' text has variant readings in different manuscripts. Some scholars argue the revolt began in 441 BCE and concluded in 440 BCE; others place it entirely in 440 BCE or 439 BCE. Without contemporary inscriptions or other independent evidence, the precise year cannot be definitively established. The significance of events in 441 BCE is largely dependent on how one dates the Samian revolt.",
+  "historiographic_note": "The historical record for 441 BCE is extremely thin. Almost all information derives from later Greek historians, particularly Thucydides and Plutarch, writing decades or centuries after the events. No contemporary Athenian inscriptions or documents specifically dated to 441 BCE have been identified. The year is known primarily through its connection to the Samian revolt, whose dating is itself disputed. Information about other regions is essentially absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-441-001",
+      "to": "-440-001",
+      "relation": "contemporary_with",
+      "note": "Samian revolt may span both years depending on dating"
+    }
+  ]
+}

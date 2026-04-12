@@ -1,0 +1,114 @@
+{
+  "year": -443,
+  "year_label": "443 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles is consolidating power and beginning major building projects. The Parthenon construction is in its early stages. The Delian League is being transformed into an Athenian empire. In China, the Spring and Autumn period is in its final decades; the Warring States period is about to begin. The Persian Empire under Artaxerxes I is stable.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Most of Asia beyond China and Persia"
+  ],
+  "events": [
+    {
+      "id": "-443-001",
+      "title": "Ostracism of Thucydides son of Melesias",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Thucydides son of Melesias, a prominent Athenian politician and rival of Pericles, is ostracized. This removes Pericles' main political opponent from Athens for ten years. The ostracism consolidates Pericles' political dominance and allows him to pursue his ambitious building program and imperial policies without significant domestic opposition. This event marks the effective end of meaningful political competition in Athens during the Periclean era.",
+      "key_figures": [
+        "Thucydides son of Melesias (Athenian politician)",
+        "Pericles (Athenian strategos)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ostracism of Thucydides son of Melesias is attested in multiple ancient sources. The dating to 443 BCE is conventional but not definitively established by contemporary evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-443-002",
+      "title": "Parthenon construction begins",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Construction of the Parthenon, the monumental temple to Athena on the Acropolis, begins under Pericles' direction. The architects Iktinos and Kallikrates are commissioned. The sculptor Phidias is appointed to oversee the artistic program. The Parthenon will become the symbol of Athenian power and the repository of the Delian League's treasury. Construction will continue for approximately 15 years.",
+      "key_figures": [
+        "Pericles (political patron)",
+        "Phidias (sculptor and overseer)",
+        "Iktinos and Kallikrates (architects)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Parthenon's construction is archaeologically attested. The dating to 447 BCE is more commonly cited in modern scholarship, but some sources place the beginning around 443 BCE. The exact start date is debated.",
+      "cross_references": [
+        "-440-002 (Parthenon completion)"
+      ]
+    },
+    {
+      "id": "-443-003",
+      "title": "Athenian colonization efforts in the Aegean",
+      "region": "Aegean Sea, Delian League",
+      "coordinates_approx": "37.0, 25.5",
+      "category": "political",
+      "description": "Athens establishes or reinforces colonies and cleruchy settlements in Delian League territories. These settlements serve to consolidate Athenian control, provide land for Athenian citizens, and ensure loyalty from allied states. The practice is part of Athens' transformation of the Delian League into an empire.",
+      "key_figures": [
+        "Pericles (Athenian leader)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Athenian colonization is well-attested as a general practice. Specific colonies established in 443 BCE are not distinctly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Parthenon's construction is disputed. Most modern scholars place the beginning around 447 BCE, not 443 BCE. The ostracism of Thucydides son of Melesias is traditionally dated to 443 BCE, but some scholars argue for alternative dates. The precise year cannot be definitively established from surviving sources. The characterization of Thucydides' ostracism as a consolidation of Pericles' power may be an oversimplification; the political dynamics were more complex.",
+  "historiographic_note": "The historical record for 443 BCE is sparse and dependent on later literary sources. The ostracism of Thucydides son of Melesias is attested in multiple ancient accounts, but all are post-event compilations. The Parthenon's construction is archaeologically documented, but the precise start date is debated among scholars. No contemporary Athenian inscriptions or documents specifically dated to 443 BCE have been identified. Information about other regions is essentially absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-443-001",
+      "to": "-443-002",
+      "relation": "contemporary_with",
+      "note": "Ostracism of Thucydides removes political opposition to Pericles' building program"
+    },
+    {
+      "from": "-443-002",
+      "to": "-440-002",
+      "relation": "led_to",
+      "note": "Parthenon construction beginning leads to completion around 440 BCE"
+    }
+  ]
+}

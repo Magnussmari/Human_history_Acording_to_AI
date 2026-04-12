@@ -1,0 +1,90 @@
+{
+  "year": -436,
+  "year_label": "436 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE. Athens under Pericles continued to dominate the Delian League and undertake major cultural and architectural projects. The Thirty Years' Peace (445 BCE) between Athens and Sparta was still formally in effect, though tensions were mounting. The Persian Empire under Artaxerxes I remained stable and powerful. This period represents the height of Classical Greek civilization.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Central Asia beyond Persian imperial records",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-436-001",
+      "title": "Athenian expedition to Potidaea and Macedon",
+      "region": "Potidaea, Macedon, northern Greece",
+      "coordinates_approx": "40.33\u00b0N, 23.33\u00b0E (Potidaea)",
+      "category": "military",
+      "description": "Athens sent a military expedition northward, likely in response to unrest in Potidaea (a Corinthian colony that was also a member of the Delian League) and tensions with Macedon. The exact details and date of this expedition are uncertain; some sources place it in 436 BCE, others in 432 BCE. The expedition was part of Athens' efforts to consolidate control over northern allies and counter Corinthian influence. This action further strained relations between Athens and Corinth.",
+      "key_figures": [
+        "Athenian commanders (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1.56\u201366",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, 12.34",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides' chronology for events in the 430s BCE is notoriously difficult to pin down. The Potidaean crisis is dated variously to 436 or 432 BCE by different scholars. The year 436 BCE is assigned here by convention, but the actual date may be off by several years.",
+      "cross_references": [
+        "Related to -435-001 (Corcyrean tensions)",
+        "Leads to broader Athenian-Corinthian conflict",
+        "Part of sequence leading to -431-001 (Peloponnesian War)"
+      ]
+    },
+    {
+      "id": "-436-002",
+      "title": "Parthenon construction continues",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "cultural",
+      "description": "The Parthenon remained under construction or in final phases of decoration. The building program continued to consume significant Athenian resources and remained a subject of political controversy. Phidias' sculptural work on the pediments and metopes was ongoing or nearing completion.",
+      "key_figures": [
+        "Pericles (patron)",
+        "Phidias (sculptor)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Parthenon's construction timeline is approximately 447\u2013432 BCE. 436 BCE falls within this period, but the exact state of completion in this specific year is not documented.",
+      "cross_references": [
+        "Continuation of -435-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating and significance of the Potidaean expedition are highly uncertain. Thucydides places it before the formal outbreak of the Peloponnesian War, but some modern scholars argue the chronology is confused or that the expedition may have occurred in 432 BCE rather than 436 BCE. The expedition's role as a cause of war is debated; some historians view it as a symptom of rising tensions rather than a primary cause.",
+  "historiographic_note": "The historical record for 436 BCE is extremely sparse. Almost no events are specifically dated to this year in surviving sources. The Potidaean expedition is the only significant event that might be assigned to this year, but its dating is uncertain. The record is almost entirely dependent on Thucydides' retrospective narrative, which was not designed to provide year-by-year detail. Archaeological evidence is limited. This year represents a gap in the historical record rather than a well-documented period.",
+  "graph_edges": [
+    {
+      "from": "-436-001",
+      "to": "-435-001",
+      "relation": "contemporary_with",
+      "note": "Potidaean tensions were concurrent with Corcyrean crisis"
+    },
+    {
+      "from": "-436-001",
+      "to": "-431-001",
+      "relation": "part_of",
+      "note": "Part of escalating tensions leading to Peloponnesian War"
+    }
+  ]
+}
