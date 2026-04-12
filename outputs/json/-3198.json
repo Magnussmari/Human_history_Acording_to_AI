@@ -1,0 +1,86 @@
+{
+  "year": -3198,
+  "year_label": "3199 BCE",
+  "era_context": "Early Bronze Age. Egypt's First Dynasty is consolidating pharaonic authority. Mesopotamian city-states are competing for dominance; Uruk remains the largest urban centre. The Indus Valley Civilisation is developing. Writing systems are emerging in Egypt and Mesopotamia. Most of the world remains preliterate and is known only through archaeology.",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Americas",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia (limited archaeological evidence)"
+  ],
+  "events": [
+    {
+      "id": "-3198-001",
+      "title": "First Dynasty Egypt: administrative consolidation and tomb construction",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Dynasty pharaohs continue to consolidate centralised control over Egypt. Large mastaba tombs at Abydos and Saqqara are constructed, reflecting the pharaoh's ability to mobilise labour and resources. Administrative records on pottery and stone show the development of a bureaucratic system for taxation, labour organisation, and religious ritual. The pharaoh is increasingly portrayed as a divine intermediary between the gods and the people.",
+      "key_figures": [
+        "Hor-Aha or successor (First Dynasty pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Abydos and Saqqara tombs",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative pottery and stone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact sequence and dating of First Dynasty pharaohs is debated. This year is assigned to the early First Dynasty by convention, but the specific pharaoh and events are uncertain.",
+      "cross_references": [
+        "-3199-001"
+      ]
+    },
+    {
+      "id": "-3198-002",
+      "title": "Mesopotamian city-state competition and early military campaigns",
+      "region": "Mesopotamia, southern Iraq",
+      "coordinates_approx": "31.96, 45.06",
+      "category": "military",
+      "description": "Mesopotamian city-states (Uruk, Lagash, Umma, Ur) are competing for control of agricultural land and trade routes. Early Dynastic I\u2013II period (c. 3200\u20132900 BCE) is marked by increasing military conflict and fortification of cities. Cuneiform records document disputes over water rights and territorial boundaries. These conflicts establish patterns of inter-city competition that will persist for centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets documenting disputes and campaigns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of fortifications and destruction layers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of city-state competition is well-attested, but specific campaigns and their dates are difficult to assign to individual years. Dating is approximate based on stratigraphic and textual evidence.",
+      "cross_references": [
+        "-3199-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent and intensity of Early Dynastic military conflict in Mesopotamia is debated. Some scholars argue that the 'conflict' narrative is overstated and that cooperation and trade were equally important. The Sumerian King List's account of early Mesopotamian history is now understood to be largely legendary and should not be used to date specific events.",
+  "historiographic_note": "Documentation remains extremely sparse. The historical record is based on archaeological evidence (tombs, fortifications, pottery) and early administrative records (cuneiform tablets, Egyptian inscriptions). These sources are biased toward elite activities and monumental construction. The vast majority of human activity\u2014agriculture, craft production, daily life\u2014is invisible in the written record and must be inferred from archaeology. Regional coverage is heavily skewed toward Egypt and Mesopotamia; other regions are known only through archaeology.",
+  "graph_edges": [
+    {
+      "from": "-3198-001",
+      "to": "-3197-001",
+      "relation": "part_of",
+      "note": "Continuation of First Dynasty Egypt"
+    },
+    {
+      "from": "-3198-002",
+      "to": "-3197-002",
+      "relation": "part_of",
+      "note": "Continuation of Mesopotamian city-state competition"
+    }
+  ]
+}

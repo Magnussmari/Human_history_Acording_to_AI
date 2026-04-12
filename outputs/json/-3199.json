@@ -1,0 +1,94 @@
+{
+  "year": -3199,
+  "year_label": "3200 BCE",
+  "era_context": "Early Bronze Age in the Eastern Mediterranean and Near East. Egypt's Early Dynastic Period (c. 3100\u20132686 BCE) is consolidating pharaonic authority in the Nile Valley. Mesopotamian city-states (Uruk, Lagash, Ur) are developing cuneiform writing and competing for regional dominance. The Indus Valley Civilisation is in its early phases. This is the threshold of recorded history in some regions; most of the world remains preliterate.",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological evidence sparse)",
+    "East Asia (Chinese Bronze Age cultures developing; limited contemporary documentation)",
+    "Americas (no written records; archaeological record incomplete)",
+    "Northern Europe (Neolithic; minimal documentation)",
+    "Oceania (limited archaeological evidence)"
+  ],
+  "events": [
+    {
+      "id": "-3199-001",
+      "title": "Early Dynastic Egypt consolidation under First Dynasty pharaohs",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Dynasty of Egypt (c. 3100\u20132890 BCE) is in its early phase, with pharaohs establishing centralised control over Upper and Lower Egypt. Administrative structures, including the earliest known bureaucratic records, are being formalised. Tomb architecture at Abydos and Memphis reflects growing royal power and resource mobilisation. This period marks the transition from predynastic to dynastic Egypt and the beginning of recorded Egyptian history.",
+      "key_figures": [
+        "Narmer/Menes (legendary/traditional founder, possibly Hor-Aha)",
+        "Hor-Aha (First Dynasty pharaoh, c. 3100\u20133070 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Palermo Stone (Fifth Dynasty compilation of earlier records)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Nineteenth Dynasty compilation)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Abydos and Saqqara tombs",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact dating of the First Dynasty and individual pharaohs remains debated. Conventional chronology places Hor-Aha c. 3100\u20133070 BCE, but some scholars propose dates 50\u2013100 years later. The Narmer Palette is often associated with unification but is not securely dated to a specific year.",
+      "cross_references": []
+    },
+    {
+      "id": "-3199-002",
+      "title": "Uruk hegemony in Mesopotamia and early cuneiform development",
+      "region": "Mesopotamia, southern Iraq",
+      "coordinates_approx": "31.96, 45.06",
+      "category": "technological",
+      "description": "Uruk, the largest city-state in Mesopotamia, is at the height of its Early Dynastic I\u2013II period (c. 3200\u20132900 BCE). Cuneiform writing, initially developed for administrative and economic record-keeping, is becoming standardised. The city's monumental architecture, including the Anu Ziggurat, reflects its political and religious dominance. Uruk's influence extends across southern Mesopotamia through trade and military campaigns.",
+      "key_figures": [
+        "Gilgamesh (legendary king, possibly historical figure from Early Dynastic II, c. 2750 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Uruk (administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Uruk excavations",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation, c. 2100 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Early Dynastic period in Mesopotamia is well-attested archaeologically, but precise dating of individual reigns and events remains uncertain. Cuneiform development is dated to c. 3200 BCE based on tablet stratigraphy, but the exact year is approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional date of Egyptian unification under Narmer (c. 3100 BCE) is increasingly questioned by scholars who argue that unification was a gradual process rather than a single event. Some evidence suggests the Narmer Palette may be commemorative rather than documentary. The Sumerian King List, often cited for Mesopotamian chronology, is now understood to be a legendary compilation with significant gaps and exaggerations; it should not be treated as a reliable historical source for specific dates in the Early Dynastic period.",
+  "historiographic_note": "This year falls at the very threshold of written history. Documentation is extremely sparse and heavily weighted toward Egypt and Mesopotamia, where writing systems were developing. The historical record is dominated by administrative records (cuneiform tablets, Egyptian administrative texts) and later compilations (King Lists, dynastic records). Archaeological evidence is crucial but subject to stratigraphic interpretation and dating uncertainty. Sub-Saharan Africa, East Asia, and the Americas have no written records for this period; their histories are reconstructed from archaeology alone. The surviving record is heavily biased toward literate, centralised states and likely omits the vast majority of human activity.",
+  "graph_edges": [
+    {
+      "from": "-3199-001",
+      "to": "-3198-001",
+      "relation": "part_of",
+      "note": "Continuation of First Dynasty Egypt consolidation"
+    },
+    {
+      "from": "-3199-002",
+      "to": "-3198-002",
+      "relation": "part_of",
+      "note": "Continuation of Uruk hegemony in Mesopotamia"
+    }
+  ]
+}
