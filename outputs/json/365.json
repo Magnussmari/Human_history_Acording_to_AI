@@ -1,0 +1,119 @@
+{
+  "year": 365,
+  "year_label": "365 CE",
+  "era_context": "The Later Roman Empire under Valentinian I (364\u2013375 CE) in the West and Valens (364\u2013378 CE) in the East. The empire is fragmenting militarily and administratively; barbarian pressure on the Rhine and Danube frontiers is intensifying. Christianity is the dominant religion following Constantine's conversion, but pagan traditionalism persists. The Council of Nicaea's Arian-Nicene disputes continue to roil ecclesiastical politics.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record only)",
+    "Central Asia and Silk Road trade dynamics (sparse Chinese and Roman sources)"
+  ],
+  "events": [
+    {
+      "id": "365-001",
+      "title": "Earthquake and tsunami in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean, Egypt, Levant, Cyprus",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "environmental",
+      "description": "A major earthquake struck the Eastern Mediterranean, likely centered near Cyprus or the Levantine coast. The event triggered a tsunami that devastated coastal cities, particularly Alexandria in Egypt. Contemporary sources report massive loss of life and destruction of harbors and fortifications. The disaster is attested in multiple sources and had significant economic and military consequences for the Eastern Roman Empire, disrupting naval capacity and grain shipments from Egypt.",
+      "key_figures": [
+        "Valens (Roman Emperor, East)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 26)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "John of Nikiu, Chronicle (later compilation but drawing on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sozomen, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus Marcellinus was a contemporary military officer and historian. The earthquake is attested in multiple independent sources from the 4th\u20135th centuries, providing strong confirmation of the event's occurrence and approximate date.",
+      "cross_references": []
+    },
+    {
+      "id": "365-002",
+      "title": "Procopius of Caesarea's usurpation attempt in Egypt",
+      "region": "Egypt, Eastern Roman Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Procopius, a distant relative of the former emperor Julian, declared himself emperor in Egypt with support from dissident troops and the Alexandrian population. He briefly controlled Egypt and parts of the Eastern frontier before being defeated and executed by forces loyal to Valens. The usurpation reflects deep discontent with Valens' religious policies (his Arian sympathies) and military failures, particularly after the Gothic crisis of 365\u2013366.",
+      "key_figures": [
+        "Procopius (usurper)",
+        "Valens (Roman Emperor, East)",
+        "Lupicinus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 26)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus provides detailed contemporary narrative. The usurpation is well-attested and its suppression is dated to 366 CE, though the initial revolt began in 365.",
+      "cross_references": [
+        "Follows from religious tensions under Valens; related to 366-001"
+      ]
+    },
+    {
+      "id": "365-003",
+      "title": "Gothic incursions across the Danube frontier",
+      "region": "Moesia, Lower Danube, Eastern Roman Empire",
+      "coordinates_approx": "44.0, 25.0",
+      "category": "military",
+      "description": "Gothic tribes, fleeing Hunnic pressure from the steppes, began large-scale raids and infiltration across the Danube into Roman Moesia. This marked the beginning of the Gothic crisis that would dominate the Eastern Empire's military agenda for the next decade. Initial Roman responses were inadequate, and the situation deteriorated into open warfare by 366\u2013367 CE.",
+      "key_figures": [
+        "Valens (Roman Emperor, East)",
+        "Fritigern (Gothic leader, emerged as prominent figure by 366)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 26\u201327)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jordanes, Getica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus provides the most detailed account. The exact dating of initial incursions is somewhat fluid in sources; 365 is the conventional date for the beginning of the crisis, though some sources place major escalation in 366.",
+      "cross_references": [
+        "Led to 378-001 (Battle of Adrianople)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating and significance of Procopius' usurpation is sometimes placed in 366 rather than 365 in different manuscript traditions of Ammianus. The earthquake's exact epicenter and date (some sources suggest late 365 or early 366) remain debated by modern seismologists and historians. The 'Gothic crisis' is sometimes portrayed as a sudden invasion, but modern scholarship emphasizes gradual migration and settlement pressures rather than a coordinated military campaign.",
+  "historiographic_note": "The historical record for 365 CE is relatively rich due to Ammianus Marcellinus' detailed contemporary narrative, supplemented by later ecclesiastical histories. However, Ammianus' perspective is that of the Eastern Roman military establishment; perspectives from Gothic, Egyptian, and other non-Roman populations are largely absent. The earthquake is well-attested but its precise impact on Alexandria and other cities is sometimes exaggerated in later sources. Dating precision is generally \u00b11 year for major events.",
+  "graph_edges": [
+    {
+      "from": "365-001",
+      "to": "365-002",
+      "relation": "contemporary_with",
+      "note": "The earthquake and Procopius' usurpation occurred in the same year, both reflecting instability in the Eastern Empire"
+    },
+    {
+      "from": "365-003",
+      "to": "378-001",
+      "relation": "led_to",
+      "note": "Gothic incursions beginning in 365 escalated into the catastrophic Battle of Adrianople in 378"
+    }
+  ]
+}

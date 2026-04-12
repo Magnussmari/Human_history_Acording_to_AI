@@ -1,0 +1,124 @@
+{
+  "year": 375,
+  "year_label": "375 CE",
+  "era_context": "The late Roman Empire in its final century of unified rule. The Eastern Roman (Byzantine) Empire was consolidating power under the Valentinian dynasty. The Western Empire faced increasing pressure from Germanic migrations and internal instability. In East Asia, the Northern Wei dynasty was expanding control over northern China. This period marks the transition from classical antiquity to the early medieval world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman frontier (sparse archaeological evidence for this specific year)",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "375-001",
+      "title": "Death of Valentinian I and division of the Western Roman Empire",
+      "region": "Roman Empire (Western)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Valentinian I died on 17 November 375 CE, likely at Brigetio (modern Sz\u0151ny, Hungary) while campaigning against Germanic tribes. His death precipitated the formal division of the Western Empire between his young sons: Gratian (age 16) received Gaul, Britain, and Spain, while Valentinian II (age 4) received Italy, Africa, and Illyricum under the regency of their mother Justina. This fragmentation weakened central authority and accelerated the empire's vulnerability to external pressures. The division marked a critical turning point in the Western Empire's trajectory toward collapse.",
+      "key_figures": [
+        "Valentinian I (deceased emperor)",
+        "Gratian (son, new emperor of the West)",
+        "Valentinian II (infant son, new emperor of Italy and Africa)",
+        "Justina (mother and regent)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (History)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Orosius, Seven Books of History Against the Pagans",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus Marcellinus was a contemporary historian and military officer. The date and circumstances are well-attested in multiple sources.",
+      "cross_references": [
+        "Follows from 364-001 (Valentinian I's accession)",
+        "Led to 378-001 (Battle of Adrianople and Gratian's response)"
+      ]
+    },
+    {
+      "id": "375-002",
+      "title": "Hunnic pressure on the Goths and beginning of the Gothic migration crisis",
+      "region": "Danube frontier, Eastern Europe",
+      "coordinates_approx": "45.0, 25.0",
+      "category": "military",
+      "description": "The Huns, under pressure from migrations in Central Asia, began aggressive expansion westward, displacing Gothic tribes north of the Danube. The Visigoths, led by Fritigern, faced mounting pressure from Hunnic forces and sought refuge within Roman territory. This crisis set in motion the events that would culminate in the Gothic War and the Battle of Adrianople in 378 CE. The Hunnic migrations represent one of the most consequential demographic shifts of late antiquity, ultimately reshaping the political map of Europe.",
+      "key_figures": [
+        "Fritigern (Visigothic leader)",
+        "Hunnic tribes (unnamed leaders)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jordanes, Getica (History of the Goths)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus provides contemporary evidence of Gothic distress and Hunnic pressure. The exact chronology of Hunnic movements is debated; some scholars place the initial crisis slightly earlier or later, but 375 is the traditional date for the onset of the Gothic crisis.",
+      "cross_references": [
+        "Led to 376-001 (Gothic request for asylum)",
+        "Led to 378-001 (Battle of Adrianople)"
+      ]
+    },
+    {
+      "id": "375-003",
+      "title": "Continued expansion of the Northern Wei dynasty in northern China",
+      "region": "Northern China",
+      "coordinates_approx": "40.0, 115.0",
+      "category": "political",
+      "description": "The Northern Wei (Tuoba Wei), a Xiongnu-descended dynasty, continued its consolidation of power over northern China during the reign of Emperor Xuanwu (r. 409\u2013423 CE, but the dynasty was well-established by 375). By 375, the Northern Wei controlled much of the Yellow River basin and was in the process of absorbing rival northern states. This period saw the development of a hybrid Sino-Xiongnu administrative system and the gradual sinification of the Tuoba elite.",
+      "key_figures": [
+        "Northern Wei rulers (specific ruler in 375 unclear from available sources)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and later dynastic histories",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from northern China",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Northern Wei's expansion is well-documented in Chinese historiography, but specific events for 375 CE are not clearly delineated in available sources. The year is assigned based on the broader trajectory of Northern Wei consolidation during this period.",
+      "cross_references": [
+        "Part of broader Northern Wei expansion (c. 386\u2013534 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Valentinian I's death in 375 is sometimes overstated as an immediate cause of the Western Empire's fall; modern scholarship emphasizes that the empire's structural problems were far deeper and more long-term. The division of the empire between Gratian and Valentinian II was not unprecedented and did not immediately destabilize the West\u2014Gratian was a capable ruler. The Gothic crisis of 376\u2013378 is sometimes presented as a direct consequence of Valentinian's death, but the Hunnic pressure on the Goths was an independent phenomenon driven by Central Asian migrations, not Roman internal politics.",
+  "historiographic_note": "The record for 375 CE is relatively rich for the Roman Empire, drawing primarily on Ammianus Marcellinus, a contemporary military officer and historian. However, sources are heavily weighted toward the Roman perspective and the Mediterranean world. Information on northern China comes from later Chinese historiography, which is generally reliable but lacks contemporary documentation for this specific year. Sub-Saharan Africa, the Indian subcontinent, and the Americas are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "375-001",
+      "to": "378-001",
+      "relation": "led_to",
+      "note": "Valentinian I's death and the division of the Western Empire weakened central authority, contributing to the conditions that led to the Gothic War and Battle of Adrianople."
+    },
+    {
+      "from": "375-002",
+      "to": "376-001",
+      "relation": "led_to",
+      "note": "Hunnic pressure on the Goths directly prompted the Gothic request for asylum within Roman territory in 376."
+    }
+  ]
+}

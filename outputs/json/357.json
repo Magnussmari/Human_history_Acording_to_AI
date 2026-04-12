@@ -1,0 +1,124 @@
+{
+  "year": 357,
+  "year_label": "357 CE",
+  "era_context": "The Roman Empire under Constantius II, with Julian serving as Caesar in Gaul. This year falls within a period of relative stability on the Rhine frontier following Julian's appointment as Caesar in 355 CE, though Sasanian pressure on the eastern frontier was increasing. The empire's military and administrative resources were being stretched across multiple fronts.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia and East Asia",
+    "Indian subcontinent",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "357-001",
+      "title": "Battle of Strasbourg (alternative dating)",
+      "region": "Gaul, Roman Empire",
+      "coordinates_approx": "48.58, 7.75",
+      "category": "military",
+      "description": "Some sources date Julian's decisive victory over the Alamanni to 357 CE rather than 358 CE. The battle was fought near Strasbourg (Argentoratum) and resulted in a major Roman victory. Julian's forces, though outnumbered, defeated the Alamanni through superior tactics and discipline. The victory enhanced Julian's military reputation and popularity with his troops. The chronological uncertainty reflects ambiguities in Ammianus Marcellinus's narrative, which is the primary source for this event.",
+      "key_figures": [
+        "Julian (Caesar of Gaul)",
+        "Alamanni tribal leaders (names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae, Book 16",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Julian's own letters and orations",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Battle of Strasbourg is dated to either 357 or 358 CE depending on the source and scholarly interpretation. Ammianus Marcellinus's account is detailed but contains some chronological ambiguities. Modern scholars are divided on the precise date.",
+      "cross_references": [
+        "358-001 (Alternative dating of the same battle)"
+      ]
+    },
+    {
+      "id": "357-002",
+      "title": "Constantius II visits Rome",
+      "region": "Rome, Roman Empire",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "political",
+      "description": "Constantius II made a ceremonial visit to Rome in 357 CE, the first time a reigning emperor had visited the city in many decades. The visit was primarily ceremonial and symbolic, intended to reinforce imperial authority and legitimacy. Constantius II did not reside in Rome; the imperial capital had shifted to Constantinople and other eastern cities. The visit is notable for its rarity and for the elaborate ceremonies and public works associated with it.",
+      "key_figures": [
+        "Constantius II (reigning Augustus)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae, Book 16",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Later Byzantine historians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Constantius II's visit to Rome in 357 CE is well-attested in multiple sources. Ammianus Marcellinus provides a detailed account of the visit and its ceremonial aspects. The date is secure.",
+      "cross_references": [
+        "337-001 (Constantine's reign and the shift of imperial capital)"
+      ]
+    },
+    {
+      "id": "357-003",
+      "title": "Shapur II besieges Singara",
+      "region": "Mesopotamia, Roman-Sasanian frontier",
+      "coordinates_approx": "35.5, 40.5",
+      "category": "military",
+      "description": "Shapur II of Sasanian Persia besieged the Roman fortress city of Singara in Mesopotamia in 357 CE. The siege was part of Shapur II's broader campaign to reassert Sasanian control over contested border regions. The outcome of the siege is disputed in sources; some accounts suggest the Romans held the city, while others indicate it fell to the Sasanians. The siege demonstrated the intensity of Sasanian-Roman conflict during this period.",
+      "key_figures": [
+        "Shapur II (Sasanian King of Kings)",
+        "Roman garrison commanders (names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae, Books 18\u201319",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Pahlavi inscriptions of Shapur II",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Singara is attested in sources, but the precise dating and outcome are disputed. Ammianus Marcellinus provides an account, but his narrative is complex and sometimes difficult to parse chronologically. The date may be 357 CE or slightly later.",
+      "cross_references": [
+        "358-002 (Continued Sasanian campaigns)",
+        "359-001 (Siege of Amida)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Strasbourg is disputed; some sources place it in 357 CE, others in 358 CE. This chronological uncertainty reflects ambiguities in Ammianus Marcellinus's narrative. Additionally, the significance of Constantius II's visit to Rome is sometimes overstated; while it was ceremonially important, it did not represent a shift in imperial policy or residence. The outcome of the siege of Singara is disputed in sources; some accounts suggest the Romans held the city, while others indicate it fell to the Sasanians.",
+  "historiographic_note": "The historical record for 357 CE is dominated by Ammianus Marcellinus, whose account is detailed but contains some chronological ambiguities. Church historians provide limited information about religious developments. Sasanian sources are limited to inscriptions and later compilations. The record is heavily weighted toward military and political events; economic, social, and cultural history are largely absent. Non-Mediterranean regions are virtually absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "357-001",
+      "to": "358-001",
+      "relation": "contradicts",
+      "note": "The dating of the Battle of Strasbourg is disputed between 357 and 358 CE"
+    },
+    {
+      "from": "357-002",
+      "to": "360-001",
+      "relation": "contemporary_with",
+      "note": "Constantius II's visit to Rome in 357 CE occurred during the period of his conflict with Julian"
+    },
+    {
+      "from": "357-003",
+      "to": "359-001",
+      "relation": "led_to",
+      "note": "Shapur II's siege of Singara in 357 CE was part of a broader campaign that culminated in the siege of Amida in 359 CE"
+    }
+  ]
+}

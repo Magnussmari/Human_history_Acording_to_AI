@@ -1,0 +1,118 @@
+{
+  "year": 369,
+  "year_label": "369 CE",
+  "era_context": "The Late Roman Empire under Valentinian I (West) and Valens (East), mid-reign. The empire faces sustained military pressure on multiple frontiers: Germanic tribes on the Rhine and Danube, Sasanid Persia in the east, and internal religious division over Arian versus Nicene Christianity. The Council of Nicaea's settlement (325 CE) remains contested, with Arian bishops influential in the Eastern empire.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record only)",
+    "East Asia (Chinese sources exist but may be underrepresented)"
+  ],
+  "events": [
+    {
+      "id": "369-001",
+      "title": "Alamanni incursions intensify on the Rhine frontier",
+      "region": "Rhine frontier, Roman Empire (Gaul/Germania)",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "military",
+      "description": "Germanic Alamanni tribes conduct sustained raids and incursions across the Rhine frontier into Roman Gaul. These raids prompt a military response from Valentinian I and his generals. The Alamanni, a confederation of Germanic peoples, represent one of the primary military threats to the Western Roman Empire during this period. These incursions are part of a broader pattern of Germanic pressure that will intensify in the following decades.",
+      "key_figures": [
+        "Valentinian I (Roman Emperor, r. 364\u2013375 CE)",
+        "Alamanni tribal leaders (names not preserved in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus Marcellinus documents Alamanni pressure during Valentinian's reign, though the precise chronology of individual raids is sometimes compressed or uncertain in the surviving text.",
+      "cross_references": [
+        "Leads to 370-001 (Valentinian's Rhine campaign)",
+        "Part of broader Germanic migration period (3rd\u20135th centuries CE)"
+      ]
+    },
+    {
+      "id": "369-002",
+      "title": "Valens consolidates control in the Eastern Roman Empire",
+      "region": "Eastern Roman Empire (Balkans, Anatolia, Levant)",
+      "coordinates_approx": "40.0, 25.0",
+      "category": "political",
+      "description": "Valens (r. 364\u2013378 CE), Eastern Roman Emperor, continues to consolidate his authority and manage the vast territories of the Eastern empire. By 369, Valens has established himself as a capable administrator and military commander, though he faces ongoing challenges from Sasanid Persia, Gothic pressure on the Danube, and internal religious controversy. Valens' reign is marked by his support for Arian Christianity, which creates tension with Nicene bishops and populations in the Eastern empire.",
+      "key_figures": [
+        "Valens (Eastern Roman Emperor, r. 364\u2013378 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Valens' reign dates and general activities are well attested. Specific events within 369 are less precisely documented; this entry reflects his general political status during this period.",
+      "cross_references": [
+        "Contemporary with Valentinian I's reign (364\u2013375 CE)",
+        "Leads to Battle of Adrianople (378 CE)"
+      ]
+    },
+    {
+      "id": "369-003",
+      "title": "Athanasius of Alexandria dies; succession dispute in Egyptian Christianity",
+      "region": "Egypt, Eastern Roman Empire",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "religious",
+      "description": "Athanasius, Patriarch of Alexandria (c. 296\u2013373 CE), dies in May 373 CE (not 369; see certainty note). However, by 369, Athanasius is in his final years and his influence over Egyptian and broader Eastern Christianity remains profound. Athanasius has been the leading defender of Nicene orthodoxy against Arian theology for decades. His death will create a succession dispute and a temporary weakening of Nicene influence in Egypt, though his theological legacy endures. [NOTE: This event is misdated in the prompt year; Athanasius dies in 373, not 369. Included here for context of the period.]",
+      "key_figures": [
+        "Athanasius (Patriarch of Alexandria, c. 296\u2013373 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Athanasius, Letters and theological treatises (contemporary writings)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jerome, Chronicle (compiled late 4th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Athanasius' death is dated to May 373 CE in most sources, not 369. This entry is included to reflect the broader context of Egyptian Christianity in 369, when Athanasius was still alive but aging. His death in 373 is a more significant event than anything specifically datable to 369.",
+      "cross_references": [
+        "Part of broader Nicene-Arian controversy (325\u2013381 CE)",
+        "Leads to succession disputes in Egyptian Christianity (373\u2013375 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Alamanni incursions in 369 is sometimes overstated as a major crisis; modern scholarship emphasizes that these were part of ongoing, endemic frontier pressure rather than a coordinated invasion. The sources (Ammianus Marcellinus) sometimes compress multiple years of raiding into a single narrative, making precise annual dating difficult. Additionally, the entry on Athanasius is misdated in the prompt year; his death occurred in 373, not 369, though his influence was still significant in 369.",
+  "historiographic_note": "The historical record for 369 CE is moderately rich but heavily weighted toward Roman military and political narrative. Ammianus Marcellinus provides detailed accounts from a Roman perspective, but Germanic and Sasanid perspectives are largely absent. Ecclesiastical sources (letters and theological treatises) provide religious context but limited political or military detail. Archaeological evidence for this period is sparse. The surviving record privileges military and religious history over economic or social conditions. Eastern sources (Chinese, Indian) are largely absent from Western historical training data.",
+  "graph_edges": [
+    {
+      "from": "369-001",
+      "to": "370-001",
+      "relation": "led_to",
+      "note": "Alamanni incursions in 369 prompt Valentinian I's Rhine campaign in 370"
+    },
+    {
+      "from": "369-002",
+      "to": "378-001",
+      "relation": "led_to",
+      "note": "Valens' reign and policies lead to the Battle of Adrianople (378 CE)"
+    },
+    {
+      "from": "369-003",
+      "to": "373-001",
+      "relation": "led_to",
+      "note": "Athanasius' death in 373 CE creates succession disputes in Egyptian Christianity"
+    }
+  ]
+}

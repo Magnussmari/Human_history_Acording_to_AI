@@ -1,0 +1,119 @@
+{
+  "year": 364,
+  "year_label": "364 CE",
+  "era_context": "The year of the death of Emperor Julian and the succession of Jovian (363\u2013364 CE), followed by the election and accession of Valentinian I (364\u2013375 CE) in the West and his brother Valens (364\u2013378 CE) in the East. The empire is stabilizing after Julian's failed Persian campaign but faces renewed pressure on multiple frontiers. Christianity is reasserting dominance after Julian's pagan revival.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and Scandinavia",
+    "Central Asia beyond Silk Road trade nodes"
+  ],
+  "events": [
+    {
+      "id": "364-001",
+      "title": "Death of Emperor Jovian and accession of Valentinian I",
+      "region": "Roman Empire, Bithynia (death location)",
+      "coordinates_approx": "40.5, 29.0",
+      "category": "political",
+      "description": "Emperor Jovian died in Bithynia (modern Turkey), likely from carbon monoxide poisoning from a brazier in his tent, though some sources suggest apoplexy or other causes. His reign lasted only 8 months (June 363 \u2013 February 364 CE). The Roman army and Senate elected Valentinian I, a military officer of Pannonian origin, as his successor. Valentinian immediately divided the empire, appointing his brother Valens as co-emperor in the East. This division formalized the administrative split that had been developing and would persist until the Western Empire's collapse in 476 CE.",
+      "key_figures": [
+        "Jovian (deceased emperor)",
+        "Valentinian I (new Western emperor)",
+        "Valens (new Eastern emperor)",
+        "The Roman Senate and army"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 25)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus was present at or near the court and provides detailed eyewitness narrative. The date and basic facts are well-attested across multiple sources.",
+      "cross_references": []
+    },
+    {
+      "id": "364-002",
+      "title": "Valentinian I's military reorganization and frontier campaigns",
+      "region": "Rhine frontier, Gaul, Roman Empire",
+      "coordinates_approx": "48.0, 7.0",
+      "category": "military",
+      "description": "Valentinian I, newly appointed Western emperor, immediately embarked on a series of military campaigns to stabilize the Rhine frontier against Germanic tribes (Alamanni, Franks). He reorganized the Western army, increased frontier fortifications, and personally led campaigns in Gaul and along the Rhine. These campaigns were largely successful in restoring Roman control and would define his reign as a period of military restoration after the chaos of the 350s\u2013360s.",
+      "key_figures": [
+        "Valentinian I (Western emperor)",
+        "Jovinus (Roman general)",
+        "Alamanni and Frankish tribal leaders (unnamed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 26\u201328)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus provides detailed accounts of Valentinian's campaigns. The general chronology and significance are well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "364-003",
+      "title": "Valens' consolidation of power in the Eastern Empire",
+      "region": "Eastern Roman Empire, Constantinople",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "political",
+      "description": "Valens, appointed co-emperor by his brother Valentinian I, began consolidating power in the Eastern Empire. He faced immediate challenges from religious factionalism (Arian vs. Nicene Christianity), frontier threats, and the legacy of Julian's failed Persian campaign. Valens' early reign was marked by attempts to stabilize the Eastern frontier and assert control over the ecclesiastical establishment, though his Arian sympathies would alienate the Nicene majority.",
+      "key_figures": [
+        "Valens (Eastern emperor)",
+        "Valentinian I (Western emperor, his brother)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 26\u201331)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sozomen, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple contemporary and near-contemporary sources attest to Valens' accession and early policies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact cause of Jovian's death is disputed: carbon monoxide poisoning from a brazier is the most common modern explanation, but ancient sources also mention apoplexy, suffocation, or even poisoning. Some modern scholars question whether the division of the empire between Valentinian and Valens was truly formalized in 364 or evolved more gradually. The extent of Valentinian's military success on the Rhine is sometimes overstated in later sources; archaeological evidence suggests Germanic settlement continued despite Roman campaigns.",
+  "historiographic_note": "The record for 364 CE is rich, primarily due to Ammianus Marcellinus' detailed narrative. However, the perspective is heavily weighted toward the Roman military and court; Germanic, Persian, and other non-Roman viewpoints are absent. Ecclesiastical sources (Sozomen, Eusebius) provide additional detail on religious politics but are often written decades after the events. The reliability of Ammianus is generally high for military and political events, though his personal biases (pro-Valentinian, critical of Valens) should be noted.",
+  "graph_edges": [
+    {
+      "from": "364-001",
+      "to": "364-002",
+      "relation": "led_to",
+      "note": "Valentinian's accession immediately led to his military reorganization and Rhine campaigns"
+    },
+    {
+      "from": "364-001",
+      "to": "364-003",
+      "relation": "led_to",
+      "note": "The division of the empire between Valentinian and Valens formalized the East-West split"
+    },
+    {
+      "from": "364-003",
+      "to": "365-002",
+      "relation": "led_to",
+      "note": "Valens' religious policies and military difficulties contributed to Procopius' usurpation in 365"
+    }
+  ]
+}

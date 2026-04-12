@@ -1,0 +1,112 @@
+{
+  "year": 374,
+  "year_label": "374 CE",
+  "era_context": "The late Roman Empire under Valentinian I, who was actively campaigning on the Rhine and Danube frontiers. The Eastern Roman Empire was stable under Valens. In East Asia, the Northern Wei dynasty was consolidating control over northern China. This was a period of relative military activity on the Roman frontiers but before the major crises of the late 370s.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "374-001",
+      "title": "Valentinian I's campaign against the Alamanni on the Rhine",
+      "region": "Roman Empire (Western), Rhine frontier",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "military",
+      "description": "Emperor Valentinian I conducted military operations against the Alamanni and other Germanic tribes along the Rhine frontier. These campaigns were part of Valentinian's broader strategy to strengthen and fortify the Rhine limes (frontier). The emperor was known for his aggressive frontier policy and personal involvement in military campaigns. These operations were generally successful in maintaining Roman control of the Rhine, though they required constant vigilance and resources.",
+      "key_figures": [
+        "Valentinian I (Roman emperor)",
+        "Alamanni tribal leaders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus documents Valentinian's Rhine campaigns, though specific events for 374 are not always precisely dated. The year is assigned based on the chronology of Valentinian's military activities during his reign (364\u2013375).",
+      "cross_references": [
+        "Part of Valentinian I's broader frontier policy (364\u2013375)"
+      ]
+    },
+    {
+      "id": "374-002",
+      "title": "Saint Ambrose becomes Bishop of Milan",
+      "region": "Roman Empire (Western), Italy",
+      "coordinates_approx": "45.46, 9.19",
+      "category": "religious",
+      "description": "Ambrose was elected and consecrated as Bishop of Milan in 374 CE, a position he would hold until his death in 397. Though not yet a baptized Christian at the time of his election, Ambrose rapidly became one of the most influential ecclesiastical figures of the late Roman Empire. His tenure as bishop was marked by his defense of Christian orthodoxy against Arian heresy, his influence over the imperial court (particularly Valentinian II and Theodosius I), and his development of Christian theology and liturgy. Ambrose's elevation represented the growing power of the Christian church within the Roman state.",
+      "key_figures": [
+        "Ambrose (newly elected Bishop of Milan)",
+        "Valentinian I (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Paulinus of Milan, Life of Saint Ambrose",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Augustine, Confessions",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Ambrose's own writings and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of Ambrose's election as bishop is well-attested in multiple sources, including his own letters and later biographical accounts. 374 CE is the standard date given in ecclesiastical histories.",
+      "cross_references": [
+        "Led to 390-001 (Ambrose's confrontation with Theodosius I over the massacre of Thessalonica)"
+      ]
+    },
+    {
+      "id": "374-003",
+      "title": "Continued Northern Wei consolidation in northern China",
+      "region": "Northern China",
+      "coordinates_approx": "40.0, 115.0",
+      "category": "political",
+      "description": "The Northern Wei dynasty continued its process of consolidating control over northern China and absorbing rival states. This period saw administrative reforms and the gradual sinification of the Tuoba elite. The Northern Wei was establishing itself as a major power in northern China, setting the stage for its eventual unification of the north under Emperor Xiaowen in the late 5th century.",
+      "key_figures": [
+        "Northern Wei rulers (specific ruler in 374 unclear)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese dynastic histories and historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Northern Wei's consolidation is well-documented in broad strokes, but specific events for 374 CE are not clearly delineated in available sources.",
+      "cross_references": [
+        "Part of Northern Wei expansion (c. 386\u2013534 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Ambrose's election as bishop is sometimes presented as a dramatic conversion story, but modern scholarship emphasizes that his rapid rise was facilitated by his aristocratic background, administrative experience, and political connections. He was not an obscure figure suddenly elevated by divine will, but a well-connected member of the Roman elite. His influence over the imperial court, while significant, is sometimes overstated in hagiographic sources.",
+  "historiographic_note": "The record for 374 CE is moderate in richness. Ammianus Marcellinus provides contemporary documentation of military events on the Rhine frontier. Ecclesiastical sources provide good documentation of Ambrose's election. However, the year lacks major dramatic events compared to 375 or 378, and much of what we know is embedded in broader narratives of the period. Chinese sources for the Northern Wei are later compilations, not contemporary records.",
+  "graph_edges": [
+    {
+      "from": "374-001",
+      "to": "375-001",
+      "relation": "contemporary_with",
+      "note": "Valentinian I's Rhine campaigns continued until his death in 375."
+    },
+    {
+      "from": "374-002",
+      "to": "390-001",
+      "relation": "led_to",
+      "note": "Ambrose's position as Bishop of Milan gave him the authority to confront Emperor Theodosius I in 390."
+    }
+  ]
+}

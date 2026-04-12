@@ -1,0 +1,131 @@
+{
+  "year": 360,
+  "year_label": "360 CE",
+  "era_context": "The Roman Empire in the mid-4th century CE, during the reign of Constantius II (337\u2013361 CE). This period saw intensifying pressure on the empire's borders from Germanic tribes, Sasanian Persia, and internal religious conflict following Constantine's Christianization. The empire remained formally unified but increasingly strained by civil-military crises and theological disputes within the Christian church.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record thin)",
+    "Central Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "360-001",
+      "title": "Julian proclaimed Augustus by troops in Lutetia (Paris)",
+      "region": "Gaul, Roman Empire",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "political",
+      "description": "Julian, Caesar (junior emperor) of Gaul under Constantius II, was proclaimed Augustus (senior emperor) by his troops in Lutetia (modern Paris) in February 360 CE. This followed a period of military success against Germanic tribes and growing tension with Constantius II over resources and authority. Julian's elevation was initially rejected by Constantius but became the de facto start of a civil war that would last until Constantius's death in 361 CE. Julian's acclamation marked a turning point toward his eventual sole rule and his later attempt to restore pagan religion.",
+      "key_figures": [
+        "Julian (Caesar, later Augustus)",
+        "Constantius II (reigning Augustus, opposed Julian's elevation)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (History), Book 20",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova (New History), Book 3",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Julian's own letters and orations",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple contemporary and near-contemporary sources attest to Julian's proclamation in 360 CE. Ammianus Marcellinus, writing in the late 4th century, provides detailed narrative. The date is secure.",
+      "cross_references": [
+        "361-001 (Constantius II's death and Julian's sole rule)"
+      ]
+    },
+    {
+      "id": "360-002",
+      "title": "Shapur II of Sasanian Persia campaigns in Mesopotamia",
+      "region": "Mesopotamia, Sasanian Empire",
+      "coordinates_approx": "33.5, 44.0",
+      "category": "military",
+      "description": "Shapur II (r. 309\u2013379 CE), the Sasanian Persian king, conducted military campaigns in Mesopotamia and the Levant during the 360s, exploiting Roman internal divisions caused by the Julian-Constantius conflict. These campaigns aimed to reassert Sasanian control over contested border regions and weaken Roman military capacity. The campaigns were part of a broader pattern of Sasanian-Roman conflict that would intensify under Julian's reign.",
+      "key_figures": [
+        "Shapur II (Sasanian King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae, Books 20\u201323",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Pahlavi inscriptions and Sasanian administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sasanian military activity in this period is attested, though precise dating of individual campaigns within the 360s is uncertain. Ammianus provides the most detailed Roman account, but his perspective is Western-centric.",
+      "cross_references": [
+        "361-002 (Julian's eastern campaign against Shapur II)"
+      ]
+    },
+    {
+      "id": "360-003",
+      "title": "Council of Constantinople convened on Christological doctrine",
+      "region": "Constantinople, Eastern Roman Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "religious",
+      "description": "A synod or council was held in Constantinople in 360 CE to address ongoing Christological disputes, particularly regarding the nature of Christ and the Holy Spirit. This council was convened under imperial authority and reflected Constantius II's attempt to impose doctrinal uniformity. The council's decisions were controversial and contributed to the fragmentation of Christian theology that would persist for centuries. The council is sometimes called the 'Synod of Constantinople' or conflated with the later Council of Constantinople (381 CE).",
+      "key_figures": [
+        "Constantius II (convening authority)",
+        "Various bishops and theologians (names vary in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Athanasius of Alexandria, writings on the councils",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eusebius of Caesarea and later church historians",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Socrates Scholasticus, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "A council or synod in Constantinople in 360 CE is attested in multiple sources, but details are disputed. Some sources conflate it with other councils. The exact decisions and participants remain debated among scholars.",
+      "cross_references": [
+        "381-001 (First Council of Constantinople, which superseded earlier decisions)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 360 CE Constantinople council is disputed. Some modern scholars argue it was a minor synod with limited authority, while others treat it as a major ecumenical council. The conflation with the 381 CE council in some sources creates historiographic confusion. Additionally, the precise dating of Shapur II's campaigns is uncertain; some scholars place major Sasanian offensives slightly earlier or later in the 360s.",
+  "historiographic_note": "The historical record for 360 CE is dominated by Roman and Christian sources, particularly Ammianus Marcellinus and ecclesiastical historians. Sasanian perspectives are preserved mainly in inscriptions and later compilations. The record is biased toward political and religious events affecting the empire's elite; economic, demographic, and social history are largely absent. Sub-Saharan Africa, Northern Europe, and East Asia are virtually absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "360-001",
+      "to": "361-001",
+      "relation": "led_to",
+      "note": "Julian's proclamation as Augustus in 360 CE led directly to his sole rule after Constantius II's death in 361 CE"
+    },
+    {
+      "from": "360-002",
+      "to": "361-002",
+      "relation": "contemporary_with",
+      "note": "Sasanian military pressure continued and intensified under Julian's reign"
+    },
+    {
+      "from": "360-003",
+      "to": "381-001",
+      "relation": "led_to",
+      "note": "Christological disputes of 360 CE were definitively addressed at the First Council of Constantinople in 381 CE"
+    }
+  ]
+}

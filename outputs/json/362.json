@@ -1,0 +1,125 @@
+{
+  "year": 362,
+  "year_label": "362 CE",
+  "era_context": "The reign of Emperor Julian the Apostate (361\u2013363 CE), in the second year of his attempt to restore pagan religion and philosophy to the Roman Empire. Julian is consolidating power, implementing religious reforms, and preparing for his Persian campaign. The empire is experiencing religious upheaval as Christian privileges are withdrawn and pagan temples are restored.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia and Silk Road trade"
+  ],
+  "events": [
+    {
+      "id": "362-001",
+      "title": "Julian's religious reforms and suppression of Christian privileges",
+      "region": "Roman Empire, Constantinople",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "religious",
+      "description": "Emperor Julian continued his systematic reversal of Constantine's Christianization policies. He issued edicts withdrawing Christian privileges, closing Christian churches in some cases, and restoring funding to pagan temples and philosophical schools. He also attempted to reform pagan religion by creating a hierarchical pagan priesthood modeled on Christian structures. These reforms provoked significant resistance from the Christian population and clergy, who saw their privileges and influence threatened. Julian's policies were not uniformly enforced across the empire, and many Christians found ways to circumvent or resist them.",
+      "key_figures": [
+        "Julian (Roman Emperor)",
+        "Libanius (pagan philosopher and advisor)",
+        "Christian bishops and clergy (opponents)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 22\u201323)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Julian, Letters and Edicts (surviving fragments)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sozomen, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Julian's religious policies are well-attested in contemporary sources, including his own surviving letters and edicts. Ammianus provides detailed narrative of the reforms and their reception.",
+      "cross_references": []
+    },
+    {
+      "id": "362-002",
+      "title": "Julian's attempt to rebuild the Jewish Temple in Jerusalem",
+      "region": "Judea, Jerusalem",
+      "coordinates_approx": "31.78, 35.23",
+      "category": "religious",
+      "description": "Julian, in an attempt to undermine Christian claims about the permanence of Jesus' prophecy that the Temple would not be rebuilt, authorized and funded a project to reconstruct the Jewish Temple in Jerusalem. The project was led by the Jewish community and supported by Roman resources. However, the reconstruction was halted after a short time, reportedly due to earthquakes, fires, or other disasters (sources vary). The failure of the project was interpreted by Christians as divine intervention and became a powerful symbol of Christian triumphalism. The exact reasons for the project's abandonment remain debated by modern scholars.",
+      "key_figures": [
+        "Julian (Roman Emperor)",
+        "Jewish community leaders in Jerusalem",
+        "Cyril of Jerusalem (Christian bishop, opponent)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 23)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cyril of Jerusalem, Letter to Cyril (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sozomen, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus confirms that Julian authorized the Temple reconstruction. The exact date (362 or 363) and reasons for its abandonment are debated. Modern scholars question whether the project was as advanced or as dramatically halted as later Christian sources suggest.",
+      "cross_references": []
+    },
+    {
+      "id": "362-003",
+      "title": "Julian's preparations for Persian campaign",
+      "region": "Roman Empire, Antioch",
+      "coordinates_approx": "36.2, 36.2",
+      "category": "military",
+      "description": "Julian began assembling and organizing the military forces for his planned invasion of the Sassanid Persian Empire. He established his headquarters in Antioch and spent much of 362 CE recruiting, training, and provisioning troops. The campaign was intended to restore Roman prestige and territory lost to Persia in previous decades. Julian's ambitions were high, and he envisioned a decisive victory that would establish him as a great military conqueror. The preparations continued into 363 CE, when the campaign was launched.",
+      "key_figures": [
+        "Julian (Roman Emperor)",
+        "Shapur II (Sassanid King of Kings, anticipated opponent)",
+        "Roman generals and officers"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Book 23)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Libanius, Oration 18 (Against Julian's Persian Campaign)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ammianus provides detailed accounts of Julian's military preparations. The timeline and scale of the preparations are well-attested.",
+      "cross_references": [
+        "Led to 363-001 (Julian's Persian campaign and death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent and effectiveness of Julian's religious reforms are debated by modern scholars. Some argue that his policies were less comprehensive and less successful than later sources suggest, facing significant resistance and limited enforcement. The Temple reconstruction project is heavily colored by Christian sources, which emphasize its dramatic failure; modern scholars question whether the project was as advanced or as catastrophically halted as portrayed. Some sources suggest the project was abandoned due to practical difficulties (labor, materials, cost) rather than supernatural intervention. The characterization of Julian's reign as a coherent 'pagan restoration' may oversimplify the diversity of his policies and their reception.",
+  "historiographic_note": "The historical record for 362 CE is moderate in richness. Ammianus Marcellinus provides detailed narrative, but his perspective is that of a Roman military officer; the viewpoints of Christians, Jews, and other affected populations are largely absent or filtered through later sources. Christian sources (Sozomen, Cyril) provide counternarrative but were written decades later and reflect Christian triumphalism. The Temple reconstruction is particularly subject to historiographic bias: Christian sources emphasize its failure as divine judgment, while modern scholars seek more naturalistic explanations. The reliability of Ammianus for military and political events is high, but his personal views on Julian's policies (he was sympathetic to paganism) may influence his narrative.",
+  "graph_edges": [
+    {
+      "from": "362-001",
+      "to": "362-002",
+      "relation": "part_of",
+      "note": "The Temple reconstruction was part of Julian's broader religious reform program"
+    },
+    {
+      "from": "362-003",
+      "to": "363-001",
+      "relation": "led_to",
+      "note": "Julian's military preparations in 362 led to the Persian campaign and his death in 363"
+    }
+  ]
+}

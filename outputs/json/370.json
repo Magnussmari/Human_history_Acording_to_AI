@@ -1,0 +1,124 @@
+{
+  "year": 370,
+  "year_label": "370 CE",
+  "era_context": "The Late Roman Empire in its fourth century, during the reign of Valentinian I (364\u2013375 CE) in the West and Valens (364\u2013378 CE) in the East. The empire faces sustained pressure from Germanic tribes along the Rhine and Danube, Sasanid Persia in the east, and internal religious controversy over Arian Christianity. The Council of Nicaea's orthodox settlement (325 CE) remains contested; Arian bishops hold significant power in the Eastern empire and among Germanic peoples.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record only)",
+    "East Asia (Chinese sources exist but may be underrepresented in Western training data)"
+  ],
+  "events": [
+    {
+      "id": "370-001",
+      "title": "Valentinian I campaigns against the Alamanni on the Rhine",
+      "region": "Rhine frontier, Roman Empire (Gaul/Germania)",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "military",
+      "description": "Valentinian I, Western Roman Emperor, conducts a major military campaign against Alamanni incursions across the Rhine. The campaign is part of a broader strategy to stabilize the Rhine frontier after years of Germanic pressure. Valentinian's aggressive response temporarily restores Roman control and establishes a reputation for military competence, though the frontier remains contested. This campaign exemplifies the resource-intensive defensive posture required of the late Western empire.",
+      "key_figures": [
+        "Valentinian I (Roman Emperor, r. 364\u2013375 CE)",
+        "Macrianus (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (History of Rome)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, Historia Nova (compiled 5th\u20136th century, drawing on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ammianus Marcellinus was a contemporary military officer and historian; his account is detailed but written from a Roman perspective. The exact chronology of Valentinian's Rhine campaigns (370\u2013375) is sometimes compressed in sources, making precise annual dating uncertain.",
+      "cross_references": [
+        "Follows from 369-001 (Alamanni pressure)",
+        "Part of broader Rhine frontier stabilization (365\u2013375 CE)"
+      ]
+    },
+    {
+      "id": "370-002",
+      "title": "Basil of Caesarea's ecclesiastical authority expands in Cappadocia",
+      "region": "Cappadocia, Eastern Roman Empire (modern Turkey)",
+      "coordinates_approx": "38.7, 34.5",
+      "category": "religious",
+      "description": "Basil of Caesarea (c. 330\u2013379 CE), a leading Nicene Christian theologian and bishop, consolidates his ecclesiastical authority in Cappadocia. By 370, Basil has become metropolitan bishop of Caesarea and is actively combating Arian influence in the region while also organizing monastic communities. His theological writings and administrative reforms will profoundly shape Eastern Orthodox Christianity. This period marks the height of his influence before his death in 379.",
+      "key_figures": [
+        "Basil of Caesarea (Bishop of Caesarea, c. 330\u2013379 CE)",
+        "Gregory of Nazianzus (Basil's friend and fellow theologian)"
+      ],
+      "sources": [
+        {
+          "name": "Basil of Caesarea, Letters and theological treatises (contemporary writings)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gregory of Nazianzus, Oration 43 (Funeral oration for Basil, delivered 379 CE)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Basil's letters and works are contemporary primary sources. The exact chronology of his rise to metropolitan authority is somewhat fluid in sources, but by 370 his prominence is well attested.",
+      "cross_references": [
+        "Part of broader Nicene-Arian controversy (325\u2013381 CE)",
+        "Leads to Council of Constantinople (381 CE)"
+      ]
+    },
+    {
+      "id": "370-003",
+      "title": "Shapur II of Sasanid Persia consolidates control after long reign",
+      "region": "Sasanid Empire (Persia, Mesopotamia, Central Asia)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Shapur II (r. 309\u2013379 CE), one of the longest-reigning Sasanid monarchs, continues to consolidate power and manage the empire's vast territories. By 370, Shapur has already conducted multiple campaigns against Rome and internal rivals. His reign is marked by administrative centralization, religious patronage (particularly of Zoroastrianism), and military campaigns. The Sasanid empire under Shapur represents a major counterweight to Roman power in the eastern Mediterranean and Near East.",
+      "key_figures": [
+        "Shapur II (Sasanid Shah, r. 309\u2013379 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (Roman perspective on Sasanid affairs)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shahnameh (Persian epic, compiled 11th century, drawing on earlier traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shapur II's reign dates are well established (309\u2013379 CE). Specific events within 370 are less precisely documented in surviving sources; this entry reflects his general status and activities during this period.",
+      "cross_references": [
+        "Contemporary with Valentinian I's reign (364\u2013375 CE)",
+        "Leads to Roman-Sasanid conflicts in 370s"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Valentinian I's Rhine campaigns is sometimes overstated in popular histories as a decisive 'victory' over the Alamanni; modern scholarship emphasizes that these campaigns were part of an ongoing, inconclusive struggle for frontier control. The frontier remained porous and contested throughout Valentinian's reign. Additionally, the extent of Basil of Caesarea's influence in 370 specifically (versus his broader career arc) is sometimes conflated; his rise to metropolitan authority was gradual, and some sources date his full consolidation of power to the mid-370s.",
+  "historiographic_note": "The historical record for 370 CE is moderately rich but heavily weighted toward Roman and ecclesiastical sources. Ammianus Marcellinus provides detailed military and political narrative from a Roman perspective, but Sasanid and Germanic perspectives are largely absent or filtered through Roman accounts. Eastern Christian sources (Basil's letters) provide theological and ecclesiastical detail but limited political context. Archaeological evidence for this period is sparse and regionally uneven. The surviving record privileges military and religious history over economic or social conditions.",
+  "graph_edges": [
+    {
+      "from": "370-001",
+      "to": "375-military_campaign",
+      "relation": "part_of",
+      "note": "Part of Valentinian I's sustained Rhine frontier strategy (370\u2013375 CE)"
+    },
+    {
+      "from": "370-002",
+      "to": "381-001",
+      "relation": "led_to",
+      "note": "Basil's theological influence contributed to the Nicene settlement at the Council of Constantinople (381 CE)"
+    },
+    {
+      "from": "370-003",
+      "to": "379-001",
+      "relation": "part_of",
+      "note": "Shapur II's long reign and consolidation of Sasanid power (309\u2013379 CE)"
+    }
+  ]
+}
