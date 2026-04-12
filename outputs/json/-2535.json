@@ -1,0 +1,94 @@
+{
+  "year": -2535,
+  "year_label": "2535 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV, likely under Menkaure (c. 2532\u20132503 BCE under conventional chronology). Akkadian Empire under Sargon of Akkad in Mesopotamia. This period represents the later phase of Old Kingdom pyramid construction and the consolidation of Akkadian imperial power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Indus Valley Civilisation",
+    "China",
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Eastern Mediterranean"
+  ],
+  "events": [
+    {
+      "id": "-2535-001",
+      "title": "Reign of Menkaure, Pharaoh of Egypt (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Menkaure ruled Egypt during the later Old Kingdom, succeeding Khafre. He commissioned the construction of the Pyramid of Menkaure at Giza, the smallest of the three main pyramids, and a mortuary temple. His reign represents the continuation of Old Kingdom monumental culture, though with somewhat reduced scale compared to his predecessors. Menkaure's reign marks the beginning of a gradual decline in Old Kingdom centralised power, which would culminate in the collapse of Dynasty IV and the transition to Dynasty V.",
+      "key_figures": [
+        "Menkaure (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mortuary temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Menkaure's reign is well attested in Egyptian sources and archaeology. However, absolute dating relies on king lists and radiocarbon calibration with \u00b150\u2013100 year margins. Conventional Egyptology places him c. 2532\u20132503 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-2535-002",
+      "title": "Akkadian Empire at its territorial maximum",
+      "region": "Mesopotamia, Syria, Anatolia, Levant",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "By 2535 BCE, the Akkadian Empire under Sargon of Akkad (or possibly his son Rimush or grandson Naram-Sin, depending on chronology) had reached its maximum territorial extent. Akkadian control extended from the Persian Gulf to the Mediterranean, and from Anatolia to the Sinai. This represented the first multi-ethnic empire in human history. However, the empire was beginning to face internal strains and external pressures, particularly from the Gutians in the Zagros Mountains.",
+      "key_figures": [
+        "Sargon of Akkad (or his successors)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The territorial extent of the Akkadian Empire is attested in inscriptions and administrative records. However, the exact chronology and the degree of direct control (as opposed to tributary relationships) remain debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The territorial extent and degree of centralisation of the Akkadian Empire are disputed. Some scholars argue that much of the 'empire' consisted of tributary relationships or trade networks rather than direct administrative control. The dating of Menkaure's reign and the succession of Akkadian rulers remain uncertain, with scholarly estimates varying by \u00b150\u2013100 years.",
+  "historiographic_note": "The record for 2535 BCE is sparse and mediated through later sources and archaeology. No contemporary written sources explicitly date to this year. The Egyptian record is dominated by monumental evidence; the Mesopotamian record by administrative tablets and royal inscriptions. Both are heavily biased toward elite activity. The historical record for this period does not provide year-by-year granularity; the assignment of events to this specific year is conventional and somewhat arbitrary.",
+  "graph_edges": [
+    {
+      "from": "-2535-001",
+      "to": "-2536-001",
+      "relation": "part_of",
+      "note": "Menkaure's reign in Dynasty IV Egypt."
+    },
+    {
+      "from": "-2535-002",
+      "to": "-2539-002",
+      "relation": "part_of",
+      "note": "Continuation of Akkadian Empire consolidation."
+    },
+    {
+      "from": "-2535-001",
+      "to": "-2535-002",
+      "relation": "contemporary_with",
+      "note": "Menkaure's reign in Egypt and the Akkadian Empire at maximum extent are contemporary."
+    }
+  ]
+}

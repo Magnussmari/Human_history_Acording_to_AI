@@ -1,0 +1,98 @@
+{
+  "year": -2530,
+  "year_label": "2530 BCE",
+  "era_context": "The height of Egypt's Old Kingdom, specifically the mid-to-late Fourth Dynasty (c. 2613\u20132494 BCE). This period saw the construction of the great pyramids at Giza and the consolidation of pharaonic divine kingship. Contemporaneously, the Early Dynastic III period was ending in Mesopotamia, with the rise of Akkadian influence. In the Indus Valley, the Early Harappan phase was transitioning toward the Mature Harappan civilization. China was in the Xia Dynasty period (traditional dating; archaeological evidence remains contested).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Southeast Asia and Oceania (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2530-001",
+      "title": "Reign of Khafre, Fourth Dynasty Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Khafre (Khafra) ruled as pharaoh of Egypt during the Fourth Dynasty, overseeing the construction of the second pyramid at Giza and the Great Sphinx. His reign represents the continuation of the pyramid-building tradition and the consolidation of centralized pharaonic power. Khafre's monuments and administrative records provide evidence of a highly organized state capable of mobilizing vast labor and resources. His reign is traditionally dated to c. 2558\u20132532 BCE, placing -2530 near the end of his rule.",
+      "key_figures": [
+        "Khafre (Khafra) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex and mortuary temple",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is well-attested in Egyptian king lists and archaeological evidence from Giza. However, absolute dating relies on astronomical calculations and radiocarbon dating with margins of error of \u00b150\u2013100 years. The traditional chronology places him c. 2558\u20132532 BCE; some scholars argue for dates 50\u2013100 years earlier or later.",
+      "cross_references": [
+        "Follows from -2558 (accession of Khafre)",
+        "Precedes -2500 (reign of Menkaure)"
+      ]
+    },
+    {
+      "id": "-2530-002",
+      "title": "Continued construction of Giza pyramid complex",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.98\u00b0N, 31.13\u00b0E",
+      "category": "technological",
+      "description": "During Khafre's reign, the Giza plateau was the site of intensive monumental construction. The Great Sphinx and Khafre's pyramid (the second pyramid at Giza) were either completed or nearing completion. This represents the apex of Old Kingdom architectural and organizational achievement, requiring the coordination of thousands of workers, sophisticated quarrying and transport techniques, and advanced knowledge of geometry and astronomy. The construction demonstrates the state's capacity to mobilize resources and labor on an unprecedented scale.",
+      "key_figures": [
+        "Khafre \u2014 Pharaoh",
+        "Hemiunu or successor architects (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza pyramid complex, including quarry marks, tool marks, and worker graffiti",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (Book II)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The physical evidence of the pyramids and sphinx is unambiguous. Dating to Khafre's reign is based on stylistic analysis, inscriptions, and king list synchronization. The exact timeline of construction phases remains debated.",
+      "cross_references": [
+        "-2530-001 (Khafre's reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology of the Fourth Dynasty has been challenged by some scholars who argue for dates 50\u2013150 years earlier based on radiocarbon analysis and astronomical calculations. Additionally, the popular narrative that the pyramids were built by enslaved labor is contradicted by archaeological evidence of worker villages and administrative records suggesting organized, compensated labor forces. The exact dating of Khafre's reign remains uncertain within a range of approximately \u00b150 years.",
+  "historiographic_note": "The historical record for this period is heavily weighted toward Egypt, where monumental inscriptions, king lists, and archaeological evidence are abundant. Mesopotamian, Indus Valley, and Chinese records for this specific year are either absent or undated. The Egyptian record is biased toward royal and monumental history; the lives of common people, economic systems, and social structures are poorly documented. Later Greek historians (Herodotus, Manetho) provide narratives that are often unreliable or legendary. Radiocarbon dating and astronomical calculations introduce margins of error that make precise year-by-year chronology impossible for this period.",
+  "graph_edges": [
+    {
+      "from": "-2530-001",
+      "to": "-2530-002",
+      "relation": "part_of",
+      "note": "Khafre's reign encompasses the construction activities at Giza"
+    },
+    {
+      "from": "-2530-001",
+      "to": "-2558-001",
+      "relation": "led_to",
+      "note": "Continuation of Fourth Dynasty pharaonic tradition established by Khufu"
+    }
+  ]
+}

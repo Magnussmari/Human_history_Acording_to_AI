@@ -1,0 +1,85 @@
+{
+  "year": -2540,
+  "year_label": "2540 BCE",
+  "era_context": "The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its mature phase, with the Fourth Dynasty (c. 2613\u20132494 BCE) at or near its zenith. The Great Pyramids of Giza have been completed or are under construction. In Mesopotamia, the Early Dynastic Period III (c. 2600\u20132334 BCE) sees competing city-states in southern Babylonia. The Indus Valley Civilisation is flourishing in its mature phase (c. 2500\u20131900 BCE). In China, the Xia Dynasty (traditional dates c. 2070\u20131600 BCE) may be emerging or is still legendary; archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Mesoamerica (Early Formative period, limited dating precision)",
+    "Southeast Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-2540-001",
+      "title": "Reign of Khafre, Fourth Dynasty Egypt (probable dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre (Chephren) is believed to have reigned during this period, though exact dates remain debated. He is credited with constructing the second pyramid at Giza and the Great Sphinx. His reign represents the continuation of monumental state power and centralised authority in the Old Kingdom. The scale of pyramid construction indicates sustained economic organisation, labour mobilisation, and religious-political ideology centred on the pharaoh's divinity and afterlife.",
+      "key_figures": [
+        "Khafre (Pharaoh, Fourth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khafre's reign is traditionally dated c. 2558\u20132532 BCE by some Egyptologists, but absolute chronology for the Old Kingdom remains contested. Radiocarbon dating and astronomical calculations offer conflicting results. Assignment to -2540 is approximate within a \u00b120-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-2540-002",
+      "title": "Mature phase of Indus Valley Civilisation",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 71.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation (c. 2500\u20131900 BCE) is in its mature phase, with major urban centres such as Harappa and Mohenjo-daro at peak population and architectural sophistication. Standardised weights, measures, and seals suggest extensive trade networks. The civilisation is characterised by planned urban layouts, advanced drainage systems, and undeciphered script. No monumental temples or palaces have been identified, suggesting a different political or religious organisation than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and subsidiary sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilisation is well-attested archaeologically. Absolute dating relies on radiocarbon calibration and stratigraphic correlation; -2540 falls securely within the mature phase (c. 2500\u20131900 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing Khafre's reign c. 2558\u20132532 BCE is increasingly questioned by scholars using radiocarbon dating and astronomical calculations. Some propose a 'low chronology' that would place this period 100\u2013200 years later. The exact relationship between Khafre and the Great Sphinx remains debated; some scholars argue the Sphinx predates Khafre or was completed by a successor. The political structure and governance of the Indus Valley Civilisation remain poorly understood due to the undeciphered script; interpretations of 'trade networks' and 'standardisation' may project modern economic categories onto a society with different organisational logic.",
+  "historiographic_note": "Documentation for -2540 is heavily weighted toward Egypt and the Indus Valley, where archaeological evidence is substantial. Egyptian chronology, however, is notoriously problematic for the Old Kingdom; scholars disagree by decades or centuries on absolute dates. Mesopotamian records for this period are fragmentary. Chinese, Mesoamerican, and sub-Saharan African histories are virtually absent from contemporary records. The surviving sources are biased toward monumental, state-level societies; smaller polities, pastoral societies, and non-literate cultures are invisible. Egyptian sources are predominantly royal and religious in character, reflecting elite ideology rather than broader social reality.",
+  "graph_edges": [
+    {
+      "from": "-2540-001",
+      "to": "-2530-KHAFRE_SUCCESSION",
+      "relation": "led_to",
+      "note": "Khafre's reign continues into the subsequent decade; his successor (likely Menkaure) follows."
+    },
+    {
+      "from": "-2540-002",
+      "to": "-2500-INDUS_MATURE",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilisation's mature phase spans c. 2500\u20131900 BCE; -2540 is within this continuum."
+    }
+  ]
+}
