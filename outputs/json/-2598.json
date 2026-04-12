@@ -1,0 +1,75 @@
+{
+  "year": -2598,
+  "year_label": "2598 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin continues to dominate Mesopotamia. Old Kingdom Egypt is in its final phase. The Harappan civilization remains in its mature urban phase. Early Minoan culture is developing in Crete.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Americas",
+    "Northern Europe",
+    "Central Asia (limited archaeological precision)"
+  ],
+  "events": [
+    {
+      "id": "-2598-001",
+      "title": "Naram-Sin's reign continues; possible military campaigns",
+      "region": "Mesopotamia and Levant",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "During Naram-Sin's reign, military campaigns are documented in inscriptions targeting the Zagros Mountains, Anatolia, and the Levantine coast. These campaigns are aimed at securing trade routes and tributary relationships. The exact chronology of individual campaigns is uncertain, but inscriptions suggest sustained military activity throughout his reign. Some scholars associate this period with the beginning of climatic stress (reduced precipitation in the Levant and Mesopotamia) that may have motivated resource competition.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's inscriptions and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction layers at Levantine sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Naram-Sin's military campaigns are well-attested in his inscriptions, but the precise dating of individual campaigns to specific years is not possible. The year -2598 is assigned by convention within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-2598-002",
+      "title": "Possible climate stress in the Eastern Mediterranean and Mesopotamia",
+      "region": "Eastern Mediterranean, Mesopotamia, Levant",
+      "coordinates_approx": "33.0, 40.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, tree rings, lake sediments) suggests that the late 26th century BCE experienced reduced precipitation in the Eastern Mediterranean and Mesopotamia. This period, sometimes called the '4.2 kiloyear event' or related to it, may have contributed to agricultural stress, population movements, and increased competition for resources. The impact on the Akkadian Empire and contemporary civilizations is debated, but some scholars argue that climate stress accelerated the empire's decline.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic data from ice cores (Greenland Ice Sheet Project, GISP2) and lake sediments",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on the 4.2 kiloyear event and its effects",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Paleoclimatic evidence for reduced precipitation in this period is well-established. However, the precise dating and the causal relationship between climate stress and political collapse remain debated. The year -2598 falls within the period of suspected climate stress.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The relationship between climate stress and the collapse of the Akkadian Empire is contested. Some scholars argue that climate change was a minor factor compared to internal political instability and military overextension. Additionally, the 'Gutian invasion' narrative, which is central to traditional accounts of the Akkadian collapse, is increasingly questioned by scholars who argue that the Gutians were not a unified invading force but rather a confederation of highland peoples who gradually infiltrated Mesopotamia over time.",
+  "historiographic_note": "The year -2598 has no specific documented events; the description above represents the broader context of Naram-Sin's reign and contemporary environmental conditions. The historical record is dependent on Akkadian inscriptions (which may be propagandistic) and paleoclimatic data (which provides only broad trends, not year-by-year precision). The absence of contemporary written records from most of the world limits our ability to construct a truly global history for this year.",
+  "graph_edges": [
+    {
+      "from": "-2598-002",
+      "to": "-2595-001",
+      "relation": "led_to",
+      "note": "Environmental stress in this period may have contributed to the political instability and collapse of the Akkadian Empire in the following decades."
+    }
+  ]
+}
