@@ -1,0 +1,87 @@
+{
+  "year": -2870,
+  "year_label": "2870 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its middle phase; the pyramids of Giza are already centuries old. In Mesopotamia, the Early Dynastic Period is transitioning toward the Akkadian Empire (c. 2334\u20132154 BCE). The Indus Valley Civilization is in its mature phase (c. 2500\u20131900 BCE). Writing systems are established in Egypt and Mesopotamia; cuneiform and hieroglyphics are the dominant recording media.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological dating is imprecise)"
+  ],
+  "events": [
+    {
+      "id": "-2870-001",
+      "title": "Reign of Pepi II of Egypt (traditional dating)",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Pepi II (also called Neferkare) is traditionally dated to this period, though his reign length and exact chronology remain disputed. He is credited with maintaining Old Kingdom stability and conducting military campaigns in Nubia and the Sinai. His reign is associated with the construction of pyramids and temples, though the scale of building activity may have declined compared to earlier pharaohs. The traditional Egyptian king list attributes him an extraordinarily long reign (64 years in some sources), which modern scholars treat with skepticism.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and temple inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom remains debated. Pepi II's reign is traditionally placed c. 2278\u20132184 BCE, but some scholars argue for dates c. 2310\u20132260 BCE. The uncertainty is \u00b120\u201330 years. Assignment to -2870 is conventional within broader Old Kingdom periodization.",
+      "cross_references": [
+        "Related to broader Old Kingdom decline patterns visible by -2850"
+      ]
+    },
+    {
+      "id": "-2870-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height during this period, with major urban centers such as Harappa and Mohenjo-daro fully developed. These cities are characterized by planned street grids, standardized brick sizes, sophisticated drainage systems, and evidence of long-distance trade networks extending to Mesopotamia and the Persian Gulf. The civilization's undeciphered script appears on seals and pottery. No monumental temples or palaces have been definitively identified, suggesting a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites (ongoing since 1920s)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-attested archaeologically. Absolute dating relies on radiocarbon and stratigraphic analysis; the mature phase is conventionally dated c. 2500\u20131900 BCE, placing -2870 firmly within it.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Pepi II's extraordinarily long reign (64 years in some king lists) is widely rejected by modern Egyptologists as legendary inflation. Recent scholarship suggests his actual reign was likely 30\u201340 years at most. The exact chronology of the Old Kingdom remains contested; some scholars argue for a 'low chronology' that would shift these dates by 50\u2013100 years. The Indus Valley Civilization's social structure and governance remain poorly understood; the absence of monumental palaces or temples contradicts assumptions about Bronze Age state organization derived from Egypt and Mesopotamia.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence is rich. Mesopotamian records for this specific year are sparse; the Early Dynastic Period is less well-documented than the later Akkadian Empire. Egyptian chronology is notoriously problematic for the Old Kingdom; multiple competing chronological systems exist (high, middle, low), differing by up to 150 years. The king lists (Turin, Manetho) are late compilations and contain legendary elements. Sub-Saharan Africa, Northern Europe, and East Asia are essentially absent from the historical record at this date, reflecting both genuine gaps in the archaeological record and biases in excavation and publication toward Mediterranean and Near Eastern sites.",
+  "graph_edges": [
+    {
+      "from": "-2870-001",
+      "to": "-2850-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign transitions into the First Intermediate Period, marked by fragmentation of central authority"
+    },
+    {
+      "from": "-2870-002",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Indus Valley Civilization continues until its decline around 1900 BCE"
+    }
+  ]
+}

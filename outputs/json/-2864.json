@@ -1,0 +1,94 @@
+{
+  "year": -2864,
+  "year_label": "2864 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its later phases (Dynasty 5\u20136 transition, c. 2494\u20132181 BCE). In Mesopotamia, the Early Dynastic III period is underway; city-states like Lagash, Umma, and Uruk are competing for regional dominance. The Akkadian Empire has not yet risen. In the Indus Valley, the Early Harappan phase is developing toward the mature Indus Civilization. Writing systems are established in Egypt and Mesopotamia but remain limited in geographic spread.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (Shang dynasty records do not extend this far back reliably)",
+    "The Americas",
+    "Northern Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2864-001",
+      "title": "Reign of Khafre, Egyptian pharaoh (approximate period)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Khafre (also Chephren) is traditionally dated to Dynasty 4, Old Kingdom Egypt, though exact regnal dates remain debated. He is credited with the construction or completion of the Great Pyramid of Giza's companion monument, the Pyramid of Khafre, and the Great Sphinx. His reign represents the apex of Old Kingdom monumental architecture and centralized pharaonic power. The scale of these projects reflects Egypt's administrative sophistication and resource mobilization capacity during this period.",
+      "key_figures": [
+        "Khafre (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid of Khafre and associated inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khafre's reign is traditionally placed c. 2558\u20132532 BCE (Dynasty 4), but absolute chronology for the Old Kingdom remains contested. Radiocarbon dating and Egyptological consensus place him in this general era, but \u00b120\u201330 year uncertainty is standard. The year -2864 is outside most scholarly estimates for Khafre; this entry reflects the broader era context.",
+      "cross_references": []
+    },
+    {
+      "id": "-2864-002",
+      "title": "Lagash\u2013Umma conflict (Early Dynastic III Mesopotamia)",
+      "region": "Mesopotamia, southern Iraq",
+      "coordinates_approx": "31.5\u00b0N, 46.0\u00b0E",
+      "category": "military",
+      "description": "The city-states of Lagash and Umma engaged in a prolonged territorial dispute over the Gu-edena (border region) in southern Mesopotamia during the Early Dynastic III period. Multiple military campaigns are attested in inscriptions from both polities. These conflicts are among the earliest documented wars in human history and reveal sophisticated military organization, resource allocation, and ideological justification (divine mandate). The disputes were eventually resolved through arbitration by the king of Kish.",
+      "key_figures": [
+        "Eannatum of Lagash (military leader)",
+        "Enakale of Umma (contemporary ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of the Vultures (Lagash, c. 2450 BCE)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions of Eannatum",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Early Dynastic III chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash\u2013Umma conflicts are well-attested in inscriptions, but absolute dating within Early Dynastic III (c. 2600\u20132334 BCE) is uncertain. Eannatum's reign is often placed c. 2450 BCE, making -2864 too early for the major documented conflicts. This entry reflects the broader era of Mesopotamian city-state competition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom of Egypt and Early Dynastic Mesopotamia remains contested. Some scholars argue for a 'low chronology' that would place Khafre and Eannatum significantly later than traditional dates. Radiocarbon calibration and astronomical calculations (Sothic dating) have not resolved these disputes definitively. Additionally, the 'Stele of the Vultures' is often dated to c. 2450 BCE, well after -2864, suggesting that major documented Lagash\u2013Umma conflicts may not have occurred in this specific year.",
+  "historiographic_note": "Documentation for -2864 is extremely sparse and indirect. No contemporary written records can be reliably assigned to this specific year. Our knowledge derives from king lists (compiled centuries or millennia later), archaeological stratigraphy, and inscriptions that mention events but lack precise absolute dating. Egyptian chronology relies heavily on the Turin King List and Abydos King List, both compiled during the New Kingdom (c. 1550\u20131070 BCE), introducing potential bias and error. Mesopotamian records are similarly dependent on later compilations and inscriptions that may conflate or reorder events. The year -2864 itself is a proleptic Gregorian convention; no contemporary calendar system would have recorded it as such.",
+  "graph_edges": [
+    {
+      "from": "-2864-001",
+      "to": "-2500-KHAFRE_DEATH",
+      "relation": "part_of",
+      "note": "Khafre's reign spans multiple years; -2864 is within the broader Old Kingdom period"
+    },
+    {
+      "from": "-2864-002",
+      "to": "-2450-EANNATUM_CAMPAIGNS",
+      "relation": "part_of",
+      "note": "Lagash\u2013Umma conflicts are a recurring feature of Early Dynastic III; specific campaigns are dated later"
+    }
+  ]
+}

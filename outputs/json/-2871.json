@@ -1,0 +1,104 @@
+{
+  "year": -2871,
+  "year_label": "2871 BCE",
+  "era_context": "Early Bronze Age III. Egypt's Old Kingdom continues under Pepi II (traditional dating). Mesopotamia is in the Early Dynastic III period, with competing city-states (Lagash, Umma, Ur, Uruk) vying for regional dominance. The Akkadian Empire has not yet risen. The Indus Valley Civilization remains in its mature urban phase. Writing is well-established in Egypt and Mesopotamia; the Indus script is in use but remains undeciphered.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas",
+    "Mesopotamian city-state records for this specific year are fragmentary"
+  ],
+  "events": [
+    {
+      "id": "-2871-001",
+      "title": "Pepi II's reign continues (traditional chronology)",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign, as traditionally dated, continues during this year. The Old Kingdom remains administratively centralized, though some evidence suggests gradual weakening of central authority toward the end of the dynasty. Expeditions to Nubia and the Sinai are documented in inscriptions from this period. The construction of smaller pyramids and temples continues, though on a reduced scale compared to earlier Old Kingdom pharaohs.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from temple and tomb complexes",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Same chronological uncertainty as -2870-001. The assignment to this specific year is conventional and carries \u00b120\u201330 year uncertainty.",
+      "cross_references": [
+        "-2870-001"
+      ]
+    },
+    {
+      "id": "-2871-002",
+      "title": "Lagash-Umma conflict in Mesopotamia (Early Dynastic III)",
+      "region": "Mesopotamia (modern southern Iraq)",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "military",
+      "description": "The city-states of Lagash and Umma engage in ongoing territorial disputes over the Guedena (border region). These conflicts are documented in inscriptions from Lagash, particularly from the reign of Eannatum and his successors. The conflicts involve irrigation rights and control of agricultural land. Eannatum's stele (the 'Stele of the Vultures') commemorates military victories, though the exact dating of individual campaigns remains uncertain. These conflicts represent the political fragmentation characteristic of Early Dynastic III Mesopotamia.",
+      "key_figures": [
+        "Eannatum (Ensi of Lagash, traditional dating c. 2454\u20132425 BCE or later)",
+        "Rulers of Umma (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of the Vultures (Lagash, c. 2450 BCE traditional dating)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions from Lagash temples and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash-Umma conflicts are well-attested, but their precise chronology is debated. Eannatum's reign is traditionally dated c. 2454\u20132425 BCE, but some scholars place it later (c. 2400 BCE or even c. 2350 BCE). The assignment to -2871 is speculative; the conflicts may have occurred earlier or later.",
+      "cross_references": []
+    },
+    {
+      "id": "-2871-003",
+      "title": "Indus Valley Civilization trade networks",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and possibly the Oman Peninsula. Indus seals and weights have been found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This trade is facilitated by maritime routes and possibly overland routes through the Iranian plateau. The standardized weights and measures of the Indus civilization suggest a sophisticated commercial system, though the absence of written records makes the details of trade organization unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus and Mesopotamian sites (seals, weights, pottery)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals found in Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is well-attested archaeologically. The specific intensity and organization of trade in any given year cannot be determined from available evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Eannatum and the Lagash-Umma conflicts is highly disputed. Some scholars place Eannatum in the 25th century BCE, others in the 24th century BCE. The traditional dating may be off by 50\u2013100 years or more. The assignment of these conflicts to -2871 is therefore speculative and may be significantly inaccurate. The Indus-Mesopotamian trade is sometimes overstated in popular accounts; the volume and nature of this trade remain poorly understood, and some scholars question whether direct trade occurred or whether intermediaries (such as the Dilmun culture of the Persian Gulf) played the primary role.",
+  "historiographic_note": "This year is even more poorly documented than -2870. The Egyptian record is limited to king lists and inscriptions; no contemporary narrative accounts survive. Mesopotamian records are fragmentary and difficult to date precisely. The Indus Valley Civilization leaves no written records that can be read. The chronological frameworks for all three regions are contested, and synchronizing events across regions is highly speculative. The bias toward Egypt and Mesopotamia in historical narratives reflects the survival of written records; the Indus Valley Civilization, despite its sophistication, is often marginalized because its script remains undeciphered.",
+  "graph_edges": [
+    {
+      "from": "-2871-002",
+      "to": "-2334-001",
+      "relation": "led_to",
+      "note": "The fragmentation of Mesopotamian city-states eventually leads to the rise of the Akkadian Empire under Sargon"
+    }
+  ]
+}

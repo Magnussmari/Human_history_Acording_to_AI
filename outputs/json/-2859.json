@@ -1,0 +1,79 @@
+{
+  "year": -2859,
+  "year_label": "2859 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its later phases, with the Fifth Dynasty (c. 2494\u20132345 BCE) ruling. In Mesopotamia, the Early Dynastic Period III (c. 2600\u20132334 BCE) sees competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase (c. 2500\u20131900 BCE). Writing systems are established in Egypt, Mesopotamia, and the Indus Valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "East Asia (Chinese Bronze Age chronology for this period remains debated)",
+    "Americas (no written records; archaeological evidence sparse)",
+    "Oceania (limited archaeological evidence)"
+  ],
+  "events": [
+    {
+      "id": "-2859-001",
+      "title": "Reign of Khafre, Egyptian Fifth Dynasty pharaoh (approximate period)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Khafre (also Khafra or Chephren) is traditionally dated to the Fifth Dynasty of Egypt's Old Kingdom, though some Egyptologists place him in the Fourth Dynasty. His reign is associated with the construction or completion of major monuments and the continuation of pyramid-building traditions. The exact chronology of the Fifth Dynasty remains debated among scholars, with dating uncertainties of \u00b150\u2013100 years for this period.",
+      "key_figures": [
+        "Khafre (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (New Kingdom compilation, c. 1200 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and temple remains",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Fifth Dynasty chronology is uncertain by \u00b150\u2013100 years. Khafre's placement in the dynasty and his reign length are debated. No contemporary inscriptions definitively date his reign to 2859 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-2859-002",
+      "title": "Mature phase of Indus Valley Civilization urban centers",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2500\u20131900 BCE) is in its mature phase, with major urban centers such as Harappa and Mohenjo-daro functioning as planned cities with standardized weights, measures, and undeciphered script. Trade networks extend to Mesopotamia and the Arabian Peninsula. The civilization is characterized by sophisticated urban planning, drainage systems, and craft production, though its political organization and religious practices remain poorly understood due to the undeciphered script.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-attested archaeologically. Absolute dating relies on radiocarbon and stratigraphic analysis, with broad consensus on the 2500\u20131900 BCE range.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Egyptian Fifth Dynasty is disputed. Some scholars argue for a higher chronology (placing Khafre earlier), while others support a lower chronology. The significance of Khafre's reign in 2859 BCE specifically is uncertain; he may have ruled decades earlier or later. The Indus Valley Civilization's script remains undeciphered, so claims about its political organization or religious beliefs are speculative and contested.",
+  "historiographic_note": "This period is documented through archaeological evidence and later king lists rather than contemporary written records. Egyptian chronology for the Old Kingdom relies heavily on Manetho's Aegyptiaca, a Hellenistic-era compilation of uncertain reliability. The Indus Valley Civilization's undeciphered script limits understanding of its political and social structures. Mesopotamian records for this period are more abundant but focus on city-state conflicts rather than broader regional developments. Significant gaps exist for Africa, East Asia, and the Americas.",
+  "graph_edges": [
+    {
+      "from": "-2859-001",
+      "to": "-2859-002",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign and the mature Indus Valley Civilization overlap chronologically, though separated geographically."
+    }
+  ]
+}
