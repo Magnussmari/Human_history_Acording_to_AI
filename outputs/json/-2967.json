@@ -1,0 +1,112 @@
+{
+  "year": -2967,
+  "year_label": "2968 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at or near its territorial zenith but facing increasing internal and external pressures. The Egyptian Old Kingdom is in its final decades. The Indus Valley Civilization remains prosperous and stable. This period represents the height of early urban civilization in the Old World, but also the beginning of the end for the Akkadian Empire and Egyptian Old Kingdom.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2967-001",
+      "title": "Akkadian Empire: Peak Territorial Extent and Internal Strain",
+      "region": "Mesopotamia and surrounding regions",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin's Akkadian Empire reaches its greatest territorial extent, controlling Mesopotamia, parts of the Levant, Anatolia, and the Zagros Mountains. However, administrative texts and later historical accounts suggest increasing strain on the empire's resources. Rebellions in Sumer and other regions require military suppression. The empire's military is stretched thin maintaining control over such vast territories. External pressure from the Gutians and other highland peoples is mounting. The empire's economy, while still robust, shows signs of stress.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List and later Mesopotamian chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Akkadian expansion and subsequent strain is well-attested. Precise dating of specific events within Naram-Sin's reign is uncertain; this year is assigned by convention.",
+      "cross_references": [
+        "Precedes Akkadian Empire collapse c. 2218 BCE"
+      ]
+    },
+    {
+      "id": "-2967-002",
+      "title": "Egyptian Old Kingdom: Final Phase of Dynasty VI",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Egyptian Old Kingdom under Pepi II is in its final phase. Centralized authority continues to erode as provincial governors accumulate power and resources. The state's ability to organize large-scale projects (such as pyramid construction) has declined significantly compared to earlier dynasties. Trade with foreign lands continues but at reduced levels. The Nile's flood levels remain variable, affecting agricultural output and state revenues. The transition toward the First Intermediate Period is underway.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Old Kingdom decline is well-established. Precise dating of specific events within a single year is not possible.",
+      "cross_references": [
+        "Part of Old Kingdom decline; precedes First Intermediate Period"
+      ]
+    },
+    {
+      "id": "-2967-003",
+      "title": "Indus Valley Civilization: Continued Prosperity",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues to thrive during this period. Urban centers such as Mohenjo-daro and Harappa maintain their sophisticated infrastructure and trade networks. Archaeological evidence shows continued prosperity and stability. The civilization's trade with Mesopotamia and the Persian Gulf remains active. No evidence of major disruption or decline is apparent during this phase of the mature Harappan period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian trade records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The prosperity of the mature Harappan phase is well-established through archaeology. Chronological precision to a single year is not possible.",
+      "cross_references": [
+        "Contemporary with Akkadian and Egyptian civilizations"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Naram-Sin's reign as a period of 'peak' power is contested; some scholars emphasize the empire's fragility and the rapid collapse that followed, suggesting that the appearance of power in royal inscriptions may be misleading.",
+  "historiographic_note": "The historical record for 2968 BCE is sparse and heavily dependent on later compilations and archaeological inference. Contemporary written sources are fragmentary and propagandistic. The year-to-year narrative is largely a reconstruction based on broader patterns. The surviving record is biased toward monumental and administrative activities and toward the major civilizations (Mesopotamia, Egypt, Indus Valley); other regions and societies are largely invisible in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2967-001",
+      "to": "-2218-gutian_invasion",
+      "relation": "led_to",
+      "note": "Akkadian overextension and internal strain led to collapse under external pressure"
+    },
+    {
+      "from": "-2967-002",
+      "to": "-2184-first_intermediate_period",
+      "relation": "led_to",
+      "note": "Old Kingdom decline led to First Intermediate Period"
+    }
+  ]
+}

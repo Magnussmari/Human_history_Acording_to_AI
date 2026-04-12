@@ -1,0 +1,112 @@
+{
+  "year": -2966,
+  "year_label": "2967 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin continues to dominate Mesopotamia, though internal and external pressures are mounting. The Egyptian Old Kingdom is in its final phase. The Indus Valley Civilization remains in its mature, prosperous phase. This is a period of established urban civilizations with sophisticated administrative systems, but also of underlying instability that will lead to major transformations within the next few decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2966-001",
+      "title": "Akkadian Empire: Military Campaigns and Administrative Control",
+      "region": "Mesopotamia and surrounding regions",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to maintain control over the Akkadian Empire's vast territories. Campaigns against the Lullubi and other highland peoples are documented in royal inscriptions. The empire's administrative system is highly centralized, with Akkadian officials replacing local Sumerian rulers in many cities. However, evidence from administrative texts suggests growing difficulty in collecting taxes and maintaining military garrisons in distant provinces. The empire's economy remains strong, but resources are increasingly strained.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's royal inscriptions and administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Akkadian military activity and administrative control is well-attested. Precise dating of specific campaigns within a single year is uncertain.",
+      "cross_references": [
+        "Part of Akkadian Empire consolidation and maintenance phase"
+      ]
+    },
+    {
+      "id": "-2966-002",
+      "title": "Egyptian Old Kingdom: Continued Decentralization and Resource Strain",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Egyptian Old Kingdom under Pepi II continues to experience decentralization of power and resources. Provincial governors (nomarchs) accumulate wealth and authority, building elaborate tombs and establishing local power bases. The pharaoh's control over the state apparatus weakens. Monumental construction projects decline in scale and frequency. Trade with foreign lands continues but at reduced levels. The Nile's flood levels remain variable, affecting agricultural productivity and state revenues.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative records from provincial sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Old Kingdom decline is well-established. Precise dating of specific administrative changes within a single year is not possible from available sources.",
+      "cross_references": [
+        "Part of Old Kingdom decline trajectory"
+      ]
+    },
+    {
+      "id": "-2966-003",
+      "title": "Indus Valley Civilization: Urban Development and Trade",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues its mature phase with well-developed urban centers, sophisticated infrastructure, and extensive trade networks. Archaeological evidence shows continued prosperity and stability. The civilization's standardized weights, measures, and administrative practices suggest a highly organized society. Trade with Mesopotamia, the Persian Gulf, and Central Asia remains active. No evidence of major disruption or decline is apparent during this period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphic analysis from Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian trade records mentioning Meluhha",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The prosperity and characteristics of the mature Harappan phase are well-established through archaeology. Chronological precision to a single year is not possible.",
+      "cross_references": [
+        "Contemporary with Akkadian and Egyptian civilizations"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Pepi II's reign length is highly disputed among Egyptologists, which affects the reliability of assigning specific events to this year. Some scholars argue for a much shorter reign than traditionally accepted, which would shift the chronology of Dynasty VI.",
+  "historiographic_note": "The historical record for 2967 BCE is sparse and dependent on fragmentary sources. Contemporary written sources exist for Mesopotamia and Egypt, but they are often propagandistic and do not provide year-by-year narratives. For the Indus Valley, we rely entirely on archaeology. The surviving record is biased toward monumental and administrative activities and toward the major civilizations. The year-to-year narrative is largely a reconstruction based on broader patterns rather than specific documented events.",
+  "graph_edges": [
+    {
+      "from": "-2966-001",
+      "to": "-2218-gutian_invasion",
+      "relation": "led_to",
+      "note": "Akkadian military overextension and internal strain contributed to eventual collapse"
+    },
+    {
+      "from": "-2966-002",
+      "to": "-2184-first_intermediate_period",
+      "relation": "led_to",
+      "note": "Old Kingdom decentralization led to First Intermediate Period"
+    }
+  ]
+}
