@@ -1,0 +1,128 @@
+{
+  "year": -321,
+  "year_label": "321 BCE",
+  "era_context": "The second year following Alexander's death. The Wars of the Diadochi continue. The Lamian War has ended, and Macedonian hegemony over Greece is reasserted. The Mauryan Empire continues consolidating power in India. Ptolemaic Egypt is establishing itself as a major Hellenistic power. The Seleucid Empire is beginning to take shape in Mesopotamia and the Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-321-001",
+      "title": "Mauryan Empire consolidates control over northern India; Chandragupta expands territory",
+      "region": "Northern India / Magadha",
+      "coordinates_approx": "25.5, 85.0",
+      "category": "political",
+      "description": "Chandragupta Maurya continues his rapid expansion of the Mauryan Empire across northern India. By 321 BCE, the Mauryan Empire controls much of the Gangetic plain and surrounding regions. The consolidation of power is aided by Kautilya's strategic advice and the use of espionage and diplomacy. The Mauryan Empire is becoming the dominant power in the Indian subcontinent, rivaling the Hellenistic powers in the west.",
+      "key_figures": [
+        "Chandragupta Maurya (founder of Mauryan Empire)",
+        "Kautilya / Vishnugupta (advisor and strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Arthashastra (attributed to Kautilya)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jain texts (Parisishtaparvan)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Buddhist chronicles (Pali texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of Chandragupta's expansion is uncertain. Modern scholarship places key consolidation events between 322\u2013320 BCE, with 321 BCE being a reasonable approximation for the ongoing expansion phase.",
+      "cross_references": [
+        "-323-004 (Chandragupta defeats the Nanda dynasty)",
+        "-305-001 (Seleucus I encounters Chandragupta)"
+      ]
+    },
+    {
+      "id": "-321-002",
+      "title": "First War of the Diadochi continues; Perdiccas attempts to consolidate power",
+      "region": "Macedon / Mediterranean / Near East",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "The First War of the Diadochi (322\u2013320 BCE) continues as Perdiccas attempts to maintain his authority as regent and consolidate control over the fragmented empire. The war involves multiple fronts and competing claims to power. Perdiccas' position is weakening as other Diadochi, particularly Ptolemy and Antigonus, challenge his authority. The war will ultimately result in Perdiccas' defeat and death in 320 BCE.",
+      "key_figures": [
+        "Perdiccas (regent)",
+        "Ptolemy I Soter (Egypt)",
+        "Antigonus I Monophthalmus (Phrygia)",
+        "Lysimachus (Thrace)",
+        "Seleucus I Nicator (Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (Book XVIII)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Arrian, Successors of Alexander",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First War of the Diadochi is well-attested in ancient sources. The date is secure within \u00b11 year.",
+      "cross_references": [
+        "-323-002 (Partition of Alexander's empire)",
+        "-320-001 (Perdiccas is defeated and killed)"
+      ]
+    },
+    {
+      "id": "-321-003",
+      "title": "Ptolemy I consolidates control of Egypt; establishes Ptolemaic administration",
+      "region": "Egypt / Alexandria",
+      "coordinates_approx": "31.2, 29.9",
+      "category": "political",
+      "description": "Ptolemy I Soter continues to consolidate his control over Egypt, establishing a stable Ptolemaic administration. He integrates Greek and Egyptian administrative structures and establishes Alexandria as a major center of Hellenistic culture and learning. Ptolemy's consolidation of Egypt makes it one of the most stable and prosperous of the Hellenistic kingdoms.",
+      "key_figures": [
+        "Ptolemy I Soter (founder of Ptolemaic dynasty)",
+        "Berenice I (wife of Ptolemy I)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (Book XVIII-XIX)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy's consolidation of Egypt is well-attested. The date is secure within \u00b11 year.",
+      "cross_references": [
+        "-323-005 (Ptolemy I establishes Alexandria as capital)",
+        "-305-002 (Ptolemy I declares himself king)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Chandragupta's expansion is highly uncertain; some sources place key events in 322 BCE or 320 BCE rather than 321 BCE. The exact sequence and timing of events in the First War of the Diadochi is debated by modern scholars. Some sources give slightly different dates for key military engagements.",
+  "historiographic_note": "The historical record for 321 BCE is dominated by Greek sources, particularly Hellenistic historians writing decades or centuries after the events. Indian sources on Chandragupta are even more distant from the events they describe. The sources are influenced by the perspectives of the victors and by later political narratives. Archaeological evidence for this year is sparse. The exact chronology of the Wars of the Diadochi is reconstructed through a combination of ancient sources, some of which contradict each other.",
+  "graph_edges": [
+    {
+      "from": "-321-001",
+      "to": "-305-001",
+      "relation": "led_to",
+      "note": "Chandragupta's consolidation of power leads to his later encounter with Seleucus I"
+    },
+    {
+      "from": "-321-002",
+      "to": "-320-001",
+      "relation": "led_to",
+      "note": "The First War of the Diadochi continues and ends with Perdiccas' defeat in 320 BCE"
+    }
+  ]
+}

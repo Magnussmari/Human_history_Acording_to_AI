@@ -1,0 +1,124 @@
+{
+  "year": -316,
+  "year_label": "316 BCE",
+  "era_context": "The Diadochi Wars are reaching a critical phase. Cassander dominates Macedonia and Greece. Antigonus controls much of Asia Minor and is the most powerful military force in the eastern Mediterranean. Seleucus holds Babylon but is increasingly threatened by Antigonus. Ptolemy I remains secure in Egypt and the Levant. Eumenes of Cardia, once a major player, is besieged and facing defeat. In India, Chandragupta Maurya is consolidating his empire. This is a period of military consolidation and the emergence of clear power blocs.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-316-001",
+      "title": "Eumenes of Cardia executed; Antigonus consolidates power in Asia Minor",
+      "region": "Asia Minor, Cappadocia",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "Eumenes of Cardia, besieged in the fortress of Nora by Antigonus's forces, was forced to surrender. He was executed by Antigonus, eliminating one of the most capable commanders of the Diadochi era. Eumenes's death marked a major consolidation of power by Antigonus, who now dominated Asia Minor and was the most powerful military force in the eastern Mediterranean. This event was a turning point in the Diadochi Wars, as it removed one of the few commanders capable of challenging Antigonus.",
+      "key_figures": [
+        "Eumenes of Cardia (executed)",
+        "Antigonus Monophthalmus (victor)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Eumenes",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 18",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eumenes's execution in 316 BCE is well-attested in ancient sources. Plutarch's Life of Eumenes provides a detailed account of his final days.",
+      "cross_references": [
+        "Follows from -317-002 (Antigonus's victory over Eumenes)",
+        "Leads to -312-001 (Seleucus's response to Antigonus's growing power)"
+      ]
+    },
+    {
+      "id": "-316-002",
+      "title": "Seleucus expelled from Babylon by Antigonus",
+      "region": "Mesopotamia, Babylon",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "military",
+      "description": "Antigonus, now the dominant military power in the eastern Mediterranean, moved to consolidate his control by expelling Seleucus from Babylon. Seleucus, who had held Babylon since 323 BCE, was forced to flee. He initially sought refuge with Ptolemy I in Egypt, where he would remain for several years before returning to reclaim Babylon and build his empire. This expulsion was a major setback for Seleucus but ultimately led to his alliance with Ptolemy and other rivals of Antigonus.",
+      "key_figures": [
+        "Antigonus Monophthalmus (aggressor)",
+        "Seleucus I Nicator (expelled)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 18",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Seleucus's expulsion from Babylon by Antigonus in 316 BCE is well-attested in ancient sources.",
+      "cross_references": [
+        "Follows from -319-002 (Seleucus's consolidation of Babylon)",
+        "Leads to -312-001 (Seleucus's return and victory)"
+      ]
+    },
+    {
+      "id": "-316-003",
+      "title": "Antigonus becomes dominant power in eastern Mediterranean",
+      "region": "Eastern Mediterranean, Asia Minor",
+      "coordinates_approx": "38.0, 35.0",
+      "category": "political",
+      "description": "By 316 BCE, Antigonus Monophthalmus had emerged as the dominant military and political power in the eastern Mediterranean. His victories over Eumenes and Seleucus, combined with his control of Asia Minor and much of the Levant, made him the most powerful of the Diadochi. However, his dominance would soon provoke a coalition of rivals\u2014Seleucus, Ptolemy, Cassander, and Lysimachus\u2014who would unite against him. This dominance was the peak of Antigonus's power; within a few years, the coalition would challenge and ultimately defeat him.",
+      "key_figures": [
+        "Antigonus Monophthalmus (dominant power)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 18",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Justin, Epitome of Pompeius Trogus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Antigonus's dominance by 316 BCE is well-attested in ancient sources.",
+      "cross_references": [
+        "Follows from -316-001 and -316-002 (victories over Eumenes and Seleucus)",
+        "Leads to -312-001 (coalition against Antigonus)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Seleucus's expulsion from Babylon is sometimes placed in 315 BCE rather than 316 BCE in different sources. Additionally, some scholars debate the degree to which Antigonus's dominance was as complete as the sources suggest; he faced significant challenges in consolidating control over all the territories he claimed. The narrative of Antigonus as the dominant power may be somewhat exaggerated in later sources.",
+  "historiographic_note": "The historical record for 316 BCE remains dependent on later compilations, particularly Diodorus Siculus. The sources are shaped by the interests of later historians and compilers. The narrative tends to focus on military and political events while largely ignoring economic, social, and cultural developments. The sources also tend to emphasize the actions of major military figures while downplaying the experiences of ordinary people. The separation of the Hellenistic and Indian narratives continues, with no cross-cultural sources available.",
+  "graph_edges": [
+    {
+      "from": "-316-001",
+      "to": "-317-002",
+      "relation": "caused_by",
+      "note": "Eumenes's execution resulted from his defeat and siege by Antigonus"
+    },
+    {
+      "from": "-316-002",
+      "to": "-319-002",
+      "relation": "contradicts",
+      "note": "Seleucus's expulsion reversed his consolidation of Babylon"
+    },
+    {
+      "from": "-316-003",
+      "to": "-312-001",
+      "relation": "led_to",
+      "note": "Antigonus's dominance provoked a coalition against him"
+    }
+  ]
+}
