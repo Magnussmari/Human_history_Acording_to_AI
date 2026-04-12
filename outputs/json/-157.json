@@ -1,0 +1,125 @@
+{
+  "year": -157,
+  "year_label": "157 BCE",
+  "era_context": "Mid-2nd century BCE: Emperor Jing of Han (r. 157\u2013141 BCE) ascends to the throne following the death of Emperor Wen. This marks a transition in Han governance, though the broad policies of centralisation and frontier management continue. Rome is consolidating its hegemony in the Mediterranean. The Seleucid Empire is fragmenting. In India, regional kingdoms compete for dominance. This is a pivotal year for Han succession and a period of relative stability in the broader Mediterranean world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-157-001",
+      "title": "Accession of Emperor Jing of Han",
+      "region": "Han China",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "Emperor Wen of Han dies, and his son, Liu Qi, ascends to the throne as Emperor Jing (r. 157\u2013141 BCE). This succession is significant because Jing represents a shift toward more active imperial governance compared to his father's relatively hands-off approach. Jing's reign is marked by efforts to consolidate central authority, reduce the power of regional kingdoms, and manage frontier relations with the Xiongnu. The accession is smooth and uncontested, reflecting the stability of the Han succession system at this point.",
+      "key_figures": [
+        "Emperor Jing of Han (Liu Qi, r. 157\u2013141 BCE)",
+        "Emperor Wen of Han (predecessor, d. 157 BCE)",
+        "Dou Ying (Chancellor, influential advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian, compiled c. 109\u201391 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Emperor Jing in 157 BCE is well-attested in multiple Chinese sources. The date is secure.",
+      "cross_references": [
+        "Follows from -180-001 (accession of Emperor Wen)",
+        "Precedes -141-001 (accession of Emperor Wu)"
+      ]
+    },
+    {
+      "id": "-157-002",
+      "title": "Rebellion of the Seven States: Aftermath and consolidation",
+      "region": "Han China",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "The Rebellion of the Seven States (154\u2013151 BCE) has recently been suppressed under Emperor Wen's reign. By 157 BCE, Emperor Jing inherits a Han state that has successfully crushed regional opposition and consolidated central authority. The rebellion's aftermath shapes Jing's early policies: he continues the process of reducing the power of regional kingdoms and strengthening the imperial bureaucracy. This consolidation is a major achievement of the early Han and sets the stage for the expansionist policies of Emperor Wu.",
+      "key_figures": [
+        "Emperor Jing of Han",
+        "Regional kings (now subordinate to central authority)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Rebellion of the Seven States and its suppression are well-attested. The consolidation under Jing is a direct consequence of this victory.",
+      "cross_references": [
+        "Follows from -154-001 (Rebellion of the Seven States)",
+        "Leads to -141-001 (accession of Emperor Wu, who benefits from this consolidation)"
+      ]
+    },
+    {
+      "id": "-157-003",
+      "title": "Roman hegemony in the Mediterranean: Consolidation and client-state relations",
+      "region": "Mediterranean, Greece, Macedonia, Egypt",
+      "coordinates_approx": "39.0\u00b0N, 21.5\u00b0E",
+      "category": "political",
+      "description": "Rome continues to consolidate its hegemony over the Mediterranean world following the Third Macedonian War (171\u2013168 BCE). By 157 BCE, Rome has established a system of client states and direct control over key regions. Greece and Macedonia are under Roman dominance; Egypt remains independent but increasingly drawn into Roman orbit. This year marks the continuation of Roman imperial expansion and the subordination of the Eastern Mediterranean to Roman interests.",
+      "key_figures": [
+        "Roman Senate and magistrates"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Livy, History of Rome (fragmentary for this period)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general context of Roman hegemony is confirmed; no specific event is recorded for 157 BCE.",
+      "cross_references": [
+        "Part of broader Roman expansion following -168-001 (Third Macedonian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The accession of Emperor Jing is well-attested and uncontested. The broader political context is secure.",
+  "historiographic_note": "The historical record for 157 BCE is dominated by Chinese sources, which provide detailed information about the Han succession and the consolidation of imperial authority. Mediterranean sources (Polybius, Livy) provide information about Roman hegemony, though no specific event is recorded for this year. The year 157 BCE is significant primarily as a succession point in Han history and as a marker of continued Roman expansion in the Mediterranean.",
+  "graph_edges": [
+    {
+      "from": "-157-001",
+      "to": "-154-001",
+      "relation": "caused_by",
+      "note": "Emperor Jing inherits a Han state shaped by the recent suppression of the Rebellion of the Seven States"
+    },
+    {
+      "from": "-157-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Jing's reign establishes the administrative framework that enables Emperor Wu's expansionist policies"
+    },
+    {
+      "from": "-157-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "The consolidation of central authority under Jing enables the expansionist policies of Emperor Wu"
+    }
+  ]
+}

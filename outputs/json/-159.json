@@ -1,0 +1,93 @@
+{
+  "year": -159,
+  "year_label": "159 BCE",
+  "era_context": "The mid-2nd century BCE: The Han Dynasty (206 BCE\u2013220 CE) is in its early imperial phase under Emperor Xuan (r. 74\u201349 BCE), though this year falls during the reign of Emperor Jing (r. 157\u2013141 BCE). In the Mediterranean, Rome is consolidating control over Greece and the Eastern Mediterranean following the Macedonian Wars. The Seleucid Empire is fragmenting under weak successors. In India, the Mauryan Empire has long since collapsed; regional kingdoms dominate. This is an era of relative stability in the Han core, but frontier pressures from the Xiongnu remain significant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Roman frontier knowledge",
+    "Mesoamerica (Maya Classic period well-documented archaeologically but few precise year-specific events)"
+  ],
+  "events": [
+    {
+      "id": "-159-001",
+      "title": "Han Dynasty consolidation under Emperor Jing; Rebellion of the Seven States aftermath",
+      "region": "Han China",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "Emperor Jing (r. 157\u2013141 BCE) continues consolidation of central authority following the Rebellion of the Seven States (154\u2013151 BCE). By 159 BCE, the Han court has successfully reduced the power of regional kingdoms and strengthened the imperial bureaucracy. This year marks a period of relative internal peace, though frontier relations with the Xiongnu remain tense. The centralisation of power under Jing establishes the administrative framework that will define the Han state for generations.",
+      "key_figures": [
+        "Emperor Jing of Han (r. 157\u2013141 BCE)",
+        "Dou Ying (Chancellor, d. 154 BCE, but his legacy shapes policy)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109\u201391 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political context is well-established; the specific significance of 159 BCE is inferred from the trajectory of Emperor Jing's reign and the aftermath of the Seven States Rebellion. No single event is recorded for this exact year in surviving sources.",
+      "cross_references": [
+        "Follows from -154-001 (Rebellion of the Seven States)",
+        "Precedes -141-001 (accession of Emperor Wu)"
+      ]
+    },
+    {
+      "id": "-159-002",
+      "title": "Roman military operations in the Eastern Mediterranean; Macedonian and Greek affairs",
+      "region": "Macedonia, Greece, Eastern Mediterranean",
+      "coordinates_approx": "39.0\u00b0N, 21.5\u00b0E",
+      "category": "military",
+      "description": "Rome maintains military and diplomatic presence in Macedonia and Greece following the Third Macedonian War (171\u2013168 BCE) and the subsequent reorganisation of the region. By 159 BCE, Rome is consolidating its hegemony over the Greek world through a combination of military garrisons, client kings, and diplomatic pressure. Specific military campaigns for this year are not well-attested in surviving sources, but the broader pattern of Roman imperial expansion and Greek subordination continues.",
+      "key_figures": [
+        "Roman Senate and magistrates (names not specifically recorded for 159 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Books 40\u201345 cover this period, but much is lost)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (contemporary observer of Roman expansion, compiled mid-2nd century BCE)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general context of Roman hegemony in Greece is confirmed; specific events for 159 BCE are not clearly attested. The year is assigned to this broader pattern by historiographic convention.",
+      "cross_references": [
+        "Part of broader Roman expansion following -168-001 (Third Macedonian War conclusion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the lack of named events for 159 BCE in surviving sources suggests that this year may not have been particularly significant in the eyes of contemporary chroniclers. The broad political context (Han consolidation, Roman hegemony) is secure, but the year itself is largely invisible in the historical record.",
+  "historiographic_note": "The historical record for 159 BCE is heavily skewed toward Han China and the Mediterranean world. Chinese sources (Shiji, Han Shu) provide the most detailed information, though these are compilations from the 1st century BCE/CE and later. Mediterranean sources (Polybius, Livy) are contemporary or near-contemporary but fragmentary. For other regions\u2014India, Persia, Africa, the Americas\u2014sources are either absent or archaeological. The year 159 BCE itself is not marked by any major recorded event in surviving sources; it is significant only as part of broader historical trajectories.",
+  "graph_edges": [
+    {
+      "from": "-159-001",
+      "to": "-154-001",
+      "relation": "caused_by",
+      "note": "Han consolidation follows directly from the suppression of the Rebellion of the Seven States"
+    },
+    {
+      "from": "-159-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "The stable administrative framework established under Emperor Jing enables the expansionist policies of Emperor Wu"
+    },
+    {
+      "from": "-159-002",
+      "to": "-168-001",
+      "relation": "caused_by",
+      "note": "Roman hegemony in Greece is the direct result of victory in the Third Macedonian War"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "year": -169,
+  "year_label": "169 BCE",
+  "era_context": "The Hellenistic world in the mid-2nd century BCE, dominated by the Seleucid, Ptolemaic, and Macedonian dynasties. Rome is consolidating power in the Mediterranean following the Second Macedonian War (200\u2013196 BCE) and the Syrian War (192\u2013188 BCE). The Han Dynasty rules China during the reign of Emperor Wen; the Parthian Empire is consolidating control over the Iranian plateau. This is an era of dynastic competition, Roman expansion, and the gradual decline of Hellenistic political independence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman contact",
+    "Mesoamerica (no contemporary written records in this tradition)"
+  ],
+  "events": [
+    {
+      "id": "-169-001",
+      "title": "Fourth Syrian War (Antiochus IV's invasion of Egypt)",
+      "region": "Seleucid Empire, Ptolemaic Egypt, Eastern Mediterranean",
+      "coordinates_approx": "31.0,30.0",
+      "category": "military",
+      "description": "Antiochus IV Epiphanes of the Seleucid Empire invaded Egypt, seeking to expand Seleucid control and exploit Ptolemaic dynastic instability. The invasion was initially successful, with Antiochus capturing much of Lower Egypt and besieging Alexandria. However, Roman diplomatic intervention\u2014particularly the famous incident where the Roman legate Popilius Laenas drew a circle around Antiochus and demanded he withdraw before stepping out of it\u2014forced the Seleucid king to abandon his campaign. This humiliation marked a turning point in Hellenistic geopolitics, demonstrating Rome's emerging hegemony over the Eastern Mediterranean.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Ptolemy VI Philometor (Ptolemaic Pharaoh)",
+        "Popilius Laenas (Roman legate)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 45",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Book 29",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Polybius was a contemporary observer with access to Roman sources. The invasion and Roman intervention are well-attested in multiple independent sources.",
+      "cross_references": [
+        "Follows from -171-001 (Second Syrian War context)",
+        "Led to -168-001 (Antiochus IV's Judean campaign)"
+      ]
+    },
+    {
+      "id": "-169-002",
+      "title": "Roman censorship of Titus Quinctius Flamininus and Manius Acilius Glabrio",
+      "region": "Roman Republic",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "Titus Quinctius Flamininus and Manius Acilius Glabrio served as censors in 169 BCE, a position of significant power in the Roman Republic. The censorship involved the revision of the Senate roll and the assessment of property for taxation. This censorship is notable for its timing during a period of Roman military expansion and the consolidation of Roman hegemony in the Mediterranean.",
+      "key_figures": [
+        "Titus Quinctius Flamininus (Censor)",
+        "Manius Acilius Glabrio (Censor)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 43",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Broughton, Magistrates of the Roman Republic",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The names and dates of Roman magistrates are well-documented in Livy and later compilations.",
+      "cross_references": []
+    },
+    {
+      "id": "-169-003",
+      "title": "Han Dynasty military campaigns against the Xiongnu",
+      "region": "Han China, Xiongnu territories",
+      "coordinates_approx": "40.0,105.0",
+      "category": "military",
+      "description": "During the reign of Emperor Wen of Han (r. 180\u2013157 BCE), the Han Dynasty continued defensive and occasional offensive operations against Xiongnu incursions along the northern frontier. The period was characterized by a policy of relative restraint and the use of tributary relationships and marriage alliances (heqin) to manage Xiongnu pressure. Military campaigns were limited in scale compared to later Han expansionism under Emperor Wu.",
+      "key_figures": [
+        "Emperor Wen of Han (Han ruler)",
+        "Xiongnu leadership (not specifically named in surviving records for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific events in 169 BCE are not clearly delineated in surviving sources. The broader context of Han-Xiongnu relations during Emperor Wen's reign is well-established, but year-specific events are uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'circle incident' involving Popilius Laenas is attested in Polybius and later sources, but some modern scholars debate whether the dramatic version (Antiochus being forced to step out of a circle) is historically accurate or a later embellishment. The core fact of Roman intervention forcing Antiochus to withdraw is confirmed, but the theatrical details may be apocryphal.",
+  "historiographic_note": "The historical record for 169 BCE is dominated by Greco-Roman sources, particularly Polybius and Livy. Chinese sources (Shiji, Han Shu) provide information on Han Dynasty activities but are compiled centuries after the events. African, Indian, and Mesoamerican histories are largely absent from surviving written records for this year. The bias toward Mediterranean and East Asian elite political and military history is pronounced.",
+  "graph_edges": [
+    {
+      "from": "-169-001",
+      "to": "-168-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's humiliation in Egypt led to his subsequent campaign against Judea in 168 BCE"
+    },
+    {
+      "from": "-169-001",
+      "to": "-171-001",
+      "relation": "caused_by",
+      "note": "Part of ongoing Seleucid-Ptolemaic conflict rooted in the Second Syrian War"
+    }
+  ]
+}

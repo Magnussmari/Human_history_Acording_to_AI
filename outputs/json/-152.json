@@ -1,0 +1,131 @@
+{
+  "year": -152,
+  "year_label": "152 BCE",
+  "era_context": "Mid-2nd century BCE: Rome consolidating power in Mediterranean; Han Dynasty under Emperor Jing; Seleucid Empire in decline; Parthia expanding; South Indian regional kingdoms competing. This period is characterized by the transition from Hellenistic to Roman dominance in the Mediterranean world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-152-001",
+      "title": "Demetrius I Soter of Seleucid Empire dies",
+      "region": "Seleucid Empire (Syria)",
+      "coordinates_approx": "34.7\u00b0N, 36.2\u00b0E",
+      "category": "political",
+      "description": "Demetrius I Soter, Seleucid king, died around 150 BCE (some sources place this in 152 BCE). His death marked a succession crisis that further weakened the Seleucid Empire. The succession was disputed, with Alexander Balas claiming the throne and challenging the legitimacy of Demetrius's son. This internal conflict accelerated the empire's fragmentation and loss of territories to Parthia and other powers.",
+      "key_figures": [
+        "Demetrius I Soter (Seleucid king, r. 162\u2013150/152 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees 10:1\u201350",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (13.2.1\u20133)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars (45\u201367)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The death of Demetrius I is traditionally dated to 150 BCE, but some sources suggest 152 or 151 BCE. The exact year is uncertain due to discrepancies in ancient chronologies.",
+      "cross_references": [
+        "Part of Seleucid succession crises",
+        "Leads to Alexander Balas's challenge"
+      ]
+    },
+    {
+      "id": "-152-002",
+      "title": "Han Dynasty consolidation under Emperor Jing",
+      "region": "China (Han Empire)",
+      "coordinates_approx": "34\u00b0N, 109\u00b0E",
+      "category": "political",
+      "description": "Emperor Jing of Han (r. 157\u2013141 BCE) was consolidating Han Dynasty power during this period. His reign was marked by efforts to centralize authority, manage the Xiongnu threat through a combination of military campaigns and diplomatic marriages, and maintain internal stability. The period saw the development of Han administrative systems and cultural institutions.",
+      "key_figures": [
+        "Emperor Jing of Han (r. 157\u2013141 BCE)",
+        "Empress Dowager Dou (influential regent)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, chapters on Han Dynasty",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The reign of Emperor Jing and his consolidation of Han power is well-documented in Chinese historical sources, though compiled centuries after the events.",
+      "cross_references": [
+        "Part of Han Dynasty development",
+        "Precedes Emperor Wu's reign (-141)"
+      ]
+    },
+    {
+      "id": "-152-003",
+      "title": "Jewish resistance to Seleucid rule intensifies",
+      "region": "Judea (Seleucid-controlled territory)",
+      "coordinates_approx": "31.9\u00b0N, 35.2\u00b0E",
+      "category": "religious",
+      "description": "Jewish resistance to Seleucid rule, particularly regarding religious persecution and cultural suppression, was intensifying during this period. The conflict would eventually lead to the Maccabean Revolt (beginning 167 BCE), but in 152 BCE the tensions were building. The appointment of Jonathan Maccabee as high priest by Alexander Balas represented a shift in the conflict dynamics.",
+      "key_figures": [
+        "Jonathan Maccabee (Jewish leader)",
+        "Alexander Balas (Seleucid claimant)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees 10:1\u201350",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (13.2.1\u20133)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The events of the Maccabean period are well-documented in 1 Maccabees, a contemporary or near-contemporary source written by a Jewish author.",
+      "cross_references": [
+        "Part of Maccabean Revolt period (-167 to -160)",
+        "Related to Jewish-Seleucid conflict"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The death of Demetrius I is variously dated to 150, 151, or 152 BCE in different sources; there is no scholarly consensus on the exact year. Some modern scholars question whether the Seleucid succession crisis was as severe as traditional sources suggest, arguing that the empire maintained more coherence than previously believed. The characterization of Jonathan Maccabee's appointment as high priest in 152 BCE is based on 1 Maccabees, but the exact chronology of the Maccabean period is disputed among scholars, with some proposing different dates.",
+  "historiographic_note": "The historical record for 152 BCE relies heavily on Jewish sources (1 Maccabees) for Levantine affairs and Chinese sources for East Asian events. Greek and Roman sources are compiled centuries later and may contain inaccuracies. The Seleucid succession crisis is documented in multiple sources but with conflicting dates. The record remains geographically uneven, with Mediterranean and East Asian regions well-documented while vast areas of the world are absent from surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "-152-001",
+      "to": "-150-003",
+      "relation": "led_to",
+      "note": "Demetrius I's death leads to succession crisis and further Seleucid decline"
+    },
+    {
+      "from": "-152-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Emperor Jing's consolidation precedes Emperor Wu's reign"
+    },
+    {
+      "from": "-152-003",
+      "to": "-160-001",
+      "relation": "part_of",
+      "note": "Part of broader Maccabean Revolt period"
+    }
+  ]
+}

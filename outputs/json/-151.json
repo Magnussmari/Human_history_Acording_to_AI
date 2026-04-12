@@ -1,0 +1,136 @@
+{
+  "year": -151,
+  "year_label": "151 BCE",
+  "era_context": "Mid-2nd century BCE: Rome consolidating Mediterranean hegemony; Han Dynasty in mature phase; Seleucid Empire fragmenting; Parthia rising; South Indian kingdoms competing for regional dominance. This is the period immediately following the Third Macedonian War and preceding the destruction of Corinth.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-151-001",
+      "title": "Lusitanian War begins in Iberia",
+      "region": "Iberia (modern Portugal and western Spain)",
+      "coordinates_approx": "40\u00b0N, 7\u00b0W",
+      "category": "military",
+      "description": "The Lusitanian War, a major conflict between Roman forces and the Lusitanian people of Iberia, began around 151 BCE. Led by the Lusitanian chieftain Viriathus, the indigenous population resisted Roman conquest and expansion. This war would last approximately 14 years and become one of Rome's most difficult campaigns in Iberia, demonstrating the limits of Roman military superiority against guerrilla-style resistance.",
+      "key_figures": [
+        "Viriathus (Lusitanian leader)",
+        "Servius Sulpicius Galba (Roman commander)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Periochae 52\u201353)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Iberian Wars (60\u201399)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Historical Library (33.7\u201321)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The start date of the Lusitanian War is traditionally placed around 151 BCE, though some sources suggest 147 BCE. The dating is approximate based on Roman historical records compiled centuries later.",
+      "cross_references": [
+        "Part of Roman conquest of Iberia",
+        "Precedes Viriathus's death in -139"
+      ]
+    },
+    {
+      "id": "-151-002",
+      "title": "Han Dynasty diplomatic missions to Central Asia",
+      "region": "China, Central Asia (Silk Road region)",
+      "coordinates_approx": "40\u00b0N, 90\u00b0E",
+      "category": "exploration",
+      "description": "During the reign of Emperor Jing of Han, the Han Dynasty was beginning to expand its diplomatic and trade contacts with Central Asian kingdoms. These missions, though not yet the famous expeditions of Zhang Qian (which occurred later), represented early Han efforts to establish relationships beyond the immediate frontier and to counter Xiongnu influence in the region.",
+      "key_figures": [
+        "Emperor Jing of Han (r. 157\u2013141 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Early Han diplomatic missions to Central Asia are attested in Chinese sources, but specific dates are not precisely recorded. The assignment to 151 BCE is conventional and approximate.",
+      "cross_references": [
+        "Precedes Zhang Qian's missions (-138)",
+        "Part of early Silk Road development"
+      ]
+    },
+    {
+      "id": "-151-003",
+      "title": "Seleucid internal conflict and territorial loss",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35\u00b0N, 40\u00b0E",
+      "category": "political",
+      "description": "The Seleucid Empire was experiencing increasing internal instability and territorial fragmentation during this period. Demetrius I Soter (r. 162\u2013150 BCE) had recently died, and succession disputes weakened central authority. Simultaneously, Parthia was expanding westward and various regional powers were asserting independence. The empire was in visible decline.",
+      "key_figures": [
+        "Demetrius I Soter (r. 162\u2013150 BCE, recently deceased)",
+        "Alexander Balas (claimant to Seleucid throne)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees (biblical text, contemporary or near-contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (12.10\u201313.2)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars (45\u201367)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of the Seleucid Empire in the mid-2nd century BCE is well-documented in multiple sources, including contemporary Jewish texts.",
+      "cross_references": [
+        "Part of Seleucid decline (-200 to -64)",
+        "Contemporary with Parthian expansion"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact start date of the Lusitanian War is disputed; some sources place it in 147 BCE rather than 151 BCE. Modern scholarship has questioned whether early Han diplomatic missions to Central Asia were as extensive as traditional sources suggest, with some scholars arguing that sustained contact did not develop until after Zhang Qian's missions in the late 2nd century BCE. The characterization of Demetrius I's death as occurring in 150 BCE is traditional but some scholars argue for 151 or 149 BCE.",
+  "historiographic_note": "Sources for 151 BCE are primarily Greek and Roman texts compiled centuries after the events, creating significant dating uncertainty. Chinese sources provide better contemporary documentation for Han Dynasty affairs but are still compiled much later. Jewish texts (1 Maccabees) offer near-contemporary perspective on Seleucid affairs. The historical record remains heavily Mediterranean-centric; vast regions of the world are undocumented in surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "-151-001",
+      "to": "-139-001",
+      "relation": "led_to",
+      "note": "Lusitanian War continues until Viriathus's death in 139 BCE"
+    },
+    {
+      "from": "-151-002",
+      "to": "-138-001",
+      "relation": "led_to",
+      "note": "Early Han missions precede Zhang Qian's famous expeditions"
+    },
+    {
+      "from": "-151-003",
+      "to": "-150-003",
+      "relation": "contemporary_with",
+      "note": "Seleucid decline contemporary with Parthian expansion"
+    }
+  ]
+}

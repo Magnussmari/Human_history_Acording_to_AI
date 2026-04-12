@@ -1,0 +1,86 @@
+{
+  "year": -158,
+  "year_label": "158 BCE",
+  "era_context": "Mid-2nd century BCE: Han Dynasty under Emperor Jing (r. 157\u2013141 BCE) continues its consolidation phase. Rome is firmly established as the dominant power in the Mediterranean and Eastern Mediterranean. The Seleucid Empire is fragmenting; Egypt under the Ptolemies remains a major power but is increasingly drawn into Roman orbit. In India, the Satavahana Empire is emerging as a significant power in the Deccan. This is a period of relative stability punctuated by frontier conflicts and dynastic succession struggles.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited written records; primarily known through later Chinese sources)",
+    "Mesoamerica (archaeological record rich, but few precisely dated events)"
+  ],
+  "events": [
+    {
+      "id": "-158-001",
+      "title": "Han Dynasty: Continued administrative consolidation and frontier management",
+      "region": "Han China",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "Emperor Jing's reign continues with emphasis on internal stability and careful management of the Xiongnu frontier. The Han court maintains a policy of 'heqin' (peace through marriage alliance) with the Xiongnu, sending princesses and gifts to maintain peace. This year represents the continuation of the stable administrative order established after the Rebellion of the Seven States. No major military campaigns or political upheavals are recorded for 158 BCE specifically.",
+      "key_figures": [
+        "Emperor Jing of Han (r. 157\u2013141 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general political context is secure; no specific event is recorded for 158 BCE. The year is assigned to the broader pattern of Jing's reign.",
+      "cross_references": [
+        "Part of -157-001 to -141-001 (Emperor Jing's reign)"
+      ]
+    },
+    {
+      "id": "-158-002",
+      "title": "Seleucid Empire: Demetrius I Soter's reign and internal instability",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Persia)",
+      "coordinates_approx": "33.5\u00b0N, 36.3\u00b0E",
+      "category": "political",
+      "description": "Demetrius I Soter (r. 162\u2013150 BCE) rules the fragmenting Seleucid Empire. By 158 BCE, the empire is losing control of peripheral territories; Egypt remains independent under the Ptolemies, and various eastern satrapies are becoming autonomous. Demetrius faces internal opposition and external pressures from Rome and Egypt. This year marks a period of slow decline for Seleucid power, though no specific military or political event is recorded for 158 BCE itself.",
+      "key_figures": [
+        "Demetrius I Soter (r. 162\u2013150 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Appian, Syrian Wars (later compilation, 2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The reign of Demetrius I is well-attested; the specific significance of 158 BCE is inferred from the broader trajectory of Seleucid decline.",
+      "cross_references": [
+        "Part of broader Seleucid fragmentation following -168-001 (Roman victory in Third Macedonian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The year 158 BCE is not marked by any major recorded event in surviving sources; it is significant only as part of broader historical trajectories.",
+  "historiographic_note": "The historical record for 158 BCE is sparse. Chinese sources provide the most detailed information about Han affairs, though no specific event is recorded for this year. Mediterranean sources (Polybius, Appian) provide information about the Seleucid Empire and Roman hegemony, but again, no specific event is recorded for 158 BCE. The year is largely invisible in the historical record and is significant only as part of broader patterns.",
+  "graph_edges": [
+    {
+      "from": "-158-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Continued stability under Jing enables the expansionist policies of Emperor Wu"
+    },
+    {
+      "from": "-158-002",
+      "to": "-150-001",
+      "relation": "led_to",
+      "note": "Demetrius I's internal struggles lead to his eventual overthrow and the rise of Alexander Balas"
+    }
+  ]
+}
