@@ -1,0 +1,87 @@
+{
+  "year": -2326,
+  "year_label": "2326 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) continues under Pepi II. The Akkadian Empire under Naram-Sin is at its territorial maximum but facing increasing external and internal pressures. The Indus Valley Civilization remains in its mature phase. This year falls within a period of apparent stability that would soon give way to rapid political collapse in both Egypt and Mesopotamia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2326-001",
+      "title": "Pepi II's reign continues; Old Kingdom administrative structure weakening",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues in its later phase. The Old Kingdom's centralized administrative system was increasingly unable to maintain control over provincial governors. The construction of royal monuments had slowed significantly compared to earlier dynasties. The central government's ability to mobilize resources was declining, a trend that would accelerate after Pepi II's death.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Administrative texts and official inscriptions from Dynasty VI",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Tomb inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is dated c. 2278\u20132184 BCE. The year 2326 BCE falls within this range by conventional chronology.",
+      "cross_references": [
+        "Part of Old Kingdom decline narrative"
+      ]
+    },
+    {
+      "id": "-2326-002",
+      "title": "Naram-Sin's military campaigns against the Guti and Lullubi",
+      "region": "Mesopotamia, Zagros Mountains, Akkadian Empire",
+      "coordinates_approx": "34.0, 46.0",
+      "category": "military",
+      "description": "Naram-Sin conducted military campaigns against the Guti people in the Zagros Mountains and the Lullubi in the northern regions. These campaigns were part of his effort to maintain control over the empire's borders and suppress external threats. Inscriptions record victories, though the Guti would eventually contribute to the empire's collapse.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and victory stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns are documented in inscriptions, but specific dating to individual years is uncertain. The year 2326 BCE falls within his reign by conventional chronology.",
+      "cross_references": [
+        "Part of Akkadian military narrative; precedes Guti invasion (c. 2200 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Naram-Sin's campaigns as 'victories' is based on his own inscriptions, which are inherently propagandistic. Some scholars argue that the Guti threat was exaggerated in Akkadian sources. The extent of Akkadian control over distant regions is debated.",
+  "historiographic_note": "For 2326 BCE, the historical record consists almost entirely of administrative texts, inscriptions, and archaeological material culture. No narrative histories survive. The dating of this year relies on king lists and chronological systems that are themselves uncertain by \u00b150\u2013100 years. The 'history' of this year is a reconstruction of broad patterns rather than specific documented events.",
+  "graph_edges": [
+    {
+      "from": "-2326-001",
+      "to": "-2184-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Pepi II's weakening authority led to Old Kingdom collapse"
+    },
+    {
+      "from": "-2326-002",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's military campaigns against Guti preceded their invasion"
+    }
+  ]
+}

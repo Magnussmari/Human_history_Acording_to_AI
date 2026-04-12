@@ -1,0 +1,113 @@
+{
+  "year": -2321,
+  "year_label": "2321 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin continues to dominate Mesopotamia, though internal pressures are building. Egyptian Dynasty VI persists in its weakened state. The Indus Valley Civilization remains in its mature urban phase. This is a period of established state systems with underlying structural tensions that will lead to major transitions within the next century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas",
+    "Most regions outside Mesopotamia, Egypt, and the Indus Valley"
+  ],
+  "events": [
+    {
+      "id": "-2321-001",
+      "title": "Naram-Sin's reign: military campaigns and administrative consolidation",
+      "region": "Mesopotamia and surrounding territories",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to maintain Akkadian control over conquered territories. Inscriptions record ongoing conflicts with mountain peoples (Lullubi, Gutians) and resistance from Amorite groups. The Akkadian state maintains its administrative structure, with military governors appointed to key regions. However, the frequency of military campaigns suggests that Akkadian control is contested and requires constant reinforcement. The empire's resources are increasingly stretched.",
+      "key_figures": [
+        "Naram-Sin (Akkadian emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and military records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military activities are documented in inscriptions, but year-specific chronology is not preserved.",
+      "cross_references": [
+        "-2324-001 (Naram-Sin's reign context)"
+      ]
+    },
+    {
+      "id": "-2321-002",
+      "title": "Egyptian Dynasty VI: administrative fragmentation deepens",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Egyptian state under Dynasty VI experiences accelerating administrative fragmentation. Provincial governors (nomarchs) in Upper and Lower Egypt consolidate hereditary power and reduce their dependence on the central pharaonic authority. Tomb inscriptions reveal that nomarchs now control significant military forces and economic resources. The pharaoh's authority is increasingly limited to the immediate vicinity of Memphis. This process will culminate in the collapse of central authority and the First Intermediate Period within the next 50\u201360 years.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative records from Dynasty VI",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of provincial autonomy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The trend of administrative decentralization is well-established, but year-specific events are not recorded.",
+      "cross_references": [
+        "-2181-001 (Old Kingdom collapse)"
+      ]
+    },
+    {
+      "id": "-2321-003",
+      "title": "Indus Valley Civilization: mature phase continues; trade networks active",
+      "region": "Indus Valley and trade routes",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues in its mature phase with flourishing urban centers and active trade networks. Indus seals are found in Mesopotamian sites, indicating ongoing commercial contact. The civilization's economy is highly organized, with standardized weights and measures suggesting state regulation of commerce. Agricultural production supports a large urban population. The civilization's political organization remains unclear due to the undeciphered writing system, but the uniformity of urban planning and artifact types suggests a centralized or at least highly coordinated system.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus Valley settlement archaeology",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Indus Valley Civilization's chronology and trade networks are well-established archaeologically. Year-specific events are not attested.",
+      "cross_references": [
+        "-2324-003 (Indus Valley context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Naram-Sin's inscriptions as accurate historical records is debated; some scholars view them primarily as propaganda designed to legitimize his rule.",
+  "historiographic_note": "Documentation for 2321 BCE is minimal and relies on the same sources as previous years. No year-specific events are recorded in any tradition. The historical record is heavily skewed toward Mesopotamian and Egyptian elite sources. The Indus Valley Civilization is known only through archaeology. Chronological uncertainty of \u00b150\u2013100 years persists.",
+  "graph_edges": [
+    {
+      "from": "-2321-001",
+      "to": "-2218-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's military campaigns eventually fail to prevent Akkadian decline"
+    },
+    {
+      "from": "-2321-002",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "Administrative fragmentation leads to Old Kingdom collapse"
+    }
+  ]
+}

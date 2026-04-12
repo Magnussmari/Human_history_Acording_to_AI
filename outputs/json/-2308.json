@@ -1,0 +1,107 @@
+{
+  "year": -2308,
+  "year_label": "2308 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin continues its dominance in Mesopotamia, though signs of strain are emerging. Egypt's Old Kingdom (Dynasty VI) is in advanced decline, with provincial autonomy increasing. The Indus Valley Civilization remains at its mature phase. In China, the Shang dynasty is consolidating control over the Yellow River valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia (limited written records; archaeological context uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2308-001",
+      "title": "Akkadian administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and surrounding regions. He establishes himself as a god-king, a significant ideological shift in Mesopotamian kingship. Inscriptions from this period document the deification of the king and the expansion of the state bureaucracy. However, evidence from later texts suggests that maintaining this vast empire is becoming increasingly costly, with military campaigns requiring ever-larger forces.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and stelae of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative tablets from Akkadian sites",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and policies are well-attested, but specific events are not dated to individual years in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-2308-002",
+      "title": "Continued fragmentation of Egyptian provincial authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The process of decentralization in Egypt accelerates. Nomarchs (provincial governors) continue to accumulate power and resources, establishing themselves as semi-independent rulers. The central government's ability to collect taxes and maintain infrastructure declines. Archaeological evidence from provincial cemeteries shows increasing wealth disparity and the emergence of local elite classes independent of the pharaonic court.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend of decentralization is well-attested; specific events in individual years are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-2308-003",
+      "title": "Harappan urban centers at maximum population",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "Archaeological evidence suggests that major Harappan cities such as Mohenjo-daro and Harappa reach their maximum population and extent during this period. The standardized urban planning, with grid-pattern streets, public baths, and granaries, is fully developed. Trade networks extend from the Persian Gulf to Central Asia and the Deccan Plateau. There is no archaeological evidence of major disruption or decline at this time.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro and Harappa",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Stratigraphic analysis of Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established through archaeology. The specific year -2308 falls within this phase, though individual years are not independently dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the traditional chronology of the Akkadian Empire and Egyptian Old Kingdom remains subject to scholarly debate, particularly regarding absolute dating.",
+  "historiographic_note": "Sources for this year are limited to royal inscriptions, administrative texts, and archaeological evidence. The perspective of non-elite populations is largely absent from the historical record. The Indus Valley Civilization remains poorly understood due to the undeciphered nature of its writing system.",
+  "graph_edges": [
+    {
+      "from": "-2308-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's deification and administrative expansion contribute to the empire's eventual collapse"
+    },
+    {
+      "from": "-2308-002",
+      "to": "-2305-002",
+      "relation": "part_of",
+      "note": "Continued fragmentation of Egyptian authority"
+    }
+  ]
+}

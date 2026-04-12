@@ -1,0 +1,112 @@
+{
+  "year": -2306,
+  "year_label": "2306 BCE",
+  "era_context": "The Akkadian Empire is in its final years under Naram-Sin. Egypt's Old Kingdom (Dynasty VI) is collapsing, with the First Intermediate Period imminent. The Indus Valley Civilization remains stable and prosperous. In China, the Shang dynasty is consolidating its control.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2306-001",
+      "title": "Final years of Naram-Sin's reign",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin's reign is approaching its end (he dies c. 2218 BCE). His inscriptions continue to document military campaigns and administrative consolidation, but evidence from later texts suggests that the empire is facing increasing internal and external pressures. The cost of maintaining the vast Akkadian state is becoming unsustainable. Naram-Sin's successor will inherit an empire in crisis.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "The Curse of Akkad (later literary composition)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but the specific year -2306 is not independently confirmed.",
+      "cross_references": []
+    },
+    {
+      "id": "-2306-002",
+      "title": "End of Dynasty VI in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The reign of Pepi II comes to an end (traditionally dated to 2184 BCE, though some scholars propose earlier dates). The Old Kingdom collapses, and Egypt enters the First Intermediate Period, characterized by political fragmentation and the rise of independent regional powers. The transition is marked by a sharp decline in monumental construction and administrative centralization. This represents one of the most significant political transformations in ancient Egyptian history.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of decline in monumental construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The end of Dynasty VI is well-attested, but the exact date is debated. Traditional chronology places it at 2184 BCE, but some scholars propose dates as early as 2278 BCE or as late as 2160 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-2306-003",
+      "title": "Harappan civilization at peak extent",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "The Indus Valley Civilization continues at its mature phase, with no evidence of decline or disruption. Major cities such as Mohenjo-daro, Harappa, and Dholavira are fully developed and prosperous. Trade networks extend across a vast area, from the Persian Gulf to Central Asia and the Deccan Plateau. The civilization's standardized weights, measures, and urban planning suggest a sophisticated and stable society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Stratigraphic analysis and radiocarbon dating",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established through archaeology. The specific year -2306 falls within this phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the end of Dynasty VI (2184 BCE) is based on the Sumerian King List and later Egyptian chronologies, which are subject to ongoing scholarly debate. Some scholars propose that Pepi II's reign was much shorter than traditionally believed, which would shift the end of Dynasty VI to an earlier date. The causes of the Old Kingdom's collapse are debated; climate change (reduced Nile floods) is one hypothesis, but internal political fragmentation may have been equally or more important.",
+  "historiographic_note": "Sources for this year are limited to royal inscriptions, administrative texts, and archaeological evidence. The transition from the Old Kingdom to the First Intermediate Period is one of the best-documented political transformations in ancient history, yet the specific causes and timeline remain debated. The perspective of non-elite populations is largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2306-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's reign ends; the Akkadian Empire collapses shortly after"
+    },
+    {
+      "from": "-2306-002",
+      "to": "-2305-002",
+      "relation": "led_to",
+      "note": "End of Dynasty VI leads to the First Intermediate Period"
+    }
+  ]
+}

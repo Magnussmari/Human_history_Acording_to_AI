@@ -1,0 +1,128 @@
+{
+  "year": -2305,
+  "year_label": "2305 BCE",
+  "era_context": "The Akkadian Empire is collapsing or has recently collapsed. Egypt has entered the First Intermediate Period, with political authority fragmented among regional powers. The Indus Valley Civilization remains at its mature phase. In China, the Shang dynasty is consolidating its power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2305-001",
+      "title": "Collapse of the Akkadian Empire",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "The Akkadian Empire, which had dominated Mesopotamia for approximately 200 years, collapses. The causes are debated: some scholars emphasize climate change (a severe drought documented in paleoclimatic records), while others stress military overextension, internal rebellion, and the invasion of the Gutians from the Zagros Mountains. The empire fragments into competing city-states, and Sumerian culture reasserts itself. The 'Curse of Akkad,' a later literary composition, attributes the collapse to divine punishment for Naram-Sin's hubris, but modern scholarship treats this as a narrative rather than a historical explanation.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)",
+        "Shar-kali-sharri (last Akkadian king, r. 2217\u20132193 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "The Curse of Akkad (Sumerian composition, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic evidence (ice cores, tree rings, sediment cores)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement abandonment and destruction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of the Akkadian Empire is well-attested in later sources and archaeological evidence. However, the exact date and causes remain debated. Traditional chronology places the collapse around 2218 BCE, but some scholars propose alternative dates. The specific year -2305 is assigned by convention within the period of collapse.",
+      "cross_references": []
+    },
+    {
+      "id": "-2305-002",
+      "title": "First Intermediate Period begins in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt enters the First Intermediate Period (c. 2184\u20132055 BCE), characterized by political fragmentation and the rise of independent regional powers. The pharaonic state loses control over much of the country, and nomarchs (provincial governors) establish themselves as semi-independent rulers. This period sees a decline in monumental construction, a shift in artistic styles, and the emergence of new literary genres (such as the 'Complaints of Khakheperreseneb'). The transition is marked by social upheaval and economic disruption, though the extent of this disruption is debated.",
+      "key_figures": [
+        "Nomarchs of Upper and Lower Egypt (various)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Literary texts such as the 'Complaints of Khakheperreseneb'",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of decline in monumental construction",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Intermediate Period is well-attested in Egyptian sources and archaeology. The traditional date for its beginning is c. 2184 BCE, though some scholars propose alternative dates.",
+      "cross_references": []
+    },
+    {
+      "id": "-2305-003",
+      "title": "Harappan civilization continues uninterrupted",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "demographic",
+      "description": "While the Akkadian Empire collapses and Egypt enters political fragmentation, the Indus Valley Civilization shows no signs of disruption. Major cities continue to flourish, and trade networks remain active. This contrast suggests that the Indus Valley was not significantly affected by the climatic or political upheavals that affected Mesopotamia and Egypt during this period. The civilization will continue at its mature phase for several more centuries before beginning a gradual decline around 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Stratigraphic analysis and radiocarbon dating",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuity of the Harappan civilization is well-established through archaeology. The specific year -2305 falls within the mature Harappan phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The causes of the Akkadian collapse are debated. While paleoclimatic evidence suggests a severe drought (the '4.2 kiloyear event'), some scholars argue that this was not the primary cause of the empire's collapse. Internal factors such as military overextension, administrative breakdown, and rebellion may have been equally or more important. The 'Curse of Akkad' is a later literary composition and should not be treated as a historical account. The extent of disruption during Egypt's First Intermediate Period is also debated; some scholars emphasize social upheaval and economic collapse, while others suggest that the transition was more gradual and less catastrophic than traditionally portrayed.",
+  "historiographic_note": "The collapse of the Akkadian Empire and the transition to Egypt's First Intermediate Period are among the most significant political transformations in ancient history. However, the causes and extent of these transformations remain debated. The 'Curse of Akkad' and other later literary sources provide cultural narratives rather than historical explanations. Paleoclimatic evidence (ice cores, tree rings, sediment cores) has become increasingly important in understanding these events, but the relationship between climate change and political collapse is complex and not fully understood. The perspective of non-elite populations is largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2305-001",
+      "to": "-2305-002",
+      "relation": "contemporary_with",
+      "note": "The collapse of the Akkadian Empire and the transition to Egypt's First Intermediate Period occur around the same time, possibly linked by climate change"
+    },
+    {
+      "from": "-2305-001",
+      "to": "-2305-003",
+      "relation": "contradicts",
+      "note": "While Mesopotamia and Egypt experience political collapse, the Indus Valley Civilization shows no signs of disruption"
+    }
+  ]
+}

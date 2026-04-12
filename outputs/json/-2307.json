@@ -1,0 +1,107 @@
+{
+  "year": -2307,
+  "year_label": "2307 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is approaching the end of its dominance. Egypt's Old Kingdom is in its final phase, with central authority severely weakened. The Indus Valley Civilization continues at its mature phase. In China, the Shang dynasty is consolidating its power base.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2307-001",
+      "title": "Akkadian military campaigns against the Gutians",
+      "region": "Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "35.5, 43.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions document ongoing military campaigns against the Gutians, a highland people from the Zagros Mountains. These campaigns are costly and require significant military resources. Later texts, particularly the 'Curse of Akkad,' suggest that these campaigns overextend the empire's resources and contribute to its eventual collapse. The Gutians are portrayed in Akkadian sources as barbarian invaders, though archaeological evidence suggests a more complex picture of cultural interaction and conflict.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "The Curse of Akkad (Sumerian composition, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns against the Gutians are well-attested in inscriptions, but specific years are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-2307-002",
+      "title": "Collapse of central authority in Egypt accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The final years of Dynasty VI see a rapid acceleration in the loss of central authority. Nomarchs establish themselves as independent rulers, and the pharaoh's power is reduced to the immediate vicinity of Memphis. Administrative records become sparse, suggesting a breakdown in the state bureaucracy. The transition to the First Intermediate Period is imminent.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and ostraca",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend of collapse is well-attested; specific events in individual years are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-2307-003",
+      "title": "Harappan trade with Mesopotamia continues",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence indicates that trade between the Indus Valley and Mesopotamia remains active. Harappan seals and weights continue to appear in Mesopotamian contexts. The standardized nature of Harappan weights and measures suggests a sophisticated commercial system. There is no evidence of disruption to these trade networks at this time.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappan and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Harappan seals found in Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-established through archaeology. The specific year -2307 falls within the mature Harappan phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Curse of Akkad' is a later literary composition (Old Babylonian period, c. 1900\u20131600 BCE) that attributes the fall of the Akkadian Empire to divine punishment for Naram-Sin's hubris. Modern scholarship treats this as a literary narrative rather than a historical account, though it may preserve some memory of the empire's collapse. The actual causes of the Akkadian collapse are debated; some scholars emphasize climate change (drought), while others stress military overextension and internal rebellion.",
+  "historiographic_note": "Sources for this year remain limited to royal inscriptions, administrative texts, and archaeological evidence. The 'Curse of Akkad,' while culturally significant, is a later literary composition and should not be treated as a contemporary historical account. The perspective of non-elite populations remains largely absent.",
+  "graph_edges": [
+    {
+      "from": "-2307-001",
+      "to": "-2305-001",
+      "relation": "led_to",
+      "note": "Akkadian military overextension contributes to the empire's imminent collapse"
+    },
+    {
+      "from": "-2307-002",
+      "to": "-2305-002",
+      "relation": "led_to",
+      "note": "Accelerated collapse of Egyptian central authority leads to the First Intermediate Period"
+    }
+  ]
+}

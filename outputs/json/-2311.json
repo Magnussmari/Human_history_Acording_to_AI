@@ -1,0 +1,107 @@
+{
+  "year": -2311,
+  "year_label": "2311 BCE",
+  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is at its territorial zenith in Mesopotamia, controlling trade routes from the Persian Gulf to the Levantine coast. In the Indus Valley, the Mature Harappan civilization (c. 2600\u20131900 BCE) is flourishing with established urban centres and long-distance trade networks. The Early Bronze Age continues across the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Yellow River region (limited contemporary records)",
+    "Oceania and the Pacific (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2311-001",
+      "title": "Akkadian administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and adjacent regions. He establishes himself as a god-king, a radical departure from earlier Akkadian practice, as evidenced by inscriptions and the famous Naram-Sin Victory Stela. This deification serves to legitimize his rule and centralize authority. However, modern scholars debate whether this was a genuine religious innovation or a propagandistic exaggeration. The administrative system shows signs of strain from maintaining such a vast empire.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Victory Stela",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and his deification are well-attested. The specific year -2311 falls within his reign, but individual administrative reforms cannot be precisely dated to a single year.",
+      "cross_references": []
+    },
+    {
+      "id": "-2311-002",
+      "title": "Harappan trade networks at maximum extent",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf. Archaeological evidence of Indus seals and artefacts in Mesopotamian contexts, and vice versa, demonstrates active long-distance commerce. The standardization of weights and measures across Harappan cities suggests centralized coordination of trade. This period represents the peak of Harappan economic integration and influence.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus Valley artefacts and standardized weights",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Mature Harappan phase and its trade networks are well-established archaeologically. Individual years cannot be precisely distinguished.",
+      "cross_references": []
+    },
+    {
+      "id": "-2311-003",
+      "title": "Egyptian provincial governors accumulate independent power",
+      "region": "Egypt, Upper and Lower Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Regional governors (nomarchs) in Egypt continue to consolidate power and wealth, building elaborate tombs and monuments. Inscriptions from nomarchs such as Harkhuf and Uni document their independent military campaigns and trade expeditions, suggesting that central royal authority is weakening. These officials are increasingly autonomous, a trend that will culminate in the fragmentation of Egypt after the Sixth Dynasty.",
+      "key_figures": [
+        "Harkhuf (nomarch of Aswan)",
+        "Uni (nomarch and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of provincial tombs",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of provincial power is well-documented in inscriptions. Egyptian chronology for this period is uncertain, with alternative dating systems differing by up to a century.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of events in -2311 is highly uncertain. Egyptian chronology for the Sixth Dynasty remains contested, with some scholars proposing dates significantly different from the conventional timeline. The significance of Naram-Sin's deification is debated: some scholars view it as a genuine religious innovation, while others see it as propaganda with limited actual religious impact. The causes of Old Kingdom decline remain disputed, with recent paleoclimate studies suggesting environmental stress but not catastrophic collapse.",
+  "historiographic_note": "Documentation for -2311 is sparse and relies heavily on royal inscriptions and administrative texts, which are inherently biased toward elite perspectives. Egyptian chronology is particularly uncertain for this period. The archaeological record is unevenly distributed, with the Near East and South Asia better represented than other regions. Surviving sources neglect the lives of ordinary people and focus on monumental construction and military campaigns.",
+  "graph_edges": [
+    {
+      "from": "-2311-001",
+      "to": "-2310-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's consolidation and military campaigns are concurrent"
+    },
+    {
+      "from": "-2311-003",
+      "to": "-2180-001",
+      "relation": "led_to",
+      "note": "Provincial autonomy leads to First Intermediate Period fragmentation"
+    }
+  ]
+}

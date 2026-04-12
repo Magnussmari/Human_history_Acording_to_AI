@@ -1,0 +1,92 @@
+{
+  "year": -2327,
+  "year_label": "2327 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its later phase. The Akkadian Empire under Naram-Sin is at or near its territorial maximum. The Indus Valley Civilization continues in its mature phase. This period represents a moment of apparent stability before the rapid collapses that would occur in the early 22nd century BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2327-001",
+      "title": "Pepi II's reign continues; administrative fragmentation in Egypt",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "During this period of Pepi II's reign, the administrative structure of the Old Kingdom was increasingly decentralized. Nomarchs (provincial governors) controlled local resources and military forces. The central government's revenue from taxation and labor mobilization was declining. This fragmentation would accelerate in the decades following Pepi II's death, leading to the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Administrative texts and official inscriptions from Dynasty VI",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Tomb biographies of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is dated c. 2278\u20132184 BCE. The year 2327 BCE falls within this range by conventional chronology, though absolute dating is uncertain.",
+      "cross_references": [
+        "Part of Old Kingdom decline narrative"
+      ]
+    },
+    {
+      "id": "-2327-002",
+      "title": "Naram-Sin's reign at its height; consolidation of Akkadian power",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin's reign represents the apex of Akkadian imperial power. He had declared himself divine and adopted the title 'King of the Four Quarters of the World.' His administrative system extended Akkadian control over Mesopotamia, the Levant, and parts of Anatolia. However, by this period, the empire was beginning to face external pressures from the Guti people in the Zagros Mountains and internal resistance from conquered territories.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is dated c. 2254\u20132218 BCE. The year 2327 BCE falls within this range, though chronological systems vary.",
+      "cross_references": [
+        "Precedes Akkadian collapse (c. 2200 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Naram-Sin as a 'divine king' is based on later interpretations of his inscriptions; some scholars argue that his deification was more of a political innovation than a reflection of genuine religious belief. The extent of Akkadian territorial control is debated; some regions may have been tributaries rather than directly administered territories.",
+  "historiographic_note": "For 2327 BCE, the historical record is limited to administrative and epigraphic sources. No narrative histories survive. The dating of this year relies on king lists and chronological systems that are themselves uncertain by \u00b150\u2013100 years. The 'history' of this year is largely a reconstruction of broad patterns of political and administrative change rather than specific events.",
+  "graph_edges": [
+    {
+      "from": "-2327-001",
+      "to": "-2184-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Administrative fragmentation under Pepi II led to collapse of Old Kingdom"
+    },
+    {
+      "from": "-2327-002",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's overextension and external pressures led to empire's collapse"
+    }
+  ]
+}
