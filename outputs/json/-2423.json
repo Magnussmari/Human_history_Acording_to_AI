@@ -1,0 +1,118 @@
+{
+  "year": -2423,
+  "year_label": "2423 BCE",
+  "era_context": "Continuation of the Old Kingdom's final phase in Egypt, the Akkad Empire's dominance in Mesopotamia, and the Mature Harappan civilization in the Indus Valley. This period is characterized by long-distance trade networks, monumental architecture, and the gradual accumulation of stresses that will lead to major political transitions within the next century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia (beyond traditional Xia Dynasty legends)"
+  ],
+  "events": [
+    {
+      "id": "-2423-001",
+      "title": "Akkad Empire trade and military consolidation",
+      "region": "Mesopotamia, Levant, Anatolia, Persian Gulf",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "economic",
+      "description": "During Naram-Sin's reign, the Akkad Empire maintains extensive trade networks and military garrisons throughout the Fertile Crescent. Administrative texts from this period document the movement of goods, tribute, and military personnel. The empire's economic system relies on centralized redistribution of agricultural surplus and control of trade routes, particularly those connecting Mesopotamia to the Indus Valley via the Persian Gulf.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts and ration lists",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian administrative centers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Akkadian trade networks and administrative systems is well-attested. Specific events within a given year are difficult to isolate; this entry describes the general state of the empire during Naram-Sin's reign.",
+      "cross_references": [
+        "-2424-001 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2423-002",
+      "title": "Harappan trade with Mesopotamia and the Persian Gulf",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Indus Valley merchants continue active trade with Mesopotamian cities and Persian Gulf intermediaries. Archaeological evidence (seals, weights, pottery) shows that Harappan goods (carnelian, lapis lazuli, cotton, timber) are exchanged for Mesopotamian products. This trade is facilitated by maritime routes and overland caravans, reflecting sophisticated commercial networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian sites (Ur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian texts mentioning Meluhha (Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Harappan weights and measures standardization",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Harappan-Mesopotamian trade is archaeologically confirmed through material evidence. The specific timing of trade fluctuations within individual years is not documented.",
+      "cross_references": [
+        "-2424-002 (Harappan civilization)"
+      ]
+    },
+    {
+      "id": "-2423-003",
+      "title": "Egyptian Old Kingdom administrative continuity",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During Pepi II's reign, the Egyptian state continues to function through a complex bureaucracy of provincial governors, scribes, and military officials. Expeditions to Nubia for gold, incense, and ivory are organized; trade with the Levant continues. However, inscriptions from this period increasingly document the growing power and independence of provincial officials, foreshadowing the decentralization that will characterize the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of officials (Harkhuf, Sabni, Weni)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and ostraca",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general administrative structure and activities of the Old Kingdom are well-documented. Specific events within a single year are rarely recorded in surviving sources.",
+      "cross_references": [
+        "-2424-003 (Pepi II's reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the characterization of Akkadian 'control' over distant territories is increasingly questioned; some scholars argue that Naram-Sin's inscriptions reflect ideological claims and that actual territorial control was more limited and fragile than traditionally assumed.",
+  "historiographic_note": "This year, like most ancient years, lacks specific documented events. The entries above describe the general state of civilizations during this period based on broader archaeological and textual evidence. The historical record is dominated by elite perspectives (royal inscriptions, administrative texts); the experiences of the majority of the population are invisible. Chronological precision is limited to \u00b15\u201310 years at best. The absence of specific events for this year does not indicate historical stasis but rather the limitations of surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "-2423-001",
+      "to": "-2423-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Harappan trade networks were contemporaneous and interconnected"
+    },
+    {
+      "from": "-2423-003",
+      "to": "-2420-003",
+      "relation": "part_of",
+      "note": "Pepi II's reign spans multiple years"
+    }
+  ]
+}

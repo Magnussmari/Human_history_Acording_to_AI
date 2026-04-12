@@ -1,0 +1,93 @@
+{
+  "year": -2429,
+  "year_label": "2429 BCE",
+  "era_context": "The Old Kingdom of Egypt is in decline; the Fourth Dynasty has ended and the Fifth Dynasty rules (c. 2494\u20132345 BCE). In Mesopotamia, the Akkadian Empire under Sargon of Akkad (r. c. 2334\u20132279 BCE) is consolidating power over Sumerian city-states. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE), with major urban centres at Harappa and Mohenjo-daro. In China, the Xia Dynasty is traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Europe (Bronze Age societies)",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2429-001",
+      "title": "Reign of Pepi II of Egypt (traditional dating)",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "26.8, 30.8",
+      "category": "political",
+      "description": "Pepi II (Neferkare) is traditionally dated to rule during this period, though his actual reign length and dates are heavily disputed. Ancient sources credit him with an exceptionally long reign (64 years in some accounts, 94 in others), but modern Egyptology questions these figures. His reign saw continued administrative complexity and the gradual weakening of central authority that characterised the late Fifth Dynasty transition into the Sixth Dynasty.",
+      "key_figures": [
+        "Pepi II (Neferkare), Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (temple inscription)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's dates are among the most contested in Egyptian chronology. Modern scholars place his reign anywhere from c. 2278\u20132184 BCE to c. 2250\u20132150 BCE. Assignment to -2429 follows conventional Old Kingdom chronology but is subject to \u00b150-year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-2429-002",
+      "title": "Akkadian consolidation under Sargon of Akkad",
+      "region": "Mesopotamia (Akkad, Sumer)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Sargon of Akkad (r. c. 2334\u20132279 BCE) continues his military campaigns to consolidate Akkadian control over Sumerian city-states and surrounding regions. By this period, Akkadian administrative and military structures are replacing Sumerian local governance. Sargon's reign represents the first large-scale territorial empire in Mesopotamia, with Akkadian language and culture spreading throughout the region.",
+      "key_figures": [
+        "Sargon of Akkad (Sharru-kin), King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad Inscriptions (clay tablets and stone)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian administrative tablets from Nippur and Ur",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's reign is well-attested in contemporary inscriptions and administrative records. However, absolute dating of his reign remains uncertain; scholars debate whether he ruled c. 2334\u20132279 BCE or c. 2290\u20132235 BCE. The year -2429 falls within the middle of his reign under most chronologies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing Pepi II in this period is increasingly questioned by scholars using radiocarbon dating and astronomical calculations. Some Egyptologists argue for a substantially lower chronology that would place Pepi II's reign 50\u2013100 years later. Additionally, the 'Old Kingdom collapse' narrative\u2014once attributed to Pepi II's weak rule\u2014is now understood as a more gradual transition with continued administrative function in some regions. The Akkadian Empire's stability during this period is also debated; some scholars see evidence of internal strain and regional resistance to Akkadian rule by the late 23rd century BCE.",
+  "historiographic_note": "Documentation for -2429 is heavily dependent on Egyptian and Mesopotamian written sources, both of which are subject to significant chronological uncertainty. Egyptian dates before c. 1550 BCE lack independent astronomical verification and rely on king lists compiled centuries after the events. Mesopotamian chronology is somewhat better anchored but still debated. The Indus Valley Civilization, though contemporaneous and highly sophisticated, left no deciphered written records, making synchronisation with other civilisations speculative. Sub-Saharan Africa, Europe, and the Americas are essentially absent from the historical record at this date.",
+  "graph_edges": [
+    {
+      "from": "-2429-001",
+      "to": "-2345-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign (however dated) preceded the Old Kingdom collapse and transition to the First Intermediate Period"
+    },
+    {
+      "from": "-2429-002",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Sargon's Akkadian Empire would face collapse c. 2200 BCE due to climate change and internal instability"
+    }
+  ]
+}

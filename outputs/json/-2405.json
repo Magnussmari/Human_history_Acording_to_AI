@@ -1,0 +1,106 @@
+{
+  "year": -2405,
+  "year_label": "2405 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Akkadian Empire under Naram-Sin is at its territorial zenith, dominating Mesopotamia and parts of the Levant. Egypt is in the late Old Kingdom (Dynasty 6), with centralised pharaonic power beginning to fragment. In the Indus Valley, the Harappan civilisation is in its mature phase. The Shang dynasty is consolidating power in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Mesoamerica (limited chronological precision for this era)",
+    "Southeast Asia (sparse written records)"
+  ],
+  "events": [
+    {
+      "id": "-2405-001",
+      "title": "Naram-Sin's military campaigns in the Zagros and Levant",
+      "region": "Mesopotamia, Zagros Mountains, Levant",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "Naram-Sin of Akkad continues aggressive expansion, consolidating control over the Zagros region and extending Akkadian influence into the Levantine coast. These campaigns are documented in royal inscriptions and stele. The military campaigns represent the peak of Akkadian imperial reach before internal pressures and climate stress begin to destabilise the empire.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin stele and royal inscriptions (Akkadian cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian administrative sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested (c. 2254\u20132218 BCE in most chronologies), but specific events within individual years are difficult to date precisely. This event is assigned to -2405 by conventional chronology, but \u00b15 years is reasonable.",
+      "cross_references": []
+    },
+    {
+      "id": "-2405-002",
+      "title": "Egyptian Old Kingdom administrative continuity under Dynasty 6",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt under Dynasty 6 (likely Pepi II or a successor) maintains centralised bureaucratic control, though evidence suggests growing provincial autonomy and weakening of royal authority. Tomb inscriptions and administrative papyri document ongoing state functions, including taxation, military recruitment, and religious observance. This period marks the gradual transition toward the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (probable pharaoh, if chronology places him here)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from administrative archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom is debated; Pepi II's reign may span c. 2278\u20132184 BCE or c. 2246\u20132152 BCE depending on the chronological system used. Assignment to -2405 is conventional but uncertain by \u00b110\u201320 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2405-003",
+      "title": "Harappan mature phase urban centres in the Indus Valley",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Harappan civilisation is at its peak, with major urban centres such as Mohenjo-daro and Harappa functioning as administrative and trade hubs. Archaeological evidence shows sophisticated urban planning, standardised weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. No written records have been deciphered, so understanding of political or religious life remains limited.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and artefacts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan mature phase is well-dated by radiocarbon and stratigraphic evidence to c. 2500\u20131900 BCE. -2405 falls securely within this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's reign and the Egyptian Old Kingdom remains contested. Some scholars argue for a 'low chronology' that would place these events 100\u2013150 years later. The significance of Naram-Sin's campaigns is sometimes overstated in older historiography; recent scholarship emphasises the fragility of Akkadian control and the role of climate stress (the 4.2 ka event) in the empire's collapse, which may have begun earlier than previously thought. The Harappan civilisation's political structure and the nature of its decline remain poorly understood due to the undeciphered script.",
+  "historiographic_note": "This period is heavily dependent on Mesopotamian and Egyptian written sources, which are biased toward elite and state-sponsored narratives. The Akkadian sources celebrate Naram-Sin's military achievements but may exaggerate their extent. Egyptian sources are similarly state-centric. The Indus Valley civilisation is known almost entirely through archaeology, with no deciphered written records, making political and social interpretation highly speculative. Sub-Saharan Africa, northern Europe, and much of Asia are essentially invisible in the historical record for this year, not because nothing happened but because writing had not yet developed or been adopted in these regions.",
+  "graph_edges": [
+    {
+      "from": "-2405-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's imperial overreach contributed to the conditions that led to the Akkadian collapse c. 2200 BCE"
+    },
+    {
+      "from": "-2405-002",
+      "to": "-2180-001",
+      "relation": "led_to",
+      "note": "Gradual weakening of Dynasty 6 authority led to the First Intermediate Period"
+    }
+  ]
+}

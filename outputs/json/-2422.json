@@ -1,0 +1,115 @@
+{
+  "year": -2422,
+  "year_label": "2422 BCE",
+  "era_context": "The Old Kingdom of Egypt continues under Pepi II; the Akkad Empire remains dominant in Mesopotamia under Naram-Sin; the Mature Harappan civilization is at its height in the Indus Valley. This period represents the apex of several major civilizations, though underlying stresses (climate, resource depletion, political fragmentation) are accumulating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2422-001",
+      "title": "Akkad Empire military campaigns in Anatolia and the Levant",
+      "region": "Anatolia, Levant, Mesopotamia",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions record military campaigns against various Anatolian and Levantine populations. These campaigns are presented as victories, though the extent of actual territorial conquest and the duration of Akkadian control remain debated. The campaigns may have been motivated by the need to secure trade routes and access to resources (timber, metals, stone) unavailable in Mesopotamia.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and the Naram-Sin Stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are attested in contemporary inscriptions. However, the specific dating of individual campaigns to particular years is not possible from surviving sources. The extent of Akkadian control is debated by modern scholars.",
+      "cross_references": [
+        "-2424-001 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2422-002",
+      "title": "Harappan urban centers at peak population and development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The major Harappan cities (Mohenjo-daro, Harappa, Dholavira, Kalibangan) are fully developed and densely populated. Archaeological evidence suggests populations in the tens of thousands for major centers. The civilization is characterized by standardized urban planning, sophisticated water management systems, and extensive craft production (pottery, beads, textiles). The undeciphered script appears on seals and pottery, suggesting administrative and commercial functions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating of Harappan sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Mature Harappan phase is archaeologically well-attested. Absolute dating is based on radiocarbon analysis and stratigraphic correlation; the phase is conventionally dated c. 2600\u20131900 BCE.",
+      "cross_references": [
+        "-2424-002 (Harappan civilization)"
+      ]
+    },
+    {
+      "id": "-2422-003",
+      "title": "Egyptian expeditions to Nubia and the Levant",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "exploration",
+      "description": "During Pepi II's reign, Egyptian officials organize expeditions to Nubia (for gold, incense, ebony, and ivory) and the Levant (for cedar and other timber). These expeditions are documented in autobiographical inscriptions of officials such as Harkhuf and Sabni. The expeditions reflect Egypt's economic needs and its ability to project power and influence beyond its borders.",
+      "key_figures": [
+        "Harkhuf (Egyptian official)",
+        "Sabni (Egyptian official)",
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Harkhuf and Sabni",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Egyptian expeditions to Nubia and the Levant are well-attested in contemporary inscriptions. The specific dating of individual expeditions to particular years is not possible from surviving sources.",
+      "cross_references": [
+        "-2424-003 (Pepi II's reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Naram-Sin's military campaigns as evidence of sustained territorial empire is increasingly questioned; some scholars argue that Akkadian 'control' was more limited and that the empire was more of a trade network and sphere of influence than a centralized territorial state.",
+  "historiographic_note": "This year, like most ancient years, lacks specific documented events. The entries describe the general state of civilizations based on broader evidence. The historical record is heavily biased toward elite perspectives and monumental remains. The lives of the majority of the population\u2014farmers, craftspeople, slaves\u2014are largely invisible. Chronological precision is limited; absolute dating relies on radiocarbon analysis and cross-referencing with king lists, both of which have significant margins of error.",
+  "graph_edges": [
+    {
+      "from": "-2422-001",
+      "to": "-2422-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian military expansion and Harappan trade networks were contemporaneous"
+    },
+    {
+      "from": "-2422-003",
+      "to": "-2422-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian expeditions and Harappan trade were part of the same long-distance trade networks"
+    }
+  ]
+}
