@@ -1,0 +1,134 @@
+{
+  "year": -1466,
+  "year_label": "1467 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The Hittite Empire was consolidating control in Anatolia. The Mycenaean civilization was in its palatial period. The Shang Dynasty was in its mature phase. This period represents the height of Bronze Age international trade and diplomatic networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate)",
+    "Mesoamerica (limited dated monuments for this specific year)",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1466-001",
+      "title": "Thutmose III's administrative consolidation in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Thutmose III's reign was characterized by administrative efficiency and centralization of power. The pharaoh maintained tight control over provincial governors, the military, and the priesthood. A sophisticated bureaucracy managed taxation, military recruitment, and public works. The reign saw the accumulation of vast wealth from tribute and trade, which was reinvested in temple construction, military equipment, and administrative infrastructure.",
+      "key_figures": [
+        "Thutmose III (Pharaoh)",
+        "Vizier and provincial governors"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from administrative centers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Administrative systems are well-attested; specific annual events are less precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1466-002",
+      "title": "Hittite military campaigns in northern Syria",
+      "region": "Anatolia and northern Syria",
+      "coordinates_approx": "36.5, 36.5",
+      "category": "military",
+      "description": "The Hittite Empire conducted military campaigns to extend control over northern Syria and secure vassal relationships. These campaigns were documented in royal inscriptions and were part of a broader strategy to establish Hittite hegemony in the region. The Hittites used a combination of military force and diplomatic marriages to secure their position.",
+      "key_figures": [
+        "Hittite ruler (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and cuneiform texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology is debated; this period is assigned based on regnal sequences, with uncertainty of \u00b110\u201320 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1466-003",
+      "title": "Mycenaean maritime trade expansion",
+      "region": "Aegean and eastern Mediterranean",
+      "coordinates_approx": "38.0, 25.0",
+      "category": "economic",
+      "description": "Mycenaean merchants expanded their maritime trade networks throughout the eastern Mediterranean. Mycenaean pottery and goods reached Egypt, Cyprus, the Levant, and beyond. This period saw the development of standardized trade routes and the establishment of Mycenaean trading posts in foreign lands. The palatial economies of Mycenae, Tiryns, and Pylos benefited greatly from this trade.",
+      "key_figures": [
+        "Mycenaean merchants and palace administrators (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean sites and foreign locations",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records mentioning 'Keftiu'",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mycenaean trade is well-attested archaeologically; dating to this specific year is approximate.",
+      "cross_references": [
+        "-1467-003"
+      ]
+    },
+    {
+      "id": "-1466-004",
+      "title": "Shang Dynasty bronze technology and ritual",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "technological",
+      "description": "The Shang Dynasty had developed sophisticated bronze-working technology, producing ritual vessels, weapons, and ornaments of high quality. Bronze technology was a marker of elite status and was used in religious rituals and warfare. The Shang court maintained control over bronze production and distribution, using it as a tool of political power and religious authority.",
+      "key_figures": [
+        "Shang king and bronze craftspeople (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Anyang and other Shang sites (bronze vessels, molds)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions mentioning bronze and ritual",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang bronze technology is well-attested; dating to this specific year is approximate based on typology.",
+      "cross_references": [
+        "-1467-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Thutmose III's administrative control is sometimes overstated; evidence suggests more localized autonomy among provincial governors than centralized sources imply. Hittite chronology remains contested. Mycenaean trade networks may have been more fragmented than sometimes portrayed. Shang chronology is debated.",
+  "historiographic_note": "Egyptian sources are abundant but propagandistic. Hittite sources are relatively abundant but also propagandistic. Mycenaean evidence is primarily archaeological. Shang oracle bones provide unique insight but are biased toward elite concerns. The historical record is heavily skewed toward elite, monumental activity. Chronological precision for this year is limited.",
+  "graph_edges": [
+    {
+      "from": "-1466-001",
+      "to": "-1466-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Hittite empires were consolidating power simultaneously"
+    },
+    {
+      "from": "-1466-003",
+      "to": "-1466-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade goods reached Egypt during this period"
+    }
+  ]
+}

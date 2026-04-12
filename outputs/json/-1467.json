@@ -1,0 +1,140 @@
+{
+  "year": -1467,
+  "year_label": "1468 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III (c. 1479\u20131425 BCE). The Hittite Empire was consolidating power in Anatolia and northern Syria. The Mycenaean civilization was at the height of its palatial period. The Shang Dynasty controlled much of China. This period represents the mature phase of Bronze Age international relations, with established trade networks and diplomatic protocols.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse)",
+    "Northern Europe (pre-literate; no contemporary documentation)",
+    "Mesoamerica (limited dated monuments for this specific year)",
+    "Central Asia (limited written records; primarily archaeological)"
+  ],
+  "events": [
+    {
+      "id": "-1467-001",
+      "title": "Egyptian temple construction and religious activity",
+      "region": "Egypt (Thebes/Luxor region)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "religious",
+      "description": "Thutmose III continued an ambitious program of temple construction and renovation, particularly at Karnak and other Theban temples. These temples served as centers of religious ritual, administrative activity, and economic redistribution. The temples accumulated vast landholdings and employed thousands of workers. Religious festivals, particularly the Opet Festival, reinforced pharaonic legitimacy and social cohesion.",
+      "key_figures": [
+        "Thutmose III (Pharaoh)",
+        "High Priest of Amun"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs at Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Temple construction is well-attested; specific annual activities are less precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1467-002",
+      "title": "Mitanni-Egyptian diplomatic relations",
+      "region": "Levant and Mesopotamia",
+      "coordinates_approx": "36.0, 36.0",
+      "category": "political",
+      "description": "The Mitanni kingdom, centered in northern Mesopotamia, maintained a complex relationship with Egypt during this period. While Thutmose III's campaigns had reduced Mitanni influence in the Levant, the two powers coexisted in a balance of power. Diplomatic correspondence, gift exchange, and occasional military confrontations characterized their relationship. The Mitanni were known for their chariot technology and Indo-European elite.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Mitanni king (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions mentioning Mitanni",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Amarna Letters (14th century BCE) providing context",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mitanni-Egyptian relations are well-attested in general; specific events for this year are less precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1467-003",
+      "title": "Mycenaean palatial economy and craft production",
+      "region": "Aegean (Greece)",
+      "coordinates_approx": "37.7, 23.3",
+      "category": "economic",
+      "description": "The Mycenaean palaces at Mycenae, Tiryns, and Pylos were centers of intensive economic activity. Linear B tablets (though from a later period) document the redistribution of agricultural surplus, textile production, and craft specialization. The palatial economy was based on control of agricultural land, craft production, and long-distance trade. Mycenaean merchants and craftspeople maintained networks extending to Egypt, the Levant, and beyond.",
+      "key_figures": [
+        "Mycenaean palace rulers (names unknown from contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets (from later period, c. 1450\u20131200 BCE)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mycenaean economic structures are inferred from archaeological evidence and later Linear B tablets; dating to this specific year is approximate.",
+      "cross_references": [
+        "-1468-003"
+      ]
+    },
+    {
+      "id": "-1467-004",
+      "title": "Shang Dynasty military campaigns and oracle bone divination",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "military",
+      "description": "The Shang Dynasty conducted military campaigns against neighboring peoples and internal rivals. Oracle bone inscriptions document divination practices related to warfare, hunting, and agricultural concerns. The Shang king was both a military commander and a high priest, responsible for maintaining cosmic order through ritual and divination. Bronze weapons and chariots were increasingly used in warfare.",
+      "key_figures": [
+        "Shang king (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Anyang",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated; this period is assigned based on oracle bone typology, with uncertainty of \u00b120\u201350 years.",
+      "cross_references": [
+        "-1468-004"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Thutmose III's military campaigns is sometimes overstated in Egyptian sources; archaeological evidence from Levantine sites suggests more fragmented control and periodic rebellions than monumental texts imply. Mitanni power in this period may have been greater than Egyptian sources acknowledge. Mycenaean chronology remains debated, with some scholars proposing alternative dates. Shang chronology is similarly contested.",
+  "historiographic_note": "Egyptian sources are abundant but propagandistic. Levantine and Mitanni perspectives are largely absent. Mycenaean evidence is primarily archaeological; written records postdate this period. Shang oracle bones provide unique insight but are biased toward elite concerns. The historical record is heavily skewed toward elite, monumental activity and away from daily life or dissent. Chronological precision for this year is limited.",
+  "graph_edges": [
+    {
+      "from": "-1467-001",
+      "to": "-1467-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian temple construction and diplomatic activity were concurrent"
+    },
+    {
+      "from": "-1467-003",
+      "to": "-1467-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade goods reached Egypt during this period"
+    }
+  ]
+}

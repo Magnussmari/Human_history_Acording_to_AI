@@ -1,0 +1,111 @@
+{
+  "year": -1480,
+  "year_label": "1480 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign. The New Kingdom is at its height of territorial expansion. Mycenaean Greece is in the Late Helladic II period. The Hittite Empire controls Anatolia. In China, the Shang Dynasty is in its mature phase. This is an era of international trade networks, monumental architecture, and military consolidation across the Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse in training data)",
+    "Northern Europe (pre-literate societies; archaeological record incomplete)",
+    "Central Asia and the Steppe (limited contemporary documentation)",
+    "Mesoamerica (Maya civilization emerging; few dated monuments for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1480-001",
+      "title": "Thutmose III's Campaigns in the Levant",
+      "region": "Levant, Egypt",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III of Egypt continues his systematic military campaigns to consolidate Egyptian control over the Levantine territories. These campaigns, documented in the Annals of Thutmose III at Karnak, represent the peak of New Kingdom military expansion. The pharaoh's forces secure trade routes and vassal states, establishing Egyptian hegemony that will persist for decades. These campaigns are part of a broader strategy to counter Mitanni influence in the region.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Amenhotep II (co-regent or successor, depending on dating)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Thutmose III, Temple of Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and tribute lists",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The exact year of individual campaigns within Thutmose III's reign is debated; Egyptian chronology for this period has \u00b110\u201315 year uncertainty. This date is assigned by conventional Egyptological consensus but may shift with revised chronologies.",
+      "cross_references": [
+        "Related to broader Thutmose III military program spanning -1479 to -1450"
+      ]
+    },
+    {
+      "id": "-1480-002",
+      "title": "Mycenaean Palatial Consolidation in Greece",
+      "region": "Mainland Greece, Aegean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "The Mycenaean palace centers (Mycenae, Tiryns, Pylos) are at their height of architectural and administrative sophistication. Linear B administrative records indicate complex bureaucratic systems managing trade, labor, and religious offerings. This period marks the apex of Mycenaean palatial power before the Late Bronze Age collapse. The palaces function as centers of redistribution, craft production, and religious authority.",
+      "key_figures": [
+        "Unnamed Mycenaean rulers (names not preserved in Linear B records)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Knossos, Pylos, and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy and pottery chronology",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mycenaean chronology is tied to Egyptian synchronisms and radiocarbon dating. The Late Helladic II period is broadly dated to 1450\u20131400 BCE, but individual years within this span are not precisely datable from archaeological evidence alone.",
+      "cross_references": []
+    },
+    {
+      "id": "-1480-003",
+      "title": "Shang Dynasty Ritual and Administrative Activity",
+      "region": "China, Yellow River Valley",
+      "coordinates_approx": "34.5, 114.0",
+      "category": "cultural",
+      "description": "The Shang Dynasty in China continues its mature phase of development. Oracle bone inscriptions from this period record divination practices, royal hunts, and administrative decisions. The Shang court at Anyang is a center of bronze-working, writing, and ritual practice. This era represents the height of early Chinese civilization before the Zhou conquest.",
+      "key_figures": [
+        "Shang kings (specific names uncertain for this year; possibly late reign of a mid-Shang ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (jiaguwen)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Anyang excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is highly contested. Traditional Chinese dating places the Shang dynasty 1766\u20131122 BCE, but modern scholarship suggests 1600\u20131046 BCE or even later. Individual years within the Shang period are not precisely datable. This entry reflects the era rather than a specific dated event.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thutmose III's reign and campaigns is subject to ongoing scholarly debate. Some Egyptologists argue for a 'low chronology' that would place these events 50\u2013100 years later than traditional dating. The synchronism between Egyptian and Aegean chronologies remains contested, with implications for dating Mycenaean events to this year. Shang chronology is particularly disputed; some scholars place the Shang dynasty entirely in the second millennium BCE, while others argue for dates extending into the first millennium. The assumption that these three civilizations were contemporaneous at this specific year depends on chronological frameworks that are themselves under revision.",
+  "historiographic_note": "Documentation for 1480 BCE is heavily skewed toward literate civilizations with monumental records: Egypt, the Hittite Empire, and China. The Mycenaean world is known primarily through archaeology and Linear B administrative texts, which do not provide year-by-year narrative. Sub-Saharan Africa, the Americas, and much of Asia are either undocumented or known only through later sources. Egyptian chronology, which anchors much of Bronze Age dating, has inherent uncertainties of \u00b110\u201315 years for this period. The 'high chronology' and 'low chronology' debates in Egyptology create systematic uncertainty across the entire Bronze Age. Surviving sources are heavily weighted toward elite, monumental, and religious activities; the lives of ordinary people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1480-001",
+      "to": "-1479-001",
+      "relation": "part_of",
+      "note": "Thutmose III's campaigns are a multi-year program of military consolidation"
+    },
+    {
+      "from": "-1480-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean palatial consolidation eventually leads to the Late Bronze Age collapse"
+    }
+  ]
+}

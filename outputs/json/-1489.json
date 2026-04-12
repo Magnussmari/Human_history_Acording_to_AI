@@ -1,0 +1,85 @@
+{
+  "year": -1489,
+  "year_label": "1490 BCE",
+  "era_context": "Late Bronze Age (LBA) in the Eastern Mediterranean and Near East. The New Kingdom of Egypt under the 18th Dynasty (Ahmose I and successors) is consolidating power after expulsion of the Hyksos. Mycenaean Greece is in the Late Helladic II period. The Hittite Empire is in its Old Kingdom phase. Shang Dynasty continues in China. This is a period of intensive inter-regional trade, chariot warfare, and palace-centered economies.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "Mesoamerica (limited chronological precision for this era)",
+    "Pacific Islands (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-1489-001",
+      "title": "Ahmose I consolidates Egyptian control over Nubia and the Levant",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "25.0,31.0",
+      "category": "military",
+      "description": "Following the expulsion of the Hyksos (c. 1550 BCE), Ahmose I and his successors undertake military campaigns to secure Egypt's southern and northeastern borders. By this period, Egyptian control over Nubian gold sources and Levantine trade routes is being actively enforced through military garrisons and administrative reorganization. These campaigns establish the territorial foundation of the New Kingdom's imperial system.",
+      "key_figures": [
+        "Ahmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Ahmose, son of Ebana - Autobiographical inscription at El-Kab",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Karnak Temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Nubian fortresses",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ahmose I's reign is dated c. 1550\u20131525 BCE by most Egyptologists, but precise year-by-year chronology for individual campaigns is uncertain. This event is assigned to -1489 by conventional periodization but may have occurred \u00b110 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1489-002",
+      "title": "Mycenaean palatial centers in Greece show evidence of increased wealth and trade",
+      "region": "Mainland Greece",
+      "coordinates_approx": "37.5,23.0",
+      "category": "economic",
+      "description": "Archaeological evidence from sites such as Mycenae, Tiryns, and Pylos shows that by the mid-15th century BCE, Mycenaean palaces are accumulating significant wealth through maritime trade with Egypt, the Levant, and Anatolia. Pottery, metals, and luxury goods circulate widely. This period marks the beginning of Mycenaean dominance in the Aegean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mycenae, Tiryns, and Pylos",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Pottery typology and stratigraphy (Late Helladic II)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Material evidence is abundant and well-stratified. Dating to LH II (c. 1500\u20131400 BCE) is secure, though assignment to -1489 specifically is conventional.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Ahmose I's reign and individual campaigns remains debated. Some scholars place key military actions earlier (c. 1550 BCE) or later (c. 1520 BCE). The 'Hyksos expulsion' narrative, long treated as a unified historical event, is now understood by many scholars as a more gradual process of political fragmentation and Egyptian reassertion rather than a single military conquest. The dating of Mycenaean LH II is also subject to ongoing refinement based on radiocarbon and dendrochronological evidence.",
+  "historiographic_note": "This period is heavily dependent on Egyptian administrative and temple records, which are biased toward royal military achievements and religious activities. Nubian and Levantine perspectives are largely absent from surviving texts. Mycenaean history relies almost entirely on archaeology, as Linear B tablets postdate this period. The chronology of the Late Bronze Age remains contested, with 'high' and 'low' chronologies differing by up to 50\u2013100 years. This entry reflects conventional 'middle' chronology but should be treated as approximate.",
+  "graph_edges": [
+    {
+      "from": "-1489-001",
+      "to": "-1450-001",
+      "relation": "led_to",
+      "note": "Ahmose's consolidation of Egyptian power establishes the territorial basis for the 18th Dynasty's imperial expansion under Thutmose III"
+    },
+    {
+      "from": "-1489-002",
+      "to": "-1400-001",
+      "relation": "led_to",
+      "note": "Mycenaean wealth accumulation in LH II leads to palace construction and Linear B administration in LH III"
+    }
+  ]
+}
