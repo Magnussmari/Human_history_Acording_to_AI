@@ -1,0 +1,114 @@
+{
+  "year": -2513,
+  "year_label": "2513 BCE",
+  "era_context": "Continuation of the Old Kingdom in Egypt (6th Dynasty), the Akkadian Empire under Naram-Sin in Mesopotamia, and the mature Harappan civilization in the Indus Valley. This is a period of high state centralization, monumental architecture, and long-distance trade, though environmental stress (particularly drought in the Near East) is beginning to accumulate.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2513-001",
+      "title": "Continued Old Kingdom administration \u2014 Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The 6th Dynasty pharaoh continues administrative and military operations. Tomb inscriptions from this period document expeditions to Nubia (Kush) for gold, ivory, and incense, and to the Levant for cedar and other resources. The decentralization of power to provincial governors (nomarchs) continues, a trend that will eventually undermine central authority. Pyramid construction continues but at a reduced scale compared to earlier dynasties.",
+      "key_figures": [
+        "Pepi II or Pepi I (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative papyri from Saqqara",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Year-to-year events are not individually documented; this represents the broader reign context.",
+      "cross_references": [
+        "Continuation of -2514-001"
+      ]
+    },
+    {
+      "id": "-2513-002",
+      "title": "Akkadian military campaigns \u2014 Naram-Sin consolidation",
+      "region": "Mesopotamia, Levant, Zagros",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Naram-Sin's military campaigns continue to expand and consolidate Akkadian control. Inscriptions document campaigns against the Lullubi (Zagros Mountains), the Martu (Amorites), and other groups. The empire's administrative apparatus is refined, with Akkadian language and cuneiform script imposed on conquered territories. However, paleoclimatic evidence suggests increasing aridity in the region, which will eventually strain the empire's agricultural base.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paleoclimatic records (ice cores, tree rings)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested; specific year-to-year events are not individually dated.",
+      "cross_references": [
+        "Continuation of -2514-002"
+      ]
+    },
+    {
+      "id": "-2513-003",
+      "title": "Harappan trade networks \u2014 Indus Valley",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Harappan civilization maintains extensive trade networks. Seals and weights found in Mesopotamian sites (Ur, Lagash) and the Persian Gulf (Dilmun) attest to regular exchange of goods. Indus Valley products (carnelian, lapis lazuli, cotton textiles) are traded for Mesopotamian tin, cedar, and other resources. The standardization of weights and measures facilitates this trade. No evidence of military conquest or political domination; trade appears to be conducted through merchant networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Harappan seals found in Mesopotamian contexts (Ur, Lagash, Nippur)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Standardized weights and measures from Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-attested through archaeological evidence; specific year-to-year fluctuations are not documented.",
+      "cross_references": [
+        "Continuation of -2514-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for this year; the broader chronological and interpretive issues noted for -2514 apply here as well.",
+  "historiographic_note": "This year is not individually documented in surviving sources. The events listed represent the continuation of broader trends from -2514. Year-to-year history is not recoverable for this period; only reign-level or era-level patterns can be discerned.",
+  "graph_edges": [
+    {
+      "from": "-2514-001",
+      "to": "-2513-001",
+      "relation": "led_to",
+      "note": "Continuation of 6th Dynasty reign"
+    },
+    {
+      "from": "-2514-002",
+      "to": "-2513-002",
+      "relation": "led_to",
+      "note": "Continuation of Akkadian expansion"
+    },
+    {
+      "from": "-2514-003",
+      "to": "-2513-003",
+      "relation": "led_to",
+      "note": "Continuation of Harappan trade networks"
+    }
+  ]
+}

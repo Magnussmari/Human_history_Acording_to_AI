@@ -1,0 +1,110 @@
+{
+  "year": -2512,
+  "year_label": "2512 BCE",
+  "era_context": "The Old Kingdom of Egypt (6th Dynasty) continues its gradual decline in centralized authority. The Akkadian Empire under Naram-Sin remains at its territorial height but faces increasing environmental stress. The Harappan civilization continues its mature phase. This period is characterized by the persistence of established political and economic systems, though underlying pressures (drought, decentralization) are building.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2512-001",
+      "title": "Old Kingdom Egypt \u2014 nomarch power consolidation",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The 6th Dynasty pharaoh's authority continues to be diluted by the growing power of provincial governors (nomarchs). Tomb inscriptions from nomarchs in Upper Egypt (Aswan, Abydos) document their independent military expeditions and trade missions, suggesting a shift toward regional autonomy. The central government's ability to mobilize labor for monumental projects remains intact but is declining. This decentralization will accelerate after the 6th Dynasty's end.",
+      "key_figures": [
+        "Pepi II or Pepi I (Pharaoh)",
+        "Regional nomarchs (names not individually documented for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch tomb inscriptions from Aswan, Abydos, and other Upper Egyptian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The trend of nomarch empowerment is well-documented; specific year-to-year events are not individually dated.",
+      "cross_references": [
+        "Part of broader 6th Dynasty decline"
+      ]
+    },
+    {
+      "id": "-2512-002",
+      "title": "Akkadian Empire \u2014 environmental stress and military strain",
+      "region": "Mesopotamia, Levant, Zagros",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, tree rings, lake sediments) indicates increasing aridity in the Near East during this period. The Akkadian Empire's agricultural base is beginning to suffer. Military campaigns continue, but the empire is overextended. Naram-Sin's inscriptions boast of victories, but the underlying economic strain is evident in administrative texts. This environmental stress will contribute significantly to the empire's collapse within a few decades.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Paleoclimatic records (ice cores from Greenland, tree rings, lake sediments from the Near East)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative texts documenting resource allocation",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Paleoclimatic evidence is well-established; the causal link to the Akkadian collapse is scholarly consensus but not directly documented in contemporary sources.",
+      "cross_references": [
+        "Precedes Akkadian collapse (c. 2154 BCE)"
+      ]
+    },
+    {
+      "id": "-2512-003",
+      "title": "Harappan civilization \u2014 continued urban development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Harappan civilization continues its mature phase. Archaeological evidence from this period shows continued urban development, craft specialization, and trade. No major changes in settlement patterns or material culture are evident. The civilization appears stable and prosperous, with no signs of the decline that will occur around 1900 BCE. The undeciphered script continues to be used on seals and pottery.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites (Mohenjo-daro, Harappa, Dholavira)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's continued stability during this period is well-attested archaeologically.",
+      "cross_references": [
+        "Part of broader mature Harappan phase"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for this year.",
+  "historiographic_note": "This year is not individually documented. The events listed represent broader trends. The Akkadian collapse is sometimes attributed to a specific 'Akkad Event' (a severe drought around 2200 BCE), but recent scholarship suggests a more gradual process of environmental stress and military overextension spanning several decades.",
+  "graph_edges": [
+    {
+      "from": "-2513-001",
+      "to": "-2512-001",
+      "relation": "led_to",
+      "note": "Continuation of nomarch empowerment"
+    },
+    {
+      "from": "-2513-002",
+      "to": "-2512-002",
+      "relation": "led_to",
+      "note": "Continuation of Akkadian military campaigns and environmental stress"
+    },
+    {
+      "from": "-2512-002",
+      "to": "-2154-001",
+      "relation": "led_to",
+      "note": "Environmental stress contributes to Akkadian collapse"
+    }
+  ]
+}

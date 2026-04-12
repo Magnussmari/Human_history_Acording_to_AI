@@ -1,0 +1,108 @@
+{
+  "year": -2511,
+  "year_label": "2511 BCE",
+  "era_context": "The Old Kingdom of Egypt (6th Dynasty) is in its final decades. The Akkadian Empire under Naram-Sin is at its territorial peak but facing mounting environmental and military pressures. The Harappan civilization remains stable. This is a transitional period: the established order is beginning to fracture, though the full consequences will not be apparent for another 50\u2013100 years.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2511-001",
+      "title": "Old Kingdom Egypt \u2014 late 6th Dynasty administration",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The 6th Dynasty pharaoh (likely Pepi II in the traditional chronology, though this is debated) continues to rule, but central authority is visibly weakening. Tomb inscriptions from this period show nomarchs conducting independent military and trade expeditions. The construction of royal pyramids continues but is increasingly modest. Administrative papyri suggest that the central government's control over taxation and labor mobilization is declining. The stage is set for the First Intermediate Period, which will follow the 6th Dynasty's end.",
+      "key_figures": [
+        "Pepi II (Pharaoh, traditional chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative papyri from Saqqara and other sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The 6th Dynasty's chronology and the identity of its later pharaohs are debated. This year is assigned within the broader reign context.",
+      "cross_references": [
+        "Precedes First Intermediate Period (c. 2184 BCE)"
+      ]
+    },
+    {
+      "id": "-2511-002",
+      "title": "Akkadian Empire \u2014 Naram-Sin's reign continuation",
+      "region": "Mesopotamia, Levant, Zagros",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin continues to rule the Akkadian Empire. His inscriptions document military campaigns and administrative activities, but the empire is under increasing strain. Paleoclimatic evidence indicates continued aridity. The empire's territorial extent is at its maximum, but the cost of maintaining control over distant regions is rising. Internal administrative texts suggest resource scarcity and logistical challenges. The empire will collapse within a few decades, likely due to a combination of environmental stress, military overextension, and internal rebellion.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paleoclimatic records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested; specific year-to-year events are not individually documented.",
+      "cross_references": [
+        "Precedes Akkadian collapse (c. 2154 BCE)"
+      ]
+    },
+    {
+      "id": "-2511-003",
+      "title": "Harappan civilization \u2014 mature phase stability",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Harappan civilization continues its mature phase without apparent disruption. Urban centers remain fully developed and prosperous. Trade networks continue to function. Archaeological evidence shows no signs of decline or major social upheaval. The civilization will remain stable for another 400 years before beginning its gradual decline around 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's stability during this period is well-attested archaeologically.",
+      "cross_references": [
+        "Part of broader mature Harappan phase"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for this year.",
+  "historiographic_note": "This year is not individually documented in surviving sources. The events listed represent broader trends. The chronology of the late Old Kingdom and Akkadian Empire remains contested among scholars.",
+  "graph_edges": [
+    {
+      "from": "-2512-001",
+      "to": "-2511-001",
+      "relation": "led_to",
+      "note": "Continuation of 6th Dynasty decline"
+    },
+    {
+      "from": "-2512-002",
+      "to": "-2511-002",
+      "relation": "led_to",
+      "note": "Continuation of Akkadian strain"
+    }
+  ]
+}

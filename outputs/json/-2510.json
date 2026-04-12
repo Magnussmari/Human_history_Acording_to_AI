@@ -1,0 +1,115 @@
+{
+  "year": -2510,
+  "year_label": "2510 BCE",
+  "era_context": "The Old Kingdom of Egypt (6th Dynasty) is in its final phase. The Akkadian Empire under Naram-Sin remains powerful but is facing severe environmental and military pressures. The Harappan civilization is stable and prosperous. This is a period of apparent stability masking underlying structural crises that will erupt within a few decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2510-001",
+      "title": "Old Kingdom Egypt \u2014 6th Dynasty late reign",
+      "region": "Egypt",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The 6th Dynasty pharaoh continues to rule, but the centralization that characterized the Old Kingdom is visibly eroding. Nomarchs in Upper Egypt are increasingly autonomous. The royal court's ability to command resources and labor is declining. Pyramid construction continues but is modest compared to earlier dynasties. Within a few decades, the 6th Dynasty will end, and Egypt will enter the First Intermediate Period, a time of political fragmentation and reduced monumental activity.",
+      "key_figures": [
+        "Pepi II (Pharaoh, traditional chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The 6th Dynasty's chronology is debated; this year is assigned within the broader reign context.",
+      "cross_references": [
+        "Precedes First Intermediate Period (c. 2184 BCE)"
+      ]
+    },
+    {
+      "id": "-2510-002",
+      "title": "Akkadian Empire \u2014 Naram-Sin's reign (final decades)",
+      "region": "Mesopotamia, Levant, Zagros",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin's reign is in its final phase (he will die around 2218 BCE in traditional chronology). The Akkadian Empire is at its territorial maximum but is under severe strain. Paleoclimatic evidence indicates a major drought event (the '4.2 ka event' or 'Akkad Event') is occurring or imminent. Military campaigns continue, but the empire's agricultural base is failing. Inscriptions from this period show signs of desperation: the pharaoh claims divine status and boasts of victories, but the underlying reality is one of crisis. The empire will collapse within a few decades of Naram-Sin's death.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Paleoclimatic records (ice cores, tree rings, lake sediments)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested; the dating of the 'Akkad Event' is debated (estimates range from 2250\u20132150 BCE).",
+      "cross_references": [
+        "Precedes Akkadian collapse (c. 2154 BCE)"
+      ]
+    },
+    {
+      "id": "-2510-003",
+      "title": "Harappan civilization \u2014 mature phase peak",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Harappan civilization is at the height of its mature phase. Urban centers are fully developed and prosperous. Trade networks span from the Persian Gulf to Central Asia. Craft specialization is highly developed. The undeciphered script is widely used. Archaeological evidence shows no signs of decline or disruption. The civilization will remain stable for another 400 years before beginning its gradual decline.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's stability and prosperity during this period are well-attested archaeologically.",
+      "cross_references": [
+        "Part of broader mature Harappan phase"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the 'Akkad Event' (the severe drought that contributed to the Akkadian collapse) is debated. Some scholars place it around 2200 BCE, others around 2150 BCE. Recent scholarship suggests the collapse was a gradual process rather than a sudden catastrophe. The Harappan civilization's decline (c. 1900 BCE) is sometimes attributed to environmental stress, but the specific causes remain debated; some scholars argue for drought, others for tectonic activity or changes in monsoon patterns.",
+  "historiographic_note": "This year is not individually documented in surviving sources. The events listed represent broader trends. The chronology of the late Old Kingdom and Akkadian Empire remains contested. The Harappan script remains undeciphered, limiting understanding of political and ideological developments. The 'Akkad Event' is a scholarly construct based on paleoclimatic evidence; it is not directly documented in contemporary sources.",
+  "graph_edges": [
+    {
+      "from": "-2511-001",
+      "to": "-2510-001",
+      "relation": "led_to",
+      "note": "Continuation of 6th Dynasty decline"
+    },
+    {
+      "from": "-2511-002",
+      "to": "-2510-002",
+      "relation": "led_to",
+      "note": "Continuation of Akkadian crisis"
+    },
+    {
+      "from": "-2510-002",
+      "to": "-2154-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire's collapse follows within a few decades"
+    },
+    {
+      "from": "-2510-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "6th Dynasty's end leads to First Intermediate Period"
+    }
+  ]
+}
