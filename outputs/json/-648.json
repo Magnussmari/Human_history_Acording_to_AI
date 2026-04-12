@@ -1,0 +1,112 @@
+{
+  "year": -648,
+  "year_label": "648 BCE",
+  "era_context": "The mid-7th century BCE continues with Ashurbanipal's reign at its height. The Neo-Assyrian Empire dominates the Near East, though internal strains are beginning to emerge. In Greece, the archaic period progresses with ongoing polis development and colonisation. Egypt under Psamtik I is gradually reasserting independence from Assyrian overlordship. China's Spring and Autumn period continues with interstate competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and steppes",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-648-001",
+      "title": "Ashurbanipal's military consolidation and library construction",
+      "region": "Assyrian Empire, Mesopotamia",
+      "coordinates_approx": "36.3, 43.1",
+      "category": "cultural",
+      "description": "Ashurbanipal continues his reign with both military campaigns and cultural patronage. Around this period (mid-reign), he undertakes the construction and curation of the famous library at Nineveh, one of the earliest systematically organised libraries in the ancient world. This library preserves thousands of cuneiform tablets and fragments, including the Epic of Gilgamesh, scientific texts, and administrative records. The library reflects Ashurbanipal's ambition to centralise knowledge and legitimise Assyrian rule through cultural authority.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Library of Ashurbanipal at Nineveh (excavated 19th\u201320th centuries)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions of Ashurbanipal",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The library's construction and curation occurred during Ashurbanipal's reign (668\u2013627 BCE). The precise dating of individual acquisitions to 648 BCE is not possible; the library was built and expanded over many years.",
+      "cross_references": []
+    },
+    {
+      "id": "-648-002",
+      "title": "Psamtik I consolidates Egyptian independence",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Psamtik I (r. 664\u2013610 BCE), founder of the 26th Dynasty, continues his policy of gradually reducing Assyrian influence in Egypt. By 648 BCE, Psamtik has consolidated control over Upper and Lower Egypt and is beginning to reassert Egyptian autonomy in foreign policy. He employs Greek mercenaries and maintains diplomatic relations with other powers to counterbalance Assyrian hegemony. This period marks the beginning of the Saite Renaissance, a cultural and economic revival.",
+      "key_figures": [
+        "Psamtik I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian historical records, temple inscriptions, and later Greek historians (Herodotus)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories (Book II)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Psamtik I's reign is well-documented; the process of Egyptian reassertion is inferred from the broader pattern of his reign and later historical accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "-648-003",
+      "title": "Greek archaic pottery and artistic development",
+      "region": "Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "The mid-7th century BCE is a period of significant artistic innovation in Greece. By 648 BCE, the Orientalising style in pottery is well-established, reflecting contact with Near Eastern and Egyptian artistic traditions. Greek artisans are developing new techniques in black-figure pottery, which will dominate the 6th century. This artistic development reflects both increased trade and cultural exchange with the Near East and the growing wealth and sophistication of Greek city-states.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pottery and artistic remains",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from art historical analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pottery styles are well-dated through archaeological stratigraphy and typological analysis. The Orientalising period is firmly established in the mid-7th century BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the Library of Ashurbanipal's construction and curation remains debated. Some scholars argue that the library was assembled over a longer period than traditionally assumed, with acquisitions continuing into the final years of Ashurbanipal's reign. The extent of Psamtik I's actual independence from Assyria in 648 BCE is uncertain; some scholars argue that nominal Assyrian overlordship persisted longer than others suggest. The significance of Greek artistic development in 648 BCE specifically is difficult to assess; the broader Orientalising movement is undisputed, but precise dating of individual developments is approximate.",
+  "historiographic_note": "The historical record for 648 BCE is dominated by Assyrian sources (royal inscriptions and archaeological evidence from Nineveh) and later Greek and Egyptian sources. The Assyrian record emphasises military and cultural achievements. Egyptian sources are limited for this period. Greek sources are primarily archaeological (pottery and artistic remains) supplemented by much later literary accounts. The record is heavily weighted toward elite activities (royal courts, artistic patronage) and underrepresents economic, social, and demographic dimensions.",
+  "graph_edges": [
+    {
+      "from": "-648-001",
+      "to": "-627-001",
+      "relation": "part_of",
+      "note": "Library construction and curation continues throughout Ashurbanipal's reign"
+    },
+    {
+      "from": "-648-002",
+      "to": "-610-001",
+      "relation": "part_of",
+      "note": "Psamtik I's consolidation of Egyptian independence continues until his death in 610 BCE"
+    },
+    {
+      "from": "-648-003",
+      "to": "-600-001",
+      "relation": "led_to",
+      "note": "Archaic Greek artistic development leads to the flourishing of black-figure pottery in the 6th century"
+    }
+  ]
+}

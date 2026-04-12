@@ -1,0 +1,85 @@
+{
+  "year": -629,
+  "year_label": "629 BCE",
+  "era_context": "The late Archaic period in Greece; the Neo-Babylonian Empire under Nabopolassar consolidating power in Mesopotamia; the Zhou Dynasty in its Spring and Autumn period in China; the Iron Age in the Mediterranean and Near East. This is a transitional era marked by the rise of city-states in Greece, the decline of Assyrian hegemony, and the emergence of new imperial powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "South America"
+  ],
+  "events": [
+    {
+      "id": "-629-001",
+      "title": "Nabopolassar consolidates Neo-Babylonian control over southern Mesopotamia",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Nabopolassar, founder of the Neo-Babylonian Empire, continues his consolidation of power in southern Mesopotamia following his revolt against Assyrian rule (626 BCE). By 629 BCE, he has secured control of key cities and is establishing the administrative and military infrastructure that will define the Neo-Babylonian state. This period marks the effective end of Assyrian dominance in the region, though final military conflicts continue.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle provides near-contemporary documentation of Nabopolassar's reign, though the chronicle was compiled after events. Dating to specific years in this period carries \u00b11\u20132 year uncertainty due to calendar conversion and chronicle compilation practices.",
+      "cross_references": [
+        "-626-001"
+      ]
+    },
+    {
+      "id": "-629-002",
+      "title": "Possible early activity of Thales of Miletus",
+      "region": "Ionia (Asia Minor)",
+      "coordinates_approx": "37.7, 27.3",
+      "category": "scientific",
+      "description": "Thales of Miletus, traditionally dated to the mid-7th century BCE, may have been active during this period, though his exact dates are highly uncertain. He is credited with early work in geometry, astronomy, and natural philosophy, and is often considered the first Greek philosopher. However, biographical details are sparse and largely legendary.",
+      "key_figures": [
+        "Thales of Miletus (Philosopher)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Metaphysics",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "No contemporary sources document Thales' life. All biographical information derives from sources written centuries later. His floruit is traditionally placed around 585 BCE (the date of a solar eclipse he allegedly predicted), but this dating is itself uncertain and may be conventional rather than historical.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Thales to the 6th century BCE is based partly on Herodotus's account of his prediction of a solar eclipse in 585 BCE, but modern scholarship questions whether Thales actually made this prediction or whether the attribution is legendary. The exact chronology of Nabopolassar's early reign is debated; some scholars place key consolidation events slightly earlier or later based on different interpretations of the Babylonian Chronicle.",
+  "historiographic_note": "Documentation for 629 BCE is heavily skewed toward Mesopotamia and the Near East, where cuneiform chronicles and later compilations provide a framework. Greek history of this period is known primarily through later literary sources (Herodotus, Diogenes La\u00ebrtius) written 200+ years after events, making contemporary verification impossible. Chinese, Indian, and African history for this year are essentially undocumented in surviving sources accessible to this research. The Babylonian Chronicle is the most reliable source but was compiled after the events it describes.",
+  "graph_edges": [
+    {
+      "from": "-629-001",
+      "to": "-626-001",
+      "relation": "part_of",
+      "note": "Nabopolassar's consolidation is part of the broader Neo-Babylonian rise that began with his revolt in 626 BCE"
+    },
+    {
+      "from": "-629-002",
+      "to": "-585-001",
+      "relation": "led_to",
+      "note": "Thales' early philosophical work (if dated to this period) contributed to the development of Greek natural philosophy that flourished in the 6th century BCE"
+    }
+  ]
+}

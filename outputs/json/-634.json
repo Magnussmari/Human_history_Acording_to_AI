@@ -1,0 +1,71 @@
+{
+  "year": -634,
+  "year_label": "634 BCE",
+  "era_context": "The late Archaic period in Greece; the height of Lydia's power under Alyattes II in Anatolia; the Neo-Babylonian Empire consolidating control under Nabopolassar in Mesopotamia; the early Iron Age in the Levant with Phoenician expansion; the Zhou Dynasty in its Spring and Autumn period in China, marked by fragmentation into competing states.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (no written records; archaeological evidence limited)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-634-001",
+      "title": "Alyattes II campaigns against Ionia",
+      "region": "Lydia and Ionian Greek city-states (modern Turkey)",
+      "coordinates_approx": "38.5, 27.5",
+      "category": "military",
+      "description": "Alyattes II of Lydia continues military campaigns against the Ionian Greek cities, particularly Miletus, as part of Lydia's expansion toward the Aegean coast. These campaigns represent the growing pressure of the Lydian Empire on Greek settlements and mark a period of significant military and economic competition. The conflict would shape Greek-Anatolian relations for decades and eventually contribute to the rise of Persian dominance in the region.",
+      "key_figures": [
+        "Alyattes II (King of Lydia)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book 1)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus wrote ~200 years after these events. The chronology of Alyattes' reign is debated; dates range from c. 619\u2013560 BCE. Assignment to 634 BCE is approximate based on traditional chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-634-002",
+      "title": "Nabopolassar consolidates Neo-Babylonian control",
+      "region": "Mesopotamia (Babylon and surrounding territories)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Nabopolassar, founder of the Neo-Babylonian Empire, continues consolidation of power in southern Mesopotamia after his accession around 626 BCE. By this period, he has secured Babylon and is establishing the administrative and military structures that will define the empire. His reign marks the restoration of Babylonian independence after Assyrian domination.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nabopolassar's reign is well-attested in cuneiform sources, though specific events in individual years are sometimes grouped. The year 634 BCE falls within his early consolidation period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Alyattes II's reign remains disputed among scholars. Some modern chronologies place his reign later (c. 600\u2013560 BCE) rather than the traditional dating used here. The significance of individual campaigns against Ionia is also debated\u2014some scholars view them as part of broader Lydian expansion rather than as distinct annual events.",
+  "historiographic_note": "Documentation for 634 BCE is heavily dependent on later Greek historians (Herodotus, Diodorus) writing 150\u2013300 years after events, and on cuneiform sources from Mesopotamia. Greek sources are notoriously unreliable for precise chronology in this period. Mesopotamian sources are more contemporary but focus on major political events rather than year-by-year narratives. The record is heavily weighted toward major powers (Lydia, Babylon) and neglects peripheral regions.",
+  "graph_edges": [
+    {
+      "from": "-634-001",
+      "to": "-546-001",
+      "relation": "led_to",
+      "note": "Lydian-Greek conflicts eventually culminate in Persian conquest of Lydia under Cyrus II"
+    }
+  ]
+}

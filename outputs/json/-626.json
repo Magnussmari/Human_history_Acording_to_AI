@@ -1,0 +1,102 @@
+{
+  "year": -626,
+  "year_label": "626 BCE",
+  "era_context": "The late Archaic period in Greece; the beginning of the Neo-Babylonian Empire; the Zhou Dynasty in China's Spring and Autumn period. This year marks a pivotal moment in Near Eastern history: the collapse of Assyrian hegemony and the rise of Babylon as the dominant regional power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "South America",
+    "East Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-626-001",
+      "title": "Nabopolassar becomes king of Babylon and founds the Neo-Babylonian Empire",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Nabopolassar, a Chaldean general, seizes the throne of Babylon in 626 BCE and declares himself king, initiating the Neo-Babylonian Empire. He immediately begins a campaign to free Babylon from Assyrian vassalage and to expand Babylonian power. This marks the beginning of one of the most significant empires of the ancient world, which will reach its zenith under Nebuchadnezzar II. Nabopolassar's rise is facilitated by the death of Ashurbanipal and the subsequent fragmentation of Assyrian power.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Nabopolassar in 626 BCE is well-attested in the Babylonian Chronicle and later sources. This is one of the most securely dated events of the period, though the chronicle itself was compiled after the events.",
+      "cross_references": [
+        "-627-001"
+      ]
+    },
+    {
+      "id": "-626-002",
+      "title": "Possible solar eclipse observed in Greece (traditional dating of Thales' prediction)",
+      "region": "Greece and the Mediterranean",
+      "coordinates_approx": "39.0, 21.0",
+      "category": "scientific",
+      "description": "According to Herodotus, Thales of Miletus predicted a solar eclipse that occurred in 585 BCE. However, some scholars have suggested that the eclipse may have occurred in 626 BCE instead, based on astronomical calculations. If this alternative dating is correct, it would place Thales' prediction in 626 BCE. However, this remains highly speculative, and the traditional dating to 585 BCE is more widely accepted.",
+      "key_figures": [
+        "Thales of Miletus (Philosopher)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The eclipse prediction is attested only in Herodotus, writing 200+ years after the alleged event. The traditional dating to 585 BCE is based on astronomical calculations, but alternative datings have been proposed. The historicity of the prediction itself is disputed.",
+      "cross_references": []
+    },
+    {
+      "id": "-626-003",
+      "title": "Continued decline and fragmentation of the Assyrian Empire",
+      "region": "Assyria and the Near East",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Following the death of Ashurbanipal (627 or 626 BCE), the Assyrian Empire enters a period of rapid decline. Civil war, succession disputes, and external pressures from Babylon and Media lead to the fragmentation of Assyrian power. By 626 BCE, Assyria is no longer the dominant power in the Near East, and its final collapse will occur within a decade.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of Assyria following Ashurbanipal's death is well-attested in multiple sources. The general trajectory is clear, though specific events and dates may vary by \u00b11\u20132 years.",
+      "cross_references": [
+        "-627-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Ashurbanipal's death (627 or 626 BCE) affects the chronology of Assyrian decline. Some scholars place the beginning of Nabopolassar's reign in 625 BCE rather than 626 BCE, based on different interpretations of the Babylonian Chronicle. The alternative dating of Thales' eclipse prediction to 626 BCE is not widely accepted and remains speculative. The traditional dating to 585 BCE is more firmly established, though even this is subject to debate.",
+  "historiographic_note": "The year 626 BCE is one of the better-documented years in this period, primarily due to the Babylonian Chronicle, which provides a framework for Near Eastern chronology. However, the chronicle was compiled after the events and is subject to interpretation. Greek sources are absent for this year. Chinese, Indian, and African history are undocumented. The historical record is heavily biased toward Mesopotamian political and military history; economic, cultural, and social developments are largely invisible. The reliability of the Babylonian Chronicle has been debated, and some scholars have proposed revisions to its chronology based on new evidence.",
+  "graph_edges": [
+    {
+      "from": "-626-001",
+      "to": "-605-001",
+      "relation": "led_to",
+      "note": "Nabopolassar's establishment of the Neo-Babylonian Empire led to the reign of his son Nebuchadnezzar II, who would expand the empire to its greatest extent"
+    },
+    {
+      "from": "-626-003",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "The fragmentation of Assyria following Ashurbanipal's death led to the final collapse of the empire and the fall of Nineveh in 612 BCE"
+    }
+  ]
+}

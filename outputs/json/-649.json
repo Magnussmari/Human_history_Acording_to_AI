@@ -1,0 +1,107 @@
+{
+  "year": -649,
+  "year_label": "649 BCE",
+  "era_context": "The mid-7th century BCE spans the height of Assyrian imperial power under Ashurbanipal, the last great king of the Neo-Assyrian Empire. Simultaneously, the Greek archaic period is witnessing the rise of the polis system, early colonisation movements, and the development of hoplite warfare. In China, the Spring and Autumn period sees competing states consolidating power; in the Levant and Egypt, Assyrian hegemony dominates regional politics.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Greek and Etruscan contact zones",
+    "Central Asia and the steppes (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-649-001",
+      "title": "Ashurbanipal's campaigns in Egypt and the Levant",
+      "region": "Assyrian Empire, Egypt, Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Ashurbanipal of Assyria (r. 668\u2013627 BCE) continues consolidation of Assyrian dominance over Egypt and the Levant. By 649 BCE, Assyrian military pressure on Egypt intensifies, though direct control remains contested. The Assyrian king maintains vassal relationships across the Levantine states and continues campaigns to suppress rebellions and secure trade routes. This period represents the apex of Assyrian territorial reach before the empire's rapid decline in the following decades.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)",
+        "Psamtik I (Pharaoh of Egypt, nominal Assyrian vassal)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Inscriptions of Ashurbanipal (cuneiform texts from Nineveh)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian historical records and Saite period documentation",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurbanipal's reign is well-documented through cuneiform inscriptions; specific campaigns in 649 BCE are inferred from the broader chronology of his military activities (668\u2013627 BCE). Dating within the reign is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-649-002",
+      "title": "Greek colonisation and early polis development",
+      "region": "Greece, Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "exploration",
+      "description": "The mid-7th century BCE is a period of intensive Greek colonisation throughout the Mediterranean and Black Sea regions. By 649 BCE, Greek settlements have been established in southern Italy, Sicily, the Levantine coast, and the Black Sea. This expansion is driven by population pressure, internal conflict, and the search for trade opportunities. The polis system continues to crystallise, with city-states developing distinct political and military structures.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Historiographic consensus from archaeological evidence (pottery, settlement patterns, later Greek historians)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of colonisation is well-established archaeologically; specific dating of individual colonies to 649 BCE is approximate, often assigned by convention within the broader 7th-century movement.",
+      "cross_references": []
+    },
+    {
+      "id": "-649-003",
+      "title": "Spring and Autumn period: State consolidation in China",
+      "region": "China (Eastern Zhou)",
+      "coordinates_approx": "34.0, 115.0",
+      "category": "political",
+      "description": "During the Spring and Autumn period (770\u2013476 BCE), the Chinese states are engaged in ongoing territorial consolidation and diplomatic maneuvering. By 649 BCE, major states such as Qi, Jin, Chu, and Qin are competing for hegemony. The year 649 BCE falls within a period of relative stability punctuated by interstate conflicts. The feudal system continues to evolve, with the concept of the 'hegemon' (ba) becoming increasingly important in interstate relations.",
+      "key_figures": [
+        "Duke Xian of Jin (r. 676\u2013651 BCE, died 651 BCE)",
+        "Duke Huan of Qi (r. 685\u2013643 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals), traditional chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chinese historical records for the Spring and Autumn period are preserved in later compilations. Specific events in 649 BCE are difficult to date precisely; the year is assigned based on traditional chronologies that may have internal inconsistencies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ashurbanipal's reign and specific campaigns remains subject to scholarly debate, particularly regarding the synchronisation with Egyptian chronology. Some scholars argue for alternative chronologies that would shift events by several years. The traditional dating of Chinese Spring and Autumn period events is increasingly questioned by modern scholars who note that the Chunqiu may contain legendary or symbolic rather than strictly historical information. The significance of Greek colonisation in 649 BCE specifically is difficult to assess; the broader movement is undisputed, but individual colony foundings are often dated with uncertainty of \u00b110\u201320 years.",
+  "historiographic_note": "The historical record for 649 BCE is dominated by Assyrian and later Greek and Chinese sources. Egyptian sources are sparse for this period. The Assyrian record is court-sponsored and emphasises military achievements; it may underrepresent economic, cultural, or diplomatic dimensions. Chinese sources are compiled centuries later and may conflate or misdate events. Greek colonisation is reconstructed primarily from archaeology and later literary references, introducing uncertainty about precise dating. Sub-Saharan Africa, Northern Europe, and Central Asia are essentially absent from contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "-649-001",
+      "to": "-627-001",
+      "relation": "part_of",
+      "note": "Ashurbanipal's campaigns continue until his death in 627 BCE"
+    },
+    {
+      "from": "-649-002",
+      "to": "-600-001",
+      "relation": "led_to",
+      "note": "Greek colonisation establishes networks that facilitate trade and cultural exchange through the 6th century"
+    }
+  ]
+}

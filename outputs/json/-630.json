@@ -1,0 +1,78 @@
+{
+  "year": -630,
+  "year_label": "630 BCE",
+  "era_context": "Late Archaic Greece entering the early Classical period; Lydia under Alyattes II at the height of its power; Neo-Babylonian Empire under Nabopolassar consolidating control and beginning to challenge Assyrian dominance; the Spring and Autumn period in China with increasing interstate warfare; the Levant experiencing power transitions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-630-001",
+      "title": "Nabopolassar's early military campaigns against Assyrian territories",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "33.0, 43.0",
+      "category": "military",
+      "description": "Nabopolassar, having consolidated power in Babylon, begins military campaigns to expand Neo-Babylonian control and challenge Assyrian dominance in Mesopotamia and the Levant. These campaigns are part of a broader strategy to restore Babylonian independence and establish a new regional empire. The campaigns would intensify over the next decade, eventually leading to the fall of Nineveh in 612 BCE.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nabopolassar's campaigns are attested in the Babylonian Chronicle, though specific dates for individual campaigns are sometimes uncertain. The year 630 BCE is assigned based on the general chronology of his reign and the pattern of escalating military activity.",
+      "cross_references": [
+        "-612-001"
+      ]
+    },
+    {
+      "id": "-630-002",
+      "title": "Alyattes II's reign continues; Lydian power at its peak",
+      "region": "Lydia and Anatolia",
+      "coordinates_approx": "38.5, 28.0",
+      "category": "political",
+      "description": "Alyattes II continues to rule Lydia during the height of its power and territorial expansion. Lydia controls much of central Anatolia and maintains significant influence over the Ionian Greek city-states. The Lydian state is characterized by military strength, economic prosperity (partly due to control of trade routes and early use of coinage), and cultural influence. This period represents the apex of Lydian power before the rise of the Persian Empire.",
+      "key_figures": [
+        "Alyattes II (King of Lydia)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Alyattes' reign is attested in later Greek sources, but the precise chronology is debated. Modern scholars place his reign c. 619\u2013560 BCE or c. 600\u2013560 BCE, with significant variation. The year 630 BCE falls within the traditional dating of his reign.",
+      "cross_references": [
+        "-634-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Nabopolassar's early campaigns is debated. Some scholars argue that his military expansion began later than traditionally dated, while others place it earlier. The Babylonian Chronicle provides the most reliable source, but it does not always record events in strict chronological order or with precise dating. Alyattes' chronology remains one of the most disputed issues in ancient Near Eastern chronology, with some scholars placing his reign significantly later than the traditional dating used here.",
+  "historiographic_note": "The historical record for 630 BCE is sparse but somewhat better than for the immediately preceding years. Mesopotamian sources (Babylonian Chronicle) provide relatively contemporary documentation of Nabopolassar's activities, though specific year-by-year events are not always recorded. Greek sources (Herodotus) provide information about Lydia but are written 150+ years after the events and are often unreliable for precise chronology. The record is heavily weighted toward major political and military events in major empires; peripheral regions and non-elite activities are largely absent. The chronology of this entire period remains contested among scholars, with variations of \u00b110\u201320 years not uncommon.",
+  "graph_edges": [
+    {
+      "from": "-630-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Nabopolassar's campaigns against Assyria culminate in the fall of Nineveh"
+    },
+    {
+      "from": "-630-002",
+      "to": "-546-001",
+      "relation": "led_to",
+      "note": "Lydian power under Alyattes eventually falls to the Persian Empire under Cyrus II"
+    }
+  ]
+}
