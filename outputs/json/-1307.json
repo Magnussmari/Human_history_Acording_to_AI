@@ -1,0 +1,108 @@
+{
+  "year": -1307,
+  "year_label": "1307 BCE",
+  "era_context": "The Late Bronze Age, with the same major powers in place: Ramesses II in Egypt, Mursili III in the Hittite Empire, Mycenaean civilization in the Aegean, and the Kassite dynasty in Babylon. This period is characterized by imperial consolidation, extensive trade networks, and the maintenance of a multipolar great power system. Regional conflicts persist but major powers avoid direct confrontation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond oracle bone records",
+    "Oceania and the Pacific",
+    "Central Asia",
+    "South Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1307-001",
+      "title": "Egyptian administrative reorganization under Ramesses II",
+      "region": "Egypt",
+      "coordinates_approx": "25.0,32.0",
+      "category": "political",
+      "description": "Ramesses II implements administrative reforms to consolidate control over Egypt's vast territories and resources. These reforms, documented in papyri and administrative records, reorganize provincial governance and tax collection systems. The reforms reflect the challenges of managing a large empire and the need to maintain centralized authority over distant provinces.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus administrative records from Deir el-Medina and other sites",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions documenting administrative titles and structures",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Administrative reforms are attested in records, but precise dating to 1307 BCE is uncertain. The reforms likely occurred over several years rather than in a single year.",
+      "cross_references": []
+    },
+    {
+      "id": "-1307-002",
+      "title": "Kassite Babylon under Adad-suma-iddina",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5,44.4",
+      "category": "political",
+      "description": "The Kassite dynasty continues to rule Babylon under Adad-suma-iddina. The reign is marked by efforts to maintain Babylonian independence and influence in Mesopotamia while managing relations with neighboring powers. Babylonian culture and scholarship flourish during this period, with advances in mathematics, astronomy, and literature.",
+      "key_figures": [
+        "Adad-suma-iddina (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Kassite dynasty's rule is well-attested, but the precise chronology of individual reigns remains debated among scholars. Different chronological systems place Adad-suma-iddina's reign in different periods.",
+      "cross_references": []
+    },
+    {
+      "id": "-1307-003",
+      "title": "Levantine city-states under Egyptian and Hittite influence",
+      "region": "Syria-Palestine",
+      "coordinates_approx": "34.0,35.0",
+      "category": "political",
+      "description": "The city-states of the Levant navigate the competing interests of Egypt and the Hittite Empire. Cities like Byblos, Sidon, and Tyre maintain commercial networks and diplomatic relations with both powers. Archaeological evidence shows continued prosperity and trade activity. These cities serve as crucial intermediaries in the eastern Mediterranean trade network.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine excavations",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian and Hittite diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The prosperity and trade activity of Levantine cities are well-documented through archaeology. Diplomatic relations are attested in Egyptian and Hittite records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Kassite dynasty remains one of the most debated issues in ancient Near Eastern studies. Different scholars propose chronological systems that vary by several decades or more. The precise dating of Adad-suma-iddina's reign is uncertain, and some scholars question whether he ruled in 1307 BCE or in a different period. Additionally, the extent of Egyptian and Hittite control over Levantine city-states is sometimes overstated in older scholarship; these cities maintained considerable autonomy.",
+  "historiographic_note": "The historical record for 1307 BCE is dominated by Egyptian, Hittite, and Babylonian sources, reflecting the perspectives of imperial courts. Levantine evidence comes primarily from archaeology and occasional references in imperial records. The record is heavily weighted toward elite political events. Large regions of the world remain undocumented in written sources. The chronological uncertainty for this period is significant, particularly for Mesopotamia.",
+  "graph_edges": [
+    {
+      "from": "-1307-001",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "Administrative reorganization and military campaigns were concurrent aspects of Ramesses II's reign"
+    },
+    {
+      "from": "-1307-003",
+      "to": "-1305-002",
+      "relation": "contemporary_with",
+      "note": "Levantine city-states existed within the diplomatic framework established by Egyptian-Hittite relations"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "year": -1305,
+  "year_label": "1305 BCE",
+  "era_context": "The Late Bronze Age, during the reign of Ramesses II (Ramesses the Great) of Egypt's 19th Dynasty. The Hittite Empire under Mursili III controls Anatolia and northern Syria. In the Aegean, the Mycenaean civilization is in its Late Helladic IIIB phase. In Mesopotamia, the Kassite dynasty continues to rule Babylon. This is a period of major imperial consolidation, extensive trade networks, and increasing military competition between the great powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond fragmentary oracle bone records",
+    "Oceania and the Pacific"
+  ],
+  "events": [
+    {
+      "id": "-1305-001",
+      "title": "Ramesses II's military campaigns in Nubia and Syria",
+      "region": "Egypt, Nubia, Syria",
+      "coordinates_approx": "25.0,32.0",
+      "category": "military",
+      "description": "Ramesses II continues his extensive military campaigns to consolidate Egyptian control over Nubian territories and maintain hegemony in Syria-Palestine. These campaigns are documented in temple reliefs and inscriptions at Abu Simbel and other sites. The campaigns served both to extract tribute and to project Egyptian power across the eastern Mediterranean world. These military efforts were part of a broader strategy to maintain Egypt's position as a superpower in the Late Bronze Age.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Abu Simbel and Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus records from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's reign is well-documented, but specific annual campaigns are sometimes difficult to date precisely. The campaigns are attested in multiple contemporary sources but exact chronology within his 66-year reign remains subject to scholarly debate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1305-002",
+      "title": "Hittite-Egyptian diplomatic relations under Mursili III",
+      "region": "Anatolia, Egypt, Syria",
+      "coordinates_approx": "35.0,35.0",
+      "category": "political",
+      "description": "The Hittite Empire under Mursili III maintains diplomatic correspondence and trade relations with Egypt. This period represents a continuation of the peace established after the Battle of Kadesh (c. 1274 BCE). The two powers compete for influence in Syria-Palestine but avoid direct military confrontation. Diplomatic correspondence, including letters found at Bo\u011fazk\u00f6y, documents this complex relationship.",
+      "key_figures": [
+        "Mursili III (Hittite King)",
+        "Ramesses II (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite diplomatic correspondence from Bo\u011fazk\u00f6y archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The diplomatic relationship is well-attested, though specific events in 1305 BCE are inferred from broader patterns of correspondence and trade rather than dated to this specific year.",
+      "cross_references": []
+    },
+    {
+      "id": "-1305-003",
+      "title": "Mycenaean trade networks in the eastern Mediterranean",
+      "region": "Greece, Cyprus, Levant",
+      "coordinates_approx": "38.0,24.0",
+      "category": "economic",
+      "description": "Mycenaean Greek merchants and traders maintain active commercial networks throughout the eastern Mediterranean, exchanging pottery, tin, and other goods with Egypt, the Levant, and Cyprus. Archaeological evidence from shipwrecks and settlement sites shows intensive trade activity. This period represents the height of Mycenaean commercial expansion before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from shipwrecks (e.g., Uluburun wreck)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Pottery distribution patterns from excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are extensively documented through archaeological evidence. While specific transactions cannot be dated to 1305 BCE precisely, the pattern of trade is well-established for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Ramesses II's reign remains debated among Egyptologists. Some scholars argue for a longer reign (66 years) while others propose shorter durations, which affects the precise dating of specific campaigns. Additionally, the attribution of certain military campaigns to specific years within his reign is often uncertain, as Egyptian records typically do not provide precise annual dating in the modern sense.",
+  "historiographic_note": "The historical record for 1305 BCE is dominated by Egyptian and Hittite sources, which reflect the perspectives of imperial courts. Mycenaean evidence comes primarily from archaeology rather than written records. The record is heavily weighted toward elite political and military events; economic and social history must be reconstructed from material culture. Sub-Saharan Africa, northern Europe, and East Asia are largely absent from contemporary written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-1305-001",
+      "to": "-1274-battle_of_kadesh",
+      "relation": "part_of",
+      "note": "Ramesses II's military campaigns continue the imperial strategy established after the Battle of Kadesh"
+    },
+    {
+      "from": "-1305-002",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "Diplomatic relations and military campaigns were concurrent strategies"
+    }
+  ]
+}

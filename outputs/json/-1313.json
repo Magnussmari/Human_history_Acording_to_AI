@@ -1,0 +1,84 @@
+{
+  "year": -1313,
+  "year_label": "1313 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The Hittite Empire under Mursili II is in the midst of consolidating Anatolian and Levantine territories. In the Levant, Egyptian vassal states maintain their positions. The Mycenaean civilization in Greece is in the Late Helladic IIIB period, with palace centers at Mycenae, Pylos, and Tiryns at their height.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited synchronizable records)"
+  ],
+  "events": [
+    {
+      "id": "-1313-001",
+      "title": "Amenhotep III's diplomatic correspondence and cultural zenith",
+      "region": "Egypt and Eastern Mediterranean",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "political",
+      "description": "Amenhotep III's reign continues to represent the height of Egyptian diplomatic influence. While the Amarna Letters (correspondence with foreign rulers) are dated to the reign of his son Akhenaten, Amenhotep III himself maintained extensive diplomatic relations with Mitanni, Babylon, Hatti, and Assyria. His reign saw unprecedented cultural and artistic achievement, with the New Kingdom at its economic and political apex.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak and Luxor temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (slightly later, but reference Amenhotep III's reign)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's reign and cultural achievements are well-documented archaeologically and epigraphically.",
+      "cross_references": [
+        "-1314-001"
+      ]
+    },
+    {
+      "id": "-1313-002",
+      "title": "Mycenaean palace culture at its height",
+      "region": "Mycenaean Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.73, 23.73",
+      "category": "cultural",
+      "description": "The Mycenaean civilization in Greece is in the Late Helladic IIIB period (c. 1330\u20131190 BCE), characterized by the flourishing of palace centers at Mycenae, Pylos, Tiryns, and other sites. These palatial centers controlled extensive territories and engaged in long-distance trade with Egypt, the Levant, and Anatolia. Linear B script was in use for administrative purposes, recording economic transactions and religious offerings.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mycenae, Pylos, and Tiryns",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Late Helladic IIIB period is well-established through pottery chronology and radiocarbon dating. Linear B tablets provide contemporary administrative records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Mycenaean LHIIIB remains subject to refinement through radiocarbon calibration. Some scholars place the transition from LHIIIB to LHIIIC slightly earlier or later. Additionally, the extent of Mycenaean political centralization and the nature of palace economies remain debated\u2014some scholars emphasize decentralized regional kingdoms, while others stress a more unified Mycenaean 'civilization.'",
+  "historiographic_note": "For 1313 BCE, written records are limited to Egypt, the Hittite Empire, and fragmentary Linear B tablets from the Mycenaean world. Egyptian sources dominate the historical record and tend to emphasize royal achievements. Mycenaean Linear B tablets are administrative in nature and do not provide narrative history. The vast majority of the world's population and civilizations leave no synchronizable written record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1313-001",
+      "to": "-1312-001",
+      "relation": "part_of",
+      "note": "Amenhotep III's reign continues."
+    },
+    {
+      "from": "-1313-002",
+      "to": "-1312-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean palace culture was contemporary with Late Bronze Age Mediterranean trade networks."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "year": -1310,
+  "year_label": "1310 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III (approaching the end of his reign, which lasted c. 1390\u20131352 BCE). The Hittite Empire under Mursili II is consolidating power. Mycenaean Greece is in LHIIIB. The Levant is under Egyptian suzerainty. This period represents the height of Late Bronze Age international relations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1310-001",
+      "title": "Amenhotep III's reign nearing its end; succession preparations",
+      "region": "Egypt (Thebes)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "political",
+      "description": "Amenhotep III's long reign is nearing its end (he would die around 1352 BCE). During the later years of his reign, his son Amenhotep (later Akhenaten) was being groomed as successor. The transition of power would eventually lead to one of the most dramatic religious and political upheavals in Egyptian history, though that would occur after Amenhotep III's death.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)",
+        "Amenhotep IV/Akhenaten (Crown Prince, later Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's king list",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's reign is well-established. The succession of his son is documented, though the exact timing of succession preparations is less certain.",
+      "cross_references": [
+        "-1314-001",
+        "-1313-001",
+        "-1312-001",
+        "-1311-001"
+      ]
+    },
+    {
+      "id": "-1310-002",
+      "title": "Mursili II's military consolidation continues",
+      "region": "Hittite Empire (Anatolia and Levant)",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "military",
+      "description": "Mursili II continues his military campaigns to consolidate Hittite control over Anatolia and the Levantine periphery. His Annals record systematic campaigns against rebellious territories. These campaigns were designed to maintain Hittite hegemony and extract tribute.",
+      "key_figures": [
+        "Mursili II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Mursili II's Annals (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's reign is well-documented, but specific campaigns cannot always be pinned to exact years.",
+      "cross_references": [
+        "-1314-002",
+        "-1312-002"
+      ]
+    },
+    {
+      "id": "-1310-003",
+      "title": "Late Bronze Age international diplomacy and trade",
+      "region": "Eastern Mediterranean and Near East",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "political",
+      "description": "The Late Bronze Age international system is at its height, with extensive diplomatic correspondence and trade among Egypt, the Hittite Empire, Mycenaean Greece, Assyria, Babylon, and Phoenician city-states. This interconnected system of trade, diplomacy, and military alliances would collapse within a century due to the Bronze Age Collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Amarna Letters (slightly later, but describe this system)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple reliefs depicting foreign tribute",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and extent of Late Bronze Age international relations are well-established through textual and archaeological evidence.",
+      "cross_references": [
+        "-1312-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The characterization of Amenhotep III's reign as uniformly prosperous has been challenged by some scholars, who point to evidence of internal strains, including labor unrest and administrative challenges in the later years of his reign. Additionally, the extent of Egyptian control over the Levant is sometimes overstated; some scholars argue that Egyptian hegemony was more nominal than direct, with local rulers maintaining considerable autonomy.",
+  "historiographic_note": "For 1310 BCE, the historical record is dominated by Egyptian and Hittite sources, which are often propagandistic and focus on royal achievements and military victories. Mycenaean Linear B tablets provide administrative data but not narrative history. The vast majority of human societies leave no written record for this year. Archaeological evidence provides material culture but limited chronological precision for individual years. The dating of this period remains subject to scholarly debate, with different chronological systems placing events within a range of \u00b150 years.",
+  "graph_edges": [
+    {
+      "from": "-1310-001",
+      "to": "-1310-003",
+      "relation": "part_of",
+      "note": "Egyptian prosperity and diplomatic influence were central to Late Bronze Age international relations."
+    },
+    {
+      "from": "-1310-002",
+      "to": "-1310-003",
+      "relation": "contemporary_with",
+      "note": "Hittite military consolidation occurred within the context of Late Bronze Age international diplomacy."
+    },
+    {
+      "from": "-1310-001",
+      "to": "-1309-001",
+      "relation": "led_to",
+      "note": "Amenhotep III's death would lead to the succession of Amenhotep IV/Akhenaten and a dramatic religious revolution."
+    }
+  ]
+}

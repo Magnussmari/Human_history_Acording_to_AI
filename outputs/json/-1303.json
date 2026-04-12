@@ -1,0 +1,79 @@
+{
+  "year": -1303,
+  "year_label": "1304 BCE",
+  "era_context": "Late Bronze Age, mid-reign of Ramesses II of Egypt and Muwatalli II of the Hittite Empire. The international system of the eastern Mediterranean and Near East was characterized by great-power diplomacy, trade networks, and periodic military conflict. Mycenaean Greece was flourishing in its Late Helladic IIIB phase. The Shang Dynasty in China was in its final phase before the Zhou conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia (Steppe regions)"
+  ],
+  "events": [
+    {
+      "id": "-1303-001",
+      "title": "Continuation of Egyptian-Hittite tensions in the Levant",
+      "region": "Levant, Egypt, Anatolia",
+      "coordinates_approx": "34.0,33.0",
+      "category": "military",
+      "description": "Egyptian and Hittite forces continued to maneuver for control of the Levantine territories, particularly around Amurru and Kadesh. This period saw diplomatic and military probing by both powers, with vassal states caught between them. The tensions would culminate in the Battle of Kadesh in 1274 BCE, but the decades preceding it were marked by escalating conflict and alliance-building.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Muwatalli II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple reliefs and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal correspondence (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Egyptian-Hittite conflict is well-established, but specific events for 1304 BCE are not distinctly documented. This entry reflects the broader historical trajectory.",
+      "cross_references": [
+        "-1300-001"
+      ]
+    },
+    {
+      "id": "-1303-002",
+      "title": "Mycenaean trade and cultural flourishing",
+      "region": "Aegean, Greece",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "The Mycenaean Greek world was in a period of cultural and economic prosperity during Late Helladic IIIB. Palatial centers such as Mycenae, Tiryns, and Pylos were at their height, with extensive trade networks extending throughout the Mediterranean and into the Near East. Linear B script was in use for administrative purposes. This period would end within a century with the Late Bronze Age Collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean sites (pottery, architecture, Linear B tablets)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The archaeological record for Mycenaean Greece in this period is well-established through excavation and stratigraphy.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Mycenaean Late Helladic IIIB is debated, with some scholars placing the transition to IIIC earlier or later than traditional chronologies. The significance of individual years within this period is difficult to establish from archaeological evidence alone.",
+  "historiographic_note": "For 1304 BCE, documentation is heavily skewed toward Egypt and the Hittite Empire, with their written records dominating the historical narrative. Mycenaean Greece is known primarily through archaeology, which provides limited chronological precision for individual years. Large regions of the world (Africa, Asia, the Americas) have no contemporary written records for this period, and their histories must be reconstructed from archaeology or later sources.",
+  "graph_edges": [
+    {
+      "from": "-1303-001",
+      "to": "-1300-001",
+      "relation": "led_to",
+      "note": "Escalating tensions between Egypt and the Hittites led directly to the Battle of Kadesh"
+    },
+    {
+      "from": "-1303-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean prosperity of this period ended with the Late Bronze Age Collapse around 1200 BCE"
+    }
+  ]
+}

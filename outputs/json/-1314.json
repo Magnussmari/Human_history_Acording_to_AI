@@ -1,0 +1,87 @@
+{
+  "year": -1314,
+  "year_label": "1314 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains diplomatic relations with Mitanni, Hatti, and Babylon. In Anatolia, the Hittite Empire under Mursili II is consolidating power after recent military campaigns. In the Levant, Canaanite city-states remain under Egyptian suzerainty. In China, the Shang Dynasty continues its dominance of the Yellow River valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written records)",
+    "Mesoamerica (no written chronology synchronized to this date)",
+    "Oceania (no synchronizable records)"
+  ],
+  "events": [
+    {
+      "id": "-1314-001",
+      "title": "Amenhotep III's continued reign and temple construction",
+      "region": "Egypt (Thebes/Waset)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "Amenhotep III, one of Egypt's most prolific builders, continues his reign during the height of the 18th Dynasty. This period saw the construction or completion of major temples and monuments, including the Colossi of Memnon and the Temple of Luxor. His reign represents the apex of New Kingdom prosperity and artistic achievement, with extensive diplomatic correspondence with foreign powers preserved in the Amarna Letters archive (though those letters date slightly later).",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Colossi of Memnon (monumental evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's regnal dates are well-established through Egyptian king lists and astronomical calculations. His building projects are archaeologically confirmed.",
+      "cross_references": []
+    },
+    {
+      "id": "-1314-002",
+      "title": "Mursili II's military consolidation in Anatolia",
+      "region": "Hittite Empire (Anatolia/modern Turkey)",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "military",
+      "description": "Mursili II of the Hittite Empire continues his campaigns to consolidate Hittite control over Anatolia and the Levantine periphery. His reign (c. 1321\u20131295 BCE) was marked by extensive military campaigns documented in his Annals, which record suppression of rebellions in Syria and Anatolia. These campaigns strengthened Hittite hegemony in the region.",
+      "key_figures": [
+        "Mursili II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Mursili II's Annals (cuneiform tablets from Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bo\u011fazk\u00f6y/Hattusa archaeological excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's regnal dates are established through Hittite king lists and synchronisms with Egyptian records. The specific year 1314 BCE falls within his documented reign, though individual campaigns cannot always be pinned to exact years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact synchronization of Egyptian and Hittite chronologies for this period remains subject to scholarly debate. Some Egyptologists place Amenhotep III's reign slightly earlier or later depending on astronomical calculations and radiocarbon dating. The 'high' and 'low' chronologies for the Late Bronze Age differ by up to 50\u2013100 years, though 1314 BCE falls within the widely accepted range for Amenhotep III's reign.",
+  "historiographic_note": "Documentation for 1314 BCE is heavily weighted toward Egypt and the Hittite Empire, where written records and monumental evidence are abundant. The record is sparse for most other regions. Egyptian sources are often propagandistic (royal inscriptions emphasize military victories and piety). Hittite sources, while detailed, focus on royal annals and administrative records. Sub-Saharan Africa, northern Europe, and the Americas have no synchronizable written records for this year. The Shang Dynasty in China has oracle bone inscriptions, but these are difficult to date precisely to individual years.",
+  "graph_edges": [
+    {
+      "from": "-1314-001",
+      "to": "-1312-001",
+      "relation": "part_of",
+      "note": "Amenhotep III's reign spans multiple years; temple construction was ongoing."
+    },
+    {
+      "from": "-1314-002",
+      "to": "-1312-002",
+      "relation": "part_of",
+      "note": "Mursili II's military campaigns were sustained over his entire reign."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "year": -1304,
+  "year_label": "1305 BCE",
+  "era_context": "The Late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279\u20131213 BCE). The Hittite Empire under Muwatalli II and his successors controlled Anatolia and the Levant. The Mycenaean Greek world was in its Late Helladic IIIB phase. In China, the Shang Dynasty was in its final centuries. This was an era of great powers in tension, international trade networks, and the gradual emergence of iron-working technology.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Mesoamerica (no written chronology for this period)",
+    "Northern Europe (pre-literate)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1304-001",
+      "title": "Ramesses II's military campaigns in Nubia and the Levant (ongoing)",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "25.0,32.0",
+      "category": "military",
+      "description": "Ramesses II continued his extensive military campaigns to consolidate Egyptian control over Nubian territories and maintain hegemony in the Levant. These campaigns were part of a broader strategy to secure trade routes and resources, particularly gold from Nubia and timber from the Levantine coast. The campaigns are documented in temple reliefs and administrative records, though specific events for this individual year are not distinctly attested.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Abu Simbel and Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's reign is well-documented, but specific events for individual years within his 66-year reign are often difficult to isolate. This entry reflects the general pattern of his military activity rather than a discrete event datable to 1305 BCE.",
+      "cross_references": [
+        "-1300-001 (Battle of Kadesh aftermath)"
+      ]
+    },
+    {
+      "id": "-1304-002",
+      "title": "Hittite consolidation under Muwatalli II",
+      "region": "Anatolia, Levant",
+      "coordinates_approx": "35.5,33.0",
+      "category": "political",
+      "description": "Muwatalli II of the Hittite Empire (r. c. 1295\u20131272 BCE) was consolidating Hittite power in Anatolia and the Levant during this period. He moved the capital from Hattusa to Tarhuntassa in southern Anatolia, a controversial decision that reflected military and administrative priorities. His reign was marked by conflict with Egypt and internal reorganization of the empire.",
+      "key_figures": [
+        "Muwatalli II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Deeds of Suppiluliuma II",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records mentioning Hittite opposition",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Muwatalli II's reign dates are established by Hittite king lists and Egyptian synchronisms, but the precise chronology of individual years remains debated among scholars. The capital relocation is attested but its exact date is uncertain.",
+      "cross_references": [
+        "-1300-001 (Battle of Kadesh)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Muwatalli II's reign and the capital relocation remains contested. Some scholars place these events slightly earlier or later than traditional chronologies suggest. Additionally, the significance of individual years within Ramesses II's long reign is often overstated in popular accounts; many 'events' attributed to specific years are actually generalizations across decades.",
+  "historiographic_note": "Documentation for 1305 BCE is heavily dependent on Egyptian temple reliefs and administrative records, which tend to emphasize pharaonic achievements and may distort the historical record. Hittite sources are valuable but often fragmentary. The absence of contemporary records from many regions (Nubia, the Levant beyond Egyptian-controlled areas, Mycenaean Greece) means that significant events may have occurred without leaving traces in surviving sources. Dating precision for this period is typically \u00b15\u201310 years.",
+  "graph_edges": [
+    {
+      "from": "-1304-001",
+      "to": "-1300-001",
+      "relation": "led_to",
+      "note": "Ramesses II's military campaigns in the Levant set the stage for the confrontation with the Hittites at Kadesh in 1274 BCE"
+    },
+    {
+      "from": "-1304-002",
+      "to": "-1300-001",
+      "relation": "contemporary_with",
+      "note": "Muwatalli II's consolidation of Hittite power was concurrent with Ramesses II's expansion, leading to direct conflict"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "year": -1306,
+  "year_label": "1306 BCE",
+  "era_context": "The Late Bronze Age continues under the same imperial powers: Ramesses II in Egypt, Mursili III in the Hittite Empire, Mycenaean civilization in the Aegean, and the Kassite dynasty in Babylon. This is a period of relative stability in the great power system, though regional conflicts and internal dynastic tensions persist. Trade networks span from the Aegean to Mesopotamia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond oracle bone records",
+    "Oceania and the Pacific",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1306-001",
+      "title": "Continuation of Ramesses II's building programs",
+      "region": "Egypt",
+      "coordinates_approx": "25.0,32.0",
+      "category": "cultural",
+      "description": "Ramesses II continues his massive building program, constructing temples, monuments, and administrative structures throughout Egypt. The construction of Abu Simbel and other major temples represents both religious devotion and political propaganda. These building projects employed thousands of workers and demonstrated Egypt's wealth and organizational capacity. The monuments served to perpetuate the pharaoh's name and power across generations.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological remains of temples and monuments",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative records from Deir el-Medina documenting worker organization",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The building programs are extensively documented through surviving structures and administrative records. However, precise dating of individual projects within Ramesses II's reign is often uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-1306-002",
+      "title": "Hittite internal succession tensions",
+      "region": "Anatolia",
+      "coordinates_approx": "35.0,35.0",
+      "category": "political",
+      "description": "The Hittite Empire under Mursili III experiences internal tensions related to succession and dynastic legitimacy. These tensions, documented in later Hittite records and inscriptions, reflect broader challenges to centralized authority. The reign of Mursili III is marked by efforts to consolidate power and manage competing claims to the throne.",
+      "key_figures": [
+        "Mursili III (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and administrative texts from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Hittite chronicles describing this period",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Succession tensions are attested in Hittite sources, but specific events in 1306 BCE are inferred from broader patterns rather than precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1306-003",
+      "title": "Mycenaean settlement expansion in the Aegean",
+      "region": "Greece, Aegean Islands",
+      "coordinates_approx": "38.0,24.0",
+      "category": "demographic",
+      "description": "Mycenaean settlements continue to expand and consolidate throughout the Aegean region. Archaeological evidence shows increasing population density and settlement hierarchies. This period represents the peak of Mycenaean civilization before the disruptions of the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological survey data and settlement patterns",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets documenting administrative organization",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Settlement patterns are well-documented through archaeology. Linear B tablets provide administrative evidence of organized societies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Mursili III's reign and the nature of succession tensions remain debated. Some scholars question whether the internal conflicts described in later sources accurately reflect conditions in 1306 BCE or represent later reinterpretations. The dating of Mycenaean settlement expansion is based on pottery chronology, which has a margin of error of several decades.",
+  "historiographic_note": "The historical record for 1306 BCE remains dominated by Egyptian and Hittite elite sources. Mycenaean evidence is primarily archaeological. The record reflects the perspectives of imperial courts and administrative centers. Economic and social history must be reconstructed from material culture. Large regions of the world remain undocumented in written sources.",
+  "graph_edges": [
+    {
+      "from": "-1306-001",
+      "to": "-1305-001",
+      "relation": "contemporary_with",
+      "note": "Building programs and military campaigns were concurrent aspects of Ramesses II's reign"
+    },
+    {
+      "from": "-1306-003",
+      "to": "-1200-late_bronze_age_collapse",
+      "relation": "led_to",
+      "note": "Mycenaean expansion in this period preceded the disruptions of the Late Bronze Age collapse"
+    }
+  ]
+}

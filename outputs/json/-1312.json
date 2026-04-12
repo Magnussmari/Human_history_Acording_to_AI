@@ -1,0 +1,113 @@
+{
+  "year": -1312,
+  "year_label": "1312 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The Hittite Empire under Mursili II continues military consolidation. Mycenaean Greece is in LHIIIB. In the Levant, Egyptian vassal city-states maintain their positions. In China, the Shang Dynasty continues its dominance. This period represents the height of Late Bronze Age international trade and diplomatic networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "South Asia (limited synchronizable records)"
+  ],
+  "events": [
+    {
+      "id": "-1312-001",
+      "title": "Amenhotep III's reign continues; temple construction ongoing",
+      "region": "Egypt (Thebes)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "Amenhotep III's reign continues to be marked by extensive building projects and cultural achievement. The construction of temples, palaces, and monuments reflects Egypt's economic prosperity and centralized power. His reign is considered one of the most artistically and architecturally significant of the New Kingdom.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak and Luxor temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's reign is well-established through multiple sources.",
+      "cross_references": [
+        "-1314-001",
+        "-1313-001"
+      ]
+    },
+    {
+      "id": "-1312-002",
+      "title": "Mursili II's continued military campaigns in Anatolia and Syria",
+      "region": "Hittite Empire and Levant",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "military",
+      "description": "Mursili II continues his military campaigns to consolidate Hittite control over rebellious territories in Anatolia and Syria. His Annals record systematic campaigns against various city-states and regions. These campaigns were designed to maintain Hittite hegemony and extract tribute from vassal states.",
+      "key_figures": [
+        "Mursili II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Mursili II's Annals (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's reign is well-documented, but specific campaigns cannot always be pinned to exact years.",
+      "cross_references": [
+        "-1314-002"
+      ]
+    },
+    {
+      "id": "-1312-003",
+      "title": "Late Bronze Age Mediterranean trade networks at their height",
+      "region": "Eastern Mediterranean (Egypt, Levant, Anatolia, Mycenaean Greece, Cyprus)",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "economic",
+      "description": "The Late Bronze Age Mediterranean trade networks are at their height, with extensive exchange of goods, ideas, and diplomatic correspondence among Egypt, the Hittite Empire, Mycenaean Greece, Phoenician city-states, and Cyprus. Merchant ships carried tin, copper, cedar, grain, and luxury goods across the Mediterranean. This interconnected system would collapse within a century due to the Bronze Age Collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Amarna Letters (slightly later, but describe this trade system)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of shipwrecks (e.g., Uluburun wreck)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple reliefs depicting foreign tribute",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and extent of Late Bronze Age trade networks are well-established through archaeological and textual evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The characterization of the Late Bronze Age as a unified 'international system' has been challenged by some scholars, who argue that trade networks were more fragmented and that the degree of political integration was less than traditionally assumed. Additionally, the causes and mechanisms of the Bronze Age Collapse (which occurred a century later) remain debated, with some scholars emphasizing climate change, others warfare, and others systemic economic factors.",
+  "historiographic_note": "For 1312 BCE, the historical record is dominated by Egyptian and Hittite sources, which are often propagandistic. Mycenaean Linear B tablets provide administrative data but not narrative history. The vast majority of human societies leave no written record for this year. Archaeological evidence provides material culture but limited chronological precision for individual years.",
+  "graph_edges": [
+    {
+      "from": "-1312-001",
+      "to": "-1312-003",
+      "relation": "part_of",
+      "note": "Egyptian prosperity enabled participation in Mediterranean trade networks."
+    },
+    {
+      "from": "-1312-002",
+      "to": "-1312-003",
+      "relation": "contemporary_with",
+      "note": "Hittite military consolidation occurred within the context of Late Bronze Age trade networks."
+    }
+  ]
+}
