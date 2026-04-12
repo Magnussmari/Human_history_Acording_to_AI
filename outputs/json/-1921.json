@@ -1,0 +1,81 @@
+{
+  "year": -1921,
+  "year_label": "1922 BCE",
+  "era_context": "Contemporaneous with the late 12th Dynasty in Egypt, the fragmented city-state period in Mesopotamia following Ur III's collapse, the mature Indus Valley Civilization, and the traditionally dated Xia Dynasty in China (though archaeological evidence for Xia remains unconfirmed). This is a period of regional consolidation, long-distance trade, and the emergence of new political entities in the Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-1921-001",
+      "title": "Continued Egyptian control of Nubia and Levantine trade",
+      "region": "Egypt, Nubia, Levant",
+      "coordinates_approx": "25.0, 32.0",
+      "category": "political",
+      "description": "During the 12th Dynasty, Egypt maintained military and trade dominance in Nubia (evidenced by fortresses at Semna and Buhen) and controlled trade routes to the Levant and the Red Sea. Nubian gold, incense, and ivory flowed into Egypt; Egyptian goods and influence spread southward. This period represents the height of Egyptian Middle Kingdom power, though the exact year-to-year political events are not recorded in surviving sources.",
+      "key_figures": [
+        "Amenemhat III or his successor (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Nubian fortresses (Semna, Buhen)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions at Semna recording Nubian campaigns",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Egyptian dominance in this period is archaeologically confirmed, but specific events for this year are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1921-002",
+      "title": "Indus Valley trade networks at peak activity",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Indus seals and goods are found in Mesopotamian sites (Ur, Lagash, Uruk) and in the Persian Gulf trading posts, indicating robust maritime and overland trade. Indus merchants likely maintained trading colonies or partnerships in Mesopotamia. This trade brought tin, lapis lazuli, and other luxury goods to the Indus Valley and exported Indus crafts and raw materials to Mesopotamia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian archaeological contexts",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamia trade is archaeologically confirmed. Dating to this specific year is approximate; the trade network was active throughout the mature Indus phase (c. 2600\u20131900 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific events are documented for this year in any surviving source. The assignment of events to this year is based on broad chronological frameworks and archaeological phases, not on year-specific records. Claims about Egyptian-Nubian relations or Indus trade are generalizations from the broader 12th Dynasty and mature Indus periods.",
+  "historiographic_note": "This year has virtually no documented events in any written source. All statements are inferences from archaeological phases and broad chronological periods. The lack of year-specific documentation is typical for the early second millennium BCE outside of Egypt, where even Egyptian records are sparse for most years. Mesopotamian records are fragmentary due to political fragmentation. The Indus Valley left no deciphered historical texts.",
+  "graph_edges": [
+    {
+      "from": "-1921-001",
+      "to": "-1920-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Amenemhat III's reign or early successor period"
+    },
+    {
+      "from": "-1921-002",
+      "to": "-1920-002",
+      "relation": "contemporary_with",
+      "note": "Indus Valley Civilization mature phase continues"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "year": -1906,
+  "year_label": "1907 BCE",
+  "era_context": "Continuation of Egypt's 12th Dynasty Middle Kingdom under Amenemhat III. In Mesopotamia, the Old Babylonian period is established with various city-states competing for regional dominance; Hammurabi's dynasty is rising in Babylon but has not yet achieved hegemony. The Minoan civilization on Crete is in Early Bronze Age III, with palace centers developing. The Indus Valley Civilization remains in its mature urban phase. This is a period of relative international stability and active trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Shang dynasty not yet established)",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-1906-001",
+      "title": "Amenemhat III's reign; continued Faiyum development and trade",
+      "region": "Egypt (12th Dynasty)",
+      "coordinates_approx": "29.2\u00b0N, 30.7\u00b0E",
+      "category": "economic",
+      "description": "During this year within Amenemhat III's reign, Egypt maintains extensive trade networks with the Levant, Nubia, and the Aegean. The Faiyum region is being developed through irrigation projects and settlement expansion, increasing agricultural productivity. Egyptian trading posts and diplomatic missions are active in the Levant, as evidenced by later Egyptian records and Levantine archaeological finds of Egyptian goods. The economy is robust, supporting large-scale monument construction and a complex bureaucracy.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and administrative records from Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Egyptian goods in Levantine sites (Tell Byblos, etc.)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenemhat III's reign and his economic policies are well-documented; the specific year 1907 BCE is approximate within the broader reign period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1906-002",
+      "title": "Old Babylonian city-states in competition; Hammurabi's dynasty consolidating power",
+      "region": "Mesopotamia (Babylon and surrounding city-states)",
+      "coordinates_approx": "32.5\u00b0N, 44.4\u00b0E",
+      "category": "political",
+      "description": "In Mesopotamia, the Old Babylonian period sees various city-states vying for regional control. Hammurabi (r. 1792\u20131750 BCE) is in the early stages of his reign or approaching it, depending on chronological system. The period is characterized by military campaigns, diplomatic alliances, and the gradual consolidation of Babylonian power. Cuneiform records from this era document administrative affairs, legal disputes, and military movements. The eventual unification of Mesopotamia under Hammurabi lies within the next century.",
+      "key_figures": [
+        "Hammurabi (King of Babylon, r. 1792\u20131750 BCE, or later depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Old Babylonian cuneiform tablets (administrative and legal texts)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "King List of Babylon (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Old Babylonian period is well-attested through cuneiform records. However, the absolute dating of Hammurabi's reign is debated; different chronologies place him 50\u2013150 years earlier or later. The year 1907 BCE is assigned by convention within a broader chronological framework.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Hammurabi's reign is one of the most contentious issues in ancient Near Eastern studies. The 'low chronology' places Hammurabi's reign c. 1696\u20131654 BCE, while the 'high chronology' places it c. 1848\u20131806 BCE. This creates uncertainty of up to 150 years for events in this period. Additionally, some scholars question whether the 'Old Babylonian period' as a unified cultural entity is a modern historiographic construct rather than a meaningful ancient category.",
+  "historiographic_note": "Documentation for 1907 BCE is primarily from Egypt and Mesopotamia, where written records exist. The historical narrative is shaped by the survival of monumental inscriptions, administrative texts, and later king lists. Mesopotamian chronology is particularly uncertain due to the lack of fixed astronomical references in cuneiform records. The record is heavily biased toward elite, urban, and literate societies; the vast majority of human activity in this period is archaeologically invisible.",
+  "graph_edges": [
+    {
+      "from": "-1906-002",
+      "to": "-1792-001",
+      "relation": "led_to",
+      "note": "Old Babylonian competition leads to Hammurabi's consolidation of power (depending on chronology)"
+    }
+  ]
+}

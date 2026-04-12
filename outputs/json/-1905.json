@@ -1,0 +1,90 @@
+{
+  "year": -1905,
+  "year_label": "1906 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom period in Egypt under the 12th Dynasty (Amenemhat III, r. 1860\u20131814 BCE). In Mesopotamia, the Old Babylonian period is well established; Hammurabi's reign (1792\u20131750 BCE) lies ahead. The Indus Valley Civilization is in its mature phase. Minoan Crete is flourishing in the Early Bronze Age III. This is a period of relative stability in Egypt and the Near East, with active trade networks and monumental construction.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond the Shang dynasty period (which begins ~1600 BCE)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1905-001",
+      "title": "Reign of Amenemhat III continues; construction at Hawara",
+      "region": "Egypt (Middle Kingdom, 12th Dynasty)",
+      "coordinates_approx": "29.2\u00b0N, 30.7\u00b0E",
+      "category": "cultural",
+      "description": "Amenemhat III, one of Egypt's most prolific builders, continues his reign during this period. Major construction projects include the pyramid complex at Hawara in the Faiyum, which features an elaborate labyrinth-like mortuary temple. This represents the apex of Middle Kingdom architectural achievement and administrative sophistication. The reign is characterized by economic prosperity, extensive trade with the Levant and Nubia, and the consolidation of centralized bureaucratic power.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh, r. 1860\u20131814 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid inscriptions and temple reliefs at Hawara",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (later compilation, 19th Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hawara excavations (Petrie, 1888\u20131889)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenemhat III's reign is well-attested through contemporary inscriptions and monuments. The specific year 1906 BCE falls within his documented reign; however, absolute dating of individual years in the Middle Kingdom remains uncertain by \u00b150\u2013100 years depending on chronological system used.",
+      "cross_references": []
+    },
+    {
+      "id": "-1905-002",
+      "title": "Indus Valley Civilization at mature phase; urban centers flourishing",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, with major urban centers such as Harappa and Mohenjo-daro at their height. These cities feature sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. Seals with undeciphered script, terracotta figurines, and evidence of craft specialization indicate a complex, hierarchical society. The civilization's exact political structure remains unknown, but the uniformity of material culture suggests either a unified state or a confederation of city-states.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (Marshall, 1931; Mackay, 1937; modern surveys)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform references to 'Meluhha' (Indus region)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established archaeologically. Absolute dating relies on radiocarbon calibration and cross-dating with Mesopotamian chronologies; the date 1906 BCE is approximate within a range of \u00b1100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Middle Kingdom in Egypt and the Indus Valley Civilization remains contested. Different chronological systems (high, middle, low chronology) place these civilizations at different absolute dates. Some scholars argue for a lower chronology that would place these events 50\u2013150 years earlier. Additionally, the 'decline' of the Indus Valley Civilization around 1900 BCE is debated: some scholars attribute it to environmental change (drying of the Saraswati River), others to invasion or migration, and others to gradual cultural transformation rather than collapse.",
+  "historiographic_note": "For 1906 BCE, documentation is heavily weighted toward Egypt and the Indus Valley, where archaeological evidence is substantial. Mesopotamian records from this period are primarily administrative and economic texts from Old Babylonian city-states, not year-specific narratives. The historical record is shaped by the survival of monumental inscriptions and urban archaeology; rural and non-elite societies are largely invisible. Chronological uncertainty of \u00b150\u2013100 years is inherent to this period; no contemporary year-numbering system existed.",
+  "graph_edges": [
+    {
+      "from": "-1905-001",
+      "to": "-1814-001",
+      "relation": "led_to",
+      "note": "End of Amenemhat III's reign and the 12th Dynasty; transition to the Second Intermediate Period"
+    },
+    {
+      "from": "-1905-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Mature Indus Valley Civilization transitions to decline phase c. 1900 BCE"
+    }
+  ]
+}

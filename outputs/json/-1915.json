@@ -1,0 +1,88 @@
+{
+  "year": -1915,
+  "year_label": "1916 BCE",
+  "era_context": "The Late Bronze Age Collapse is still three centuries distant. The Egyptian New Kingdom under the 18th Dynasty (Ahmose I's successors) is consolidating power in the Levant and Nubia. The Hittite Old Kingdom under Hattusili I is expanding in Anatolia. Mycenaean Greece is in the early Late Helladic period. The Shang Dynasty dominates the Yellow River valley in China. This is an era of palace-centered polities, chariot warfare, and long-distance trade networks connecting Egypt, the Levant, Anatolia, and the Aegean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Central Asia and the Steppes (sparse written records)",
+    "Mesoamerica (no written chronology; archaeological dating uncertain)",
+    "Pacific Islands (no written records)",
+    "Northern Europe (pre-literate; archaeological record thin for specific years)"
+  ],
+  "events": [
+    {
+      "id": "-1915-001",
+      "title": "Ahmose I's military campaigns in the Levant and consolidation of Egyptian hegemony",
+      "region": "Egypt, Levant, Syria-Palestine",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Ahmose I (r. 1550\u20131525 BCE) continues his campaigns to secure Egyptian control over Nubia and the Levantine vassal states. This period marks the establishment of the Egyptian empire's territorial reach under the 18th Dynasty. Military expeditions into Nubia and Syria-Palestine consolidate tribute networks and establish Egypt as the dominant regional power. These campaigns are documented in temple reliefs and administrative records, though precise year-by-year chronology remains uncertain.",
+      "key_figures": [
+        "Ahmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Karnak and Deir el-Bahari",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from the reign of Ahmose I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on New Kingdom chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ahmose I's reign is well-attested, but precise year-by-year events are difficult to date. The conventional dating places him c. 1550\u20131525 BCE, but absolute chronology for this period remains debated (\u00b120\u201330 years uncertainty). Assignment to 1916 BCE is conventional.",
+      "cross_references": []
+    },
+    {
+      "id": "-1915-002",
+      "title": "Hittite expansion under Hattusili I in northern Syria",
+      "region": "Anatolia, northern Syria, Mesopotamia",
+      "coordinates_approx": "37.0, 36.0",
+      "category": "military",
+      "description": "Hattusili I (r. c. 1650\u20131620 BCE in traditional chronology, though some scholars place him later) conducts military campaigns to expand Hittite control into northern Syria and the Euphrates region. These campaigns establish Hittite hegemony over the Mitanni sphere of influence and secure access to trade routes. The campaigns are documented in the Hittite royal annals, though the precise chronology remains contested among scholars.",
+      "key_figures": [
+        "Hattusili I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals (cuneiform texts from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hattusili I's reign is attested in Hittite records, but absolute dating is highly uncertain. Traditional chronology places him c. 1650\u20131620 BCE, but some scholars argue for a date c. 1580\u20131550 BCE (the 'low chronology'). This creates \u00b130\u201350 year uncertainty. Assignment to 1916 BCE is conventional but disputed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Late Bronze Age, including the dates of Ahmose I and Hattusili I, is subject to significant scholarly debate. The 'high chronology' (traditional) and 'low chronology' (increasingly favored) differ by 50\u2013100 years for this period. Some scholars argue that Ahmose I should be dated to c. 1550 BCE, while others place him as late as 1480 BCE. Similarly, Hattusili I's reign may be significantly later than traditionally assumed. The assignment of specific events to 1916 BCE is therefore somewhat arbitrary and reflects conventional periodization rather than secure historical fact. Additionally, the significance of these campaigns may be overstated in Egyptian and Hittite sources, which tend to emphasize military success; archaeological evidence for the extent of actual territorial control is more ambiguous.",
+  "historiographic_note": "The historical record for 1916 BCE is heavily dependent on Egyptian and Hittite administrative and religious texts, which are inherently biased toward the perspectives of the ruling dynasties. Egyptian temple reliefs and administrative papyri emphasize pharaonic military success and divine favor. Hittite annals similarly present a royal perspective. Archaeological evidence from the Levant and Syria provides some independent corroboration but is difficult to date precisely to individual years. The record is almost entirely absent for sub-Saharan Africa, Central Asia, and the Americas. The chronology of this entire period remains contested, with scholarly disagreement of 50+ years. What is presented here reflects the 'conventional' or 'middle' chronology, but alternative chronologies would shift these events significantly.",
+  "graph_edges": [
+    {
+      "from": "-1915-001",
+      "to": "-1910-001",
+      "relation": "part_of",
+      "note": "Ahmose I's campaigns are part of a broader pattern of New Kingdom expansion in the Levant"
+    },
+    {
+      "from": "-1915-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Hittite expansion under Hattusili I establishes the foundation for later Hittite-Mitanni rivalry"
+    }
+  ]
+}
