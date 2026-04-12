@@ -1,0 +1,93 @@
+{
+  "year": -398,
+  "year_label": "398 BCE",
+  "era_context": "The year following Socrates' execution. Athens is in political and intellectual ferment; the city is recovering from the Peloponnesian War but remains fractious. Sparta is the dominant military power in Greece but faces growing resistance from other city-states and Persian interference. In the Near East, Artaxerxes II is consolidating his empire. The broader Mediterranean world sees continued Greek colonization and trade expansion.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Most of the Persian Empire beyond court records"
+  ],
+  "events": [
+    {
+      "id": "-398-001",
+      "title": "Agesilaus II's Anatolian campaign and Persian response",
+      "region": "Anatolia, Ionia, Persia",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "military",
+      "description": "Spartan King Agesilaus II, having been sent to Asia Minor to support Greek cities against Persian control, continues military operations in Ionia and Lydia. He achieves initial successes against Persian forces and local satraps. However, Persian King Artaxerxes II, alarmed by Spartan expansion, begins coordinating with Greek city-states (particularly Athens and Corinth) to contain Spartan power. This marks the beginning of a strategic shift that will lead to the Corinthian War.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)",
+        "Artaxerxes II (Persian king)",
+        "Tissaphernes (Persian satrap, recently executed)",
+        "Phrynichus (Spartan general)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book III",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Xenophon provides a detailed account of Agesilaus' campaigns, but the precise chronology of events in 398 BCE versus 397 BCE is somewhat unclear. Ancient sources sometimes compress or expand campaigns across multiple years.",
+      "cross_references": [
+        "Part of broader Spartan hegemony period (-404 to -371)",
+        "Leads to Corinthian War (-395 to -387)"
+      ]
+    },
+    {
+      "id": "-398-002",
+      "title": "Plato's philosophical activity and early dialogues",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "In the year following Socrates' death, Plato is actively engaged in philosophical inquiry and likely beginning to compose early dialogues (Apology, Euthyphro, Laches, Charmides). These works preserve Socratic method and teaching while beginning to develop Platonic philosophy. Plato is also traveling\u2014he may visit Sicily and southern Italy during this period, though the exact chronology of his travels remains debated. His intellectual circle in Athens is forming the nucleus of what will become the Academy.",
+      "key_figures": [
+        "Plato (philosopher)",
+        "Xenophon (contemporary philosopher, also writing memoirs of Socrates)"
+      ],
+      "sources": [
+        {
+          "name": "Plato, early dialogues (Apology, Euthyphro, Laches, Charmides)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Plato's early life and travels is notoriously uncertain. Ancient biographers (Diogenes La\u00ebrtius) provide dates, but these are often contradictory or based on inference. The composition dates of early dialogues are debated by modern scholars; they were likely written in the 390s\u2013380s BCE, but precise dating to 398 BCE is speculative.",
+      "cross_references": [
+        "Follows from Socrates' execution (-399-001)",
+        "Leads to founding of the Academy (traditionally -387 or -385)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Agesilaus' Anatolian campaigns is disputed. Some sources suggest his campaign began in 396 BCE, not 398 BCE. Xenophon's account is the primary source, but he may have compressed or rearranged events for narrative purposes. Additionally, the extent of Agesilaus' military success is debated: while he won battles, he did not achieve lasting territorial gains, and Persian resources ultimately proved superior. Regarding Plato's early life, the tradition of his travels to Sicily and Egypt in the 390s BCE is questioned by some modern scholars, who argue these may be later biographical embellishments.",
+  "historiographic_note": "Sources for 398 BCE are heavily weighted toward Greek (especially Athenian and Spartan) perspectives. Xenophon's Hellenica is the primary narrative source for military and political events, but Xenophon was a Spartan sympathizer and his account may reflect bias. Persian sources are largely absent from the surviving record, though inscriptions and later Greek accounts of Persian actions exist. The intellectual and cultural life of Athens is documented primarily through Plato's writings and later biographical traditions, which are often unreliable for precise chronology. The year 398 BCE is less well-documented than 399 BCE (Socrates' trial) or 395 BCE (Corinthian War), making it a transitional year with fewer clearly datable events.",
+  "graph_edges": [
+    {
+      "from": "-398-001",
+      "to": "-395-001",
+      "relation": "led_to",
+      "note": "Agesilaus' campaigns and Persian response escalate into the Corinthian War"
+    },
+    {
+      "from": "-398-002",
+      "to": "-387-001",
+      "relation": "led_to",
+      "note": "Plato's philosophical development in this period leads to the founding of the Academy"
+    }
+  ]
+}

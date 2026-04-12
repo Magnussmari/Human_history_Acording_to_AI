@@ -1,0 +1,92 @@
+{
+  "year": -396,
+  "year_label": "396 BCE",
+  "era_context": "Mid-390s BCE. Sparta is at the height of its military power but facing increasing diplomatic isolation as Persian gold flows to rival Greek city-states. Athens is rebuilding its naval and economic strength. Thebes is emerging as a regional power. In the Near East, Artaxerxes II is consolidating his empire and using Greek factional conflicts to prevent any single power from threatening Persian interests. The broader Mediterranean world continues to see Greek expansion and trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Interior of Persian Empire beyond court records"
+  ],
+  "events": [
+    {
+      "id": "-396-001",
+      "title": "Agesilaus II's Anatolian campaign reaches its peak; Persian counter-offensive begins",
+      "region": "Anatolia, Ionia, Lydia, Persia",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "military",
+      "description": "Agesilaus II, commanding Spartan forces in Asia Minor, achieves his greatest military successes, defeating Persian forces and local satraps in several engagements. However, Artaxerxes II, recognizing the threat, personally takes command of a large Persian army to confront Agesilaus. The two armies approach each other, but a decisive battle does not occur in 396 BCE. Instead, Artaxerxes' presence and the mobilization of Persian resources signal a shift in strategy: rather than defeating Sparta militarily in Asia, Persia will use diplomacy and gold to turn Greek city-states against Sparta.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)",
+        "Artaxerxes II (Persian king)",
+        "Tissaphernes (Persian satrap, recently executed but his successor continues his policies)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book III",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Xenophon provides a detailed account of Agesilaus' campaigns, but the precise chronology of events in 396 BCE versus 397 BCE is unclear. The year 396 BCE is sometimes cited as the beginning of Agesilaus' campaign, while other sources place it in 395 BCE. Modern scholars debate the exact dating.",
+      "cross_references": [
+        "Part of Spartan hegemony period (-404 to -371)",
+        "Leads to Corinthian War (-395 to -387)"
+      ]
+    },
+    {
+      "id": "-396-002",
+      "title": "Athenian naval reconstruction and economic recovery",
+      "region": "Athens, Attica, Aegean",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "economic",
+      "description": "Athens, recovering from the devastation of the Peloponnesian War and the subsequent oligarchic period (404\u2013403 BCE), is rebuilding its naval power and commercial networks. The city's economy is strengthening through trade, and its population is recovering. This economic and military recovery is partly enabled by Persian gold flowing into Athens as part of Artaxerxes II's strategy to contain Sparta. The Athenian navy, once the dominant force in the Mediterranean, is being reconstructed and will play a crucial role in the coming Corinthian War.",
+      "key_figures": [
+        "Conon (Athenian general, in Persian service)",
+        "Thrasybulus (Athenian general and democratic leader)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book II-III",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Thrasybulus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Athenian economic recovery in the 390s BCE is well-attested. However, the precise dating of specific economic developments to 396 BCE is uncertain. Ancient sources do not always provide detailed economic data for this period.",
+      "cross_references": [
+        "Follows from Athenian recovery after the Peloponnesian War (-404)",
+        "Leads to Athenian participation in the Corinthian War (-395 to -387)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Agesilaus' Anatolian campaign is disputed among modern scholars. Some place the beginning of his campaign in 396 BCE, while others argue it began in 395 BCE or even 397 BCE. Xenophon's account is the primary source, but he does not always provide precise annual dating. Additionally, the extent of Agesilaus' military success is debated: while he won battles, he did not achieve lasting territorial gains, and Persian resources ultimately proved superior. Regarding Athenian recovery, the extent and pace of economic reconstruction in the 390s BCE is debated by modern scholars, with some arguing that recovery was slower and more uneven than traditional accounts suggest.",
+  "historiographic_note": "Sources for 396 BCE are sparse and primarily Greek in origin. Xenophon's Hellenica remains the main narrative source, but it is not always precise in dating. Persian sources are largely absent from the surviving record. The year 396 BCE is a transitional year with few clearly datable events; it falls between the more dramatic events of 399 BCE (Socrates' trial) and 395 BCE (Corinthian War). The historical record for this year is heavily dependent on inference from broader patterns rather than specific documented events. The dating of Agesilaus' campaign is particularly uncertain, with ancient sources sometimes conflating events across multiple years.",
+  "graph_edges": [
+    {
+      "from": "-396-001",
+      "to": "-395-001",
+      "relation": "led_to",
+      "note": "Agesilaus' campaigns and Persian counter-strategy lead to the Corinthian War"
+    },
+    {
+      "from": "-396-002",
+      "to": "-395-001",
+      "relation": "led_to",
+      "note": "Athenian economic recovery enables participation in the Corinthian War"
+    }
+  ]
+}

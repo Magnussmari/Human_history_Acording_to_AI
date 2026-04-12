@@ -1,0 +1,89 @@
+{
+  "year": -391,
+  "year_label": "391 BCE",
+  "era_context": "The early 4th century BCE. The Corinthian War (395\u2013387 BCE) is still ongoing or recently concluded. Athens and Sparta remain the dominant Greek powers, though both are constrained by Persian diplomacy. The Persian Empire under Artaxerxes II is at its height. Rome is consolidating control in Latium and facing increasing pressure from Gallic tribes to the north. In China, the Warring States period is intensifying.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "India (limited synchronisation with Mediterranean chronology)"
+  ],
+  "events": [
+    {
+      "id": "-391-001",
+      "title": "Corinthian War \u2014 ongoing military campaigns",
+      "region": "Greece (Corinthia, Attica, Peloponnese)",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "The Corinthian War (395\u2013387 BCE) was a coalition conflict between Sparta and an alliance of Athens, Corinth, Thebes, and Argos, backed by Persian subsidies. By 391 BCE, the war was in its mid-phase, with campaigns focused on control of central Greece and the Peloponnese. The conflict was driven by Spartan hegemonic ambitions and Persian desire to weaken Greek unity. The war would conclude with the Peace of Antalcidas in 387 BCE, which paradoxically strengthened Spartan power while fragmenting the Greek coalition.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)",
+        "Conon (Athenian general and Persian ally)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Books 3\u20134",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Xenophon was a near-contemporary observer and participant in some of these events. The Corinthian War is well-attested in Greek sources.",
+      "cross_references": [
+        "Part of the broader pattern of Greek inter-state conflict in the 4th century BCE",
+        "Concluded by the Peace of Antalcidas in 387 BCE"
+      ]
+    },
+    {
+      "id": "-391-002",
+      "title": "Artaxerxes II's consolidation of Persian hegemony",
+      "region": "Persian Empire (Asia Minor, Levant, Mesopotamia)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "By 391 BCE, Artaxerxes II had firmly established Persian dominance over the eastern Mediterranean and Near East. The Persian Empire was at its territorial and economic height, controlling trade routes and extracting tribute from subject peoples. Artaxerxes used Persian wealth and military power to manipulate Greek politics, backing different factions to prevent any single power from challenging Persian hegemony. This period saw the height of Persian cultural influence in the Mediterranean world.",
+      "key_figures": [
+        "Artaxerxes II (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Anabasis and Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, various lives",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Persian hegemony in this period is well-attested in Greek sources, though Persian sources themselves are sparse.",
+      "cross_references": [
+        "Part of the broader Persian imperial system of the 5th\u20134th centuries BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the Corinthian War's causes and significance are debated among scholars. Some emphasise Persian manipulation; others stress genuine Greek inter-state rivalry. The war's impact on Greek unity is often overstated in older historiography.",
+  "historiographic_note": "Documentation for 391 BCE is moderate but heavily skewed toward Greek sources. Xenophon provides near-contemporary accounts of military and political events in Greece and the eastern Mediterranean. Persian sources are sparse; what we know of Persian policy comes largely through Greek eyes. Roman sources are minimal; Rome was a minor power at this date and barely noticed by Greek historians. Asian sources (China, India) are not synchronised with Mediterranean chronology in surviving records. The historical record reflects the interests and biases of Greek historians, particularly their focus on inter-state warfare and diplomatic maneuvering.",
+  "graph_edges": [
+    {
+      "from": "-391-001",
+      "to": "-387-PEACE_OF_ANTALCIDAS",
+      "relation": "led_to",
+      "note": "The Corinthian War concluded with the Peace of Antalcidas in 387 BCE."
+    },
+    {
+      "from": "-391-002",
+      "to": "-390-SACK_OF_ROME",
+      "relation": "contemporary_with",
+      "note": "While the Persian Empire was consolidating hegemony in the eastern Mediterranean, Rome faced the Gallic invasion from the north."
+    }
+  ]
+}

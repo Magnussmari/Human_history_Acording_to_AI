@@ -1,0 +1,93 @@
+{
+  "year": -397,
+  "year_label": "397 BCE",
+  "era_context": "Mid-390s BCE. Sparta remains the dominant military power in Greece, but Persian diplomacy is actively working to undermine Spartan hegemony by supporting rival Greek city-states. Athens is recovering economically and politically but remains wary of Spartan power. In the Near East, Artaxerxes II is consolidating control after the rebellion of Cyrus the Younger. The broader Mediterranean continues to see Greek expansion and trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Interior of Persian Empire beyond court records and Greek accounts"
+  ],
+  "events": [
+    {
+      "id": "-397-001",
+      "title": "Agesilaus II continues Anatolian campaigns; Persian counter-strategy",
+      "region": "Anatolia, Ionia, Lydia, Persia",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "military",
+      "description": "Agesilaus II continues his military operations in Asia Minor, achieving tactical victories but failing to dislodge Persian control. Artaxerxes II, recognizing that direct military confrontation with Sparta is costly, shifts strategy: he begins secretly funding Greek city-states (particularly Athens, Corinth, and Thebes) to create a coalition against Sparta. This diplomatic maneuver will culminate in the Corinthian War (395\u2013387 BCE). The year 397 BCE marks the transition from Spartan military dominance to a period of Greek factional conflict orchestrated partly by Persian gold.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)",
+        "Artaxerxes II (Persian king)",
+        "Conon (Athenian general, in Persian service)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book III",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Agesilaus' campaigns and Persian counter-strategy is well-attested. However, the precise chronology of events in 397 BCE versus 396 BCE is unclear in ancient sources. Xenophon's account is the primary source, but he does not always provide precise annual dating.",
+      "cross_references": [
+        "Part of Spartan hegemony period (-404 to -371)",
+        "Directly leads to Corinthian War (-395 to -387)"
+      ]
+    },
+    {
+      "id": "-397-002",
+      "title": "Conon's naval operations and Persian support",
+      "region": "Eastern Mediterranean, Aegean, Cyprus",
+      "coordinates_approx": "35.0, 33.0",
+      "category": "military",
+      "description": "Conon, an Athenian general and naval commander, enters Persian service under Artaxerxes II. He is tasked with building a naval force to counter Spartan naval dominance and support Persian interests in the Eastern Mediterranean. Conon's operations in this period are part of the broader Persian strategy to contain Sparta. His naval activities will culminate in the Battle of Cnidus (394 BCE), where he will achieve a major victory over the Spartan fleet.",
+      "key_figures": [
+        "Conon (Athenian general)",
+        "Artaxerxes II (Persian king)",
+        "Pharnabazus (Persian satrap)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book IV",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Conon",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Conon's entry into Persian service and his naval operations are attested in Xenophon and later sources. However, the precise dating of his activities in 397 BCE versus 396 BCE is uncertain. Ancient sources sometimes compress events across multiple years.",
+      "cross_references": [
+        "Leads to Battle of Cnidus (-394-001)",
+        "Part of broader Persian strategy against Sparta"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Agesilaus' campaigns and Conon's entry into Persian service is debated. Some scholars place key events in 396 BCE rather than 397 BCE. Additionally, the extent of Persian 'orchestration' of the Corinthian War is disputed: while Persian gold clearly supported anti-Spartan coalitions, the degree to which Persia actively engineered the war versus opportunistically exploited existing Greek tensions is debated by modern scholars. Xenophon's account may overstate Persian agency.",
+  "historiographic_note": "Sources for 397 BCE are sparse and primarily Greek in origin. Xenophon's Hellenica remains the main narrative source, but it is not always precise in dating. Persian sources are largely absent from the surviving record. The year 397 BCE is a transitional year with few clearly datable events; it falls between the more dramatic events of 399 BCE (Socrates' trial) and 395 BCE (Corinthian War). The historical record for this year is heavily dependent on inference from broader patterns rather than specific documented events.",
+  "graph_edges": [
+    {
+      "from": "-397-001",
+      "to": "-395-001",
+      "relation": "led_to",
+      "note": "Persian strategy of funding anti-Spartan coalitions leads to the Corinthian War"
+    },
+    {
+      "from": "-397-002",
+      "to": "-394-001",
+      "relation": "led_to",
+      "note": "Conon's naval operations culminate in the Battle of Cnidus"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "year": -399,
+  "year_label": "399 BCE",
+  "era_context": "Late Classical Greece during the final decade of the Peloponnesian War (431\u2013404 BCE). Athens and Sparta remain locked in exhausting conflict; Persian influence in Aegean affairs is growing. The Athenian democracy is under strain; intellectual ferment continues with sophists, Socrates, and early Platonic circles active in Athens. In the Near East, the Achaemenid Persian Empire under Artaxerxes II is consolidating power after the rebellion of Cyrus the Younger (401 BCE) is still fresh memory.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek/Roman awareness",
+    "East Asia (Chinese sources exist but rarely cross-referenced with Western chronologies for this period)",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-399-001",
+      "title": "Trial and execution of Socrates",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "legal",
+      "description": "Socrates, the Athenian philosopher, is tried on charges of impiety (asebeia) and corruption of youth. He is convicted and sentenced to death by hemlock poison. The trial reflects post-war Athenian anxiety, factional tension, and suspicion of intellectuals perceived as undermining democratic values. Socrates' death becomes a foundational moment in Western philosophy and martyrdom narratives. His student Plato witnesses the event and later immortalizes it in dialogues including the Apology, Phaedo, and Crito.",
+      "key_figures": [
+        "Socrates (philosopher, defendant)",
+        "Plato (student, witness)",
+        "Xenophon (student, witness)",
+        "Anytus (accuser)",
+        "Meletus (accuser)",
+        "Lycon (accuser)"
+      ],
+      "sources": [
+        {
+          "name": "Plato, Apology",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plato, Phaedo",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Memorabilia",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Aristophanes, Clouds (earlier, 423 BCE, but documents contemporary hostility to Socrates)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The trial and execution are attested in multiple near-contemporary sources (Plato and Xenophon wrote within decades). Ancient chronographers (Diogenes La\u00ebrtius) place the event in the archonship of Eucleides (399/8 BCE). Modern scholarship confirms the year as 399 BCE with high confidence.",
+      "cross_references": [
+        "Follows from broader Athenian political instability post-Peloponnesian War (-404)",
+        "Influences development of Platonic philosophy and Academy founding (-387 or -385)"
+      ]
+    },
+    {
+      "id": "-399-002",
+      "title": "Continued Corinthian War tensions and Persian diplomacy",
+      "region": "Greece, Persia, Eastern Mediterranean",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "In the aftermath of Cyrus the Younger's failed rebellion (401 BCE) and the subsequent Ten Thousand's retreat, Persian King Artaxerxes II consolidates control and begins using Greek factional disputes to maintain influence. Sparta, Athens, Corinth, and Thebes maneuver for advantage; Persian gold flows to various Greek states to prevent any single power from dominating. This period marks the beginning of systematic Persian intervention in Greek affairs that will continue through the 390s and 380s BCE.",
+      "key_figures": [
+        "Artaxerxes II (Persian King)",
+        "Agesilaus II (Spartan king)",
+        "Lysander (Spartan general, recently deceased but legacy influential)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Persian intervention and Greek factional conflict is well-attested. Specific events in 399 BCE are less clearly delineated; the year falls within a period of ongoing diplomatic maneuvering rather than a single decisive event.",
+      "cross_references": [
+        "Follows from Cyrus the Younger's rebellion (-401)",
+        "Leads to Corinthian War (-395 to -387)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Socrates' execution has been debated. While 399 BCE is the traditional date (based on Diogenes La\u00ebrtius and ancient chronographers), some modern scholars have proposed alternative dates within a few years of this period. However, the weight of modern scholarship supports 399 BCE. Additionally, the precise charges and motivations behind the trial remain contested: some scholars emphasize political factionalism and post-war scapegoating, while others stress genuine religious concerns about Socratic teaching. The trial was not universally popular even in Athens\u2014Plato's account may reflect his own bias in portraying Socrates as a martyr.",
+  "historiographic_note": "The historical record for 399 BCE is dominated by Athenian sources, particularly Plato and Xenophon. Both were students of Socrates and had personal stakes in how his trial was remembered. Plato's accounts are philosophically sophisticated but may not be historically precise in detail. Xenophon's Hellenica provides a broader Greek perspective but is less detailed on Athenian internal affairs. Non-Greek sources (Persian, Egyptian) are sparse for this year. The trial of Socrates has been heavily mythologized in Western intellectual tradition, potentially obscuring the specific political and social context of late-5th-century Athens.",
+  "graph_edges": [
+    {
+      "from": "-399-001",
+      "to": "-387-001",
+      "relation": "led_to",
+      "note": "Socrates' death influences Plato's philosophical project and eventual founding of the Academy"
+    },
+    {
+      "from": "-399-002",
+      "to": "-395-001",
+      "relation": "led_to",
+      "note": "Persian intervention and Greek factional tensions escalate into the Corinthian War"
+    }
+  ]
+}

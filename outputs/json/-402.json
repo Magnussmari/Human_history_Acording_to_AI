@@ -1,0 +1,122 @@
+{
+  "year": -402,
+  "year_label": "402 BCE",
+  "era_context": "The Peloponnesian War continues in its final phase; Athens is under siege and facing imminent defeat. Cyrus the Younger is preparing his rebellion against Artaxerxes II (which will occur in 401 BCE). In China, the Warring States period is intensifying. In Mesoamerica, Classic Maya civilization continues to flourish.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "India",
+    "Specific events in 402 BCE are less well-documented than adjacent years"
+  ],
+  "events": [
+    {
+      "id": "-402-001",
+      "title": "Athens under siege by Spartan forces; Peloponnesian War in final phase",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "military",
+      "description": "The Spartan general Lysander, commanding the Spartan fleet and allied forces, maintains a blockade of Athens, preventing grain shipments from reaching the city. Athens, already weakened by decades of war and the loss of its empire, faces starvation. The city's population is suffering from famine, and morale is collapsing. Negotiations for peace are ongoing, but Sparta demands unconditional surrender. The siege will last several more months before Athens capitulates in 404 BCE. This final phase of the Peloponnesian War demonstrates the exhaustion of both sides but the superior strategic position of Sparta.",
+      "key_figures": [
+        "Lysander (Spartan general)",
+        "Theramenes (Athenian negotiator)",
+        "Pausanias (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica, Book II",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Lysander",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Athens is well-documented, but specific events in 402 BCE are not individually attested. The siege lasted from approximately 405\u2013404 BCE; this entry reflects the broader context.",
+      "cross_references": [
+        "Part of broader Peloponnesian War narrative",
+        "Leads to -401-003 (Athens surrenders)"
+      ]
+    },
+    {
+      "id": "-402-002",
+      "title": "Cyrus the Younger prepares rebellion; gathers mercenaries and resources",
+      "region": "Lydia, Persian Empire (modern Turkey)",
+      "coordinates_approx": "38.5, 28.0",
+      "category": "political",
+      "description": "Cyrus the Younger, satrap of Lydia and younger son of Darius II, begins preparations for his rebellion against his brother Artaxerxes II. He secretly recruits Greek mercenaries, accumulates military resources, and builds alliances with dissident Persian nobles. His rebellion will be launched in 401 BCE. The preparations are conducted with some secrecy, though Artaxerxes II eventually becomes aware of Cyrus's ambitions. This period of preparation demonstrates the internal tensions within the Persian Empire and the vulnerability of the Great King's authority.",
+      "key_figures": [
+        "Cyrus the Younger (Persian prince)",
+        "Artaxerxes II (Persian Great King)",
+        "Clearchus (Greek general, recruited by Cyrus)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Anabasis, Book I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Artaxerxes",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Xenophon describes Cyrus's preparations in the Anabasis, but specific events in 402 BCE are not individually dated. The rebellion occurred in 401 BCE; this entry reflects the preparatory phase.",
+      "cross_references": [
+        "Leads to -401-001 (Battle of Cunaxa)"
+      ]
+    },
+    {
+      "id": "-402-003",
+      "title": "Socrates continues philosophical teaching in Athens amid war and siege",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Despite the siege and famine afflicting Athens, Socrates continues his philosophical practice, engaging with students and citizens in dialogue. His refusal to abandon the city or compromise his principles during this crisis demonstrates his commitment to philosophical inquiry and his belief in the importance of virtue over material comfort. His teaching during this period influences a generation of Athenian intellectuals, including Plato and Xenophon. Socrates' steadfastness during Athens' darkest hour becomes part of his legendary reputation.",
+      "key_figures": [
+        "Socrates (philosopher)",
+        "Plato (student)",
+        "Xenophon (student)"
+      ],
+      "sources": [
+        {
+          "name": "Plato, Apology",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Memorabilia",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Socrates' presence in Athens during the siege is probable, but specific activities in 402 BCE are not documented. This entry reflects the broader context of his life during this period.",
+      "cross_references": [
+        "Part of broader narrative of Socrates' life and influence"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Specific events in 402 BCE are poorly documented compared to adjacent years (401 and 404 BCE). The siege of Athens is often dated to 405\u2013404 BCE, with the exact chronology debated. Cyrus's preparations for rebellion are described in Xenophon's Anabasis, but the specific timing of events is not always clear. Socrates' activities in 402 BCE are not individually documented; the entry reflects inference from broader biographical sources.",
+  "historiographic_note": "The historical record for 402 BCE is thinner than for adjacent years. The Peloponnesian War is well-documented in Xenophon and later sources, but the final siege of Athens is not broken down into year-by-year detail. Persian sources for Cyrus's preparations are sparse; knowledge comes primarily through Greek accounts written after the fact. Chinese and Mesoamerican sources for this year are not specific. The record is heavily weighted toward the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-402-001",
+      "to": "-401-003",
+      "relation": "led_to",
+      "note": "Siege of Athens led to eventual surrender in 404 BCE"
+    },
+    {
+      "from": "-402-002",
+      "to": "-401-001",
+      "relation": "led_to",
+      "note": "Cyrus's preparations led to the rebellion and Battle of Cunaxa"
+    }
+  ]
+}
