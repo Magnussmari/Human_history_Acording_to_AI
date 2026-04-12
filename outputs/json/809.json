@@ -1,0 +1,120 @@
+{
+  "year": 809,
+  "year_label": "809 CE",
+  "era_context": "Louis the Pious is in the early years of his reign as Emperor of the Franks and Lombards, having inherited from Charlemagne in 814. The Abbasid Caliphate is experiencing internal succession tensions as al-Ma'mun and al-Amin compete for power. Tang China under Xianzong continues administrative reforms. Viking raids are increasing in frequency across Northern Europe and the British Isles.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "809-001",
+      "title": "Abbasid Civil War Begins: al-Amin vs. al-Ma'mun",
+      "region": "Abbasid Caliphate (Iraq, Syria, Persia)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Following the death of Caliph Harun al-Rashid in 809, his sons al-Amin and al-Ma'mun entered into a succession dispute that would escalate into civil war. Al-Amin, the elder, was designated as caliph, but al-Ma'mun, supported by Persian generals and the eastern provinces, contested this decision. The conflict would dominate Abbasid politics for the next several years, weakening central authority and allowing regional governors to consolidate power. This civil war marked a turning point in Abbasid stability.",
+      "key_figures": [
+        "Harun al-Rashid (deceased caliph)",
+        "al-Amin (Caliph, r. 809\u2013813)",
+        "al-Ma'mun (rival claimant, later Caliph r. 813\u2013833)",
+        "al-Fadl ibn al-Rabi (vizier supporting al-Amin)"
+      ],
+      "sources": [
+        {
+          "name": "al-Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-al-Muluk)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Harun al-Rashid and the beginning of the succession dispute are well-documented in Islamic historiography. The date of Harun's death is given as 24 March 809 in most sources.",
+      "cross_references": [
+        "813-ALAMIN_DEATH",
+        "833-ALMAMUN_DEATH"
+      ]
+    },
+    {
+      "id": "809-002",
+      "title": "Viking Raid on Lindisfarne and Northeast England",
+      "region": "Northumbria, British Isles",
+      "coordinates_approx": "55.4, -2.0",
+      "category": "military",
+      "description": "Norse raiders conducted raids on coastal settlements in Northumbria and the northeast of England. While the famous raid on Lindisfarne monastery occurred in 793, raids continued throughout the early 9th century with increasing frequency and intensity. By 809, Viking incursions were becoming a regular threat to Anglo-Saxon kingdoms, prompting defensive measures and fortification of coastal areas.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Bede and later continuators",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific raids in 809 are not always precisely documented. The Anglo-Saxon Chronicle records Viking activity in this period but often with vague dating. The pattern of raids is clear; specific events in 809 are less certain.",
+      "cross_references": [
+        "793-LINDISFARNE_RAID"
+      ]
+    },
+    {
+      "id": "809-003",
+      "title": "Louis the Pious Consolidates Frankish Authority",
+      "region": "Frankish Empire",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "political",
+      "description": "In the years following his accession in 814, Louis the Pious worked to consolidate his authority over the Frankish Empire. By 809, he had established his control over the major regions and was beginning to implement administrative reforms. His reign was characterized by attempts to strengthen ecclesiastical authority and moral governance, in contrast to some of his father's more pragmatic policies.",
+      "key_figures": [
+        "Louis the Pious (Emperor)",
+        "Benedict of Aniane (monastic reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Einhard, Life of Charlemagne",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Thegan, Life of Louis the Pious (Vita Hludowici Imperatoris)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Royal Frankish Annals",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Louis's general policies and consolidation are well-documented, though specific events in 809 are not always precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Harun al-Rashid's death is sometimes given as 809 and sometimes as 24 March 809, with some sources placing it in 808. The exact date of the beginning of the al-Amin/al-Ma'mun conflict is thus slightly uncertain. Viking raids in 809 are not always clearly distinguished from raids in adjacent years in the Anglo-Saxon Chronicle.",
+  "historiographic_note": "Documentation for 809 is strongest for the Abbasid Caliphate (through later Islamic historiography) and the Frankish Empire (through Frankish annals and later biographies). Byzantine sources are sparse for this year. Anglo-Saxon sources for Viking activity are often retrospective and imprecise in dating. Asian sources outside of Tang China are minimal. The sources reflect elite political and military concerns; economic, social, and cultural developments are less well-documented.",
+  "graph_edges": [
+    {
+      "from": "809-001",
+      "to": "813-ALAMIN_DEATH",
+      "relation": "led_to",
+      "note": "The civil war begun in 809 continued until al-Amin's death in 813"
+    },
+    {
+      "from": "809-002",
+      "to": "793-LINDISFARNE_RAID",
+      "relation": "part_of",
+      "note": "Continuation of Viking raiding pattern that began in 793"
+    }
+  ]
+}

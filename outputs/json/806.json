@@ -1,0 +1,139 @@
+{
+  "year": 806,
+  "year_label": "806 CE",
+  "era_context": "The Frankish Empire under Louis the Pious is consolidating power after Charlemagne's death in 814. The Abbasid Caliphate under Harun al-Rashid is at the height of its power and cultural influence. Tang China under Emperor Xianzong is experiencing renewed centralization. The Byzantine Empire under Nikephoros I faces military pressures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Pre-Columbian Americas",
+    "Central Asia and Steppe regions"
+  ],
+  "events": [
+    {
+      "id": "806-001",
+      "title": "Frankish Succession Planning and Division of Empire",
+      "region": "Frankish Empire",
+      "coordinates_approx": "48.5, 8.0",
+      "category": "political",
+      "description": "Charlemagne issued the Divisio Regnorum (Division of the Kingdom) in 806, outlining how his empire would be divided among his sons after his death. The document stipulated that the empire would be divided into three parts among his three surviving sons: Charles, Pepin, and Louis. However, the early deaths of Charles and Pepin meant that Louis the Pious would eventually inherit the entire empire. This succession plan reflected Frankish custom but would prove unstable.",
+      "key_figures": [
+        "Charlemagne (Emperor)",
+        "Charles (eldest son, died 811)",
+        "Pepin (middle son, died 810)",
+        "Louis the Pious (youngest son, later sole heir)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Frankish Annals",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Einhard, Life of Charlemagne",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Divisio Regnorum of 806 is well-documented in Frankish sources. The date is secure.",
+      "cross_references": [
+        "810-PEPIN_DEATH",
+        "811-CHARLES_DEATH",
+        "814-CHARLEMAGNE_DEATH"
+      ]
+    },
+    {
+      "id": "806-002",
+      "title": "Abbasid Military Campaigns and Frontier Consolidation",
+      "region": "Abbasid Caliphate",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Harun al-Rashid continued military campaigns to consolidate Abbasid control over frontier regions and suppress rebellions. In 806, these campaigns were ongoing, with the caliph working to maintain control over the vast Abbasid territories. The period was marked by relative stability and military success, though tensions with regional governors were building.",
+      "key_figures": [
+        "Harun al-Rashid (Caliph)",
+        "Yahya ibn Khalid (vizier)"
+      ],
+      "sources": [
+        {
+          "name": "al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern of military activity is documented; specific events in 806 are less clearly dated.",
+      "cross_references": []
+    },
+    {
+      "id": "806-003",
+      "title": "Tang Dynasty Centralization and Economic Growth",
+      "region": "Tang China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "economic",
+      "description": "Emperor Xianzong of Tang was overseeing a period of economic growth and administrative centralization. In 806, the Tang economy was expanding, with increased trade along the Silk Road and improved agricultural productivity. The period saw renewed cultural flourishing and the consolidation of central authority over regional military governors.",
+      "key_figures": [
+        "Emperor Xianzong of Tang",
+        "Pei Du (chancellor)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General economic and political trends are documented; specific events in 806 are not always precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "806-004",
+      "title": "Byzantine-Abbasid Border Raids and Fortifications",
+      "region": "Byzantine-Abbasid frontier",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "military",
+      "description": "Ongoing military tensions along the Byzantine-Abbasid frontier, with raids and counter-raids across the border in Anatolia and northern Syria. Byzantine Emperor Nikephoros I was attempting to strengthen frontier defenses, while Abbasid forces conducted raids. These conflicts were part of a long-standing pattern of Byzantine-Islamic warfare.",
+      "key_figures": [
+        "Nikephoros I (Byzantine Emperor)",
+        "Harun al-Rashid (Abbasid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern of conflict is well-established; specific events in 806 are less clearly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Divisio Regnorum of 806 is sometimes interpreted as a formal succession document, but modern scholarship suggests it may have been more of a statement of intent or a response to specific political circumstances. The exact legal status and binding nature of the document are debated by historians. Additionally, the division was rendered moot by the deaths of Charles and Pepin before Charlemagne's own death.",
+  "historiographic_note": "Documentation for 806 is moderate to good, with the Frankish Divisio Regnorum being a well-documented primary source. Islamic sources for the Abbasid period are less specific for individual years. Tang sources are detailed but often retrospective. Byzantine sources are sparse for this year. Sub-Saharan Africa, the Americas, and much of Southeast Asia have no written records. The surviving sources reflect elite, court-centered perspectives and may underrepresent economic, social, and cultural developments.",
+  "graph_edges": [
+    {
+      "from": "806-001",
+      "to": "810-PEPIN_DEATH",
+      "relation": "led_to",
+      "note": "The Divisio Regnorum of 806 was rendered moot by the deaths of Charlemagne's sons"
+    },
+    {
+      "from": "806-001",
+      "to": "814-CHARLEMAGNE_DEATH",
+      "relation": "led_to",
+      "note": "The succession plan of 806 determined the outcome after Charlemagne's death in 814"
+    }
+  ]
+}

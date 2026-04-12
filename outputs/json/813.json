@@ -1,0 +1,132 @@
+{
+  "year": 813,
+  "year_label": "813 CE",
+  "era_context": "The Carolingian Empire under Louis the Pious is in its first year of rule following Charlemagne's death. The Abbasid Caliphate is concluding its civil war with al-Ma'mun's victory over al-Amin. The Tang Dynasty under Emperor Xianzong continues military consolidation. In Scandinavia, Viking raiding activity is intensifying across the North Sea.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Southeast Asia (sparse contemporary records)",
+    "Mesoamerica (Maya civilization in decline; limited dated inscriptions)"
+  ],
+  "events": [
+    {
+      "id": "813-001",
+      "title": "Al-Ma'mun defeats al-Amin and consolidates Abbasid Caliphate",
+      "region": "Abbasid Caliphate (Baghdad, Iraq)",
+      "coordinates_approx": "33.31, 44.36",
+      "category": "political",
+      "description": "The Abbasid civil war (fitna) that began after Harun al-Rashid's death in 809 concluded with al-Ma'mun's decisive victory over his brother al-Amin. Al-Amin was defeated and killed in 813 (some sources date his death to late 813 or early 814), ending the succession dispute. Al-Ma'mun (r. 813\u2013833) emerged as sole caliph and immediately began consolidating power and implementing administrative reforms. His victory marked a shift toward Persian and Central Asian influence in the Abbasid court and enabled the intellectual and scientific patronage that would characterize his reign.",
+      "key_figures": [
+        "Caliph al-Ma'mun (r. 813\u2013833)",
+        "Al-Amin (defeated rival, d. 813)",
+        "Tahir ibn al-Husayn (military commander supporting al-Ma'mun)"
+      ],
+      "sources": [
+        {
+          "name": "Tarikh al-Tabari (History of al-Tabari)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akhbar al-Dawla al-Abbasiyya (History of the Abbasid Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Al-Ma'mun's victory and al-Amin's death are well-documented in Islamic historiography. The date is secure, though some sources place al-Amin's death in late 813 or early 814.",
+      "cross_references": [
+        "Follows from 809-001 (Harun al-Rashid's death and division of empire)",
+        "Led to 815-003 (al-Ma'mun's consolidation and intellectual patronage)"
+      ]
+    },
+    {
+      "id": "813-002",
+      "title": "Council of Aachen convened by Louis the Pious",
+      "region": "Frankish Empire (Aachen, modern Germany)",
+      "coordinates_approx": "50.77, 6.08",
+      "category": "religious",
+      "description": "Louis the Pious convened a major ecclesiastical council at Aachen in 813 to address religious and administrative reform. The council focused on standardizing liturgical practice, reforming monastic discipline, and clarifying the relationship between secular and ecclesiastical authority. This was one of the first major acts of Louis's reign and reflected his commitment to religious reform and the Carolingian ideal of a Christian empire. The council's decisions would influence religious practice across Western Europe for generations.",
+      "key_figures": [
+        "Louis the Pious (King of the Franks)",
+        "Ecclesiastical leaders and bishops"
+      ],
+      "sources": [
+        {
+          "name": "Capitulare monasticum (Carolingian capitulary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Annales Regni Francorum (Frankish Royal Annals)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Aachen in 813 is well-attested in Carolingian administrative records. The date is secure.",
+      "cross_references": [
+        "Follows from 814-001 (Louis the Pious's accession)",
+        "Related to 815-001 (Synod of Aachen and continued reform)"
+      ]
+    },
+    {
+      "id": "813-003",
+      "title": "Tang Dynasty military victory against Tufan (Tibet) in Sichuan",
+      "region": "Tang China / Tibetan plateau (Sichuan region)",
+      "coordinates_approx": "30.5, 104.0",
+      "category": "military",
+      "description": "Tang forces under Emperor Xianzong achieved a significant military victory against Tufan (Tibetan) forces in the Sichuan region, consolidating Tang control over this strategically important frontier area. The victory was part of Xianzong's broader campaign to reassert Tang military dominance and secure Silk Road trade routes. The campaign involved coordination with local military governors and allied states. Success enhanced Tang prestige and economic power.",
+      "key_figures": [
+        "Emperor Xianzong of Tang (r. 805\u2013820)",
+        "Tufan leadership (names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tang military campaigns in this region are documented in official histories, but specific dating to 813 (rather than 812\u2013814) is approximate.",
+      "cross_references": [
+        "Part of Tang military revival (805\u2013820)",
+        "Related to 815-002 (continued border campaigns)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of al-Amin's death is disputed in some sources; some place it in late 813, others in early 814. The significance of the Council of Aachen (813) is sometimes overstated as a unified 'reform' moment; modern scholarship emphasizes that reform was gradual and uneven. The Tang military victory in 813 may be conflated with campaigns in adjacent years; precise dating is uncertain.",
+  "historiographic_note": "Documentation for 813 is moderate but unevenly distributed. Frankish sources (capitularies, annals) are relatively rich; Islamic sources are later compilations; Chinese sources are official histories written centuries later. The Abbasid civil war is well-documented in Islamic historiography, but the precise date of al-Amin's death is disputed. Sub-Saharan Africa, Southeast Asia, and the Americas are largely absent from surviving written records for this year. The surviving sources are biased toward elite, literate, Christian, and Islamic institutions.",
+  "graph_edges": [
+    {
+      "from": "813-001",
+      "to": "809-001",
+      "relation": "caused_by",
+      "note": "Al-Ma'mun's victory concluded the civil war that began with Harun al-Rashid's death"
+    },
+    {
+      "from": "813-001",
+      "to": "820-001",
+      "relation": "led_to",
+      "note": "Al-Ma'mun's consolidation enabled intellectual patronage and House of Wisdom expansion"
+    },
+    {
+      "from": "813-002",
+      "to": "814-001",
+      "relation": "caused_by",
+      "note": "Council of Aachen was part of Louis the Pious's reform program following his accession"
+    },
+    {
+      "from": "813-003",
+      "to": "815-002",
+      "relation": "part_of",
+      "note": "Part of Tang military campaign cycle in Central Asia and frontier regions"
+    }
+  ]
+}

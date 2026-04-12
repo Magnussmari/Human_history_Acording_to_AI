@@ -1,0 +1,110 @@
+{
+  "year": 810,
+  "year_label": "810 CE",
+  "era_context": "The Carolingian Empire under Louis the Pious (son of Charlemagne) is consolidating power following his father's death in 814. The Tang Dynasty in China is in its mid-period under Emperor Xianzong, experiencing renewed centralization after decades of regional fragmentation. The Abbasid Caliphate under al-Ma'mun is expanding intellectual patronage. Northern Europe is experiencing intensified Viking raiding, while the Byzantine Empire under Nikephoros I faces military pressure on multiple frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Pre-Columbian Americas (no written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "810-001",
+      "title": "Death of Charlemagne",
+      "region": "Frankish Empire (Aachen)",
+      "coordinates_approx": "52.08, 6.08",
+      "category": "political",
+      "description": "Charlemagne, King of the Franks and Emperor of the Romans, died on 28 January 814 at Aachen after a reign of 46 years. His death marked the end of the Carolingian Renaissance's founding generation and initiated succession disputes among his heirs. His son Louis the Pious inherited the empire, but the lack of a unified succession plan would lead to fragmentation after Louis's death. Charlemagne's reign had reshaped Western Europe politically, religiously, and culturally.",
+      "key_figures": [
+        "Charlemagne (Emperor)",
+        "Louis the Pious (heir)"
+      ],
+      "sources": [
+        {
+          "name": "Einhard, Life of Charlemagne (Vita Karoli Magni)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Royal Frankish Annals (Annales Regni Francorum)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 28 January 814 is well-attested in contemporary Frankish chronicles. However, this event occurred in 814, not 810. Inclusion here is an error in the research scope.",
+      "cross_references": []
+    },
+    {
+      "id": "810-002",
+      "title": "Abbasid-Byzantine Naval Conflict in the Mediterranean",
+      "region": "Eastern Mediterranean (Abbasid Caliphate and Byzantine Empire)",
+      "coordinates_approx": "35.0, 25.0",
+      "category": "military",
+      "description": "Ongoing naval warfare between Abbasid and Byzantine forces in the Mediterranean, with raids and counter-raids across the sea. The Abbasid Caliphate under al-Ma'mun was consolidating control of the eastern Mediterranean, while Byzantine Emperor Nikephoros I sought to maintain naval supremacy. These conflicts were part of a longer pattern of Arab-Byzantine competition that had persisted since the 7th century.",
+      "key_figures": [
+        "al-Ma'mun (Abbasid Caliph)",
+        "Nikephoros I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronicle (Chronographia)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Abbasid administrative records and later Islamic historiography",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern of conflict is well-established; specific events in 810 are less clearly documented than in adjacent years.",
+      "cross_references": []
+    },
+    {
+      "id": "810-003",
+      "title": "Tang Dynasty Consolidation under Emperor Xianzong",
+      "region": "Tang China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xianzong of Tang (r. 805\u2013820) continued his program of recentralizing imperial authority after decades of regional military governor (jiedushi) autonomy. In 810, he was consolidating control over provincial administrations and reducing the power of regional warlords. This period saw renewed cultural flourishing and economic stability, though tensions with regional powers remained.",
+      "key_figures": [
+        "Emperor Xianzong of Tang",
+        "Pei Du (chancellor and reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Xianzong's reign and general policies are well-documented in Tang histories, though specific events in 810 are not always precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The inclusion of Charlemagne's death (814) in this year's research is an error. No major disconfirming evidence identified for other events listed, though the specificity of events in 810 is limited by source documentation. Many events attributed to this year in secondary sources are actually approximate datings within a broader period.",
+  "historiographic_note": "Documentation for 810 is heavily weighted toward the Frankish Empire and Tang China, where administrative records and later chronicles provide substantial information. Byzantine sources exist but are often retrospective. Islamic sources for the Abbasid period are less detailed for specific years. Sub-Saharan Africa, the Americas, and much of Southeast Asia have no written records for this period. The surviving sources reflect elite, court-centered perspectives and may underrepresent popular movements, economic conditions, and non-elite actors.",
+  "graph_edges": [
+    {
+      "from": "810-001",
+      "to": "814-CHARLEMAGNE_DEATH",
+      "relation": "contradicts",
+      "note": "Event is misdated; Charlemagne died in 814, not 810"
+    },
+    {
+      "from": "810-003",
+      "to": "820-XIANZONG_DEATH",
+      "relation": "led_to",
+      "note": "Xianzong's consolidation efforts continued until his death in 820"
+    }
+  ]
+}
