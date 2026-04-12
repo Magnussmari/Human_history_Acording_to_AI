@@ -1,0 +1,87 @@
+{
+  "year": -3115,
+  "year_label": "3115 BCE",
+  "era_context": "Early Dynastic Period I in Mesopotamia; emergence of the first city-states and written records. Egypt in the Early Dynastic Period (c. 3100\u20132686 BCE), shortly after the unification of Upper and Lower Egypt under the First Dynasty. The Indus Valley Civilization is in its early phases. Writing systems are nascent or newly developed in multiple regions.",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, Southeast Asia)",
+    "The Americas",
+    "Oceania",
+    "Northern Europe",
+    "Central Asia (limited archaeological data for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-3115-001",
+      "title": "Reign of Narmer/Menes \u2014 Egyptian unification consolidation",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.2\u00b0N, 31.8\u00b0E",
+      "category": "political",
+      "description": "The First Dynasty of Egypt is established, traditionally attributed to Narmer (also called Menes in later Greek sources). This year falls within the early reign of the unified Egyptian state, following the conquest of Lower Egypt by Upper Egypt. The consolidation of political authority over the Nile Valley represents a foundational moment in state formation. Narmer's reign is attested in the Narmer Palette and other ceremonial objects, though exact dating remains uncertain.",
+      "key_figures": [
+        "Narmer/Menes (Pharaoh of unified Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Narmer Palette (ceremonial slate palette with hieroglyphic inscriptions)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later Greek compilation of Egyptian king lists)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Narmer Palette is contemporary, but its exact date is debated. Conventional Egyptology places Narmer c. 3100\u20133050 BCE; this assignment to -3115 is approximate within a \u00b115-year range. The palette itself does not bear a regnal year.",
+      "cross_references": []
+    },
+    {
+      "id": "-3115-002",
+      "title": "Early Dynastic I city-states in Mesopotamia \u2014 Uruk, Ur, Lagash",
+      "region": "Mesopotamia (southern Iraq)",
+      "coordinates_approx": "31.9\u00b0N, 45.6\u00b0E",
+      "category": "political",
+      "description": "The Early Dynastic Period I (c. 3100\u20132900 BCE) sees the consolidation of Sumerian city-states in southern Mesopotamia. Uruk, Ur, Lagash, and other polities are competing for regional dominance. Writing (cuneiform) is in its infancy, used primarily for administrative and economic records. Temple complexes serve as centers of political and religious authority. This period marks the transition from prehistoric settlement to organized urban civilization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation with traditional dating)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Uruk, Ur, and Lagash excavations",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Early cuneiform tablets from Uruk (administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Early Dynastic I period is archaeologically attested but absolute dating is uncertain. Conventional chronology places it c. 3100\u20132900 BCE; this year is assigned by convention within that range.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Narmer and the First Dynasty of Egypt is contested. Some scholars argue for a lower chronology placing Narmer c. 3000 BCE or later, while others defend the conventional c. 3100 BCE date. The Narmer Palette's exact function and dating are debated\u2014it may be commemorative rather than strictly contemporary. The Sumerian King List, a primary source for Mesopotamian chronology, is now recognized as a legendary compilation with symbolic rather than strictly historical dating; its regnal lengths are not reliable for absolute chronology.",
+  "historiographic_note": "This year falls at the threshold of written history. Egyptian and Mesopotamian sources are the primary evidence; both regions have strong archaeological records but limited contemporary written documentation for this specific year. The Narmer Palette is a rare contemporary artifact, but its interpretation is contested. Mesopotamian cuneiform tablets from this period are administrative and do not provide narrative history. The Sumerian King List, compiled centuries later, is the main narrative source but is now understood to be legendary. Chronologies for this period remain uncertain by \u00b150\u2013100 years depending on the system used (conventional, low, or high chronology). Non-literate regions are entirely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "-3115-001",
+      "to": "-3100-EGYPT_DYNASTY_I",
+      "relation": "part_of",
+      "note": "Narmer's reign is part of the broader First Dynasty consolidation"
+    },
+    {
+      "from": "-3115-002",
+      "to": "-3000-MESOPOTAMIAN_CITY_STATES",
+      "relation": "led_to",
+      "note": "Early Dynastic I competition between city-states leads to later conflicts and state formation"
+    }
+  ]
+}
