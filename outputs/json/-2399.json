@@ -1,0 +1,121 @@
+{
+  "year": -2399,
+  "year_label": "2399 BCE",
+  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power centers. Simultaneously, the Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) dominates Mesopotamia and the Levant. In the Indus Valley, the mature Harappan civilization is at its height, with extensive trade networks reaching Mesopotamia. China's Xia Dynasty (traditional dates 2070\u20131600 BCE) is either in its early phase or, by some revisionist chronologies, not yet established; this period remains archaeologically opaque.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (no written records)",
+    "Mesoamerica (no written records)",
+    "East Asia beyond traditional Chinese sources (archaeological record thin)"
+  ],
+  "events": [
+    {
+      "id": "-2399-001",
+      "title": "Akkadian Empire at zenith under Naram-Sin",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "34.5, 44.0",
+      "category": "political",
+      "description": "Naram-Sin (r. 2254\u20132218 BCE) consolidates Akkadian control over Mesopotamia and extends campaigns into the Levant, Anatolia, and possibly the Zagros Mountains. He declares himself a god (deus invictus) and establishes a centralized bureaucracy. This represents the apex of Akkadian territorial expansion before internal fragmentation and external pressure from the Gutians.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele (limestone stele, c. 2254\u20132218 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions and administrative records. The exact year -2399 is assigned by conventional chronology (Middle Chronology), but absolute dating remains debated; Low Chronology would place this ~100 years later.",
+      "cross_references": []
+    },
+    {
+      "id": "-2399-002",
+      "title": "Harappan civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan, northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, with major urban centers at Mohenjo-daro, Harappa, Dholavira, and Lothal. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. Standardized weights, seals with undeciphered script, and planned urban layouts indicate sophisticated administrative systems. No monumental temples or palaces have been identified, suggesting a non-hierarchical or differently-organized society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira (ongoing since 1920s)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning Meluhha (Indus region)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is archaeologically well-attested. Absolute dating relies on radiocarbon and stratigraphic correlation; the mature phase is conventionally dated c. 2600\u20131900 BCE, placing -2399 within it.",
+      "cross_references": []
+    },
+    {
+      "id": "-2399-003",
+      "title": "Egyptian Old Kingdom fragmentation accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt (c. 2278\u20132184 BCE) is in advanced decline. Central authority weakens as provincial governors (nomarchs) accumulate power and resources. The reign of Pepi II (c. 2278\u20132184 BCE, though some sources extend his reign to 2184 or even 2152 BCE) is marked by reduced monumental building, economic strain, and the rise of local elite autonomy. This period presages the First Intermediate Period (c. 2184\u20132055 BCE).",
+      "key_figures": [
+        "Pepi II (Sixth Dynasty pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List and Turin King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs (e.g., Ankhtifi, Sirenput)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Reduced pyramid construction and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sixth Dynasty's decline is well-documented, but the exact chronology and length of Pepi II's reign are disputed. Egyptian chronology for this period has \u00b150\u2013100 year uncertainties.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional view of Pepi II's reign as extraordinarily long (92 years in some king lists) is now widely rejected by Egyptologists as legendary inflation. Modern scholarship suggests a reign of 30\u201340 years. Additionally, the 'collapse' of the Old Kingdom was not sudden; recent archaeological work shows continuity of settlement and administration in some regions during the First Intermediate Period, complicating the narrative of total state failure.",
+  "historiographic_note": "Documentation for -2399 is heavily skewed toward Mesopotamia and Egypt, where written records and monumental archaeology survive. The Indus Valley Civilization is known through archaeology but its script remains undeciphered, limiting narrative reconstruction. Chinese history for this period relies on traditional texts (Shiji) with no contemporary written confirmation; the Xia Dynasty may not have existed or may have emerged later. Sub-Saharan Africa, the Americas, and most of Europe leave no written record. The surviving sources are elite-focused (royal inscriptions, administrative texts) and likely omit the experiences of the majority of the population.",
+  "graph_edges": [
+    {
+      "from": "-2399-001",
+      "to": "-2350-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "Naram-Sin's overextension and internal Akkadian fragmentation enabled Gutian invasions within ~50 years"
+    },
+    {
+      "from": "-2399-003",
+      "to": "-2184-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Sixth Dynasty fragmentation directly precipitated the First Intermediate Period"
+    }
+  ]
+}
