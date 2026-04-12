@@ -1,0 +1,96 @@
+{
+  "year": 22,
+  "year_label": "22 CE",
+  "era_context": "The early Roman Imperial period under Tiberius. In China, Wang Mang's Xin dynasty is in its final years of collapse. The Parthian Empire dominates the Near East. In India, the Satavahana dynasty is expanding its power. The Mediterranean world is integrated under Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "22-001",
+      "title": "Tiberius's son Drusus Julius Caesar dies; Sejanus's position strengthens",
+      "region": "Roman Empire, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Drusus Julius Caesar, the son of Tiberius and a potential heir to the throne, dies in Rome. The circumstances of his death are disputed: Tacitus and later sources suggest he was poisoned by Sejanus and the latter's ally Livilla (Drusus's wife), though this is not confirmed by contemporary evidence. Drusus's death removes a potential check on Sejanus's power and strengthens the Praetorian Prefect's position as the most influential figure in the empire after Tiberius. This event marks a turning point in Sejanus's rise.",
+      "key_figures": [
+        "Drusus Julius Caesar (son of Tiberius)",
+        "Tiberius (Roman Emperor)",
+        "Lucius Aelius Sejanus (Praetorian Prefect)",
+        "Livilla (wife of Drusus, sister of Germanicus)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals, Book 4",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Tiberius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 57",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Drusus's death in 23 CE is well-attested in Roman sources. However, the year is sometimes given as 23 CE rather than 22 CE; sources vary slightly. The claim that Sejanus poisoned Drusus is traditional but not confirmed by contemporary evidence.",
+      "cross_references": [
+        "25-001 (Sejanus's rise)",
+        "31-001 (Sejanus's fall)"
+      ]
+    },
+    {
+      "id": "22-002",
+      "title": "Wang Mang's Xin dynasty faces final collapse; Liu Xiu consolidates power",
+      "region": "China, Han territories",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "military",
+      "description": "The Xin dynasty is in its final years. Wang Mang's authority has effectively collapsed over most of China; multiple warlords control regional territories. Liu Xiu, a distant descendant of the Han imperial house, is consolidating power in the central and eastern regions, positioning himself to reunify the empire. The Red Eyebrow Rebellion and other insurgencies continue to destabilize the north. Within three years, Liu Xiu will establish the Eastern Han dynasty.",
+      "key_figures": [
+        "Wang Mang (Xin Emperor, losing control)",
+        "Liu Xiu (future Eastern Han founder)"
+      ],
+      "sources": [
+        {
+          "name": "Hanshu and Hou Hanshu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The general trajectory of the Xin dynasty's collapse and Liu Xiu's rise is well-documented in Chinese sources.",
+      "cross_references": [
+        "25-003 (Eastern Han restoration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The year of Drusus's death is sometimes given as 23 CE rather than 22 CE in different sources. The claim that Sejanus poisoned Drusus is a traditional narrative found in Tacitus and later sources, but it is not confirmed by contemporary evidence and may reflect later historiographic bias against Sejanus. Some modern scholars are skeptical of the poisoning claim.",
+  "historiographic_note": "Documentation for 22 CE is similar to previous years: rich for Rome and China, sparse elsewhere. Roman sources are heavily influenced by later narratives that emphasize Sejanus's villainy and ambition. Chinese sources are detailed but compiled centuries after the events. The absence of contemporary written records for most of the world outside the Mediterranean and China remains a major limitation.",
+  "graph_edges": [
+    {
+      "from": "22-001",
+      "to": "31-001",
+      "relation": "led_to",
+      "note": "Drusus's death in 22 CE strengthens Sejanus's position, leading to his continued rise and eventual fall in 31 CE."
+    },
+    {
+      "from": "22-002",
+      "to": "25-003",
+      "relation": "led_to",
+      "note": "The collapse of the Xin dynasty in 22 CE enables Liu Xiu's establishment of the Eastern Han in 25 CE."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "year": 29,
+  "year_label": "29 CE",
+  "era_context": "The early Roman Empire under Tiberius continues. Judea remains under Roman control with Herod Antipas as tetrarch. The eastern Mediterranean is at peace. In Judea, Jewish sectarian movements (Pharisees, Sadducees, Essenes, and emerging Christian movement) are active. The Han Dynasty in China is in its final century before collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Han records exist but are sparse for this year)",
+    "Mesoamerica",
+    "India (Kushan Empire and other polities exist but records are limited)"
+  ],
+  "events": [
+    {
+      "id": "29-001",
+      "title": "John the Baptist's execution (alternative dating)",
+      "region": "Judea, Roman Empire",
+      "coordinates_approx": "31.94, 35.23",
+      "category": "religious",
+      "description": "John the Baptist, a Jewish preacher who baptized Jesus and other followers, was executed by Herod Antipas, tetrarch of Galilee and Perea. The execution occurred at the fortress of Machaerus. Some scholars date this event to 29 CE, while others place it earlier (26\u201328 CE) or later (30\u201331 CE). The Baptist's execution is attested in multiple sources and is historically probable, though the precise year is uncertain. His death marked a turning point in the emergence of Jesus as an independent religious figure.",
+      "key_figures": [
+        "John the Baptist (Jewish preacher)",
+        "Herod Antipas (Tetrarch of Galilee and Perea, r. 4 BCE\u201339 CE)",
+        "Herodias (wife of Herod Antipas)"
+      ],
+      "sources": [
+        {
+          "name": "Gospel of Mark 6:17\u201329",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Gospel of Matthew 14:3\u201312",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews 18.5.2",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The execution of John the Baptist by Herod Antipas is attested in both Christian (Gospels) and Jewish (Josephus) sources, lending it credibility. However, the precise year is debated among scholars. Josephus does not provide an explicit date. The Gospels do not date the event precisely. Scholars have proposed dates ranging from 26 to 31 CE based on various chronological reconstructions.",
+      "cross_references": [
+        "Preceded 30 CE (Jesus's crucifixion)",
+        "Related to 26-29 CE (John's ministry)"
+      ]
+    },
+    {
+      "id": "29-002",
+      "title": "Tiberius's reign continues; administrative stability in the Roman Empire",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "Emperor Tiberius, now in his mid-70s, continued his reign with relative stability. The empire experienced no major military crises or civil unrest in 29 CE. However, political intrigue at court intensified as Sejanus, the prefect of the Praetorian Guard, consolidated power. The year 29 CE is not marked by major recorded events in surviving sources, but it falls within a period of administrative competence and relative peace.",
+      "key_figures": [
+        "Tiberius (Roman Emperor, r. 14\u201337 CE)",
+        "Sejanus (Prefect of the Praetorian Guard)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 4\u20136",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Tiberius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad political context is well-attested, but no specific events are recorded for 29 CE in surviving sources. The year is assigned to this period by convention.",
+      "cross_references": [
+        "Part of Tiberius's reign (14\u201337 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of John the Baptist's execution to 29 CE is speculative. Josephus, the only non-Christian source, does not provide a precise date. The Gospels place the execution before Jesus's crucifixion but do not specify the year. Scholars have proposed dates ranging from 26 to 31 CE. Some scholars argue that the Gospel accounts of the Baptist's execution (particularly the story of Salome's dance) may contain legendary elements and should not be taken as straightforward historical narrative. The precise circumstances and motivations for the execution are also debated.",
+  "historiographic_note": "The year 29 CE is poorly documented in surviving sources. No major events are recorded for this year in Roman, Jewish, or Chinese historiography. The historical record for this period is heavily shaped by Christian sources (the Gospels), which were written decades later and are focused on theological rather than historical concerns. For most of the world outside the Mediterranean, documentation is negligible or absent.",
+  "graph_edges": [
+    {
+      "from": "29-001",
+      "to": "30-001 (crucifixion of Jesus)",
+      "relation": "led_to",
+      "note": "John the Baptist's execution preceded and may have influenced the trajectory of Jesus's ministry."
+    }
+  ]
+}

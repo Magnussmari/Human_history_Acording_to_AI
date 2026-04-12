@@ -1,0 +1,87 @@
+{
+  "year": 28,
+  "year_label": "28 CE",
+  "era_context": "The early Roman Empire under Tiberius. Judea is under Roman control. In Judea, Jewish sectarian movements are active, and John the Baptist is conducting his ministry. The Han Dynasty in China continues its decline toward collapse. The Kushan Empire is expanding in Central Asia and northern India.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Han records exist but are sparse for this year)",
+    "Mesoamerica",
+    "India and Central Asia (Kushan records are limited)"
+  ],
+  "events": [
+    {
+      "id": "28-001",
+      "title": "John the Baptist's ministry (traditional dating)",
+      "region": "Judea, Roman Empire",
+      "coordinates_approx": "31.94, 35.23",
+      "category": "religious",
+      "description": "John the Baptist, a Jewish preacher, was conducting a baptismal ministry in the Jordan River valley. He preached repentance and baptized followers, including (according to Christian tradition) Jesus of Nazareth. The Baptist's ministry is attested in multiple sources and is historically probable. The precise dates of his ministry are uncertain; scholars have proposed dates ranging from 26 to 31 CE. His preaching represented a renewal movement within Judaism, emphasizing ritual purification and moral reform.",
+      "key_figures": [
+        "John the Baptist (Jewish preacher)"
+      ],
+      "sources": [
+        {
+          "name": "Gospel of Mark 1:4\u201311",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Gospel of Matthew 3:1\u201317",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Gospel of Luke 3:1\u201322",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews 18.5.2",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of John the Baptist and his baptismal ministry are attested in both Christian and Jewish sources (Josephus), lending credibility. However, the precise dates are uncertain. The Gospels do not provide explicit dates. Josephus mentions the Baptist but does not date his ministry precisely. Scholars have proposed various dates based on chronological reconstructions of Herod Antipas's reign and the chronology of Jesus's ministry.",
+      "cross_references": [
+        "Related to 29-001 (John's execution, alternative dating)",
+        "Preceded 30-001 (Jesus's crucifixion)"
+      ]
+    },
+    {
+      "id": "28-002",
+      "title": "Tiberius's reign continues; no major recorded events",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "Emperor Tiberius continued his reign with administrative stability. The year 28 CE is not marked by major recorded events in surviving sources. The empire experienced relative peace and stability.",
+      "key_figures": [
+        "Tiberius (Roman Emperor, r. 14\u201337 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 4\u20136",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad political context is well-attested, but no specific events are recorded for 28 CE.",
+      "cross_references": [
+        "Part of Tiberius's reign (14\u201337 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of John the Baptist's ministry to 28 CE is speculative and based on scholarly reconstruction. The Gospels do not provide explicit dates. Josephus mentions the Baptist but does not date his ministry. The precise chronology of the Baptist's ministry and its relationship to Jesus's ministry is debated among scholars. Some scholars argue that the Gospel accounts of the Baptist may contain legendary elements.",
+  "historiographic_note": "The year 28 CE is poorly documented in surviving sources. No major events are recorded for this year in Roman, Jewish, or Chinese historiography. The historical record is heavily shaped by Christian sources (the Gospels), which were written decades later and are focused on theological rather than historical concerns. For most of the world outside the Mediterranean, documentation is negligible.",
+  "graph_edges": [
+    {
+      "from": "28-001",
+      "to": "30-001 (crucifixion of Jesus)",
+      "relation": "led_to",
+      "note": "John the Baptist's ministry was a precursor to Jesus's public ministry and crucifixion."
+    }
+  ]
+}

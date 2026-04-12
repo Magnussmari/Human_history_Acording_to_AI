@@ -1,0 +1,136 @@
+{
+  "year": 21,
+  "year_label": "21 CE",
+  "era_context": "The early Roman Imperial period under Tiberius (r. 14\u201337 CE). In China, Wang Mang's Xin dynasty is in severe crisis; the Eastern Han restoration is four years away. The Parthian Empire dominates the Near East. In India, the Satavahana dynasty is expanding. The Mediterranean world is integrated under Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "21-001",
+      "title": "Sejanus consolidates control over the Praetorian Guard and Roman politics",
+      "region": "Roman Empire, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Lucius Aelius Sejanus, Praetorian Prefect, continues to consolidate his power and influence over Emperor Tiberius. By this point, Sejanus effectively controls the military apparatus of the empire and has become the second most powerful figure in Rome. Tiberius, increasingly isolated on Capri, relies on Sejanus for information and policy decisions. Sejanus uses his position to eliminate rivals and accumulate wealth and patronage. This period of Sejanus's dominance will continue until his dramatic fall in 31 CE.",
+      "key_figures": [
+        "Tiberius (Roman Emperor)",
+        "Lucius Aelius Sejanus (Praetorian Prefect)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals, Book 3\u20134",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Tiberius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 57",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sejanus's consolidation of power is well-attested in Roman sources, though the precise chronology of individual events is uncertain. The year 21 CE is assigned here by convention.",
+      "cross_references": [
+        "25-001 (Sejanus's rise)",
+        "31-001 (Sejanus's fall)"
+      ]
+    },
+    {
+      "id": "21-002",
+      "title": "Wang Mang's Xin dynasty continues to disintegrate; regional warlords gain power",
+      "region": "China, Han territories",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "military",
+      "description": "The Xin dynasty's control over China continues to erode. Multiple warlords have established independent power bases in different regions. The Red Eyebrow Rebellion and other insurgencies control large territories. Wang Mang's attempts at military reorganization and administrative reform have failed. The empire is effectively fragmenting, with Liu Xiu and other warlords positioning themselves for power. The final collapse of the Xin dynasty is imminent.",
+      "key_figures": [
+        "Wang Mang (Xin Emperor, losing control)",
+        "Liu Xiu (future Eastern Han founder)"
+      ],
+      "sources": [
+        {
+          "name": "Hanshu and Hou Hanshu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The general instability and fragmentation of the Xin dynasty in the early 20s CE is well-documented in Chinese sources.",
+      "cross_references": [
+        "25-003 (Eastern Han restoration)"
+      ]
+    },
+    {
+      "id": "21-003",
+      "title": "Possible expansion of Satavahana trade networks and cultural influence",
+      "region": "Indian Deccan and beyond, Satavahana Empire",
+      "coordinates_approx": "18.5, 75.7",
+      "category": "economic",
+      "description": "The Satavahana dynasty, ruling much of the Deccan Plateau and western India, continues to expand its trade networks and cultural influence. Satavahana merchants and ships are active in maritime trade connecting India to the Mediterranean, Southeast Asia, and Central Asia. The Satavahanas are also major patrons of Buddhism, supporting the construction of stupas and monasteries. By the mid-1st century CE, the Satavahanas are among the most economically and culturally influential polities in India.",
+      "key_figures": [
+        "Satavahana rulers (specific ruler for 21 CE uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Puranas (Hindu religious texts, compiled later)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (Satavahana coins)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Deccan and coastal sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Periplus of the Erythraean Sea (Greek merchant's guide, written ~1st century CE)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Satavahana rulers is uncertain. The year 21 CE is assigned here by convention. The Periplus of the Erythraean Sea, written in the 1st century CE, provides contemporary evidence of Satavahana trade networks.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Sejanus's consolidation of power and the year-by-year progression of events is uncertain. Tacitus and later sources may have dramatized or compressed events for narrative effect. The exact sequence and dating of events in Wang Mang's final years are debated among scholars. The chronology of Satavahana rulers is so uncertain that assigning specific events to 21 CE is largely speculative.",
+  "historiographic_note": "Documentation for 21 CE is similar to previous years: rich for Rome and China, sparse elsewhere. Roman sources are heavily influenced by later historiographic narratives that emphasize court intrigue and the dangers of unchecked military power. Chinese sources are detailed but compiled centuries after the events. Indian history for this period relies heavily on numismatic and archaeological evidence, which provides limited chronological precision. The absence of contemporary written records for most of the world outside the Mediterranean, China, and India remains a major limitation.",
+  "graph_edges": [
+    {
+      "from": "21-001",
+      "to": "31-001",
+      "relation": "led_to",
+      "note": "Sejanus's consolidation of power in 21 CE culminates in his dramatic fall in 31 CE."
+    },
+    {
+      "from": "21-002",
+      "to": "25-003",
+      "relation": "led_to",
+      "note": "The fragmentation of the Xin dynasty in 21 CE enables Liu Xiu's establishment of the Eastern Han in 25 CE."
+    },
+    {
+      "from": "21-003",
+      "to": "100-001",
+      "relation": "led_to",
+      "note": "Satavahana trade networks and cultural influence in 21 CE continue to expand throughout the 1st and 2nd centuries CE."
+    }
+  ]
+}

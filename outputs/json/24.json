@@ -1,0 +1,120 @@
+{
+  "year": 24,
+  "year_label": "24 CE",
+  "era_context": "The early Roman Imperial period under Tiberius continues. In China, Wang Mang's Xin dynasty is in its final year of collapse; the Eastern Han restoration is imminent. The Parthian Empire dominates the Near East and Central Asia. In India, the Satavahana dynasty expands its influence in the Deccan. The Mediterranean world is integrated under Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Southeast Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "24-001",
+      "title": "Tiberius withdraws further from Rome; Sejanus consolidates control",
+      "region": "Roman Empire, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Tiberius increasingly retreats to his villa on the island of Capri, delegating administrative and military authority to Sejanus, the Praetorian Prefect. This withdrawal accelerates the concentration of power in Sejanus's hands and deepens factional tensions within the Roman elite. Sejanus uses his position to eliminate potential rivals through prosecutions and purges, establishing a pattern of political violence that will characterize the remainder of Tiberius's reign.",
+      "key_figures": [
+        "Tiberius (Roman Emperor)",
+        "Lucius Aelius Sejanus (Praetorian Prefect)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals, Book 4",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Tiberius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tiberius's withdrawal to Capri is well-attested, though the exact chronology of his movements and the precise year of his final departure is debated. Most sources place it in the mid-20s CE.",
+      "cross_references": [
+        "25-001 (Sejanus's rise)"
+      ]
+    },
+    {
+      "id": "24-002",
+      "title": "Wang Mang's Xin dynasty faces accelerating collapse; Red Eyebrow Rebellion gains strength",
+      "region": "China, Han territories",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "military",
+      "description": "The Red Eyebrow Rebellion, a major peasant uprising in northern China, grows in power and territorial control. Wang Mang's Xin dynasty, already weakened by administrative failures, currency debasement, and military defeats, loses effective control over large regions. Multiple warlords emerge as independent powers, fragmenting the empire. This period of chaos (known as the L\u00fclin and Red Eyebrow period) will culminate in the collapse of the Xin dynasty and the rise of Liu Xiu in 25 CE.",
+      "key_figures": [
+        "Wang Mang (Xin Emperor, losing control)",
+        "Red Eyebrow rebel leaders (names vary in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Hanshu (History of the Han) and Hou Hanshu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Red Eyebrow Rebellion and the general instability of the Xin dynasty in the early 20s CE are well-documented in Chinese sources.",
+      "cross_references": [
+        "25-002 (Collapse of Xin dynasty)",
+        "25-003 (Eastern Han restoration)"
+      ]
+    },
+    {
+      "id": "24-003",
+      "title": "Possible expansion of Satavahana power in the Deccan",
+      "region": "Indian Deccan, Satavahana Empire",
+      "coordinates_approx": "18.5, 75.7",
+      "category": "political",
+      "description": "The Satavahana dynasty, ruling much of the Deccan Plateau and western India, continues to expand its territorial control and consolidate its administrative structure. The Satavahanas are known for their patronage of Buddhism and their extensive trade networks connecting India to the Mediterranean, Southeast Asia, and Central Asia. By the mid-1st century CE, the Satavahanas are among the most powerful polities in India, rivaling the Indo-Greek kingdoms in the northwest.",
+      "key_figures": [
+        "Satavahana rulers (specific ruler for 24 CE uncertain; possibly Gautamiputra Satakarni or a predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Puranas (Hindu religious texts, compiled later but preserving earlier dynastic records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (Satavahana coins)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Deccan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Satavahana rulers is notoriously uncertain. Different sources (Puranas, coins, inscriptions) give conflicting dates. The year 24 CE is assigned here by convention, but the specific events of this year are not independently documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Tiberius's withdrawal to Capri is disputed. Some sources suggest it occurred earlier (around 26 CE), while others place it later. The precise year 24 CE is not independently confirmed for this event. Regarding the Satavahana dynasty, the chronology is so uncertain that assigning specific events to 24 CE is largely speculative; modern scholars debate whether Gautamiputra Satakarni ruled in the 1st or 2nd century CE.",
+  "historiographic_note": "Documentation for 24 CE is similar to 25 CE: rich for Rome and China, sparse for other regions. Roman sources are biased toward elite political narratives and court intrigue. Chinese sources, while detailed, are compiled centuries after the events and may reflect later historiographic biases. Indian history for this period relies heavily on numismatic and archaeological evidence, which provides limited chronological precision. The absence of written records for most of the world outside the Mediterranean, China, and India is a major gap.",
+  "graph_edges": [
+    {
+      "from": "24-001",
+      "to": "25-001",
+      "relation": "led_to",
+      "note": "Tiberius's withdrawal in 24 CE accelerates Sejanus's consolidation of power in 25 CE."
+    },
+    {
+      "from": "24-002",
+      "to": "25-003",
+      "relation": "led_to",
+      "note": "The collapse of Wang Mang's Xin dynasty in 24 CE directly enables Liu Xiu's establishment of the Eastern Han in 25 CE."
+    }
+  ]
+}

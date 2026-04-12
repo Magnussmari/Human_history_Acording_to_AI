@@ -1,0 +1,83 @@
+{
+  "year": 27,
+  "year_label": "27 CE",
+  "era_context": "The early Roman Empire under Tiberius (r. 14\u201337 CE). Judea is under Roman control with Pontius Pilate as prefect (r. 26\u201336 CE). In Judea, Jewish sectarian movements are active. The Han Dynasty in China is in its final century. The Kushan Empire is expanding in Central Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Han records exist but are sparse for this year)",
+    "Mesoamerica",
+    "India and Central Asia"
+  ],
+  "events": [
+    {
+      "id": "27-001",
+      "title": "Pontius Pilate becomes prefect of Judea",
+      "region": "Judea, Roman Empire",
+      "coordinates_approx": "31.94, 35.23",
+      "category": "political",
+      "description": "Pontius Pilate was appointed prefect (governor) of Judea by the Roman emperor Tiberius. Pilate served as prefect from 26 to 36 CE. His tenure was marked by administrative competence but also by incidents of conflict with the Jewish population, including disputes over religious practices and Roman taxation. Pilate is best known to history as the Roman official who authorized the crucifixion of Jesus in 30 CE. His appointment marked the beginning of a decade of Roman rule that would culminate in the Jewish revolt of 66\u201370 CE.",
+      "key_figures": [
+        "Pontius Pilate (Roman prefect of Judea, r. 26\u201336 CE)",
+        "Tiberius (Roman Emperor, r. 14\u201337 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 15.44",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews 18.3.1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Philo of Alexandria, Embassy to Gaius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pilate's tenure as prefect of Judea from 26 to 36 CE is well-attested in multiple sources (Tacitus, Josephus, Philo). The precise year of his appointment (26 CE) is accepted by modern scholarship, though some sources are not entirely explicit about the date.",
+      "cross_references": [
+        "Led to 30-001 (crucifixion of Jesus)",
+        "Part of broader Roman rule of Judea (63 BCE\u2013135 CE)"
+      ]
+    },
+    {
+      "id": "27-002",
+      "title": "Tiberius's reign continues; administrative stability",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "Emperor Tiberius continued his reign with administrative stability. The year 27 CE is not marked by major recorded events in surviving sources. The empire experienced relative peace.",
+      "key_figures": [
+        "Tiberius (Roman Emperor, r. 14\u201337 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 4\u20136",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad political context is well-attested, but no specific events are recorded for 27 CE.",
+      "cross_references": [
+        "Part of Tiberius's reign (14\u201337 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "While Pilate's tenure as prefect from 26 to 36 CE is well-attested, the precise year of his appointment (26 CE) is based on scholarly reconstruction and is not explicitly stated in all sources. Some sources are ambiguous about the exact date. Additionally, the characterization of Pilate in later Christian sources (particularly the Gospels) as reluctant to execute Jesus is disputed by scholars, who argue that the Gospels may have shifted blame from Pilate to Jewish authorities for theological reasons.",
+  "historiographic_note": "The year 27 CE is poorly documented in surviving sources. The main event recorded is Pilate's appointment as prefect, which is attested in multiple sources but is not dated with absolute precision. No major events are recorded for this year in Roman, Jewish, or Chinese historiography. The historical record is shaped by the later significance of Pilate in Christian tradition (as the official who authorized Jesus's crucifixion), which has ensured the preservation of information about his tenure.",
+  "graph_edges": [
+    {
+      "from": "27-001",
+      "to": "30-001 (crucifixion of Jesus)",
+      "relation": "led_to",
+      "note": "Pilate's appointment as prefect set the stage for his role in Jesus's crucifixion three years later."
+    }
+  ]
+}

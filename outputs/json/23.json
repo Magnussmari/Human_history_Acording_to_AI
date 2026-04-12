@@ -1,0 +1,89 @@
+{
+  "year": 23,
+  "year_label": "23 CE",
+  "era_context": "The early Roman Imperial period under Tiberius (r. 14\u201337 CE). In China, Wang Mang's Xin dynasty is in severe crisis; the Eastern Han restoration is two years away. The Parthian Empire controls the Near East. In India, the Satavahana and Indo-Greek kingdoms compete for regional dominance. The Mediterranean world remains under Roman hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "23-001",
+      "title": "Sejanus's influence over Tiberius reaches its peak; political purges intensify",
+      "region": "Roman Empire, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Lucius Aelius Sejanus, now at the height of his power, orchestrates the elimination of potential rivals within the Roman elite. Tiberius, increasingly isolated on Capri, relies almost entirely on Sejanus for information and policy decisions. Sejanus uses his control of the Praetorian Guard and his influence over the emperor to conduct purges of senators and nobles suspected of disloyalty or ambition. This period of political terror will continue until Sejanus's dramatic fall in 31 CE.",
+      "key_figures": [
+        "Tiberius (Roman Emperor)",
+        "Lucius Aelius Sejanus (Praetorian Prefect)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals, Book 4",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 57",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sejanus's consolidation of power is well-attested, though the precise chronology of individual purges and events is uncertain. The year 23 CE is assigned here by convention.",
+      "cross_references": [
+        "25-001 (Sejanus's rise)",
+        "31-001 (Sejanus's fall)"
+      ]
+    },
+    {
+      "id": "23-002",
+      "title": "Wang Mang's Xin dynasty continues to disintegrate; warlords fragment the empire",
+      "region": "China, Han territories",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "military",
+      "description": "The Xin dynasty's control over China continues to erode as multiple warlords establish independent power bases. The Red Eyebrow Rebellion and other insurgencies control large territories in the north and east. Wang Mang's attempts at military reorganization and administrative reform fail to restore central authority. The empire is effectively fragmenting into competing regional powers, setting the stage for Liu Xiu's consolidation and the establishment of the Eastern Han in 25 CE.",
+      "key_figures": [
+        "Wang Mang (Xin Emperor, losing control)",
+        "Liu Xiu (future Eastern Han founder, consolidating power)"
+      ],
+      "sources": [
+        {
+          "name": "Hanshu and Hou Hanshu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The general instability and fragmentation of the Xin dynasty in the early 20s CE is well-documented.",
+      "cross_references": [
+        "25-003 (Eastern Han restoration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Sejanus's purges and the year-by-year progression of his consolidation of power is uncertain. Tacitus and later sources may have dramatized or compressed events for narrative effect. The exact sequence and dating of events in Wang Mang's final years are debated among scholars, with some sources placing key events in different years.",
+  "historiographic_note": "Documentation for 23 CE is similar to previous years: rich for Rome and China, sparse elsewhere. Roman sources are heavily influenced by later historiographic narratives that emphasize court intrigue and the dangers of unchecked military power. Chinese sources, while detailed, are compiled centuries after the events. The absence of contemporary written records for most of the world outside the Mediterranean and China is a major limitation.",
+  "graph_edges": [
+    {
+      "from": "23-001",
+      "to": "31-001",
+      "relation": "led_to",
+      "note": "Sejanus's consolidation of power in 23 CE culminates in his dramatic fall in 31 CE."
+    },
+    {
+      "from": "23-002",
+      "to": "25-003",
+      "relation": "led_to",
+      "note": "The fragmentation of the Xin dynasty in 23 CE enables Liu Xiu's establishment of the Eastern Han in 25 CE."
+    }
+  ]
+}
