@@ -1,0 +1,127 @@
+{
+  "year": 95,
+  "year_label": "95 CE",
+  "era_context": "The Flavian dynasty (69\u201396 CE) rules Rome under Domitian, the third and final Flavian emperor. In China, the Eastern Han dynasty consolidates power after the turmoil of the Western Han collapse. The Jewish diaspora is reshaping after the destruction of the Second Temple (70 CE). Early Christianity is spreading through the Mediterranean and beyond, still largely underground and persecuted.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record for this specific year)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "95-001",
+      "title": "Domitian's persecution of Christians and Jews intensifies",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Emperor Domitian (81\u201396 CE) escalates persecution of Christians and Jews, particularly in Rome and the provinces. Christians face execution for refusing to worship the emperor as divine. This period, sometimes called the 'Domitianic persecution,' drives underground worship and contributes to the composition of apocalyptic texts. The persecution is attested in later Christian sources and may have prompted the composition of the Book of Revelation, though dating of that text remains debated.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Pliny the Younger (witness, later governor of Bithynia)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History (4th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Letters 10.96\u201397 (early 2nd century CE, describing earlier persecutions)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Domitian (early 2nd century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's reign (81\u201396 CE) is well-attested; persecution of Christians is confirmed by later sources. The intensity and specific events of 95 CE are less precisely dated in contemporary sources.",
+      "cross_references": [
+        "70-001 (destruction of Second Temple)",
+        "96-001 (Domitian's assassination)"
+      ]
+    },
+    {
+      "id": "95-002",
+      "title": "Eastern Han consolidation under Emperor He",
+      "region": "China (Han Empire)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor He of Han (r. 88\u2013105 CE) continues the stabilization of the Eastern Han dynasty after the turmoil of the Western Han's collapse and the brief Xin interregnum. By 95 CE, the Han court has reasserted control over much of China and is beginning to expand diplomatic and military reach westward along the Silk Road. The period is marked by bureaucratic consolidation and the rise of eunuch influence at court.",
+      "key_figures": [
+        "Emperor He of Han",
+        "Deng Sui (Empress Dowager, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and Hanshu (History of the Han Dynasty), compiled by Sima Qian and Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han chronology is well-established through official court records and historiographic consensus. Emperor He's reign dates are secure.",
+      "cross_references": [
+        "88-001 (Emperor He's accession)"
+      ]
+    },
+    {
+      "id": "95-003",
+      "title": "Composition or circulation of the Gospel of John (disputed dating)",
+      "region": "Eastern Mediterranean / Anatolia",
+      "coordinates_approx": "38.0, 27.0",
+      "category": "cultural",
+      "description": "The Gospel of John is traditionally dated to the late 1st century CE, with some scholars placing its composition or final redaction around 90\u2013110 CE. If dated to 95 CE, it would represent a significant theological development in early Christianity, emphasizing Jesus's divine nature and logos theology. However, dating is highly contested, with proposals ranging from 70 to 120 CE.",
+      "key_figures": [
+        "John (attributed author, identity disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Gospel of John (New Testament)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Irenaeus, Against Heresies (late 2nd century CE, attributing the gospel to John the Apostle)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Gospel of John's composition date is one of the most debated questions in New Testament scholarship. Proposed dates range from 70\u2013120 CE. Assignment to 95 CE is conventional but not definitively supported by internal or external evidence.",
+      "cross_references": [
+        "70-002 (destruction of Second Temple, context for Gospel composition)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The intensity and scope of Domitian's persecution of Christians is sometimes overstated in later Christian sources. Modern scholarship suggests that while persecution did occur, it may not have been as systematic or empire-wide as early Christian writers (writing after Domitian's death) portrayed. The dating of the Gospel of John to 95 CE is speculative; many scholars now favor dates closer to 100\u2013110 CE or even later. The 'Domitianic persecution' as a unified campaign is a historiographic construct; evidence suggests localized, sporadic actions rather than coordinated policy.",
+  "historiographic_note": "The historical record for 95 CE is shaped heavily by later Christian sources (Eusebius, written 300+ years later) and Roman imperial sources (Suetonius, Pliny, written in the early 2nd century). Jewish and Christian perspectives are filtered through later compilations. Chinese sources are more contemporary (official histories compiled within centuries) but reflect court-centric narratives. The experiences of non-elite populations, women, and peripheral regions are largely absent.",
+  "graph_edges": [
+    {
+      "from": "95-001",
+      "to": "96-001",
+      "relation": "led_to",
+      "note": "Domitian's persecution contributes to the political instability that leads to his assassination in 96 CE"
+    },
+    {
+      "from": "95-002",
+      "to": "105-001",
+      "relation": "led_to",
+      "note": "Han consolidation under Emperor He sets the stage for westward expansion and Silk Road development"
+    },
+    {
+      "from": "95-003",
+      "to": "70-002",
+      "relation": "part_of",
+      "note": "Gospel of John's composition reflects the post-70 CE Jewish-Christian separation and theological development"
+    }
+  ]
+}

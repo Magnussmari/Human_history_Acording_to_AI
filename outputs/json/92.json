@@ -1,0 +1,130 @@
+{
+  "year": 92,
+  "year_label": "92 CE",
+  "era_context": "Domitian's reign in Rome continues, characterized by increasing paranoia and political instability. The Eastern Han dynasty under Emperor He is consolidating power in China. Early Christianity is spreading through the Mediterranean world. The Jewish diaspora is developing rabbinic Judaism and adapting to life without the Temple.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "92-001",
+      "title": "Domitian's continued reign and administrative policies",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Domitian (81\u201396 CE) continues his reign, implementing policies aimed at strengthening imperial authority and military power. He maintains a large standing army, invests in public works and infrastructure, and enforces strict control over the Senate and provincial administration. However, his paranoia and purges of potential rivals create an atmosphere of fear and instability among the elite. By 92 CE, the seeds of the conspiracy that will lead to his assassination in 96 CE are being sown.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Domitia Longina (Domitian's wife)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History 67",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Domitian's reign and general policies are well-documented. The specific events of 92 CE are less precisely attested.",
+      "cross_references": [
+        "81-001 (Domitian's accession)",
+        "96-001 (Domitian's assassination)"
+      ]
+    },
+    {
+      "id": "92-002",
+      "title": "Emperor He of Han's reign and consolidation of Eastern Han power",
+      "region": "China (Han Empire)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor He of Han (r. 88\u2013105 CE) continues to consolidate Eastern Han power and authority. By 92 CE, the Han court has established firm control over much of China and is beginning to expand its reach westward. The period is marked by bureaucratic development, the rise of eunuch influence at court, and the beginning of the Silk Road trade networks. Emperor He's reign is considered a period of relative stability and prosperity for the Han dynasty.",
+      "key_figures": [
+        "Emperor He of Han",
+        "Deng Sui (Empress Dowager, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji and Hanshu (earlier histories, providing context)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han chronology and Emperor He's reign are well-established through official court records and historiographic consensus.",
+      "cross_references": [
+        "88-001 (Emperor He's accession)",
+        "105-001 (Emperor He's death)"
+      ]
+    },
+    {
+      "id": "92-003",
+      "title": "Spread of early Christianity in the Mediterranean world",
+      "region": "Eastern Mediterranean and Roman Empire",
+      "coordinates_approx": "38.0, 27.0",
+      "category": "religious",
+      "description": "Early Christianity continues to spread through the Mediterranean world in the late 1st century CE. By 92 CE, Christian communities are established in major cities throughout the Roman Empire, including Rome, Alexandria, Antioch, and Ephesus. The movement is still largely underground and persecuted, but it is growing in numbers and organizational sophistication. The composition of the New Testament is ongoing, with various gospels, epistles, and apocalyptic texts being written and circulated among Christian communities.",
+      "key_figures": [
+        "Various Christian leaders and missionaries (names largely unknown)"
+      ],
+      "sources": [
+        {
+          "name": "New Testament texts (various dates, 50\u2013120 CE)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Pliny the Younger, Letters 10.96\u201397 (early 2nd century CE, describing Christian communities)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History (4th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The spread of early Christianity is well-attested in general terms, but specific events and developments in 92 CE are not precisely documented. The date is assigned based on the broader historical context of late 1st-century Christianity.",
+      "cross_references": [
+        "70-002 (destruction of the Second Temple, context for Christian development)",
+        "95-003 (Gospel of John, possibly composed around this time)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 92 CE in Domitian's reign are not individually documented in surviving sources; the year is assigned based on the general chronology of his reign (81\u201396 CE). The spread of early Christianity is a gradual process; assigning specific developments to 92 CE is speculative. The extent of Christian persecution under Domitian is sometimes exaggerated in later Christian sources.",
+  "historiographic_note": "Sources for 92 CE are primarily retrospective, written after the events described. Roman sources reflect the perspective of the senatorial elite. Chinese sources are more contemporary but focus on court and military affairs. Christian sources are compiled centuries later and reflect the perspective of the early Church. The experiences of common people, women, slaves, and non-elite populations are largely absent.",
+  "graph_edges": [
+    {
+      "from": "92-001",
+      "to": "96-001",
+      "relation": "led_to",
+      "note": "Domitian's policies and paranoia lead to his assassination in 96 CE"
+    },
+    {
+      "from": "92-002",
+      "to": "105-001",
+      "relation": "led_to",
+      "note": "Emperor He's consolidation of power sets the stage for Han expansion"
+    },
+    {
+      "from": "92-003",
+      "to": "100-001",
+      "relation": "contemporary_with",
+      "note": "Early Christianity continues to spread and develop in the late 1st century CE"
+    }
+  ]
+}

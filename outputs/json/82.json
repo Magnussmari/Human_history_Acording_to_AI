@@ -1,0 +1,129 @@
+{
+  "year": 82,
+  "year_label": "82 CE",
+  "era_context": "Domitian's reign (81\u201396 CE) is in its second year; he has recently consolidated power after the brief reign of his brother Titus (79\u201381 CE). Eastern Han China under Emperor Zhang (r. 75\u201388 CE) is stable and expanding. The Kushan Empire is consolidating power in Central Asia and the Indian subcontinent. Jewish communities are reorganizing after the First Jewish-Roman War (66\u201370 CE).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Oceania and Pacific islands",
+    "Pre-Columbian Americas"
+  ],
+  "events": [
+    {
+      "id": "82-001",
+      "title": "Domitian consolidates power and initiates administrative reforms",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "In his second year as emperor, Domitian consolidates his authority and initiates administrative reforms. He increases military pay, strengthens the bureaucracy, and begins to assert his authority over the Senate. Domitian's reign is characterized by centralization of power and expansion of the imperial cult. He also begins to suppress perceived threats to his authority, initiating a period of political tension that will escalate throughout his reign.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Domitia Longina (Empress)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 67",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Panegyricus (written after Domitian's death, reflecting on his reign)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's consolidation of power is well-attested in sources, though specific events of 82 CE are not individually highlighted. The broad political context is secure.",
+      "cross_references": [
+        "81-001 (Domitian's accession)"
+      ]
+    },
+    {
+      "id": "82-002",
+      "title": "Agricola's campaigns in Britain continue",
+      "region": "Roman Britain",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "military",
+      "description": "Gnaeus Julius Agricola, Roman governor of Britain (77\u201384 CE), continues his military campaigns to expand Roman control northward. In 82 CE, Agricola is in the middle of his tenure as governor, conducting campaigns in northern Britain and Wales. His strategy involves establishing forts, securing supply lines, and gradually pushing northward toward Caledonia. These campaigns are part of a broader Roman strategy to consolidate control over Britain.",
+      "key_figures": [
+        "Gnaeus Julius Agricola (Roman governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola (biography written c. 98 CE)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts in Britain",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Agricola's governorship (77\u201384 CE) is well-attested, and his campaigns are documented by Tacitus. However, specific events of 82 CE are not individually highlighted in surviving sources. Archaeological evidence confirms Roman military presence and fort construction during this period.",
+      "cross_references": [
+        "83-001 (Battle of Mons Graupius)",
+        "84-001 (Agricola's recall)"
+      ]
+    },
+    {
+      "id": "82-003",
+      "title": "Eastern Han consolidation under Emperor Zhang",
+      "region": "China / Eastern Han dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Zhang of Han (r. 75\u201388 CE) continues to consolidate Han authority and expand diplomatic contacts. In 82 CE, the Han court is stable and focused on administrative efficiency and westward expansion. The emperor manages relationships with regional warlords and the Xiongnu confederation. Han diplomatic missions are expanding westward along routes that will become the Silk Road.",
+      "key_figures": [
+        "Emperor Zhang of Han",
+        "Empress Dou (regent influence)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Later Han (Hou Hanshu)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Han (Hanshu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political context of Emperor Zhang's reign is well-attested in Chinese historiography. However, specific events of 82 CE are not individually highlighted in surviving sources.",
+      "cross_references": [
+        "75-001 (Accession of Emperor Zhang)",
+        "88-001 (Death of Emperor Zhang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Domitian's administrative reforms and consolidation of power are well-attested, but the extent to which he was a reformer versus a tyrant is debated by modern scholarship. Suetonius and Cassius Dio, writing after Domitian's assassination, present a hostile view of his reign. Pliny the Younger's Panegyricus, delivered after Domitian's death, is a rhetorical attack on his predecessor and should not be read as objective history. Agricola's campaigns in Britain, while documented by Tacitus, may have been less decisive than Tacitus suggests; the Romans did not permanently conquer Scotland, and Agricola's achievements may have been overstated by his son-in-law.",
+  "historiographic_note": "The year 82 CE is moderately well-documented for the Roman Empire, with sources like Suetonius, Cassius Dio, and Tacitus providing information about this period. However, these sources are often written decades after events and shaped by political agendas. For China, sources are embedded in later compilations and do not provide specific details for individual years. For Central Asia and the Indian subcontinent, documentation is sparse. The record is heavily weighted toward military and political events; economic, social, and cultural changes are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "82-001",
+      "to": "81-001",
+      "relation": "led_to",
+      "note": "Domitian's consolidation of power follows his accession in 81 CE"
+    },
+    {
+      "from": "82-002",
+      "to": "83-001",
+      "relation": "led_to",
+      "note": "Agricola's campaigns in 82 CE lead to the Battle of Mons Graupius in 83 CE"
+    },
+    {
+      "from": "82-003",
+      "to": "85-002",
+      "relation": "contemporary_with",
+      "note": "Han consolidation and westward expansion continue under Emperor Zhang"
+    }
+  ]
+}

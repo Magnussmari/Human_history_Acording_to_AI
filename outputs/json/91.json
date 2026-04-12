@@ -1,0 +1,124 @@
+{
+  "year": 91,
+  "year_label": "91 CE",
+  "era_context": "Domitian's reign in Rome is in its second decade, characterized by military campaigns, public works, and increasing paranoia. The Eastern Han dynasty under Emperor He is consolidating power in China. Early Christianity is spreading through the Mediterranean world. The Jewish diaspora is developing rabbinic Judaism.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "91-001",
+      "title": "Domitian's military campaigns on the Danube frontier",
+      "region": "Roman Empire (Danube frontier)",
+      "coordinates_approx": "45.0, 20.0",
+      "category": "military",
+      "description": "Emperor Domitian conducts military campaigns against the Dacians and other Germanic tribes on the Danube frontier. These campaigns are part of Domitian's broader strategy to strengthen the empire's military defenses and expand Roman control. The campaigns are costly in terms of resources and manpower, and they contribute to the financial strain on the imperial treasury. The Dacian Wars (85\u201389 CE and 101\u2013106 CE) are among the most significant military campaigns of Domitian's reign.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Decebalus (Dacian king)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian 6",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History 67.6\u20137",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Trajan's Column (erected 113 CE, depicting Dacian Wars)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's Dacian Wars are well-attested, with the first campaign dated to 85\u201389 CE. The specific events of 91 CE are less precisely documented, but the year falls within the period of Domitian's military activity on the Danube.",
+      "cross_references": [
+        "85-001 (First Dacian War begins)",
+        "101-001 (Second Dacian War begins)"
+      ]
+    },
+    {
+      "id": "91-002",
+      "title": "Ban Chao's military campaigns in the Western Regions continue",
+      "region": "China and Central Asia (Tarim Basin)",
+      "coordinates_approx": "41.0, 80.0",
+      "category": "military",
+      "description": "General Ban Chao, serving the Eastern Han dynasty, continues his military campaigns to secure Han control over the Western Regions (Xiyu). By 91 CE, Ban Chao is in his late 70s and nearing the end of his career. His campaigns establish Han military presence and facilitate trade and diplomatic contact along what would become the Silk Road. Ban Chao's success in the Western Regions is a major achievement of the Eastern Han dynasty.",
+      "key_figures": [
+        "Ban Chao (Han general)",
+        "Emperor He of Han"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), biography of Ban Chao",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ban Chao's campaigns are well-documented in Han official histories. His dates (32\u2013102 CE) are secure, and his activities in the 90s CE are attested.",
+      "cross_references": [
+        "73-001 (Ban Chao's earlier campaigns)",
+        "102-001 (Ban Chao's death)"
+      ]
+    },
+    {
+      "id": "91-003",
+      "title": "Composition of 1 Clement (early Christian epistle)",
+      "region": "Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "The epistle known as 1 Clement, attributed to Clement of Rome, is traditionally dated to the late 1st century CE, with some scholars placing its composition around 90\u2013100 CE. If dated to 91 CE, it would represent an important early Christian text addressing internal church conflicts and emphasizing apostolic succession and church order. However, the dating is debated, with proposals ranging from 70 to 120 CE.",
+      "key_figures": [
+        "Clement of Rome (attributed author, identity disputed)"
+      ],
+      "sources": [
+        {
+          "name": "1 Clement (early Christian epistle)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History (4th century CE, attributing the epistle to Clement)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The composition date of 1 Clement is one of the debated questions in early Christian studies. Proposed dates range from 70\u2013120 CE. Assignment to 91 CE is conventional but not definitively supported by internal or external evidence.",
+      "cross_references": [
+        "70-002 (destruction of the Second Temple, context for early Christian development)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 91 CE in Domitian's reign are not individually documented in surviving sources. The Dacian Wars are well-attested, but the precise chronology within the 85\u201389 CE and 101\u2013106 CE campaigns is debated. Ban Chao's specific activities in 91 CE are not individually documented; the date is assigned based on his known career trajectory. The composition date of 1 Clement is highly debated; 91 CE is one of several proposed dates, not a definitive assignment.",
+  "historiographic_note": "Sources for 91 CE are primarily retrospective, written after the events described. Roman sources reflect the perspective of the senatorial elite. Chinese sources are more contemporary but focus on court and military affairs. Christian sources are compiled centuries later and reflect the perspective of the early Church. The experiences of common people, women, slaves, and non-elite populations are largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "91-001",
+      "to": "101-001",
+      "relation": "led_to",
+      "note": "Domitian's first Dacian War leads to the second Dacian War under Trajan"
+    },
+    {
+      "from": "91-002",
+      "to": "102-001",
+      "relation": "led_to",
+      "note": "Ban Chao's campaigns establish the foundation for Han control of the Silk Road"
+    },
+    {
+      "from": "91-003",
+      "to": "100-001",
+      "relation": "contemporary_with",
+      "note": "1 Clement is part of the broader development of early Christian literature in the late 1st century CE"
+    }
+  ]
+}

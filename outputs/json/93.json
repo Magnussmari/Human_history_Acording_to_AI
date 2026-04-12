@@ -1,0 +1,129 @@
+{
+  "year": 93,
+  "year_label": "93 CE",
+  "era_context": "Domitian's reign in Rome is entering its final years, marked by increasing paranoia and purges of the Senate. The Eastern Han dynasty under Emperor He continues to consolidate power in China. Early Christianity is spreading through the Mediterranean world. The Jewish diaspora is developing rabbinic Judaism in response to the loss of the Temple.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "93-001",
+      "title": "Domitian's purges of the Roman Senate intensify",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Domitian's paranoia reaches a peak in the early-to-mid 90s CE, leading to the execution or forced suicide of numerous senators and prominent citizens. These purges are motivated by real or imagined conspiracies and Domitian's desire to consolidate power and eliminate potential rivals. The purges create an atmosphere of fear in the Roman elite and contribute to the political instability that will lead to Domitian's assassination in 96 CE.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Various senators and aristocrats (victims of purges)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian 10\u201312",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History 67.1\u201314",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Agricola (c. 98 CE, contemporary account)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's purges are well-attested, but the specific chronology within his reign (81\u201396 CE) is not always precise. The early-to-mid 90s CE is the likely period for the most intense purges.",
+      "cross_references": [
+        "96-001 (Domitian's assassination)"
+      ]
+    },
+    {
+      "id": "93-002",
+      "title": "Tacitus's military service and early career in the Domitian era",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "Publius Cornelius Tacitus (c. 56\u2013120 CE), the future historian, is serving as a military officer and administrator during Domitian's reign. By 93 CE, Tacitus is establishing himself in the Senate and military hierarchy. His later writings (Agricola, Histories, Annals) would provide crucial testimony about this period, though written after Domitian's death and reflecting the perspective of the senatorial elite.",
+      "key_figures": [
+        "Tacitus (Roman historian and administrator)",
+        "Domitian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola (c. 98 CE, autobiographical and contemporary account)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tacitus, Histories and Annals (early 2nd century CE)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tacitus's life and career are well-documented. His service during Domitian's reign is attested in his own writings.",
+      "cross_references": [
+        "98-001 (Tacitus's Agricola, published after Domitian's death)"
+      ]
+    },
+    {
+      "id": "93-003",
+      "title": "Development of rabbinic Judaism in the diaspora",
+      "region": "Eastern Mediterranean and Middle East (Jewish diaspora)",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "In the decades following the destruction of the Second Temple in 70 CE, Jewish communities throughout the diaspora are developing rabbinic Judaism as a response to the loss of the Temple and its sacrificial system. By the 90s CE, rabbinic schools (yeshivas) are becoming centers of Jewish learning and authority. The Mishnah (Jewish oral law) is being compiled and transmitted orally, though it will not be written down until the early 3rd century CE. This period marks the transition from Temple-centered Judaism to text-centered, rabbinic Judaism.",
+      "key_figures": [
+        "Rabbi Yochanan ben Zakkai (founder of the Yavneh academy, late 1st century CE)",
+        "Rabbi Gamaliel II (leader of the Yavneh academy, late 1st\u2013early 2nd century CE)"
+      ],
+      "sources": [
+        {
+          "name": "Mishnah and Talmud (compiled later, but reflecting oral traditions from this period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Against Apion and Antiquities of the Jews (late 1st century CE)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The development of rabbinic Judaism is well-attested in later Jewish sources, but the specific chronology of individual developments in 93 CE is not precisely documented. The period is known from the broader historical context and later compilations.",
+      "cross_references": [
+        "70-002 (destruction of the Second Temple)",
+        "200-001 (compilation of the Mishnah)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Domitian's purges to specific years is uncertain; sources provide general chronology but not year-by-year documentation. Tacitus's account of Domitian's reign, while valuable, is written after Domitian's death and reflects the perspective of the senatorial opposition; it may exaggerate Domitian's tyranny. The development of rabbinic Judaism is a gradual process; assigning specific events to 93 CE is speculative and based on broader historical context rather than contemporary documentation.",
+  "historiographic_note": "Sources for 93 CE are primarily retrospective, written after Domitian's death in 96 CE. Roman sources reflect the perspective of the senatorial elite who opposed Domitian. Jewish sources are compiled centuries later and reflect the perspective of rabbinic Judaism. The experiences of common people, women, slaves, and non-elite populations are largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "93-001",
+      "to": "96-001",
+      "relation": "led_to",
+      "note": "Domitian's purges create the political instability that leads to his assassination"
+    },
+    {
+      "from": "93-002",
+      "to": "98-001",
+      "relation": "led_to",
+      "note": "Tacitus's service during Domitian's reign informs his later historical writings"
+    },
+    {
+      "from": "93-003",
+      "to": "200-001",
+      "relation": "led_to",
+      "note": "Rabbinic development in the 1st century CE leads to the compilation of the Mishnah in the 2nd\u20133rd centuries CE"
+    }
+  ]
+}

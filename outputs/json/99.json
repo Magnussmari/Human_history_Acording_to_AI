@@ -1,0 +1,83 @@
+{
+  "year": 99,
+  "year_label": "99 CE",
+  "era_context": "The Roman Empire under Trajan in his second year of reign; the Flavian dynasty has just ended with Domitian's assassination (96 CE). In China, the Eastern Han dynasty under Emperor He continues consolidation. This is a transitional year in the Roman Empire, with Trajan establishing his authority and beginning his expansionist agenda.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "99-001",
+      "title": "Trajan consolidates power and begins administrative reforms",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "In his second year as emperor, Trajan continues to consolidate his authority and implement administrative reforms. He strengthens the military, improves frontier defenses, and begins planning major military campaigns. This year marks the continuation of the transition from Domitian's autocratic rule to Trajan's more consultative approach with the Senate, though real power remains with the emperor.",
+      "key_figures": [
+        "Trajan (Roman Emperor)",
+        "Pliny the Younger (senator and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 68",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Letters and Panegyricus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "No specific event is uniquely documented for 99 CE; this entry describes the general political context of Trajan's early reign based on broader historical sources.",
+      "cross_references": [
+        "96-001 (Domitian's assassination and Nerva's accession)",
+        "100-001 (Trajan's Dacian Wars)"
+      ]
+    },
+    {
+      "id": "99-002",
+      "title": "Han Dynasty administrative stability under Emperor He",
+      "region": "Han China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor He of Han continues his reign with relative administrative stability. The year 99 CE falls within a period of consolidation following the regency of Dou Xian. The Han court maintains control over the empire's vast territories and continues to manage the Silk Road trade networks.",
+      "key_figures": [
+        "Emperor He of Han"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General political context confirmed by dynastic records; no specific events are uniquely documented for 99 CE.",
+      "cross_references": [
+        "100-004 (Han consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, it should be noted that 99 CE is not a particularly well-documented year in surviving sources; most of what we know about this period comes from broader historical narratives rather than year-specific documentation.",
+  "historiographic_note": "The year 99 CE is poorly documented compared to 100 CE. Most surviving sources focus on major events (wars, imperial succession, major administrative reforms) rather than specific years. The historical record for this year relies heavily on inference from broader historical trends and later compilations. Roman sources are more abundant than Chinese sources for this specific year, but neither tradition provides detailed year-by-year documentation for non-eventful periods.",
+  "graph_edges": [
+    {
+      "from": "99-001",
+      "to": "100-001",
+      "relation": "led_to",
+      "note": "Trajan's consolidation of power leads to the Dacian Wars in 100 CE"
+    },
+    {
+      "from": "99-002",
+      "to": "100-004",
+      "relation": "led_to",
+      "note": "Han administrative stability continues into 100 CE"
+    }
+  ]
+}

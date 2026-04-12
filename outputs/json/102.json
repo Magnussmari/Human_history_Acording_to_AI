@@ -1,0 +1,121 @@
+{
+  "year": 102,
+  "year_label": "102 CE",
+  "era_context": "The Roman Empire under Trajan (98\u2013117 CE) in the early phase of his reign, consolidating power and preparing for military expansion. The Han Dynasty under Emperor He (89\u2013105 CE) in the middle of his reign, facing internal administrative challenges. The Kushan Empire in Central Asia, facilitating trade and cultural exchange. This is a period of relative stability in major empires, with underlying tensions and preparations for future conflicts.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier (sparse attestation)",
+    "Oceania and Pacific islands (no written records)",
+    "Pre-Columbian Americas (no direct dating)"
+  ],
+  "events": [
+    {
+      "id": "102-001",
+      "title": "First Dacian War Concludes; Treaty Between Rome and Dacia",
+      "region": "Roman Empire, Dacia (modern Romania)",
+      "coordinates_approx": "45.94, 24.97",
+      "category": "military",
+      "description": "The First Dacian War (101\u2013102 CE) concluded in 102 CE with a treaty between Rome and Dacia. King Decebalus of Dacia was forced to accept Roman suzerainty, pay tribute, and cede some territory to Rome. However, the treaty was not a permanent settlement; Decebalus continued to resist Roman dominance, and tensions remained high. The war demonstrated Trajan's military capability and ambition for expansion. The treaty would prove short-lived, as Trajan would launch the Second Dacian War in 105 CE to complete the conquest of Dacia.",
+      "key_figures": [
+        "Emperor Trajan (r. 98\u2013117 CE)",
+        "King Decebalus of Dacia"
+      ],
+      "sources": [
+        {
+          "name": "Trajan's Column (sculptural relief), Rome",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Panegyricus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Dacian War and its conclusion in 102 CE are well-documented in contemporary and near-contemporary sources. The treaty and its terms are attested in multiple sources.",
+      "cross_references": [
+        "Follows from 101-001 (First Dacian War begins)",
+        "Leads to 105-003 (Second Dacian War)"
+      ]
+    },
+    {
+      "id": "102-002",
+      "title": "Han Dynasty Envoy Missions and Diplomatic Relations",
+      "region": "Han Dynasty, Central Asia and neighboring regions",
+      "coordinates_approx": "40.00, 75.00",
+      "category": "political",
+      "description": "The Han Dynasty under Emperor He maintained active diplomatic missions to neighboring regions, including the Western Regions (Xiyu), Korea, and Southeast Asia. These missions served to extend Han influence, gather intelligence, and facilitate trade. The Han court was particularly interested in maintaining control over the Silk Road trade routes and establishing relationships with Central Asian powers. These diplomatic efforts were part of a broader Han strategy to maintain regional hegemony and economic advantage.",
+      "key_figures": [
+        "Emperor He (r. 89\u2013105 CE)",
+        "Han envoys and diplomats"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (History of the Former Han) and Wei L\u00fce (Brief History of Wei)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Silk Road sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han diplomatic missions are well-documented in Han records for the broader period. The specific activities in 102 CE are inferred from the general pattern of Han foreign policy.",
+      "cross_references": []
+    },
+    {
+      "id": "102-003",
+      "title": "Silk Road Trade Networks Expanding",
+      "region": "Central Asia, connecting China, India, Persia, and Roman Empire",
+      "coordinates_approx": "40.00, 75.00",
+      "category": "economic",
+      "description": "By 102 CE, the Silk Road trade networks were expanding and becoming increasingly important to the economies of the major empires. Chinese silk, ceramics, and tea were in high demand in the Roman Empire and the Mediterranean world. Indian spices and textiles moved in both directions. The Kushan Empire, controlling Central Asian trade routes, was profiting from this commerce and facilitating cultural and technological exchange. The trade networks were not yet fully integrated, but the foundations for long-distance commerce were well-established.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Silk Road sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu and Wei L\u00fce (Chinese records of Western Regions)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Roman sources (Pliny the Elder, Natural History; Periplus of the Erythraean Sea)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and expansion of Silk Road trade by the early 2nd century CE is confirmed by archaeological evidence, numismatic finds, and literary sources from multiple civilizations.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. The conclusion of the First Dacian War in 102 CE and the treaty between Rome and Dacia are well-established in scholarly consensus.",
+  "historiographic_note": "Documentation for 102 CE is moderate, with strong sources for the Roman Empire (Trajan's military campaigns) and Han Dynasty (court records and later compilations). Roman sources are contemporary or near-contemporary; Han sources are later compilations. The Kushan Empire and Silk Road trade are known primarily through archaeological evidence and Han records. The historical record for 102 CE is focused on political and military events; economic and social developments are less well-documented.",
+  "graph_edges": [
+    {
+      "from": "102-001",
+      "to": "105-003",
+      "relation": "led_to",
+      "note": "The First Dacian War treaty in 102 CE was short-lived; tensions led to the Second Dacian War in 105 CE"
+    },
+    {
+      "from": "102-002",
+      "to": "102-003",
+      "relation": "contemporary_with",
+      "note": "Han diplomatic missions facilitated Silk Road trade networks"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "year": 94,
+  "year_label": "94 CE",
+  "era_context": "Domitian's reign continues in Rome; the Flavian dynasty is in its final years. The Eastern Han dynasty in China is consolidating power under Emperor He. Early Christianity is spreading despite sporadic persecution. The Jewish diaspora is adapting to life without the Temple after its destruction in 70 CE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "94-001",
+      "title": "Domitian's expulsion of philosophers and astrologers from Rome",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Domitian expels philosophers and astrologers from Rome and Italy, viewing them as threats to imperial authority and sources of sedition. This action reflects Domitian's paranoia and his efforts to suppress dissent and control intellectual discourse. The expulsion affects both Stoic philosophers (who had republican sympathies) and practitioners of divination (who might challenge imperial legitimacy through prophecy).",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Epictetus (Stoic philosopher, possibly affected)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian 10",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History 67.13",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Epictetus, Discourses (early 2nd century CE, reflecting on Domitian's reign)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's expulsion of philosophers is attested in multiple sources, though the precise date (94 CE) is not specified in surviving texts. It occurred during his reign (81\u201396 CE), likely in the 90s CE.",
+      "cross_references": [
+        "95-001 (persecution of Christians)",
+        "96-001 (Domitian's assassination)"
+      ]
+    },
+    {
+      "id": "94-002",
+      "title": "Ban Chao's continued military campaigns in the Western Regions",
+      "region": "China and Central Asia (Tarim Basin)",
+      "coordinates_approx": "41.0, 80.0",
+      "category": "military",
+      "description": "General Ban Chao, serving the Eastern Han dynasty, continues his military campaigns to secure Han control over the Western Regions (Xiyu), including the Tarim Basin and routes to Central Asia. By 94 CE, Ban Chao is in his 80s and nearing the end of his career. His campaigns establish Han military presence and facilitate trade and diplomatic contact along what would become the Silk Road.",
+      "key_figures": [
+        "Ban Chao (Han general)",
+        "Emperor He of Han"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), biography of Ban Chao",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji and Hanshu (earlier histories, providing context)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ban Chao's campaigns are well-documented in Han official histories. His dates (32\u2013102 CE) are secure, and his activities in the 90s CE are attested.",
+      "cross_references": [
+        "73-001 (Ban Chao's earlier campaigns)",
+        "102-001 (Ban Chao's death)"
+      ]
+    },
+    {
+      "id": "94-003",
+      "title": "Pliny the Younger's literary and political activities in Rome",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "cultural",
+      "description": "Pliny the Younger (c. 61\u2013113 CE), a prominent Roman orator, author, and administrator, is active in the Senate and literary circles during Domitian's reign. By 94 CE, Pliny is establishing himself as a major voice in Roman letters and politics. His published letters and panegyric on Emperor Trajan (delivered in 100 CE) would later provide valuable testimony about this period, though his writings reflect the perspective of the Roman elite.",
+      "key_figures": [
+        "Pliny the Younger (Roman orator and author)",
+        "Domitian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Pliny the Younger, Letters and Panegyricus (early 2nd century CE)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Agricola (c. 98 CE, contemporary account of the Domitian era)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pliny's life and career are well-documented. His activities in 94 CE fall within his attested period of prominence.",
+      "cross_references": [
+        "100-001 (Pliny's Panegyricus on Trajan)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Domitian's expulsion of philosophers to 94 CE is not confirmed by contemporary sources; it may have occurred at other points during his reign. Ban Chao's specific activities in 94 CE are not individually documented; the date is assigned based on his known career trajectory and the general chronology of Han campaigns. Pliny the Younger's prominence in 94 CE is inferred from his later career; his specific activities in this year are not recorded.",
+  "historiographic_note": "Sources for 94 CE are primarily retrospective, written after Domitian's death in 96 CE. Roman sources reflect elite perspectives and may exaggerate Domitian's paranoia and tyranny (the 'black legend' of Domitian). Chinese sources are more contemporary but focus on court and military affairs. The experiences of common people, women, and non-elite populations are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "94-001",
+      "to": "95-001",
+      "relation": "contemporary_with",
+      "note": "Domitian's expulsions and persecutions are part of the same pattern of repression"
+    },
+    {
+      "from": "94-002",
+      "to": "102-001",
+      "relation": "led_to",
+      "note": "Ban Chao's campaigns establish the foundation for Han control of the Silk Road"
+    }
+  ]
+}

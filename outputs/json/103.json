@@ -1,0 +1,117 @@
+{
+  "year": 103,
+  "year_label": "103 CE",
+  "era_context": "The Roman Empire under Trajan (98\u2013117 CE) in the early stages of the Second Dacian War (105\u2013106 CE), though the war had not yet begun in 103 CE. The Han Dynasty under Emperor He (89\u2013105 CE) in the middle of his reign, facing increasing administrative challenges. The Kushan Empire consolidating power in Central Asia. This is a period of relative stability in major empires, though with underlying tensions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier (sparse attestation)",
+    "Oceania and Pacific islands (no written records)",
+    "Pre-Columbian Americas (no direct dating)"
+  ],
+  "events": [
+    {
+      "id": "103-001",
+      "title": "Trajan's Parthian Frontier Policy; Preparations for Dacian Campaign",
+      "region": "Roman Empire, Eastern frontier and Danube",
+      "coordinates_approx": "40.00, 40.00",
+      "category": "military",
+      "description": "In 103 CE, Emperor Trajan was consolidating his power and preparing for military campaigns. While the Second Dacian War would not begin until 105 CE, Trajan was likely conducting reconnaissance and diplomatic preparations in 103 CE. On the eastern frontier, Trajan was managing relations with the Parthian Empire, which was Rome's primary rival. Trajan's reign was marked by aggressive expansionism, and 103 CE represents a period of preparation and strategic planning for the major campaigns that would define his reign.",
+      "key_figures": [
+        "Emperor Trajan (r. 98\u2013117 CE)",
+        "Parthian rulers",
+        "Roman military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Younger, Panegyricus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Trajan's military preparations and expansionist policy is well-documented. The specific activities in 103 CE are inferred from the broader context of his reign and the known timeline of the Dacian Wars.",
+      "cross_references": [
+        "Leads to 105-003 (Second Dacian War)"
+      ]
+    },
+    {
+      "id": "103-002",
+      "title": "Han Dynasty Administrative Challenges; Eunuch Influence Growing",
+      "region": "Han Dynasty, China",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor He of Han was facing increasing administrative challenges in 103 CE, including factional struggles at court, eunuch influence over imperial policy, and tensions between the imperial harem and scholar-officials. The emperor's authority was being undermined by competing power centers at court. These internal tensions would intensify in the final years of He's reign (he died in 105 CE) and would characterize the Later Han Dynasty's decline, as eunuchs gradually gained dominance over imperial succession and policy-making.",
+      "key_figures": [
+        "Emperor He (r. 89\u2013105 CE)",
+        "Eunuch faction at court",
+        "Scholar-official faction",
+        "Imperial harem"
+      ],
+      "sources": [
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of court factionalism and eunuch influence during Emperor He's reign is well-attested. The specific conditions in 103 CE are inferred from the broader trajectory of his reign.",
+      "cross_references": [
+        "Part of broader pattern leading to 105-001 (death of Emperor He and succession crisis)"
+      ]
+    },
+    {
+      "id": "103-003",
+      "title": "Kushan Empire Consolidating Central Asian Control",
+      "region": "Kushan Empire, Central Asia and Northern India",
+      "coordinates_approx": "34.53, 69.18",
+      "category": "political",
+      "description": "The Kushan Empire was consolidating its control over Central Asian trade routes and territories in the early 2nd century CE. The empire controlled crucial passages along the Silk Road, facilitating trade between the Mediterranean, Central Asia, India, and China. Kushan rulers minted coins that blended Greek, Persian, and Indian iconography, reflecting the empire's multicultural character. The Kushan Empire served as a crucial intermediary in long-distance trade and cultural exchange during this period.",
+      "key_figures": [
+        "Kushan rulers (identity and dates disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Kushan coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese sources (Han Shu, Wei L\u00fce)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Kushan consolidation and trade facilitation is well-attested through numismatic and archaeological evidence. The specific conditions in 103 CE are inferred from the broader context of Kushan history in the early 2nd century CE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. The general historical context for 103 CE is well-established in scholarly consensus.",
+  "historiographic_note": "Documentation for 103 CE is moderate but less detailed than for years with major events (like 105 CE). Roman sources are contemporary or near-contemporary but focus on major military campaigns and political events. Han sources are later compilations that may reflect editorial bias. The Kushan Empire is known primarily through numismatic evidence, which provides limited information about specific years. The historical record for 103 CE is sparse in terms of specific events; the year is primarily significant as part of the broader context of Trajan's reign and the Han Dynasty's internal tensions.",
+  "graph_edges": [
+    {
+      "from": "103-001",
+      "to": "105-003",
+      "relation": "led_to",
+      "note": "Trajan's military preparations in 103 CE led to the Second Dacian War (105\u2013106 CE)"
+    },
+    {
+      "from": "103-002",
+      "to": "105-001",
+      "relation": "led_to",
+      "note": "Court factionalism and eunuch influence in 103 CE intensified the succession crisis following Emperor He's death in 105 CE"
+    }
+  ]
+}

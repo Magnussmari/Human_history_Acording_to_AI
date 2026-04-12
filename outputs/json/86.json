@@ -1,0 +1,125 @@
+{
+  "year": 86,
+  "year_label": "86 CE",
+  "era_context": "The Flavian dynasty under Domitian is consolidating power in Rome. The Dacian Wars are escalating on the Danube frontier. In China, the Eastern Han dynasty is stable under the regency of Empress Dou for the young Emperor He. Across the Mediterranean and Asia, trade networks are expanding and urban centres are thriving. This is a period of military expansion, administrative consolidation, and cultural development.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Americas",
+    "Northern Europe beyond the Rhine",
+    "India and Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "86-001",
+      "title": "Domitian's Dacian Wars (first phase)",
+      "region": "Dacia / Roman Danube frontier",
+      "coordinates_approx": "45.5, 24.5",
+      "category": "military",
+      "description": "Emperor Domitian launches or continues major military campaigns against the Dacian kingdom under King Decebalus. The exact starting date of the Dacian Wars is debated, with some sources suggesting 88 CE and others 90 CE. By 86 CE, if the wars have begun, they are in their early phase. The conflict arises from Dacian raids across the Danube frontier and Roman strategic interest in controlling the region. The campaigns are costly and difficult, with Dacian forces proving to be formidable opponents.",
+      "key_figures": [
+        "Domitian (Roman Emperor)",
+        "Decebalus (King of Dacia)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 67",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Domitian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Dacian Wars are well-attested, but the exact starting date is debated. Some sources suggest 88 CE, others 90 CE. The chronology of individual campaigns is sometimes unclear. This entry is placed in 86 CE as a conventional date, but the actual beginning of the wars may have been later.",
+      "cross_references": [
+        "88-002",
+        "90-001",
+        "106-001"
+      ]
+    },
+    {
+      "id": "86-002",
+      "title": "Eastern Han Dynasty stability under Empress Dou's regency",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Eastern Han dynasty is stable and prosperous under the regency of Empress Dou for the young Emperor He. The court is focused on restoring Confucian scholarship and strengthening the civil service. By 86 CE, the dynasty has recovered from earlier instability and is entering a period of cultural and economic flourishing. The regency provides a period of relative peace and consolidation.",
+      "key_figures": [
+        "Empress Dou (regent)",
+        "Emperor He of Han (young emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji and Hanshu (earlier historical records)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The regency of Empress Dou and the stability of the Eastern Han are well-documented in Chinese historical records. The dating is secure within the traditional Chinese calendar system.",
+      "cross_references": [
+        "87-002",
+        "88-001"
+      ]
+    },
+    {
+      "id": "86-003",
+      "title": "Roman military consolidation on the Rhine frontier",
+      "region": "Roman Empire (Rhine frontier)",
+      "coordinates_approx": "50, 8",
+      "category": "military",
+      "description": "Emperor Domitian continues to consolidate Roman control over the Rhine frontier, engaging in campaigns against Germanic tribes. These campaigns are part of Domitian's broader strategy to strengthen the empire's borders. The Rhine frontier is strategically important for protecting Roman Gaul and maintaining Roman dominance in the region.",
+      "key_figures": [
+        "Domitian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Domitian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 67",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Domitian's military campaigns on the Rhine are attested by sources, but the exact chronology is sometimes unclear. The sources provide general confirmation of military activity but lack precise dating for specific events.",
+      "cross_references": [
+        "87-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact starting date of the Dacian Wars is one of the most debated points in Roman history of this period. While some sources suggest 88 CE, others place the beginning in 90 CE. The chronology of individual campaigns and battles is often unclear due to the way ancient sources aggregate events. Additionally, the characterisation of Domitian's reign as a period of tyranny is partly influenced by later hostile sources, particularly Pliny the Younger, whose Panegyricus was written to flatter Domitian's successor Trajan.",
+  "historiographic_note": "The year 86 CE is moderately well-documented for the Roman Empire and China, with literary sources providing accounts of political and military events. However, the sources for Rome are often written by authors with political biases. Chinese sources are generally reliable for the Han court. The experiences of ordinary people, soldiers, and non-elites are largely absent from the historical record. Coverage of regions beyond the Mediterranean and China is sparse or absent.",
+  "graph_edges": [
+    {
+      "from": "86-001",
+      "to": "88-002",
+      "relation": "part_of",
+      "note": "The Dacian Wars were ongoing throughout the late 80s and 90s CE."
+    },
+    {
+      "from": "86-002",
+      "to": "87-002",
+      "relation": "contemporary_with",
+      "note": "Empress Dou's regency was concurrent with Emperor He's early reign."
+    },
+    {
+      "from": "86-003",
+      "to": "87-001",
+      "relation": "part_of",
+      "note": "Rhine frontier campaigns were part of Domitian's broader military consolidation."
+    }
+  ]
+}
