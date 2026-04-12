@@ -1,0 +1,83 @@
+{
+  "year": -1589,
+  "year_label": "1590 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The New Kingdom is at the height of its territorial expansion. The Hittite Old Kingdom is consolidating power in Anatolia. Mycenaean Greece is developing palace-centered societies. The Shang Dynasty in China is in a period of cultural and technological development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia",
+    "Indian subcontinent",
+    "Eastern Mediterranean (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-1589-001",
+      "title": "Thutmose III's Levantine military campaigns",
+      "region": "Levant (Syria, Palestine, Lebanon)",
+      "coordinates_approx": "34.5, 35.0",
+      "category": "military",
+      "description": "Thutmose III continues his military campaigns to consolidate Egyptian control over Levantine territories. These campaigns are part of a systematic program of conquest and consolidation that establishes Egyptian hegemony over the region. The campaigns are documented in temple inscriptions at Karnak.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's campaigns are well-attested, but precise year-by-year dating within his reign is uncertain due to Egyptian chronological debates.",
+      "cross_references": [
+        "-1585-001",
+        "-1586-001",
+        "-1587-001",
+        "-1588-001"
+      ]
+    },
+    {
+      "id": "-1589-002",
+      "title": "Hittite territorial consolidation in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "The Hittite Old Kingdom consolidates control over Anatolia and extends influence into northern Syria. Hittite administrative structures are strengthened, and military forces are organized to maintain territorial control. This period marks the development of the Hittite state system.",
+      "key_figures": [
+        "Tudhaliya I or II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for this period is debated; dating is approximate within \u00b110\u201315 years.",
+      "cross_references": [
+        "-1585-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Thutmose III as an unparalleled military genius has been somewhat moderated by recent scholarship, which emphasizes the role of earlier pharaohs (particularly Ahmose I) in establishing the foundations of the New Kingdom empire. The extent of Thutmose III's personal military innovation may be overstated. Additionally, Hittite chronology for this period remains highly contested, with some scholars placing these events significantly earlier or later.",
+  "historiographic_note": "Documentation for 1590 BCE is sparse and heavily dependent on Egyptian temple inscriptions and Hittite clay tablets, both of which are elite-authored sources that emphasize political and military achievements. Archaeological evidence from the Levant and Anatolia provides some independent corroboration but is unevenly distributed. The vast majority of the world's population and civilizations are undocumented for this year. Chronological uncertainty is substantial, with competing chronological systems differing by 50\u2013100 years or more.",
+  "graph_edges": [
+    {
+      "from": "-1589-001",
+      "to": "-1585-001",
+      "relation": "part_of",
+      "note": "Part of Thutmose III's broader campaign sequence"
+    },
+    {
+      "from": "-1589-002",
+      "to": "-1585-002",
+      "relation": "contemporary_with",
+      "note": "Hittite consolidation occurs contemporaneously with Egyptian expansion"
+    }
+  ]
+}

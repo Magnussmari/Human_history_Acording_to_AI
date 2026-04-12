@@ -1,0 +1,104 @@
+{
+  "year": -1580,
+  "year_label": "1580 BCE",
+  "era_context": "The Late Bronze Age, approximately mid-way through the New Kingdom of Egypt under the 18th Dynasty. The Mycenaean civilization dominates the Aegean. The Hittite Empire controls Anatolia and northern Syria. In China, the Shang Dynasty is in its mature phase. This is an era of extensive international trade networks, chariot warfare, and monumental palace construction across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Interior Americas (no written records; archaeological dating imprecise)",
+    "Northern Europe beyond Mediterranean trade networks",
+    "Central Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1580-001",
+      "title": "Reign of Amenhotep II in Egypt (approximate period)",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep II, son of Thutmose III, is believed to have been ruling Egypt during this period, though exact regnal dates remain debated among Egyptologists. He is known for military campaigns in Syria-Palestine and for maintaining Egyptian dominance in the eastern Mediterranean. His reign represents the height of New Kingdom military power and administrative sophistication.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Regnal dates for 18th Dynasty pharaohs are debated; this year falls within the probable reign of Amenhotep II, but exact synchronization with the proleptic Gregorian calendar carries \u00b15\u201310 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1580-002",
+      "title": "Mycenaean palace culture at its height",
+      "region": "Aegean, Greece",
+      "coordinates_approx": "38.5\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean civilization of mainland Greece is in its Late Helladic IIIA phase, characterized by elaborate palace complexes at Mycenae, Tiryns, and Pylos. Linear B script is in use for administrative records. Extensive trade networks connect the Aegean to Egypt, the Levant, and Anatolia. This period represents the apex of Mycenaean palatial organization before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from palace excavations (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological stratigraphy and ceramic chronology place this period securely in Late Helladic IIIA; dating is reliable to within \u00b110 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1580-003",
+      "title": "Hittite Empire under Thutmose III's contemporary rulers",
+      "region": "Anatolia, Levant",
+      "coordinates_approx": "39.0\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire in Anatolia is consolidating power under rulers contemporary with Egyptian New Kingdom expansion. The Hittites control major trade routes and maintain diplomatic relations with Egypt and Mycenaean powers. This period sees the development of sophisticated administrative systems and the use of cuneiform for state correspondence.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Hittite cuneiform archives from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hittite palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite chronology is tied to Egyptian synchronisms; dating carries \u00b15\u20138 year uncertainty due to competing chronological systems.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Amenhotep II's reign remains contested among Egyptologists. Some scholars place his reign earlier (c. 1427\u20131400 BCE) while others date it later (c. 1400\u20131390 BCE). This creates uncertainty about whether -1580 falls within his reign or that of his successor. Additionally, the 'high' vs. 'low' chronology debate for the Bronze Age affects all synchronizations with Mesopotamian and Levantine records.",
+  "historiographic_note": "Documentation for 1580 BCE is heavily weighted toward Egypt and the Aegean, where monumental inscriptions and palace archives survive. The Hittite record is substantial but concentrated in diplomatic and administrative texts. Sub-Saharan Africa, the interior Americas, and much of Asia beyond the Shang heartland are virtually absent from contemporary written records. The surviving sources are predominantly elite-focused (palace, temple, royal administration) and likely omit the lives and activities of the vast majority of the population. Egyptian sources are often propagandistic, emphasizing pharaonic military success and divine favor.",
+  "graph_edges": [
+    {
+      "from": "-1580-001",
+      "to": "-1575-001",
+      "relation": "led_to",
+      "note": "Amenhotep II's reign continues; military campaigns in Levant ongoing"
+    },
+    {
+      "from": "-1580-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean palace culture eventually collapses during Late Bronze Age collapse (~1200 BCE)"
+    }
+  ]
+}

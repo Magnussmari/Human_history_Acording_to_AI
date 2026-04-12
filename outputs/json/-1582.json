@@ -1,0 +1,73 @@
+{
+  "year": -1582,
+  "year_label": "1582 BCE",
+  "era_context": "Late Bronze Age, New Kingdom Egypt, Mycenaean civilization, Hittite Empire. This period is characterized by stable international relations, extensive trade networks, and the dominance of chariot-based military technology. Monumental architecture and palace-centered administration define the era.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Interior Americas",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1582-001",
+      "title": "Mycenaean trade networks in the eastern Mediterranean",
+      "region": "Aegean, Mediterranean",
+      "coordinates_approx": "37.0\u00b0N, 25.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean merchants and traders are actively engaged in commerce throughout the eastern Mediterranean, exchanging pottery, tin, and other goods with Egypt, the Levant, and Anatolia. Archaeological evidence shows widespread Mycenaean pottery in Egypt and the Levant, indicating robust trade relationships. This trade is essential to the Mycenaean economy and supports the palatial elite.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in Egypt and Levant",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets recording trade transactions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence for Mycenaean trade in this period is abundant and well-dated through ceramic chronology.",
+      "cross_references": [
+        "-1580-002"
+      ]
+    },
+    {
+      "id": "-1582-002",
+      "title": "Hittite diplomatic correspondence with Egypt",
+      "region": "Anatolia, Egypt",
+      "coordinates_approx": "39.0\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire maintains diplomatic relations with Egypt through formal correspondence. These letters, preserved in cuneiform archives, discuss trade, military alliances, and the status of vassal states. The correspondence reflects a sophisticated international system of diplomacy and mutual recognition among the great powers of the Bronze Age.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Hittite cuneiform archives from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diplomatic correspondence is well-attested, but specific letters are difficult to date to individual years; \u00b15\u201310 year uncertainty.",
+      "cross_references": [
+        "-1580-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the extent and nature of Mycenaean-Egyptian trade remains debated; some scholars argue that much Mycenaean pottery in Egypt arrived through intermediaries rather than direct Mycenaean merchants.",
+  "historiographic_note": "The year 1582 BCE is virtually undocumented in terms of specific events. The events listed above represent general patterns and conditions known to have existed during this period, not events specific to this year. The historical record for this year is essentially silent; we know the general context but not the particular happenings.",
+  "graph_edges": [
+    {
+      "from": "-1582-001",
+      "to": "-1580-002",
+      "relation": "contemporary_with",
+      "note": "Part of the same Mycenaean trade network system"
+    }
+  ]
+}

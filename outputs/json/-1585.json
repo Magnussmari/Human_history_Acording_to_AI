@@ -1,0 +1,77 @@
+{
+  "year": -1585,
+  "year_label": "1586 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign. The New Kingdom is at its height of territorial expansion in the Levant and Nubia. Mycenaean Greece is in the Late Helladic II period. The Hittite Empire controls Anatolia under Tudhaliya I or II. In China, the Shang Dynasty is consolidating power in the Yellow River valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "Mesoamerica (no written records; archaeological evidence limited)",
+    "Pacific Islands (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-1585-001",
+      "title": "Thutmose III campaigns in the Levant",
+      "region": "Levant (modern Syria, Lebanon, Palestine)",
+      "coordinates_approx": "34.5, 35.0",
+      "category": "military",
+      "description": "Thutmose III, Egypt's greatest military commander, continues his systematic campaigns to consolidate Egyptian control over Levantine territories. These campaigns, spanning multiple years, establish Egyptian hegemony over city-states from the Euphrates to Nubia. The campaigns are documented in temple inscriptions at Karnak and represent the apex of New Kingdom military expansion.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Amenhotep II (co-regent or successor, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites (Tell Megiddo, Byblos)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-attested, but precise year-by-year dating within his 54-year reign remains uncertain due to Egyptian chronological debates. This year falls within his documented campaign period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1585-002",
+      "title": "Hittite consolidation under Tudhaliya I",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "The Hittite Empire under Tudhaliya I (or possibly Tudhaliya II, depending on chronological reconstruction) consolidates control over Anatolia and extends influence into northern Syria. This period marks the Old Hittite Kingdom's transition toward the New Kingdom period. Hittite administrative and military structures are strengthened.",
+      "key_figures": [
+        "Tudhaliya I or II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for this period is debated; multiple competing chronological systems exist. Dating is approximate within \u00b110\u201315 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Thutmose III's reign has been subject to significant revision. Some scholars argue for a lower chronology that would place these events 50\u2013100 years later. The identity and chronological placement of Tudhaliya I vs. Tudhaliya II remains contested among Hittitologists, with implications for the dating of events in this year.",
+  "historiographic_note": "Documentation for 1586 BCE is heavily dependent on Egyptian temple inscriptions and Hittite clay tablets, both of which are elite-authored and may emphasize military and political achievements over economic or social realities. Archaeological evidence from the Levant provides some independent corroboration but is unevenly distributed geographically. Sub-Saharan Africa, northern Europe, and the Americas are essentially undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1585-001",
+      "to": "-1580-001",
+      "relation": "part_of",
+      "note": "Thutmose III's Levantine campaigns span multiple years; this event is part of a longer campaign sequence"
+    }
+  ]
+}

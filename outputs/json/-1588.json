@@ -1,0 +1,71 @@
+{
+  "year": -1588,
+  "year_label": "1589 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Thutmose III's reign is at its height. The Hittite Old Kingdom is consolidating power in Anatolia. Mycenaean Greece is in the Late Helladic II period with developing palace economies. The Shang Dynasty in China is in a period of cultural florescence.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia",
+    "Indian subcontinent (limited documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1588-001",
+      "title": "Thutmose III's military campaigns continue",
+      "region": "Levant and Syria",
+      "coordinates_approx": "34.5, 35.0",
+      "category": "military",
+      "description": "Thutmose III maintains military pressure on Levantine territories and suppresses periodic rebellions. Egyptian military expeditions ensure continued control over the empire. The pharaoh's strategic innovations in military organization and logistics are evident in the sustained nature of these campaigns.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's campaigns are well-documented in general, but precise year-by-year dating is uncertain.",
+      "cross_references": [
+        "-1585-001",
+        "-1586-001",
+        "-1587-001"
+      ]
+    },
+    {
+      "id": "-1588-002",
+      "title": "Mycenaean palace development in Greece",
+      "region": "Mainland Greece (Peloponnese)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "cultural",
+      "description": "Mycenaean palace centers continue to develop and expand. Archaeological evidence from sites like Mycenae, Tiryns, and Pylos shows increasing architectural sophistication and evidence of long-distance trade networks. These palaces serve as centers of political, economic, and religious authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean chronology is based on pottery typology and stratigraphic evidence; dating is approximate within \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Mycenaean palace development as a linear progression toward the palatial systems of the Late Bronze Age has been complicated by recent scholarship, which emphasizes regional variation and the possibility of earlier palace development in some areas. The dating of the transition from Early to Middle Helladic periods is debated.",
+  "historiographic_note": "For this year, documentation is almost entirely dependent on archaeological evidence, as no contemporary written records exist for Mycenaean Greece. Egyptian and Hittite sources provide information about the broader Mediterranean context. The record is heavily skewed toward elite and monumental remains; the lives of ordinary people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1588-001",
+      "to": "-1585-001",
+      "relation": "part_of",
+      "note": "Continuation of Thutmose III's campaign sequence"
+    }
+  ]
+}

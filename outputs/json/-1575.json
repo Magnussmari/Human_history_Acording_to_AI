@@ -1,0 +1,77 @@
+{
+  "year": -1575,
+  "year_label": "1576 BCE",
+  "era_context": "Late Bronze Age II (LBA IIB). The New Kingdom of Egypt under the Ramesside period is in its early-to-middle phase; the Hittite Empire under Muwatalli II or his successor controls Anatolia and northern Levant; Mycenaean Greece is in the Late Helladic IIIB period with palace complexes at their height; the Shang Dynasty dominates the Yellow River valley in China; the Indus Valley Civilization has already collapsed, with post-Indus cultures emerging in South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Southeast Asia (sparse written records; archaeological chronology uncertain)",
+    "Oceania (no written records; archaeological dating imprecise)",
+    "Americas (no written records; archaeological chronology uncertain for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1575-001",
+      "title": "Reign of Muwatalli II or early reign of Hattusili III, Hittite Empire",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "political",
+      "description": "The Hittite Empire under Muwatalli II (c. 1295\u20131272 BCE in traditional chronology, though some scholars place him earlier) or his successor Hattusili III consolidates control over Anatolia and the Levant. This period marks the height of Hittite military and administrative power, with extensive correspondence with Egypt and other Near Eastern powers. The exact dating of individual Hittite rulers remains debated, with some scholars proposing a 'low chronology' that would shift these dates significantly later.",
+      "key_figures": [
+        "Muwatalli II (Hittite Great King)",
+        "Hattusili III (Hittite Great King, if reign has begun)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y (Hattusa), cuneiform tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Hittite correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology in the mid-13th century BCE is debated. Traditional Egyptian chronology places Muwatalli II c. 1295\u20131272 BCE, but alternative chronologies (especially 'low chronology') shift this period later by 50\u2013100+ years. Assignment to -1575 is conventional but uncertain by \u00b150 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1575-002",
+      "title": "Shang Dynasty consolidation in China, oracle bone divination practices",
+      "region": "Yellow River valley, China",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "cultural",
+      "description": "The Shang Dynasty in China during this period (mid-to-late Shang, c. 1250\u20131050 BCE in traditional chronology) is characterized by sophisticated bronze-working, oracle bone divination (scapulomancy and plastromancy), and a hierarchical court structure centered on the Shang kings. Oracle bones inscribed with divination records provide evidence of religious practice, ancestor veneration, and administrative concerns. The exact dating of Shang phases remains contested among scholars.",
+      "key_figures": [
+        "Shang kings (specific ruler uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones (ox scapulae and turtle plastrons) with inscribed divination records",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze vessels and inscriptions from Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated. Traditional dating places mid-to-late Shang c. 1250\u20131050 BCE, but some scholars propose dates shifted by 100+ years. Oracle bones are contemporary but undated individually; assignment to -1575 is conventional.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of both Hittite and Shang chronologies for this period is highly contested. Some scholars argue for a 'low chronology' that would shift Hittite rulers 50\u2013100+ years later than traditional dating. Similarly, Shang chronology has been revised multiple times based on oracle bone analysis and radiocarbon dating, with no consensus on absolute dates for individual years. The significance of events assigned to -1575 may be misplaced if chronologies are substantially revised.",
+  "historiographic_note": "This period is documented through cuneiform archives (Hittites), oracle bones and bronzes (Shang), and Egyptian records, but absolute dating remains uncertain. The Hittite record is rich but concentrated in diplomatic and administrative texts; military campaigns are recorded but often undated to specific years. Shang oracle bones provide contemporary evidence but are difficult to date precisely. Egyptian chronology, often used as an anchor, is itself debated. Significant gaps exist for regions outside the Near East, Egypt, and China.",
+  "graph_edges": [
+    {
+      "from": "-1575-001",
+      "to": "-1575-002",
+      "relation": "contemporary_with",
+      "note": "Both Hittite and Shang civilizations were contemporaneous in the mid-to-late Bronze Age, though separated geographically with no known direct contact."
+    }
+  ]
+}

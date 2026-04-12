@@ -1,0 +1,55 @@
+{
+  "year": -1587,
+  "year_label": "1588 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The New Kingdom is consolidating its territorial empire. The Hittite Old Kingdom is active in Anatolia. Mycenaean Greece is developing palace-centered societies with increasing trade networks. The Shang Dynasty in China is at a period of cultural and technological development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1587-001",
+      "title": "Egyptian administrative consolidation in the Levant",
+      "region": "Levant (Syria, Palestine, Lebanon)",
+      "coordinates_approx": "34.5, 35.0",
+      "category": "political",
+      "description": "Following military campaigns, Egyptian administrators establish formal control structures in conquered Levantine territories. Tribute systems are formalized, and Egyptian officials are stationed in major cities. This represents the transition from conquest to administrative integration of the Levantine empire.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process of administrative consolidation is well-attested; precise dating to this specific year is uncertain.",
+      "cross_references": [
+        "-1585-001",
+        "-1586-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Egyptian administrative control in the Levant during this period is debated. Some scholars argue that Egyptian control was more indirect and tribute-based than direct administration, and that local rulers retained significant autonomy. The degree of centralization attributed to Thutmose III's system may be overstated in traditional accounts.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on Egyptian temple inscriptions, which emphasize pharaonic achievements and may exaggerate the extent of control. Archaeological evidence is unevenly distributed across the Levant. The vast majority of the world's population and civilizations are undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1587-001",
+      "to": "-1585-001",
+      "relation": "led_to",
+      "note": "Administrative consolidation follows from military campaigns"
+    }
+  ]
+}

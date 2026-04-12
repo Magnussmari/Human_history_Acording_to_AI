@@ -1,0 +1,82 @@
+{
+  "year": -1565,
+  "year_label": "1566 BCE",
+  "era_context": "The Late Bronze Age, mid-second millennium BCE. The New Kingdom of Egypt under the 18th Dynasty (Thutmosid period) was at its height of imperial power. The Hittite Empire controlled Anatolia and northern Syria. Mycenaean Greece was in the Late Helladic II period. The Shang Dynasty dominated the Yellow River valley in China. This was an era of international diplomacy, military campaigns, and the development of alphabetic writing systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Southeast Asia (sparse written records)",
+    "Pacific Islands (no written records; archaeological dating uncertain)",
+    "Americas (no written records; archaeological context limited)"
+  ],
+  "events": [
+    {
+      "id": "-1565-001",
+      "title": "Reign of Amenhotep II continues; military campaigns in Nubia and Syria",
+      "region": "Egypt, Nubia, Syria-Palestine",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Amenhotep II, pharaoh of Egypt's 18th Dynasty, continued his military consolidation of the empire. This year falls within his documented campaigns against Nubian and Syrian territories. Egyptian records describe chariot warfare and the subjugation of vassal states. These campaigns reinforced Egyptian hegemony in the eastern Mediterranean and Nile valley, establishing tribute networks that sustained imperial wealth.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and Amada stela",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian New Kingdom administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep II's reign is well-attested (c. 1427\u20131400 BCE in conventional chronology), but specific events within individual years are difficult to date precisely. This assignment is approximate within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1565-002",
+      "title": "Hittite consolidation under Thutmose III's contemporary, Hantili I or successor",
+      "region": "Anatolia, northern Syria",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire in Anatolia was consolidating power during this period. While exact synchronization with Egyptian chronology remains debated, Hittite rulers of this era were engaged in territorial expansion and the codification of law. The Hittite legal code (Hittite Laws) reflects the administrative sophistication of this period, establishing hierarchical social structures and property rights.",
+      "key_figures": [
+        "Hittite rulers of the mid-15th century BCE (identity debated)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform archives from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite Laws (Hittite Code)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for the mid-15th century BCE is uncertain and debated among scholars. The assignment to this year is conventional but may shift by 10\u201320 years depending on synchronization methods.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Amenhotep II's reign (c. 1427\u20131400 BCE) is itself disputed. Some scholars propose a 'low chronology' that would place these events 50\u2013100 years later. Additionally, the historical significance of specific military campaigns attributed to Amenhotep II in Egyptian inscriptions may be exaggerated for propagandistic purposes, as was common in pharaonic records. The Hittite synchronization with Egyptian chronology remains one of the most contentious issues in ancient Near Eastern chronology, with competing 'high,' 'middle,' and 'low' chronologies differing by decades.",
+  "historiographic_note": "Documentation for 1566 BCE is heavily dependent on Egyptian temple inscriptions and Hittite cuneiform archives, both of which are elite-authored and propagandistic in nature. Egyptian records emphasize military victories and divine sanction; Hittite records focus on legal and administrative matters. There is minimal contemporary written evidence from the Levantine vassal states themselves. Archaeological evidence (pottery, stratigraphy, destruction layers) provides some independent corroboration but is difficult to date to specific years. The entire chronological framework for this period depends on astronomical calculations, radiocarbon dating, and synchronisms with better-dated later periods\u2014all of which carry uncertainty. Sub-Saharan Africa, the Indus Valley, and East Asia are virtually absent from the surviving written record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1565-001",
+      "to": "-1564-001",
+      "relation": "led_to",
+      "note": "Amenhotep II's military campaigns established the territorial basis for subsequent Egyptian imperial administration"
+    },
+    {
+      "from": "-1565-002",
+      "to": "-1560-001",
+      "relation": "part_of",
+      "note": "Hittite consolidation was part of the broader emergence of the Hittite Empire as a major Near Eastern power"
+    }
+  ]
+}
