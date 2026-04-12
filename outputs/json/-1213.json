@@ -1,0 +1,88 @@
+{
+  "year": -1213,
+  "year_label": "1213 BCE",
+  "era_context": "Late Bronze Age, final generation before systemic collapse. Egypt under Ramesses II (or possibly his successor Merenptah, depending on chronological system); Hittite Empire in its terminal phase; Mycenaean palatial civilization still intact but under stress; Eastern Mediterranean experiencing increased maritime instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond China",
+    "Mesoamerica",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1213-001",
+      "title": "Ramesses II's death or final year (chronology-dependent)",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.2,32.6",
+      "category": "political",
+      "description": "Depending on the chronological system used, 1213 BCE may mark the death of Ramesses II (traditional dating places his death c. 1213 BCE) or fall within his reign. His successor, Merenptah, would have assumed power around this time. This transition marks the end of Egypt's last great imperial expansion phase and the beginning of the 20th Dynasty's more defensive posture.",
+      "key_figures": [
+        "Ramesses II (Pharaoh, possibly dying this year)",
+        "Merenptah (Pharaoh, possibly ascending this year)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and Egyptological chronological consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Papyrus Harris I and administrative records",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses II's death date is traditionally placed c. 1213 BCE, but some chronological systems place it 1\u20132 years earlier or later. The exact year is not independently verifiable from contemporary sources.",
+      "cross_references": [
+        "-1214-001"
+      ]
+    },
+    {
+      "id": "-1213-002",
+      "title": "Hittite Empire's final administrative records",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5,33.9",
+      "category": "political",
+      "description": "The Hittite Empire continues under Suppiluliuma II, but archaeological and textual evidence suggests increasing fragmentation and loss of control over peripheral territories. Within a few years, the empire will cease to exist as a unified state. The causes remain debated: invasion by Sea Peoples, internal civil conflict, economic collapse, or a combination thereof.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy from Hattusa and other Hittite sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma II's reign is dated c. 1207\u20131178 BCE. The specific year 1213 BCE falls within this period, but no year-specific events are documented.",
+      "cross_references": [
+        "-1214-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ramesses II's death to c. 1213 BCE is not universally accepted. Some Egyptologists argue for dates as late as 1210 or as early as 1215 BCE. The identity and chronology of his immediate successors (Merenptah, Seti II) also vary by scholarly system. Additionally, the 'Hittite collapse' is increasingly understood as a gradual process rather than a sudden event, complicating the narrative of systemic Bronze Age collapse.",
+  "historiographic_note": "1213 BCE is poorly documented. No specific events are recorded for this year in surviving sources. Knowledge is inferred from regnal chronologies and archaeological stratigraphy. The historical record is dominated by Egyptian and Hittite sources; other civilizations are largely invisible. Surviving texts are predominantly administrative and monumental, creating a bias toward elite narratives. The broader context of this period is better understood than any individual year.",
+  "graph_edges": [
+    {
+      "from": "-1213-001",
+      "to": "-1212-001",
+      "relation": "led_to",
+      "note": "Succession of Merenptah continues into the following year"
+    },
+    {
+      "from": "-1213-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Hittite collapse occurs within the next 13 years"
+    }
+  ]
+}

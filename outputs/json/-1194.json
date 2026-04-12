@@ -1,0 +1,83 @@
+{
+  "year": -1194,
+  "year_label": "1194 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palace civilisations of Greece are in terminal decline, the Hittite Empire has recently fallen (c. 1180 BCE), Egypt under Ramesses III faces invasions from the Sea Peoples, and major trade networks are fragmenting. This is a period of widespread warfare, migration, famine, and the transition from Bronze Age to Iron Age societies.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, Southeast Asia)",
+    "South Asia (Indus Valley post-collapse, early Vedic India)",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1194-001",
+      "title": "Ramesses III's reign and continued Sea Peoples invasions",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "military",
+      "description": "Ramesses III (r. 1186\u20131155 BCE) is in the early-to-mid phase of his reign, actively defending Egypt against multiple waves of Sea Peoples incursions and Libyan pressure. Around this period, major naval and land battles occur, including the documented Battle of the Delta (c. 1180 BCE, though exact dating is debated). Egypt's military resources are severely strained, and the pharaoh is consolidating control while managing economic decline and internal administrative challenges.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions (contemporary epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record, compiled during Ramesses III's reign)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign dates are well-established (1186\u20131155 BCE), but the precise chronology of individual campaigns within his reign varies by \u00b15\u201310 years depending on whether Egyptian or Levantine chronologies are used. The Sea Peoples invasions are documented but their exact dating and sequence remain debated.",
+      "cross_references": [
+        "Related to broader Late Bronze Age collapse events across -1200 to -1150"
+      ]
+    },
+    {
+      "id": "-1194-002",
+      "title": "Continued fragmentation of Mycenaean Greece",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "By 1194 BCE, the Mycenaean palace civilisation is in advanced collapse. Major palatial centres (Mycenae, Tiryns, Pylos) have been destroyed or abandoned over the preceding decades (c. 1200\u20131180 BCE). Population movements, warfare, and economic disruption continue. The Linear B writing system is no longer in use. Greece is transitioning into the Early Iron Age and the so-called 'Greek Dark Ages,' characterised by smaller settlements, reduced literacy, and loss of palatial administration.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenaean sites (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Bronze Age collapse scholarship (Cline, Drews, etc.)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of Mycenaean civilisation is archaeologically well-attested, but the precise chronology and causation remain debated. Destruction layers are dated to c. 1200\u20131150 BCE, with uncertainty of \u00b110\u201320 years. The year 1194 BCE falls within this collapse window but no specific event is documented for this exact year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional date of the Trojan War (1194 BCE in some classical chronologies, derived from Eratosthenes' calculation) is not supported by archaeological evidence. While Troy VIIa shows destruction c. 1180 BCE, this is not definitively linked to a Greek siege, and the Homeric narrative is considered legendary rather than historical. Modern scholarship treats the Trojan War as a literary composition with possible kernels of historical memory, not as a documented historical event. Additionally, the 'Sea Peoples' identity and origins remain highly contested; they are not a unified ethnic group but rather a confederation of maritime raiders whose exact composition and homeland are debated.",
+  "historiographic_note": "Documentation for 1194 BCE is heavily dependent on Egyptian temple reliefs and administrative papyri, which are biased toward royal military narratives and may exaggerate Egyptian victories. Mycenaean Greece is known primarily through archaeology, not written records (Linear B ceased by c. 1200 BCE). The Levantine and Anatolian record is fragmentary. There is a significant Western bias in surviving sources; events in East Asia, South Asia, and Africa are almost entirely absent from the historical record for this year. The 'Late Bronze Age collapse' is a modern historiographic construct; contemporaries would not have recognised it as such.",
+  "graph_edges": [
+    {
+      "from": "-1194-001",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military campaigns continue and intensify; the Battle of the Delta is traditionally dated c. 1180 BCE"
+    },
+    {
+      "from": "-1194-002",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Mycenaean collapse is part of the broader Late Bronze Age collapse (c. 1200\u20131150 BCE)"
+    }
+  ]
+}

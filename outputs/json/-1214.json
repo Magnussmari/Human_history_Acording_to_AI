@@ -1,0 +1,82 @@
+{
+  "year": -1214,
+  "year_label": "1214 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The New Kingdom of Egypt under Ramesses II is in its later reign; the Hittite Empire remains a major power in Anatolia; Mycenaean Greece is in its final palatial phase; the Eastern Mediterranean is experiencing increasing maritime raiding and population movements that will culminate in the Bronze Age collapse within a generation.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond Chinese dynastic records",
+    "Mesoamerica (no written chronology synchronized to this date)"
+  ],
+  "events": [
+    {
+      "id": "-1214-001",
+      "title": "Ramesses II's later reign consolidation",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.2,32.6",
+      "category": "political",
+      "description": "Ramesses II, now in his 60s\u201370s, continues to rule Egypt in the final decades of his extraordinarily long reign (c. 1279\u20131213 BCE). By this date, he has already commissioned most of his major monuments and is managing succession planning. His reign represents the last great period of Egyptian imperial power before the systemic crises of the late 12th century BCE.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative papyri (e.g., Papyrus Harris I, compiled later but referencing this period)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Egyptological dating",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's regnal dates are well-established by Egyptological consensus (c. 1279\u20131213 BCE), but specific events within individual years of his reign are rarely datable to the year. This entry reflects the broader context rather than a discrete event.",
+      "cross_references": []
+    },
+    {
+      "id": "-1214-002",
+      "title": "Hittite Empire under Suppiluliuma II",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5,33.9",
+      "category": "political",
+      "description": "Suppiluliuma II rules the Hittite Empire, the last major Hittite king. The empire is experiencing increasing pressure from external threats\u2014maritime raiders (the 'Sea Peoples'), internal instability, and economic strain. Within a generation, the Hittite state will collapse entirely, marking a watershed moment in Bronze Age history.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y (Hattusa) archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma II's reign is dated c. 1207\u20131178 BCE by most scholars, placing 1214 BCE within his rule. However, specific events within individual years are rarely documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Late Bronze Age collapse itself remains contested. Some scholars argue for a more gradual decline over several decades rather than a sudden systemic collapse around 1200 BCE. The role and identity of the 'Sea Peoples' remain debated\u2014some scholars question whether they were a unified force or multiple distinct groups. Additionally, the extent to which external invasion versus internal economic and climatic factors drove the collapse is disputed.",
+  "historiographic_note": "Documentation for 1214 BCE is extremely sparse. No specific events are recorded for this individual year in surviving sources. Our knowledge comes from regnal chronologies of major powers (Egypt, Hittites) and archaeological stratigraphy. The historical record is heavily weighted toward Egypt and the Near East; other regions are virtually invisible. Surviving sources are predominantly administrative and monumental texts from state archives, creating a bias toward elite political and military narratives. The broader context of this period is better understood than any specific year.",
+  "graph_edges": [
+    {
+      "from": "-1214-001",
+      "to": "-1213-001",
+      "relation": "led_to",
+      "note": "Ramesses II's reign continues into the following year"
+    },
+    {
+      "from": "-1214-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Hittite Empire's final decades precede its collapse c. 1200 BCE"
+    }
+  ]
+}

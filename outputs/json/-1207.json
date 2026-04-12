@@ -1,0 +1,90 @@
+{
+  "year": -1207,
+  "year_label": "1207 BCE",
+  "era_context": "Late Bronze Age collapse, year 3. The crisis affecting the eastern Mediterranean and Near East is now in its second decade. Egypt remains militarily active but economically strained. The Hittite Empire is in its final years. Mycenaean Greece is fully in the post-palatial period. The Levantine coast continues to experience disruption. This is a period of profound transformation across multiple civilisations, with long-distance trade networks severely disrupted and political authority fragmenting.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Northern Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1207-001",
+      "title": "Ramesses III's Tenth Regnal Year; Military Consolidation",
+      "region": "Egypt (Nile Delta, Eastern Mediterranean)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "Ramesses III is in his tenth regnal year. Egyptian records continue to document military operations against external threats. By this point in his reign, the pharaoh has established a pattern of successful defence against Sea Peoples and Libyan incursions, though the cost in resources is substantial. Some scholars interpret this period as a turning point where Egyptian military superiority is consolidated, though the underlying economic and administrative strain continues to mount.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Regnal year dating is secure from Egyptian chronology.",
+      "cross_references": [
+        "Continuation of -1208-001",
+        "Part of broader Sea Peoples conflict sequence"
+      ]
+    },
+    {
+      "id": "-1207-002",
+      "title": "Suppiluliuma II's Reign Continues; Hittite Territorial Contraction",
+      "region": "Anatolia (Hittite heartland and former territories)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "Suppiluliuma II continues his reign as the last Great King of the Hittites. By 1207 BCE, the empire has lost control of most of its former territories in Syria and the Levant. The Hittite heartland in Anatolia is increasingly isolated. Archaeological evidence shows that some major Hittite centres outside the capital are being abandoned or destroyed. The king's authority is increasingly limited to the immediate vicinity of Hattusa and a few loyal vassal states.",
+      "key_figures": [
+        "Suppiluliuma II (Great King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy from Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of territorial loss is clear, but precise dating is uncertain.",
+      "cross_references": [
+        "Continuation of -1208-002",
+        "Leads to final collapse c. 1180 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a unified 'Late Bronze Age collapse' has been questioned by scholars who emphasise regional variation and the persistence of some centres and trade networks. Some sites in the Levant and Anatolia show evidence of continuity or gradual decline rather than sudden destruction. The dating of Suppiluliuma II's reign is uncertain; some scholars place it earlier or later than the traditional chronology. The extent of Hittite territorial loss by 1207 BCE is debated; some sources suggest the empire retained more control than others indicate.",
+  "historiographic_note": "The historical record for 1207 BCE remains heavily dependent on Egyptian sources, which are biased toward military narratives and may exaggerate Egyptian success. Hittite sources are fragmentary. Archaeological evidence is rich but difficult to date precisely. The perspective of non-state actors, displaced populations, and the Sea Peoples themselves is absent from surviving records.",
+  "graph_edges": [
+    {
+      "from": "-1207-001",
+      "to": "-1206-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military campaigns continue"
+    },
+    {
+      "from": "-1207-002",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Hittite collapse continues"
+    }
+  ]
+}

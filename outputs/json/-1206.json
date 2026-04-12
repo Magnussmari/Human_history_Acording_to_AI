@@ -1,0 +1,90 @@
+{
+  "year": -1206,
+  "year_label": "1206 BCE",
+  "era_context": "Late Bronze Age collapse, year 4. The crisis is now well established across the eastern Mediterranean and Near East. Egypt continues military operations but faces increasing internal administrative challenges. The Hittite Empire is in its final years. Mycenaean Greece is in the Dark Ages. The Levantine coast is experiencing severe disruption. This is a period of profound systemic stress affecting trade, political authority, and settlement patterns across multiple civilisations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Northern Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1206-001",
+      "title": "Ramesses III's Eleventh Regnal Year; Continued External Pressure",
+      "region": "Egypt (Nile Delta, Eastern Mediterranean)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "Ramesses III is in his eleventh regnal year. Egyptian military operations continue against external threats. By this point, the pattern of Egyptian military response is well established, but the underlying economic strain is becoming more evident in administrative records. Temple construction continues, but at a reduced pace. The pharaoh's authority remains strong, but the resources available for major building projects and military campaigns are increasingly constrained.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Regnal year dating is secure from Egyptian chronology.",
+      "cross_references": [
+        "Continuation of -1207-001",
+        "Part of broader Sea Peoples conflict sequence"
+      ]
+    },
+    {
+      "id": "-1206-002",
+      "title": "Hittite Empire in Final Phase; Suppiluliuma II's Reign",
+      "region": "Anatolia (Hittite heartland)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "Suppiluliuma II continues his reign as the last Great King of the Hittites. The empire is now reduced to a small core territory in central Anatolia. Most former vassal states and territories have been lost. Archaeological evidence shows increasing signs of stress: settlement abandonment, reduced trade, and military fortifications. The king's authority is increasingly ceremonial rather than substantive. Within a generation, the Hittite Empire will cease to exist as a political entity.",
+      "key_figures": [
+        "Suppiluliuma II (Great King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and other Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of decline is clear, but precise dating is uncertain.",
+      "cross_references": [
+        "Continuation of -1207-002",
+        "Leads to destruction of Hattusa c. 1180 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Late Bronze Age collapse to c. 1200 BCE has been questioned by some scholars who argue for a more gradual process. The role of climate change, invasion, and internal systemic failure in causing the collapse remains debated. Some scholars emphasise the resilience and continuity of certain centres and regions rather than a uniform collapse. The dating of Ramesses III's reign and the synchronisation with other chronologies remain uncertain.",
+  "historiographic_note": "The historical record for 1206 BCE is heavily dependent on Egyptian sources. Hittite sources are fragmentary and approaching their end. Archaeological evidence is rich but difficult to date precisely. The perspective of non-state actors and displaced populations is absent from surviving records.",
+  "graph_edges": [
+    {
+      "from": "-1206-001",
+      "to": "-1205-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military campaigns continue"
+    },
+    {
+      "from": "-1206-002",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Hittite collapse continues toward final destruction"
+    }
+  ]
+}

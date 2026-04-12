@@ -1,0 +1,113 @@
+{
+  "year": -1203,
+  "year_label": "1203 BCE",
+  "era_context": "Late Bronze Age collapse in progress. The eastern Mediterranean and Near East continue to experience severe disruption. The Hittite Empire has recently fallen (c. 1180 BCE); Egypt under Ramesses III is consolidating power and preparing for military campaigns; Mycenaean Greece is fragmenting; and maritime trade networks are under stress from piracy and political instability. This is a period of rapid, cascading change across multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and Steppe",
+    "Mesoamerica",
+    "East Asia (limited synchronisation with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-1203-001",
+      "title": "Ramesses III consolidates Egyptian power; military preparations against Sea Peoples",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 32.0",
+      "category": "military",
+      "description": "In the early years of his reign, Ramesses III strengthens Egypt's military and administrative apparatus in response to threats from the Sea Peoples and Libyan incursions. He initiates temple construction projects (notably at Medinet Habu) and reorganises the military. His reign will be marked by two major naval battles against the Sea Peoples (c. 1180 and 1175 BCE), but preparations and initial skirmishes likely occur in the early 1200s BCE.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-documented, but the precise dating of specific military campaigns within his reign is uncertain. The major Sea Peoples battles are traditionally dated to c. 1180 and 1175 BCE, but the exact years are debated (\u00b15 years).",
+      "cross_references": [
+        "-1204-003 (Ramesses III's accession)",
+        "-1200-001 (Major Sea Peoples invasions)"
+      ]
+    },
+    {
+      "id": "-1203-002",
+      "title": "Continued fragmentation of Mycenaean palace centres",
+      "region": "Greece (Peloponnese, Aegean)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "The collapse of Mycenaean palatial centres continues. Linear B writing is no longer used; palace economies have ceased to function; populations are migrating or dispersing. Archaeological evidence shows abandonment of major sites and a shift to smaller, dispersed settlements. This process, which began c. 1220 BCE, is now in an advanced stage.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and settlement patterns",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The archaeological evidence for Mycenaean collapse is clear and well-dated by stratigraphy and radiocarbon.",
+      "cross_references": [
+        "-1204-002 (Mycenaean decline)"
+      ]
+    },
+    {
+      "id": "-1203-003",
+      "title": "Hittite Empire aftermath; Anatolia in transition",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "Following the fall of the Hittite Empire (c. 1180 BCE), Anatolia is fragmenting into smaller polities and kingdoms. The Neo-Hittite city-states (Carchemish, Aleppo, Arpad, and others) are beginning to emerge in northern Syria and southern Anatolia, but the process is gradual and not yet complete. The immediate post-imperial period is poorly documented.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Hittite sites and later Neo-Hittite inscriptions",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Assyrian records mentioning Neo-Hittite states",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The fall of the Hittite Empire is dated c. 1180 BCE, but the process of fragmentation and the emergence of Neo-Hittite states is poorly documented in contemporary sources. The dating of this transition is approximate.",
+      "cross_references": [
+        "-1200-003 (Neo-Hittite emergence)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Ramesses III's military campaigns against the Sea Peoples is debated. While temple reliefs at Medinet Habu depict these campaigns, the inscriptions do not provide exact dates, and Egyptologists disagree on whether the major naval battles occurred in the 8th or 5th year of his reign (c. 1180 or 1175 BCE). Some scholars argue that the 'Sea Peoples' were not a unified invasion force but rather multiple groups of raiders and migrants responding to broader systemic collapse. The Hittite Empire's fall is traditionally dated c. 1180 BCE, but some evidence suggests a more prolonged decline beginning c. 1200 BCE.",
+  "historiographic_note": "For 1203 BCE, the historical record is dominated by Egyptian temple inscriptions and reliefs, which are official propaganda and may exaggerate military successes. Greek sources are absent (Linear B has ceased; Homer's epics are much later). Hittite sources end c. 1180 BCE, leaving the immediate post-imperial period poorly documented. Archaeological evidence is the primary source for understanding this period, but it is often difficult to date precisely to a single year. The 'Bronze Age collapse' is increasingly understood as a complex, multi-causal process rather than a sudden catastrophe, making year-by-year attribution of causes problematic.",
+  "graph_edges": [
+    {
+      "from": "-1203-001",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military preparations lead to major naval battles against the Sea Peoples"
+    },
+    {
+      "from": "-1203-002",
+      "to": "-1204-002",
+      "relation": "part_of",
+      "note": "Continuation of Mycenaean collapse process"
+    },
+    {
+      "from": "-1203-003",
+      "to": "-1200-003",
+      "relation": "part_of",
+      "note": "Post-Hittite fragmentation leads to Neo-Hittite emergence"
+    }
+  ]
+}

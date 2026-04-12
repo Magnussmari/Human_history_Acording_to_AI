@@ -1,0 +1,112 @@
+{
+  "year": -1202,
+  "year_label": "1202 BCE",
+  "era_context": "Late Bronze Age collapse accelerating. The eastern Mediterranean and Near East are in the midst of a transformative crisis. The Hittite Empire has recently fallen; Egypt under Ramesses III is responding to external threats; Mycenaean Greece is in terminal decline; and maritime trade networks are severely disrupted. This is a pivotal moment of systemic stress and transformation across multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and Steppe",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-1202-001",
+      "title": "Sea Peoples raids intensify in the eastern Mediterranean",
+      "region": "Eastern Mediterranean (Egypt, Levant, Cyprus, Anatolia)",
+      "coordinates_approx": "34.0, 32.0",
+      "category": "military",
+      "description": "Raids and incursions by maritime groups collectively termed the 'Sea Peoples' intensify across the eastern Mediterranean. These groups (including the Sherden, Peleset, Tjeker, Sheklesh, and others) attack coastal settlements, disrupt trade, and may be involved in the broader collapse of Late Bronze Age civilisations. Egyptian sources (temple reliefs at Medinet Habu) document these incursions, though the exact chronology is debated. The Sea Peoples may have been displaced populations responding to broader systemic collapse, rather than a unified invasion force.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Temple reliefs at Medinet Habu (Egypt), depicting Sea Peoples attacks",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction at coastal sites (Cyprus, Levant)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Sea Peoples raids is confirmed by Egyptian sources and archaeological evidence of destruction. However, the precise dating of specific raids to 1202 BCE is uncertain; the major documented campaigns are traditionally dated to c. 1180 and 1175 BCE, but the process likely began earlier.",
+      "cross_references": [
+        "-1200-001 (Major Sea Peoples invasions)"
+      ]
+    },
+    {
+      "id": "-1202-002",
+      "title": "Cyprus in crisis; destruction of Late Bronze Age settlements",
+      "region": "Cyprus",
+      "coordinates_approx": "35.0, 33.0",
+      "category": "military",
+      "description": "Cyprus, a major centre of Late Bronze Age trade and copper production, experiences severe disruption. Archaeological evidence shows destruction of settlements and abandonment of major sites (e.g., Enkomi, Kition) in the early 12th century BCE. The causes are debated: invasion by Sea Peoples, internal conflict, or systemic collapse of trade networks. The island's economy, which depended on copper exports, is severely disrupted.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and destruction layers at Cypriot sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence for destruction and disruption in Cyprus is clear. The precise dating to 1202 BCE is approximate; the destruction layers are dated c. 1200\u20131150 BCE by stratigraphy and radiocarbon.",
+      "cross_references": [
+        "-1200-001 (Sea Peoples invasions)"
+      ]
+    },
+    {
+      "id": "-1202-003",
+      "title": "Egypt's economy under strain; labour unrest and inflation",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 32.0",
+      "category": "economic",
+      "description": "Egypt's economy is under increasing strain due to military expenditures, disrupted trade, and inflation. Papyri from the reign of Ramesses III document labour unrest, including strikes by workers at Deir el-Medina (the village of tomb workers). The state struggles to pay workers in grain and other commodities, leading to social tension. This economic stress will intensify throughout the 12th century BCE.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Strike Records (Papyrus Harris I, Papyrus Amherst 16)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ostraca from Deir el-Medina (worker records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Labour unrest and economic strain are documented in papyri from Ramesses III's reign, but the precise dating of specific strikes to 1202 BCE is uncertain. The strikes are generally dated to the later years of his reign (c. 1155 BCE), but economic strain likely began earlier.",
+      "cross_references": [
+        "-1200-004 (Broader economic collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'Sea Peoples' are often portrayed as a unified invasion force, but modern scholarship increasingly views them as multiple, distinct groups of raiders and migrants responding to broader systemic collapse. The term 'Sea Peoples' is itself a modern construct; Egyptian sources refer to specific groups (Sherden, Peleset, etc.) without suggesting a unified identity. The precise dating of Sea Peoples raids is debated; while temple reliefs at Medinet Habu depict these incursions, the inscriptions do not provide exact dates. Some scholars argue that the major naval battles occurred later in Ramesses III's reign (c. 1175 BCE) rather than in the early 1200s BCE. The destruction of Cypriot sites is confirmed archaeologically, but the causation (invasion, internal conflict, or systemic collapse) is debated.",
+  "historiographic_note": "The historical record for 1202 BCE is heavily dependent on Egyptian temple inscriptions and papyri, which are official sources and may exaggerate military successes or downplay economic problems. Archaeological evidence from Cyprus and the Levant provides crucial corroboration but is difficult to date precisely to a single year. Greek sources are absent. The 'Sea Peoples' phenomenon is one of the most debated topics in Late Bronze Age studies, with scholars disagreeing on their origins, identity, and role in the collapse. The economic strain documented in Egyptian papyri is real, but the precise chronology is uncertain.",
+  "graph_edges": [
+    {
+      "from": "-1202-001",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "Sea Peoples raids are part of the broader Late Bronze Age collapse"
+    },
+    {
+      "from": "-1202-002",
+      "to": "-1200-001",
+      "relation": "contemporary_with",
+      "note": "Cyprus's destruction is contemporary with Sea Peoples incursions"
+    },
+    {
+      "from": "-1202-003",
+      "to": "-1200-004",
+      "relation": "part_of",
+      "note": "Egyptian economic strain is part of broader systemic collapse"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "year": -1212,
+  "year_label": "1212 BCE",
+  "era_context": "Late Bronze Age, on the cusp of systemic collapse. Egypt under Merenptah (c. 1213\u20131203 BCE); Hittite Empire in its final years; Mycenaean Greece in LHIIIC early phase; Eastern Mediterranean experiencing increased maritime raiding and population displacement.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond China",
+    "Mesoamerica",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1212-001",
+      "title": "Merenptah's reign and military campaigns",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.2,32.6",
+      "category": "military",
+      "description": "Merenptah, son and successor of Ramesses II, rules Egypt. He is known for military campaigns against Libyan incursions and maritime raiders. The famous Merneptah Stele (dated to his 5th regnal year, c. 1208 BCE) records his victories, including the earliest known mention of 'Israel' in Egyptian sources. By 1212 BCE, he is well into his reign and managing threats to Egypt's stability.",
+      "key_figures": [
+        "Merenptah (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Merneptah Stele (epigraphic evidence from c. 1208 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative papyri and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological chronological consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Merenptah's regnal dates are well-established (c. 1213\u20131203 BCE). The year 1212 BCE falls within his reign, but specific events within individual years are rarely datable.",
+      "cross_references": [
+        "-1213-001"
+      ]
+    },
+    {
+      "id": "-1212-002",
+      "title": "Hittite Empire's terminal phase",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5,33.9",
+      "category": "political",
+      "description": "The Hittite Empire under Suppiluliuma II is in its final years. Archaeological evidence from Hattusa shows signs of destruction and abandonment within the next few years. The causes remain debated: invasion by Sea Peoples, internal civil war, famine, or a combination of factors. By 1200 BCE, the empire will have ceased to exist.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform texts from Bo\u011fazk\u00f6y archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy from Hattusa showing destruction layers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma II's reign is dated c. 1207\u20131178 BCE, though some scholars place his death earlier. The year 1212 BCE falls within this period, but no year-specific events are documented.",
+      "cross_references": [
+        "-1214-002",
+        "-1213-002"
+      ]
+    },
+    {
+      "id": "-1212-003",
+      "title": "Mycenaean Greece in LHIIIC early phase",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5,23.5",
+      "category": "cultural",
+      "description": "Mycenaean palatial civilization is transitioning into LHIIIC (Late Helladic IIIC), a period of significant disruption. Major palatial centers are being destroyed or abandoned. The causes are debated: invasion, internal conflict, or environmental stress. This period marks the end of the Bronze Age palatial system and the beginning of the Greek Dark Ages.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenaean sites (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and chronological analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition to LHIIIC is dated c. 1200\u20131190 BCE by most scholars. The year 1212 BCE is assigned here by convention as falling within this transitional period, but the exact chronology is uncertain by \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Bronze Age collapse' narrative has been increasingly questioned by recent scholarship. Some scholars argue for a more gradual decline over several decades rather than a sudden systemic crisis around 1200 BCE. The role of the 'Sea Peoples' is disputed\u2014some scholars view them as a symptom rather than a cause of collapse. Additionally, the extent to which climate change, famine, or internal factors drove the collapse is debated. The Merneptah Stele's reference to 'Israel' is also contested\u2014some scholars argue it refers to a people or region, others to a political entity.",
+  "historiographic_note": "1212 BCE is poorly documented. No specific events are recorded for this year in surviving sources. Knowledge is inferred from regnal chronologies, archaeological stratigraphy, and pottery typology. The historical record is dominated by Egyptian and Hittite sources; other civilizations are largely invisible. Surviving texts are predominantly administrative and monumental, creating a bias toward elite narratives. The broader context of this period is better understood than any individual year. Archaeological dating for this period is uncertain by \u00b110\u201320 years.",
+  "graph_edges": [
+    {
+      "from": "-1212-001",
+      "to": "-1211-001",
+      "relation": "led_to",
+      "note": "Merenptah's reign continues"
+    },
+    {
+      "from": "-1212-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Hittite collapse occurs within the next 12 years"
+    },
+    {
+      "from": "-1212-003",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "Mycenaean collapse is part of broader Bronze Age collapse"
+    }
+  ]
+}
