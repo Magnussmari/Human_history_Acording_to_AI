@@ -1,0 +1,123 @@
+{
+  "year": 73,
+  "year_label": "73 CE",
+  "era_context": "The Flavian dynasty rules Rome under Vespasian (69\u201379 CE). The Jewish War is concluding with the fall of Masada. The Han dynasty in China is under Emperor Zhang (75\u201388 CE), who is consolidating power and expanding westward. This is a period of military conclusion in the Mediterranean, administrative consolidation in China, and the beginning of sustained Silk Road trade.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "73-001",
+      "title": "Fall of Masada; end of organized Jewish resistance in the Jewish War",
+      "region": "Judaea, Roman Empire",
+      "coordinates_approx": "31.3156, 35.3528",
+      "category": "military",
+      "description": "The fortress of Masada, the last stronghold of Jewish resistance, falls to Roman forces under Lucius Flavius Silva. According to Josephus, the 960 defenders chose mass suicide rather than surrender. The fall of Masada marked the definitive end of the Jewish War (66\u201373 CE) and the collapse of organized Jewish military resistance to Rome. The event had profound consequences for Jewish identity, diaspora, and religious practice.",
+      "key_figures": [
+        "Lucius Flavius Silva (Roman general)",
+        "Eleazar ben Yair (Zealot leader, traditional account)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish War, Book 7",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavations at Masada (1963\u20131965, directed by Yigael Yadin)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fall of Masada is traditionally dated to 73 or 74 CE. Josephus provides the primary narrative, but he was not present. Modern scholarship debates the mass suicide account; archaeological evidence confirms the siege but not the suicide narrative.",
+      "cross_references": [
+        "Concludes 66-001 (Jewish War)",
+        "Follows from 75-001 (destruction of the Temple)"
+      ]
+    },
+    {
+      "id": "73-002",
+      "title": "Emperor Zhang of Han launches military campaign against the Xiongnu",
+      "region": "China, Central Asia, Xiongnu territories",
+      "coordinates_approx": "42.0, 100.0",
+      "category": "military",
+      "description": "Emperor Zhang of Han launches a major military campaign against the Xiongnu, a nomadic confederation that had long threatened Han borders. The campaign, led by General Dou Xian, resulted in significant Han victories and the expansion of Han influence into Central Asia. This campaign strengthened Han control over the Silk Road and facilitated trade and diplomatic contact with western regions.",
+      "key_figures": [
+        "Emperor Zhang of Han (Chinese emperor)",
+        "Dou Xian (Han general)",
+        "Empress Dou (regent, aunt of Dou Xian)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian), compiled by Sima Qian (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign against the Xiongnu is attested in Chinese historical records, but the exact dating is uncertain. Some sources place it in 73 CE, others in 75 CE or later. The Hou Hanshu is a 5th-century compilation and is the primary source.",
+      "cross_references": [
+        "Part of broader Han expansion (1st\u20132nd centuries CE)",
+        "Led to 75-003 (Han-Roman contact)"
+      ]
+    },
+    {
+      "id": "73-003",
+      "title": "Vespasian continues public works in Rome; aqueduct construction",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "technological",
+      "description": "Emperor Vespasian continues the construction of public works in Rome, including aqueducts and the Flavian Amphitheatre. These projects were intended to demonstrate imperial generosity and consolidate Flavian legitimacy after the civil wars of 69 CE. The aqueduct system expanded Rome's water supply and supported the growing population.",
+      "key_figures": [
+        "Vespasian (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Vespasian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Frontinus, De aquaeductu (On Aqueducts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of aqueduct construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Vespasian's public works program is well-attested, but the specific year 73 CE is not definitively documented. The construction of aqueducts and the Amphitheatre occurred over several years during his reign (69\u201379 CE).",
+      "cross_references": [
+        "Part of broader Flavian building program (69\u201396 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Masada's fall is disputed; some sources place it at 74 CE rather than 73 CE. Josephus's account of the mass suicide is questioned by modern scholars; archaeological evidence does not definitively confirm the narrative. The campaign against the Xiongnu is attested in Chinese sources, but the exact year is uncertain and may be placed at 75 CE or later. Vespasian's public works program is well-attested, but the specific year 73 CE is not definitively documented.",
+  "historiographic_note": "Documentation for 73 CE is moderate. Roman sources are available but were written decades after the events. Chinese sources are limited to later compilations. The Jewish War narrative is dominated by Josephus, whose reliability is debated. Archaeological evidence provides material corroboration but does not resolve all historical questions. The record is heavily weighted toward the Mediterranean and China; other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "73-001",
+      "to": "66-001",
+      "relation": "led_to",
+      "note": "The fall of Masada concluded the Jewish War that began in 66 CE"
+    },
+    {
+      "from": "73-002",
+      "to": "75-003",
+      "relation": "led_to",
+      "note": "Han military victories against the Xiongnu facilitated Silk Road trade and Han-Roman contact"
+    }
+  ]
+}

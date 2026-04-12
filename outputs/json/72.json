@@ -1,0 +1,124 @@
+{
+  "year": 72,
+  "year_label": "72 CE",
+  "era_context": "The Flavian dynasty rules Rome under Vespasian (69\u201379 CE). The Jewish War is in its final stages, with Masada under siege. The Han dynasty in China is under Emperor Zhang (75\u201388 CE), consolidating power and expanding westward. This is a period of military conclusion in Judaea, administrative consolidation in China, and the beginning of major public works in Rome.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Mesoamerica and South America",
+    "India (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "72-001",
+      "title": "Masada siege continues under Lucius Flavius Silva",
+      "region": "Judaea, Roman Empire",
+      "coordinates_approx": "31.3156, 35.3528",
+      "category": "military",
+      "description": "The Roman siege of Masada, led by Lucius Flavius Silva, continues. The fortress, held by Jewish Zealots (Sicarii), was surrounded by Roman forces and subjected to a prolonged siege. The siege lasted approximately two years (72\u201373 or 73\u201374 CE). According to Josephus, the defenders constructed a massive siege ramp to breach the fortress walls. The siege represents the final phase of the Jewish War.",
+      "key_figures": [
+        "Lucius Flavius Silva (Roman general)",
+        "Eleazar ben Yair (Zealot leader, traditional account)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish War, Book 7",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavations at Masada (1963\u20131965)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Masada is attested in Josephus, but the exact dating is uncertain. The siege lasted approximately two years, with the fall occurring in 73 or 74 CE. The siege ramp is archaeologically confirmed.",
+      "cross_references": [
+        "Part of 66-001 (Jewish War)",
+        "Leads to 73-001 (fall of Masada)"
+      ]
+    },
+    {
+      "id": "72-002",
+      "title": "Flavian Amphitheatre construction begins in Rome",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.8902, 12.4924",
+      "category": "cultural",
+      "description": "Emperor Vespasian initiates or continues construction of the Flavian Amphitheatre (later known as the Colosseum) on the site of Nero's Golden House. The project was intended to return public land to the people and demonstrate Flavian piety. Construction continued under his successors and was completed under Domitian (80\u201396 CE). The amphitheatre became the largest and most iconic structure of its kind in the Roman world.",
+      "key_figures": [
+        "Vespasian (Roman emperor)",
+        "Rabirius (architect, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Vespasian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 65",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological excavation and structural analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The construction start date is disputed. Some sources place it at 72 CE, others at 75 CE. The structure itself survives and has been extensively studied.",
+      "cross_references": [
+        "Completed in 80-001 (inauguration under Titus)"
+      ]
+    },
+    {
+      "id": "72-003",
+      "title": "Han dynasty consolidates control over the Tarim Basin",
+      "region": "China, Central Asia, Tarim Basin",
+      "coordinates_approx": "40.5, 85.0",
+      "category": "political",
+      "description": "Under Emperor Zhang of Han, the Han dynasty consolidates its control over the Tarim Basin and the Silk Road trade routes. This consolidation followed military campaigns against the Xiongnu and other nomadic groups. The control of the Tarim Basin was crucial for Han trade and diplomatic relations with western regions, including the Roman Empire.",
+      "key_figures": [
+        "Emperor Zhang of Han (Chinese emperor)",
+        "Dou Xian (Han general)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Silk Road chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Han control over the Tarim Basin is attested in Chinese historical records, but the exact dating is uncertain. The process was gradual, spanning several years during Emperor Zhang's reign (75\u201388 CE).",
+      "cross_references": [
+        "Part of broader Silk Road development (1st\u20132nd centuries CE)",
+        "Led to 75-003 (Han-Roman contact)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Masada siege is uncertain; sources place it at 72\u201373 CE or 73\u201374 CE. The construction start date of the Colosseum is disputed; some sources place it at 75 CE rather than 72 CE. The consolidation of Han control over the Tarim Basin is a gradual process, not a discrete event in 72 CE.",
+  "historiographic_note": "Documentation for 72 CE is moderate. Roman sources are available but were written decades after the events. Chinese sources are limited to later compilations. The Jewish War narrative is dominated by Josephus, whose reliability is debated. Archaeological evidence provides material corroboration but does not resolve all historical questions.",
+  "graph_edges": [
+    {
+      "from": "72-001",
+      "to": "73-001",
+      "relation": "led_to",
+      "note": "The siege of Masada continued and concluded with the fall of the fortress in 73 CE"
+    },
+    {
+      "from": "72-002",
+      "to": "80-001",
+      "relation": "led_to",
+      "note": "Construction of the Colosseum continued and was inaugurated in 80 CE"
+    }
+  ]
+}

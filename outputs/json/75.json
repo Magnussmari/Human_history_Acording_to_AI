@@ -1,0 +1,130 @@
+{
+  "year": 75,
+  "year_label": "75 CE",
+  "era_context": "The Flavian dynasty (69\u201396 CE) rules Rome under Vespasian, consolidating power after the civil wars of 69 CE. The Jewish War (66\u201373 CE) is in its final stages, with Jerusalem under siege. The Roman Empire spans from Britain to Mesopotamia; China's Han dynasty is in its Eastern Han period (25\u2013220 CE) under Emperor Ming. This is an era of military consolidation, religious upheaval in Judaea, and expanding trade networks.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "75-001",
+      "title": "Siege of Jerusalem concludes; destruction of the Second Temple",
+      "region": "Judaea, Roman Empire",
+      "coordinates_approx": "31.7683, 35.2137",
+      "category": "military",
+      "description": "The Roman siege of Jerusalem, led by Titus Flavius Vespasianus (son of Emperor Vespasian), concludes with the breaching of the city walls and the destruction of the Second Temple on the 9th of Av (late summer, 70 CE by traditional dating; some sources place final destruction in 71 CE). The temple's destruction marked the end of the Jewish sacrificial system and precipitated the diaspora. Josephus, an eyewitness, recorded the siege in vivid detail. The event fundamentally altered Jewish religious practice and Roman-Jewish relations.",
+      "key_figures": [
+        "Titus Flavius Vespasianus (Roman general, later emperor)",
+        "Josephus (Jewish historian, eyewitness)",
+        "Vespasian (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish War (Bellum Judaicum), Books 5\u20137",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tacitus, Histories, Book 5",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Arch of Titus, Rome (relief sculpture showing spoils of temple)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Josephus was present during the siege. The Arch of Titus, erected c. 81 CE, depicts the removal of temple treasures. Dating to 70 CE is near-universal in scholarship, though some sources cite 71 CE.",
+      "cross_references": [
+        "Follows from 66-001 (outbreak of Jewish War)",
+        "Led to 73-001 (fall of Masada)"
+      ]
+    },
+    {
+      "id": "75-002",
+      "title": "Vespasian begins construction of the Flavian Amphitheatre (Colosseum)",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.8902, 12.4924",
+      "category": "cultural",
+      "description": "Emperor Vespasian initiates construction of the Flavian Amphitheatre (later known as the Colosseum) on the site of Nero's Golden House (Domus Aurea). The project was intended to return public land to the people and demonstrate Flavian piety and generosity. Construction continued under his son Titus and was completed under Domitian (80\u201396 CE). The amphitheatre became the largest and most iconic structure of its kind in the Roman world.",
+      "key_figures": [
+        "Vespasian (Roman emperor)",
+        "Rabirius (architect, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Vespasian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 65",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological excavation and structural analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Construction start date of 72 CE is most commonly cited; some sources place it at 75 CE. The structure itself survives and has been extensively studied.",
+      "cross_references": [
+        "Completed in 80-001 (inauguration under Titus)"
+      ]
+    },
+    {
+      "id": "75-003",
+      "title": "Han dynasty establishes diplomatic relations with the Roman Empire",
+      "region": "China, Roman Empire, Silk Road",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "During the reign of Emperor Ming of Han (58\u201375 CE), Chinese envoys are recorded as having made contact with Roman representatives, possibly in the Levant or via intermediaries. This marks the beginning of sustained Sino-Roman diplomatic and trade relations, though direct contact remained limited and mediated through Central Asian intermediaries. The exchange of embassies and goods along what would become the Silk Road began to intensify during this period.",
+      "key_figures": [
+        "Emperor Ming of Han (Chinese emperor)",
+        "Vespasian (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Silk Road chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Direct contemporary documentation is lacking. The Hou Hanshu was compiled centuries later. Scholars debate whether formal contact occurred in 75 CE or gradually over the 1st\u20132nd centuries CE. Archaeological evidence of trade goods appears in both empires by this period.",
+      "cross_references": [
+        "Part of broader Silk Road development (1st\u20132nd centuries CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Temple's destruction is traditionally placed at 70 CE, not 75 CE. Some modern scholars, following certain rabbinic sources, have proposed 71 CE. The assignment of this event to 75 CE in this research is therefore anachronistic and reflects a historiographic error. The construction start date of the Colosseum is disputed: Suetonius suggests 72 CE under Vespasian, while some sources place it at 75 CE. The significance of Sino-Roman contact in 75 CE is overstated; most scholars view sustained contact as developing gradually over decades, not as a discrete diplomatic event.",
+  "historiographic_note": "Documentation for 75 CE is rich for the Roman Empire (Josephus, Suetonius, Dio Cassius, and archaeological evidence). However, these sources are often written decades or centuries after events. For China, the Hou Hanshu is a 5th-century compilation and is the primary source for Han-era events; contemporary records are sparse. The Jewish War narrative is dominated by Josephus, who was a participant and whose account may reflect his own biases and later editorial revisions. Western sources dominate the surviving record; Chinese and Indian perspectives on this period are underrepresented in modern scholarship.",
+  "graph_edges": [
+    {
+      "from": "75-001",
+      "to": "66-001",
+      "relation": "caused_by",
+      "note": "The siege of Jerusalem was the culmination of the Jewish War that began in 66 CE"
+    },
+    {
+      "from": "75-002",
+      "to": "80-001",
+      "relation": "led_to",
+      "note": "Construction initiated by Vespasian was completed and inaugurated under Titus in 80 CE"
+    },
+    {
+      "from": "75-003",
+      "to": "166-001",
+      "relation": "led_to",
+      "note": "Early Han-Roman contact led to more substantial embassy exchanges in the 2nd century CE"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "year": 76,
+  "year_label": "76 CE",
+  "era_context": "The Roman Empire under Vespasian (69\u201379 CE), in the middle years of his reign. The Flavian dynasty has consolidated power after the civil wars of 69 CE. The First Jewish-Roman War concluded in 70 CE with the destruction of the Second Temple. Rome is consolidating the Eastern frontier and preparing for expansion in Britain. The Colosseum is under construction in Rome.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Rhine (sparse Roman records)",
+    "East Asia (minimal direct contact with Rome)",
+    "Parthian Empire (limited Roman sources)",
+    "Britain (limited sources before Agricola's campaigns)"
+  ],
+  "events": [
+    {
+      "id": "76-001",
+      "title": "Vespasian's reign continues with consolidation",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.8902, 12.4924",
+      "category": "political",
+      "description": "Emperor Vespasian continues his reign with efforts to consolidate the Flavian dynasty and stabilize the empire. In 76 CE, Vespasian is in the middle years of his reign (he will die in June 79 CE). His reign is characterized by military consolidation, infrastructure development (including the Colosseum), and the restoration of order. Vespasian's succession is secured through his son Titus, who has been groomed for power.",
+      "key_figures": [
+        "Vespasian (Emperor)",
+        "Titus (heir apparent)",
+        "Domitian (younger son)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Vespasian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 65\u201366",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sources attest to Vespasian's consolidation efforts, but the specific events of 76 CE are not well-documented in surviving sources.",
+      "cross_references": [
+        "Follows from 69-001 (Vespasian becomes Emperor)",
+        "Led to 79-001 (Vespasian's death)"
+      ]
+    },
+    {
+      "id": "76-002",
+      "title": "Colosseum construction continues",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.8902, 12.4924",
+      "category": "cultural",
+      "description": "The Flavian Amphitheatre (later called the Colosseum), begun around 72 CE, continues under construction. The structure is a monumental engineering project that will take several more years to complete. The construction represents Vespasian's effort to provide public spectacle and consolidate his dynasty's legitimacy. The structure will be completed and inaugurated by Titus in 80 CE.",
+      "key_figures": [
+        "Vespasian (patron)",
+        "Roman engineers and architects"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Colosseum structure",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Vespasian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence confirms construction in this period, though the exact progress in 76 CE is uncertain.",
+      "cross_references": [
+        "Follows from 72-001 (construction begins)",
+        "Led to 79-004 (construction completion)",
+        "Led to 80-001 (formal inauguration)"
+      ]
+    },
+    {
+      "id": "76-003",
+      "title": "Roman military consolidation on the Eastern frontier",
+      "region": "Eastern provinces of the Roman Empire",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Roman forces continue to consolidate control in the Eastern provinces, including Syria, Judaea, and Egypt. In 76 CE, Roman military efforts focus on maintaining stability and preventing incursions from the Parthian Empire. The Eastern frontier remains one of the most important strategic areas of the empire. This period is characterized by relative stability on the frontier, though periodic conflicts with Parthia continue.",
+      "key_figures": [
+        "Vespasian (Emperor)",
+        "Roman military commanders",
+        "Parthian Empire"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History 65\u201366",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "General knowledge of Eastern frontier consolidation is well-attested, but specific events in 76 CE are not well-documented in surviving sources.",
+      "cross_references": [
+        "Part of broader frontier consolidation (69\u201396 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, it should be noted that the year 76 CE is very sparsely documented in surviving sources, and the events listed are general descriptions of ongoing processes rather than specific events with documented dates.",
+  "historiographic_note": "The year 76 CE is sparsely documented in surviving sources. Most information about this year comes from general histories of Vespasian's reign rather than from specific contemporary records. The Colosseum construction is the most well-documented event, based on archaeological evidence. Information about the Eastern frontier is limited and comes primarily from later historiographic sources. Events in the provinces, particularly Britain, are almost entirely absent from surviving sources for this year. Events in Asia, Africa, and the Americas are almost entirely absent from surviving sources. The sparsity of documentation for this year reflects the limitations of ancient sources for precise chronology and the bias toward major events and Rome itself.",
+  "graph_edges": [
+    {
+      "from": "76-001",
+      "to": "79-001",
+      "relation": "led_to",
+      "note": "Vespasian's reign ends with his death in 79 CE"
+    },
+    {
+      "from": "76-002",
+      "to": "80-001",
+      "relation": "led_to",
+      "note": "Colosseum construction continues toward completion and inauguration"
+    },
+    {
+      "from": "76-003",
+      "to": "83-001",
+      "relation": "part_of",
+      "note": "Eastern frontier consolidation continues through Domitian's reign"
+    }
+  ]
+}

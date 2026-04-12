@@ -1,0 +1,134 @@
+{
+  "year": 71,
+  "year_label": "71 CE",
+  "era_context": "The Flavian dynasty rules Rome under Vespasian (69\u201379 CE), consolidating power after the civil wars of 69 CE. The Jewish War (66\u201373 CE) is in its final stages. The Han dynasty in China is under Emperor Ming (58\u201375 CE), with the succession of Emperor Zhang imminent. This is a period of military consolidation, administrative reorganization, and the beginning of major public works projects.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Mesoamerica and South America",
+    "India (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "71-001",
+      "title": "Titus celebrates triumph in Rome for the conquest of Jerusalem",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.8902, 12.4964",
+      "category": "political",
+      "description": "Titus Flavius Vespasianus, son of Emperor Vespasian, celebrates a triumph in Rome for his conquest of Jerusalem and the destruction of the Second Temple. The triumph was a grand military procession that displayed the spoils of war, including the menorah and other treasures from the temple. The triumph was recorded on the Arch of Titus, erected c. 81 CE, which depicts the removal of temple treasures. The triumph demonstrated Flavian military prowess and consolidated their legitimacy.",
+      "key_figures": [
+        "Titus Flavius Vespasianus (Roman general, later emperor)",
+        "Vespasian (Roman emperor, father of Titus)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish War, Book 7",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Suetonius, Life of Titus",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Arch of Titus, Rome (relief sculpture)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The triumph of Titus is well-attested in contemporary and near-contemporary sources. The Arch of Titus, erected c. 81 CE, depicts the triumph. The date is traditionally placed at 71 CE, though some sources cite 70 or 72 CE.",
+      "cross_references": [
+        "Follows from 75-001 (destruction of the Temple)",
+        "Depicted on Arch of Titus (c. 81 CE)"
+      ]
+    },
+    {
+      "id": "71-002",
+      "title": "Vespasian consolidates military control in Britain",
+      "region": "Britain, Roman Empire",
+      "coordinates_approx": "54.0, -2.0",
+      "category": "military",
+      "description": "Emperor Vespasian consolidates Roman military control in Britain, following the invasion of 43 CE. The consolidation involved the establishment of permanent legionary bases and the subjugation of remaining British tribes. Gnaeus Julius Agricola, a prominent general, played a key role in this consolidation. The process continued under Vespasian's successors and was completed under Agricola's governorship (78\u201384 CE).",
+      "key_figures": [
+        "Vespasian (Roman emperor)",
+        "Gnaeus Julius Agricola (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Histories, Book 3",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of legionary fortifications",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Roman control in Britain occurred during Vespasian's reign (69\u201379 CE), but the specific year 71 CE is not definitively attested. The process was gradual, spanning several years.",
+      "cross_references": [
+        "Part of broader Roman military consolidation (69\u201379 CE)"
+      ]
+    },
+    {
+      "id": "71-003",
+      "title": "Emperor Ming of Han continues diplomatic expansion",
+      "region": "China, Han dynasty",
+      "coordinates_approx": "34.3416, 108.9398",
+      "category": "political",
+      "description": "Emperor Ming of Han continues his reign and diplomatic expansion. His reign (58\u201375 CE) was marked by the consolidation of Han power and the expansion of diplomatic relations with western regions. The emperor promoted Buddhism and Confucianism and expanded Han influence along the Silk Road. His reign was relatively peaceful and prosperous, in contrast to the civil wars that preceded it.",
+      "key_figures": [
+        "Emperor Ming of Han (Chinese emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian), compiled by Sima Qian (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Ming's reign is well-attested in Chinese historical records. The year 71 CE falls within his reign (58\u201375 CE).",
+      "cross_references": [
+        "Leads to 75-003 (Han-Roman contact)",
+        "Leads to 74-003 (succession of Emperor Zhang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Titus's triumph is traditionally placed at 71 CE, but some sources cite 70 or 72 CE. The consolidation of Roman control in Britain is attributed to Vespasian's reign generally, but the specific year 71 CE is not definitively documented. The process was gradual and continued under his successors.",
+  "historiographic_note": "Documentation for 71 CE is moderate. Roman sources are available but were written decades after the events. Chinese sources are limited to later compilations. The Jewish War narrative is dominated by Josephus, whose reliability is debated. Archaeological evidence (the Arch of Titus) provides material corroboration. The record is heavily weighted toward the Mediterranean and China; other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "71-001",
+      "to": "75-001",
+      "relation": "caused_by",
+      "note": "Titus's triumph celebrated the destruction of the Temple in 70 CE"
+    },
+    {
+      "from": "71-002",
+      "to": "78-001",
+      "relation": "led_to",
+      "note": "Vespasian's consolidation of Britain continued under Agricola's governorship (78\u201384 CE)"
+    },
+    {
+      "from": "71-003",
+      "to": "75-003",
+      "relation": "led_to",
+      "note": "Emperor Ming's diplomatic expansion facilitated Han-Roman contact"
+    }
+  ]
+}

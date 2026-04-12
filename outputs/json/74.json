@@ -1,0 +1,124 @@
+{
+  "year": 74,
+  "year_label": "74 CE",
+  "era_context": "The Flavian dynasty consolidates power in Rome under Vespasian (69\u201379 CE). The Jewish War is in its final year, with only the fortress of Masada remaining under Jewish control. The Han dynasty in China is under Emperor Ming (58\u201375 CE). This is a period of military conclusion, administrative reorganization, and the beginning of major public works projects in Rome.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "74-001",
+      "title": "Vespasian completes military consolidation of the Rhine frontier",
+      "region": "Germania, Roman Empire",
+      "coordinates_approx": "50.5, 6.0",
+      "category": "military",
+      "description": "Emperor Vespasian completes the consolidation of the Rhine frontier, establishing permanent legionary bases and reducing Germanic incursions. This followed the civil wars of 69 CE and established the Rhine as the stable boundary between Roman and Germanic territories for the next two centuries. The legions were reorganized and stationed in a defensive posture rather than for conquest.",
+      "key_figures": [
+        "Vespasian (Roman emperor)",
+        "Gnaeus Julius Agricola (Roman general, later governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Histories, Book 4",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History, Book 65",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of legionary fortifications",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of the Rhine frontier occurred during Vespasian's reign (69\u201379 CE), but the specific year 74 CE is not definitively attested. The process was gradual, spanning several years.",
+      "cross_references": [
+        "Part of broader Flavian military reorganization (69\u201379 CE)"
+      ]
+    },
+    {
+      "id": "74-002",
+      "title": "Masada remains under siege; Jewish resistance continues",
+      "region": "Judaea, Roman Empire",
+      "coordinates_approx": "31.3156, 35.3528",
+      "category": "military",
+      "description": "The fortress of Masada, held by Jewish Zealots (Sicarii), remains under Roman siege led by Lucius Flavius Silva. The siege lasted from approximately 72\u201373 CE to 73\u201374 CE. According to Josephus, the defenders chose mass suicide rather than surrender. The fall of Masada marked the effective end of organized Jewish military resistance to Rome in the Jewish War.",
+      "key_figures": [
+        "Lucius Flavius Silva (Roman general)",
+        "Eleazar ben Yair (Zealot leader, traditional account)",
+        "Josephus (historian, eyewitness account)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish War, Book 7",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavations at Masada (1963\u20131965)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Josephus provides the primary account, but he was not present at Masada. The dating of the fall is traditionally placed at 73 or 74 CE; modern scholarship favors 73 CE or 74 CE. Archaeological evidence confirms the siege but does not definitively resolve the mass suicide narrative.",
+      "cross_references": [
+        "Follows from 75-001 (destruction of the Temple)",
+        "Part of 66-001 (Jewish War)"
+      ]
+    },
+    {
+      "id": "74-003",
+      "title": "Emperor Ming of Han dies; succeeded by Emperor Zhang",
+      "region": "China, Han dynasty",
+      "coordinates_approx": "34.3416, 108.9398",
+      "category": "political",
+      "description": "Emperor Ming of Han dies after a reign of 18 years (58\u201375 CE). He is succeeded by his son, Emperor Zhang of Han (75\u201388 CE). Emperor Ming's reign was marked by the consolidation of Han power and the expansion of diplomatic relations. Emperor Zhang continued these policies and is remembered for military campaigns against the Xiongnu and the expansion of Han influence westward along the Silk Road.",
+      "key_figures": [
+        "Emperor Ming of Han (deceased)",
+        "Emperor Zhang of Han (successor)",
+        "Empress Dou (regent, mother of Emperor Zhang)"
+      ],
+      "sources": [
+        {
+          "name": "Hou Hanshu (History of the Later Han), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian), compiled by Sima Qian (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The succession of Emperor Zhang is well-attested in Chinese historical records. The date of Emperor Ming's death is traditionally placed at 75 CE, though some sources cite 74 CE.",
+      "cross_references": [
+        "Leads to 88-001 (death of Emperor Zhang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The fall of Masada is traditionally dated to 73 or 74 CE, but the exact year is uncertain. Josephus's account of the mass suicide at Masada is disputed by modern scholars; some argue that the narrative may be legendary or exaggerated. Archaeological evidence confirms the siege but does not corroborate the suicide narrative. The consolidation of the Rhine frontier is attributed to Vespasian's reign generally, but the specific year 74 CE is not definitively documented.",
+  "historiographic_note": "Documentation for 74 CE is moderate. Roman sources (Tacitus, Dio Cassius) are available but were written decades after the events. Chinese sources are limited to later compilations (Hou Hanshu, Shiji). The Jewish War narrative is dominated by Josephus, whose account is the only detailed contemporary source but whose reliability is debated. Archaeological evidence from Masada and the Rhine frontier provides material corroboration but does not resolve all historical questions.",
+  "graph_edges": [
+    {
+      "from": "74-002",
+      "to": "75-001",
+      "relation": "contemporary_with",
+      "note": "The fall of Masada occurred around the same time as the destruction of the Temple, marking the end of the Jewish War"
+    },
+    {
+      "from": "74-003",
+      "to": "75-003",
+      "relation": "contemporary_with",
+      "note": "Emperor Zhang's succession coincided with the period of early Han-Roman contact"
+    }
+  ]
+}
