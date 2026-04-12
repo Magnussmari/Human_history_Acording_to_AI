@@ -1,0 +1,84 @@
+{
+  "year": -466,
+  "year_label": "466 BCE",
+  "era_context": "The Classical Greek world in the mid-5th century BCE, during the consolidation phase following the Persian Wars. Athens is expanding its naval dominance through the Delian League, while Sparta remains the dominant land power. The period is marked by increasing tensions between these two powers and their respective allies. In the Persian Empire, Artaxerxes I is consolidating his rule after the succession crisis following Xerxes' death. The broader Mediterranean is experiencing a shift from Persian hegemony toward Greek independence and inter-Greek competition.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "Mesoamerica and the Americas",
+    "East Asia (limited Chinese records)",
+    "India (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-466-001",
+      "title": "Athenian naval campaign against Persian-held territories",
+      "region": "Eastern Mediterranean, Aegean Sea",
+      "coordinates_approx": "37.5, 25.0",
+      "category": "military",
+      "description": "Athens, under the leadership of Cimon, conducted naval operations against Persian-controlled territories in the Aegean and eastern Mediterranean. These campaigns were part of the broader Athenian strategy to expand the Delian League and reduce Persian influence in the region. The exact targets and outcomes of specific campaigns in 466 BCE are not clearly documented in surviving sources, but this period represents the height of Athenian naval expansion under Cimon's leadership before his ostracism.",
+      "key_figures": [
+        "Cimon (Athenian general)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Cimon",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Athenian naval expansion in the 460s BCE is well-established, but specific events in 466 BCE are not clearly documented. This entry represents the broader context rather than a specific documented event.",
+      "cross_references": [
+        "Part of broader Delian League expansion",
+        "Related to -465-001 (Inarus rebellion)"
+      ]
+    },
+    {
+      "id": "-466-002",
+      "title": "Possible dating of the Spartan earthquake and helot revolt",
+      "region": "Sparta, Peloponnese",
+      "coordinates_approx": "37.07, 22.43",
+      "category": "environmental",
+      "description": "Some ancient sources place the major earthquake that struck Sparta and triggered the helot revolt in 466 BCE rather than 465 BCE. The chronological uncertainty reflects the difficulty in precisely dating events from ancient sources. The earthquake caused significant destruction and prompted a major helot uprising that would have major consequences for Spartan power and Greek geopolitics.",
+      "key_figures": [
+        "Archidamus II (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book I",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Geological evidence from Sparta region",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The earthquake is well-attested, but the precise year is uncertain. Different ancient sources place it in 466, 465, or 464 BCE. Geological evidence confirms major seismic activity in the mid-5th century but cannot pinpoint the exact year.",
+      "cross_references": [
+        "Alternative dating of -465-003",
+        "Led to -464-001 (helot revolt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The year 466 BCE is poorly documented in surviving sources. Most events attributed to this year are either undated or have uncertain chronology. The Spartan earthquake is sometimes placed in 466 BCE, but other sources favor 465 or 464 BCE. The lack of specific, well-documented events for this year suggests that the historical record for 466 BCE is particularly thin, and many events assigned to this year may be approximations or reconstructions rather than precisely dated historical facts.",
+  "historiographic_note": "The historical record for 466 BCE is notably sparse. Most surviving sources focus on major political and military events, and the year 466 BCE does not feature prominently in any major ancient narrative. The dating of events in this period depends heavily on the reconstruction of the Athenian archon list and synchronization with other chronological systems. There is a significant risk of anachronism or misplacement of events in the surviving sources. The Western bias toward Greek and Roman history is particularly pronounced for this year, with virtually no documentation from other regions.",
+  "graph_edges": [
+    {
+      "from": "-466-002",
+      "to": "-465-003",
+      "relation": "contemporary_with",
+      "note": "The Spartan earthquake may have occurred in either 466 or 465 BCE; these entries represent alternative datings of the same event"
+    }
+  ]
+}

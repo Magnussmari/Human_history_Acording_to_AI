@@ -1,0 +1,109 @@
+{
+  "year": -464,
+  "year_label": "464 BCE",
+  "era_context": "Classical Greece in the early Classical period, approximately 15\u201320 years after the Persian Wars (480\u2013479 BCE). Athens is consolidating its naval power; Sparta is the dominant land power in Greece. Egypt is under Achaemenid Persian rule. China is in the Spring and Autumn period. This is a period of relative stability in Greece, though tensions between Athens and Sparta are building. The year 464 BCE is notable for a major earthquake in Sparta and the subsequent helot rebellion.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and Steppe",
+    "Mesoamerica",
+    "India",
+    "Persia (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "-464-001",
+      "title": "Great earthquake in Sparta; massive destruction and casualties",
+      "region": "Sparta, Laconia, Greece",
+      "coordinates_approx": "37.07, 22.43",
+      "category": "environmental",
+      "description": "A catastrophic earthquake strikes Sparta, causing massive destruction of buildings and infrastructure and killing thousands of people (estimates range from 20,000 to 50,000 deaths, though these figures are likely exaggerated in ancient sources). The earthquake is one of the most severe natural disasters recorded in ancient Greece. The destruction is so severe that it destabilizes Spartan society and military power. The earthquake triggers a major helot (serf) rebellion, as the enslaved population of Laconia and Messenia sees an opportunity to revolt against Spartan rule. The disaster marks a turning point in Spartan history and has significant geopolitical consequences.",
+      "key_figures": [
+        "Spartan kings and ephors (responding to crisis)",
+        "Helot rebels (uprising against Spartan rule)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Cimon",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The earthquake in Sparta in 464 BCE is well-attested in multiple ancient sources. The date is secure, though the death toll estimates vary widely and are likely exaggerated.",
+      "cross_references": [
+        "Leads to -464-002 (Helot rebellion)",
+        "Leads to -463-001 (Athenian response to Spartan crisis)"
+      ]
+    },
+    {
+      "id": "-464-002",
+      "title": "Helot rebellion in Laconia and Messenia; Spartan crisis",
+      "region": "Laconia, Messenia, Greece",
+      "coordinates_approx": "37.5, 22.0",
+      "category": "military",
+      "description": "Following the earthquake, the helots (enslaved population) of Laconia and Messenia rise in rebellion against Spartan rule. The rebellion is widespread and well-organized, with helots seizing the opportunity to challenge Spartan dominance. The rebels fortify themselves in strongholds, particularly Mount Ithome in Messenia, and resist Spartan military efforts to suppress them. The rebellion lasts for several years and severely strains Spartan military resources. Sparta is forced to seek help from its allies, including Athens, which sends a force under Cimon to assist in suppressing the rebellion. The helot rebellion is a major crisis for Sparta and demonstrates the fragility of Spartan power despite its military reputation.",
+      "key_figures": [
+        "Helot rebels (uprising leaders)",
+        "Spartan kings and ephors (responding to crisis)",
+        "Cimon (Athenian commander, sent to assist Sparta)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Cimon",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The helot rebellion following the earthquake is well-attested in ancient sources. The rebellion began in 464 BCE and lasted until approximately 455 BCE. The date of the outbreak is secure.",
+      "cross_references": [
+        "Follows from -464-001 (Great earthquake in Sparta)",
+        "Leads to -462-001 (Athenian assistance to Sparta under Cimon)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The death toll from the earthquake is reported in ancient sources as extremely high (20,000\u201350,000), but modern scholars consider these figures exaggerated. The exact magnitude and extent of the earthquake are debated among modern seismologists and historians. The helot rebellion is sometimes dated to begin in 465 BCE rather than 464 BCE, depending on the source. The rebellion's duration and intensity are debated; some sources suggest it was less organized than others imply.",
+  "historiographic_note": "The historical record for 464 BCE is dominated by Greek sources, particularly Thucydides and Plutarch, both writing decades or centuries after the events. The sources reflect Athenian and Greek perspectives; Spartan and helot perspectives are largely absent. The death toll estimates are likely exaggerated for dramatic effect. Archaeological evidence from Sparta may corroborate the earthquake but does not resolve all dating ambiguities. The record is richest for Sparta and Greece; sparse for other regions.",
+  "graph_edges": [
+    {
+      "from": "-464-001",
+      "to": "-464-002",
+      "relation": "caused_by",
+      "note": "The earthquake directly triggers the helot rebellion"
+    },
+    {
+      "from": "-464-002",
+      "to": "-462-001",
+      "relation": "led_to",
+      "note": "The helot rebellion prompts Sparta to seek Athenian assistance under Cimon"
+    },
+    {
+      "from": "-464-001",
+      "to": "-461-003",
+      "relation": "led_to",
+      "note": "The earthquake and helot rebellion weaken Sparta, contributing to the outbreak of the First Peloponnesian War"
+    }
+  ]
+}

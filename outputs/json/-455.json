@@ -1,0 +1,130 @@
+{
+  "year": -455,
+  "year_label": "455 BCE",
+  "era_context": "Classical Greece in the mid-5th century BCE, during the height of the Athenian Empire under Pericles. The Delian League dominates the Aegean; the First Peloponnesian War (460\u2013445 BCE) is in its final phase. In China, the Spring and Autumn period is ending; the Warring States period approaches. In Mesoamerica, Classic Maya civilization is flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Greek/Roman contact",
+    "Central Asia and the Steppe (sparse contemporary records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-455-001",
+      "title": "Athenian expedition to Egypt and Cyprus",
+      "region": "Eastern Mediterranean; Egypt, Cyprus, Aegean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Athens, under Pericles, dispatches a large naval force to support Egyptian rebels against Persian rule and to consolidate control over Cyprus. The expedition, led by Cimon and others, represents the height of Athenian imperial ambition. The campaign ultimately fails; Persian forces under Artaxerxes I defeat the Athenian fleet at the Battle of the Eurymedon River (traditionally dated 466 BCE, but some sources place related operations in this period). The failure marks a turning point in Athenian foreign policy and contributes to the shift toward focusing on the Aegean and mainland Greece.",
+      "key_figures": [
+        "Pericles (Athenian strategos)",
+        "Cimon (Athenian general, though possibly already ostracized by this date)",
+        "Artaxerxes I (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad campaign is well-attested, but precise dating of individual operations within the 460s\u2013450s BCE is debated. Thucydides places major operations in this window, but exact chronology depends on reconciling Greek and Persian sources.",
+      "cross_references": [
+        "Related to broader Delian League expansion; precedes Peace of Callias (~449 BCE)"
+      ]
+    },
+    {
+      "id": "-455-002",
+      "title": "Ostracism of Thucydides son of Melesias",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Thucydides son of Melesias (not the historian), a prominent conservative politician and rival of Pericles, is ostracized from Athens. This removal of a major political opponent consolidates Pericles' dominance and marks the end of significant internal opposition to his imperial and building programs. The ostracism reflects factional struggle within the Athenian democracy and Pericles' ascendancy.",
+      "key_figures": [
+        "Thucydides son of Melesias (Athenian politician)",
+        "Pericles (Athenian strategos)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles, 11",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ostracism is attested in later sources; the exact year is sometimes placed at 443 BCE by some scholars, but 455 BCE is a traditional date in the historiographic consensus.",
+      "cross_references": [
+        "Part of Pericles' consolidation of power; precedes major building programs"
+      ]
+    },
+    {
+      "id": "-455-003",
+      "title": "Continued construction of the Parthenon",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Work continues on the Parthenon, the great temple to Athena on the Acropolis, begun around 447 BCE under Pericles and the architect Ictinus. By 455 BCE, the building is in active construction. The Parthenon becomes the symbol of Athenian power and cultural achievement, funded partly by tribute from the Delian League. The project employs thousands of workers and artisans and represents a major investment in monumental architecture.",
+      "key_figures": [
+        "Pericles (patron)",
+        "Ictinus (architect)",
+        "Phidias (sculptor, overseer of artistic program)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pericles, 12\u201313",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Acropolis",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Construction dates are well-established through ancient sources and archaeological stratigraphy. The Parthenon was completed around 432 BCE.",
+      "cross_references": [
+        "Part of Periclean building program; reflects Athenian imperial wealth"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thucydides son of Melesias' ostracism is disputed; some modern scholars place it at 443 BCE rather than 455 BCE, which would shift the political narrative of this year. The exact chronology of the Egyptian campaign and its relationship to the Battle of the Eurymedon is also contested\u2014some sources place the major defeat earlier (466 BCE), making the 455 BCE date less certain for the climactic phase of that conflict. The traditional narrative of Pericles' unopposed dominance after 455 BCE may overstate the degree of consensus in the Athenian assembly.",
+  "historiographic_note": "The historical record for 455 BCE is dominated by Athenian sources, particularly later compilations by Plutarch and Thucydides (the historian, writing ~50 years later). Contemporary inscriptions and archaeological evidence from Athens are rich, but sources from other Greek city-states, Egypt, and Persia are sparse or fragmentary. The narrative is heavily shaped by Athenian democratic ideology and the perspective of the imperial center. Persian sources are largely lost; Egyptian perspectives on the failed rebellion are minimal.",
+  "graph_edges": [
+    {
+      "from": "-455-001",
+      "to": "-449-PEACE_OF_CALLIAS",
+      "relation": "led_to",
+      "note": "Failed Egyptian campaign contributes to shift toward negotiated peace with Persia"
+    },
+    {
+      "from": "-455-002",
+      "to": "-455-003",
+      "relation": "contemporary_with",
+      "note": "Pericles' political consolidation enables major building programs"
+    },
+    {
+      "from": "-455-003",
+      "to": "-432-PARTHENON_COMPLETION",
+      "relation": "part_of",
+      "note": "Parthenon construction spans multiple decades"
+    }
+  ]
+}

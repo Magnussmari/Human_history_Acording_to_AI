@@ -1,0 +1,94 @@
+{
+  "year": -462,
+  "year_label": "462 BCE",
+  "era_context": "Classical Greece in the early Classical period, in the immediate aftermath of the Persian Wars (480\u2013479 BCE). Athens is consolidating its naval power and beginning to transform from a defensive alliance (Delian League) into an imperial power. Sparta remains the dominant land power. Egypt is under Achaemenid Persian rule. China is in the Spring and Autumn period. This is a transitional year in Athenian political development, with democratic reforms accelerating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and Steppe",
+    "Mesoamerica",
+    "India",
+    "Persia (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "-462-001",
+      "title": "Ephialtes leads democratic reforms; Areopagus powers curtailed",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Ephialtes, a radical democratic reformer, leads a series of constitutional reforms that dramatically reduce the power of the Areopagus, the ancient aristocratic council that had dominated Athenian politics. The reforms transfer judicial and legislative powers to the citizen assembly (ekklesia) and the popular courts (dikasteria). This marks a decisive shift toward radical democracy, where power rests with the common people rather than the aristocracy. The reforms are controversial and provoke fierce opposition from conservative forces, setting the stage for Ephialtes' assassination in 461 BCE.",
+      "key_figures": [
+        "Ephialtes (democratic reformer)",
+        "Pericles (supporter of reforms)",
+        "Conservative aristocrats (opponents)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pericles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The democratic reforms are well-attested, but their precise dating is debated. Most scholars place them in 462 BCE, but some suggest 461 BCE. The reforms may have been implemented gradually over several years.",
+      "cross_references": [
+        "Leads to -461-002 (Ephialtes' assassination)",
+        "Part of broader democratic transformation of Athens"
+      ]
+    },
+    {
+      "id": "-462-002",
+      "title": "Athenian expedition to Egypt; support for Inarus rebellion",
+      "region": "Egypt, Nile Delta; Athens, Greece",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "Athens sends a naval expedition to Egypt to support the rebellion of Inarus against Achaemenid Persian rule. The expedition is part of Athens' broader strategy to challenge Persian power and expand its influence in the eastern Mediterranean. The Athenian fleet, numbering around 200 ships according to some sources, arrives in Egypt and joins forces with Inarus. This intervention marks a significant escalation of Athenian imperial ambitions and represents an attempt to weaken Persian control over Egypt. The expedition will ultimately fail, but it demonstrates Athens' willingness to project power far from home.",
+      "key_figures": [
+        "Inarus (Egyptian rebel leader)",
+        "Athenian commanders (expedition leaders)",
+        "Artaxerxes I (Achaemenid emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 1",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book 3",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Athenian expedition to Egypt is attested in Greek sources, but the exact date is uncertain. Some sources place it in 462 BCE, others in 460 BCE. The chronology of the Egyptian rebellion and Athenian involvement is debated among modern scholars.",
+      "cross_references": [
+        "Related to -460-002 (Inarus rebellion)",
+        "Leads to -456-001 (Athenian forces defeated in Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ephialtes' reforms is disputed; some sources place them in 461 BCE rather than 462 BCE. The Athenian expedition to Egypt may have begun in 460 BCE rather than 462 BCE, depending on the source. Modern scholarship debates the extent and significance of Ephialtes' reforms; some scholars argue that the Areopagus retained more power than ancient sources suggest.",
+  "historiographic_note": "The historical record for 462 BCE is sparse and dominated by later Greek sources, particularly Aristotle and Plutarch, who wrote centuries after the events. Contemporary sources are lacking. The sources reflect Athenian political interests and may distort the historical record. Archaeological evidence is limited. The record is richest for Athens; sparse for Egypt, Persia, and other regions.",
+  "graph_edges": [
+    {
+      "from": "-462-001",
+      "to": "-461-002",
+      "relation": "led_to",
+      "note": "Ephialtes' democratic reforms provoke conservative opposition, leading to his assassination"
+    },
+    {
+      "from": "-462-002",
+      "to": "-460-002",
+      "relation": "contemporary_with",
+      "note": "Athenian support for Egyptian rebellion against Persia"
+    }
+  ]
+}
