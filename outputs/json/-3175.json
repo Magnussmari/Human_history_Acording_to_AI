@@ -1,0 +1,85 @@
+{
+  "year": -3175,
+  "year_label": "3175 BCE",
+  "era_context": "Early Bronze Age in the Eastern Mediterranean and Near East. Egypt's Early Dynastic Period (c. 3100\u20132686 BCE) is consolidating unified rule under the First Dynasty. Mesopotamian city-states are developing cuneiform writing and complex administrative systems. The Indus Valley Civilization is in its early phases. This is the threshold of written history in multiple regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Yellow River valley (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and regionally variable)"
+  ],
+  "events": [
+    {
+      "id": "-3175-001",
+      "title": "Reign of Djer, Second Pharaoh of Egypt's First Dynasty",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.2, 31.1",
+      "category": "political",
+      "description": "Djer (also known as Hor-Aha or Djet in some traditions) is attested as ruling during the Early Dynastic Period. His reign represents the consolidation of centralized pharaonic authority over Upper and Lower Egypt. Djer's tomb at Abydos (Umm el-Qa'ab) contains evidence of extensive administrative apparatus and possibly human sacrifice or retainer burials, indicating sophisticated state organization. His rule marks the continuation of the First Dynasty's territorial and bureaucratic expansion.",
+      "key_figures": [
+        "Djer (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List (New Kingdom compilation of earlier royal records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Djer's tomb at Umm el-Qa'ab, Abydos",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (Ramesside-era compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Dating of Early Dynastic pharaohs remains contested. Conventional chronology places Djer c. 3175\u20133150 BCE, but some scholars argue for dates 50\u2013100 years later. Absolute dating relies on king lists compiled centuries after the reign and archaeological stratigraphy with inherent uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-3175-002",
+      "title": "Continued Development of Cuneiform Writing in Mesopotamia",
+      "region": "Mesopotamia (Sumer, Akkad)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "technological",
+      "description": "By 3175 BCE, cuneiform writing in Mesopotamia has evolved from proto-cuneiform (c. 3200 BCE) into a more standardized system used for administrative, religious, and economic records. City-states such as Uruk, Lagash, and Ur are employing scribes to record temple inventories, land transactions, and offerings. This represents a critical transition from oral to written culture and enables the emergence of complex bureaucratic states.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Uruk, Lagash, and other Mesopotamian sites (archaeological)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the development of writing systems",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The transition from proto-cuneiform to cuneiform is dated to c. 3200\u20133100 BCE by most scholars. Assigning specific developments to 3175 BCE is conventional; the process was gradual and not tied to a single year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Djer's reign is disputed. Some Egyptologists (e.g., Manetho's tradition as preserved in later sources) place him earlier or later than 3175 BCE. The 'low chronology' and 'high chronology' schools differ by 50\u2013150 years for this period. Additionally, the significance of early pharaonic 'unification' is debated: some scholars argue that Upper and Lower Egypt were not fully unified until the reign of Narmer or later, and that the First Dynasty represents a gradual consolidation rather than a single unification event. The human remains found in Djer's tomb are sometimes interpreted as evidence of human sacrifice or retainer burial, but alternative interpretations (accidental deaths, later intrusions) have been proposed.",
+  "historiographic_note": "The historical record for 3175 BCE is extremely thin. Egypt's Early Dynastic Period is known primarily through king lists compiled in the New Kingdom (c. 1550\u20131070 BCE), tomb inscriptions, and archaeological evidence from royal cemeteries at Abydos and Saqqara. These sources are biased toward royal and elite perspectives and may conflate or reorder reigns. Mesopotamian records from this period consist mainly of administrative tablets and temple inscriptions, which are abundant but narrow in scope. No contemporary written records from Egypt or Mesopotamia survive from this specific year. The broader era is dominated by elite male narratives; the lives of ordinary people, women, and non-elite populations are largely invisible. Archaeological evidence is unevenly distributed geographically and subject to interpretation bias.",
+  "graph_edges": [
+    {
+      "from": "-3175-001",
+      "to": "-3100-NARMER_PALETTE",
+      "relation": "part_of",
+      "note": "Djer's reign is part of the First Dynasty consolidation that culminated in the unified Egyptian state traditionally associated with Narmer."
+    },
+    {
+      "from": "-3175-002",
+      "to": "-3100-CUNEIFORM_EXPANSION",
+      "relation": "led_to",
+      "note": "The development of cuneiform writing in this period enabled the emergence of Mesopotamian city-state bureaucracies in subsequent centuries."
+    }
+  ]
+}

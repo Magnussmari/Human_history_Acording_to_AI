@@ -1,0 +1,126 @@
+{
+  "year": -3182,
+  "year_label": "3182 BCE",
+  "era_context": "Early Bronze Age III. Egypt's Fourth Dynasty remains in power, with pyramid construction and centralized administration continuing. Mesopotamia is fragmented into competing city-states during Early Dynastic III. The Indus Valley Civilization is in its mature phase. This period is characterized by the coexistence of multiple advanced civilizations with limited direct contact, connected primarily through intermediary trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Americas",
+    "Oceania",
+    "Northern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-3182-001",
+      "title": "Fourth Dynasty Egypt: Pyramid construction and administration",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "technological",
+      "description": "The Fourth Dynasty represents the apex of Old Kingdom pyramid construction technology and organization. Massive stone blocks are quarried, transported, and precisely fitted without mortar. The construction of the pyramids of Khufu, Khafre, and Menkaure demonstrates advanced knowledge of mathematics, engineering, and logistics. These monuments require the mobilization of thousands of workers, suggesting a highly organized state with significant surplus resources and labor control.",
+      "key_figures": [
+        "Fourth Dynasty pharaohs (Khafre or Menkaure, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pyramid construction during the Fourth Dynasty is archaeologically confirmed. The specific year -3182 is assigned by convention; the actual chronology is debated.",
+      "cross_references": [
+        "Part of broader Fourth Dynasty period"
+      ]
+    },
+    {
+      "id": "-3182-002",
+      "title": "Indus Valley Civilization: Urban planning and standardization",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is characterized by remarkable urban planning and standardization. Cities like Mohenjo-daro and Harappa feature grid-pattern streets, standardized brick sizes, sophisticated drainage systems, and public buildings. Weights and measures are standardized across the civilization, suggesting a centralized administrative system or widespread trade conventions. The undeciphered Indus script appears on seals, pottery, and other objects, indicating a literate administrative class.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Indus Valley urban planning and standardization are well-attested archaeologically. The chronology is secure within \u00b150\u2013100 years.",
+      "cross_references": [
+        "Contemporary with Egyptian Fourth Dynasty and Mesopotamian Early Dynastic III"
+      ]
+    },
+    {
+      "id": "-3182-003",
+      "title": "Mesopotamian city-states: Lagash and Umma territorial disputes",
+      "region": "Mesopotamia",
+      "coordinates_approx": "31.5, 46.0",
+      "category": "military",
+      "description": "Lagash and Umma, two major Sumerian city-states, engage in recurring conflicts over the Gu-edena (border region). These disputes are documented in later inscriptions, particularly the Stele of Vultures from Lagash. The conflicts reflect competition for agricultural land and water rights. Lagash, under rulers like Eannatum, emerges as a dominant regional power during this period, though the exact chronology is disputed.",
+      "key_figures": [
+        "Eannatum of Lagash (traditional dating c. 2450 BCE, but chronology is uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of Vultures (Lagash)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions from Lagash",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash-Umma conflicts are attested in later inscriptions, but the exact dating is uncertain. The Sumerian King List's chronology is unreliable. Modern scholars debate whether these conflicts occurred in the 25th or 24th century BCE.",
+      "cross_references": [
+        "Part of Early Dynastic III period",
+        "Precedes Akkadian Empire unification"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are documented for -3182. The chronology of Fourth Dynasty Egypt and Early Dynastic III Mesopotamia remains debated among scholars. Recent radiocarbon dating and astronomical calculations suggest possible revisions to traditional chronologies. The Sumerian King List is widely recognized as unreliable for dating purposes.",
+  "historiographic_note": "For -3182, documentation is sparse and relies on later sources and archaeology. No contemporary written records specifically document events of this year. The historical record is heavily biased toward monumental cultures (Egypt, Mesopotamia) and literate societies. Significant gaps exist for non-literate regions and cultures. The surviving sources are often written centuries or millennia after the events they describe.",
+  "graph_edges": [
+    {
+      "from": "-3182-001",
+      "to": "-3100-era",
+      "relation": "led_to",
+      "note": "Fourth Dynasty pyramid construction represents the apex of Old Kingdom; followed by decline"
+    },
+    {
+      "from": "-3182-002",
+      "to": "-1900-era",
+      "relation": "led_to",
+      "note": "Indus Valley mature phase precedes civilization's decline"
+    },
+    {
+      "from": "-3182-003",
+      "to": "-2334-001",
+      "relation": "led_to",
+      "note": "Early Dynastic III city-state conflicts precede Akkadian unification"
+    }
+  ]
+}
