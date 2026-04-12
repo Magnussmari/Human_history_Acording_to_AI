@@ -1,0 +1,90 @@
+{
+  "year": -1413,
+  "year_label": "1413 BCE",
+  "era_context": "Late Bronze Age, Egypt under Amenhotep III (18th Dynasty), Hittite Empire in uncertain state, Mycenaean Greece in LHIIIA, Shang Dynasty in China. This is a period of international trade networks, diplomatic correspondence, and relative stability across major civilizations, though the historical record becomes increasingly sparse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia",
+    "South Asia (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "-1413-001",
+      "title": "Amenhotep III's reign: peak of Egyptian power and prosperity",
+      "region": "Egypt (18th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III's reign (c. 1390\u20131352 BCE) represents the zenith of Egyptian New Kingdom power. By 1413 BCE, Egypt controls extensive territories in Nubia and maintains hegemony over much of the Levant through diplomatic and military means. The pharaoh's building programs are extensive, and Egyptian art and culture are flourishing. The economy is strong, supported by trade and tribute.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions, administrative records, and archaeological evidence",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on 18th Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-documented; 1413 BCE falls within his reign by conventional chronology, with \u00b120\u201330 year uncertainty.",
+      "cross_references": [
+        "-1410-001",
+        "-1411-001",
+        "-1412-001"
+      ]
+    },
+    {
+      "id": "-1413-002",
+      "title": "Mycenaean palatial culture and Linear B administration",
+      "region": "Mycenaean Greece (Peloponnese, Aegean)",
+      "coordinates_approx": "37.5\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "Mycenaean civilization is in LHIIIA, characterized by palatial centers with complex administrative systems recorded in Linear B script. Palaces at Mycenae, Tiryns, and Pylos are centers of power and trade. The society is hierarchical, with a warrior aristocracy and extensive craft production. Trade networks extend to Egypt, the Levant, and Anatolia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mycenaean chronology is well-established through pottery typology; LHIIIA is dated c. 1425\u20131390 BCE, placing 1413 BCE within this period with reasonable confidence.",
+      "cross_references": [
+        "-1411-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events listed. However, the absolute chronology of the Late Bronze Age remains contested. Some scholars argue for a 'low chronology' that would shift all these dates 50\u2013100 years later. Mycenaean chronology is more secure than Egyptian chronology due to better stratigraphic control.",
+  "historiographic_note": "The record for 1413 BCE is sparse and dominated by Egyptian and Mycenaean sources. The record reflects elite, palatial perspectives. Archaeological evidence provides material context but limited narrative detail. Written records are sparse outside Egypt and the Aegean. Chronological uncertainty is the primary limitation. The historical record is biased toward literate, state-sponsored narratives; the vast majority of human activity in this period is invisible to us.",
+  "graph_edges": [
+    {
+      "from": "-1413-001",
+      "to": "-1350-AMENHOTEP_III_DEATH",
+      "relation": "led_to",
+      "note": "Amenhotep III's reign continues until c. 1352 BCE."
+    },
+    {
+      "from": "-1413-002",
+      "to": "-1200-BRONZE_AGE_COLLAPSE",
+      "relation": "led_to",
+      "note": "Mycenaean palatial culture collapses c. 1200 BCE."
+    }
+  ]
+}

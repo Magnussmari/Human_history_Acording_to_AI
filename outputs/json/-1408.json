@@ -1,0 +1,79 @@
+{
+  "year": -1408,
+  "year_label": "1408 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The New Kingdom was at its height of territorial expansion and cultural achievement. The Mitanni kingdom controlled northern Mesopotamia and Syria. The Hittite Empire was consolidating power in Anatolia. Mycenaean Greece was in the Late Helladic II period. This era is characterized by intensive military campaigns, administrative consolidation, and the development of international trade networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia (Shang Dynasty records exist but are sparse and chronologically uncertain)",
+    "Americas (no written records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1408-001",
+      "title": "Egyptian military campaigns in the Levant under Thutmose III",
+      "region": "Levant, Egypt",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III conducted military campaigns to consolidate Egyptian control over Levantine territories and suppress rebellions against Egyptian authority. These campaigns were part of a sustained effort to maintain Egyptian hegemony and secure tribute networks. The campaigns are documented in temple inscriptions and administrative records.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and ostraca",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thutmose III's reign is well-attested, but specific year-by-year events are difficult to pinpoint. This entry reflects the general pattern of his campaigns during the mid-reign period.",
+      "cross_references": [
+        "-1405-001",
+        "-1407-001"
+      ]
+    },
+    {
+      "id": "-1408-002",
+      "title": "Kassite Babylonia under stable rule",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Kassite dynasty maintained control over Babylonia during this period, managing a complex network of vassal relationships and trade. The Kassites had adopted Babylonian culture and cuneiform administration while maintaining their own military and dynastic identity. This era saw relative stability in Mesopotamia.",
+      "key_figures": [
+        "Kassite ruler (identity uncertain due to chronological debate)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kassite chronology remains debated; specific events for 1408 BCE are not individually attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "As with previous years, the chronology of this period is contested. The 'low chronology' would shift these events significantly later. No specific events are individually attested to 1408 BCE in any contemporary source. The entries above represent the general historical context rather than year-specific documentation.",
+  "historiographic_note": "The historical record for 1408 BCE is similar to previous years: dependent on Egyptian temple inscriptions and cuneiform records, with significant chronological uncertainty. The surviving sources are biased toward elite political and military history. Archaeological evidence provides some constraints but cannot pinpoint individual years. The lack of contemporary cross-dating between Egyptian, Mesopotamian, and Hittite records for this specific year makes precise synchronization difficult.",
+  "graph_edges": [
+    {
+      "from": "-1408-001",
+      "to": "-1405-001",
+      "relation": "contemporary_with",
+      "note": "Part of the same campaign sequence"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "year": -1394,
+  "year_label": "1394 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains diplomatic relations with Mitanni, Hatti, and Babylonia. In Mesopotamia, the Kassite dynasty rules Babylonia. The Hittite Empire is consolidating power in Anatolia under \u0160uppiluliuma I's predecessors. This is an era of relative stability, monumental building, and international trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (Bronze Age societies poorly documented in written sources)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historical synthesis for this specific year)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1394-001",
+      "title": "Reign of Amenhotep III continues; construction of Malkata palace complex",
+      "region": "Egypt, Thebes",
+      "coordinates_approx": "25.7395, 32.6050",
+      "category": "cultural",
+      "description": "Amenhotep III's reign (c. 1390\u20131352 BCE) is marked by extensive building projects. The Malkata palace complex on the west bank of Thebes is under construction or in active use during this period, serving as a royal residence and administrative center. This reflects Egypt's wealth and centralized power during the New Kingdom's apex. The construction involved thousands of workers and represents significant resource mobilization.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Malkata excavations; temple inscriptions and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Thutmose III and later New Kingdom administrative papyri",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign dates are well-established (c. 1390\u20131352 BCE), but specific events within individual years are rarely dated precisely. Construction phases at Malkata are archaeologically attested but not tied to exact years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1394-002",
+      "title": "Diplomatic correspondence between Egypt and Mitanni",
+      "region": "Egypt and Mitanni (Syria/Upper Mesopotamia)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "During Amenhotep III's reign, Egypt maintained active diplomatic relations with the Mitanni kingdom, a major power in northern Syria and Mesopotamia. Letters exchanged between the courts (later preserved in the Amarna Archive) document trade, marriage alliances, and political negotiations. These relationships were crucial to maintaining the balance of power in the Levant and ensuring Egyptian control of vassal states.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)",
+        "Mitanni rulers (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (cuneiform tablets from Akhenaten's reign, c. 1353\u20131336 BCE, but referencing earlier diplomatic traditions)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diplomatic relations between Egypt and Mitanni are well-attested for Amenhotep III's reign, but specific exchanges cannot be dated to individual years. The Amarna Letters provide later evidence of the system.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the dating of Amenhotep III's reign itself has been subject to scholarly debate. Some Egyptologists propose dates of c. 1390\u20131352 BCE, while others suggest c. 1402\u20131363 BCE. This affects the precise placement of events within his reign. Additionally, the extent and chronology of Malkata construction phases remain incompletely understood archaeologically.",
+  "historiographic_note": "The historical record for 1394 BCE is heavily dependent on Egyptian sources, particularly temple inscriptions and administrative records. The Amarna Letters, our richest source for diplomatic correspondence, date to the reign of Akhenaten (Amenhotep III's son) and thus post-date this year. For Mesopotamia and the Hittite world, cuneiform sources exist but are sparse for this specific year. The record is biased toward monumental and administrative activities of the Egyptian state; the lives of common people, economic conditions, and events in regions without writing systems are invisible. Sub-Saharan Africa, northern Europe, and East Asia are essentially absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1394-001",
+      "to": "-1352-XXX",
+      "relation": "part_of",
+      "note": "Malkata construction continues throughout Amenhotep III's reign until c. 1352 BCE"
+    },
+    {
+      "from": "-1394-002",
+      "to": "-1353-XXX",
+      "relation": "led_to",
+      "note": "Diplomatic traditions established under Amenhotep III are documented in detail in the Amarna Letters of his son's reign"
+    }
+  ]
+}

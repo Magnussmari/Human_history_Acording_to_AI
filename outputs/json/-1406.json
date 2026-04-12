@@ -1,0 +1,78 @@
+{
+  "year": -1406,
+  "year_label": "1406 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. The New Kingdom is at its territorial and cultural zenith. Thutmose III or his immediate successor ruled Egypt. The Mitanni kingdom controlled northern Mesopotamia and Syria. The Hittite Empire was consolidating power in Anatolia. Mycenaean Greece was in the Late Helladic II period. This era is characterized by intensive international diplomacy, military campaigns, and the development of complex trade networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia (Shang Dynasty records exist but are sparse and chronologically uncertain)",
+    "Americas (no written records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1406-001",
+      "title": "Egyptian administrative consolidation in the Levant",
+      "region": "Levant, Egypt",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "political",
+      "description": "Following military campaigns, Egyptian administrators established formal tribute systems and garrison networks throughout the Levant. This period saw the appointment of Egyptian officials to oversee vassal territories and the collection of tribute in goods and military service. The system was documented in administrative correspondence and temple records.",
+      "key_figures": [
+        "Thutmose III or Amenhotep II (Pharaoh)",
+        "Egyptian administrators and military governors"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative ostraca and papyri",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Egyptian administrative consolidation is well-attested; specific year-by-year events are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1406-002",
+      "title": "Mitanni-Egyptian diplomatic relations",
+      "region": "Mesopotamia, Levant, Egypt",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "The Mitanni kingdom and Egypt maintained a complex relationship of military rivalry and diplomatic engagement during this period. While direct military confrontation was limited, both powers competed for influence over Levantine city-states. Diplomatic correspondence and gift exchange were mechanisms for managing this rivalry.",
+      "key_figures": [
+        "Mitanni rulers",
+        "Egyptian Pharaoh"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (later compilation, but reflecting diplomatic patterns of this era)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Mitanni-Egyptian relations is well-established; specific events for 1406 BCE are not individually attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "As with 1405 BCE, the chronology of this period is contested. The 'low chronology' would shift these events significantly later. No specific events are individually attested to 1406 BCE in any contemporary source. The entries above represent the general historical context rather than year-specific documentation.",
+  "historiographic_note": "The historical record for 1406 BCE is similar to 1405 BCE: dependent on Egyptian temple inscriptions and cuneiform records, with significant chronological uncertainty. The Amarna Letters, which provide detailed diplomatic correspondence, date to the reign of Amenhotep III and Akhenaten (c. 1390\u20131330 BCE), later than this year. The surviving sources are biased toward elite political and military history. Archaeological evidence provides some constraints but cannot pinpoint individual years.",
+  "graph_edges": [
+    {
+      "from": "-1406-001",
+      "to": "-1405-001",
+      "relation": "contemporary_with",
+      "note": "Administrative consolidation followed military campaigns"
+    }
+  ]
+}

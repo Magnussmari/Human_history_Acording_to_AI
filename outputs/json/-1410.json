@@ -1,0 +1,88 @@
+{
+  "year": -1410,
+  "year_label": "1410 BCE",
+  "era_context": "The Late Bronze Age, approximately mid-reign of Amenhotep III in Egypt (18th Dynasty). The Mycenaean civilization is flourishing in Greece; the Hittite Empire under \u0160uppiluliuma I dominates Anatolia and northern Syria. In China, the Shang Dynasty continues its rule. This is a period of extensive international trade, diplomatic correspondence (Amarna Letters era approaching), and relative stability across major powers, though regional conflicts persist.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Northern Europe (sparse material culture evidence)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1410-001",
+      "title": "Reign of Amenhotep III continues; Egyptian diplomatic expansion",
+      "region": "Egypt (18th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III's reign (c. 1390\u20131352 BCE) represents the height of Egyptian New Kingdom power and prosperity. By 1410 BCE, he has consolidated control over Nubia and maintains diplomatic relations with Mitanni, Babylon, and the Hittites. His building programs, including the Colossi of Memnon and Luxor Temple expansions, reflect Egypt's economic strength. This period precedes the religious revolution of his son Akhenaten.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Colossi of Memnon and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (later compilation, but referencing this era)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on 18th Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-attested; the specific year 1410 BCE falls within his documented reign using conventional Egyptian chronology, though absolute dating of this period remains debated (\u00b120\u201330 years uncertainty in some schemes).",
+      "cross_references": []
+    },
+    {
+      "id": "-1410-002",
+      "title": "Hittite consolidation under \u0160uppiluliuma I",
+      "region": "Hittite Empire (Anatolia, northern Syria)",
+      "coordinates_approx": "35.5\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "\u0160uppiluliuma I (r. c. 1344\u20131322 BCE) is in the early phase of his reign, though dating of his accession varies. By this period, the Hittites are expanding their control over Syria and challenging Egyptian interests. The exact chronology of \u0160uppiluliuma's early campaigns is debated, but his reign marks a major shift in Near Eastern power dynamics.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "\u0160uppiluliuma I's reign dates are contested; some scholars place his accession c. 1344 BCE, others c. 1320 BCE. The year 1410 BCE may predate his reign entirely depending on the chronological scheme used. This represents a major uncertainty in Late Bronze Age chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of \u0160uppiluliuma I's reign is highly disputed. Some chronological systems place his accession significantly later than 1410 BCE (c. 1320 BCE or later), which would mean he was not yet in power at this date. The 'conventional' Egyptian chronology used here (placing Amenhotep III c. 1390\u20131352 BCE) is itself debated; alternative 'low chronologies' shift this period 50\u2013100 years later. No disconfirming evidence identified for Amenhotep III's activities, but absolute dating confidence is moderate at best.",
+  "historiographic_note": "The historical record for 1410 BCE is heavily dependent on Egyptian and Hittite administrative texts, temple inscriptions, and later compilations. The record is biased toward elite, state-sponsored narratives. Absolute chronology for this period relies on radiocarbon dating, Egyptian king lists (which have gaps and inconsistencies), and astronomical calculations\u2014all of which carry significant margins of error (\u00b120\u201350 years). The Amarna Letters, which illuminate this era, postdate it by several decades. Sub-Saharan Africa, the Americas, and much of Southeast Asia are essentially invisible in contemporary written sources.",
+  "graph_edges": [
+    {
+      "from": "-1410-001",
+      "to": "-1350-AMENHOTEP_III_DEATH",
+      "relation": "led_to",
+      "note": "Amenhotep III's reign continues until c. 1352 BCE; his death marks transition to Akhenaten's religious revolution."
+    },
+    {
+      "from": "-1410-002",
+      "to": "-1300-HITTITE_EGYPTIAN_CONFLICT",
+      "relation": "led_to",
+      "note": "Hittite expansion under \u0160uppiluliuma I (if dating is correct) eventually leads to direct conflict with Egypt over Syria."
+    }
+  ]
+}

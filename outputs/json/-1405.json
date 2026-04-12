@@ -1,0 +1,109 @@
+{
+  "year": -1405,
+  "year_label": "1405 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign or immediate successors. The New Kingdom is at its height of territorial expansion. In Mesopotamia, the Kassite dynasty controls Babylonia. The Hittite Empire is consolidating power in Anatolia. Mycenaean Greece is in the Late Helladic II period. This is an era of intensive international diplomacy, military campaigns, and trade networks connecting Egypt, the Levant, Mesopotamia, and the Aegean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "East Asia (Chinese records exist but are sparse for this period; Shang Dynasty chronology remains debated)",
+    "Americas (no written records; archaeological context difficult to assign to specific years)",
+    "Oceania (no written records; settlement patterns inferred from archaeology)"
+  ],
+  "events": [
+    {
+      "id": "-1405-001",
+      "title": "Thutmose III's military campaigns in the Levant (ongoing)",
+      "region": "Levant, Egypt",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III continued his systematic conquest and consolidation of Egyptian control over Levantine territories, including campaigns against Mitanni-aligned city-states. These campaigns secured Egyptian hegemony over the region and established tribute networks that would sustain Egyptian power for generations. The campaigns are documented in temple inscriptions at Karnak and represent the apex of New Kingdom military expansion.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Amenhotep II (likely co-regent or successor, depending on dating)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and ostraca",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-attested (c. 1479\u20131425 BCE by conventional chronology), but specific year-by-year events are difficult to pinpoint. This entry reflects the general pattern of his campaigns during the mid-reign period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1405-002",
+      "title": "Kassite Babylonia under Kurigalzu I or successor",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Kassite dynasty maintained control over Babylonia during this period, managing a complex network of vassal relationships and trade. The Kassites had adopted Babylonian culture and cuneiform administration while maintaining their own military and dynastic identity. This era saw relative stability in Mesopotamia compared to earlier periods of conflict.",
+      "key_figures": [
+        "Kurigalzu I or successor (Kassite ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List and administrative tablets",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative records from Nippur and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kassite chronology remains debated; conventional dating places Kurigalzu I c. 1400\u20131390 BCE, but margins of error are \u00b110\u201315 years. Specific events for 1405 BCE are not individually attested.",
+      "cross_references": []
+    },
+    {
+      "id": "-1405-003",
+      "title": "Hittite consolidation under \u0160uppiluliuma I (early reign)",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "political",
+      "description": "\u0160uppiluliuma I was consolidating Hittite power in Anatolia and beginning to challenge Mitanni hegemony in northern Syria. His reign marked a turning point in Hittite history, transforming the kingdom from a regional power into an imperial force. Early campaigns focused on securing Anatolian territories and establishing the administrative infrastructure for later expansion.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals (cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Bo\u011fazk\u00f6y archives",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "\u0160uppiluliuma I's reign is conventionally dated c. 1344\u20131322 BCE, placing 1405 BCE well before his known reign. This entry reflects uncertainty in Hittite chronology; if using alternative 'low chronology,' dating may shift by 50\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology for the mid-15th century BCE is contested. Some scholars argue for a 'low chronology' that would shift all these events 50\u2013100 years later. The dating of Thutmose III's reign itself varies: some Egyptologists place it c. 1479\u20131425 BCE, others c. 1450\u20131400 BCE. Kassite chronology is notoriously uncertain, with some scholars proposing alternative sequences that would place different rulers in power at 1405 BCE. No specific events are individually attested to this precise year in any tradition; the entries above represent the general historical context rather than year-specific documentation.",
+  "historiographic_note": "The historical record for 1405 BCE is heavily dependent on Egyptian temple inscriptions (which are often propagandistic and lack precise dating) and cuneiform administrative records (which are abundant but rarely dated to specific years). Hittite records are well-preserved but their chronology is debated. The surviving sources are biased toward elite political and military history; economic, social, and cultural developments are poorly documented. The absence of contemporary cross-dating between Egyptian, Mesopotamian, and Hittite records for this specific year makes precise synchronization difficult. Archaeological evidence (pottery, stratigraphy) provides some constraints but cannot pinpoint individual years.",
+  "graph_edges": [
+    {
+      "from": "-1405-001",
+      "to": "-1400-001",
+      "relation": "led_to",
+      "note": "Thutmose III's campaigns established the foundation for sustained Egyptian hegemony in the Levant"
+    },
+    {
+      "from": "-1405-003",
+      "to": "-1350-001",
+      "relation": "led_to",
+      "note": "\u0160uppiluliuma I's early consolidation led to later imperial expansion and conflict with Egypt"
+    }
+  ]
+}
