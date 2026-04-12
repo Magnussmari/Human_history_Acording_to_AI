@@ -1,0 +1,96 @@
+{
+  "year": -2246,
+  "year_label": "2246 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) continues under Pepi II. The Akkadian Empire under Naram-Sin is at its height, dominating Mesopotamia and the Levant. The Indus Valley Civilization (Harappan) is in its mature phase. This period falls within the broader Bronze Age, characterized by the rise of complex urban civilizations and long-distance trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe and the Steppe (no written records; archaeological evidence fragmented)",
+    "Mesoamerica (no written records; archaeological dating imprecise)"
+  ],
+  "events": [
+    {
+      "id": "-2246-001",
+      "title": "Pepi II of Egypt \u2014 continued reign and administrative consolidation",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II continues his reign during the mid-Old Kingdom period. By this time, the centralized authority of the pharaoh is gradually weakening as provincial governors (nomarchs) gain increasing autonomy and wealth. The state continues to maintain control over major religious and administrative centers, but the construction of monumental works is declining compared to earlier dynasties. Trade expeditions continue to be sent to Nubia and the Levant, as documented in the autobiographies of officials such as Harkhuf. The bureaucratic apparatus remains functional, though signs of strain are evident in administrative records.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt",
+        "Harkhuf \u2014 Governor and trade expedition leader"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Harkhuf (rock-cut tomb at Aswan)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and records from pyramid complexes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List and Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well attested, but the precise chronology and length of his rule remain debated. The assignment to 2246 BCE is conventional, with uncertainty of \u00b110\u201315 years.",
+      "cross_references": [
+        "Contemporary with -2246-002 (Naram-Sin of Akkad)"
+      ]
+    },
+    {
+      "id": "-2246-002",
+      "title": "Naram-Sin of Akkad \u2014 military campaigns and imperial consolidation",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues his military campaigns to consolidate Akkadian control over Mesopotamia and surrounding regions. He campaigns against rebellious Sumerian city-states and maintains control over trade routes. His deification as a living god (a revolutionary act in Mesopotamian tradition) is now established, as evidenced by inscriptions and the Victory Stele. The Akkadian Empire reaches its territorial maximum during this period, though resistance from external enemies (Lullubi, Guti) and internal Sumerian opposition is mounting.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts (cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and campaigns are well documented in contemporary sources. Absolute dating relies on Mesopotamian chronology with uncertainties of \u00b150\u2013100 years.",
+      "cross_references": [
+        "Contemporary with -2246-001 (Pepi II of Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronology of this period remains contested, with alternative chronological systems producing date ranges of \u00b150\u2013100 years.",
+  "historiographic_note": "The historical record for 2246 BCE is sparse and heavily dependent on Egyptian and Mesopotamian written sources, which are biased toward elite narratives. The Indus Valley Civilization is known almost entirely through archaeology, with no deciphered written records. Most other regions of the world have no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-2246-001",
+      "to": "-2245-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues with similar administrative and political dynamics as the previous year."
+    },
+    {
+      "from": "-2246-002",
+      "to": "-2245-002",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's military campaigns and imperial consolidation continue with similar intensity as the previous year."
+    }
+  ]
+}

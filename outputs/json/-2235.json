@@ -1,0 +1,106 @@
+{
+  "year": -2235,
+  "year_label": "2235 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2278\u20132184 BCE). In Mesopotamia, the Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is at its territorial zenith, controlling much of the Fertile Crescent. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE), with major urban centers at Harappa and Mohenjo-daro. In China, the semi-legendary Xia Dynasty is traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no writing system yet)",
+    "Pacific Islands (oral tradition only)"
+  ],
+  "events": [
+    {
+      "id": "-2235-001",
+      "title": "Naram-Sin's military campaigns in the Zagros Mountains",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "34.5, 46.0",
+      "category": "military",
+      "description": "Naram-Sin of Akkad continues his aggressive expansion into the Zagros Mountains and surrounding regions, consolidating Akkadian control over trade routes and resource-rich territories. These campaigns are documented in inscriptions and victory stelae. The military campaigns were part of a broader strategy to maintain the Akkadian Empire's dominance over rival city-states and peripheral regions.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Victory Stele and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative records and king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested through inscriptions and stelae. Specific campaigns are dated to his reign (2254\u20132218 BCE), but the exact year of individual campaigns within this period is uncertain. Assigned to -2235 as a mid-reign estimate.",
+      "cross_references": []
+    },
+    {
+      "id": "-2235-002",
+      "title": "Indus Valley Civilization urban administration and trade networks",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains its sophisticated urban centers with standardized weights, measures, and seals used for trade. Archaeological evidence shows extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's administrative systems, reflected in undeciphered seals and standardized artifacts, suggest centralized governance and economic organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and Dholavira",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically (c. 2600\u20131900 BCE). Specific events within individual years are not documented in written form due to the undeciphered script, but material culture and trade evidence confirm the civilization's peak activity during this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-2235-003",
+      "title": "Egyptian Dynasty VI administrative continuity under Pepi II",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II (r. c. 2278\u20132184 BCE, though some sources suggest 2245\u20132180 BCE) continues his exceptionally long reign during the late Old Kingdom. His reign is marked by the gradual decentralization of power to provincial governors (nomarchs), which would eventually contribute to the collapse of centralized authority at the end of Dynasty VI. Administrative records and tomb inscriptions document ongoing trade and resource management.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos King List)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions and administrative records from Saqqara and other sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well-attested, but its exact length and chronology are debated. Traditional Egyptian chronology places him c. 2278\u20132184 BCE, but alternative chronologies exist. The year -2235 falls within his reign under most chronological systems.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Pepi II's reign is contested by modern scholars. Some Egyptologists argue for a shorter reign (c. 2245\u20132180 BCE) rather than the traditionally cited 64-year reign. The exact chronology of the Old Kingdom remains one of the most debated topics in Egyptology, with variations of \u00b150\u2013100 years possible depending on the chronological system used. Additionally, the 'Akkadian drought hypothesis' (proposed to explain the Akkadian Empire's collapse) has been challenged by recent paleoclimatic studies, which suggest climate change was less dramatic than previously thought.",
+  "historiographic_note": "This period is documented primarily through administrative records, inscriptions, and archaeological material culture. Egyptian and Mesopotamian sources are relatively abundant but often reflect elite perspectives. The Indus Valley Civilization's undeciphered script limits understanding of political and social structures. Chinese sources for this period are legendary or semi-legendary, with no contemporary written records. The historical record is heavily weighted toward literate civilizations in the Near East and South Asia; vast regions of the world leave no written trace.",
+  "graph_edges": [
+    {
+      "from": "-2235-001",
+      "to": "-2218-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's aggressive military expansion and centralization contributed to the Akkadian Empire's eventual collapse around 2218 BCE, possibly due to overextension and the Guti invasions."
+    },
+    {
+      "from": "-2235-002",
+      "to": "-1900-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilization's mature phase (c. 2600\u20131900 BCE) represents the peak of urban organization before the civilization's gradual decline."
+    }
+  ]
+}

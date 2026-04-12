@@ -1,0 +1,120 @@
+{
+  "year": -2242,
+  "year_label": "2242 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) continues its final phase. Naram-Sin's Akkadian Empire remains dominant in Mesopotamia, though internal stresses are mounting. The Harappan civilization is in its mature phase. This period falls within a broader era of centralized state power across multiple civilizations, though the stability of these states is beginning to be tested by resource constraints and climate variability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2242-001",
+      "title": "Pepi II's reign; evidence of provincial decentralization",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "During Pepi II's reign, inscriptions from provincial officials (nomarchs) show increasing autonomy and wealth accumulation at the local level. This decentralization of power from the central pharaonic authority is a hallmark of the late Old Kingdom and will accelerate into the First Intermediate Period. The exact chronological placement of this trend within Pepi II's reign is uncertain, but it is evident in the archaeological and epigraphic record.",
+      "key_figures": [
+        "Pepi II \u2014 Pharaoh of Egypt",
+        "Provincial nomarchs (names vary by region)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of provincial officials",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tomb inscriptions and reliefs from provincial sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The trend of decentralization is well-documented, but the year -2242 is assigned by convention within Pepi II's reign (c. 2278\u20132184 BCE).",
+      "cross_references": [
+        "Part of broader First Intermediate Period transition"
+      ]
+    },
+    {
+      "id": "-2242-002",
+      "title": "Naram-Sin's reign; evidence of internal rebellion",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions record rebellions and military campaigns to suppress dissent within the Akkadian Empire. The Sumerian King List and later sources suggest that his reign was marked by internal strife and the resistance of Sumerian city-states to Akkadian rule. These internal conflicts, combined with external pressures (possibly from the Gutians in the Zagros), are beginning to strain the empire's resources.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions recording military campaigns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is dated c. 2254\u20132218 BCE. The year -2242 falls within this range with \u00b120\u201330 year uncertainty. The existence of rebellions is documented, but their exact chronology is uncertain.",
+      "cross_references": [
+        "Precedes Akkadian collapse c. -2200"
+      ]
+    },
+    {
+      "id": "-2242-003",
+      "title": "Harappan civilization; possible early signs of stress",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "environmental",
+      "description": "Archaeological evidence suggests that by this period, the Harappan civilization may be experiencing early environmental stress, though the civilization remains fully functional. Some scholars argue that climate change (reduced monsoon rainfall) and resource depletion may have begun to affect agricultural productivity. However, this interpretation is debated, and the civilization shows no clear signs of decline in the archaeological record until c. -1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence (ice cores, sediment analysis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy from Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing and nature of environmental stress on the Harappan civilization are debated. Some scholars argue for gradual stress beginning in the mature phase; others argue for sudden collapse. The year -2242 is assigned by convention.",
+      "cross_references": [
+        "Precedes Harappan decline c. -1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The interpretation of environmental stress on the Harappan civilization is contested. Some scholars (e.g., Possehl) argue that climate change was not the primary cause of Harappan decline; others (e.g., Staubwasser) argue for significant paleoclimatic evidence. The exact timing of environmental stress is uncertain. Naram-Sin's inscriptions are propagandistic and may exaggerate the extent of his military success and the severity of rebellions.",
+  "historiographic_note": "This year is poorly documented. The historical record relies on inscriptions, administrative records, and archaeological evidence. The sources are biased toward elite activities and do not capture the experiences of ordinary people. The interpretation of environmental stress on the Harappan civilization is based on paleoclimatic evidence, which is inherently uncertain and subject to multiple interpretations.",
+  "graph_edges": [
+    {
+      "from": "-2242-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Decentralization of Egyptian authority contributes to First Intermediate Period collapse"
+    },
+    {
+      "from": "-2242-002",
+      "to": "-2200-002",
+      "relation": "led_to",
+      "note": "Internal rebellions contribute to Akkadian collapse"
+    },
+    {
+      "from": "-2242-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Possible early environmental stress precedes Harappan decline"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "year": -2240,
+  "year_label": "2240 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is approaching its end. Naram-Sin's Akkadian Empire is in its final years before collapse. The Harappan civilization is in its mature phase, though environmental stresses may be accumulating. This is a critical transitional period in which multiple major civilizations are experiencing stress and instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2240-001",
+      "title": "Pepi II's reign; final phase of Old Kingdom Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign is in its final phase (he dies c. 2184 BCE according to traditional chronology). The central authority of the pharaoh has been significantly weakened by the decentralization of power to provincial governors. The Old Kingdom is approaching its end, and Egypt is on the verge of entering the First Intermediate Period, a time of political fragmentation and reduced central authority.",
+      "key_figures": [
+        "Pepi II \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of provincial officials",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally dated c. 2278\u20132184 BCE. The year -2240 is assigned by convention within this range. The exact end date of his reign is uncertain by \u00b110\u201320 years.",
+      "cross_references": [
+        "Precedes First Intermediate Period c. -2184"
+      ]
+    },
+    {
+      "id": "-2240-002",
+      "title": "Naram-Sin's death and end of Akkadian hegemony",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin dies c. 2218 BCE (some sources place this date c. 2215 BCE). His death marks the beginning of the rapid collapse of the Akkadian Empire. His successors lack his military prowess and administrative ability, and the empire quickly fragments under pressure from internal rebellions and external invasions (possibly by the Gutians). Within a generation, Akkadian hegemony in Mesopotamia will be replaced by a period of political fragmentation.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad (dies c. 2218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's death is traditionally dated c. 2218 BCE (Middle Chronology). The year -2240 is assigned by convention; the actual date may be \u00b120\u201330 years different.",
+      "cross_references": [
+        "Precedes Akkadian collapse c. -2200"
+      ]
+    },
+    {
+      "id": "-2240-003",
+      "title": "Harappan civilization; mature phase with environmental stress indicators",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "environmental",
+      "description": "The Harappan civilization remains in its mature phase, with urban centers and trade networks functioning. However, paleoclimatic evidence suggests that environmental stress (reduced monsoon rainfall, possibly linked to broader climate change) may be affecting agricultural productivity. The civilization will begin to decline c. -1900 BCE, but the exact causes and timeline remain debated among scholars.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence (ice cores, sediment analysis, tree rings)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy from Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing and nature of environmental stress on the Harappan civilization are debated. Paleoclimatic evidence suggests stress in this period, but the interpretation and significance are contested. The year -2240 is assigned by convention.",
+      "cross_references": [
+        "Precedes Harappan decline c. -1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The interpretation of Naram-Sin's death and the immediate collapse of the Akkadian Empire is contested. Some scholars argue that the empire experienced a more gradual decline rather than a sudden collapse. The causes of Akkadian collapse are debated: some emphasize internal rebellion and administrative failure; others emphasize external invasion (Gutians); still others emphasize climate change and resource depletion. The Harappan civilization's environmental stress is based on paleoclimatic evidence, which is subject to multiple interpretations and dating uncertainties.",
+  "historiographic_note": "This year marks a critical transition in multiple civilizations. The historical record for this period is sparse and relies on inscriptions, administrative records, and archaeological evidence. The sources are heavily biased toward elite activities and do not capture the experiences of ordinary people. The interpretation of environmental stress on the Harappan civilization is based on paleoclimatic evidence, which is inherently uncertain. The exact chronology of this period is debated, with uncertainties of \u00b120\u201350 years in absolute dating.",
+  "graph_edges": [
+    {
+      "from": "-2240-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "End of Pepi II's reign marks transition to First Intermediate Period"
+    },
+    {
+      "from": "-2240-002",
+      "to": "-2200-002",
+      "relation": "led_to",
+      "note": "Naram-Sin's death precipitates Akkadian collapse"
+    },
+    {
+      "from": "-2240-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Environmental stress contributes to Harappan decline"
+    }
+  ]
+}

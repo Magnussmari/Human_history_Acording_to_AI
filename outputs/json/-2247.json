@@ -1,0 +1,85 @@
+{
+  "year": -2247,
+  "year_label": "2247 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its later phase under Pepi II. The Akkadian Empire under Naram-Sin is at its height, dominating Mesopotamia and the Levant. The Indus Valley Civilization (Harappan) is in its mature phase. This period falls within the Bronze Age, characterized by complex urban civilizations and extensive trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe and the Steppe (no written records)",
+    "Mesoamerica (no written records; archaeological dating imprecise)"
+  ],
+  "events": [
+    {
+      "id": "-2247-001",
+      "title": "Pepi II of Egypt \u2014 reign continuation and provincial fragmentation",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues during the later Old Kingdom period. The process of decentralization accelerates as provincial governors accumulate wealth and power. The state apparatus remains functional, but the construction of monumental works continues to decline. Trade expeditions to Nubia and the Levant continue, as documented in official records. The transition toward the First Intermediate Period is underway, though the formal collapse of central authority has not yet occurred.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Administrative records and autobiographical inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List and Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well attested, but precise chronology remains debated. The assignment to 2247 BCE is conventional, with uncertainty of \u00b110\u201315 years.",
+      "cross_references": [
+        "Contemporary with -2247-002 (Naram-Sin of Akkad)"
+      ]
+    },
+    {
+      "id": "-2247-002",
+      "title": "Naram-Sin of Akkad \u2014 apex of imperial power and military dominance",
+      "region": "Mesopotamia, Levant, and surrounding regions",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's Akkadian Empire reaches its territorial maximum. He maintains control over Mesopotamia, the Levant, and parts of Anatolia through military force and administrative reorganization. His deification as a living god is now fully established in official ideology. The empire's trade networks extend to the Indus Valley and the Persian Gulf. However, resistance from the Lullubi in the Zagros Mountains and the Guti from the north is increasing, foreshadowing the empire's rapid decline within a generation.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and campaigns are well documented in contemporary sources. Absolute dating relies on Mesopotamian chronology with uncertainties of \u00b150\u2013100 years.",
+      "cross_references": [
+        "Contemporary with -2247-001 (Pepi II of Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The broader chronology of this period remains contested.",
+  "historiographic_note": "The historical record for 2247 BCE is sparse and dependent on Egyptian and Mesopotamian written sources. Most other regions have no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-2247-001",
+      "to": "-2246-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues with similar dynamics as the previous year."
+    },
+    {
+      "from": "-2247-002",
+      "to": "-2246-002",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's military campaigns continue with similar intensity."
+    }
+  ]
+}

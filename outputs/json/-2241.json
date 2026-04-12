@@ -1,0 +1,114 @@
+{
+  "year": -2241,
+  "year_label": "2241 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its final decades. Naram-Sin's Akkadian Empire is approaching its collapse, with internal and external pressures mounting. The Harappan civilization continues in its mature phase, though environmental and resource stresses may be accumulating. This is a transitional period in which the stability of major civilizations is beginning to fracture.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2241-001",
+      "title": "Pepi II's reign; continued administrative fragmentation",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues, with evidence of ongoing decentralization of power to provincial governors. The central authority of the pharaoh is weakening, and local elites are accumulating wealth and power. This process will culminate in the collapse of central authority and the First Intermediate Period. The exact chronological placement of individual events within Pepi II's reign remains uncertain.",
+      "key_figures": [
+        "Pepi II \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of provincial officials",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Tomb inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The trend of decentralization is well-documented, but the year -2241 is assigned by convention within Pepi II's reign (c. 2278\u20132184 BCE).",
+      "cross_references": [
+        "Part of broader First Intermediate Period transition"
+      ]
+    },
+    {
+      "id": "-2241-002",
+      "title": "Naram-Sin's reign; Akkadian Empire under increasing pressure",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's reign is in its final years (he dies c. 2218 BCE). The Akkadian Empire is experiencing severe internal and external pressures. Rebellions continue, and external enemies (possibly the Gutians) are threatening the empire's borders. The empire's administrative and military resources are stretched thin. This period marks the beginning of the end for Akkadian hegemony in Mesopotamia.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is dated c. 2254\u20132218 BCE. The year -2241 falls within this range with \u00b120\u201330 year uncertainty.",
+      "cross_references": [
+        "Precedes Akkadian collapse c. -2200"
+      ]
+    },
+    {
+      "id": "-2241-003",
+      "title": "Harappan civilization; continued mature phase with possible stress indicators",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Harappan civilization remains in its mature phase, with urban centers functioning and trade networks active. However, some archaeological evidence suggests that environmental and resource stresses may be accumulating. The civilization will begin to decline c. -1900 BCE, but the exact causes and timeline of this decline remain debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's existence and mature phase are well-established archaeologically. The year -2241 falls within this period (c. 2600\u20131900 BCE).",
+      "cross_references": [
+        "Precedes Harappan decline c. -1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader chronology and interpretation of this period remain contested.",
+  "historiographic_note": "This year is poorly documented. The historical record relies on inscriptions, administrative records, and archaeological evidence. The sources are biased toward elite activities. The interpretation of stress on the Harappan civilization is based on paleoclimatic and archaeological evidence, which is subject to multiple interpretations.",
+  "graph_edges": [
+    {
+      "from": "-2241-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Continued decentralization leads to First Intermediate Period"
+    },
+    {
+      "from": "-2241-002",
+      "to": "-2200-002",
+      "relation": "led_to",
+      "note": "Akkadian Empire's pressures lead to collapse"
+    },
+    {
+      "from": "-2241-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Mature Harappan phase precedes decline"
+    }
+  ]
+}
