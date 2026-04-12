@@ -1,0 +1,80 @@
+{
+  "year": -2933,
+  "year_label": "2933 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin continues to dominate Mesopotamia. Egyptian Old Kingdom (Dynasty VI) is in terminal decline. Indus Valley Civilization remains in its mature urban phase. This is a period of high centralization in the Near East, though underlying instabilities (climate stress, nomadic pressure, administrative overextension) are building.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific and Oceania",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2933-001",
+      "title": "Akkadian military campaigns and administrative consolidation",
+      "region": "Mesopotamia and Levant",
+      "coordinates_approx": "34.5, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to consolidate and expand Akkadian control. Inscriptions record campaigns against the Lullubi (mountain peoples of the Zagros), the Martu (Amorite nomads), and other groups. These campaigns are partly motivated by the need to secure trade routes and resources, and partly by the ideological assertion of divine kingship. The military infrastructure and administrative apparatus of the empire are at their peak.",
+      "key_figures": [
+        "Naram-Sin (Akkadian emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and victory stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative texts from Akkadian archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are well-attested in contemporary inscriptions. Precise dating of individual campaigns within his reign is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-2933-002",
+      "title": "Possible climate stress and lower Nile inundation in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence suggests that the late Old Kingdom period (c. 2350\u20132180 BCE) experienced reduced Nile inundation, possibly linked to broader aridification in the Eastern Mediterranean and Near East. This environmental stress may have contributed to the economic strain visible in administrative records and the weakening of central authority. The relationship between climate and political collapse in this period remains debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Nile flood records and nilometer data (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic analysis (ice cores, lake sediments, tree rings)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative papyri mentioning grain shortages",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Paleoclimatic evidence suggests reduced inundation in this period, but the precise timing and severity are uncertain. The causal link between climate and political collapse is inferred rather than directly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent to which climate change directly caused the collapse of the Old Kingdom is disputed. Some scholars argue that administrative overextension, loss of trade revenue, and internal political fragmentation were primary drivers, with climate as a secondary factor. The Akkadian Empire's apparent stability in this year contrasts with its rapid fragmentation within a generation, suggesting that internal contradictions rather than external pressure were the primary cause of collapse.",
+  "historiographic_note": "For this year, documentation is even sparser than for -2934. We have no specific events recorded for this single year; the narrative above is inferred from broader patterns in contemporary inscriptions and administrative records. The historical record for Mesopotamia and Egypt is dominated by royal and elite perspectives; the experiences of common people, farmers, and laborers are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2933-002",
+      "to": "-2934-002",
+      "relation": "contemporary_with",
+      "note": "Environmental stress in Egypt during this period is contemporary with the political decline of Dynasty VI."
+    }
+  ]
+}
