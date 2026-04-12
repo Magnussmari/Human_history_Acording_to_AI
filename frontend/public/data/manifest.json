@@ -1,9 +1,9 @@
 {
-  "total_years": 2065,
-  "total_events": 11564,
+  "total_years": 2175,
+  "total_events": 11928,
   "year_range": {
     "newest": 2025,
-    "oldest": -39
+    "oldest": -149
   },
   "chunks": [
     {
@@ -135,9 +135,15 @@
     {
       "file": "chunk-0-to--99.json",
       "start": 0,
-      "end": -39,
-      "count": 40
+      "end": -99,
+      "count": 100
+    },
+    {
+      "file": "chunk--100-to--199.json",
+      "start": -100,
+      "end": -149,
+      "count": 50
     }
   ],
-  "generated_at": "2026-04-12T06:00:00.873Z"
+  "generated_at": "2026-04-12T06:30:00.380Z"
 }
