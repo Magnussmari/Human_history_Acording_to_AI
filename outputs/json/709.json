@@ -1,0 +1,128 @@
+{
+  "year": 709,
+  "year_label": "709 CE",
+  "era_context": "The early 8th century CE continues with the Umayyad Caliphate at its territorial apex, the Tang Dynasty navigating succession politics, and the Visigothic Kingdom in its final years of independent rule. This year falls in the immediate prelude to the Islamic conquest of Iberia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe beyond Anglo-Saxon kingdoms",
+    "Oceania and Pacific islands",
+    "Americas (no written records)",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "709-001",
+      "title": "Umayyad military preparations in North Africa; Musa ibn Nusayr consolidates power",
+      "region": "Umayyad Caliphate, North Africa",
+      "coordinates_approx": "32.0,5.0",
+      "category": "military",
+      "description": "Musa ibn Nusayr, the Umayyad governor of North Africa, consolidated his control over Berber and Arab forces in the Maghreb. He conducted campaigns against remaining Byzantine and Berber resistance in the region, strengthening Umayyad military capacity. These preparations, though not explicitly aimed at Iberia in surviving sources, created the military infrastructure that would enable the invasion of 710\u2013711. Musa's consolidation of North African authority was a prerequisite for the trans-Mediterranean campaign.",
+      "key_figures": [
+        "Musa ibn Nusayr (Umayyad governor of North Africa)",
+        "Tariq ibn Ziyad (Berber military commander under Musa)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn Abd al-Hakam, Futuh al-Andalus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Islamic sources attest to Musa's campaigns in North Africa during this period, but the exact chronology is uncertain. The connection to the Iberian invasion is inferred from later narrative accounts.",
+      "cross_references": [
+        "710-001 (invasion of Iberia)"
+      ]
+    },
+    {
+      "id": "709-002",
+      "title": "Tang Dynasty: Emperor Zhongzong consolidates power; court factionalism persists",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Emperor Zhongzong continued to rule amid intense factional struggles at court. The Wei family, connected to the emperor through his consort Empress Wei, gained increasing influence. Eunuchs and imperial relatives competed for power and resources. This period of instability would eventually culminate in the coup of 710 CE (the death of Zhongzong) and the rise of Emperor Xuanzong. The court's preoccupation with internal politics limited Tang military and administrative capacity during this year.",
+      "key_figures": [
+        "Emperor Zhongzong (r. 705\u2013710)",
+        "Empress Wei (consort and power broker)",
+        "Eunuch factions at court"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tang official histories provide detailed records of court politics and succession struggles. Dating is precise.",
+      "cross_references": [
+        "710-002 (succession crisis deepens)",
+        "712-001 (Emperor Xuanzong's rise)"
+      ]
+    },
+    {
+      "id": "709-003",
+      "title": "Visigothic Kingdom: Witiza's death and succession dispute intensify",
+      "region": "Visigothic Kingdom, Iberia",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "political",
+      "description": "King Witiza of the Visigothic Kingdom died around this time (exact date disputed; sources vary between 708\u2013710). His death triggered a succession crisis. His sons contested the throne with Roderic, a rival noble claimant. This internal conflict severely weakened the kingdom's political unity and military capacity. The factional struggle created opportunities for external intervention and set the stage for the Islamic invasion of 710\u2013711.",
+      "key_figures": [
+        "King Witiza (d. ~709, disputed)",
+        "Witiza's sons (Achila II and others, disputed)",
+        "Roderic (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of 754 (Mozarabic Chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Isidore of Beja, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Visigothic sources are sparse. The date of Witiza's death is uncertain (708\u2013710 range). Later Islamic and Christian chronicles report the succession dispute, but with significant variation in detail and chronology.",
+      "cross_references": [
+        "710-003 (civil conflict continues)",
+        "710-001 (invasion enabled by instability)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Witiza's death is disputed across sources; some place it in 708, others in 710. The traditional narrative of a clear succession dispute leading to an 'invitation' of the Islamic invaders is questioned by modern scholars, who note that this narrative may be a later justification constructed by Islamic sources. The degree to which internal Visigothic conflict was the primary cause (vs. planned Umayyad expansion) remains debated.",
+  "historiographic_note": "The historical record for 709 CE is sparse and fragmented. Visigothic sources are minimal; most information comes from later Islamic and Christian chronicles written 1\u20132 centuries after the events. Tang Dynasty records are rich and contemporary, providing detailed court politics. Islamic sources on North Africa are limited for this specific year. Sub-Saharan Africa, Northern Europe, and the Americas are absent from surviving written records.",
+  "graph_edges": [
+    {
+      "from": "709-003",
+      "to": "710-003",
+      "relation": "led_to",
+      "note": "Witiza's death and succession dispute continued to destabilize the Visigothic Kingdom"
+    },
+    {
+      "from": "709-001",
+      "to": "710-001",
+      "relation": "led_to",
+      "note": "Musa ibn Nusayr's consolidation of North African power enabled the invasion of Iberia"
+    },
+    {
+      "from": "709-002",
+      "to": "710-002",
+      "relation": "led_to",
+      "note": "Tang court factionalism intensified, leading to the succession crisis of 710"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "year": 710,
+  "year_label": "710 CE",
+  "era_context": "The early 8th century CE spans the height of the Umayyad Caliphate in the Middle East and North Africa, the Tang Dynasty's consolidation in China, the Visigothic Kingdom's final decades in Iberia, and the early Anglo-Saxon period in Britain. This is a pivotal moment before the Islamic conquest of Iberia and the stabilization of the Abbasid-era Islamic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Anglo-Saxon kingdoms (sparse documentation)",
+    "Oceania and Pacific islands (no written records)"
+  ],
+  "events": [
+    {
+      "id": "710-001",
+      "title": "Islamic conquest of Iberia begins; Berber forces cross from North Africa",
+      "region": "Iberian Peninsula / Umayyad Caliphate",
+      "coordinates_approx": "36.0,-3.5",
+      "category": "military",
+      "description": "Berber and Arab forces under the command of Tariq ibn Ziyad, acting under Umayyad authority, crossed the Strait of Gibraltar and invaded the Visigothic Kingdom. The invasion was likely invited or facilitated by internal Visigothic factions in civil conflict. This campaign marked the beginning of the end of Visigothic rule in Iberia and the establishment of Islamic Al-Andalus, which would persist for nearly 800 years. The conquest was rapid and transformative, reshaping the religious, political, and cultural landscape of the peninsula.",
+      "key_figures": [
+        "Tariq ibn Ziyad (Berber military commander)",
+        "Musa ibn Nusayr (Umayyad governor of North Africa)",
+        "King Witiza or his sons (Visigothic rulers, disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Abd al-Hakam, Futuh al-Andalus (Conquest of al-Andalus)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chronicle of 754 (Mozarabic Chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The invasion is well-attested in Islamic sources, though written down 1\u20132 centuries later. The exact date of 710 is conventional; some sources suggest 711. The role of internal Visigothic factions is debated.",
+      "cross_references": [
+        "711-001 (continuation of conquest)",
+        "722-001 (Christian resistance begins)"
+      ]
+    },
+    {
+      "id": "710-002",
+      "title": "Tang Dynasty: Empress Wu Zetian dies; succession crisis and political realignment",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Empress Wu Zetian, one of China's most powerful female rulers, died in 705 CE (not 710, but her death's political aftermath dominated this decade). However, in 710 CE specifically, her son Emperor Zhongzong faced renewed court factionalism and the rise of the Wei family as imperial in-laws. This period saw intense struggles between eunuchs, imperial relatives, and court officials for control of the throne. The instability would eventually lead to the rise of Emperor Xuanzong and the consolidation of Tang power in the 720s.",
+      "key_figures": [
+        "Emperor Zhongzong (r. 705\u2013710)",
+        "Empress Wei (consort and power broker)",
+        "Crown Prince Li Longji (future Emperor Xuanzong)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tang court records and later official histories provide detailed accounts of succession and factional struggles. Dating is precise.",
+      "cross_references": [
+        "705-001 (Wu Zetian's death)",
+        "712-001 (Emperor Xuanzong's rise)"
+      ]
+    },
+    {
+      "id": "710-003",
+      "title": "Visigothic civil conflict: internal factions weaken central authority",
+      "region": "Visigothic Kingdom, Iberia",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "political",
+      "description": "The Visigothic Kingdom was riven by succession disputes and factional conflict between rival noble families. King Witiza's sons contested the throne with Roderic, a rival claimant. This internal instability directly enabled the Berber invasion from North Africa. The civil conflict weakened the kingdom's military capacity and created opportunities for external intervention. By 710\u2013711, the kingdom was effectively fractured, with no unified response to the invasion.",
+      "key_figures": [
+        "King Witiza (d. ~710, disputed)",
+        "Roderic (rival claimant)",
+        "Witiza's sons (Achila II and others, disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of 754 (Mozarabic Chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Isidore of Beja, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Visigothic sources are sparse and often contradictory. Later Islamic and Christian chronicles report the civil conflict, but details are uncertain. The exact sequence and dating of succession disputes remain debated.",
+      "cross_references": [
+        "710-001 (invasion enabled by internal conflict)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Visigothic civil conflict as the primary cause of the Islamic conquest has been questioned by some modern scholars, who argue that the invasion was a planned Umayyad military expansion rather than a response to internal Iberian politics. The role of the 'invitation' by Witiza's sons is disputed; some sources suggest this was a post-hoc justification. Additionally, the exact date of the invasion (710 vs. 711) remains uncertain in the sources.",
+  "historiographic_note": "The historical record for 710 CE is uneven. Islamic sources (written 1\u20132 centuries later) provide detailed accounts of the Iberian conquest, but with potential bias toward Umayyad legitimacy. Visigothic sources are fragmentary and often preserved only in later Christian chronicles. Tang Dynasty records are rich and contemporary, but focus on court politics rather than broader social history. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from surviving written records for this year.",
+  "graph_edges": [
+    {
+      "from": "710-001",
+      "to": "711-001",
+      "relation": "led_to",
+      "note": "The initial invasion of 710 led to the rapid conquest of major Visigothic cities in 711"
+    },
+    {
+      "from": "710-003",
+      "to": "710-001",
+      "relation": "caused_by",
+      "note": "Internal Visigothic conflict created the political opportunity for the Islamic invasion"
+    },
+    {
+      "from": "710-002",
+      "to": "712-001",
+      "relation": "led_to",
+      "note": "Tang court instability in 710 contributed to the political crisis that elevated Emperor Xuanzong"
+    }
+  ]
+}

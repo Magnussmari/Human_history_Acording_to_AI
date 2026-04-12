@@ -1,0 +1,92 @@
+{
+  "year": 708,
+  "year_label": "708 CE",
+  "era_context": "The early 8th century CE sees the Umayyad Caliphate at its territorial peak, the Tang Dynasty navigating internal court politics, and the Visigothic Kingdom in decline. This year falls in the final years before the Islamic conquest of Iberia and the major political transitions of the 710s.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe beyond Anglo-Saxon kingdoms",
+    "Oceania and Pacific islands",
+    "Americas (no written records)",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "708-001",
+      "title": "Visigothic Kingdom: King Witiza's reign continues; internal factionalism grows",
+      "region": "Visigothic Kingdom, Iberia",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "political",
+      "description": "King Witiza ruled the Visigothic Kingdom during a period of increasing internal instability. Noble families competed for power and resources, weakening central authority. The kingdom's military capacity was stretched thin by internal conflicts and external pressures. Witiza's reign (c. 694\u2013710) was marked by attempts to consolidate power, but factional opposition from rival nobles\u2014particularly those who would support Roderic\u2014grew increasingly vocal. This internal fragmentation would directly enable the Islamic invasion of 710\u2013711.",
+      "key_figures": [
+        "King Witiza (r. c. 694\u2013710)",
+        "Rival noble factions (supporters of Roderic)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of 754 (Mozarabic Chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Isidore of Beja, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Visigothic sources are minimal. Information comes from later Christian and Islamic chronicles. The exact nature and intensity of internal conflict in 708 specifically is uncertain.",
+      "cross_references": [
+        "709-003 (succession dispute intensifies)",
+        "710-003 (civil conflict continues)"
+      ]
+    },
+    {
+      "id": "708-002",
+      "title": "Tang Dynasty: Emperor Zhongzong's reign; court factionalism and eunuch influence",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Emperor Zhongzong (r. 705\u2013710) continued to rule amid intense factional struggles. Eunuchs gained significant power at court, and imperial relatives competed for influence. The Wei family, connected to the emperor through his consort, began to rise in prominence. These internal power struggles limited the emperor's ability to govern effectively and would eventually lead to his death and the succession crisis of 710. The court's preoccupation with factional politics diverted resources and attention from broader governance.",
+      "key_figures": [
+        "Emperor Zhongzong (r. 705\u2013710)",
+        "Empress Wei (consort)",
+        "Eunuch factions"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tang official histories provide detailed records of court politics. Dating and events are well-documented.",
+      "cross_references": [
+        "709-002 (court factionalism persists)",
+        "710-002 (succession crisis)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Witiza's reign and death is disputed. Some sources place his death in 708, others in 710. The traditional narrative of a clear succession dispute is questioned by modern scholars, who note that later sources may have constructed this narrative to justify the Islamic invasion. The degree to which internal Visigothic conflict was the primary cause of the invasion (vs. planned Umayyad expansion) remains debated.",
+  "historiographic_note": "The historical record for 708 CE is sparse and fragmented. Visigothic sources are minimal; most information comes from later Islamic and Christian chronicles written 1\u20132 centuries after the events. Tang Dynasty records are rich and contemporary. Islamic sources on North Africa are limited for this specific year. Sub-Saharan Africa, Northern Europe, and the Americas are absent from surviving written records. The surviving sources are heavily biased toward court politics and elite narratives.",
+  "graph_edges": [
+    {
+      "from": "708-001",
+      "to": "709-003",
+      "relation": "led_to",
+      "note": "Witiza's internal struggles continued and intensified toward his death"
+    },
+    {
+      "from": "708-002",
+      "to": "709-002",
+      "relation": "led_to",
+      "note": "Tang court factionalism continued and deepened"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "year": 707,
+  "year_label": "707 CE",
+  "era_context": "The early 8th century CE continues with the Umayyad Caliphate consolidating its power, the Tang Dynasty under Emperor Zhongzong navigating court factionalism, and the Visigothic Kingdom in its final years of independent rule. This year falls in the prelude to the major political transitions of the 710s.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe beyond Anglo-Saxon kingdoms",
+    "Oceania and Pacific islands",
+    "Americas (no written records)",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "707-001",
+      "title": "Umayyad Caliphate: Caliph al-Walid I continues expansion and consolidation",
+      "region": "Umayyad Caliphate",
+      "coordinates_approx": "33.0,44.0",
+      "category": "political",
+      "description": "Caliph al-Walid I (r. 705\u2013715) continued the Umayyad Caliphate's territorial expansion and administrative consolidation. He oversaw military campaigns in Central Asia, North Africa, and the Iberian Peninsula (through his governors). Al-Walid I was one of the most successful Umayyad caliphs, expanding the caliphate's reach and strengthening its administrative structures. His reign saw the construction of major monuments, including the Al-Aqsa Mosque in Jerusalem. The military infrastructure and resources he developed would enable the invasion of Iberia in 710\u2013711.",
+      "key_figures": [
+        "Caliph al-Walid I (r. 705\u2013715)",
+        "Musa ibn Nusayr (governor of North Africa)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Islamic sources provide detailed accounts of al-Walid I's reign and military campaigns. Dating and major events are well-documented.",
+      "cross_references": [
+        "710-001 (invasion of Iberia under al-Walid I's authority)"
+      ]
+    },
+    {
+      "id": "707-002",
+      "title": "Tang Dynasty: Emperor Zhongzong's reign; administrative challenges and court instability",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3,108.9",
+      "category": "political",
+      "description": "Emperor Zhongzong (r. 705\u2013710) continued to rule amid significant administrative challenges and court instability. Eunuchs gained increasing power, and imperial relatives competed for influence. The emperor's authority was weakened by factional struggles, limiting his ability to implement coherent policies. Despite these challenges, the Tang Dynasty maintained its territorial integrity and administrative structures. The court's preoccupation with internal politics would eventually lead to the succession crisis of 710.",
+      "key_figures": [
+        "Emperor Zhongzong (r. 705\u2013710)",
+        "Empress Wei (consort)",
+        "Eunuch factions"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tang official histories provide detailed records of court politics and administrative challenges. Dating is precise.",
+      "cross_references": [
+        "708-002 (court factionalism continues)",
+        "710-002 (succession crisis)"
+      ]
+    },
+    {
+      "id": "707-003",
+      "title": "Visigothic Kingdom: King Witiza's reign; internal stability and external pressures",
+      "region": "Visigothic Kingdom, Iberia",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "political",
+      "description": "King Witiza (r. c. 694\u2013710) ruled the Visigothic Kingdom during a period of relative internal stability, though underlying factional tensions persisted. The kingdom faced external pressures from the Umayyad Caliphate in North Africa and internal challenges from rival noble families. Witiza's attempts to consolidate power and ensure a smooth succession for his sons would ultimately fail, as rival nobles\u2014particularly supporters of Roderic\u2014challenged his authority. The kingdom's military and economic resources were stretched thin.",
+      "key_figures": [
+        "King Witiza (r. c. 694\u2013710)",
+        "Rival noble factions"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of 754 (Mozarabic Chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Isidore of Beja, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Visigothic sources are minimal. Information comes from later Christian and Islamic chronicles. The exact state of internal stability in 707 specifically is uncertain.",
+      "cross_references": [
+        "708-001 (internal factionalism grows)",
+        "710-003 (civil conflict intensifies)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Visigothic decline as a simple progression toward the Islamic invasion is questioned by modern scholars, who note that the kingdom maintained significant military and administrative capacity until the invasion itself. The degree to which internal conflict was the primary cause (vs. planned Umayyad expansion) remains debated. Some scholars argue that the invasion was a calculated military campaign rather than a response to internal Visigothic politics.",
+  "historiographic_note": "The historical record for 707 CE is sparse and fragmented. Visigothic sources are minimal; most information comes from later Islamic and Christian chronicles written 1\u20132 centuries after the events. Islamic sources on the Umayyad Caliphate are richer but written significantly after the events. Tang Dynasty records are rich and contemporary. Sub-Saharan Africa, Northern Europe, and the Americas are absent from surviving written records. The surviving sources are heavily biased toward elite narratives and court politics.",
+  "graph_edges": [
+    {
+      "from": "707-001",
+      "to": "710-001",
+      "relation": "led_to",
+      "note": "Al-Walid I's consolidation of Umayyad power and military infrastructure enabled the invasion of Iberia"
+    },
+    {
+      "from": "707-002",
+      "to": "710-002",
+      "relation": "led_to",
+      "note": "Tang court instability continued and deepened, leading to the succession crisis of 710"
+    },
+    {
+      "from": "707-003",
+      "to": "710-003",
+      "relation": "led_to",
+      "note": "Witiza's internal struggles continued and intensified toward his death and the succession crisis"
+    }
+  ]
+}
