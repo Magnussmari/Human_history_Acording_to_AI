@@ -1,0 +1,64 @@
+{
+  "year": -1940,
+  "year_label": "1941 BCE",
+  "era_context": "The Late Bronze Age in the Eastern Mediterranean and Near East. The Hittite Empire under Mursili II is consolidating power in Anatolia; Egypt under the 18th Dynasty (Thutmose III era or successor) maintains imperial reach in the Levant; Mycenaean Greece is in the shaft-grave period; the Shang Dynasty dominates the Yellow River valley in China. This is an era of palace-based literacy, chariot warfare, and long-distance trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (pre-literate societies, sparse archaeology)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Pacific Islands (oral tradition only, no contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-1940-001",
+      "title": "Mursili II's campaigns in Syria and the Levant",
+      "region": "Hittite Empire, Syria, Levant",
+      "coordinates_approx": "36.5, 35.5",
+      "category": "military",
+      "description": "Mursili II of the Hittite Empire conducted military campaigns to reassert Hittite control over Syrian territories and suppress rebellions in the Levantine vassal states. These campaigns were part of a broader consolidation of Hittite imperial power following the reign of Suppiluliuma I. The campaigns involved siege warfare and diplomatic pressure on Egyptian-aligned kingdoms, establishing Hittite hegemony over northern Syria.",
+      "key_figures": [
+        "Mursili II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Mursili II (cuneiform tablets from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mursili II's reign is well-attested in cuneiform records. Specific campaigns are dated to his regnal years; absolute chronology places this in the 1340s\u20131310s BCE range, but the exact year is uncertain by \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1940-002",
+      "title": "Shang Dynasty oracle bone divination and ritual",
+      "region": "Shang Dynasty, Yellow River valley, China",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "religious",
+      "description": "Shang Dynasty rulers continued the practice of oracle bone divination, inscribing questions about harvests, warfare, and royal hunts on heated animal bones and interpreting the resulting cracks. These divinations were central to Shang statecraft and cosmology. The practice provides archaeological evidence of Shang administrative and religious concerns, though no specific divination from this year is individually attested.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu (Anyang) archaeological site",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are dated by stratigraphy and style to the Shang period (c. 1600\u20131046 BCE). Individual bones cannot be dated to a specific year; this entry represents the broader practice during this era.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Late Bronze Age remains contested. Some scholars place Mursili II's reign in the 1340s\u20131310s BCE (conventional chronology), while others using revised Egyptian chronologies argue for dates 50\u2013100 years later. This affects the precise year assignment. Additionally, the 'Hittite-Egyptian conflict' narrative, while real, may overstate the degree of direct military confrontation versus diplomatic maneuvering and vassal-state management.",
+  "historiographic_note": "Documentation for 1941 BCE is heavily skewed toward literate palace cultures (Hittites, Egypt, Shang China). The record is dominated by royal inscriptions and administrative texts, which emphasize military and religious activities of elites. Vast regions\u2014sub-Saharan Africa, northern Europe, the Americas\u2014are archaeologically invisible for this specific year. The Hittite annals are retrospective compositions, not year-by-year chronicles, introducing potential compression or reordering of events. Egyptian records for this period are fragmentary.",
+  "graph_edges": [
+    {
+      "from": "-1940-001",
+      "to": "-1939-EVENT_ID",
+      "relation": "led_to",
+      "note": "Mursili II's campaigns established Hittite dominance that persisted through the following decades"
+    }
+  ]
+}

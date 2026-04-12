@@ -1,0 +1,90 @@
+{
+  "year": -1935,
+  "year_label": "1936 BCE",
+  "era_context": "The Middle Bronze Age II in the Levant and Egypt; the Hyksos period in Egypt (c. 1650\u20131550 BCE) is well underway, with foreign dynasties controlling the Delta while native Egyptian dynasties rule Upper Egypt. In Mesopotamia, the Old Babylonian period is in its final phase; Hammurabi's dynasty (18th century BCE) has recently collapsed or is in steep decline. The Indus Valley Civilization is in its late phase or recently abandoned. In China, the Shang dynasty is consolidating power in the Yellow River valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Mesoamerica (no written records; archaeological chronology uncertain)",
+    "Northern Europe (sparse settlement evidence)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1935-001",
+      "title": "Reign of Ahmose I begins (traditional Egyptian chronology)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "According to traditional Egyptian chronology, Ahmose I ascends the throne and initiates the expulsion of the Hyksos from the Nile Delta, marking the beginning of the New Kingdom (18th Dynasty). However, modern Egyptology debates the precise dating of this transition; some scholars place Ahmose's reign c. 1550 BCE, others earlier. The event is foundational to Egyptian historical narrative but its exact chronological placement remains contested.",
+      "key_figures": [
+        "Ahmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Karnak Temple inscriptions (Ahmose I biographical texts)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "No contemporary records directly dated to Ahmose's accession year survive. The date -1935 (1936 BCE) is derived from Manetho's king list and conventional Egyptological chronology, but radiocarbon and astronomical data suggest uncertainty of \u00b150\u2013100 years. Some scholars argue for a date closer to 1550 BCE.",
+      "cross_references": [
+        "Related to -1950-001 (Hyksos consolidation)",
+        "Precedes -1920-001 (Ahmose military campaigns)"
+      ]
+    },
+    {
+      "id": "-1935-002",
+      "title": "Possible reign of Samsu-iluna in Babylon (late Old Babylonian period)",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-iluna, son of Hammurabi, may be ruling Babylon during this period, though his reign dates are debated. The Old Babylonian state is fragmenting under pressure from Hittite and Kassite incursions. Cuneiform records from this era are sparse and dating is uncertain.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List A",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets (scattered)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-iluna's reign is traditionally dated c. 1750\u20131712 BCE, but absolute chronology for this period is uncertain by \u00b150\u2013100 years. Assignment to -1935 is conventional but not firmly anchored.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ahmose I's accession to c. 1550 BCE (or -1549 in astronomical year numbering) is increasingly questioned by radiocarbon analysis and astronomical calculations. Some scholars argue the New Kingdom began as late as 1480 BCE or as early as 1580 BCE. The 'Hyksos expulsion' narrative itself, while attested in later New Kingdom texts, may conflate multiple historical processes over decades or centuries. No contemporary record of Ahmose's accession in -1935 specifically has been identified.",
+  "historiographic_note": "This period falls in a chronological 'dark age' for Mesopotamia and a transitional period for Egypt. Egyptian sources are predominantly later temple inscriptions and king lists compiled centuries after the events. Mesopotamian documentation is fragmentary. The conventional chronology relies heavily on Manetho's 3rd-century BCE compilation, which modern scholarship increasingly views as unreliable for absolute dating. Radiocarbon calibration and dendrochronology suggest the entire Middle Bronze Age chronology may shift by 50\u2013150 years in future revisions.",
+  "graph_edges": [
+    {
+      "from": "-1935-001",
+      "to": "-1920-001",
+      "relation": "led_to",
+      "note": "Ahmose I's accession initiates the military campaigns against the Hyksos"
+    },
+    {
+      "from": "-1935-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Samsu-iluna's reign is part of the decline of the Old Babylonian state"
+    }
+  ]
+}

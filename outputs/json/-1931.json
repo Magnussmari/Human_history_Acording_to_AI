@@ -1,0 +1,93 @@
+{
+  "year": -1931,
+  "year_label": "1932 BCE",
+  "era_context": "Continuation of the Middle Bronze Age II in the Levant; Egypt's Second Intermediate Period is underway with competing dynasties. Mesopotamian city-states are fragmented. The Indus Valley Civilization is in its final urban phase or early post-urban transition. Shang dynasty is consolidating in China. This period is marked by political instability, population movements, and the emergence of new power centers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia (limited archaeological precision)"
+  ],
+  "events": [
+    {
+      "id": "-1931-001",
+      "title": "Egypt's Second Intermediate Period: fragmentation and Asiatic settlement",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "30.5\u00b0N, 31\u00b0E",
+      "category": "political",
+      "description": "During the Second Intermediate Period (c. 1650\u20131550 BCE), Egypt was divided between competing dynasties. The 13th Dynasty ruled from Memphis with declining authority, while the 15th Dynasty (Hyksos) controlled the Delta and Lower Egypt. This period saw significant Asiatic (Levantine) settlement in the Delta, reflected in archaeological evidence and later Egyptian texts. The Hyksos brought new military technology (chariots, composite bows) and administrative practices.",
+      "key_figures": [
+        "Ahmose I (later founder of 18th Dynasty; not yet in power)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus and Eusebius), compiled c. 280 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Hyksos capital Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Second Intermediate Period is well-attested archaeologically and in later Egyptian sources, but precise year-by-year chronology is uncertain. Egyptian chronology for this period has a margin of error of \u00b150\u2013100 years depending on the scholar.",
+      "cross_references": []
+    },
+    {
+      "id": "-1931-002",
+      "title": "Mesopotamian city-state competition and Amorite dynasties",
+      "region": "Mesopotamia (modern Iraq and Syria)",
+      "coordinates_approx": "33\u00b0N, 44\u00b0E",
+      "category": "political",
+      "description": "Following the collapse of the Ur III dynasty (c. 2000 BCE), Mesopotamia was fragmented into competing city-states ruled by Amorite dynasties. By the early 18th century BCE, Babylon was rising under Hammurabi (r. c. 1792\u20131750 BCE, though dates are debated). Other powers included Larsa, Isin, Eshnunna, and Mari. This period was characterized by constant warfare, diplomatic maneuvering, and the gradual consolidation of power by Babylon.",
+      "key_figures": [
+        "Hammurabi of Babylon (r. c. 1792\u20131750 BCE, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "King List A and other Mesopotamian king lists",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform tablets from Mari, Babylon, and other sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Code of Hammurabi (inscribed c. 1754 BCE, traditional dating)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mesopotamian chronology for this period is debated. The 'Middle Chronology' places Hammurabi's reign c. 1792\u20131750 BCE; the 'Low Chronology' places it c. 1696\u20131654 BCE. Cuneiform evidence is contemporary but does not provide year-specific events for 1932 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Egyptian chronology for the Second Intermediate Period is highly contested. Some scholars argue for a 'high chronology' placing the Hyksos invasion earlier (c. 1700 BCE), while others favor a 'low chronology' (c. 1550 BCE). The 'Hyksos invasion' narrative is now understood as a gradual settlement and political takeover rather than a military conquest. Mesopotamian chronology is similarly disputed, with the 'Low Chronology' gaining favor among some scholars, which would place Hammurabi's reign a century later than traditional dating.",
+  "historiographic_note": "For 1932 BCE, we have fragmentary written records from Egypt and Mesopotamia, but no contemporary records that specifically document events of this single year. Our knowledge comes from king lists, later compilations, and archaeological evidence. The historical record is heavily biased toward elite, monumental remains and written sources. The experiences of ordinary people, rural populations, and non-literate societies are largely invisible. Egyptian sources are biased toward the perspective of the central government; Mesopotamian sources are biased toward the major city-states.",
+  "graph_edges": [
+    {
+      "from": "-1931-001",
+      "to": "-1920-001",
+      "relation": "part_of",
+      "note": "Second Intermediate Period continues until c. 1550 BCE"
+    },
+    {
+      "from": "-1931-002",
+      "to": "-1920-002",
+      "relation": "led_to",
+      "note": "Mesopotamian city-state competition leads to Hammurabi's conquest and the Old Babylonian Empire"
+    }
+  ]
+}

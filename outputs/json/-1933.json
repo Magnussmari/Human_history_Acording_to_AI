@@ -1,0 +1,81 @@
+{
+  "year": -1933,
+  "year_label": "1934 BCE",
+  "era_context": "Middle Bronze Age II in the Levant; Egypt's Second Intermediate Period with competing dynasties; Mesopotamian city-states under Amorite rule; Indus Valley Civilization in its final urban or early post-urban phase; Shang dynasty consolidating in China. This period is characterized by political fragmentation, military competition, and the emergence of new regional powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1933-001",
+      "title": "Levantine city-states in the Middle Bronze Age II",
+      "region": "Levant (modern Syria, Lebanon, Israel/Palestine)",
+      "coordinates_approx": "34\u00b0N, 36\u00b0E",
+      "category": "political",
+      "description": "During the Middle Bronze Age II (c. 1750\u20131550 BCE), the Levant was characterized by a network of independent city-states, including Byblos, Sidon, Tyre, Hazor, and others. These cities were engaged in trade with Egypt, Mesopotamia, and Anatolia. Archaeological evidence shows fortified settlements, evidence of long-distance trade, and the development of alphabetic writing. The region was politically fragmented, with no single dominant power.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine sites (Byblos, Hazor, Tell el-Dab'a, etc.)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian texts mentioning Levantine cities (e.g., Execration Texts)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Middle Bronze Age II is well-attested archaeologically, but precise year-by-year chronology is uncertain. The period is dated c. 1750\u20131550 BCE, but \u00b150 years is realistic for specific events.",
+      "cross_references": []
+    },
+    {
+      "id": "-1933-002",
+      "title": "Nubian kingdoms and Egyptian-Nubian relations",
+      "region": "Nubia (modern Sudan)",
+      "coordinates_approx": "18\u00b0N, 33\u00b0E",
+      "category": "political",
+      "description": "During the Second Intermediate Period, Egypt's control over Nubia weakened. Nubian kingdoms, including the Kingdom of Kush, were developing independently. Archaeological evidence from sites like Kerma shows the emergence of a centralized Nubian state with its own distinctive culture. Egyptian-Nubian relations were characterized by trade, conflict, and cultural exchange.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Kerma and other Nubian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian texts mentioning Nubia and Nubian rulers",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Nubian chronology for this period is less well-established than Egyptian chronology. Archaeological evidence is consistent with the emergence of a centralized Nubian state during the Second Intermediate Period, but precise dating is uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Egyptian dominance over Nubia during the Middle Kingdom is complicated by archaeological evidence showing Nubian independence and the development of the Kingdom of Kush. The relationship was more complex than simple Egyptian hegemony. Levantine city-states are often portrayed as passive recipients of Egyptian and Mesopotamian influence, but archaeological evidence shows active agency, local innovation, and independent political development.",
+  "historiographic_note": "For 1934 BCE, written records are fragmentary and concentrated in Egypt and Mesopotamia. Levantine and Nubian records are primarily archaeological. No contemporary records document specific events of this year. Our knowledge comes from king lists, later historical texts, and archaeological evidence. The record is heavily biased toward elite, monumental remains and toward literate civilizations. Non-literate societies, rural populations, and maritime traders are largely invisible. Egyptian sources are biased toward the perspective of the central government; Nubian and Levantine perspectives are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-1933-001",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Levantine city-states continue through the Middle Bronze Age II until c. 1550 BCE"
+    },
+    {
+      "from": "-1933-002",
+      "to": "-1900-002",
+      "relation": "led_to",
+      "note": "Nubian independence during the Second Intermediate Period leads to the Kingdom of Kush's emergence"
+    }
+  ]
+}

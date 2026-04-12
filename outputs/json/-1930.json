@@ -1,0 +1,83 @@
+{
+  "year": -1930,
+  "year_label": "1931 BCE",
+  "era_context": "The Middle Bronze Age II in the Levant and Egypt; the Middle Kingdom has collapsed in Egypt and the Second Intermediate Period is underway. In Mesopotamia, the Ur III dynasty has fallen and city-states compete for dominance. In the Indus Valley Civilization, urban centers are in decline. The Shang dynasty is consolidating power in China. This is an era of political fragmentation, migration, and the emergence of new regional powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Northern Europe (sparse written records; archaeology is primary source)",
+    "Mesoamerica (no written records; archaeological chronology uncertain)",
+    "Pacific Islands (oral tradition only; archaeological dating imprecise)"
+  ],
+  "events": [
+    {
+      "id": "-1930-001",
+      "title": "Continued decline of Indus Valley Civilization urban centers",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5\u00b0N, 68.5\u00b0E",
+      "category": "demographic",
+      "description": "By this period, major Indus Valley cities such as Harappa and Mohenjo-daro had been largely abandoned or significantly depopulated. The causes remain debated\u2014climate change, flooding, invasion, or internal collapse\u2014but the archaeological record shows a shift from urban to rural settlement patterns. This marks the transition from the Mature Indus phase to the Late Harappan period, characterized by smaller settlements and loss of standardized weights, measures, and seals.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other Indus sites (excavations by Marshall, Wheeler, and subsequent teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic studies (Staubwasser et al., 2003; Giosan et al., 2012)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline is archaeologically well-attested, but precise dating within the 19th\u201317th centuries BCE remains uncertain. Radiocarbon dating and stratigraphic analysis place major abandonment in this general period, but \u00b150 years is realistic.",
+      "cross_references": []
+    },
+    {
+      "id": "-1930-002",
+      "title": "Shang dynasty consolidation in China",
+      "region": "Central China (Yellow River valley)",
+      "coordinates_approx": "34.5\u00b0N, 108\u00b0E",
+      "category": "political",
+      "description": "The Shang dynasty, traditionally dated to c. 1600\u20131046 BCE, was in its early consolidation phase during this period. Archaeological evidence from sites like Erligang shows the emergence of a centralized state with bronze technology, oracle bone divination, and hierarchical settlement patterns. The Shang controlled the Yellow River valley and were expanding their influence over neighboring regions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Erligang and Zhengzhou (Shang capitals)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions (later Shang, but reflecting institutional continuity)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is contested. Traditional dates place the dynasty's founding c. 1600 BCE, but some scholars argue for c. 1550 or even 1450 BCE. Archaeological evidence is consistent with a state in formation during the early 2nd millennium BCE, but precise year-by-year events are not recoverable.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Shang chronology (c. 1600 BCE) is disputed by modern scholars. Some argue for a 'short chronology' placing Shang origins c. 1450 BCE or later. The Indus Valley decline is often attributed to Aryan invasion in older scholarship, but this is now rejected by most scholars in favor of climate change, internal factors, or a combination. No contemporary written records exist for this year from any civilization.",
+  "historiographic_note": "Documentation for 1931 BCE is extremely limited. No contemporary written records survive from any region. Our knowledge comes entirely from archaeology\u2014stratigraphy, radiocarbon dating, and material culture\u2014which provides broad patterns but not year-specific events. Egyptian and Mesopotamian records from this period are fragmentary. Chinese oracle bones are later (Shang, c. 1250\u20131050 BCE). The historical record is heavily biased toward regions with early writing systems (Egypt, Mesopotamia) and toward elite, monumental remains. Rural, pastoral, and maritime societies are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-1930-001",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Indus Valley decline continues through the Late Harappan period into the 18th century BCE"
+    },
+    {
+      "from": "-1930-002",
+      "to": "-1900-002",
+      "relation": "led_to",
+      "note": "Shang consolidation leads to the mature Shang state of the 16th\u201315th centuries BCE"
+    }
+  ]
+}

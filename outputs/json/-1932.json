@@ -1,0 +1,84 @@
+{
+  "year": -1932,
+  "year_label": "1933 BCE",
+  "era_context": "Middle Bronze Age II in the Levant and Egypt; Egypt's Second Intermediate Period with competing dynasties; Mesopotamian city-states under Amorite rule; Indus Valley Civilization in decline; Shang dynasty consolidating in China. This is an era of political fragmentation, military competition, and the emergence of new regional powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1932-001",
+      "title": "Mari kingdom under Shamshi-Adad I's successors",
+      "region": "Mari (modern Tell Hariri, Syria)",
+      "coordinates_approx": "34.5\u00b0N, 40.8\u00b0E",
+      "category": "political",
+      "description": "Mari, a major city-state on the Euphrates, was a center of trade and diplomacy in the early 18th century BCE. The kingdom was ruled by various dynasties and was often caught between the ambitions of larger powers like Babylon and Assyria. Archaeological evidence from the palace of Zimri-Lim (r. c. 1775\u20131761 BCE, traditional dating) shows a sophisticated administrative system with extensive correspondence. The city was eventually destroyed by Hammurabi of Babylon.",
+      "key_figures": [
+        "Zimri-Lim (king of Mari, r. c. 1775\u20131761 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Mari archives (cuneiform tablets from the palace)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Tell Hariri",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mari's chronology is tied to Mesopotamian chronology, which is debated. The Mari archives are contemporary but do not provide year-specific events for 1933 BCE. The palace destruction is dated to c. 1761 BCE (traditional chronology), so this year falls within the reign of Zimri-Lim.",
+      "cross_references": []
+    },
+    {
+      "id": "-1932-002",
+      "title": "Hittite Old Kingdom emergence in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39\u00b0N, 34\u00b0E",
+      "category": "political",
+      "description": "The Hittite Old Kingdom (c. 1650\u20131450 BCE) was beginning to emerge as a significant power in Anatolia during this period. Early Hittite kings like Hattusili I (r. c. 1650\u20131620 BCE, traditional dating) were consolidating control over central Anatolia and expanding into Syria. The Hittites brought iron-working technology and a distinctive military organization based on chariot warfare.",
+      "key_figures": [
+        "Hattusili I (early Hittite king)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals (cuneiform tablets)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa (Hittite capital)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology is debated, with traditional dating placing Hattusili I c. 1650\u20131620 BCE. Some scholars argue for a 'low chronology' placing him a century later. The Hittite texts are not contemporary with 1933 BCE but reflect the period's political developments.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Hittite chronology is highly contested. The 'traditional' or 'high chronology' places the Old Kingdom c. 1650\u20131450 BCE, but the 'low chronology' places it c. 1550\u20131350 BCE. This affects the dating of all Hittite events in this period. Mari's destruction by Hammurabi is traditionally dated c. 1761 BCE, but the 'low chronology' would place it c. 1665 BCE, making the dating of Mari's political situation in 1933 BCE uncertain.",
+  "historiographic_note": "For 1933 BCE, written records are fragmentary and concentrated in Mesopotamia and Egypt. Hittite records are later compilations. No contemporary records document specific events of this year. Our knowledge comes from king lists, later historical texts, and archaeological evidence. The record is heavily biased toward elite, monumental remains and toward literate civilizations. Non-literate societies and rural populations are largely invisible. Mesopotamian and Egyptian sources are biased toward the perspective of major powers.",
+  "graph_edges": [
+    {
+      "from": "-1932-001",
+      "to": "-1920-001",
+      "relation": "led_to",
+      "note": "Mari's political situation leads to its eventual destruction by Hammurabi c. 1761 BCE"
+    },
+    {
+      "from": "-1932-002",
+      "to": "-1900-002",
+      "relation": "part_of",
+      "note": "Hittite Old Kingdom consolidation continues through the 17th\u201316th centuries BCE"
+    }
+  ]
+}
