@@ -1,0 +1,121 @@
+{
+  "year": -1046,
+  "year_label": "1047 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final throes or recently concluded. Egypt under Ramesses III is still a major power but declining. The Shang dynasty in China is in its final years before the Zhou conquest. The Levant is in the Iron Age I period, with new settlement patterns emerging. Greece is in the Early Iron Age (Protogeometric period). The Vedic period continues in India. This is a transitional era across multiple civilisations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1046-001",
+      "title": "Ramesses III's reign continues; Egyptian authority in Levant diminished",
+      "region": "Egypt and Eastern Mediterranean",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III remains pharaoh, but Egyptian control over former Levantine territories is effectively lost. The priesthood of Amun at Thebes is accumulating land and wealth at an accelerating rate, foreshadowing the eventual division of Egypt into a northern kingdom (ruled by pharaohs) and a southern theocracy (ruled by the high priests of Amun). Military campaigns are becoming less frequent and less successful. The economy is strained by temple building and military expenditure.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-documented. The year 1047 BCE falls within his reign by conventional chronology (c. 1186\u20131155 BCE).",
+      "cross_references": [
+        "-1045-001"
+      ]
+    },
+    {
+      "id": "-1046-002",
+      "title": "Shang-Zhou transition; Zhou conquest of Shang (traditional dating)",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "political",
+      "description": "The traditional date for the Zhou conquest of the Shang dynasty is 1046 BCE (or 1045 BCE in some sources). King Wu of Zhou leads a coalition against the Shang king Di Xin. The decisive battle is fought at Muye (\u7267\u91ce). The Shang dynasty falls, and the Zhou dynasty is established. This marks the beginning of the Zhou dynasty and the Iron Age in China. However, modern scholarship places this event c. 1050\u20131040 BCE, with significant uncertainty.",
+      "key_figures": [
+        "King Wu of Zhou (Zhou leader)",
+        "Di Xin / Zhou of Shang (Shang king)",
+        "Duke of Zhou (King Wu's brother, regent)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zhou bronze inscriptions (e.g., Shi Chen pan)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Yinxu and Zhou sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The year 1046 BCE is the traditional date from Sima Qian's chronology. Modern radiocarbon dating and archaeological evidence suggest the conquest occurred c. 1050\u20131040 BCE, with a margin of error of \u00b110\u201320 years. The traditional date is schematic and may not reflect the actual year.",
+      "cross_references": []
+    },
+    {
+      "id": "-1046-003",
+      "title": "Protogeometric pottery in Greece; Early Iron Age consolidation",
+      "region": "Greece and Aegean",
+      "coordinates_approx": "39.0, 23.0",
+      "category": "cultural",
+      "description": "Greece is in the Early Iron Age, specifically the Protogeometric period (c. 1050\u2013900 BCE). Protogeometric pottery, with its distinctive geometric designs, is becoming the standard ceramic form. Settlement patterns are shifting from the palatial centres of the Mycenaean age to smaller, dispersed communities. Iron tools are becoming more common. The Greek alphabet has not yet been adopted; Linear B has been abandoned. This is a period of cultural and demographic reorganisation following the Mycenaean collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites (Athens, Corinth, Lefkandi)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Protogeometric pottery typology",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Protogeometric period is well-attested archaeologically and dated to c. 1050\u2013900 BCE. The year 1047 BCE falls within this period. Specific events for this year are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional date of 1046 BCE for the Zhou conquest is now widely questioned. Modern scholars, using radiocarbon dating and archaeological evidence, place the conquest c. 1050\u20131040 BCE, with some arguing for dates as late as 1020 BCE. The Sima Qian chronology is increasingly viewed as a schematic reconstruction rather than a precise historical record. The 'Late Bronze Age collapse' narrative is also contested; some scholars argue for a more gradual transition and question the catastrophic nature of the changes.",
+  "historiographic_note": "The historical record for 1047 BCE is dominated by Egyptian and Chinese sources, both of which have significant limitations. Egyptian records are court-sponsored and may exaggerate achievements. Chinese records are filtered through much later compilations and contain legendary elements. The Greek record is purely archaeological and cannot pinpoint events to a single year. Absolute chronology remains contested, with uncertainties of \u00b110\u201320 years common. The year 1046 BCE is a traditional date, not a confirmed historical fact.",
+  "graph_edges": [
+    {
+      "from": "-1046-002",
+      "to": "-1045-002",
+      "relation": "led_to",
+      "note": "Zhou conquest leads to establishment of Zhou dynasty"
+    },
+    {
+      "from": "-1046-001",
+      "to": "-1045-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's reign continues"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "year": -1064,
+  "year_label": "1065 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u2013900 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palace civilization has fallen, the Hittite Empire has collapsed, Egypt is in the Third Intermediate Period under weak Ramessid successors, and the Levantine coast is being reshaped by population movements and the emergence of Iron Age polities. Assyria is in a period of relative weakness; China's Shang dynasty is in its final century before Zhou conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya civilization records are sparse for this period)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1064-001",
+      "title": "Reign of Ramesses III \u2014 consolidation and military campaigns",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.2, 32.6",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the middle of his reign, conducting military campaigns against the Sea Peoples and Libyans who threaten Egypt's borders and stability. He is also managing internal administration and temple construction. This period represents one of the last major assertions of Egyptian military power before the decline of central authority in the Third Intermediate Period. His reign is well-documented in temple inscriptions and papyri.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Harris Papyrus (P. Harris I)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-attested through contemporary temple reliefs and administrative papyri. However, the exact year in the proleptic Gregorian calendar carries \u00b15 year uncertainty due to Egyptian chronological debates.",
+      "cross_references": []
+    },
+    {
+      "id": "-1064-002",
+      "title": "Late Shang dynasty \u2014 final decades before Zhou conquest",
+      "region": "China (Yellow River valley, Shang state)",
+      "coordinates_approx": "34.3, 114.3",
+      "category": "political",
+      "description": "The Shang dynasty is in its final phase, with the last Shang kings ruling from Yin (near modern Anyang). The dynasty faces increasing pressure from the Zhou people to the west. Oracle bone inscriptions from this period record divinations and administrative matters. The exact chronology of late Shang remains debated among scholars, with some placing the Shang-Zhou transition closer to 1046 BCE and others to 1050 BCE.",
+      "key_figures": [
+        "Shang kings (late Shang period, names uncertain in Western chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu (Anyang)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Late Shang chronology is contested. Traditional Chinese dating places the Shang-Zhou transition at 1046 BCE, but some scholars argue for dates as late as 1020 BCE or as early as 1050 BCE. Archaeological evidence (oracle bones, stratigraphy) is consistent with a date in the mid-11th century BCE, but does not pin down a specific year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ramesses III's reign has been subject to revision. Some Egyptologists place his reign slightly later (c. 1180\u20131150 BCE) than others. The Shang-Zhou transition date is one of the most contentious issues in Chinese chronology; the traditional date of 1046 BCE is increasingly questioned, with some scholars proposing dates up to 30 years earlier or later. No single year can be confidently assigned to events in late Shang without acknowledging this uncertainty.",
+  "historiographic_note": "Documentation for 1065 BCE is heavily skewed toward Egypt and China, where written records exist. The Mediterranean world is poorly documented for this specific year due to the collapse of palace-based record-keeping systems. Egyptian sources are abundant but often propagandistic (temple reliefs emphasize military victories). Chinese oracle bones provide administrative snapshots but are difficult to date precisely. The absence of records from most of the world (Africa, Europe, Americas, Oceania) reflects the distribution of literacy and archaeological preservation, not the absence of historical events.",
+  "graph_edges": [
+    {
+      "from": "-1064-001",
+      "to": "-1050-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military consolidation temporarily stabilized Egypt but did not prevent the gradual decline of central authority that accelerated after his reign."
+    },
+    {
+      "from": "-1064-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Late Shang political instability contributed to the conditions that enabled the Zhou conquest, traditionally dated to 1046 BCE."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "year": -1042,
+  "year_label": "1042 BCE",
+  "era_context": "Same as -1040 and -1041: Iron Age consolidation, Egyptian Twenty-first Dynasty, early Middle Assyrian period, Levantine state formation, Greek Geometric period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "East Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1042-001",
+      "title": "Tanis as the administrative capital of Egypt",
+      "region": "Egypt (Tanis/Lower Egypt)",
+      "coordinates_approx": "31.0, 31.3",
+      "category": "political",
+      "description": "During the Twenty-first Dynasty, Tanis in the Nile Delta served as the official residence and administrative capital of the pharaohs, while Thebes in the south was effectively ruled by the High Priests of Amun. This division of power was a defining feature of the Twenty-first Dynasty. Tanis was the seat of the pharaonic court and the center of royal administration for Lower Egypt. The city was also a major religious center, with temples dedicated to Amun and other deities. By 1042 BCE, this arrangement was well established and would continue throughout the Twenty-first Dynasty.",
+      "key_figures": [
+        "Pharaohs of the Twenty-first Dynasty (specific ruler for this year uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Tanis (French excavations, 20th century)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Tanis temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Twenty-first Dynasty Egypt",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The role of Tanis as the Twenty-first Dynasty capital is well attested archaeologically and epigraphically. The year 1042 BCE falls within the documented period of Tanis's prominence.",
+      "cross_references": [
+        "-1040-002",
+        "-1041-001"
+      ]
+    },
+    {
+      "id": "-1042-002",
+      "title": "Phoenician maritime expansion",
+      "region": "Phoenicia (Levant)",
+      "coordinates_approx": "33.8, 35.2",
+      "category": "economic",
+      "description": "By the early 11th century BCE, Phoenician city-states (particularly Tyre and Sidon) were expanding their maritime trade networks throughout the Mediterranean. Phoenician merchants and sailors were establishing trading posts and colonies, laying the groundwork for the extensive Phoenician commercial network that would dominate Mediterranean trade in the 10th\u20138th centuries BCE. This expansion was facilitated by the relative stability of the Iron Age and the decline of major naval powers (like the Mycenaean Greeks and the Hittites) that had dominated the Late Bronze Age.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements (Tyre, Sidon, Byblos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek and Roman sources (Herodotus, Strabo, Pliny)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Phoenician maritime expansion in the early Iron Age is archaeologically supported. However, the precise dating of individual trading posts and the year-by-year chronology of expansion is not possible from available evidence. The year 1042 BCE is assigned as a representative point within the early phase of Phoenician expansion.",
+      "cross_references": [
+        "-1040-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 1042 BCE remains sparse and fragmentary. Egyptian sources provide the most detailed documentation, but even these do not typically record specific events by individual year. Phoenician sources are almost entirely archaeological; no contemporary written records from Phoenician cities for this year have survived. The dating of Phoenician expansion is based on archaeological stratigraphy and typology, which provide broad chronological frameworks but not year-specific precision.",
+  "graph_edges": [
+    {
+      "from": "-1042-001",
+      "to": "-1040-002",
+      "relation": "contemporary_with",
+      "note": "Tanis and Thebes represent the dual power structure of the Twenty-first Dynasty."
+    },
+    {
+      "from": "-1042-002",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "Phoenician expansion is part of the broader Iron Age economic reorganization of the Mediterranean and Near East."
+    }
+  ]
+}

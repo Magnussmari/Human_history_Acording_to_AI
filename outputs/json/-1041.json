@@ -1,0 +1,82 @@
+{
+  "year": -1041,
+  "year_label": "1041 BCE",
+  "era_context": "Same as -1040: Late Bronze Age collapse aftermath, Iron Age consolidation. Egypt in the Twenty-first Dynasty, Assyria in early Middle Assyrian period, Levantine city-states forming, Greece in Early Iron Age (Geometric period).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "East Asia (early Zhou dynasty, limited written records)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1041-001",
+      "title": "Continued High Priestly authority in Thebes",
+      "region": "Egypt (Thebes/Upper Egypt)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "The High Priests of Amun at Thebes maintained their autonomous control over Upper Egypt during the Twenty-first Dynasty. Administrative papyri from this period document the management of vast temple estates, the collection of taxes, and the maintenance of religious institutions independent of pharaonic oversight from Tanis. This year falls within the well-documented period of priestly oligarchy in Upper Egypt.",
+      "key_figures": [
+        "High Priests of Amun (specific individuals for this year not clearly identified in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Theban administrative papyri (Twenty-first Dynasty)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple records from Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and authority of the High Priests during the Twenty-first Dynasty is well attested. The specific year 1041 BCE is assigned as a representative point within this documented period, though individual events for this precise year are not always recorded.",
+      "cross_references": [
+        "-1040-002"
+      ]
+    },
+    {
+      "id": "-1041-002",
+      "title": "Iron Age settlement consolidation in Greece",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5, 23.5",
+      "category": "cultural",
+      "description": "Greece in 1041 BCE was in the Early Iron Age (Geometric period, c. 1050\u2013750 BCE). Settlement patterns were becoming more stable after the disruptions of the Late Bronze Age collapse. Small village communities were the norm; the polis (city-state) system had not yet fully developed. Pottery styles were becoming more standardized and recognizable as 'Geometric.' Iron was increasingly used for tools and weapons, though bronze remained important. This period saw the gradual development of the cultural and political foundations that would lead to Classical Greece.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological surveys and excavations (Attica, Corinth, Sparta, Crete)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and stratigraphy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Early Iron Age Greek settlement is archaeologically confirmed. However, the precise dating of individual sites and the year-by-year chronology of this period is not possible from archaeological evidence alone. The year 1041 BCE is assigned as a representative point within the Geometric period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The broad patterns described (Egyptian priestly authority, Greek Iron Age settlement) are well supported by archaeological and documentary evidence.",
+  "historiographic_note": "The historical record for 1041 BCE is similar to that of 1040 BCE: fragmentary, dependent on later compilations and archaeology, and heavily biased toward Egypt and the Mediterranean. No contemporary written records from Greece, the Levant, or most of the world exist for this specific year. The Egyptian administrative record is the most detailed source available, but it does not typically record events by individual year in a way that allows precise historical narrative.",
+  "graph_edges": [
+    {
+      "from": "-1041-001",
+      "to": "-1040-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of the same political situation in Egypt."
+    },
+    {
+      "from": "-1041-002",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "Contemporaneous Iron Age developments across the Mediterranean and Near East."
+    }
+  ]
+}

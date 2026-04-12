@@ -1,0 +1,89 @@
+{
+  "year": -1050,
+  "year_label": "1051 BCE",
+  "era_context": "The Late Bronze Age collapse is concluding; the Iron Age is consolidating across the Eastern Mediterranean and Near East. Egypt under Ramesses III is in the final years of his reign (he died c. 1155 BCE, so this year is near the end). The state is fragmenting: the High Priests of Amun in Thebes are accumulating power, and the pharaoh's authority is weakening. Mesopotamia remains fragmented. The Aegean is in the early Iron Age (Protogeometric period). In the Levant, Iron Age I societies are establishing themselves. This is a period of systemic transition and the beginning of a new political order.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: minimal written records",
+    "East Asia: limited sources; early Zhou chronology is debated",
+    "Americas: no written records",
+    "Oceania: no written records"
+  ],
+  "events": [
+    {
+      "id": "-1050-001",
+      "title": "End of Ramesses III's reign and the collapse of New Kingdom centralised authority",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses III's reign is ending (he died c. 1155 BCE, placing this year near the end of his rule). His death marks the effective end of the New Kingdom's centralised pharaonic authority. The High Priests of Amun in Thebes have accumulated sufficient land and wealth to establish a semi-autonomous religious state in Upper Egypt, while the pharaoh's authority is confined to Lower Egypt and the Delta. The Twenty-first Dynasty (c. 1070\u2013945 BCE) will formalise this division, with the High Priests ruling Thebes and the pharaohs ruling from Tanis in the north. This fragmentation represents the culmination of the economic and administrative strain documented in previous decades.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "High Priests of Amun (Thebes)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I; temple records and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus on the end of the New Kingdom and the Twenty-first Dynasty",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's death is dated to c. 1155 BCE by Egyptological consensus, placing this year near the end of his reign. The exact year of his death is uncertain by \u00b15\u201310 years. The fragmentation of Egyptian authority is well-documented in papyri and temple records.",
+      "cross_references": [
+        "-1054-001",
+        "-1053-001",
+        "-1052-001",
+        "-1051-001"
+      ]
+    },
+    {
+      "id": "-1050-002",
+      "title": "Consolidation of Iron Age I societies in the Levant and Aegean",
+      "region": "Levant, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "34.5\u00b0N, 36.0\u00b0E",
+      "category": "cultural",
+      "description": "Iron Age I societies in the Levant and Aegean are consolidating their settlement patterns and material cultures. In the Levant, Phoenician city-states (Tyre, Sidon, Byblos) are emerging as maritime trading powers, establishing trade networks that will dominate the Mediterranean for centuries. In the Aegean, the Protogeometric period is underway, with small-scale settlements replacing the palace-centred societies of the Late Bronze Age. Iron tools are becoming more common, though bronze remains in use. These societies are adapting to the post-collapse world by emphasising maritime trade, agriculture, and small-scale political organisation.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine and Aegean excavations (pottery, settlement patterns, stratigraphy)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Iron Age I chronology and settlement patterns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Iron Age I spans c. 1200\u20131000 BCE. Year-specific events cannot be identified from archaeological evidence; this entry describes the broader cultural process occurring during this period.",
+      "cross_references": [
+        "-1054-002",
+        "-1052-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ramesses III's death is uncertain by \u00b15\u201310 years; some scholars place it slightly earlier or later than c. 1155 BCE. Additionally, the narrative of a sudden 'collapse' of the New Kingdom is increasingly questioned; some scholars emphasise gradual decline and regional variation. The role of external invasions (Sea Peoples) as a primary cause of the Late Bronze Age collapse is disputed; internal factors (economic stress, climate change, social upheaval) are now emphasised by many scholars.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on Egyptian administrative records and temple inscriptions. The historical record is biased toward Egypt and the Eastern Mediterranean; other regions are virtually absent from written sources. Archaeological evidence from the Levant and Aegean provides context but does not permit precise year-by-year reconstruction. The interpretation of this period has shifted significantly in recent decades, with scholars moving away from narratives of catastrophic collapse toward more nuanced understandings of systemic transition and adaptation.",
+  "graph_edges": [
+    {
+      "from": "-1050-001",
+      "to": "-1000-TWENTY_FIRST_DYNASTY",
+      "relation": "led_to",
+      "note": "The fragmentation of Egyptian authority at the end of Ramesses III's reign led directly to the formalisation of the divided state under the Twenty-first Dynasty (c. 1070\u2013945 BCE), with the High Priests of Amun ruling Thebes and the pharaohs ruling from Tanis."
+    },
+    {
+      "from": "-1050-002",
+      "to": "-900-PHOENICIAN_EXPANSION",
+      "relation": "part_of",
+      "note": "The consolidation of Iron Age I societies in the Levant is part of the broader process of Phoenician expansion and Mediterranean trade dominance that characterised the Iron Age."
+    }
+  ]
+}

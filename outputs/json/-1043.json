@@ -1,0 +1,86 @@
+{
+  "year": -1043,
+  "year_label": "1043 BCE",
+  "era_context": "Same as previous years: Iron Age consolidation, Egyptian Twenty-first Dynasty, early Middle Assyrian period, Levantine state formation, Greek Geometric period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "East Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1043-001",
+      "title": "Iron Age Levantine settlement patterns",
+      "region": "Levant",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "cultural",
+      "description": "By 1043 BCE, Iron Age settlement patterns in the Levant were well established. Archaeological evidence shows a network of fortified settlements, agricultural villages, and emerging urban centers. The transition from Bronze Age to Iron Age settlement organization was complete. Settlements were smaller and more dispersed than in the Late Bronze Age, reflecting the disruptions of the Late Bronze Age collapse and the subsequent reorganization of Levantine societies. Iron tools and weapons were becoming standard, though bronze remained in use for prestige items and some tools.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological surveys and excavations (Tel Megiddo, Tel Dan, Samaria, Hazor, Lachish)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pottery typology and stratigraphy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Iron Age Levantine settlement is archaeologically confirmed. The year 1043 BCE is assigned as a representative point within the early Iron Age period, though year-specific precision is not possible from archaeological evidence.",
+      "cross_references": [
+        "-1040-003"
+      ]
+    },
+    {
+      "id": "-1043-002",
+      "title": "Continuation of Egyptian Twenty-first Dynasty administration",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Twenty-first Dynasty continued its administrative practices of dividing authority between Tanis (pharaonic capital) and Thebes (High Priestly authority). This year falls within the well-documented period of this dual administration. The pharaohs of Tanis maintained nominal sovereignty over all Egypt, but effective control of Upper Egypt rested with the High Priests of Amun. This arrangement was stable and would persist throughout the Twenty-first Dynasty (c. 1070\u2013945 BCE).",
+      "key_figures": [
+        "Pharaohs and High Priests of the Twenty-first Dynasty (specific individuals for this year not clearly identified)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The administrative structure of the Twenty-first Dynasty is well attested. The year 1043 BCE falls within the documented period of this structure.",
+      "cross_references": [
+        "-1040-002",
+        "-1041-001",
+        "-1042-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 1043 BCE is consistent with previous years in this batch: sparse, fragmentary, and dependent on later compilations and archaeology. Egyptian sources remain the most detailed, but they do not provide year-specific narrative events for this year. Levantine sources are entirely archaeological.",
+  "graph_edges": [
+    {
+      "from": "-1043-001",
+      "to": "-1040-003",
+      "relation": "contemporary_with",
+      "note": "Continuation of Iron Age Levantine settlement patterns."
+    },
+    {
+      "from": "-1043-002",
+      "to": "-1042-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of the Twenty-first Dynasty administrative structure."
+    }
+  ]
+}

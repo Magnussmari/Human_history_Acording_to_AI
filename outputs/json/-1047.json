@@ -1,0 +1,115 @@
+{
+  "year": -1047,
+  "year_label": "1048 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final phase or recently concluded (c. 1200\u20131050 BCE). Egypt under Ramesses III is still a major power but facing internal challenges. The Shang dynasty in China is in its final years. The Levant is in the Iron Age I period. Greece is in the Early Iron Age (Protogeometric period). This is a period of transition and reorganisation across multiple civilisations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1047-001",
+      "title": "Ramesses III's reign; Egyptian military campaigns and internal challenges",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III is in the middle-to-late phase of his reign. He continues to face military threats from Libyan groups and maintains control over Nubia. However, his reign is marked by increasing internal strife, including labour strikes (notably the Deir el-Medina strikes documented in papyri) and the growing power of the priesthood of Amun. The economy is under strain. By 1048 BCE, the foundations of the Third Intermediate Period's fragmentation are being laid.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Deir el-Medina papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-documented. The year 1048 BCE falls within his reign by conventional chronology.",
+      "cross_references": [
+        "-1045-001",
+        "-1046-001"
+      ]
+    },
+    {
+      "id": "-1047-002",
+      "title": "Late Shang dynasty; Di Xin's rule; Zhou consolidation",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "political",
+      "description": "The Shang dynasty is in its final years under King Di Xin. The Zhou people, under King Wen and his son King Wu, are consolidating power in the Wei River valley. The Shang state is weakened by internal strife, military overextension, and loss of tributary support. The Zhou are preparing for the conquest that will occur within the next few years (traditionally dated to 1046 BCE, but modern scholarship suggests c. 1050\u20131040 BCE).",
+      "key_figures": [
+        "Di Xin / Zhou of Shang (Shang king)",
+        "King Wen of Zhou (Zhou leader, recently deceased or near death)",
+        "King Wu of Zhou (Zhou leader, preparing for conquest)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zhou bronze inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The late Shang context is confirmed by oracle bones and bronze inscriptions. The year 1048 BCE is assigned by convention within the probable window of the Shang-Zhou transition (c. 1050\u20131040 BCE).",
+      "cross_references": [
+        "-1046-002"
+      ]
+    },
+    {
+      "id": "-1047-003",
+      "title": "Iron Age I settlement patterns in the Levant",
+      "region": "Levant (modern Syria, Lebanon, Israel/Palestine)",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "cultural",
+      "description": "Iron Age I settlements continue to expand across the Levant. Philistine settlements are well-established in the coastal plain. Aramean kingdoms are consolidating in inland Syria. Hebrew-speaking groups are settling in the hill country of Canaan. Iron tools are becoming more prevalent, though bronze remains in use. This period sees the emergence of the political entities that will dominate the Iron Age Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Iron Age I sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Iron Age I in the Levant is well-attested archaeologically and dated to c. 1200\u20131000 BCE. The year 1048 BCE falls within this period. Specific events for this year are not documented.",
+      "cross_references": [
+        "-1045-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology placing the Shang-Zhou conquest at 1046 BCE is increasingly questioned. Modern radiocarbon dating and archaeological evidence suggest the conquest occurred c. 1050\u20131040 BCE, with significant uncertainty. The Sima Qian chronology is now viewed as schematic rather than historically precise. Additionally, the 'Late Bronze Age collapse' narrative is contested; some scholars argue for a more gradual transition.",
+  "historiographic_note": "Documentation for 1048 BCE is sparse and heavily skewed toward Egypt and China. The Egyptian record is court-sponsored and may exaggerate achievements. The Chinese record is filtered through much later compilations and contains legendary elements. The Levant is known primarily through archaeology, which cannot pinpoint events to a single year. Absolute chronology remains contested, with uncertainties of \u00b110\u201320 years common.",
+  "graph_edges": [
+    {
+      "from": "-1047-002",
+      "to": "-1046-002",
+      "relation": "led_to",
+      "note": "Late Shang decline leads to Zhou conquest"
+    }
+  ]
+}

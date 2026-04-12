@@ -10,9 +10,9 @@
 ```
 [=--------------------------------------------------] ?%
 
-3065 / 5226 years completed · 0 failed · 2161 remaining
-Currently researching: ~-1039 CE
-Last updated: 2026-04-12T15:01:50Z
+3090 / 5226 years completed · 0 failed · 2136 remaining
+Currently researching: ~-1064 CE
+Last updated: 2026-04-12T15:06:25Z
 ```
 <!-- PROGRESS_END -->
 

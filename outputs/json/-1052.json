@@ -1,0 +1,86 @@
+{
+  "year": -1052,
+  "year_label": "1053 BCE",
+  "era_context": "The Late Bronze Age collapse is concluding; the Iron Age is consolidating in the Eastern Mediterranean and Near East. Egypt under Ramesses III is in the latter half of his reign, managing a state under economic and military pressure. Mesopotamia remains fragmented. The Aegean is in the early Iron Age. In the Levant, Iron Age I societies are establishing themselves. This is a period of transition and adaptation across multiple civilisational zones.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: minimal written records",
+    "East Asia: limited sources; early Zhou chronology remains debated",
+    "Americas: no written records",
+    "Oceania: no written records"
+  ],
+  "events": [
+    {
+      "id": "-1052-001",
+      "title": "Reign of Ramesses III (late period); economic and social strain in Egypt",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "economic",
+      "description": "By this point in Ramesses III's reign, evidence from administrative papyri indicates severe economic strain on the Egyptian state. The cost of maintaining the military, temples, and bureaucracy is consuming state resources. Workers employed in royal construction projects are experiencing delayed wages and food rations, leading to documented labour strikes and unrest. The High Priests of Amun in Thebes are accumulating wealth and land, creating a parallel power structure that will eventually fragment the Egyptian state. This period marks the beginning of the end of the New Kingdom's centralised authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "High Priests of Amun (Thebes)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I; Papyrus Strike (documenting labour unrest)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological analysis of Twentieth Dynasty economic records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The economic strain and labour unrest are well-documented in papyri, but the precise dating of individual strikes and administrative crises within Ramesses III's reign (c. 1186\u20131155 BCE) is uncertain by \u00b15\u201310 years.",
+      "cross_references": [
+        "-1054-001",
+        "-1053-001"
+      ]
+    },
+    {
+      "id": "-1052-002",
+      "title": "Iron Age I settlement patterns in the Aegean and Eastern Mediterranean",
+      "region": "Aegean, Eastern Mediterranean",
+      "coordinates_approx": "38.0\u00b0N, 24.0\u00b0E",
+      "category": "cultural",
+      "description": "In the Aegean, the Protogeometric period (c. 1050\u2013900 BCE) is underway. Small-scale settlements are replacing the palace-centred societies of the Late Bronze Age. Pottery styles are becoming more geometric and less ornate than Mycenaean wares. In the Eastern Mediterranean, maritime trade networks are being re-established, with Phoenician merchants beginning to dominate sea routes. Iron tools are becoming more common, though bronze remains in use. This period represents a fundamental shift from palace economies to village-based and city-state societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Aegean excavations (pottery, settlement patterns, stratigraphy)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Protogeometric chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Protogeometric period spans c. 1050\u2013900 BCE. Year-specific events cannot be identified; this entry describes the broader cultural process.",
+      "cross_references": [
+        "-1054-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a sudden, catastrophic 'Bronze Age collapse' is increasingly questioned. Some scholars argue for a more gradual transition, with regional variation in the pace and nature of change. The role of external invasions (Sea Peoples) as a primary cause is disputed; internal factors (economic stress, climate change, social upheaval) are now emphasised by many scholars. Additionally, the 'Dark Ages' label for the early Iron Age is considered misleading by modern archaeologists, who emphasise continuity and adaptation rather than cultural regression.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on Egyptian administrative records. The historical record is biased toward Egypt and the Eastern Mediterranean; other regions are virtually absent from written sources. Archaeological evidence provides context but does not permit precise year-by-year reconstruction. The interpretation of this period has shifted significantly in recent decades, with scholars moving away from narratives of collapse and catastrophe toward more nuanced understandings of transition and adaptation.",
+  "graph_edges": [
+    {
+      "from": "-1052-001",
+      "to": "-1050-001",
+      "relation": "led_to",
+      "note": "The economic strain and labour unrest documented in this period contributed to the administrative collapse and fragmentation of Egypt at the end of the Twentieth Dynasty (c. 1070 BCE)."
+    },
+    {
+      "from": "-1052-002",
+      "to": "-1000-AEGEAN_CITY_STATES",
+      "relation": "part_of",
+      "note": "Iron Age I settlement patterns in the Aegean are part of the broader process of city-state formation that culminated in the rise of the Greek polis in the 8th\u20137th centuries BCE."
+    }
+  ]
+}
