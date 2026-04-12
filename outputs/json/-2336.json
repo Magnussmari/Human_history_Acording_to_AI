@@ -1,0 +1,79 @@
+{
+  "year": -2336,
+  "year_label": "2336 BCE",
+  "era_context": "Naram-Sin of Akkad is in the early-to-middle years of his reign, consolidating the Akkadian Empire's territorial gains. Egypt's First Intermediate Period continues, with competing dynasties fragmenting central authority. The Indus Valley Civilization remains in its Mature Harappan phase. Bronze Age trade networks are active across the Near East and South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond Shang",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2336-001",
+      "title": "Akkadian administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and surrounding regions. He reorganizes the administrative system, appointing governors and military officials to maintain control over conquered territories. The Akkadian language becomes the lingua franca of administration across the empire. This period sees the peak of Akkadian power and cultural influence, though it also generates resistance from local elites and subject populations.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian administrative centers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's administrative reforms are attested in inscriptions and administrative texts, but the precise chronology of individual reforms is uncertain. This event is assigned to -2336 as a representative year within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-2336-002",
+      "title": "Indus Valley trade networks: Exchange with Mesopotamia and the Persian Gulf",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf region. Indus seals and artifacts are found in Mesopotamian sites, and Mesopotamian goods appear in the Indus Valley. This trade is facilitated by maritime routes and possibly overland caravan routes. The exchange includes raw materials (lapis lazuli, carnelian, timber), finished goods, and possibly luxury items. This trade is a significant source of wealth and prestige for Harappan elites.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus artifacts in Mesopotamian sites (Ur, Lagash, Nippur)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' and trade",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Indus Valley seals found in Mesopotamia",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-established through archaeological evidence. The timing of specific trade transactions is not documented, but the trade is known to have occurred during the Mature Harappan phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Akkadian administrative control over conquered territories is debated. Some scholars argue that Akkadian rule was more of a loose hegemony than direct imperial administration, with local rulers retaining significant autonomy. The Indus Valley trade with Mesopotamia is sometimes overstated; the volume and regularity of trade is uncertain, and the relationship may have been more episodic than continuous.",
+  "historiographic_note": "The Akkadian Empire's administrative system is known primarily through royal inscriptions and administrative texts, which present an idealized view of imperial power. The perspective of conquered peoples is largely absent. For the Indus Valley, trade is inferred from archaeological evidence of artifact distribution, which may not reflect the full complexity of exchange relationships. The absence of written records from the Indus Valley limits our understanding of the political and social dimensions of trade.",
+  "graph_edges": [
+    {
+      "from": "-2336-001",
+      "to": "-2335-001",
+      "relation": "contemporary_with",
+      "note": "Administrative consolidation and military campaigns were concurrent aspects of Naram-Sin's reign"
+    }
+  ]
+}

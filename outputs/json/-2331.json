@@ -1,0 +1,107 @@
+{
+  "year": -2331,
+  "year_label": "2331 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is consolidating its power in Mesopotamia and expanding into the Levant and Anatolia. In Egypt, Pepi II's reign continues during the late Old Kingdom, a period of increasing administrative decentralization. The Indus Valley Civilization remains in its mature phase with flourishing urban centers. In China, the Xia Dynasty (if historical) would be in its early phase, though archaeological evidence for this period is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2331-001",
+      "title": "Naram-Sin consolidates Akkadian control over Mesopotamia",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Naram-Sin strengthens Akkadian administrative control over Mesopotamian city-states, appointing governors and standardizing tribute collection. He deifies himself, becoming the first Mesopotamian ruler to claim divine status during his lifetime. This religious innovation is documented in inscriptions and serves to legitimize his authority. The consolidation involves suppressing rebellions and reorganizing the bureaucracy to centralize power.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian omen texts and religious inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's consolidation of power and self-deification are well-attested in inscriptions. The specific year -2331 is assigned as a representative year within his reign; individual administrative reforms are not dated to specific years in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-2331-002",
+      "title": "Pepi II's administrative fragmentation accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During Pepi II's reign, provincial governors (nomarchs) increasingly accumulate power and wealth, building elaborate tombs and establishing hereditary dynasties. The central pharaonic authority weakens as local administrators gain autonomy. This decentralization is evident in the proliferation of non-royal tombs and the decline in royal building projects. The process foreshadows the collapse of the Old Kingdom at the end of Dynasty VI.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and autobiographies of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of administrative decentralization during Pepi II's reign is well-documented. However, the specific events of -2331 are not individually recorded.",
+      "cross_references": []
+    },
+    {
+      "id": "-2331-003",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. Indus seals and weights are found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This trade is facilitated by maritime routes and overland caravans. The standardized weights and measures of the Indus Valley suggest a sophisticated commercial system, though the political organization managing this trade remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals and artifacts in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian texts mentioning trade with 'Meluhha'",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is confirmed by archaeological evidence. The specific year -2331 is assigned as a representative year within the mature phase of the Indus Valley Civilization.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent of Naram-Sin's actual territorial control is debated; some scholars argue that his inscriptions exaggerate his conquests and that many cities remained semi-autonomous. The identification of 'Meluhha' with the Indus Valley, while widely accepted, is not definitively proven and remains a matter of scholarly debate.",
+  "historiographic_note": "The historical record for -2331 is sparse and relies heavily on inscriptions and administrative documents from Mesopotamia and Egypt. For the Indus Valley, the record is primarily archaeological. The absence of deciphered written records for the Indus Valley limits understanding of specific events. The record is biased toward literate, centralized states; decentralized or non-literate societies are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-2331-001",
+      "to": "-2330-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's consolidation and military campaigns occur simultaneously"
+    },
+    {
+      "from": "-2331-002",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Administrative fragmentation contributes to Old Kingdom collapse"
+    }
+  ]
+}

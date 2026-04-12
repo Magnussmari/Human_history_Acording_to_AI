@@ -1,0 +1,90 @@
+{
+  "year": -2335,
+  "year_label": "2335 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin (r. 2254\u20132218 BCE) is in its expansionist phase, consolidating control over Mesopotamia and surrounding regions. Egypt's Old Kingdom has collapsed; the First Intermediate Period (c. 2181\u20132055 BCE) is underway, marked by fragmentation and the rise of regional dynasties. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE). Bronze Age societies across the Eastern Mediterranean and Near East are interconnected through trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond the Shang dynasty region",
+    "The Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-2335-001",
+      "title": "Naram-Sin's military campaigns in the Zagros and northern Mesopotamia",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Naram-Sin, the grandson of Sargon of Akkad, continues aggressive expansion of the Akkadian Empire. He campaigns into the Zagros Mountains against the Lullubi and other highland peoples, and consolidates control over northern Mesopotamia. These campaigns are documented on the Victory Stele of Naram-Sin, which depicts the king as a deified figure. The expansion reaches its territorial zenith during this period, though it provokes resistance from subject populations and strains resources.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Victory Stele of Naram-Sin (Diorite stele, Louvre Museum)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian sites (Nippur, Lagash, Ur)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested through inscriptions and the Victory Stele. Specific campaigns are dated to his reign (c. 2254\u20132218 BCE), but the exact year of individual campaigns is uncertain. This event is assigned to -2335 as a representative year within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-2335-002",
+      "title": "Indus Valley Civilization: Mature Harappan phase urban development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak during the Mature Harappan phase (c. 2600\u20131900 BCE). Major cities like Harappa, Mohenjo-daro, and Dholavira are thriving centers of trade, craft production, and administration. Urban planning is sophisticated, with standardized weights, measures, and undeciphered script. Long-distance trade connects the Indus Valley to Mesopotamia, the Persian Gulf, and Central Asia. This period represents one of the world's earliest urban civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus Valley seals and script (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Mature Harappan phase is well-established through extensive archaeological evidence. Absolute dating relies on radiocarbon and stratigraphic analysis, with broad consensus placing it c. 2600\u20131900 BCE. Specific events within this year are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's reign and specific campaigns has been subject to revision. Some scholars argue for a lower chronology that would place these events several decades later. The Victory Stele's artistic depiction of Naram-Sin as a god-king was once interpreted as evidence of a religious revolution, but modern scholarship suggests this may reflect Akkadian royal ideology rather than a sudden innovation. The Indus Valley script remains undeciphered, limiting our understanding of Harappan political organization and ideology; interpretations based on material culture alone may be incomplete.",
+  "historiographic_note": "Documentation for Mesopotamia in this period is relatively strong, relying on royal inscriptions, administrative texts, and archaeological evidence. However, the Akkadian Empire's perspective dominates; we know less about the experiences of conquered peoples. For the Indus Valley, archaeology provides rich material evidence, but the absence of deciphered writing creates significant gaps in understanding political, religious, and social structures. Egypt's First Intermediate Period is poorly documented compared to the Old Kingdom, reflecting the fragmentation of central authority. Sub-Saharan Africa, Northern Europe, and the Americas have no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-2335-001",
+      "to": "-2318-001",
+      "relation": "part_of",
+      "note": "Naram-Sin's campaigns are part of the broader Akkadian imperial expansion that continues until the empire's collapse around 2154 BCE"
+    },
+    {
+      "from": "-2335-002",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "The Mature Harappan phase eventually transitions to the Late Harappan phase and eventual decline of the Indus Valley Civilization"
+    }
+  ]
+}
