@@ -1,0 +1,117 @@
+{
+  "year": -2377,
+  "year_label": "2377 BCE",
+  "era_context": "Late Old Kingdom Egypt (Dynasty VI) is in its final decades. The Akkadian Empire under Naram-Sin is at its territorial maximum but facing internal rebellions and resource strain. The Harappan civilization continues at its peak. Climate records suggest increasing aridification in the Near East and North Africa, contributing to environmental stress on agricultural societies. This is a period of apparent stability masking underlying fragility.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2377-001",
+      "title": "Pepi II of Egypt \u2014 nomarchal power consolidation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "By this point in Pepi II's reign, provincial governors have become quasi-independent rulers. Nomarchs in Upper Egypt (Aswan, Abydos, Thebes) are establishing hereditary dynasties and controlling local resources without direct oversight from Memphis. The central government retains nominal authority but lacks the military or economic power to enforce compliance. This decentralization is visible in the archaeological record through the construction of elaborate provincial tombs and the absence of royal building projects.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)",
+        "Sirenput I (Nomarch of Aswan, contemporary official)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions from provincial tombs (Sirenput I, Kheti, and others)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal building activity",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trend of nomarchal consolidation is well-attested in epigraphic and archaeological evidence. However, the exact pace and timeline of this process are debated.",
+      "cross_references": [
+        "Continuation of -2378-001",
+        "Leads to -2370 (collapse of Dynasty VI and First Intermediate Period)"
+      ]
+    },
+    {
+      "id": "-2377-002",
+      "title": "Naram-Sin \u2014 internal rebellions and military strain",
+      "region": "Akkadian Empire (Mesopotamia, Levant, Anatolia)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin faces increasing internal rebellions from conquered territories and from within the Akkadian heartland. Inscriptions record campaigns against rebels in Mesopotamia and the Levant. The empire's military is stretched thin, maintaining control over vast territories while suppressing revolts. Economic strain from continuous military campaigns is beginning to affect the empire's stability. Some scholars argue that climate change (aridification) is contributing to resource scarcity and social unrest.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions recording rebellions and campaigns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns and rebellions are attested in contemporary inscriptions. However, the exact causes and scale of the rebellions are debated.",
+      "cross_references": [
+        "Continuation of -2378-002",
+        "Leads to -2200 (collapse of Akkadian Empire)"
+      ]
+    },
+    {
+      "id": "-2377-003",
+      "title": "Harappan civilization \u2014 continued urban development and standardization",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Harappan civilization continues to develop and standardize urban planning, weights, measures, and possibly administrative systems. Archaeological evidence suggests that cities are being rebuilt and expanded according to consistent planning principles. The civilization's apparent lack of monumental religious or military architecture suggests a different form of social organization than contemporary Egypt or Mesopotamia\u2014possibly more egalitarian or mercantile in nature. Population continues to grow.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites (Mohenjo-daro, Harappa, Dholavira, etc.)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and tablets with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Harappan civilization are confirmed by extensive archaeological evidence. However, the civilization's internal organization and reasons for later decline remain speculative.",
+      "cross_references": [
+        "Continuation of -2378-003",
+        "Contemporary with -2377-001 and -2377-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The interpretation of Pepi II's reign as one of 'decline' is increasingly questioned. Some scholars argue that the decentralization of power was a deliberate administrative strategy, not a loss of control. The idea that Naram-Sin's empire was 'overextended' is also debated; some scholars argue that the empire was sustainable and that its collapse was due to external factors (climate change, invasion) rather than internal strain.",
+  "historiographic_note": "This year is documented through the same limited sources as previous years: Egyptian tomb inscriptions and administrative records, Akkadian royal inscriptions, and Indus Valley archaeology. The chronology remains uncertain. The historical record is heavily biased toward elite perspectives and monumental achievements; the lives of ordinary people, agricultural practices, and social structures are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2377-001",
+      "to": "-2377-002",
+      "relation": "contemporary_with",
+      "note": "Both Egypt and Akkad were experiencing internal fragmentation and stress during this period"
+    },
+    {
+      "from": "-2377-002",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's military strain and internal rebellions contributed to the empire's eventual collapse"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "year": -2376,
+  "year_label": "2376 BCE",
+  "era_context": "The late Old Kingdom in Egypt is approaching its final collapse. The Akkadian Empire under Naram-Sin is at its territorial maximum but facing severe internal and external pressures. The Harappan civilization remains at its peak. Environmental stress (aridification, Nile low-water cycles) is becoming increasingly severe across the Near East and North Africa. This is a critical transition period, though contemporaries may not have recognized it as such.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2376-001",
+      "title": "Pepi II of Egypt \u2014 final years of Old Kingdom authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Pepi II's reign is nearing its end (he will die within a few years). By this point, the central government's authority is severely compromised. Provincial governors control their own military forces and economic resources. The Nile flood cycle is becoming increasingly erratic, reducing agricultural output and tax revenues. Monumental building projects have ceased. The transition to the First Intermediate Period is imminent, though the exact mechanisms of the Old Kingdom's collapse remain debated by scholars.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions from provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal activity and increased provincial autonomy",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Old Kingdom decline is well-attested. However, the exact date of Pepi II's death and the precise mechanisms of the transition to the First Intermediate Period are debated.",
+      "cross_references": [
+        "Continuation of -2377-001",
+        "Leads to -2370 (death of Pepi II and collapse of Dynasty VI)"
+      ]
+    },
+    {
+      "id": "-2376-002",
+      "title": "Naram-Sin \u2014 continued military campaigns and internal instability",
+      "region": "Akkadian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues to face rebellions and military challenges. Inscriptions record campaigns against the Lullubi, Guti, and other groups. The empire's military is heavily committed to maintaining control, leaving fewer resources for economic development or infrastructure. Some scholars argue that climate change (aridification) is exacerbating resource scarcity and contributing to social unrest. The empire is approaching the crisis that will lead to its collapse within a generation.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are attested in contemporary inscriptions. However, the exact causes and scale of the instability are debated.",
+      "cross_references": [
+        "Continuation of -2377-002",
+        "Leads to -2200 (collapse of Akkadian Empire)"
+      ]
+    },
+    {
+      "id": "-2376-003",
+      "title": "Harappan civilization \u2014 peak population and urban development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "demographic",
+      "description": "The Harappan civilization reaches its maximum population and territorial extent. Major cities such as Mohenjo-daro and Harappa are fully developed and densely populated. The civilization's trade networks extend from Central Asia to the Persian Gulf and Mesopotamia. Archaeological evidence suggests a highly organized society with standardized weights, measures, and possibly administrative systems. The civilization's apparent stability masks underlying environmental stresses (river flooding, climate change) that will eventually contribute to its decline.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappan sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Harappan civilization at its peak are confirmed by extensive archaeological evidence. However, the civilization's internal organization and the causes of its later decline remain speculative.",
+      "cross_references": [
+        "Continuation of -2377-003",
+        "Leads to -1900 (decline of Harappan civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'decline' narrative for both Egypt and Akkad is increasingly questioned by modern scholars. Some argue that what appears to be decline was actually a deliberate or adaptive shift in political organization. The role of climate change in the collapse of these civilizations is debated; some scholars argue that climate change was a contributing factor, while others emphasize internal political and economic factors. The Harappan civilization's apparent 'stability' at this time masks significant environmental stresses that are not visible in the archaeological record.",
+  "historiographic_note": "This year is documented through the same limited sources as previous years. The chronology remains uncertain (\u00b150\u2013100 years). The historical record is heavily biased toward elite perspectives and monumental achievements. The vast majority of human societies in this period are invisible to us.",
+  "graph_edges": [
+    {
+      "from": "-2376-001",
+      "to": "-2376-002",
+      "relation": "contemporary_with",
+      "note": "Both Egypt and Akkad were experiencing severe internal stress during this period"
+    },
+    {
+      "from": "-2376-001",
+      "to": "-2370-001",
+      "relation": "led_to",
+      "note": "Pepi II's death and the collapse of Dynasty VI occurred within a few years"
+    },
+    {
+      "from": "-2376-002",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's military strain and internal instability led to the empire's collapse"
+    }
+  ]
+}

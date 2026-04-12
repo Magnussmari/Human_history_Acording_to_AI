@@ -1,0 +1,121 @@
+{
+  "year": -2378,
+  "year_label": "2378 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt (Dynasty VI), the Akkadian Empire at its height under Naram-Sin, and the mature Harappan civilization in the Indus Valley. This is a period of centralized imperial power across multiple regions, though underlying environmental and political stresses are accumulating. The climate is becoming increasingly arid in the Near East and North Africa, contributing to resource competition and eventual state collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "East Asia (beyond legendary Xia Dynasty accounts)"
+  ],
+  "events": [
+    {
+      "id": "-2378-001",
+      "title": "Pepi II of Egypt \u2014 continued reign and administrative fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Pepi II's reign continues, with increasing evidence of decentralization. Provincial governors (nomarchs) are consolidating power and wealth, building elaborate tombs and establishing hereditary dynasties within their regions. The central government's ability to command resources for monumental building and military campaigns is visibly declining. Trade networks that had enriched the Old Kingdom are becoming disrupted, possibly due to climate change affecting the Nile flood cycle.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions from provincial officials' tombs (e.g., Sirenput I at Aswan)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of administrative fragmentation during Pepi II's reign is well-attested in epigraphic evidence. However, precise year-by-year chronology remains uncertain.",
+      "cross_references": [
+        "Continuation of -2379-001",
+        "Leads to -2370 (final collapse of Dynasty VI)"
+      ]
+    },
+    {
+      "id": "-2378-002",
+      "title": "Naram-Sin's campaigns in the Zagros and Levant",
+      "region": "Mesopotamia, Levant, Zagros Mountains",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to consolidate Akkadian control over peripheral regions. Campaigns against the Lullubi (in the Zagros) and maintenance of control over Levantine trade routes are documented in royal inscriptions. These campaigns are resource-intensive and contribute to strain on the Akkadian economy, though they temporarily secure access to valuable resources (timber, metals, stone).",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and victory steles",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are attested in contemporary inscriptions, but precise dating of individual campaigns is uncertain.",
+      "cross_references": [
+        "Continuation of -2379-002",
+        "Contemporary with -2378-001"
+      ]
+    },
+    {
+      "id": "-2378-003",
+      "title": "Harappan trade networks \u2014 peak exchange with Mesopotamia",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf. Harappan seals and weights are found in Mesopotamian contexts, and Mesopotamian texts refer to trade with 'Meluhha' (likely the Indus Valley). This trade brings luxury goods (lapis lazuli, carnelian, ivory) to Mesopotamia and provides the Harappan civilization with access to tin and other metals. The trade is facilitated by maritime routes and possibly overland routes through the Persian Gulf region.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Harappan seals and weights found in Mesopotamian sites (Ur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from port sites in the Persian Gulf (e.g., Dilmun)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamia trade is confirmed by archaeological evidence (seals, weights, pottery) and contemporary Mesopotamian texts. The scale and exact mechanisms of trade are less certain.",
+      "cross_references": [
+        "Continuation of -2379-003",
+        "Contemporary with -2378-001 and -2378-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the interpretation of Pepi II's reign as one of simple 'decline' is increasingly questioned by scholars who argue that the decentralization of power may have been a deliberate administrative strategy rather than a loss of control. The exact nature and scale of Naram-Sin's campaigns remain debated, with some scholars arguing that his military achievements were exaggerated in his own inscriptions.",
+  "historiographic_note": "This year is documented through the same sources as -2379: Egyptian administrative records and tomb inscriptions, Akkadian royal inscriptions, and Indus Valley archaeology. The chronology remains uncertain (\u00b150\u2013100 years depending on the dating system used). The absence of written records from most of the world means that this 'history' is actually a history of three major civilizations and the Mediterranean/Near Eastern world; the vast majority of human societies in this period are invisible to us.",
+  "graph_edges": [
+    {
+      "from": "-2378-001",
+      "to": "-2378-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II and Naram-Sin were ruling contemporaneously; both empires were experiencing internal stress"
+    },
+    {
+      "from": "-2378-003",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "The collapse of Akkad disrupted trade networks, affecting the Harappan civilization's access to Mesopotamian markets"
+    }
+  ]
+}
