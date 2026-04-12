@@ -1,0 +1,84 @@
+{
+  "year": -919,
+  "year_label": "919 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is consolidating power under Ashurnasirpal II (883\u2013859 BCE), though this year falls slightly before his reign. In Greece, the Geometric period is well established; the alphabet has not yet been adopted. Egypt is in the Third Intermediate Period under the weak Twenty-first Dynasty. The Zhou Dynasty in China is in its Western Zhou period, though central authority is fragmenting. This is an era of regional kingdoms, iron-working expansion, and the emergence of alphabetic writing in the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Mesoamerica (no written chronology for this period)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-919-001",
+      "title": "Reign of Adad-nirari II of Assyria begins (traditional dating)",
+      "region": "Mesopotamia (Assyrian Empire)",
+      "coordinates_approx": "36.2, 43.0",
+      "category": "political",
+      "description": "Adad-nirari II ascends the throne of Assyria, initiating a period of military expansion and administrative consolidation. He campaigns in northern Mesopotamia and Syria, extending Assyrian control. His reign marks the beginning of Assyrian resurgence after a period of relative weakness. He establishes military colonies and reorganizes the provincial system, laying groundwork for later Neo-Assyrian imperial expansion.",
+      "key_figures": [
+        "Adad-nirari II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (Babylonian-Assyrian chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Assyrian chronology for this period is based on king lists and inscriptions, but absolute dating relies on astronomical calculations and synchronisms with other chronologies. Dating is secure to within \u00b11\u20132 years.",
+      "cross_references": [
+        "Precedes the reign of Ashurnasirpal II (-883-001)"
+      ]
+    },
+    {
+      "id": "-919-002",
+      "title": "Continued fragmentation of Zhou Dynasty authority in China",
+      "region": "China (Zhou Dynasty)",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "political",
+      "description": "During the Western Zhou period, central authority continues to weaken as regional lords (zhuhou) consolidate power in their domains. The king's direct control is increasingly nominal. This decentralization process, which accelerated after the reign of King Zhao (r. -1052 to -1002 BCE), continues to reshape the political landscape. Regional states begin developing independent military and economic structures.",
+      "key_figures": [
+        "King Mu of Zhou (traditional reign dates -1001 to -947 BCE, though dating is disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (Jinwen) from the period",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chinese chronology before the Shang oracle bones is uncertain. Traditional dates for Western Zhou kings are disputed by modern scholars; some propose dates 150\u2013200 years later than traditional chronology. This event is assigned to -919 by convention but should be understood as approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Adad-nirari II's reign is debated among Assyriologists. Some scholars place his accession slightly later (c. -911 BCE) based on recalibrated astronomical data and synchronisms with Babylonian chronology. Chinese chronology for this period is highly contested: the 'New Chronology' proposed by some scholars would place King Mu's reign 150\u2013200 years later than traditional dating, which would fundamentally alter the dating of events in this year. No disconfirming evidence was identified for the general claim of Zhou fragmentation, which is well-attested in bronze inscriptions.",
+  "historiographic_note": "Documentation for 919 BCE is sparse and heavily dependent on later compilations and king lists. Assyrian sources are relatively reliable but depend on synchronisms with Babylonian chronology, which itself has disputed absolute dating. Chinese sources are almost entirely from much later compilations (Shiji, written c. -100 BCE), and the chronology of the Western Zhou remains one of the most contentious issues in Chinese historiography. Egyptian sources for this period are limited. No contemporary written records from Greece, the Levant (outside Assyria), or other regions are available for this specific year. The surviving record is heavily skewed toward Mesopotamian and Chinese court traditions.",
+  "graph_edges": [
+    {
+      "from": "-919-001",
+      "to": "-883-001",
+      "relation": "led_to",
+      "note": "Adad-nirari II's military and administrative reforms set the stage for the more aggressive expansion under his successor Ashurnasirpal II"
+    },
+    {
+      "from": "-919-002",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "Continued fragmentation of Zhou authority eventually contributed to the collapse of the Western Zhou and the transition to the Eastern Zhou period"
+    }
+  ]
+}

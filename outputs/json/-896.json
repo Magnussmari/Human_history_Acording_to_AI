@@ -1,0 +1,84 @@
+{
+  "year": -896,
+  "year_label": "896 BCE",
+  "era_context": "Early Iron Age II. Ashurnasirpal II's reign continues in Assyria. The Levant experiences ongoing Assyrian military pressure and Phoenician commercial dominance. Greece is in the Geometric period with continued population growth. Egypt's Third Intermediate Period shows increasing regional autonomy. In China, the Western Zhou is in its final century of decline before the collapse in 771 BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-896-001",
+      "title": "Levantine city-states under Assyrian hegemony",
+      "region": "Levant (Syria, Phoenicia, Palestine)",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "political",
+      "description": "By the late 9th century BCE, Levantine city-states including Damascus, Tyre, Sidon, and others were increasingly subject to Assyrian military pressure and tributary obligations. While some maintained nominal independence and continued commercial activities, Assyrian hegemony was becoming the dominant political reality in the region. This period saw the emergence of coalitions of Levantine states attempting to resist Assyrian expansion, though these coalitions were often fragile and short-lived.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Assyrian hegemony over the Levant is well-established, but the specific political status of individual city-states in -896 is uncertain. Ashurnasirpal II's annals provide information about campaigns and tribute, but the dating of specific events within his reign is sometimes approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-896-002",
+      "title": "Egyptian priestly power consolidation at Thebes",
+      "region": "Egypt (Upper Egypt, Thebes)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "During the Third Intermediate Period (c. 1070\u2013664 BCE), the priesthood of Amun at Thebes accumulated increasing political and economic power. By the late 9th century BCE, the High Priests of Amun controlled vast temple estates and wielded significant political authority in Upper Egypt, effectively rivaling the pharaonic authority in Lower Egypt. This period saw the fragmentation of centralized Egyptian authority and the rise of regional power centers.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Theban temples and tombs",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Egyptian and Greek historical accounts",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of priestly power consolidation at Thebes during the Third Intermediate Period is well-established, but the specific political situation in -896 is less precisely dated. Egyptian chronology for this period has some uncertainty, with alternative chronologies differing by several decades.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Levantine city-states as passive victims of Assyrian expansion has been challenged by recent scholarship, which emphasizes their agency in negotiating tributary relationships and maintaining commercial networks despite Assyrian hegemony. Some scholars argue that Assyrian military pressure was less constant and overwhelming than traditional accounts suggest. Regarding Egyptian priestly power, the traditional chronology of the Third Intermediate Period has been debated; some scholars propose alternative chronologies that would place key developments several decades earlier or later than traditionally dated.",
+  "historiographic_note": "Documentation for -896 remains sparse and regionally concentrated. Mesopotamian and Levantine sources are relatively abundant compared to other regions. Egypt has some documentary evidence but is less well-represented in surviving classical sources. Greece is known primarily through archaeology. The vast majority of the world's population lived in regions with no surviving written records for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-896-001",
+      "to": "-853-001",
+      "relation": "led_to",
+      "note": "Assyrian hegemony over the Levant eventually led to the Battle of Qarqar and coalition resistance"
+    },
+    {
+      "from": "-896-002",
+      "to": "-664-001",
+      "relation": "led_to",
+      "note": "Priestly power consolidation at Thebes eventually led to the fragmentation of Egypt and the Nubian conquest"
+    }
+  ]
+}

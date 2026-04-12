@@ -1,0 +1,81 @@
+{
+  "year": -897,
+  "year_label": "897 BCE",
+  "era_context": "Early Iron Age II continues. Ashurnasirpal II's reign in Assyria is in its middle phase (883\u2013859 BCE). The Levant is dominated by Assyrian military pressure and Phoenician commercial activity. Greece remains in the Geometric period with increasing population growth and the emergence of the polis. Egypt's Third Intermediate Period shows continued fragmentation. In China, the Western Zhou is in its final century of decline.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-897-001",
+      "title": "Ashurnasirpal II's palace construction at Kalhu (Nimrud)",
+      "region": "Assyria (northern Iraq)",
+      "coordinates_approx": "36.2, 43.3",
+      "category": "cultural",
+      "description": "Ashurnasirpal II established Kalhu (modern Nimrud) as a new royal capital and constructed an elaborate palace complex with monumental sculpture, reliefs, and administrative facilities. The palace served as both a royal residence and a center of imperial administration. The artistic and architectural achievements at Kalhu, including the famous winged bull (lamassu) sculptures and detailed palace reliefs depicting royal hunts and military campaigns, represent the height of Neo-Assyrian artistic achievement and served as propaganda for Assyrian power.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Nimrud (Kalhu) by Austen Henry Layard and others",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions from Kalhu palace",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The construction of Kalhu and its palace complex is well-documented archaeologically and through contemporary inscriptions. The palace was built early in Ashurnasirpal II's reign; -897 falls within the period of active construction and decoration.",
+      "cross_references": []
+    },
+    {
+      "id": "-897-002",
+      "title": "Population growth and settlement expansion in Greece",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.0, 23.5",
+      "category": "demographic",
+      "description": "The 9th century BCE saw significant population growth in Greece, evidenced by the expansion of settlements and the colonization of previously marginal lands. This demographic expansion is reflected in increased pottery production, larger settlements, and the emergence of proto-urban centers. This growth would eventually lead to the colonization movement of the 8th and 7th centuries BCE and the development of the polis as the dominant political unit.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from settlement surveys and excavations across Greece",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Greek demographic history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Population growth in the 9th century Greece is inferred from archaeological evidence (settlement size, pottery quantities, settlement distribution). The specific year -897 is assigned conventionally within this broader trend.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ashurnasirpal II's reign as a period of uninterrupted military success and imperial expansion has been nuanced by recent scholarship, which notes periods of consolidation and potential setbacks. Some scholars question whether all the campaigns attributed to Ashurnasirpal II in his annals actually occurred or were exaggerated for propaganda purposes. Regarding Greek population growth, some scholars argue that the growth was less dramatic than previously thought and that the 'Dark Age' recovery narrative reflects older historiographic biases.",
+  "historiographic_note": "Documentation for -897 remains heavily skewed toward Mesopotamia and the Levant. The Kalhu palace complex is one of the most thoroughly excavated and documented sites from this period, providing rich archaeological evidence. Greece is known primarily through archaeology. Egypt has some documentary evidence but is less well-represented. The vast majority of the world remains undocumented for this specific year in surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "-897-001",
+      "to": "-883-001",
+      "relation": "part_of",
+      "note": "Palace construction at Kalhu is part of Ashurnasirpal II's reign"
+    },
+    {
+      "from": "-897-002",
+      "to": "-776-001",
+      "relation": "led_to",
+      "note": "Greek population growth led to the colonization movement and the emergence of the polis"
+    }
+  ]
+}

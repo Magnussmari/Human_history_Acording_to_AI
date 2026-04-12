@@ -1,0 +1,86 @@
+{
+  "year": -898,
+  "year_label": "898 BCE",
+  "era_context": "Continuation of the early Iron Age II. Ashurnasirpal II's reign in Assyria is ongoing. In the Levant, Phoenician city-states (Tyre, Sidon, Byblos) are at the height of their maritime and commercial power. Greece remains in the Geometric period. Egypt's Third Intermediate Period continues with increasing fragmentation of central authority. In China, the Western Zhou is experiencing internal strain as regional lords gain power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-898-001",
+      "title": "Phoenician maritime expansion and trade networks",
+      "region": "Phoenicia, Mediterranean",
+      "coordinates_approx": "33.5, 35.0",
+      "category": "economic",
+      "description": "During the 9th century BCE, Phoenician city-states, particularly Tyre under the Omrid dynasty's contemporaries, were expanding their maritime trade networks throughout the Mediterranean. Phoenician merchants and colonists were establishing trading posts and settlements from Cyprus to North Africa and eventually to the western Mediterranean. This period saw the height of Phoenician commercial dominance before Greek competition intensified in the 8th century BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek and Roman accounts of Phoenician colonization (Herodotus, Strabo)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician maritime activity in the 9th century is well-attested archaeologically, but the specific dating of individual settlements and trade routes is often uncertain. The year -898 is assigned conventionally within this broader period of expansion.",
+      "cross_references": []
+    },
+    {
+      "id": "-898-002",
+      "title": "Western Zhou political fragmentation accelerating",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 109.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty (c. 1046\u2013771 BCE) was experiencing increasing decentralization by the late 9th century BCE. Regional lords (zhuhou) were accumulating power at the expense of the Zhou king. This period saw the rise of competing power centers and the gradual erosion of the Zhou's ability to enforce central authority, a process that would culminate in the Spring and Autumn period after the dynasty's collapse in 771 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions from the Western Zhou period",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Zhou settlements and tombs",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Western Zhou decline is well-established, but precise dating of political changes within the 9th century BCE is uncertain. The Shiji is a much later compilation and reflects Han-era perspectives on earlier history.",
+      "cross_references": [
+        "Follows from broader Western Zhou period context"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Phoenician settlements in the western Mediterranean has been revised downward in recent decades; some settlements once attributed to the 9th century are now dated to the 8th century or later. The traditional narrative of Phoenician colonization as a response to Assyrian pressure is questioned by some scholars, who argue that trade expansion was the primary driver. Regarding the Western Zhou, the traditional chronology based on the Shiji has been challenged by some scholars using astronomical calculations and archaeological evidence; alternative chronologies place key events several decades earlier or later than traditionally dated.",
+  "historiographic_note": "For this year, Mesopotamian and Levantine sources remain dominant. Chinese sources are available but are much later compilations (Shiji, c. 109 BCE) and reflect Han-era interpretations of earlier history. Greece is known primarily through archaeology. Egypt has some documentary evidence but is underrepresented in surviving classical sources. The vast majority of the world's population in -898 lived in regions with no surviving written records for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-898-001",
+      "to": "-776-001",
+      "relation": "led_to",
+      "note": "Phoenician maritime expansion eventually led to competition with Greek traders and colonists"
+    },
+    {
+      "from": "-898-002",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "Political fragmentation of the Western Zhou eventually led to the dynasty's collapse in 771 BCE"
+    }
+  ]
+}

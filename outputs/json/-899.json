@@ -1,0 +1,80 @@
+{
+  "year": -899,
+  "year_label": "899 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II is consolidating power and expanding militarily. In Greece, the Geometric period is well established; the alphabet is beginning to spread from Phoenician sources. In China, the Western Zhou dynasty is in its later phase, with regional power fragmentation increasing. Egypt is in the Third Intermediate Period, with the New Kingdom definitively ended and priestly power at Thebes rising.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources; archaeological record exists but underrepresented in classical historiography)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "South Asia (limited contemporary inscriptions; Vedic texts are undated)"
+  ],
+  "events": [
+    {
+      "id": "-899-001",
+      "title": "Ashurnasirpal II's military campaigns in the Levant",
+      "region": "Assyria, Syria, Phoenicia",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Ashurnasirpal II (r. 883\u2013859 BCE) continued his systematic conquest and subjugation of Levantine states. By this period, he had already subdued much of northern Syria and was consolidating Assyrian hegemony through military campaigns, deportation policies, and the establishment of provincial administration. These campaigns established Assyria as the dominant Near Eastern power and set the template for later imperial expansion under Sargon II and Sennacherib.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's annals (cuneiform inscriptions from Kalhu/Nimrud)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nimrud (Kalhu) palace reliefs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's reign is well-documented through contemporary royal inscriptions and archaeological remains from his capital. The specific year -899 falls within his documented reign (883\u2013859 BCE), though individual campaign dates within his reign are sometimes approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-899-002",
+      "title": "Geometric pottery tradition flourishing in Greece",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.0, 23.5",
+      "category": "cultural",
+      "description": "The Geometric period (c. 900\u2013700 BCE) was at its height in the 9th century BCE. Greek pottery workshops produced increasingly sophisticated geometric designs, and the alphabet was beginning to be adopted from Phoenician sources, though widespread literacy was still centuries away. This period marks the emergence of the polis (city-state) as a political unit and the composition of early Greek epic poetry, though the Homeric epics were not yet written down.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pottery deposits and settlement excavations across Greece",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Geometric period chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Geometric period is well-established through pottery typology and stratigraphic archaeology. Dating within the period is less precise, but -899 falls securely within the Geometric era.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ashurnasirpal II's reign is secure (883\u2013859 BCE by most modern chronologies), but the assignment of specific campaigns to specific years within his reign is often uncertain. Some scholars debate whether certain campaigns attributed to Ashurnasirpal II in later compilations actually occurred or were conflated with those of his successors. The Geometric period in Greece is well-attested archaeologically, but the cultural significance attributed to it (as a 'Dark Age' recovery) reflects older historiographic frameworks that modern scholarship increasingly questions\u2014the period was not culturally impoverished but rather experienced significant social reorganization.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Mesopotamia and the Levant, where cuneiform sources and monumental inscriptions survive. Greece is known primarily through archaeology (pottery, settlement patterns). Egypt has some documentary evidence but is less well-represented in surviving records for this specific period. Sub-Saharan Africa, Northern Europe, and most of Asia are essentially absent from the historical record as preserved in classical sources, though archaeological work is ongoing. The surviving sources reflect the interests and preservation practices of literate, monumental civilizations; oral cultures and societies without stone or clay inscription leave minimal direct traces.",
+  "graph_edges": [
+    {
+      "from": "-899-001",
+      "to": "-883-001",
+      "relation": "part_of",
+      "note": "Ashurnasirpal II's campaigns are part of his broader reign (883\u2013859 BCE)"
+    },
+    {
+      "from": "-899-002",
+      "to": "-776-001",
+      "relation": "led_to",
+      "note": "Geometric period cultural developments eventually led to the emergence of the Classical Greek polis and alphabet literacy"
+    }
+  ]
+}
