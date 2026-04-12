@@ -1,0 +1,87 @@
+{
+  "year": -2753,
+  "year_label": "2753 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin continues its territorial consolidation. Egyptian Old Kingdom (6th Dynasty) is in advanced decline. Indus Valley Civilization remains in its mature urban phase. In China, the Xia Dynasty (if historical) continues, though archaeological evidence for this period is contested. The broader era is characterized by the rise and fall of the first territorial empires and the consolidation of urban civilization in multiple regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited archaeological evidence for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2753-001",
+      "title": "Akkadian administrative consolidation and standardization of weights/measures",
+      "region": "Akkadian Empire, Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "economic",
+      "description": "Under Naram-Sin, the Akkadian Empire implements standardized administrative practices, including uniform weights, measures, and accounting systems across conquered territories. This represents an early attempt at imperial bureaucratic integration. Evidence comes from clay tablets recording administrative transactions and standardized weights found in archaeological contexts. This consolidation facilitated trade and tax collection but also increased the burden on subject populations.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative tablets from Nippur, Lagash, and other sites",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Standardized weights from archaeological contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Administrative standardization is attested in tablets from Naram-Sin's reign, but the specific year of implementation is not documented. This event is assigned to -2753 by convention within his reign period.",
+      "cross_references": [
+        "Related to broader Akkadian imperial organization attested across his reign"
+      ]
+    },
+    {
+      "id": "-2753-002",
+      "title": "Egyptian 6th Dynasty: continued fragmentation of central authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Egyptian 6th Dynasty continues its decline. Royal inscriptions become less grandiose, and evidence of provincial autonomy increases. The state's ability to mobilize labor for monumental construction has diminished significantly. This year falls within the reign of Pepi II (if the traditional chronology is correct), whose exceptionally long reign (if historical) saw the gradual erosion of central authority. No specific events are documented for this year.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced state activity",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad trend is well-attested, but year-specific events are not documented. The dating of Pepi II's reign is highly disputed, with estimates ranging from c. 2278\u20132184 BCE to much earlier or later.",
+      "cross_references": [
+        "Continuation of trend documented in -2754-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The assumption that Naram-Sin's administrative reforms were implemented uniformly across the empire is questioned by some scholars, who note that subject territories maintained considerable local autonomy. Additionally, the chronological placement of these reforms within Naram-Sin's reign is uncertain; they may have occurred earlier or later than -2753. The Egyptian chronology remains contested, with alternative systems placing Pepi II's reign significantly earlier or later.",
+  "historiographic_note": "For this year, documentation is even sparser than -2754. No major political or military events are specifically dated to -2753 in surviving sources. The year is reconstructed from broader patterns of administrative activity and political decline. The absence of year-specific documentation reflects the limitations of ancient chronology: most events are dated to reigns or periods rather than individual years. This is a fundamental constraint on ancient history.",
+  "graph_edges": [
+    {
+      "from": "-2753-001",
+      "to": "-2754-001",
+      "relation": "contemporary_with",
+      "note": "Administrative consolidation occurs alongside military expansion"
+    },
+    {
+      "from": "-2753-002",
+      "to": "-2754-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian decentralization continues as a gradual process"
+    }
+  ]
+}

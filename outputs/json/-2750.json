@@ -1,0 +1,131 @@
+{
+  "year": -2750,
+  "year_label": "2750 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at its territorial maximum. Egyptian Old Kingdom (6th Dynasty) is in its final phase. The Indus Valley Civilization is in its mature phase. This year marks a symbolic midpoint in the 3rd millennium BCE, a period of imperial consolidation and cultural flourishing in multiple regions, though underlying stresses are building.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2750-001",
+      "title": "Naram-Sin declares himself a god: religious and political innovation",
+      "region": "Akkadian Empire, Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "religious",
+      "description": "Naram-Sin of Akkad declares himself a god, a radical departure from Mesopotamian tradition. This is attested in inscriptions and seal impressions that include the divine determinative before his name. This move was likely motivated by a desire to consolidate power and legitimize his rule over diverse conquered populations. The deification of a living ruler was unprecedented in Mesopotamia and represents a significant innovation in political theology. However, this move may have also provoked resistance from traditional priesthoods and contributed to the instability that followed his reign.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions with divine determinative",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Naram-Sin Stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The deification of Naram-Sin is well-attested in contemporary inscriptions. However, the precise year of this declaration is not documented. It is assigned to -2750 by convention, with uncertainty of \u00b15\u201310 years.",
+      "cross_references": [
+        "Related to broader Akkadian imperial ideology and consolidation"
+      ]
+    },
+    {
+      "id": "-2750-002",
+      "title": "Indus Valley Civilization: standardized urban planning and craft specialization",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "technological",
+      "description": "The Indus Valley Civilization demonstrates sophisticated urban planning, with standardized brick sizes, planned street layouts, and evidence of specialized craft production. Archaeological evidence from Mohenjo-daro and Harappa shows evidence of bead-making, pottery production, and metalworking organized on a large scale. This represents a high level of economic organization and technological sophistication. The absence of monumental temples or palaces suggests a different form of political organization than contemporary Mesopotamian or Egyptian states.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Standardized weights and measures from Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The characteristics of the mature Indus Valley Civilization are archaeologically confirmed. The dating of the mature phase is approximately -2600 to -1900 BCE, with -2750 falling within this period.",
+      "cross_references": [
+        "Contemporaneous with Akkadian Empire and Egyptian Old Kingdom decline"
+      ]
+    },
+    {
+      "id": "-2750-003",
+      "title": "Egyptian 6th Dynasty: administrative fragmentation and regional autonomy",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "By -2750, the Egyptian 6th Dynasty is in advanced decline. Provincial governors (nomarchs) have accumulated significant wealth and power, and the central state's authority is fragmenting. Administrative records show that local officials are increasingly independent in their decision-making. The royal court's ability to mobilize resources for monumental projects has diminished dramatically. This period represents the final phase of the Old Kingdom before the collapse into the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative inscriptions and tomb biographies",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced state activity",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend of Old Kingdom decline is well-attested. However, the precise dating and year-by-year progression are uncertain. The chronology of the 6th Dynasty is debated, with estimates varying by \u00b110\u201320 years.",
+      "cross_references": [
+        "Part of broader Old Kingdom collapse process"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's deification is uncertain; some scholars argue it occurred earlier in his reign, while others question whether it was a formal declaration or a gradual process. The political impact of this move is also debated: some scholars argue it strengthened his legitimacy, while others suggest it provoked resistance. The Egyptian chronology for the 6th Dynasty remains highly contested, with alternative systems placing this period significantly earlier or later. The Indus Valley Civilization's political organization is poorly understood due to the undeciphered script; assumptions about its nature are speculative.",
+  "historiographic_note": "For -2750, documentation is sparse and largely reconstructed from broader patterns. The deification of Naram-Sin is the only specific event that can be dated to this year with reasonable confidence, though even this dating is uncertain. The Egyptian and Indus Valley entries represent broader contextual trends rather than specific year-dated events. This year exemplifies the fundamental limitation of ancient history: most individual years leave no documentary trace. The historical record is not a continuous narrative but a series of islands of documentation separated by vast seas of silence.",
+  "graph_edges": [
+    {
+      "from": "-2750-001",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's deification and imperial overextension may have contributed to the Akkadian collapse approximately 450 years later"
+    },
+    {
+      "from": "-2750-001",
+      "to": "-2750-003",
+      "relation": "contemporary_with",
+      "note": "While Naram-Sin consolidates power through deification, Egyptian central authority continues to fragment"
+    },
+    {
+      "from": "-2750-002",
+      "to": "-2750-001",
+      "relation": "contemporary_with",
+      "note": "The Indus Valley Civilization's sophisticated organization contrasts with the political instability of contemporary Mesopotamia and Egypt"
+    },
+    {
+      "from": "-2750-003",
+      "to": "-2180-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "The fragmentation of Egyptian authority in this period leads directly to the First Intermediate Period"
+    }
+  ]
+}

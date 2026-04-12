@@ -1,0 +1,97 @@
+{
+  "year": -2770,
+  "year_label": "2770 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV (c. 2589\u20132504 BCE). The age of the great pyramid builders: Khufu, Khafre, and Menkaure ruled during this period. This was the zenith of centralized pharaonic power, monumental architecture, and state-organized labour. Contemporaneously, the Akkad Empire was consolidating power in Mesopotamia under Sargon of Akkad's successors. In the Indus Valley, early urban centres were developing. China's Xia Dynasty (traditional dating) was in its legendary phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Oceania and Pacific islands (no written records)",
+    "Americas (no direct evidence for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2770-001",
+      "title": "Reign of Khafre, Pharaoh of Egypt (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9787, 31.1345",
+      "category": "political",
+      "description": "Khafre ruled Egypt during the mid-Old Kingdom, succeeding his father Khufu. He commissioned the construction of the second pyramid at Giza and the Great Sphinx, consolidating the architectural legacy of Dynasty IV. His reign represents the continued dominance of centralized pharaonic authority and the mobilization of vast state resources for monumental funerary architecture. The exact dates of his reign remain debated, with estimates ranging from c. 2558\u20132532 BCE, placing -2770 BCE either late in or after his reign depending on chronological system used.",
+      "key_figures": [
+        "Khafre (Pharaoh of Egypt)",
+        "Menkaure (possible successor or contemporary)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and inscriptions within Khafre's pyramid",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khafre's reign is well-attested archaeologically, but absolute dating of the Old Kingdom remains uncertain. Radiocarbon dating, Nile flood records, and astronomical calculations produce estimates with \u00b150\u2013100 year margins. The year -2770 BCE falls within the plausible range for his reign under some chronologies but may be slightly later under others.",
+      "cross_references": [
+        "Follows from -2789-001 (Khufu's reign)",
+        "Precedes -2751-001 (Menkaure's reign, if traditional dating holds)"
+      ]
+    },
+    {
+      "id": "-2770-002",
+      "title": "Continued construction and consolidation at Giza",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.9787, 31.1345",
+      "category": "technological",
+      "description": "During this period, Egyptian state administration oversaw the quarrying, transport, and placement of massive limestone and granite blocks for pyramid and temple construction. This represents the peak of Old Kingdom engineering capability, involving sophisticated knowledge of geometry, labour organization, and logistics. The construction of Khafre's pyramid and associated temples, as well as possible work on the Great Sphinx, demonstrates advanced stone-working techniques and state capacity.",
+      "key_figures": [
+        "Khafre (Pharaoh)",
+        "Hemiunu or other chief architects (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza complex: tool marks, quarry sites, construction ramps",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions naming overseers and officials",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The physical evidence of construction is undeniable. Dating to this specific year is approximate, but the general period of Khafre's reign is well-established.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Khafre's reign and the Old Kingdom chronology is one of the most contested areas in Egyptology. Traditional 'high' chronologies place Khafre c. 2558\u20132532 BCE; 'low' chronologies place him c. 2520\u20132494 BCE. Some scholars argue for even lower dates. The year -2770 BCE may fall outside Khafre's reign entirely under certain chronological systems. Additionally, the attribution of the Great Sphinx to Khafre, while widely accepted, is not universally agreed upon; some scholars propose earlier or later dating. The 'pyramid construction by slave labour' narrative, once dominant, has been substantially revised by modern archaeology, which emphasizes organized state labour, seasonal workers, and logistical sophistication rather than coercion.",
+  "historiographic_note": "The historical record for Egypt's Old Kingdom is heavily dependent on monumental archaeology (pyramids, temples, inscriptions) and later king lists compiled centuries or millennia after the events. Contemporary written records are sparse and largely administrative or religious in nature. The Turin King List and Manetho's histories are our primary textual sources, but both were compiled long after the Old Kingdom and contain errors and gaps. Chronological uncertainty is endemic: no contemporary Egyptian source provides absolute dates in a system we can directly convert to the proleptic Gregorian calendar. Modern dating relies on radiocarbon analysis, astronomical calculations (Sothic cycles), and synchronisms with other civilizations, all of which carry significant margins of error. The archaeological record is biased toward monumental remains; the lives of ordinary people, agricultural practices, and non-elite settlements are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-2770-001",
+      "to": "-2770-002",
+      "relation": "part_of",
+      "note": "Khafre's reign encompassed the construction projects at Giza"
+    },
+    {
+      "from": "-2770-001",
+      "to": "-2789-001",
+      "relation": "caused_by",
+      "note": "Khafre succeeded Khufu, inheriting and continuing the architectural legacy"
+    }
+  ]
+}

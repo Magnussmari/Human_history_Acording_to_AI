@@ -1,0 +1,91 @@
+{
+  "year": -2752,
+  "year_label": "2752 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at or near its territorial maximum. Egyptian Old Kingdom is in its final phase of decline. The Indus Valley Civilization continues in its mature phase. This period represents the apex of early territorial empires before the climate-driven collapse and invasions that would reshape the Near East within a generation.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia (Xia Dynasty chronology is highly uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2752-001",
+      "title": "Akkadian military campaigns against the Amorites and mountain peoples",
+      "region": "Akkadian Empire, Levant, Taurus Mountains",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions record ongoing military campaigns against the Amorites (Amurru) and mountain peoples of the Taurus and Zagros regions. These campaigns are part of a sustained effort to maintain Akkadian control over trade routes and resource-rich territories. The Amorites, semi-nomadic peoples from the Syrian steppe, posed a persistent threat to Akkadian hegemony. Archaeological evidence from destroyed cities in the Levant suggests military conflict during this period, though specific dating to individual years is uncertain.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and royal annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction layers in Levantine cities",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns against the Amorites are well-attested in inscriptions, but the specific year-by-year chronology is uncertain. This event is assigned to -2752 by convention, with uncertainty of \u00b15\u201310 years.",
+      "cross_references": [
+        "Related to broader pattern of Akkadian military expansion"
+      ]
+    },
+    {
+      "id": "-2752-002",
+      "title": "Possible climate anomaly: evidence of drought or environmental stress in the Near East",
+      "region": "Mesopotamia, Levant, Egypt",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, lake sediments, tree rings) suggests that the mid-3rd millennium BCE experienced periods of drought and environmental stress. Some scholars have linked these climate anomalies to the collapse of the Akkadian Empire and the decline of the Egyptian Old Kingdom. However, the precise dating of these climate events to individual years is not possible from paleoclimatic data alone. This entry represents a broader environmental context rather than a specific event.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Greenland ice core records (GISP2)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Lake sediment cores from the Near East",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Scholarly synthesis (Weiss et al., 1993; Cullen et al., 2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Paleoclimatic evidence indicates environmental stress in the mid-3rd millennium, but the precise dating and causality are debated. Some scholars argue for a major drought event around -2200 BCE; others propose earlier or later dates or question the severity of the impact.",
+      "cross_references": [
+        "Potentially related to Akkadian collapse (c. -2154 BCE) and Egyptian First Intermediate Period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The causal link between climate anomalies and the collapse of the Akkadian Empire is disputed. Some scholars argue that the Akkadian collapse was primarily due to internal political instability and military overextension, not climate change. Others note that paleoclimatic evidence for a specific drought event around -2200 BCE is not as clear-cut as once believed. The dating of Naram-Sin's campaigns is also uncertain; some scholars place them earlier or later than the conventional chronology suggests.",
+  "historiographic_note": "For -2752, no specific events are documented in contemporary sources. The year is reconstructed from broader patterns and paleoclimatic evidence. The historical record for this year is essentially empty; what we have is context and inference. This reflects a fundamental limitation of ancient history: most years leave no documentary trace.",
+  "graph_edges": [
+    {
+      "from": "-2752-002",
+      "to": "-2200-AKKADIAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Environmental stress may have contributed to the Akkadian collapse approximately 550 years later, though causality is debated"
+    },
+    {
+      "from": "-2752-001",
+      "to": "-2752-002",
+      "relation": "contemporary_with",
+      "note": "Military campaigns occur during a period of potential environmental stress"
+    }
+  ]
+}
