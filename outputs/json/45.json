@@ -1,0 +1,133 @@
+{
+  "year": 45,
+  "year_label": "45 CE",
+  "era_context": "The Roman Empire under Claudius (41\u201354 CE) is consolidating power after the tumultuous reign of Caligula. The Julio-Claudian dynasty is at its height. In Judea, Roman procurators govern an increasingly restive Jewish population. Early Christian communities are beginning to emerge in the eastern Mediterranean and beyond. The Han Dynasty in China is in its Eastern Han period, having recently restored centralized rule after the brief Xin interregnum.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological record only)",
+    "Central Asia (sparse contemporary documentation)",
+    "Mesoamerica (no written records in this period)"
+  ],
+  "events": [
+    {
+      "id": "45-001",
+      "title": "Claudius orders invasion and conquest of Britain",
+      "region": "Roman Empire / Britain",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "military",
+      "description": "Emperor Claudius dispatches Aulus Plautius with four legions to invade Britain, establishing Roman military presence on the island. The campaign aims to secure resources, suppress anti-Roman factions, and enhance Claudius's prestige. The invasion marks the beginning of nearly four centuries of Roman rule in Britain and is one of the most significant military operations of Claudius's reign. The conquest is gradual, meeting resistance from British tribes, particularly in the south and east.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Aulus Plautius (Roman general, invasion commander)",
+        "Cunobelinus (British tribal leader, deceased but his sons resist)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Claudius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts and camps in southern Britain",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The invasion is well-attested in multiple Roman sources and confirmed by archaeological evidence of Roman military installations. Dating to 43 CE is most common in modern scholarship, though some sources place initial operations in 45 CE.",
+      "cross_references": [
+        "Follows from 41-001 (Claudius's accession)",
+        "Led to 70-001 (Boudica's revolt)"
+      ]
+    },
+    {
+      "id": "45-002",
+      "title": "Apostle Paul's first missionary journey begins",
+      "region": "Eastern Mediterranean / Anatolia",
+      "coordinates_approx": "37.0, 35.0",
+      "category": "religious",
+      "description": "Paul of Tarsus, accompanied by Barnabas and John Mark, embarks on his first missionary journey from Antioch, traveling through Cyprus and Anatolia (modern-day Turkey). This journey is foundational to early Christian expansion beyond the Levantine core. Paul establishes churches in cities including Salamis, Paphos, Antioch in Pisidia, Iconium, Lystra, and Derbe. The journey demonstrates the emerging Christian missionary strategy of targeting urban centers and Jewish diaspora communities.",
+      "key_figures": [
+        "Paul of Tarsus (Apostle)",
+        "Barnabas (companion)",
+        "John Mark (companion, later evangelist)"
+      ],
+      "sources": [
+        {
+          "name": "Acts of the Apostles, chapters 13\u201314",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Paul's epistles (Galatians, 1 Corinthians, 2 Corinthians)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Acts provides the primary narrative, but was written decades after the events (likely 80\u201390 CE). Paul's own letters confirm missionary activity in these regions but do not provide precise chronology. Dating of Paul's journeys remains debated; 45\u201349 CE is a common scholarly estimate for the first journey.",
+      "cross_references": [
+        "Part of broader early Christian expansion (30\u2013100 CE)",
+        "Led to 49-001 (Council of Jerusalem)"
+      ]
+    },
+    {
+      "id": "45-003",
+      "title": "Eastern Han Dynasty consolidates control in China",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Guangwu of Han (r. 25\u201357 CE) continues consolidating power after restoring the Han Dynasty in 25 CE. By 45 CE, most of the empire is under centralized control, though the southwest and far north remain contested. Guangwu implements administrative reforms, reduces the power of regional warlords, and restores Confucian bureaucratic structures. This period marks the beginning of the Eastern Han's relative stability and prosperity.",
+      "key_figures": [
+        "Guangwu of Han (Emperor)",
+        "Ma Yuan (general, pacifying southern regions)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and Han Shu (History of the Han Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Han tombs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han consolidation is well-documented in Chinese historical records. The specific year 45 CE marks a point within this broader process of stabilization.",
+      "cross_references": [
+        "Follows from 25-001 (Eastern Han restoration)",
+        "Led to 58-001 (Han expansion into Central Asia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Paul's first missionary journey is disputed. Some scholars place it as early as 45 CE, others as late as 49\u201350 CE. The Acts narrative is not contemporary and may conflate or reorder events. The British invasion is sometimes dated to 43 CE rather than 45 CE; modern consensus favors 43 CE based on archaeological evidence and Cassius Dio's account, though Suetonius's phrasing is ambiguous.",
+  "historiographic_note": "Documentation for 45 CE is heavily weighted toward the Roman Empire and China, where written records are abundant. Early Christian sources (Acts) are later compilations with theological aims, not contemporary journalism. British sources are entirely absent; our knowledge comes from Roman accounts and archaeology. The Eastern Han record is official court history, which may emphasize imperial achievements and downplay regional resistance. Sub-Saharan Africa, the Americas, and much of northern Europe are entirely absent from surviving written sources for this year.",
+  "graph_edges": [
+    {
+      "from": "45-001",
+      "to": "43-001",
+      "relation": "caused_by",
+      "note": "Claudius's accession in 41 CE enabled the military resources and political will for the British invasion"
+    },
+    {
+      "from": "45-002",
+      "to": "49-001",
+      "relation": "led_to",
+      "note": "Paul's missionary journeys set the stage for the Council of Jerusalem, which addressed tensions between Jewish and Gentile Christians"
+    },
+    {
+      "from": "45-003",
+      "to": "25-001",
+      "relation": "part_of",
+      "note": "Continuation of Eastern Han consolidation begun in 25 CE"
+    }
+  ]
+}

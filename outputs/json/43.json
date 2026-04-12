@@ -1,0 +1,142 @@
+{
+  "year": 43,
+  "year_label": "43 CE",
+  "era_context": "The Roman Empire under Claudius is in its second year of rule. The invasion of Britain is underway or about to begin (dating varies in sources). Judea is ruled by Herod Agrippa I as a client king. Early Christian communities are spreading through the eastern Mediterranean. The Eastern Han Dynasty in China is consolidating power after the restoration of centralized rule.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "43-001",
+      "title": "Roman invasion of Britain begins under Claudius",
+      "region": "Britain / Roman Empire",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "military",
+      "description": "Emperor Claudius orders the invasion of Britain, dispatching Aulus Plautius with four legions (approximately 20,000 troops) and auxiliary forces. The invasion is one of the most significant military operations of Claudius's reign and marks the beginning of Roman conquest of Britain. The campaign begins in the spring and proceeds methodically, with Roman forces establishing beachheads in Kent and advancing inland. The invasion is motivated by political prestige, economic resources (tin, grain, metals), and the suppression of anti-Roman factions. The conquest will take nearly four decades to complete and will establish Roman rule over Britain for nearly four centuries.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Aulus Plautius (Roman general, invasion commander)",
+        "Togodumnus and Caratacus (British tribal leaders, sons of Cunobelinus)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Claudius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts and camps in southern Britain (Richborough, Chichester, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The invasion of Britain is well-attested in Roman sources and confirmed by archaeological evidence. Modern scholarship generally dates the invasion to 43 CE, though some sources place it in 45 CE. The archaeological evidence of Roman military installations supports the 43 CE dating.",
+      "cross_references": [
+        "Follows from 41-001 (Claudius's accession)",
+        "Led to 70-001 (Boudica's revolt)"
+      ]
+    },
+    {
+      "id": "43-002",
+      "title": "Lycia becomes a Roman province",
+      "region": "Anatolia / Roman Empire",
+      "coordinates_approx": "36.5, 29.5",
+      "category": "political",
+      "description": "The region of Lycia in southwestern Anatolia (modern-day Turkey) is annexed by Rome and becomes a province. Lycia had previously been a client state and a confederation of independent cities. The annexation is part of Claudius's broader policy of consolidating Roman control over the eastern Mediterranean. The province is eventually combined with Pamphylia to form the province of Lycia et Pamphylia.",
+      "key_figures": [
+        "Claudius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography (written earlier but describes Lycia's status)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic evidence from Lycia",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The annexation of Lycia is attested in Roman sources, but the precise date is sometimes given as 43 CE and sometimes as 42 CE. The dating is approximate within a year or two.",
+      "cross_references": [
+        "Part of Claudius's expansion of Roman control (41\u201354 CE)"
+      ]
+    },
+    {
+      "id": "43-003",
+      "title": "Mauretania becomes a Roman province",
+      "region": "North Africa / Roman Empire",
+      "coordinates_approx": "32.0, -5.0",
+      "category": "political",
+      "description": "The kingdom of Mauretania in North Africa (modern-day Morocco and Algeria) is annexed by Rome and divided into two provinces: Mauretania Caesariensis and Mauretania Tingitana. The annexation follows the death of King Ptolemy of Mauretania and is part of Claudius's policy of expanding Roman control. The conquest is not entirely peaceful; there is resistance from Berber populations, and full pacification will take several years.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Ptolemy of Mauretania (deceased)",
+        "Suetonius Paulinus (Roman general, pacifying Mauretania)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Elder, Natural History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The annexation of Mauretania is attested in Roman sources, but the precise date is sometimes given as 42 CE and sometimes as 43 CE. The dating is approximate within a year or two.",
+      "cross_references": [
+        "Part of Claudius's expansion of Roman control (41\u201354 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the British invasion is disputed. Some sources place it in 43 CE, others in 45 CE. Cassius Dio's account is ambiguous, and Suetonius's phrasing is unclear. Modern archaeological evidence and numismatic evidence generally support 43 CE, but the debate is not entirely settled. The dates of the Lycia and Mauretania annexations are also approximate; sources sometimes give 42 CE instead of 43 CE.",
+  "historiographic_note": "The year 43 CE is well-documented for the Roman Empire, but sources are later compilations (Cassius Dio, Suetonius, Pliny) rather than contemporary records. The British invasion is known only through Roman accounts and archaeology; no British written sources survive. North African history is known through Roman sources and limited archaeological evidence. Chinese sources for this year are abundant but focus on court politics and administrative matters. The perspective is heavily Roman-centric; the experiences of conquered peoples (Britons, Lycians, Mauretanians) are largely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "43-001",
+      "to": "41-001",
+      "relation": "caused_by",
+      "note": "Claudius's accession in 41 CE enabled the military resources and political will for the British invasion"
+    },
+    {
+      "from": "43-001",
+      "to": "70-001",
+      "relation": "led_to",
+      "note": "The British invasion set the stage for Boudica's revolt and the subsequent Roman pacification"
+    },
+    {
+      "from": "43-002",
+      "to": "41-001",
+      "relation": "caused_by",
+      "note": "Part of Claudius's broader policy of consolidating Roman control"
+    },
+    {
+      "from": "43-003",
+      "to": "41-001",
+      "relation": "caused_by",
+      "note": "Part of Claudius's broader policy of consolidating Roman control"
+    }
+  ]
+}

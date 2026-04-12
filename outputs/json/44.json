@@ -1,0 +1,130 @@
+{
+  "year": 44,
+  "year_label": "44 CE",
+  "era_context": "The Roman Empire under Claudius continues its expansionist and administrative consolidation. The British invasion is in its second year. Judea remains under Roman procuratorial rule, with growing sectarian tensions. Early Christianity is spreading through the eastern Mediterranean. The Eastern Han Dynasty in China is firmly established and expanding its administrative reach.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "44-001",
+      "title": "Herod Agrippa I dies; Judea reverts to direct Roman procuratorial rule",
+      "region": "Judea / Roman Empire",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "King Herod Agrippa I, who had ruled Judea as a client king since 41 CE, dies after a brief reign. His death marks a turning point in Judean history: the kingdom reverts to direct Roman procuratorial administration rather than passing to his young son Agrippa II. This shift increases Roman direct control and reduces the buffer of a sympathetic Jewish ruler. The period of procuratorial rule that follows is marked by increasing corruption, heavy taxation, and religious tensions, contributing to the conditions that would lead to the First Jewish-Roman War (66\u201370 CE).",
+      "key_figures": [
+        "Herod Agrippa I (deceased)",
+        "Claudius (Roman Emperor)",
+        "Cuspius Fadus (Roman procurator, appointed after Agrippa's death)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews, Book 19",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Acts of the Apostles, chapter 12",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Herod Agrippa I's death in 44 CE is well-attested in Josephus and Acts. The transition to procuratorial rule is documented in multiple sources.",
+      "cross_references": [
+        "Follows from 41-002 (Herod Agrippa I's accession)",
+        "Led to 66-001 (First Jewish-Roman War)"
+      ]
+    },
+    {
+      "id": "44-002",
+      "title": "Execution of James the Greater, apostle of Jesus",
+      "region": "Judea / Roman Empire",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "James the Greater (also called James son of Zebedee), one of Jesus's twelve apostles, is executed by order of Herod Agrippa I, likely by beheading. This is the first recorded martyrdom of an apostle and marks the beginning of organized persecution of early Christians in Judea. James's death is mentioned in Acts 12:2 and is commemorated in Christian tradition as a foundational martyrdom. The execution reflects Agrippa's attempt to consolidate power by appeasing Jewish religious authorities.",
+      "key_figures": [
+        "James the Greater (Apostle, executed)",
+        "Herod Agrippa I (ordered execution)",
+        "Peter (Apostle, imprisoned but escaped)"
+      ],
+      "sources": [
+        {
+          "name": "Acts of the Apostles, chapter 12, verses 1\u20132",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews, Book 20 (mentions persecution but not James specifically)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Acts is the primary source for James's execution, but was written 40+ years after the event. No contemporary documentation exists. The date of 44 CE is inferred from Acts's narrative placement during Agrippa I's reign (41\u201344 CE). Some scholars question whether this execution occurred or conflate it with other early persecutions.",
+      "cross_references": [
+        "Part of early Christian persecution (30\u2013100 CE)",
+        "Contemporary with 44-001 (Agrippa I's death)"
+      ]
+    },
+    {
+      "id": "44-003",
+      "title": "Roman forces advance in Britain under Aulus Plautius",
+      "region": "Britain / Roman Empire",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "military",
+      "description": "The Roman invasion of Britain, begun in 43 CE, continues with Aulus Plautius consolidating control over southeastern Britain. Roman forces establish a network of forts and advance westward and northward, encountering resistance from British tribes. The campaign is methodical and well-organized, establishing supply lines and administrative infrastructure. By 44 CE, Roman control extends across much of southern Britain, though full conquest will take decades.",
+      "key_figures": [
+        "Aulus Plautius (Roman general, invasion commander)",
+        "Claudius (Roman Emperor)",
+        "British tribal leaders (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts (Richborough, Chichester, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuation of the British invasion is confirmed by archaeological evidence of Roman military installations and by Roman historical accounts, though specific events within individual years are sometimes difficult to pinpoint.",
+      "cross_references": [
+        "Follows from 45-001 (British invasion begins)",
+        "Led to 70-001 (Boudica's revolt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The execution of James the Greater is attested only in Acts, which is a later source with theological aims. No independent contemporary documentation exists. Some scholars question whether this execution occurred or whether it is a legendary embellishment. The date of 44 CE is inferred from Acts's narrative placement, not from independent chronological evidence. Josephus does not mention James's execution specifically, though he does mention persecution of Christians under Agrippa I.",
+  "historiographic_note": "The year 44 CE is well-documented for the Roman Empire and Judea, but sources are often later compilations (Josephus, Acts, Cassius Dio) rather than contemporary records. Josephus, writing in the late 1st century, is the primary source for Judean history but had access to earlier sources and was influenced by his own political position. Acts is a theological narrative, not a historical chronicle. British history is known only through Roman accounts and archaeology; no British written sources survive. Chinese sources for this year are abundant but focus on court politics and administrative matters.",
+  "graph_edges": [
+    {
+      "from": "44-001",
+      "to": "41-002",
+      "relation": "caused_by",
+      "note": "Agrippa I's death ended the period of client-king rule that began with his accession in 41 CE"
+    },
+    {
+      "from": "44-001",
+      "to": "66-001",
+      "relation": "led_to",
+      "note": "The reversion to procuratorial rule contributed to the tensions that led to the First Jewish-Roman War"
+    },
+    {
+      "from": "44-002",
+      "to": "44-001",
+      "relation": "contemporary_with",
+      "note": "James's execution occurred during Agrippa I's reign, which ended in 44 CE"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "year": 50,
+  "year_label": "50 CE",
+  "era_context": "Mid-1st century CE. The Roman Empire under Claudius (41\u201354 CE) is at relative peace after the conquest of Britain (43 CE). The Julio-Claudian dynasty rules Rome. In Judea, Roman procurators govern an increasingly restive Jewish population. Early Christianity is spreading through the Mediterranean, though still a minor Jewish sect. The Han Dynasty rules China in its later phase (Eastern Han begins 25 CE). The Silk Road trade networks are developing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "50-001",
+      "title": "Claudius grants citizenship and privileges to Anatolian cities",
+      "region": "Roman Empire, Asia Minor",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "political",
+      "description": "Emperor Claudius issues decrees granting or confirming citizenship and municipal privileges to several cities in Asia Minor (Anatolia), part of his broader policy of consolidating provincial administration and rewarding loyal communities. This reflects Claudius's administrative approach to managing the empire's diverse territories and populations.",
+      "key_figures": [
+        "Claudius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Claudius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Claudius's reign is well-documented, but specific decrees are often dated approximately. The year 50 CE is conventional for several administrative acts.",
+      "cross_references": []
+    },
+    {
+      "id": "50-002",
+      "title": "Paul's missionary activity in the Aegean region",
+      "region": "Eastern Mediterranean, Greece, Asia Minor",
+      "coordinates_approx": "39.0, 23.0",
+      "category": "religious",
+      "description": "The Apostle Paul is engaged in his second missionary journey through Greece and Asia Minor, establishing early Christian communities. He visits Corinth, Thessalonica, and other cities, writing letters (epistles) that will become foundational Christian texts. This period marks the rapid expansion of early Christianity beyond Jerusalem into the Hellenistic world.",
+      "key_figures": [
+        "Paul of Tarsus (Apostle)",
+        "Silas (companion)",
+        "Timothy (companion)"
+      ],
+      "sources": [
+        {
+          "name": "Acts of the Apostles, chapters 18\u201319",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "1 Thessalonians (epistle)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Acts provides a narrative framework, but precise dating of Paul's movements is debated. 1 Thessalonians is likely written c. 50\u201351 CE, placing Paul in the region around this time.",
+      "cross_references": []
+    },
+    {
+      "id": "50-003",
+      "title": "Han Dynasty consolidation under Emperor Guangwu",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Guangwu of Han (r. 25\u201357 CE) continues consolidating the Eastern Han Dynasty after reunifying China. By 50 CE, his reign is well-established; he focuses on administrative reform, military stability, and economic recovery after the chaos of the Western Han's decline and the brief Xin Dynasty interregnum.",
+      "key_figures": [
+        "Guangwu of Han (Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Han (Hanshu) and History of the Later Han (Hou Hanshu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty records are well-preserved in Chinese historiography. Guangwu's reign dates are secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Paul's second missionary journey is debated among scholars. Some place key events (such as his time in Corinth) slightly earlier (48\u201349 CE) or later (51\u201352 CE). The Acts narrative may conflate or reorder events. No major disconfirming evidence undermines the events listed, but their exact chronology within 50 CE is approximate.",
+  "historiographic_note": "Documentation for 50 CE is uneven. Roman sources (Cassius Dio, Suetonius) are secondary compilations written 150+ years later. Early Christian sources (Acts, Paul's epistles) are primary but written from a theological perspective and sometimes lack precise dating. Chinese sources are more contemporary (official histories compiled within centuries). The record is heavily weighted toward the Mediterranean world and China; other regions are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "50-002",
+      "to": "50-001",
+      "relation": "contemporary_with",
+      "note": "Paul's missionary work and Roman administrative consolidation occur in overlapping regions during the same period"
+    },
+    {
+      "from": "50-003",
+      "to": "50-001",
+      "relation": "contemporary_with",
+      "note": "Eastern Han consolidation and Roman Empire administration are parallel processes of imperial stability"
+    }
+  ]
+}

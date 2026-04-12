@@ -1,0 +1,118 @@
+{
+  "year": 49,
+  "year_label": "49 CE",
+  "era_context": "Mid-1st century CE. Roman Empire under Claudius continues stable rule. Judea remains under Roman procuratorial control with increasing tensions. Early Christianity is spreading rapidly through the Mediterranean. The Eastern Han Dynasty in China is firmly established under Guangwu. The Parthian Empire controls the Middle East and Central Asia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "49-001",
+      "title": "Expulsion of Jews from Rome under Claudius",
+      "region": "Roman Empire, Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Claudius expels Jews (and possibly Jewish Christians) from Rome, according to later sources. The expulsion is attributed to disturbances related to 'Chrestus' (possibly a reference to Christ or a Jewish agitator). This event marks increased tension between the Roman state and Jewish communities, and may have affected early Christian communities in Rome. The exact cause and scope of the expulsion remain debated.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Aquila (Jewish Christian, possibly affected)",
+        "Priscilla (Jewish Christian, possibly affected)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Claudius, 25.4",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, 60.6",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Acts of the Apostles, 18:2",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The expulsion is attested in multiple sources, but all are written 50+ years after the event. The dating to 49 CE is traditional but not certain; some scholars place it earlier (41 CE) or later (50\u201351 CE). The cause ('Chrestus') is cryptic and variously interpreted.",
+      "cross_references": []
+    },
+    {
+      "id": "49-002",
+      "title": "Council of Jerusalem (or early Christian disputes over Jewish law)",
+      "region": "Judea, Jerusalem",
+      "coordinates_approx": "31.8, 35.2",
+      "category": "religious",
+      "description": "Early Christian communities debate whether non-Jewish converts must follow Jewish law (circumcision, dietary rules, etc.). This dispute, later formalized in the Council of Jerusalem (Acts 15), may have been crystallizing around this time. The debate reflects the tension between Jewish Christianity and Gentile Christianity, a defining issue for early Christian identity.",
+      "key_figures": [
+        "Peter (Apostle)",
+        "Paul of Tarsus (Apostle)",
+        "James the Just (leader of Jerusalem church)"
+      ],
+      "sources": [
+        {
+          "name": "Acts of the Apostles, chapter 15",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Galatians, chapter 2 (Paul's epistle)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Council of Jerusalem is traditionally dated to 49\u201350 CE, but the exact year is uncertain. Paul's letter to the Galatians references a confrontation with Peter, which may relate to this dispute, but Galatians itself is difficult to date precisely (48\u201355 CE range).",
+      "cross_references": [
+        "50-002"
+      ]
+    },
+    {
+      "id": "49-003",
+      "title": "Mauryan-era inscriptions and administrative activity in India",
+      "region": "Indian subcontinent",
+      "coordinates_approx": "20.0, 78.0",
+      "category": "political",
+      "description": "The Satavahana Dynasty rules much of central and southern India during this period. Trade networks connecting India to the Roman Empire and Southeast Asia are active. The Periplus of the Erythraean Sea (a Greek merchant's guide, written c. 40\u201370 CE) describes Indian ports and trade, indicating robust commercial activity.",
+      "key_figures": [
+        "Gautamiputra Satakarni (Satavahana ruler, r. c. 106\u2013130 CE, but dynasty active in 49 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Periplus of the Erythraean Sea",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Satavahana inscriptions and coins",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Satavahana Dynasty's rule in this period is confirmed by inscriptions and numismatic evidence. Specific events for 49 CE are not documented; this entry reflects the broader era context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Claudius's expulsion of Jews is highly disputed. Suetonius and Cassius Dio are vague and written long after the event. Some scholars argue the expulsion occurred in 41 CE (early in Claudius's reign) rather than 49 CE. The reference to 'Chrestus' is cryptic; it may refer to Christ, a Jewish agitator, or be a misunderstanding by Suetonius. The Council of Jerusalem's date is also debated; some scholars place it in the 50s CE or even later. These uncertainties undermine the precision of dating these events to 49 CE specifically.",
+  "historiographic_note": "Sources for 49 CE are sparse and often secondary. Roman sources (Suetonius, Cassius Dio) are written 100+ years later and may conflate or misdate events. Early Christian sources (Acts, Paul's epistles) are primary but theologically motivated and sometimes vague about chronology. Indian sources are epigraphic and numismatic, lacking narrative detail. The record is heavily skewed toward the Mediterranean world.",
+  "graph_edges": [
+    {
+      "from": "49-001",
+      "to": "49-002",
+      "relation": "contemporary_with",
+      "note": "The expulsion of Jews from Rome and disputes over Jewish law in early Christianity are related phenomena reflecting Jewish-Christian tensions"
+    },
+    {
+      "from": "49-002",
+      "to": "50-002",
+      "relation": "led_to",
+      "note": "Early disputes over Jewish law in Christianity led to Paul's continued missionary work and the formalization of Gentile Christianity"
+    }
+  ]
+}

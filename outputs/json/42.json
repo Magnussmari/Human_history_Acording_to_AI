@@ -1,0 +1,122 @@
+{
+  "year": 42,
+  "year_label": "42 CE",
+  "era_context": "The Roman Empire under Claudius is in its second year of rule. The invasion of Britain may be in preparation or early stages (dating varies). Judea is ruled by Herod Agrippa I as a client king. Early Christian communities are spreading through the eastern Mediterranean. The Eastern Han Dynasty in China is consolidating power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "42-001",
+      "title": "Mauretania annexed by Rome (alternative dating)",
+      "region": "North Africa / Roman Empire",
+      "coordinates_approx": "32.0, -5.0",
+      "category": "political",
+      "description": "The kingdom of Mauretania in North Africa is annexed by Rome and divided into two provinces: Mauretania Caesariensis and Mauretania Tingitana. The annexation follows the death of King Ptolemy of Mauretania. Some sources date this event to 42 CE rather than 43 CE. The conquest is not entirely peaceful; there is resistance from Berber populations, and full pacification will take several years. The annexation is part of Claudius's policy of expanding Roman control over the Mediterranean world.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Ptolemy of Mauretania (deceased)",
+        "Suetonius Paulinus (Roman general, pacifying Mauretania)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 60",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pliny the Elder, Natural History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The annexation of Mauretania is attested in Roman sources, but the precise date is disputed. Some sources give 42 CE, others 43 CE. The dating is approximate within a year or two.",
+      "cross_references": [
+        "Part of Claudius's expansion of Roman control (41\u201354 CE)"
+      ]
+    },
+    {
+      "id": "42-002",
+      "title": "Claudius grants citizenship and honors to Herod Agrippa I",
+      "region": "Judea / Roman Empire",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "Emperor Claudius grants additional honors and confirms the position of Herod Agrippa I as king of Judea. Agrippa I, who had been a friend of Claudius since their youth, receives expanded territory and authority. This relationship reflects Claudius's policy of using client kings to govern distant regions. Agrippa I uses his position to consolidate power and appeal to Jewish religious authorities, though his reign is marked by increasing tensions between Jewish nationalism and Roman rule.",
+      "key_figures": [
+        "Claudius (Roman Emperor)",
+        "Herod Agrippa I (King of Judea)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews, Book 19",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Josephus attests to Claudius's favorable treatment of Agrippa I, but the precise date of specific honors is not always clear. The relationship between Claudius and Agrippa I is well-documented, but individual events are sometimes difficult to date precisely.",
+      "cross_references": [
+        "Follows from 41-002 (Herod Agrippa I's accession)",
+        "Led to 44-001 (Agrippa I's death and reversion to procuratorial rule)"
+      ]
+    },
+    {
+      "id": "42-003",
+      "title": "Eastern Han Dynasty continues consolidation under Guangwu",
+      "region": "China",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Guangwu of Han continues consolidating power and administrative control over the Chinese empire. By 42 CE, most of the empire is under centralized control, though the southwest and far north remain contested. Guangwu implements administrative reforms, reduces the power of regional warlords, and restores Confucian bureaucratic structures. This period marks the beginning of the Eastern Han's relative stability and prosperity. The emperor also begins to expand Han influence into Central Asia and the western regions.",
+      "key_figures": [
+        "Guangwu of Han (Emperor)",
+        "Ma Yuan (general, pacifying southern regions)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and Han Shu (History of the Han Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Han tombs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Eastern Han consolidation is well-documented in Chinese historical records. The specific year 42 CE marks a point within this broader process of stabilization.",
+      "cross_references": [
+        "Follows from 25-001 (Eastern Han restoration)",
+        "Led to 58-001 (Han expansion into Central Asia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Mauretania annexation is disputed; some sources give 42 CE, others 43 CE. The precise date of Claudius's honors to Agrippa I is not clearly documented; Josephus attests to the relationship but does not always provide precise chronology.",
+  "historiographic_note": "The year 42 CE is moderately well-documented for the Roman Empire and Judea, but sources are later compilations (Josephus, Cassius Dio, Pliny) rather than contemporary records. Chinese sources for this year are abundant but focus on court politics and administrative matters. The perspective is heavily Roman-centric and Chinese-centric; the experiences of conquered peoples and non-elite populations are largely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "42-001",
+      "to": "41-001",
+      "relation": "caused_by",
+      "note": "Part of Claudius's broader policy of consolidating Roman control"
+    },
+    {
+      "from": "42-002",
+      "to": "41-002",
+      "relation": "part_of",
+      "note": "Continuation of Claudius's favorable treatment of Agrippa I"
+    },
+    {
+      "from": "42-003",
+      "to": "25-001",
+      "relation": "part_of",
+      "note": "Continuation of Eastern Han consolidation begun in 25 CE"
+    }
+  ]
+}
