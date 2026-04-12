@@ -1,0 +1,127 @@
+{
+  "year": 299,
+  "year_label": "299 CE",
+  "era_context": "The Roman Empire continues under the Tetrarchy of Diocletian, Maximian, Galerius, and Constantius Chlorus. The Great Persecution of Christians is ongoing. China's Western Jin Dynasty is in the midst of the War of the Eight Princes. The Sassanid Empire under Hormizd II (if dating is correct) maintains control of the eastern Mediterranean and Central Asian trade routes. This is a period of relative stability in the Mediterranean world, though internal tensions are building that will erupt after 305 CE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "299-001",
+      "title": "Diocletian campaigns on the Danube frontier",
+      "region": "Roman Empire (Danube frontier, Balkans)",
+      "coordinates_approx": "44.5, 22.0",
+      "category": "military",
+      "description": "Diocletian conducts military campaigns along the Danube River frontier to suppress barbarian incursions and stabilize the northern border. The Danube frontier is a persistent pressure point for the Roman Empire, with Germanic and other tribal groups regularly raiding across the river. Diocletian's campaigns are part of his broader strategy to strengthen the empire's borders and consolidate military control. These campaigns are relatively successful in restoring order, though the frontier remains contested.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, On the Deaths of the Persecutors",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Roman military records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diocletian's military campaigns on the Danube are attested in later sources and inscriptions, but specific dating to 299 CE is approximate. The campaign may have occurred in 298\u2013299 CE or 299\u2013300 CE; sources do not provide precise chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "299-002",
+      "title": "War of the Eight Princes continues in China",
+      "region": "China (Jin Dynasty territories)",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "military",
+      "description": "The War of the Eight Princes (291\u2013306 CE) continues to devastate the Western Jin Dynasty. Regional military commanders and imperial princes compete for power and resources, weakening central authority. The conflict involves multiple campaigns, sieges, and shifting alliances among the eight princes and their supporters. By 299 CE, the war has caused significant loss of life and economic disruption, accelerating the fragmentation of Jin authority.",
+      "key_figures": [
+        "Emperor Hui of Jin (nominal ruler)",
+        "Various princes (Sima Liang, Sima Wei, Sima Ying, Sima Zhu, and others)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Eight Princes is well-documented in Chinese historical records, though compiled centuries later. The broad outline and timeline are accepted by modern scholarship.",
+      "cross_references": [
+        "291-001 (War begins)",
+        "306-001 (War ends)"
+      ]
+    },
+    {
+      "id": "299-003",
+      "title": "Christian persecution continues under Diocletian",
+      "region": "Roman Empire (all provinces, especially Eastern provinces)",
+      "coordinates_approx": null,
+      "category": "religious",
+      "description": "Diocletian's Great Persecution of Christians, initiated in 303 CE, continues with intensity in 299 CE. Christians are systematically targeted for execution, torture, and enslavement. The persecution is particularly severe in the Eastern provinces under Diocletian's direct control. Churches are destroyed, Christian texts are burned, and Christian clergy are hunted. This represents the most organized, empire-wide suppression of Christianity before Constantine's conversion.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)",
+        "Galerius (Caesar under Diocletian)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, On the Deaths of the Persecutors",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Acts of Christian martyrs",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Great Persecution is well-attested in Christian sources, though these were written after the events. The scale and severity may be exaggerated in Christian accounts for theological purposes.",
+      "cross_references": [
+        "303-001 (Edict initiating persecution)",
+        "311-001 (Edict of toleration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the dating of Diocletian's Danube campaigns is uncertain; sources do not provide precise chronology, and the campaign may have occurred in adjacent years (298\u2013299 or 299\u2013300 CE). The severity of Christian persecution is debated, as noted in the 300 CE entry.",
+  "historiographic_note": "The year 299 CE is moderately well-documented for the Roman Empire and China, though specific events for this particular year are sparse. Most sources are later compilations or chronicles written decades or centuries after the events. The historical record is heavily weighted toward Mediterranean and East Asian civilizations. Sassanid Persia, sub-Saharan Africa, Northern Europe, and the Americas have virtually no written records from this period in the Western tradition.",
+  "graph_edges": [
+    {
+      "from": "299-002",
+      "to": "300-002",
+      "relation": "contemporary_with",
+      "note": "War of the Eight Princes continues across both years"
+    },
+    {
+      "from": "299-003",
+      "to": "300-001",
+      "relation": "contemporary_with",
+      "note": "Christian persecution continues across both years"
+    }
+  ]
+}

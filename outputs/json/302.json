@@ -1,0 +1,127 @@
+{
+  "year": 302,
+  "year_label": "302 CE",
+  "era_context": "The Roman Tetrarchy under Diocletian and Maximian is at the height of its power and organization. Diocletian is preparing the edicts against Christians that will be issued in 303 CE. In China, the Western Jin Dynasty is in the midst of the War of the Eight Princes. The Sassanid Persian Empire under Narses I is in its final years.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "302-001",
+      "title": "Diocletian Prepares Persecution of Christians",
+      "region": "Roman Empire",
+      "coordinates_approx": null,
+      "category": "religious",
+      "description": "In 302 CE, Roman Emperor Diocletian, influenced by his Caesar Galerius and pagan advisors, began preparations for a systematic persecution of Christians. Diocletian had previously tolerated Christians and even employed them in his administration, but he was now convinced that Christian refusal to participate in traditional religious practices and military service threatened the stability of the empire. The persecution would be formally initiated by edict in 303 CE. The decision to persecute Christians represented a major shift in imperial religious policy and was the most severe and systematic persecution of Christians in the Roman Empire.",
+      "key_figures": [
+        "Diocletian (instigator)",
+        "Galerius (advisor and enforcer)",
+        "Pagan advisors and philosophers"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, On the Deaths of the Persecutors",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The preparations for persecution in 302 are attested in Christian sources, but the exact timeline is not entirely clear. The edict was formally issued in 303 CE, and the preparations likely occurred in 302 CE or earlier.",
+      "cross_references": [
+        "303-001 (Edict of Diocletian issued)"
+      ]
+    },
+    {
+      "id": "302-002",
+      "title": "War of the Eight Princes Continues in Western Jin China",
+      "region": "China (Western Jin Dynasty)",
+      "coordinates_approx": "34.3,108.9",
+      "category": "military",
+      "description": "The War of the Eight Princes, which began in 291 CE, continued throughout 302 CE. This civil conflict between imperial princes over succession and control of the Jin court was devastating the empire. Major military campaigns were fought across northern and central China, with armies commanded by various princes competing for power. The war caused widespread destruction, displaced populations, and depleted state resources. By 302, the Jin central government had lost effective control over much of the empire.",
+      "key_figures": [
+        "Emperor Hui of Jin (nominal ruler, mentally incapacitated)",
+        "Various princes competing for power"
+      ],
+      "sources": [
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Guang, Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Eight Princes is well-documented in Chinese historical records. The year 302 falls within the confirmed period of the conflict.",
+      "cross_references": [
+        "291-001 (War begins)",
+        "303-002 (Continuation of war)"
+      ]
+    },
+    {
+      "id": "302-003",
+      "title": "Narses I of Sassanid Persia Dies",
+      "region": "Sassanid Persian Empire",
+      "coordinates_approx": "32.0,53.0",
+      "category": "political",
+      "description": "King Narses I of the Sassanid Empire died in 302 CE (some sources date his death to 303 CE). Narses I had ruled for approximately nine years (r. 293\u2013302 CE) and had pursued military campaigns against the Romans and internal consolidation. His death marked the end of a period of relative stability and military success. The succession was contested among the Sassanid nobility, with the great noble families competing for influence over the throne. This succession dispute weakened Sassanid authority and contributed to a period of internal instability.",
+      "key_figures": [
+        "Narses I (deceased king)",
+        "Sassanid nobility and great houses"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pahlavi inscriptions and texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Sassanid chronology for this period is uncertain. The death of Narses I is dated variously to 302\u2013303 CE in different sources. The exact year cannot be determined with precision.",
+      "cross_references": [
+        "293-001 (Narses I becomes king)",
+        "304-003 (Succession dispute)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The preparations for the persecution of Christians in 302 CE are sometimes portrayed as a sudden decision by Diocletian, but modern scholarship suggests that anti-Christian sentiment had been building for some time. Additionally, Diocletian's earlier tolerance of Christians is sometimes exaggerated; he had already issued edicts limiting Christian privileges and property ownership. The War of the Eight Princes is sometimes presented as a simple succession dispute, but modern scholarship emphasizes the complex factional interests of the great noble families.",
+  "historiographic_note": "Documentation for 302 CE is moderate for the Roman Empire and China, relying on near-contemporary chronicles and later compilations. Christian sources provide accounts of the preparations for persecution, but these are often written after the fact and may not accurately reflect the timeline of events. Chinese sources are more institutional and political in focus. Sassanid sources are limited and mediated through later Islamic historians. The perspective is predominantly elite and institutional; the experiences of ordinary people are largely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "302-001",
+      "to": "303-001",
+      "relation": "led_to",
+      "note": "The preparations for persecution in 302 directly led to the edict of Diocletian in 303 CE."
+    },
+    {
+      "from": "302-002",
+      "to": "303-002",
+      "relation": "led_to",
+      "note": "The continuation of the War of the Eight Princes in 302 directly contributed to the conditions that enabled the invasion of northern China."
+    },
+    {
+      "from": "302-003",
+      "to": "304-003",
+      "relation": "led_to",
+      "note": "The death of Narses I in 302 led to the succession dispute that weakened Sassanid authority."
+    }
+  ]
+}

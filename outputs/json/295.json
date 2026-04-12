@@ -1,0 +1,124 @@
+{
+  "year": 295,
+  "year_label": "295 CE",
+  "era_context": "The Roman Empire under Diocletian's Tetrarchy (established 293 CE) is in the midst of military consolidation and administrative reform. The Sassanid Persian Empire under Narses I remains a major eastern rival. Britain, Gaul, and the Rhine frontier face Germanic and Frankish pressure. The crisis of the third century has nominally ended, but military campaigns continue across multiple fronts.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (limited Chinese sources for this specific year)",
+    "Northern Europe beyond Roman frontier zones"
+  ],
+  "events": [
+    {
+      "id": "295-001",
+      "title": "Diocletian campaigns against the Sassanid Empire in Mesopotamia",
+      "region": "Mesopotamia, Roman-Sassanid frontier",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "military",
+      "description": "Diocletian, ruling the eastern half of the Tetrarchy, conducts military operations against Sassanid forces in Mesopotamia. These campaigns are part of the broader effort to stabilize the eastern frontier and reassert Roman control over contested territories. The exact scale and outcome of specific engagements in 295 are not well-documented in surviving sources, but this year falls within a period of sustained Roman military activity in the region under Diocletian's command.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, eastern half)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine and Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Diocletian's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diocletian's eastern campaigns are well-attested for the period 293\u2013298 CE, but specific events in 295 are not individually documented in surviving primary sources. Dating is approximate within this campaign sequence.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "298-001 (Peace with Sassanids)"
+      ]
+    },
+    {
+      "id": "295-002",
+      "title": "Constantius Chlorus campaigns in Britain and Gaul",
+      "region": "Britain, Gaul, Roman frontier",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "military",
+      "description": "Constantius Chlorus, Caesar of the western Tetrarchy under Maximian, continues military operations to secure Britain and suppress usurpers. In 295, he is consolidating control after the recovery of Britain from the breakaway Carausian regime (which ended in 293). Gaul faces pressure from Germanic tribes and internal instability. Constantius's campaigns are part of the broader Tetrarchic strategy to restore imperial authority across the western provinces.",
+      "key_figures": [
+        "Constantius Chlorus (Caesar, western Tetrarchy)",
+        "Maximian (Augustus, western Tetrarchy)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Constantius Chlorus's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Constantius's military activity in this period is well-attested, but specific events in 295 are not individually documented. Dating is approximate within the broader campaign sequence of 293\u2013296 CE.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "296-001 (Constantius campaigns in Britain)"
+      ]
+    },
+    {
+      "id": "295-003",
+      "title": "Galerius campaigns in the Danube frontier",
+      "region": "Danube frontier, Balkans, Roman Empire",
+      "coordinates_approx": "44.5, 22.0",
+      "category": "military",
+      "description": "Galerius, Caesar of the eastern Tetrarchy under Diocletian, conducts military operations along the Danube frontier to counter Gothic and other barbarian incursions. The Danube remains a critical frontier zone throughout the 290s, with sustained Roman military pressure to maintain control and prevent large-scale invasions. Galerius's campaigns are part of the coordinated Tetrarchic strategy to stabilize all frontiers simultaneously.",
+      "key_figures": [
+        "Galerius (Caesar, eastern Tetrarchy)",
+        "Diocletian (Augustus, eastern Tetrarchy)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Galerius's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Galerius's military activity on the Danube is well-attested for the period 293\u2013305 CE, but specific events in 295 are not individually documented in surviving sources.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "297-001 (Galerius campaigns against Goths)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact military achievements and scale of operations in 295 are not well-documented in surviving primary sources. Later historiographic accounts tend to emphasize the Tetrarchy's successes, but contemporary inscriptions and coins provide limited specific evidence for 295. Some modern scholars debate the extent to which the Tetrarchy's military campaigns were coordinated or simultaneous, versus sequential or regionally focused.",
+  "historiographic_note": "The historical record for 295 CE is moderate but fragmented. Most information comes from later compilations (Eusebius, fourth-century sources) rather than contemporary documents. Coins and inscriptions provide some evidence for imperial activity, but detailed narratives of specific campaigns are sparse. The sources tend to emphasize the Tetrarchy's administrative and military successes, potentially overstating coordination and effectiveness. Regional sources (e.g., for Britain, Mesopotamia) are particularly thin for this specific year.",
+  "graph_edges": [
+    {
+      "from": "295-001",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Diocletian's eastern campaigns are part of the broader Tetrarchic consolidation begun in 293"
+    },
+    {
+      "from": "295-002",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Constantius's western campaigns are part of the broader Tetrarchic consolidation begun in 293"
+    },
+    {
+      "from": "295-003",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Galerius's Danube campaigns are part of the broader Tetrarchic consolidation begun in 293"
+    }
+  ]
+}

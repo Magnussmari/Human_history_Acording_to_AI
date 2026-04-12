@@ -1,0 +1,89 @@
+{
+  "year": 298,
+  "year_label": "298 CE",
+  "era_context": "The Roman Empire under the Tetrarchy is in a period of relative military stability, though internal tensions are building. Diocletian is consolidating power and implementing administrative reforms. The Great Persecution of Christians has not yet begun (it will start in 303 CE), but anti-Christian sentiment is growing. China's Western Jin Dynasty is fragmented by the War of the Eight Princes. The Sassanid Empire is stable under Hormizd II (if dating is correct). This is a transitional year in the late 3rd century CE, with major changes coming in the early 4th century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Oceania",
+    "Sassanid Persia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "298-001",
+      "title": "Diocletian's administrative reforms consolidate imperial power",
+      "region": "Roman Empire (all provinces)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Diocletian continues to implement administrative reforms designed to strengthen imperial control and improve governance. These reforms include the reorganization of provincial boundaries, the separation of military and civilian authority, and the establishment of a more centralized bureaucracy. The reforms are part of Diocletian's broader strategy to stabilize the empire after the chaos of the 3rd century CE. By 298 CE, these reforms are well underway and beginning to show results in improved administrative efficiency.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, On the Deaths of the Persecutors",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Roman administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diocletian's administrative reforms are well-documented in later sources and inscriptions, but the specific timeline and details are debated. The reforms were implemented gradually over several years, and 298 CE is an approximate date for their consolidation.",
+      "cross_references": [
+        "284-001 (Diocletian becomes emperor and begins reforms)"
+      ]
+    },
+    {
+      "id": "298-002",
+      "title": "War of the Eight Princes continues in China",
+      "region": "China (Jin Dynasty territories)",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "military",
+      "description": "The War of the Eight Princes (291\u2013306 CE) continues to rage across the Jin Dynasty. By 298 CE, the conflict has been ongoing for seven years, causing massive loss of life and economic disruption. The war involves multiple campaigns, shifting alliances, and the rise and fall of various princes' fortunes. The conflict is weakening the central authority of the Jin court and accelerating the fragmentation of the empire.",
+      "key_figures": [
+        "Emperor Hui of Jin (nominal ruler)",
+        "Various princes competing for power"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Eight Princes is well-documented in Chinese historical records, though compiled centuries later.",
+      "cross_references": [
+        "291-001 (War begins)",
+        "306-001 (War ends)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the dating and details of Diocletian's administrative reforms are debated among scholars, and the specific timeline for 298 CE is approximate.",
+  "historiographic_note": "The year 298 CE is sparsely documented. Few specific events are recorded for this particular year in surviving sources. Most information comes from later compilations or general historical narratives that do not provide year-by-year detail. The historical record is heavily weighted toward the Roman Empire and China, with virtually no written records from other regions.",
+  "graph_edges": [
+    {
+      "from": "298-002",
+      "to": "299-002",
+      "relation": "led_to",
+      "note": "War of the Eight Princes continues into 299 CE"
+    }
+  ]
+}

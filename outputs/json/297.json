@@ -1,0 +1,96 @@
+{
+  "year": 297,
+  "year_label": "297 CE",
+  "era_context": "The Roman Empire under Diocletian's Tetrarchy is in a period of relative stability and military consolidation. Diocletian is implementing administrative and military reforms to strengthen the empire. The Great Persecution of Christians has not yet begun. China's Western Jin Dynasty is fragmented by the ongoing War of the Eight Princes. The Sassanid Empire is stable. This is a transitional period in the late 3rd century CE, with major changes coming in the early 4th century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Oceania",
+    "Sassanid Persia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "297-001",
+      "title": "Diocletian campaigns against Carausius in Britain",
+      "region": "Roman Empire (Britain)",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "military",
+      "description": "Diocletian and his co-emperor Maximian campaign against Carausius, a Roman military commander who has declared himself emperor and seized control of Britain and parts of northern Gaul. Carausius has established an independent state and is minting coins bearing his image and titles. The campaign to suppress Carausius is part of Diocletian's broader effort to consolidate imperial authority and eliminate rival claimants to power. The campaign is ultimately successful, though Carausius will not be fully defeated until 296 CE.",
+      "key_figures": [
+        "Diocletian (Roman Emperor, Augustus of the East)",
+        "Maximian (Roman Emperor, Augustus of the West)",
+        "Carausius (usurper, self-proclaimed emperor of Britain and northern Gaul)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lactantius, On the Deaths of the Persecutors",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Roman coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Carausius's coins",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Carausius's usurpation is well-attested in numismatic evidence (coins) and later historical sources. However, the specific dating of campaigns against him is debated; sources suggest campaigns in 296\u2013297 CE or 297\u2013298 CE, but precise chronology is uncertain.",
+      "cross_references": [
+        "296-001 (Carausius is defeated and killed)"
+      ]
+    },
+    {
+      "id": "297-002",
+      "title": "War of the Eight Princes continues in China",
+      "region": "China (Jin Dynasty territories)",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "military",
+      "description": "The War of the Eight Princes (291\u2013306 CE) continues to devastate the Western Jin Dynasty. By 297 CE, the conflict has been ongoing for six years, causing massive loss of life, economic disruption, and the weakening of central authority. The war involves multiple campaigns, shifting alliances, and the rise and fall of various princes' fortunes.",
+      "key_figures": [
+        "Emperor Hui of Jin (nominal ruler)",
+        "Various princes competing for power"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Eight Princes is well-documented in Chinese historical records, though compiled centuries later.",
+      "cross_references": [
+        "291-001 (War begins)",
+        "306-001 (War ends)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Diocletian's campaigns against Carausius is uncertain. Some sources place the main campaign in 296 CE, while others suggest 297\u2013298 CE. The exact chronology is debated among scholars.",
+  "historiographic_note": "The year 297 CE is sparsely documented. Few specific events are recorded for this particular year in surviving sources. Most information comes from later compilations or general historical narratives. Numismatic evidence (coins) provides some corroboration for events in Britain, but written sources are limited.",
+  "graph_edges": [
+    {
+      "from": "297-001",
+      "to": "296-001",
+      "relation": "led_to",
+      "note": "Campaign against Carausius continues and culminates in his defeat in 296 CE"
+    }
+  ]
+}

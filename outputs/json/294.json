@@ -1,0 +1,126 @@
+{
+  "year": 294,
+  "year_label": "294 CE",
+  "era_context": "The Roman Tetrarchy under Diocletian is in its second year of operation. The four rulers (Diocletian and Galerius in the east; Maximian and Constantius in the west) are consolidating power and conducting simultaneous military campaigns across multiple frontiers. The Sassanid Empire remains a major eastern threat. Germanic and Celtic tribes pressure the Rhine and Danube frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Northern Europe beyond Roman frontier zones",
+    "Specific regional events in Britain, Gaul, and the Balkans"
+  ],
+  "events": [
+    {
+      "id": "294-001",
+      "title": "Diocletian and Galerius consolidate eastern Tetrarchy control",
+      "region": "Eastern Roman Empire, Mesopotamia, Danube",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "political",
+      "description": "In the second year of the Tetrarchy, Diocletian and his Caesar Galerius continue to consolidate administrative and military control over the eastern half of the Roman Empire. This includes reorganizing provincial boundaries, establishing new administrative centers (notably Nicomedia as Diocletian's capital), and coordinating military responses to threats on the Mesopotamian and Danube frontiers. The administrative reforms begun in 293 are being implemented across the eastern provinces.",
+      "key_figures": [
+        "Diocletian (Augustus, eastern Tetrarchy)",
+        "Galerius (Caesar, eastern Tetrarchy)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine and Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Coins and inscriptions from the period",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Tetrarchy's administrative consolidation is well-attested for the period 293\u2013305, but specific events in 294 are not individually documented in surviving primary sources.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "305-001 (Diocletian's abdication)"
+      ]
+    },
+    {
+      "id": "294-002",
+      "title": "Maximian and Constantius consolidate western Tetrarchy control",
+      "region": "Western Roman Empire, Gaul, Britain, Rhine frontier",
+      "coordinates_approx": "48.0, 8.0",
+      "category": "political",
+      "description": "Maximian and his Caesar Constantius Chlorus continue to consolidate control over the western half of the Roman Empire in the second year of the Tetrarchy. This includes military campaigns against Germanic tribes on the Rhine, suppression of remaining usurpers in Gaul and Britain, and reorganization of provincial administration. The western Tetrarchy is establishing new administrative centers and military bases to secure the frontier zones.",
+      "key_figures": [
+        "Maximian (Augustus, western Tetrarchy)",
+        "Constantius Chlorus (Caesar, western Tetrarchy)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Coins and inscriptions from the period",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Tetrarchy's administrative consolidation is well-attested for the period 293\u2013305, but specific events in 294 are not individually documented in surviving primary sources.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "305-001 (Diocletian's abdication)"
+      ]
+    },
+    {
+      "id": "294-003",
+      "title": "Sassanid-Roman tensions on the Mesopotamian frontier",
+      "region": "Mesopotamia, Roman-Sassanid frontier",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "military",
+      "description": "Tensions between the Roman Empire and the Sassanid Persian Empire remain high along the Mesopotamian frontier. Diocletian and Galerius maintain military pressure in the region, though no major pitched battles are documented for 294 specifically. The frontier remains contested and unstable, with both empires conducting raids and military operations to assert control over key territories and trade routes.",
+      "key_figures": [
+        "Diocletian (Roman Emperor)",
+        "Narses I (Sassanid King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Roman-Sassanid relations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman-Sassanid tensions are well-attested for the period 293\u2013298, but specific events in 294 are not individually documented in surviving sources.",
+      "cross_references": [
+        "293-001 (Tetrarchy established)",
+        "298-001 (Peace with Sassanids)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific military and administrative achievements of 294 are not well-documented in surviving primary sources. Later accounts tend to present the Tetrarchy as a unified, coordinated system, but modern scholarship debates the extent of actual coordination versus regional autonomy. Some scholars question whether the Tetrarchy was as effective in 294 as later sources suggest, given the continued instability on multiple frontiers.",
+  "historiographic_note": "The historical record for 294 CE is moderate but heavily dependent on later compilations. Contemporary coins and inscriptions provide some evidence for imperial activity and administrative organization, but detailed narratives of specific events are sparse. The sources tend to emphasize the Tetrarchy's successes and administrative innovations, potentially overstating their effectiveness in the early years. Regional sources are particularly thin for this specific year.",
+  "graph_edges": [
+    {
+      "from": "294-001",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Diocletian's consolidation in 294 continues the Tetrarchic system established in 293"
+    },
+    {
+      "from": "294-002",
+      "to": "293-001",
+      "relation": "part_of",
+      "note": "Maximian's consolidation in 294 continues the Tetrarchic system established in 293"
+    },
+    {
+      "from": "294-003",
+      "to": "298-001",
+      "relation": "led_to",
+      "note": "Tensions in 294 eventually led to the peace treaty with Sassanids in 298"
+    }
+  ]
+}

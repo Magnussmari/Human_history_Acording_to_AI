@@ -1,0 +1,125 @@
+{
+  "year": 304,
+  "year_label": "304 CE",
+  "era_context": "The Roman Tetrarchy under Diocletian and Maximian continues to govern the empire. The Great Persecution of Christians is in its second year following the edict of 303 CE. In China, the Western Jin Dynasty is in the midst of the War of the Eight Princes. The Sassanid Persian Empire under Narses I is in its final years.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "304-001",
+      "title": "Continuation of Christian Persecution Across Roman Empire",
+      "region": "Roman Empire",
+      "coordinates_approx": null,
+      "category": "religious",
+      "description": "The persecution of Christians continued throughout 304 CE, following Diocletian's edict of 303 CE. In Egypt, particularly in Alexandria and the Nile Valley, Christian communities faced severe repression. Churches were demolished, Christian texts destroyed, and believers were forced to choose between apostasy and martyrdom. The persecution was most intense in the Eastern provinces under Galerius's jurisdiction. This year saw the martyrdom of numerous Christians whose names were recorded in later hagiographic traditions.",
+      "key_figures": [
+        "Diocletian (instigator)",
+        "Galerius (enforcer in the East)",
+        "Christian martyrs (names preserved in later sources)"
+      ],
+      "sources": [
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History and Martyrs of Palestine",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Coptic martyrologies and hagiographies",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Great Persecution is well-attested in Christian sources. The year 304 falls within the documented period of active persecution.",
+      "cross_references": [
+        "303-001 (Edict of Diocletian)",
+        "305-002 (Intensification of persecution)"
+      ]
+    },
+    {
+      "id": "304-002",
+      "title": "War of the Eight Princes Escalates in Western Jin",
+      "region": "China (Western Jin Dynasty)",
+      "coordinates_approx": "34.3,108.9",
+      "category": "military",
+      "description": "The War of the Eight Princes, ongoing since 291 CE, continued to escalate in 304 CE. The conflict between imperial princes for control of the Jin court and succession to the throne intensified, with major military campaigns across northern and central China. The war caused widespread destruction, displaced populations, and weakened the Jin state's ability to defend its borders. This instability would soon enable the invasion of northern China by the Xiongnu and other non-Han peoples.",
+      "key_figures": [
+        "Emperor Hui of Jin (nominal ruler)",
+        "Various princes (Sima Lun, Sima Ying, Sima Wei, and others)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Jin (Jin Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Guang, Zizhi Tongjian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The War of the Eight Princes is well-documented in Chinese historical records. The year 304 falls within the confirmed period of escalation.",
+      "cross_references": [
+        "291-001 (War begins)",
+        "305-003 (Continuation of war)"
+      ]
+    },
+    {
+      "id": "304-003",
+      "title": "Narses I of Sassanid Persia Dies; Succession Disputed",
+      "region": "Sassanid Persian Empire",
+      "coordinates_approx": "32.0,53.0",
+      "category": "political",
+      "description": "King Narses I of the Sassanid Empire died in 302 or 303 CE (sources vary), and by 304 CE the succession was contested among the Sassanid nobility. The death of Narses I marked the end of a period of relative stability and military success. His successor faced challenges from the great noble families and external pressures from the Roman Empire and nomadic peoples. The succession dispute weakened Sassanid authority and contributed to a period of internal instability.",
+      "key_figures": [
+        "Narses I (deceased)",
+        "Sassanid nobility competing for influence"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pahlavi inscriptions and texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Sassanid chronology for this period is uncertain. The death of Narses I is dated variously to 302\u2013303 CE in different sources. The succession dispute is confirmed but not precisely dated to 304.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Great Persecution is sometimes portrayed as uniformly severe across the empire, but modern scholarship shows significant regional variation. In the Western provinces under Maximian, enforcement was often less rigorous than in the East under Galerius. Additionally, some Christian communities negotiated compromises or went underground rather than facing martyrdom, complicating the narrative of universal persecution. The War of the Eight Princes is sometimes presented as a simple succession dispute, but modern scholarship emphasizes the complex factional interests of the great noble families and regional power bases.",
+  "historiographic_note": "Documentation for 304 CE is moderate for the Roman Empire and China, relying on near-contemporary chronicles and later compilations. Christian sources provide detailed accounts of persecution, but these are often hagiographic and may exaggerate the scope or intensity of events. Chinese sources are more institutional and political in focus. Sassanid sources are limited and mediated through later Islamic historians. The perspective is predominantly elite and institutional; the experiences of ordinary people are largely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "304-001",
+      "to": "311-001",
+      "relation": "part_of",
+      "note": "The persecution in 304 is part of the broader Great Persecution (303\u2013311 CE)."
+    },
+    {
+      "from": "304-002",
+      "to": "316-001",
+      "relation": "led_to",
+      "note": "The escalation of the War of the Eight Princes in 304 directly contributed to the conditions that enabled the invasion of northern China."
+    },
+    {
+      "from": "304-003",
+      "to": "309-001",
+      "relation": "led_to",
+      "note": "The succession dispute following Narses I's death contributed to Sassanid instability in the early 4th century."
+    }
+  ]
+}
