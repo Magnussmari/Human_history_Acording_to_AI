@@ -1,0 +1,96 @@
+{
+  "year": -974,
+  "year_label": "974 BCE",
+  "era_context": "The Late Bronze Age collapse has occurred roughly 50\u2013100 years prior; the Iron Age is consolidating across the Mediterranean and Near East. In the Levant, the United Monarchy of Israel under Solomon is in its final decades or recently concluded; the kingdom is fragmenting into Israel and Judah. Egypt is in the Third Intermediate Period under the late 21st Dynasty (Tanite Period), with declining central authority. Assyria is in a period of relative weakness. The Aegean is in the Early Iron Age (Geometric period); Greece is recovering from the Bronze Age collapse. China is in the early Western Zhou dynasty.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-974-001",
+      "title": "Possible reign of Solomon or early division of the United Monarchy",
+      "region": "Levant (Israel/Judah)",
+      "coordinates_approx": "31.9\u00b0N, 35.2\u00b0E",
+      "category": "political",
+      "description": "The traditional biblical chronology places Solomon's reign in the 10th century BCE, though the exact dates are heavily disputed. By 974 BCE, if the conventional dating is accepted, Solomon would be in his final years or recently deceased, and the kingdom would be fragmenting into the northern Kingdom of Israel and southern Kingdom of Judah under Rehoboam. However, modern archaeology has found minimal material evidence for a large, centralized Solomonic state, leading many scholars to question the scale and dating of this political entity. The division of the monarchy is traditionally dated to c. 930 BCE, making 974 BCE potentially still within Solomon's reign or shortly after.",
+      "key_figures": [
+        "Solomon (traditional king of united Israel)",
+        "Rehoboam (traditional first king of Judah)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 11\u201312 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 9\u201310",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological surveys of Iron Age Levant (Finkelstein, Silberman, et al.)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "Biblical chronology is not independently confirmed by contemporary inscriptions or archaeology for this period. The 'United Monarchy' itself is debated; some scholars argue for a much smaller polity or deny its existence entirely. Dating relies on later biblical texts and retroactive chronological schemes.",
+      "cross_references": [
+        "Relates to broader Iron Age Levantine political fragmentation"
+      ]
+    },
+    {
+      "id": "-974-002",
+      "title": "Late 21st Dynasty Egypt (Tanite Period) \u2014 continued decline of central authority",
+      "region": "Egypt",
+      "coordinates_approx": "30.5\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "By 974 BCE, Egypt is well into the Third Intermediate Period, specifically the late 21st Dynasty (c. 1070\u2013945 BCE). Central authority has fragmented; the High Priests of Amun at Thebes control Upper Egypt as a quasi-independent theocratic state, while the Tanite kings rule from the north with diminished power. This period is characterized by economic strain, reduced military capability, and the loss of Egypt's imperial territories in the Levant and Nubia. The Libyan population is increasingly integrated into Egyptian society, a process that will culminate in Libyan dynasties taking the throne within a generation.",
+      "key_figures": [
+        "Psusennes II (traditional late 21st Dynasty pharaoh, dates uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "King Lists and temple inscriptions from Tanis and Thebes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from the Theban temples (e.g., Papyrus Harris I)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tanis and Thebes excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 21st Dynasty chronology is well-established through king lists and temple records, though absolute dating within the dynasty remains debated (\u00b110\u201320 years). The political fragmentation is confirmed by temple records and administrative papyri.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The existence and scale of Solomon's United Monarchy is heavily disputed in modern scholarship. While the biblical narrative presents a powerful, centralized state controlling vast territories, archaeological surveys (particularly by Finkelstein and Silberman) have found minimal material evidence for such a polity in the 10th century BCE. Some scholars argue the 'United Monarchy' was a much smaller entity, a tribal confederation, or a later literary invention. The Tel Dan Stele (9th century BCE) mentions 'House of David,' confirming a Davidic dynasty, but does not support the biblical narrative of Solomonic grandeur. Additionally, the traditional chronology of the 21st Dynasty is debated; some scholars propose a 'low chronology' that would shift these dates by 50\u2013100 years.",
+  "historiographic_note": "The historical record for 974 BCE is extremely thin. For the Levant, we rely almost entirely on biblical texts compiled centuries later, with minimal contemporary epigraphic or archaeological confirmation. For Egypt, we have temple records and king lists, but these are often fragmentary and subject to chronological debate. The period is characterized by the loss of imperial records and the fragmentation of political authority, making contemporary documentation sparse. Western sources dominate; information on contemporary developments in Mesopotamia, the Aegean, and especially Asia and Africa is limited by training data and source survival.",
+  "graph_edges": [
+    {
+      "from": "-974-001",
+      "to": "-930-MONARCHY_DIVISION",
+      "relation": "led_to",
+      "note": "The fragmentation of the United Monarchy into Israel and Judah is traditionally dated to c. 930 BCE, a few decades after this year."
+    },
+    {
+      "from": "-974-002",
+      "to": "-945-LIBYAN_DYNASTY",
+      "relation": "led_to",
+      "note": "The decline of the 21st Dynasty and rise of Libyan dynasties (22nd Dynasty) occurs within the next 30 years."
+    }
+  ]
+}

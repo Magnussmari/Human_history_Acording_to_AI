@@ -1,0 +1,107 @@
+{
+  "year": -975,
+  "year_label": "975 BCE",
+  "era_context": "Early Iron Age in the Eastern Mediterranean and Near East. Egypt under the 22nd Dynasty (Libyan) is in the middle of its reign. The divided kingdoms of Israel and Judah are in their early period of separate development, roughly 50 years after the traditional date of Solomon's death. Assyria is not yet a dominant imperial power; the Neo-Assyrian Empire will emerge later under Ashurnasirpal II (883\u2013859 BCE). Greece is in the Early Iron Age, with the Geometric period well established in pottery and art. This year is often cited in biblical chronology as part of the reign of Rehoboam of Judah and Jeroboam I of Israel.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Mesopotamia (limited specific records for this year)"
+  ],
+  "events": [
+    {
+      "id": "-975-001",
+      "title": "Reign of Rehoboam of Judah",
+      "region": "Levant (Kingdom of Judah)",
+      "coordinates_approx": "31.9,35.2",
+      "category": "political",
+      "description": "Rehoboam, son of Solomon, is ruling the Kingdom of Judah. According to biblical chronology, his reign lasted approximately 17 years (c. 930\u2013913 BCE, though these dates are disputed). This year falls within his reign, a period marked by the consolidation of Judah as a separate kingdom following the division of Solomon's united monarchy. The biblical account describes his reign as troubled by religious apostasy and military conflict.",
+      "key_figures": [
+        "Rehoboam (King of Judah)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314; 2 Chronicles 10\u201312 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Biblical chronology places Rehoboam's reign c. 930\u2013913 BCE, but modern scholarship disputes these dates significantly. Archaeological evidence for Rehoboam's reign is limited. The dating is approximate, with uncertainties of \u00b120\u201330 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-975-002",
+      "title": "Reign of Jeroboam I of Israel",
+      "region": "Levant (Kingdom of Israel)",
+      "coordinates_approx": "32.5,35.5",
+      "category": "political",
+      "description": "Jeroboam I, the first king of the northern Kingdom of Israel, is in the middle of his reign (c. 930\u2013909 BCE, though these dates are disputed). This year falls within his period of rule, during which he established the northern kingdom as a separate political entity with its own religious and administrative centers at Bethel and Dan. His reign marks the beginning of the long separation between Israel and Judah.",
+      "key_figures": [
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Biblical chronology places Jeroboam I's reign c. 930\u2013909 BCE, but modern scholarship disputes these dates. Archaeological evidence for his reign is limited. The dating is approximate, with uncertainties of \u00b120\u201330 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-975-003",
+      "title": "Continued reign of Shoshenq I in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Shoshenq I of the 22nd Dynasty (Libyan) continues his reign, consolidating Libyan control over Egypt. This year falls within his reign (c. 945\u2013924 BCE). No specific events are recorded for this particular year in surviving sources, but this period is marked by Shoshenq I's military campaigns and administrative reorganization of Egypt.",
+      "key_figures": [
+        "Shoshenq I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca; Egyptian king lists; Bubastis Portal inscriptions",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shoshenq I's reign is well-attested, but no specific events are documented for this particular year. Egyptian chronology for this period has \u00b110\u201320 year uncertainties.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional biblical chronology dating Rehoboam's reign to c. 930\u2013913 BCE and Jeroboam I's reign to c. 930\u2013909 BCE is increasingly questioned by modern scholarship. The 'Low Chronology' school argues for significantly later dates (c. 900 BCE or later) for these events. Additionally, the extent and centralization of these early kingdoms as described in the Bible is disputed; archaeological evidence for large, centralized kingdoms of Israel and Judah in the 10th century BCE is limited. Some scholars argue that the kingdoms were smaller and less centralized than the biblical account suggests. The dating of Shoshenq I's reign and his Levantine campaign is also debated, with some scholars placing his campaign c. 925 BCE and others later.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later compilations. The Hebrew Bible is the primary source for events in Israel and Judah, but it was compiled centuries after the events it describes (likely 6th\u20134th century BCE) and reflects theological and political biases of its editors. Contemporary Egyptian sources exist but are not abundant for this specific year. Archaeological evidence is fragmentary and subject to ongoing reinterpretation. Egyptian chronology for the 22nd Dynasty remains debated among Egyptologists, with competing 'High' and 'Low' chronologies producing different absolute dates. The historical record is heavily weighted toward Egypt and the Levant; information about other regions (Greece, Mesopotamia, Asia) is minimal for this specific year. The absence of contemporary documentation for events in Israel and Judah is a significant limitation; the biblical account is the only substantial source, and its historical reliability is debated.",
+  "graph_edges": [
+    {
+      "from": "-975-001",
+      "to": "-913-REHOBOAM_DEATH",
+      "relation": "led_to",
+      "note": "Rehoboam's reign ended c. 913 BCE (traditional dating), leading to the succession of Abijah"
+    },
+    {
+      "from": "-975-002",
+      "to": "-909-JEROBOAM_DEATH",
+      "relation": "led_to",
+      "note": "Jeroboam I's reign ended c. 909 BCE (traditional dating), leading to the succession of Nadab"
+    },
+    {
+      "from": "-975-001",
+      "to": "-975-002",
+      "relation": "contemporary_with",
+      "note": "Rehoboam of Judah and Jeroboam I of Israel ruled contemporaneously, representing the divided monarchy"
+    },
+    {
+      "from": "-975-003",
+      "to": "-925-SHOSHENQ_CAMPAIGN",
+      "relation": "led_to",
+      "note": "Shoshenq I's consolidation of power in Egypt led to his military campaign into the Levant c. 925 BCE, which may have affected both Israel and Judah"
+    }
+  ]
+}

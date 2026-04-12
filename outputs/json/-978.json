@@ -1,0 +1,67 @@
+{
+  "year": -978,
+  "year_label": "978 BCE",
+  "era_context": "Continuation of the early Iron Age in the Eastern Mediterranean and Near East. Egypt under the 22nd Dynasty (Libyan) is in the midst of its reign. The divided kingdoms of Israel and Judah are consolidating their separate identities. Assyria is not yet the dominant imperial power it will become under Ashurnasirpal II (883\u2013859 BCE). Greece remains in the Early Iron Age, with the Geometric period well established in pottery and art.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-978-001",
+      "title": "Continued reign of Shoshenq I in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Shoshenq I continues his reign, consolidating Libyan Dynasty control over Egypt. This year is part of the broader period of his rule (c. 945\u2013924 BCE). No specific events are recorded for this particular year in surviving sources.",
+      "key_figures": [
+        "Shoshenq I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca; Egyptian king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shoshenq I's reign is well-attested, but no specific events are documented for this particular year. The dating relies on Manetho and king lists, which have inherent chronological uncertainties.",
+      "cross_references": []
+    },
+    {
+      "id": "-978-002",
+      "title": "Early consolidation of the Kingdom of Israel under Jeroboam I",
+      "region": "Levant (Kingdom of Israel)",
+      "coordinates_approx": "32.5,35.5",
+      "category": "political",
+      "description": "Jeroboam I, the first king of the northern Kingdom of Israel, is consolidating his rule following the division of Solomon's kingdom. He establishes religious and political centers at Bethel and Dan to rival Jerusalem. This period marks the beginning of the separate development of the northern kingdom, which will last until its conquest by Assyria in 722 BCE.",
+      "key_figures": [
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The biblical account of Jeroboam I is the primary source, but its historical accuracy and dating are debated. Archaeological evidence for his reign is limited.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed, but the broader context remains disputed: the exact dating of the division of the monarchy and the historical extent of Jeroboam I's kingdom are uncertain. Archaeological evidence for a large, centralized kingdom of Israel in the 10th century BCE is limited.",
+  "historiographic_note": "Documentation for this year is minimal. No contemporary sources record specific events for 978 BCE. The historical record relies almost entirely on later compilations (the Hebrew Bible, Manetho). Egyptian sources are sparse for this specific year. The historical record is heavily weighted toward the Levant and Egypt; other regions are virtually undocumented.",
+  "graph_edges": [
+    {
+      "from": "-978-002",
+      "to": "-722-FALL_OF_ISRAEL",
+      "relation": "led_to",
+      "note": "Jeroboam I's establishment of the northern Kingdom of Israel set the stage for its eventual conquest by Assyria in 722 BCE"
+    }
+  ]
+}

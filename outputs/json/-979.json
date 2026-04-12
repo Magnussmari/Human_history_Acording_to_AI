@@ -1,0 +1,83 @@
+{
+  "year": -979,
+  "year_label": "979 BCE",
+  "era_context": "The early Iron Age in the Eastern Mediterranean and Near East. The Neo-Assyrian Empire is consolidating power under Ashurnasirpal II (883\u2013859 BCE), though this year falls slightly before his reign. In the Levant, the Kingdom of Israel under Solomon's successors is fragmenting; the divided monarchy of Israel and Judah is emerging. In Egypt, the 21st Dynasty (Tanite Period) is in decline, with the 22nd Dynasty (Libyan) beginning its rule. Greece is in the Early Iron Age, transitioning from the Dark Ages; the Geometric period in pottery is well established.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "East Asia (Chinese sources exist but are sparse for this specific year)",
+    "Mesoamerica (no written records; archaeological evidence is limited)",
+    "Northern Europe (minimal documentation)"
+  ],
+  "events": [
+    {
+      "id": "-979-001",
+      "title": "Reign of Shoshenq I (Shishak) consolidating Libyan Dynasty rule in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Shoshenq I of the 22nd Dynasty (Libyan) is in the middle of his reign (c. 945\u2013924 BCE), consolidating Libyan control over Egypt. This year falls within his period of military campaigns and administrative reorganization. He is known for his campaign into the Levant (recorded on the Bubastis Portal), which may have occurred around 925 BCE, making this year part of the broader context of Egyptian reassertion in the region.",
+      "key_figures": [
+        "Shoshenq I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Bubastis Portal inscriptions; Manetho's Aegyptiaca (later compilation)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tanis and Bubastis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shoshenq I's reign is well-attested, but the precise dating of individual years within his reign and the exact chronology of his campaigns remain debated. Egyptian chronology for this period has \u00b110\u201320 year uncertainties.",
+      "cross_references": []
+    },
+    {
+      "id": "-979-002",
+      "title": "Fragmentation of the United Monarchy in the Levant",
+      "region": "Levant (Israel/Judah)",
+      "coordinates_approx": "31.9,35.2",
+      "category": "political",
+      "description": "Following the death of Solomon (traditionally dated c. 930 BCE, though this is disputed), the Kingdom of Israel is fragmenting into the northern Kingdom of Israel and the southern Kingdom of Judah. This year falls within the period of this division, with Rehoboam ruling Judah and Jeroboam I ruling Israel. The exact dating of Solomon's death and the division is highly contested in modern scholarship, with some scholars placing it later (c. 900 BCE) or earlier.",
+      "key_figures": [
+        "Rehoboam (King of Judah)",
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tel Dan Stele (9th century BCE, mentions 'House of David')",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The biblical chronology places Solomon's death around 930 BCE, but archaeological evidence and modern chronological revisions suggest significant uncertainty (\u00b120\u201330 years). The Tel Dan Stele confirms the existence of a Davidic dynasty but does not provide precise dating for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional biblical chronology dating Solomon's death to c. 930 BCE and the immediate division of the kingdom is increasingly questioned by modern archaeology and historiography. Some scholars (e.g., the 'Low Chronology' school) argue for a later date (c. 900 BCE or even later) for these events. Additionally, the extent of Solomon's kingdom as described in the Bible is disputed; archaeological evidence for a large, centralized Solomonic state is limited. The dating of Shoshenq I's Levantine campaign, often associated with the biblical account of his invasion of Judah (1 Kings 14:25\u201326), is also debated, with some scholars placing it c. 925 BCE and others later.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later compilations (the Hebrew Bible, Manetho's Aegyptiaca, Greek historians). Contemporary Egyptian sources (inscriptions, administrative records) exist but are not abundant for this specific year. The Hebrew Bible is a later compilation (likely 6th\u20134th century BCE) and reflects theological and political biases of its editors. Archaeological evidence is fragmentary and subject to ongoing reinterpretation. Egyptian chronology for the 22nd Dynasty remains debated among Egyptologists, with competing 'High' and 'Low' chronologies producing different absolute dates. The historical record is heavily weighted toward Egypt and the Levant; information about other regions (Greece, Mesopotamia, Asia) is minimal for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-979-001",
+      "to": "-925-SHOSHENQ_CAMPAIGN",
+      "relation": "led_to",
+      "note": "Shoshenq I's consolidation of power in Egypt led to his military campaign into the Levant c. 925 BCE"
+    },
+    {
+      "from": "-979-002",
+      "to": "-850-ISRAEL_JUDAH_CONFLICT",
+      "relation": "led_to",
+      "note": "The division of the monarchy set the stage for centuries of conflict and separate development of Israel and Judah"
+    }
+  ]
+}
