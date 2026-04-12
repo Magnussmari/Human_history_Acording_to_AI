@@ -1,0 +1,118 @@
+{
+  "year": -237,
+  "year_label": "237 BCE",
+  "era_context": "Mid-3rd century BCE: the Hellenistic world continues to be shaped by the Seleucid succession crisis and Ptolemaic dominance. Rome is consolidating its Mediterranean position. In the western Mediterranean, Carthage is expanding its influence in Iberia under Hamilcar Barca. China's Han Dynasty is consolidating power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Detailed East Asian events"
+  ],
+  "events": [
+    {
+      "id": "-237-001",
+      "title": "Hamilcar Barca leads Carthaginian expansion in Iberia",
+      "region": "Iberian Peninsula (Carthaginian territories)",
+      "coordinates_approx": "38.0, -4.0",
+      "category": "military",
+      "description": "Hamilcar Barca, a prominent Carthaginian general and father of Hannibal, leads military campaigns to expand Carthaginian control in Iberia. Following Carthage's defeat in the First Punic War (264\u2013241 BCE), Hamilcar seeks to rebuild Carthaginian power and wealth through territorial expansion in Iberia. He establishes a power base that will eventually be inherited by his son Hannibal and will serve as the foundation for Carthaginian military strength in the Second Punic War. Hamilcar's campaigns in Iberia are part of Carthage's strategy to compensate for losses in the Mediterranean.",
+      "key_figures": [
+        "Hamilcar Barca (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Books 21\u201330, covering the Punic Wars)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Book 2, on Carthaginian expansion in Iberia)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Iberian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hamilcar Barca's campaigns in Iberia are well-attested in ancient sources, but the exact dating of individual campaigns is uncertain. Polybius and Livy provide the main accounts, written well after the events. Hamilcar's Iberian campaigns are traditionally dated c. 237\u2013228 BCE, placing 237 BCE at or near the beginning of this period.",
+      "cross_references": [
+        "-218-001 (Second Punic War, which uses the Iberian base established by Hamilcar)"
+      ]
+    },
+    {
+      "id": "-237-002",
+      "title": "Seleucid civil war continues; territorial fragmentation accelerates",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "The Laodicean War between Seleucus II and Antiochus Hierax continues, with no clear resolution in sight. The prolonged conflict leads to further territorial fragmentation of the Seleucid Empire. Galatian tribes in Anatolia become increasingly independent, Parthian forces expand further westward, and Egyptian influence grows in the Levantine coast. The Seleucid Empire, once the largest Hellenistic state, is becoming a collection of competing power centers.",
+      "key_figures": [
+        "Seleucus II Callinicus",
+        "Antiochus Hierax"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader conflict is well-attested, but specific events in 237 BCE are not individually documented.",
+      "cross_references": [
+        "-235-001"
+      ]
+    },
+    {
+      "id": "-237-003",
+      "title": "Ptolemy III Euergetes continues reign; Egyptian naval dominance in Eastern Mediterranean",
+      "region": "Ptolemaic Egypt and Eastern Mediterranean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy III Euergetes continues to rule Egypt at the height of Ptolemaic power. Egyptian naval forces maintain control of key Mediterranean trade routes and territories. The Ptolemaic economy remains robust, supported by agricultural production and trade. This period represents the zenith of Ptolemaic territorial expansion and influence.",
+      "key_figures": [
+        "Ptolemy III Euergetes"
+      ],
+      "sources": [
+        {
+          "name": "Papyrological evidence from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy III's reign (246\u2013221 BCE) is well-documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Hamilcar Barca's Iberian campaigns is debated. Some sources suggest they began earlier (c. 240 BCE) or later (c. 235 BCE). The traditional date of 237 BCE is based on Polybius and Livy, but these sources were written well after the events and may contain chronological errors. Additionally, the extent of Carthaginian control in Iberia during this period is uncertain\u2014some regions may have remained semi-independent or under contested control.",
+  "historiographic_note": "Documentation for 237 BCE is moderate but unevenly distributed. The Hellenistic Mediterranean and Near East are relatively well-documented through Greek and Roman sources, though these are all written well after the events. Carthaginian sources are almost entirely lost, so our knowledge of Carthaginian activities comes entirely from Greek and Roman accounts, which may contain biases. Egyptian papyri provide contemporary evidence but limited narrative detail. The Iberian Peninsula has limited written records for this period; most knowledge comes from later classical sources and archaeology.",
+  "graph_edges": [
+    {
+      "from": "-237-001",
+      "to": "-218-001",
+      "relation": "led_to",
+      "note": "Hamilcar's Iberian base and military buildup eventually enable Hannibal's invasion of Italy and the Second Punic War"
+    },
+    {
+      "from": "-237-002",
+      "to": "-235-001",
+      "relation": "part_of",
+      "note": "Continuation of the Laodicean War"
+    }
+  ]
+}

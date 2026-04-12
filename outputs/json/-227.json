@@ -1,0 +1,82 @@
+{
+  "year": -227,
+  "year_label": "227 BCE",
+  "era_context": "The Hellenistic world continues in a period of regional fragmentation; the Seleucid Empire remains divided between Seleucus II and Antiochus Hierax; Ptolemaic Egypt under Ptolemy IV; Rome consolidating Italian dominance and preparing for Mediterranean expansion; China under Qin Shi Huang in the midst of unification consolidation; the Mauryan Empire in India declining.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mauryan India (limited contemporary sources for this specific year)",
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-227-001",
+      "title": "Seleucid civil conflict continues; Antiochus Hierax consolidates Anatolian control",
+      "region": "Seleucid Empire (Asia Minor)",
+      "coordinates_approx": "38.96, 35.24",
+      "category": "political",
+      "description": "The Seleucid civil war between Seleucus II and his brother Antiochus Hierax continued, with Hierax consolidating control over Asia Minor (Anatolia) and parts of northern Syria. This period saw the effective partition of the Seleucid Empire into competing power centers, weakening the dynasty's overall strength and allowing rival powers like Pergamon to expand. The conflict would persist until Hierax's death around 226 BCE.",
+      "key_figures": [
+        "Seleucus II Callinicus",
+        "Antiochus Hierax"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Book 5",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of the Seleucid civil conflict is well-attested, but precise dating of events within the conflict varies. Uncertainty of \u00b12\u20133 years.",
+      "cross_references": [
+        "Continuation of conflict noted in -225-003"
+      ]
+    },
+    {
+      "id": "-227-002",
+      "title": "Mauryan Empire decline and regional fragmentation in India",
+      "region": "Indian subcontinent",
+      "coordinates_approx": "23.0, 82.0",
+      "category": "political",
+      "description": "The Mauryan Empire, which had dominated much of the Indian subcontinent under Ashoka (r. 268\u2013232 BCE), continued its decline in the decades following Ashoka's death. By 227 BCE, regional kingdoms and dynasties were reasserting independence, fragmenting the once-unified empire. The Satavahana dynasty was rising in the Deccan, while other regional powers consolidated control in their territories. This period marked the end of Mauryan hegemony.",
+      "key_figures": [
+        "Mauryan successors (names uncertain for this period)"
+      ],
+      "sources": [
+        {
+          "name": "Ashokavadana and other Buddhist texts (compiled later, describing earlier periods)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Puranas (Hindu texts, compiled later but containing earlier traditions)",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Mauryan Empire is well-documented in broad outline, but specific events in 227 BCE are not precisely dated. The empire's collapse is traditionally dated to around 185 BCE, but the process of fragmentation was gradual.",
+      "cross_references": [
+        "Part of the broader decline of the Mauryan Empire (post-232 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific, well-documented events for 227 BCE have been identified. The Seleucid civil conflict and Mauryan decline are attested in general terms but not precisely dated to this year. The year appears to be one of continuation and gradual change rather than major documented events.",
+  "historiographic_note": "227 BCE is poorly documented across most regions. The Hellenistic sources focus on major battles and political upheavals; years of consolidation and gradual change are often underrepresented. Indian sources are particularly sparse for this period, with most information coming from later compilations of earlier traditions. The year may have been historically significant in local contexts (regional conflicts, administrative changes) that are not preserved in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-227-001",
+      "to": "-225-001",
+      "relation": "led_to",
+      "note": "Seleucid civil conflict contributed to the conditions leading to the Battle of Raphia"
+    }
+  ]
+}

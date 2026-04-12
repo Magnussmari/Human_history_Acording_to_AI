@@ -1,0 +1,79 @@
+{
+  "year": -236,
+  "year_label": "236 BCE",
+  "era_context": "Continuation of the mid-3rd century BCE Hellenistic world: the Seleucid Empire remains embroiled in the Laodicean War; Ptolemaic Egypt under Ptolemy III maintains regional dominance; Rome consolidates power after the First Punic War; China's Han Dynasty is in its early consolidation phase under early emperors.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia (limited detail on specific events)"
+  ],
+  "events": [
+    {
+      "id": "-236-001",
+      "title": "Continuation of Seleucid civil conflict; Antiochus Hierax consolidates control in western Anatolia",
+      "region": "Seleucid Empire (Anatolia, Syria)",
+      "coordinates_approx": "38.0, 35.0",
+      "category": "military",
+      "description": "The conflict between Seleucus II and his brother Antiochus Hierax continues. Antiochus Hierax, supported by Galatian mercenaries and possibly Egyptian backing, consolidates his control over western Anatolia and the Aegean regions. This bifurcation of Seleucid authority represents a critical weakening of the empire's territorial cohesion. The conflict drains resources and military capacity, allowing Parthian expansion in the east and Egyptian encroachment in the south.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid king)",
+        "Antiochus Hierax (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Laodicean War is well-attested, but the specific events of 236 BCE are not individually documented. This entry describes the probable continuation of the broader conflict.",
+      "cross_references": [
+        "-235-001"
+      ]
+    },
+    {
+      "id": "-236-002",
+      "title": "Ptolemy III's reign continues; Egyptian cultural and economic flourishing",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "cultural",
+      "description": "Under Ptolemy III Euergetes, Egypt experiences significant cultural and economic development. The Ptolemaic court patronizes Greek and Egyptian scholarship, including work at the Library of Alexandria and the Museum. Egyptian agriculture and trade continue to generate substantial wealth. This period represents a high point of Ptolemaic cultural synthesis between Greek and Egyptian traditions.",
+      "key_figures": [
+        "Ptolemy III Euergetes (Ptolemaic king)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrological evidence from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy III's reign and cultural patronage are well-documented in papyri and later literary sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The specific role and extent of Egyptian support for Antiochus Hierax remains debated. Some scholars argue that Ptolemy III's primary concern was preventing Seleucid reunification rather than actively supporting Antiochus. The degree of Galatian involvement and their motivations are also uncertain.",
+  "historiographic_note": "Documentation for 236 BCE is similar to 235 BCE: moderate but Hellenistic-centric. Specific events for this individual year are not well-documented; the historical record provides broader context about the Laodicean War and Ptolemaic Egypt but not year-by-year detail. Egyptian papyri offer contemporary evidence of economic and administrative activity but limited narrative information.",
+  "graph_edges": [
+    {
+      "from": "-236-001",
+      "to": "-235-001",
+      "relation": "part_of",
+      "note": "Continuation of the Laodicean War"
+    }
+  ]
+}

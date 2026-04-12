@@ -1,0 +1,115 @@
+{
+  "year": -225,
+  "year_label": "225 BCE",
+  "era_context": "The Hellenistic world in the aftermath of the Syrian Wars; the Seleucid Empire under Seleucus II Callinicus faces internal fragmentation and external pressure from Ptolemaic Egypt and rising powers in Anatolia. In China, the Qin Dynasty has recently unified the realm (221 BCE), consolidating control. In the Mediterranean, Rome is consolidating power in Italy and preparing for conflict with Carthage. The Indian subcontinent sees the Mauryan Empire in decline, with regional kingdoms reasserting autonomy.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Greek and Roman contact zones",
+    "Mesoamerica (no written chronology synchronized to Gregorian calendar for this era)"
+  ],
+  "events": [
+    {
+      "id": "-225-001",
+      "title": "Battle of Raphia",
+      "region": "Levant (modern southern Israel/Palestine)",
+      "coordinates_approx": "31.28, 34.23",
+      "category": "military",
+      "description": "Ptolemy IV Philopator of Egypt defeated Antiochus III of the Seleucid Empire in a major pitched battle near Raphia, securing Ptolemaic control of Coele-Syria and Phoenicia. The battle was notable for the deployment of African war elephants by the Ptolemaic forces and marked a temporary reversal of Seleucid expansion. However, Ptolemy's victory proved hollow; internal instability in Egypt prevented consolidation of gains, and Antiochus would recover strength within a decade.",
+      "key_figures": [
+        "Ptolemy IV Philopator (Ptolemaic ruler)",
+        "Antiochus III (Seleucid ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Book 5",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome, Book 33 (later compilation citing earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple ancient sources attest to the battle; Polybius wrote within ~50 years of the event. The date 217 BCE is sometimes given in modern scholarship, but 221 BCE is also attested. Uncertainty of \u00b14 years.",
+      "cross_references": [
+        "Relates to broader Syrian Wars (-260 to -253 BCE) and Seleucid-Ptolemaic rivalry"
+      ]
+    },
+    {
+      "id": "-225-002",
+      "title": "Qin Dynasty consolidation and early administrative reforms",
+      "region": "China (unified empire)",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Following the unification of China in 221 BCE under Qin Shi Huang, the early years of the Qin Dynasty (221\u2013206 BCE) saw aggressive standardization of weights, measures, currency, and writing systems across the newly unified realm. By 225 BCE, these reforms were well underway, establishing the administrative and cultural foundations that would persist through subsequent dynasties. The Qin also began large-scale military campaigns against southern territories and the construction of defensive walls against northern incursions.",
+      "key_figures": [
+        "Qin Shi Huang (First Emperor of China)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Qin administrative sites and standardized artifacts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The broad timeline of Qin unification and early reforms is well-established through both textual and archaeological evidence. Specific events within 225 BCE are less precisely dated but fall within the documented consolidation period.",
+      "cross_references": [
+        "Part of the Qin Dynasty (221\u2013206 BCE) unification process"
+      ]
+    },
+    {
+      "id": "-225-003",
+      "title": "Seleucid internal instability and the rise of Antiochus Hierax",
+      "region": "Seleucid Empire (Asia Minor and Syria)",
+      "coordinates_approx": "38.96, 35.24",
+      "category": "political",
+      "description": "Following the Battle of Raphia, the Seleucid Empire experienced severe internal fragmentation. Antiochus Hierax, a younger son of Seleucus II, declared himself independent ruler of Asia Minor (Anatolia) and parts of Syria, creating a rival power center. This division weakened Seleucid authority and allowed Pergamon and other Anatolian kingdoms to consolidate independence. The civil conflict would persist for years, draining resources and preventing unified response to external threats.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid ruler)",
+        "Antiochus Hierax (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Book 5",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Seleucid civil conflict is well-attested, but precise dating of Hierax's declaration of independence varies in sources (some place it slightly earlier or later). Uncertainty of \u00b12\u20133 years.",
+      "cross_references": [
+        "Precedes the eventual reunification of the Seleucid Empire under Antiochus III"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Raphia is sometimes dated to 217 BCE rather than 221 BCE in modern scholarship, creating a 4-year discrepancy. Some sources emphasize that Ptolemy IV's victory was less decisive than traditionally portrayed, with the Ptolemaic forces suffering heavy casualties and the political aftermath being muddled rather than triumphant. The significance of the battle in halting Seleucid expansion is also disputed; Antiochus III recovered quickly and resumed expansion within years, suggesting the battle's strategic impact was limited.",
+  "historiographic_note": "The historical record for 225 BCE is dominated by Hellenistic sources (Polybius, later Greek and Roman historians) and Chinese imperial chronicles (Shiji). The Hellenistic sources are relatively rich but written decades or centuries after events, introducing potential distortion. The Shiji is similarly retrospective but benefits from administrative records. Events in the Indian subcontinent, Persia, and Africa are poorly documented for this specific year. The sources show a strong bias toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-225-001",
+      "to": "-219-001",
+      "relation": "led_to",
+      "note": "Battle of Raphia's aftermath contributed to Seleucid instability, eventually leading to Antiochus III's consolidation campaigns"
+    },
+    {
+      "from": "-225-003",
+      "to": "-225-001",
+      "relation": "contemporary_with",
+      "note": "Seleucid internal division was both cause and consequence of the Raphia defeat"
+    }
+  ]
+}

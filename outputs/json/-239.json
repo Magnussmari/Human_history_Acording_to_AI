@@ -1,0 +1,114 @@
+{
+  "year": -239,
+  "year_label": "239 BCE",
+  "era_context": "Mid-3rd century BCE: the Hellenistic world is characterized by Seleucid fragmentation, Ptolemaic dominance, and the rise of new powers like Parthia. Rome is consolidating Mediterranean hegemony. Carthage is rebuilding through Iberian expansion. China's Han Dynasty is in its early consolidation phase.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Detailed East Asian events"
+  ],
+  "events": [
+    {
+      "id": "-239-001",
+      "title": "Hamilcar Barca's Iberian campaigns continue; expansion of Carthaginian power base",
+      "region": "Iberian Peninsula",
+      "coordinates_approx": "38.0, -4.0",
+      "category": "military",
+      "description": "Hamilcar Barca continues his military campaigns in Iberia, further expanding Carthaginian territorial control and establishing a strong economic and military base. These campaigns are crucial to Carthage's recovery following the First Punic War. Hamilcar's success in Iberia will eventually provide the foundation for his son Hannibal's military campaigns against Rome in the Second Punic War. The campaigns involve both military conquest and the establishment of Carthaginian administrative and economic structures.",
+      "key_figures": [
+        "Hamilcar Barca (Carthaginian general)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Book 2)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (Books 21\u201330)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hamilcar's Iberian campaigns are well-attested in ancient sources, but the specific events of 239 BCE are not individually documented. The year falls within the traditionally dated period of his campaigns.",
+      "cross_references": [
+        "-237-001",
+        "-238-001"
+      ]
+    },
+    {
+      "id": "-239-002",
+      "title": "Seleucid Empire remains fragmented; Laodicean War continues without resolution",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "The Laodicean War between Seleucus II and Antiochus Hierax persists, with the Seleucid Empire remaining divided between eastern and western factions. This prolonged civil conflict continues to weaken Seleucid power and allow rival powers\u2014Parthia, Egypt, and Galatian tribes\u2014to expand their influence. The fragmentation of the Seleucid Empire represents a critical turning point in Hellenistic geopolitics, marking the beginning of the empire's long decline.",
+      "key_figures": [
+        "Seleucus II Callinicus",
+        "Antiochus Hierax"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader conflict is well-attested, but specific events in 239 BCE are not individually documented.",
+      "cross_references": [
+        "-235-001"
+      ]
+    },
+    {
+      "id": "-239-003",
+      "title": "Ptolemy III Euergetes continues to rule Egypt at the height of Ptolemaic power",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy III Euergetes continues his reign as the most powerful ruler in the Eastern Mediterranean. Egypt's naval dominance, economic strength, and territorial holdings (including Cyprus, the Levantine coast, and parts of Anatolia) make it the preeminent Hellenistic power. Ptolemy III's reign represents the apex of Ptolemaic territorial expansion and influence before the dynasty's gradual decline in subsequent centuries.",
+      "key_figures": [
+        "Ptolemy III Euergetes (Ptolemaic king of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrological evidence from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy III's reign (246\u2013221 BCE) is well-documented in papyri and later literary sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Hamilcar Barca's Iberian campaigns remains debated. Some scholars place the beginning of his campaigns earlier or later than the traditional date of 237 BCE. Additionally, the extent of Carthaginian control and the nature of indigenous resistance are subjects of scholarly debate. The Laodicean War's exact duration and resolution are also uncertain in ancient sources.",
+  "historiographic_note": "Documentation for 239 BCE is moderate but unevenly distributed. The Hellenistic Mediterranean is relatively well-documented through Greek and Roman sources, though these are all written well after the events. Carthaginian sources are entirely lost. Egyptian papyri provide contemporary evidence of economic and administrative activity. The Iberian Peninsula has limited written records for this period; knowledge comes from later classical sources and archaeology. Sub-Saharan Africa, Northern Europe, and the Americas have no written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-239-001",
+      "to": "-238-001",
+      "relation": "part_of",
+      "note": "Continuation of Hamilcar's Iberian campaigns"
+    },
+    {
+      "from": "-239-001",
+      "to": "-218-001",
+      "relation": "led_to",
+      "note": "Hamilcar's Iberian base eventually enables Hannibal's invasion of Italy"
+    }
+  ]
+}

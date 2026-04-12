@@ -1,0 +1,90 @@
+{
+  "year": -229,
+  "year_label": "229 BCE",
+  "era_context": "The Hellenistic world in a period of regional consolidation; the Seleucid Empire fractured between Seleucus II and Antiochus Hierax; Ptolemaic Egypt under Ptolemy IV; Rome consolidating Italian dominance and preparing for Mediterranean expansion; China under Qin Shi Huang in the midst of unification consolidation; the Mauryan Empire in India in decline.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Most regions outside the Mediterranean and China",
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia",
+    "Persia and the Parthian Empire"
+  ],
+  "events": [
+    {
+      "id": "-229-001",
+      "title": "Seleucid civil conflict and Antiochus Hierax's continued control of Anatolia",
+      "region": "Seleucid Empire (Asia Minor and northern Syria)",
+      "coordinates_approx": "38.96, 35.24",
+      "category": "political",
+      "description": "The Seleucid civil war between Seleucus II and Antiochus Hierax continued unabated. Antiochus Hierax maintained control over Asia Minor and parts of northern Syria, while Seleucus II controlled the southern and eastern portions of the empire. This division prevented unified Seleucid response to external threats and allowed rival powers like Pergamon, Egypt, and emerging Anatolian kingdoms to expand. The conflict would persist until Hierax's death around 226 BCE.",
+      "key_figures": [
+        "Seleucus II Callinicus",
+        "Antiochus Hierax"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories, Book 5",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of the Seleucid civil conflict is well-attested, but precise dating of events within the conflict varies. Uncertainty of \u00b12\u20133 years.",
+      "cross_references": [
+        "Continuation of conflict noted in -225-003 and -227-001"
+      ]
+    },
+    {
+      "id": "-229-002",
+      "title": "Roman consolidation in Italy and preparation for Mediterranean expansion",
+      "region": "Italian Peninsula and Mediterranean",
+      "coordinates_approx": "41.87, 12.57",
+      "category": "political",
+      "description": "Rome, having consolidated control over the Italian peninsula by the early 3rd century BCE, was in a period of preparation for Mediterranean expansion. By 229 BCE, Rome was beginning to assert influence in the Adriatic and preparing for conflicts with Carthage and other Mediterranean powers. The First Punic War (264\u2013241 BCE) had already occurred, and Rome was consolidating its position as a major Mediterranean power. The Second Punic War (218\u2013201 BCE) was still nearly a decade away.",
+      "key_figures": [
+        "Roman Senate and magistrates (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 20\u201321 (covering this period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Book 3 (covering the Second Punic War and its antecedents)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Roman consolidation and preparation for Mediterranean expansion is well-attested. Specific events in 229 BCE are not precisely documented, but the general trajectory is clear.",
+      "cross_references": [
+        "Part of the broader Roman expansion in the Mediterranean (post-264 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific, well-documented events for 229 BCE have been identified. The Seleucid civil conflict and Roman consolidation are attested in general terms but not precisely dated to this year. The year appears to be one of continuation and gradual change rather than major documented events.",
+  "historiographic_note": "229 BCE is poorly documented in surviving sources. The Hellenistic and Roman sources focus on major battles, treaties, and political upheavals; years of consolidation and gradual change are often underrepresented. The year may have been historically significant in local contexts (regional conflicts, administrative changes, cultural developments) that are not preserved in surviving sources. The bias toward political and military events means that economic, social, and cultural developments are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-229-001",
+      "to": "-218-001",
+      "relation": "led_to",
+      "note": "Seleucid weakness from civil conflict contributed to the broader geopolitical conditions leading to the Second Punic War"
+    },
+    {
+      "from": "-229-002",
+      "to": "-218-001",
+      "relation": "led_to",
+      "note": "Roman consolidation and Mediterranean expansion led directly to the Second Punic War with Carthage"
+    }
+  ]
+}
