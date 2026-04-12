@@ -1,0 +1,118 @@
+{
+  "year": -375,
+  "year_label": "375 BCE",
+  "era_context": "The Classical Greek world in the early 4th century BCE, following the Corinthian War (395\u2013387 BCE) and the King's Peace. Athens and Sparta remain dominant powers but weakened; Thebes is rising under Epaminondas and the Sacred Band. The Persian Empire under Artaxerxes II remains a major regional force. This is the era of Plato's mature philosophical work and the decline of the Classical polis system.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek/Roman contact",
+    "East Asia (contemporary with Warring States China, but minimal Greek sources)",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-375-001",
+      "title": "Theban hegemony consolidates; Epaminondas emerges as military leader",
+      "region": "Boeotia, Central Greece",
+      "coordinates_approx": "38.3, 23.3",
+      "category": "political",
+      "description": "Following Theban victory at Leuctra (371 BCE) and the subsequent collapse of Spartan dominance, Thebes under Epaminondas and the Sacred Band consolidates power in Boeotia and begins to challenge Athenian and Spartan influence across Greece. By 375 BCE, Theban military reorganization and the oblique phalanx formation are becoming recognized as innovations. This marks the beginning of Theban hegemony in Greece, which will last until Epaminondas' death at Mantinea (362 BCE).",
+      "key_figures": [
+        "Epaminondas (Theban general and statesman)",
+        "Pelopidas (Sacred Band commander)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Epaminondas",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory of Theban rise is well-attested; specific events of 375 BCE are less precisely dated. Leuctra is securely dated to 371 BCE; the consolidation process spans several years around this period.",
+      "cross_references": [
+        "-371-001 (Battle of Leuctra)",
+        "-362-001 (Battle of Mantinea and Epaminondas' death)"
+      ]
+    },
+    {
+      "id": "-375-002",
+      "title": "Artaxerxes II of Persia maintains control over Egypt and the Levant",
+      "region": "Persian Empire, Egypt, Levant",
+      "coordinates_approx": "32.0, 35.0",
+      "category": "political",
+      "description": "Artaxerxes II (r. 405\u2013358 BCE) consolidates Persian control over Egypt following the suppression of Egyptian revolts. The Persian Empire remains the dominant power in the eastern Mediterranean and Near East. Phoenician cities remain under Persian suzerainty, and the Levantine coast is firmly integrated into the imperial system. This period represents relative stability in the Persian Empire before the rise of Macedon.",
+      "key_figures": [
+        "Artaxerxes II (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Artaxerxes",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reign of Artaxerxes II is well-documented in later Greek sources; specific events of 375 BCE are not precisely dated but fit within the broader pattern of Persian stability in this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-375-003",
+      "title": "Plato's Academy continues as center of philosophical inquiry in Athens",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "cultural",
+      "description": "Plato's Academy, founded c. 387 BCE, is now well-established as the premier philosophical institution in the Greek world. By 375 BCE, Plato is in his early 50s and has completed or is completing works including the Republic and is working on the Phaedrus and Symposium. The Academy attracts students from across the Greek world and represents a new model of sustained intellectual community. This institution will profoundly influence Western philosophy for centuries.",
+      "key_figures": [
+        "Plato (philosopher)",
+        "Aristotle (student, joined c. 367 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plato's dialogues (internal chronological markers)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and operation of Plato's Academy in this period is well-attested. The specific works being composed are inferred from internal evidence and later biographical tradition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Theban military innovations and the exact chronology of Epaminondas' rise is debated among modern scholars. Some sources place key developments slightly earlier or later than 375 BCE. The significance attributed to Theban hegemony in later Greek historiography may reflect Athenian and Spartan bias in surviving sources. Xenophon's account of this period is known to be sympathetic to Sparta and may understate Theban achievements.",
+  "historiographic_note": "The historical record for 375 BCE is dominated by Greek sources, particularly Xenophon and later compilations by Diodorus and Plutarch. These sources are biased toward Greek political and military history and provide limited information about the Persian Empire, Egypt, or regions beyond Greek contact. The Academy's intellectual work is known primarily through Plato's own writings and much later biographical tradition. Archaeological evidence for this specific year is minimal; most material evidence is dated to broader periods rather than individual years.",
+  "graph_edges": [
+    {
+      "from": "-375-001",
+      "to": "-371-001",
+      "relation": "led_to",
+      "note": "Theban consolidation of power led to the decisive victory at Leuctra"
+    },
+    {
+      "from": "-375-003",
+      "to": "-367-001",
+      "relation": "led_to",
+      "note": "Plato's Academy continues and will receive Aristotle as a student"
+    }
+  ]
+}

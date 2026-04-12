@@ -1,0 +1,126 @@
+{
+  "year": -380,
+  "year_label": "380 BCE",
+  "era_context": "The Classical Greek world in the early 4th century BCE, following the Corinthian War (395\u2013387 BCE) and the King's Peace. Athens and Sparta remain major powers but weakened; Thebes is rising under Epaminondas. The Persian Empire under Artaxerxes II remains a dominant regional force. This is the era of Plato's mature philosophical work and the decline of the Classical polis system.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek/Roman contact",
+    "East Asia (limited Greek awareness)",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-380-001",
+      "title": "Plato founds the Academy in Athens",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.98, 23.73",
+      "category": "cultural",
+      "description": "Plato establishes his philosophical school, the Academy, in a gymnasium northwest of Athens. This institution becomes one of the most influential centers of learning in the ancient world, operating for nearly 900 years. The Academy emphasizes mathematics, dialectic, and the pursuit of philosophical truth, establishing a model for higher education that influences Western thought profoundly. Plato's school attracts students from across the Greek world and becomes a rival to Isocrates' rhetorical school.",
+      "key_figures": [
+        "Plato (philosopher, founder)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives and Opinions of Eminent Philosophers, Book III",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Philodemus, History of the Academy (fragmentary)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plato's dialogues (internal references)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The founding date of 387 BCE is more commonly cited in modern scholarship; 380 BCE represents the period of the Academy's consolidation and growth. Exact founding date is uncertain by \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-380-002",
+      "title": "Theban hegemony consolidates under Epaminondas",
+      "region": "Boeotia, Central Greece",
+      "coordinates_approx": "38.32, 23.63",
+      "category": "political",
+      "description": "Epaminondas emerges as the dominant military and political figure in Thebes, beginning a period of Theban ascendancy in Greek affairs. Following the Corinthian War settlement, Thebes begins to challenge Spartan hegemony and reorganize the Boeotian League under its leadership. This period marks the beginning of Thebes' rise to prominence, culminating in the Battle of Leuctra (371 BCE). Epaminondas' reforms and military innovations reshape Greek warfare.",
+      "key_figures": [
+        "Epaminondas (Theban general and statesman)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Epaminondas",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Epaminondas' rise to prominence is well-attested, though the precise chronology of his early political consolidation varies by source. The period 380\u2013375 BCE represents his growing influence.",
+      "cross_references": [
+        "Relates to -371-001 (Battle of Leuctra)"
+      ]
+    },
+    {
+      "id": "-380-003",
+      "title": "Artaxerxes II consolidates Persian control in Egypt",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "26.82, 30.80",
+      "category": "political",
+      "description": "Following the Egyptian revolt under Amyrtaeus (404\u2013399 BCE), Artaxerxes II reasserts Persian control over Egypt, which had been lost for several decades. The reconquest is gradual and involves military campaigns and diplomatic negotiations. Egypt remains a contested and unstable province within the Persian Empire, with periodic revolts. This reassertion of control is part of Artaxerxes II's broader consolidation of the Persian Empire after the Anabasis crisis.",
+      "key_figures": [
+        "Artaxerxes II (Persian Great King)",
+        "Phrynichus (Persian general)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book XV",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Artaxerxes",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian demotic papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The reconquest of Egypt occurred over several years (c. 380\u2013343 BCE). The precise dating of individual campaigns is uncertain; 380 BCE represents the period of renewed Persian military pressure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The founding date of Plato's Academy is traditionally given as 387 BCE in many sources, not 380 BCE. Modern scholarship places the founding closer to 387 BCE, with 380 BCE representing a later phase of consolidation. The exact date remains debated among scholars, with some sources suggesting the Academy developed gradually rather than being formally 'founded' in a single year. The significance of Epaminondas' role in 380 BCE specifically is somewhat overstated; his major military innovations and victories came later, particularly after 371 BCE.",
+  "historiographic_note": "The historical record for 380 BCE is dominated by Greek sources, particularly Xenophon and later compilations by Diodorus and Plutarch. There is a significant bias toward political and military history of the Greek city-states; economic and social history are underrepresented. Egyptian sources exist but are sparse for this period. Persian sources are largely lost, and our knowledge of Persian affairs depends on Greek accounts, which are often hostile or incomplete. The Academy's founding is well-attested in later sources but lacks contemporary documentation of the exact date.",
+  "graph_edges": [
+    {
+      "from": "-380-001",
+      "to": "-387-001",
+      "relation": "part_of",
+      "note": "Academy's founding is part of broader intellectual ferment in late Classical Athens"
+    },
+    {
+      "from": "-380-002",
+      "to": "-371-001",
+      "relation": "led_to",
+      "note": "Epaminondas' consolidation of power leads to Theban military dominance and the Battle of Leuctra"
+    }
+  ]
+}

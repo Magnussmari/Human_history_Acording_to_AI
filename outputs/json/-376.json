@@ -1,0 +1,115 @@
+{
+  "year": -376,
+  "year_label": "376 BCE",
+  "era_context": "The Classical Greek world in the early 4th century BCE, in the period between the Corinthian War and the rise of Theban hegemony. Athens is recovering from the Peloponnesian War and the oligarchic period; Sparta remains militarily dominant but politically weakened. The Persian Empire under Artaxerxes II is stable. This is a transitional period in Greek history before the major power shifts of the 370s BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Central Asia and the Steppe",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-376-001",
+      "title": "Athens rebuilds naval power and democratic institutions",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "In the years following the restoration of democracy (403 BCE), Athens continues to rebuild its naval fleet and reassert influence in the Aegean. By 376 BCE, Athenian naval power is recovering, and the city is beginning to form the Second Athenian League (founded formally in 378 BCE), a confederation of Greek city-states allied against Spartan hegemony. This represents Athens' gradual recovery from the devastation of the Peloponnesian War and the oligarchic period.",
+      "key_figures": [
+        "Chabrias (Athenian general and admiral)",
+        "Iphicrates (Athenian general)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Athenian recovery is well-attested; specific events of 376 BCE are not precisely dated in surviving sources.",
+      "cross_references": [
+        "-378-001 (Founding of Second Athenian League)"
+      ]
+    },
+    {
+      "id": "-376-002",
+      "title": "Spartan military dominance begins to face challenges",
+      "region": "Peloponnese, Greece",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "political",
+      "description": "Sparta's position as the dominant Greek military power is beginning to erode. The Corinthian War (395\u2013387 BCE) had already weakened Spartan resources and prestige. By 376 BCE, Sparta faces growing challenges from Athens' naval recovery and Thebes' rising power. The Spartan system, based on the subjugation of the helot population and the maintenance of a warrior elite, is becoming increasingly difficult to sustain. This marks the beginning of the end of Spartan hegemony in Greece.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory of Spartan decline is well-attested; the specific dating of individual events is less precise.",
+      "cross_references": [
+        "-375-001 (Theban consolidation)",
+        "-371-001 (Battle of Leuctra)"
+      ]
+    },
+    {
+      "id": "-376-003",
+      "title": "Dionysius I of Syracuse consolidates power in Sicily",
+      "region": "Sicily, Syracuse",
+      "coordinates_approx": "37.07, 15.29",
+      "category": "political",
+      "description": "Dionysius I (r. 405\u2013367 BCE) continues to consolidate his tyrannical rule over Syracuse and much of Sicily. By 376 BCE, he has established a powerful military state and is engaged in ongoing conflicts with Carthage for control of the island. Dionysius is known for his military innovations, including the use of catapults and other siege machinery. His rule represents a new model of Hellenistic tyranny that will influence later political developments.",
+      "key_figures": [
+        "Dionysius I (Tyrant of Syracuse)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, various works",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reign of Dionysius I is well-documented in later sources; specific events of 376 BCE are not precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Athenian naval recovery and the founding of the Second Athenian League is debated. Some sources place key events in 378 BCE rather than 376 BCE. The significance of Spartan decline in this specific year is a matter of historiographic interpretation; some scholars argue that Spartan power remained formidable until Leuctra (371 BCE). Xenophon's account is known to be biased toward Sparta.",
+  "historiographic_note": "The historical record for 376 BCE is dominated by Greek sources, particularly Xenophon and later compilations. These sources focus on political and military history and provide limited information about economic, social, or cultural developments. The record is heavily biased toward the Greek mainland and Sicily; information about the Persian Empire, Egypt, and other regions is minimal. Archaeological evidence for this specific year is not available; dating is based on literary sources and chronological reconstruction.",
+  "graph_edges": [
+    {
+      "from": "-376-001",
+      "to": "-378-001",
+      "relation": "part_of",
+      "note": "Athenian naval recovery is part of the broader Second Athenian League project"
+    },
+    {
+      "from": "-376-002",
+      "to": "-371-001",
+      "relation": "led_to",
+      "note": "Spartan decline culminates in defeat at Leuctra"
+    }
+  ]
+}

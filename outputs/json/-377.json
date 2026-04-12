@@ -1,0 +1,116 @@
+{
+  "year": -377,
+  "year_label": "377 BCE",
+  "era_context": "The Classical Greek world in the early 4th century BCE, in the period of transition between Spartan and Theban hegemony. The Second Athenian League is being consolidated; Thebes is rising as a military power. The Persian Empire remains stable under Artaxerxes II. This is a period of significant political realignment in the Greek world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Central Asia and the Steppe",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-377-001",
+      "title": "Second Athenian League consolidates membership and structure",
+      "region": "Athens, Aegean",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "The Second Athenian League, formally established in 378 BCE, continues to expand and consolidate its membership in 377 BCE. The League is designed as a counterweight to Spartan hegemony and includes numerous Aegean island states and coastal cities. Unlike the earlier Delian League, the Second Athenian League is theoretically based on equality among members, though Athens clearly dominates. This represents Athens' reassertion as a major power in the Greek world.",
+      "key_figures": [
+        "Chabrias (Athenian general)",
+        "Timotheus (Athenian general and admiral)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions recording League decrees",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence and consolidation of the Second Athenian League is well-attested; specific events of 377 BCE are not precisely dated in surviving sources.",
+      "cross_references": [
+        "-378-001 (Founding of Second Athenian League)"
+      ]
+    },
+    {
+      "id": "-377-002",
+      "title": "Thebes and Athens form alliance against Sparta",
+      "region": "Central Greece, Boeotia",
+      "coordinates_approx": "38.3, 23.3",
+      "category": "political",
+      "description": "In response to Spartan aggression and the threat of Spartan hegemony, Thebes and Athens form a military alliance. This alliance is significant because it unites two of the major Greek powers against Sparta. The alliance will prove crucial in the coming conflicts, particularly at the Battle of Leuctra (371 BCE). This represents a major shift in Greek political alignments.",
+      "key_figures": [
+        "Epaminondas (Theban leader)",
+        "Chabrias (Athenian general)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The alliance between Thebes and Athens is attested in sources; the precise dating to 377 BCE is approximate and may be off by a year or two.",
+      "cross_references": [
+        "-375-001 (Theban consolidation)",
+        "-371-001 (Battle of Leuctra)"
+      ]
+    },
+    {
+      "id": "-377-003",
+      "title": "Artaxerxes II consolidates Persian control over Egypt",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Artaxerxes II continues to maintain firm control over Egypt, which had been reconquered by the Persians after a period of independence. The Persian administrative system is well-established in Egypt, and the country is integrated into the imperial tax and military system. This represents the height of Persian power in Egypt before the rise of Macedon.",
+      "key_figures": [
+        "Artaxerxes II (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general situation of Persian control over Egypt is well-attested; specific events of 377 BCE are not precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the Theban-Athenian alliance is uncertain; some sources place it earlier or later than 377 BCE. The significance of this alliance in later historiography may be exaggerated by sources written after Leuctra, which emphasize the importance of the alliance in retrospect. The Second Athenian League's structure and membership are debated among modern scholars, with some questioning the degree of Athenian dominance.",
+  "historiographic_note": "The historical record for 377 BCE is dominated by Greek sources, particularly Xenophon and later compilations. These sources focus on political and military history and provide limited information about economic, social, or cultural developments. Epigraphic evidence (inscriptions) provides some contemporary documentation of League decrees. The record is heavily biased toward the Greek mainland; information about the Persian Empire, Egypt, and other regions is minimal.",
+  "graph_edges": [
+    {
+      "from": "-377-001",
+      "to": "-378-001",
+      "relation": "part_of",
+      "note": "Consolidation of the Second Athenian League"
+    },
+    {
+      "from": "-377-002",
+      "to": "-371-001",
+      "relation": "led_to",
+      "note": "Theban-Athenian alliance leads to victory at Leuctra"
+    }
+  ]
+}

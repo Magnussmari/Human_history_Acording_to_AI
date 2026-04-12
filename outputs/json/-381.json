@@ -1,0 +1,121 @@
+{
+  "year": -381,
+  "year_label": "381 BCE",
+  "era_context": "Early 4th century BCE Greece, in the aftermath of the Corinthian War and the King's Peace (387 BCE). The Greek city-state system is fragmenting; Sparta's hegemony is weakening, and new powers like Thebes and Syracuse are rising. Philosophically, this is the era of Plato's mature work and the pre-Aristotelian Academy. The Persian Empire under Artaxerxes II remains stable but faces periodic challenges.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Central Asia (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "-381-001",
+      "title": "Dionysius I of Syracuse consolidates Sicilian power",
+      "region": "Syracuse, Sicily",
+      "coordinates_approx": "37.07, 15.29",
+      "category": "political",
+      "description": "Dionysius I, tyrant of Syracuse, continues his consolidation of power in Sicily and southern Italy. By 381 BCE, he has established Syracuse as the dominant Greek power in the western Mediterranean, rivaling Athens and Sparta in influence. His reign (405\u2013367 BCE) is marked by military expansion, naval power, and cultural patronage. Dionysius I represents a new model of Hellenistic monarchy that will influence later dynastic systems. He maintains a large mercenary army and develops advanced siege warfare technology.",
+      "key_figures": [
+        "Dionysius I (tyrant of Syracuse)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Books XIII\u2013XIV",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Dion",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dionysius I's reign and consolidation of power are well-attested. The specific events of 381 BCE are less clearly documented than his earlier military campaigns or later conflicts.",
+      "cross_references": []
+    },
+    {
+      "id": "-381-002",
+      "title": "Spartan hegemony faces challenges in Greece",
+      "region": "Peloponnese, Greece",
+      "coordinates_approx": "37.63, 23.35",
+      "category": "political",
+      "description": "Sparta's position as hegemon of Greece continues to erode following the Corinthian War. The King's Peace (387 BCE) has failed to establish lasting stability; various Greek city-states resist Spartan dominance. Thebes, Athens, and Corinth form shifting alliances against Spartan power. This period represents the beginning of the end of Spartan hegemony, which will be decisively broken at the Battle of Leuctra in 371 BCE. Spartan military resources are stretched thin by maintaining control over the Peloponnese and resisting challenges from other powers.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Spartan decline is well-documented; specific events of 381 BCE are less clearly attested.",
+      "cross_references": [
+        "Relates to -380-002 (Theban rise)"
+      ]
+    },
+    {
+      "id": "-381-003",
+      "title": "Athenian naval recovery and Second Athenian League formation",
+      "region": "Athens, Aegean Sea",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Athens begins to recover from its defeat in the Peloponnesian War (404 BCE) and the subsequent oligarchic period. The city rebuilds its naval power and begins to form alliances with other Greek city-states against Spartan hegemony. The Second Athenian League (or Confederacy) is in its early stages of formation, with Athens seeking to establish a maritime alliance without the imperial dominance that characterized the earlier Delian League. This represents Athens' gradual return to prominence in Greek affairs.",
+      "key_figures": [
+        "Callistratus (Athenian statesman)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions (IG II\u00b2)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Second Athenian League's formation is traditionally dated to 378/377 BCE, with 381 BCE representing the earlier phase of alliance-building and naval recovery.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Second Athenian League is more commonly dated to 378/377 BCE rather than 381 BCE. The events of 381 BCE in Athens are less clearly documented than the formal establishment of the League. Spartan hegemony, while declining, was not yet decisively broken in 381 BCE; the major turning point came with the Battle of Leuctra in 371 BCE. The characterization of this period as one of clear Spartan decline may overstate the case for 381 BCE specifically.",
+  "historiographic_note": "The historical record for 381 BCE is dominated by Greek sources, particularly Xenophon's Hellenica, which provides a contemporary account of Greek political and military affairs. However, Xenophon's narrative is selective and focuses on major political figures and military campaigns. Economic and social history are underrepresented. Sources for Sicily and the western Mediterranean are primarily later compilations by Diodorus. Persian sources are largely lost. The record is heavily biased toward the Greek mainland and Aegean world; events in other regions are poorly documented or absent.",
+  "graph_edges": [
+    {
+      "from": "-381-002",
+      "to": "-371-001",
+      "relation": "led_to",
+      "note": "Spartan hegemony's erosion culminates in the Battle of Leuctra"
+    },
+    {
+      "from": "-381-003",
+      "to": "-378-001",
+      "relation": "led_to",
+      "note": "Athenian naval recovery leads to formal establishment of Second Athenian League"
+    }
+  ]
+}
