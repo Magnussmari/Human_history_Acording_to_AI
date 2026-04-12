@@ -1,0 +1,133 @@
+{
+  "year": 340,
+  "year_label": "340 BCE",
+  "era_context": "The late Classical period in Greece, dominated by the rise of Macedon under Philip II. The Persian Empire remains a major power in Asia Minor and the Levant under Artaxerxes III. In China, the Warring States period continues with intense interstate competition. This is a pivotal decade for the geopolitical reordering of the Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek and Roman awareness",
+    "Central Asia beyond Persian tributary networks",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "340-001",
+      "title": "Siege of Perinthus by Philip II of Macedon",
+      "region": "Thrace, northern Aegean coast (modern Turkey/Bulgaria border)",
+      "coordinates_approx": "41.45, 27.23",
+      "category": "military",
+      "description": "Philip II of Macedon besieged the Greek city of Perinthus, a strategic port on the Propontis (Sea of Marmara) and ally of Athens. The siege lasted several months and was ultimately unsuccessful, as the city received support from Athens and possibly Persian naval assistance. This campaign was part of Philip's broader strategy to dominate Thrace and threaten Greek city-states. The failure to take Perinthus marked a rare setback for Philip but did not halt his expansion.",
+      "key_figures": [
+        "Philip II of Macedon (attacker)",
+        "Demosthenes (Athenian orator, vocal opponent of Philip)"
+      ],
+      "sources": [
+        {
+          "name": "Demosthenes, Philippics (speeches against Philip)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (compiled later but drawing on contemporary sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Philip (biographical compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Attested in multiple ancient sources; Demosthenes' contemporary speeches provide direct evidence of the siege and its political context.",
+      "cross_references": [
+        "339-001 (Siege of Byzantium, continuation of Philip's Thracian campaign)"
+      ]
+    },
+    {
+      "id": "340-002",
+      "title": "Artaxerxes III's Egyptian campaign and reconquest",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "military",
+      "description": "Artaxerxes III Ochus of Persia launched a major military campaign to reconquer Egypt, which had rebelled under native pharaohs (the 30th Dynasty). The campaign involved a large army and navy. After initial setbacks, Persian forces under the general Bagoas achieved success, though the final conquest may have extended into 339 BCE. The reconquest reasserted Persian control over Egypt and its wealth, though the occupation would prove unstable.",
+      "key_figures": [
+        "Artaxerxes III Ochus (Persian Great King)",
+        "Bagoas (Persian general and eunuch)",
+        "Nectanebo II (Egyptian pharaoh, resisting Persian reconquest)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica XVI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Artaxerxes",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions and papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is attested in Greek historiographic sources, but dating between 340\u2013339 BCE is approximate. Egyptian sources are fragmentary. The final conquest may have occurred in 339 BCE.",
+      "cross_references": [
+        "339-002 (Continuation or completion of Egyptian reconquest)"
+      ]
+    },
+    {
+      "id": "340-003",
+      "title": "Demosthenes delivers the First Philippic",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Demosthenes, the Athenian orator, delivered his First Philippic (Olynthiac speech) warning Athens of the threat posed by Philip II's expansion in Macedon and Thrace. The speech urged military action and resource mobilization against Philip's growing power. This oration became a landmark in ancient political rhetoric and reflects the intense anxiety among Greek city-states about Macedonian hegemony. The speech had limited immediate political effect but established Demosthenes as the leading voice against Philip.",
+      "key_figures": [
+        "Demosthenes (Athenian orator and statesman)"
+      ],
+      "sources": [
+        {
+          "name": "Demosthenes, First Philippic (Olynthiac I)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Demosthenes",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The text of the First Philippic survives; however, some scholars debate whether it was delivered in 351 or 349 BCE. The traditional dating to 349 BCE is more widely accepted, but 340 BCE is also proposed by some sources. Certainty is moderate due to dating ambiguity.",
+      "cross_references": [
+        "339-003 (Second Philippic, continuation of Demosthenes' anti-Macedonian campaign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Demosthenes' First Philippic is disputed; some scholars place it in 351 BCE or 349 BCE rather than 340 BCE. The exact chronology of Artaxerxes III's Egyptian campaign is uncertain, with some sources suggesting it began earlier (342 BCE) or concluded later (339 BCE). The significance of the Perinthus siege has been debated: while traditionally viewed as a major Macedonian setback, some modern scholars argue Philip's strategic objectives were achieved despite the tactical failure.",
+  "historiographic_note": "The historical record for 340 BCE is dominated by Greek and Persian sources, reflecting the bias of surviving written traditions. Demosthenes' speeches are primary sources but are rhetorical and politically motivated, not neutral historical accounts. Egyptian sources are sparse and fragmentary. Chinese and Indian history for this period are documented in their respective traditions but are underrepresented in Western historiography. The record is skewed toward elite political and military events; economic, social, and cultural developments are less visible.",
+  "graph_edges": [
+    {
+      "from": "340-001",
+      "to": "339-001",
+      "relation": "led_to",
+      "note": "The failed siege of Perinthus was followed by Philip's siege of Byzantium in 339 BCE, continuing his Thracian campaign."
+    },
+    {
+      "from": "340-003",
+      "to": "338-001",
+      "relation": "led_to",
+      "note": "Demosthenes' anti-Macedonian rhetoric contributed to the political context leading to the Battle of Chaeronea in 338 BCE."
+    },
+    {
+      "from": "340-002",
+      "to": "339-002",
+      "relation": "part_of",
+      "note": "The Egyptian reconquest campaign likely extended across 340\u2013339 BCE."
+    }
+  ]
+}

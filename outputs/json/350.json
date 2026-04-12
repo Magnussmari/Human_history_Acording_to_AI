@@ -1,0 +1,128 @@
+{
+  "year": 350,
+  "year_label": "350 CE",
+  "era_context": "The mid-4th century CE spans the reign of Constantius II (337\u2013361 CE) in the Eastern Roman Empire and a period of rapid succession in the West. Christianity is now the dominant religion of the empire following Constantine's conversion. The Sasanid Persian Empire under Shapur II is at its height, conducting major military campaigns. In China, the Eastern Jin Dynasty controls the south while the Northern Wei and other northern states fragment the north. This is a period of religious consolidation, military pressure on imperial frontiers, and significant theological controversy within Christianity.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record for this specific year)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "350-001",
+      "title": "Usurpation of Magnentius in the Western Roman Empire",
+      "region": "Roman Empire (Gaul, Britain, Hispania)",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "political",
+      "description": "Magnentius, a Roman general of mixed Germanic and Roman descent, revolted against Constans I and seized control of the Western Roman Empire. He was proclaimed emperor by his troops in Augustodunum (modern Autun) and rapidly consolidated power across Gaul, Britain, and Hispania. This usurpation triggered a civil war that would dominate the 350s, fragmenting imperial authority in the West and forcing Constantius II to redirect military resources from the Persian frontier. The revolt reflected deep discontent with Constans' rule and the instability of succession mechanisms in the late Roman Empire.",
+      "key_figures": [
+        "Magnentius (usurper, general)",
+        "Constans I (deposed emperor)",
+        "Constantius II (Eastern emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae (History of Rome)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eutropius, Breviarium",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary sources confirm the usurpation in 350 CE. Ammianus Marcellinus, writing in the late 4th century, provides detailed narrative. The date is secure.",
+      "cross_references": [
+        "Follows from 337-001 (Constantine's death and succession crisis)",
+        "Led to 351-001 (Battle of Mursa Major)"
+      ]
+    },
+    {
+      "id": "350-002",
+      "title": "Shapur II's Campaign Against the Kushans and Eastern Frontier",
+      "region": "Sasanid Persian Empire (Eastern frontier)",
+      "coordinates_approx": "34.0, 62.0",
+      "category": "military",
+      "description": "Shapur II, the Sasanid Great King, conducted military campaigns against the Kushans and other eastern enemies to secure the Sasanid frontier. This campaign was part of Shapur II's broader strategy to consolidate Sasanid power and eliminate threats from Central Asia. The campaign demonstrated Sasanid military organization and Shapur II's aggressive expansionism, which would later be directed against the Roman Empire. These eastern victories strengthened Shapur II's prestige and freed resources for western campaigns.",
+      "key_figures": [
+        "Shapur II (Sasanid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shapur II's eastern campaigns are attested in later sources, but precise dating to 350 CE is approximate. Ammianus places them in the early 350s, but exact chronology is uncertain.",
+      "cross_references": [
+        "Part of broader Sasanid expansion under Shapur II (309\u2013379 CE)"
+      ]
+    },
+    {
+      "id": "350-003",
+      "title": "Eastern Jin Dynasty Consolidation Under Yao Xing's Influence",
+      "region": "China (Eastern Jin Dynasty)",
+      "coordinates_approx": "32.0, 118.0",
+      "category": "political",
+      "description": "In China, the Eastern Jin Dynasty continued its rule over southern China, though the period was marked by internal factional struggles among the aristocratic families (particularly the Wang and Xie clans) who wielded real power behind the throne. The emperor remained largely ceremonial. This period saw continued cultural flourishing, including advances in calligraphy, painting, and Buddhist philosophy, even as political fragmentation in the north intensified. The Eastern Jin maintained a precarious balance between these powerful families.",
+      "key_figures": [
+        "Emperor Kangdi of Eastern Jin (r. 342\u2013344 CE) or successor",
+        "Wang Xifeng (influential general and politician)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Jin (Jin Shu), compiled by Fang Xuanling et al.",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Eastern Jin political history is well-documented in Chinese sources, but specific events in 350 CE are less precisely dated. The general context of aristocratic factionalism is confirmed.",
+      "cross_references": [
+        "Part of Eastern Jin Dynasty (317\u2013420 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Magnentius' usurpation is sometimes overstated in Western historiography as a 'major crisis.' Modern scholarship (e.g., Heather, The Fall of the Roman Empire) notes that while disruptive, the usurpation did not threaten the empire's fundamental stability\u2014Constantius II successfully defeated Magnentius by 353 CE. The event is better understood as a succession dispute within an intact system rather than a systemic collapse. Additionally, some sources conflate Magnentius with later usurpers; clarity on his specific policies and support base remains limited.",
+  "historiographic_note": "The year 350 CE is well-documented for the Roman Empire through Ammianus Marcellinus and other late antique sources, though these are not contemporary. Chinese sources are abundant but compiled centuries later. Sasanid sources are sparse and often transmitted through later Islamic historiography. The record is biased toward political-military events and elite actors; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa and northern Europe are almost entirely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "350-001",
+      "to": "351-001",
+      "relation": "led_to",
+      "note": "Magnentius' usurpation directly triggered the civil war culminating in the Battle of Mursa Major"
+    },
+    {
+      "from": "350-001",
+      "to": "353-001",
+      "relation": "led_to",
+      "note": "Magnentius' defeat and suicide in 353 CE ended the usurpation"
+    },
+    {
+      "from": "350-002",
+      "to": "358-001",
+      "relation": "part_of",
+      "note": "Part of Shapur II's broader military campaigns (350s\u2013360s CE)"
+    }
+  ]
+}

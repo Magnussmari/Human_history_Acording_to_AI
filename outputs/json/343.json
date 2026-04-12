@@ -1,0 +1,91 @@
+{
+  "year": 343,
+  "year_label": "343 CE",
+  "era_context": "The mid-4th century CE saw the Roman Empire divided among Constantine's sons, with Constantius II ruling the East and Constans ruling the West. The Arian controversy dominated ecclesiastical politics. In the East, the Sassanid Persian Empire under Shapur II remained a major military threat. China was fragmented among competing dynasties during the period of disunity.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "343-001",
+      "title": "Council of Serdica (Alternative Dating)",
+      "region": "Serdica (modern Sofia, Bulgaria); Eastern Roman Empire",
+      "coordinates_approx": "42.6977, 23.3219",
+      "category": "religious",
+      "description": "Some sources date the Council of Serdica to 343 CE rather than 345 CE. The council was convened to address the Arian controversy and attempted to reconcile Eastern and Western churches. The council issued canons on ecclesiastical discipline and condemned Arianism, but ultimately deepened the schism between Eastern and Western bishops. The exact date of the council remains disputed among modern scholars, with evidence supporting both 343 and 345 as possible dates.",
+      "key_figures": [
+        "Athanasius of Alexandria (Bishop, anti-Arian leader)",
+        "Hosius of C\u00f3rdoba (papal legate)",
+        "Constantius II (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Socrates Scholasticus, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Theodoret of Cyrus, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The dating of the Council of Serdica is disputed. Some sources place it in 343, others in 345 or 346. The traditional date in some ecclesiastical sources is 343, but modern scholarship is divided. The uncertainty is \u00b12-3 years.",
+      "cross_references": [
+        "345-001 (Alternative dating of the same council)"
+      ]
+    },
+    {
+      "id": "343-002",
+      "title": "Constans I and Constantius II Diplomatic Tensions",
+      "region": "Western and Eastern Roman Empires",
+      "coordinates_approx": "45.0, 15.0",
+      "category": "political",
+      "description": "Tensions between the Western Roman Emperor Constans I and the Eastern Roman Emperor Constantius II increased during this period. The two brothers had divided the empire following Constantine's death in 337, but disputes over territorial boundaries, religious policy, and imperial authority created friction. Constans favored the Nicene position in the Arian controversy, while Constantius II was more sympathetic to Arianism. These theological differences reflected deeper political rivalries. The tensions would eventually lead to military conflict in the following years.",
+      "key_figures": [
+        "Constans I (Western Roman Emperor)",
+        "Constantius II (Eastern Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of tensions between Constans and Constantius is well-attested, but specific events for 343 are not well-documented. The certainty reflects the broader historical context.",
+      "cross_references": [
+        "350-001 (Civil war between Constans and Constantius)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Council of Serdica to 343 is disputed by modern scholarship. Many modern historians prefer 345 or 346 as the date, based on a more careful analysis of the sources. The traditional date of 343 appears in some ecclesiastical sources but may reflect later confusion or conflation with other councils. Additionally, the significance of diplomatic tensions between Constans and Constantius in 343 specifically is unclear; the sources do not provide detailed information about events in this particular year.",
+  "historiographic_note": "The historical record for 343 CE is extremely sparse. Most information comes from later ecclesiastical histories written 50-100 years after the events. Secular political and military history is poorly documented. The sources are heavily weighted toward the Eastern Mediterranean and the imperial court. Archaeological evidence for this specific year is essentially non-existent. The uncertainty about the dating of the Council of Serdica reflects the general unreliability of dating for events in this period.",
+  "graph_edges": [
+    {
+      "from": "343-001",
+      "to": "325-001",
+      "relation": "part_of",
+      "note": "Council of Serdica was convened to enforce the decisions of the Council of Nicaea"
+    },
+    {
+      "from": "343-002",
+      "to": "337-001",
+      "relation": "caused_by",
+      "note": "Tensions between Constans and Constantius resulted from the division of the empire"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "year": 344,
+  "year_label": "344 CE",
+  "era_context": "The mid-4th century CE continued the consolidation of Christianity within the Roman Empire and the deepening of the Arian controversy. Constantius II ruled the Eastern Roman Empire and was engaged in military campaigns against Persia and internal religious conflicts. The Western Roman Empire under Constans was experiencing increasing pressure from Germanic tribes. In China, the Eastern Jin Dynasty was in decline, with regional warlords gaining power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "344-001",
+      "title": "Constans I Visits Rome",
+      "region": "Rome, Western Roman Empire",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "political",
+      "description": "Emperor Constans I, ruler of the Western Roman Empire, made a ceremonial visit to Rome, the first imperial visit to the city in many years. This visit was significant as a symbolic reaffirmation of imperial authority and the importance of Rome as the symbolic center of the empire, even as political power had shifted to other cities. The visit included public ceremonies and demonstrations of imperial power. However, the visit also highlighted the declining military and economic importance of Rome itself, which was no longer the primary seat of imperial administration.",
+      "key_figures": [
+        "Constans I (Western Roman Emperor)",
+        "Prefect of Rome (local administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Ammianus Marcellinus, Res Gestae",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Life of Constantine",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The visit is attested in later sources, but the exact date is uncertain. Some sources place it in 344, others in 343 or 345. The dating is approximate within \u00b11-2 years.",
+      "cross_references": [
+        "337-001 (Division of empire under Constantine's sons)"
+      ]
+    },
+    {
+      "id": "344-002",
+      "title": "Continued Arian-Nicene Disputes in the Eastern Church",
+      "region": "Eastern Roman Empire, Mediterranean",
+      "coordinates_approx": "35.0, 25.0",
+      "category": "religious",
+      "description": "The Arian controversy continued to dominate ecclesiastical politics in the Eastern Roman Empire. Following the Council of Serdica in 345 (or 344, depending on dating), disputes over the nature of Christ and the relationship between the Father and Son remained unresolved. Arian and Nicene factions competed for imperial favor and control of major sees. The controversy was not merely theological but deeply political, with emperors using religious authority to consolidate power and regional bishops using theology to advance their influence.",
+      "key_figures": [
+        "Constantius II (Roman Emperor)",
+        "Athanasius of Alexandria (Nicene leader)",
+        "Eusebius of Nicomedia (Arian leader)"
+      ],
+      "sources": [
+        {
+          "name": "Socrates Scholasticus, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Theodoret of Cyrus, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ongoing nature of the Arian controversy in 344 is well-attested, but specific events for this particular year are not well-documented. The certainty reflects the general historical context rather than specific dated events.",
+      "cross_references": [
+        "325-001 (Council of Nicaea)",
+        "345-001 (Council of Serdica)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Constans I's visit to Rome has been questioned by modern historians. Some scholars argue that the visit was less ceremonially important than later sources suggest and may have been primarily a military or administrative inspection rather than a grand ceremonial occasion. The exact date of the visit is disputed, with sources varying by 1-2 years. Additionally, the portrayal of Constans as a strong emperor has been revised; some modern scholarship emphasizes his military failures and the growing instability of the Western Empire during his reign.",
+  "historiographic_note": "The historical record for 344 CE is very sparse. Most information comes from later ecclesiastical histories written 50-100 years after the events, which are biased toward religious history and theological disputes. Secular political and military history is poorly documented. The sources are heavily weighted toward the Eastern Mediterranean and the imperial court; information about the provinces, the military frontier, and non-Christian populations is minimal. Archaeological evidence for this specific year is essentially non-existent.",
+  "graph_edges": [
+    {
+      "from": "344-001",
+      "to": "337-001",
+      "relation": "part_of",
+      "note": "Constans I's visit to Rome was part of the broader political consolidation following Constantine's death"
+    },
+    {
+      "from": "344-002",
+      "to": "325-001",
+      "relation": "part_of",
+      "note": "Continued disputes over the Council of Nicaea's decisions"
+    }
+  ]
+}
