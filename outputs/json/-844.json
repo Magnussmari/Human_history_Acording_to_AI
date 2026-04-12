@@ -1,0 +1,85 @@
+{
+  "year": -844,
+  "year_label": "844 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns into Syria-Palestine. The Kingdom of Israel under Ahab is at its height; Phoenician city-states (Tyre, Sidon) dominate Mediterranean trade. Egypt is fragmented under the late 22nd Dynasty. This is the era of the first documented large-scale chariot warfare and the emergence of alphabetic writing across the Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources; archaeological record incomplete)",
+    "East Asia (Chinese sources exist but may be underrepresented in Western training data)",
+    "Mesoamerica (archaeological record exists but dating precision varies)"
+  ],
+  "events": [
+    {
+      "id": "-844-001",
+      "title": "Shalmaneser III's Sixth Campaign into Syria-Palestine",
+      "region": "Levant (Syria, Palestine, Phoenicia)",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria conducts his sixth major military campaign westward, targeting the coalition of Syrian and Palestinian kingdoms. This campaign is documented in the Kurkh Monolith inscription and represents Assyrian pressure on the Levantine states. The campaign reinforces Assyrian hegemony over trade routes and tributary relationships, though it does not result in permanent conquest of the region. The campaign is significant for demonstrating the military organization and logistical capacity of the Neo-Assyrian state.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Ahab (King of Israel, likely involved in coalition resistance)"
+      ],
+      "sources": [
+        {
+          "name": "Kurkh Monolith inscription of Shalmaneser III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals (compiled from contemporary records)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Kurkh Monolith is a contemporary royal inscription dating to Shalmaneser III's reign. The year is assigned by Assyrian regnal chronology, which is well-established through astronomical observations and king lists.",
+      "cross_references": [
+        "Relates to broader Assyrian expansion documented in -853-001 (Battle of Qarqar, likely 853 BCE)"
+      ]
+    },
+    {
+      "id": "-844-002",
+      "title": "Phoenician Maritime Trade Expansion",
+      "region": "Eastern Mediterranean, Phoenicia (modern Lebanon/Syria coast)",
+      "coordinates_approx": "33.5, 35.2",
+      "category": "economic",
+      "description": "During this period, Phoenician city-states, particularly Tyre under Hiram I's successors, are at the peak of their maritime commercial dominance. Phoenician merchants establish trading posts and colonies throughout the Mediterranean, including in North Africa, Cyprus, and the Aegean. This era marks the height of Phoenician economic power before Assyrian pressure intensifies. The trade includes purple dye, cedar, tin, and manufactured goods, establishing Phoenician merchants as the dominant commercial power of the era.",
+      "key_figures": [
+        "Hiram I or his successors (Kings of Tyre)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements (Carthage, Cyprus, Sardinia)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek sources (Herodotus, Strabo) on Phoenician colonization",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Phoenician expansion is well-established archaeologically, but precise dating of individual settlements to this specific year is uncertain. The era context is secure; the specific year assignment is conventional.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Shalmaneser III's campaigns remains subject to scholarly debate. Some scholars argue for a 'low chronology' that would shift these events by 50\u2013100 years, though the 'middle chronology' used here (placing Shalmaneser III's reign c. 858\u2013824 BCE) is more widely accepted. The significance of individual campaigns may be overstated in Assyrian royal inscriptions, which are inherently propagandistic. Archaeological evidence for destruction layers attributed to these campaigns is sometimes ambiguous.",
+  "historiographic_note": "The historical record for this year is dominated by Assyrian royal inscriptions, which are biased toward Assyrian military success and may exaggerate the scale of campaigns or resistance. Levantine sources are sparse; the Hebrew Bible provides some context but is not contemporary. Egyptian sources are minimal for this period. Archaeological evidence (destruction layers, settlement patterns) provides some independent verification but is difficult to date precisely to individual years. The record is heavily weighted toward political-military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-844-001",
+      "to": "-843-001",
+      "relation": "part_of",
+      "note": "Shalmaneser III's campaigns were annual or near-annual; this campaign is part of a sustained military strategy"
+    },
+    {
+      "from": "-844-002",
+      "to": "-800-001",
+      "relation": "led_to",
+      "note": "Phoenician commercial dominance eventually undermined by Assyrian expansion and later Persian conquest"
+    }
+  ]
+}

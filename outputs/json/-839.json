@@ -1,0 +1,96 @@
+{
+  "year": -839,
+  "year_label": "839 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns into Syria and the Levant. The Kingdom of Israel under Ahab is at its height; the Aramean states (Damascus, Hamath) are consolidating power. In Greece, the Archaic period is underway; the alphabet is spreading. Egypt is in the Third Intermediate Period, fragmented and declining in international influence.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China's Spring and Autumn period is poorly integrated into Western historical narratives)",
+    "Mesoamerica",
+    "Northern Europe and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-839-001",
+      "title": "Battle of Qarqar (or Karkar)",
+      "region": "Northern Levant (Syria, near the Orontes River)",
+      "coordinates_approx": "35.4, 36.2",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria confronted a coalition of western states including Israel (under Ahab), Damascus (under Hadadezer), Hamath, and others at Qarqar. The Assyrian annals claim victory, but the coalition's ability to field a large force and the lack of Assyrian territorial gains suggest the battle was tactically inconclusive or a strategic check on Assyrian expansion. This is the first contemporary mention of Ahab of Israel in Assyrian records and provides crucial synchronization between Levantine and Mesopotamian chronologies.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Ahab (King of Israel)",
+        "Hadadezer (King of Damascus)"
+      ],
+      "sources": [
+        {
+          "name": "Monolith Inscription of Shalmaneser III (Kurkh Monolith)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals (cuneiform records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is attested in contemporary Assyrian epigraphic sources. The date 839 BCE is derived from Assyrian king-list chronology, which is well-anchored to astronomical observations and later Babylonian records. Margin of error is \u00b11 year.",
+      "cross_references": [
+        "Relates to -838-001 (Shalmaneser's continued campaigns)",
+        "Provides synchronization with -839-002 (Ahab's reign in Israel)"
+      ]
+    },
+    {
+      "id": "-839-002",
+      "title": "Reign of Ahab of Israel (flourit)",
+      "region": "Kingdom of Israel (Levant)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Ahab, son of Omri, rules the Kingdom of Israel during a period of relative prosperity and military strength. He is remembered in biblical tradition for his marriage to Jezebel (daughter of the Phoenician king of Tyre) and his conflicts with the prophet Elijah over religious practice. Archaeologically, the Omride dynasty (Omri and Ahab) is credited with significant building projects, including fortifications and administrative centers. Ahab's appearance in the Qarqar inscription confirms his historical existence and international prominence.",
+      "key_figures": [
+        "Ahab (King of Israel)",
+        "Jezebel (Queen, Phoenician princess)",
+        "Elijah (Prophet, biblical tradition)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 16\u201322 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Kurkh Monolith of Shalmaneser III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Samaria and other Omride sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ahab's existence and approximate reign dates are confirmed by Assyrian sources. The biblical narrative is much later (compiled in the 7th\u20136th centuries BCE or later) and contains legendary elements, but the core political facts are corroborated.",
+      "cross_references": [
+        "-839-001 (Battle of Qarqar)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Assyrian annals of Shalmaneser III claim a decisive victory at Qarqar, but modern scholars debate whether this was truly a victory or a stalemate. The coalition's continued independence and Assyria's failure to advance further into the Levant in subsequent years suggest the Assyrian account may be propagandistic. Additionally, the biblical narrative of Ahab emphasizes his religious conflicts and moral failings, while Assyrian sources present him as a significant military power\u2014these are not contradictory but reflect different historiographic purposes.",
+  "historiographic_note": "The historical record for this year is anchored by Assyrian administrative and military records, which are contemporary and relatively objective (though propagandistic in intent). The biblical narrative provides cultural and religious context but was compiled centuries later and reflects theological rather than purely historical concerns. Archaeological evidence from the Levant (particularly the Omride sites) corroborates the political and economic prominence of Israel in this period. The record is heavily weighted toward the Near East; events in Egypt, Greece, and other regions are either undocumented or poorly synchronized to this specific year.",
+  "graph_edges": [
+    {
+      "from": "-839-001",
+      "to": "-838-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's continued campaigns in the Levant following Qarqar"
+    },
+    {
+      "from": "-839-002",
+      "to": "-839-001",
+      "relation": "part_of",
+      "note": "Ahab's participation in the Qarqar coalition"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "year": -841,
+  "year_label": "841 BCE",
+  "era_context": "Iron Age II Levant. Jehu (if the dating is correct) is consolidating power in Israel following his recent coup. Shalmaneser III continues his military campaigns in the region. The Levantine states are under increasing Assyrian pressure. Phoenician trade networks continue but are disrupted by military campaigns. Egypt remains fragmented.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Most of the Levant outside Assyrian records"
+  ],
+  "events": [
+    {
+      "id": "-841-001",
+      "title": "Jehu's Consolidation of Power in Israel",
+      "region": "Kingdom of Israel (Palestine)",
+      "coordinates_approx": "35.5, 32.5",
+      "category": "political",
+      "description": "Following his coup in the previous year (if dating is correct), Jehu consolidates his control over the Kingdom of Israel. According to biblical sources, he purges supporters of the previous dynasty and implements religious reforms, including the destruction of Baal temples and the promotion of Yahwism. The consolidation is marked by internal political upheaval and potential instability. Jehu's reign marks a shift in Israel's political and religious orientation.",
+      "key_figures": [
+        "Jehu (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (2 Kings 10)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The biblical account is not contemporary and is written from a particular religious perspective. The dating is uncertain and based on correlation with Assyrian records.",
+      "cross_references": [
+        "Related to -842-002 (Jehu's coup)"
+      ]
+    },
+    {
+      "id": "-841-002",
+      "title": "Shalmaneser III's Ninth Campaign into the Levant",
+      "region": "Levant (Syria, Palestine)",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III continues his annual military campaigns into the Levant, maintaining Assyrian pressure on the region. The campaigns are part of a sustained strategy to establish Assyrian hegemony and extract tribute from the Levantine states. The campaigns do not result in permanent territorial conquest but establish a pattern of Assyrian dominance.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's annals document his campaigns, but the precise year-by-year sequence is reconstructed from regnal chronology. The dating is secure within \u00b11\u20132 years.",
+      "cross_references": [
+        "Part of series of campaigns documented in -844-001, -843-001, -842-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Jehu's reign and consolidation of power is disputed. Some scholars place these events several years earlier or later. The biblical account is not contemporary and may be legendary or heavily stylized. Archaeological evidence for the events described is limited. The significance of Jehu's religious reforms may be overstated in biblical sources.",
+  "historiographic_note": "The historical record for 841 BCE is extremely sparse and relies on correlation between Assyrian and biblical sources. The Assyrian sources are contemporary but propagandistic. The biblical sources are much later and shaped by religious agendas. Archaeological evidence is sparse. The record is heavily weighted toward political-military events; economic, social, and cultural developments are almost entirely absent.",
+  "graph_edges": [
+    {
+      "from": "-841-001",
+      "to": "-842-002",
+      "relation": "led_to",
+      "note": "Continuation of Jehu's consolidation following his coup"
+    },
+    {
+      "from": "-841-002",
+      "to": "-840-001",
+      "relation": "part_of",
+      "note": "Part of sustained Assyrian campaign strategy"
+    }
+  ]
+}

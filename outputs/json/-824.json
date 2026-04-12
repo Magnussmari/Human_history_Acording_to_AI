@@ -1,0 +1,86 @@
+{
+  "year": -824,
+  "year_label": "824 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns into Syria-Palestine. The Kingdom of Israel under Ahab is at its height; Phoenician city-states (Tyre, Sidon) dominate Mediterranean trade. Egypt is fragmented under the late 22nd Dynasty. This is the era of the Tel Dan Stele and the earliest extra-biblical attestations of Israelite and Judean kings.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Central Asia and the Steppe (sparse contemporary documentation)",
+    "East Asia beyond general dynastic chronology",
+    "Mesoamerica (no written records; archaeological context only)"
+  ],
+  "events": [
+    {
+      "id": "-824-001",
+      "title": "Shalmaneser III's campaigns in Syria-Palestine",
+      "region": "Levant, Syria, Mesopotamia",
+      "coordinates_approx": "35.5, 35.0",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria conducts his 6th regnal year campaign (counted from his accession c. 858 BCE) into the Levant, targeting Syrian and Palestinian kingdoms. These campaigns are documented in the Monolith Inscription from Kurkh and later Assyrian annals. The campaigns establish Assyrian hegemony over the region and extract tribute from vassal states, including Israel under Ahab. The military pressure from Assyria shapes the political landscape of the Levant for the next century.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Ahab (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Monolith Inscription of Shalmaneser III from Kurkh",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals (later compilation of campaign records)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser's regnal years are well-established from Assyrian king lists and astronomical data (Limmu lists). The 6th year corresponds to 853 BCE in most modern chronologies, but some scholars place this campaign in 824 BCE based on alternative chronological reconstructions. Dating within \u00b15 years is secure; exact year assignment depends on which chronological system is adopted.",
+      "cross_references": [
+        "Relates to broader Assyrian expansion documented in -853-001 (Battle of Qarqar, if that event is recorded)"
+      ]
+    },
+    {
+      "id": "-824-002",
+      "title": "Reign of Ahab of Israel (continued)",
+      "region": "Kingdom of Israel, Levant",
+      "coordinates_approx": "35.2, 32.5",
+      "category": "political",
+      "description": "Ahab continues his reign as King of Israel, a period marked by military conflict with Aram-Damascus, internal religious tension (the Elijah narratives in 1 Kings), and economic prosperity. Ahab's reign is attested in Assyrian records (Monolith Inscription) and the Hebrew Bible. Archaeological evidence from Samaria (the capital) shows a well-fortified, prosperous city with evidence of administrative structures and trade networks. Ahab's marriage to Phoenician princess Jezebel strengthens ties with Tyre and introduces Baal worship, which generates religious conflict according to biblical sources.",
+      "key_figures": [
+        "Ahab (King of Israel)",
+        "Jezebel (Queen of Israel, daughter of the King of Tyre)",
+        "Elijah (Prophet, biblical tradition)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 16\u201322 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Monolith Inscription of Shalmaneser III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Samaria excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ahab's existence and reign are confirmed by Assyrian records. His regnal dates (c. 869\u2013850 BCE) are well-established. The biblical narratives are later compilations (7th\u20136th century BCE) and contain legendary elements, but the core political facts are corroborated by external sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Shalmaneser III's campaigns depends on chronological reconstruction. The 'Low Chronology' places Ahab's reign c. 869\u2013850 BCE; the 'High Chronology' places it c. 880\u2013860 BCE. This affects whether specific campaigns are assigned to -824 or nearby years. Additionally, the biblical narratives of Ahab (especially the Elijah cycle) contain legendary and theological elements that do not appear in Assyrian records, suggesting later religious elaboration. The historicity of specific events like the 'famine' and 'chariot battles' described in 1 Kings cannot be independently verified.",
+  "historiographic_note": "The historical record for this year is shaped by Assyrian administrative records (which are detailed but focused on military campaigns and tribute) and the Hebrew Bible (which is theologically motivated and compiled centuries later). Egyptian records are sparse for this period. Phoenician sources are minimal (Tyre's records are largely lost). Archaeological evidence from Samaria, Tel Megiddo, and other Levantine sites provides material context but limited chronological precision for individual years. The bias toward Assyrian and Israelite perspectives means that the experiences of smaller Levantine states, Aramean kingdoms, and non-elite populations are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-824-001",
+      "to": "-824-002",
+      "relation": "contemporary_with",
+      "note": "Shalmaneser's campaign occurs during Ahab's reign and directly affects Israel's political status"
+    }
+  ]
+}

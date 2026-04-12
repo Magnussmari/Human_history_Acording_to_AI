@@ -1,0 +1,117 @@
+{
+  "year": -830,
+  "year_label": "830 BCE",
+  "era_context": "The Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting military campaigns across Syria and Mesopotamia. In Greece, the Archaic period is beginning; the alphabet is being adopted and adapted from Phoenician sources. In China, the Western Zhou dynasty is in decline, approaching the Spring and Autumn period. Egypt is fragmented under the late 21st Dynasty and early 22nd Dynasty (Libyan period).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (limited synchronization with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-830-001",
+      "title": "Shalmaneser III's campaigns in Syria and the Levant",
+      "region": "Syria, Levant, Mesopotamia",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria (r. 858\u2013824 BCE) conducts a series of military campaigns against coalitions of Syrian and Palestinian states. These campaigns are documented in the Kurkh Monolith and other Assyrian royal inscriptions. The campaigns aim to establish Assyrian hegemony and extract tribute from kingdoms including Damascus, Israel, Tyre, and Sidon. The resistance of these states, particularly under leaders like Hadadezer of Damascus and Ahab of Israel, marks a significant period of conflict in the region.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Hadadezer (King of Damascus)",
+        "Ahab (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Kurkh Monolith (Shalmaneser III's inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser III's reign is well-dated through Assyrian king lists and synchronisms with Egyptian and Levantine records. The campaigns are attested in multiple contemporary inscriptions.",
+      "cross_references": [
+        "-853-001 (Battle of Qarqar, part of same campaign series)"
+      ]
+    },
+    {
+      "id": "-830-002",
+      "title": "Adoption of the alphabet in early Greek city-states",
+      "region": "Greece, Eastern Mediterranean",
+      "coordinates_approx": "38.0, 23.5",
+      "category": "cultural",
+      "description": "During the 9th and early 8th centuries BCE, Greek communities adopt and adapt the Phoenician alphabet, developing the Greek alphabet. By 830 BCE, this process is well underway in various Greek poleis. The adoption of writing marks a significant cultural shift, enabling the recording of laws, poetry, and administrative records. This development is foundational to the emergence of Greek literature and political organization in the Archaic period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pottery and inscriptions (e.g., Dipylon Amphora, Nestor's Cup)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on alphabet adoption",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The adoption of the alphabet occurred over a period of roughly 100 years (9th\u20138th centuries BCE). Precise dating to 830 BCE is approximate; the process was gradual and varied by region.",
+      "cross_references": []
+    },
+    {
+      "id": "-830-003",
+      "title": "Western Zhou decline and regional fragmentation in China",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Western Zhou dynasty, which had ruled China since c. 1046 BCE, is in advanced decline by 830 BCE. Central authority is weakening, and regional lords (zhuhou) are accumulating power. The period leading up to 771 BCE (the traditional date of the Zhou collapse) is marked by increasing fragmentation, internal conflicts, and pressure from non-Chinese peoples on the borders. This era sets the stage for the Spring and Autumn period (770\u2013476 BCE).",
+      "key_figures": [
+        "King You of Zhou (r. 781\u2013771 BCE, traditional dates)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions and oracle bone script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Western Zhou is well-attested in later Chinese historiography and supported by archaeological evidence. However, precise dating of events within this period is uncertain; traditional dates may be off by several decades.",
+      "cross_references": [
+        "-771-001 (Fall of Western Zhou)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shalmaneser III's reign and campaigns is generally secure, but some scholars debate the exact chronology of the Levantine states and the precise dating of the Battle of Qarqar (traditionally 853 BCE). The adoption of the Greek alphabet is traditionally dated to the 8th century BCE, but some evidence suggests it may have begun earlier (9th century) or later (early 8th century). The Western Zhou chronology remains contested; some scholars argue that traditional dates are inflated by 100\u2013200 years, though recent archaeological work has provided more precise dating.",
+  "historiographic_note": "The historical record for 830 BCE is dominated by Assyrian royal inscriptions, which are propagandistic and emphasize military victories. Greek sources are sparse and mostly later compilations. Chinese sources are primarily from the Shiji, written over 1,000 years after the events described. Egyptian records from this period are fragmentary. The record is heavily skewed toward political and military history; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-830-001",
+      "to": "-853-001",
+      "relation": "part_of",
+      "note": "Shalmaneser III's campaigns in Syria are part of a broader military expansion that includes the Battle of Qarqar in 853 BCE."
+    },
+    {
+      "from": "-830-002",
+      "to": "-776-001",
+      "relation": "led_to",
+      "note": "The adoption of the alphabet enables the recording of the first Olympic Games (traditional date 776 BCE)."
+    },
+    {
+      "from": "-830-003",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "The decline of the Western Zhou culminates in the fall of the dynasty in 771 BCE."
+    }
+  ]
+}

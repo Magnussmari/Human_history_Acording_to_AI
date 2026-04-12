@@ -1,0 +1,76 @@
+{
+  "year": -829,
+  "year_label": "829 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns across Syria-Palestine. The Kingdom of Israel under Jeroboam II is approaching its zenith of territorial control. In Greece, the Archaic period is underway; the alphabet is spreading. In China, the Western Zhou dynasty is in terminal decline, with regional lords accumulating power ahead of the Spring and Autumn period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Central Asia (sparse archaeological coverage)",
+    "Mesoamerica (limited synchronization with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-829-001",
+      "title": "Shalmaneser III's military campaign in Syria-Palestine",
+      "region": "Levant, Syria, Palestine",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria conducted one of his annual campaigns into the Levant, consolidating Assyrian dominance over Syrian and Palestinian kingdoms. These campaigns, documented in the Monolith Inscription and other royal annals, established Assyrian hegemony and extracted tribute from regional powers. The campaigns were part of a systematic strategy to control trade routes and secure vassal states.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Monolith Inscription of Shalmaneser III (Kurkh Monolith)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's campaigns are well-attested in Assyrian records, though specific year assignments within his reign (858\u2013824 BCE) involve some scholarly debate. This year falls within his documented campaign period.",
+      "cross_references": []
+    },
+    {
+      "id": "-829-002",
+      "title": "Jeroboam II's reign in the Kingdom of Israel",
+      "region": "Kingdom of Israel, Levant",
+      "coordinates_approx": "35.2, 32.5",
+      "category": "political",
+      "description": "Jeroboam II ruled the Kingdom of Israel during a period of territorial expansion and relative prosperity. He recovered lost territories to the east of the Jordan and expanded Israel's borders, making it one of the dominant powers in the Levant during the 8th century BCE. His reign is attested in both biblical and extra-biblical sources, though dating remains debated among scholars.",
+      "key_figures": [
+        "Jeroboam II (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible, 2 Kings 14:23\u201329",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Iron Age Levantine chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Jeroboam II's reign is traditionally dated to 786\u2013746 BCE, but absolute chronology for this period remains contested. Assignment to 829 BCE is speculative without additional synchronisms.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Iron Age Levant remains disputed. Some scholars argue for a 'low chronology' that would shift events attributed to this year by 50\u2013100 years. The biblical account of Jeroboam II's reign may conflate multiple rulers or contain legendary elements. Assyrian campaign records, while detailed, sometimes conflate or reorder events across multiple years.",
+  "historiographic_note": "Documentation for 829 BCE is heavily weighted toward Assyrian royal inscriptions and biblical texts, both of which have inherent biases. Assyrian records emphasize military victories and tribute collection; biblical accounts are theological and often post-hoc. Archaeological evidence from the Levant is fragmentary. Sub-Saharan Africa, Northern Europe, and much of Central Asia are essentially undocumented for this year. Chinese sources (oracle bones, later chronicles) provide some context for the Western Zhou but lack precise year-by-year detail.",
+  "graph_edges": [
+    {
+      "from": "-829-001",
+      "to": "-828-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's campaigns continued annually; subsequent campaigns built on earlier consolidations"
+    }
+  ]
+}

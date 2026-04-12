@@ -1,0 +1,73 @@
+{
+  "year": -831,
+  "year_label": "831 BCE",
+  "era_context": "The Iron Age II in the Levant and Eastern Mediterranean. Shalmaneser III of Assyria is in the midst of his military campaigns against coalitions of Syrian and Palestinian states. In Greece, the Archaic period is emerging; the alphabet is being adopted. In China, the Western Zhou dynasty continues its decline. Egypt remains fragmented under the Libyan 22nd Dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-831-001",
+      "title": "Shalmaneser III's continued military campaigns in the Levant",
+      "region": "Syria, Levant, Mesopotamia",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser III continues his military campaigns against the states of Syria and the Levant. These campaigns are part of a sustained effort to establish Assyrian dominance in the region and extract tribute. The campaigns are documented in Assyrian royal inscriptions and represent a period of intense military activity and political upheaval in the Levant.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's reign is well-dated, but the specific events of individual years within his reign are sometimes difficult to distinguish in the surviving inscriptions. The year 831 BCE falls within his documented campaign period.",
+      "cross_references": [
+        "-830-001"
+      ]
+    },
+    {
+      "id": "-831-002",
+      "title": "Continued fragmentation of Egypt under the Libyan 22nd Dynasty",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt during the 22nd Dynasty (c. 945\u2013715 BCE) is characterized by the rule of Libyan dynasties and increasing fragmentation of central authority. By 831 BCE, the power of the pharaoh is limited, and regional temples and local rulers exercise significant autonomy. This period marks a decline in Egypt's international influence and military power compared to the New Kingdom.",
+      "key_figures": [
+        "Osorkon II (King of Egypt, r. c. 872\u2013837 BCE, traditional dates)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Egyptian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the 22nd Dynasty is uncertain; traditional dates may be off by 50\u2013100 years. The reign of Osorkon II is attested in inscriptions, but precise dating is debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 831 BCE in Shalmaneser III's reign are not individually documented in surviving sources; the year is assigned based on the known chronology of his reign. Egyptian chronology for this period remains contested, with some scholars proposing significantly different dates for the 22nd Dynasty.",
+  "historiographic_note": "The historical record for 831 BCE is sparse and relies heavily on Assyrian royal inscriptions, which are propagandistic. Egyptian sources are fragmentary and difficult to date precisely. Greek and Chinese sources are essentially absent for this specific year. The record is heavily skewed toward political and military history in the Near East.",
+  "graph_edges": [
+    {
+      "from": "-831-001",
+      "to": "-830-001",
+      "relation": "contemporary_with",
+      "note": "Shalmaneser III's campaigns continue from the previous year."
+    }
+  ]
+}

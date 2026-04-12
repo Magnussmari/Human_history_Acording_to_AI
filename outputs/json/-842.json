@@ -1,0 +1,95 @@
+{
+  "year": -842,
+  "year_label": "842 BCE",
+  "era_context": "Iron Age II Levant. Shalmaneser III continues his military campaigns. This year marks a potential turning point: according to some interpretations, Jehu of Israel may have come to power around this time (though dating is disputed), and there is evidence of political upheaval in the Levantine states. Assyrian pressure is intensifying. Phoenician trade continues but faces increasing disruption from military campaigns.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Most of the Levant (limited sources outside Assyrian records)"
+  ],
+  "events": [
+    {
+      "id": "-842-001",
+      "title": "Shalmaneser III's Eighth Campaign; Possible Jehu Tribute",
+      "region": "Levant (Syria, Palestine, Israel)",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III conducts his eighth campaign into the Levant. According to the Black Obelisk of Shalmaneser III, a figure identified as Jehu of Israel (or possibly another Israelite king) presents tribute to the Assyrian king during this period. This is the only known contemporary depiction of an Israelite king in Assyrian art. The tribute suggests either a military defeat or a diplomatic submission to Assyrian pressure. The dating of Jehu's reign is disputed, with some scholars placing it c. 842 BCE and others earlier or later.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Jehu (possibly King of Israel, though identification is debated)"
+      ],
+      "sources": [
+        {
+          "name": "Black Obelisk of Shalmaneser III (epigraphic and iconographic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Royal Annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible (2 Kings 9\u201310, describing Jehu's coup)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Black Obelisk clearly depicts an Israelite king presenting tribute. The identification as Jehu and the dating to 842 BCE are based on Assyrian regnal chronology and correlation with Hebrew biblical chronology, both of which have some uncertainty. The dating could be off by several years.",
+      "cross_references": [
+        "Related to political upheaval in Israel documented in Hebrew Bible"
+      ]
+    },
+    {
+      "id": "-842-002",
+      "title": "Possible Coup of Jehu in Israel",
+      "region": "Kingdom of Israel (Palestine)",
+      "coordinates_approx": "35.5, 32.5",
+      "category": "political",
+      "description": "According to the Hebrew Bible, Jehu orchestrates a coup against the House of Omri, killing King Joram and Queen Jezebel. This event marks a significant political upheaval in Israel and a shift in religious policy (away from Baal worship toward Yahwism, according to biblical sources). The dating of this event is uncertain; some scholars place it around 842 BCE based on correlation with Assyrian records, while others date it earlier or later. The event is significant for its religious implications and for marking a change in Israel's political leadership.",
+      "key_figures": [
+        "Jehu (coup leader, becomes King of Israel)",
+        "Joram (previous King of Israel)",
+        "Jezebel (Queen, killed in the coup)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (2 Kings 9\u201310)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Black Obelisk of Shalmaneser III (possible indirect confirmation)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The biblical account is not contemporary; it was written centuries after the events. The dating to 842 BCE is based on correlation with Assyrian records, which is itself uncertain. The event may have occurred within a range of \u00b15\u201310 years of this date.",
+      "cross_references": [
+        "Related to -842-001 (Jehu's tribute to Shalmaneser III)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Jehu's coup is highly disputed. Some scholars argue for a date as early as 850 BCE or as late as 835 BCE, based on different chronological systems. The identification of the figure on the Black Obelisk as Jehu is not certain; it could be another Israelite or Judean king. The biblical account of Jehu's coup is not contemporary and may be legendary or heavily stylized. Archaeological evidence for the events described is limited. The significance of the coup may be overstated in biblical sources, which are written from a particular religious perspective.",
+  "historiographic_note": "The historical record for 842 BCE is extremely thin and relies on correlation between Assyrian and biblical sources, both of which have chronological uncertainties. The Assyrian sources are contemporary but propagandistic. The biblical sources are much later (written 200\u2013400 years after the events) and are shaped by religious and political agendas. Archaeological evidence is sparse. The record is heavily weighted toward political-military events; economic and social developments are almost entirely absent. The perspective of the common people is entirely absent.",
+  "graph_edges": [
+    {
+      "from": "-842-001",
+      "to": "-842-002",
+      "relation": "contemporary_with",
+      "note": "Jehu's tribute to Assyria may be related to his recent coup and consolidation of power"
+    },
+    {
+      "from": "-842-002",
+      "to": "-841-001",
+      "relation": "led_to",
+      "note": "Jehu's coup establishes a new dynasty that continues in subsequent years"
+    }
+  ]
+}

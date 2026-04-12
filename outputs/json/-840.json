@@ -1,0 +1,82 @@
+{
+  "year": -840,
+  "year_label": "840 BCE",
+  "era_context": "Iron Age II Levant. Shalmaneser III is in the later phase of his reign, having conducted numerous campaigns into the Levant. Jehu (if dating is correct) is established as King of Israel, having consolidated power following his coup. The Levantine states are under sustained Assyrian pressure. Phoenician trade continues but faces disruption. Egypt remains fragmented under the late 22nd Dynasty.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Most of the Levant outside Assyrian records"
+  ],
+  "events": [
+    {
+      "id": "-840-001",
+      "title": "Shalmaneser III's Tenth Campaign into the Levant",
+      "region": "Levant (Syria, Palestine)",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III conducts his tenth documented campaign into the Levant, continuing the pattern of annual military expeditions. The campaign maintains Assyrian pressure on the region and reinforces tributary relationships. The campaigns are part of a sustained strategy to establish Assyrian hegemony over the Levantine states and control trade routes.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian Royal Annals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's annals document his campaigns, but the precise year-by-year sequence is reconstructed from regnal chronology. The dating is secure within \u00b11\u20132 years based on Assyrian king lists.",
+      "cross_references": [
+        "Part of series of campaigns documented in -844-001 through -841-002"
+      ]
+    },
+    {
+      "id": "-840-002",
+      "title": "Jehu's Reign Established in Israel",
+      "region": "Kingdom of Israel (Palestine)",
+      "coordinates_approx": "35.5, 32.5",
+      "category": "political",
+      "description": "By this year, Jehu's reign in Israel is firmly established. He has consolidated power, implemented religious reforms, and submitted to Assyrian pressure by paying tribute. His reign marks a significant shift in Israel's political and religious orientation. The kingdom remains under Assyrian hegemony but maintains a degree of autonomy. Jehu's dynasty will continue for several generations.",
+      "key_figures": [
+        "Jehu (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible (2 Kings 10\u201313)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian records (Black Obelisk and annals)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The biblical account is not contemporary but is corroborated by Assyrian records. The dating is based on correlation between biblical and Assyrian chronologies, which have some uncertainty.",
+      "cross_references": [
+        "Related to -842-002 (Jehu's coup) and -841-001 (consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Jehu's reign is disputed, with some scholars placing it several years earlier or later. The biblical account is not contemporary and may be legendary or heavily stylized. Archaeological evidence for the events described is limited. The significance of Jehu's reign may be overstated in biblical sources, which are written from a particular religious perspective. Some scholars question whether Jehu's religious reforms were as extensive as biblical sources suggest.",
+  "historiographic_note": "The historical record for 840 BCE is extremely sparse and relies on correlation between Assyrian and biblical sources. The Assyrian sources are contemporary but propagandistic and focused on military achievements. The biblical sources are much later (written 200\u2013400 years after the events) and shaped by religious agendas. Archaeological evidence is sparse and difficult to date precisely. The record is heavily weighted toward political-military events; economic, social, and cultural developments are almost entirely absent. The perspective of the common people is entirely absent.",
+  "graph_edges": [
+    {
+      "from": "-840-001",
+      "to": "-839-001",
+      "relation": "led_to",
+      "note": "Continuation of Assyrian campaign strategy in subsequent years"
+    },
+    {
+      "from": "-840-002",
+      "to": "-835-001",
+      "relation": "led_to",
+      "note": "Jehu's dynasty continues for several more decades"
+    }
+  ]
+}
