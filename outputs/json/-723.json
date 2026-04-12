@@ -1,0 +1,89 @@
+{
+  "year": -723,
+  "year_label": "723 BCE",
+  "era_context": "Continuation of Neo-Assyrian expansion under Shalmaneser V. The Kingdom of Israel faces increasing Assyrian pressure and internal instability. The Levantine city-states are in their final period of independence before Assyrian hegemony. Greece continues its Archaic period development. Egypt remains fragmented.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "East Asia (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "-723-001",
+      "title": "Continued Assyrian siege operations in the Levant",
+      "region": "Levant (Israel, Phoenicia, Syria)",
+      "coordinates_approx": "34.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser V continues military operations against Levantine resistance, particularly focusing on Israel and Tyre. The siege of Samaria, capital of the Northern Kingdom of Israel, is either ongoing or in preparation during this year. Assyrian forces systematically reduce fortified cities and extract tribute from vassal states. The campaign represents the culmination of decades of Assyrian pressure on the region.",
+      "key_figures": [
+        "Shalmaneser V (Assyrian commander)",
+        "Hoshea of Israel (vassal king under pressure)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian royal inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "2 Kings 17:1-6",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of Assyrian campaigns is inferred from the broader pattern of Shalmaneser V's reign and the eventual fall of Samaria. Specific events in 723 BCE are not distinctly documented in surviving sources.",
+      "cross_references": [
+        "-724-002 (Prior Levantine campaigns)",
+        "-722-001 (Siege of Samaria conclusion)"
+      ]
+    },
+    {
+      "id": "-723-002",
+      "title": "Hoshea of Israel's political instability and vassalage",
+      "region": "Kingdom of Israel (Northern Kingdom)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Hoshea, king of Israel, faces increasing pressure from Assyrian overlordship. His position is precarious\u2014he is nominally a vassal of Assyria but faces internal opposition and the temptation to rebel. The political situation in Israel is characterized by factionalism and uncertainty about whether to submit to Assyria or seek alliances with Egypt. This instability will lead to open rebellion within a few years.",
+      "key_figures": [
+        "Hoshea (King of Israel)",
+        "Shalmaneser V (Assyrian overlord)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 17:1-6",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The political situation of Israel during this period is inferred from the biblical account and Assyrian records. The exact timeline of Hoshea's reign and his relationship with Assyria is debated, with scholars proposing dates ranging from 732\u2013722 BCE for his rule.",
+      "cross_references": [
+        "-722-001 (Hoshea's rebellion and Samaria's fall)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of events in 723 BCE is uncertain. Some scholars place the beginning of the Samaria siege in 724 BCE, others in 722 BCE. The biblical account of Hoshea's reign is compressed and may conflate multiple years or events. Assyrian records do not provide a detailed year-by-year account of the Levantine campaigns, making it difficult to pinpoint specific events to 723 BCE with certainty.",
+  "historiographic_note": "The historical record for 723 BCE is sparse and largely reconstructed from broader patterns. Assyrian sources are propagandistic and focus on military victories. The Hebrew Bible provides narrative context but was compiled centuries later and reflects theological rather than purely historical concerns. Archaeological evidence from Levantine sites shows destruction layers consistent with Assyrian conquest but cannot be precisely dated to individual years. The record is heavily weighted toward political and military history; economic and social conditions are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-723-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Continued Assyrian siege operations in 723 BCE culminate in the fall of Samaria in 722 BCE"
+    },
+    {
+      "from": "-723-002",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Hoshea's political instability and vassalage lead to his rebellion and the subsequent Assyrian conquest of Israel"
+    }
+  ]
+}

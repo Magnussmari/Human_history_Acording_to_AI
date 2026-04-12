@@ -1,0 +1,86 @@
+{
+  "year": -724,
+  "year_label": "724 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser V is consolidating control over the Levantine states. The Kingdom of Israel (Northern Kingdom) is in its final decades of independence before Assyrian conquest. The Greek city-states are in the Archaic period, developing hoplite warfare and establishing colonies. Egypt is fragmented under the late 22nd Dynasty and early 23rd Dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Central Asia and the Steppe (sparse contemporary documentation)",
+    "Mesoamerica (no written records; archaeological evidence only)"
+  ],
+  "events": [
+    {
+      "id": "-724-001",
+      "title": "Shalmaneser V becomes King of Assyria",
+      "region": "Neo-Assyrian Empire (Mesopotamia)",
+      "coordinates_approx": "36.1, 43.3",
+      "category": "political",
+      "description": "Shalmaneser V ascends the throne of Assyria following the death of his father Tiglath-Pileser III. He continues aggressive expansion policy, particularly targeting the Levantine kingdoms. His reign marks intensification of Assyrian pressure on Israel and other regional powers. He is known for military campaigns and administrative reorganization of conquered territories.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "2 Kings 17:1-6 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser V's accession is well-attested in Assyrian administrative records and king lists. Exact year placement follows standard Assyrian chronology, though minor \u00b11 year variations exist in scholarly literature.",
+      "cross_references": [
+        "Relates to -722-001 (Siege of Samaria, likely completed under his successor)"
+      ]
+    },
+    {
+      "id": "-724-002",
+      "title": "Assyrian campaigns against Levantine states",
+      "region": "Levant (Syria, Palestine, Phoenicia)",
+      "coordinates_approx": "34.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser V conducts military campaigns against rebellious Levantine kingdoms, including Israel, Tyre, and other city-states. These campaigns are part of the broader Assyrian strategy to consolidate control over the eastern Mediterranean trade routes and extract tribute. The campaigns involve siege warfare and deportation policies that will reshape the region's demographics.",
+      "key_figures": [
+        "Shalmaneser V (Assyrian commander)",
+        "Hoshea of Israel (vassal king)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian royal annals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "2 Kings 17:1-6",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser V's campaigns are attested in Assyrian records, though specific details and exact chronology of individual campaigns remain debated. The Bible attributes the siege of Samaria to Shalmaneser V, though some scholars argue it was completed under Sargon II.",
+      "cross_references": [
+        "-722-001 (Siege of Samaria continuation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Shalmaneser V's reign and campaigns is debated among scholars. Some sources place the beginning of the Samaria siege in 724 BCE under Shalmaneser V, while others attribute the siege's initiation or completion to Sargon II (his successor). The Assyrian King List has minor chronological discrepancies with other sources. Additionally, the extent of Shalmaneser V's actual military achievements versus administrative consolidation is unclear from surviving records.",
+  "historiographic_note": "The historical record for 724 BCE is dominated by Assyrian administrative and military sources, which are inherently propagandistic and emphasize Assyrian victories. Hebrew Bible accounts provide a Levantine perspective but were compiled centuries later. Archaeological evidence from Levantine sites provides material confirmation of destruction layers and settlement patterns but cannot always be precisely dated to specific years. The record is heavily skewed toward elite political and military history; economic, social, and cultural developments are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-724-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Shalmaneser V's accession and aggressive policy directly led to intensified pressure on Israel, culminating in the siege of Samaria"
+    },
+    {
+      "from": "-724-002",
+      "to": "-722-001",
+      "relation": "part_of",
+      "note": "Levantine campaigns of 724 BCE are part of the broader Assyrian conquest of the region, with Samaria as a major objective"
+    }
+  ]
+}

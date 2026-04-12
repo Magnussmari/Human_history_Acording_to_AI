@@ -1,0 +1,86 @@
+{
+  "year": -719,
+  "year_label": "719 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II (722\u2013705 BCE) is in its expansionist phase, consolidating control over the Levant and Mesopotamia. The Kingdom of Israel has recently fallen (722 BCE); Judah remains independent but tributary. In China, the Spring and Autumn Period is underway; the Zhou Dynasty's authority is fragmenting into competing states. Greece is in the Archaic Period; city-states are consolidating and beginning colonial expansion.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "South Asia (limited Vedic sources)",
+    "Southeast Asia",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-719-001",
+      "title": "Sargon II's campaigns in the Levant and consolidation of Assyrian control",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II continues military campaigns to secure Assyrian hegemony over the Levant. Following the fall of Israel in 722 BCE, Assyrian forces consolidate control over former Israelite territories and suppress resistance in Syria and Phoenicia. These campaigns are part of Sargon's broader strategy to create a unified, centrally administered empire. The deportation and resettlement policies initiated during this period reshape the demographic landscape of the Near East.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals and inscriptions from Dur-Sharrukin",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Assyrian palace reliefs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-documented through inscriptions and archaeological evidence. Specific campaigns in 719 BCE are attested in annalistic records, though exact chronology within his reign can vary by \u00b11\u20132 years depending on synchronization with other Near Eastern sources.",
+      "cross_references": [
+        "Follows from -722-001 (Fall of Israel)",
+        "Part of broader Assyrian expansion -745 to -705"
+      ]
+    },
+    {
+      "id": "-719-002",
+      "title": "Possible early activity in the Spring and Autumn Period: State consolidation in China",
+      "region": "China (Central Plains)",
+      "coordinates_approx": "34.5, 113.0",
+      "category": "political",
+      "description": "During the Spring and Autumn Period (770\u2013476 BCE), the Zhou Dynasty's nominal authority continues to erode as regional states consolidate power. By 719 BCE, major states such as Qi, Jin, Chu, and Qin are engaged in diplomatic maneuvering and limited military conflicts. The period is characterized by the rise of the 'hegemonic' system (ba), where powerful states compete for regional dominance. Specific events for 719 BCE are not well-attested in surviving sources.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Spring and Autumn Annals (Chunqiu), traditionally attributed to Confucius",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provides a year-by-year record, but dating of early entries is uncertain and may reflect later standardization. Specific events for 719 BCE are not clearly distinguished in surviving sources; this entry reflects the broader era context.",
+      "cross_references": [
+        "Part of Spring and Autumn Period (770\u2013476 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Sargon II's reign and specific campaigns remains debated among Assyriologists. Some scholars argue for alternative dating schemes that would shift specific campaigns by 1\u20132 years. For China, the Spring and Autumn Annals' reliability for events before the 6th century BCE is questioned by modern scholars; many entries may be legendary or anachronistic.",
+  "historiographic_note": "Documentation for 719 BCE is heavily skewed toward Mesopotamia and the Near East, where Assyrian administrative records and inscriptions provide relatively rich evidence. Chinese sources exist but are compilations from much later periods and may not accurately reflect events of this specific year. Sub-Saharan Africa, South Asia, and the Americas have no written records for this period; archaeological evidence is sparse and difficult to date precisely to a single year.",
+  "graph_edges": [
+    {
+      "from": "-719-001",
+      "to": "-705-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns continue throughout his reign until 705 BCE"
+    },
+    {
+      "from": "-719-001",
+      "to": "-722-001",
+      "relation": "caused_by",
+      "note": "Consolidation follows the fall of Israel in 722 BCE"
+    }
+  ]
+}

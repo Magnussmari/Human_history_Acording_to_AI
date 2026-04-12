@@ -1,0 +1,79 @@
+{
+  "year": -711,
+  "year_label": "711 BCE",
+  "era_context": "Sargon II's reign continues; the Neo-Assyrian Empire remains at its height. The Levant is increasingly integrated into the Assyrian imperial system. In Greece, the Archaic period is developing. Egypt remains fragmented. China's Spring and Autumn period continues.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-711-001",
+      "title": "Sargon II's campaign against Judah and the siege of Ashdod (alternative dating)",
+      "region": "Judah, Philistia (southern Levant)",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "military",
+      "description": "Sargon II conducted a campaign against Judah and the Philistine city of Ashdod, which had rebelled against Assyrian vassalage. The campaign resulted in the subjugation of Judah and the destruction of Ashdod. The campaign is attested in both Assyrian royal inscriptions and the Hebrew Bible (Isaiah 20:1). The exact dating of this campaign is debated; some scholars place it in 711 BCE, while others assign it to 713 BCE or other years within Sargon II's reign.",
+      "key_figures": [
+        "Sargon II (King of Assyria)",
+        "Hezekiah (King of Judah, r. c. 715\u2013687 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical references (Isaiah 20:1, 2 Kings 18:13\u201316)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign against Ashdod and Judah is attested in both Assyrian and biblical sources, but the precise year is debated. Some scholars place it in 711 BCE based on Sargon II's annals, while others assign it to 713 BCE or other years. The uncertainty reflects the difficulty of synchronizing Assyrian and biblical chronologies.",
+      "cross_references": [
+        "-713-001"
+      ]
+    },
+    {
+      "id": "-711-002",
+      "title": "Possible dating of the founding of the Greek colony of Cyrene in Libya",
+      "region": "Libya (North Africa)",
+      "coordinates_approx": "32.82, 21.86",
+      "category": "exploration",
+      "description": "According to Greek tradition, the colony of Cyrene was founded by Greek settlers from Thera (Santorini) in Libya around 631 BCE. However, some ancient sources give earlier dates, and the traditional chronology of Greek colonization is uncertain. Archaeological evidence from Cyrene suggests Greek settlement began in the late 7th century BCE, but the exact date of the initial settlement is debated. The year 711 BCE is assigned speculatively and is likely too early based on modern scholarship.",
+      "key_figures": [
+        "Battus I (legendary founder of Cyrene)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book IV)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Cyrene",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The founding of Cyrene is traditionally dated to 631 BCE by Herodotus, but some ancient sources give different dates. Modern archaeological evidence suggests Greek settlement began in the late 7th century BCE, but the exact date is uncertain. The year 711 BCE is likely too early and is assigned speculatively.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional date for the founding of Cyrene (631 BCE according to Herodotus) is now questioned by some scholars based on archaeological evidence, which suggests settlement may have begun earlier or later. The figure of Battus I is likely legendary or semi-legendary. The exact chronology of Greek colonization in North Africa remains uncertain.",
+  "historiographic_note": "Assyrian sources remain the most reliable for this year, though the precise dating of specific campaigns is debated. Biblical sources provide corroborating evidence but are not always synchronized with Assyrian chronology. Greek sources are sparse and often legendary. The bias toward Mesopotamian and biblical documentation means that events in other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-711-001",
+      "to": "-713-001",
+      "relation": "contradicts",
+      "note": "The dating of Sargon II's campaign against Ashdod is debated; some scholars place it in 711 BCE, others in 713 BCE"
+    }
+  ]
+}

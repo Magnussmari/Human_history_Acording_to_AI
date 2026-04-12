@@ -1,0 +1,85 @@
+{
+  "year": -714,
+  "year_label": "714 BCE",
+  "era_context": "The Neo-Assyrian Empire under Sargon II (722\u2013705 BCE) is at its territorial zenith, consolidating control over the Levant and Mesopotamia following the conquest of the northern Kingdom of Israel (722 BCE). Simultaneously, the Greek city-states are entering the Archaic period, with colonization movements expanding Greek influence across the Mediterranean. In China, the Eastern Zhou dynasty (771\u2013256 BCE) has recently begun; the Spring and Autumn period is characterized by the fragmentation of central authority and the rise of competing feudal states. Egypt is in the Third Intermediate Period, with weakened pharaonic authority.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Central Asia and the Steppe (sparse contemporary documentation)",
+    "Mesoamerica (limited synchronization with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-714-001",
+      "title": "Sargon II's campaign against Carchemish and northern Syria",
+      "region": "Northern Mesopotamia, Syria, Anatolia",
+      "coordinates_approx": "36.8, 37.0",
+      "category": "military",
+      "description": "Sargon II, king of Assyria, conducted military campaigns consolidating Assyrian control over the Hittite successor state of Carchemish and surrounding territories in northern Syria. These campaigns were part of a broader strategy to secure Assyrian hegemony over the Levant and establish vassal relationships with regional powers. The campaigns resulted in the deportation of populations and the reorganization of conquered territories into Assyrian provinces, a hallmark of Neo-Assyrian imperial administration.",
+      "key_figures": [
+        "Sargon II (King of Assyria, r. 722\u2013705 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions from Dur-Sharrukin)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Carchemish excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-documented through royal inscriptions. Specific campaigns are dated to his reign (722\u2013705 BCE), but the precise year of individual campaigns is sometimes uncertain; 714 BCE is assigned based on the sequence of his annals, though some scholars place certain campaigns in adjacent years.",
+      "cross_references": [
+        "Relates to -722-001 (Fall of Israel)",
+        "Part of broader Neo-Assyrian expansion -722 to -705"
+      ]
+    },
+    {
+      "id": "-714-002",
+      "title": "Possible Spartan reforms under Lycurgus (traditional dating)",
+      "region": "Laconia, Greece",
+      "coordinates_approx": "37.08, 23.26",
+      "category": "legal",
+      "description": "According to Greek tradition, the legendary lawgiver Lycurgus instituted sweeping reforms in Sparta, establishing the dual kingship, the Gerousia (council of elders), and the Ephorate, along with the austere military-communal lifestyle for which Sparta became famous. However, modern scholarship places Lycurgus's reforms much later (7th\u20136th century BCE) or treats him as a legendary figure whose reforms were actually implemented gradually over centuries. The traditional date of 714 BCE is highly speculative.",
+      "key_figures": [
+        "Lycurgus (legendary Spartan lawgiver)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Lycurgus (written c. 100 CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Constitution of the Lacedaemonians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "Lycurgus is likely a legendary or semi-legendary figure. Ancient sources disagree on his dating (ranging from 9th to 6th century BCE). Modern scholarship suggests Spartan institutions developed gradually rather than through a single reformer. The 714 BCE date is traditional but historically unreliable.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Lycurgus's reforms to 714 BCE is rejected by most modern scholars. Plutarch and other ancient sources provide conflicting dates, and archaeological evidence does not support a sudden institutional transformation in Sparta at this time. Spartan hoplite equipment and tactics appear to have developed gradually over the 7th\u20136th centuries BCE rather than being instituted by a single lawgiver. The figure of Lycurgus may be entirely legendary, serving as a cultural origin myth rather than historical fact.",
+  "historiographic_note": "For 714 BCE, Assyrian sources are rich and contemporary, providing detailed annals of Sargon II's reign. Greek sources for this period are sparse and often legendary; most surviving Greek historical narratives were written centuries later and conflate or misdate early events. Egyptian records from this period are fragmentary. The bias toward Mesopotamian and Greek documentation means that events in other regions (Levantine city-states, Egypt, China) are underrepresented relative to their historical importance. Oral traditions and later compilations dominate the Greek record, making precise dating difficult.",
+  "graph_edges": [
+    {
+      "from": "-714-001",
+      "to": "-722-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns are part of the broader Neo-Assyrian expansion that began with the conquest of Israel in 722 BCE"
+    },
+    {
+      "from": "-714-002",
+      "to": "-650-001",
+      "relation": "contradicts",
+      "note": "Traditional dating of Lycurgus conflicts with modern scholarly consensus placing Spartan reforms in the 7th\u20136th centuries BCE"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "year": -720,
+  "year_label": "720 BCE",
+  "era_context": "Sargon II is consolidating Assyrian power and conducting military campaigns to expand and secure the empire. The Levant is under Assyrian hegemony following the fall of Israel. The Greek city-states continue their Archaic period development, with increasing colonization and trade. Egypt remains fragmented under the late 23rd Dynasty. This is a period of Assyrian imperial expansion and consolidation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-720-001",
+      "title": "Sargon II's campaigns in the Levant and northern Syria",
+      "region": "Levant and northern Syria",
+      "coordinates_approx": "35.0, 37.0",
+      "category": "military",
+      "description": "Sargon II conducts military campaigns in the Levant and northern Syria to consolidate Assyrian control and suppress any remaining resistance. These campaigns target both independent kingdoms and vassal states that show signs of rebellion. The campaigns are part of Sargon II's broader strategy to secure the Assyrian Empire's western frontier and control the lucrative trade routes of the eastern Mediterranean. The campaigns result in the submission of numerous cities and the extraction of tribute.",
+      "key_figures": [
+        "Sargon II (Assyrian commander)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's annals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's campaigns in the Levant are attested in his annals, though the specific events of 720 BCE are not distinctly documented. The campaigns are inferred from the broader pattern of his reign.",
+      "cross_references": [
+        "-721-001 (Sargon II's accession)",
+        "-715-001 (Sargon II's later campaigns)"
+      ]
+    },
+    {
+      "id": "-720-002",
+      "title": "Hamath's rebellion and Assyrian response",
+      "region": "Hamath (northern Syria)",
+      "coordinates_approx": "34.7, 36.7",
+      "category": "military",
+      "description": "The city of Hamath, a major power in northern Syria, rebels against Assyrian overlordship. Sargon II responds with a military campaign to suppress the rebellion. The rebellion is likely motivated by the desire to reassert independence following the fall of Israel and the reorganization of the Levant under Assyrian control. The Assyrian response is swift and severe, resulting in the destruction of Hamath and the deportation of its population. This campaign demonstrates Sargon II's determination to maintain Assyrian hegemony in the region.",
+      "key_figures": [
+        "Sargon II (Assyrian commander)",
+        "Ruler of Hamath (rebel leader, name uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Isaiah 10:9 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hamath's rebellion and Sargon II's response are attested in Assyrian records and biblical references. The exact date of the rebellion is debated, with some scholars placing it in 720 BCE and others in 720\u2013715 BCE.",
+      "cross_references": [
+        "-720-001 (Sargon II's campaigns in the Levant)"
+      ]
+    },
+    {
+      "id": "-720-003",
+      "title": "Establishment of Assyrian provincial administration in the Levant",
+      "region": "Levant (former Kingdom of Israel and surrounding territories)",
+      "coordinates_approx": "34.5, 36.0",
+      "category": "political",
+      "description": "Sargon II establishes formal Assyrian provincial administration in the Levant, replacing the previous system of vassal kingdoms with direct Assyrian control in some areas. This administrative reorganization includes the appointment of Assyrian governors, the implementation of Assyrian legal and administrative systems, and the integration of the Levant into the broader Assyrian imperial structure. The reorganization is designed to prevent future rebellions and to maximize the extraction of resources and tribute from the region.",
+      "key_figures": [
+        "Sargon II (Assyrian administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's annals and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The establishment of Assyrian provincial administration is inferred from Sargon II's administrative practices and the broader pattern of Assyrian imperial organization. Specific details of the administrative reorganization in 720 BCE are not distinctly documented.",
+      "cross_references": [
+        "-721-002 (Reorganization of the Levant under Assyrian administration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Sargon II's campaigns in the Levant is debated. Some scholars place Hamath's rebellion and its suppression in 720 BCE, while others place it in 720\u2013715 BCE or even later. The Assyrian annals are not always precise about dating individual campaigns, and the order of events is sometimes unclear. The extent of Sargon II's administrative reorganization in 720 BCE versus later years is uncertain.",
+  "historiographic_note": "The historical record for 720 BCE is dominated by Assyrian administrative and military sources, which are propagandistic and emphasize Sargon II's achievements. The Hebrew Bible provides limited information about events in 720 BCE, focusing instead on Judah's perspective. Archaeological evidence from Levantine sites shows destruction layers and settlement patterns consistent with Assyrian conquest and reorganization but cannot be precisely dated to individual years. The record is heavily weighted toward political and military history; economic, social, and cultural developments are poorly documented. The experiences of ordinary people and the long-term consequences of Assyrian administrative reorganization are largely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-720-001",
+      "to": "-720-002",
+      "relation": "part_of",
+      "note": "Hamath's rebellion and suppression are part of Sargon II's broader campaigns in the Levant"
+    },
+    {
+      "from": "-720-002",
+      "to": "-720-003",
+      "relation": "led_to",
+      "note": "The suppression of Hamath's rebellion enabled the establishment of Assyrian provincial administration in the region"
+    },
+    {
+      "from": "-721-002",
+      "to": "-720-003",
+      "relation": "led_to",
+      "note": "The initial reorganization of the Levant under Assyrian administration led to the establishment of formal provincial administration"
+    }
+  ]
+}
