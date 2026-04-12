@@ -1,0 +1,92 @@
+{
+  "year": 243,
+  "year_label": "243 CE",
+  "era_context": "The Roman Empire continues to experience the Third Century Crisis. Philip the Arab is consolidating power following his role in Severus Alexander's assassination in 222 CE. The Sasanid Empire under Shapur I is expanding aggressively in Mesopotamia. In China, the Three Kingdoms period continues with Wei dominant under the regency of Sima Yi. The Kushan Empire is in decline.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "India (limited sources for specific events)"
+  ],
+  "events": [
+    {
+      "id": "243-001",
+      "title": "Roman-Sasanid conflict in Mesopotamia",
+      "region": "Mesopotamia, Syria",
+      "coordinates_approx": "33.5, 44.5",
+      "category": "military",
+      "description": "Continued military conflict between Roman and Sasanid forces in Mesopotamia. Shapur I's forces are pressing westward, and Roman commanders are struggling to contain the Sasanid expansion. The exact details of military engagements in 243 CE are not well-documented in surviving sources, but the general pattern is clear: Sasanid forces are gaining ground, and Roman resources are stretched thin. These conflicts contribute to Philip the Arab's decision to seek a negotiated settlement with Shapur, which would involve territorial concessions and tribute payments.",
+      "key_figures": [
+        "Shapur I (Sasanid King of Kings)",
+        "Philip the Arab (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Saporis (Shapur's inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Roman-Sasanid conflict is well-attested, but specific events of 243 CE are not individually documented. The date is assigned by convention within the broader conflict period.",
+      "cross_references": [
+        "244-002 (Battle of Misiche)",
+        "260-001 (Battle of Edessa)"
+      ]
+    },
+    {
+      "id": "243-002",
+      "title": "Sima Yi's consolidation of power in Wei",
+      "region": "Northern China (Wei Dynasty)",
+      "coordinates_approx": "34.8, 114.5",
+      "category": "political",
+      "description": "Sima Yi (\u53f8\u99ac\u61ff), the aging regent of the Wei Dynasty, continues to consolidate power and marginalize the young emperor Cao Fang. By 243 CE, Sima Yi is in his 70s but remains the dominant political and military figure in Wei. His control over the military and administration is nearly absolute, and he is laying the groundwork for his family's eventual usurpation of the Wei throne. Sima Yi's strategy involves maintaining the facade of imperial authority while concentrating real power in his own hands and those of his sons.",
+      "key_figures": [
+        "Sima Yi (regent and military commander)",
+        "Cao Fang (Emperor of Wei, figurehead)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sima Yi's dominance during this period is well-documented in Chinese historical records. His age and continued influence are clearly attested.",
+      "cross_references": [
+        "239-001 (Cao Fang's accession)",
+        "266-001 (Jin Dynasty's usurpation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the general narrative of Roman military weakness in 243 CE is complicated by the fact that Philip the Arab's reign (244\u2013249 CE) was relatively stable and successful in maintaining Roman territorial integrity, suggesting that the military situation may not have been as dire as later sources suggest. The exact nature and extent of Sasanid victories in this period are debated by modern scholars.",
+  "historiographic_note": "The year 243 CE falls within a period of sparse documentation for both the Roman and Sasanid empires. For Rome, the Historia Augusta is the primary narrative source, but it is unreliable for this period. Numismatic evidence provides some corroboration. For the Sasanid Empire, the Res Gestae Divi Saporis is the primary source, but it is a royal inscription subject to propagandistic bias. Chinese sources are more reliable, with the Sanguozhi compiled within a century of events. The record is heavily skewed toward political and military events; economic, social, and cultural developments are underrepresented. Many specific events of 243 CE are not documented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "243-001",
+      "to": "244-002",
+      "relation": "led_to",
+      "note": "The ongoing Roman-Sasanid conflict in 243 CE escalates to the Battle of Misiche in 244 CE"
+    },
+    {
+      "from": "243-002",
+      "to": "266-001",
+      "relation": "led_to",
+      "note": "Sima Yi's consolidation of power in 243 CE is a direct precursor to the Jin Dynasty's usurpation in 266 CE"
+    }
+  ]
+}

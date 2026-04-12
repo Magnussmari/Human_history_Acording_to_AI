@@ -1,0 +1,94 @@
+{
+  "year": 231,
+  "year_label": "231 CE",
+  "era_context": "The Roman Empire under Severus Alexander, now in his early twenties. The Severan dynasty has ruled for nearly forty years. The empire faces mounting pressures from Germanic tribes on the northern frontiers and from the rising Sasanid Empire in the east. In China, the Three Kingdoms period is well-established; Cao Wei dominates the north under Cao Rui. In India, the Satavahana Empire is in steep decline; regional powers are consolidating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "231-001",
+      "title": "Severus Alexander rules as Roman emperor; military and political pressures mount",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Severus Alexander, now in his early twenties, continues his reign as Roman emperor. He faces mounting pressures from multiple directions: Germanic tribes on the Rhine and Danube, the rising Sasanid Empire under Ardashir I in the east, and discontent within the military and Senate. His reign is characterized by attempts at reform and diplomacy, but these efforts are increasingly undermined by military pressure and internal dissent. The year 231 CE falls in the final years of his reign, which will end with his assassination in 235 CE.",
+      "key_figures": [
+        "Severus Alexander (Roman emperor)",
+        "Julia Maesa (grandmother and political advisor, died 226 CE)",
+        "Julia Mamaea (mother and regent)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Severus Alexander)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (fragments)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Severus Alexander's reign (222\u2013235 CE) is well-attested in multiple sources. The year 231 CE falls within his reign.",
+      "cross_references": [
+        "Leads to 235-001 (Severus Alexander's assassination)"
+      ]
+    },
+    {
+      "id": "231-002",
+      "title": "Cao Rui of Cao Wei rules; Three Kingdoms period continues",
+      "region": "China (Northern China, Cao Wei territory)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Rui, the second emperor of Cao Wei, continues his reign in northern China. The Three Kingdoms period (220\u2013280 CE) is well-established, with Cao Wei dominant in the north, Eastern Wu controlling the south and east, and Shu Han controlling the southwest. Cao Rui's reign is marked by relative stability and effective governance. He maintains Wei's military dominance and continues administrative reforms begun by his predecessors.",
+      "key_figures": [
+        "Cao Rui (emperor of Cao Wei)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Rui's reign (226\u2013239 CE) is well-documented in Chinese historical records. The year 231 CE falls within his reign.",
+      "cross_references": [
+        "Part of Three Kingdoms period (220\u2013280 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are clearly attested to the year 231 CE in surviving sources. The entries above are general statements about the broader context of the year rather than specific historical events. The Historia Augusta, the primary narrative source for Severus Alexander, is now recognized as containing significant legendary and fabricated material. Modern scholarship emphasizes that Alexander's reign was more stable than the Historia Augusta suggests, though he did face real military and political pressures.",
+  "historiographic_note": "The year 231 CE is essentially undocumented in surviving sources. No specific events are clearly attested to this year. The information provided is inferred from the broader context of Severus Alexander's reign and the known political and military situation of the early 3rd century. The sources that do exist (Historia Augusta, Herodian, Cassius Dio) are late and often unreliable. For China, sources are more reliable and contemporary, but they provide limited detail on specific years. This is a year where the historical record is essentially silent on specific events. The value of this entry lies in acknowledging the silence rather than fabricating events.",
+  "graph_edges": [
+    {
+      "from": "231-001",
+      "to": "235-001",
+      "relation": "led_to",
+      "note": "Severus Alexander's reign continued until his assassination in 235 CE"
+    },
+    {
+      "from": "231-002",
+      "to": "239-001",
+      "relation": "led_to",
+      "note": "Cao Rui's reign continued until his death in 239 CE"
+    }
+  ]
+}

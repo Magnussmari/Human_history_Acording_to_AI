@@ -1,0 +1,128 @@
+{
+  "year": 255,
+  "year_label": "255 CE",
+  "era_context": "The Roman Empire in the mid-3rd century Crisis of the Third Century, marked by rapid imperial succession, barbarian invasions, plague, and economic collapse. The Sassanid Persian Empire under Shapur I was expanding aggressively in the Near East. In China, the Wei-Jin period saw the fragmentation of the Han successor states and the rise of the Jin Dynasty. Germanic and Gothic tribes pressed Roman borders along the Rhine and Danube.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman frontier accounts",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Mesoamerica (no written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "255-001",
+      "title": "Battle of Edessa and Capture of Roman Emperor Valerian",
+      "region": "Mesopotamia (modern-day Turkey/Syria border)",
+      "coordinates_approx": "36.2\u00b0N, 39.9\u00b0E",
+      "category": "military",
+      "description": "Roman Emperor Valerian was defeated and captured by Sassanid King Shapur I at or near Edessa in a major military catastrophe. This marked the first time a reigning Roman emperor was captured in battle. The defeat exposed the vulnerability of the Roman military during the Crisis of the Third Century and resulted in the loss of Roman control over parts of Mesopotamia and Syria. Valerian's capture became a propaganda triumph for the Sassanids and a symbol of Roman decline.",
+      "key_figures": [
+        "Valerian (Roman Emperor)",
+        "Shapur I (Sassanid King)"
+      ],
+      "sources": [
+        {
+          "name": "Shapur I's Res Gestae Divi Sapori (Naqsh-i Rustam inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Sassanid inscription provides contemporary evidence. The exact date is debated (some sources place it 259\u2013260 CE), but 255 CE is within the probable range of the campaign.",
+      "cross_references": [
+        "Follows from broader Sassanid expansion under Shapur I (240s\u2013270s CE)",
+        "Led to Roman recovery under Gallienus and later Aurelian"
+      ]
+    },
+    {
+      "id": "255-002",
+      "title": "Plague of Cyprian Continues in Roman Empire",
+      "region": "Roman Empire (widespread)",
+      "coordinates_approx": null,
+      "category": "demographic",
+      "description": "The Plague of Cyprian, which began around 249\u2013250 CE, continued to ravage the Roman Empire in 255 CE. Named after the Christian bishop Cyprian of Carthage, who documented its effects, the plague caused massive mortality across the empire, contributing to economic collapse, military recruitment difficulties, and social disruption. The plague is now believed to have been either smallpox or measles, introduced possibly from the Parthian/Sassanid frontier.",
+      "key_figures": [
+        "Cyprian of Carthage (Christian bishop and chronicler)"
+      ],
+      "sources": [
+        {
+          "name": "Cyprian of Carthage, De Mortalitate (On Mortality)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eusebius of Caesarea, Chronicle and Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The plague's existence and duration are well-attested, but precise annual mortality and geographic extent are difficult to quantify from surviving sources.",
+      "cross_references": [
+        "Part of broader demographic crisis of the 3rd century CE"
+      ]
+    },
+    {
+      "id": "255-003",
+      "title": "Gallienus Becomes Effective Ruler of Western Roman Empire",
+      "region": "Roman Empire (Western provinces)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Following the capture of his father Valerian at Edessa, Gallienus assumed sole control of the Western Roman Empire and began military and administrative reforms. He reorganized the cavalry forces and attempted to stabilize the frontier against Germanic invasions. Gallienus' reign marked a shift toward a more mobile, cavalry-based military strategy and the gradual elevation of the equestrian class in military command.",
+      "key_figures": [
+        "Gallienus (Roman Emperor, 253\u2013268 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Vita Gallieni)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Gallienus' accession and early reforms are documented, though the Historia Augusta is notoriously unreliable. The date of his assumption of full power is sometimes placed at 260 CE (after Valerian's capture became known in Rome).",
+      "cross_references": [
+        "Preceded by Valerian's reign (253\u2013260 CE)",
+        "Led to Gallienus' military reforms and the 'Gallienus Purge' of senators from military commands"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Battle of Edessa and Valerian's capture is disputed. Some modern scholars place it in 259 or 260 CE rather than 255 CE, based on numismatic and epigraphic evidence. The Sassanid inscription does not provide a precise Gregorian date. Additionally, the identity of the plague (Cyprian's plague) as a specific disease remains debated; some scholars argue for bubonic plague, others for smallpox or measles, and some question whether a single unified pandemic is the correct model.",
+  "historiographic_note": "The 3rd century CE is one of the most poorly documented periods of Roman history. The Historia Augusta, a major source for this era, is widely recognized as unreliable, containing fabrications and anachronisms. Sassanid sources (inscriptions and later compilations like the Shahnameh) provide an alternative perspective but are also subject to propaganda. Archaeological evidence (coins, inscriptions, settlement patterns) is crucial but unevenly distributed. The narrative of 'crisis' and 'decline' has been questioned by recent scholarship, which emphasizes continuity and regional variation. Western sources dominate; African, Asian, and steppe perspectives are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "255-001",
+      "to": "260-001",
+      "relation": "part_of",
+      "note": "Battle of Edessa is part of the broader Sassanid-Roman conflict of the 250s\u2013260s CE"
+    },
+    {
+      "from": "255-002",
+      "to": "249-001",
+      "relation": "part_of",
+      "note": "Continuation of the Plague of Cyprian that began c. 249\u2013250 CE"
+    },
+    {
+      "from": "255-003",
+      "to": "253-001",
+      "relation": "led_to",
+      "note": "Gallienus' rise to power followed from the crisis of Valerian's reign"
+    }
+  ]
+}

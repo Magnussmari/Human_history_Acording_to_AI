@@ -1,0 +1,124 @@
+{
+  "year": 253,
+  "year_label": "253 CE",
+  "era_context": "The Roman Empire under Emperor Valerian (253\u2013260 CE), during the height of the Third Century Crisis. Plague, barbarian invasions, and civil war weakened the empire. The Sassanid Persia under Shapur I was expanding. In China, the Wei-Jin period continued with competing kingdoms. Germanic tribes pressed the Rhine frontier.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "253-001",
+      "title": "Valerian Becomes Roman Emperor",
+      "region": "Roman Empire",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Publius Licinius Valerianus became Roman Emperor following the death of Aemilian. Valerian was an elderly senator (likely in his 60s) chosen by the Senate to restore order during the Crisis of the Third Century. He immediately faced multiple crises: the Plague of Cyprian, Germanic invasions on the Rhine and Danube, Sassanid pressure in the East, and internal civil unrest. Valerian's reign would be marked by military campaigns against these threats and ultimately by his capture at Edessa.",
+      "key_figures": [
+        "Valerian (Roman Emperor, 253\u2013260 CE)",
+        "Aemilian (predecessor, 253 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Vita Valeriani)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Valerian's accession in 253 CE is well-attested in multiple sources, though details of his early reign are sparse.",
+      "cross_references": [
+        "Led to Valerian's military campaigns (253\u2013260 CE)",
+        "Preceded by Aemilian's brief reign (253 CE)",
+        "Followed by Gallienus' reign (253\u2013268 CE)"
+      ]
+    },
+    {
+      "id": "253-002",
+      "title": "Plague of Cyprian Documented in Alexandria and Carthage",
+      "region": "Roman North Africa and Egypt",
+      "coordinates_approx": null,
+      "category": "demographic",
+      "description": "The Plague of Cyprian, which began around 249\u2013250 CE, was documented by Cyprian of Carthage in his writings from this period. The plague caused severe mortality in urban centers, disrupting trade, military recruitment, and social order. Cyprian's accounts describe mass deaths, social breakdown, and the Christian community's charitable response.",
+      "key_figures": [
+        "Cyprian of Carthage (Christian bishop)"
+      ],
+      "sources": [
+        {
+          "name": "Cyprian of Carthage, De Mortalitate (On Mortality)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The plague's existence and impact are documented, but precise dating and mortality figures are uncertain.",
+      "cross_references": [
+        "Part of the Plague of Cyprian (249\u2013262 CE)"
+      ]
+    },
+    {
+      "id": "253-003",
+      "title": "Germanic Invasions on Rhine Frontier",
+      "region": "Roman Rhine frontier (Germania)",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Germanic tribes, including Franks and Alemanni, conducted raids across the Rhine frontier into Roman Gaul and the Rhineland. These raids were part of sustained pressure on the Roman frontier during the Third Century Crisis. Valerian's reign saw multiple military campaigns to counter these invasions, though with limited success given the empire's other crises.",
+      "key_figures": [
+        "Valerian (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta and later Roman sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Rhine frontier",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Germanic invasions during this period are well-attested archaeologically and in later sources, but precise dating to individual years is difficult.",
+      "cross_references": [
+        "Part of broader Germanic pressure on Roman frontiers (240s\u2013270s CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Valerian's accession is sometimes given as 253 CE or 254 CE in different sources. The Historia Augusta is unreliable for details of Valerian's early reign. Modern scholarship questions whether the 'Crisis of the Third Century' was as uniform as traditionally portrayed, suggesting regional variation and continuity in some areas. The Plague of Cyprian's identity and extent remain debated.",
+  "historiographic_note": "253 CE is poorly documented. The Historia Augusta is the primary source for Valerian's reign, but it is notoriously unreliable, containing fabrications and anachronisms. Later sources like Zosimus and Eusebius provide additional information but are also not contemporary. Archaeological evidence (coins, inscriptions, settlement patterns) is crucial but unevenly distributed. The narrative is heavily Western-centric; non-Mediterranean regions are almost entirely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "253-001",
+      "to": "260-001",
+      "relation": "led_to",
+      "note": "Valerian's reign led to his capture at Edessa"
+    },
+    {
+      "from": "253-002",
+      "to": "255-002",
+      "relation": "contemporary_with",
+      "note": "Plague of Cyprian continued across multiple years"
+    },
+    {
+      "from": "253-003",
+      "to": "260-002",
+      "relation": "part_of",
+      "note": "Germanic invasions were part of sustained frontier pressure"
+    }
+  ]
+}

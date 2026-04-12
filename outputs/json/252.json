@@ -1,0 +1,90 @@
+{
+  "year": 252,
+  "year_label": "252 CE",
+  "era_context": "The Roman Empire in the early stages of the Third Century Crisis. Emperor Trebonianus Gallus ruled (251\u2013253 CE), facing plague, barbarian invasions, and civil instability. The Sassanid Empire under Shapur I was consolidating power. In China, the Wei-Jin period continued with competing kingdoms. Germanic tribes pressed Roman borders.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "252-001",
+      "title": "Plague of Cyprian Continues; Trebonianus Gallus Responds",
+      "region": "Roman Empire (widespread)",
+      "coordinates_approx": null,
+      "category": "demographic",
+      "description": "The Plague of Cyprian, which began around 249\u2013250 CE, continued to ravage the Roman Empire in 252 CE. Emperor Trebonianus Gallus (251\u2013253 CE) attempted to respond to the plague's effects through religious measures, including sacrifices to the gods. The plague caused massive mortality, economic disruption, and social breakdown. Cyprian of Carthage documented the plague's effects in his writings.",
+      "key_figures": [
+        "Trebonianus Gallus (Roman Emperor, 251\u2013253 CE)",
+        "Cyprian of Carthage (Christian bishop)"
+      ],
+      "sources": [
+        {
+          "name": "Cyprian of Carthage, De Mortalitate and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta (Vita Treboniani Galli)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The plague's continuation is documented, but precise annual mortality and Trebonianus Gallus' specific responses are difficult to verify.",
+      "cross_references": [
+        "Part of the Plague of Cyprian (249\u2013262 CE)"
+      ]
+    },
+    {
+      "id": "252-002",
+      "title": "Gothic Invasions in the Balkans and Danube Frontier",
+      "region": "Roman Balkans and Danube frontier",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Gothic tribes, under leaders such as Cniva, conducted major invasions across the Danube frontier into Roman Moesia and Thrace. These invasions were part of sustained pressure on the Roman frontier during the Third Century Crisis. The Goths were seeking plunder and possibly migration routes into the empire. Trebonianus Gallus faced significant military pressure from these invasions.",
+      "key_figures": [
+        "Cniva (Gothic leader)",
+        "Trebonianus Gallus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta and later Roman sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Gothic invasions during this period are attested in later sources, but precise dating to individual years is difficult. The chronology of Gothic invasions (249\u2013253 CE) is debated.",
+      "cross_references": [
+        "Part of broader Gothic pressure on Roman frontiers (240s\u2013270s CE)",
+        "Led to the Battle of Abrittus (251 CE) or subsequent conflicts"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Gothic invasions in the early 250s CE is disputed. Some sources place major invasions in 249\u2013251 CE, others in 252\u2013253 CE. The Historia Augusta is unreliable for this period. Modern scholarship questions whether individual 'invasions' were discrete events or part of continuous raiding and migration. The Plague of Cyprian's identity and extent remain debated.",
+  "historiographic_note": "252 CE is poorly documented. The Historia Augusta is the primary source for Trebonianus Gallus' reign, but it is notoriously unreliable. Later sources like Zosimus provide additional information but are also not contemporary. Archaeological evidence is crucial but unevenly distributed. The narrative is heavily dependent on fragmentary sources and later compilations. Non-Mediterranean regions are almost entirely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "252-001",
+      "to": "253-002",
+      "relation": "contemporary_with",
+      "note": "Plague of Cyprian continued across multiple years"
+    },
+    {
+      "from": "252-002",
+      "to": "251-001",
+      "relation": "part_of",
+      "note": "Gothic invasions were part of sustained frontier pressure"
+    }
+  ]
+}

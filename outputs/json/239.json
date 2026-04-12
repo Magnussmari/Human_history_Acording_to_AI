@@ -1,0 +1,153 @@
+{
+  "year": 239,
+  "year_label": "239 CE",
+  "era_context": "The Roman Empire under Gordian III and his regent Timesitheus, consolidating after the Year of Six Emperors. The Sassanid Empire under Shapur I was in its early expansion phase. In China, the Three Kingdoms period continued with Eastern Wu, Cao Wei, and Shu Han competing for dominance. This was a transitional year with relative stability in Rome but ongoing military pressures on multiple frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "239-001",
+      "title": "Timesitheus consolidates power as Praetorian Prefect",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Timesitheus, the praetorian prefect under Gordian III, continued to exercise effective control over the Roman Empire's administration and military affairs. He was the dominant figure in governance during Gordian's early reign, managing the empire's finances, military appointments, and foreign policy. His influence was so complete that contemporary sources often treat him as the de facto ruler, with Gordian as a figurehead.",
+      "key_figures": [
+        "Timesitheus (Praetorian Prefect)",
+        "Gordian III (Emperor, nominal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Vita Gordiani)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Timesitheus's dominance is attested in later sources but not in contemporary documentation. The extent of his power is inferred from the pattern of his actions and the youth of Gordian III.",
+      "cross_references": [
+        "240-001 (Gordian III's sole power)"
+      ]
+    },
+    {
+      "id": "239-002",
+      "title": "Cao Fang becomes Emperor of Cao Wei following regency crisis",
+      "region": "Cao Wei (Northern China)",
+      "coordinates_approx": "34.8, 114.5",
+      "category": "political",
+      "description": "Following the death of Cao Rui in 239 CE, the young Cao Fang (born 231 CE) became emperor of Cao Wei at approximately age 8. Power was held by regents, particularly Sima Yi and other members of the Sima family. This succession marked a critical moment in Wei's history, as the Sima family's influence over the throne increased, eventually leading to their usurpation of the dynasty in 266 CE.",
+      "key_figures": [
+        "Cao Fang (Emperor of Wei)",
+        "Sima Yi (Regent and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Fang's succession is securely dated and well-documented in Chinese historical records.",
+      "cross_references": [
+        "226-001 (Cao Rui becomes emperor)",
+        "266-001 (Sima Yan founds Jin dynasty)"
+      ]
+    },
+    {
+      "id": "239-003",
+      "title": "Sima Yi consolidates military authority in Cao Wei",
+      "region": "Cao Wei (Northern China)",
+      "coordinates_approx": "34.8, 114.5",
+      "category": "political",
+      "description": "Sima Yi, the aging general and regent, solidified his control over Cao Wei's military apparatus following Cao Rui's death. By 239 CE, Sima Yi had become the paramount military authority in the state, effectively governing on behalf of the child emperor Cao Fang. This consolidation of power by the Sima family set the stage for their eventual seizure of the throne.",
+      "key_figures": [
+        "Sima Yi (General and Regent)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sima Yi's rise to power is well-documented in Chinese historical records.",
+      "cross_references": [
+        "239-002 (Cao Fang's succession)",
+        "266-001 (Sima Yan founds Jin dynasty)"
+      ]
+    },
+    {
+      "id": "239-004",
+      "title": "Eastern Wu naval expansion in South China Sea",
+      "region": "Eastern Wu (Southern China and maritime regions)",
+      "coordinates_approx": "22.3, 114.2",
+      "category": "military",
+      "description": "Eastern Wu under Sun Quan continued to develop its naval capabilities and expand its control over maritime trade routes in the South China Sea. This period saw the consolidation of Wu's naval dominance, which would become a defining characteristic of the southern kingdom. Naval expeditions and trade missions extended Wu's influence to Southeast Asia and beyond.",
+      "key_figures": [
+        "Sun Quan (Emperor of Eastern Wu)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Wu-period ports",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Eastern Wu's naval activities are attested in chronicles and supported by archaeological evidence of port development. Specific dating of individual expeditions is often approximate.",
+      "cross_references": [
+        "240-003 (Eastern Wu consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's account of Timesitheus's power is likely exaggerated; some modern scholars argue that Gordian III had more personal agency than the text suggests. The exact date of Cao Rui's death is sometimes given as 239 CE and sometimes as 240 CE in different sources, creating minor chronological uncertainty. The extent of Sima Yi's power in 239 CE versus later years is debated among scholars of the Three Kingdoms period.",
+  "historiographic_note": "239 CE is moderately well-documented for the Roman Empire and China. Roman sources are primarily later compilations (Historia Augusta, Eusebius) with limited contemporary documentation. Chinese sources are more reliable, with detailed chronicles of the Three Kingdoms period. The Historia Augusta is known to contain legendary and fabricated material. Sassanid sources remain limited to royal inscriptions. The year is essentially undocumented for most of the world outside the Mediterranean and East Asia.",
+  "graph_edges": [
+    {
+      "from": "239-001",
+      "to": "240-001",
+      "relation": "led_to",
+      "note": "Timesitheus's consolidation of power continued into 240 CE"
+    },
+    {
+      "from": "239-002",
+      "to": "239-003",
+      "relation": "contemporary_with",
+      "note": "Cao Fang's succession and Sima Yi's consolidation occurred simultaneously"
+    },
+    {
+      "from": "239-002",
+      "to": "266-001",
+      "relation": "led_to",
+      "note": "Cao Fang's weak reign enabled the Sima family's eventual usurpation"
+    },
+    {
+      "from": "239-004",
+      "to": "240-003",
+      "relation": "part_of",
+      "note": "Naval expansion was part of Eastern Wu's broader consolidation"
+    }
+  ]
+}

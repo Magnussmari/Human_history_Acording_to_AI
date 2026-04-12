@@ -1,0 +1,54 @@
+{
+  "year": 233,
+  "year_label": "233 CE",
+  "era_context": "The Roman Empire under Severus Alexander, now in his mid-twenties, faces mounting military and political pressures. The Severan dynasty is approaching its end. In China, the Three Kingdoms period continues with Cao Wei consolidating power in the north. In India, the Satavahana Empire is in terminal decline; regional powers are rising.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Central Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "233-001",
+      "title": "Severus Alexander prepares for Sasanid campaign; military tensions escalate",
+      "region": "Roman Empire (Syria, Mesopotamia)",
+      "coordinates_approx": "35.0, 42.0",
+      "category": "military",
+      "description": "Severus Alexander, responding to Sasanid aggression under Ardashir I, begins preparations for a major military campaign in Mesopotamia. Tensions between Rome and the Sasanid Empire are at a high point. The emperor mobilizes legions and resources for what will become the failed campaign of 234 CE. This period marks the beginning of the end for Alexander's reign, as military discontent grows.",
+      "key_figures": [
+        "Severus Alexander (Roman emperor)",
+        "Ardashir I (Sasanid shah)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Severus Alexander)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact dating of military preparations is uncertain. Sources place the campaign in 232\u2013235 CE; the year 233 is assigned by convention as a preparatory year.",
+      "cross_references": [
+        "Leads to 234-001 (Mesopotamian campaign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Severus Alexander's final years is disputed by modern scholarship. Some sources suggest the Sasanid campaign occurred in 232 CE, others in 233 or 234 CE. The Historia Augusta's account is unreliable. Modern historians debate whether the campaign was as significant as portrayed or whether it was a minor skirmish.",
+  "historiographic_note": "The year 233 CE is very poorly documented. No specific events are clearly attested to this year in surviving sources. The information provided is largely inferred from the broader context of Severus Alexander's reign and the known Sasanid conflict. This is a year where the historical record is essentially silent on specific events. The sources that do exist (Historia Augusta, Herodian) are late and unreliable. For China, sources are more reliable but provide limited detail on specific years.",
+  "graph_edges": [
+    {
+      "from": "233-001",
+      "to": "234-001",
+      "relation": "led_to",
+      "note": "Military preparations led to the Mesopotamian campaign in 234 CE"
+    }
+  ]
+}

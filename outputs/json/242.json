@@ -1,0 +1,93 @@
+{
+  "year": 242,
+  "year_label": "242 CE",
+  "era_context": "The Roman Empire is in the midst of the Third Century Crisis, with rapid imperial succession and military pressure on multiple frontiers. Severus Alexander was assassinated in 222 CE, and the throne has been contested. Philip the Arab is emerging as a major power broker. The Sasanid Empire under Shapur I is expanding aggressively. In China, the Three Kingdoms period continues with Wei dominant. The Kushan Empire is fragmenting.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "242-001",
+      "title": "Continued Roman-Sasanid tensions in Mesopotamia",
+      "region": "Mesopotamia, Syria",
+      "coordinates_approx": "33.5, 44.5",
+      "category": "military",
+      "description": "The Roman Empire and the Sasanid Empire continue to contest control of Mesopotamia. Shapur I is pressing westward, and Roman forces are struggling to maintain their position. The exact details of military engagements in 242 CE are not well-documented, but the general pattern is clear: Sasanid forces are gaining ground. These conflicts are part of a broader pattern of Sasanid expansion that would culminate in major victories in the 250s CE.",
+      "key_figures": [
+        "Shapur I (Sasanid King of Kings)",
+        "Philip the Arab (Roman military commander, future emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Saporis (Shapur's inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Roman-Sasanid conflict is well-attested, but specific events of 242 CE are not individually documented. The date is assigned by convention within the broader conflict period.",
+      "cross_references": [
+        "244-002 (Battle of Misiche)",
+        "260-001 (Battle of Edessa)"
+      ]
+    },
+    {
+      "id": "242-002",
+      "title": "Cao Fang's early reign in Wei Dynasty",
+      "region": "Northern China (Wei Dynasty)",
+      "coordinates_approx": "34.8, 114.5",
+      "category": "political",
+      "description": "Cao Fang (\u66f9\u82b3) continues his reign as emperor of the Wei Dynasty. By 242 CE, he has been ruling for approximately three years, though real power is concentrated in the hands of Sima Yi and the Sima family. Cao Fang is a young and weak ruler, and his reign is characterized by the gradual erosion of imperial authority and the rise of the Sima family. The year 242 CE sees continued military campaigns against rival kingdoms, particularly Shu Han to the southwest.",
+      "key_figures": [
+        "Cao Fang (Emperor of Wei)",
+        "Sima Yi (regent and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Fang's reign dates (239\u2013254 CE) are well-established in Chinese historical records. The dominance of the Sima family is clearly documented.",
+      "cross_references": [
+        "239-001 (Cao Fang's accession)",
+        "266-001 (Jin Dynasty's usurpation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the sparse documentation for 242 CE makes it difficult to assess the significance of events or to identify contradictions with modern scholarship.",
+  "historiographic_note": "The year 242 CE falls within a period of extremely sparse documentation for both the Roman and Sasanid empires. For Rome, the Historia Augusta is the primary narrative source, but it is unreliable for this period. Numismatic evidence provides some corroboration, but specific events of 242 CE are not documented. For the Sasanid Empire, the Res Gestae Divi Saporis is the primary source, but it is a royal inscription subject to propagandistic bias and does not provide year-by-year details. Chinese sources are more reliable, with the Sanguozhi compiled within a century of events. The record is heavily skewed toward political and military events; economic, social, and cultural developments are underrepresented. Many specific events of 242 CE are not documented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "242-001",
+      "to": "244-002",
+      "relation": "led_to",
+      "note": "The ongoing Roman-Sasanid conflict in 242 CE is part of the escalation leading to the Battle of Misiche in 244 CE"
+    },
+    {
+      "from": "242-002",
+      "to": "266-001",
+      "relation": "led_to",
+      "note": "Cao Fang's weak reign in 242 CE contributes to the conditions that enable the Jin Dynasty's usurpation in 266 CE"
+    }
+  ]
+}

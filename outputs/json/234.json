@@ -1,0 +1,91 @@
+{
+  "year": 234,
+  "year_label": "234 CE",
+  "era_context": "The Roman Empire under Severus Alexander in its final year: the young emperor, now in his late twenties, faces mounting pressure from the military and the Sasanid threat in the east. The Severan dynasty, which has ruled since 193 CE, is approaching its end. In China, the Three Kingdoms period continues with Cao Wei dominant in the north. In India, the Satavahana Empire is in decline; regional powers are consolidating.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "234-001",
+      "title": "Severus Alexander campaigns against the Sasanid Empire in Mesopotamia",
+      "region": "Roman Empire (Mesopotamia, Syria)",
+      "coordinates_approx": "35.0, 42.0",
+      "category": "military",
+      "description": "Emperor Severus Alexander, seeking to restore Roman prestige and respond to Sasanid aggression under Ardashir I, launches a major military campaign in Mesopotamia. The campaign is poorly executed and achieves limited success. Roman forces suffer significant losses, and the campaign fails to achieve its strategic objectives. This military failure undermines Alexander's authority with the legions and contributes to the discontent that will lead to his assassination the following year.",
+      "key_figures": [
+        "Severus Alexander (Roman emperor)",
+        "Ardashir I (Sasanid shah)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Severus Alexander)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (fragments)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is attested in multiple sources, but the exact dating and details are disputed. Some sources place it in 232\u2013233 CE; others in 234 CE. The campaign's failure is well-documented.",
+      "cross_references": [
+        "Leads to 235-001 (Severus Alexander's assassination and Maximinus's accession)"
+      ]
+    },
+    {
+      "id": "234-002",
+      "title": "Cao Rui consolidates Cao Wei's control over northern China",
+      "region": "China (Northern China, Cao Wei territory)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Rui, the second emperor of Cao Wei, continues the consolidation of northern Chinese territory begun by his predecessors. He strengthens administrative structures and maintains military dominance over rival states. His reign is marked by relative stability and effective governance, in contrast to the chaos of the early Three Kingdoms period. Cao Rui's policies lay the groundwork for Wei's continued dominance in the north.",
+      "key_figures": [
+        "Cao Rui (emperor of Cao Wei)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Rui's reign and administrative activities are well-documented in Chinese historical records. The year 234 falls within his reign (226\u2013239 CE).",
+      "cross_references": [
+        "Part of Three Kingdoms period (220\u2013280 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Historia Augusta's account of Severus Alexander's Mesopotamian campaign is considered unreliable by modern scholars. Some sources suggest the campaign was more successful than the Historia Augusta indicates, while others question whether it occurred at all in 234 CE. The exact chronology of Alexander's final years is disputed. Modern scholarship emphasizes that Alexander's fall was due to broader military and political discontent rather than a single failed campaign.",
+  "historiographic_note": "The year 234 CE is poorly documented in Roman sources. The Historia Augusta remains the primary narrative source but is demonstrably unreliable. Herodian provides a more contemporary perspective but wrote decades after the events. For China, sources are more reliable and contemporary. The Roman record reflects elite military and court perspectives; the broader impact on provincial populations is largely invisible. Chinese sources similarly reflect court-centered narratives.",
+  "graph_edges": [
+    {
+      "from": "234-001",
+      "to": "235-001",
+      "relation": "led_to",
+      "note": "Military failure and loss of prestige contributed to Severus Alexander's assassination in 235 CE"
+    },
+    {
+      "from": "234-002",
+      "to": "239-001",
+      "relation": "led_to",
+      "note": "Cao Rui's consolidation continued until his death in 239 CE"
+    }
+  ]
+}

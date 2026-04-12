@@ -1,0 +1,91 @@
+{
+  "year": 241,
+  "year_label": "241 CE",
+  "era_context": "The Roman Empire is in the midst of the Third Century Crisis, with rapid imperial succession and military pressure on multiple frontiers. Severus Alexander was assassinated in 222 CE, and the throne has been contested among various military strongmen. The Sasanid Empire under Shapur I is consolidating power and expanding westward. In China, the Three Kingdoms period continues with Wei dominant under the regency of Sima Yi. The Kushan Empire is fragmenting.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "241-001",
+      "title": "Shapur I's consolidation of Sasanid power",
+      "region": "Sasanid Persia, Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Shapur I (Shapur I, r. 240\u2013270 CE) consolidates his power as King of Kings of the Sasanid Empire. By 241 CE, Shapur has been ruling for approximately one year and is establishing himself as a major military and political force in the Near East. His reign is marked by aggressive expansion westward into Mesopotamia and Syria, challenging Roman dominance in the region. Shapur's consolidation of power is facilitated by his military victories and his ability to secure the loyalty of the Sasanid nobility. His reign would be one of the most significant in Sasanid history, marked by major victories over the Roman Empire.",
+      "key_figures": [
+        "Shapur I (Sasanid King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Saporis (Shapur's inscription at Naqsh-i Rustam)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Zosimus, New History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shapur I's reign dates (240\u2013270 CE) are well-established from the Res Gestae and other sources. His consolidation of power in the early years of his reign is clearly documented.",
+      "cross_references": [
+        "260-001 (Battle of Edessa, major Sasanid victory)"
+      ]
+    },
+    {
+      "id": "241-002",
+      "title": "Cao Fang's accession as Emperor of Wei",
+      "region": "Northern China (Wei Dynasty)",
+      "coordinates_approx": "34.8, 114.5",
+      "category": "political",
+      "description": "Cao Fang (\u66f9\u82b3) becomes emperor of the Wei Dynasty following the death of Cao Rui in 239 CE. By 241 CE, Cao Fang has been ruling for approximately two years, though real power is concentrated in the hands of Sima Yi and the Sima family. Cao Fang is a young and weak ruler, and his reign is characterized by the gradual erosion of imperial authority and the rise of the Sima family. The year 241 CE sees continued military campaigns against rival kingdoms, particularly Shu Han to the southwest.",
+      "key_figures": [
+        "Cao Fang (Emperor of Wei)",
+        "Sima Yi (regent and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Fang's reign dates (239\u2013254 CE) are well-established in Chinese historical records. The dominance of the Sima family is clearly documented.",
+      "cross_references": [
+        "239-001 (Cao Fang's accession)",
+        "266-001 (Jin Dynasty's usurpation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the sparse documentation for 241 CE makes it difficult to assess the significance of events or to identify contradictions with modern scholarship. The exact date of Shapur I's accession is sometimes given as 239 or 240 CE in different sources, though 240 CE is the most widely accepted date.",
+  "historiographic_note": "The year 241 CE falls within a period of extremely sparse documentation for both the Roman and Sasanid empires. For Rome, the Historia Augusta is the primary narrative source, but it is unreliable for this period. Numismatic evidence provides some corroboration, but specific events of 241 CE are not documented. For the Sasanid Empire, the Res Gestae Divi Saporis is the primary source, but it is a royal inscription subject to propagandistic bias and does not provide year-by-year details. Chinese sources are more reliable, with the Sanguozhi compiled within a century of events. The record is heavily skewed toward political and military events; economic, social, and cultural developments are underrepresented. Many specific events of 241 CE are not documented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "241-001",
+      "to": "260-001",
+      "relation": "led_to",
+      "note": "Shapur I's consolidation of power in 241 CE is a direct precursor to his major victory at the Battle of Edessa in 260 CE"
+    },
+    {
+      "from": "241-002",
+      "to": "266-001",
+      "relation": "led_to",
+      "note": "Cao Fang's weak reign in 241 CE contributes to the conditions that enable the Jin Dynasty's usurpation in 266 CE"
+    }
+  ]
+}

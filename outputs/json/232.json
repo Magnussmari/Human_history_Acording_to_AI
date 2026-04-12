@@ -1,0 +1,82 @@
+{
+  "year": 232,
+  "year_label": "232 CE",
+  "era_context": "The Roman Empire under Severus Alexander, now in his early twenties. The Severan dynasty has ruled for nearly forty years but is facing mounting pressures from Germanic tribes on the Rhine and Danube, and from the Sasanid Empire in the east. In China, the Three Kingdoms period is well-established; Cao Wei dominates the north. In India, the Satavahana Empire is in steep decline.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica and South America",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "232-001",
+      "title": "Ardashir I of the Sasanid Empire launches campaigns against Roman Mesopotamia",
+      "region": "Sasanid Empire and Roman Mesopotamia",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "military",
+      "description": "Ardashir I, the founder of the Sasanid Persian Empire, launches aggressive military campaigns against Roman-held Mesopotamia and Syria. These campaigns represent a major shift in the balance of power in the Near East, as the Sasanids challenge Roman dominance in the region for the first time since the Parthian Empire. Ardashir's campaigns are successful and force Rome to respond militarily. This conflict will dominate Roman-Persian relations for the next three centuries.",
+      "key_figures": [
+        "Ardashir I (Sasanid shah)",
+        "Severus Alexander (Roman emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta (Severus Alexander)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shahnameh (Persian epic, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sasanid campaigns under Ardashir I are attested in multiple sources, but the exact dating is disputed. Some sources place the major campaigns in 230\u2013232 CE, others in 233\u2013235 CE. The year 232 is assigned by convention.",
+      "cross_references": [
+        "Leads to 234-001 (Severus Alexander's response campaign)"
+      ]
+    },
+    {
+      "id": "232-002",
+      "title": "Cao Rui continues consolidation of Cao Wei; administrative reforms",
+      "region": "China (Northern China, Cao Wei territory)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Rui, the second emperor of Cao Wei, continues administrative reforms and consolidation of northern Chinese territory. His reign is marked by effective governance and military stability. Cao Rui strengthens the bureaucratic apparatus and maintains Wei's military dominance over rival states. These reforms lay the groundwork for Wei's continued dominance in the north.",
+      "key_figures": [
+        "Cao Rui (emperor of Cao Wei)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Rui's reign and administrative activities are well-documented in Chinese historical records. The year 232 falls within his reign (226\u2013239 CE).",
+      "cross_references": [
+        "Part of Three Kingdoms period (220\u2013280 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Ardashir I's campaigns against Rome is disputed. Some modern scholars place the major campaigns in 230 CE, others in 232\u2013235 CE. The sources (Herodian, Historia Augusta) are late and sometimes contradictory. The Shahnameh, a Persian epic source, is legendary and unreliable for precise dating. Modern scholarship emphasizes that the Sasanid-Roman conflict was a gradual escalation rather than a sudden outbreak in a single year.",
+  "historiographic_note": "The year 232 CE is very poorly documented in surviving sources. No specific events are clearly attested to this year. The information provided is inferred from the broader context of Ardashir I's reign and the known Sasanid-Roman conflict. The sources are late, unreliable, and often contradictory. For China, sources are more reliable but provide limited detail on specific years. This is a year where the historical record is essentially silent.",
+  "graph_edges": [
+    {
+      "from": "232-001",
+      "to": "234-001",
+      "relation": "led_to",
+      "note": "Ardashir's campaigns prompted Severus Alexander's military response in 234 CE"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "year": 254,
+  "year_label": "254 CE",
+  "era_context": "Continuation of the Roman Empire's Third Century Crisis. Valerian was still emperor (though increasingly ineffective), and the Sassanid threat remained acute in the East. In China, the Wei-Jin period continued with the Eastern Wu, Cao Wei, and Shu Han competing for dominance. Germanic tribes continued pressure on the Rhine-Danube frontier. The Plague of Cyprian persisted.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "254-001",
+      "title": "Plague of Cyprian Continues; Mortality in Alexandria and North Africa",
+      "region": "Roman North Africa (Egypt, Numidia, Proconsularis)",
+      "coordinates_approx": null,
+      "category": "demographic",
+      "description": "The Plague of Cyprian continued to cause significant mortality in North Africa, particularly in Alexandria and other urban centers. Cyprian's writings from this period describe mass deaths, social breakdown, and the Christian community's response through charitable care. The plague's impact on urban populations was severe, contributing to economic disruption and labor shortages.",
+      "key_figures": [
+        "Cyprian of Carthage"
+      ],
+      "sources": [
+        {
+          "name": "Cyprian of Carthage, De Mortalitate and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cyprian's writings confirm the plague's continuation, but precise mortality figures and geographic extent are not quantifiable from surviving sources.",
+      "cross_references": [
+        "Part of the Plague of Cyprian (249\u2013262 CE)"
+      ]
+    },
+    {
+      "id": "254-002",
+      "title": "Sassanid Expansion in Mesopotamia and Syria",
+      "region": "Mesopotamia and Syria",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Shapur I continued his military campaigns against Roman-held territories in Mesopotamia and Syria, consolidating Sassanid control over former Roman provinces. These campaigns were part of a broader strategy to expand Sassanid influence and weaken Roman power in the Near East. The exact chronology of individual campaigns is uncertain, but the period 254\u2013260 CE saw sustained Sassanid pressure.",
+      "key_figures": [
+        "Shapur I (Sassanid King)"
+      ],
+      "sources": [
+        {
+          "name": "Shapur I's Res Gestae Divi Sapori (Naqsh-i Rustam inscription)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Roman sources (Zosimus, Historia Augusta)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sassanid inscription provides evidence of campaigns, but precise dating to individual years is difficult. The inscription groups campaigns without clear annual chronology.",
+      "cross_references": [
+        "Part of Shapur I's reign (240\u2013272 CE)",
+        "Led to the Battle of Edessa (255 or 259\u2013260 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are well-documented for 254 CE. The year falls within a period of such poor documentation that it is difficult to distinguish between events that occurred in 254 CE versus adjacent years. The Sassanid inscription does not provide year-by-year chronology. Modern scholarship increasingly questions whether the 'Crisis of the Third Century' was as uniform or catastrophic as earlier historiography suggested, pointing to regional variation and continuity.",
+  "historiographic_note": "254 CE is poorly documented. Most surviving sources are later compilations or fragmentary. The Historia Augusta is unreliable for this period. Numismatic evidence (coins) can provide some chronological markers, but gaps remain. The narrative is heavily dependent on Sassanid sources (which are propagandistic) and later Christian sources (which focus on the plague and Christian community responses). Non-Mediterranean regions are almost entirely absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "254-001",
+      "to": "255-002",
+      "relation": "contemporary_with",
+      "note": "Plague of Cyprian continued across multiple years"
+    },
+    {
+      "from": "254-002",
+      "to": "255-001",
+      "relation": "led_to",
+      "note": "Sassanid expansion led to the Battle of Edessa"
+    }
+  ]
+}
