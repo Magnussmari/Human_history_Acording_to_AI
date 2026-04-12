@@ -1,0 +1,98 @@
+{
+  "year": -1971,
+  "year_label": "1972 BCE",
+  "era_context": "Late Bronze Age Levant and Eastern Mediterranean. Horemheb, the last pharaoh of the Eighteenth Dynasty of Egypt, was in the final years of his reign. The Hittite Empire under Suppiluliuma II was consolidating power in Anatolia and the Levant. Mycenaean Greece was flourishing in the Late Helladic IIIB period. This was an era of great power competition, international trade, and monumental architecture across the Eastern Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia (Shang Dynasty records are fragmentary)",
+    "Mesoamerica (no written records; archaeological dating is approximate)",
+    "Northern Europe and the Steppe (oral traditions only)"
+  ],
+  "events": [
+    {
+      "id": "-1971-001",
+      "title": "Horemheb's reign in Egypt (final years)",
+      "region": "Egypt (New Kingdom, Eighteenth Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Horemheb, a military officer who had risen to power after the Amarna Period upheaval, was ruling Egypt in the final years of his reign. He had restored orthodox religious practices after the heretical Akhenaten period and consolidated centralized power. His reign lasted approximately 27 years (c. 1323\u20131295 BCE by traditional dating). He had no direct heir, and his death would lead to the accession of Ramesses I and the founding of the Nineteenth Dynasty. Horemheb undertook military campaigns in Nubia and the Levant to reassert Egyptian hegemony.",
+      "key_figures": [
+        "Horemheb (Pharaoh of Egypt)",
+        "Paramessu/Ramesses I (designated successor, military officer)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions at Karnak and Luxor",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Horemheb's reign is dated to c. 1323\u20131295 BCE, but absolute dating carries uncertainty of \u00b15\u201310 years. The year 1972 BCE (proleptic Gregorian) places him near the end of his reign, but the exact year of his death is not precisely known.",
+      "cross_references": [
+        "Leads to -1970-001 (Ramesses I's accession)"
+      ]
+    },
+    {
+      "id": "-1971-002",
+      "title": "Mycenaean palace culture at its height",
+      "region": "Mycenaean Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean civilization of Greece was at the height of its power and cultural achievement during the Late Helladic IIIB period (c. 1300\u20131190 BCE). Major palace centres at Mycenae, Pylos, Tiryns, and Thebes were flourishing, with extensive trade networks extending to Egypt, the Levant, Anatolia, and the western Mediterranean. Linear B script was used for administrative records. This was the era of the legendary Trojan War (if historical), though the actual date of any conflict at Troy VIIa remains debated. Mycenaean pottery, metalwork, and architectural styles were highly influential across the Eastern Mediterranean.",
+      "key_figures": [
+        "Unknown Mycenaean rulers (no individual names securely attested for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenae, Pylos, Tiryns, and other palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pottery and ceramic typology",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Late Helladic IIIB period is well-attested archaeologically. Absolute dating relies on stratigraphic correlation with Egyptian chronology and radiocarbon dating, with uncertainty of \u00b120\u201330 years for this period.",
+      "cross_references": [
+        "Contemporary with -1970-001 (Ramesses I) and -1970-002 (Suppiluliuma II)",
+        "Leads to -1190-001 (Late Bronze Age collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Horemheb's historical significance has been reassessed in recent scholarship. While he is often portrayed as a great restorer of order after the Amarna Period chaos, some scholars argue that the 'chaos' of the Amarna Period has been exaggerated by later sources hostile to Akhenaten. Additionally, Horemheb's military campaigns in the Levant were less successful than traditional accounts suggest; Egyptian control over the region was contested by the Hittites. The Mycenaean civilization's 'palace culture' is sometimes romanticized in popular histories; recent scholarship emphasizes the fragility of these palace economies and their vulnerability to environmental stress and warfare.",
+  "historiographic_note": "The historical record for this year is dominated by Egyptian administrative sources and archaeological evidence from Mycenaean Greece. Hittite sources are available but less detailed for this specific year. The dating of the Late Helladic IIIB period depends on stratigraphic correlation with Egyptian chronology, which itself is uncertain. The absence of written records from Mycenaean Greece (Linear B tablets are administrative, not narrative) means that political and military events are largely invisible to us. The 'Trojan War' is a legendary tradition recorded in Homer's epics, composed centuries after the supposed events; any historical kernel is difficult to extract.",
+  "graph_edges": [
+    {
+      "from": "-1971-001",
+      "to": "-1970-001",
+      "relation": "led_to",
+      "note": "Horemheb's death led to the accession of Ramesses I and the founding of the Nineteenth Dynasty."
+    },
+    {
+      "from": "-1971-002",
+      "to": "-1190-001",
+      "relation": "led_to",
+      "note": "The Mycenaean palace culture of this period would collapse around 1190 BCE during the Late Bronze Age collapse."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "year": -1965,
+  "year_label": "1966 BCE",
+  "era_context": "The Middle Bronze Age II in the Levant and Egypt; the Hyksos period in Egypt (c. 1650\u20131550 BCE) is well underway. In Mesopotamia, the Old Babylonian period has ended (c. 1600 BCE); the Kassites are consolidating control. In the Indus Valley Civilization, urban centres are in decline or abandoned. In China, the Shang dynasty is in its early phases. This is a period of significant political fragmentation and population movement across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Mesoamerica (no written records; archaeological chronology uncertain)",
+    "Northern Europe (sparse settlement evidence)",
+    "Southeast Asia (limited archaeological documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1965-001",
+      "title": "Reign of Ahmose I begins (traditional Egyptian chronology)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "According to traditional Egyptian chronology, Ahmose I ascends the throne and initiates the expulsion of the Hyksos from Egypt, marking the beginning of the New Kingdom (18th Dynasty). However, modern scholarship places Ahmose's reign c. 1550\u20131525 BCE, making this date problematic. The event is significant for Egyptian state consolidation and the re-establishment of pharaonic authority, but the exact dating remains contested among Egyptologists.",
+      "key_figures": [
+        "Ahmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (19th Dynasty papyrus)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Karnak temple inscriptions of Ahmose I",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "Traditional Egyptian chronology places Ahmose's reign at c. 1550 BCE, not 1966 BCE. The -1965 date reflects older chronological systems. Modern consensus favours a date ~15\u201320 years later. Uncertainty stems from the absence of contemporary astronomical records and reliance on king-list calculations.",
+      "cross_references": []
+    },
+    {
+      "id": "-1965-002",
+      "title": "Kassite consolidation in Babylonia",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Kassite dynasty, having seized power c. 1600 BCE, continues to consolidate control over Babylonia. This period sees the establishment of Kassite administrative structures and the gradual integration of Kassite and Babylonian populations. The Kassites introduce new military technologies (horse-drawn chariots) and administrative practices that will define Babylonian governance for the next four centuries.",
+      "key_figures": [
+        "Agum II or successor (Kassite ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List A (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Kassite boundary stones (kudurru) with later inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kassite chronology is uncertain; regnal lengths in king lists are disputed. This event is assigned to -1965 by convention, but the actual consolidation likely occurred over decades (c. 1600\u20131550 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ahmose I's reign to c. 1966 BCE is rejected by most modern Egyptologists, who place it c. 1550\u20131525 BCE based on radiocarbon dating, astronomical calculations, and stratigraphic evidence. The older chronology (used here) is now considered too high by approximately 15\u201320 years. No other major events are reliably attested for this specific year.",
+  "historiographic_note": "The historical record for 1966 BCE is extremely sparse. Egyptian chronology for the Second Intermediate Period and early New Kingdom remains contested, with scholars divided between 'high,' 'middle,' and 'low' chronologies differing by decades. Mesopotamian sources are similarly limited for this specific year. The absence of contemporary written records for most regions means that events assigned to this year are often conventional placeholders rather than precisely dated occurrences. Bias towards Egyptian and Mesopotamian sources reflects the concentration of surviving written evidence in these regions.",
+  "graph_edges": [
+    {
+      "from": "-1965-001",
+      "to": "-1550-001",
+      "relation": "part_of",
+      "note": "Ahmose I's reign spans multiple years; the expulsion of the Hyksos is a multi-year campaign."
+    }
+  ]
+}

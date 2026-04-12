@@ -1,0 +1,95 @@
+{
+  "year": -1970,
+  "year_label": "1971 BCE",
+  "era_context": "Late Bronze Age Levant and Eastern Mediterranean. The New Kingdom of Egypt under the Nineteenth Dynasty (Ramesses I period) was consolidating power after the Eighteenth Dynasty. The Hittite Empire under Suppiluliuma II controlled Anatolia and northern Syria. Mycenaean Greece was in the Late Helladic IIIB period, with palace centres at Mycenae, Pylos, and Tiryns at their height. The Late Bronze Age collapse was still two centuries away; this was an era of great power diplomacy, trade networks, and monumental construction.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence exists but is underrepresented in traditional historiography)",
+    "East Asia (Chinese sources for this period are sparse; Shang Dynasty records are fragmentary)",
+    "Mesoamerica (no written records; archaeological dating for this period is approximate)",
+    "Northern Europe and the Steppe (oral traditions only; archaeological evidence is sparse)"
+  ],
+  "events": [
+    {
+      "id": "-1970-001",
+      "title": "Reign of Ramesses I begins (approximate traditional dating)",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses I (Paramessu) ascended to the Egyptian throne, founding the Nineteenth Dynasty after the death of Horemheb. He was an elderly military officer who ruled for only 1\u20132 years before his death. His reign marked a transition in Egyptian power and the beginning of the Ramesside period, which would dominate the Late Bronze Age Eastern Mediterranean for the next two centuries. He was succeeded by his son Seti I, who would undertake major military campaigns and temple construction.",
+      "key_figures": [
+        "Ramesses I (Pharaoh of Egypt)",
+        "Horemheb (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (temple inscriptions)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for this period relies on king lists and astronomical calculations. The absolute date of Ramesses I's accession is debated; estimates range from 1295\u20131290 BCE depending on the chronological system used (high, middle, or low chronology). The traditional date of c. 1295 BCE is used here, but uncertainty of \u00b15\u201310 years is standard for this era.",
+      "cross_references": [
+        "Follows from -1971-001 (Horemheb's reign)",
+        "Leads to -1969-001 (Seti I's reign)"
+      ]
+    },
+    {
+      "id": "-1970-002",
+      "title": "Suppiluliuma II's reign in the Hittite Empire (approximate dating)",
+      "region": "Hittite Empire (Anatolia, northern Syria)",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "Suppiluliuma II, the last great king of the Hittite Empire, was ruling during this period. He undertook military campaigns in Cyprus and the Levantine coast, attempting to maintain Hittite hegemony against Egyptian expansion under the Nineteenth Dynasty. His reign represents the final flourishing of Hittite power before the empire's collapse around 1180 BCE. He commissioned the famous Bo\u011fazk\u00f6y inscriptions documenting his campaigns.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)",
+        "Ramesses I (Egyptian Pharaoh, contemporary rival)"
+      ],
+      "sources": [
+        {
+          "name": "Bo\u011fazk\u00f6y inscriptions (cuneiform texts from Hattusa)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite annals and military records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Suppiluliuma II's reign is dated to c. 1207\u20131178 BCE by most scholars, but the exact year of accession is uncertain. This entry places him in power during 1971 BCE (proleptic Gregorian), which corresponds to the traditional chronology. Uncertainty of \u00b15 years is typical.",
+      "cross_references": [
+        "Contemporary with -1970-001 (Ramesses I)",
+        "Leads to -1180-001 (Hittite collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ramesses I's accession to c. 1295 BCE is not universally accepted. Some scholars using the 'low chronology' place it as late as 1279 BCE, while others using the 'high chronology' place it earlier. The Turin King List provides reign lengths, but absolute dating depends on astronomical calculations (heliacal risings of Sirius) and synchronisms with other Near Eastern chronologies, which remain contested. Additionally, the significance of Ramesses I's reign is often overstated in popular histories; he ruled for only 1\u20132 years and was primarily a transitional figure. His son Seti I was far more consequential militarily and architecturally.",
+  "historiographic_note": "The historical record for this year is heavily dependent on Egyptian administrative records, king lists, and temple inscriptions, which are biased toward the perspective of the pharaonic court. Hittite sources provide a counterpoint from Anatolia, but records from the Levantine city-states, Mycenaean Greece, and other regions are fragmentary or absent. The dating of this period relies on indirect methods (king list calculations, astronomical synchronisms, radiocarbon dating of organic materials from archaeological contexts), all of which carry uncertainty. Western historiography has traditionally privileged Egyptian and Hittite sources, potentially underrepresenting the agency and significance of Levantine, Cypriot, and other regional powers.",
+  "graph_edges": [
+    {
+      "from": "-1970-001",
+      "to": "-1969-001",
+      "relation": "led_to",
+      "note": "Ramesses I's death led to the accession of his son Seti I, who would expand Egyptian power significantly."
+    },
+    {
+      "from": "-1970-001",
+      "to": "-1970-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses I and Suppiluliuma II were contemporaries, representing the two great powers of the Late Bronze Age Eastern Mediterranean."
+    }
+  ]
+}
