@@ -1,0 +1,92 @@
+{
+  "year": -2736,
+  "year_label": "2736 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (Dynasty IV) is in its final decades. In Mesopotamia, the Early Dynastic Period III continues, with city-states competing for regional hegemony. The Indus Valley Civilization is in its mature phase (Harappan period). Long-distance trade networks are well-established across the Eastern Mediterranean, the Persian Gulf, and the Indian Ocean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (Chinese chronology for this period is debated)",
+    "Americas",
+    "Oceania",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2736-001",
+      "title": "Continued Old Kingdom Administration in Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "During this year, Egypt's Old Kingdom administration continued its gradual decentralization. Provincial governors (nomarchs) accumulated increasing power and wealth, as evidenced by the construction of private tombs and the establishment of local administrative centers. The central authority of the pharaoh, while still supreme in theory, was becoming more dependent on the cooperation of regional elites. This period saw the continuation of pyramid construction projects and the maintenance of trade networks with the Levant and Nubia.",
+      "key_figures": [
+        "Menkaure (Pharaoh, if still reigning)",
+        "Provincial nomarchs (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from provincial tomb sites (Aswan, Siut, Beni Hasan)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs (later Old Kingdom and First Intermediate Period)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific events are documented for this year. The description reflects the general trajectory of the late Old Kingdom, inferred from archaeological evidence and later inscriptions.",
+      "cross_references": [
+        "Part of broader Old Kingdom decline pattern"
+      ]
+    },
+    {
+      "id": "-2736-002",
+      "title": "Indus Valley Civilization \u2014 Mature Harappan Phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its height during this period, with major urban centers like Harappa and Mohenjo-daro flourishing. These cities featured sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's writing system remains undeciphered, limiting our understanding of political organization and cultural beliefs. Archaeological evidence suggests a highly organized society with centralized administration, though the nature of political authority is unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform references to 'Meluhha' (Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's existence and flourishing during this period is confirmed by extensive archaeological evidence. Absolute dating is based on radiocarbon analysis and stratigraphic correlation with Mesopotamian chronologies, with \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "Contemporary with -2735-001 (Egyptian Old Kingdom)",
+        "Precedes -2000-001 (Indus Valley Civilization decline)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events in -2736. However, the general narrative of Old Kingdom decline is based on later sources and archaeological inference rather than contemporary documentation. The Indus Valley Civilization's political organization and cultural beliefs remain largely unknown due to the undeciphered writing system, limiting our ability to assess the significance of events or developments during this year.",
+  "historiographic_note": "Documentation for -2736 is minimal. Egyptian sources are absent for this specific year; our understanding relies on archaeological evidence and later inscriptions. Mesopotamian sources are similarly sparse for this year. The Indus Valley Civilization is known primarily through archaeology, with no written records that can be reliably dated to specific years. The historical record is heavily biased toward regions with writing systems and toward elite activities. The absence of documentation does not indicate the absence of historical significance; it reflects the limitations of the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-2736-001",
+      "to": "-2700-001",
+      "relation": "led_to",
+      "note": "Continued decentralization of Old Kingdom authority"
+    },
+    {
+      "from": "-2736-002",
+      "to": "-2000-001",
+      "relation": "led_to",
+      "note": "Mature Harappan phase precedes the civilization's decline"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "year": -2735,
+  "year_label": "2735 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (Dynasty IV) is in its final phase; the Great Pyramids of Giza were completed roughly a century prior. In Mesopotamia, the Early Dynastic Period III is underway, with city-states like Lagash, Umma, and Uruk competing for regional dominance. The Akkadian Empire has not yet risen. Writing systems (cuneiform, hieroglyphics) are well-established. Long-distance trade networks connect Egypt, the Levant, Mesopotamia, and the Indus Valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "East Asia (Chinese Bronze Age chronology for this period remains debated)",
+    "Americas (no written records; archaeological evidence sparse)",
+    "Oceania (limited archaeological evidence)"
+  ],
+  "events": [
+    {
+      "id": "-2735-001",
+      "title": "Reign of Menkaure, Pharaoh of Egypt (Dynasty IV) \u2014 Late Phase",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure (also Mycerinus) is believed to have ruled during this period in the late Old Kingdom. He commissioned the third of the three major pyramids at Giza, the Pyramid of Menkaure, though construction may have extended beyond his reign. His reign marks the declining phase of Old Kingdom centralized power, with provincial governors (nomarchs) gaining increasing autonomy. The exact length and dating of his reign remain uncertain, with estimates ranging across several decades.",
+      "key_figures": [
+        "Menkaure (Pharaoh of Egypt, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid of Menkaure, Giza (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca (via Eusebius and Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian Old Kingdom chronology for this period is debated. Radiocarbon dating and king lists provide conflicting evidence. Menkaure's reign is traditionally placed c. 2490\u20132472 BCE, but absolute dating carries \u00b150\u2013100 year uncertainty. Assignment to -2735 is conventional and approximate.",
+      "cross_references": [
+        "Follows from -2750-001 (Khafre's reign)",
+        "Precedes -2720-001 (Dynasty V transition)"
+      ]
+    },
+    {
+      "id": "-2735-002",
+      "title": "Lagash-Umma Border Conflicts in Mesopotamia",
+      "region": "Mesopotamia (modern southern Iraq), city-states of Lagash and Umma",
+      "coordinates_approx": "31.9\u00b0N, 46.1\u00b0E",
+      "category": "military",
+      "description": "The city-states of Lagash and Umma engaged in recurring territorial disputes over the fertile Guedena plain during the Early Dynastic Period III. These conflicts are documented in inscriptions left by rulers of both cities, particularly Eannatum of Lagash and his successors. The disputes reflect competition for agricultural land and water rights in southern Mesopotamia. While specific battles cannot be dated to individual years with precision, this period saw sustained military activity and the development of organized warfare tactics.",
+      "key_figures": [
+        "Eannatum of Lagash (ensi, military leader)",
+        "Rulers of Umma (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of Vultures (Lagash, c. 2450 BCE, later inscription describing earlier conflicts)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions of Eannatum and successors (clay tablets, temple records)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological surveys of Lagash and Umma sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash-Umma conflicts are well-attested in cuneiform sources, but precise dating of individual campaigns is difficult. Most detailed inscriptions date to c. 2450 BCE or later. Assignment to -2735 reflects the broader Early Dynastic III period; specific events for this year cannot be confirmed.",
+      "cross_references": [
+        "Part of broader Early Dynastic III conflict pattern",
+        "Precedes -2350-001 (Akkadian conquest of Mesopotamia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom of Egypt remains contested. Some scholars argue for a 'low chronology' that would place Menkaure's reign several centuries later than traditional dating. Radiocarbon dating of organic materials from the pyramids has yielded dates that conflict with king-list chronologies, suggesting either calibration issues or that the king lists themselves contain errors or symbolic rather than literal reign lengths. The Lagash-Umma conflicts are attested in inscriptions, but these were often written decades or centuries after the events they describe, introducing potential distortion or anachronism in the narrative.",
+  "historiographic_note": "Documentation for -2735 is heavily dependent on Egyptian king lists (themselves compiled centuries after the Old Kingdom) and Mesopotamian inscriptions that are often retrospective. Egyptian chronology for this period relies on astronomical calculations (Sothic dating), king-list lengths, and radiocarbon analysis\u2014all of which yield conflicting results. Mesopotamian sources are more contemporary but fragmentary. The historical record is biased toward elite activities (royal monuments, military campaigns) and toward regions with writing systems (Egypt, Mesopotamia). Sub-Saharan Africa, East Asia, and the Americas are essentially absent from the record, not because nothing happened but because evidence is archaeologically sparse or not yet recovered.",
+  "graph_edges": [
+    {
+      "from": "-2735-001",
+      "to": "-2720-001",
+      "relation": "led_to",
+      "note": "Menkaure's reign marks the late Old Kingdom; followed by Dynasty V transition and further decentralization"
+    },
+    {
+      "from": "-2735-002",
+      "to": "-2350-001",
+      "relation": "part_of",
+      "note": "Lagash-Umma conflicts are part of the broader Early Dynastic III period, which precedes Akkadian unification"
+    }
+  ]
+}
