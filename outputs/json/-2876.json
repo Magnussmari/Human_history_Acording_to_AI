@@ -1,0 +1,114 @@
+{
+  "year": -2876,
+  "year_label": "2876 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at its territorial zenith. Egypt's Old Kingdom (Dynasty VI) is in its final decades. The Indus Valley Civilisation is in its mature urban phase. In China, the Xia Dynasty remains legendary or is in its early phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania and the Pacific",
+    "The Americas",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-2876-001",
+      "title": "Akkadian Empire at territorial zenith under Naram-Sin",
+      "region": "Mesopotamia, Levant, Anatolia, Persian Gulf, Zagros Mountains",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "political",
+      "description": "Naram-Sin's reign represents the Akkadian Empire's greatest territorial extent. The empire controls much of the Fertile Crescent, including Mesopotamia, the Levant, parts of Anatolia, and the Zagros Mountains. Akkadian administrative officials and military garrisons are established throughout the empire. The king declares himself a god, a significant ideological innovation that elevates the status of the Akkadian monarchy. However, this period of expansion is unsustainable; the empire's overextension and the costs of military campaigns will eventually lead to its collapse.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, r. c. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative texts and military records (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Akkadian chronology and territorial extent (Liverani, The Ancient Near East; Bryce, The End of the Bronze Age)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and the Akkadian Empire's territorial extent are well-attested in contemporary sources. However, absolute dating remains uncertain, with a margin of error of \u00b150\u2013100 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2876-002",
+      "title": "Indus Valley Civilisation long-distance trade with Mesopotamia",
+      "region": "Indus Valley, South Asia, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence indicates that the Indus Valley Civilisation maintains active trade with Mesopotamia and the Persian Gulf during this period. Indus seals and artefacts have been found in Mesopotamian sites, and Mesopotamian goods appear in Indus Valley contexts. This trade is facilitated by maritime routes through the Persian Gulf and possibly overland routes through the Zagros Mountains. The trade includes luxury goods such as lapis lazuli, carnelian, and ivory, as well as practical items such as timber and metals.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus artefacts in Mesopotamian sites and vice versa",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Indus-Mesopotamian trade (Possehl, The Indus Civilisation; Liverani, The Ancient Near East)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is well-established through archaeological evidence. However, the precise dating of individual trade transactions and the year-by-year evolution of trade patterns cannot be reconstructed.",
+      "cross_references": [
+        "-2876-001"
+      ]
+    },
+    {
+      "id": "-2876-003",
+      "title": "Egyptian Old Kingdom Dynasty VI final phase",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Dynasty VI is in its final phase. The centralised authority of the pharaoh is significantly weakened, with provincial governors accumulating wealth and power. The pyramid-building programme has largely ceased, reflecting the reduced resources and authority of the crown. The transition from the Old Kingdom to the First Intermediate Period is imminent, though the exact timing of this transition is debated among scholars.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs from tomb walls",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Old Kingdom decline (Hornung, Krauss, Warburton)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trend of Old Kingdom decline is archaeologically evident. However, the precise dating of individual years and the transition to the First Intermediate Period remain uncertain. Uncertainty of \u00b1100\u2013150 years is realistic.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the absolute chronology of the Akkadian Empire and Egyptian Old Kingdom remains contested among scholars, with some arguing for dates 100\u2013200 years earlier or later than the conventional chronology used here.",
+  "historiographic_note": "Documentation for this year is sparse and geographically biased toward Mesopotamia and Egypt. The Akkadian and Egyptian written records are elite-focused and do not provide a comprehensive picture of society. The Indus Valley Civilisation's undeciphered script limits historical reconstruction. Regions outside the Mediterranean and Near East are essentially absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2876-001",
+      "to": "-2876-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian Empire's territorial expansion and Indus Valley trade networks are contemporary and may be connected through trade relationships."
+    },
+    {
+      "from": "-2876-001",
+      "to": "-2875-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire's overextension under Naram-Sin leads to its collapse in the following decades."
+    }
+  ]
+}

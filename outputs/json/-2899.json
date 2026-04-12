@@ -1,0 +1,75 @@
+{
+  "year": -2899,
+  "year_label": "2899 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Early Dynastic Period III dominates southern Mesopotamia, with competing city-states (Lagash, Umma, Uruk, Ur) engaged in territorial disputes. Egypt's Old Kingdom (Dynasty IV\u2013V) is in its mature phase; pyramid construction and centralized state administration are at their height. The Indus Valley Civilization is in its early mature phase, with planned urban settlements emerging. Writing systems (cuneiform, Egyptian hieroglyphics, proto-Indus script) are well-established.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus region (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2899-001",
+      "title": "Lagash\u2013Umma border conflict (traditional dating)",
+      "region": "Southern Mesopotamia (modern Iraq)",
+      "coordinates_approx": "32.0, 46.0",
+      "category": "military",
+      "description": "Conflict between the city-states of Lagash and Umma over control of the Gu'edena (fertile plain). The Stele of Vultures, commissioned by Lagash's ruler Eannatum, commemorates a Lagash victory. This represents one of the earliest recorded military conflicts in human history, though the precise dating of Eannatum's reign remains debated among scholars. The conflict reflects competition for agricultural land and water rights in the Tigris-Euphrates valley.",
+      "key_figures": [
+        "Eannatum (ensi of Lagash)",
+        "Ruler of Umma (name uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of Vultures (Lagash, c. 2450\u20132350 BCE traditional dating, but possibly earlier)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "King List of Lagash (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Stele of Vultures is a primary artifact, but Eannatum's reign is dated variously between 2450\u20132350 BCE by different chronological systems. Assignment to -2899 is speculative and depends on which chronology is adopted. The conflict itself is historically attested; the specific year is not.",
+      "cross_references": []
+    },
+    {
+      "id": "-2899-002",
+      "title": "Indus Valley Civilization urban expansion (approximate period)",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues its expansion and consolidation during the mature phase (c. 2600\u20131900 BCE). Major urban centers such as Harappa and Mohenjo-daro are fully developed with planned street grids, standardized weights and measures, and extensive trade networks. This period represents the height of Indus urban planning and craft specialization. The civilization's script remains undeciphered, limiting understanding of political and religious structures.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (Wheeler, Marshall, and subsequent teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and standardized weights (material evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Indus Valley Civilization's chronology is established through radiocarbon dating and stratigraphic analysis. The mature phase is dated c. 2600\u20131900 BCE; -2899 falls within this range. Specific events for this year are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Eannatum and the Lagash\u2013Umma conflict is highly disputed. Some scholars place Eannatum in the 24th century BCE, others in the 25th century. The traditional assignment to -2899 is not supported by any contemporary source and depends entirely on retroactive chronological reconstruction. The Stele of Vultures is a genuine artifact, but its date is inferred, not inscribed. No disconfirming evidence contradicts the Indus Valley Civilization's existence or general chronology for this period, though the absence of deciphered writing limits interpretation.",
+  "historiographic_note": "The historical record for -2899 is extremely thin. For Mesopotamia, we rely on later king lists, inscriptions on monuments, and archaeological stratigraphy\u2014all of which are subject to chronological uncertainty. The 'short' vs. 'long' chronology debate affects dating by up to 200 years. For the Indus Valley, we have abundant archaeological evidence but no contemporary written records that can be reliably dated to specific years. Egyptian records from this period are more abundant but do not typically record events by individual year in a way that survives. The surviving sources are heavily weighted toward elite, monumental records; the lives of ordinary people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2899-001",
+      "to": "-2900-001",
+      "relation": "part_of",
+      "note": "Lagash\u2013Umma conflicts span multiple generations; this is one episode in a longer rivalry"
+    }
+  ]
+}
