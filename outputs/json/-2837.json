@@ -1,0 +1,80 @@
+{
+  "year": -2837,
+  "year_label": "2837 BCE",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at or near its territorial maximum. Egyptian Old Kingdom (Dynasty VI) is in its final phase. The Indus Valley Civilization continues its mature phase. This period is characterized by established state systems, monumental architecture, and long-distance trade networks.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: no written records",
+    "East Asia: Chinese records for this period are legendary or archaeologically uncertain",
+    "Americas: no written records"
+  ],
+  "events": [
+    {
+      "id": "-2837-001",
+      "title": "Akkadian Empire: Peak of Territorial Expansion",
+      "region": "Mesopotamia, Levant, and surrounding regions",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Naram-Sin's Akkadian Empire reaches its maximum territorial extent, encompassing Mesopotamia, parts of the Levant, and surrounding regions. The king has declared himself divine and is consolidating control over formerly independent Sumerian city-states. However, the empire is beginning to face increasing pressure from Gutian incursions and internal resistance. Administrative records document the organization of the empire into provinces and the collection of tribute.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts (cuneiform tablets from multiple sites)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naram-Sin Stele and other monumental inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and the empire's territorial extent are well documented. However, the precise year of maximum expansion is not dated in sources; this entry reflects the general state during his reign.",
+      "cross_references": [
+        "-2839-001",
+        "-2838-001"
+      ]
+    },
+    {
+      "id": "-2837-002",
+      "title": "Ebla in the Levant: Under Akkadian Pressure",
+      "region": "Levant (modern Syria)",
+      "coordinates_approx": "35.4, 36.8",
+      "category": "military",
+      "description": "The city of Ebla, a major urban center in the Levant, is under pressure from Akkadian military campaigns. Naram-Sin's inscriptions reference campaigns into the Levant, and Ebla's archives (discovered in modern excavations) show evidence of disruption during this period. The city may have been conquered or forced into tributary status by Akkadian forces, though the exact chronology is debated.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions mentioning Levantine campaigns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ebla archives (clay tablets from the palace, excavated in the 1970s)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Akkadian campaigns into the Levant are documented, but the precise dating of Ebla's conquest or subjugation is debated. The year -2837 is assigned by convention; the actual event may have occurred \u00b15\u201310 years from this date.",
+      "cross_references": [
+        "-2837-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Naram-Sin's campaigns and Ebla's conquest is disputed. Some scholars argue that Ebla's destruction occurred earlier or later than traditionally dated. The relationship between Akkadian military campaigns and Ebla's archaeological evidence of disruption is not definitively established for this specific year.",
+  "historiographic_note": "The historical record for this year is based primarily on Akkadian royal inscriptions and administrative texts, which may reflect propaganda or idealized narratives of military success. Ebla's archives provide a counterpoint, but their interpretation is complicated by the undeciphered nature of some texts and the difficulty of precise dating. The assignment of events to this specific year is conventional.",
+  "graph_edges": [
+    {
+      "from": "-2837-001",
+      "to": "-2837-002",
+      "relation": "led_to",
+      "note": "Akkadian territorial expansion leads to pressure on Levantine cities like Ebla"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "year": -2835,
+  "year_label": "2835 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin is in its final phase, facing increasing internal and external pressure. Egyptian Old Kingdom (Dynasty VI) is approaching its end. Indus Valley Civilization continues in its mature phase. This is a period of transition and instability in some regions, though established state systems remain in place.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: no written records",
+    "East Asia: Chinese records for this period are legendary or archaeologically uncertain",
+    "Americas: no written records"
+  ],
+  "events": [
+    {
+      "id": "-2835-001",
+      "title": "Akkadian Empire: Continued Military Pressure and Administrative Strain",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin continues to face military pressure from Gutian incursions and internal rebellions. Administrative records document ongoing military campaigns to maintain control over Mesopotamian territories. The empire is showing signs of strain, with evidence of economic disruption and military overextension. These pressures will lead to the empire's collapse within a few decades, though Naram-Sin's reign continues for several more years.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts and royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of the Akkadian Empire's decline is well documented. Specific dating to this year is conventional.",
+      "cross_references": [
+        "-2836-001",
+        "-2837-001"
+      ]
+    },
+    {
+      "id": "-2835-002",
+      "title": "Egyptian Old Kingdom: Final Phase of Dynasty VI",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign is in its final phase. The Old Kingdom is approaching its end, with administrative fragmentation and provincial autonomy at their height. Monumental construction has largely ceased; the state apparatus is severely decentralized. The transition to the First Intermediate Period is imminent, though the exact year of the Old Kingdom's end is debated.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List and Abydos King List (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad trend of Old Kingdom decline is well established. The precise year of the dynasty's end is debated, with some scholars placing it c. 2184 BCE and others proposing earlier dates.",
+      "cross_references": [
+        "-2839-002",
+        "-2838-002",
+        "-2836-002"
+      ]
+    },
+    {
+      "id": "-2835-003",
+      "title": "Indus Valley Civilization: Mature Phase Trade Networks",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues its mature phase, with extensive trade networks connecting to Mesopotamia, the Persian Gulf, and other regions. Archaeological evidence shows the movement of goods, including lapis lazuli from Afghanistan, carnelian from the Deccan, and Indus Valley seals found in Mesopotamian sites. Urban centers such as Harappa and Mohenjo-daro are at their height. No specific events are attested for this year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites and Mesopotamian sites showing Indus artifacts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Indus Valley Civilization's chronology is secure within \u00b150 years for the mature phase. No specific events are known for this year.",
+      "cross_references": [
+        "-2839-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Akkadian Empire's collapse and the Egyptian Old Kingdom's end is subject to ongoing scholarly debate. Some scholars propose 'low chronologies' that would place these events 50\u2013100 years earlier than traditional dating. The precise relationship between Akkadian military pressure and the rise of the Gutians is not definitively established.",
+  "historiographic_note": "The historical record for this year is based on administrative texts, inscriptions, and archaeological evidence that document broad trends rather than specific year-dated events. The assignment of events to this particular year is conventional. For the Indus Valley, the undeciphered script limits understanding of political or social events. The historical record is biased toward elite narratives and monumental inscriptions; the experiences of common people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2835-001",
+      "to": "-2218-001",
+      "relation": "led_to",
+      "note": "Akkadian military strain leads to the empire's collapse within a few decades"
+    },
+    {
+      "from": "-2835-002",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "The decline of the Old Kingdom leads to the First Intermediate Period"
+    }
+  ]
+}

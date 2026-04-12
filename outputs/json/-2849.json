@@ -1,0 +1,104 @@
+{
+  "year": -2849,
+  "year_label": "2849 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its mid-to-late phase, with the Fourth Dynasty (pyramid-building era) recently concluded and the Fifth Dynasty established. In Mesopotamia, the Early Dynastic Period III is underway; city-states like Lagash, Umma, and Uruk are competing for regional dominance. The Indus Valley Civilisation is in its mature phase (c. 2500\u20131900 BCE). Writing systems are well-established in Egypt and Mesopotamia; cuneiform and hieroglyphic records are abundant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2849-001",
+      "title": "Reign of Userkaf, Fifth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Userkaf (c. 2494\u20132487 BCE, conventional dating) is established as the founding pharaoh of Egypt's Fifth Dynasty. He represents a shift in royal ideology from the monumental pyramid-building of the Fourth Dynasty toward a more decentralised administrative model and increased emphasis on solar religion (Ra worship). His reign marks the beginning of a gradual weakening of centralised royal power that would characterise the later Old Kingdom. Userkaf's pyramid at Saqqara is smaller than his Fourth Dynasty predecessors, reflecting changing priorities and possibly resource constraints.",
+      "key_figures": [
+        "Userkaf (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid of Userkaf at Saqqara (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Eusebius and Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Conventional Egyptian chronology places Userkaf's reign c. 2494\u20132487 BCE, but absolute dating of the Old Kingdom remains debated. Radiocarbon and astronomical methods suggest possible shifts of \u00b150\u2013100 years. The year -2849 (2850 BCE) falls within the broader period of his reign under most chronologies, though the exact year is not independently verifiable.",
+      "cross_references": [
+        "Follows from -2850 (end of Fourth Dynasty)",
+        "Precedes -2840 (mid-Fifth Dynasty consolidation)"
+      ]
+    },
+    {
+      "id": "-2849-002",
+      "title": "Lagash-Umma Border Conflict (Early Dynastic Period III)",
+      "region": "Mesopotamia (Southern Iraq, Lagash and Umma city-states)",
+      "coordinates_approx": "31.9, 46.1",
+      "category": "military",
+      "description": "Ongoing territorial disputes between the city-states of Lagash and Umma over control of the Gu-edena (fertile plain) continue during this period. These conflicts, documented in later Sumerian inscriptions and king lists, represent the endemic warfare of the Early Dynastic Period III. The exact chronology of individual campaigns is uncertain, but the rivalry between these polities is well-attested. Such conflicts were driven by competition for agricultural land and water rights, and they eventually led to the rise of stronger centralised powers like Akkad.",
+      "key_figures": [
+        "Enannatuma (Ensi of Lagash, traditional dating)",
+        "Ush (Ensi of Umma, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Lagash King List and inscriptions (cuneiform tablets and stone monuments)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation, c. 1800 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Stele of the Vultures (Lagash, c. 2450 BCE, later than this year but documenting similar conflicts)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash-Umma conflicts are well-documented in Sumerian sources, but precise dating of individual campaigns is problematic. The Sumerian King List is notoriously unreliable for chronology. Modern scholars assign these conflicts to the Early Dynastic III period (c. 2600\u20132334 BCE), but the year -2849 is assigned here by convention within that broader window.",
+      "cross_references": [
+        "Part of broader Early Dynastic III warfare pattern",
+        "Precedes the rise of Akkad under Sargon (c. -2334)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Userkaf's reign (c. 2494\u20132487 BCE) is increasingly questioned by scholars employing radiocarbon dating and astronomical calculations. Some recent studies suggest the Old Kingdom may be 50\u2013150 years earlier than the traditional chronology, which would place -2849 outside Userkaf's reign entirely. Additionally, the Lagash-Umma conflicts are often cited as examples of how the Sumerian King List distorts chronology; the actual sequence and dating of these wars remain speculative. No contemporary inscription from -2849 specifically has been identified.",
+  "historiographic_note": "The historical record for -2849 is heavily dependent on later compilations (Turin King List, Sumerian King List, Manetho) and on archaeological stratigraphy, which provides relative but not absolute dating. Egyptian chronology for the Old Kingdom is a major point of scholarly debate; the 'conventional' chronology used here is one of several competing systems. Mesopotamian sources are more abundant but still subject to interpretation. The bias toward Egyptian and Mesopotamian sources reflects the concentration of literate civilisations in these regions; vast areas of the world leave no written record for this period. The assignment of events to this specific year is largely conventional rather than independently verified.",
+  "graph_edges": [
+    {
+      "from": "-2849-001",
+      "to": "-2840-001",
+      "relation": "part_of",
+      "note": "Userkaf's reign continues into the mid-Fifth Dynasty"
+    },
+    {
+      "from": "-2849-002",
+      "to": "-2334-001",
+      "relation": "led_to",
+      "note": "Lagash-Umma conflicts exemplify the fragmentation that Akkad would later unify"
+    }
+  ]
+}
