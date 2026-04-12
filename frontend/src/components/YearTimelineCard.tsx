@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import type { YearData } from "@/types/history";
-import { DOC_LEVEL_CONFIG, getEraForYear, CATEGORY_CONFIG } from "@/lib/constants";
+import { DOC_LEVEL_CONFIG, getEraForYear, safeCategoryConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 interface YearTimelineCardProps {
@@ -40,7 +40,7 @@ const CAT_DOT_MAP: Record<string, string> = {
 
 export function YearTimelineCard({ year, index }: YearTimelineCardProps) {
   const era = getEraForYear(year.year);
-  const docConfig = DOC_LEVEL_CONFIG[year.documentation_level];
+  const docConfig = DOC_LEVEL_CONFIG[year.documentation_level] ?? { label: year.documentation_level, color: "text-muted-foreground", bars: 1 };
   const topCategories = [...new Set(year.events.map((e) => e.category))].slice(0, 5);
   const topEvents = year.events.slice(0, 3);
 
@@ -133,12 +133,12 @@ export function YearTimelineCard({ year, index }: YearTimelineCardProps) {
                     "h-2 w-2 rounded-full shrink-0",
                     CAT_DOT_MAP[cat]
                   )}
-                  title={CATEGORY_CONFIG[cat].label}
+                  title={safeCategoryConfig(cat).label}
                 />
               ))}
               {topCategories.length > 0 && (
                 <span className="text-[10px] text-muted-foreground/60 ml-1">
-                  {topCategories.map(c => CATEGORY_CONFIG[c].label).join(", ")}
+                  {topCategories.map(c => safeCategoryConfig(c).label).join(", ")}
                 </span>
               )}
             </div>
