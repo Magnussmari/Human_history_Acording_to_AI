@@ -1,0 +1,86 @@
+{
+  "year": -1215,
+  "year_label": "1215 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palace civilisations of Greece are in terminal decline, the Hittite Empire has recently fallen (c. 1180 BCE), Egypt under Ramesses III faces invasions from the Sea Peoples, and major trade networks are fragmenting. This is a period of migration, warfare, and the transition toward the Iron Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (Shang/early Zhou transition is poorly synchronised with Mediterranean chronology)",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1215-001",
+      "title": "Ramesses III's reign consolidation and early Sea Peoples conflicts",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the early years of his reign, consolidating power after the death of Setnakhte. By this period, Egypt faces sustained pressure from maritime raiders collectively termed the 'Sea Peoples' (Sherden, Tjeker, Peleset, and others), whose origins remain debated but likely include displaced populations from the Aegean and Anatolia. Ramesses III will eventually repel major invasions (notably in his Year 5 and Year 8), but the threat is already acute. This year falls within the period of escalating raids and Egyptian military mobilisation.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "Sea Peoples leaders (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions (Ramesses III's mortuary temple)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record of Ramesses III's reign)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses III's regnal dates are established by Egyptological consensus (c. 1186\u20131155 BCE), but specific events within individual years are often approximate. The Sea Peoples conflicts are documented but their precise chronology within his reign is debated.",
+      "cross_references": [
+        "Relates to broader Late Bronze Age collapse; contemporary with Hittite collapse (c. 1180 BCE)"
+      ]
+    },
+    {
+      "id": "-1215-002",
+      "title": "Continued fragmentation of Mycenaean Greece and palace abandonment",
+      "region": "Greece (Aegean, Peloponnese)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "By 1215 BCE, the major Mycenaean palace centres (Mycenae, Tiryns, Pylos, Thebes) are in advanced stages of decline or already abandoned. Pylos was destroyed c. 1180 BCE; Mycenae and Tiryns will follow within the next few decades. This year represents the tail end of Mycenaean palatial civilisation, with surviving populations retreating to smaller settlements, dispersing to Cyprus and the Levantine coast, or migrating eastward. The Linear B administrative system has collapsed, and literacy is lost in Greece for several centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenae, Tiryns, Pylos (excavations by Schliemann, Blegen, and modern teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from Pylos (KH Gq 5, dated to destruction layer c. 1180 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The destruction of Pylos is dated c. 1180 BCE by radiocarbon and stratigraphic analysis. The broader collapse is well-attested archaeologically but the precise year-by-year sequence is uncertain. 1215 BCE is assigned as a point within this collapse period.",
+      "cross_references": [
+        "Part of the Late Bronze Age collapse phenomenon; contemporary with Hittite fall and Egyptian Sea Peoples invasions"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Late Bronze Age collapse remains contested. Some scholars argue for a more compressed timeline (collapse concentrated c. 1180\u20131150 BCE) rather than a gradual process spanning decades. The role of the Sea Peoples is also debated: some scholars emphasise climate change and famine as primary drivers, with the Sea Peoples as a symptom rather than a cause. The identity and origins of the Sea Peoples themselves remain uncertain\u2014the traditional view of Aegean/Anatolian refugees is challenged by scholars who propose Levantine or Egyptian origins for some groups.",
+  "historiographic_note": "The historical record for 1215 BCE is heavily dependent on Egyptian temple reliefs and administrative papyri, which are inherently propagandistic and often lack precise dating. Mycenaean evidence is archaeological and silent on political narratives. The synchronisation between Egyptian and Aegean chronologies relies on astronomical calculations and radiocarbon dating, both of which carry margins of error. The absence of contemporary written records from Greece, Anatolia, and the Levantine interior creates significant gaps. Bias toward Egyptian and later Greek sources means that events in the interior Near East, the Steppe, and beyond the Mediterranean are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1215-001",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Ramesses III's early conflicts with the Sea Peoples escalate into major invasions in his Year 5 (c. 1180 BCE)"
+    },
+    {
+      "from": "-1215-002",
+      "to": "-1150-001",
+      "relation": "part_of",
+      "note": "Mycenaean collapse is part of the broader Late Bronze Age collapse system"
+    }
+  ]
+}

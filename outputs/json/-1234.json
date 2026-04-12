@@ -1,0 +1,95 @@
+{
+  "year": -1234,
+  "year_label": "1235 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE) approaching. The New Kingdom of Egypt under the Ramesside dynasty (19th\u201320th dynasties) is in its mature phase. The Hittite Empire in Anatolia remains a major power. Mycenaean Greece is in its final palatial phase (Late Helladic IIIB). The Eastern Mediterranean is characterized by extensive trade networks, interstate diplomacy, and increasing pressure from Sea Peoples and internal instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (limited Chinese records for this period)",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-1234-001",
+      "title": "Reign of Ramesses II (Usermaatra-setep-en-Re) \u2014 Continued Dominance",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses II (r. c. 1279\u20131213 BCE) continues his long reign, consolidating Egyptian power in the Eastern Mediterranean and Nubia. By 1235 BCE, he is in his mid-40s and has already commissioned major building projects including the Abu Simbel temples and expansions at Karnak and Luxor. His reign represents the apex of New Kingdom Egyptian military and cultural influence, though some sources suggest military campaigns in this period were increasingly defensive against Libyan and Sea Peoples incursions.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Nefertari (Chief Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Abu Simbel temple dedicatory inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ramesside administrative papyri (e.g., Papyrus Harris I, compiled later but referencing this period)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign dates are well-established through Egyptian chronology, regnal year records, and astronomical data. The year 1235 BCE falls securely within his documented reign.",
+      "cross_references": [
+        "Follows from -1235-001 (previous year of same reign)",
+        "Precedes -1233-001 (continuation of reign)"
+      ]
+    },
+    {
+      "id": "-1234-002",
+      "title": "Hittite Empire under Muwatalli II \u2014 Consolidation and Conflict",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "Muwatalli II (r. c. 1295\u20131272 BCE) rules the Hittite Empire during a period of internal reorganization and external pressure. By 1235 BCE, his reign is in its later phase. The Hittites maintain control over much of Anatolia and northern Syria, though relations with Egypt remain tense despite the earlier peace treaty (c. 1259 BCE). The empire faces increasing pressure from Assyrian expansion under Adad-nirari I and internal administrative challenges.",
+      "key_figures": [
+        "Muwatalli II (Great King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Correspondence with Egyptian and Assyrian rulers (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite chronology for this period is secure through regnal records and synchronisms with Egyptian and Assyrian dating. Dating uncertainty is \u00b12\u20133 years.",
+      "cross_references": [
+        "Contemporary with -1234-001 (Egyptian-Hittite diplomatic relations)",
+        "Precedes -1233-002 (succession of Muwatalli II's son)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ramesses II as an unambiguous military conqueror has been complicated by recent scholarship. Some scholars argue that military campaigns attributed to him in later inscriptions may have been exaggerated or conflated with those of predecessors. The 'Battle of Kadesh' (c. 1274 BCE) is now understood as a stalemate rather than an Egyptian victory, despite Egyptian propaganda. Additionally, the extent of Hittite decline by 1235 BCE is debated; some evidence suggests the empire remained relatively stable until the rapid collapse c. 1200 BCE, while other scholars see earlier signs of systemic stress.",
+  "historiographic_note": "The historical record for 1235 BCE is dominated by Egyptian and Hittite sources, reflecting the bias toward literate, centralized states with monumental inscription traditions. Mycenaean Greece is known primarily through archaeological evidence (Linear B tablets, palace remains) rather than narrative sources. The perspective of smaller polities, maritime traders, and non-elite populations is largely absent. The Sea Peoples, who would become prominent in the following century, are barely visible in contemporary records, making their origins and early movements speculative. Sub-Saharan Africa, most of Asia, and the Americas are essentially absent from the surviving documentary record.",
+  "graph_edges": [
+    {
+      "from": "-1234-001",
+      "to": "-1234-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II and Muwatalli II were contemporaries; their reigns overlapped and their polities maintained diplomatic and military relations."
+    },
+    {
+      "from": "-1234-001",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "The stability and military dominance of Ramesses II's reign would be followed by the Bronze Age collapse within a generation."
+    }
+  ]
+}

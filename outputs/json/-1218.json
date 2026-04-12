@@ -1,0 +1,85 @@
+{
+  "year": -1218,
+  "year_label": "1218 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The eastern Mediterranean and Near East are in systemic crisis: the Hittite Empire is fragmenting, Egypt under Ramesses III is consolidating power, Mycenaean Greece is in terminal decline, and long-distance trade networks are collapsing. This is a period of migration, warfare, environmental stress, and the transition toward the Iron Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (Shang/early Zhou transition)",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1218-001",
+      "title": "Hittite Empire: Suppiluliuma II's reign and imperial fragmentation",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "Suppiluliuma II (r. c. 1207\u20131180 BCE) is ruling the Hittite Empire during a period of severe crisis. The empire's vassal system is collapsing, with former dependencies in Syria and the Levant breaking away or being conquered by rivals (Assyria, Egypt). The Hittite heartland in Anatolia is under pressure from external enemies and internal instability. By 1218 BCE, the empire is in advanced decline, with its administrative and military capacity severely compromised. Within a generation, the empire will cease to exist.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and administrative texts from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa (destruction layers and abandonment)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma II's reign is dated c. 1207\u20131180 BCE by Egyptological synchronisation and Hittite king-list calculations. The precise year-by-year sequence of the empire's collapse is uncertain.",
+      "cross_references": [
+        "Contemporary with Ramesses III's reign and Mycenaean collapse"
+      ]
+    },
+    {
+      "id": "-1218-002",
+      "title": "Levantine trade networks under severe stress; economic contraction",
+      "region": "Levant (modern Syria, Lebanon, Palestine)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "economic",
+      "description": "The Levantine trade centres (Ugarit, Sidon, Tyre, Byblos) are experiencing severe economic contraction by 1218 BCE. The collapse of Mycenaean demand, the fragmentation of the Hittite Empire, and the disruption caused by Sea Peoples raids are destroying the long-distance trade networks that sustained Levantine prosperity. Ugarit, once a major international port, is in decline and will be destroyed c. 1185 BCE. This year represents the acceleration of economic collapse in the region.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Ugarit, Sidon, and other Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Ugaritic administrative texts and correspondence (clay tablets)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The destruction of Ugarit is dated c. 1185 BCE. The broader economic decline is well-attested but the precise chronology is uncertain.",
+      "cross_references": [
+        "Part of the Late Bronze Age collapse; contemporary with Hittite and Mycenaean decline"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The causes of the Late Bronze Age collapse remain contested. The traditional narrative emphasises the Sea Peoples as invaders; modern scholarship increasingly points to climate change (drought, famine), systemic economic fragility, and internal conflicts as primary drivers. The Hittite collapse may have been driven more by internal succession disputes and loss of vassal control than by external invasion. Some scholars argue that the 'collapse' was not as sudden or catastrophic as once believed.",
+  "historiographic_note": "The historical record for 1218 BCE is sparse and heavily dependent on archaeological evidence, which is silent on political narratives. Hittite texts provide some administrative detail but are propagandistic. Levantine evidence is primarily archaeological, with some epigraphic material from Ugarit. The absence of contemporary written records from the interior Near East, Egypt's interior, and beyond the Mediterranean creates significant gaps. The synchronisation of Hittite and Egyptian chronologies relies on indirect evidence and carries margins of error. Bias toward Mediterranean and Near Eastern sources means that events in Central Asia, the Steppe, East Asia, and Africa are invisible.",
+  "graph_edges": [
+    {
+      "from": "-1218-001",
+      "to": "-1180-002",
+      "relation": "led_to",
+      "note": "Hittite fragmentation leads to the final collapse of the empire c. 1180 BCE"
+    },
+    {
+      "from": "-1218-002",
+      "to": "-1185-001",
+      "relation": "led_to",
+      "note": "Levantine economic contraction culminates in the destruction of Ugarit c. 1185 BCE"
+    }
+  ]
+}

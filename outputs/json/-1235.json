@@ -1,0 +1,88 @@
+{
+  "year": -1235,
+  "year_label": "1236 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u2013900 BCE) approaching. The New Kingdom of Egypt under the Ramesside dynasty (19th\u201320th dynasties) is in its mature phase. The Hittite Empire in Anatolia remains a major power. Mycenaean Greece is in its final palatial phase before the Late Bronze Age collapse. The Shang dynasty dominates China; the Zhou conquest is approximately 50\u2013100 years away.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, archaeological record only)",
+    "Mesoamerica (Maya civilization developing; few precisely dated events for this specific year)",
+    "Pacific Islands and Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1235-001",
+      "title": "Reign of Ramesses II (Usermaatra-setep-en-re) \u2014 mature phase",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses II, one of Egypt's longest-reigning pharaohs (c. 1279\u20131213 BCE), is in the middle decades of his reign. By this year, he has already consolidated power, fought the Battle of Kadesh (c. 1274 BCE), and established the peace treaty with the Hittites (c. 1259 BCE). He continues extensive building projects, including temples at Abu Simbel and expansions at Karnak and Luxor. His reign represents the height of New Kingdom Egyptian power and cultural achievement.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Nefertari (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Abu Simbel temple records",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign is well-attested through contemporary inscriptions, temple reliefs, and archaeological evidence. Dating within his reign is secure to within a few years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1235-002",
+      "title": "Hittite Empire under Muwatalli II or successor \u2014 consolidation phase",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire, centered at Hattusa, remains a major Near Eastern power. If Muwatalli II is still reigning (c. 1295\u20131272 BCE), this year falls in his later reign; if his successor Mursili III or Hattusili III has taken power, the empire is undergoing internal consolidation. The Hittites maintain their treaty with Egypt and manage vassal states in Syria and the Levant. Internal succession disputes and pressure from external enemies (including the Sea Peoples, though their major incursions are slightly later) are beginning to strain the empire.",
+      "key_figures": [
+        "Muwatalli II or Hattusili III (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Hattusa",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records of Hittite correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for this period is debated. The conventional 'middle' chronology places Muwatalli II c. 1295\u20131272 BCE, but 'low' chronology shifts dates down by ~50 years. Assignment to -1235 is approximate within \u00b110 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Hittite chronology for this period remains contested between 'high,' 'middle,' and 'low' chronologies, with differences of 50+ years. The assignment of specific rulers to -1235 is therefore uncertain. Additionally, the extent of Hittite power and the timing of internal crises that led to the empire's collapse (c. 1180 BCE) are debated; some scholars argue the empire was already in decline by this date, while others place major crises later.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Egypt and the Hittite Empire, where written records and inscriptions survive. The record is dominated by royal and temple sources, which emphasize political and military achievements and may downplay internal crises or economic strain. Mycenaean Greece, China, and the Levantine city-states are poorly represented in surviving written sources for this specific year. Archaeological evidence (pottery, settlement patterns, environmental data) provides context but rarely allows precise dating to a single year.",
+  "graph_edges": [
+    {
+      "from": "-1235-001",
+      "to": "-1213-001",
+      "relation": "led_to",
+      "note": "Ramesses II's reign continues until c. 1213 BCE; this year is mid-reign."
+    },
+    {
+      "from": "-1235-002",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Hittite Empire's consolidation in this period precedes its collapse c. 1180 BCE."
+    }
+  ]
+}

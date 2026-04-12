@@ -1,0 +1,86 @@
+{
+  "year": -1217,
+  "year_label": "1217 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The eastern Mediterranean and Near East are experiencing systemic disruption: the Hittite Empire is fragmenting, Egypt under Ramesses III is consolidating power and facing Sea Peoples pressure, Mycenaean Greece is in advanced decline, and long-distance trade networks are destabilising. This is a period of migration, warfare, environmental stress, and the transition toward the Iron Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (Shang/early Zhou transition)",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1217-001",
+      "title": "Ramesses III's early reign: consolidation and military preparation",
+      "region": "Egypt (New Kingdom, 20th Dynasty)",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Ramesses III, having recently ascended the throne (c. 1186 BCE in traditional dating, though some scholars place his accession slightly earlier), is consolidating his power and preparing Egypt's military defences. By 1217 BCE, he is likely in the early stages of his reign, reorganising the army and navy in response to the growing threat of the Sea Peoples. Egypt's economy is under strain from military expenditure and the disruption of trade. This year represents the period of preparation before the major Sea Peoples invasions that will dominate his reign.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "Setnakhte (predecessor, recently deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses III's accession is traditionally dated c. 1186 BCE, but some scholars argue for dates as early as 1200 BCE. The precise chronology of his early reign is uncertain. 1217 BCE is assigned as a point within his early reign period.",
+      "cross_references": [
+        "Contemporary with Hittite decline and Mycenaean collapse"
+      ]
+    },
+    {
+      "id": "-1217-002",
+      "title": "Mycenaean palace centres in advanced decline; population dispersal",
+      "region": "Greece (Aegean, Peloponnese)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "demographic",
+      "description": "By 1217 BCE, the major Mycenaean palace centres are in their final phase of occupation or already abandoned. Pylos was destroyed c. 1180 BCE; Mycenae and Tiryns will follow within the next few decades. Surviving populations are dispersing to smaller settlements, migrating to Cyprus and the Levantine coast, or moving inland. The palatial administrative system has collapsed, and the population is fragmenting into smaller, more localised communities. This year represents the acceleration of this demographic transformation.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenae, Tiryns, Pylos, and other Aegean sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from Pylos (destruction layer c. 1180 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The destruction of Pylos is dated c. 1180 BCE. The broader demographic transformation is well-attested archaeologically but the precise year-by-year sequence is uncertain. 1217 BCE is assigned as a point within this transformation.",
+      "cross_references": [
+        "Part of the Late Bronze Age collapse; contemporary with Hittite and Levantine decline"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ramesses III's accession is debated. Some scholars place it c. 1200 BCE or even earlier, which would shift the chronology of his early reign. The causes of Mycenaean collapse remain contested: the traditional narrative emphasises invasion or external pressure, but modern scholarship increasingly points to internal instability, economic fragility, and climate change as primary drivers. The role of the Sea Peoples in the Mycenaean collapse is also debated\u2014some scholars argue they were not a significant factor in Greece itself.",
+  "historiographic_note": "The historical record for 1217 BCE is sparse and heavily dependent on Egyptian temple reliefs and administrative papyri, which are propagandistic and often lack precise dating. Mycenaean evidence is primarily archaeological and silent on political narratives. The synchronisation of Egyptian and Aegean chronologies relies on indirect evidence and carries margins of error. The absence of contemporary written records from Greece, Anatolia, and the interior Near East creates significant gaps. Bias toward Mediterranean and Egyptian sources means that events in Central Asia, the Steppe, East Asia, and Africa are invisible.",
+  "graph_edges": [
+    {
+      "from": "-1217-001",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military preparation leads to major Sea Peoples conflicts in his Year 5 (c. 1180 BCE)"
+    },
+    {
+      "from": "-1217-002",
+      "to": "-1150-001",
+      "relation": "part_of",
+      "note": "Mycenaean demographic dispersal is part of the broader Late Bronze Age collapse"
+    }
+  ]
+}

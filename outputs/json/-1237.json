@@ -1,0 +1,88 @@
+{
+  "year": -1237,
+  "year_label": "1238 BCE",
+  "era_context": "Late Bronze Age, mature phase. Egypt under Ramesses II is at its zenith. The Hittite Empire remains a major power in Anatolia and the Levant. Mycenaean Greece is in its final palatial phase (LH IIIB). The Shang dynasty in China is in its final centuries. The Levantine city-states (Ugarit, Sidon, Tyre, Byblos) are prosperous and engaged in extensive Mediterranean trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands and Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1237-001",
+      "title": "Ugarit \u2014 height of prosperity and trade",
+      "region": "Levant (modern Syria, Ugarit)",
+      "coordinates_approx": "35.6\u00b0N, 35.8\u00b0E",
+      "category": "economic",
+      "description": "The city of Ugarit, on the Syrian coast, is at the height of its prosperity. It serves as a major hub for Mediterranean and Near Eastern trade, connecting Egypt, the Hittite Empire, Mycenaean Greece, and Mesopotamia. The city is a center of alphabetic writing (the Ugaritic alphabet, one of the earliest alphabetic systems), and its archives contain extensive correspondence, administrative records, and literary texts. The city's economy is based on trade in timber, textiles, metals, and agricultural products. Ugarit's prosperity depends on the stability of the Late Bronze Age trade networks and the balance of power between Egypt and the Hittites.",
+      "key_figures": [
+        "Ammurapi (King of Ugarit, c. 1260\u20131180 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Ugaritic clay tablets and inscriptions from the royal palace and administrative archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ras Shamra (ancient Ugarit)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ugarit's prosperity in the mid-13th century BCE is well-attested through archaeological evidence and cuneiform tablets. Dating to this specific year is approximate; the city's prosperity is documented for the broader period c. 1260\u20131200 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-1237-002",
+      "title": "Mycenaean Greece \u2014 palatial civilization in final phase",
+      "region": "Greece (Mycenaean civilization)",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean palatial civilization of Greece is in its final flourishing phase (Late Helladic IIIB). Major palace centers at Mycenae, Tiryns, Pylos, and Thebes are functioning as administrative and religious centers. Linear B script is used for administrative record-keeping. Mycenaean pottery and goods are traded throughout the Mediterranean and Near East. The civilization is engaged in maritime trade and, possibly, military expeditions (though the historicity of the Trojan War remains debated). Internal social structures are hierarchical, with a warrior aristocracy and a complex bureaucracy. However, signs of stress\u2014including evidence of destruction at some sites and increasing fortification\u2014suggest that the palatial system is beginning to face challenges.",
+      "key_figures": [
+        "Unknown (Mycenaean palatial rulers are not named in surviving records)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Thebes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites (pottery, architecture, stratigraphy)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Homer's Iliad and Odyssey (later literary tradition, not contemporary)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence and general characteristics of Mycenaean civilization in the mid-13th century BCE are confirmed by archaeological evidence and Linear B tablets. Dating to this specific year is approximate; the civilization's final phase is dated c. 1200\u20131100 BCE, with this year falling in the later part of the palatial period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Mycenaean civilization and the Late Bronze Age collapse is debated. Some scholars argue for a 'high' chronology that would place the collapse earlier (c. 1200 BCE), while others use a 'low' chronology that shifts dates later. Additionally, the extent of Mycenaean military activity and the historicity of events like the Trojan War are highly contested; Linear B tablets provide no evidence of a Trojan War, and the tradition may be legendary or heavily mythologized.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward the eastern Mediterranean (Egypt, the Hittite Empire, Ugarit, and Mycenaean Greece). The record is dominated by administrative texts, inscriptions, and archaeological evidence from elite contexts (palaces, temples). The experiences of non-elite populations, rural areas, and regions outside the Mediterranean and Near East are largely invisible. The Levantine city-states are better documented than Mycenaean Greece, which lacks written records (Linear B is administrative, not narrative). China, the Steppe, and sub-Saharan Africa are absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1237-001",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Ugarit's prosperity ends with the Late Bronze Age collapse c. 1200 BCE."
+    },
+    {
+      "from": "-1237-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean palatial civilization collapses c. 1200 BCE."
+    }
+  ]
+}

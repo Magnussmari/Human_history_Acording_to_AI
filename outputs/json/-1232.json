@@ -1,0 +1,93 @@
+{
+  "year": -1232,
+  "year_label": "1233 BCE",
+  "era_context": "Late Bronze Age, mature phase. Egypt under Ramesses II remains dominant. The Hittite Empire is in its final century. Mycenaean Greece is at its cultural peak. International trade networks are extensive but showing signs of strain. The period immediately precedes the Bronze Age collapse (c. 1200 BCE), though contemporary observers would not have perceived the impending systemic crisis.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Indian subcontinent",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1232-001",
+      "title": "Ramesses II \u2014 Military Campaigns and Consolidation",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Ramesses II continues military campaigns and consolidation of Egyptian power in the Levant and Nubia. By 1233 BCE, he has reigned for approximately 46 years. Some sources attribute military campaigns against Libyan groups and Sea Peoples to this period, though the dating and significance of these campaigns are debated by modern scholars. The pharaoh's focus increasingly shifts toward securing succession and managing the vast administrative apparatus of the empire.",
+      "key_figures": [
+        "Ramesses II (Pharaoh)",
+        "Merenptah (Crown Prince)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign is securely dated. The year 1233 BCE falls within his documented reign.",
+      "cross_references": [
+        "Follows from -1233-001",
+        "Precedes -1231-001"
+      ]
+    },
+    {
+      "id": "-1232-002",
+      "title": "Muwatalli II's Death and Succession Crisis \u2014 Hattusili III Ascends",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "Muwatalli II dies c. 1272 BCE, and the succession is contested. Hattusili III, a military commander and member of the royal family, eventually prevails over rival claimants, including Muwatalli II's son Urhi-Teshub. This succession crisis reveals deep internal factionalism within the Hittite Empire and weakens central authority at a critical moment. Hattusili III's reign (c. 1272\u20131250 BCE) is marked by efforts to consolidate power and manage external threats, but the empire never fully recovers its earlier stability.",
+      "key_figures": [
+        "Muwatalli II (deceased Great King)",
+        "Hattusili III (new Great King)",
+        "Urhi-Teshub (rival claimant, son of Muwatalli II)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions, particularly the 'Apology of Hattusili III'",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Clay tablets from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The succession of Hattusili III is well-documented in Hittite sources, though the exact date of Muwatalli II's death is debated (c. 1272 BCE \u00b13 years). The year 1233 BCE is assigned as an approximate date within this succession period.",
+      "cross_references": [
+        "Follows from -1233-002",
+        "Precedes -1231-002 (Hattusili III's consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ramesses II as an unambiguous military conqueror continues to be revised. Recent scholarship emphasizes that many campaigns attributed to him may have been defensive responses to Libyan and Sea Peoples incursions rather than aggressive expansionism. The 'Battle of Kadesh' (c. 1274 BCE) is now understood as a stalemate, not an Egyptian victory. Additionally, the Hittite succession crisis is sometimes portrayed as a simple transfer of power, but the 'Apology of Hattusili III' reveals a complex, contested succession with significant internal conflict and potential civil war. The stability of the Late Bronze Age is increasingly questioned by scholars who see systemic stress evident as early as the mid-13th century BCE.",
+  "historiographic_note": "The historical record for 1232 BCE remains dominated by Egyptian and Hittite sources, reflecting the bias toward literate, centralized states. Mycenaean Greece is known primarily through archaeological evidence rather than narrative sources. The perspective of smaller polities, maritime traders, and non-elite populations is largely absent. The Sea Peoples remain poorly understood in contemporary records. Sub-Saharan Africa, most of Asia, and the Americas are absent from the surviving documentary record.",
+  "graph_edges": [
+    {
+      "from": "-1232-001",
+      "to": "-1232-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses II and Hattusili III (or the succession crisis) were contemporaries."
+    },
+    {
+      "from": "-1232-002",
+      "to": "-1200-002",
+      "relation": "led_to",
+      "note": "The Hittite succession crisis and internal instability contributed to the empire's vulnerability during the Bronze Age collapse."
+    }
+  ]
+}

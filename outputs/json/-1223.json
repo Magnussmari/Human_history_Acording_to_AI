@@ -1,0 +1,70 @@
+{
+  "year": -1223,
+  "year_label": "1223 BCE",
+  "era_context": "Late Bronze Age, final decades of relative stability. Egypt under Ramesses II remains a dominant power; the Hittite Empire is experiencing increasing pressure from the Sea Peoples and internal fragmentation; Mycenaean Greece is in Late Helladic IIIB, approaching the final palace period; the Shang Dynasty in China is in its final century; the Levantine city-states are prosperous but increasingly vulnerable to external pressures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1223-001",
+      "title": "Continued Egyptian dominance under Ramesses II",
+      "region": "Egypt and Levantine territories",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Ramesses II maintains control over Egyptian territories and Levantine vassal states. Egypt's economy remains strong, supported by agricultural surplus from the Nile and control of trade routes. However, reports of Sea Peoples raids in the eastern Mediterranean are increasing, though they have not yet directly threatened Egyptian core territories.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General political stability of Ramesses II's reign is well-attested; specific events of 1223 BCE are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1223-002",
+      "title": "Sea Peoples raids intensify in eastern Mediterranean",
+      "region": "Eastern Mediterranean, Levant, Anatolia",
+      "coordinates_approx": "35.0, 33.0",
+      "category": "military",
+      "description": "Archaeological and textual evidence suggests that raids by the Sea Peoples (a confederation of maritime raiders from the Aegean, Anatolia, and possibly the Levant) are increasing in frequency and scale during this period. These raids target coastal settlements, trade routes, and the territories of established powers like the Hittites. The raids are not yet a coordinated invasion but represent a growing destabilization of Mediterranean trade and security.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian records mentioning foreign raiders",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction layers in Levantine sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The intensification of Sea Peoples activity is archaeologically attested, but precise dating to individual years is difficult. The period c. 1225\u20131175 BCE shows increasing evidence of disruption.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The identity and origins of the 'Sea Peoples' remain debated. Some scholars argue they were primarily Mycenaean Greeks displaced by internal collapse; others propose a confederation of multiple maritime groups. The extent to which they were a unified force versus multiple independent raiding groups is contested. Additionally, some scholars argue that the 'Sea Peoples' were as much a symptom of broader systemic collapse as a cause of it.",
+  "historiographic_note": "The historical record for 1223 BCE is heavily skewed toward Egyptian and Hittite perspectives, which emphasize political stability and military prowess. The archaeological record, particularly destruction layers and settlement abandonment patterns, provides a more complex picture of instability. The absence of written records from most of the world means that this year is essentially invisible outside the Near East and Mediterranean.",
+  "graph_edges": [
+    {
+      "from": "-1223-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Sea Peoples raids escalate into major invasions c. 1200 BCE"
+    }
+  ]
+}

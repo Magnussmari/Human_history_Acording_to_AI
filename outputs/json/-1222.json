@@ -1,0 +1,115 @@
+{
+  "year": -1222,
+  "year_label": "1222 BCE",
+  "era_context": "Late Bronze Age, on the cusp of systemic collapse. The Hittite Empire is fragmenting; Egypt under Ramesses II is entering the final years of his reign; Mycenaean Greece is in its terminal palatial phase; the Shang Dynasty in China is in its final decades; the Levantine city-states are experiencing increasing economic and military pressure. This year falls within the critical period (c. 1225\u20131175 BCE) when multiple civilizations simultaneously experience severe stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Oceania",
+    "South Asia (limited records)"
+  ],
+  "events": [
+    {
+      "id": "-1222-001",
+      "title": "Hittite Empire faces internal and external crises",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5, 39.0",
+      "category": "political",
+      "description": "The Hittite Empire under Suppiluliuma II is experiencing severe strain from multiple directions: Sea Peoples raids on coastal territories, loss of control over vassal states in Syria and the Levant, internal administrative breakdown, and possibly famine or climate stress. The empire's ability to project power is diminishing rapidly. Within a generation, the empire will cease to exist as a political entity.",
+      "key_figures": [
+        "Suppiluliuma II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction and abandonment at Hattusa",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Hittite decline is well-established; specific events of 1222 BCE are not individually documented in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-1222-002",
+      "title": "Ramesses II approaches end of reign",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Ramesses II, now in his late 50s or early 60s, is in the final years of his extraordinarily long reign (c. 1279\u20131213 BCE). While Egypt remains stable and prosperous, the succession is being prepared. His many sons have predeceased him, and Merenptah (his 13th son) is being groomed as heir. The transition will occur within a few years, and Merenptah will face a very different geopolitical landscape than his father.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Merenptah (Crown Prince, later Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign length and succession are well-established through Egyptian chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1222-003",
+      "title": "Mycenaean Greece in Late Helladic IIIB",
+      "region": "Greece and Aegean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "cultural",
+      "description": "Mycenaean palatial civilization is in its final phase. The major palace centers (Mycenae, Tiryns, Pylos) are still functioning and producing Linear B tablets, but archaeological evidence suggests increasing instability: fortification walls are being reinforced, settlement patterns are changing, and long-distance trade networks are becoming disrupted. Within a generation, these palaces will be destroyed and the palatial system will collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general chronology of Late Helladic IIIB is established through pottery sequences and radiocarbon dating; specific events of 1222 BCE are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The causes of the Late Bronze Age collapse remain hotly debated. Traditional narratives emphasize the Sea Peoples as external invaders; modern scholarship increasingly points to a combination of factors: climate change (drought), systemic economic disruption, internal conflicts, and the fragility of interconnected trade networks. The Sea Peoples may have been as much a consequence of collapse as a cause. Additionally, the collapse was not simultaneous across all regions\u2014some areas (Egypt, the Levant) experienced disruption earlier than others (Greece, Anatolia).",
+  "historiographic_note": "The historical record for 1222 BCE is dominated by Near Eastern and Mediterranean sources, particularly Egyptian and Hittite records. These sources emphasize political and military narratives and are biased toward elite perspectives. Archaeological evidence (destruction layers, settlement patterns, environmental proxies) provides crucial context but is difficult to date precisely to individual years. The collapse of the Hittite Empire and Mycenaean civilization is better understood through archaeology than through written sources. Large regions of the world (Africa, Europe, Asia, the Americas) are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1222-001",
+      "to": "-1180-001",
+      "relation": "led_to",
+      "note": "Hittite Empire collapses c. 1180 BCE; crises of 1222 BCE accelerate"
+    },
+    {
+      "from": "-1222-002",
+      "to": "-1213-001",
+      "relation": "led_to",
+      "note": "Ramesses II dies c. 1213 BCE; Merenptah succeeds him"
+    },
+    {
+      "from": "-1222-003",
+      "to": "-1200-002",
+      "relation": "led_to",
+      "note": "Mycenaean palaces destroyed c. 1200 BCE; LHIIIB ends"
+    }
+  ]
+}

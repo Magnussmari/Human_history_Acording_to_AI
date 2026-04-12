@@ -1,0 +1,110 @@
+{
+  "year": -1221,
+  "year_label": "1221 BCE",
+  "era_context": "Late Bronze Age, final decades before systemic collapse. The Hittite Empire is in terminal decline; Egypt under Ramesses II is stable but approaching succession; Mycenaean Greece is in its final palatial phase; the Shang Dynasty in China is in its last century; the Levantine city-states are experiencing increasing disruption. This period is characterized by the simultaneous stress on multiple interconnected civilizations, though the collapse has not yet become catastrophic.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Oceania",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1221-001",
+      "title": "Levantine city-states experience economic disruption",
+      "region": "Levant (modern Syria, Lebanon, Palestine)",
+      "coordinates_approx": "34.5, 33.5",
+      "category": "economic",
+      "description": "The prosperous city-states of the Levant (Ugarit, Sidon, Tyre, Byblos, and others) are experiencing disruption to their long-distance trade networks. Sea Peoples raids are increasing, and the collapse of the Hittite Empire is removing a major political and military guarantor of regional stability. Archaeological evidence suggests that some settlements are being abandoned or fortified more heavily. The economic networks that sustained these cities are beginning to fragment.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine sites (Ugarit, Ras Shamra)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Ugaritic administrative texts and correspondence",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general disruption of Levantine trade networks in the late 13th century BCE is well-attested archaeologically; precise dating to 1221 BCE is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1221-002",
+      "title": "Shang Dynasty in final century of rule in China",
+      "region": "China (Shang Dynasty)",
+      "coordinates_approx": "34.0, 114.0",
+      "category": "political",
+      "description": "The Shang Dynasty, which has ruled China for over 500 years, is in its final century. The dynasty is experiencing internal instability, and the Zhou people, a vassal state in the west, are growing in power and influence. By 1221 BCE, the Shang are still the dominant power, but the conditions for their overthrow are developing. The Zhou will eventually conquer the Shang c. 1046 BCE, establishing the Zhou Dynasty.",
+      "key_figures": [
+        "Shang Di Xin (last Shang king, though he may not yet be ruling in 1221 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated among scholars. Traditional dates place the Shang c. 1600\u20131046 BCE, but some scholars argue for later dates. The exact year-by-year events of the late Shang are not well-documented in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-1221-003",
+      "title": "Ramesses II in final years of reign",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Ramesses II, now in his early 60s, is in the final years of his reign. Egypt remains stable and prosperous, but the succession is imminent. Merenptah is being prepared to assume the throne. The transition will occur within a few years, and Merenptah will inherit a kingdom that is still powerful but facing increasing external pressures from the Sea Peoples and internal challenges from the priesthood of Amun.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Merenptah (Crown Prince)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign dates are well-established; the succession to Merenptah is documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven by the Sea Peoples has been increasingly challenged by modern scholarship. Recent work emphasizes that the collapse was a gradual process involving multiple factors: climate change (evidence from ice cores and tree rings suggests a cooling period and drought c. 1200\u20131150 BCE), systemic economic fragility, internal conflicts, and the vulnerability of interconnected trade networks. The Sea Peoples may have been displaced populations themselves, driven by the same pressures that caused the collapse. Additionally, the collapse was not uniform\u2014some regions (Egypt, parts of the Levant) recovered relatively quickly, while others (Greece, Anatolia) experienced more severe and lasting disruption.",
+  "historiographic_note": "The historical record for 1221 BCE is sparse and heavily biased toward the Near East and Mediterranean. Egyptian and Hittite sources provide the most detailed information, but they are elite-focused and emphasize political and military narratives. Archaeological evidence (settlement patterns, pottery sequences, environmental proxies) is crucial for understanding this period but is difficult to date precisely to individual years. The Shang Dynasty records are limited to oracle bone inscriptions and later compilations, which provide limited detail about specific years. Large regions of the world are essentially absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-1221-001",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Levantine disruption escalates into major collapse c. 1200 BCE"
+    },
+    {
+      "from": "-1221-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang Dynasty collapses c. 1046 BCE; Zhou conquest"
+    },
+    {
+      "from": "-1221-003",
+      "to": "-1213-001",
+      "relation": "led_to",
+      "note": "Ramesses II dies c. 1213 BCE; Merenptah succeeds"
+    }
+  ]
+}
