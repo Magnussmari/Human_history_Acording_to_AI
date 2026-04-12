@@ -1,0 +1,115 @@
+{
+  "year": -2128,
+  "year_label": "2128 BCE",
+  "era_context": "Naram-Sin's Akkadian Empire continues to dominate Mesopotamia and the Levant, though internal pressures and climate deterioration are mounting. Egypt's Sixth Dynasty is in its final decades of fragmentation. The Indus Valley Civilization remains at its mature peak. This is the cusp of major civilizational transitions that will unfold over the next 10\u201320 years.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (limited records beyond Shang-era China)",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2128-001",
+      "title": "Akkadian administrative consolidation under Naram-Sin; military campaigns in Anatolia and the Levant",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to secure Akkadian hegemony. Inscriptions record campaigns against the Lullubi (Zagros Mountains), Martu (Amorite tribes), and various Levantine city-states. Administrative texts show the empire's bureaucratic apparatus at full function, with governors and military commanders stationed across conquered territories. However, evidence of strain\u2014including the Amorite incursions and internal rebellions\u2014suggests the empire's stability is beginning to fray.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions from Nippur, Lagash, and Susa",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative tablets from Akkadian-period archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns are well-attested in inscriptions, but precise dating of individual campaigns within his reign is uncertain. The year 2128 BCE is assigned by convention within his reign (c. 2254\u20132218 BCE).",
+      "cross_references": [
+        "Part of -2129-001 (Akkadian zenith)",
+        "Leads to -2118-001 (Akkad's collapse)"
+      ]
+    },
+    {
+      "id": "-2128-002",
+      "title": "Egyptian Sixth Dynasty: continued devolution of central authority; nomarchs gain autonomy",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty's central authority continues to weaken. Regional governors (nomarchs) in Upper Egypt and the Delta increasingly act as independent rulers, maintaining their own armies and administrative structures. Pyramid construction by the pharaoh has ceased or become minimal. The state's ability to mobilize labor and resources for monumental projects has collapsed, marking the definitive end of the Old Kingdom.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Sixth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographies and tomb inscriptions from Upper Egypt (e.g., Ankhtifi, Sirenput)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced state construction and administrative fragmentation",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The fragmentation of the Sixth Dynasty is archaeologically clear, but precise dating within the period is uncertain (\u00b110\u201315 years).",
+      "cross_references": [
+        "Part of -2129-002 (Sixth Dynasty decline)",
+        "Leads to -2055-001 (Middle Kingdom reunification)"
+      ]
+    },
+    {
+      "id": "-2128-003",
+      "title": "Indus Valley Civilization: continued urban prosperity and long-distance trade",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains its mature urban character. Archaeological evidence shows continued occupation and use of major cities, standardized weights and measures, and extensive trade networks. Seals and artifacts indicate ongoing commerce with Mesopotamia and the Persian Gulf. No major disruptions are evident at this point; the civilization will not begin its decline until c. 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological layers and artifacts from Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and trade goods found in Mesopotamian contexts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is archaeologically well-attested. Absolute dating is secure within \u00b150 years.",
+      "cross_references": [
+        "Contemporary with -2128-001 and -2128-002",
+        "Part of broader mature phase (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the extent and success of Naram-Sin's campaigns are debated; some scholars argue his inscriptions exaggerate his territorial reach. The dating of the Sixth Dynasty's collapse remains uncertain (\u00b110\u201320 years).",
+  "historiographic_note": "This year falls within a period of sparse but consistent documentation for Mesopotamia and Egypt. Akkadian inscriptions and Egyptian tomb inscriptions provide primary evidence, but absolute chronology depends on synchronisms and astronomical calculations with inherent uncertainty. The Indus Valley Civilization has no written historical narrative; understanding relies entirely on archaeology. Western scholarship has historically focused on Egypt and Mesopotamia, potentially underrepresenting developments in the Indus Valley, Central Asia, and other regions.",
+  "graph_edges": [
+    {
+      "from": "-2128-001",
+      "to": "-2118-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's military overextension contributed to Akkad's collapse within a decade."
+    },
+    {
+      "from": "-2128-002",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "Sixth Dynasty fragmentation led directly to the First Intermediate Period."
+    }
+  ]
+}

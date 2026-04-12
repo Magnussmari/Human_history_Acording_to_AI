@@ -1,0 +1,116 @@
+{
+  "year": -2127,
+  "year_label": "2127 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is at its territorial maximum but facing mounting internal and external pressures. Egypt's Sixth Dynasty is in its final phase of centralized authority. The Indus Valley Civilization remains stable and prosperous. This is a year of apparent stability masking imminent collapse in Mesopotamia and Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2127-001",
+      "title": "Akkadian Empire: evidence of climate stress and resource strain",
+      "region": "Mesopotamia",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "environmental",
+      "description": "Archaeological and paleoclimatic evidence suggests that around this time (c. 2200\u20132100 BCE), the Akkadian Empire faced severe drought and climate deterioration. Pollen cores and sediment records indicate a shift toward aridity in the Eastern Mediterranean and Mesopotamia. This environmental stress, combined with Naram-Sin's military overextension, would contribute to the empire's rapid collapse within the next 10 years. Contemporary inscriptions do not explicitly mention famine, but later texts (e.g., the Curse of Akkad) attribute the empire's fall to divine punishment and environmental catastrophe.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Paleoclimatic data from ice cores, pollen cores, and sediment records (Weiss et al., 1993; Cullen et al., 2000)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "The Curse of Akkad (later Sumerian composition, possibly 3rd millennium BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Paleoclimatic evidence for a 4.2 ka event (c. 2200 BCE) is strong, but its precise dating and direct causal link to Akkad's collapse are debated. The Curse of Akkad is a later literary composition, not a contemporary account.",
+      "cross_references": [
+        "Leads to -2118-001 (Akkad's collapse)",
+        "Contemporary with -2127-002 (Egyptian climate stress)"
+      ]
+    },
+    {
+      "id": "-2127-002",
+      "title": "Egypt: Nile flood records show variability; potential climate stress on Sixth Dynasty",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "environmental",
+      "description": "Paleoclimatic and Nile flood records suggest that around 2200\u20132100 BCE, Egypt experienced periods of low Nile floods, which would have reduced agricultural productivity and tax revenue. This environmental stress, combined with the Sixth Dynasty's already weakened central authority, accelerated the transition to the First Intermediate Period. The nomarchs' increasing autonomy may have been partly a response to the state's inability to manage resources during drought.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Sixth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Nile flood records and paleoclimatic data (Toussaint et al., 2015; Weiss et al., 1993)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Nomarch inscriptions mentioning local resource management during hardship",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Paleoclimatic evidence for climate stress around 2200 BCE is strong, but the precise impact on Egypt's Sixth Dynasty is debated. Nile flood records are reconstructed from sediment cores and are subject to dating uncertainty (\u00b120\u201330 years).",
+      "cross_references": [
+        "Contemporary with -2127-001 (Akkadian climate stress)",
+        "Part of broader First Intermediate Period transition (c. 2181\u20132055 BCE)"
+      ]
+    },
+    {
+      "id": "-2127-003",
+      "title": "Indus Valley Civilization: mature phase continues; no evidence of disruption",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization shows no signs of disruption in 2127 BCE. Urban centres remain occupied and prosperous. Trade networks continue to function. The civilization will not begin its decline until c. 1900 BCE, suggesting either greater resilience to climate stress or different environmental conditions in the Indus region compared to Mesopotamia and Egypt.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological layers and artifacts from Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is archaeologically well-attested. The absence of disruption at this time is supported by stratigraphic evidence.",
+      "cross_references": [
+        "Contemporary with -2127-001 and -2127-002",
+        "Contrasts with contemporary collapse in Mesopotamia and Egypt"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The causal link between climate stress and the Akkadian collapse is debated. Some scholars argue that the 4.2 ka event (c. 2200 BCE) was not severe enough to cause civilizational collapse on its own; political and military factors may have been more important. The Curse of Akkad is a later literary composition and should not be treated as a contemporary historical account. The extent to which climate stress affected Egypt's Sixth Dynasty is also disputed; some scholars emphasize political fragmentation over environmental factors.",
+  "historiographic_note": "This year is documented through inscriptions, administrative texts, and paleoclimatic evidence. The integration of paleoclimatic data into historical narratives is relatively recent and remains contested. Western scholarship has historically privileged political and military narratives over environmental factors; the recognition of climate stress as a causal factor in civilizational change is a 21st-century development. The Indus Valley Civilization's apparent resilience to climate stress is poorly understood and deserves more scholarly attention.",
+  "graph_edges": [
+    {
+      "from": "-2127-001",
+      "to": "-2118-001",
+      "relation": "led_to",
+      "note": "Climate stress and resource strain contributed to Akkad's collapse within a decade."
+    },
+    {
+      "from": "-2127-002",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "Climate stress on Egypt accelerated the transition to the First Intermediate Period."
+    },
+    {
+      "from": "-2127-001",
+      "to": "-2127-002",
+      "relation": "contemporary_with",
+      "note": "Both Mesopotamia and Egypt experienced climate stress around 2200 BCE, suggesting a regional or global climate event."
+    }
+  ]
+}

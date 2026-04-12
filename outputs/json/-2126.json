@@ -1,0 +1,115 @@
+{
+  "year": -2126,
+  "year_label": "2126 BCE",
+  "era_context": "The Akkadian Empire is in its final years of coherence; Naram-Sin's reign is nearing its end (he dies c. 2218 BCE, though some scholars place this earlier). Egypt's Sixth Dynasty is fragmenting rapidly. The Indus Valley Civilization remains stable. This is a year of transition and impending collapse in Mesopotamia and Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2126-001",
+      "title": "Akkadian Empire: final years of Naram-Sin's reign; internal rebellion and external pressure intensify",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Naram-Sin's reign is in its final years (he dies c. 2218 BCE, though some scholars place this c. 2200 BCE). Inscriptions and later texts record increasing internal rebellion and external pressure from Amorite tribes and other groups. The empire's administrative apparatus is straining under the weight of maintaining control over vast conquered territories. Within a few years, the empire will collapse rapidly, fragmenting into city-states and regional powers.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "The Curse of Akkad (later Sumerian composition)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Akkad's decline (Liverani, Postgate)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's final years are attested in inscriptions, but the precise dating of his death and the timeline of the empire's collapse are debated (\u00b15\u201310 years). The Curse of Akkad is a later literary composition.",
+      "cross_references": [
+        "Part of -2129-001 (Akkadian zenith)",
+        "Leads to -2118-001 (Akkad's collapse)"
+      ]
+    },
+    {
+      "id": "-2126-002",
+      "title": "Egypt: Sixth Dynasty in final collapse; nomarchs establish independent rule in Upper Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty is in its final years. Central authority has effectively ceased to exist. Regional nomarchs in Upper Egypt and the Delta rule as independent lords, maintaining their own armies and administrations. The pharaoh's power is nominal. This marks the definitive transition from the Old Kingdom to the First Intermediate Period (c. 2181\u20132055 BCE), a period of political fragmentation and regional autonomy.",
+      "key_figures": [
+        "Pepi II (Egyptian pharaoh, Sixth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographies and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of state collapse and regional autonomy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The collapse of the Sixth Dynasty is archaeologically clear, but precise dating is uncertain (\u00b110\u201315 years). The transition to the First Intermediate Period is dated c. 2181 BCE, but this is a conventional boundary.",
+      "cross_references": [
+        "Part of -2129-002 (Sixth Dynasty decline)",
+        "Leads to -2055-001 (Middle Kingdom reunification)"
+      ]
+    },
+    {
+      "id": "-2126-003",
+      "title": "Indus Valley Civilization: continued stability and urban prosperity",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization remains stable and prosperous. No evidence of disruption or decline is visible at this time. The civilization will continue in this state for another 200+ years before beginning its decline c. 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological layers and artifacts from Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is archaeologically well-attested.",
+      "cross_references": [
+        "Contemporary with -2126-001 and -2126-002",
+        "Contrasts with contemporary collapse in Mesopotamia and Egypt"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Naram-Sin's death and the Akkadian collapse is debated. Some scholars place Naram-Sin's death c. 2218 BCE; others place it c. 2200 BCE or even later. The Curse of Akkad is a later literary composition and should not be treated as a contemporary historical account. The extent to which climate stress versus political factors caused Akkad's collapse remains disputed.",
+  "historiographic_note": "This year is documented through inscriptions, administrative texts, and archaeology. The dating of the Akkadian collapse and the Sixth Dynasty's end is uncertain (\u00b110\u201320 years). Western scholarship has historically emphasized political and military narratives; the role of climate stress is a more recent addition to the historical narrative. The Indus Valley Civilization's apparent resilience to the climate stress that affected Mesopotamia and Egypt is poorly understood.",
+  "graph_edges": [
+    {
+      "from": "-2126-001",
+      "to": "-2118-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's final years of struggle led directly to Akkad's collapse within a few years."
+    },
+    {
+      "from": "-2126-002",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "The Sixth Dynasty's collapse led to the First Intermediate Period and eventual Middle Kingdom reunification."
+    }
+  ]
+}
