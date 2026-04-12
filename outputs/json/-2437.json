@@ -1,0 +1,84 @@
+{
+  "year": -2437,
+  "year_label": "2437 BCE",
+  "era_context": "The Old Kingdom of Egypt (Sixth Dynasty) under Pepi II. The Akkadian Empire under Naram-Sin is consolidating power. The Indus Valley Civilization is in its mature phase. This period marks the height of Early Bronze Age III in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific and Oceania",
+    "East Asia (Xia Dynasty remains legendary and archaeologically unconfirmed)"
+  ],
+  "events": [
+    {
+      "id": "-2437-001",
+      "title": "Pepi II's reign; Nubian expeditions and trade",
+      "region": "Egypt, Nubia, Red Sea",
+      "coordinates_approx": "24.0, 32.0",
+      "category": "exploration",
+      "description": "During Pepi II's reign, Egyptian expeditions to Nubia and the Red Sea coast are documented in officials' inscriptions. These expeditions sought gold, incense, and other luxury goods. The autobiography of Harkhuf, a governor of Upper Egypt, records multiple journeys to Nubia to obtain ivory, ebony, and other trade goods. These expeditions demonstrate Egypt's continued economic vitality and reach during the late Old Kingdom.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt",
+        "Harkhuf, Governor and expedition leader"
+      ],
+      "sources": [
+        {
+          "name": "Autobiography of Harkhuf, inscribed in his tomb at Aswan",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Harkhuf's expeditions are well-attested, but cannot be precisely dated to individual years within Pepi II's reign.",
+      "cross_references": [
+        "-2435-001",
+        "-2436-001"
+      ]
+    },
+    {
+      "id": "-2437-002",
+      "title": "Akkadian Empire at territorial maximum",
+      "region": "Mesopotamia, Levant, Anatolia, Zagros",
+      "coordinates_approx": "34.0, 43.0",
+      "category": "political",
+      "description": "Naram-Sin's Akkadian Empire reaches its greatest territorial extent. Control is claimed over Mesopotamia, the Levant, parts of Anatolia, and the Zagros Mountains. However, modern scholarship increasingly questions the stability and nature of this 'empire,' suggesting it may have been more a loose confederation of tribute-paying city-states than a centralized state. The empire is on the verge of rapid collapse due to internal instability and external pressure.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The extent of Akkadian control is debated among scholars. The dating of Naram-Sin's reign is based on king list synchronisms and radiocarbon calibration.",
+      "cross_references": [
+        "-2435-002",
+        "-2436-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The concept of the 'Akkadian Empire' as a unified, centralized state is increasingly questioned by modern scholars. Recent scholarship suggests that Akkadian control was more limited and fragile than traditional narratives suggest. The empire may have been primarily a network of trade relationships and tributary arrangements rather than direct territorial control. The rapid collapse of Akkadian power in the early 22nd century BCE suggests that the empire was never as stable as inscriptions claim.",
+  "historiographic_note": "This year is documented only through Egyptian and Mesopotamian sources, which are heavily biased toward elite narratives. The vast majority of human civilization and activity is not recorded in surviving sources. The Indus Valley Civilization, which was contemporary and equally sophisticated, leaves no deciphered written records.",
+  "graph_edges": [
+    {
+      "from": "-2437-001",
+      "to": "-2430-001",
+      "relation": "led_to",
+      "note": "Egyptian trade expeditions to Nubia continue until the collapse of the Old Kingdom in the First Intermediate Period."
+    }
+  ]
+}

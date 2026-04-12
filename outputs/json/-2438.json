@@ -1,0 +1,91 @@
+{
+  "year": -2438,
+  "year_label": "2438 BCE",
+  "era_context": "The Old Kingdom of Egypt (Sixth Dynasty) under Pepi II continues. The Akkadian Empire under Naram-Sin is at its height. The Indus Valley Civilization is in its mature phase. Early Bronze Age III in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific and Oceania",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2438-001",
+      "title": "Pepi II's reign; continued Old Kingdom administration",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues with the maintenance of Old Kingdom administrative and religious institutions. The pharaoh is still venerated as a god-king, and the pyramid complex remains the center of royal ideology. However, the power of provincial governors (nomarchs) is gradually increasing, and the central government's ability to command resources is beginning to decline. This period represents the twilight of the Old Kingdom.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid Texts and temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Autobiographical inscriptions in officials' tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally dated c. 2278\u20132184 BCE. Specific events within his reign cannot be precisely dated to individual years.",
+      "cross_references": [
+        "-2435-001",
+        "-2436-001",
+        "-2437-001"
+      ]
+    },
+    {
+      "id": "-2438-002",
+      "title": "Naram-Sin's reign; consolidation of Akkadian power",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "34.0, 43.0",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian power and maintain control over conquered territories. Inscriptions record his deification and the establishment of a cult of the king. The Akkadian language and administrative practices are spreading throughout Mesopotamia and the Levant. However, the empire is facing increasing pressure from external enemies (particularly the Gutians from the Zagros Mountains) and internal instability.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. Absolute dating is based on king list synchronisms and radiocarbon calibration.",
+      "cross_references": [
+        "-2435-002",
+        "-2436-002",
+        "-2437-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The stability and extent of Akkadian control remain debated. Modern scholarship questions whether Naram-Sin's 'empire' was truly centralized or merely a loose confederation of tribute-paying states. The deification of Naram-Sin, recorded in inscriptions, may have been a propaganda tool rather than a reflection of actual religious practice.",
+  "historiographic_note": "This year is documented only through Egyptian and Mesopotamian royal inscriptions and administrative texts. These sources are heavily biased toward elite narratives and are silent on the vast majority of human activity and civilization. The Indus Valley Civilization, contemporary and equally sophisticated, leaves no deciphered written records.",
+  "graph_edges": [
+    {
+      "from": "-2438-001",
+      "to": "-2430-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign will end within a decade, leading to the collapse of the Old Kingdom and the First Intermediate Period."
+    },
+    {
+      "from": "-2438-002",
+      "to": "-2430-002",
+      "relation": "led_to",
+      "note": "Naram-Sin's empire will collapse within a decade due to internal instability and invasion by the Gutians."
+    }
+  ]
+}

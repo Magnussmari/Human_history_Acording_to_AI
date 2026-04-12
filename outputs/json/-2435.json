@@ -1,0 +1,121 @@
+{
+  "year": -2435,
+  "year_label": "2435 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Sixth Dynasty, c. 2345\u20132181 BCE). Simultaneously, the Akkadian Empire under Naram-Sin dominates Mesopotamia and the Levant. In the Indus Valley, the mature Harappan civilization is at its height. China's Xia Dynasty (traditional dating) is in its legendary period; archaeological evidence for this era remains contested. The Bronze Age is well established across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence underrepresented in training data)",
+    "Northern Europe (pre-literate; sparse archaeological synthesis)",
+    "Mesoamerica (no writing system yet; archaeological record fragmented)",
+    "Pacific and Oceania (oral traditions not well preserved in accessible sources)"
+  ],
+  "events": [
+    {
+      "id": "-2435-001",
+      "title": "Reign of Pepi II of Egypt (traditional dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II (Neferkare) is traditionally dated to this period as the last significant ruler of Egypt's Sixth Dynasty. His reign is recorded in the Turin King List and various temple inscriptions. He is credited with military campaigns in Nubia and Sinai, and with maintaining the Old Kingdom administrative system, though his later reign saw increasing decentralization of power to provincial governors (nomarchs). The exact length and chronology of his reign remain debated among Egyptologists.",
+      "key_figures": [
+        "Pepi II (Neferkare), Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside compilation of earlier king lists)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of officials (e.g., Weni, Harkhuf) from contemporary tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid Texts and temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally placed c. 2278\u20132184 BCE, but absolute chronology for the Old Kingdom remains uncertain by \u00b150\u2013100 years. This year is assigned by convention within that range.",
+      "cross_references": []
+    },
+    {
+      "id": "-2435-002",
+      "title": "Akkadian Empire under Naram-Sin (continued dominance)",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "34.0, 43.0",
+      "category": "political",
+      "description": "Naram-Sin (r. c. 2254\u20132218 BCE) continues his military campaigns to consolidate Akkadian control over Mesopotamia and neighboring regions. He is recorded as conducting campaigns against the Lullubi in the Zagros Mountains and maintaining control of trade routes to the Indus Valley and Anatolia. His reign represents the apex of Akkadian imperial power before the empire's rapid collapse in the early 22nd century BCE.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and stele (e.g., Victory Stele of Naram-Sin)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation with traditional dating)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Akkadian period",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. Absolute dating relies on king list synchronisms and radiocarbon calibration, with uncertainty of \u00b120\u201330 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2435-003",
+      "title": "Mature Harappan Civilization at peak (Indus Valley)",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture, c. 2600\u20131900 BCE) is in its mature phase. Major urban centers such as Mohenjo-daro, Harappa, and Dholavira are fully developed with sophisticated drainage systems, standardized weights and measures, and extensive trade networks. Seals with undeciphered script are produced in large numbers. The civilization shows remarkable uniformity across a vast geographic area, suggesting centralized administration or shared cultural norms.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Stratigraphic and radiocarbon dating from multiple sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established archaeologically. Absolute dating is supported by radiocarbon calibration, with uncertainty of \u00b150\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing Pepi II in this period is disputed. Some scholars argue for a shorter reign or different dating within the Sixth Dynasty. The Akkadian Empire's exact territorial extent and the nature of its control over distant regions (e.g., the Indus Valley) remain debated; claims of direct Akkadian rule in the Indus are not universally accepted. The Harappan script remains undeciphered, limiting understanding of political organization and historical events.",
+  "historiographic_note": "This period is documented through royal inscriptions and administrative texts in Egypt and Mesopotamia, but these sources are heavily biased toward elite perspectives and military achievements. The Indus Valley Civilization leaves no deciphered written records, so understanding of its political history, religious beliefs, and social organization relies entirely on archaeological inference. Egyptian and Mesopotamian sources are silent on most of the world outside their immediate spheres of influence. The absolute chronology for this period depends on radiocarbon calibration and king list synchronisms, both of which carry significant uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-2435-001",
+      "to": "-2434-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign continues into the following years; his eventual death and succession marks the transition to the First Intermediate Period."
+    },
+    {
+      "from": "-2435-002",
+      "to": "-2430-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's empire will collapse within a decade due to internal instability and external pressure from the Gutians."
+    }
+  ]
+}

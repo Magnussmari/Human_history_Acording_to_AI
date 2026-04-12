@@ -1,0 +1,85 @@
+{
+  "year": -2452,
+  "year_label": "2452 BCE",
+  "era_context": "Mid-third millennium BCE. Naram-Sin's Akkadian Empire was in its expansionist phase. Egypt's Old Kingdom was in terminal decline. The Indus Valley Civilization was at its mature peak. Early Bronze Age societies in Anatolia, the Levant, and the Aegean were developing increasingly complex palace economies and trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2452-001",
+      "title": "Naram-Sin's Campaigns Against Ebla and Northern Syria",
+      "region": "Levant, Syria",
+      "coordinates_approx": "35.2, 36.2",
+      "category": "military",
+      "description": "Naram-Sin conducted military campaigns against Ebla and other city-states in northern Syria, seeking to extend Akkadian control and secure trade routes. Archaeological evidence from Ebla shows destruction layers dated to this period, though the precise attribution to Naram-Sin remains debated. These campaigns were part of a broader strategy to dominate the Levantine trade networks and secure access to timber and other resources.",
+      "key_figures": [
+        "Naram-Sin (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Destruction layers at Ebla (archaeological)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Naram-Sin inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ebla archives (pre-destruction records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Destruction at Ebla is archaeologically confirmed, but attribution to Naram-Sin and precise dating are debated. Conventional chronology places this within his reign (c. 2254\u20132218 BCE), but the exact year is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-2452-002",
+      "title": "Indus Valley Trade Network Activity",
+      "region": "Indus Valley, South Asia, Mesopotamia",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. Archaeological evidence shows the exchange of goods, including lapis lazuli from Afghanistan, carnelian from Gujarat, and Indus seals found in Mesopotamian contexts. This trade was facilitated by maritime routes and overland caravans, indicating sophisticated commercial organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamia",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus Valley artifacts in Gulf and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian texts mentioning 'Meluhha' (Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-established archaeologically. However, specific year-by-year fluctuations in trade volume cannot be determined.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The attribution of the Ebla destruction to Naram-Sin is contested. Some scholars argue that the destruction layer may be from a different period or caused by internal conflict rather than Akkadian invasion. Additionally, the extent of Akkadian control over the Levant is debated; some scholars suggest that Akkadian presence was limited to military campaigns and trade posts rather than territorial conquest.",
+  "historiographic_note": "The year -2452 is not individually documented in surviving sources. The historical record for this period consists of administrative texts, inscriptions, and archaeological evidence that provide a general picture of the era but cannot be resolved to specific years.",
+  "graph_edges": [
+    {
+      "from": "-2452-001",
+      "to": "-2450-001",
+      "relation": "part_of",
+      "note": "Part of Naram-Sin's broader campaign strategy in the Levant."
+    }
+  ]
+}
