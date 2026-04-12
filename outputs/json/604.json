@@ -1,0 +1,81 @@
+{
+  "year": 604,
+  "year_label": "604 BCE",
+  "era_context": "The second year of Nebuchadnezzar II's reign. Babylon is consolidating control over the Levant following the victory at Carchemish. Egypt remains in the 26th Dynasty. The Greek Archaic period continues; Solon's reforms in Athens may have recently occurred (traditional date 594 BCE, but uncertain). China remains fragmented under the Spring and Autumn period.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia (limited synchronization)"
+  ],
+  "events": [
+    {
+      "id": "604-001",
+      "title": "Nebuchadnezzar II's campaign in the Levant",
+      "region": "Levant (Syria, Phoenicia, Palestine)",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Nebuchadnezzar II continued his military consolidation of the Levant, campaigning against various city-states and kingdoms to establish Babylonian suzerainty. The Babylonian Chronicle records military operations in this region during this period. These campaigns were part of the broader strategy to secure Babylonian control over trade routes and prevent Egyptian or other regional powers from reasserting influence.",
+      "key_figures": [
+        "Nebuchadnezzar II (Babylonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle confirms military activity in this period, though specific details for 604 BCE are sparse. The exact targets and outcomes are not fully detailed in surviving sources.",
+      "cross_references": [
+        "Part of broader campaign sequence from 605-001"
+      ]
+    },
+    {
+      "id": "604-002",
+      "title": "Ashkelon destroyed by Babylonian forces",
+      "region": "Ashkelon (Levant, modern Israel)",
+      "coordinates_approx": "31.67, 34.27",
+      "category": "military",
+      "description": "The Phoenician city of Ashkelon was besieged and destroyed by Nebuchadnezzar II's forces. The city had been a major port and commercial center. The destruction is attested in both the Babylonian Chronicle and archaeological evidence. The city was not immediately rebuilt, representing a significant disruption to Levantine trade networks.",
+      "key_figures": [
+        "Nebuchadnezzar II (Babylonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ashkelon excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Both textual and archaeological evidence confirm the destruction of Ashkelon in this period. The Babylonian Chronicle explicitly records the event.",
+      "cross_references": [
+        "Part of 604-001 (Levantine campaign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Nebuchadnezzar's early campaigns is somewhat uncertain. Some sources conflate events from 605\u2013603 BCE. The Babylonian Chronicle is the primary source, but it is laconic and does not provide detailed narratives. No major disconfirming evidence contradicts the events listed, but the level of detail available is limited.",
+  "historiographic_note": "The historical record for 604 BCE depends almost entirely on the Babylonian Chronicle, which is terse and administrative in nature. Archaeological evidence from destroyed cities (like Ashkelon) provides corroboration but not precise dating. The perspective of the conquered peoples is largely absent from surviving sources. Egyptian and Greek sources for this period are sparse and often later compilations.",
+  "graph_edges": [
+    {
+      "from": "604-002",
+      "to": "597-001",
+      "relation": "part_of",
+      "note": "Ashkelon's destruction was part of the broader Babylonian consolidation that preceded the siege of Jerusalem"
+    },
+    {
+      "from": "604-001",
+      "to": "605-001",
+      "relation": "led_to",
+      "note": "Carchemish victory enabled these follow-up campaigns"
+    }
+  ]
+}

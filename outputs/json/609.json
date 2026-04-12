@@ -1,0 +1,94 @@
+{
+  "year": 609,
+  "year_label": "609 CE",
+  "era_context": "The early 7th century CE continues with the Byzantine-Sasanid War intensifying, the Sui Dynasty in China approaching its collapse (618 CE), and the Arabian Peninsula in the pre-Islamic period. This year falls within the reign of the Byzantine Emperor Phocas (r. 602\u2013610 CE), whose rule was marked by military setbacks and internal instability. The Sasanid Empire under Khosrau II was at the height of its territorial expansion.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Frankish territories",
+    "Pre-Columbian Americas",
+    "Oceania and Pacific regions"
+  ],
+  "events": [
+    {
+      "id": "609-001",
+      "title": "Sasanid forces capture Damascus from Byzantine Empire",
+      "region": "Levant (Damascus, modern Syria)",
+      "coordinates_approx": "33.5138, 36.2765",
+      "category": "military",
+      "description": "Sasanid Persian forces under Khosrau II captured the Byzantine city of Damascus, a major urban and commercial center in the Levant. This conquest was part of the broader Byzantine-Sasanid War (602\u2013628 CE) and represented a significant territorial gain for the Sasanid Empire. The loss of Damascus was a major blow to Byzantine control of the Levant and demonstrated the military superiority of Sasanid forces during this period. The city would remain under Sasanid control for approximately 15 years until Byzantine reconquest under Heraclius.",
+      "key_figures": [
+        "Khosrau II (Sasanid King)",
+        "Phocas (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History (early 7th century CE, contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Khuzistan Chronicle (Syriac, 7th century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "John of Nikiu, Chronicle (Coptic, 7th century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The capture of Damascus by Sasanid forces is attested in multiple sources, but the exact year is debated among scholars. Some sources place it in 609 CE, others in 610 CE or slightly later. The dating is secure within \u00b11\u20132 years. Theophylact Simocatta provides near-contemporary documentation.",
+      "cross_references": [
+        "Part of Byzantine-Sasanid War (602\u2013628 CE)",
+        "Related to 614-001 (Sasanid capture of Jerusalem)"
+      ]
+    },
+    {
+      "id": "609-002",
+      "title": "Possible date of Muhammad's first revelation (alternative dating)",
+      "region": "Hejaz, Arabian Peninsula (Mecca)",
+      "coordinates_approx": "21.4225, 39.8262",
+      "category": "religious",
+      "description": "Some modern scholars argue that Muhammad's first revelation may have occurred in 609 CE rather than the traditional date of 610 CE. This alternative dating is based on reanalysis of Islamic biographical sources and attempts to reconcile traditional Islamic chronology with other historical evidence. The exact year of the first revelation remains one of the most debated questions in Islamic historiography, with scholarly consensus ranging across a 5\u201310 year window (609\u2013615 CE).",
+      "key_figures": [
+        "Muhammad ibn Abdullah (merchant, later Prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Sira (biography of Muhammad) by Ibn Ishaq, compiled by Ibn Hisham (8th\u20139th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Modern Islamic historiography (e.g., W. Montgomery Watt, Maxime Rodinson)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "This is an alternative scholarly dating with no contemporary sources. The traditional Islamic date is 610 CE, but modern scholars debate the exact year within a range of \u00b15 years. No contemporary non-Islamic sources confirm any specific year for the first revelation.",
+      "cross_references": [
+        "Alternative to 610-001 (traditional date of first revelation)",
+        "Related to 622-001 (Hijra)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Sasanid capture of Damascus is disputed; some sources place it in 610 CE or even 611 CE rather than 609 CE. The exact chronology of Sasanid military campaigns in the Levant during this period is uncertain due to conflicting accounts in Byzantine and Syriac sources. Additionally, the alternative dating of Muhammad's first revelation to 609 CE is speculative and lacks contemporary corroboration; it is presented here as an example of scholarly debate rather than as a confirmed historical fact.",
+  "historiographic_note": "The historical record for 609 CE is sparse and heavily dependent on later compilations. Byzantine sources (Theophylact Simocatta) provide the most contemporary information about military events, but they focus on the Byzantine perspective and may contain biases or inaccuracies. Syriac and Coptic sources offer alternative perspectives but are also later compilations. The Arabian Peninsula remains poorly documented in contemporary sources, making the dating of Muhammad's revelation highly uncertain. Western historiography has traditionally emphasized Byzantine-Sasanid military conflicts while marginalizing Arabian Peninsula history.",
+  "graph_edges": [
+    {
+      "from": "609-001",
+      "to": "614-001",
+      "relation": "led_to",
+      "note": "Sasanid capture of Damascus was part of the broader campaign that led to the capture of Jerusalem in 614 CE"
+    },
+    {
+      "from": "609-002",
+      "to": "610-001",
+      "relation": "contradicts",
+      "note": "Alternative dating of Muhammad's first revelation; 609 CE vs. traditional 610 CE"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "year": 605,
+  "year_label": "605 BCE",
+  "era_context": "The early Neo-Babylonian Empire under Nebuchadnezzar II's reign (605\u2013562 BCE). The Eastern Mediterranean and Near East are dominated by Babylonian military expansion following the decisive Battle of Carchemish (605 BCE). Egypt under the 26th Dynasty (Saite period) is in decline. The Greek city-states are in the Archaic period; China is in the Spring and Autumn period under fragmented Zhou authority.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited synchronization with Old World chronology)"
+  ],
+  "events": [
+    {
+      "id": "605-001",
+      "title": "Battle of Carchemish",
+      "region": "Syria (Carchemish, on the Euphrates)",
+      "coordinates_approx": "36.81, 37.76",
+      "category": "military",
+      "description": "Nebuchadnezzar II of Babylon decisively defeated the combined forces of Egypt (under Necho II) and the remnants of the Assyrian Empire at Carchemish. This victory marked the end of Assyrian power and established Babylonian hegemony over the Levant and Mesopotamia. The battle was fought in the final year of Nebuchadnezzar's campaign as crown prince before his accession to the throne. The outcome shifted the balance of power in the Near East and forced Egypt to withdraw from Syria.",
+      "key_figures": [
+        "Nebuchadnezzar II (Babylonian crown prince, later king)",
+        "Necho II (Egyptian pharaoh)",
+        "Ashur-uballit II (last Assyrian king, if still alive)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Against Apion, quoting Berossus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book II",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Babylonian Chronicle provides a near-contemporary account. The date is secure within the Babylonian chronology. Some sources place the battle in 606 BCE, but 605 BCE is the scholarly consensus.",
+      "cross_references": [
+        "Follows from 609-001 (Assyrian collapse)",
+        "Led to 597-001 (Nebuchadnezzar's siege of Jerusalem)"
+      ]
+    },
+    {
+      "id": "605-002",
+      "title": "Accession of Nebuchadnezzar II to the Babylonian throne",
+      "region": "Babylon (Mesopotamia)",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Following the death of his father Nabopolassar, Nebuchadnezzar II ascended to the throne of Babylon. He inherited a newly consolidated empire and immediately continued military campaigns to consolidate Babylonian control over the Levant and Syria. His reign (605\u2013562 BCE) would become the most powerful and culturally significant of the Neo-Babylonian period, marked by monumental building projects, military expansion, and administrative reforms.",
+      "key_figures": [
+        "Nebuchadnezzar II (new king of Babylon)",
+        "Nabopolassar (deceased father)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, History of Babylon (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession date is well-established in Babylonian chronology and confirmed by multiple sources.",
+      "cross_references": [
+        "Part of 626-001 (Neo-Babylonian Empire founding)"
+      ]
+    },
+    {
+      "id": "605-003",
+      "title": "Egyptian withdrawal from the Levant",
+      "region": "Levant and Egypt",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Following the Babylonian victory at Carchemish, Egypt under Necho II was forced to abandon its territorial ambitions in Syria and the Levant. This marked the end of Egyptian attempts to reassert hegemony in the region and consolidated Babylonian dominance. Egypt retreated to focus on internal consolidation and defense of its own borders.",
+      "key_figures": [
+        "Necho II (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The strategic consequence of Carchemish is well-attested and uncontroversial.",
+      "cross_references": [
+        "Follows from 605-001 (Battle of Carchemish)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional date of Carchemish has been debated. Some older scholarship placed it in 606 BCE, but the Babylonian Chronicle and modern chronological consensus firmly establish 605 BCE. No significant disconfirming evidence undermines the events listed.",
+  "historiographic_note": "The record for 605 BCE is relatively rich due to the Babylonian Chronicle, a near-contemporary administrative document. However, the Egyptian perspective is filtered through later Greek sources (Herodotus) and Egyptian temple inscriptions, which may emphasize different aspects of the conflict. The Assyrian perspective is largely lost due to the empire's collapse. Western-centric historiography has sometimes overemphasized the significance of Carchemish relative to other Near Eastern developments.",
+  "graph_edges": [
+    {
+      "from": "605-001",
+      "to": "597-001",
+      "relation": "led_to",
+      "note": "Carchemish victory enabled Nebuchadnezzar's subsequent campaigns against Judah"
+    },
+    {
+      "from": "605-002",
+      "to": "605-001",
+      "relation": "contemporary_with",
+      "note": "Nebuchadnezzar's accession and the Battle of Carchemish occurred in the same year"
+    },
+    {
+      "from": "605-001",
+      "to": "609-001",
+      "relation": "caused_by",
+      "note": "Carchemish was the culmination of the Assyrian collapse that began in 609 BCE"
+    }
+  ]
+}

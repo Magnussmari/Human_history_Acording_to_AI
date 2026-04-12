@@ -1,0 +1,116 @@
+{
+  "year": 612,
+  "year_label": "612 CE",
+  "era_context": "The Byzantine-Sasanid War (602\u2013628 CE) is in its second decade, with Sasanid forces making significant territorial gains. The Sui Dynasty in China is in the reign of Emperor Yangdi, facing mounting internal pressures from military campaigns and infrastructure projects. In Arabia, Muhammad's prophetic mission is in its early phase (c. 610\u2013615 CE). Western Europe is fragmented under Merovingian Frankish rule. This period represents a critical transition in Late Antique geopolitics, with the traditional superpowers exhausting themselves in prolonged conflict.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Southeast Asia (reliant on later Chinese records and sparse epigraphy)",
+    "Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "612-001",
+      "title": "Byzantine-Sasanid War: Sasanid forces advance toward Egypt",
+      "region": "Levant and Egypt / Byzantine-Sasanid frontier",
+      "coordinates_approx": "30.0, 35.0",
+      "category": "military",
+      "description": "Sasanid Persian forces under General Shahrbaraz continue their offensive against Byzantine territories, advancing toward Egypt. The year 612 CE marks a phase in the Sasanid advance that would culminate in the conquest of Egypt by 619 CE. The Sasanid threat to Egypt was particularly significant because Egypt was the primary grain supplier for the Byzantine Empire and a major source of revenue. The loss of Egypt would severely weaken Byzantine economic and military capacity.",
+      "key_figures": [
+        "Shahrbaraz (Sasanid general)",
+        "Khosrau II Parviz (Sasanid King)",
+        "Heraclius I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronographia",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sebeos, Armenian History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Sasanid advance toward Egypt is documented in Byzantine sources, but the precise chronology of campaigns in 612 CE is uncertain. The year is assigned by scholarly convention based on the general trajectory of the Sasanid offensive.",
+      "cross_references": [
+        "619-001 (Sasanid conquest of Egypt)"
+      ]
+    },
+    {
+      "id": "612-002",
+      "title": "Sui Dynasty: Yangdi's continued military campaigns and administrative strain",
+      "region": "China / Sui Empire",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor Yangdi of the Sui Dynasty continues his military campaigns and infrastructure projects. The period 612\u2013613 CE saw continued Sui military operations against the G\u00f6kt\u00fcrks and other frontier threats. These campaigns, combined with the Grand Canal construction and other administrative burdens, contributed to growing discontent among the population, military, and bureaucracy. The strain on resources and manpower was becoming increasingly unsustainable.",
+      "key_figures": [
+        "Yangdi (Sui Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty), compiled 636 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled 11th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Yangdi's reign is documented in Chinese sources, but specific events in 612 CE are not precisely dated. The year falls within the documented period of his military campaigns and administrative activities.",
+      "cross_references": [
+        "618-001 (Fall of Sui Dynasty)"
+      ]
+    },
+    {
+      "id": "612-003",
+      "title": "Early Islamic period: Muhammad's preaching in Mecca",
+      "region": "Arabia / Hijaz",
+      "coordinates_approx": "21.43, 39.83",
+      "category": "religious",
+      "description": "Muhammad continues his prophetic preaching in Mecca, approximately 2 years into his mission (traditionally dated to begin c. 610 CE). His message of monotheism and social reform continued to attract a small circle of followers, while facing opposition from the Quraysh merchant elite. The traditional Islamic sources describe this period as one of increasing persecution of early Muslims.",
+      "key_figures": [
+        "Muhammad ibn Abdullah (Prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Ishaq, Sirat Rasul Allah (Life of the Prophet, compiled 8th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings (9th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The chronology of early Islamic events relies entirely on Islamic tradition and later biographical compilations. No contemporary non-Islamic sources document Muhammad or early Islam in 612 CE. The traditional Islamic chronology is a scholarly convention based on Islamic sources, not independent verification.",
+      "cross_references": [
+        "610-001 (Beginning of Muhammad's prophetic mission, traditional date)",
+        "622-001 (Hijra to Medina)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Sasanid military campaigns in 612\u2013615 CE is debated among scholars. The exact sequence and dating of individual campaigns are not clearly established in surviving sources. Regarding early Islam, no contemporary non-Islamic sources mention Muhammad or early Islamic events in 612 CE. The Islamic biographical tradition, compiled 150+ years later, is the sole source for these events.",
+  "historiographic_note": "The historical record for 612 CE is heavily dependent on later compilations and chronicles written 50\u2013300 years after the events. Byzantine sources are filtered through Christian theological concerns and were composed in the 8th\u20139th centuries. Armenian sources provide an alternative perspective but are also later compilations. Chinese sources reflect Tang Dynasty perspectives on the Sui Dynasty. Islamic sources derive entirely from oral tradition compiled in the 8th century CE. The record is biased toward elite political and military events; economic, social, and cultural history of non-elite populations is largely absent. Archaeological evidence for specific events in 612 CE is limited.",
+  "graph_edges": [
+    {
+      "from": "612-001",
+      "to": "619-001",
+      "relation": "led_to",
+      "note": "Sasanid advance toward Egypt in 612 CE led to the conquest of Egypt in 619 CE"
+    },
+    {
+      "from": "612-002",
+      "to": "618-001",
+      "relation": "led_to",
+      "note": "Yangdi's costly military campaigns contributed to Sui instability and collapse"
+    }
+  ]
+}

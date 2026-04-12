@@ -1,0 +1,86 @@
+{
+  "year": 598,
+  "year_label": "598 BCE",
+  "era_context": "The Axial Age continues unabated. Neo-Babylonian Empire under Nebuchadnezzar II remains the dominant Near Eastern power. Chinese Spring and Autumn period ongoing, with competing states vying for hegemony. Greek city-states developing democratic and philosophical traditions. South Asian Vedic culture transitioning toward the Upanishadic period. No major civilisational ruptures, but incremental consolidation of power structures and intellectual traditions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (limited contact with literate civilisations)",
+    "Oceania (no written records)",
+    "Pre-Columbian Americas (no written records)",
+    "Central Asia and the Steppe (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "598-001",
+      "title": "Jehoiachin of Judah besieged by Nebuchadnezzar II",
+      "region": "Judah (Levant)",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "military",
+      "description": "Nebuchadnezzar II besieges Jerusalem and the young king Jehoiachin of Judah. The siege lasts several months and results in Jehoiachin's surrender and deportation to Babylon. This event marks the beginning of the Babylonian exile of the Judean elite and is a pivotal moment in Jewish history. The siege is attested in both Babylonian cuneiform records and the Hebrew Bible (2 Kings 24). The exact dating is debated: some sources place the siege in 598 BCE, others in 597 BCE.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Jehoiachin (King of Judah)",
+        "Zedekiah (successor to Jehoiachin)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets, specifically the Chronicle of Nebuchadnezzar II)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible, 2 Kings 24:10\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (1st century CE, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Jerusalem is well-attested in both Babylonian and Hebrew sources. However, the exact year is disputed: the Babylonian Chronicle dates it to the 8th year of Nebuchadnezzar's reign (598 BCE by the proleptic Gregorian calendar), while some Hebrew sources and scholars place it in 597 BCE. The discrepancy may reflect different calendar systems or rounding conventions.",
+      "cross_references": [
+        "597-001 (Jehoiachin's deportation, alternative dating)",
+        "586-001 (Final siege of Jerusalem under Zedekiah)"
+      ]
+    },
+    {
+      "id": "598-002",
+      "title": "No other major documented events",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "cultural",
+      "description": "Beyond the siege of Jerusalem, no other major documented events are known for 598 BCE. The year is sparsely attested in surviving sources. Broader historical processes continued, but no singular event of comparable significance is recorded.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Historiographic consensus: sparse documentation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sparsity of documentation is confirmed; the absence of other major events reflects the limitations of the surviving record.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the siege of Jerusalem is disputed. The Babylonian Chronicle places it in Nebuchadnezzar's 8th regnal year (598 BCE), but some scholars and Hebrew sources place it in 597 BCE. This discrepancy is significant for understanding the chronology of the Babylonian exile. The exact cause of the dating difference is debated: it may reflect different calendar systems (Babylonian vs. Hebrew), different starting points for regnal years, or scribal errors in transmission.",
+  "historiographic_note": "The year 598 BCE is known almost entirely through the lens of the siege of Jerusalem. Babylonian cuneiform records provide the most contemporary documentation, though they are terse. Hebrew biblical sources provide narrative detail but are not contemporary and reflect theological concerns alongside historical reporting. The dating discrepancy between sources (598 vs. 597 BCE) illustrates the challenges of ancient chronology, where calendar systems, regnal year conventions, and transmission errors compound uncertainty. Other regions (China, Greece, India) have no documented events for this specific year in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "598-001",
+      "to": "597-001",
+      "relation": "led_to",
+      "note": "The siege of Jerusalem leads to Jehoiachin's deportation (dating disputed between 598 and 597 BCE)"
+    },
+    {
+      "from": "598-001",
+      "to": "586-001",
+      "relation": "part_of",
+      "note": "The siege of 598 BCE is part of the broader Babylonian conquest of Judah, culminating in the destruction of Jerusalem in 586 BCE"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "year": 611,
+  "year_label": "611 CE",
+  "era_context": "The Byzantine-Sasanid War (602\u2013628 CE) is in its second decade, with Sasanid forces making significant territorial gains in the eastern Mediterranean. The Sui Dynasty in China is in the reign of Emperor Yangdi, facing mounting internal pressures. In Arabia, Muhammad's prophetic mission is in its early phase (c. 610\u2013615 CE). Western Europe is fragmented under Merovingian Frankish rule. This period represents a critical transition in Late Antique geopolitics, with the traditional superpowers exhausting themselves in prolonged conflict.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Southeast Asia (reliant on later Chinese records and sparse epigraphy)",
+    "Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "611-001",
+      "title": "Byzantine-Sasanid War: Sasanid offensive in the Levant",
+      "region": "Levant / Byzantine-Sasanid frontier",
+      "coordinates_approx": "33.0, 36.0",
+      "category": "military",
+      "description": "Sasanid Persian forces under General Shahrbaraz continue their offensive against Byzantine territories in the Levant. The year 611 CE marks a phase in the Sasanid advance that would culminate in the capture of Damascus (615 CE) and Jerusalem (614 CE). The Sasanid offensive was part of the broader Byzantine-Sasanid War (602\u2013628 CE), which had begun with the deposition of Byzantine Emperor Maurice and the subsequent civil conflict in the Byzantine Empire.",
+      "key_figures": [
+        "Shahrbaraz (Sasanid general)",
+        "Khosrau II Parviz (Sasanid King)",
+        "Heraclius I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronographia",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sebeos, Armenian History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Sasanid offensive in the Levant during 611\u2013615 CE is documented in Byzantine sources, but the precise chronology of campaigns in 611 CE is uncertain. The year is assigned by scholarly convention based on the general trajectory of the Sasanid offensive.",
+      "cross_references": [
+        "614-001 (Jerusalem captured)",
+        "615-001 (Damascus captured)"
+      ]
+    },
+    {
+      "id": "611-002",
+      "title": "Sui Dynasty: Yangdi's reign and internal instability",
+      "region": "China / Sui Empire",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor Yangdi of the Sui Dynasty continues his reign during a period of mounting internal instability. The year 611 CE marks a critical point in the Sui Dynasty's decline, with growing discontent among the population due to military campaigns, infrastructure projects, and administrative burdens. Rebellions and uprisings were beginning to emerge, particularly in the northern regions, setting the stage for the Sui Dynasty's collapse in 618 CE.",
+      "key_figures": [
+        "Yangdi (Sui Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty), compiled 636 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled 11th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Yangdi's reign is documented in Chinese sources, but specific events in 611 CE are not precisely dated. The year falls within the documented period of growing internal instability in the Sui Dynasty.",
+      "cross_references": [
+        "618-001 (Fall of Sui Dynasty)"
+      ]
+    },
+    {
+      "id": "611-003",
+      "title": "Early Islamic period: Muhammad's prophetic mission in Mecca",
+      "region": "Arabia / Hijaz",
+      "coordinates_approx": "21.43, 39.83",
+      "category": "religious",
+      "description": "Muhammad continues his prophetic preaching in Mecca, approximately 1 year into his mission (traditionally dated to begin c. 610 CE). His message of monotheism and social reform continued to attract a small circle of followers, while facing opposition from the Quraysh merchant elite. The traditional Islamic sources describe this period as one of increasing persecution of early Muslims.",
+      "key_figures": [
+        "Muhammad ibn Abdullah (Prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Ishaq, Sirat Rasul Allah (Life of the Prophet, compiled 8th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings (9th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The chronology of early Islamic events relies entirely on Islamic tradition and later biographical compilations. No contemporary non-Islamic sources document Muhammad or early Islam in 611 CE. The traditional Islamic chronology is a scholarly convention based on Islamic sources, not independent verification.",
+      "cross_references": [
+        "610-001 (Beginning of Muhammad's prophetic mission, traditional date)",
+        "622-001 (Hijra to Medina)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Sasanid military campaigns in 611\u2013615 CE is debated among scholars. The exact sequence and dating of individual campaigns are not clearly established in surviving sources. Regarding early Islam, no contemporary non-Islamic sources mention Muhammad or early Islamic events in 611 CE. The Islamic biographical tradition, compiled 150+ years later, is the sole source for these events. The traditional date of 610 CE for the beginning of Muhammad's prophetic mission is a scholarly convention based on Islamic sources, not independent verification.",
+  "historiographic_note": "The historical record for 611 CE is heavily dependent on later compilations and chronicles written 50\u2013300 years after the events. Byzantine sources are filtered through Christian theological concerns and were composed in the 8th\u20139th centuries. Armenian sources provide an alternative perspective but are also later compilations. Chinese sources reflect Tang Dynasty perspectives on the Sui Dynasty. Islamic sources derive entirely from oral tradition compiled in the 8th century CE. The record is biased toward elite political and military events; economic, social, and cultural history of non-elite populations is largely absent. Archaeological evidence for specific events in 611 CE is limited.",
+  "graph_edges": [
+    {
+      "from": "611-001",
+      "to": "614-001",
+      "relation": "led_to",
+      "note": "Sasanid offensive in 611 CE led to the capture of Jerusalem in 614 CE"
+    },
+    {
+      "from": "611-002",
+      "to": "618-001",
+      "relation": "led_to",
+      "note": "Internal instability in 611 CE contributed to the Sui Dynasty's collapse in 618 CE"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "year": 601,
+  "year_label": "601 BCE",
+  "era_context": "The fifth year of Nebuchadnezzar II's reign. Babylon is the dominant Near Eastern power. Egypt under Necho II is attempting to maintain its independence and influence. The Greek city-states are developing their political institutions; Athens is in the early democratic period. China remains fragmented under the Spring and Autumn period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia",
+    "Most regions outside Mesopotamia"
+  ],
+  "events": [
+    {
+      "id": "601-001",
+      "title": "Battle between Nebuchadnezzar II and Necho II",
+      "region": "Egypt-Levant border region",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "According to the Babylonian Chronicle, Nebuchadnezzar II engaged in military conflict with Egyptian forces under Necho II. The battle resulted in heavy casualties on both sides, and neither side achieved a decisive victory. This conflict represented a direct confrontation between the two major powers of the Near East and demonstrated that while Babylon was dominant, Egypt retained the capacity to resist Babylonian expansion. The inconclusive outcome may have led to a period of relative stability in the region.",
+      "key_figures": [
+        "Nebuchadnezzar II (Babylonian king)",
+        "Necho II (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Babylonian Chronicle explicitly records this battle. The date of 601 BCE is secure within Babylonian chronology. However, the specific location and detailed outcome are not fully documented.",
+      "cross_references": [
+        "Follows from 605-003 (Egyptian withdrawal from Levant)",
+        "Led to period of relative stability before 597-001 (siege of Jerusalem)"
+      ]
+    },
+    {
+      "id": "601-002",
+      "title": "Babylonian military setback and recovery",
+      "region": "Mesopotamia and Levant",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Following the inconclusive battle with Egypt, Nebuchadnezzar II's forces suffered significant casualties and required a period of recovery and reorganization. The Babylonian Chronicle indicates that the king returned to Babylon to rebuild his military forces. This setback was temporary, and Babylon's dominance was not fundamentally challenged, but it demonstrated the limits of Babylonian military power and the continued viability of Egyptian resistance.",
+      "key_figures": [
+        "Nebuchadnezzar II (Babylonian king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle records the return to Babylon and the need for military reorganization, but the specific details of the recovery process are not fully documented.",
+      "cross_references": [
+        "Follows from 601-001 (Battle with Egypt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the 601 BCE battle has been debated by scholars. Some interpretations emphasize it as a major setback for Nebuchadnezzar, while others view it as a minor tactical engagement that did not fundamentally alter the balance of power. The Babylonian Chronicle's account is terse and does not provide enough detail to fully resolve this debate. Modern scholarship generally views it as an inconclusive engagement that demonstrated mutual respect between the powers rather than a decisive victory for either side.",
+  "historiographic_note": "The historical record for 601 BCE depends almost entirely on the Babylonian Chronicle, which provides a laconic account of the battle and its aftermath. The Egyptian perspective is largely absent from surviving sources. The significance of this battle has been subject to varying interpretations by modern scholars. The record is sparse and does not provide sufficient detail to fully understand the strategic implications of the conflict. This year represents a gap in detailed historical documentation, with most knowledge coming from the Babylonian administrative record rather than from detailed narratives.",
+  "graph_edges": [
+    {
+      "from": "601-001",
+      "to": "601-002",
+      "relation": "led_to",
+      "note": "The battle led to a period of military recovery and reorganization"
+    },
+    {
+      "from": "601-001",
+      "to": "597-001",
+      "relation": "led_to",
+      "note": "After recovery, Nebuchadnezzar resumed campaigns leading to the siege of Jerusalem"
+    },
+    {
+      "from": "601-001",
+      "to": "605-003",
+      "relation": "part_of",
+      "note": "Continued Egyptian-Babylonian rivalry following Egypt's withdrawal from the Levant"
+    }
+  ]
+}
