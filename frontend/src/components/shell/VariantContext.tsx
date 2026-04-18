@@ -4,7 +4,7 @@
  */
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useState, type ReactNode } from "react";
 
 export type Variant = "a" | "b" | "c";
 
@@ -16,17 +16,19 @@ interface VariantCtx {
 const Ctx = createContext<VariantCtx | null>(null);
 const STORAGE_KEY = "chronograph-variant";
 
-export function VariantProvider({ children }: { children: ReactNode }) {
-  const [variant, setVariantState] = useState<Variant>("a");
+function readStoredVariant(): Variant {
+  if (typeof window === "undefined") return "a";
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw === "a" || raw === "b" || raw === "c") return raw;
+  } catch {
+    /* noop */
+  }
+  return "a";
+}
 
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw === "a" || raw === "b" || raw === "c") setVariantState(raw);
-    } catch {
-      /* noop */
-    }
-  }, []);
+export function VariantProvider({ children }: { children: ReactNode }) {
+  const [variant, setVariantState] = useState<Variant>(readStoredVariant);
 
   const setVariant = useCallback((v: Variant) => {
     setVariantState(v);

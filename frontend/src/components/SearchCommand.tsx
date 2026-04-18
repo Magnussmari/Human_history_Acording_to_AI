@@ -99,7 +99,10 @@ export function SearchCommand({ years }: SearchCommandProps) {
         e.preventDefault();
         setOpen((o) => !o);
       }
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        setOpen(false);
+        setQuery("");
+      }
     };
     document.addEventListener("keydown", handler);
     return () => document.removeEventListener("keydown", handler);
@@ -107,15 +110,22 @@ export function SearchCommand({ years }: SearchCommandProps) {
 
   useEffect(() => {
     if (open) {
-      setTimeout(() => inputRef.current?.focus(), 80);
-    } else {
-      setQuery("");
+      const t = setTimeout(() => inputRef.current?.focus(), 80);
+      return () => clearTimeout(t);
     }
+    return undefined;
   }, [open]);
+
+  const openDialog = useCallback(() => setOpen(true), []);
+  const closeDialog = useCallback(() => {
+    setOpen(false);
+    setQuery("");
+  }, []);
 
   const handleSelect = useCallback(
     (year: number) => {
       setOpen(false);
+      setQuery("");
       router.push(`/year/${year}`);
     },
     [router],
@@ -129,6 +139,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
   const handleEraSelect = useCallback(
     (eraId: string) => {
       setOpen(false);
+      setQuery("");
       router.push(`/era/${eraId}`);
     },
     [router],
@@ -137,7 +148,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
   return (
     <>
       <motion.button
-        onClick={() => setOpen(true)}
+        onClick={openDialog}
         type="button"
         className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-[13px] flex-1 sm:flex-none sm:min-w-[240px]"
         style={{
@@ -181,7 +192,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                 background: "color-mix(in oklab, var(--fg) 55%, transparent)",
                 backdropFilter: "blur(6px)",
               }}
-              onClick={() => setOpen(false)}
+              onClick={closeDialog}
             />
 
             <motion.div

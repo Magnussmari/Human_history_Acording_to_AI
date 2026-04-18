@@ -4,7 +4,7 @@
  */
 "use client";
 
-import { Suspense, useState, useMemo, useRef, useCallback, useEffect } from "react";
+import { Suspense, useState, useMemo, useRef, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal } from "lucide-react";
@@ -39,30 +39,25 @@ function HomeInner() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const urlView = searchParams.get("view");
-  const initialView: ViewMode = urlView === "map" ? "map" : "timeline";
+  // URL is the source of truth for the view toggle — avoids state duplication
+  // and the matching "sync" effects that used to bridge them.
+  const view: ViewMode = searchParams.get("view") === "map" ? "map" : "timeline";
+
+  const setView = useCallback(
+    (next: ViewMode) => {
+      if (next === "map") {
+        router.replace(`${pathname}?view=map`, { scroll: false });
+      } else {
+        router.replace(pathname, { scroll: false });
+      }
+    },
+    [router, pathname],
+  );
 
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const [view, setView] = useState<ViewMode>(initialView);
   const timelineSectionRef = useRef<HTMLDivElement>(null);
-
-  // Keep URL in sync with view toggle (so the shell's Atlas button works)
-  useEffect(() => {
-    const current = searchParams.get("view");
-    if (view === "map" && current !== "map") {
-      router.replace(`${pathname}?view=map`, { scroll: false });
-    } else if (view === "timeline" && current === "map") {
-      router.replace(pathname, { scroll: false });
-    }
-  }, [view, pathname, router, searchParams]);
-
-  // React to external URL changes (variant switcher)
-  useEffect(() => {
-    if (urlView === "map" && view !== "map") setView("map");
-    if (urlView !== "map" && view === "map") setView("timeline");
-  }, [urlView, view]);
 
   const { data: manifest } = useQuery({
     queryKey: ["manifest"],

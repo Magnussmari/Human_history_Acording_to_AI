@@ -17,11 +17,6 @@ interface StratumViewProps {
   activeYear: YearData | null;
 }
 
-const CATEGORY_ORDER: EventCategory[] = [
-  "political", "military", "cultural", "religious", "economic",
-  "technological", "scientific", "demographic", "environmental", "exploration", "legal",
-];
-
 const CERTAINTY_ORDER: CertaintyLevel[] = ["legendary", "traditional", "approximate", "probable", "confirmed"];
 
 const RANK: Record<string, number> = {
