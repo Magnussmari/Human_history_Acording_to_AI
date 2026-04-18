@@ -2,8 +2,9 @@
 
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 > A year-by-year editorial folio of human civilisation, researched by AI.
+> Now open-sourcing the **Icelandic translation layer** — see [TRANSLATION.md](TRANSLATION.md).
 
-**🌐 [human-history-acording-to-ai.vercel.app](https://human-history-acording-to-ai.vercel.app)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE)
+**🌐 [human-history-acording-to-ai.vercel.app](https://human-history-acording-to-ai.vercel.app)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
 
 ![status](https://img.shields.io/badge/Phase_1-shipped-8a2b22?style=flat-square)
 ![status](https://img.shields.io/badge/Phase_2_evidence-7_eras_validated-3a4a6b?style=flat-square)
@@ -84,9 +85,11 @@ Three coordinated surfaces, one navigation:
 
 ---
 
-## Translation layer — EN → IS (2026-04-18)
+## Translation layer — EN → IS — open source 🇮🇸 (2026-04-18)
 
-The corpus is being localized into Icelandic via a production-grade, CI-integrated pipeline at [`scripts/translate/`](scripts/translate/). The architecture is generic and supports additional locales; Italian is planned.
+> **Looking for Icelandic-speaking contributors.** See [**TRANSLATION.md**](TRANSLATION.md) for the full methodology, fixed-terminology glossary, and how to review or extend a locale. Live coverage: [`outputs/translations/is/STATUS.json`](outputs/translations/is/STATUS.json).
+
+The corpus is being localized into Icelandic via a production-grade, CI-integrated pipeline at [`scripts/translate/`](scripts/translate/). The architecture is generic and supports additional locales; PRs adding new languages welcome.
 
 **Model:** `gemini-3-flash-preview` (pinned — `-latest` tags are forbidden in production runs so dialect/format doesn't shift mid-backfill).
 
