@@ -1,9 +1,17 @@
 import type { YearData, ChunkManifest, ProgressData, EventCategory, CertaintyLevel } from "@/types/history";
 import { DATA_BASE_URL } from "./constants";
+import { DEFAULT_LOCALE, localeDataPath, type Locale } from "@/i18n";
 
 export async function fetchManifest(): Promise<ChunkManifest> {
   const res = await fetch(`${DATA_BASE_URL}/manifest.json`);
   if (!res.ok) throw new Error("Failed to load manifest");
+  return res.json();
+}
+
+export async function fetchManifestForLocale(locale: Locale): Promise<ChunkManifest> {
+  const base = locale === DEFAULT_LOCALE ? DATA_BASE_URL : localeDataPath(locale);
+  const res = await fetch(`${base}/manifest.json`);
+  if (!res.ok) throw new Error(`Failed to load manifest for locale=${locale}`);
   return res.json();
 }
 
@@ -19,9 +27,23 @@ export async function fetchChunk(filename: string): Promise<YearData[]> {
   return res.json();
 }
 
+export async function fetchChunkForLocale(filename: string, locale: Locale): Promise<YearData[]> {
+  const base = locale === DEFAULT_LOCALE ? DATA_BASE_URL : localeDataPath(locale);
+  const res = await fetch(`${base}/chunks/${filename}`);
+  if (!res.ok) return [];
+  return res.json();
+}
+
 export async function fetchAllYears(manifest: ChunkManifest): Promise<YearData[]> {
   const chunks = await Promise.all(
     manifest.chunks.map(c => fetchChunk(c.file))
+  );
+  return chunks.flat().sort((a, b) => b.year - a.year);
+}
+
+export async function fetchAllYearsForLocale(manifest: ChunkManifest, locale: Locale): Promise<YearData[]> {
+  const chunks = await Promise.all(
+    manifest.chunks.map(c => fetchChunkForLocale(c.file, locale))
   );
   return chunks.flat().sort((a, b) => b.year - a.year);
 }
