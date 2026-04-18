@@ -7,7 +7,9 @@
   "scripts": {
     "validate": "tsx validate.ts",
     "run:is": "tsx run.ts --locale is",
-    "dry-run:is": "tsx run.ts --locale is --files ../../outputs/json/-1.json,../../outputs/json/0.json,../../outputs/json/2025.json"
+    "dry-run:is": "tsx run.ts --locale is --files ../../outputs/json/-1.json,../../outputs/json/0.json,../../outputs/json/2025.json",
+    "batch:is": "tsx run-batch.ts --locale is",
+    "batch:is:limit10": "tsx run-batch.ts --locale is --limit 10"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
