@@ -1,10 +1,19 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 "use client";
 
 import { useState, useMemo, useRef, useCallback } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal } from "lucide-react";
-import { fetchManifest, fetchAllYears, filterYears, DEFAULT_FILTERS } from "@/lib/data";
+import {
+  fetchManifest,
+  fetchAllYears,
+  filterYears,
+  DEFAULT_FILTERS,
+} from "@/lib/data";
 import { fetchEraIndex } from "@/lib/evidence";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
@@ -45,14 +54,18 @@ export default function HomePage() {
     if (activeEra) {
       const era = ERAS.find((e) => e.label === activeEra);
       if (era) {
-        result = result.filter((y) => y.year <= era.start && y.year >= era.end);
+        result = result.filter(
+          (y) => y.year <= era.start && y.year >= era.end,
+        );
       }
     }
     return result;
   }, [years, filters, activeEra]);
 
   const activeFilterCount =
-    filters.categories.length + filters.certainties.length + (filters.region ? 1 : 0);
+    filters.categories.length +
+    filters.certainties.length +
+    (filters.region ? 1 : 0);
 
   const handleExplore = useCallback(() => {
     timelineSectionRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -64,36 +77,75 @@ export default function HomePage() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4 }}
     >
-      {/* Hero */}
       <HeroSection onExplore={handleExplore} />
 
-      {/* Timeline section */}
-      <section ref={timelineSectionRef} className="mx-auto max-w-4xl px-3 sm:px-4 py-6 sm:py-10">
-        {/* Section heading */}
-        <div className="mb-8 text-center">
-          <h2
-            className="text-3xl sm:text-4xl font-bold mb-2"
-            style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
+      <section
+        ref={timelineSectionRef}
+        className="mx-auto max-w-5xl px-5 sm:px-8 py-10 sm:py-16"
+      >
+        <header className="notebook-section-head">
+          <span
+            className="notebook-section-num"
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 11,
+              color: "var(--stamp)",
+              letterSpacing: "0.12em",
+              fontWeight: 700,
+              textTransform: "uppercase",
+            }}
           >
-            The Timeline
+            § Timeline
+          </span>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "clamp(28px, 4vw, 38px)",
+              fontWeight: 500,
+              letterSpacing: "-0.01em",
+              color: "var(--fg)",
+              margin: "4px 0 6px",
+            }}
+          >
+            The folio, chronologically
           </h2>
-          <p className="text-sm text-muted-foreground">
-            {filteredYears.length.toLocaleString()} years displayed
-            {activeEra && ` — ${activeEra} era`}
-            {filters.search && ` — matching "${filters.search}"`}
+          <p
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: 13,
+              color: "var(--fg-mute)",
+              margin: 0,
+              letterSpacing: "0.04em",
+            }}
+          >
+            {filteredYears.length.toLocaleString()} entr
+            {filteredYears.length === 1 ? "y" : "ies"} displayed
+            {activeEra && ` · ${activeEra} era`}
+            {filters.search && ` · matching "${filters.search}"`}
           </p>
-        </div>
+          <span
+            className="notebook-rule notebook-section-rule"
+            style={{
+              display: "block",
+              height: 1,
+              background: "var(--rule)",
+              marginTop: 18,
+            }}
+          />
+        </header>
 
-        {/* Controls row */}
-        <div className="flex items-center gap-3 mb-5 flex-wrap">
+        <div className="flex items-center gap-3 mt-6 mb-6 flex-wrap">
           <SearchCommand years={years ?? []} />
 
           <motion.button
             onClick={() => setShowFilters(true)}
-            className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all relative"
+            type="button"
+            className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-[13px] relative"
             style={{
-              background: "#111111",
-              border: "1px solid #222222",
+              background: "var(--card)",
+              border: "1px solid var(--rule)",
+              color: "var(--fg-mute)",
+              fontFamily: "var(--font-sans)",
             }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.97 }}
@@ -102,8 +154,12 @@ export default function HomePage() {
             Filters
             {activeFilterCount > 0 && (
               <span
-                className="inline-flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold"
-                style={{ background: "var(--gold)", color: "var(--background)" }}
+                className="inline-flex h-5 min-w-[20px] px-1 items-center justify-center rounded-full text-[10px] font-bold"
+                style={{
+                  background: "var(--stamp)",
+                  color: "var(--bg)",
+                  fontFamily: "var(--font-mono)",
+                }}
               >
                 {activeFilterCount}
               </span>
@@ -115,46 +171,33 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Era navigation */}
         <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-3 mb-5">
-          <motion.button
+          <EraPill
+            active={activeEra === null}
             onClick={() => setActiveEra(null)}
-            className="shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all"
-            style={
-              activeEra === null
-                ? { background: "var(--gold)", color: "var(--background)" }
-                : { background: "var(--muted)", color: "var(--muted-foreground)" }
-            }
-            whileTap={{ scale: 0.95 }}
           >
             All Eras
-          </motion.button>
+          </EraPill>
           {ERAS.map((era) => (
-            <motion.button
+            <EraPill
               key={era.label}
-              onClick={() => setActiveEra(activeEra === era.label ? null : era.label)}
-              className="shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all"
-              style={
-                activeEra === era.label
-                  ? { background: "var(--gold)", color: "var(--background)" }
-                  : { background: "var(--muted)", color: "var(--muted-foreground)" }
+              active={activeEra === era.label}
+              onClick={() =>
+                setActiveEra(activeEra === era.label ? null : era.label)
               }
-              whileTap={{ scale: 0.95 }}
             >
               {era.label}
-              <span className="ml-1.5 opacity-50">
+              <span className="opacity-60 ml-1.5">
                 {era.start > 0 ? era.start : `${Math.abs(era.start)} BCE`}
               </span>
-            </motion.button>
+            </EraPill>
           ))}
         </div>
 
-        {/* Scholarly-era drill-down row */}
         {eraIndex && view === "timeline" && (
           <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
         )}
 
-        {/* View content */}
         <AnimatePresence mode="wait">
           {view === "timeline" ? (
             <motion.div
@@ -162,11 +205,19 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
-              transition={{ duration: 0.25, type: "spring", stiffness: 300, damping: 30 }}
+              transition={{
+                duration: 0.25,
+                type: "spring",
+                stiffness: 300,
+                damping: 30,
+              }}
             >
-              <NotebookTimeline years={filteredYears} isLoading={isLoading} />
+              <NotebookTimeline
+                years={filteredYears}
+                isLoading={isLoading}
+              />
             </motion.div>
-          ) : view === "map" ? (
+          ) : (
             <motion.div
               key="map"
               initial={{ opacity: 0, y: 12 }}
@@ -183,33 +234,23 @@ export default function HomePage() {
                   }}
                 />
               ) : (
-                <div className="py-24 text-center text-muted-foreground text-sm">
+                <div
+                  className="py-24 text-center text-[13px]"
+                  style={{
+                    color: "var(--fg-mute)",
+                    fontFamily: "var(--font-mono)",
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                  }}
+                >
                   Loading globe…
                 </div>
               )}
-            </motion.div>
-          ) : (
-            <motion.div
-              key="graph"
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }}
-              transition={{ duration: 0.25 }}
-              className="py-24 text-center text-muted-foreground"
-            >
-              <p
-                className="text-2xl mb-2"
-                style={{ fontFamily: "var(--font-heading), serif" }}
-              >
-                Graph View
-              </p>
-              <p className="text-sm">Cross-reference graph visualization coming soon.</p>
             </motion.div>
           )}
         </AnimatePresence>
       </section>
 
-      {/* Filter panel */}
       <FilterPanel
         open={showFilters}
         onClose={() => setShowFilters(false)}
@@ -217,5 +258,34 @@ export default function HomePage() {
         onChange={setFilters}
       />
     </motion.div>
+  );
+}
+
+interface EraPillProps {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}
+
+function EraPill({ active, onClick, children }: EraPillProps) {
+  return (
+    <motion.button
+      onClick={onClick}
+      type="button"
+      className="shrink-0 rounded-full px-4 py-1.5 text-[11px]"
+      style={{
+        background: active ? "var(--fg)" : "var(--bg-2)",
+        color: active ? "var(--bg)" : "var(--fg-mute)",
+        border: `1px solid ${active ? "var(--fg)" : "var(--rule)"}`,
+        fontFamily: "var(--font-mono)",
+        letterSpacing: "0.12em",
+        fontWeight: 600,
+        textTransform: "uppercase",
+        cursor: "pointer",
+      }}
+      whileTap={{ scale: 0.95 }}
+    >
+      {children}
+    </motion.button>
   );
 }
