@@ -1,0 +1,44 @@
+{
+  "description": "DO_NOT_TRANSLATE sentinels. These string values are schema enums or identifiers and MUST be preserved verbatim in every translated JSON. Enforced post-generation by structural diff in translate.ts — the glossary is also surfaced to the model in the user message as reinforcement.",
+  "preserve_values_at_paths": {
+    "documentation_level": ["rich", "moderate", "sparse", "minimal", "negligible"],
+    "events[].category": ["political", "military", "scientific", "cultural", "economic", "demographic", "technological", "religious", "environmental", "exploration", "legal"],
+    "events[].certainty": ["confirmed", "probable", "approximate", "traditional", "legendary"],
+    "events[].sources[].type": ["primary_text", "archaeological", "epigraphic", "numismatic", "chronicle", "historiographic_consensus", "oral_tradition", "later_compilation"],
+    "events[].sources[].contemporary": ["boolean — preserve as-is"],
+    "graph_edges[].relation": ["caused_by", "led_to", "contemporary_with", "contradicts", "part_of"]
+  },
+  "preserve_structure_at_paths": [
+    "year (integer — preserve as-is)",
+    "events[].id (string identifier like '-1-001' — preserve as-is)",
+    "events[].coordinates_approx (string 'lat, lon' — preserve as-is)",
+    "events[].cross_references[] (array of event IDs — preserve as-is)",
+    "graph_edges[].from (event ID — preserve as-is)",
+    "graph_edges[].to (event ID — preserve as-is)",
+    "_meta.* (metadata — preserve as-is if present)"
+  ],
+  "translate_values_at_paths": [
+    "year_label (e.g. '2 BCE (Proleptic Gregorian)' → '2 f.Kr. (fyrirframreiknað gregorískt tímatal)')",
+    "era_context",
+    "geographic_coverage_gaps[]",
+    "events[].title",
+    "events[].region",
+    "events[].description",
+    "events[].key_figures[]",
+    "events[].certainty_note",
+    "events[].sources[].name (use Icelandic translation only if it is a descriptive phrase; preserve canonical published-work titles e.g. 'Res Gestae Divi Augusti' verbatim)",
+    "disconfirming_evidence",
+    "historiographic_note",
+    "graph_edges[].note"
+  ],
+  "fixed_translations_is": {
+    "Antiquities of the Jews": "Fornsögur Gyðinga",
+    "Jewish Antiquities": "Fornsögur Gyðinga",
+    "Jewish War": "Stríð Gyðinga",
+    "The Jewish War": "Stríð Gyðinga",
+    "Proleptic Gregorian": "fyrirframreiknað gregorískt tímatal",
+    "BCE": "f.Kr.",
+    "CE": "e.Kr."
+  }
+}
+

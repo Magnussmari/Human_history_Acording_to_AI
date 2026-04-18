@@ -1,0 +1,91 @@
+name: Translate corpus → Icelandic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "outputs/json/**.json"
+      - "scripts/translate/**"
+      - ".github/workflows/translate-is.yml"
+  workflow_dispatch:
+    inputs:
+      reset_manifest:
+        description: "Wipe .translation-manifest.json before running (forces full re-translation)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: translate-is
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+      TRANSLATION_MODEL: gemini-3-flash-preview
+      TRANSLATION_CONCURRENCY: "4"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Optionally reset manifest (force full re-translation)
+        if: github.event_name == 'workflow_dispatch' && inputs.reset_manifest
+        run: rm -f .translation-manifest.json
+
+      - name: Install translate-pipeline deps
+        working-directory: scripts/translate
+        run: npm ci
+
+      - name: Translate (idempotent — manifest skips unchanged files)
+        working-directory: scripts/translate
+        run: npx tsx run.ts --locale is --all
+
+      - name: Install frontend deps
+        working-directory: frontend
+        run: npm ci
+
+      - name: Re-aggregate frontend chunks (en + per-locale)
+        run: node frontend/scripts/aggregate-data.mjs
+
+      - name: Detect changes
+        id: changes
+        run: |
+          set -euo pipefail
+          if git diff --quiet --exit-code -- outputs/translations/ .translation-manifest.json frontend/public/data/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open PR with translations
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/translate-is/${{ github.run_id }}
+          base: main
+          commit-message: "chore(translate): IS translations refreshed"
+          title: "chore(translate): IS translations refreshed"
+          body: |
+            Automated Icelandic translations triggered by ${{ github.event_name }} on ${{ github.sha }}.
+
+            - Model: gemini-3-flash-preview
+            - Pipeline: scripts/translate/run.ts (locked verbatim Icelandic system prompt; structural diff + Ajv schema guard refuse to write any drift; SHA256 manifest for idempotency)
+            - Frontend chunks regenerated under frontend/public/data/is/
+          add-paths: |
+            outputs/translations/is/**
+            .translation-manifest.json
+            frontend/public/data/is/**
+            frontend/public/data/manifest.json
