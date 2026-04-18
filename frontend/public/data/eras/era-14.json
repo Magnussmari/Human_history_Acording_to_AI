@@ -1,0 +1,494 @@
+{
+  "id": "era-14",
+  "number": 14,
+  "label": "Archaic Greece",
+  "start": -800,
+  "end": -480,
+  "primaryBroadEra": "Classical",
+  "phaseStatus": "phase3-complete",
+  "valorSource": "02_classical_foundations.md",
+  "educationStatus": "valor-mapped",
+  "scholarly": {
+    "schema_version": "1.0.0",
+    "mission_id": "2026-04-16-2210-human-history-phase3-eras-14-20",
+    "agent_id": "agent-01",
+    "angle": "Era 14 — Archaic Greece (800–480 BCE): whether the polis emerged in the 8th–6th centuries BCE as a distinctive self-governing citizen community rather than a reworking of pre-existing Near-Eastern or Mycenaean urban patterns.",
+    "angle_code": "CUSTOM",
+    "research_timestamp": "2026-04-16T22:25:56Z",
+    "model": "claude-opus-4-7",
+    "key_claim": "The Greek polis emerged between the 8th and 6th centuries BCE as a distinctive social form — a self-governing citizen community (politai) bound to a defined territory and a sanctuary-centred urban nucleus — and was not simply a reworking of pre-existing Near-Eastern or Mycenaean urban patterns.",
+    "verdict": "contested",
+    "confidence": "moderate",
+    "searches_executed": 6,
+    "searches_planned": 5,
+    "papers_found_total": 48,
+    "papers_with_editorial_notices": {
+      "count": 0,
+      "dois": []
+    },
+    "discipline_branch": "humanities",
+    "scholarly_debate": {
+      "question": "Was the Greek polis a distinctive 8th–6th-century BCE innovation (citizen-territory-sanctuary nexus), or one regional variant of a wider Iron Age Mediterranean urbanising process rooted in continuous post-Mycenaean evolution?",
+      "position_a": "Distinctive-innovation / synoikism school (Hansen, Copenhagen Polis Centre; de Polignac on sanctuary-first formation): the polis was a novel political form defined by citizen body (politai), demarcated territory, and extra-urban sanctuaries that articulated community space; sometimes formed by rapid, deliberate consolidation (synoikism).",
+      "position_b": "Continuous-evolution / comparative-Mediterranean school (Snodgrass, Morris, Riva, Raaflaub-adjacent): polis emergence was a gradual outgrowth from Dark-Age settlements and shares structural features with contemporaneous Phoenician, Etruscan, and Central Italic city-states; citizenship practices are paralleled across first-millennium-BCE Mediterranean ritual communities.",
+      "current_consensus": "Post-Hansen-inventory (2004) consensus accepts the polis as a socio-politically distinctive Greek formation with ~1,035 identifiable instances, but recent work (Ma 2016; Riva 2021; Kotsonas 2022) increasingly embeds it in regional trajectories and Mediterranean comparatives; the Athenocentric and hoplite-revolution narratives are being displaced.",
+      "resolution_needed": "Regional archaeological syntheses (Crete, Ionia/Caria, Magna Graecia) and comparative ritual-citizenship studies (Etruria, Iberia, Phoenicia) need integration with Hansen's inventory methodology to test whether 'polis-distinctiveness' survives when measured against Iron Age Mediterranean peers rather than only against Athens/Sparta."
+    },
+    "contested_claims": [
+      {
+        "claim": "The polis emerged via rapid synoikism (deliberate consolidation) rather than continuous evolution from Dark-Age settlements.",
+        "status": "contested",
+        "evidentiary_basis": "Hansen & Nielsen (2004) provide the comprehensive inventory that operationalises the concept; Kotsonas (2022) on Crete explicitly refutes the synoecism model at Knossos on archaeological grounds, showing nucleated settlement without dispersed villages to synoecise.",
+        "key_citations": [
+          "10.1093/oso/9780198140993.001.0001",
+          "10.1017/s0570608422000023"
+        ]
+      },
+      {
+        "claim": "The hoplite phalanx (8th–7th-c. 'hoplite revolution') produced the polis citizen-class linkage.",
+        "status": "refuted",
+        "evidentiary_basis": "Van Wees (2004) and the critical revisionist strand (Ma 2016; Echeverría Rey 2015; Lewis 2023; Chiritoiu 2020) argue the hoplitic phalanx is an early-Classical, not seventh-century, feature; Archaic warfare was diverse (missiles, duels, loose-order). The hoplite-polis causal arrow is ideological rather than evidentiary.",
+        "key_citations": [
+          "10.1017/s2398568218000079",
+          "10.1111/j.2041-5370.2015.12001.x",
+          "10.1017/s0075426923000654",
+          "10.1017/s1750270520000032"
+        ]
+      },
+      {
+        "claim": "The polis was a uniquely Greek innovation, not one variant of a Mediterranean-wide Iron Age urbanising pattern.",
+        "status": "contested",
+        "evidentiary_basis": "Riva (2021) explicitly frames Etruscan and Iberian city-state formation as parallel to Greek polis formation through shared citizenship-as-cult-participation mechanisms; Gimatzidis & Weninger's radiocarbon work (2020, 2023) revises Aegean chronology in synchrony with Near-Eastern and Phoenician Iron Age sequences, undercutting Greek-exceptionalist chronologies.",
+        "key_citations": [
+          "10.14324/111.444.ai.2021.10",
+          "10.1371/journal.pone.0232906",
+          "10.1371/journal.pone.0274979",
+          "10.1515/urbrel.16039815"
+        ]
+      },
+      {
+        "claim": "The polis was grounded in religion/sanctuary practice (de Polignac's thesis) rather than primarily in political/institutional form.",
+        "status": "contested",
+        "evidentiary_basis": "Kindt (2009) critically appreciates 'polis religion' and notes Morgan's challenge that ethnos sanctuaries show 'the priority accorded to the polis … as the most dynamic form of political organization is no longer sustainable'; Ma (2016) conversely re-centres the state and public goods as constitutive of polis formation.",
+        "key_citations": [
+          "10.4000/kernos.1765",
+          "10.1017/s2398568218000079"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "doi": "10.1093/oso/9780198140993.001.0001",
+        "title": "An Inventory Of Archaic And Classical Poleis",
+        "authors": [
+          "Mogens Herman Hansen",
+          "Thomas Heine Nielsen"
+        ],
+        "journal": "Oxford University Press (Copenhagen Polis Centre)",
+        "year": 2004,
+        "publication_type": "book",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 437,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities: citing_publications_count > 30 AND recognised field venue (OUP / Copenhagen Polis Centre) AND no editorial notices — reference work treated as Tier 1 anchor despite publication_type=book",
+        "editorial_notices": [],
+        "key_finding": "Definitive inventory of 1,035 identifiable Greek poleis of the Archaic and Classical periods (c. 650–325 BCE), compiled by 47 specialists over a decade at the Copenhagen Polis Centre. Establishes the polis as an empirically documented category and operationalises the Greek emic concept against modern 'city-state' comparative use. Serves as the Tier 1 anchor for the key claim.",
+        "excerpt": "This is the first ever documented study of the 1,035 identifiable Greek city states (poleis) of the Archaic and Classical periods (c.650-325 BC). … The ancient Greek concept of polis is distinguished from the modern term `city state', which historians use to cover many other historic civilizations.",
+        "access": {
+          "status": "purchase",
+          "url": "https://doi.org/10.1093/oso/9780198140993.001.0001"
+        },
+        "found_by_searches": [
+          "search-6-hansen"
+        ]
+      },
+      {
+        "doi": "10.1093/oso/9780199208494.003.0019",
+        "title": "Polis as State",
+        "authors": [
+          "Mogens Herman Hansen"
+        ],
+        "journal": "Oxford University Press (The Shotgun Method / Polis Centre)",
+        "year": 2006,
+        "publication_type": "book-chapter",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": null,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: OA chapter by Hansen synthesising territory/citizens/institutions criteria; tally unreported in Scite but extends Tier 1 work",
+        "editorial_notices": [],
+        "key_finding": "Hansen's operationalisation of polis-as-state: territory, citizens (politai), and political institutions as the three-part definition. Underpins the 'distinctive citizen community' element of the key claim.",
+        "excerpt": "The concept of polis as a political community—what we call a 'state'—has different aspects … (a) polis was used occasionally to mean a city plus its hinterland, and so meant a territory; (b) it was frequently used of the citizens and meant, in that context, the people of a state; and (c) it was with equal frequency used of the political institutions.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.1093/oso/9780199208494.003.0019"
+        },
+        "found_by_searches": [
+          "search-6-hansen"
+        ]
+      },
+      {
+        "doi": "10.4000/kernos.1765",
+        "title": "Polis Religion – A Critical Appreciation",
+        "authors": [
+          "Julia Kindt"
+        ],
+        "journal": "Kernos",
+        "year": 2009,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 5,
+        "citing_publications_count": 84,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities: citing_publications_count > 30 AND journal-article AND no editorial notices (Kernos is recognised field venue)",
+        "editorial_notices": [],
+        "key_finding": "Critical assessment of Sourvinou-Inwood's 'polis religion' model and of de Polignac's sanctuary-first thesis. Cites Morgan's and Mazarakis Ainian's archaeological work showing worshipping communities above and below the polis level, weakening the claim that the polis was the single dynamic form; but ultimately preserves the polis as the dominant cultural context of Archaic/Classical Greek religion.",
+        "excerpt": "The debate surrounding de Polignac's controversial thesis concerning the role of religion in the formation of the polis during the Archaic period has also inspired a variety of studies investigating the role of polis religion in community and state building … Morgan concludes that 'the priority accorded to the polis … as the most dynamic, creative and influential form of political organization is no longer sustainable.'",
+        "access": {
+          "status": "open",
+          "url": "https://journals.openedition.org/kernos/pdf/1765"
+        },
+        "found_by_searches": [
+          "search-1-foundational"
+        ]
+      },
+      {
+        "doi": "10.1017/s2398568218000079",
+        "title": "Elites, Elitism, and Community in the Archaic Polis",
+        "authors": [
+          "John Ma"
+        ],
+        "journal": "Annales. Histoire, Sciences Sociales (English Edition)",
+        "year": 2016,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: citing_publications_count = 1 (< 10); retained for its explicit revisionist argument against the hoplite-revolution narrative and for re-centring the state in polis formation",
+        "editorial_notices": [],
+        "key_finding": "Argues against the elites-first narrative and re-centres community, public goods, and the 'state' in Archaic polis formation; explicitly states the hoplitic phalanx was early-Classical, not seventh-century, decoupling the hoplite-polis causal linkage.",
+        "excerpt": "The hoplitic phalanx was not a feature of the seventh century, but rather of the early Classical period; Archaic warfare was diverse, involving missile weapons, duels, loose-order fighting, and elite bands. … The polis did not rise out of a struggle against clans or aristocratic families.",
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/23C9D161EC84B0E0B75E4B9D89EB2C9F/S2398568218000079a.pdf/div-class-title-elites-elitism-and-community-in-the-archaic-span-class-italic-polis-span-div.pdf"
+        },
+        "found_by_searches": [
+          "search-3-hoplite"
+        ]
+      },
+      {
+        "doi": "10.1017/s0075426923000654",
+        "title": "The Cretan way of war: status, violence and values from the Classical period to the Roman conquest",
+        "authors": [
+          "David Lewis"
+        ],
+        "journal": "The Journal of Hellenic Studies",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 1,
+        "citing_publications_count": null,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: JHS is premier field venue AND explicitly engages van Wees; retained as Tier 2 despite tally being unreported",
+        "editorial_notices": [],
+        "key_finding": "Uses van Wees's 'Homeric way of war' framework as robust starting point for archaic warfare; Cretan city-states never fought as massed phalanxes but in open-order archaic style, demonstrating regional divergence in supposedly 'pan-Hellenic' polis military practice and undermining the universal hoplite-revolution narrative.",
+        "excerpt": "Hans van Wees' discussion of the 'Homeric way of war' provides … a robust starting point for understanding the style of warfare practised ca. 700 BC. … Hoplites not necessarily phalanx fighters: Rawlings (2000); van Wees (2004) 166–77; Echeverría (2012).",
+        "access": {
+          "status": "open",
+          "url": "https://www.research.ed.ac.uk/files/390465784/LewisD2023JHSTheCretanWayOfWar.pdf"
+        },
+        "found_by_searches": [
+          "search-3-hoplite"
+        ]
+      },
+      {
+        "doi": "10.1111/j.2041-5370.2015.12001.x",
+        "title": "Heroic Fiction, Combat Scenes, and the Scholarly Reconstruction of Archaic Greek Warfare",
+        "authors": [
+          "Fernando Echeverría Rey"
+        ],
+        "journal": "Bulletin of the Institute of Classical Studies",
+        "year": 2015,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: low citing count; retained as revisionist source on archaic combat iconography",
+        "editorial_notices": [],
+        "key_finding": "Rehabilitates vase-painting combat scenes as historical sources for archaic warfare; argues scenes traditionally dismissed as 'archaizing/heroizing' are compatible with new hoplite-phalanx theories (van Wees, Krentz), reinforcing the revisionist chronology.",
+        "excerpt": null,
+        "access": {
+          "status": "purchase",
+          "url": "https://doi.org/10.1111/j.2041-5370.2015.12001.x"
+        },
+        "found_by_searches": [
+          "search-3-hoplite"
+        ]
+      },
+      {
+        "doi": "10.1017/s0570608422000023",
+        "title": "Crete: Early Iron Age to Classical",
+        "authors": [
+          "Antonis Kotsonas"
+        ],
+        "journal": "Archaeological Reports",
+        "year": 2022,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 2,
+        "citing_publications_count": 2,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: low citing count (recent 2022) but premier review journal Archaeological Reports; retained for its explicit refutation of synoecism at Knossos",
+        "editorial_notices": [],
+        "key_finding": "Recent survey data from the Knossos Urban Landscape Project refute the synoecism model of polis formation at Knossos: the site was a nucleated settlement surrounded by cemeteries, with no dispersed villages available to synoecise. Challenges Athenocentric polis-formation narratives and calls for regional trajectories.",
+        "excerpt": "This was a nucleated settlement surrounded by cemeteries, but involved no dispersed villages, which refutes the model of polis formation through synoecism at Knossos (Kotsonas 2019c). … Revising the current paradigm of the study of ancient Greece into one that is more accommodating to regional trajectories is probably the greatest challenge for the archaeology of Greece in the 21st century.",
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2495C71D6860C71ECBEFD168C8AE0C18/S0570608422000023a.pdf/div-class-title-6-crete-early-iron-age-to-classical-div.pdf"
+        },
+        "found_by_searches": [
+          "search-5-recent"
+        ]
+      },
+      {
+        "doi": "10.14324/111.444.ai.2021.10",
+        "title": "Citizenship and religion in the first-millennium bce Mediterranean: from Etruria to Iberia",
+        "authors": [
+          "Corinna Riva"
+        ],
+        "journal": "Archaeology International",
+        "year": 2021,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: low citing count (recent 2021 project-framing piece); retained for explicit comparative-Mediterranean framing of citizenship",
+        "editorial_notices": [],
+        "key_finding": "Frames Etruscan and Iberian first-millennium-BCE city-states as comparative peers of the Greek polis through shared cult-based citizenship mechanisms; argues recent readings of Archaic Greek citizenship emphasise shared cult, descent, and law rather than narrowly political Aristotelian definitions — making cross-Mediterranean comparison substantive rather than metaphorical.",
+        "excerpt": "Recent readings of Archaic and Classical Greek texts have challenged strictly political Aristotelian understandings on citizenship and highlighted shared cult, descent and law as constitutive of Greek citizenship. … participation in religion is seen as key to citizenship, involving a 'covenant' between the members of the polis and the gods.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.14324/111.444.ai.2021.10"
+        },
+        "found_by_searches": [
+          "search-5-recent"
+        ]
+      },
+      {
+        "doi": "10.1515/urbrel.16039815",
+        "title": "Violence, Power and Religion in the South Etruscan Archaic City-State",
+        "authors": [
+          "Corinna Riva"
+        ],
+        "journal": "De Gruyter (Religion and Urbanity series)",
+        "year": 2020,
+        "publication_type": "book-chapter",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 1,
+        "citing_publications_count": 3,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: low citing count; retained for direct Etruscan-Greek temple-decoration comparative evidence",
+        "editorial_notices": [],
+        "key_finding": "Archaic South Etruscan city-states (esp. Caere, 6th–early 5th c. BCE) show hoplite-warrior iconography tied to 'social groups attempting to widen membership to the political community', paralleling — not deriving from — Greek polis dynamics. Notes the bilingual Etruscan-Phoenician inscription at Pyrgi evidencing Central-Mediterranean city-state regrouping.",
+        "excerpt": "These images likely circulated among elite viewers, they have to be understood vis-à-vis the social and political transformations across Etruscan city-states from the second half of the sixth century that involved a tension between these elites' political rule and other social groups attempting to widen membership to the political community, as attested by recent analyses of Etruscan iconography of hoplite warriors.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.1515/urbrel.16039815"
+        },
+        "found_by_searches": [
+          "search-4-comparative"
+        ]
+      },
+      {
+        "doi": "10.1371/journal.pone.0232906",
+        "title": "Radiocarbon dating the Greek Protogeometric and Geometric periods: The evidence of Sindos",
+        "authors": [
+          "Stefanos Gimatzidis",
+          "Bernhard Weninger"
+        ],
+        "journal": "PLOS ONE",
+        "year": 2020,
+        "publication_type": "journal-article",
+        "supporting_count": 12,
+        "contrasting_count": 1,
+        "mentioning_count": 24,
+        "citing_publications_count": 21,
+        "support_ratio": 0.923,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: citing_publications_count > 10 AND no retractions; strong support ratio unusually computable (21 citing pubs, 12:1 supporting:contrasting)",
+        "editorial_notices": [],
+        "key_finding": "Stratified 14C-AMS dates from Sindos challenge the conventional Greek Early Iron Age chronology, implying a generally higher Aegean chronology that must be reconciled with Near-Eastern and Phoenician sequences — undercutting historically-derived Greek-exceptionalist periodisations and arguing for synchrony with Mediterranean peers.",
+        "excerpt": "Due to the high chronological resolution that is only achievable by (metric-scale) stratigraphic 14C-age-depth modelling, the analysis of 21 14C-AMS dates on stratified animal bones from Sindos (northern Greece) shows results that immediately challenge the conventional Greek chronology.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.1371/journal.pone.0232906"
+        },
+        "found_by_searches": [
+          "search-5-recent"
+        ]
+      },
+      {
+        "doi": "10.1371/journal.pone.0274979",
+        "title": "An interdisciplinary approach to Iron Age Mediterranean chronology through combined archaeological and 14C-radiometric evidence from Sidon, Lebanon",
+        "authors": [
+          "Claude Doumet-Serhal",
+          "Stefanos Gimatzidis",
+          "Bernhard Weninger"
+        ],
+        "journal": "PLOS ONE",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 5,
+        "citing_publications_count": 7,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: citing_publications_count = 7 (< 10), but high-quality open-data chronology study linking Aegean and Phoenician sequences",
+        "editorial_notices": [],
+        "key_finding": "Phoenician Sidon yields Greek Geometric pottery in stratified contexts together with Phoenician local wares and 14C dates; provides empirical basis for synchronising Greek and Phoenician Iron Age chronologies, concretely supporting comparative-Mediterranean framings of polis/city-state emergence.",
+        "excerpt": "The recent excavations at Sidon have brought to light one of the largest assemblages of Greek Geometric pottery that was ever found along the Levantine coast. … a significant find that provides new evidence about the social and cultural perception of Greek pottery in the eastern Mediterranean.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.1371/journal.pone.0274979"
+        },
+        "found_by_searches": [
+          "search-5-recent"
+        ]
+      },
+      {
+        "doi": "10.1017/s1750270520000032",
+        "title": "The 'Myth' of the Phalanx: Battle Formations and Cultural Interaction",
+        "authors": [
+          "Daniel Alexandru Chiritoiu"
+        ],
+        "journal": "The Cambridge Classical Journal",
+        "year": 2020,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: low citing count; retained for explicit engagement with the phalanx-myth / cultural-commodity thesis",
+        "editorial_notices": [],
+        "key_finding": "Treats the phalanx as a cultural commodity in Greco-Roman military literature rather than a fixed battlefield reality of the Archaic period; reinforces the revisionist position that hoplite-phalanx warfare is largely a later ideological construct.",
+        "excerpt": null,
+        "access": {
+          "status": "purchase",
+          "url": "https://doi.org/10.1017/s1750270520000032"
+        },
+        "found_by_searches": [
+          "search-3-hoplite"
+        ]
+      },
+      {
+        "doi": "10.33231/j.ihe.2023.05.002",
+        "title": "A Brief Overview of the Political Economy of Ancient Greek Polis and Demokratia",
+        "authors": [
+          "Laurent Gauthier"
+        ],
+        "journal": "Investigaciones de Historia Económica",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 19,
+        "citing_publications_count": null,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: tally unreported as citing count; review/overview format",
+        "editorial_notices": [],
+        "key_finding": "Political-economy review casting polis emergence as shaped by widened resource access after collapse of centralised Mycenaean power; situates Athenian demokratia within the polis frame and highlights institutional economics literature on the polis as an innovation.",
+        "excerpt": "The emergence of the polis as a political institution took place in a particular context, with a more widespread access to resources, as earlier centralised power had vanished.",
+        "access": {
+          "status": "open",
+          "url": "https://recyt.fecyt.es/index.php/IHE/article/download/100590/73228"
+        },
+        "found_by_searches": [
+          "search-1-foundational"
+        ]
+      },
+      {
+        "doi": "10.1017/s0075426925100281",
+        "title": "When was Early Greece?",
+        "authors": [
+          "Catharine Judson"
+        ],
+        "journal": "The Journal of Hellenic Studies",
+        "year": 2025,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 1,
+        "citing_publications_count": null,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: JHS but citing count unreported (2025, too recent); retained for meta-critical periodisation argument",
+        "editorial_notices": [],
+        "key_finding": "Shows that 'Early Greece' remains under-defined, with material-based scholarship applying it to the Early Iron Age and text-based scholarship to the Archaic period; argues that periodisation itself encodes an evolutionary framework skewed toward fifth-century Athens — a meta-critique bearing directly on 'polis emergence' chronologies.",
+        "excerpt": "This article investigates the boundaries of the chronological-cultural unit of 'Early Greece' … I argue that the phrase, and the values that it encodes, continues to exist in a traditional evolutionary framework of cultural development within the Greek world.",
+        "access": {
+          "status": "purchase",
+          "url": "https://doi.org/10.1017/s0075426925100281"
+        },
+        "found_by_searches": [
+          "search-1-foundational"
+        ]
+      }
+    ],
+    "gaps_observed": [
+      "Hansen's Inventory (2004) did not surface in the primary foundational search (Search 1) despite its 437 citing publications — likely because Scite indexes the OUP book chapters (0 citing on the main entry hit by generic terms) rather than the work-level record; required a targeted Search 6 with author=Hansen to retrieve it. This is a Scite coverage quirk for edited reference works, not an absence of evidence.",
+      "Snodgrass, Ian Morris, de Polignac, Cartledge, van Wees, and Raaflaub do NOT appear as primary authors in any returned record — their influence is visible only through citations within retrieved papers (e.g. Ma, Lewis, Echeverría Rey). Monographs from the 1980s–1990s are poorly indexed in Scite for classics.",
+      "No retractions, corrections, or expressions of concern were detected across 48 unique records — humanities retraction ecosystem is sparse, as expected.",
+      "Direct Greek-vs-Phoenician-vs-Mycenaean urban-form comparative archaeology (e.g. Sherratt, Purcell, Horden) did not surface; the comparative material that did come through (Riva on Etruria/Iberia; Gimatzidis/Weninger on chronology) is high-quality but not a dedicated 'was the polis one variant of an Iron Age Mediterranean pattern' synthesis.",
+      "Greg Anderson's Athenian Experiment and deme-system scholarship did not surface — follow-up targeted author search recommended for synthesis.",
+      "The 'ritual-first / sanctuary-before-city' (de Polignac) thesis is represented only via its critical reception (Kindt 2009; Ma 2016) rather than by the primary monograph, which is not indexed with a Scite DOI tally."
+    ],
+    "apa_references": [
+      "Chiritoiu, D. A. (2020). The 'myth' of the phalanx: Battle formations and cultural interaction. *The Cambridge Classical Journal*, *66*, 1–28. https://doi.org/10.1017/s1750270520000032",
+      "Doumet-Serhal, C., Gimatzidis, S., & Weninger, B. (2023). An interdisciplinary approach to Iron Age Mediterranean chronology through combined archaeological and 14C-radiometric evidence from Sidon, Lebanon. *PLOS ONE*, *18*(3), e0274979. https://doi.org/10.1371/journal.pone.0274979",
+      "Echeverría Rey, F. (2015). Heroic fiction, combat scenes, and the scholarly reconstruction of archaic Greek warfare. *Bulletin of the Institute of Classical Studies*, *58*(1), 33–60. https://doi.org/10.1111/j.2041-5370.2015.12001.x",
+      "Gauthier, L. (2023). A brief overview of the political economy of ancient Greek polis and demokratia. *Investigaciones de Historia Económica*. https://doi.org/10.33231/j.ihe.2023.05.002",
+      "Gimatzidis, S., & Weninger, B. (2020). Radiocarbon dating the Greek Protogeometric and Geometric periods: The evidence of Sindos. *PLOS ONE*, *15*(5), e0232906. https://doi.org/10.1371/journal.pone.0232906",
+      "Hansen, M. H. (2006). Polis as state. In *The Shotgun Method: The Demography of the Ancient Greek City-State Culture* (pp. 106–115). Oxford University Press. https://doi.org/10.1093/oso/9780199208494.003.0019",
+      "Hansen, M. H., & Nielsen, T. H. (2004). *An inventory of archaic and classical poleis*. Oxford University Press. https://doi.org/10.1093/oso/9780198140993.001.0001",
+      "Judson, C. (2025). When was Early Greece? *The Journal of Hellenic Studies*, *145*, 115–134. https://doi.org/10.1017/s0075426925100281",
+      "Kindt, J. (2009). Polis religion – A critical appreciation. *Kernos*, *22*, 9–34. https://doi.org/10.4000/kernos.1765",
+      "Kotsonas, A. (2022). Crete: Early Iron Age to Classical. *Archaeological Reports*, *68*, 133–167. https://doi.org/10.1017/s0570608422000023",
+      "Lewis, D. (2023). The Cretan way of war: Status, violence and values from the Classical period to the Roman conquest. *The Journal of Hellenic Studies*, *143*, 24–48. https://doi.org/10.1017/s0075426923000654",
+      "Ma, J. (2016). Elites, elitism, and community in the archaic polis. *Annales. Histoire, Sciences Sociales (English Edition)*, *71*(3), 395–418. https://doi.org/10.1017/s2398568218000079",
+      "Riva, C. (2020). Violence, power and religion in the south Etruscan archaic city-state. In *Religion and Urbanity*. De Gruyter. https://doi.org/10.1515/urbrel.16039815",
+      "Riva, C. (2021). Citizenship and religion in the first-millennium BCE Mediterranean: From Etruria to Iberia. *Archaeology International*, *24*(1). https://doi.org/10.14324/111.444.ai.2021.10"
+    ],
+    "calls_consumed": 6
+  },
+  "education": {
+    "status": "valor-mapped",
+    "valorSource": "02_classical_foundations.md",
+    "note": "VALOR source identified; era-specific synthesis awaiting authoring."
+  }
+}

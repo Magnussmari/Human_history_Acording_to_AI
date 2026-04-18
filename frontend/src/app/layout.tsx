@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display, Fraunces, Instrument_Sans, IBM_Plex_Mono } from "next/font/google";
 import { Providers } from "@/lib/providers";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { FontSizeControl } from "@/components/FontSizeControl";
@@ -25,6 +25,27 @@ const playfair = Playfair_Display({
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
+// Atlas rebuild — additive, coexists with legacy fonts.
+const fraunces = Fraunces({
+  variable: "--font-atlas-display",
+  subsets: ["latin"],
+  display: "swap",
+  axes: ["SOFT", "WONK", "opsz"],
+});
+
+const instrumentSans = Instrument_Sans({
+  variable: "--font-atlas-sans",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-atlas-mono",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600"],
+});
+
 export const metadata: Metadata = {
   title: "Eternal Codex — Human History According to AI",
   description:
@@ -44,7 +65,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} dark h-full`}
+      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${fraunces.variable} ${instrumentSans.variable} ${ibmPlexMono.variable} dark h-full`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground antialiased">
@@ -80,6 +102,14 @@ export default function RootLayout({
 
               {/* Nav */}
               <nav className="flex items-center gap-1 sm:gap-2">
+                <Link
+                  href="/methodology"
+                  className="hidden sm:inline-block text-[11px] uppercase tracking-[0.22em] text-muted-foreground hover:text-primary transition-colors px-2 py-1"
+                  style={{ fontFamily: "var(--font-atlas-sans), system-ui, sans-serif" }}
+                >
+                  Methodology
+                </Link>
+                <span className="hidden sm:block w-px h-4 bg-border/50 mx-1" />
                 <span className="hidden sm:flex"><FontSizeControl /></span>
                 <span className="hidden sm:block w-px h-4 bg-border/50 mx-1" />
                 <ThemeToggle />

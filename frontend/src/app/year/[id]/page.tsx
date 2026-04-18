@@ -8,6 +8,7 @@ import { ArrowLeft, MapPin, AlertTriangle, BookOpen, GitBranch, Info } from "luc
 import { fetchManifest, fetchAllYears } from "@/lib/data";
 import { DOC_LEVEL_CONFIG, getEraForYear, formatYear, CATEGORY_CONFIG, safeCategoryConfig } from "@/lib/constants";
 import { EventCard } from "@/components/EventCard";
+import { ScholarlyEraCard } from "@/components/ScholarlyEraCard";
 import { cn } from "@/lib/utils";
 
 const ERA_CLASS_MAP: Record<string, string> = {
@@ -178,6 +179,11 @@ export default function YearPage() {
             </p>
           </motion.div>
         )}
+
+        {/* Scholarly Era link */}
+        <motion.div variants={stagger.item}>
+          <ScholarlyEraCard year={year.year} />
+        </motion.div>
 
         {/* Events */}
         <motion.div variants={stagger.item} className="mb-10">
