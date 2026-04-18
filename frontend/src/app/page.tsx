@@ -14,6 +14,7 @@ import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
 import { ViewToggle, type ViewMode } from "@/components/ViewToggle";
 import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
+import { GlobeAtlas } from "@/components/atlas/GlobeAtlas";
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
@@ -172,15 +173,20 @@ export default function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.25 }}
-              className="py-24 text-center text-muted-foreground"
             >
-              <p
-                className="text-2xl mb-2"
-                style={{ fontFamily: "var(--font-heading), serif" }}
-              >
-                Map View
-              </p>
-              <p className="text-sm">Geographic visualization coming soon.</p>
+              {manifest ? (
+                <GlobeAtlas
+                  years={filteredYears}
+                  yearRange={{
+                    oldest: manifest.year_range.oldest,
+                    newest: manifest.year_range.newest,
+                  }}
+                />
+              ) : (
+                <div className="py-24 text-center text-muted-foreground text-sm">
+                  Loading globe…
+                </div>
+              )}
             </motion.div>
           ) : (
             <motion.div
