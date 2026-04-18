@@ -27,6 +27,7 @@ import { EvidenceTable } from "@/components/EvidenceTable";
 import { EducationPanel } from "@/components/EducationPanel";
 import { EducationSkeleton } from "@/components/EducationSkeleton";
 import { NotebookYearRow } from "@/components/notebook/NotebookYearRow";
+import "@/components/notebook/notebook-folio.css";
 
 function isPhase3(
   era: EraBundle,
