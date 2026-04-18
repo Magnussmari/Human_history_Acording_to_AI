@@ -1,54 +1,126 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
+
 export default function YearLoading() {
   return (
-    <div className="mx-auto max-w-4xl px-4 py-12 space-y-6 animate-fade-in">
-      {/* Back link */}
-      <div className="h-4 w-32 rounded-full bg-muted/40 animate-pulse" />
+    <div
+      className="notebook-folio"
+      style={{ paddingTop: 64 }}
+      aria-busy="true"
+    >
+      <span
+        className="notebook-folio-back"
+        style={{ background: "var(--rule-soft, var(--bg-2))", color: "transparent", borderRadius: 2 }}
+      >
+        ← Back to timeline
+      </span>
 
-      {/* Badge row */}
-      <div className="flex gap-2 pt-4">
-        <div className="h-6 w-24 rounded-full bg-muted/50 animate-pulse" style={{ animationDelay: "60ms" }} />
-        <div className="h-6 w-36 rounded-full bg-muted/40 animate-pulse" style={{ animationDelay: "120ms" }} />
-      </div>
-
-      {/* Year number */}
       <div
-        className="h-24 w-56 rounded-lg animate-pulse"
         style={{
-          background: "linear-gradient(90deg, rgba(232,200,138,0.08) 0%, rgba(232,200,138,0.04) 100%)",
-          animationDelay: "80ms",
+          height: 20,
+          width: 200,
+          background: "var(--rule-soft, var(--bg-2))",
+          borderRadius: 2,
+          marginTop: 40,
+          animation: "notebook-shimmer 1.4s ease-in-out infinite",
         }}
       />
 
-      {/* Era context */}
-      <div className="space-y-2">
-        <div className="h-4 w-full max-w-2xl rounded bg-muted/30 animate-pulse" style={{ animationDelay: "100ms" }} />
-        <div className="h-4 w-4/5 rounded bg-muted/25 animate-pulse" style={{ animationDelay: "140ms" }} />
-        <div className="h-4 w-3/5 rounded bg-muted/20 animate-pulse" style={{ animationDelay: "180ms" }} />
+      <div
+        style={{
+          height: 150,
+          width: "min(580px, 90%)",
+          background: "var(--rule-soft, var(--bg-2))",
+          borderRadius: 2,
+          marginTop: 24,
+          animation: "notebook-shimmer 1.4s ease-in-out infinite",
+          animationDelay: "0.08s",
+        }}
+      />
+
+      <div
+        style={{
+          marginTop: 36,
+          display: "grid",
+          gap: 10,
+          maxWidth: 640,
+        }}
+      >
+        {Array.from({ length: 3 }).map((_, i) => (
+          <div
+            key={i}
+            style={{
+              height: 16,
+              background: "var(--rule-soft, var(--bg-2))",
+              borderRadius: 2,
+              width: `${100 - i * 12}%`,
+              animation: "notebook-shimmer 1.4s ease-in-out infinite",
+              animationDelay: `${0.16 + i * 0.08}s`,
+            }}
+          />
+        ))}
       </div>
 
-      {/* Events heading */}
-      <div className="h-6 w-32 rounded bg-muted/40 animate-pulse mt-8" style={{ animationDelay: "120ms" }} />
-
-      {/* Event cards */}
-      <div className="space-y-4">
+      <div
+        style={{
+          marginTop: 56,
+          display: "grid",
+          gap: 24,
+        }}
+      >
         {Array.from({ length: 4 }).map((_, i) => (
           <div
             key={i}
-            className="rounded-xl p-5 space-y-3"
             style={{
-              background: "rgba(232,200,138,0.03)",
-              border: "1px solid rgba(232,200,138,0.08)",
+              display: "grid",
+              gridTemplateColumns: "56px 1fr",
+              gap: 16,
+              paddingBottom: 24,
+              borderBottom: "1px solid var(--rule)",
               animationDelay: `${i * 80}ms`,
             }}
           >
-            <div className="flex gap-2">
-              <div className="h-5 w-20 rounded-md bg-muted/50 animate-pulse" />
-              <div className="h-5 w-16 rounded-full bg-muted/40 animate-pulse" />
-              <div className="h-5 w-24 rounded bg-muted/30 animate-pulse ml-auto" />
+            <div
+              style={{
+                height: 7,
+                width: 7,
+                borderRadius: "50%",
+                background: "var(--stamp)",
+                marginTop: 10,
+                opacity: 0.4,
+              }}
+            />
+            <div style={{ display: "grid", gap: 8 }}>
+              <div
+                style={{
+                  height: 20,
+                  background: "var(--rule-soft, var(--bg-2))",
+                  borderRadius: 2,
+                  width: "80%",
+                  animation: "notebook-shimmer 1.4s ease-in-out infinite",
+                }}
+              />
+              <div
+                style={{
+                  height: 14,
+                  background: "var(--rule-soft, var(--bg-2))",
+                  borderRadius: 2,
+                  width: "100%",
+                  animation: "notebook-shimmer 1.4s ease-in-out infinite",
+                }}
+              />
+              <div
+                style={{
+                  height: 14,
+                  background: "var(--rule-soft, var(--bg-2))",
+                  borderRadius: 2,
+                  width: "72%",
+                  animation: "notebook-shimmer 1.4s ease-in-out infinite",
+                }}
+              />
             </div>
-            <div className="h-6 w-3/4 rounded bg-muted/40 animate-pulse" />
-            <div className="h-4 w-full rounded bg-muted/25 animate-pulse" />
-            <div className="h-4 w-5/6 rounded bg-muted/20 animate-pulse" />
           </div>
         ))}
       </div>
