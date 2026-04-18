@@ -17,7 +17,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
           </p>
           <p
             className="text-base leading-relaxed italic"
-            style={{ color: "#d1c2a8", fontFamily: "var(--font-heading), serif" }}
+            style={{ color: "var(--fg-2)", fontFamily: "var(--font-display)" }}
           >
             {data.coreQuestion}
           </p>
@@ -78,9 +78,9 @@ export function EducationPanel({ data }: EducationPanelProps) {
               <div
                 key={i}
                 className="rounded-lg p-3"
-                style={{ background: "#111111", border: "1px solid #222222" }}
+                style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
               >
-                <p className="text-sm font-semibold mb-1" style={{ color: "var(--gold)" }}>
+                <p className="text-sm font-semibold mb-1" style={{ color: "var(--stamp)" }}>
                   {d.position}
                 </p>
                 {d.knowledge && (
@@ -153,7 +153,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
     <div>
       <h4
         className="text-base font-semibold mb-3"
-        style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
+        style={{ fontFamily: "var(--font-display)", color: "var(--stamp)" }}
       >
         {title}
       </h4>
