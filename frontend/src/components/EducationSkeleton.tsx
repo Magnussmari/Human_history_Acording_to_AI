@@ -11,7 +11,7 @@ export function EducationSkeleton({ valorSource, reason }: EducationSkeletonProp
   return (
     <div
       className="rounded-2xl p-6"
-      style={{ background: "#111111", border: "1px solid #222222" }}
+      style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
     >
       <div className="flex items-start gap-3">
         {valorSource ? (

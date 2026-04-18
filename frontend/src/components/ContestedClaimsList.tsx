@@ -19,7 +19,7 @@ export function ContestedClaimsList({ claims }: ContestedClaimsListProps) {
           <div
             key={i}
             className="rounded-xl p-4"
-            style={{ background: "#111111", border: "1px solid #222222" }}
+            style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
           >
             <div className="flex items-start gap-2 mb-2">
               <span className={cn("text-[10px] font-semibold rounded-full px-2 py-0.5 shrink-0", status.color)}>

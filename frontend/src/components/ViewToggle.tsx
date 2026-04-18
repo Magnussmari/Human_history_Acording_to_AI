@@ -1,10 +1,14 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 "use client";
 
 import { motion } from "motion/react";
-import { List, Map, Network } from "lucide-react";
+import { List, Map } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type ViewMode = "timeline" | "map" | "graph";
+export type ViewMode = "timeline" | "map";
 
 interface ViewToggleProps {
   active: ViewMode;
@@ -12,18 +16,18 @@ interface ViewToggleProps {
 }
 
 const VIEWS: { id: ViewMode; label: string; icon: React.ReactNode }[] = [
-  { id: "timeline", label: "Timeline", icon: <List size={14} /> },
-  { id: "map", label: "Map", icon: <Map size={14} /> },
-  { id: "graph", label: "Graph", icon: <Network size={14} /> },
+  { id: "timeline", label: "Timeline", icon: <List size={13} /> },
+  { id: "map", label: "Globe", icon: <Map size={13} /> },
 ];
 
 export function ViewToggle({ active, onChange }: ViewToggleProps) {
   return (
     <div
-      className="inline-flex items-center rounded-lg p-1 gap-0.5"
+      className="inline-flex items-center gap-0.5 rounded-md p-0.5"
       style={{
-        background: "#111111",
-        border: "1px solid #222222",
+        background: "var(--bg-2)",
+        border: "1px solid var(--rule)",
+        fontFamily: "var(--font-mono)",
       }}
     >
       {VIEWS.map((view) => {
@@ -33,20 +37,19 @@ export function ViewToggle({ active, onChange }: ViewToggleProps) {
             key={view.id}
             onClick={() => onChange(view.id)}
             className={cn(
-              "relative flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
-              isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+              "relative inline-flex items-center gap-1.5 rounded-[3px] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] transition-colors",
+              isActive ? "" : "hover:opacity-80"
             )}
-            whileTap={{ scale: 0.95 }}
+            style={{
+              color: isActive ? "var(--bg)" : "var(--fg-mute)",
+              background: isActive ? "var(--fg)" : "transparent",
+            }}
+            whileTap={{ scale: 0.96 }}
+            type="button"
           >
-            {isActive && (
-              <motion.span
-                layoutId="view-active-bg"
-                className="absolute inset-0 rounded-md"
-                style={{ background: "rgba(232,200,138,0.15)", border: "1px solid rgba(232,200,138,0.25)" }}
-                transition={{ type: "spring", stiffness: 350, damping: 30 }}
-              />
-            )}
-            <span className="relative z-10">{view.icon}</span>
+            <span className="relative z-10 inline-flex items-center justify-center">
+              {view.icon}
+            </span>
             <span className="relative z-10">{view.label}</span>
           </motion.button>
         );

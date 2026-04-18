@@ -33,7 +33,7 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
   return (
     <div
       className="rounded-xl p-4 transition-colors"
-      style={{ background: "#111111", border: "1px solid #222222" }}
+      style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
     >
       <div className="flex items-start gap-3 flex-wrap">
         <div className="flex-1 min-w-0">

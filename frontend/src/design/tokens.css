@@ -1,60 +1,57 @@
-/*
- * @orchestrator Magnus Smárason | smarason.is
- * @created 2026-04-18
- * @file src/design/tokens.css
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
  *
- * Atlas design tokens. Namespaced under --atlas-* so they coexist with the
- * legacy --gold / --background tokens during the phased rebuild. New
- * components import this file (via globals.css) and consume --atlas-* only.
- *
- * Palette roles (4): parchment (bg), ink (fg), oxblood (exception), leaf (chrome).
- * Confirmed = absence of mark. Colour is for exception, not default.
+ * Atlas editorial tokens — aliased to the shared Notebook palette so the
+ * methodology pages and any other consumers of --atlas-* inherit the
+ * Notebook aesthetic automatically. Structural (spacing, type ramp) values
+ * stay here; colour flows through the semantic Notebook tokens.
  */
 
 :root {
-  /* ── Parchment / ink (4-role palette) ── */
-  --atlas-parchment: #efe6d0;
-  --atlas-parchment-soft: #f6efd9;
-  --atlas-parchment-edge: #dcd0b1;
+  /* palette — aliased */
+  --atlas-parchment: var(--bg);
+  --atlas-parchment-soft: var(--card);
+  --atlas-parchment-edge: var(--rule);
 
-  --atlas-ink: #141210;
-  --atlas-ink-soft: #2b2620;
-  --atlas-ink-mute: #6a5f4d;
-  --atlas-ink-ghost: #a89c82;
+  --atlas-ink: var(--fg);
+  --atlas-ink-soft: var(--fg-2);
+  --atlas-ink-mute: var(--fg-mute);
+  --atlas-ink-ghost: color-mix(in oklab, var(--fg-mute) 65%, var(--bg));
 
-  --atlas-oxblood: #8b2f1f;
-  --atlas-oxblood-soft: #a84838;
+  --atlas-oxblood: var(--stamp);
+  --atlas-oxblood-soft: color-mix(in oklab, var(--stamp) 55%, transparent);
 
-  --atlas-leaf: #b8946a;
-  --atlas-leaf-soft: #d5b995;
+  --atlas-leaf: var(--leaf);
+  --atlas-leaf-soft: color-mix(in oklab, var(--leaf) 35%, var(--bg));
 
-  /* ── Certainty tiers (rendered = 3) ── */
+  /* Certainty weights */
   --atlas-certainty-confirmed-weight: 500;
   --atlas-certainty-probable-weight: 380;
-  --atlas-certainty-contested-rule: var(--atlas-oxblood);
+  --atlas-certainty-contested-rule: var(--stamp);
 
-  /* ── Documentation density (lane-band dim) ── */
+  /* Documentation density (lane-band dim) */
   --atlas-doc-rich: 1;
   --atlas-doc-moderate: 0.85;
   --atlas-doc-sparse: 0.62;
   --atlas-doc-minimal: 0.4;
   --atlas-doc-negligible: 0.22;
 
-  /* ── Type ramp ── */
-  --atlas-font-display: var(--font-atlas-display), "Fraunces", Georgia, serif;
-  --atlas-font-sans: var(--font-atlas-sans), "Instrument Sans", system-ui, sans-serif;
-  --atlas-font-mono: var(--font-atlas-mono), "IBM Plex Mono", ui-monospace, monospace;
+  /* Type stack — aliased to Notebook fonts */
+  --atlas-font-display: var(--font-newsreader), "Newsreader", Georgia, serif;
+  --atlas-font-sans: var(--font-inter-tight), "Inter Tight", system-ui, sans-serif;
+  --atlas-font-mono: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
 
-  /* Modular scale, base 16px, ratio 1.2 */
-  --atlas-text-micro: 0.688rem;   /* 11px — eyebrows, provenance figures */
-  --atlas-text-small: 0.813rem;   /* 13px — margin notes */
-  --atlas-text-base: 1rem;        /* 16px — UI, metadata */
-  --atlas-text-reading: 1.0625rem;/* 17px — editorial body */
-  --atlas-text-lede: 1.25rem;     /* 20px — year-page lede */
-  --atlas-text-heading: 1.625rem; /* 26px — section heading */
-  --atlas-text-title: 2.25rem;    /* 36px — page title */
-  --atlas-text-display: 3.5rem;   /* 56px — hero display */
-  --atlas-text-monument: 6rem;    /* 96px — methodology monument */
+  /* Type ramp, base 16px, ratio 1.2 */
+  --atlas-text-micro: 0.688rem;
+  --atlas-text-small: 0.813rem;
+  --atlas-text-base: 1rem;
+  --atlas-text-reading: 1.0625rem;
+  --atlas-text-lede: 1.25rem;
+  --atlas-text-heading: 1.625rem;
+  --atlas-text-title: 2.25rem;
+  --atlas-text-display: 3.5rem;
+  --atlas-text-monument: 6rem;
 
   --atlas-leading-tight: 1.15;
   --atlas-leading-normal: 1.45;
@@ -64,7 +61,7 @@
   --atlas-tracking-eyebrow: 0.22em;
   --atlas-tracking-display: -0.02em;
 
-  /* ── Spacing scale (4px base) ── */
+  /* Spacing scale */
   --atlas-space-1: 0.25rem;
   --atlas-space-2: 0.5rem;
   --atlas-space-3: 0.75rem;
@@ -76,87 +73,48 @@
   --atlas-space-9: 6rem;
   --atlas-space-10: 8rem;
 
-  /* Reading column — editorial */
+  /* Reading columns */
   --atlas-col-reading: 64ch;
-  --atlas-col-margin: 22ch;
-
-  /* ── Motion ── */
-  --atlas-duration-micro: 120ms;
-  --atlas-duration-short: 200ms;
-  --atlas-duration-medium: 320ms;
-  --atlas-ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
-  --atlas-ease-linear: linear;
-
-  /* ── Lines / rules ── */
-  --atlas-rule-hair: 1px;
-  --atlas-rule-edge: 2px;
-  --atlas-rule-oxblood-width: 2px;
-
-  /* ── Elevation (flat, editorial — no drop shadows) ── */
-  --atlas-elevation-drawer: 0 0 0 1px var(--atlas-parchment-edge);
-  --atlas-elevation-pin: 0 0 0 1px var(--atlas-leaf);
+  --atlas-col-narrow: 48ch;
+  --atlas-col-wide: 78ch;
 }
 
-/* Dark mode: graphite ground, vellum ink. Same 4 roles, inverted. */
-.dark {
-  --atlas-parchment: #0a0906;
-  --atlas-parchment-soft: #15120d;
-  --atlas-parchment-edge: #2a251c;
-
-  --atlas-ink: #f1e3c8;
-  --atlas-ink-soft: #d7c7a5;
-  --atlas-ink-mute: #8d8068;
-  --atlas-ink-ghost: #5a5140;
-
-  --atlas-oxblood: #c56148;
-  --atlas-oxblood-soft: #a84838;
-
-  --atlas-leaf: #d4a24c;
-  --atlas-leaf-soft: #e0bb75;
-
-  --atlas-elevation-drawer: 0 0 0 1px var(--atlas-parchment-edge);
-  --atlas-elevation-pin: 0 0 0 1px var(--atlas-leaf);
-}
-
-/* Accessibility: explicit reduced-motion token overrides */
-@media (prefers-reduced-motion: reduce) {
-  :root {
-    --atlas-duration-micro: 0ms;
-    --atlas-duration-short: 0ms;
-    --atlas-duration-medium: 0ms;
-  }
-}
-
-/* ── Utility: tabular figures for all numeric data ── */
-.atlas-tabular {
-  font-variant-numeric: tabular-nums;
-  font-feature-settings: "tnum" 1, "kern" 1;
-}
-
-/* ── Utility: small caps for eyebrows/labels ── */
+/* Editorial eyebrow — shared by Editorial.tsx */
 .atlas-eyebrow {
-  font-family: var(--atlas-font-sans);
+  font-family: var(--atlas-font-mono);
   font-size: var(--atlas-text-micro);
-  font-weight: 500;
   letter-spacing: var(--atlas-tracking-eyebrow);
+  color: var(--atlas-oxblood);
   text-transform: uppercase;
-  color: var(--atlas-ink-mute);
+  font-weight: 700;
+  margin: 0;
 }
 
-/* ── Utility: oxblood left-rule for contested/disconfirming ── */
-.atlas-contested-rule {
-  border-left: var(--atlas-rule-oxblood-width) solid var(--atlas-oxblood);
-  padding-left: var(--atlas-space-3);
+/* Editorial reading prose */
+.atlas-reading p {
+  margin: 0 0 var(--atlas-space-5);
 }
 
-/* ── Utility: cross-hatch empty cell (lane gap) ── */
-.atlas-empty-cell {
-  background-color: var(--atlas-parchment-soft);
-  background-image: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 3px,
-    var(--atlas-parchment-edge) 3px,
-    var(--atlas-parchment-edge) 4px
-  );
+.atlas-reading p:last-child {
+  margin-bottom: 0;
+}
+
+.atlas-reading code {
+  font-family: var(--atlas-font-mono);
+  font-size: 0.92em;
+  background: var(--bg-2);
+  padding: 1px 6px;
+  border-radius: 2px;
+  color: var(--stamp);
+}
+
+.atlas-reading a {
+  color: var(--atlas-oxblood);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 0.5px;
+}
+
+.atlas-reading a:hover {
+  color: var(--atlas-ink);
 }

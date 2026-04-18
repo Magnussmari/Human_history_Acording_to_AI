@@ -1,53 +1,47 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 import Link from "next/link";
+import "@/components/notebook/notebook-folio.css";
+import "@/components/hero-section.css";
 
 export default function NotFound() {
   return (
-    <div
-      className="min-h-[80vh] flex items-center justify-center px-4"
-      style={{
-        background: "radial-gradient(ellipse 70% 50% at 50% 40%, rgba(232,200,138,0.04) 0%, transparent 70%)",
-      }}
-    >
-      <div className="text-center max-w-lg">
-        {/* Large decorative number */}
-        <div
-          className="text-[10rem] font-bold leading-none mb-2 tabular-nums select-none"
-          style={{
-            fontFamily: "var(--font-heading), Georgia, serif",
-            background: "linear-gradient(135deg, rgba(232,200,138,0.15) 0%, rgba(232,200,138,0.04) 100%)",
-            WebkitBackgroundClip: "text",
-            backgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          404
-        </div>
-
-        <h1
-          className="text-3xl sm:text-4xl font-bold mb-3"
-          style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-        >
-          This page has been lost to the ages
-        </h1>
-
-        <p className="text-muted-foreground mb-3 leading-relaxed text-sm">
-          Like many historical records before it, this page has been consumed by the passage of time.
-        </p>
-
-        <p
-          className="text-sm text-muted-foreground/60 mb-10 italic"
-          style={{ fontFamily: "var(--font-heading), serif" }}
-        >
-          "History is written by those who leave traces. This URL left none."
-        </p>
-
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-medium transition-all gold-button"
-        >
-          Return to the Eternal Codex
-        </Link>
+    <section className="notebook-folio notebook-folio-missing">
+      <span className="notebook-stamp">Unfiled</span>
+      <div
+        style={{
+          fontFamily: "var(--font-display)",
+          fontSize: "clamp(120px, 18vw, 200px)",
+          fontWeight: 500,
+          lineHeight: 0.88,
+          letterSpacing: "-0.03em",
+          color: "var(--fg)",
+          fontStyle: "italic",
+          margin: "24px 0 8px",
+        }}
+      >
+        404
       </div>
-    </div>
+      <h1
+        className="notebook-folio-title"
+        style={{ fontSize: "clamp(28px, 3.6vw, 40px)" }}
+      >
+        This page has no entry in the folio.
+      </h1>
+      <p className="notebook-folio-era-text">
+        Like many historical records before it, this URL has left no trace.
+        The corpus is still here — return to the timeline to find what you
+        were after.
+      </p>
+      <Link
+        href="/"
+        className="notebook-hero-cta"
+        style={{ marginTop: 24, display: "inline-flex", alignItems: "center" }}
+      >
+        ← Back to timeline
+      </Link>
+    </section>
   );
 }

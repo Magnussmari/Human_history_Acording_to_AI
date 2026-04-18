@@ -1,8 +1,14 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 "use client";
 
 import { motion } from "motion/react";
 import { RefreshCw } from "lucide-react";
 import Link from "next/link";
+import "@/components/notebook/notebook-folio.css";
+import "@/components/hero-section.css";
 
 export default function Error({
   error,
@@ -12,74 +18,67 @@ export default function Error({
   reset: () => void;
 }) {
   return (
-    <div
-      className="min-h-[80vh] flex items-center justify-center px-4"
-      style={{
-        background: "radial-gradient(ellipse 60% 50% at 50% 40%, rgba(139,34,82,0.06) 0%, transparent 70%)",
-      }}
+    <motion.section
+      className="notebook-folio notebook-folio-missing"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ type: "spring", stiffness: 220, damping: 26 }}
     >
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ type: "spring", stiffness: 200, damping: 25 }}
-        className="text-center max-w-md"
+      <span className="notebook-stamp">Errata</span>
+      <h1 className="notebook-folio-title">An entry misfiled.</h1>
+      <p className="notebook-folio-era-text">
+        {error.message ||
+          "Something went wrong while reading the folio. The corpus is unchanged; this is a render-time fault."}
+      </p>
+      <p
+        style={{
+          fontFamily: "var(--font-serif)",
+          fontStyle: "italic",
+          color: "var(--fg-mute)",
+          margin: "12px auto 28px",
+          maxWidth: "48ch",
+        }}
       >
-        {/* Decorative glyph */}
-        <div
-          className="text-7xl mb-6 mx-auto w-24 h-24 rounded-full flex items-center justify-center"
+        Even meticulous archivists drop a page. Try reloading the entry, or
+        return to the timeline.
+      </p>
+
+      <div
+        style={{
+          display: "flex",
+          gap: 12,
+          justifyContent: "center",
+          flexWrap: "wrap",
+        }}
+      >
+        <motion.button
+          onClick={reset}
+          type="button"
+          className="notebook-hero-cta"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.97 }}
+          style={{ alignItems: "center", gap: 8 }}
+        >
+          <RefreshCw size={13} /> Try again
+        </motion.button>
+        <Link href="/" className="notebook-hero-link">
+          ← Back to timeline
+        </Link>
+      </div>
+
+      {error.digest && (
+        <p
           style={{
-            background: "rgba(139,34,82,0.1)",
-            border: "1px solid rgba(139,34,82,0.2)",
-            color: "#c44b7a",
-            fontFamily: "var(--font-heading), serif",
-            fontSize: "2.5rem",
-            fontWeight: 700,
+            marginTop: 32,
+            fontFamily: "var(--font-mono)",
+            fontSize: 10,
+            color: "var(--fg-mute)",
+            letterSpacing: "0.12em",
           }}
         >
-          ✕
-        </div>
-
-        <h1
-          className="text-4xl font-bold mb-3"
-          style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-        >
-          Lost in Time
-        </h1>
-
-        <p className="text-muted-foreground mb-2 leading-relaxed">
-          {error.message || "An unexpected error occurred while traversing the Codex."}
+          digest · {error.digest}
         </p>
-
-        <p className="text-sm text-muted-foreground/60 mb-8 italic"
-          style={{ fontFamily: "var(--font-heading), serif" }}
-        >
-          "Even the most meticulous record-keepers encounter missing scrolls."
-        </p>
-
-        <div className="flex items-center justify-center gap-3">
-          <motion.button
-            onClick={reset}
-            className="inline-flex items-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium gold-button"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <RefreshCw size={13} />
-            Try again
-          </motion.button>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 rounded-lg px-5 py-2.5 text-sm text-muted-foreground border border-border/50 hover:border-border hover:text-foreground transition-colors"
-          >
-            Return to Codex
-          </Link>
-        </div>
-
-        {error.digest && (
-          <p className="mt-8 text-[10px] font-mono text-muted-foreground/30">
-            digest: {error.digest}
-          </p>
-        )}
-      </motion.div>
-    </div>
+      )}
+    </motion.section>
   );
 }

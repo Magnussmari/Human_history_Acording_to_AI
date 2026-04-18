@@ -1,61 +1,64 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display, Fraunces, Instrument_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Suspense } from "react";
+import { Newsreader, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Providers } from "@/lib/providers";
-import { ThemeToggle } from "@/components/ThemeToggle";
-import { FontSizeControl } from "@/components/FontSizeControl";
 import { Toaster } from "sonner";
-import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+import { VariantProvider } from "@/components/shell/VariantContext";
+import { ChronographShell } from "@/components/shell/ChronographShell";
+import { ChronographFooter } from "@/components/shell/ChronographFooter";
 import "./globals.css";
+import "@/components/shell/shell.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-heading",
+// Notebook typography — serif editorial (body + display), humanist sans for
+// chrome/eyebrows, slab mono for codes and indices. These faces match the
+// prototype's variant A spec: Newsreader / Inter Tight / IBM Plex Mono.
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  weight: ["400", "500", "600"],
 });
 
-// Atlas rebuild — additive, coexists with legacy fonts.
-const fraunces = Fraunces({
-  variable: "--font-atlas-display",
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
   subsets: ["latin"],
   display: "swap",
-  axes: ["SOFT", "WONK", "opsz"],
-});
-
-const instrumentSans = Instrument_Sans({
-  variable: "--font-atlas-sans",
-  subsets: ["latin"],
-  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-atlas-mono",
+  variable: "--font-plex-mono",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Eternal Codex — Human History According to AI",
+  title: "Chronograph — Human History According to AI",
   description:
-    "5,226 years of human civilization, researched year-by-year by AI. Structured, sourced, machine-readable.",
+    "5,226 years of human civilization, researched year-by-year by AI. An editorial folio with events, sources, and certainty levels for every year from 2025 CE to 3200 BCE.",
   openGraph: {
-    title: "Eternal Codex — Human History According to AI",
-    description: "Every year from 2025 CE to 3200 BCE. Structured JSON with events, sources, and certainty levels.",
+    title: "Chronograph — Human History According to AI",
+    description:
+      "Every year from 2025 CE to 3200 BCE as a structured editorial folio. Events, key figures, sources, certainty, disconfirming evidence.",
     type: "website",
   },
 };
+
+function ShellFallback() {
+  return (
+    <header
+      className="chronograph-chrome"
+      aria-hidden="true"
+      style={{ minHeight: 54 }}
+    />
+  );
+}
 
 export default function RootLayout({
   children,
@@ -65,128 +68,26 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${fraunces.variable} ${instrumentSans.variable} ${ibmPlexMono.variable} dark h-full`}
+      className={`${newsreader.variable} ${interTight.variable} ${ibmPlexMono.variable} h-full`}
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground antialiased">
+      <body className="variant-a min-h-full flex flex-col">
         <Providers>
-          {/* ─── Header ─── */}
-          <header
-            className="sticky top-0 z-50 border-b"
-            style={{
-              background: "rgba(5, 5, 5, 0.95)",
-              backdropFilter: "blur(8px)",
-              WebkitBackdropFilter: "blur(8px)",
-              borderColor: "#222222",
-            }}
-          >
-            <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
-              {/* Logo */}
-              <Link href="/" className="flex items-center gap-3 group">
-                <div className="flex flex-col leading-none">
-                  <span
-                    className="text-base font-bold tracking-[0.06em] group-hover:opacity-90 transition-opacity"
-                    style={{
-                      fontFamily: "var(--font-heading), Georgia, serif",
-                      color: "var(--gold)",
-                    }}
-                  >
-                    ETERNAL CODEX
-                  </span>
-                  <span className="hidden sm:block text-[9px] uppercase tracking-[0.22em] text-muted-foreground mt-0.5">
-                    Human History According to AI
-                  </span>
-                </div>
-              </Link>
-
-              {/* Nav */}
-              <nav className="flex items-center gap-1 sm:gap-2">
-                <Link
-                  href="/methodology"
-                  className="hidden sm:inline-block text-[11px] uppercase tracking-[0.22em] text-muted-foreground hover:text-primary transition-colors px-2 py-1"
-                  style={{ fontFamily: "var(--font-atlas-sans), system-ui, sans-serif" }}
-                >
-                  Methodology
-                </Link>
-                <span className="hidden sm:block w-px h-4 bg-border/50 mx-1" />
-                <span className="hidden sm:flex"><FontSizeControl /></span>
-                <span className="hidden sm:block w-px h-4 bg-border/50 mx-1" />
-                <ThemeToggle />
-                <a
-                  href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="h-8 w-8 rounded-full border border-border/50 bg-muted/30 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors ml-1"
-                  aria-label="View on GitHub"
-                >
-                  <ExternalLink size={14} />
-                </a>
-              </nav>
-            </div>
-          </header>
-
-          {/* ─── Main content ─── */}
-          <main className="flex-1">{children}</main>
-
-          {/* ─── Footer ─── */}
-          <footer
-            className="border-t py-8 text-center"
-            style={{ borderColor: "rgba(232,200,138,0.1)" }}
-          >
-            <div className="mx-auto max-w-7xl px-4">
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-                <span>
-                  Crafted by{" "}
-                  <a
-                    href="https://smarason.is"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors underline underline-offset-4"
-                    style={{ color: "var(--gold)" }}
-                  >
-                    Magnus Smarason
-                  </a>
-                </span>
-                <span
-                  className="hidden sm:block font-semibold uppercase tracking-widest text-[10px]"
-                  style={{ fontFamily: "var(--font-heading), serif", color: "rgba(232,200,138,0.4)" }}
-                >
-                  Eternal Codex
-                </span>
-                <div className="flex items-center gap-4">
-                  <a
-                    href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors"
-                  >
-                    View Source
-                  </a>
-                  <a
-                    href="https://github.com/Magnussmari/Human_history_Acording_to_AI/blob/main/CONTRIBUTING.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-primary transition-colors"
-                    style={{ color: "var(--gold)", opacity: 0.8 }}
-                  >
-                    Contribute
-                  </a>
-                </div>
-              </div>
-              <p className="mt-4 text-[10px] text-muted-foreground/40 font-mono">
-                Claude Sonnet 4.6 — ICCRA Schema — Open Source
-              </p>
-            </div>
-          </footer>
-
+          <VariantProvider>
+            <Suspense fallback={<ShellFallback />}>
+              <ChronographShell />
+            </Suspense>
+            <main className="flex-1">{children}</main>
+            <ChronographFooter />
+          </VariantProvider>
           <Toaster
             position="bottom-right"
             toastOptions={{
               style: {
                 background: "var(--card)",
-                border: "1px solid rgba(232,200,138,0.2)",
-                color: "var(--foreground)",
+                border: "1px solid var(--rule)",
+                color: "var(--fg)",
               },
             }}
           />
