@@ -25,7 +25,7 @@
 
 .stratum-label {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--fg-mute);
@@ -49,7 +49,7 @@
 
 .stratum-ribbon-label {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--accent);
@@ -58,7 +58,7 @@
 
 .stratum-ribbon-count {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.12em;
   color: var(--fg-mute);
   text-transform: uppercase;
@@ -95,7 +95,7 @@
   bottom: -18px;
   left: 4px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   color: var(--fg-mute);
   letter-spacing: 0.08em;
 }
@@ -142,7 +142,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.08em;
   white-space: nowrap;
   color: var(--accent);
@@ -163,7 +163,7 @@
   border: 1px solid var(--rule);
   color: var(--fg-2);
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   letter-spacing: 0.08em;
   border-radius: 4px;
   cursor: pointer;
@@ -216,7 +216,7 @@
   color: var(--bg);
   border: 0;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -316,7 +316,7 @@
 }
 
 .stratum-stat-unit {
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   color: var(--fg-mute);
   font-family: var(--font-mono);
   letter-spacing: 0.12em;
@@ -337,7 +337,7 @@
   padding: 3px 8px;
   border-radius: 4px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   border: 1px solid;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -367,7 +367,7 @@
   gap: 8px;
   align-items: center;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
 }
 
 .stratum-cert-name {
@@ -412,7 +412,7 @@
 .stratum-source-legend {
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   color: var(--fg-mute);
   font-family: var(--font-mono);
   margin-top: 6px;
@@ -464,7 +464,7 @@
   color: var(--fg-mute);
   padding: 4px 10px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border-radius: 4px;
@@ -520,7 +520,7 @@
   display: flex;
   justify-content: space-between;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   color: var(--fg-mute);
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -548,7 +548,7 @@
 
 .stratum-card-region {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   color: var(--fg-mute);
   margin-bottom: 10px;
 }
@@ -575,7 +575,7 @@
 
 .stratum-measure-label {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: var(--notebook-text-micro);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--fg-mute);
@@ -601,7 +601,7 @@
 
 .stratum-measure-val {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   color: var(--fg);
   letter-spacing: 0.04em;
 }
@@ -619,7 +619,7 @@
 }
 
 .stratum-kf {
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   padding: 2px 8px;
   background: var(--bg);
   border: 1px solid var(--rule);
@@ -632,7 +632,7 @@
   list-style: none;
   padding: 0;
   margin: 6px 0 0;
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
 }
 
 .stratum-src-list li {
@@ -646,7 +646,7 @@
 
 .stratum-src-type {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: var(--notebook-text-micro);
   padding: 2px 6px;
   background: var(--bg);
   border: 1px solid var(--rule);

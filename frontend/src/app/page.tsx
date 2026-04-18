@@ -115,9 +115,9 @@ function HomeInner() {
             className="notebook-section-num"
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 11,
+              fontSize: "var(--notebook-text-meta)",
               color: "var(--stamp)",
-              letterSpacing: "0.12em",
+              letterSpacing: "0.14em",
               fontWeight: 700,
               textTransform: "uppercase",
             }}
@@ -139,7 +139,7 @@ function HomeInner() {
           <p
             style={{
               fontFamily: "var(--font-sans)",
-              fontSize: 13,
+              fontSize: 14,
               color: "var(--fg-mute)",
               margin: 0,
               letterSpacing: "0.04em",
@@ -299,12 +299,13 @@ function EraPill({ active, onClick, children }: EraPillProps) {
     <motion.button
       onClick={onClick}
       type="button"
-      className="shrink-0 rounded-full px-4 py-1.5 text-[11px]"
+      className="shrink-0 rounded-full px-4 py-2"
       style={{
         background: active ? "var(--fg)" : "var(--bg-2)",
         color: active ? "var(--bg)" : "var(--fg-mute)",
         border: `1px solid ${active ? "var(--fg)" : "var(--rule)"}`,
         fontFamily: "var(--font-mono)",
+        fontSize: "var(--notebook-text-meta)",
         letterSpacing: "0.12em",
         fontWeight: 600,
         textTransform: "uppercase",

@@ -33,12 +33,12 @@ export function ScholarlyEraPillRow({
     <div className="mb-6">
       <p
         style={{
-          fontSize: 10,
+          fontSize: "var(--notebook-text-small)",
           color: "var(--fg-mute)",
           fontFamily: "var(--font-mono)",
           letterSpacing: "0.2em",
           textTransform: "uppercase",
-          marginBottom: 8,
+          marginBottom: 10,
         }}
       >
         Scholarly eras
@@ -96,7 +96,7 @@ export function ScholarlyEraPillRow({
                 <span
                   style={{
                     fontFamily: "var(--font-mono)",
-                    fontSize: 9,
+                    fontSize: "var(--notebook-text-micro)",
                     color: "var(--leaf)",
                     background:
                       "color-mix(in oklab, var(--leaf) 16%, transparent)",

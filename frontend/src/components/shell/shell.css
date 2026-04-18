@@ -45,7 +45,7 @@
 
 .chronograph-brand-sub {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   letter-spacing: 0.02em;
   color: var(--fg-mute);
   font-weight: 400;
@@ -63,7 +63,7 @@
 
 .chronograph-link {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--fg-mute);
@@ -95,7 +95,7 @@
   background: transparent;
   cursor: pointer;
   padding: 6px 12px;
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   font-weight: 600;
   letter-spacing: 0.12em;
   color: var(--fg-mute);
@@ -128,7 +128,7 @@ body.variant-c .chronograph-variant.active {
   padding: 28px 24px 36px;
   margin-top: 80px;
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: var(--notebook-text-meta);
   color: var(--fg-mute);
   letter-spacing: 0.02em;
   background: transparent;
@@ -162,7 +162,7 @@ body.variant-c .chronograph-variant.active {
 .chronograph-footer-meta {
   margin-left: auto;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--fg-mute);
@@ -172,7 +172,7 @@ body.variant-c .chronograph-variant.active {
   width: 100%;
   padding-top: 14px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: var(--notebook-text-small);
   letter-spacing: 0.12em;
   color: var(--fg-mute);
   text-transform: uppercase;

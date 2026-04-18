@@ -100,6 +100,11 @@
   --maxw-reading: 900px;
   --font-scale: 1;
 
+  /* Chrome type ramp — readable floor for dense UI */
+  --notebook-text-micro: 11px;   /* suffixes, compact mono indices */
+  --notebook-text-small: 12px;   /* meta rows, category lists, stat labels */
+  --notebook-text-meta: 13px;    /* filter/search/nav buttons, legend items */
+
   /* shadcn compat fallback — expose common shadcn token names */
   --background: var(--bg);
   --foreground: var(--fg);
