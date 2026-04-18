@@ -39,14 +39,47 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chronograph — Human History According to AI",
+  metadataBase: new URL("https://human-history-acording-to-ai.vercel.app"),
+  title: {
+    default: "Chronograph — Human History According to AI",
+    template: "%s · Chronograph",
+  },
   description:
-    "5,226 years of human civilization, researched year-by-year by AI. An editorial folio with events, sources, and certainty levels for every year from 2025 CE to 3200 BCE.",
+    "5,226 years of human civilization as an editorial folio. Year-by-year events, sources, certainty levels, and disconfirming evidence, researched by Claude Sonnet under the ICCRA schema.",
+  applicationName: "Chronograph",
+  authors: [{ name: "Magnús Smári Smárason", url: "https://smarason.is" }],
+  creator: "Magnús Smári Smárason",
+  keywords: [
+    "history",
+    "AI history",
+    "Claude Sonnet",
+    "ICCRA",
+    "editorial folio",
+    "historiography",
+    "timeline",
+    "sourced history",
+    "Chronograph",
+  ],
   openGraph: {
+    type: "website",
+    siteName: "Chronograph",
     title: "Chronograph — Human History According to AI",
     description:
-      "Every year from 2025 CE to 3200 BCE as a structured editorial folio. Events, key figures, sources, certainty, disconfirming evidence.",
-    type: "website",
+      "Every year from 3,200 BCE to 2025 CE as a structured editorial folio. Events, key figures, sources, certainty, and the gaps we couldn't fill.",
+    url: "/",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chronograph — Human History According to AI",
+    description:
+      "5,226 years of human civilization as an editorial folio — events, sources, certainty, and the gaps.",
+    creator: "@magnussmari",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
 };
 
