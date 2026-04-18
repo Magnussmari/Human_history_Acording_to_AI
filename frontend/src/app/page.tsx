@@ -5,6 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal } from "lucide-react";
 import { fetchManifest, fetchAllYears, filterYears, DEFAULT_FILTERS } from "@/lib/data";
+import { fetchEraIndex } from "@/lib/evidence";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
 import { HeroSection } from "@/components/HeroSection";
@@ -12,6 +13,7 @@ import { TimelineView } from "@/components/TimelineView";
 import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
 import { ViewToggle, type ViewMode } from "@/components/ViewToggle";
+import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
@@ -29,6 +31,11 @@ export default function HomePage() {
     queryKey: ["years", manifest?.generated_at],
     queryFn: () => fetchAllYears(manifest!),
     enabled: !!manifest,
+  });
+
+  const { data: eraIndex } = useQuery({
+    queryKey: ["era-index"],
+    queryFn: fetchEraIndex,
   });
 
   const filteredYears = useMemo(() => {
@@ -140,6 +147,11 @@ export default function HomePage() {
             </motion.button>
           ))}
         </div>
+
+        {/* Scholarly-era drill-down row */}
+        {eraIndex && view === "timeline" && (
+          <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
+        )}
 
         {/* View content */}
         <AnimatePresence mode="wait">

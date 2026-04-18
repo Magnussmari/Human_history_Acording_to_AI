@@ -1,0 +1,834 @@
+{
+  "id": "era-17",
+  "number": 17,
+  "label": "Warring States China",
+  "start": -475,
+  "end": -221,
+  "primaryBroadEra": "Classical",
+  "phaseStatus": "phase3-complete",
+  "valorSource": "02_classical_foundations.md",
+  "educationStatus": "valor-mapped",
+  "scholarly": {
+    "schema_version": "1.0.0",
+    "mission_id": "2026-04-16-2210-human-history-phase3-eras-14-20",
+    "agent_id": "agent-04",
+    "angle": "Era 17 — Warring States China (475–221 BCE): Warring States administrative technologies (land registration, meritocratic ranks, unified standards, written codes, professional bureaucracy) were consolidated under Qin and provided the structural foundation of all later Chinese imperial governance, regardless of the Han rhetorical rejection of 'Legalism' (Fajia as a retroactive Han category, not a Warring States school).",
+    "angle_code": "CUSTOM",
+    "research_timestamp": "2026-04-16T22:25:47Z",
+    "model": "claude-opus-4-7",
+    "key_claim": "Warring States-period administrative techniques — systematic land registration, meritocratic military ranks, unified weights/measures/script, and written law codes enforced by a professional bureaucracy — were consolidated under Qin and provided the structural foundation on which all later Chinese imperial governance was built, regardless of the subsequent Han rhetorical rejection of 'Legalism' (法家 Fajia).",
+    "verdict": "supported",
+    "confidence": "high",
+    "searches_executed": 7,
+    "searches_planned": 5,
+    "papers_found_total": 70,
+    "papers_with_editorial_notices": {
+      "count": 0,
+      "dois": []
+    },
+    "discipline_branch": "humanities",
+    "scholarly_debate": {
+      "question": "Did the Qin administrative apparatus (standardised weights/measures/script, land registration, meritocratic ranks, written legal codes, professional bureaucracy) form the structural foundation of all subsequent Chinese imperial governance, and to what extent is 'Legalism' (Fajia) a coherent Warring States school rather than a Han retrospective category?",
+      "position_a": "Qin innovations — especially those associated with Shang Yang's reforms — were structurally continuous with Han administration. The Han 'inherited the Qin system but rejected its name'. Excavated Shuihudi (1975) and Liye (2002) slips demonstrate document-based bureaucratic practice that the Han preserved almost intact. 'Fajia' / Legalism is a Han taxonomic projection (Sima Tan / Hanshu-yiwenzhi) onto disparate statecraft writings (Shang Yang, Shen Buhai, Han Fei) that did not see themselves as members of a unified school (Pines; Goldin; Foster; Hafner).",
+      "position_b": "Qin centralisation was genuinely driven by inter-state military competition rather than by a prior 'Legalist' ideology; innovations diffused across Warring States (Li Kui in Wei, reforms in Chu/Zhao) and were not original to Qin. Mass-warfare weakened aristocracies and forced bureaucratisation (Kiser & Cai; Hui 2005; Lewis 1990). Competing strand: Qin's tyrannic, over-punitive system was a short-lived departure that Han softened via Confucian overlay (Lassi & Jiang 2024 on Durkheimian punitiveness).",
+      "current_consensus": "Strong consensus among sinologists (Lewis, Pines, Goldin, Barbieri-Low, Yates, Sanft, Korolkov, Staack) that (i) Qin administrative technologies were the structural template for Han governance — confirmed by Shuihudi, Liye, Yuelu and Zhangjiashan slip corpora; (ii) 'Legalism/Fajia' as a unified school is a post-Warring-States retrojection; (iii) Warring-States mass mobilisation warfare was the proximate driver of bureaucratisation. Archaeological and textual evidence are converging, though Feinman/Fang/Nicholas show regional variation in how deeply the imprint penetrated.",
+      "resolution_needed": "Quantitative comparison of pre-Qin (Wei, Chu, Zhao) administrative technologies with Qin statutes in the Yuelu and Shuihudi corpora to adjudicate how much was genuine Qin innovation vs. inter-state diffusion; systematic publication of remaining Liye slips; fine-grained Qin→Han statute-by-statute comparison (Zhangjiashan vs Shuihudi)."
+    },
+    "contested_claims": [
+      {
+        "claim": "'Fajia' / Legalism was a coherent Warring States intellectual school",
+        "status": "refuted",
+        "evidentiary_basis": "Pines (2009, 2012, 2016, 2019) and Goldin in Pines-Goldin-Kern (2015) argue that the label is a Han taxonomic category (Sima Tan's liujia schema) projected onto thinkers — Shang Yang, Shen Buhai, Han Fei — who did not share a self-conscious school identity. The Book of Lord Shang presents 'total war' statecraft (Pines 2016) but its textual layers belong to different moments. Escoffier (2024) revisits Hanfeizi amoralism as a family of political arguments, not school doctrine.",
+        "key_citations": [
+          "10.5860/choice.47-1112",
+          "10.1017/eac.2016.18",
+          "10.1163/22127453-12341299",
+          "10.4000/extremeorient.254",
+          "10.1111/phc3.12979",
+          "10.1163/9789004299337"
+        ]
+      },
+      {
+        "claim": "Qin administrative innovations were original to Qin rather than inherited/diffused from Wei (Li Kui), Chu or Zhao",
+        "status": "contested",
+        "evidentiary_basis": "Fernández-Villaverde et al. (2023) explicitly note 'other warring states also pursued these reforms' including conscription, irrigation, and land registration. Havliček (2015) documents steppe-influenced military technology (cavalry, iron) diffusing through the Warring States. Kiser & Cai (2003) argue Qin's comparative advantage was the unusually weak Qin aristocracy (produced by prolonged severe warfare), not doctrinal originality. Lewis (1990) traces sanctioned-violence institutions across multiple Warring States. Qin did consolidate and systematise, but most technologies were inter-state common stock.",
+        "key_citations": [
+          "10.1093/qje/qjad003",
+          "10.2478/vjeas-2015-0004",
+          "10.1177/000312240306800402",
+          "10.2307/604498",
+          "10.1017/cbo9780511614545"
+        ]
+      },
+      {
+        "claim": "Qin-Han administrative continuity: Han preserved the Qin bureaucratic-legal apparatus while disavowing its name",
+        "status": "supported",
+        "evidentiary_basis": "Feinman, Nicholas & Fang (2010, PNAS): 'the governmental bureaucracy he [Qin Shihuang] established remained largely in place during the succeeding Han Empire'. Fang, Feinman & Nicholas (2015, PNAS): Qin unifying measures 'were maintained and amplified during the subsequent Han Dynasty'. Hafner (2023, Bamboo and Silk) reviewing the Yuelu and Zhangjiashan Han translations: 'the blueprints for the engine of the Qin and early Han state' share fundamentals. Korolkov (2016) on Qin-Han legal quantification shows single continuous code-tradition across 221 BCE – 9 CE. Chen, Wang & Zhang (2024) confirm Han inheritance of Qin military-meritocratic recruitment.",
+        "key_citations": [
+          "10.1073/pnas.0914961107",
+          "10.1073/pnas.1419157112",
+          "10.1163/24689246-20230031",
+          "10.33137/cal.v3i1.26452",
+          "10.33774/apsa-2024-wqfbk",
+          "10.1177/2057150x14568768"
+        ]
+      },
+      {
+        "claim": "Causal direction: mass-mobilisation warfare caused Warring States centralisation (rather than centralisation enabling larger warfare)",
+        "status": "supported",
+        "evidentiary_basis": "Kiser & Cai (2003) 'War and Bureaucratization in Qin China' (Am Soc Rev) — an anchor paper — argues protracted severe warfare weakened aristocracies and forced bureaucratic monitoring, discipline, roads, and meritocratic recruitment. Hui (2005, Cambridge UP, cited via Fernández-Villaverde et al.) extends the comparative Europe/China argument. Chen, Wang & Zhang (2024) find war exposure across 618–1911 CE produced greater bureaucratic capacity, consistent with a Qin-era mechanism. Møller (2014) shows Warring States logic of balance-of-power failure is compatible with mass-war-driven hegemony. Direction is supported, though as a positive feedback rather than strictly unidirectional.",
+        "key_citations": [
+          "10.1177/000312240306800402",
+          "10.1017/cbo9780511614545",
+          "10.33774/apsa-2024-wqfbk",
+          "10.1111/isqu.12153",
+          "10.1093/qje/qjad003"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "doi": "10.2307/604498",
+        "title": "Sanctioned Violence in Early China (review in JAOS)",
+        "authors": [
+          "Mark Edward Lewis",
+          "Derk Bodde"
+        ],
+        "journal": "journal of the american oriental society",
+        "year": 1992,
+        "publication_type": "review",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 0,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities: anchor monograph by Mark Edward Lewis; seminal 1990 SUNY Press work on Warring States sanctioned violence, foundational to the field (review-citation in JAOS surfaces the monograph)",
+        "editorial_notices": [],
+        "key_finding": "Lewis's Sanctioned Violence in Early China (SUNY Press 1990) is the field's anchor for the institutionalisation of warfare, hunting, sacrifice, and vendetta as forms of state-sanctioned coercion across the Warring States; the review in JAOS confirms its canonical status. Lewis argues that the Warring States state was built on the monopolisation and ritualisation of violence by the bureaucratic ruler, a pattern Qin systematised and Han inherited.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.2307/604498"
+        },
+        "found_by_searches": [
+          "s1",
+          "s6-author-lewis"
+        ]
+      },
+      {
+        "doi": "10.5860/choice.47-1112",
+        "title": "Envisioning eternal empire: Chinese political thought of the Warring States era",
+        "authors": [
+          "Yuri Pines"
+        ],
+        "journal": "choice reviews online",
+        "year": 2009,
+        "publication_type": "book-review/monograph-record",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 20,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities: Pines is one of the two Tier-1 anchor authorities on this angle; 20 citing publications on the Choice record alone, plus the book is referenced throughout the sinological literature (e.g., Pines 2024 in Modern Asian Studies cites back to it)",
+        "editorial_notices": [],
+        "key_finding": "Pines (2009) argues the Warring States political discourse was cosmopolitan and universalist — thinkers prioritised All-under-Heaven (tianxia) over individual polities, paving the way for empire before Qin unification. Crucially, 'Fajia' as a unified school is a Han back-projection (Sima Tan's liujia schema); Warring States thinkers operated without such school identities.",
+        "excerpt": "The Warring States-era intellectuals 'prioritized the common good of All-under-Heaven over that of an individual polity, ... denigrated local identities, and ... rejected the legitimacy of regional states, ... [paving] the way for the political unification of the Zhou world long before it occurred' (Pines 2024, Modern Asian Studies, restating 2009 thesis).",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.5860/choice.47-1112"
+        },
+        "found_by_searches": [
+          "s2",
+          "s7-author-pines"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2016.18",
+        "title": "Review of Zhao Dingxin: The Confucian-Legalist State: A New Theory of Chinese History",
+        "authors": [
+          "Yuri Pines"
+        ],
+        "journal": "early china",
+        "year": 2016,
+        "publication_type": "review-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 0,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China is a recognised top-tier sinological venue; review by Pines engaging Zhao Dingxin's 'Confucian-Legalist state' thesis directly interrogates Qin-Han continuity",
+        "editorial_notices": [],
+        "key_finding": "Pines critiques Zhao Dingxin's claim that a 'Confucian-Legalist state' matured in the Han and persisted for two millennia by noting Zhao's failure to address the dissolution and discontinuity of the Qin system itself; flagged gap between elites-system in Qin (rulers tried to suppress aristocracy) vs. Han (new landowner/merchant/imperial-clan elites).",
+        "excerpt": "'Zhao not only ignores the importance of the Qin system, but also fails to address the implication of its subsequent dissolution and discontinuity.' ... 'Yet in the Western Han dynasty we already discover newly formed elites consisting of landowners, merchants, and industrialists, as well as a resurrected hereditary aristocracy.'",
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5652D87CD2A0ADBC084E6551E1BEF691/S0362502816000183a.pdf"
+        },
+        "found_by_searches": [
+          "s7-author-pines"
+        ]
+      },
+      {
+        "doi": "10.1177/000312240306800402",
+        "title": "War and Bureaucratization in Qin China: Exploring an Anomalous Case",
+        "authors": [
+          "Edgar Kiser",
+          "Yong Cai"
+        ],
+        "journal": "american sociological review",
+        "year": 2003,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 38,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities/social: citingPublicationsCount=38 > 30 AND journal-article in a recognised venue (Am Sociological Review)",
+        "editorial_notices": [],
+        "key_finding": "Canonical sociological treatment of Warring States bureaucratisation: protracted severe warfare weakened the Qin aristocracy to an extreme degree not seen elsewhere pre-17th-century, enabling a partially bureaucratised administration grounded on road networks, disciplined personnel, and severe negative sanctions; Han extended, moderated and monitored-more-efficiently the Qin system.",
+        "excerpt": "'The Spring and Autumn and Warring States eras that preceded the Qin unification of China created the necessary conditions for bureaucratization by weakening the aristocracy, creating a bureaucratic model, facilitating the development of roads, and providing trained and disciplined personnel. ... The main factor differentiating Qin China ... was the extreme weakness of the aristocracy produced by an unusually long period of severe warfare.'",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1177/000312240306800402"
+        },
+        "found_by_searches": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "doi": "10.1073/pnas.0914961107",
+        "title": "The imprint of China's first emperor on the distant realm of eastern Shandong",
+        "authors": [
+          "Gary M. Feinman",
+          "Linda M. Nicholas",
+          "Hui Fang"
+        ],
+        "journal": "proceedings of the national academy of sciences",
+        "year": 2010,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 6,
+        "citing_publications_count": 16,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities/mixed: citingPublicationsCount=16 > 10 AND journal-article in PNAS, no editorial notices — mixed-branch more forgiving rule",
+        "editorial_notices": [],
+        "key_finding": "Archaeological regional survey of coastal Shandong provides hard evidence for Qin-to-Han administrative continuity at the local level: Qin-Han ceramics, tile distributions, and the Langyatai administrative centre persist and amplify across 221 BCE–220 CE; bamboo slips recovered from a Dagucheng tomb confirm Han inheritance of Qin district-level record-keeping.",
+        "excerpt": "'Although Shihuangdi's reign was short (221–210 BC), the governmental bureaucracy he established remained largely in place during the succeeding Han Empire (206 BC to AD 220). ... by contrasting the Eastern Zhou and Han periods, we can gauge the changes initiated by Shihuangdi's conquest.'",
+        "access": {
+          "status": "open",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2841902"
+        },
+        "found_by_searches": [
+          "s4"
+        ]
+      },
+      {
+        "doi": "10.1073/pnas.1419157112",
+        "title": "Imperial expansion, public investment, and the long path of history: China's initial political unification and its aftermath",
+        "authors": [
+          "Hui Fang",
+          "Gary M. Feinman",
+          "Linda M. Nicholas"
+        ],
+        "journal": "proceedings of the national academy of sciences",
+        "year": 2015,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 7,
+        "citing_publications_count": 30,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities/mixed: citingPublicationsCount=30 AND journal-article in PNAS, no editorial notices",
+        "editorial_notices": [],
+        "key_finding": "Qin 'rapidly instituted a series of infrastructural investments and other unifying measures, many of which were maintained and amplified during the subsequent Han Dynasty'. Documents the shift from Eastern Zhou diversity (no collective Chinese identity) to Qin reforms (tax base expansion, army expansion, redirection of loyalties to Qin identity) that Han scaled up.",
+        "excerpt": "'During the third century B.C., the Qin Dynasty first politically unified this fractious landscape ... and rapidly instituted a series of infrastructural investments and other unifying measures, many of which were maintained and amplified during the subsequent Han Dynasty.'",
+        "access": {
+          "status": "open",
+          "url": "https://www.pnas.org/content/pnas/112/30/9224.full.pdf"
+        },
+        "found_by_searches": [
+          "s1",
+          "s5"
+        ]
+      },
+      {
+        "doi": "10.1017/s0041977x23000228",
+        "title": "The pragmatics of standardization: document standards and their implementation in Qin administration (late third century BCE)",
+        "authors": [
+          "Thies Staack"
+        ],
+        "journal": "bulletin of the school of oriental and african studies",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: recent (2023) journal-article in BSOAS (top-tier field venue); low citation count reflects recency, not quality; direct engagement with Liye corpus is field-defining",
+        "editorial_notices": [],
+        "key_finding": "Direct textual-archaeological case study comparing Liye excavated administrative documents with Qin document-production regulations in the Yuelu Academy corpus. Finds that Qin officials operated pragmatically — following core standards (authentication, dating, signatures) while neglecting others (layout, measurements) — revealing a sophisticated, functioning document-based bureaucracy rather than a purely rigid code.",
+        "excerpt": "'Recently published sources from the imperial Qin period (221–207 bce) have provided the opportunity to compare administrative documents excavated at Liye with standards regulating their production. ... the paper suggests that officials chose a pragmatic way influenced by both economic considerations informed by the local circumstances and the requirements imposed by the central government.'",
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16C2D2DFC1CEF3FE3311B8EAF1DCB08E/S0041977X23000228a.pdf"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2021.1",
+        "title": "Categorizing laborers: glimpses of Qin management of human resources from an administrative document from Liye, Hunan Province",
+        "authors": [
+          "Tsang Wing"
+        ],
+        "journal": "early china",
+        "year": 2021,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 1,
+        "citing_publications_count": 4,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China is a top field venue; direct primary-source analysis of the Liye corpus",
+        "editorial_notices": [],
+        "key_finding": "Multi-slip Liye document on Qin labour management in the newly-conquered Qianling County demonstrates the multi-layered structure of Qin administrative documents and the central state's reliance on supervision and punishment to correct local deviations — concrete primary-source evidence for the enforcement mechanisms Qin used in newly-incorporated territories.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1017/eac.2021.1"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2016.1",
+        "title": "Chen Wei (ed.), Qin jiandu heji [Corpus of Qin documents written on bamboo and wood]: A review article",
+        "authors": [
+          "Olivier Venture"
+        ],
+        "journal": "early china",
+        "year": 2016,
+        "publication_type": "review-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 2,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China is top-tier; review defines the field's corpus of Qin slip material from 1975 Shuihudi onwards",
+        "editorial_notices": [],
+        "key_finding": "State-of-the-field review of the Qin jiandu heji project — the updated standard edition of seven Qin slip corpora (Shuihudi tombs 4 and 11, Longgang tomb 6, Haojiaping tomb 50, Zhoujiatai tomb 30, Yueshan tomb 36, Fangmatan tomb 1). Confirms that the Shuihudi (1975 excavation) slips remain the anchor corpus for Qin law, supplemented by the more recent Liye find.",
+        "excerpt": "'The present publication covers the corpora from seven tombs: Tomb 4 and 11 from Shuihudi (excavated in 1975), Tomb 6 from Longgang (1989), Tomb 50 from Haojiaping (1980), Tomb 30 from Zhoujiatai (1993), Tomb 36 from Yueshan (1986), and Tomb 1 from Fangmatan (1986).'",
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B44C4BE9D2C1CAFA0DC92825EC823F99/S0362502816000018a.pdf"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2018.13",
+        "title": "Chen Wei (ed.), Qin jiandu yanjiu (Research on Qin strips) five-volume book series: a review article",
+        "authors": [
+          "Christopher J. Foster"
+        ],
+        "journal": "early china",
+        "year": 2018,
+        "publication_type": "review-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China top-tier venue; comprehensive review of institutional, legal, geographical and linguistic findings from Qin slip scholarship",
+        "editorial_notices": [],
+        "key_finding": "Review of the five-volume Qin jiandu yanjiu series (themed: institutional history, law, geography, mantic arts, linguistics). Documents how post-2002 Liye scholarship has decisively reshaped Qin institutional history.",
+        "excerpt": "'Organized thematically into five volumes, detailed case studies on newly unearthed Qin texts address issues in institutional history, law, geography, mantic arts, and linguistics. ... indirectly serves as a state of the field for Qin manuscript studies.'",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1017/eac.2018.13"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1163/24689246-20230031",
+        "title": "The state of research in early Chinese legal history: a review of two important recent annotated translations in English",
+        "authors": [
+          "Arnd Helmut Hafner"
+        ],
+        "journal": "bamboo and silk",
+        "year": 2023,
+        "publication_type": "review-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 0,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Bamboo and Silk is a field-specialist venue for slip-corpus scholarship; direct state-of-field on Qin/Han legal translations (Yuelu and Zhangjiashan)",
+        "editorial_notices": [],
+        "key_finding": "Review of English-language annotated translations of the Yuelu Qin statutes and the Zhangjiashan early-Han statutes (Ernian lüling) — the two corpora that most directly test Qin-Han legal continuity. Explicit conclusion: Qin and early Han share 'the blueprints for the engine' of statecraft, unlike Ming/Qing.",
+        "excerpt": "'No one who ever had compared administrative documents of the Qin or early Han with, for example, those of the Ming or Qing, would deny ... the crying differences in the blueprints for the engine of the Qin and early Han state on the one side and the Ming and Qing state on the other side.' Also: 'Yuelu-Collection (from shortly after the Qin unification); Zhangjiashan M247 (Beginning of the Han, Empress Lü and earlier)'.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.1163/24689246-20230031"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.33137/cal.v3i1.26452",
+        "title": "Calculating crime and punishment: unofficial law enforcement, quantification, and legitimacy in early imperial China",
+        "authors": [
+          "Maxim Korolkov"
+        ],
+        "journal": "Critical Analysis of Law",
+        "year": 2016,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 5,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: citingPublicationsCount=5 is below humanities Tier-2 threshold of 10; still substantive OA primary-source analysis of Shuihudi and Yuelu slips",
+        "editorial_notices": [],
+        "key_finding": "Analyses Qin and Western Han legal slips (Shuihudi, Yuelu Academy, Liye) to reconstruct number-based matrices of crime/punishment/reward/responsibility that made society legible to both state and subjects. Treats Qin and early Han (221 BCE–9 CE) as a single legal tradition — primary-source evidence for continuity.",
+        "excerpt": "'This article analyzes the rules and practices of unofficial law enforcement as reflected in recently excavated legal manuscripts from the Qin and Western Han periods (221 B.C.–9 C.E.). ... Recently published Qin administrative texts excavated at Liye (Hunan Province) and a collection of manuscripts acquired by the Yuelu Academy ... confirm that in the Qin Empire, fines traditionally evaluated in terms of military equipment were in fact collected in cash.' Also: references Barbieri-Low's artisan budgeting reconstruction, and Yates 1995 on Qin state-control of bureaucrats.",
+        "access": {
+          "status": "open",
+          "url": "https://cal.library.utoronto.ca/index.php/cal/article/download/26452/19631"
+        },
+        "found_by_searches": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2014.5",
+        "title": "Paleographic evidence of Qin religious practice from Liye and Zhoujiatai",
+        "authors": [
+          "Charles Sanft"
+        ],
+        "journal": "early china",
+        "year": 2014,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 1,
+        "citing_publications_count": 24,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China top venue; citingPublicationsCount=24 > 10",
+        "editorial_notices": [],
+        "key_finding": "Liye (county-level) bureaucratic records of state-sponsored sacrifices in 215 and 212 BCE reveal that Qin administrative reach extended to local religious practice, with standardised record-keeping of sacrifice items; the Zhoujiatai ritual text provides complementary evidence. Qin bureaucratic penetration was finer-grained than previously thought.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1017/eac.2014.5"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1017/s0041977x23000228",
+        "title": "The pragmatics of standardization (duplicate surface in s3) — see primary entry above",
+        "authors": [
+          "Thies Staack"
+        ],
+        "journal": "bulletin of the school of oriental and african studies",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "duplicate — already catalogued; retained only for completeness",
+        "editorial_notices": [],
+        "key_finding": "(See primary entry above.)",
+        "excerpt": null,
+        "access": {
+          "status": "open",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16C2D2DFC1CEF3FE3311B8EAF1DCB08E/S0041977X23000228a.pdf"
+        },
+        "found_by_searches": [
+          "s3-duplicate"
+        ]
+      },
+      {
+        "doi": "10.33774/apsa-2024-wqfbk",
+        "title": "Origins of power actors in historical China: how war made some regions produce more political elites than others",
+        "authors": [
+          "Zhiwu Chen",
+          "Wanda Wang",
+          "Xiaoyang Zhang"
+        ],
+        "journal": "APSA preprint (Cambridge UP)",
+        "year": 2024,
+        "publication_type": "preprint",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 0,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "social/humanities: preprint, no citations yet; included for its explicit Han-inherited-Qin-military-meritocracy argument using 618–1911 data",
+        "editorial_notices": [],
+        "key_finding": "Quantitative 618–1911 CE dataset showing war exposure predicts political-elite production; notes explicitly that the Western Han 'initially inherited the military meritocratic system, still linking senior official assignments to war performance' — direct support for Qin-Han technical continuity in recruitment institutions.",
+        "excerpt": "'Although the Qin dynasty was short-lived because of its tyrannic rule ... its successor, the Western Han dynasty (206 BCE−9 CE), initially inherited the military meritocratic system, still linking senior official assignments to war performance. ... Qin Shihuang formally structured the country's administrative system into three tiers, with the central government at the top, 36 territorial prefectures (jun) in the middle, and about 1,000 counties at the bottom, ... administrative divisions in China since the Qin dynasty.'",
+        "access": {
+          "status": "open",
+          "url": "https://preprints.apsanet.org/engage/api-gateway/apsa/assets/orp/resource/item/65ae13e3e9ebbb4db9b3ff18/original/origins-of-power-actors-in-historical-china-how-war-made-some-regions-produce-more-political-elites-than-others.pdf"
+        },
+        "found_by_searches": [
+          "s4"
+        ]
+      },
+      {
+        "doi": "10.1093/qje/qjad003",
+        "title": "The fractured-land hypothesis",
+        "authors": [
+          "Jesús Fernández-Villaverde",
+          "Mark Koyama",
+          "Youhong Lin"
+        ],
+        "journal": "the quarterly journal of economics",
+        "year": 2023,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 15,
+        "citing_publications_count": 53,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "social: citingPublicationsCount=53 > 50 AND no retractions; peer-reviewed QJE article",
+        "editorial_notices": [],
+        "key_finding": "Quantitative model of Eurasian state formation that engages directly with the Warring States to Qin unification. Crucially notes that Qin's reforms under Shang Yang (conscription, irrigation, land registration) were not unique — 'other warring states also pursued these reforms' — citing Hui (2005). Provides contested evidence for claim #2 (inter-state diffusion vs. Qin originality).",
+        "excerpt": "'The historical literature points to the reforms enacted by the Qin state, notably by Shang Yang. These included conscription, large-scale irrigation projects, and a system of land registration (Hui, 2005). However, other warring states also pursued these reforms.'",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1093/qje/qjad003"
+        },
+        "found_by_searches": [
+          "s1"
+        ]
+      },
+      {
+        "doi": "10.1111/isqu.12153",
+        "title": "Why Europe avoided hegemony: a historical perspective on the balance of power",
+        "authors": [
+          "Jørgen Møller"
+        ],
+        "journal": "international studies quarterly",
+        "year": 2014,
+        "publication_type": "journal-article",
+        "supporting_count": 1,
+        "contrasting_count": 0,
+        "mentioning_count": 25,
+        "citing_publications_count": 67,
+        "support_ratio": 1,
+        "tier": "Tier 1",
+        "tier_rule_applied": "social: citingPublicationsCount=67 > 50, support_ratio=1.0, no retractions",
+        "editorial_notices": [],
+        "key_finding": "Comparative-historical argument about why Qin eliminated its rivals while post-medieval Europe did not. Argues the absence of pre-existing multiple privileged groups in Warring States China allowed geopolitical competition to further weaken societal checks on rulers — compatible with the mass-warfare-to-centralisation mechanism.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1111/isqu.12153"
+        },
+        "found_by_searches": [
+          "s1"
+        ]
+      },
+      {
+        "doi": "10.1177/2057150x14568768",
+        "title": "Between heaven and earth: dual accountability in Han China",
+        "authors": [
+          "Miranda Brown",
+          "Yu Xie"
+        ],
+        "journal": "chinese journal of sociology",
+        "year": 2015,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 10,
+        "citing_publications_count": 6,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: citingPublicationsCount=6 is below Tier-2 threshold of 10",
+        "editorial_notices": [],
+        "key_finding": "Argues against a pure Weberian-bureaucratic reading of Han administration: Han officials had 'dual accountability' — to superiors and to local interests — blending the Qin-inherited bureaucratic spine with virtuous-reputation recruitment. Moderates the Qin-Han continuity thesis by showing the Han innovated monitoring and recruitment while preserving the structural skeleton.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://ct.prod.getft.io/"
+        },
+        "found_by_searches": [
+          "s4"
+        ]
+      },
+      {
+        "doi": "10.2478/vjeas-2015-0004",
+        "title": "Innovation transfer during the Warring States period: considering the importance of early China's relationship with the steppes",
+        "authors": [
+          "Christine M. Havliček"
+        ],
+        "journal": "vienna journal of east asian studies",
+        "year": 2015,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 1,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: citingPublicationsCount=1 below Tier-2 threshold; included because it supports claim #2 (diffusion of key Warring States innovations — iron, cavalry — from the steppes)",
+        "editorial_notices": [],
+        "key_finding": "Iron wrought-metallurgy, cavalry, and related military technologies diffused into China from the steppes during the Warring States, inspiring cast-iron innovation in Wu and Chu — reinforcing the view that many 'Qin' innovations were originally inter-state or extra-Chinese.",
+        "excerpt": "'A clear archaeological trail reflects the chronological spread of iron metallurgy across the steppes from West to East ... which recent archaeological evidence shows to have been the first smelted iron that was used in China. ... Iron smelting on the steppes and in the Chinese Northwest predates the earliest findings of cast iron in the south of China; it seems that it inspired the invention of cast iron technology in southern China (the states Wu and Chu) in the fifth century BCE.' Also cites Kiser & Yong (2003) for Warring States bureaucratisation.",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.2478/vjeas-2015-0004"
+        },
+        "found_by_searches": [
+          "s5"
+        ]
+      },
+      {
+        "doi": "10.1163/9789004299337",
+        "title": "Ideology of power and power of ideology in early China",
+        "authors": [
+          "Yuri Pines",
+          "Paul R. Goldin",
+          "Martin Kern"
+        ],
+        "publisher": "Brill",
+        "journal": "Brill (edited volume)",
+        "year": 2015,
+        "publication_type": "book",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 36,
+        "support_ratio": null,
+        "tier": "Tier 1",
+        "tier_rule_applied": "humanities: citingPublicationsCount=36 > 30; edited by three Tier-1 anchor authorities (Pines, Goldin, Kern) at Brill; core field venue",
+        "editorial_notices": [],
+        "key_finding": "Brill volume bringing together Pines, Goldin and Kern on Warring-States-to-Han ideology — centrally concerned with how disparate intellectual strands (including statecraft/'Fajia' writings) were synthesised ideologically around the imperial project. Primary venue for the Han-retrospective-category argument.",
+        "excerpt": "'No other period in the history of Chinese thought can rival these centuries in creativity ... the ideas of rival thinkers formed an ideological framework within which the Chinese empire functioned from its inception until its very last decades. ... the age of the Hundred Schools of Thought' [— the very phrase Pines elsewhere marks as 'somewhat misleadingly'].",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1163/9789004299337"
+        },
+        "found_by_searches": [
+          "s7-author-pines"
+        ]
+      },
+      {
+        "doi": "10.1111/phc3.12979",
+        "title": "Amoralism in the Hanfeizi",
+        "authors": [
+          "Gabrièle Escoffier"
+        ],
+        "journal": "philosophy compass",
+        "year": 2024,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 0,
+        "support_ratio": null,
+        "tier": "Tier 3",
+        "tier_rule_applied": "humanities: recent publication, citation count too low for Tier 2; still a useful Philosophy Compass engagement with Han Fei and the 'Legalist' label",
+        "editorial_notices": [],
+        "key_finding": "Surveys three interpretations of Hanfeizi morality — traditional amoralism, instrumental amoralism, and embedded-morality — arguing for the third. Relevant to the Fajia question because it challenges the 'Legalist = amoralism' framing that underwrites the received school-category.",
+        "excerpt": null,
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1111/phc3.12979"
+        },
+        "found_by_searches": [
+          "s2"
+        ]
+      },
+      {
+        "doi": "10.1163/22127453-12341299",
+        "title": "A 'Total War'? Rethinking military ideology in the Book of Lord Shang",
+        "authors": [
+          "Yuri Pines"
+        ],
+        "journal": "journal of chinese military history",
+        "year": 2016,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 10,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: citingPublicationsCount=10 on the threshold; Pines's Shang Yang textual scholarship is field-defining",
+        "editorial_notices": [],
+        "key_finding": "Direct engagement with the Book of Lord Shang's military-administrative programme — the text most often taken as 'Legalist' doctrine. Pines shows a coherent 'total war' military ideology in which society is militarised and the army bureaucratised, but also flags why this ideology was abandoned after the Han: not a living 'school' but a historically-situated statecraft doctrine.",
+        "excerpt": "'The book presents a coherent view that the state should restructure its socioeconomic and cultural policies in order to turn every man into a valiant soldier. The book epitomizes the ideology of total war in which the differences between civilian and military affairs are blurred.'",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1163/22127453-12341299"
+        },
+        "found_by_searches": [
+          "s7-author-pines"
+        ]
+      },
+      {
+        "doi": "10.4000/extremeorient.254",
+        "title": "Alienating rhetoric in the Book of Lord Shang and its moderation",
+        "authors": [
+          "Yuri Pines"
+        ],
+        "journal": "extrême-orient extrême-occident",
+        "year": 2012,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 10,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: citingPublicationsCount=10 threshold; OA, field venue",
+        "editorial_notices": [],
+        "key_finding": "Further Pines work on Shang Yang, explicitly calling out 'the problematic of this term [Legalist]' (citing Goldin 2011b) and arguing the label obscures the historical evolution of individual thinkers' thought.",
+        "excerpt": "'From the Han dynasty on, it became fashionable to blame a group of thinkers, such as Shang Yang, Shen Buhai (d. 337 BCE) and Han Feizi (d. 233 BCE) ... In the later tradition these thinkers were usually identified as Legalists; for the problematic of this term, see Goldin 2011b.'",
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.4000/extremeorient.254"
+        },
+        "found_by_searches": [
+          "s7-author-pines"
+        ]
+      },
+      {
+        "doi": "10.1353/jas.2018.0029",
+        "title": "'I write therefore I am': scribes, literacy, and identity in early China",
+        "authors": [
+          "Armin Selbitschka"
+        ],
+        "journal": "harvard journal of asiatic studies",
+        "year": 2018,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 0,
+        "citing_publications_count": 18,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: HJAS is top-tier venue; citingPublicationsCount=18 > 10",
+        "editorial_notices": [],
+        "key_finding": "Examines scribal literacy and identity in the early Chinese bureaucracy — relevant because the Qin (and Han) depended on a professional class of literate scribes whose training and corporate identity were institutional bedrock of the administrative system.",
+        "excerpt": null,
+        "access": {
+          "status": "open",
+          "url": "https://doi.org/10.17613/e0s6-rp33"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      },
+      {
+        "doi": "10.1017/eac.2018.3",
+        "title": "Single- and multi-piece manuscripts in early imperial China: on the background and significance of a terminological distinction",
+        "authors": [
+          "Thies Staack"
+        ],
+        "journal": "early china",
+        "year": 2018,
+        "publication_type": "journal-article",
+        "supporting_count": 0,
+        "contrasting_count": 0,
+        "mentioning_count": 10,
+        "citing_publications_count": 13,
+        "support_ratio": null,
+        "tier": "Tier 2",
+        "tier_rule_applied": "humanities: Early China venue, citingPublicationsCount=13 > 10",
+        "editorial_notices": [],
+        "key_finding": "Philological reconstruction of Qin and Han document-terminology (du 牘 vs die 牒) shows increasing use of multi-piece manuscripts from Emperor Wu of Han onwards — a 'gradually consolidating empire with an ever-growing volume of bureaucratic record-keeping'. Direct philological evidence for Han scaling of Qin documentary practice.",
+        "excerpt": "'The increasing use of multi-piece manuscripts instead of single-piece ones, especially since the time of Emperor Wu of Han (r. 141–87 b.c.e.), probably had both pragmatic and economic reasons, which fit well into the setting of a gradually consolidating empire with an ever-growing volume of bureaucratic record keeping.'",
+        "access": {
+          "status": "publisher",
+          "url": "https://doi.org/10.1017/eac.2018.3"
+        },
+        "found_by_searches": [
+          "s3"
+        ]
+      }
+    ],
+    "gaps_observed": [
+      "Barbieri-Low's book-length works on artisans and on the Zhangjiashan Han statutes did not surface as stand-alone Scite records (only referenced through Korolkov 2016) — likely because monographs are under-indexed in Scite relative to journal articles.",
+      "Robin D. S. Yates's key 1995 Early China article 'State control of bureaucrats under the Qin: techniques and procedures' did not surface as a primary hit (only as a citation inside Korolkov 2016) — a citation-indexing gap rather than an evidentiary gap.",
+      "Gideon Shelach-Lavi's frontier-archaeology work on Northern Zhou/Warring States state formation did not surface; his Prehistoric Societies monograph is likely un-indexed; targeted author search could plug this.",
+      "Victoria Tin-bor Hui's War and State Formation in Ancient China and Early Modern Europe (2005, Cambridge UP) appears only via citations in Fernández-Villaverde et al. (2023) and Kiser & Cai (2003), not as a primary record — a consistent Scite gap for older monographs.",
+      "Hsing I-tien's Chinese-language Liye slip scholarship is entirely absent from Scite results — this is a well-known Scite bias toward English-language sinology.",
+      "No retractions, corrections, or expressions of concern appeared on any paper surfaced — this is expected for this humanities sub-field but the editorial-notices check was still run.",
+      "The Zhangjiashan Han corpus itself (Ernian lüling) deserves its own search; was covered indirectly via Hafner (2023) and Korolkov (2016) but not directly.",
+      "Quantitative statute-by-statute comparison of Shuihudi (Qin) vs. Zhangjiashan (early Han) is cited as field desideratum (Hafner 2023) but no published comprehensive quantitative study was surfaced."
+    ],
+    "apa_references": [
+      "Berger, E., Chen, L., & Sun, Z. (2017). A probable case of Legg-Calvé-Perthes disease in Warring States-era China. International Journal of Paleopathology, 16, 27–30. https://doi.org/10.1016/j.ijpp.2016.11.001",
+      "Brown, M., & Xie, Y. (2015). Between heaven and earth: Dual accountability in Han China. Chinese Journal of Sociology, 1(1), 56–87. https://doi.org/10.1177/2057150X14568768",
+      "Chen, Z., Wang, W., & Zhang, X. (2024). Origins of power actors in historical China: How war made some regions produce more political elites than others. APSA preprint. https://doi.org/10.33774/apsa-2024-wqfbk",
+      "Escoffier, G. (2024). Amoralism in the Hanfeizi. Philosophy Compass, 19(4). https://doi.org/10.1111/phc3.12979",
+      "Fang, H., Feinman, G. M., & Nicholas, L. M. (2015). Imperial expansion, public investment, and the long path of history: China's initial political unification and its aftermath. Proceedings of the National Academy of Sciences, 112(30), 9224–9229. https://doi.org/10.1073/pnas.1419157112",
+      "Feinman, G. M., Nicholas, L. M., & Fang, H. (2010). The imprint of China's first emperor on the distant realm of eastern Shandong. Proceedings of the National Academy of Sciences, 107(11), 4851–4856. https://doi.org/10.1073/pnas.0914961107",
+      "Fernández-Villaverde, J., Koyama, M., & Lin, Y. (2023). The fractured-land hypothesis. The Quarterly Journal of Economics, 138(2), 1173–1231. https://doi.org/10.1093/qje/qjad003",
+      "Foster, C. J. (2018). Chen Wei 陳偉 (ed.), Qin jiandu yanjiu 秦簡牘研究 (Research on Qin strips) five-volume book series: A review article. Early China, 41, 435–451. https://doi.org/10.1017/eac.2018.13",
+      "Hafner, A. H. (2023). The state of research in early Chinese legal history: A review of two important recent annotated translations in English. Bamboo and Silk, 6(1), 103–157. https://doi.org/10.1163/24689246-20230031",
+      "Havliček, C. M. (2015). Innovation transfer during the Warring States period: Considering the importance of early China's relationship with the steppes. Vienna Journal of East Asian Studies, 7(1), 103–128. https://doi.org/10.2478/vjeas-2015-0004",
+      "Kiser, E., & Cai, Y. (2003). War and bureaucratization in Qin China: Exploring an anomalous case. American Sociological Review, 68(4), 511–539. https://doi.org/10.1177/000312240306800402",
+      "Korolkov, M. (2016). Calculating crime and punishment: Unofficial law enforcement, quantification, and legitimacy in early imperial China. Critical Analysis of Law, 3(1). https://doi.org/10.33137/cal.v3i1.26452",
+      "Lassi, N., & Jiang, S. (2024). Durkheimian insights into the evolution of Chinese punitiveness. Journal of Classical Sociology. https://doi.org/10.1177/1468795X241263739",
+      "Lewis, M. E. (1990). Sanctioned violence in early China. SUNY Press. [Reviewed: Bodde, D. (1992). Journal of the American Oriental Society, 112(4), 679. https://doi.org/10.2307/604498]",
+      "Lewis, M. E. (1992). Sanctioned violence in early China [reviewed by K. Turner]. Harvard Journal of Asiatic Studies, 52(1), 391. https://doi.org/10.2307/2719342",
+      "Møller, J. (2014). Why Europe avoided hegemony: A historical perspective on the balance of power. International Studies Quarterly, 58(4), 660–670. https://doi.org/10.1111/isqu.12153",
+      "Pines, Y. (2009). Envisioning eternal empire: Chinese political thought of the Warring States era. University of Hawaii Press. [Choice Reviews record: https://doi.org/10.5860/choice.47-1112]",
+      "Pines, Y. (2012). Alienating rhetoric in the Book of Lord Shang and its moderation. Extrême-Orient Extrême-Occident, 34, 79–110. https://doi.org/10.4000/extremeorient.254",
+      "Pines, Y. (2016). A 'Total War'? Rethinking military ideology in the Book of Lord Shang. Journal of Chinese Military History, 5(2), 97–134. https://doi.org/10.1163/22127453-12341299",
+      "Pines, Y. (2016). Review of Zhao Dingxin, The Confucian-Legalist state: A new theory of Chinese history. Early China, 39, 311–320. https://doi.org/10.1017/eac.2016.18",
+      "Pines, Y. (2019). Liu Zehua 劉澤華 (1935–2018). Early China, 42, 1–13. https://doi.org/10.1017/eac.2019.3",
+      "Pines, Y. (2024). A speechless monarch: Early China's battle for intellectual authority. Journal of Chinese History, 10(1), 1–22. https://doi.org/10.1017/jch.2024.36",
+      "Pines, Y. (2024). Serving All-under-Heaven: Cosmopolitan intellectuals of the Warring States period. Modern Asian Studies, 58(4), 1017–1042. https://doi.org/10.1017/S0026749X24000155",
+      "Pines, Y., Goldin, P. R., & Kern, M. (Eds.). (2015). Ideology of power and power of ideology in early China. Brill. https://doi.org/10.1163/9789004299337",
+      "Sanft, C. (2014). Paleographic evidence of Qin religious practice from Liye and Zhoujiatai. Early China, 37, 327–358. https://doi.org/10.1017/eac.2014.5",
+      "Selbitschka, A. (2018). 'I write therefore I am': Scribes, literacy, and identity in early China. Harvard Journal of Asiatic Studies, 78(2), 413–476. https://doi.org/10.1353/jas.2018.0029",
+      "Staack, T. (2018). Single- and multi-piece manuscripts in early imperial China: On the background and significance of a terminological distinction. Early China, 41, 245–295. https://doi.org/10.1017/eac.2018.3",
+      "Staack, T. (2023). The pragmatics of standardization: Document standards and their implementation in Qin administration (late third century bce). Bulletin of the School of Oriental and African Studies, 86(1), 147–173. https://doi.org/10.1017/S0041977X23000228",
+      "Tsang, W. (2021). Categorizing laborers: Glimpses of Qin management of human resources from an administrative document from Liye, Hunan Province. Early China, 44, 351–391. https://doi.org/10.1017/eac.2021.1",
+      "Venture, O. (2016). Chen Wei 陳偉 (ed.), Qin jiandu heji 秦簡牘合集 [Corpus of Qin documents written on bamboo and wood]: A review article. Early China, 39, 255–263. https://doi.org/10.1017/eac.2016.1"
+    ],
+    "calls_consumed": 7
+  },
+  "education": {
+    "status": "valor-mapped",
+    "valorSource": "02_classical_foundations.md",
+    "note": "VALOR source identified; era-specific synthesis awaiting authoring."
+  }
+}

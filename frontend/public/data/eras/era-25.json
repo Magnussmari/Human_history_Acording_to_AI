@@ -1,0 +1,220 @@
+{
+  "id": "era-25",
+  "number": 25,
+  "label": "Islamic Golden Age",
+  "start": 750,
+  "end": 1250,
+  "primaryBroadEra": "Medieval",
+  "phaseStatus": "unresearched",
+  "valorSource": "03_preservation_and_transmission.md",
+  "educationStatus": "pilot-complete",
+  "scholarly": {
+    "status": "unresearched"
+  },
+  "education": {
+    "status": "pilot-complete",
+    "frontmatter": {
+      "Layer": "L2 — education / human formation / pedagogy",
+      "Parallel L1 file": "*not yet run* — L1 Scite mission for Era 25 is pending",
+      "Tradition-period": "Abbasid + post-Abbasid Islamic civilisation (Baghdad, Cordoba, Cairo, Nishapur)",
+      "VALOR phase_1 source": "research/phase_1/03_preservation_and_transmission.md` (Part II: Islamic Golden Age, beginning line 120)"
+    },
+    "coreQuestion": "**How did the Islamic tradition in its golden age transmit essential knowledge, and\nwhich capacities did it identify as prerequisites for independent adult judgment?**\n\nThe Islamic golden age produced one of history's most articulate theoretical accounts\nof the relationship between knowledge (*ʿilm*) and character / practice (*ʿamal*) —\nmost systematically in al-Ghazali's *Iḥyāʾ ʿUlūm al-Dīn* (Revival of the Religious\nSciences, c. 1100 CE), and earlier in al-Farabi's *Enumeration of the Sciences* (c. 950\nCE). The era produced the **madrasah** as a formal educational institution, the **ijāza**\nas a document of authorised transmission, and the **isnād** as a verification mechanism\nfor chains of knowledge — cognitive technologies that solved the transmission problem\nat civilisational scale.",
+    "capacities": [
+      {
+        "id": 1,
+        "name": "Foundational cognition",
+        "level": "Centrally",
+        "evidence": "Memorisation of Qurʾan and hadith canon; Arabic grammar as prerequisite for all higher learning"
+      },
+      {
+        "id": 2,
+        "name": "Practical judgment",
+        "level": "Centrally",
+        "evidence": "*Fiqh* (jurisprudence) as applied *phronesis*; *ijtihād* = independent legal reasoning"
+      },
+      {
+        "id": 3,
+        "name": "Ethical formation",
+        "level": "Centrally",
+        "evidence": "*Adab* (comportment) and *akhlāq* (character); al-Ghazali's ethical focus"
+      },
+      {
+        "id": 4,
+        "name": "Communicative competence",
+        "level": "Strongly",
+        "evidence": "Arabic rhetorical tradition (*balāgha*); *khuṭba* (sermon); legal argumentation"
+      },
+      {
+        "id": 5,
+        "name": "Embodied knowledge",
+        "level": "Moderately",
+        "evidence": "Craft guild traditions; Sufi bodily practices (dhikr); calligraphy as spiritual-physical discipline"
+      },
+      {
+        "id": 6,
+        "name": "Critical evaluation",
+        "level": "Centrally",
+        "evidence": "*Usūl al-fiqh* (jurisprudential method); hadith criticism; Mu'tazilite rationalism; Averroes's response to al-Ghazali"
+      },
+      {
+        "id": 7,
+        "name": "Self-knowledge",
+        "level": "Centrally",
+        "evidence": "Sufi introspection; *muḥāsaba* (self-accounting); al-Ghazali's *Alchemy of Happiness*"
+      }
+    ],
+    "constants": [
+      {
+        "id": 1,
+        "name": "Unity of knowledge and virtue",
+        "state": "Centrally — al-Ghazali's entire project is the unity of *ʿilm* + *ʿamal*; knowledge without action is dead"
+      },
+      {
+        "id": 2,
+        "name": "Self-regulation",
+        "state": "Centrally — *muḥāsaba*, Sufi discipline, the *tarbiya* (cultivation) tradition"
+      },
+      {
+        "id": 3,
+        "name": "Communicative competence",
+        "state": "Strongly — Arabic language as sacred medium; *balāgha* as canonical discipline"
+      },
+      {
+        "id": 4,
+        "name": "Irreducibility of *phronesis",
+        "state": "Centrally — *ijtihād* is exactly *phronesis* applied to law; cannot be reduced to memorised rules"
+      },
+      {
+        "id": 5,
+        "name": "Protective self-knowledge",
+        "state": "Centrally — al-Ghazali's *Deliverance from Error* explicitly treats knowledge that can corrupt without proper formation"
+      }
+    ],
+    "institutions": [
+      [
+        "**House of Wisdom (Bayt al-Ḥikma)**",
+        "Baghdad, c. 830 CE",
+        "Translation + original research in natural sciences, philosophy, mathematics",
+        "al-Khwārizmī, al-Kindī"
+      ],
+      [
+        "**Madrasah**",
+        "Institutionalised by the Seljuks (Nizamiyya madrasahs, 1065 CE)",
+        "Formal higher education in religious sciences, law, logic",
+        "Nizām al-Mulk; al-Ghazali taught at Nizamiyya Baghdad"
+      ],
+      [
+        "**Maktab / kuttāb**",
+        "widespread pre-1000 CE",
+        "Primary education — Qurʾan memorisation, basic literacy and numeracy",
+        "widespread"
+      ],
+      [
+        "**Scholarly *ḥalqa* (circle)**",
+        "mosque-based, pre-institutional",
+        "Teacher-led study circle; students received *ijāza* upon mastery",
+        "Universal across the Islamic world"
+      ],
+      [
+        "**Observatories + hospitals (*bīmāristān*)**",
+        "Baghdad, Cairo, Damascus, Samarkand, Isfahan",
+        "Applied scientific research tied to teaching",
+        "Maragheh observatory (1259); al-Bīrūnī's Ghazna"
+      ]
+    ],
+    "pedagogicalForm": "the *isnād* (chain of transmission) is the distinctive\nepistemic technology. A hadith or scholarly text is valued not only by its content\nbut by its documented chain of teacher-student transmission back to an authoritative\nsource. A student receiving an *ijāza* from a teacher was not just awarded a degree\nbut authorised as the next link in a named chain of knowledge. This externalised\nmemory-and-authority system solves the preservation problem that monasteries solved\ndifferently in the Christian West.",
+    "canonicalTexts": [
+      [
+        "al-Ghazali, *Kitāb al-ʿIlm* (Book of Knowledge)",
+        "(classical, Tier 3)",
+        "`research/sources/html/alghazali_book_knowledge.html`"
+      ],
+      [
+        "al-Farabi, *Iḥṣāʾ al-ʿUlūm* (Enumeration of the Sciences)",
+        "(classical, Tier 3, cited in-text in phase_1 files)",
+        "not locally held; citation in bibliography.bib"
+      ],
+      [
+        "al-Ghazali, *Iḥyāʾ ʿUlūm al-Dīn* (Revival of the Religious Sciences)",
+        "(classical, Tier 3)",
+        "not locally held; extensive citation in phase_1/03"
+      ],
+      [
+        "Avicenna (Ibn Sīnā), *Kitāb al-Shifāʾ*",
+        "(classical, Tier 3)",
+        "citation-only"
+      ],
+      [
+        "Averroes (Ibn Rushd), *Tahāfut al-Tahāfut* (Incoherence of the Incoherence)",
+        "(classical, Tier 3)",
+        "citation-only"
+      ],
+      [
+        "Britannica, \"Madrasah\" (reference)",
+        "`britannica_madrasah`",
+        "`research/sources/html/britannica_madrasah.html`"
+      ]
+    ],
+    "stageMapping": [
+      [
+        "Primary",
+        "*Maktab* / *kuttāb*",
+        "5–12",
+        "Qurʾan memorisation (often the full *ḥifẓ*), Arabic literacy, arithmetic"
+      ],
+      [
+        "Secondary",
+        "Extended Qurʾan + beginning hadith / grammar",
+        "12–16",
+        "Formal Arabic grammar (*naḥw*), hadith introduction, legal basics"
+      ],
+      [
+        "Apprenticeship",
+        "*Ḥalqa* attendance / early madrasah",
+        "16–25",
+        "Sustained study with named teacher(s); working toward first *ijāza*"
+      ],
+      [
+        "Higher",
+        "Madrasah proper",
+        "20–40+",
+        "*Fiqh*, *uṣūl*, theology (*kalām*), logic, Arabic rhetoric; multiple *ijāzas*"
+      ],
+      [
+        "Doctoral",
+        "Senior scholarly status",
+        "ongoing",
+        "Independent *ijtihād*; founding own *ḥalqa*; authoring original work"
+      ]
+    ],
+    "centralDebate": [
+      {
+        "position": "Mu'tazilite / *falsafa* (al-Farabi, Avicenna, Averroes)",
+        "knowledge": "Universal rational inquiry; Greek philosophy synthesised with revelation",
+        "aiQuestion": "Can rational reasoning operate independently of tradition-formed character?"
+      },
+      {
+        "position": "Al-Ghazali's synthesis",
+        "knowledge": "*ʿIlm nāfiʿ* (beneficial knowledge) — rational inquiry subordinated to ethical formation and Sufi introspection",
+        "aiQuestion": "Without protective self-knowledge, technical knowledge produces pride, not wisdom"
+      },
+      {
+        "position": "Averroes's critique of al-Ghazali",
+        "knowledge": "Philosophy cannot be restrained; truth has only one source",
+        "aiQuestion": "Al-Ghazali is over-cautious about the danger of knowledge"
+      }
+    ],
+    "valorFindings": [
+      "**The *isnād* system is a verification technology**: the Islamic scholarly tradition invented a *citation* system for oral transmission 800 years before Western academic citation norms. It directly addresses the \"how do you trust a source?\" question the AI era re-raises.",
+      "**The *fard ʿayn* / *fard kifāya* distinction**: the most explicit pre-modern answer to \"what must every person know personally vs. what can be communally outsourced?\" — directly relevant to AI-era questions of knowledge delegation.",
+      "**Knowledge classification is institutionally formalised**: al-Farabi's *Enumeration of the Sciences* and the madrasah curriculum make the hierarchy of knowledge explicit and teachable. Classical Athens had the insight; the Islamic golden age operationalised it as a pedagogy.",
+      "**Character formation cannot be separated from technical competence**: al-Ghazali's entire project is the insistence that *ʿilm* without *ʿamal* is dead. This is the direct pre-modern statement of the formation-performance distinction.",
+      "**Gender and educational access**: Islamic golden age education was genuinely more inclusive than Classical Athens for women in scholarly roles, though less inclusive than modern norms. Important nuance for the L1↔L2 cross-reference."
+    ],
+    "aiEraImplication": "The *fard ʿayn* / *fard kifāya* distinction is the single most useful classical\nframework for thinking about AI-era knowledge delegation. If AI handles what was\nformerly *fard kifāya* (specialised communal knowledge), what remains *fard ʿayn*\n(individually obligatory) for every person?\n\nThe VALOR framework's answer — the 7 capacity categories — is effectively a modern\nrestatement of an expanded *fard ʿayn* list for the AI era: those capacities each\nperson must hold personally if they are to validate AI output rather than be\ndependent on it.\n\nAl-Ghazali's warning that technical knowledge without character formation produces\nconfident corruption is the direct historical analogue of the Cognitive Threshold\nargument. Vibe coding is precisely what al-Ghazali would call *ʿilm bilā ʿamal*\nwithout *adab* — skilled output production without the formation that makes the\nproducer reliable.",
+    "crossRefL1": "L1 file not yet run (Era 25 is in Batch 3, eras 21–30, 220–1300 CE, pending).\n\nWhen run, L1 should cover: Abbasid caliphate politics, the Samarra crisis, the\nBuyid interregnum, the Seljuk Turkish ascendancy, al-Andalus, the Mongol sack of\nBaghdad 1258. The madrasah institutionalisation under Nizām al-Mulk (L2) is directly\nconditioned on the Seljuk state-formation (L1). When L1 runs, cross-reference should\nbe added here.",
+    "verification": "All Islamic classical texts: Tier 3 (classical/canonical), verified in VALOR\nphase-1-sources. al-Ghazali's *Book of Knowledge* (first book of *Iḥyāʾ*) locally\nheld as HTML. al-Farabi, Avicenna, Averroes are citation-only but verified via\nbibliography.bib. No fabricated citations. No retractions (humanities).",
+    "phase1Source": "`research/phase_1/03_preservation_and_transmission.md` — Part II: Islamic Golden Age\n(lines ~120–250 approx). Part I (Late Antiquity Europe) maps to Eras 21–23; Part III\n(Medieval European universities) maps to Eras 28–30; Part IV (Tang / Song China)\nmaps to Eras 24–27."
+  }
+}

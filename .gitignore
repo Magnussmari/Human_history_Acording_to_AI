@@ -1,7 +1,11 @@
 # Secrets and auth
 docker/.env
-.claude/
 *.lock
+
+# Claude Code — commit shared config, ignore local state
+.claude/state/
+.claude/local/
+.claude/**/*.tmp
 
 # Temp files
 *.tmp

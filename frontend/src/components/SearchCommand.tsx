@@ -2,11 +2,13 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
-import { Search, ArrowRight } from "lucide-react";
+import { Search, ArrowRight, BookOpen } from "lucide-react";
 import type { YearData } from "@/types/history";
 import { searchEvents } from "@/lib/data";
-import { safeCategoryConfig } from "@/lib/constants";
+import { fetchEraIndex, formatEraRange } from "@/lib/evidence";
+import { safeCategoryConfig, safePhaseStatusConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 interface SearchCommandProps {
@@ -65,6 +67,17 @@ export function SearchCommand({ years }: SearchCommandProps) {
   const results = searchEvents(years, query);
   const yearJump = parseYearQuery(query);
 
+  const { data: eraIndex } = useQuery({
+    queryKey: ["era-index"],
+    queryFn: fetchEraIndex,
+  });
+
+  const eraResults = (() => {
+    if (!eraIndex || query.length < 2) return [];
+    const q = query.toLowerCase();
+    return eraIndex.registry.filter(e => e.label.toLowerCase().includes(q)).slice(0, 6);
+  })();
+
   // Group results by century
   const groupedResults = results.reduce<Record<string, typeof results>>((acc, r) => {
     const century = Math.floor(r.year / 100) * 100;
@@ -102,7 +115,15 @@ export function SearchCommand({ years }: SearchCommandProps) {
     [router]
   );
 
-  const hasResults = yearJump !== null || Object.keys(groupedResults).length > 0;
+  const hasResults = yearJump !== null || eraResults.length > 0 || Object.keys(groupedResults).length > 0;
+
+  const handleEraSelect = useCallback(
+    (eraId: string) => {
+      setOpen(false);
+      router.push(`/era/${eraId}`);
+    },
+    [router]
+  );
 
   return (
     <>
@@ -229,6 +250,49 @@ export function SearchCommand({ years }: SearchCommandProps) {
                             </p>
                           </div>
                         </motion.button>
+                      </div>
+                    )}
+
+                    {/* Scholarly era matches */}
+                    {eraResults.length > 0 && (
+                      <div className="mb-2">
+                        <div className="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground/40">
+                          Scholarly eras
+                        </div>
+                        {eraResults.map(era => {
+                          const phase = safePhaseStatusConfig(era.phaseStatus);
+                          return (
+                            <motion.button
+                              key={era.id}
+                              onClick={() => handleEraSelect(era.id)}
+                              className="flex w-full items-start gap-3 rounded-xl px-3 py-2.5 text-left hover:bg-muted/25 transition-colors"
+                              whileHover={{ x: 2 }}
+                              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                            >
+                              <div
+                                className="flex h-8 w-8 items-center justify-center rounded-lg shrink-0"
+                                style={{ background: "rgba(155,130,220,0.12)", color: "#c4a8ff" }}
+                              >
+                                <BookOpen size={14} />
+                              </div>
+                              <div className="min-w-0 flex-1">
+                                <p className="text-sm font-medium text-foreground/90 leading-snug">
+                                  {highlightMatch(era.label, query)}
+                                </p>
+                                <div className="flex items-center gap-1.5 mt-0.5">
+                                  <span className={cn("inline-flex items-center gap-1 text-[10px]", phase.color)}>
+                                    <span className={cn("h-1 w-1 rounded-full", phase.dot)} />
+                                    {phase.label}
+                                  </span>
+                                  <span className="text-muted-foreground/25 text-[10px]">·</span>
+                                  <span className="text-[10px] text-muted-foreground/40">
+                                    {formatEraRange(era)}
+                                  </span>
+                                </div>
+                              </div>
+                            </motion.button>
+                          );
+                        })}
                       </div>
                     )}
 
