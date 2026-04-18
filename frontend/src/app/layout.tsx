@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display, Fraunces, Instrument_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Newsreader, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Providers } from "@/lib/providers";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { FontSizeControl } from "@/components/FontSizeControl";
@@ -8,39 +8,26 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-heading",
+// Notebook typography — serif editorial (body + display), humanist sans for
+// chrome/eyebrows, slab mono for codes and indices. These faces match the
+// prototype's variant A spec: Newsreader / Inter Tight / IBM Plex Mono.
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  weight: ["400", "500", "600"],
 });
 
-// Atlas rebuild — additive, coexists with legacy fonts.
-const fraunces = Fraunces({
-  variable: "--font-atlas-display",
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
   subsets: ["latin"],
   display: "swap",
-  axes: ["SOFT", "WONK", "opsz"],
-});
-
-const instrumentSans = Instrument_Sans({
-  variable: "--font-atlas-sans",
-  subsets: ["latin"],
-  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-atlas-mono",
+  variable: "--font-plex-mono",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600"],
@@ -65,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${fraunces.variable} ${instrumentSans.variable} ${ibmPlexMono.variable} dark h-full`}
+      className={`${newsreader.variable} ${interTight.variable} ${ibmPlexMono.variable} h-full`}
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
