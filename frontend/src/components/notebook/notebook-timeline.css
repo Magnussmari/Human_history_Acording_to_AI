@@ -51,12 +51,15 @@
   margin: 0;
 }
 
-/* Era / decade rule */
-.notebook-timeline-rule {
+/* Reserved lane at the top of every row (40px); label appears when the
+   era/decade group changes, leaving blank otherwise. Uniform row height
+   keeps the virtualizer's math stable. */
+.notebook-timeline-bookmark {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 14px;
-  padding: 36px 0 14px;
+  height: 40px;
+  padding: 12px 0 6px;
   margin-bottom: 6px;
 }
 

@@ -17,16 +17,22 @@ interface NotebookTimelineProps {
 }
 
 function groupKeyForYear(y: number): string {
-  const chunk = Math.floor(y / 50) * 50;
+  const chunk = Math.floor(y / 100) * 100;
   return `${getEraForYear(y).label}::${chunk}`;
 }
 
 function groupLabelForYear(y: number): string {
   const era = getEraForYear(y);
-  const chunk = Math.floor(y / 50) * 50;
+  const chunk = Math.floor(y / 100) * 100;
   const sign = chunk < 0 ? "BCE" : "CE";
   return `${era.label} · ${Math.abs(chunk)} ${sign}`;
 }
+
+// Uniform row height. The group-rule label renders inside a reserved
+// 40px "bookmark" lane at the top of every row — blank when the group
+// didn't change, labelled when it did — so every wrapper is the same
+// height and the virtualizer's math stays simple.
+const ROW_HEIGHT = 168;
 
 export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -35,10 +41,6 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
   useEffect(() => {
     const update = () => {
       if (containerRef.current) {
-        // Use document-relative offset, NOT offsetTop (which is relative to
-        // the nearest positioned ancestor). With a hero + filter row +
-        // era-pill row above the timeline, offsetTop miscounts and the
-        // virtualizer places rows ~500px too low, leaving a huge blank band.
         const rect = containerRef.current.getBoundingClientRect();
         setScrollMargin(rect.top + window.scrollY);
       }
@@ -50,10 +52,9 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
 
   const virtualizer = useWindowVirtualizer({
     count: years.length,
-    estimateSize: () => 168,
-    overscan: 6,
+    estimateSize: () => ROW_HEIGHT,
+    overscan: 8,
     scrollMargin,
-    measureElement: (el) => el.getBoundingClientRect().height,
   });
 
   if (isLoading) {
@@ -101,25 +102,27 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
               <div
                 key={year.year}
                 data-index={vr.index}
-                ref={virtualizer.measureElement}
                 style={{
                   position: "absolute",
                   top: 0,
                   left: 0,
                   width: "100%",
+                  height: ROW_HEIGHT,
                   transform: `translateY(${
                     vr.start - virtualizer.options.scrollMargin
                   }px)`,
                 }}
               >
-                {groupChanged && (
-                  <div className="notebook-timeline-rule">
-                    <span className="notebook-timeline-rule-label">
-                      {groupLabelForYear(year.year)}
-                    </span>
-                    <span className="notebook-timeline-rule-line" />
-                  </div>
-                )}
+                <div className="notebook-timeline-bookmark">
+                  {groupChanged && (
+                    <>
+                      <span className="notebook-timeline-rule-label">
+                        {groupLabelForYear(year.year)}
+                      </span>
+                      <span className="notebook-timeline-rule-line" />
+                    </>
+                  )}
+                </div>
                 <NotebookYearRow year={year} index={vr.index} />
               </div>
             );

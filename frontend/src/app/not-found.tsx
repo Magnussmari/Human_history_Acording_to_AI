@@ -3,6 +3,8 @@
  * @created: 2026-04-18
  */
 import Link from "next/link";
+import "@/components/notebook/notebook-folio.css";
+import "@/components/hero-section.css";
 
 export default function NotFound() {
   return (

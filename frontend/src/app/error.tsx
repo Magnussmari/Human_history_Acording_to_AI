@@ -7,6 +7,8 @@
 import { motion } from "motion/react";
 import { RefreshCw } from "lucide-react";
 import Link from "next/link";
+import "@/components/notebook/notebook-folio.css";
+import "@/components/hero-section.css";
 
 export default function Error({
   error,

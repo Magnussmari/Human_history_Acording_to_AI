@@ -65,12 +65,12 @@ export function ScholarlyEraPillRow({
               type="button"
               className="shrink-0 rounded-full flex items-center gap-2"
               style={{
-                padding: "6px 14px",
+                padding: "7px 16px",
                 background: "var(--card)",
                 border: "1px solid var(--rule)",
                 color: "var(--fg)",
                 fontFamily: "var(--font-sans)",
-                fontSize: 12,
+                fontSize: 13,
                 fontWeight: 500,
                 cursor: "pointer",
               }}
@@ -85,7 +85,7 @@ export function ScholarlyEraPillRow({
               <span
                 style={{
                   fontFamily: "var(--font-mono)",
-                  fontSize: 10,
+                  fontSize: 12,
                   color: "var(--fg-mute)",
                   letterSpacing: "0.06em",
                 }}
@@ -96,7 +96,7 @@ export function ScholarlyEraPillRow({
                 <span
                   style={{
                     fontFamily: "var(--font-mono)",
-                    fontSize: "var(--notebook-text-micro)",
+                    fontSize: 11,
                     color: "var(--leaf)",
                     background:
                       "color-mix(in oklab, var(--leaf) 16%, transparent)",
