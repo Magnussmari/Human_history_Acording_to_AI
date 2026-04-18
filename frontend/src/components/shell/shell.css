@@ -11,12 +11,10 @@
   align-items: center;
   gap: 20px;
   padding: 14px 24px;
-  backdrop-filter: blur(12px) saturate(1.15);
-  -webkit-backdrop-filter: blur(12px) saturate(1.15);
-  background: color-mix(in oklab, var(--bg) 94%, transparent);
+  background: var(--bg);
   border-bottom: 1px solid var(--rule);
   font-family: var(--font-sans);
-  box-shadow: 0 1px 0 color-mix(in oklab, var(--rule) 50%, transparent);
+  box-shadow: 0 4px 16px -12px color-mix(in oklab, var(--fg) 40%, transparent);
 }
 
 .chronograph-brand-link {
