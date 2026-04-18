@@ -24,7 +24,15 @@ const IMMUTABLE_ID_FIELDS = new Set([
   "id", "from", "to", "coordinates_approx",
 ]);
 
-const IMMUTABLE_ARRAY_FIELDS = new Set(["cross_references"]);
+// cross_references items are "<id>" or "<id> (English parenthetical)".
+// The ID prefix is immutable; the parenthetical may be translated.
+const ID_PREFIX_ARRAY_FIELDS = new Set(["cross_references"]);
+
+function extractIdPrefix(s: string): string {
+  const trimmed = s.trim();
+  const spaceIdx = trimmed.search(/[\s(]/);
+  return spaceIdx === -1 ? trimmed : trimmed.slice(0, spaceIdx);
+}
 
 export function diffStructure(source: YearDoc, target: unknown, path = ""): DiffIssue[] {
   const issues: DiffIssue[] = [];
@@ -53,10 +61,12 @@ function walk(src: unknown, tgt: unknown, path: string, issues: DiffIssue[]): vo
       return;
     }
     const field = path.split(".").pop()?.replace(/\[\]$/, "") ?? "";
-    const immutableArray = IMMUTABLE_ARRAY_FIELDS.has(field);
+    const idPrefixArray = ID_PREFIX_ARRAY_FIELDS.has(field);
     for (let i = 0; i < src.length; i++) {
-      if (immutableArray) {
-        if (src[i] !== tgt[i]) {
+      if (idPrefixArray) {
+        const s = typeof src[i] === "string" ? (src[i] as string) : "";
+        const t = typeof tgt[i] === "string" ? (tgt[i] as string) : "";
+        if (extractIdPrefix(s) !== extractIdPrefix(t)) {
           issues.push({ path: `${path}[${i}]`, kind: "id_changed", source: src[i], target: tgt[i] });
         }
       } else {
