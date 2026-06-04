@@ -10,6 +10,7 @@ import { motion } from "motion/react";
 import type { YearData, HistoryEvent } from "@/types/history";
 import { getEraForYear, safeCategoryConfig } from "@/lib/constants";
 import { ScholarlyEraCard } from "@/components/ScholarlyEraCard";
+import { GlassMarginalia } from "./GlassMarginalia";
 import "./notebook-folio.css";
 
 interface NotebookYearFolioProps {
@@ -226,6 +227,8 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
             </span>
           </div>
         )}
+
+        {year.year === 1423 && <GlassMarginalia />}
       </footer>
     </article>
   );

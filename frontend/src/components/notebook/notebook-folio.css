@@ -724,3 +724,60 @@
   font-style: italic;
   color: var(--fg-2);
 }
+
+/* Glass marginalia — easter egg, year 1423 only.
+   A hairline note that brightens on hover and opens the fine-press reader. */
+.glass-marginalia {
+  margin-top: 28px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.glass-marginalia-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--fg-mute);
+  opacity: 0.42;
+  transition: opacity .35s ease, color .35s ease;
+}
+
+.glass-marginalia-link:hover,
+.glass-marginalia-link:focus-visible {
+  opacity: 1;
+  color: var(--stamp);
+  outline: none;
+}
+
+.glass-marginalia-cube {
+  position: relative;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+.glass-marginalia-cube-face {
+  position: absolute;
+  inset: 0;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+}
+
+.glass-marginalia-cube::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid currentColor;
+  opacity: 0.5;
+  border-radius: 1px;
+}
+
+.glass-marginalia-text {
+  font-style: normal;
+}
