@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(RESEARCH_PROMPT.md)",
+      "Write(RESEARCH_PROMPT.md)",
+      "Edit(outputs/json/**)",
+      "Write(outputs/json/**)",
+      "Edit(outputs/haiku_experiment/**)",
+      "Edit(outputs/gemini_experiment/**)"
+    ],
+    "allow": [
+      "Bash(python3 scripts/validate_corpus.py*)",
+      "Bash(python3 scripts/fix_categories.py*)",
+      "Bash(python3 scripts/backfill_meta.py*)",
+      "Bash(bash scripts/health_check.sh*)",
+      "Bash(node frontend/scripts/aggregate-data.mjs*)",
+      "Bash(jq *:*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch*)",
+      "Bash(cd frontend && npm run lint*)",
+      "Bash(cd frontend && npm run build*)",
+      "Bash(cd frontend && npm run dev*)"
+    ]
+  }
+}
