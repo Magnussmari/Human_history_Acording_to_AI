@@ -4,7 +4,7 @@
 
 set -eu
 
-cd ~/Human_history
+cd "$(dirname "$0")/.."
 
 # Check if there are new JSON files since last aggregation
 MANIFEST_TIME=$(stat -c %Y frontend/public/data/manifest.json 2>/dev/null || echo 0)

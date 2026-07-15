@@ -10,7 +10,7 @@ START=${START_YEAR:-2025}
 END=${END_YEAR:--3200}
 
 BASE="/workspace"
-[ ! -d "$BASE/state" ] && BASE="$HOME/Human_history"
+[ ! -d "$BASE/state" ] && BASE="$(cd "$(dirname "$0")/.." && pwd)"
 
 PROGRESS="${BASE}/state/progress.json"
 LEDGER="${BASE}/LEDGER.md"

@@ -15,3 +15,12 @@ state/lock/
 
 # Docker build cache
 docker/.docker/
+
+# Layer 2 raw scholarly-evidence source (1.5 MB, Scite MCP artefacts).
+# The aggregated, schema-validated derivatives ARE committed under
+# frontend/public/data/eras/. Kept local pending a deliberate decision about
+# publishing raw source-trail to the public repo — remove this line to commit.
+evidence-layer/
+
+# Orphan root lockfile — real lockfiles live in frontend/ and scripts/translate/
+/package-lock.json

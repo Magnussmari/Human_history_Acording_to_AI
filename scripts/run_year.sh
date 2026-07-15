@@ -7,7 +7,7 @@ set -eu  # NO pipefail — we handle pipe failures explicitly
 
 YEAR=$1
 BASE="/workspace"
-[ ! -d "$BASE/state" ] && BASE="$HOME/Human_history"
+[ ! -d "$BASE/state" ] && BASE="$(cd "$(dirname "$0")/.." && pwd)"
 
 OUTPUT="${BASE}/outputs/json/${YEAR}.json"
 LOGFILE="${BASE}/outputs/logs/${YEAR}.log"

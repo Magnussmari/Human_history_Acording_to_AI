@@ -1,7 +1,8 @@
 #!/bin/bash
 # Quick status check — run from host or inside container
 
-PROGRESS="$HOME/Human_history/state/progress.json"
+BASE="$(cd "$(dirname "$0")/.." && pwd)"
+PROGRESS="$BASE/state/progress.json"
 
 if [ ! -f "$PROGRESS" ]; then
   echo "No progress file found. Daemon may not have started."

@@ -12,7 +12,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 from typing import Any
 
-BASE = Path(os.environ.get("BASE_DIR", os.path.expanduser("~/Human_history")))
+BASE = Path(os.environ.get("BASE_DIR", Path(__file__).resolve().parent.parent))
 JSON_DIR = BASE / "outputs" / "json"
 
 VALID_CATEGORIES = {

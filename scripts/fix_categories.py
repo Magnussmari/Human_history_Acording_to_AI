@@ -11,7 +11,7 @@ VALID_CATEGORIES = {
     "exploration", "legal"
 }
 
-BASE = Path(os.environ.get("BASE_DIR", os.path.expanduser("~/Human_history")))
+BASE = Path(os.environ.get("BASE_DIR", Path(__file__).resolve().parent.parent))
 JSON_DIR = BASE / "outputs" / "json"
 
 fixed_files = 0
