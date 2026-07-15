@@ -11,13 +11,15 @@
   --mf-rail: 288px;
   --mf-shell: 54px; /* Chronograph sticky primary chrome height */
   --mf-railh: 0px;  /* stacked rail height (mobile only) */
-  /* fixed badge colours, all >= 4.5:1 with white text in every theme (WCAG AA) */
-  --mf-opera: #8a2b22;
-  --mf-work: #4b4636;
-  --mf-composer: #235f56;
-  --mf-innovation: #6f5a1f;
-  --mf-institution: #4a5a72;
-  --mf-event: #74582f;
+  /* Kind colours mapped onto the atlas --cat-* contract, so they inherit every
+     theme (parchment, stratum, atlas) for free. Used as text-on-tint, never as
+     white-on-solid, which is why bright dark-theme values stay legible. */
+  --mf-opera: var(--cat-cultural);
+  --mf-work: var(--cat-economic);
+  --mf-composer: var(--cat-demographic);
+  --mf-innovation: var(--cat-technological);
+  --mf-institution: var(--cat-political);
+  --mf-event: var(--cat-exploration);
   color: var(--fg);
   font-family: var(--font-newsreader), Georgia, serif;
 }
@@ -223,7 +225,10 @@
 .mf-composer { font-style: italic; color: var(--fg-2); font-size: 15.5px; }
 .mf-badge {
   font-family: var(--font-plex-mono), monospace; font-size: 10px; letter-spacing: .1em;
-  text-transform: uppercase; padding: 2px 8px; border-radius: 999px; color: #fff; font-weight: 500;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 999px; font-weight: 600;
+  color: var(--k);
+  background: color-mix(in oklab, var(--k) 15%, transparent);
+  border: 1px solid color-mix(in oklab, var(--k) 32%, transparent);
 }
 .mf-desc { color: var(--fg-2); font-size: 15.5px; max-width: 74ch; line-height: 1.55; }
 .mf-entry::before {

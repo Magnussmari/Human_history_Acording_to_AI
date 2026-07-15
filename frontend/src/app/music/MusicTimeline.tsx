@@ -4,7 +4,7 @@
  */
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { Search, ExternalLink } from "lucide-react";
 import {
   MUSIC_ERAS,
@@ -349,7 +349,7 @@ export function MusicTimeline() {
                         <h3 className="t">{en.title}</h3>
                         <div className="mf-meta">
                           <span className="mf-composer">{en.composer}</span>
-                          <span className="mf-badge" style={{ background: `var(${k.varName})` }}>
+                          <span className="mf-badge" style={{ "--k": `var(${k.varName})` } as CSSProperties}>
                             {k.label}
                           </span>
                         </div>
