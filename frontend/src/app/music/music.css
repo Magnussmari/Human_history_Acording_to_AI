@@ -263,18 +263,26 @@
 .mf-region {
   font-family: var(--font-plex-mono), monospace; font-size: 11.5px; color: var(--fg-mute);
 }
-.mf-region::before { content: "◍ "; opacity: .55; }
+.mf-region::before { content: "◍ " / ""; opacity: .55; } /* decorative, alt text empty for SRs */
+.mf-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
 .mf-cert {
   font-family: var(--font-plex-mono), monospace; font-size: 10px; letter-spacing: .07em;
   text-transform: uppercase; padding: 2px 7px; border-radius: 999px; font-weight: 500;
   border: 1px solid transparent;
 }
-/* certainty tiers, tuned for AA on light + dark */
-.mf-cert-confirmed   { color: #2c6a4f; background: color-mix(in oklab, #2c6a4f 15%, transparent); border-color: color-mix(in oklab, #2c6a4f 30%, transparent); }
+/* Certainty tiers. "confirmed" renders nothing (silent). Colours are theme-aware
+   so they clear AA on the light (variant-a) and dark (variant-b/c) themes.
+   --mf-c-approx / --mf-c-trad brighten on dark; probable and legendary already
+   ride theme tokens (--fg-2, --stamp). */
+.mf { --mf-c-approx: #8a6a1f; --mf-c-trad: #7a4a86; }
+body.variant-b .mf, body.variant-c .mf { --mf-c-approx: #d8b45f; --mf-c-trad: #cc9ede; }
 .mf-cert-probable    { color: var(--fg-2); background: var(--rule-soft); }
-.mf-cert-approximate { color: #8a6a1f; background: color-mix(in oklab, #8a6a1f 15%, transparent); border-color: color-mix(in oklab, #8a6a1f 30%, transparent); }
-.mf-cert-traditional { color: #7a4a86; background: color-mix(in oklab, #7a4a86 15%, transparent); border-color: color-mix(in oklab, #7a4a86 30%, transparent); }
-.mf-cert-legendary   { color: var(--stamp); background: var(--stamp-soft); border-color: color-mix(in oklab, var(--stamp) 30%, transparent); }
+.mf-cert-approximate { color: var(--mf-c-approx); background: color-mix(in oklab, var(--mf-c-approx) 16%, transparent); border-color: color-mix(in oklab, var(--mf-c-approx) 34%, transparent); }
+.mf-cert-traditional { color: var(--mf-c-trad); background: color-mix(in oklab, var(--mf-c-trad) 16%, transparent); border-color: color-mix(in oklab, var(--mf-c-trad) 34%, transparent); }
+.mf-cert-legendary   { color: var(--stamp); background: var(--stamp-soft); border-color: color-mix(in oklab, var(--stamp) 34%, transparent); }
 
 @media (max-width: 900px) {
   .mf { --mf-shell: 50px; --mf-railh: 46px; }

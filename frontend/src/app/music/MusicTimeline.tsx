@@ -43,6 +43,21 @@ const OPERA_COUNT = SORTED_ERAS.flatMap((e) => e.entries).filter(
   (e) => e.kind === "opera",
 ).length;
 
+// Minimap tick positions with a collision-nudge, so overlapping eras (18/19 and
+// 23/24 share a midpoint) each stay clickable instead of stacking.
+const TICK_POS: Record<string, number> = (() => {
+  const arr = SORTED_ERAS.map((e) => ({ id: e.id, pos: pct((e.start + e.end) / 2) })).sort(
+    (a, b) => a.pos - b.pos,
+  );
+  const MIN_GAP = 1.5;
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].pos - arr[i - 1].pos < MIN_GAP) arr[i].pos = arr[i - 1].pos + MIN_GAP;
+  }
+  const map: Record<string, number> = {};
+  for (const t of arr) map[t.id] = Math.min(t.pos, 99.4);
+  return map;
+})();
+
 // A single honest "explore" affordance per entry. Scores and audio for the
 // musical works, an encyclopaedia lookup for events and institutions.
 function exploreLink(en: MusicEntry): { href: string; label: string } {
@@ -60,6 +75,31 @@ export function MusicTimeline() {
   const searchRef = useRef<HTMLInputElement>(null);
 
   const q = query.trim().toLowerCase();
+
+  // Restore filter state from the URL on mount, then keep the URL in sync so a
+  // shared link preserves search + active kinds (era hash deep-links already work).
+  const hydrated = useRef(false);
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search);
+    const qp = p.get("q");
+    const kp = p.get("kinds");
+    if (qp) setQuery(qp);
+    if (kp) {
+      const ks = kp.split(",").filter((k): k is MusicEntryKind => k in KINDS);
+      if (ks.length) setActiveKinds(new Set(ks));
+    }
+    hydrated.current = true;
+  }, []);
+  useEffect(() => {
+    if (!hydrated.current) return;
+    const p = new URLSearchParams();
+    const qq = query.trim();
+    if (qq) p.set("q", qq);
+    if (activeKinds.size) p.set("kinds", [...activeKinds].join(","));
+    const qs = p.toString();
+    const { pathname, hash } = window.location;
+    history.replaceState(null, "", qs ? `${pathname}?${qs}${hash}` : `${pathname}${hash}`);
+  }, [query, activeKinds]);
 
   const view = useMemo(() => {
     return SORTED_ERAS.map((era) => {
@@ -217,12 +257,11 @@ export function MusicTimeline() {
                   </div>
                 ))}
                 {SORTED_ERAS.map((era, i) => {
-                  const mid = (era.start + era.end) / 2;
                   return (
                     <button
                       key={era.id}
                       className={`mf-map-tick${activeEra === era.id ? " active" : ""}`}
-                      style={{ left: `${pct(mid)}%` }}
+                      style={{ left: `${TICK_POS[era.id]}%` }}
                       data-flip={i % 2}
                       title={`${era.id} · ${era.name} (${era.start}–${era.end})`}
                       aria-label={`Jump to ${era.name}, ${era.start} to ${era.end}`}
@@ -316,19 +355,22 @@ export function MusicTimeline() {
                         </div>
                         <div className="mf-desc">{en.description}</div>
                         <div className="mf-meta mf-provrow">
-                          <span
-                            className={`mf-cert mf-cert-${en.certainty}`}
-                            title={`Historical confidence: ${en.certainty}`}
-                          >
-                            {en.certainty}
+                          {en.certainty !== "confirmed" && (
+                            <span className={`mf-cert mf-cert-${en.certainty}`}>
+                              {en.certainty}
+                              <span className="mf-sr"> historical confidence</span>
+                            </span>
+                          )}
+                          <span className="mf-region">
+                            <span className="mf-sr">Region: </span>
+                            {en.region}
                           </span>
-                          <span className="mf-region">{en.region}</span>
-                          <span className="mf-layer" title="Layer 1: model-drafted, not yet source-verified">L1</span>
                           <a
                             className="mf-listen"
                             href={link.href}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label={`${en.title}: ${link.label.toLowerCase()} (opens in a new tab)`}
                           >
                             {link.label}
                             <ExternalLink size={11} aria-hidden />
