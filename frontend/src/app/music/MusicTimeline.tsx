@@ -92,13 +92,18 @@ export function MusicTimeline() {
   }, []);
   useEffect(() => {
     if (!hydrated.current) return;
-    const p = new URLSearchParams();
-    const qq = query.trim();
-    if (qq) p.set("q", qq);
-    if (activeKinds.size) p.set("kinds", [...activeKinds].join(","));
-    const qs = p.toString();
-    const { pathname, hash } = window.location;
-    history.replaceState(null, "", qs ? `${pathname}?${qs}${hash}` : `${pathname}${hash}`);
+    // Debounced so fast typing + chip toggling never brushes Safari's history
+    // rate limit (100 calls / 30s).
+    const t = window.setTimeout(() => {
+      const p = new URLSearchParams();
+      const qq = query.trim();
+      if (qq) p.set("q", qq);
+      if (activeKinds.size) p.set("kinds", [...activeKinds].join(","));
+      const qs = p.toString();
+      const { pathname, hash } = window.location;
+      history.replaceState(null, "", qs ? `${pathname}?${qs}${hash}` : `${pathname}${hash}`);
+    }, 200);
+    return () => window.clearTimeout(t);
   }, [query, activeKinds]);
 
   const view = useMemo(() => {
@@ -398,7 +403,8 @@ export function MusicTimeline() {
               inside Chronograph. It mirrors the two-layer method of this project:
               a fast model-drafted layer first, a scholarly evidence layer (via
               the Scite research swarm) second. Nothing here is a final scholarly
-              claim yet; the &ldquo;Layer 1&rdquo; stamp on each entry marks that.
+              claim yet: each entry shows a place and an honest confidence level,
+              and the Scite evidence pass is what will add real sources.
             </p>
           </footer>
         </main>
