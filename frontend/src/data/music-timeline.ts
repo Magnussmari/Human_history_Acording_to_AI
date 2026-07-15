@@ -2844,15 +2844,6 @@ export const MUSIC_ERAS: MusicEra[] = [
           "note": "recent analytical study of structural design across the Op. 28 set"
         },
         {
-          "title": "Precursive Prolongation in the Préludes of Chopin",
-          "authors": "",
-          "year": "",
-          "journal": "Journal of the Society for Musicology in Ireland",
-          "doi": "10.35561/jsmi03072",
-          "stance": "supporting",
-          "note": "Schenkerian account of prolongational structure in the Preludes"
-        },
-        {
           "title": "Ambiguity of Tonal Meaning in Chopin's Prelude op. 28, no. 22",
           "authors": "",
           "year": "",
