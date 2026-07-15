@@ -7,7 +7,7 @@ PROMPT_TEMPLATE="/workspace/RESEARCH_PROMPT.md"
 
 # Fallback for non-Docker runs
 if [ ! -f "$PROMPT_TEMPLATE" ]; then
-  PROMPT_TEMPLATE="$HOME/Human_history/RESEARCH_PROMPT.md"
+  PROMPT_TEMPLATE="$(cd "$(dirname "$0")/.." && pwd)/RESEARCH_PROMPT.md"
 fi
 
 if [ "$YEAR" -lt 0 ]; then

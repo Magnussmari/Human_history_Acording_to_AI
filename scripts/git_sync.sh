@@ -5,7 +5,7 @@
 set -eu
 
 BASE="/workspace"
-[ ! -d "$BASE/.git" ] && BASE="$HOME/Human_history"
+[ ! -d "$BASE/.git" ] && BASE="$(cd "$(dirname "$0")/.." && pwd)"
 
 cd "$BASE"
 

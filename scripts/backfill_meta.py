@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path(os.environ.get("BASE_DIR", os.path.expanduser("~/Human_history")))
+BASE = Path(os.environ.get("BASE_DIR", Path(__file__).resolve().parent.parent))
 JSON_DIR = BASE / "outputs" / "json"
 
 updated = 0
