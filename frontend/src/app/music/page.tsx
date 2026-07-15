@@ -8,11 +8,11 @@ import { MusicTimeline } from "./MusicTimeline";
 export const metadata: Metadata = {
   title: "Classical Music & Opera",
   description:
-    "A timeline of Western classical music and opera in twenty-nine eras, from Gregorian plainchant to twenty-first-century opera. A Layer 1 draft inside Chronograph, pending scholarly evidence enrichment.",
+    "A timeline of Western classical music and opera in twenty-nine eras, from Gregorian plainchant to twenty-first-century opera. Model-drafted Layer 1, evidenced by 162 peer-reviewed sources via Scite (Layer 2).",
   openGraph: {
     title: "A Timeline of Classical Music & Opera · Chronograph",
     description:
-      "Twenty-nine eras of Western classical music and opera, from plainchant to contemporary opera. Model-drafted Layer 1, awaiting scholarly evidence.",
+      "Twenty-nine eras of Western classical music and opera, from plainchant to contemporary opera. Model-drafted Layer 1 with per-era scholarly evidence: 162 peer-reviewed sources.",
     url: "/music",
   },
 };

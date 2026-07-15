@@ -345,7 +345,11 @@ export function MusicTimeline() {
               </div>
 
               {era.evidence && era.evidence.coverage !== "none" && (
-                <div className="mf-evidence">
+                <div
+                  className="mf-evidence"
+                  role="region"
+                  aria-label={`Scholarly evidence for ${era.name}`}
+                >
                   <div className="mf-ev-head">
                     <span className="mf-ev-label">Scholarly evidence</span>
                     <span className={`mf-ev-cov mf-ev-cov-${era.evidence.coverage}`}>
