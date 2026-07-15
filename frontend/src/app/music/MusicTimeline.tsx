@@ -315,8 +315,15 @@ export function MusicTimeline() {
                           </span>
                         </div>
                         <div className="mf-desc">{en.description}</div>
-                        <div className="mf-meta" style={{ marginTop: "8px" }}>
-                          <span className="mf-layer">Layer 1 · unsourced</span>
+                        <div className="mf-meta mf-provrow">
+                          <span
+                            className={`mf-cert mf-cert-${en.certainty}`}
+                            title={`Historical confidence: ${en.certainty}`}
+                          >
+                            {en.certainty}
+                          </span>
+                          <span className="mf-region">{en.region}</span>
+                          <span className="mf-layer" title="Layer 1: model-drafted, not yet source-verified">L1</span>
                           <a
                             className="mf-listen"
                             href={link.href}
