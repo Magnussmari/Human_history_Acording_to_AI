@@ -42,6 +42,7 @@ const SPAN_MAX = Math.max(...SORTED_ERAS.map((e) => e.end));
 const OPERA_COUNT = SORTED_ERAS.flatMap((e) => e.entries).filter(
   (e) => e.kind === "opera",
 ).length;
+const SOURCE_COUNT = SORTED_ERAS.reduce((n, e) => n + (e.evidence?.sources.length ?? 0), 0);
 
 // Minimap tick positions with a collision-nudge, so overlapping eras (18/19 and
 // 23/24 share a midpoint) each stay clickable instead of stacking.
@@ -131,6 +132,7 @@ export function MusicTimeline() {
     { n: String(TOTAL_ENTRIES), l: "Entries" },
     { n: `${SPAN_MIN} – ${SPAN_MAX}`, l: "Year span" },
     { n: String(OPERA_COUNT), l: "Operas" },
+    { n: String(SOURCE_COUNT), l: "Sources" },
   ];
 
   // Scroll-spy. Hidden (display:none) sections never intersect, so the active
@@ -247,10 +249,12 @@ export function MusicTimeline() {
             <div className="mf-prov">
               <span className="dot">◆</span>
               <span>
-                <b>Layer 1, an initial draft.</b> This chronicle was drawn from
-                well-established music history to be explored and refined. A
-                scholarly evidence layer (peer-reviewed, citation-checked) is the
-                next pass. Dates marked &ldquo;c.&rdquo; are approximate.
+                <b>Two layers, honestly labelled.</b> The timeline itself is
+                Layer 1 (drawn from well-established music history). Each era also
+                carries Layer 2: {SOURCE_COUNT} peer-reviewed sources gathered by a
+                29-agent Scite research swarm, with real DOIs, retraction-checked
+                and zero fabricated citations. Confidence levels and &ldquo;c.&rdquo;
+                dates remain Layer 1 judgements.
               </span>
             </div>
 
@@ -339,6 +343,54 @@ export function MusicTimeline() {
                   </div>
                 </div>
               </div>
+
+              {era.evidence && era.evidence.coverage !== "none" && (
+                <div className="mf-evidence">
+                  <div className="mf-ev-head">
+                    <span className="mf-ev-label">Scholarly evidence</span>
+                    <span className={`mf-ev-cov mf-ev-cov-${era.evidence.coverage}`}>
+                      {era.evidence.coverage} coverage
+                    </span>
+                    <span className="mf-ev-count">
+                      {era.evidence.sources.length} sources · Scite
+                    </span>
+                  </div>
+                  <p className="mf-ev-synth">{era.evidence.synthesis}</p>
+                  <ul className="mf-ev-sources">
+                    {era.evidence.sources.map((s) => (
+                      <li key={s.doi} className="mf-ev-src">
+                        <a
+                          href={`https://doi.org/${s.doi}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {s.title}
+                        </a>
+                        <span className={`mf-ev-stance mf-ev-stance-${s.stance}`}>
+                          {s.stance}
+                        </span>
+                        <span className="mf-ev-srcmeta">
+                          {[s.authors, s.year, s.journal].filter(Boolean).join(" · ")}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                  {era.evidence.contested.length > 0 && (
+                    <div className="mf-ev-contested">
+                      <span className="mf-ev-label">Contested</span>
+                      <ul>
+                        {era.evidence.contested.map((c, i) => (
+                          <li key={i}>
+                            {c.claim}
+                            {c.note ? `. ${c.note}` : ""}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              )}
+
               <ol className="mf-entries">
                 {entries.map(({ en, visible: evis }) => {
                   const k = KINDS[en.kind] ?? KINDS.work;
@@ -398,13 +450,14 @@ export function MusicTimeline() {
 
           <footer className="mf-foot">
             <p>
-              <b>How this was made.</b> Twenty-nine eras were generated in
-              parallel by a seven-agent swarm on 15 July 2026, then rendered here
-              inside Chronograph. It mirrors the two-layer method of this project:
-              a fast model-drafted layer first, a scholarly evidence layer (via
-              the Scite research swarm) second. Nothing here is a final scholarly
-              claim yet: each entry shows a place and an honest confidence level,
-              and the Scite evidence pass is what will add real sources.
+              <b>How this was made.</b> The timeline was drafted by a seven-agent
+              swarm, enriched with place and confidence by a second, then evidenced
+              by a third: a 29-agent Scite MCP research swarm that gathered{" "}
+              {SOURCE_COUNT} peer-reviewed sources across all 29 eras on 15 July
+              2026. Every DOI was retrieved live from Scite (zero fabricated
+              citations), checked for retractions, and validated. Follow any source
+              link to the paper. Layer 1 remains model-drafted; Layer 2 is the
+              real scholarship on top.
             </p>
           </footer>
         </main>
