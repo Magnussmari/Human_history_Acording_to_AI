@@ -81,9 +81,14 @@ export function MusicTimeline() {
   // shared link preserves search + active kinds (era hash deep-links already work).
   const hydrated = useRef(false);
   useEffect(() => {
+    // Restore from the URL after mount. This is the hydration-safe pattern:
+    // reading window.location in a useState initializer would diverge between
+    // the server ("") and client render, causing a hydration mismatch. Syncing
+    // from an external system (the URL) on mount is a legitimate effect.
     const p = new URLSearchParams(window.location.search);
     const qp = p.get("q");
     const kp = p.get("kinds");
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional URL restore, see above
     if (qp) setQuery(qp);
     if (kp) {
       const ks = kp.split(",").filter((k): k is MusicEntryKind => k in KINDS);
