@@ -1,0 +1,341 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-07-15
+ */
+"use client";
+
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Search } from "lucide-react";
+import { MUSIC_ERAS, type MusicEntryKind } from "@/data/music-timeline";
+import "./music.css";
+
+const KINDS: Record<MusicEntryKind, { label: string; varName: string }> = {
+  opera: { label: "Opera", varName: "--mf-opera" },
+  work: { label: "Work", varName: "--mf-work" },
+  composer: { label: "Composer", varName: "--mf-composer" },
+  innovation: { label: "Innovation", varName: "--mf-innovation" },
+  institution: { label: "Institution", varName: "--mf-institution" },
+  event: { label: "Event", varName: "--mf-event" },
+};
+
+const KIND_ORDER = Object.keys(KINDS) as MusicEntryKind[];
+
+// Century minimap axis: span the full corpus, 850 to 2025.
+const AXIS_MIN = 850;
+const AXIS_MAX = 2025;
+const CENTURIES = [900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000];
+const pct = (year: number) =>
+  ((Math.max(AXIS_MIN, Math.min(AXIS_MAX, year)) - AXIS_MIN) / (AXIS_MAX - AXIS_MIN)) * 100;
+
+export default function MusicTimelinePage() {
+  const [activeKinds, setActiveKinds] = useState<Set<MusicEntryKind>>(new Set());
+  const [query, setQuery] = useState("");
+  const [activeEra, setActiveEra] = useState<string>(MUSIC_ERAS[0]?.id ?? "");
+  const searchRef = useRef<HTMLInputElement>(null);
+
+  const q = query.trim().toLowerCase();
+
+  // Precompute visibility per era / entry.
+  const view = useMemo(() => {
+    return MUSIC_ERAS.map((era) => {
+      const entries = era.entries
+        .slice()
+        .sort((a, b) => a.year - b.year)
+        .map((en) => {
+          const okKind = activeKinds.size === 0 || activeKinds.has(en.kind);
+          const okText =
+            !q ||
+            (en.title + " " + en.composer + " " + en.description)
+              .toLowerCase()
+              .includes(q);
+          return { en, visible: okKind && okText };
+        });
+      const shown = entries.filter((e) => e.visible).length;
+      return { era, entries, visible: shown > 0 };
+    });
+  }, [activeKinds, q]);
+
+  const anyVisible = view.some((v) => v.visible);
+
+  const stats = useMemo(() => {
+    const all = MUSIC_ERAS.flatMap((e) => e.entries);
+    const yrs = all.map((e) => e.year);
+    return [
+      { n: String(MUSIC_ERAS.length), l: "Eras" },
+      { n: String(all.length), l: "Entries" },
+      { n: `${Math.min(...yrs)} – ${Math.max(...yrs)}`, l: "Year span" },
+      { n: String(all.filter((e) => e.kind === "opera").length), l: "Operas" },
+    ];
+  }, []);
+
+  // Scroll-spy: track the era nearest the viewport centre.
+  useEffect(() => {
+    const sections = Array.from(
+      document.querySelectorAll<HTMLElement>("section.mf-era"),
+    );
+    const spy = new IntersectionObserver(
+      (es) => {
+        es.forEach((e) => {
+          if (e.isIntersecting) setActiveEra((e.target as HTMLElement).dataset.era ?? "");
+        });
+      },
+      { rootMargin: "-45% 0px -50% 0px", threshold: 0 },
+    );
+    sections.forEach((s) => spy.observe(s));
+    return () => spy.disconnect();
+  }, []);
+
+  // Reveal entries on scroll, with a fallback that guarantees visibility.
+  useEffect(() => {
+    const rows = Array.from(document.querySelectorAll<HTMLElement>(".mf-entry"));
+    const io = new IntersectionObserver(
+      (es) => {
+        es.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -6% 0px", threshold: 0.04 },
+    );
+    rows.forEach((r) => io.observe(r));
+    const fallback = window.setTimeout(() => {
+      rows.forEach((r) => r.classList.add("in"));
+    }, 1400);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(fallback);
+    };
+  }, []);
+
+  // Keyboard: "/" focuses search, Esc clears.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "/" && document.activeElement !== searchRef.current) {
+        e.preventDefault();
+        searchRef.current?.focus();
+      } else if (e.key === "Escape" && document.activeElement === searchRef.current) {
+        setQuery("");
+        searchRef.current?.blur();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  const toggleKind = (k: MusicEntryKind) =>
+    setActiveKinds((prev) => {
+      const next = new Set(prev);
+      if (next.has(k)) next.delete(k);
+      else next.add(k);
+      return next;
+    });
+
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(`mf-era-${id}`);
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  return (
+    <div className="mf">
+      <div className="mf-wrap">
+        {/* rail */}
+        <aside className="mf-rail">
+          <div className="mf-brand">
+            <div className="mark">Musica &amp; Opera</div>
+            <div className="sub">A timeline of the Western tradition</div>
+          </div>
+          <nav className="mf-railscroll" aria-label="Eras">
+            {view.map(({ era, visible }) => (
+              <button
+                key={era.id}
+                className={`mf-rlink${activeEra === era.id ? " active" : ""}${
+                  !visible ? " dim" : ""
+                }`}
+                onClick={() => scrollTo(era.id)}
+              >
+                <span className="n">{era.id}</span>
+                <span className="t">
+                  {era.name}
+                  <span className="yr">
+                    {era.start}–{era.end}
+                  </span>
+                </span>
+              </button>
+            ))}
+          </nav>
+        </aside>
+
+        {/* main */}
+        <main className="mf-main">
+          <header className="mf-hero">
+            <div className="mf-kicker">An Illustrated Chronicle · c.850 – 2025</div>
+            <h1>
+              A Timeline of
+              <br />
+              Classical Music &amp; <em>Opera</em>
+            </h1>
+            <p className="mf-lede">
+              From the first notated plainchant to twenty-first-century opera,
+              twenty-nine eras that carried a single art forward, one invention,
+              one masterwork, one voice at a time.
+            </p>
+            <div className="mf-stats">
+              {stats.map((s) => (
+                <div className="mf-stat" key={s.l}>
+                  <b>{s.n}</b>
+                  <span>{s.l}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mf-prov">
+              <span className="dot">◆</span>
+              <span>
+                <b>Layer 1, an initial draft.</b> This chronicle was drawn from
+                well-established music history to be explored and refined. A
+                scholarly evidence layer (peer-reviewed, citation-checked) is the
+                next pass. Dates marked &ldquo;c.&rdquo; are approximate.
+              </span>
+            </div>
+
+            <nav className="mf-map" aria-label="Century map">
+              <div className="mf-map-track">
+                {CENTURIES.map((c) => (
+                  <div className="mf-map-cent" key={c} style={{ left: `${pct(c)}%` }}>
+                    <span>{c}</span>
+                  </div>
+                ))}
+                {MUSIC_ERAS.map((era, i) => {
+                  const mid = (era.start + era.end) / 2;
+                  return (
+                    <button
+                      key={era.id}
+                      className={`mf-map-tick${activeEra === era.id ? " active" : ""}`}
+                      style={{ left: `${pct(mid)}%` }}
+                      data-flip={i % 2}
+                      title={`${era.id} · ${era.name} (${era.start}–${era.end})`}
+                      aria-label={`Jump to ${era.name}, ${era.start} to ${era.end}`}
+                      onClick={() => scrollTo(era.id)}
+                    >
+                      <span className="lbl">{era.id}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </nav>
+          </header>
+
+          <div className="mf-controls">
+            <div className="row">
+              <label className="mf-search">
+                <Search size={16} aria-hidden />
+                <input
+                  ref={searchRef}
+                  type="text"
+                  placeholder="Search a work, composer, or idea…"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  autoComplete="off"
+                  aria-label="Search the timeline"
+                />
+                <kbd>/</kbd>
+              </label>
+              <div className="mf-chips">
+                {KIND_ORDER.map((k) => (
+                  <button
+                    key={k}
+                    className={`mf-chip${activeKinds.has(k) ? " on" : ""}`}
+                    onClick={() => toggleKind(k)}
+                  >
+                    <span
+                      className="sw"
+                      style={{ background: `var(${KINDS[k].varName})` }}
+                    />
+                    {KINDS[k].label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {view.map(({ era, entries, visible }) => (
+            <section
+              key={era.id}
+              id={`mf-era-${era.id}`}
+              data-era={era.id}
+              className={`mf-era${!visible ? " hidden" : ""}`}
+            >
+              <div className="mf-erahead">
+                <div className="mf-num">{era.id}</div>
+                <div>
+                  <h2 className="mf-eratitle">{era.name}</h2>
+                  <div className="mf-eradates">
+                    {era.start} – {era.end}
+                  </div>
+                  <div className="mf-erablurb">{era.blurb}</div>
+                  <p className="mf-erasummary">{era.summary}</p>
+                  <div className="mf-figs">
+                    {era.key_figures.map((f) => (
+                      <span className="mf-fig" key={f}>
+                        {f}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="mf-entries">
+                {entries.map(({ en, visible: evis }, i) => {
+                  const k = KINDS[en.kind] ?? KINDS.work;
+                  return (
+                    <div
+                      key={`${era.id}-${i}`}
+                      className={`mf-entry${!evis ? " hidden" : ""}`}
+                    >
+                      <span
+                        className="mf-dot"
+                        style={{ borderColor: `var(${k.varName})` }}
+                      />
+                      <div className="yr">{en.year_label || en.year}</div>
+                      <div className="body">
+                        <div className="t">{en.title}</div>
+                        <div className="mf-meta">
+                          <span className="mf-composer">{en.composer}</span>
+                          <span
+                            className="mf-badge"
+                            style={{ background: `var(${k.varName})` }}
+                          >
+                            {k.label}
+                          </span>
+                        </div>
+                        <div className="mf-desc">{en.description}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          ))}
+
+          {!anyVisible && (
+            <div className="mf-noresults" style={{ display: "block" }}>
+              No entries match. Clear the search or filters to see the full
+              timeline.
+            </div>
+          )}
+
+          <footer className="mf-foot">
+            <p>
+              <b>How this was made.</b> Twenty-nine eras were generated in
+              parallel by a seven-agent swarm on 15 July 2026, then rendered here
+              inside Chronograph. It mirrors the two-layer method of this project:
+              a fast model-drafted layer first, a scholarly evidence layer (via
+              the Scite research swarm) second. Nothing here is a final scholarly
+              claim yet.
+            </p>
+          </footer>
+        </main>
+      </div>
+    </div>
+  );
+}
