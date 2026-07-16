@@ -33,6 +33,16 @@ const nextConfig: NextConfig = {
   ],
   async redirects() {
     return [
+      // The canonical home is timeline.sumarhus.com on the sovereign edge. Any
+      // request still hitting the old Vercel host is 301'd there, path preserved.
+      // Host-conditional, so the edge (host = timeline.sumarhus.com) never
+      // redirects itself.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "human-history-acording-to-ai.vercel.app" }],
+        destination: "https://timeline.sumarhus.com/:path*",
+        permanent: true,
+      },
       // Legacy view-toggle URL — the Globe moved to its own /atlas route.
       { source: "/", has: [{ type: "query", key: "view", value: "map" }], destination: "/atlas", permanent: false },
     ];
