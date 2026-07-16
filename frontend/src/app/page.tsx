@@ -15,6 +15,7 @@ import {
   DEFAULT_FILTERS,
 } from "@/lib/data";
 import { fetchEraIndex } from "@/lib/evidence";
+import { mergeMusicEvents } from "@/lib/music-events";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
 import { IntroCard } from "@/components/IntroCard";
@@ -36,8 +37,12 @@ export default function HomePage() {
   const [introOpen, setIntroOpen] = useState(true);
 
   useEffect(() => {
+    // Restore dismissed-intro state from localStorage after mount. Hydration-safe
+    // (localStorage is unavailable during SSR), so this external sync belongs in
+    // an effect, not a useState initializer.
     try {
       if (localStorage.getItem(INTRO_STORAGE_KEY) === "1") {
+        // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional localStorage restore, see above
         setIntroOpen(false);
       }
     } catch {
@@ -60,8 +65,8 @@ export default function HomePage() {
   });
 
   const { data: years, isLoading } = useQuery({
-    queryKey: ["years", manifest?.generated_at],
-    queryFn: () => fetchAllYears(manifest!),
+    queryKey: ["years", manifest?.generated_at, "music-overlay"],
+    queryFn: async () => mergeMusicEvents(await fetchAllYears(manifest!)),
     enabled: !!manifest,
   });
 

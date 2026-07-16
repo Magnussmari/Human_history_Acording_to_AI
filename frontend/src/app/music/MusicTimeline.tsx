@@ -5,12 +5,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
-import { Search, ExternalLink } from "lucide-react";
-import {
-  MUSIC_ERAS,
-  type MusicEntry,
-  type MusicEntryKind,
-} from "@/data/music-timeline";
+import { Search } from "lucide-react";
+import { MUSIC_ERAS, type MusicEntryKind } from "@/data/music-timeline";
 import "./music.css";
 
 const KINDS: Record<MusicEntryKind, { label: string; varName: string }> = {
@@ -58,16 +54,6 @@ const TICK_POS: Record<string, number> = (() => {
   for (const t of arr) map[t.id] = Math.min(t.pos, 99.4);
   return map;
 })();
-
-// A single honest "explore" affordance per entry. Scores and audio for the
-// musical works, an encyclopaedia lookup for events and institutions.
-function exploreLink(en: MusicEntry): { href: string; label: string } {
-  const q = encodeURIComponent(`${en.title} ${en.composer}`.trim());
-  if (en.kind === "opera" || en.kind === "work" || en.kind === "composer") {
-    return { href: `https://imslp.org/wiki/Special:Search?search=${q}`, label: "Scores & audio" };
-  }
-  return { href: `https://en.wikipedia.org/w/index.php?search=${q}`, label: "Read more" };
-}
 
 export function MusicTimeline() {
   const [activeKinds, setActiveKinds] = useState<Set<MusicEntryKind>>(new Set());
@@ -257,9 +243,10 @@ export function MusicTimeline() {
                 <b>Two layers, honestly labelled.</b> The timeline itself is
                 Layer 1 (drawn from well-established music history). Each era also
                 carries Layer 2: {SOURCE_COUNT} peer-reviewed sources gathered by a
-                29-agent Scite research swarm, with real DOIs, retraction-checked
-                and zero fabricated citations. Confidence levels and &ldquo;c.&rdquo;
-                dates remain Layer 1 judgements.
+                29-agent Scite research swarm, then every DOI independently verified
+                against Crossref and DataCite for its real title and authors,
+                retraction-checked, zero fabricated. Confidence levels and
+                &ldquo;c.&rdquo; dates remain Layer 1 judgements.
               </span>
             </div>
 
@@ -380,6 +367,11 @@ export function MusicTimeline() {
                         </span>
                         <span className="mf-ev-srcmeta">
                           {[s.authors, s.year, s.journal].filter(Boolean).join(" · ")}
+                          {s.verified === "crossref" || s.verified === "datacite" ? (
+                            <span className="mf-ev-verified">
+                              {" "}✓ verified via {s.verified === "crossref" ? "Crossref" : "DataCite"}
+                            </span>
+                          ) : null}
                         </span>
                       </li>
                     ))}
@@ -403,7 +395,6 @@ export function MusicTimeline() {
               <ol className="mf-entries">
                 {entries.map(({ en, visible: evis }) => {
                   const k = KINDS[en.kind] ?? KINDS.work;
-                  const link = exploreLink(en);
                   return (
                     <li
                       key={en.title + en.year}
@@ -431,16 +422,6 @@ export function MusicTimeline() {
                             <span className="mf-sr">Region: </span>
                             {en.region}
                           </span>
-                          <a
-                            className="mf-listen"
-                            href={link.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label={`${en.title}: ${link.label.toLowerCase()} (opens in a new tab)`}
-                          >
-                            {link.label}
-                            <ExternalLink size={11} aria-hidden />
-                          </a>
                         </div>
                       </div>
                     </li>
@@ -462,11 +443,11 @@ export function MusicTimeline() {
               <b>How this was made.</b> The timeline was drafted by a seven-agent
               swarm, enriched with place and confidence by a second, then evidenced
               by a third: a 29-agent Scite MCP research swarm that gathered{" "}
-              {SOURCE_COUNT} peer-reviewed sources across all 29 eras on 15 July
-              2026. Every DOI was retrieved live from Scite (zero fabricated
-              citations), checked for retractions, and validated. Follow any source
-              link to the paper. Layer 1 remains model-drafted; Layer 2 is the
-              real scholarship on top.
+              {SOURCE_COUNT} peer-reviewed sources across all 29 eras. Every DOI was
+              then independently verified against Crossref and DataCite, which is
+              where the real title and author names on each source come from, and
+              checked for retractions. Follow any source link to the paper. Layer 1
+              remains model-drafted; Layer 2 is the real scholarship on top.
             </p>
           </footer>
         </main>

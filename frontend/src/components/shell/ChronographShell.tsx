@@ -71,10 +71,10 @@ export function ChronographShell() {
 
         <nav className="chronograph-links" aria-label="Site">
           <Link
-            href="/music"
-            className={"chronograph-link" + (pathname === "/music" ? " on" : "")}
+            href="/updates"
+            className={"chronograph-link" + (pathname === "/updates" ? " on" : "")}
           >
-            Music &amp; Opera
+            Updates
           </Link>
           <Link
             href="/methodology"

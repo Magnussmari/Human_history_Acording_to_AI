@@ -25,6 +25,7 @@ export const CATEGORY_CONFIG: Record<EventCategory, { label: string; color: stri
   environmental: { label: "Environmental", color: "bg-green-700 text-green-100", icon: "leaf" },
   exploration: { label: "Exploration", color: "bg-indigo-600 text-indigo-100", icon: "compass" },
   legal: { label: "Legal", color: "bg-slate-600 text-slate-100", icon: "scale" },
+  musical: { label: "Music & Opera", color: "bg-rose-700 text-rose-100", icon: "music" },
 };
 
 export const CERTAINTY_CONFIG: Record<CertaintyLevel, { label: string; color: string }> = {

@@ -3,7 +3,9 @@ export type DocumentationLevel = "rich" | "moderate" | "sparse" | "minimal" | "n
 export type EventCategory =
   | "political" | "military" | "scientific" | "cultural"
   | "economic" | "demographic" | "technological" | "religious"
-  | "environmental" | "exploration" | "legal";
+  | "environmental" | "exploration" | "legal"
+  // Layer-2 overlay tag: classical music & opera events merged into the timeline.
+  | "musical";
 
 export type CertaintyLevel = "confirmed" | "probable" | "approximate" | "traditional" | "legendary";
 

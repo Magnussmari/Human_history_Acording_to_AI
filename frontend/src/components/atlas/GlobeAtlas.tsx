@@ -78,12 +78,13 @@ interface GlobeAtlasProps {
 
 const CATEGORY_ORDER: EventCategory[] = [
   "political", "military", "cultural", "religious", "economic",
-  "technological", "scientific", "demographic", "environmental", "exploration", "legal",
+  "technological", "scientific", "demographic", "environmental", "exploration", "legal", "musical",
 ];
 const CATEGORY_LABEL: Record<EventCategory, string> = {
   political: "Political", military: "Military", cultural: "Cultural", religious: "Religious",
   economic: "Economic", technological: "Technological", scientific: "Scientific",
   demographic: "Demographic", environmental: "Environmental", exploration: "Exploration", legal: "Legal",
+  musical: "Music & Opera",
 };
 
 const CATEGORY_VAR: Record<EventCategory, string> = CATEGORY_ORDER.reduce((acc, c) => {
