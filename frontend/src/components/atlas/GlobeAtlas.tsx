@@ -76,9 +76,12 @@ interface GlobeAtlasProps {
   yearRange: { oldest: number; newest: number };
 }
 
+// "musical" is intentionally absent from CATEGORY_ORDER: music events carry no
+// coordinates, so they never plot on the globe. Showing a legend toggle that can
+// never match would be a dead control. It stays in the label/var maps for typing.
 const CATEGORY_ORDER: EventCategory[] = [
   "political", "military", "cultural", "religious", "economic",
-  "technological", "scientific", "demographic", "environmental", "exploration", "legal", "musical",
+  "technological", "scientific", "demographic", "environmental", "exploration", "legal",
 ];
 const CATEGORY_LABEL: Record<EventCategory, string> = {
   political: "Political", military: "Military", cultural: "Cultural", religious: "Religious",
@@ -87,7 +90,9 @@ const CATEGORY_LABEL: Record<EventCategory, string> = {
   musical: "Music & Opera",
 };
 
-const CATEGORY_VAR: Record<EventCategory, string> = CATEGORY_ORDER.reduce((acc, c) => {
+const CATEGORY_VAR: Record<EventCategory, string> = (
+  Object.keys(CATEGORY_LABEL) as EventCategory[]
+).reduce((acc, c) => {
   acc[c] = `--gs-cat-${c}`;
   return acc;
 }, {} as Record<EventCategory, string>);

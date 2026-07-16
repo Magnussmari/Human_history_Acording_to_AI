@@ -13,8 +13,10 @@ import { MUSIC_ERAS } from "@/data/music-timeline";
 function buildMusicEvents(): Map<number, HistoryEvent[]> {
   const byYear = new Map<number, HistoryEvent[]>();
   for (const era of MUSIC_ERAS) {
+    // Era-level scholarly evidence, shared across the era's events (labelled as
+    // such so it does not read as documenting one specific event). Full panel: /music.
     const eraSources = (era.evidence?.sources ?? []).slice(0, 4).map((s) => ({
-      name: `${s.title}${s.authors ? ` — ${s.authors}` : ""}${s.doi ? ` (doi:${s.doi})` : ""}`,
+      name: `Era evidence: ${s.title}${s.authors ? `, ${s.authors}` : ""}${s.doi ? ` (doi:${s.doi})` : ""}`,
       type: "scholarly",
       contemporary: false,
     }));

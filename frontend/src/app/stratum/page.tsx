@@ -8,6 +8,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion } from "motion/react";
 import { fetchManifest, fetchAllYears } from "@/lib/data";
+import { mergeMusicEvents } from "@/lib/music-events";
 import { StratumView } from "@/components/stratum/StratumView";
 
 export default function StratumPage() {
@@ -19,6 +20,7 @@ export default function StratumPage() {
   const { data: years, isLoading } = useQuery({
     queryKey: ["years", manifest?.generated_at],
     queryFn: () => fetchAllYears(manifest!),
+    select: mergeMusicEvents,
     enabled: !!manifest,
   });
 

@@ -162,7 +162,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "sources": [
         {
           "title": "The emergence of a medieval pitch concept",
-          "authors": "STANDLEY HOWELL",
+          "authors": "Standley Howell",
           "year": "2020",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s096113712000011x",
@@ -341,7 +341,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Jerome of Moray: a Scottish Dominican and the evolution of Parisian music theory 1220–1280",
-          "authors": "CONSTANT J. MEWS",
+          "authors": "Constant J. Mews",
           "year": "2022",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s0961137122000092",
@@ -478,7 +478,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "sources": [
         {
           "title": "Karen Desmond, Music and the moderni, 1300–1350: The ars nova in Theory and Practice. Cambridge: Cambridge University Press, 2018. xxiii + 300 pp. £75. ISBN 978 1 107 16709 4.",
-          "authors": "LAWRENCE EARP",
+          "authors": "Lawrence Earp",
           "year": "2019",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s0961137119000068",
@@ -498,7 +498,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Les doubles hoqués et les motés: Guillaume de Machaut's Hoquetus David",
-          "authors": "JARED C. HARTT",
+          "authors": "Jared C. Hartt",
           "year": "2012",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s0961137112000022",
@@ -508,7 +508,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "The mimetic basis of pure music in Machaut's refrain songs: part 2, musical abstraction",
-          "authors": "DAVID MAW",
+          "authors": "David Maw",
           "year": "2020",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s0961137120000091",
@@ -656,7 +656,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "The form of the monostrophic ballata as a frame for a logical demonstration",
-          "authors": "ELENA ABRAMOV-VAN RIJK",
+          "authors": "Elena Abramov-Van Rijk",
           "year": "2017",
           "journal": "Plainsong and Medieval Music",
           "doi": "10.1017/s0961137116000085",
@@ -1290,7 +1290,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "sources": [
         {
           "title": "“seconda pratica”: a background to monteverdi's madrigals",
-          "authors": "DENIS ARNOLD",
+          "authors": "Denis Arnold",
           "year": "1957",
           "journal": "Music and Letters",
           "doi": "10.1093/ml/xxxviii.4.341",
@@ -1300,7 +1300,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "KeepingUp with theWords: ExpressivePhraseOverlapping in theLateItalianMadrigal",
-          "authors": "JOHN TURCI‐ESCOBAR",
+          "authors": "John Turci‐escobar",
           "year": "2011",
           "journal": "Music Analysis",
           "doi": "10.1111/j.1468-2249.2011.00303.x",
@@ -1453,7 +1453,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Vincenzo galilei and some links between “pseudo-monody” and monody",
-          "authors": "CLAUDE V. PALISCA",
+          "authors": "Claude V. Palisca",
           "year": "1960",
           "journal": "The Musical Quarterly",
           "doi": "10.1093/mq/xlvi.3.344",
@@ -1580,7 +1580,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "synthesis": "Scholarship confirms that opera emerged around 1600 in Florence from the Camerata's stile rappresentativo, with Peri and Rinuccini's Euridice (1600) standing as the earliest surviving opera and its programmatic prologue enacting music as dramatic representation. Comparative studies place Peri's recitative-based Euridice alongside Monteverdi's L'Orfeo (1607) as foundational recitative operas, while Monteverdi's practice grows out of the \"seconda pratica\" aesthetic that subordinated counterpoint to the expression of the text. For the Venetian phase, studies of L'incoronazione di Poppea (1642) treat it both as historically grounded drama drawn from Tacitus and as a high point of Monteverdi's mimetic, word-driven musical art. Coverage is moderate: multiple peer-reviewed sources address Euridice, L'Orfeo, and Poppea directly, though Cavalli's Giasone (1649) and the c.1598 Dafne are only reachable through broader seventeenth-century-opera surveys rather than dedicated studies in this corpus.",
       "sources": [
         {
-          "title": "“Thus changed, I return…”: The Programmatic Prologue of the First Surviving Opera <em>Euridice</em> (1600) by Ottavio Rinuccini and Jacopo Peri. Euripidean, Senecan Poetics and Music as Representation",
+          "title": "“Thus changed, I return…”: The Programmatic Prologue of the First Surviving Opera Euridice (1600) by Ottavio Rinuccini and Jacopo Peri. Euripidean, Senecan Poetics and Music as Representation",
           "authors": "Georgios P. Tsomis",
           "year": "2012",
           "journal": "Letras Clássicas",
@@ -1621,7 +1621,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "“seconda pratica”: a background to monteverdi's madrigals",
-          "authors": "DENIS ARNOLD",
+          "authors": "Denis Arnold",
           "year": "1957",
           "journal": "Music and Letters",
           "doi": "10.1093/ml/xxxviii.4.341",
@@ -1925,7 +1925,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "A geography of the trio sonata: new perspectives université de fribourg, 21–22 may 2015",
-          "authors": "MICHAEL MEYER",
+          "authors": "Michael Meyer",
           "year": "2016",
           "journal": "Eighteenth Century Music",
           "doi": "10.1017/s1478570615000676",
@@ -2089,7 +2089,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Domenico Scarlatti, Escape Artist: Sightings of His ‘Mixed Style’ towards the End of the Eighteenth Century",
-          "authors": "JANET SCHMALFELDT",
+          "authors": "Janet Schmalfeldt",
           "year": "2019",
           "journal": "Music Analysis",
           "doi": "10.1111/musa.12139",
@@ -2099,7 +2099,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "DAVID SCHULENBERG THE MUSIC OF CARL PHILIPP EMANUEL BACH Rochester, NY: University of Rochester Press, 2014 pp. xv + 416, isbn 978 1 58046 481 9",
-          "authors": "DARRELL M. BERG",
+          "authors": "Darrell M. Berg",
           "year": "2017",
           "journal": "Eighteenth Century Music",
           "doi": "10.1017/s1478570616000373",
@@ -2257,7 +2257,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Iphigénie en haïti: performing gluck's paris operas in the french colonial caribbean",
-          "authors": "JULIA PREST",
+          "authors": "Julia Prest",
           "year": "2017",
           "journal": "Eighteenth Century Music",
           "doi": "10.1017/s1478570616000282",
@@ -2419,7 +2419,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Permeable boundaries in Mozart's Don Giovanni",
-          "authors": "LAUREL ELIZABETH ZEISS",
+          "authors": "Laurel Elizabeth Zeiss",
           "year": "2001",
           "journal": "Cambridge Opera Journal",
           "doi": "10.1017/s095458670100115x",
@@ -2576,7 +2576,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "sources": [
         {
           "title": "Beethoven's Earliest Sketches for the Eroica Symphony",
-          "authors": "LEWIS LOCKWOOD",
+          "authors": "Lewis Lockwood",
           "year": "1981",
           "journal": "The Musical Quarterly",
           "doi": "10.1093/mq/lxvii.4.457",
@@ -2606,7 +2606,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Heroism in the age of beethoven",
-          "authors": "ERICK ARENAS",
+          "authors": "Erick Arenas",
           "year": "2013",
           "journal": "Eighteenth Century Music",
           "doi": "10.1017/s1478570613000304",
@@ -2904,7 +2904,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "synthesis": "Scholarship in Scite clusters strongly around three landmark works of this era. Berlioz's Symphonie fantastique (1830) anchors a dedicated Cambridge Music Handbook, reflecting its canonical status as a programmatic orchestral work built on the recurring idée fixe. The richest recent musicology concerns Schumann's Dichterliebe (1840), where analysts debate the song cycle's narrative voice and the \"unreliable narrator\" that Schumann builds from Heine's poetry through tonal and structural means. Chopin's Préludes, Op. 28 (1839) sustain an active theory literature on their tonal ambiguity, precursive prolongation, and the cycle-versus-miniature question. Coverage for Mendelssohn's Elijah and Liszt's Les préludes did not surface in these searches and should be treated as thin in this index.",
       "sources": [
         {
-          "title": "Berlioz: <i>Symphonie Fantastique</i>",
+          "title": "Berlioz: Symphonie Fantastique",
           "authors": "Julian Rushton",
           "year": "2023",
           "journal": "",
@@ -3563,7 +3563,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "sources": [
         {
           "title": "Form and Orbital Tonality in the Finale of Bruckner's Seventh Symphony",
-          "authors": "JULIAN HORTON",
+          "authors": "Julian Horton",
           "year": "2018",
           "journal": "Music Analysis",
           "doi": "10.1111/musa.12124",
@@ -3573,7 +3573,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "The Last Act of Brahms's Late Turn to F Major",
-          "authors": "ROWLAND MOSELEY",
+          "authors": "Rowland Moseley",
           "year": "2018",
           "journal": "Music Analysis",
           "doi": "10.1111/musa.12122",
@@ -3745,7 +3745,7 @@ export const MUSIC_ERAS: MusicEra[] = [
       "synthesis": "Peer-reviewed musicology confirms this era's contours. Scholarship treats Mascagni's Cavalleria rusticana (1890), as an operatic adaptation of Giovanni Verga's story and drama, as the founding work of Italian operatic verismo, with the \"delicate question of innovation\" driving debate about how radically it broke from prior operatic convention (Della Seta, 2018). The Mascagni-Leoncavallo pairing of Cavalleria rusticana and Pagliacci (1892) is canonized as the twinned emblem of the verismo genre, while vocal-pedagogy research argues verismo's heightened dramatic declamation placed new demands on singers that bel canto technique helped protect. Puccini scholarship situates La Boheme (1896), Tosca (1900), and Madama Butterfly (1904) at the intersection of realism, nationalism, and modernity, with recent work reading Butterfly through orientalism and imperialism and Puccini's heroines through a feminist lens, indicating these operas remain contested critical objects rather than settled masterpieces.",
       "sources": [
         {
-          "title": "Verismo Through the Genres, or \"<em>Cavallerie rusticane</em>\"- The Delicate Question of Innovation in the Operatic Adaptations of Giovanni Verga's Story and Drama by Pietro Mascagni (1890) and Domenico Monleone (1907)",
+          "title": "Verismo Through the Genres, or \"Cavallerie rusticane\"- The Delicate Question of Innovation in the Operatic Adaptations of Giovanni Verga's Story and Drama by Pietro Mascagni (1890) and Domenico Monleone (1907)",
           "authors": "Jonathan Hiller",
           "year": "2009",
           "journal": "Carte Italiane",
@@ -3775,7 +3775,7 @@ export const MUSIC_ERAS: MusicEra[] = [
           "verified": "crossref"
         },
         {
-          "title": "Review of Puccini's Operas from a Feminist Perspective - Focusing on <La Bohème> and <Madama Butterfly>-",
+          "title": "Review of Puccini's Operas from a Feminist Perspective - Focusing on and -",
           "authors": "Cheul Choi, Seung Kwon Lee",
           "year": "2022",
           "journal": "Asia-pacific Journal of Convergent Research Interchange",
@@ -3942,7 +3942,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "‘A Science of Tonal Love’? Drive and Desire in Twentieth‐Century Harmony: the Erotics of Skryabin",
-          "authors": "KENNETH SMITH",
+          "authors": "Kenneth Smith",
           "year": "2010",
           "journal": "Music Analysis",
           "doi": "10.1111/j.1468-2249.2011.00328.x",
@@ -4800,7 +4800,7 @@ export const MUSIC_ERAS: MusicEra[] = [
         },
         {
           "title": "Time and space in the opera \"doctor atomic\" by john adams: to the problem of performativity",
-          "authors": "Alexandra V. SHORNIKOVA",
+          "authors": "Alexandra V. Shornikova",
           "year": "2021",
           "journal": "South-Russian musical anthology",
           "doi": "10.52469/20764766_2021_04_45",

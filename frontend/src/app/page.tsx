@@ -65,8 +65,9 @@ export default function HomePage() {
   });
 
   const { data: years, isLoading } = useQuery({
-    queryKey: ["years", manifest?.generated_at, "music-overlay"],
-    queryFn: async () => mergeMusicEvents(await fetchAllYears(manifest!)),
+    queryKey: ["years", manifest?.generated_at],
+    queryFn: () => fetchAllYears(manifest!),
+    select: mergeMusicEvents,
     enabled: !!manifest,
   });
 

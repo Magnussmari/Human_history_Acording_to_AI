@@ -32,6 +32,8 @@ const UPDATES: Update[] = [
         section. Its 233 events now sit inside the main year-by-year timeline,
         tagged <strong>Music &amp; Opera</strong>, filterable like any other
         category. The standalone header menu was removed in favour of this tag.
+        The full per-era scholarly folio, with all sources, lives at the{" "}
+        <Link href="/music">music &amp; opera folio</Link>.
       </>
     ),
     tags: ["timeline", "music & opera", "tagging"],
@@ -94,10 +96,10 @@ export default function UpdatesPage() {
         </p>
 
         <ol className="up-list">
-          {UPDATES.map((u, i) => (
-            <li className="up-item" key={i}>
+          {UPDATES.map((u) => (
+            <li className="up-item" key={`${u.date}-${u.title}`}>
               <div className="up-date">
-                {u.date}
+                <time dateTime={u.date}>{u.date}</time>
                 {u.version ? <span className="up-ver">{u.version}</span> : null}
               </div>
               <div>

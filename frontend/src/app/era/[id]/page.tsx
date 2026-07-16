@@ -11,6 +11,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, BookOpen, Info, GraduationCap } from "lucide-react";
 import { fetchEra, formatEraRange } from "@/lib/evidence";
 import { fetchManifest, fetchAllYears } from "@/lib/data";
+import { mergeMusicEvents } from "@/lib/music-events";
 import type {
   EraBundle,
   EraScholarlyPhase3,
@@ -53,6 +54,7 @@ export default function EraPage() {
   const { data: allYears } = useQuery({
     queryKey: ["years", manifest?.generated_at],
     queryFn: () => fetchAllYears(manifest!),
+    select: mergeMusicEvents,
     enabled: !!manifest && !!era,
   });
 

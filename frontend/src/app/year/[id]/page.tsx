@@ -9,6 +9,7 @@ import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { fetchManifest, fetchAllYears } from "@/lib/data";
+import { mergeMusicEvents } from "@/lib/music-events";
 import { formatYear } from "@/lib/constants";
 import { NotebookYearFolio } from "@/components/notebook/NotebookYearFolio";
 
@@ -24,6 +25,7 @@ export default function YearPage() {
   const { data: allYears, isLoading } = useQuery({
     queryKey: ["years", manifest?.generated_at],
     queryFn: () => fetchAllYears(manifest!),
+    select: mergeMusicEvents,
     enabled: !!manifest,
   });
 
