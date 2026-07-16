@@ -25,7 +25,8 @@ export function NotebookYearRow({ year, index }: NotebookYearRowProps) {
     { label: year.documentation_level, color: "", bars: 1 };
   const headline = year.events[0];
   const uniqueCats = Array.from(new Set(year.events.map((e) => e.category))).slice(0, 5);
-  const sourceCount = year.events.reduce((a, e) => a + e.sources.length, 0);
+  const sourceCount =
+    year.source_count ?? year.events.reduce((a, e) => a + e.sources.length, 0);
 
   return (
     <Link href={`/year/${year.year}`} className="notebook-row-link" tabIndex={0}>

@@ -41,6 +41,26 @@ export async function fetchAllYears(manifest: ChunkManifest): Promise<YearData[]
   return chunks.flat().sort((a, b) => b.year - a.year);
 }
 
+/**
+ * Lightweight timeline for overview views (home, stratum): every year with its
+ * events' title/region/category/certainty/key_figures but WITHOUT the heavy
+ * description/sources/era_context. ~0.8 MB gzipped vs ~6 MB for the full corpus.
+ * Detail (descriptions, sources) is loaded per-year via fetchYearFull.
+ */
+export async function fetchTimelineIndex(): Promise<YearData[]> {
+  const res = await fetch(`${DATA_BASE_URL}/timeline-index.json`);
+  if (!res.ok) return [];
+  return res.json();
+}
+
+/** Fetch the single chunk containing a given year (for the year detail page). */
+export async function fetchYearFull(manifest: ChunkManifest, year: number): Promise<YearData | undefined> {
+  const chunk = manifest.chunks.find(c => year <= c.start && year >= c.end);
+  if (!chunk) return undefined;
+  const years = await fetchChunk(chunk.file);
+  return years.find(y => y.year === year);
+}
+
 export async function fetchAllYearsForLocale(manifest: ChunkManifest, locale: Locale): Promise<YearData[]> {
   const chunks = await Promise.all(
     manifest.chunks.map(c => fetchChunkForLocale(c.file, locale))

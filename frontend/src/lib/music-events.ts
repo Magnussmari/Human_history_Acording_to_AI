@@ -49,13 +49,22 @@ const MUSIC_EVENTS = buildMusicEvents();
 /** Total number of music events overlaid onto the timeline. */
 export const MUSIC_EVENT_COUNT = [...MUSIC_EVENTS.values()].reduce((n, a) => n + a.length, 0);
 
+/** Music events for a single year (for the per-year detail page). */
+export function musicEventsForYear(year: number): HistoryEvent[] {
+  return MUSIC_EVENTS.get(year) ?? [];
+}
+
+const sourcesOf = (evs: HistoryEvent[]) => evs.reduce((n, e) => n + e.sources.length, 0);
+
 /** Merge music events into the corpus years, tagged "musical" and filterable. */
 export function mergeMusicEvents(years: YearData[]): YearData[] {
   if (MUSIC_EVENTS.size === 0) return years;
   const present = new Set(years.map((y) => y.year));
   const out = years.map((y) => {
     const add = MUSIC_EVENTS.get(y.year);
-    return add ? { ...y, events: [...y.events, ...add] } : y;
+    return add
+      ? { ...y, events: [...y.events, ...add], source_count: (y.source_count ?? 0) + sourcesOf(add) }
+      : y;
   });
   for (const [year, evs] of MUSIC_EVENTS) {
     if (!present.has(year)) {

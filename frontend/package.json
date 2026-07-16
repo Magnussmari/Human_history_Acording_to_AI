@@ -9,7 +9,8 @@
     "lint": "eslint",
     "aggregate:years": "cd .. && node frontend/scripts/aggregate-data.mjs",
     "aggregate:evidence": "cd .. && node frontend/scripts/aggregate-evidence.mjs",
-    "aggregate": "npm run aggregate:years && npm run aggregate:evidence",
+    "aggregate:index": "node scripts/build-timeline-index.mjs",
+    "aggregate": "npm run aggregate:years && npm run aggregate:evidence && npm run aggregate:index",
     "prebuild": "npm run aggregate"
   },
   "dependencies": {

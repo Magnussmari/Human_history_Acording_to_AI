@@ -8,8 +8,8 @@ import { useParams } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { fetchManifest, fetchAllYears } from "@/lib/data";
-import { mergeMusicEvents } from "@/lib/music-events";
+import { fetchManifest, fetchYearFull } from "@/lib/data";
+import { musicEventsForYear } from "@/lib/music-events";
 import { formatYear } from "@/lib/constants";
 import { NotebookYearFolio } from "@/components/notebook/NotebookYearFolio";
 
@@ -22,14 +22,29 @@ export default function YearPage() {
     queryFn: fetchManifest,
   });
 
-  const { data: allYears, isLoading } = useQuery({
-    queryKey: ["years", manifest?.generated_at],
-    queryFn: () => fetchAllYears(manifest!),
-    select: mergeMusicEvents,
-    enabled: !!manifest,
+  const { data: year, isLoading } = useQuery({
+    queryKey: ["year-full", yearId, manifest?.generated_at],
+    queryFn: async () => {
+      const base = await fetchYearFull(manifest!, yearId);
+      const music = musicEventsForYear(yearId);
+      if (!base) {
+        if (music.length === 0) return undefined;
+        return {
+          year: yearId,
+          year_label: yearId < 0 ? `${-yearId} BCE` : `${yearId} CE`,
+          era_context: "",
+          documentation_level: "sparse" as const,
+          geographic_coverage_gaps: [],
+          events: music,
+          disconfirming_evidence: "none identified",
+          historiographic_note: "",
+          graph_edges: [],
+        };
+      }
+      return { ...base, events: [...base.events, ...music] };
+    },
+    enabled: !!manifest && !Number.isNaN(yearId),
   });
-
-  const year = allYears?.find((y) => y.year === yearId);
 
   if (isLoading) {
     return (

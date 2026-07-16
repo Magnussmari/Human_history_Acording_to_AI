@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal, ChevronDown, Info } from "lucide-react";
 import {
   fetchManifest,
-  fetchAllYears,
+  fetchTimelineIndex,
   filterYears,
   DEFAULT_FILTERS,
 } from "@/lib/data";
@@ -65,10 +65,10 @@ export default function HomePage() {
   });
 
   const { data: years, isLoading } = useQuery({
-    queryKey: ["years", manifest?.generated_at],
-    queryFn: () => fetchAllYears(manifest!),
+    queryKey: ["timeline-index"],
+    queryFn: fetchTimelineIndex,
     select: mergeMusicEvents,
-    enabled: !!manifest,
+    staleTime: Infinity,
   });
 
   const { data: eraIndex } = useQuery({

@@ -58,6 +58,8 @@ export interface YearData {
   historiographic_note: string;
   graph_edges: GraphEdge[];
   _meta?: YearMeta;
+  /** Precomputed source count, present in the lightweight timeline index. */
+  source_count?: number;
 }
 
 export interface ChunkManifest {

@@ -17,6 +17,9 @@ export default function StratumPage() {
     queryFn: fetchManifest,
   });
 
+  // Stratum's detail panel needs era_context + per-source provenance, which the
+  // lite index drops, so it loads the full corpus. Secondary view (nav click),
+  // so the heavier load is acceptable; the landing page uses the lite index.
   const { data: years, isLoading } = useQuery({
     queryKey: ["years", manifest?.generated_at],
     queryFn: () => fetchAllYears(manifest!),
