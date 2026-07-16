@@ -20,6 +20,9 @@ import path from "node:path";
 const thisDir = path.dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
+  // Standalone output for the sovereign edge deploy (Docker + Caddy on
+  // smarason-edge). Produces .next/standalone with a minimal node server.
+  output: "standalone",
   turbopack: {
     root: thisDir,
   },
