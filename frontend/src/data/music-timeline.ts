@@ -2098,7 +2098,7 @@ export const MUSIC_ERAS: MusicEra[] = [
           "verified": "crossref"
         },
         {
-          "title": "DAVID SCHULENBERG THE MUSIC OF CARL PHILIPP EMANUEL BACH Rochester, NY: University of Rochester Press, 2014 pp. xv + 416, isbn 978 1 58046 481 9",
+          "title": "Review: David Schulenberg, The Music of Carl Philipp Emanuel Bach (University of Rochester Press, 2014)",
           "authors": "Darrell M. Berg",
           "year": "2017",
           "journal": "Eighteenth Century Music",

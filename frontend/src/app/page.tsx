@@ -87,6 +87,20 @@ export default function HomePage() {
         );
       }
     }
+    // When a category filter is active, promote a matching event to the headline
+    // slot so the row reflects the filter (e.g. Music & Opera surfaces the music
+    // event, not the year's top political headline). All events still render.
+    if (filters.categories.length > 0) {
+      const cats = new Set(filters.categories);
+      result = result.map((y) => {
+        const idx = y.events.findIndex((e) => cats.has(e.category));
+        if (idx <= 0) return y;
+        const events = [...y.events];
+        const [match] = events.splice(idx, 1);
+        events.unshift(match);
+        return { ...y, events };
+      });
+    }
     return result;
   }, [years, filters, activeEra]);
 
