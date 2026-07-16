@@ -10,7 +10,7 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowLeft, BookOpen, Info, GraduationCap } from "lucide-react";
 import { fetchEra, formatEraRange } from "@/lib/evidence";
-import { fetchManifest, fetchAllYears } from "@/lib/data";
+import { fetchTimelineIndex } from "@/lib/data";
 import { mergeMusicEvents } from "@/lib/music-events";
 import type {
   EraBundle,
@@ -46,16 +46,14 @@ export default function EraPage() {
     enabled: !!id,
   });
 
-  const { data: manifest } = useQuery({
-    queryKey: ["manifest"],
-    queryFn: fetchManifest,
-  });
-
+  // Only row-level data for a 10-year slice is needed here, so use the shared
+  // lite index (cached with the home timeline) instead of the full 34 MB corpus.
   const { data: allYears } = useQuery({
-    queryKey: ["years", manifest?.generated_at],
-    queryFn: () => fetchAllYears(manifest!),
+    queryKey: ["timeline-index"],
+    queryFn: fetchTimelineIndex,
     select: mergeMusicEvents,
-    enabled: !!manifest && !!era,
+    staleTime: Infinity,
+    enabled: !!era,
   });
 
   if (isLoading) return null;
