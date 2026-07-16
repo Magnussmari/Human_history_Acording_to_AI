@@ -82,6 +82,46 @@ const UPDATES: Update[] = [
     ),
     tags: ["timeline", "music & opera", "Layer 1"],
   },
+  {
+    date: "2026-04-18",
+    version: "localisation",
+    title: "Icelandic translation pipeline",
+    body: (
+      <>
+        A CI-integrated pipeline localises the year-level corpus into Icelandic
+        with strict schema and structural guards, so a new English year
+        automatically produces a schema-valid Icelandic counterpart.
+      </>
+    ),
+    tags: ["i18n", "icelandic", "pipeline"],
+  },
+  {
+    date: "2026-04-18",
+    version: "frontend rebuild",
+    title: "The Notebook, Stratum and Atlas views",
+    body: (
+      <>
+        A wholesale editorial rebuild: the parchment Notebook timeline, the
+        Stratum data view, and the map-anchored Atlas globe, with a two-layer
+        navigation and the methodology folio.
+      </>
+    ),
+    tags: ["frontend", "design", "atlas"],
+  },
+  {
+    date: "2026-04-13",
+    version: "Phase 1",
+    title: "The 5,226-year corpus",
+    body: (
+      <>
+        The founding layer: every year from roughly 3200 BCE to 2025 CE
+        researched by an async daemon under the ICCRA schema, 17,991 events with
+        sources, certainty levels, and declared gaps. This is the timeline the
+        music &amp; opera work now sits inside.
+      </>
+    ),
+    tags: ["corpus", "ICCRA", "foundation"],
+  },
 ];
 
 export default function UpdatesPage() {
