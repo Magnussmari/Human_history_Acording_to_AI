@@ -9,6 +9,12 @@
  */
 import { defineConfig, devices } from "@playwright/test";
 
+// Point the suite at any deployment by setting PLAYWRIGHT_BASE_URL (e.g. the
+// live edge) — when set, we skip spinning up the local production server and
+// smoke the real target instead. Unset → the default local :3111 build (CI).
+const externalBaseURL = process.env.PLAYWRIGHT_BASE_URL;
+const baseURL = externalBaseURL ?? "http://localhost:3111";
+
 export default defineConfig({
   testDir: "./e2e",
   fullyParallel: true,
@@ -17,14 +23,16 @@ export default defineConfig({
   workers: process.env.CI ? 2 : undefined,
   reporter: process.env.CI ? [["github"], ["list"]] : "list",
   use: {
-    baseURL: "http://localhost:3111",
+    baseURL,
     trace: "on-first-retry",
   },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
-  webServer: {
-    command: "npx next start -p 3111",
-    url: "http://localhost:3111",
-    timeout: 120_000,
-    reuseExistingServer: !process.env.CI,
-  },
+  webServer: externalBaseURL
+    ? undefined
+    : {
+        command: "npx next start -p 3111",
+        url: "http://localhost:3111",
+        timeout: 120_000,
+        reuseExistingServer: !process.env.CI,
+      },
 });

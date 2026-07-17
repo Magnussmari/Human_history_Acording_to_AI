@@ -60,3 +60,9 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
      overprinted into digit-soup on phones; now measured-width-aware, snapping the step to a nice
      round number (250…5000) so labels never collide.
   All 31 E2E green locally (build + lint clean); pushed for CI verification, then deploying to edge.
+- 2026-07-17 (autonomous loop cont.): CI green on 840241e (run 29602838574, success). **Deployed
+  v12 to the edge** (HEAD 840241e, health=healthy, v11 pruned, firewall re-closed). All 11 live
+  routes/endpoints 200. Made the Playwright config env-aware (PLAYWRIGHT_BASE_URL) and ran the
+  **full 31-test suite against LIVE production** — all green, including the ⌘K focus-trap and the
+  axe a11y gate on all 8 live routes. The three deferred follow-ups are now closed AND verified in
+  the wild, not just locally. Chronograph is S-tier live.
