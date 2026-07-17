@@ -4,11 +4,12 @@
 > A year-by-year editorial folio of human civilisation, researched by AI.
 > Now open-sourcing the **Icelandic translation layer** — see [TRANSLATION.md](TRANSLATION.md).
 
-**🌐 [human-history-acording-to-ai.vercel.app](https://human-history-acording-to-ai.vercel.app)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
+**🌐 [timeline.sumarhus.com](https://timeline.sumarhus.com)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
 
 ![status](https://img.shields.io/badge/Phase_1-shipped-8a2b22?style=flat-square)
 ![status](https://img.shields.io/badge/Phase_2_evidence-7_eras_validated-3a4a6b?style=flat-square)
-![status](https://img.shields.io/badge/Frontend-v0.2_Notebook-2a5237?style=flat-square)
+![status](https://img.shields.io/badge/Frontend-S--tier_·_E2E_+_CI-2a5237?style=flat-square)
+![status](https://img.shields.io/badge/a11y-0_serious%2Fcritical-3a4a6b?style=flat-square)
 ![license](https://img.shields.io/badge/license-MIT-73788b?style=flat-square)
 
 ---
@@ -82,6 +83,19 @@ Three coordinated surfaces, one navigation:
 - Proper Open Graph card rendering a cream folio preview (not the Vercel ▲).
 
 **Tech:** Next.js 16.2, React 19.2, Tailwind v4, TanStack Virtual + Query, motion/react, d3-geo + topojson-client. All visual tokens from a single 3-variant system (`--fg / --stamp / --rule / --accent`) with WCAG AA contrast verified by `scripts/qa-contrast.mjs`.
+
+### Frontend — S-tier hardening (2026-07)
+
+A dedicated pass took the interface from "database inspector" to editorial product, all guarded by tests:
+
+- **Classical Music & Opera timeline** (`/music`) — 233 works across 29 eras, Layer-1 draft + Layer-2 scholarship (161 peer-reviewed sources verified against Crossref/DataCite), also overlaid onto the main timeline as a filterable "musical" category.
+- **Follow-the-thread** — music entries link to the earlier/later work in the chronology, landing on the exact entry (scroll + focus), turning the overlay into a guided narrative.
+- **Proportional era ribbon** — the home era filter is a single band whose segment widths follow each era's real time-span across the 5,226 years; a map of deep time that doubles as the filter.
+- **Reading-first folio** — narrative always visible, citations behind an explicit control; global "expand all sources"; a vertical era minimap.
+- **Durable quality** — a committed **Playwright E2E suite + GitHub Actions CI** ([`frontend/e2e/`](frontend/e2e)) asserting, on every route: zero console errors, no horizontal overflow (320→1440), the signature features work, and **zero serious/critical axe-core a11y violations**. 30 tests.
+- **Accessibility** — skip link, keyboard-navigable controls (roving-tabindex era ribbon, arrow-key nav), labelled globe controls + canvas, meaningful link/button names, WCAG-AA contrast across all three themes.
+- **Discoverability** — dynamic `sitemap.xml` (5,255 URLs: every year + era), `robots.txt`, and a working Open Graph card (1200×630 cream folio).
+- **Sovereign hosting** — served from an owned Hetzner edge (Caddy + Docker, auto-TLS) at **[timeline.sumarhus.com](https://timeline.sumarhus.com)**; the old Vercel host 308-redirects. Ideal-state criteria tracked in [`docs/s-tier-isc.md`](docs/s-tier-isc.md).
 
 ---
 
@@ -172,7 +186,7 @@ Started as a subscription-based CLI daemon; evolved through five phases to compl
 | Total time | ~70 days (est.) | 57.7 hours (actual) | 29× faster |
 | Total cost | ~$1,150 (est.) | ~$15.68 (actual) | 98.6% cheaper |
 
-Full breakdown of each phase, including the failed Haiku experiment and the Kimi-analysed plan-mode migration, lives on [/methodology](https://human-history-acording-to-ai.vercel.app/methodology).
+Full breakdown of each phase, including the failed Haiku experiment and the Kimi-analysed plan-mode migration, lives on [/methodology](https://timeline.sumarhus.com/methodology).
 
 ---
 
