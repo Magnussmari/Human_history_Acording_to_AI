@@ -136,6 +136,33 @@ test("discoverability: sitemap, robots, and OG image are served", async ({
   expect(og.headers()["content-type"]).toContain("image/png");
 });
 
+test("⌘K search is a modal dialog that traps focus and restores it", async ({
+  page,
+}) => {
+  await page.goto("/", { waitUntil: "networkidle" });
+  // Open with the keyboard shortcut.
+  await page.keyboard.press("Meta+k");
+  const dialog = page.locator('[role="dialog"][aria-modal="true"]');
+  await expect(dialog).toBeVisible();
+  // Focus lands inside the dialog (the search input).
+  await expect(dialog.locator("input")).toBeFocused();
+  // Tabbing repeatedly never escapes the dialog.
+  for (let i = 0; i < 12; i++) {
+    await page.keyboard.press("Tab");
+    const trapped = await dialog.evaluate((d) =>
+      d.contains(document.activeElement),
+    );
+    expect(trapped).toBe(true);
+  }
+  // Escape closes it and restores focus to the trigger.
+  await page.keyboard.press("Escape");
+  await expect(dialog).toHaveCount(0);
+  const restored = await page.evaluate(
+    () => document.activeElement?.getAttribute("aria-haspopup") === "dialog",
+  );
+  expect(restored).toBe(true);
+});
+
 test("a scholarly era deep-dive page renders", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));

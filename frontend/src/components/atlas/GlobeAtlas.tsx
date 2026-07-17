@@ -505,7 +505,9 @@ function Globe({
     if (!wrapRef.current) return;
     const ro = new ResizeObserver((entries) => {
       const { width, height } = entries[0].contentRect;
-      setSize({ w: Math.max(400, width), h: Math.max(400, height) });
+      // Track the container down to phone widths — a hard 400px floor made the
+      // globe overflow (and clip off-center) inside a ~320px mobile stage.
+      setSize({ w: Math.max(200, width), h: Math.max(360, height) });
     });
     ro.observe(wrapRef.current);
     return () => ro.disconnect();

@@ -522,4 +522,9 @@
   .gs-main { grid-template-columns: 1fr; }
   .gs-rail { display: none; }
   .gs-hud-bl { display: none; }
+  /* Let the header stats scroll rather than clip off-screen (the base rule
+     sets overflow:hidden for desktop); keep the brand pinned. */
+  .gs-chrome { overflow-x: auto; scrollbar-width: none; }
+  .gs-chrome::-webkit-scrollbar { display: none; }
+  .gs-brand { position: sticky; left: 0; background: var(--gs-bg-2); padding-right: 6px; z-index: 1; }
 }

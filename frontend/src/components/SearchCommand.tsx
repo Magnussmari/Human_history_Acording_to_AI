@@ -64,6 +64,9 @@ export function SearchCommand({ years }: SearchCommandProps) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const hasOpenedRef = useRef(false);
   const router = useRouter();
 
   const results = searchEvents(years, query);
@@ -108,13 +111,41 @@ export function SearchCommand({ years }: SearchCommandProps) {
     return () => document.removeEventListener("keydown", handler);
   }, []);
 
+  // Focus management: move focus into the dialog on open, restore it to the
+  // trigger on close so keyboard users aren't dumped at the top of the page.
   useEffect(() => {
     if (open) {
+      hasOpenedRef.current = true;
       const t = setTimeout(() => inputRef.current?.focus(), 80);
       return () => clearTimeout(t);
     }
+    // Only restore focus if the dialog was actually opened before (not on mount).
+    if (hasOpenedRef.current) triggerRef.current?.focus();
     return undefined;
   }, [open]);
+
+  // Focus trap: keep Tab / Shift+Tab cycling inside the dialog while it's open.
+  const handleTrapKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key !== "Tab") return;
+    const root = dialogRef.current;
+    if (!root) return;
+    const focusable = root.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), input:not([disabled]), textarea, select, [tabindex]:not([tabindex="-1"])',
+    );
+    if (focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    const active = document.activeElement as HTMLElement | null;
+    if (e.shiftKey) {
+      if (active === first || !root.contains(active)) {
+        e.preventDefault();
+        last.focus();
+      }
+    } else if (active === last || !root.contains(active)) {
+      e.preventDefault();
+      first.focus();
+    }
+  }, []);
 
   const openDialog = useCallback(() => setOpen(true), []);
   const closeDialog = useCallback(() => {
@@ -148,8 +179,12 @@ export function SearchCommand({ years }: SearchCommandProps) {
   return (
     <>
       <motion.button
+        ref={triggerRef}
         onClick={openDialog}
         type="button"
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        aria-keyshortcuts="Meta+K Control+K"
         className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-sm flex-1 sm:flex-none sm:min-w-[240px]"
         style={{
           background: "var(--card)",
@@ -197,6 +232,10 @@ export function SearchCommand({ years }: SearchCommandProps) {
 
             <motion.div
               key="search-dialog"
+              ref={dialogRef}
+              role="dialog"
+              aria-modal="true"
+              aria-label="Search the timeline"
               initial={{ opacity: 0, scale: 0.96, y: -16 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.96, y: -16 }}
@@ -209,6 +248,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                 fontFamily: "var(--font-sans)",
               }}
               onClick={(e) => e.stopPropagation()}
+              onKeyDown={handleTrapKeyDown}
             >
               <div
                 className="px-5 pt-5 pb-3"

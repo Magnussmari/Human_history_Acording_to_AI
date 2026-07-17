@@ -4,7 +4,7 @@
  */
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import type { YearData, HistoryEvent, EventCategory, CertaintyLevel } from "@/types/history";
 import { safeCategoryConfig } from "@/lib/constants";
@@ -85,14 +85,34 @@ interface StratumRibbonProps {
 
 function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumRibbonProps) {
   const span = yearMax - yearMin;
+
+  // Thin the axis ticks to the measured width so labels never overprint into
+  // "digit soup" on phones. Each "3200 BCE" label needs ~66px of breathing room.
+  const barRef = useRef<HTMLDivElement>(null);
+  const [barWidth, setBarWidth] = useState(0);
+  useEffect(() => {
+    const el = barRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver((entries) => {
+      setBarWidth(entries[0].contentRect.width);
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   const ticks = useMemo(() => {
-    const step = 500;
+    const LABEL_PX = 66;
+    const maxLabels = Math.max(2, Math.floor((barWidth || 900) / LABEL_PX));
+    // Snap the raw step up to a "nice" round number so labels stay legible.
+    const raw = span / maxLabels;
+    const nice = [250, 500, 1000, 2000, 2500, 5000];
+    const step = nice.find((s) => s >= raw) ?? 5000;
     const out: number[] = [];
     for (let y = Math.ceil(yearMin / step) * step; y <= yearMax; y += step) {
       out.push(y);
     }
     return out;
-  }, [yearMin, yearMax]);
+  }, [yearMin, yearMax, span, barWidth]);
 
   const selectedPct = ((selected - yearMin) / span) * 100;
 
@@ -146,6 +166,7 @@ function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumR
         </span>
       </div>
       <div
+        ref={barRef}
         className="stratum-ribbon-bar"
         onClick={handleBarClick}
         title="Click anywhere on the strip to jump to that year"

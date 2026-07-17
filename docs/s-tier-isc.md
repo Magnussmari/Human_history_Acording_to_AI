@@ -13,8 +13,8 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
 | ISC-1 | Quality is durable, not a snapshot | Committed Playwright E2E suite + GitHub Actions CI green on push/PR | ☑ suite + CI, **CI green on main** (run 29589949308, 30 passed) |
 | ISC-2 | Zero console errors app-wide | E2E asserts 0 console/page errors on every route | ☑ green |
 | ISC-3 | No horizontal overflow at any width | E2E asserts scrollWidth ≤ innerWidth at 320/375/414/768 on every route | ☑ green (fixed stratum/methodology/music/folio/header) |
-| ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ☑ 0 serious/critical on all 8 routes, E2E axe gate in CI. Skip link, focus rings, atlas canvas/control names + h1, cross-year + source names, landmarks, contrast (music 272→0). NOTE: ⌘K modal-dialog focus-trap deferred (documented follow-up) |
-| ISC-5 | Mobile/tablet has spatial orientation | An era-jump affordance is usable below 1400px (where the minimap is hidden) | ☐ |
+| ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ☑ 0 serious/critical on all 8 routes, E2E axe gate in CI. Skip link, focus rings, atlas canvas/control names + h1, cross-year + source names, landmarks, contrast (music 272→0). ⌘K is now a real `role=dialog` `aria-modal` with a **Tab focus-trap + focus-restore to trigger** (E2E-locked) — the last deferred a11y item, now closed |
+| ISC-5 | Mobile/tablet has spatial orientation | An era-jump affordance is usable below 1400px (where the minimap is hidden) | ◑ era ribbon gives era context on home at all widths; stratum year-strip + jump-input work below 1400px. Atlas globe-clip and stratum tick-soup (responsive-audit follow-ups) now fixed. Live-scroll minimap still desktop-only (≥1400px) by design |
 | ISC-6 | Discoverable / shareable | sitemap.xml (home + years + eras + static) and robots.txt served; OG image resolves | ☑ sitemap(5255)+robots+OG 200, metadataBase fixed, E2E-covered |
 | ISC-7 | Consistent chrome | No sticky-header overlap on desktop; nav coherent at all widths | ☑ secondary top 54→62px (clears primary); backdrop-filter kills ghosting |
 | ISC-8 | Adversarial sign-off | Fable verdict SHIP on the whole push, no unresolved HIGH/MEDIUM | ☑ Fable HOLD→addressed: caught CI was red 5/5 (ISC-1 overstated); fixed the real 320px overflow bugs (rail column, non-shrinking pills), CI now green. Remaining MEDIUM (⌘K modal focus-trap) explicitly DEFERRED, not claimed done |
@@ -47,3 +47,16 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
   Scoreboard: ISC-1,2,3,4,6,7 ☑ · ISC-5 partial (ribbon gives spatial context; live-scroll minimap
   still desktop-only) · ISC-8 Fable final sign-off in flight. Deferred: ⌘K modal focus-trap; atlas
   mobile globe-clip + stratum tick-thinning (from the responsive audit) — documented follow-ups.
+- 2026-07-17 (autonomous loop, operator away): closed the three deferred follow-ups.
+  1. **⌘K focus-trap** — SearchCommand is now `role="dialog"` `aria-modal="true"`, Tab/Shift+Tab
+     cycle stays inside, Escape restores focus to the trigger (guarded against stealing focus on
+     mount). New E2E test asserts the trap holds across 12 tabs + focus-restore. ISC-4's last
+     deferred item — closed.
+  2. **Atlas mobile globe-clip** — the ResizeObserver forced a 400px canvas floor, so the globe
+     overflowed and clipped off-center inside a ~320px stage; floor dropped to 200px (h 360px) so
+     it tracks the container. Header stats now scroll (were clipped by overflow:hidden) with the
+     brand sticky-pinned.
+  3. **Stratum tick-thinning** — axis ticks were a hardcoded 500-yr step (~11 labels) that
+     overprinted into digit-soup on phones; now measured-width-aware, snapping the step to a nice
+     round number (250…5000) so labels never collide.
+  All 31 E2E green locally (build + lint clean); pushed for CI verification, then deploying to edge.
