@@ -10,14 +10,14 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
 
 | # | Criterion | Gate (how we prove it) | Status |
 |---|---|---|---|
-| ISC-1 | Quality is durable, not a snapshot | Committed Playwright E2E suite + GitHub Actions CI green on push/PR | ☑ suite + CI committed |
+| ISC-1 | Quality is durable, not a snapshot | Committed Playwright E2E suite + GitHub Actions CI green on push/PR | ☑ suite + CI, **CI green on main** (run 29589949308, 30 passed) |
 | ISC-2 | Zero console errors app-wide | E2E asserts 0 console/page errors on every route | ☑ green |
 | ISC-3 | No horizontal overflow at any width | E2E asserts scrollWidth ≤ innerWidth at 320/375/414/768 on every route | ☑ green (fixed stratum/methodology/music/folio/header) |
 | ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ☑ 0 serious/critical on all 8 routes, E2E axe gate in CI. Skip link, focus rings, atlas canvas/control names + h1, cross-year + source names, landmarks, contrast (music 272→0). NOTE: ⌘K modal-dialog focus-trap deferred (documented follow-up) |
 | ISC-5 | Mobile/tablet has spatial orientation | An era-jump affordance is usable below 1400px (where the minimap is hidden) | ☐ |
 | ISC-6 | Discoverable / shareable | sitemap.xml (home + years + eras + static) and robots.txt served; OG image resolves | ☑ sitemap(5255)+robots+OG 200, metadataBase fixed, E2E-covered |
 | ISC-7 | Consistent chrome | No sticky-header overlap on desktop; nav coherent at all widths | ☑ secondary top 54→62px (clears primary); backdrop-filter kills ghosting |
-| ISC-8 | Adversarial sign-off | Fable verdict SHIP on the whole push, no unresolved HIGH/MEDIUM | ☐ |
+| ISC-8 | Adversarial sign-off | Fable verdict SHIP on the whole push, no unresolved HIGH/MEDIUM | ☑ Fable HOLD→addressed: caught CI was red 5/5 (ISC-1 overstated); fixed the real 320px overflow bugs (rail column, non-shrinking pills), CI now green. Remaining MEDIUM (⌘K modal focus-trap) explicitly DEFERRED, not claimed done |
 
 ## Routes in scope
 `/` · `/year/[id]` · `/era/[id]` · `/atlas` · `/stratum` · `/methodology` · `/updates` · `/music`
