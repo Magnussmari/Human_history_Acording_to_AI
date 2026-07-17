@@ -48,7 +48,7 @@ export function NotebookYearRow({ year, index }: NotebookYearRowProps) {
             </span>
           </span>
           <span className="notebook-row-dot" aria-hidden="true" />
-          <span className="notebook-row-doc" aria-label={`Documentation: ${docConfig.label}`}>
+          <span className="notebook-row-doc" role="img" aria-label={`Documentation: ${docConfig.label}`}>
             {Array.from({ length: 5 }).map((_, i) => (
               <span
                 key={i}

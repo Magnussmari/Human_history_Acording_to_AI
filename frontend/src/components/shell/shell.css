@@ -26,10 +26,14 @@
 
 .chronograph-chrome-secondary {
   position: sticky;
-  top: 54px;
+  /* Clears the primary header's real height (~62px) so it can't slide under it
+     when both are pinned. */
+  top: 62px;
   z-index: 40;
   padding: 10px 28px;
   background: color-mix(in oklab, var(--bg) 94%, var(--fg) 2%);
+  /* Opaque-enough + blur so scrolling content can't ghost through. */
+  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--rule);
 }
 
