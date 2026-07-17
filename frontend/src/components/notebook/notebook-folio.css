@@ -302,12 +302,6 @@
   display: block;
   width: 100%;
   text-align: left;
-  background: transparent;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
 }
 
 .notebook-folio-entry-head {
@@ -346,7 +340,7 @@
   color: var(--fg);
 }
 
-.notebook-folio-entry-open:hover .notebook-folio-entry-title {
+.notebook-folio-entry-more:hover {
   color: var(--stamp);
 }
 
@@ -369,7 +363,7 @@
   font-family: var(--font-serif);
 }
 .notebook-folio-entry[data-cat="musical"] .notebook-folio-entry-title::before {
-  content: "\266A\00a0"; /* ♪ */
+  content: "\266A\00a0" / ""; /* ♪ — decorative, silent to screen readers */
   color: var(--mf-accent);
   font-style: normal;
   font-size: 0.8em;
@@ -395,6 +389,17 @@
   margin-left: auto;
   font-style: italic;
   color: var(--fg-mute);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  transition: color 0.15s;
+}
+.notebook-folio-entry-more:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: 2px;
 }
 
 .notebook-folio-cert {

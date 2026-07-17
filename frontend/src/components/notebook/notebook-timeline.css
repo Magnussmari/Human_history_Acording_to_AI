@@ -273,7 +273,9 @@
   z-index: 20;
   display: none;
 }
-@media (min-width: 1200px) {
+/* Shown only when there is room right of the content column, so the fixed
+   minimap never overlaps timeline rows (Fable: overlap at 1200-1350px). */
+@media (min-width: 1400px) {
   .notebook-minimap { display: block; }
 }
 .notebook-minimap-track {
@@ -282,6 +284,7 @@
   width: 100%;
   cursor: pointer;
   border-left: 1px solid var(--rule-soft);
+  background: var(--bg);
 }
 .notebook-minimap-band {
   position: absolute;
@@ -290,8 +293,17 @@
   display: flex;
   align-items: flex-start;
   padding: 3px 0 0 9px;
+  border: 0;
   border-top: 1px solid var(--rule-soft);
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
   transition: background 0.15s;
+}
+.notebook-minimap-band:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: -2px;
 }
 .notebook-minimap-band:hover {
   background: color-mix(in oklab, var(--stamp) 8%, transparent);

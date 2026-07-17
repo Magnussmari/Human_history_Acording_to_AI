@@ -64,7 +64,7 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
 
           <h1 className="notebook-folio-title">
             <span className="notebook-folio-year-num">
-              {Math.abs(year.year).toLocaleString()}
+              {String(Math.abs(year.year))}
             </span>
             <span className="notebook-folio-year-era">
               {year.year < 0 ? "BCE" : "CE"}
@@ -259,12 +259,7 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
       </div>
 
       <div className="notebook-folio-entry-body">
-        <button
-          type="button"
-          className="notebook-folio-entry-open"
-          onClick={() => setOpen((o) => !o)}
-          aria-expanded={open}
-        >
+        <div className="notebook-folio-entry-open">
           <div className="notebook-folio-entry-head">
             <span
               className="notebook-folio-entry-cat"
@@ -302,11 +297,16 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
                 {ev.sources.length}
               </span>
             </div>
-            <span className="notebook-folio-entry-more">
+            <button
+              type="button"
+              className="notebook-folio-entry-more"
+              onClick={() => setOpen((o) => !o)}
+              aria-expanded={open}
+            >
               {open ? "Hide sources ↑" : "Sources & figures ↓"}
-            </span>
+            </button>
           </div>
-        </button>
+        </div>
 
         {open && (
           <div className="notebook-folio-entry-expand">

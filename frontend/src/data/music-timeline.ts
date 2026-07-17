@@ -27,6 +27,8 @@ export interface MusicEntry {
   description: string;
   region: string;
   certainty: MusicCertainty;
+  /** Duplicate of a corpus event: shown in /music but skipped in the timeline overlay. */
+  suppressed?: boolean;
 }
 
 export interface MusicSource {
@@ -1057,7 +1059,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "event",
         "description": "The reforming council eventually urged that sacred polyphony keep sacred texts intelligible, shaping church music for generations.",
         "region": "Trent, Italy",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1567,
@@ -1542,7 +1545,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "The first operatic masterpiece, uniting rich orchestration, expressive recitative, and formal design into a fully realized dramatic work.",
         "region": "Mantua, Italy",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1637,
@@ -1836,7 +1840,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "Handel's first Italian opera for London, a triumph of virtuosic da capo arias that established him on the English stage.",
         "region": "London, England",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1725,
@@ -1866,7 +1871,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "work",
         "description": "Handel's English oratorio, composed in weeks, became the most beloved choral work in the repertoire and eclipsed his opera career.",
         "region": "Dublin, Ireland",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1750,
@@ -1876,7 +1882,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "event",
         "description": "Bach's death is traditionally taken to mark the end of the Baroque era in music history.",
         "region": "Leipzig, Germany",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       }
     ],
     "evidence": {
@@ -2030,7 +2037,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "event",
         "description": "Handel's death closed the Baroque era in England as galant and early Classical idioms took hold.",
         "region": "London, England",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1762,
@@ -2138,7 +2146,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "The founding reform opera, with Calzabigi's libretto, prized dramatic continuity and simplicity over ornamental display.",
         "region": "Vienna, Austria",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1762,
@@ -2198,7 +2207,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "With librettist Da Ponte, Mozart raised opera buffa to a summit of ensemble writing and human comedy.",
         "region": "Vienna, Austria",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1787,
@@ -2350,7 +2360,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "A dramma giocoso mixing comedy and the demonic, culminating in the Don's descent, hailed as a supreme opera.",
         "region": "Prague, Bohemia",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1788,
@@ -2497,7 +2508,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "work",
         "description": "Vast in scale and heroic in tone, the Eroica broke symphonic bounds and inaugurated Beethoven's middle period.",
         "region": "Vienna, Austria",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1805,
@@ -3364,7 +3376,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "The four-opera cycle premiered at the purpose-built Bayreuth Festspielhaus, an epic monument of leitmotif technique.",
         "region": "Bayreuth, Germany",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1876,
@@ -3384,7 +3397,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "opera",
         "description": "Wagner's final sacred music drama, a Buhnenweihfestspiel, premiered at Bayreuth, blending religion, redemption, and radiant orchestration.",
         "region": "Bayreuth, Germany",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       }
     ],
     "evidence": {
@@ -3474,7 +3488,8 @@ export const MUSIC_ERAS: MusicEra[] = [
         "kind": "work",
         "description": "After decades of labor, Brahms's first symphony affirmed the Classical form against Wagnerian music drama.",
         "region": "Karlsruhe, Germany",
-        "certainty": "confirmed"
+        "certainty": "confirmed",
+        "suppressed": true
       },
       {
         "year": 1877,

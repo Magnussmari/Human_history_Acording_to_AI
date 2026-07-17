@@ -21,6 +21,9 @@ function buildMusicEvents(): Map<number, HistoryEvent[]> {
       contemporary: false,
     }));
     era.entries.forEach((en, i) => {
+      // Skip works the corpus already covers, so the main timeline never shows a
+      // duplicate. They still appear in the dedicated /music folio.
+      if (en.suppressed) return;
       const namedComposer =
         en.composer && en.composer !== "Various" && en.composer !== "Anonymous";
       byYear.set(en.year, [
