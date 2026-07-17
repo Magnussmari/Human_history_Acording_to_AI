@@ -9,6 +9,7 @@ import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import type { YearData } from "@/types/history";
 import { getEraForYear } from "@/lib/constants";
 import { NotebookYearRow } from "./NotebookYearRow";
+import { NotebookMinimap } from "./NotebookMinimap";
 import "./notebook-timeline.css";
 
 interface NotebookTimelineProps {
@@ -85,6 +86,7 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
 
   return (
     <div className="notebook-timeline">
+      <NotebookMinimap years={years} rowHeight={ROW_HEIGHT} scrollMargin={scrollMargin} />
       <div ref={containerRef}>
         <div
           style={{

@@ -261,3 +261,58 @@
   opacity: 1;
   transform: translateX(3px);
 }
+
+/* Vertical sticky minimap (VS-Code style) — spatial orientation for the 5,000-year span. */
+.notebook-minimap {
+  position: fixed;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 64vh;
+  width: 118px;
+  z-index: 20;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .notebook-minimap { display: block; }
+}
+.notebook-minimap-track {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border-left: 1px solid var(--rule-soft);
+}
+.notebook-minimap-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: 3px 0 0 9px;
+  border-top: 1px solid var(--rule-soft);
+  transition: background 0.15s;
+}
+.notebook-minimap-band:hover {
+  background: color-mix(in oklab, var(--stamp) 8%, transparent);
+}
+.notebook-minimap-label {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  white-space: nowrap;
+  opacity: 0.65;
+}
+.notebook-minimap-band:hover .notebook-minimap-label { opacity: 1; color: var(--stamp); }
+.notebook-minimap-thumb {
+  position: absolute;
+  left: -1px;
+  right: 0;
+  height: 3px;
+  background: var(--stamp);
+  box-shadow: 0 0 0 1.5px var(--bg);
+  pointer-events: none;
+  transition: top 0.06s linear;
+}
