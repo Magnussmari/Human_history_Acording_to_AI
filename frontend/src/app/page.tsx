@@ -7,7 +7,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
-import { SlidersHorizontal, ChevronDown, Info } from "lucide-react";
+import { SlidersHorizontal, Info } from "lucide-react";
 import {
   fetchManifest,
   fetchTimelineIndex,
@@ -23,17 +23,14 @@ import { NotebookTimeline } from "@/components/notebook/NotebookTimeline";
 import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
 import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
+import { EraRibbon } from "@/components/EraRibbon";
 
 const INTRO_STORAGE_KEY = "chronograph-intro-dismissed";
-
-// Show 6 primary eras up front, collapse the rest behind "More eras".
-const PRIMARY_ERA_COUNT = 6;
 
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const [showAllEras, setShowAllEras] = useState(false);
   const [introOpen, setIntroOpen] = useState(true);
 
   useEffect(() => {
@@ -108,9 +105,6 @@ export default function HomePage() {
     filters.categories.length +
     filters.certainties.length +
     (filters.region ? 1 : 0);
-
-  const visibleEras = showAllEras ? ERAS : ERAS.slice(0, PRIMARY_ERA_COUNT);
-  const hiddenEraCount = ERAS.length - PRIMARY_ERA_COUNT;
 
   return (
     <motion.div
@@ -227,61 +221,11 @@ export default function HomePage() {
           </motion.button>
         </div>
 
-        <div className="flex gap-2 flex-wrap pb-3 mb-5 items-center">
-          <EraPill
-            active={activeEra === null}
-            onClick={() => setActiveEra(null)}
-          >
-            All Eras
-          </EraPill>
-          {visibleEras.map((era) => (
-            <EraPill
-              key={era.label}
-              active={activeEra === era.label}
-              onClick={() =>
-                setActiveEra(activeEra === era.label ? null : era.label)
-              }
-            >
-              {era.label}
-              <span className="opacity-60 ml-1.5">
-                {era.start > 0 ? era.start : `${Math.abs(era.start)} BCE`}
-              </span>
-            </EraPill>
-          ))}
-          {hiddenEraCount > 0 && (
-            <button
-              type="button"
-              onClick={() => setShowAllEras((v) => !v)}
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 4,
-                padding: "6px 14px",
-                borderRadius: 999,
-                background: "transparent",
-                border: "1px dashed var(--rule)",
-                color: "var(--fg-2)",
-                fontFamily: "var(--font-mono)",
-                fontSize: "var(--notebook-text-meta)",
-                fontWeight: 500,
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                cursor: "pointer",
-              }}
-            >
-              {showAllEras
-                ? "Fewer"
-                : `+ ${hiddenEraCount} earlier`}
-              <ChevronDown
-                size={13}
-                style={{
-                  transform: showAllEras ? "rotate(180deg)" : "none",
-                  transition: "transform .15s",
-                }}
-              />
-            </button>
-          )}
-        </div>
+        <EraRibbon
+          activeEra={activeEra}
+          onSelect={setActiveEra}
+          years={years}
+        />
 
         {eraIndex && (
           <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
@@ -313,32 +257,3 @@ export default function HomePage() {
   );
 }
 
-interface EraPillProps {
-  active: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
-}
-
-function EraPill({ active, onClick, children }: EraPillProps) {
-  return (
-    <motion.button
-      onClick={onClick}
-      type="button"
-      className="shrink-0 rounded-full px-4 py-2"
-      style={{
-        background: active ? "var(--fg)" : "var(--bg-2)",
-        color: active ? "var(--bg)" : "var(--fg-mute)",
-        border: `1px solid ${active ? "var(--fg)" : "var(--rule)"}`,
-        fontFamily: "var(--font-mono)",
-        fontSize: "var(--notebook-text-meta)",
-        letterSpacing: "0.12em",
-        fontWeight: 600,
-        textTransform: "uppercase",
-        cursor: "pointer",
-      }}
-      whileTap={{ scale: 0.95 }}
-    >
-      {children}
-    </motion.button>
-  );
-}

@@ -26,7 +26,10 @@
 
 .mf-wrap {
   display: grid;
-  grid-template-columns: var(--mf-rail) 1fr;
+  /* minmax(0, 1fr) lets the main column shrink below its content's min-content
+     instead of forcing the two-column grid wider than the viewport (which, under
+     a clipping ancestor, cuts entry text off the right edge). */
+  grid-template-columns: var(--mf-rail) minmax(0, 1fr);
   max-width: 1320px;
   margin: 0 auto;
 }

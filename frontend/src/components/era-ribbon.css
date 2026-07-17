@@ -1,0 +1,150 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-07-17
+ */
+
+.era-ribbon-wrap {
+  margin: 4px 0 22px;
+  font-family: var(--font-sans);
+}
+
+.era-ribbon-scale {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+  letter-spacing: 0.08em;
+  color: var(--fg-mute);
+}
+.era-ribbon-scale-mid {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: calc(var(--notebook-text-small) - 0.5px);
+  opacity: 0.85;
+  text-align: center;
+}
+
+.era-ribbon {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--bg-2) 70%, transparent),
+    color-mix(in oklab, var(--card) 60%, transparent)
+  );
+  box-shadow: inset 0 1px 0 color-mix(in oklab, var(--fg) 4%, transparent);
+}
+
+.era-ribbon-seg {
+  flex-basis: 0;
+  min-width: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  border: 0;
+  border-right: 1px solid color-mix(in oklab, var(--rule) 70%, transparent);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+  overflow: hidden;
+}
+.era-ribbon-seg:last-child {
+  border-right: 0;
+}
+.era-ribbon-seg:hover {
+  background: color-mix(in oklab, var(--stamp) 9%, transparent);
+}
+.era-ribbon-seg:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: -2px;
+  z-index: 2;
+}
+.era-ribbon-seg.active {
+  background: var(--stamp);
+}
+.era-ribbon-seg.dim {
+  opacity: 0.55;
+}
+.era-ribbon-seg.dim:hover {
+  opacity: 1;
+}
+
+.era-ribbon-seg-label {
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.era-ribbon-seg.active .era-ribbon-seg-label {
+  color: var(--bg);
+  font-weight: 600;
+}
+
+/* Caption / live region — gives touch + SR users the feedback hover gives. */
+.era-ribbon-caption {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 9px;
+  min-height: 18px;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+}
+.era-ribbon-caption-name {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--stamp);
+}
+.era-ribbon-caption-range {
+  color: var(--fg-2);
+}
+.era-ribbon-caption-count {
+  color: var(--fg-mute);
+}
+.era-ribbon-hint {
+  color: var(--fg-mute);
+  font-style: italic;
+}
+.era-ribbon-clear {
+  margin-left: auto;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  transition: color 0.15s;
+}
+.era-ribbon-clear:hover {
+  color: var(--stamp);
+}
+.era-ribbon-clear:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: 2px;
+}
+
+@media (max-width: 620px) {
+  .era-ribbon { height: 40px; }
+  .era-ribbon-scale-mid { display: none; }
+  /* No room for inline labels on phones — the bands stay clean and reveal their
+     name in the caption on tap (which doubles as the touch affordance). */
+  .era-ribbon-seg-label { display: none; }
+}

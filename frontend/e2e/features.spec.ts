@@ -97,6 +97,26 @@ test("expand-all opens and collapses every source panel", async ({ page }) => {
   await expect(btn).toHaveText(/Expand all/);
 });
 
+test("era ribbon: proportional segments filter the timeline", async ({ page }) => {
+  await page.goto("/", { waitUntil: "networkidle" });
+  const ribbon = page.locator(".era-ribbon");
+  await expect(ribbon).toBeVisible();
+  const segs = ribbon.locator(".era-ribbon-seg");
+  await expect(segs).toHaveCount(10);
+  // Ancient bands are wider than recent ones (width follows time span).
+  const bronze = await segs.last().boundingBox();
+  const modern = await segs.first().boundingBox();
+  expect(bronze!.width).toBeGreaterThan(modern!.width);
+  // Clicking a segment activates it (aria-pressed) and updates the caption.
+  const classical = page.locator('.era-ribbon-seg[aria-label*="Classical"]');
+  await classical.click();
+  await expect(classical).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(".era-ribbon-caption-name")).toContainText(/Classical/i);
+  // Clicking the active band again clears the filter.
+  await classical.click();
+  await expect(classical).toHaveAttribute("aria-pressed", "false");
+});
+
 test("discoverability: sitemap, robots, and OG image are served", async ({
   request,
 }) => {
