@@ -11,29 +11,27 @@
  * strip, double rule. 1200 × 630 — Facebook / LinkedIn / iMessage spec.
  */
 
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
+// Runs on the Node runtime (no `runtime = "edge"` — the self-hosted standalone
+// deploy behind Caddy has no edge runtime, so the old edge export returned a 502
+// for every social card). Fonts are bundled in-repo and read from disk, not
+// fetched from gstatic, so the card is self-contained and can't 502/fail-fetch.
 export const contentType = "image/png";
 export const size = { width: 1200, height: 630 };
 export const alt =
   "Chronograph — Human History According to AI. 5,226 years as an editorial folio.";
 
-const NEWSREADER_URL =
-  "https://fonts.gstatic.com/s/newsreader/v27/cY9BfjOCWMpb8QjKOXTZEcwDt7-SMw4O5Jxv.woff2";
-const INTER_TIGHT_URL =
-  "https://fonts.gstatic.com/s/intertight/v11/NGStv5HIAPAwkYJnWeMBp5I.woff2";
-
-async function loadFont(url: string): Promise<ArrayBuffer> {
-  const res = await fetch(url);
-  return res.arrayBuffer();
+function loadFont(file: string): Buffer {
+  return readFileSync(join(process.cwd(), "src", "app", "og-fonts", file));
 }
 
 export default async function OgImage() {
-  const [newsreader, interTight] = await Promise.all([
-    loadFont(NEWSREADER_URL),
-    loadFont(INTER_TIGHT_URL),
-  ]);
+  // TTF, not WOFF2 — satori (next/og) has no woff2 decompressor in this version.
+  const newsreader = loadFont("newsreader-500.ttf");
+  const interTight = loadFont("inter-tight-600.ttf");
 
   // Notebook tokens (literal — ImageResponse doesn't resolve CSS vars).
   const BG = "#f4ede0";
@@ -70,7 +68,7 @@ export default async function OgImage() {
         >
           <span
             style={{
-              display: "inline-flex",
+              display: "flex",
               padding: "6px 16px",
               border: `2px solid ${STAMP}`,
               color: STAMP,
@@ -110,7 +108,7 @@ export default async function OgImage() {
                 height: 12,
                 borderRadius: 2,
                 background: STAMP,
-                display: "inline-block",
+                display: "flex",
               }}
             />
             <span
@@ -272,7 +270,7 @@ export default async function OgImage() {
               fontWeight: 500,
             }}
           >
-            human-history-acording-to-ai.vercel.app
+            timeline.sumarhus.com
           </div>
         </div>
       </div>

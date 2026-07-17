@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Newsreader, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Providers } from "@/lib/providers";
+import { SITE_URL } from "@/lib/site";
 import { Toaster } from "sonner";
 import { VariantProvider } from "@/components/shell/VariantContext";
 import { ChronographShell } from "@/components/shell/ChronographShell";
@@ -39,7 +40,8 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://human-history-acording-to-ai.vercel.app"),
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "./" },
   title: {
     default: "Chronograph — Human History According to AI",
     template: "%s · Chronograph",

@@ -15,7 +15,7 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
 | ISC-3 | No horizontal overflow at any width | E2E asserts scrollWidth ≤ innerWidth at 320/375/414/768 on every route | ☑ green (fixed stratum/methodology/music/folio/header) |
 | ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ☐ |
 | ISC-5 | Mobile/tablet has spatial orientation | An era-jump affordance is usable below 1400px (where the minimap is hidden) | ☐ |
-| ISC-6 | Discoverable / shareable | sitemap.xml (home + years + eras + static) and robots.txt served; OG image resolves | ☐ |
+| ISC-6 | Discoverable / shareable | sitemap.xml (home + years + eras + static) and robots.txt served; OG image resolves | ☑ sitemap(5255)+robots+OG 200, metadataBase fixed, E2E-covered |
 | ISC-7 | Consistent chrome | No sticky-header overlap on desktop; nav coherent at all widths | ☐ |
 | ISC-8 | Adversarial sign-off | Fable verdict SHIP on the whole push, no unresolved HIGH/MEDIUM | ☐ |
 

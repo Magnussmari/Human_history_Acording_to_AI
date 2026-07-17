@@ -97,17 +97,31 @@ test("expand-all opens and collapses every source panel", async ({ page }) => {
   await expect(btn).toHaveText(/Expand all/);
 });
 
-test("a scholarly era deep-dive page renders from a year folio", async ({ page }) => {
-  // The folio's "Scholarly era" card links to /era/<id> when one covers the year.
-  await page.goto("/year/1610", { waitUntil: "networkidle" });
-  const eraLink = page.locator('a[href^="/era/"]').first();
-  const count = await eraLink.count();
-  test.skip(count === 0, "no scholarly era covers 1610 in this build");
-  await eraLink.click();
-  await page.waitForURL(/\/era\//);
-  await expect(page.locator("h1")).toBeVisible();
+test("discoverability: sitemap, robots, and OG image are served", async ({
+  request,
+}) => {
+  const sitemap = await request.get("/sitemap.xml");
+  expect(sitemap.status()).toBe(200);
+  const xml = await sitemap.text();
+  expect(xml).toContain("timeline.sumarhus.com");
+  expect(xml).not.toContain("vercel.app");
+  expect((xml.match(/<url>/g) ?? []).length).toBeGreaterThan(5000);
+
+  const robots = await request.get("/robots.txt");
+  expect(robots.status()).toBe(200);
+  expect(await robots.text()).toContain("Sitemap: https://timeline.sumarhus.com/sitemap.xml");
+
+  const og = await request.get("/opengraph-image");
+  expect(og.status()).toBe(200);
+  expect(og.headers()["content-type"]).toContain("image/png");
+});
+
+test("a scholarly era deep-dive page renders", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
+  await page.goto("/era/era-01", { waitUntil: "networkidle" });
+  // Real era (not the "Era not found" fallback): a visible heading + no errors.
+  await expect(page.locator("h1")).toBeVisible();
   await page.waitForTimeout(400);
   expect(errors).toEqual([]);
 });
