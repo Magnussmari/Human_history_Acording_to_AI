@@ -247,7 +247,7 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
   const catLabel = safeCategoryConfig(ev.category).label;
 
   return (
-    <li className="notebook-folio-entry">
+    <li className="notebook-folio-entry" data-cat={ev.category}>
       <div className="notebook-folio-entry-rail">
         <div className="notebook-folio-entry-index">
           {String(idx + 1).padStart(2, "0")}
@@ -276,15 +276,9 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
             <span className="notebook-folio-entry-region">{ev.region}</span>
           </div>
           <h3 className="notebook-folio-entry-title">{ev.title}</h3>
-          <p
-            className="notebook-folio-entry-desc"
-            style={{
-              WebkitLineClamp: open ? "unset" : 3,
-              display: open ? "block" : "-webkit-box",
-            }}
-          >
-            {ev.description}
-          </p>
+          {/* Reading-first: the narrative is always shown in full. Only the
+              citation apparatus (figures + sources) sits behind the toggle. */}
+          <p className="notebook-folio-entry-desc">{ev.description}</p>
 
           <div className="notebook-folio-entry-foot">
             <CertaintyStamp certainty={ev.certainty} rank={rank} />
@@ -309,7 +303,7 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
               </span>
             </div>
             <span className="notebook-folio-entry-more">
-              {open ? "Collapse ↑" : "Unfold ↓"}
+              {open ? "Hide sources ↑" : "Sources & figures ↓"}
             </span>
           </div>
         </button>

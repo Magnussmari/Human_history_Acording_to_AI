@@ -356,9 +356,28 @@
   color: var(--fg-2);
   margin: 0;
   max-width: 62ch;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   font-family: var(--font-serif);
+}
+
+/* Cultural artifacts (music & opera) read differently from battles and treaties:
+   a serif-italic title and a distinct left rail in the category colour. */
+.notebook-folio-entry[data-cat="musical"] {
+  --mf-accent: var(--cat-musical, var(--stamp));
+}
+.notebook-folio-entry[data-cat="musical"] .notebook-folio-entry-title {
+  font-style: italic;
+  font-family: var(--font-serif);
+}
+.notebook-folio-entry[data-cat="musical"] .notebook-folio-entry-title::before {
+  content: "\266A\00a0"; /* ♪ */
+  color: var(--mf-accent);
+  font-style: normal;
+  font-size: 0.8em;
+}
+.notebook-folio-entry[data-cat="musical"] .notebook-folio-entry-body {
+  border-left: 2px solid color-mix(in oklab, var(--mf-accent) 40%, transparent);
+  padding-left: 14px;
+  margin-left: -16px;
 }
 
 .notebook-folio-entry-foot {
