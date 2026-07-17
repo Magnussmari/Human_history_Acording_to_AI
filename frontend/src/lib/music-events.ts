@@ -57,6 +57,50 @@ export function musicEventsForYear(year: number): HistoryEvent[] {
   return MUSIC_EVENTS.get(year) ?? [];
 }
 
+/** One work in the chronological Music & Opera thread. */
+export interface MusicThreadLink {
+  id: string;
+  year: number;
+  title: string;
+}
+
+// The full, chronologically ordered thread of non-suppressed music works, so a
+// folio entry can offer "earlier / later in Music & Opera" — the audit's core
+// "filter-and-thread" move: the overlay becomes a guided narrative, not just a
+// filter. Derived directly from MUSIC_EVENTS (the same map the timeline renders
+// from) so it CANNOT desync: same ids, same titles, same suppression. A pinned
+// locale on the tie-break keeps SSR/client ordering identical (no hydration mismatch).
+const MUSIC_THREAD: MusicThreadLink[] = (() => {
+  const items: MusicThreadLink[] = [];
+  for (const [year, evs] of MUSIC_EVENTS) {
+    for (const e of evs) items.push({ id: e.id, year, title: e.title });
+  }
+  return items.sort((a, b) => a.year - b.year || a.title.localeCompare(b.title, "en"));
+})();
+
+/**
+ * The works immediately before and after a given music event in the thread,
+ * keyed by the event's stable id. A miss (id not in the thread — e.g. a
+ * suppressed work, or a non-music event) returns position -1 and no neighbours,
+ * so the UI shows nothing rather than a confidently-wrong link.
+ */
+export function musicThreadNeighbours(id: string): {
+  prev: MusicThreadLink | null;
+  next: MusicThreadLink | null;
+  position: number;
+  total: number;
+} {
+  const total = MUSIC_THREAD.length;
+  const idx = MUSIC_THREAD.findIndex((m) => m.id === id);
+  if (idx < 0) return { prev: null, next: null, position: -1, total };
+  return {
+    prev: MUSIC_THREAD[idx - 1] ?? null,
+    next: MUSIC_THREAD[idx + 1] ?? null,
+    position: idx,
+    total,
+  };
+}
+
 const sourcesOf = (evs: HistoryEvent[]) => evs.reduce((n, e) => n + e.sources.length, 0);
 
 /** Merge music events into the corpus years, tagged "musical" and filterable. */

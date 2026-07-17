@@ -5,10 +5,11 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import type { YearData, HistoryEvent } from "@/types/history";
-import { getEraForYear, safeCategoryConfig } from "@/lib/constants";
+import { getEraForYear, safeCategoryConfig, formatYear } from "@/lib/constants";
+import { musicThreadNeighbours } from "@/lib/music-events";
 import { ScholarlyEraCard } from "@/components/ScholarlyEraCard";
 import { GlassMarginalia } from "./GlassMarginalia";
 import "./notebook-folio.css";
@@ -38,9 +39,49 @@ function yearOrdinal(y: number, total: number): string {
   return `${String(ordinal).padStart(4, "0")} / ${total.toLocaleString()}`;
 }
 
+/** Centre a folio entry in view and flash it — the "you landed here" cue for a
+ *  followed thread. Honours prefers-reduced-motion for both scroll and flash. */
+function scrollToEntry(id: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+  // Move focus to the landed entry so keyboard / screen-reader users arrive
+  // there too, not just sighted ones. tabindex=-1 makes it programmatically
+  // focusable without adding it to the tab order; preventScroll avoids fighting
+  // the smooth scroll above.
+  el.setAttribute("tabindex", "-1");
+  el.focus({ preventScroll: true });
+  el.classList.add("notebook-folio-entry-flash");
+  window.setTimeout(() => el.classList.remove("notebook-folio-entry-flash"), 1600);
+}
+
 export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
   const era = getEraForYear(year.year);
   const totalSources = year.events.reduce((a, e) => a + e.sources.length, 0);
+
+  // When arriving via a "follow the thread" link (/year/N#music-…), the folio
+  // is client-rendered after data loads, so the browser's native hash scroll
+  // has nothing to target yet. Once this year's entries are in the DOM, bring
+  // the linked entry into view and flash it, so the thread keeps the reader's
+  // place instead of dropping them at the top of a dense year.
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    if (!hash) return;
+    let raf1 = 0;
+    let raf2 = 0;
+    // Defer past the router's own post-navigation scroll and the final layout
+    // pass (two frames) so our scroll isn't overridden and the target's
+    // position is settled before we centre it. (Same-year hops don't remount
+    // and are handled by the thread link's onClick instead — see MusicThread.)
+    raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(() => scrollToEntry(hash));
+    });
+    return () => {
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+    };
+  }, [year.year]);
 
   return (
     <article className="notebook-folio">
@@ -125,7 +166,7 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
 
         <ol className="notebook-folio-entries">
           {year.events.map((ev, i) => (
-            <NotebookFolioEntry key={ev.id} ev={ev} idx={i} />
+            <NotebookFolioEntry key={ev.id} ev={ev} idx={i} currentYear={year.year} />
           ))}
         </ol>
       </section>
@@ -237,9 +278,10 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
 interface NotebookFolioEntryProps {
   ev: HistoryEvent;
   idx: number;
+  currentYear: number;
 }
 
-function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
+function NotebookFolioEntry({ ev, idx, currentYear }: NotebookFolioEntryProps) {
   const [open, setOpen] = useState(false);
   const contemp = ev.sources.filter((s) => s.contemporary).length;
   const later = ev.sources.length - contemp;
@@ -247,7 +289,7 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
   const catLabel = safeCategoryConfig(ev.category).label;
 
   return (
-    <li className="notebook-folio-entry" data-cat={ev.category}>
+    <li id={ev.id} className="notebook-folio-entry" data-cat={ev.category}>
       <div className="notebook-folio-entry-rail">
         <div className="notebook-folio-entry-index">
           {String(idx + 1).padStart(2, "0")}
@@ -306,6 +348,10 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
               {open ? "Hide sources ↑" : "Sources & figures ↓"}
             </button>
           </div>
+
+          {ev.category === "musical" && (
+            <MusicThread eventId={ev.id} currentYear={currentYear} />
+          )}
         </div>
 
         {open && (
@@ -350,6 +396,87 @@ function NotebookFolioEntry({ ev, idx }: NotebookFolioEntryProps) {
         )}
       </div>
     </li>
+  );
+}
+
+/**
+ * Follow-the-thread control for Music & Opera entries: jumps to the earlier /
+ * later work in the chronological music sequence, landing on that exact entry
+ * (via a #id anchor). Turns the "musical" filter into the guided narrative the
+ * UX audit asked for ("filter and thread"). Keyed off the event's stable id, so
+ * a miss (suppressed/non-thread work) simply renders nothing.
+ */
+function MusicThread({ eventId, currentYear }: { eventId: string; currentYear: number }) {
+  const { prev, next, position, total } = musicThreadNeighbours(eventId);
+  if (position < 0 || (!prev && !next)) return null;
+
+  // A hop to a work in the SAME year only changes the URL hash: the folio does
+  // not remount and the mount effect (keyed on year) never fires. Scroll + flash
+  // directly. Cross-year hops fall through to the Link nav + the mount effect.
+  const hop =
+    (targetYear: number, targetId: string) => (e: React.MouseEvent) => {
+      // Let modified clicks (new tab/window) behave normally — don't hijack the
+      // current page; the opened tab deep-links and scrolls itself.
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      if (targetYear === currentYear) {
+        requestAnimationFrame(() => scrollToEntry(targetId));
+      }
+    };
+
+  return (
+    <nav
+      className="notebook-folio-thread"
+      aria-label={`Music & Opera thread — work ${position + 1} of ${total}`}
+    >
+      <span className="notebook-folio-thread-label">
+        <span aria-hidden="true">♪ </span>Follow the thread
+        <span className="notebook-folio-thread-count">
+          {" "}
+          <span aria-hidden="true">· </span>
+          {position + 1} of {total}
+        </span>
+      </span>
+      <div className="notebook-folio-thread-links">
+        {prev ? (
+          <Link
+            href={`/year/${prev.year}#${prev.id}`}
+            scroll={false}
+            onClick={hop(prev.year, prev.id)}
+            className="notebook-folio-thread-link prev"
+          >
+            <span className="notebook-folio-thread-dir">
+              <span aria-hidden="true">← </span>Earlier
+            </span>
+            <span className="notebook-folio-thread-work">
+              {prev.title} <span aria-hidden="true">·</span> {formatYear(prev.year)}
+            </span>
+          </Link>
+        ) : (
+          <span className="notebook-folio-thread-end">
+            <span aria-hidden="true">← </span>Start of the thread
+          </span>
+        )}
+        {next ? (
+          <Link
+            href={`/year/${next.year}#${next.id}`}
+            scroll={false}
+            onClick={hop(next.year, next.id)}
+            className="notebook-folio-thread-link next"
+          >
+            <span className="notebook-folio-thread-dir">
+              Later<span aria-hidden="true"> →</span>
+            </span>
+            <span className="notebook-folio-thread-work">
+              {next.title} <span aria-hidden="true">·</span> {formatYear(next.year)}
+            </span>
+          </Link>
+        ) : (
+          <span className="notebook-folio-thread-end">
+            End of the thread<span aria-hidden="true"> →</span>
+          </span>
+        )}
+      </div>
+    </nav>
   );
 }
 

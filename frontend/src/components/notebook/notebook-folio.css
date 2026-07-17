@@ -374,6 +374,99 @@
   margin-left: -16px;
 }
 
+/* Brief highlight when a "follow the thread" link lands on this entry. */
+.notebook-folio-entry-flash {
+  animation: notebook-folio-flash 1.6s ease-out;
+}
+@keyframes notebook-folio-flash {
+  0%, 22% { background: color-mix(in oklab, var(--cat-musical, var(--stamp)) 16%, transparent); }
+  100% { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .notebook-folio-entry-flash { animation: none; }
+}
+
+/* Follow-the-thread: prev/next within the Music & Opera sequence. */
+.notebook-folio-thread {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed color-mix(in oklab, var(--cat-musical, var(--stamp)) 35%, transparent);
+}
+.notebook-folio-thread-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--notebook-text-small);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cat-musical, var(--stamp));
+  margin-bottom: 8px;
+}
+.notebook-folio-thread-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.notebook-folio-thread-link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 220px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--cat-musical, var(--stamp)) 7%, transparent);
+  border: 1px solid color-mix(in oklab, var(--cat-musical, var(--stamp)) 22%, transparent);
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.notebook-folio-thread-link.next { text-align: right; align-items: flex-end; }
+.notebook-folio-thread-link:hover {
+  background: color-mix(in oklab, var(--cat-musical, var(--stamp)) 14%, transparent);
+  border-color: color-mix(in oklab, var(--cat-musical, var(--stamp)) 45%, transparent);
+}
+.notebook-folio-thread-link.prev:hover { transform: translateX(-2px); }
+.notebook-folio-thread-link.next:hover { transform: translateX(2px); }
+.notebook-folio-thread-link:focus-visible {
+  outline: 2px solid var(--cat-musical, var(--stamp));
+  outline-offset: 2px;
+}
+.notebook-folio-thread-dir {
+  font-family: var(--font-sans);
+  font-size: var(--notebook-text-small);
+  font-weight: 600;
+  color: var(--cat-musical, var(--stamp));
+}
+.notebook-folio-thread-work {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--fg-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.notebook-folio-thread-end {
+  flex: 1 1 220px;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--fg-mute);
+  padding: 8px 12px;
+  opacity: 0.7;
+}
+/* The end-of-thread cap sits in the right-hand (next) slot — it is the sibling
+   that follows the prev link. Right-align it to match the .next links. The
+   start-of-thread cap is the first child (left slot) and stays left-aligned. */
+.notebook-folio-thread-link.prev + .notebook-folio-thread-end { text-align: right; }
+.notebook-folio-thread-count {
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--fg-mute);
+  opacity: 0.85;
+}
+
 .notebook-folio-entry-foot {
   display: flex;
   align-items: center;
