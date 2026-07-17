@@ -6,6 +6,9 @@
 .era-ribbon-wrap {
   margin: 4px 0 22px;
   font-family: var(--font-sans);
+  /* Belt-and-suspenders against sub-pixel rounding on narrow viewports (the
+     bands are decorative and clip cleanly). */
+  overflow-x: clip;
 }
 
 .era-ribbon-scale {
@@ -44,7 +47,8 @@
 
 .era-ribbon-seg {
   flex-basis: 0;
-  min-width: 30px;
+  /* 10 segments must fit the ribbon even at 320px (≈280px inner): 10×24=240. */
+  min-width: 24px;
   position: relative;
   display: flex;
   align-items: center;

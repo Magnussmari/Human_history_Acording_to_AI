@@ -140,8 +140,13 @@ test("a scholarly era deep-dive page renders", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/era/era-01", { waitUntil: "networkidle" });
-  // Real era (not the "Era not found" fallback): a visible heading + no errors.
-  await expect(page.locator("h1")).toBeVisible();
+  // Real era, not the "Era not found" / "Unregistered" fallback: assert on the
+  // heading CONTENT, not merely that an h1 exists.
+  const h1 = page.locator("h1").first();
+  await expect(h1).toBeVisible();
+  const heading = (await h1.textContent())?.trim() ?? "";
+  expect(heading.length).toBeGreaterThan(2);
+  expect(heading).not.toMatch(/not found|unregistered/i);
   await page.waitForTimeout(400);
   expect(errors).toEqual([]);
 });
