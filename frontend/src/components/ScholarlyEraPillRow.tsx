@@ -49,7 +49,13 @@ export function ScholarlyEraPillRow({
           </span>
         )}
       </p>
-      <div className="flex gap-2 flex-wrap pb-2">
+      {/* A single horizontal scroll strip, not a wrapping row: a long era name
+          (e.g. "Persian Achaemenid Empire") can't shrink (shrink-0) and would
+          overflow the viewport on narrow screens; scrolling contains it. */}
+      <div
+        className="flex gap-2 pb-2"
+        style={{ overflowX: "auto", flexWrap: "nowrap", scrollbarWidth: "thin" }}
+      >
         {visible.map((era) => {
           const rangeLabel =
             era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`;

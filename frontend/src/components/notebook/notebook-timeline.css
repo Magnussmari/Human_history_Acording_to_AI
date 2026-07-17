@@ -127,6 +127,15 @@
   color: var(--fg);
 }
 
+/* On phones the fixed 78px rail can't hold the 28px "2025 CE" (its content is
+   ~92px, which spilled and tipped the row 3px over the viewport at 320px on
+   Linux). Stack the numeral above the era and shrink it so it fits with margin. */
+@media (max-width: 480px) {
+  .notebook-row { grid-template-columns: 58px 1fr auto; gap: 12px; }
+  .notebook-row-year { flex-direction: column; gap: 0; }
+  .notebook-row-year-num { font-size: 20px; }
+}
+
 .notebook-row-year-era {
   font-family: var(--font-sans);
   font-size: var(--notebook-text-small);
