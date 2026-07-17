@@ -36,4 +36,14 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
   - SEO (ISC-6): /sitemap.xml + /robots.txt missing; opengraph-image 502 on live; og:url/og:image
     point at the retired vercel domain; per-page metadata generic (generateMetadata lever).
   - Note: scholarly /era pages are EMPTY in this build (Layer 2 evidence not deployed) — the era
-    deep-dive criterion is a DATA gap, not a frontend one.
+    deep-dive criterion is a DATA gap, not a frontend one. (Later found the era-NN detail files DO
+    exist and render; the audit used wrong slugs. /era/era-01 works and is in the sitemap + E2E.)
+- 2026-07-17 (wind-down): SEO shipped + live (sitemap 5,255 URLs, robots, OG image 200 — fixed the
+  edge-runtime 502 by bundling fonts as TTF; metadataBase → timeline.sumarhus.com). Sticky overlap +
+  contrast tokens fixed. Proportional **era ribbon** replaced the era-pill mess (parallel ask). Full
+  a11y batch → **0 serious/critical on all 8 routes**, axe gate wired into CI (30 E2E tests green).
+  README updated for sovereign hosting + the S-tier pass. Deployed v6→v10 to the edge, each verified
+  live. Cultural-Eras **mission prep** written (docs/missions/cultural-eras/) per Magnús's next ask.
+  Scoreboard: ISC-1,2,3,4,6,7 ☑ · ISC-5 partial (ribbon gives spatial context; live-scroll minimap
+  still desktop-only) · ISC-8 Fable final sign-off in flight. Deferred: ⌘K modal focus-trap; atlas
+  mobile globe-clip + stratum tick-thinning (from the responsive audit) — documented follow-ups.
