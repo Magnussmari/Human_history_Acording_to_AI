@@ -246,7 +246,11 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
               return (
                 <li key={i} className="notebook-folio-edge">
                   {Number.isFinite(fromYear) && !Number.isNaN(fromYear) ? (
-                    <Link href={`/year/${fromYear}`} className="notebook-folio-edge-id">
+                    <Link
+                      href={`/year/${fromYear}`}
+                      className="notebook-folio-edge-id"
+                      aria-label={`Connection ${relation} — source ${edge.from}`}
+                    >
                       {edge.from}
                     </Link>
                   ) : (
@@ -254,7 +258,11 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
                   )}
                   <span className="notebook-folio-edge-rel">{relation}</span>
                   {Number.isFinite(toYear) && !Number.isNaN(toYear) ? (
-                    <Link href={`/year/${toYear}`} className="notebook-folio-edge-id">
+                    <Link
+                      href={`/year/${toYear}`}
+                      className="notebook-folio-edge-id"
+                      aria-label={`Connection ${relation} — target ${edge.to}`}
+                    >
                       {edge.to}
                     </Link>
                   ) : (
@@ -386,6 +394,7 @@ function NotebookFolioEntry({
               className="notebook-folio-entry-more"
               onClick={() => setOpen((o) => !o)}
               aria-expanded={open}
+              aria-label={`${open ? "Hide" : "Show"} sources for ${ev.title}`}
             >
               {open ? "Hide sources ↑" : "Sources & figures ↓"}
             </button>

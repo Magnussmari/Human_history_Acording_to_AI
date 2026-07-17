@@ -13,7 +13,7 @@ Live target: https://timeline.sumarhus.com (sovereign edge, smarason-edge-hel1).
 | ISC-1 | Quality is durable, not a snapshot | Committed Playwright E2E suite + GitHub Actions CI green on push/PR | ☑ suite + CI committed |
 | ISC-2 | Zero console errors app-wide | E2E asserts 0 console/page errors on every route | ☑ green |
 | ISC-3 | No horizontal overflow at any width | E2E asserts scrollWidth ≤ innerWidth at 320/375/414/768 on every route | ☑ green (fixed stratum/methodology/music/folio/header) |
-| ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ◐ contrast tokens fixed (home 26→6, music 272→75, methodology 30→2, stratum→0), doc-density role=img. REMAINING: music-specific colors, landmarks (2×main), links-underline, skip link, input focus rings, ⌘K dialog, atlas canvas/controls |
+| ISC-4 | Full keyboard + screen-reader a11y | axe-core: 0 serious/critical app-wide; interactive elements keyboard-reachable & labelled | ☑ 0 serious/critical on all 8 routes, E2E axe gate in CI. Skip link, focus rings, atlas canvas/control names + h1, cross-year + source names, landmarks, contrast (music 272→0). NOTE: ⌘K modal-dialog focus-trap deferred (documented follow-up) |
 | ISC-5 | Mobile/tablet has spatial orientation | An era-jump affordance is usable below 1400px (where the minimap is hidden) | ☐ |
 | ISC-6 | Discoverable / shareable | sitemap.xml (home + years + eras + static) and robots.txt served; OG image resolves | ☑ sitemap(5255)+robots+OG 200, metadataBase fixed, E2E-covered |
 | ISC-7 | Consistent chrome | No sticky-header overlap on desktop; nav coherent at all widths | ☑ secondary top 54→62px (clears primary); backdrop-filter kills ghosting |

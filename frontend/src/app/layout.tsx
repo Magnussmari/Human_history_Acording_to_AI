@@ -108,12 +108,17 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="variant-a min-h-full flex flex-col">
+        <a href="#main-content" className="skip-link">
+          Skip to timeline
+        </a>
         <Providers>
           <VariantProvider>
             <Suspense fallback={<ShellFallback />}>
               <ChronographShell />
             </Suspense>
-            <main className="flex-1">{children}</main>
+            <main id="main-content" tabIndex={-1} className="flex-1">
+              {children}
+            </main>
             <ChronographFooter />
           </VariantProvider>
           <Toaster

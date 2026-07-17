@@ -160,6 +160,7 @@
   background: var(--card); border: 1px solid var(--rule-soft); border-radius: 10px;
   padding: 9px 13px;
 }
+.mf-search:focus-within { border-color: var(--stamp); outline: 2px solid var(--stamp); outline-offset: 1px; }
 .mf-search svg { flex: none; opacity: .5; }
 .mf-search input {
   border: 0; outline: 0; font-family: inherit; font-size: 15.5px; width: 100%;
@@ -220,9 +221,9 @@
   font-family: var(--font-plex-mono), monospace; font-size: 10px; letter-spacing: .06em;
   text-transform: uppercase; padding: 2px 8px; border-radius: 999px; font-weight: 500;
 }
-.mf-ev-cov-rich     { color: var(--cat-economic); background: color-mix(in oklab, var(--cat-economic) 16%, transparent); }
-.mf-ev-cov-moderate { color: var(--cat-technological); background: color-mix(in oklab, var(--cat-technological) 16%, transparent); }
-.mf-ev-cov-sparse   { color: var(--fg-mute); background: var(--rule-soft); }
+.mf-ev-cov-rich     { color: var(--fg-2); background: color-mix(in oklab, var(--cat-economic) 16%, transparent); }
+.mf-ev-cov-moderate { color: var(--fg-2); background: color-mix(in oklab, var(--cat-technological) 16%, transparent); }
+.mf-ev-cov-sparse   { color: var(--fg-2); background: var(--rule-soft); }
 .mf-ev-count { font-family: var(--font-plex-mono), monospace; font-size: 11px; color: var(--fg-mute); margin-left: auto; }
 .mf-ev-synth { margin: 12px 0 14px; color: var(--fg-2); font-size: 15.5px; line-height: 1.6; max-width: 74ch; }
 .mf-ev-sources { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
@@ -242,7 +243,7 @@
 }
 .mf-ev-stance-supporting { color: var(--cat-economic); background: color-mix(in oklab, var(--cat-economic) 15%, transparent); }
 .mf-ev-stance-contested  { color: var(--stamp); background: var(--stamp-soft); }
-.mf-ev-stance-background  { color: var(--fg-mute); background: var(--rule-soft); }
+.mf-ev-stance-background  { color: var(--fg-2); background: var(--rule-soft); }
 .mf-ev-contested { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--rule-soft); }
 .mf-ev-contested ul { margin: 8px 0 0; padding-left: 18px; color: var(--fg-2); font-size: 14.5px; }
 .mf-ev-contested li { margin-bottom: 5px; }

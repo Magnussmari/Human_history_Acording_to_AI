@@ -100,7 +100,7 @@ export function ChronographShell() {
           methodology — don't show it. */}
       {switcherVisible && (
         <div className="chronograph-chrome chronograph-chrome-secondary">
-          <div className="chronograph-subtitle">
+          <div className="chronograph-subtitle" aria-hidden="true">
             Human History According to AI
           </div>
           <div className="chronograph-spacer" />

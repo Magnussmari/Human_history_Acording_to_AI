@@ -821,6 +821,8 @@ function Globe({
       <canvas
         ref={canvasRef}
         className="gs-canvas"
+        role="img"
+        aria-label="Interactive globe showing historical events by location. The same events are available as text on the timeline and year pages."
         onPointerDown={pointerDown}
         onPointerMove={pointerMove}
         onPointerUp={pointerUp}
@@ -931,21 +933,35 @@ function Globe({
 
       <div className="gs-hud-tr">
         <div className="gs-ctrls">
-          <button type="button" onClick={() => setZoom((z) => Math.min(6, z * 1.3))} title="Zoom in">+</button>
-          <button type="button" onClick={() => setZoom((z) => Math.max(1, z / 1.3))} title="Zoom out">−</button>
+          <button type="button" onClick={() => setZoom((z) => Math.min(6, z * 1.3))} title="Zoom in" aria-label="Zoom in">
+            <span aria-hidden="true">+</span>
+          </button>
+          <button type="button" onClick={() => setZoom((z) => Math.max(1, z / 1.3))} title="Zoom out" aria-label="Zoom out">
+            <span aria-hidden="true">−</span>
+          </button>
           <div className="gs-ctrls-sep" />
-          <button type="button" onClick={() => nudge(0, -20)} title="Up">▲</button>
-          <button type="button" onClick={() => nudge(-20, 0)} title="West">◀</button>
-          <button type="button" onClick={() => nudge(20, 0)} title="East">▶</button>
-          <button type="button" onClick={() => nudge(0, 20)} title="Down">▼</button>
+          <button type="button" onClick={() => nudge(0, -20)} title="Up" aria-label="Pan north">
+            <span aria-hidden="true">▲</span>
+          </button>
+          <button type="button" onClick={() => nudge(-20, 0)} title="West" aria-label="Pan west">
+            <span aria-hidden="true">◀</span>
+          </button>
+          <button type="button" onClick={() => nudge(20, 0)} title="East" aria-label="Pan east">
+            <span aria-hidden="true">▶</span>
+          </button>
+          <button type="button" onClick={() => nudge(0, 20)} title="Down" aria-label="Pan south">
+            <span aria-hidden="true">▼</span>
+          </button>
           <div className="gs-ctrls-sep" />
           <button
             type="button"
             className={autoSpin ? "on" : ""}
             onClick={() => setAutoSpin((s) => !s)}
             title="Auto-rotate"
+            aria-label="Toggle auto-rotate"
+            aria-pressed={autoSpin}
           >
-            {autoSpin ? "■" : "↻"}
+            <span aria-hidden="true">{autoSpin ? "■" : "↻"}</span>
           </button>
         </div>
         <div className="gs-zoom-ind">{zoom.toFixed(1)}×</div>
@@ -1284,6 +1300,18 @@ export function GlobeAtlas({ years, yearRange }: GlobeAtlasProps) {
 
   return (
     <div className="gs-root">
+      <h1
+        style={{
+          position: "absolute",
+          width: 1,
+          height: 1,
+          overflow: "hidden",
+          clip: "rect(0 0 0 0)",
+          whiteSpace: "nowrap",
+        }}
+      >
+        Atlas — Chronograph
+      </h1>
       <header className="gs-chrome">
         <div className="gs-brand">
           <span className="gs-brand-mark" />

@@ -215,8 +215,9 @@ export function MusicTimeline() {
           </nav>
         </aside>
 
-        {/* main */}
-        <main className="mf-main">
+        {/* main — a <section>, not <main>: the app shell already provides the
+            page's single <main> landmark, so this must not nest a second one. */}
+        <section className="mf-main" aria-label="Classical music & opera timeline">
           <header className="mf-hero">
             <div className="mf-kicker">A Chronicle in Sound · c.850 – 2025</div>
             <h1>
@@ -450,7 +451,7 @@ export function MusicTimeline() {
               remains model-drafted; Layer 2 is the real scholarship on top.
             </p>
           </footer>
-        </main>
+        </section>
       </div>
     </div>
   );

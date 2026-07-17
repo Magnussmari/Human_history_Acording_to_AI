@@ -189,16 +189,18 @@ export function Pullquote({
     >
       {children}
       {attribution ? (
-        <footer
+        <cite
           style={{
+            display: "block",
             marginTop: "var(--atlas-space-3)",
             fontFamily: "var(--atlas-font-sans)",
             fontSize: "var(--atlas-text-small)",
+            fontStyle: "normal",
             color: "var(--atlas-ink-mute)",
           }}
         >
           — {attribution}
-        </footer>
+        </cite>
       ) : null}
     </blockquote>
   );

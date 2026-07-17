@@ -74,7 +74,7 @@ export function ProvenanceStrip({
 
   return (
     <aside
-      role="contentinfo"
+      role="note"
       aria-label="Page provenance"
       className={className}
       style={{

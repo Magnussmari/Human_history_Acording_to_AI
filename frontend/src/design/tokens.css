@@ -17,7 +17,10 @@
   --atlas-ink: var(--fg);
   --atlas-ink-soft: var(--fg-2);
   --atlas-ink-mute: var(--fg-mute);
-  --atlas-ink-ghost: color-mix(in oklab, var(--fg-mute) 82%, var(--bg));
+  /* Darkened from an 82% mix (rendered ~#74757f, 3.92:1 — failed WCAG AA) to a
+     94% mix so stat sublabels clear ~5:1 on the cream backgrounds while keeping
+     a faint ghost distinction from --atlas-ink-mute. */
+  --atlas-ink-ghost: color-mix(in oklab, var(--fg-mute) 94%, var(--bg));
 
   --atlas-oxblood: var(--stamp);
   --atlas-oxblood-soft: color-mix(in oklab, var(--stamp) 55%, transparent);

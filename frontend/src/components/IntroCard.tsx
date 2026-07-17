@@ -109,8 +109,27 @@ export function IntroCard({ manifest, onDismiss }: IntroCardProps) {
         years of human civilisation — assembled by Claude Sonnet under the ICCRA
         schema. Every entry carries its sources, its certainty, and the gaps it
         couldn&apos;t fill. Browse the timeline below, or jump to{" "}
-        <a href="/atlas" style={{ color: "var(--stamp)" }}>Atlas</a> for the map
-        view and <a href="/stratum" style={{ color: "var(--stamp)" }}>Stratum</a>{" "}
+        <a
+          href="/atlas"
+          style={{
+            color: "var(--stamp)",
+            textDecoration: "underline",
+            textUnderlineOffset: "2px",
+          }}
+        >
+          Atlas
+        </a>{" "}
+        for the map view and{" "}
+        <a
+          href="/stratum"
+          style={{
+            color: "var(--stamp)",
+            textDecoration: "underline",
+            textUnderlineOffset: "2px",
+          }}
+        >
+          Stratum
+        </a>{" "}
         for the per-year instrument.
       </p>
     </motion.aside>

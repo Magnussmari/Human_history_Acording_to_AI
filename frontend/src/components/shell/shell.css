@@ -7,6 +7,34 @@
    Primary (always): brand + site links — sticky, full-width, thin rule.
    Secondary (interactive routes only): subtitle + view switcher — sits
    directly under the primary, slightly sunken tone. */
+/* Skip link — first focusable element in the body. Visually hidden until it
+   receives keyboard focus, then it pins to the top-left so keyboard users can
+   jump straight past the chrome to the timeline. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: 100;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-family: var(--font-sans);
+  text-decoration: none;
+}
+
 .chronograph-chrome {
   display: flex;
   align-items: center;

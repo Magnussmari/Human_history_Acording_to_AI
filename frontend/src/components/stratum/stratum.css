@@ -211,6 +211,12 @@
   border-color: var(--accent);
 }
 
+.stratum-jump-input:focus-visible {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
 .stratum-jump-input::placeholder {
   color: var(--fg-mute);
   letter-spacing: 0.04em;
