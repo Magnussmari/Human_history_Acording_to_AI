@@ -24,7 +24,7 @@ const RANK: Record<string, number> = {
 };
 
 function formatYear(y: number): string {
-  if (y < 0) return `${Math.abs(y).toLocaleString()} BCE`;
+  if (y < 0) return `${Math.abs(y)} BCE`;
   return `${y} CE`;
 }
 
