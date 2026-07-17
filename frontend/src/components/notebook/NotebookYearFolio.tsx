@@ -60,6 +60,16 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
   const era = getEraForYear(year.year);
   const totalSources = year.events.reduce((a, e) => a + e.sources.length, 0);
 
+  // Global "expand all sources" for the Events section (UX audit §4). The nonce
+  // bumps on every toggle so each entry snaps to the new state on an explicit
+  // action, while individual per-entry toggles in between are preserved.
+  const [allOpen, setAllOpen] = useState(false);
+  const [expandNonce, setExpandNonce] = useState(0);
+  const toggleAll = () => {
+    setAllOpen((v) => !v);
+    setExpandNonce((n) => n + 1);
+  };
+
   // When arriving via a "follow the thread" link (/year/N#music-…), the folio
   // is client-rendered after data loads, so the browser's native hash scroll
   // has nothing to target yet. Once this year's entries are in the DOM, bring
@@ -162,11 +172,27 @@ export function NotebookYearFolio({ year }: NotebookYearFolioProps) {
           <span className="notebook-folio-section-trail">
             — chronological, as attested
           </span>
+          {year.events.length > 1 && (
+            <button
+              type="button"
+              className="notebook-folio-expand-all"
+              onClick={toggleAll}
+            >
+              {allOpen ? "Collapse all ↑" : "Expand all sources ↓"}
+            </button>
+          )}
         </header>
 
         <ol className="notebook-folio-entries">
           {year.events.map((ev, i) => (
-            <NotebookFolioEntry key={ev.id} ev={ev} idx={i} currentYear={year.year} />
+            <NotebookFolioEntry
+              key={ev.id}
+              ev={ev}
+              idx={i}
+              currentYear={year.year}
+              defaultOpen={allOpen}
+              openNonce={expandNonce}
+            />
           ))}
         </ol>
       </section>
@@ -279,10 +305,26 @@ interface NotebookFolioEntryProps {
   ev: HistoryEvent;
   idx: number;
   currentYear: number;
+  defaultOpen: boolean;
+  openNonce: number;
 }
 
-function NotebookFolioEntry({ ev, idx, currentYear }: NotebookFolioEntryProps) {
-  const [open, setOpen] = useState(false);
+function NotebookFolioEntry({
+  ev,
+  idx,
+  currentYear,
+  defaultOpen,
+  openNonce,
+}: NotebookFolioEntryProps) {
+  const [open, setOpen] = useState(defaultOpen);
+  // Snap to the folio's expand-all state whenever it is toggled (nonce bumps).
+  // Individual toggles between bumps are preserved. Keyed on the nonce so it
+  // only fires on an explicit user action, not on unrelated re-renders;
+  // defaultOpen is intentionally read-latest and excluded from the deps.
+  useEffect(() => {
+    setOpen(defaultOpen);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [openNonce]);
   const contemp = ev.sources.filter((s) => s.contemporary).length;
   const later = ev.sources.length - contemp;
   const rank = CERTAINTY_RANK[ev.certainty] ?? 0;

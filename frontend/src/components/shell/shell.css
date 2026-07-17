@@ -69,6 +69,28 @@
   .chronograph-chrome-secondary { padding: 8px 18px; top: 50px; }
 }
 
+/* Keep the primary nav on a single row on phones: tighten the site links and
+   drop the "GitHub" word to an icon (its accessible name stays via aria-label).
+   Avoids horizontal overflow without wrapping the sticky header (which would
+   desync the secondary nav's sticky offset). Tuned to fit ~320px up. */
+@media (max-width: 520px) {
+  .chronograph-chrome { gap: 8px; padding: 12px 14px; }
+  /* If the brand + links can't share one row, the links wrap beneath the brand
+     rather than overflowing the viewport. The secondary nav becomes non-sticky
+     on mobile so a taller (wrapped) primary can't desync its sticky offset. */
+  .chronograph-chrome-primary { flex-wrap: wrap; row-gap: 6px; }
+  .chronograph-chrome-secondary { position: static; }
+  .chronograph-brand-name { font-size: 15px; }
+  .chronograph-brand-link { gap: 7px; }
+  .chronograph-links { gap: 13px; }
+  .chronograph-link {
+    letter-spacing: 0.02em;
+    font-size: 11px;
+    padding: 6px 0;
+  }
+  .chronograph-link-label { display: none; }
+}
+
 .chronograph-links {
   display: flex;
   gap: 22px;

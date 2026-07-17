@@ -89,7 +89,8 @@ export function ChronographShell() {
             className="chronograph-link chronograph-link-external"
             aria-label="View source on GitHub"
           >
-            GitHub <ExternalLink size={12} aria-hidden="true" />
+            <span className="chronograph-link-label">GitHub </span>
+            <ExternalLink size={12} aria-hidden="true" />
           </a>
         </nav>
       </header>

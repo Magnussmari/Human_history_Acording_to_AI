@@ -225,10 +225,35 @@
 .notebook-folio-section-head {
   display: flex;
   align-items: baseline;
-  gap: 14px;
+  flex-wrap: wrap;
+  gap: 6px 14px;
   margin: 0 0 28px;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 10px;
+}
+
+/* Global expand/collapse-all sources control (UX audit §4). */
+.notebook-folio-expand-all {
+  margin-left: auto;
+  align-self: baseline;
+  font-family: var(--font-sans);
+  font-size: var(--notebook-text-small);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--fg-mute);
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.notebook-folio-expand-all:hover {
+  color: var(--stamp);
+}
+.notebook-folio-expand-all:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: 2px;
 }
 
 .notebook-folio-section-head h2 {
@@ -313,6 +338,7 @@
   margin-bottom: 6px;
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: 4px;
 }
 
