@@ -211,6 +211,7 @@ export function DataList({
 }) {
   return (
     <dl
+      className="atlas-datalist"
       style={{
         fontFamily: "var(--atlas-font-mono)",
         fontSize: "var(--atlas-text-small)",

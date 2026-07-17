@@ -121,3 +121,13 @@
 .atlas-reading a:hover {
   color: var(--atlas-ink);
 }
+
+/* DataList (Editorial) collapses from term|value columns to a single stacked
+   column on phones, so a long term can't push the grid past the viewport.
+   !important overrides the component's inline grid-template-columns. */
+@media (max-width: 520px) {
+  .atlas-datalist {
+    grid-template-columns: 1fr !important;
+    row-gap: 12px !important;
+  }
+}
