@@ -868,6 +868,123 @@
   color: var(--fg-2);
 }
 
+/* Era tone — driven by data-tone on the folio wrapper, not hardcoded era ids. */
+.notebook-folio[data-tone="golden"] {
+  --era-accent: var(--stamp);
+  --era-accent-soft: var(--stamp-soft);
+}
+
+.notebook-folio[data-tone="sombre"] {
+  --era-accent: color-mix(in oklab, var(--fg-mute) 55%, var(--stamp));
+  --era-accent-soft: color-mix(in oklab, var(--fg-mute) 12%, var(--card));
+}
+
+.notebook-folio[data-tone="neutral"],
+.notebook-folio:not([data-tone]) {
+  --era-accent: var(--stamp);
+  --era-accent-soft: var(--stamp-soft);
+}
+
+.notebook-folio[data-tone="golden"] .notebook-stamp,
+.notebook-folio[data-tone="sombre"] .notebook-stamp,
+.notebook-folio[data-tone="neutral"] .notebook-stamp {
+  color: var(--era-accent);
+  border-color: color-mix(in oklab, var(--era-accent) 35%, transparent);
+}
+
+.notebook-folio-kind-badge {
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-meta);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 99px;
+  border: 1px solid color-mix(in oklab, var(--era-accent, var(--stamp)) 30%, transparent);
+  color: var(--era-accent, var(--stamp));
+  background: var(--era-accent-soft, var(--stamp-soft));
+}
+
+.notebook-folio-registry-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--fg-2);
+  letter-spacing: 0.02em;
+}
+
+.notebook-folio-care-note {
+  margin: 40px 0;
+  padding: 18px 20px;
+  border-left: 3px solid var(--era-accent, var(--stamp));
+  background: color-mix(in oklab, var(--era-accent-soft, var(--stamp-soft)) 80%, var(--card));
+  border-radius: 0 6px 6px 0;
+}
+
+.notebook-folio-care-note-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-meta);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--era-accent, var(--stamp));
+  font-weight: 600;
+}
+
+.notebook-folio-care-note p {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--fg-2);
+}
+
+.notebook-folio-timeline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--era-accent, var(--stamp));
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in oklab, var(--era-accent, var(--stamp)) 35%, transparent);
+  padding-bottom: 2px;
+  transition: color .15s, border-color .15s;
+}
+
+.notebook-folio-timeline-link:hover {
+  color: var(--fg);
+  border-color: var(--fg-mute);
+}
+
+.era-pill-pending {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 2px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+}
+
+.era-pill-pending-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--fg-mute);
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
 /* Glass marginalia — easter egg, year 1423 only.
    A hairline note that brightens on hover and opens the fine-press reader. */
 .glass-marginalia {

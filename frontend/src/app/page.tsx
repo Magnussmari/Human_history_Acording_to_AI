@@ -30,6 +30,9 @@ const INTRO_STORAGE_KEY = "chronograph-intro-dismissed";
 export default function HomePage() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
+  const [yearRange, setYearRange] = useState<{ min: number; max: number } | null>(
+    null,
+  );
   const [showFilters, setShowFilters] = useState(false);
   const [introOpen, setIntroOpen] = useState(true);
 
@@ -44,6 +47,17 @@ export default function HomePage() {
       }
     } catch {
       /* noop */
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const yearMin = params.get("yearMin");
+    const yearMax = params.get("yearMax");
+    if (yearMin != null && yearMax != null) {
+      const min = Number(yearMin);
+      const max = Number(yearMax);
+      if (!Number.isNaN(min) && !Number.isNaN(max)) {
+        setYearRange({ min, max });
+      }
     }
   }, []);
 
@@ -84,6 +98,11 @@ export default function HomePage() {
         );
       }
     }
+    if (yearRange) {
+      result = result.filter(
+        (y) => y.year <= yearRange.max && y.year >= yearRange.min,
+      );
+    }
     // When a category filter is active, promote a matching event to the headline
     // slot so the row reflects the filter (e.g. Music & Opera surfaces the music
     // event, not the year's top political headline). All events still render.
@@ -99,7 +118,7 @@ export default function HomePage() {
       });
     }
     return result;
-  }, [years, filters, activeEra]);
+  }, [years, filters, activeEra, yearRange]);
 
   const activeFilterCount =
     filters.categories.length +
@@ -176,6 +195,7 @@ export default function HomePage() {
             {filteredYears.length.toLocaleString()} entr
             {filteredYears.length === 1 ? "y" : "ies"} displayed
             {activeEra && ` · ${activeEra} era`}
+            {yearRange && " · scholarly era span"}
             {filters.search && ` · matching "${filters.search}"`}
           </p>
           <span

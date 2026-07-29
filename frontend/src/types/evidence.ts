@@ -195,6 +195,7 @@ export type EducationData =
 export type PhaseStatus =
   | "phase3-complete"
   | "phase2-migration-pending"
+  | "phase4-research-pending"
   | "unresearched";
 
 export type EducationStatus =
@@ -231,6 +232,10 @@ export interface EraBundle {
   education: EducationData;
 }
 
+export type EraKind = "chronological" | "thematic" | "crisis" | "regional";
+export type EraTone = "golden" | "sombre" | "neutral";
+export type CareLevel = "standard" | "high";
+
 export interface EraRegistryEntry {
   id: string;
   number: number;
@@ -238,8 +243,16 @@ export interface EraRegistryEntry {
   start: number;
   end: number;
   primaryBroadEra: string;
-  phaseStatus: PhaseStatus;
-  educationStatus: EducationStatus;
+  /** Chronological entries carry phaseStatus; expansion entries omit it until a dossier lands. */
+  phaseStatus?: PhaseStatus;
+  educationStatus?: EducationStatus;
+  kind?: EraKind;
+  tone?: EraTone;
+  careLevel?: CareLevel;
+  overlaps?: boolean;
+  focus?: string;
+  careNotes?: string;
+  valorSource?: string | null;
 }
 
 export interface FutureBucket {
@@ -252,6 +265,7 @@ export interface FutureBucket {
 }
 
 export interface EraIndex {
+  schema_version?: string;
   generated_at: string;
   totals: {
     registered: number;

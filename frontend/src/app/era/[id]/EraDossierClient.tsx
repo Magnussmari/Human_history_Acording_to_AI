@@ -9,7 +9,7 @@ import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowLeft, BookOpen, Info, GraduationCap } from "lucide-react";
-import { fetchEra, formatEraRange } from "@/lib/evidence";
+import { fetchEra, fetchEraIndex, formatEraRange, expectsDossierFile } from "@/lib/evidence";
 import { fetchTimelineIndex } from "@/lib/data";
 import { mergeMusicEvents } from "@/lib/music-events";
 import type {
@@ -28,6 +28,7 @@ import { EvidenceTable } from "@/components/EvidenceTable";
 import { EducationPanel } from "@/components/EducationPanel";
 import { EducationSkeleton } from "@/components/EducationSkeleton";
 import { NotebookYearRow } from "@/components/notebook/NotebookYearRow";
+import { EraRegistryStub } from "@/components/EraRegistryStub";
 import "@/components/notebook/notebook-folio.css";
 
 function isPhase3(
@@ -40,10 +41,19 @@ export default function EraDossierClient() {
   const params = useParams();
   const id = Array.isArray(params.id) ? params.id[0] : (params.id as string);
 
-  const { data: era, isLoading } = useQuery({
+  const { data: index, isLoading: indexLoading } = useQuery({
+    queryKey: ["era-index"],
+    queryFn: fetchEraIndex,
+    staleTime: Infinity,
+  });
+
+  const registryEntry = index?.registry.find((e) => e.id === id);
+  const dossierExpected = registryEntry != null && expectsDossierFile(registryEntry);
+
+  const { data: era, isLoading: dossierLoading } = useQuery({
     queryKey: ["era", id],
     queryFn: () => fetchEra(id),
-    enabled: !!id,
+    enabled: !!id && dossierExpected,
   });
 
   // Only row-level data for a 10-year slice is needed here, so use the shared
@@ -56,9 +66,9 @@ export default function EraDossierClient() {
     enabled: !!era,
   });
 
-  if (isLoading) return null;
+  if (indexLoading || (dossierExpected && dossierLoading)) return null;
 
-  if (!era) {
+  if (!registryEntry) {
     return (
       <section className="notebook-folio notebook-folio-missing">
         <span className="notebook-stamp">Unregistered</span>
@@ -73,6 +83,14 @@ export default function EraDossierClient() {
         </Link>
       </section>
     );
+  }
+
+  if (!dossierExpected) {
+    return <EraRegistryStub entry={registryEntry} />;
+  }
+
+  if (!era) {
+    return <EraRegistryStub entry={registryEntry} />;
   }
 
   const phase = safePhaseStatusConfig(era.phaseStatus);
@@ -110,6 +128,7 @@ export default function EraDossierClient() {
   return (
     <motion.article
       className="notebook-folio"
+      data-tone={registryEntry.tone ?? "neutral"}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}

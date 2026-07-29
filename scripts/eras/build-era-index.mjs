@@ -60,6 +60,11 @@ function normaliseExpansion(entry) {
     overlaps: true,
     valorSource: entry.valorSource ?? null,
     focus: entry.focus,
+    // Expansion eras are registered before their dossier exists. Without a
+    // phaseStatus they fall out of the home-page era-pill filter entirely and
+    // the expansion is invisible to a reader.
+    phaseStatus: entry.phaseStatus ?? "phase4-research-pending",
+    educationStatus: entry.educationStatus ?? "unmapped",
   };
   if (entry.careNotes) out.careNotes = entry.careNotes;
   return out;

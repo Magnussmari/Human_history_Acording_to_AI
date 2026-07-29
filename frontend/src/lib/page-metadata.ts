@@ -32,6 +32,7 @@ interface EraRegistryEntry {
   end: number;
   primaryBroadEra?: string;
   phaseStatus?: string;
+  focus?: string;
 }
 
 function readData<T>(rel: string): T {
@@ -124,12 +125,14 @@ export function eraMetadata(id: string): Metadata {
   }
   const range = rangeLabel(era.start, era.end);
   const title = `${era.label} (${range}) — Chronograph`;
-  const description = `${era.label}, ${range}${
-    era.primaryBroadEra ? ` in the ${era.primaryBroadEra} span` : ""
-  }: a scholarly-evidence dossier in the Chronograph — verdict, contested claims, appraised papers, and the years that fall within the era.`.slice(
-    0,
-    300,
-  );
+  const description = era.focus
+    ? `${era.label}, ${range}: ${era.focus}`.slice(0, 300)
+    : `${era.label}, ${range}${
+        era.primaryBroadEra ? ` in the ${era.primaryBroadEra} span` : ""
+      }: a scholarly-evidence dossier in the Chronograph — verdict, contested claims, appraised papers, and the years that fall within the era.`.slice(
+        0,
+        300,
+      );
   return {
     title,
     description,

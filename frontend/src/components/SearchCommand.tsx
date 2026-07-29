@@ -388,7 +388,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                           Scholarly eras
                         </div>
                         {eraResults.map((era) => {
-                          const phase = safePhaseStatusConfig(era.phaseStatus);
+                          const phase = safePhaseStatusConfig(era.phaseStatus ?? "registry-only");
                           return (
                             <motion.button
                               key={era.id}

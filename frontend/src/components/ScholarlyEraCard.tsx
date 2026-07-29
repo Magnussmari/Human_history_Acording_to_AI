@@ -12,6 +12,7 @@ import {
   fetchEra,
   findEraForYear,
   formatEraRange,
+  expectsDossierFile,
 } from "@/lib/evidence";
 import type { SciteAgentResult } from "@/types/evidence";
 import { safeVerdictConfig, safePhaseStatusConfig } from "@/lib/constants";
@@ -32,7 +33,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
     queryKey: ["era", registryEntry?.id],
     queryFn: () =>
       registryEntry ? fetchEra(registryEntry.id) : Promise.resolve(null),
-    enabled: !!registryEntry,
+    enabled: !!registryEntry && expectsDossierFile(registryEntry),
   });
 
   if (!index) return null;
@@ -75,7 +76,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
   }
 
   const isPhase3 = registryEntry.phaseStatus === "phase3-complete";
-  const phase = safePhaseStatusConfig(registryEntry.phaseStatus);
+  const phase = safePhaseStatusConfig(registryEntry.phaseStatus ?? "registry-only");
   const scholarly = era?.scholarly as SciteAgentResult | undefined;
   const isAgentResult = scholarly?.schema_version === "1.0.0";
   const verdict = isAgentResult ? safeVerdictConfig(scholarly!.verdict) : null;

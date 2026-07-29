@@ -75,7 +75,9 @@ export const TIER_CONFIG: Record<string, { label: string; color: string }> = {
 export const PHASE_STATUS_CONFIG: Record<string, { label: string; color: string; dot: string }> = {
   "phase3-complete":          { label: "Phase 3 — validated",      color: "text-emerald-300", dot: "bg-emerald-400" },
   "phase2-migration-pending": { label: "Phase 2 — migration pending", color: "text-amber-300", dot: "bg-amber-400" },
+  "phase4-research-pending":  { label: "Phase 4 — research in progress", color: "text-muted-foreground", dot: "bg-slate-500" },
   "unresearched":             { label: "Not yet researched",       color: "text-muted-foreground", dot: "bg-slate-500" },
+  "registry-only":            { label: "Dossier pending",          color: "text-muted-foreground", dot: "bg-slate-500" },
 };
 
 /** 7 VALOR capacity categories. Used by EducationPanel / CapacityGrid. */

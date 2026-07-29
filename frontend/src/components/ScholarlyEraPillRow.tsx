@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
 import { GraduationCap } from "lucide-react";
 import type { EraIndex, EraRegistryEntry } from "@/types/evidence";
-import { findErasForBroadEra } from "@/lib/evidence";
+import { findErasForBroadEra, isDossierFiled } from "@/lib/evidence";
 
 interface ScholarlyEraPillRowProps {
   index: EraIndex;
@@ -25,6 +25,7 @@ export function ScholarlyEraPillRow({
     : index.registry.filter(
         (e) =>
           e.phaseStatus === "phase3-complete" ||
+          e.phaseStatus === "phase4-research-pending" ||
           e.educationStatus === "pilot-complete",
       );
 
@@ -59,17 +60,23 @@ export function ScholarlyEraPillRow({
         {visible.map((era) => {
           const rangeLabel =
             era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`;
+          const dossierPending = !isDossierFiled(era);
+          const phaseStatus = era.phaseStatus ?? "registry-only";
           const phaseTone =
-            era.phaseStatus === "phase3-complete"
+            phaseStatus === "phase3-complete"
               ? "var(--cert-confirmed)"
-              : era.phaseStatus === "phase2-migration-pending"
+              : phaseStatus === "phase2-migration-pending"
                 ? "var(--stamp)"
                 : "var(--fg-mute)";
+          const pillLabel = dossierPending
+            ? `${era.label}, ${rangeLabel}, dossier not yet filed`
+            : `${era.label}, ${rangeLabel}`;
           return (
             <motion.button
               key={era.id}
               onClick={() => router.push(`/era/${era.id}`)}
               type="button"
+              aria-label={pillLabel}
               className="shrink-0 rounded-full flex items-center gap-2"
               style={{
                 padding: "7px 16px",
@@ -99,6 +106,12 @@ export function ScholarlyEraPillRow({
               >
                 {rangeLabel}
               </span>
+              {dossierPending && (
+                <span className="era-pill-pending" aria-hidden="true">
+                  <span className="era-pill-pending-dot" />
+                  pending
+                </span>
+              )}
               {era.educationStatus === "pilot-complete" && (
                 <span
                   title="Education pilot complete — teaching materials available"
