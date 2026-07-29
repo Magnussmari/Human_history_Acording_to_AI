@@ -10,8 +10,10 @@
     "aggregate:years": "cd .. && node frontend/scripts/aggregate-data.mjs",
     "aggregate:evidence": "cd .. && node frontend/scripts/aggregate-evidence.mjs",
     "aggregate:index": "node scripts/build-timeline-index.mjs",
-    "aggregate": "npm run aggregate:years && npm run aggregate:evidence && npm run aggregate:index",
+    "aggregate": "npm run aggregate:years && npm run aggregate:evidence && npm run aggregate:index && npm run eras:build",
     "prebuild": "npm run aggregate",
+    "eras:build": "cd .. && node scripts/eras/build-era-index.mjs",
+    "eras:validate": "cd .. && node scripts/eras/validate-era-index.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui"
   },
