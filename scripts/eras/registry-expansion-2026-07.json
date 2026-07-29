@@ -1,0 +1,178 @@
+{
+  "schema_version": "2.0.0",
+  "created": "2026-07-29",
+  "source": "docs/era-expansion-brainstorm-2026-07-29.md",
+  "rationale": {
+    "id_bands": "Numbers 1-20 are in use and 21-49 are reserved by futureBuckets for the chronological backfill (Late Antiquity -> Pre-LLM AI). Non-linear eras therefore get dedicated bands so the chronological space stays clean: 100-119 thematic, 120-139 crisis, 140-159 regional. 25 (Islamic Golden Age) and 50 (AI Inflection Point) are legacy entries in the chronological space and stay put.",
+    "kind": "chronological = the linear sweep the corpus was built on; thematic = a Big-History lens crossing geography; crisis = an episode of rupture, suffering or environmental shock; regional = a civilisational sphere outside the Western default.",
+    "tone": "Drives palette. golden = flourishing; sombre = atrocity/rupture, muted palette, no celebratory framing; neutral = everything else. This is data, not a CSS special-case, so the UI never hardcodes a list of 'sad eras'.",
+    "care_level": "high = the era covers mass atrocity, enslavement or genocide. Editorial duty of care applies: sourcing triangulated beyond the corpus, naming conventions checked, no single-source claims about victim counts. Per operator decision 2026-07-29 this is NOT a hard publish gate, but it IS a research-depth and provenance-display requirement.",
+    "overlaps": "All non-chronological eras overlap each other and the chronological sweep by design. The index builder must not assume disjointness."
+  },
+
+  "thematic": [
+    {
+      "id": "era-100", "number": 100, "label": "The Scientific Revolution",
+      "start": 1543, "end": 1700, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": "04_renaissance_knowledge.md",
+      "focus": "The shift from natural philosophy to modern science: Copernicus, Galileo, Kepler, Newton, the experimental method and the founding of the learned societies."
+    },
+    {
+      "id": "era-101", "number": 101, "label": "The Age of Revolutions",
+      "start": 1774, "end": 1849, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": "05_enlightenment_knowledge.md",
+      "focus": "American, French, Haitian and the 1848 European revolutions; absolutist monarchy giving way to representative government. The Haitian Revolution is the canonical multi-era event: this, Abolition, and the chronological Modern sweep."
+    },
+    {
+      "id": "era-102", "number": 102, "label": "The Industrial Age",
+      "start": 1760, "end": 1914, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Modern", "careLevel": "standard",
+      "valorSource": "06_industrial_age.md",
+      "focus": "Mechanised manufacturing, urbanisation, the factory system, and the social dislocation that followed."
+    },
+    {
+      "id": "era-103", "number": 103, "label": "The Era of Decolonisation",
+      "start": 1945, "end": 1975, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Modern", "careLevel": "high",
+      "valorSource": "07_information_age.md",
+      "focus": "The dismantling of European colonial empires across Asia and Africa after WWII, including the partitions and wars that accompanied it."
+    },
+    {
+      "id": "era-104", "number": 104, "label": "The Digital & Information Age",
+      "start": 1970, "end": 2026, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Modern", "careLevel": "standard",
+      "valorSource": "07_information_age.md",
+      "focus": "Computing, networking and the internet reorganising economy and society. Abuts era-50 (AI Inflection Point) deliberately; they overlap rather than succeed one another."
+    },
+    {
+      "id": "era-105", "number": 105, "label": "The Age of Abolition & Emancipation",
+      "start": 1780, "end": 1888, "kind": "thematic", "tone": "neutral",
+      "primaryBroadEra": "Modern", "careLevel": "high",
+      "valorSource": null,
+      "focus": "From the early British and French abolitionist societies to the Lei Aurea in Brazil (1888). Paired with era-120; neither should be read without the other."
+    }
+  ],
+
+  "crisis": [
+    {
+      "id": "era-120", "number": 120, "label": "The Transatlantic Slave Trade",
+      "start": 1526, "end": 1867, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Early Modern", "careLevel": "high",
+      "valorSource": null,
+      "focus": "The forced migration of an estimated 10-12 million enslaved Africans to the Americas. Must cross-reference European and American economic expansion against African demographic and political devastation in the same years — the two are one event seen from two ends.",
+      "careNotes": "Figures are contested and vary by database (Trans-Atlantic Slave Trade Database vs older estimates). Show the range and its provenance, never a single confident number."
+    },
+    {
+      "id": "era-121", "number": 121, "label": "The Era of Modern Genocide & Mass Atrocity",
+      "start": 1904, "end": 2026, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Modern", "careLevel": "high",
+      "valorSource": null,
+      "focus": "From the Herero and Namaqua genocide (1904) through the Holodomor, the Holocaust, Cambodia, Rwanda, Srebrenica and after. A lens on the extremes of state power and ethnic violence.",
+      "careNotes": "Naming conventions are themselves contested and politically live. Attribute every designation to its source. Victim counts must never rest on a single source. No aggregate 'ranking' of atrocities."
+    },
+    {
+      "id": "era-122", "number": 122, "label": "The Age of the World Wars",
+      "start": 1914, "end": 1945, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Modern", "careLevel": "high",
+      "valorSource": null,
+      "focus": "WWI, the interwar period and WWII as one continuous era, letting the user filter the densest 31 years in the corpus."
+    },
+    {
+      "id": "era-123", "number": 123, "label": "The Black Death & Crisis of the Late Middle Ages",
+      "start": 1346, "end": 1353, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Medieval", "careLevel": "high",
+      "valorSource": "03_preservation_and_transmission.md",
+      "focus": "The most fatal recorded pandemic and the demographic, economic and religious restructuring that followed — including the pogroms it triggered.",
+      "careNotes": "Mortality estimates (commonly 'up to half of Europe') are actively revised by paleogenomics and regional studies. Present as a contested range."
+    },
+    {
+      "id": "era-124", "number": 124, "label": "The Late Antique Little Ice Age & Justinianic Plague",
+      "start": 536, "end": 600, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Late Antiquity", "careLevel": "standard",
+      "valorSource": "03_preservation_and_transmission.md",
+      "focus": "Volcanic dust-veil cooling from 536 CE, crop failure, and the first bubonic plague pandemic destabilising the Byzantine and Sasanian empires.",
+      "careNotes": "The maximalist reading (climate + plague caused imperial collapse) is contested by revisionist work arguing far smaller demographic effects. Both positions must appear."
+    },
+    {
+      "id": "era-125", "number": 125, "label": "The Little Ice Age",
+      "start": 1300, "end": 1850, "kind": "crisis", "tone": "neutral",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "Centuries of regional cooling reshaping agriculture, migration and conflict, chiefly in the Northern Hemisphere. Deliberately overlaps eras 100-102 and 123.",
+      "careNotes": "Neither globally synchronous nor uniform. Avoid framing it as a single worldwide event; the brainstorm's cited source for this item is not scholarly and must be replaced."
+    },
+    {
+      "id": "era-126", "number": 126, "label": "The Cold War & Proxy Conflicts",
+      "start": 1947, "end": 1991, "kind": "crisis", "tone": "sombre",
+      "primaryBroadEra": "Modern", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "Bipolar confrontation, the nuclear arms race, espionage, and the proxy wars that carried most of the actual casualties. Overlaps Decolonisation (era-103) heavily and intentionally."
+    },
+    {
+      "id": "era-127", "number": 127, "label": "The Era of Atlantic Piracy & Privateering",
+      "start": 1650, "end": 1730, "kind": "crisis", "tone": "neutral",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "Maritime conflict, state-licensed privateering and economic disruption in the Atlantic and Caribbean — the same sea lanes and the same decades as era-120, which is the point of running them in parallel."
+    }
+  ],
+
+  "regional": [
+    {
+      "id": "era-140", "number": 140, "label": "The West African Golden Age",
+      "start": 1200, "end": 1600, "kind": "regional", "tone": "golden",
+      "primaryBroadEra": "Medieval", "careLevel": "standard",
+      "valorSource": "03_preservation_and_transmission.md",
+      "focus": "The overlapping heights of the Mali and Songhai empires: trans-Saharan trade, Timbuktu and the Sankore scholarly tradition, and state formation.",
+      "careNotes": "The record leans heavily on Arabic-language external observers (Ibn Battuta, al-Umari) plus oral tradition (the Sunjata epic). Source provenance must be visible, not flattened into neutral narration."
+    },
+    {
+      "id": "era-141", "number": 141, "label": "The Rise of the Caliphates",
+      "start": 632, "end": 1258, "kind": "regional", "tone": "neutral",
+      "primaryBroadEra": "Medieval", "careLevel": "standard",
+      "valorSource": "03_preservation_and_transmission.md",
+      "focus": "Political and military expansion of the Rashidun, Umayyad and Abbasid caliphates. Deliberately overlaps era-25 (Islamic Golden Age), which covers the intellectual flowering; this covers the polity."
+    },
+    {
+      "id": "era-142", "number": 142, "label": "The Tang & Song Cosmopolitan Era",
+      "start": 618, "end": 1279, "kind": "regional", "tone": "golden",
+      "primaryBroadEra": "Medieval", "careLevel": "standard",
+      "valorSource": "03_preservation_and_transmission.md",
+      "focus": "Cultural flowering and the Song commercial revolution: woodblock and movable-type printing, the compass, gunpowder, paper money, and the examination system."
+    },
+    {
+      "id": "era-143", "number": 143, "label": "The Mongol Peace (Pax Mongolica)",
+      "start": 1250, "end": 1350, "kind": "regional", "tone": "neutral",
+      "primaryBroadEra": "Medieval", "careLevel": "high",
+      "valorSource": null,
+      "focus": "Mongol conquest enabling unprecedented cross-continental trade and exchange along the Silk Road — and the plague that travelled the same routes into era-123.",
+      "careNotes": "'Peace' is the historiographic label for the trade regime, not a description of the conquests that produced it. The framing must carry that tension rather than resolve it."
+    },
+    {
+      "id": "era-144", "number": 144, "label": "The Edo Period",
+      "start": 1603, "end": 1867, "kind": "regional", "tone": "neutral",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "Tokugawa Japan: internal peace, urbanisation, a flourishing merchant culture, and the sakoku restrictions on foreign contact.",
+      "careNotes": "'Closed country' is an overstatement long since revised — trade continued via Nagasaki, Tsushima, Satsuma and Matsumae."
+    },
+    {
+      "id": "era-145", "number": 145, "label": "The Classic Maya Period",
+      "start": 250, "end": 900, "kind": "regional", "tone": "golden",
+      "primaryBroadEra": "Late Antiquity", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "Peak Maya urbanisation, monumental architecture, the Long Count calendar and astronomy, and the political fragmentation at the era's close.",
+      "careNotes": "'Collapse' is contested — it describes the end of a dynastic and monumental order, not of Maya people or culture, who are continuous to the present. Wording matters here."
+    },
+    {
+      "id": "era-146", "number": 146, "label": "The Imperial Andes",
+      "start": 1438, "end": 1533, "kind": "regional", "tone": "golden",
+      "primaryBroadEra": "Early Modern", "careLevel": "standard",
+      "valorSource": null,
+      "focus": "The rapid expansion and administrative complexity of Tawantinsuyu (the Inca empire) — khipu record-keeping, the road system, mit'a labour — up to the Spanish conquest.",
+      "careNotes": "Nearly all textual sources are post-conquest Spanish or mestizo chronicles. Provenance must be shown; khipu remain only partially deciphered."
+    }
+  ]
+}

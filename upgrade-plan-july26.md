@@ -208,17 +208,36 @@ B exists to make swimlanes show something real.
 
 ---
 
-## 8. Open decisions (need Magnús)
+## 8. Decisions
 
-1. **Scrubber vs. vertical minimap** — C.1 and the July-16 audit propose
-   different spatial-orientation devices. Pick one.
-2. **Editorial threshold for dark-history eras** — is phase-3 Scite sourcing a
-   hard publish gate, or ship with a prominent provenance caveat? Plan currently
-   assumes hard gate.
-3. **Scope of the multi-era backfill** — all 17,991 events, or priority
-   categories first?
-4. **Does Stratum survive C.1?** If the scrubber absorbs it, that is a deletion,
-   not an addition.
+**Resolved 2026-07-29 by Magnús:**
+
+> **2. Editorial threshold for dark-history eras — NOT a hard publish gate.**
+> Instead: *deep research and triangulation*, with Scite or other quality
+> sources. The requirement is research depth and visible provenance, not a
+> binary gate that blocks shipping. Implemented as `careLevel: "high"` in the
+> era registry, which obliges: contested figures shown as ranges with named
+> provenance, no single-source victim counts, and attribution of contested
+> naming conventions to whoever uses them.
+
+**Resolved by me under the standing autonomy grant (reversible — say the word):**
+
+1. **Scrubber wins; vertical minimap rejected.** The horizontal era scrubber
+   doubles as the shared time axis for the swimlane layout (C.2). A vertical
+   minimap cannot — it would be a second, competing spatial device. The July-16
+   audit item is closed as *superseded*, not deferred.
+3. **Backfill scope: all 17,991 events.** Rule-based (year-range + region +
+   category) covers the bulk; only the ambiguous residue goes to a model. The
+   original corpus cost ~$15.68 for 5,226 API-researched years, so a tagging
+   pass over the same corpus is not the expensive part of this plan.
+4. **Stratum survives.** The scrubber is a home-page navigation device; Stratum
+   is the deep per-year instrument with `era_context` and per-source provenance.
+   Different jobs. Revisit only if usage says otherwise.
+
+**Still genuinely open:**
+
+- Whether the swimlane view ships behind a toggle or becomes the default
+  desktop layout. Wants to be decided against a real prototype, not in advance.
 
 ---
 
