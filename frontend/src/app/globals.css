@@ -377,3 +377,19 @@ body.variant-c {
   color: var(--fg);
 }
 .prose-reading p + p { margin-top: 1em; }
+
+/* Reduced-motion: neutralise decorative animation/transition for users who ask
+   the OS to reduce motion. motion/react is handled by <MotionConfig
+   reducedMotion="user">; this covers pure-CSS keyframes (shimmers, rule-grow)
+   and long transitions. All motion here is decorative, so a near-instant
+   collapse is safe. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

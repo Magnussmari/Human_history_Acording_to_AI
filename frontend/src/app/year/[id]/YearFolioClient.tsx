@@ -13,7 +13,7 @@ import { musicEventsForYear } from "@/lib/music-events";
 import { formatYear } from "@/lib/constants";
 import { NotebookYearFolio } from "@/components/notebook/NotebookYearFolio";
 
-export default function YearPage() {
+export default function YearFolioClient() {
   const params = useParams();
   const yearId = Number(params.id);
 

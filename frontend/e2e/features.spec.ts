@@ -163,6 +163,39 @@ test("⌘K search is a modal dialog that traps focus and restores it", async ({
   expect(restored).toBe(true);
 });
 
+test("per-page SEO: year and era pages carry unique, specific metadata", async ({
+  page,
+}) => {
+  // A filed year leads its <title> with the year and a headline event, and
+  // emits an OpenGraph description — not the generic root card.
+  await page.goto("/year/476", { waitUntil: "domcontentloaded" });
+  const title476 = await page.title();
+  expect(title476).toMatch(/476/);
+  expect(title476).toMatch(/Chronograph/);
+  const ogTitle = await page
+    .locator('meta[property="og:title"]')
+    .getAttribute("content");
+  expect(ogTitle).toMatch(/476/);
+  const ogDesc = await page
+    .locator('meta[property="og:description"]')
+    .getAttribute("content");
+  expect((ogDesc ?? "").length).toBeGreaterThan(30);
+
+  // A different year yields a different title (proves it's per-page, not shared).
+  await page.goto("/year/1492", { waitUntil: "domcontentloaded" });
+  const title1492 = await page.title();
+  expect(title1492).toMatch(/1492/);
+  expect(title1492).not.toBe(title476);
+
+  // An era page names the era in its title.
+  await page.goto("/era/era-01", { waitUntil: "domcontentloaded" });
+  expect(await page.title()).toMatch(/Chronograph/);
+  const eraCanonical = await page
+    .locator('link[rel="canonical"]')
+    .getAttribute("href");
+  expect(eraCanonical).toContain("/era/era-01");
+});
+
 test("a scholarly era deep-dive page renders", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));

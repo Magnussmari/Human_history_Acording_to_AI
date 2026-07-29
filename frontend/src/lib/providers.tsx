@@ -2,6 +2,7 @@
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "next-themes";
+import { MotionConfig } from "motion/react";
 import { useState, type ReactNode } from "react";
 
 export function Providers({ children }: { children: ReactNode }) {
@@ -25,7 +26,10 @@ export function Providers({ children }: { children: ReactNode }) {
         enableSystem={false}
         disableTransitionOnChange={false}
       >
-        {children}
+        {/* Honour the OS "reduce motion" setting across every motion/react
+            component in the app — the site is animation-heavy, so this is the
+            single highest-leverage reduced-motion fix. */}
+        <MotionConfig reducedMotion="user">{children}</MotionConfig>
       </ThemeProvider>
     </QueryClientProvider>
   );
