@@ -24,6 +24,7 @@ import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
 import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
 import { EraRibbon } from "@/components/EraRibbon";
+import { EraScrubber } from "@/components/EraScrubber";
 
 const INTRO_STORAGE_KEY = "chronograph-intro-dismissed";
 
@@ -240,6 +241,13 @@ export default function HomePage() {
             )}
           </motion.button>
         </div>
+
+        <EraScrubber
+          index={eraIndex}
+          years={years}
+          yearRange={yearRange}
+          onRangeSelect={setYearRange}
+        />
 
         <EraRibbon
           activeEra={activeEra}
