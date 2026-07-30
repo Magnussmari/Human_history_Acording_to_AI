@@ -22,9 +22,19 @@ export async function fetchEra(id: string): Promise<EraBundle | null> {
   return res.json();
 }
 
-/** True when the registry expects a per-era dossier JSON (chronological sweep). */
+/**
+ * True when a per-era dossier JSON is expected to exist under /data/eras/.
+ *
+ * Gates the fetch. Phase-4 expansion eras are registered before their research
+ * lands, so fetching their dossier guarantees a 404 — which the page handles,
+ * but which the browser still logs as a console error (a network 404 cannot be
+ * suppressed from JS), breaking the zero-console-errors gate. So: don't ask.
+ */
 export function expectsDossierFile(entry: EraRegistryEntry): boolean {
-  return entry.phaseStatus != null;
+  return (
+    entry.phaseStatus != null &&
+    entry.phaseStatus !== "phase4-research-pending"
+  );
 }
 
 /**
@@ -37,9 +47,7 @@ export function expectsDossierFile(entry: EraRegistryEntry): boolean {
  * they drop out of the home-page era-pill filter entirely.
  */
 export function isDossierFiled(entry: EraRegistryEntry): boolean {
-  return (
-    expectsDossierFile(entry) && entry.phaseStatus !== "phase4-research-pending"
-  );
+  return expectsDossierFile(entry);
 }
 
 export function eraKindLabel(kind: EraRegistryEntry["kind"]): string {

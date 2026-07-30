@@ -363,7 +363,13 @@ export default function EraDossierClient() {
               }}
             >
               {phase3.apa_references.map((r, i) => (
-                <li key={i} style={{ paddingLeft: 4 }}>
+                // APA entries end in a bare DOI URL, which is one unbreakable
+                // token ~40 chars long. At 320px that pushed the document to
+                // 404px wide (ISC-3). overflowWrap lets the URL break.
+                <li
+                  key={i}
+                  style={{ paddingLeft: 4, overflowWrap: "anywhere" }}
+                >
                   {r}
                 </li>
               ))}

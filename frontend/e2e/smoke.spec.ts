@@ -11,6 +11,12 @@ import { test, expect } from "@playwright/test";
 const ROUTES = [
   "/",
   "/year/1610",
+  // Both era states. era-16 has a filed dossier; era-120 is a phase-4 expansion
+  // era registered before its research lands and must render from registry
+  // metadata alone. The era route was previously absent from this list, which is
+  // how 21 eras shipped rendering "Era not found" with CI fully green.
+  "/era/era-16",
+  "/era/era-120",
   "/atlas",
   "/stratum",
   "/methodology",
