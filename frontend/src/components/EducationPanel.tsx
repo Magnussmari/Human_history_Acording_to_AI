@@ -2,6 +2,7 @@
 
 import type { EducationPilotData } from "@/types/evidence";
 import { CapacityGrid } from "./CapacityGrid";
+import { renderMarkdownLite } from "@/lib/markdown-lite";
 
 interface EducationPanelProps {
   data: EducationPilotData;
@@ -19,7 +20,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
             className="text-base leading-relaxed italic"
             style={{ color: "var(--fg-2)", fontFamily: "var(--font-display)" }}
           >
-            {data.coreQuestion}
+            {renderMarkdownLite(data.coreQuestion)}
           </p>
         </div>
       )}
@@ -35,7 +36,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
                   <tr key={i} className="border-b border-border/30 last:border-0">
                     {row.map((cell, j) => (
                       <td key={j} className="p-2.5 align-top text-foreground/80 leading-relaxed">
-                        {cell}
+                        {renderMarkdownLite(cell)}
                       </td>
                     ))}
                   </tr>
@@ -45,7 +46,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
           </div>
           {data.pedagogicalForm && (
             <p className="mt-3 text-sm text-muted-foreground italic leading-relaxed">
-              <span className="font-semibold not-italic">Pedagogical form:</span> {data.pedagogicalForm}
+              <span className="font-semibold not-italic">Pedagogical form:</span> {renderMarkdownLite(data.pedagogicalForm)}
             </p>
           )}
         </Section>
@@ -60,7 +61,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
                   <tr key={i} className="border-b border-border/30 last:border-0">
                     {row.map((cell, j) => (
                       <td key={j} className="p-2.5 align-top text-foreground/80 leading-relaxed">
-                        {cell}
+                        {renderMarkdownLite(cell)}
                       </td>
                     ))}
                   </tr>
@@ -81,16 +82,16 @@ export function EducationPanel({ data }: EducationPanelProps) {
                 style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
               >
                 <p className="text-sm font-semibold mb-1" style={{ color: "var(--stamp)" }}>
-                  {d.position}
+                  {renderMarkdownLite(d.position)}
                 </p>
                 {d.knowledge && (
                   <p className="text-sm text-muted-foreground leading-relaxed mb-1">
-                    <span className="text-foreground/80">Knowledge: </span>{d.knowledge}
+                    <span className="text-foreground/80">Knowledge: </span>{renderMarkdownLite(d.knowledge)}
                   </p>
                 )}
                 {d.aiQuestion && (
                   <p className="text-sm italic text-foreground/60 leading-relaxed">
-                    {d.aiQuestion}
+                    {renderMarkdownLite(d.aiQuestion)}
                   </p>
                 )}
               </div>
@@ -103,7 +104,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
         <Section title="Key findings">
           <ol className="list-decimal list-inside space-y-2 text-sm text-foreground/80 leading-relaxed">
             {data.valorFindings.map((f, i) => (
-              <li key={i}>{f}</li>
+              <li key={i}>{renderMarkdownLite(f)}</li>
             ))}
           </ol>
         </Section>
@@ -112,7 +113,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
       {data.aiEraImplication && (
         <Section title="AI-era implication">
           <p className="text-sm text-foreground/80 leading-relaxed whitespace-pre-line">
-            {data.aiEraImplication}
+            {renderMarkdownLite(data.aiEraImplication)}
           </p>
         </Section>
       )}
@@ -120,7 +121,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
       {data.crossRefL1 && (
         <Section title="Cross-reference to L1">
           <p className="text-sm text-foreground/75 leading-relaxed whitespace-pre-line">
-            {data.crossRefL1}
+            {renderMarkdownLite(data.crossRefL1)}
           </p>
         </Section>
       )}
@@ -134,7 +135,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
                   <tr key={i} className="border-b border-border/30 last:border-0">
                     {row.map((cell, j) => (
                       <td key={j} className="p-2 align-top text-foreground/75 leading-relaxed text-sm">
-                        {cell}
+                        {renderMarkdownLite(cell)}
                       </td>
                     ))}
                   </tr>

@@ -80,17 +80,35 @@ export async function fetchValorMap(): Promise<ValorMap> {
  * For overlapping eras (e.g. Han 206 BCE–220 CE overlaps Maurya 322–185 BCE),
  * pick the era whose midpoint is closest to the target year.
  */
+/**
+ * The scholarly era covering a given year, or null.
+ *
+ * The comparison used to read `year <= e.start && year >= e.end`, which is
+ * unsatisfiable: the registry always stores start < end (validate-era-index.mjs
+ * enforces it). So this returned null for EVERY year, and every /year/[id] page
+ * showed "No scholarly-era deep-dive covers this year yet" — the placeholder the
+ * 2026-07-16 UX audit reported as missing content. It was a bug, not a gap.
+ *
+ * With 43 overlapping eras a year can now have several candidates, so the
+ * tie-break matters: prefer an era whose dossier is actually filed (never send a
+ * reader to a phase-4 stub when a real dossier covers the year), then prefer the
+ * narrowest span, which is the most specific claim about that year.
+ */
 export function findEraForYear(year: number, index: EraIndex): EraRegistryEntry | null {
-  const candidates = index.registry.filter(e => year <= e.start && year >= e.end);
+  const candidates = index.registry.filter((e) => year >= e.start && year <= e.end);
   if (candidates.length === 0) return null;
   if (candidates.length === 1) return candidates[0];
-  let best = candidates[0];
-  let bestDist = Math.abs((best.start + best.end) / 2 - year);
-  for (const c of candidates.slice(1)) {
-    const d = Math.abs((c.start + c.end) / 2 - year);
-    if (d < bestDist) { best = c; bestDist = d; }
-  }
-  return best;
+
+  const rank = (e: EraRegistryEntry) => [
+    isDossierFiled(e) ? 0 : 1,
+    e.end - e.start,
+  ];
+  return candidates.slice(1).reduce((best, c) => {
+    const [bf, bs] = rank(best);
+    const [cf, cs] = rank(c);
+    if (cf !== bf) return cf < bf ? c : best;
+    return cs < bs ? c : best;
+  }, candidates[0]);
 }
 
 export function findErasForBroadEra(broadEraLabel: string, index: EraIndex): EraRegistryEntry[] {

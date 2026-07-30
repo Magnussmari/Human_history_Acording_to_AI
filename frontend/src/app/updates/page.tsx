@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { UPDATES } from "@/data/updates";
 import "./updates.css";
+import { renderMarkdownLite } from "@/lib/markdown-lite";
 
 export const metadata: Metadata = {
   title: "Updates",
@@ -13,49 +14,6 @@ export const metadata: Metadata = {
     "Changelog for the Chronograph timeline: what was added, verified, and changed, with dates and provenance.",
 };
 
-const MARKDOWN_LITE =
-  /\*\*(.+?)\*\*|\[([^\]]+)\]\(([^)]+)\)/g;
-
-function renderMarkdownLite(text: string): React.ReactNode {
-  const parts: React.ReactNode[] = [];
-  let lastIndex = 0;
-  let key = 0;
-
-  for (const match of text.matchAll(MARKDOWN_LITE)) {
-    const index = match.index ?? 0;
-    if (index > lastIndex) {
-      parts.push(text.slice(lastIndex, index));
-    }
-
-    if (match[1]) {
-      parts.push(<strong key={key++}>{match[1]}</strong>);
-    } else if (match[2] && match[3]) {
-      const href = match[3];
-      const label = match[2];
-      if (href.startsWith("/")) {
-        parts.push(
-          <Link key={key++} href={href}>
-            {label}
-          </Link>,
-        );
-      } else {
-        parts.push(
-          <a key={key++} href={href}>
-            {label}
-          </a>,
-        );
-      }
-    }
-
-    lastIndex = index + match[0].length;
-  }
-
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
-  }
-
-  return parts.length === 1 ? parts[0] : <>{parts}</>;
-}
 
 export default function UpdatesPage() {
   return (

@@ -63,6 +63,7 @@ export function EraSelectMenu({ index }: Props) {
   const panelRef = useRef<HTMLDivElement | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
   const hasOpenedRef = useRef(false);
+  const cursorRef = useRef<HTMLButtonElement | null>(null);
 
   const grouped = useMemo(() => {
     const needle = q.trim().toLowerCase();
@@ -84,6 +85,13 @@ export function EraSelectMenu({ index }: Props) {
   const flat = useMemo(() => grouped.flatMap((g) => g.eras), [grouped]);
 
   useEffect(() => setCursor(0), [q]);
+
+  // Keep the arrow-key highlight visible: past ~10 results it otherwise moves
+  // into the overflowed part of the scrolling panel and keyboard users navigate
+  // blind. block:"nearest" so it never yanks the panel around unnecessarily.
+  useEffect(() => {
+    cursorRef.current?.scrollIntoView({ block: "nearest" });
+  }, [cursor]);
 
   // Escape closes.
   useEffect(() => {
@@ -191,6 +199,10 @@ export function EraSelectMenu({ index }: Props) {
               <div className="era-select-head">
                 <div className="era-select-search">
                   <Search size={14} aria-hidden="true" />
+                  {/* Combobox semantics: without aria-activedescendant the
+                      arrow-key cursor is a purely visual affordance and a
+                      screen reader announces nothing as you move through 43
+                      eras, then Enter opens one the user never heard named. */}
                   <input
                     ref={inputRef}
                     value={q}
@@ -198,6 +210,13 @@ export function EraSelectMenu({ index }: Props) {
                     onKeyDown={onInputKeyDown}
                     placeholder="Filter eras…"
                     aria-label="Filter eras by name"
+                    role="combobox"
+                    aria-expanded="true"
+                    aria-controls="era-select-listbox"
+                    aria-autocomplete="list"
+                    aria-activedescendant={
+                      flat[cursor] ? `era-opt-${flat[cursor].id}` : undefined
+                    }
                   />
                 </div>
                 <button
@@ -215,7 +234,7 @@ export function EraSelectMenu({ index }: Props) {
                 overlapping spans by design
               </p>
 
-              <div className="era-select-body">
+              <div className="era-select-body" id="era-select-listbox" role="listbox" aria-label="Scholarly eras">
                 {grouped.length === 0 && (
                   <p className="era-select-empty">No era matches “{q}”.</p>
                 )}
@@ -228,14 +247,18 @@ export function EraSelectMenu({ index }: Props) {
                       </span>
                     </h3>
                     <p className="era-select-group-blurb">{g.blurb}</p>
-                    <ul>
+                    <ul role="none">
                       {g.eras.map((era) => {
                         const pending = !isDossierFiled(era);
                         const i = flat.indexOf(era);
                         return (
-                          <li key={era.id}>
+                          <li key={era.id} role="none">
                             <button
                               type="button"
+                              id={`era-opt-${era.id}`}
+                              role="option"
+                              aria-selected={i === cursor}
+                              ref={i === cursor ? cursorRef : undefined}
                               className="era-select-item"
                               data-tone={era.tone ?? "neutral"}
                               data-cursor={i === cursor || undefined}

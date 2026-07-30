@@ -135,6 +135,20 @@
   font-size: var(--notebook-text-small);
   color: var(--fg-mute);
 }
+/* Self-contained: the only other .sr-only lives in stratum.css, which the home
+   page never imports — relying on it would render this text visibly. */
+.era-scrubber-wrap .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .era-scrubber-caption {
   letter-spacing: 0.06em;
   min-width: 0;

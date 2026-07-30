@@ -3,6 +3,7 @@
 import type { CapacityEntry, ConstantEntry } from "@/types/evidence";
 import { safeLevelConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { renderMarkdownLite } from "@/lib/markdown-lite";
 
 interface CapacityGridProps {
   capacities: CapacityEntry[];
@@ -34,7 +35,7 @@ export function CapacityGrid({ capacities, constants }: CapacityGridProps) {
                   </span>
                 </div>
                 {c.evidence && (
-                  <p className="text-sm text-muted-foreground leading-relaxed">{c.evidence}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{renderMarkdownLite(c.evidence)}</p>
                 )}
               </div>
             );

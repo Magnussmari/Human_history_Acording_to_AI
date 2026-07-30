@@ -18,9 +18,12 @@
  * Colour comes from the registry `tone` field, never a hardcoded id list, so a
  * sombre era (atrocity, plague, war) is muted by data.
  *
- * a11y: drag is a pointer enhancement layered on top, not the only route. Every
- * era band is a real button with an aria-label and is keyboard reachable; the
- * histogram is aria-hidden decoration; a live region announces the active span.
+ * a11y: every era band is a real keyboard-reachable button with an aria-label,
+ * the histogram is aria-hidden decoration, and a live region announces the
+ * COMMITTED span (not the in-progress drag, which would fire on every
+ * pointermove). Note the honest limit: keyboard users can select any of the 43
+ * era presets but cannot yet drag an arbitrary span — a numeric from/to control
+ * is the outstanding gap, tracked in upgrade-plan-july26.md.
  */
 "use client";
 
@@ -34,7 +37,11 @@ const AXIS_START = -3200; // left edge
 const AXIS_END = 2025; // right edge
 const AXIS_SPAN = AXIS_END - AXIS_START;
 const BUCKETS = 180;
-const MAX_LANES = 4;
+// Must be >= the registry's true maximum concurrency or bands stack invisibly.
+// At 43 eras that peak is 6 (around the 1780–1888 abolition window); a cap of 4
+// silently painted 5 eras on top of already-occupied lanes and corrupted the
+// packing for everything after them. 8 leaves headroom for the next expansion.
+const MAX_LANES = 8;
 
 interface Props {
   index: EraIndex | null | undefined;
@@ -56,7 +63,13 @@ function packLanes(eras: EraRegistryEntry[]) {
     .map((era) => {
       let lane = laneEnds.findIndex((end) => era.start > end);
       if (lane === -1) {
-        lane = laneEnds.length < MAX_LANES ? laneEnds.length : 0;
+        if (laneEnds.length < MAX_LANES) {
+          lane = laneEnds.length;
+        } else {
+          // Past the cap, drop into the lane that frees up soonest so the
+          // unavoidable overlap is as small as possible — never blindly lane 0.
+          lane = laneEnds.indexOf(Math.min(...laneEnds));
+        }
       }
       laneEnds[lane] = era.end;
       return { era, lane };
@@ -215,8 +228,16 @@ export function EraScrubber({ index, years, yearRange, onRangeSelect }: Props) {
       </div>
 
       <div className="era-scrubber-foot">
-        <span aria-live="polite" className="era-scrubber-caption">
+        {/* The visible caption tracks the in-progress drag, but announcing that
+            would fire on every pointermove. The live region below announces the
+            COMMITTED span only. */}
+        <span className="era-scrubber-caption">
           {caption ? `Span: ${caption}` : "Full record · no span selected"}
+        </span>
+        <span className="sr-only" aria-live="polite">
+          {yearRange
+            ? `Span selected: ${formatYear(yearRange.min)} to ${formatYear(yearRange.max)}`
+            : "No span selected. Showing the full record."}
         </span>
         {yearRange && (
           <button
