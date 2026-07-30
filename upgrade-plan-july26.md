@@ -241,15 +241,35 @@ B exists to make swimlanes show something real.
 
 ---
 
-## 9. ISC tracker (to be filled when work starts)
+## 9. ISC tracker
+
+Sprint closed 2026-07-29. Live: `fee3040` on timeline.sumarhus.com.
 
 | # | Criterion | Gate | Status |
 |---|---|---|---|
-| U-1 | Tree clean, SEO refactor landed | CI green, metadata verified in browser | ☐ |
-| U-2 | Events carry multiple eras | Haitian Revolution returns 3 eras from lite index | ☐ |
-| U-3 | Era registry supports overlap + tone | Schema validates overlapping thematic eras | ☐ |
-| U-4 | Priority dark-history eras researched | Each has phase-3 dossier, 0 placeholders | ☐ |
-| U-5 | Phase-2 drift closed | 13 eras migrated to schema v1 | ☐ |
-| U-6 | Parallel timelines usable | Swimlanes desktop + tracks mobile, ISC-3 holds at 320px | ☐ |
-| U-7 | Full S-tier suite still green | `docs/s-tier-isc.md` ISC-1…8 unregressed | ☐ |
-| U-8 | Verified live, not just built | Real-browser sweep of all routes on timeline.sumarhus.com | ☐ |
+| U-1 | Tree clean, SEO refactor landed | CI green, metadata verified in browser | ☑ `eb58005` — 5,226 year pages + every era emit their own card |
+| U-2 | Events carry multiple eras | Haitian Revolution returns 3 eras from lite index | ☐ **not started** — the registry supports it, the corpus is not yet tagged (A.4/A.5) |
+| U-3 | Era registry supports overlap + tone | Schema validates overlapping thematic eras | ☑ 43 eras, validator green, overlap explicitly legal |
+| U-4 | Priority dark-history eras researched | Each has a dossier, 0 placeholders | ◑ 3 of 8 — slave trade, Black Death, Classic Maya have schema-v1 evidence dossiers (98 DOIs). Angles exist for all 8 |
+| U-5 | Phase-2 drift closed | 13 eras migrated to schema v1 | ☐ not started |
+| U-6 | Parallel timelines usable | Swimlanes desktop + tracks mobile, ISC-3 holds at 320px | ◑ the scrubber packs 43 overlapping eras into 6 lanes on a shared axis — the swimlane *preview*. Real side-by-side comparison columns not built |
+| U-7 | Full S-tier suite still green | `docs/s-tier-isc.md` ISC-1…8 unregressed | ☑ E2E 32 → 36 (the `/era` route was never covered; adding it caught two live bugs) |
+| U-8 | Verified live, not just built | Real-browser sweep on timeline.sumarhus.com | ☑ 6 routes × 2 viewports: 0 console errors, 0 overflow, 0 literal markdown |
+
+### What the gates caught that CI did not
+
+Every item below passed CI while broken. This is the sprint's main lesson: the
+suite tested the routes it knew about, and the era route was not one of them.
+
+1. All 21 new eras rendered "Era not found · UNREGISTERED"
+2. `findEraForYear` was unsatisfiable — **every** `/year/[id]` page claimed no
+   scholarly era covered it, making all 22 filed dossiers unreachable. The
+   2026-07-16 UX audit had logged this as missing content; it was a bug
+3. `eraTimelineHref` emitted `yearMin`/`yearMax` swapped → empty filter
+4. Era dossiers rendered markdown literally (`**Plato's Academy**`)
+5. `/era/era-16` overflowed at 320px — unbreakable DOI URLs in APA references
+6. The scrubber's 4-lane cap silently stacked 5 eras invisibly (true max
+   concurrency is 6)
+7. **The first deploy deployed nothing** — reported every route 200 while a
+   container that had been up 11 days kept serving the old build. The runbook
+   named image `timeline-edge:v2`; compose actually references `v12`

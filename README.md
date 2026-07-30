@@ -19,8 +19,8 @@
 | Layer | What it is | Shipped |
 |---|---|---|
 | **Layer 1 — Corpus** | 5,226 ICCRA-schema JSON files, one per year, 2025 CE → 3,200 BCE | ✅ 2026-04-13 |
-| **Layer 2 — Evidence** | Scholarly deep-dives per scholarly era via the Scite MCP; 7 eras validated, 13 more migration-pending | ✅ 2026-04-17 |
-| **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial) — Next.js 16 + React 19 | ✅ 2026-04-18 |
+| **Layer 2 — Evidence** | Scholarly deep-dives per era via the Scite MCP; 7 eras validated, 13 migration-pending, 21 newly registered and pending research | ✅ 2026-04-17, expanded 2026-07-29 |
+| **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial), era scrubber + era selector — Next.js 16 + React 19 | ✅ 2026-04-18, UX pass 2026-07-29 |
 | **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline), IS backfill running |
 
 ---
@@ -55,11 +55,62 @@ After the year-level corpus shipped, a second complementary layer was built unde
 | **Phase 2 (pre-schema, drifted)** | 13 (pre-agricultural → Iron Age Aegean) | ⚠ awaiting schema-v1 re-migration |
 | **Education pilots** | 3 (Classical Athens · paideia, Islamic Golden Age · madrasah, AI Inflection · cognitive threshold) | ✅ VALOR-sourced |
 | **Unresearched** | 2 eras | 📋 backlog |
+| **Phase 4 (expansion, registered 2026-07-29)** | 21 — 6 thematic, 8 crisis, 7 regional | 🔬 research in progress |
 
 **Highlights:**
 - **161 bibliography entries** harvested from Scite and VALOR.
 - **9 validation missions** including the Mediterranean-diet / CVD god-tier run that caught the PREDIMED retraction.
 - **143 citations** from the VALOR education corpus catalogued for cross-reference.
+
+### The era model — 43 eras, overlapping by design
+
+Until July 2026 an era was a slice of the linear chronological sweep, and an
+event belonged to at most one. That cannot express the questions the corpus
+should answer: the Haitian Revolution belongs to the Age of Revolutions *and*
+the Age of Abolition *and* the modern sweep at the same time.
+
+The registry (`scripts/eras/registry-expansion-2026-07.json`, merged by
+`scripts/eras/build-era-index.mjs`) now carries four kinds of era in reserved id
+bands, so the chronological space stays clean:
+
+| Kind | Ids | Count | What it is |
+|---|---|---|---|
+| `chronological` | 1–50 | 22 | the original linear sweep |
+| `thematic` | 100–119 | 6 | Big-History lenses that cross geography — Scientific Revolution, Age of Revolutions, Decolonisation |
+| `crisis` | 120–139 | 8 | rupture, suffering, environmental shock — the Transatlantic Slave Trade, the Black Death, the World Wars |
+| `regional` | 140–159 | 7 | spheres outside the Western default — West African Golden Age, Tang & Song, Classic Maya |
+
+Each entry also carries `tone` (`golden` / `sombre` / `neutral`), which drives
+palette **from data** rather than from a hardcoded list of era ids, and
+`careLevel`. Seven eras are `careLevel: high`: they cover mass atrocity,
+enslavement or genocide. That is **not** a publish gate — it is a research-depth
+and provenance requirement. Contested figures are shown as ranges with named
+provenance, victim counts never rest on a single source, and contested naming
+conventions are attributed to whoever uses them.
+
+`scripts/eras/validate-era-index.mjs` enforces the id bands, unique ids and
+`start < end`. It deliberately does **not** reject overlapping date ranges —
+overlap is the point.
+
+### Research provenance — angles and evidence are separated
+
+No single model both proposes a claim and supplies its own support.
+
+1. **Angles** (`scripts/research/grok_angle_mission.py`) — Grok 4.5 generates
+   falsifiable research claims per era plus a source-bias audit naming what the
+   standard account distorts and where an English-web-trained model reliably
+   fails. It is explicitly barred from producing citations.
+2. **Evidence** — a separate Scite MCP pass retrieves the actual literature and
+   returns a verdict per claim.
+
+The separation earns its keep: on the first run the evidence pass **overruled
+the angle pass three times** — African demographic decline 1700–1850 downgraded
+from *supported* to *contested* (the offsetting term has never been estimated,
+so no net figure exists), Black Death mortality corrected from a 40–60% band to
+the literature's 30–60%, and Classic Maya equinoctial alignments downgraded to
+*contested* ("deeply rooted but unfounded"). Raw dossiers live under
+`evidence-layer/` (gitignored — see the note in `.gitignore`); the aggregated
+derivatives ship in `frontend/public/data/eras/`.
 - Scite MCP whitepaper + case study available under `/methodology/scite-mcp` on the live site.
 
 See `evidence-layer/README.md` for the full layer 2 inventory.
@@ -80,6 +131,19 @@ Three coordinated surfaces, one navigation:
 - Primary nav (brand · Methodology · GitHub) always visible.
 - Secondary nav (Notebook · Stratum · Atlas) only on the three interactive routes.
 - Year folio (`/year/[id]`), Era dossier (`/era/[id]`), and Methodology pages render without the view switcher — pure reading.
+
+**Era navigation (2026-07-29):**
+- **Era scrubber** — one strip above the timeline carrying an event-density
+  histogram across all 5,225 years (sqrt-normalised, because under linear
+  scaling the modern buckets flatten everything before 1500 into a line), all 43
+  eras packed into lanes so their deliberate overlap is legible, and
+  drag-to-select a year span.
+- **Era selector** — a menu replacing what had become a 43-item horizontal
+  scroll strip. Grouped by kind, two columns, type-to-filter, and each row shows
+  its span plus whether a dossier is filed.
+- Eras registered before their research lands render a **registry stub** —
+  label, span, kind, focus and the editorial care note — rather than the
+  "Era not found" state a missing dossier used to produce.
 - Proper Open Graph card rendering a cream folio preview (not the Vercel ▲).
 
 **Tech:** Next.js 16.2, React 19.2, Tailwind v4, TanStack Virtual + Query, motion/react, d3-geo + topojson-client. All visual tokens from a single 3-variant system (`--fg / --stamp / --rule / --accent`) with WCAG AA contrast verified by `scripts/qa-contrast.mjs`.
