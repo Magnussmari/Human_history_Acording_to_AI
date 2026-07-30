@@ -22,7 +22,7 @@ import { IntroCard } from "@/components/IntroCard";
 import { NotebookTimeline } from "@/components/notebook/NotebookTimeline";
 import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
-import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
+import { EraSelectMenu } from "@/components/EraSelectMenu";
 import { EraRibbon } from "@/components/EraRibbon";
 import { EraScrubber } from "@/components/EraScrubber";
 
@@ -255,9 +255,7 @@ export default function HomePage() {
           years={years}
         />
 
-        {eraIndex && (
-          <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
-        )}
+        {eraIndex && <EraSelectMenu index={eraIndex} />}
 
         <AnimatePresence mode="wait">
           <motion.div

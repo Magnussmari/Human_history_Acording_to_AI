@@ -1,0 +1,274 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-07-29
+ */
+
+.era-select {
+  position: relative;
+  margin: 0 0 20px;
+}
+
+/* ── trigger ─────────────────────────────────────────────────────────────── */
+.era-select-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: transparent;
+  padding: 7px 14px;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+  letter-spacing: 0.06em;
+  color: var(--fg-2);
+  cursor: pointer;
+  transition:
+    border-color 120ms ease,
+    color 120ms ease;
+}
+.era-select-trigger:hover {
+  border-color: var(--stamp);
+  color: var(--stamp);
+}
+.era-select-trigger:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: 2px;
+}
+.era-select-trigger-count {
+  border-left: 1px solid var(--rule);
+  padding-left: 8px;
+  opacity: 0.7;
+}
+
+/* ── panel ───────────────────────────────────────────────────────────────── */
+.era-select-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: color-mix(in srgb, var(--fg-1) 22%, transparent);
+  backdrop-filter: blur(1.5px);
+}
+
+/* Fixed and centred rather than a dropdown anchored to the trigger: the trigger
+   sits low in the page, so an absolutely-positioned panel opened below the fold
+   and got clipped — you could only see the first group. It is already a modal
+   with a scrim, so centring it is both simpler and always fully visible. */
+.era-select-panel {
+  position: fixed;
+  z-index: 61;
+  /* inset+margin:auto centres on both axes WITHOUT a transform. motion animates
+     `y` via transform, so a translate(-50%,-50%) here would be overwritten and
+     the panel would jump to the corner. */
+  inset: 0;
+  margin: auto;
+  width: min(760px, calc(100vw - 32px));
+  height: max-content;
+  max-height: min(78vh, 660px);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  box-shadow: 0 18px 48px -12px color-mix(in srgb, var(--fg-1) 40%, transparent);
+  overflow: hidden;
+}
+
+.era-select-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.era-select-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: var(--fg-mute);
+}
+.era-select-search:focus-within {
+  border-color: var(--stamp);
+}
+.era-select-search input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--fg-1);
+}
+.era-select-close {
+  flex-shrink: 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: transparent;
+  padding: 6px;
+  color: var(--fg-mute);
+  cursor: pointer;
+  line-height: 0;
+}
+.era-select-close:hover {
+  border-color: var(--stamp);
+  color: var(--stamp);
+}
+.era-select-close:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: 2px;
+}
+
+.era-select-meta {
+  padding: 7px 14px;
+  margin: 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: calc(var(--notebook-text-small) - 0.5px);
+  color: var(--fg-mute);
+  letter-spacing: 0.05em;
+}
+
+.era-select-body {
+  overflow-y: auto;
+  padding: 4px 14px 14px;
+}
+
+/* ── groups ──────────────────────────────────────────────────────────────── */
+.era-select-group {
+  padding-top: 12px;
+}
+.era-select-group h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: var(--notebook-text-small);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--stamp);
+}
+.era-select-group-n {
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0 6px;
+  font-size: calc(var(--notebook-text-small) - 1px);
+  color: var(--fg-mute);
+}
+.era-select-group-blurb {
+  margin: 2px 0 8px;
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--fg-mute);
+}
+.era-select-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Two columns where there is room — 43 eras should not be one long scroll. */
+  columns: 2;
+  column-gap: 14px;
+}
+.era-select-group li {
+  break-inside: avoid;
+  margin-bottom: 2px;
+}
+
+/* ── items ───────────────────────────────────────────────────────────────── */
+.era-select-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  width: 100%;
+  border: 0;
+  border-left: 3px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  padding: 5px 8px;
+  text-align: left;
+  cursor: pointer;
+  font-family: var(--font-sans);
+}
+.era-select-item[data-tone="golden"] {
+  border-left-color: #b5762a;
+}
+.era-select-item[data-tone="sombre"] {
+  border-left-color: #5a6472;
+}
+.era-select-item[data-tone="neutral"] {
+  border-left-color: var(--rule);
+}
+.era-select-item:hover,
+.era-select-item[data-cursor] {
+  background: color-mix(in srgb, var(--stamp) 8%, transparent);
+}
+.era-select-item:focus-visible {
+  outline: 2px solid var(--stamp);
+  outline-offset: -2px;
+}
+.era-select-item-label {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--fg-1);
+  overflow-wrap: anywhere;
+}
+.era-select-item-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.era-select-item-span {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: calc(var(--notebook-text-small) - 0.5px);
+  color: var(--fg-mute);
+}
+.era-select-item-pending,
+.era-select-item-care {
+  flex-shrink: 0;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0 6px;
+  font-family: var(--font-mono);
+  font-size: calc(var(--notebook-text-small) - 1.5px);
+  letter-spacing: 0.06em;
+  color: var(--fg-mute);
+}
+.era-select-item-care {
+  border-color: color-mix(in srgb, #5a6472 60%, var(--rule));
+}
+
+.era-select-empty {
+  padding: 18px 4px;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--fg-mute);
+}
+
+/* Phones: one column, and the panel becomes a near-full-width sheet. */
+@media (max-width: 720px) {
+  .era-select-group ul {
+    columns: 1;
+  }
+  .era-select-panel {
+    width: calc(100vw - 24px);
+    max-height: 78vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .era-select-trigger,
+  .era-select-item {
+    transition: none;
+  }
+}
