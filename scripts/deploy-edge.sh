@@ -93,11 +93,18 @@ ssh -o ConnectTimeout=20 -o StrictHostKeyChecking=accept-new "root@$SERVER" bash
   fi
   trap 'swapoff /swapfile-build 2>/dev/null || true; rm -f /swapfile-build' EXIT
 
+  # Derive the image tag from the compose file rather than hardcoding it. The
+  # vault runbook said timeline-edge:v2 while compose actually referenced v12,
+  # so a "successful" deploy rebuilt an unused tag and left the old container
+  # running for 11 days.
+  IMAGE=$(grep -E '^\s*image:' /opt/timeline/docker-compose.yml | head -1 | sed -E 's/.*image:\s*//; s/["'"'"']//g')
+  echo "compose image: $IMAGE"
+
   cd /opt/timeline-src/frontend
-  docker build -q -t timeline-edge:v2 .
+  docker build -q -t "$IMAGE" .
 
   cd /opt/timeline
-  docker compose up -d
+  docker compose up -d --force-recreate
   docker compose ps
 REMOTE
 
@@ -117,8 +124,17 @@ for path in / /updates /methodology /era/era-16 /era/era-120 /year/1610 /data/er
   [[ "$code" == "200" ]] || FAIL=1
 done
 
-ERAS=$(curl -s https://timeline.sumarhus.com/data/eras/index.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d['registry']), d.get('schema_version'))")
-echo "  live era index: $ERAS"
+# Assert the live payload actually changed. Route 200s alone cannot tell a
+# fresh deploy from a stale container still happily serving the old build.
+read -r LIVE_ERAS LIVE_SCHEMA < <(curl -s https://timeline.sumarhus.com/data/eras/index.json \
+  | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d['registry']), d.get('schema_version'))")
+LOCAL_ERAS=$(python3 -c "import json; print(len(json.load(open('frontend/public/data/eras/index.json'))['registry']))")
+echo "  live era index: $LIVE_ERAS eras, schema $LIVE_SCHEMA (local: $LOCAL_ERAS)"
+if [[ "$LIVE_ERAS" != "$LOCAL_ERAS" ]]; then
+  echo "STALE DEPLOY: live serves $LIVE_ERAS eras but this commit has $LOCAL_ERAS."
+  echo "The container is probably running an image tag the build did not update."
+  FAIL=1
+fi
 
 [[ "$FAIL" == "0" ]] || { echo "SOME ROUTES FAILED"; exit 1; }
 log "deployed $LOCAL_SHA — all checked routes 200"
