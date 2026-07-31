@@ -41,6 +41,10 @@ for f in sorted(JSON_DIR.glob("*.json")):
                     "social": "demographic",
                     "intellectual": "cultural",
                     "artistic": "cultural",
+                    "diplomatic": "political",
+                    "criminal": "legal",
+                    "archaeological": "cultural",
+                    "migration": "demographic",
                 }
                 new_cat = mapping.get(new_cat, "political")
             event["category"] = new_cat
@@ -53,6 +57,10 @@ for f in sorted(JSON_DIR.glob("*.json")):
                 "social": "demographic",
                 "intellectual": "cultural",
                 "artistic": "cultural",
+                "diplomatic": "political",
+                "criminal": "legal",
+                "archaeological": "cultural",
+                "migration": "demographic",
             }
             if cat in mapping:
                 event["category"] = mapping[cat]

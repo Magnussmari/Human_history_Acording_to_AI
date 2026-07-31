@@ -21,7 +21,7 @@
 | **Layer 1 — Corpus** | 5,226 ICCRA-schema JSON files, one per year, 2025 CE → 3,200 BCE | ✅ 2026-04-13 |
 | **Layer 2 — Evidence** | Scholarly deep-dives per era via the Scite MCP; 7 eras validated, 13 migration-pending, 21 newly registered and pending research | ✅ 2026-04-17, expanded 2026-07-29 |
 | **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial), era scrubber + era selector — Next.js 16 + React 19 | ✅ 2026-04-18, UX pass 2026-07-29 |
-| **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline), IS backfill running |
+| **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline); backfill paused at 19/5,226 years (0.36%) |
 
 ---
 
