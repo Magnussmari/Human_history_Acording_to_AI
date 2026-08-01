@@ -16,7 +16,7 @@
 
 ## Project status (2026-08-01) — parked, lanes open
 
-Active sprinting is paused. The corpus validates 100%, the site is live and stable, and the open lanes below are documented well enough for anyone (human or agent) to pick up:
+Active sprinting is paused. The corpus validates 100%, the site is live and stable, and the open lanes below are documented well enough for anyone (human or agent) to pick up. The dated change record lives at **[timeline.sumarhus.com/updates](https://timeline.sumarhus.com/updates)** (source: `frontend/src/data/updates.ts`).
 
 | Lane | State | Entry point |
 |---|---|---|
