@@ -15,6 +15,22 @@ export interface UpdateEntry {
 // Newest first. Append new entries at the top.
 export const UPDATES: UpdateEntry[] = [
   {
+    date: "2026-08-01",
+    version: "open call",
+    title: "Translations are up for grabs",
+    body:
+      "The Icelandic backfill stands at 19 of 5,226 years and is open for anyone to pick up — as is any new language. The pipeline is CI-integrated with a six-guard correctness chain, so a contributor supplies language review, not infrastructure. Methodology, status and how to claim a locale: [the translation project](https://github.com/Magnussmari/Human_history_Acording_to_AI/blob/main/TRANSLATION.md).",
+    tags: ["i18n", "open source", "contributors"],
+  },
+  {
+    date: "2026-07-31",
+    version: "integrity",
+    title: "Corpus validation back at 100%",
+    body:
+      "A full ICCRA validation sweep found 148 events that had drifted outside the schema's category and certainty enums plus one year file missing its graph_edges key. All were normalized through auditable migration scripts — no hand edits — and the corpus validates 5,226 of 5,226 again. Separately, 8 of the 13 pre-schema era dossiers were migrated to evidence schema v1.0.0 with verbatim content and honest nulls where the original research recorded no metrics; the remaining 5 need re-research, not migration.",
+    tags: ["integrity", "validation", "evidence"],
+  },
+  {
     date: "2026-07-29",
     title: "Per-page metadata for every year and era",
     body:

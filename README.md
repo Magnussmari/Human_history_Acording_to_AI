@@ -2,7 +2,7 @@
 
 > 5,226 years. One JSON per year. 99.85% of events name a source; every year declares which regions its sources do not reach.
 > A year-by-year editorial folio of human civilisation, researched by AI.
-> Now open-sourcing the **Icelandic translation layer** — see [TRANSLATION.md](TRANSLATION.md).
+> **Translations are up for grabs** — the Icelandic backfill (19/5,226 years done) and any new language. The pipeline is built; what's needed is native-speaker review. See [TRANSLATION.md](TRANSLATION.md).
 
 **🌐 [timeline.sumarhus.com](https://timeline.sumarhus.com)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
 
@@ -14,12 +14,26 @@
 
 ---
 
+## Project status (2026-08-01) — parked, lanes open
+
+Active sprinting is paused. The corpus validates 100%, the site is live and stable, and the open lanes below are documented well enough for anyone (human or agent) to pick up:
+
+| Lane | State | Entry point |
+|---|---|---|
+| **Icelandic backfill** | 19/5,226 years translated; pipeline ready, ~$35 at batch pricing | [TRANSLATION.md](TRANSLATION.md) — **up for grabs** |
+| **Any new language** | Pipeline is locale-generic; smaller languages especially welcome | [TRANSLATION.md](TRANSLATION.md) — **up for grabs** |
+| **Phase 4 era research** | 3/21 eras have evidence dossiers; 18 open | `scripts/eras/registry-expansion-2026-07.json` |
+| **Publishing migrated era dossiers** | 8 dossiers schema-valid but unpublished; needs a `phase2-migrated` UI treatment + editorial review | `evidence-layer/…/migrated-v1/MIGRATION-NOTES.md` |
+| **Re-research of eras 05–08, 12** | Pre-schema files lack per-paper metrics; needs fresh Scite runs | same MIGRATION-NOTES |
+
+---
+
 ## Three layers, one folio
 
 | Layer | What it is | Shipped |
 |---|---|---|
 | **Layer 1 — Corpus** | 5,226 ICCRA-schema JSON files, one per year, 2025 CE → 3,200 BCE | ✅ 2026-04-13 |
-| **Layer 2 — Evidence** | Scholarly deep-dives per era via the Scite MCP; 7 eras validated, 13 migration-pending, 21 newly registered and pending research | ✅ 2026-04-17, expanded 2026-07-29 |
+| **Layer 2 — Evidence** | Scholarly deep-dives per era via the Scite MCP; 7 eras validated, 8 migrated to schema v1 (unpublished), 5 pending re-research, 21 newly registered and pending research | ✅ 2026-04-17, expanded 2026-07-29, migration pass 2026-07-31 |
 | **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial), era scrubber + era selector — Next.js 16 + React 19 | ✅ 2026-04-18, UX pass 2026-07-29 |
 | **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline); backfill paused at 19/5,226 years (0.36%) |
 
@@ -52,7 +66,7 @@ After the year-level corpus shipped, a second complementary layer was built unde
 | Phase | Eras | Status |
 |---|---|---|
 | **Phase 3 (schema v1.0.0, god-tier)** | 7 (Archaic Greece, Persian Achaemenid Empire, Classical Athens, Warring States China, Hellenistic World, Mauryan India, Pax Romana) | ✅ validated |
-| **Phase 2 (pre-schema, drifted)** | 13 (pre-agricultural → Iron Age Aegean) | ⚠ awaiting schema-v1 re-migration |
+| **Phase 2 (pre-schema, drifted)** | 13 (pre-agricultural → Iron Age Aegean) | ⚙ 8 migrated to schema v1 on 2026-07-31 (`scripts/migrate_phase2_eras.py`, content verbatim, not yet published to the site) · ⛔ 5 (eras 05–08, 12) lack per-paper scite metrics and need re-research |
 | **Education pilots** | 3 (Classical Athens · paideia, Islamic Golden Age · madrasah, AI Inflection · cognitive threshold) | ✅ VALOR-sourced |
 | **Unresearched** | 2 eras | 📋 backlog |
 | **Phase 4 (expansion, registered 2026-07-29)** | 21 — 6 thematic, 8 crisis, 7 regional | 🔬 research in progress |

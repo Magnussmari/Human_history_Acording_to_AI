@@ -8,6 +8,14 @@ If you speak Icelandic, you can help. If you want to add another language (Itali
 
 ---
 
+## Status (2026-08-01) — up for grabs
+
+**The Icelandic backfill is paused at 19 of 5,226 years (0.36%) and is explicitly open for contributors** — as is any new locale. The pipeline itself is done and CI-integrated: locked system prompt, six-guard correctness chain, SHA256 manifest, auto-translate on push. What a contributor brings is native-speaker judgment (and, if running the batch themselves, ~$35 of Gemini batch credit for a full locale).
+
+**To claim a lane:** open a GitHub issue titled `translation: <language>` saying what you want to take on — a review pass over the existing 19 Icelandic years, a batch run, or a brand-new locale. You'll get maintainer support on pipeline setup; the six guards mean you cannot silently break the corpus.
+
+---
+
 ## What this is
 
 The [Chronograph corpus](README.md) is 5,226 JSON files — one per year from 3,200 BCE to 2025 CE — produced by Claude Sonnet 4.6 against the [ICCRA schema](RESEARCH_PROMPT.md). Every event is sourced. Every gap is declared. Every uncertainty is graded.
