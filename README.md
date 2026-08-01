@@ -1,6 +1,6 @@
 # Chronograph — Human History According to AI
 
-> 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
+> 5,226 years. One JSON per year. 99.85% of events name a source; every year declares which regions its sources do not reach.
 > A year-by-year editorial folio of human civilisation, researched by AI.
 > Now open-sourcing the **Icelandic translation layer** — see [TRANSLATION.md](TRANSLATION.md).
 
@@ -38,7 +38,7 @@ The daemon ran for **57.7 hours** across 2026-04-10 – 2026-04-13 and finished 
 | **Total runtime** | 57.7 hours |
 | **Total API cost** | ~$15.68 (Sonnet 4.6 via batch API, ~$0.003/year) |
 | **Model** | Claude Sonnet 4.6, exclusively |
-| **Source attribution** | 99.98% of events have named sources |
+| **Source attribution** | 99.85% of events name a source (17,964 of 17,991) |
 | **Certainty distribution** | Confirmed 80.6%, probable 15.7%, approximate 3.5%, other 0.2% |
 
 Every year is a structured JSON with events, primary sources, certainty levels, geographic-gap declarations, and cause-effect graph edges. See the **Methodology** page on the site for the full optimisation journey.
