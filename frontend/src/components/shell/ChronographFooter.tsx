@@ -21,7 +21,7 @@ export function ChronographFooter() {
         </span>
         <span>
           <a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
+            href="https://github.com/Magnussmari/chronograph"
             target="_blank"
             rel="noopener noreferrer"
             className="chronograph-footer-link"
@@ -31,7 +31,7 @@ export function ChronographFooter() {
         </span>
         <span>
           <a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI/blob/main/CONTRIBUTING.md"
+            href="https://github.com/Magnussmari/chronograph/blob/main/CONTRIBUTING.md"
             target="_blank"
             rel="noopener noreferrer"
             className="chronograph-footer-link"

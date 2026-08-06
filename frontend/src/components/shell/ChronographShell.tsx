@@ -83,7 +83,7 @@ export function ChronographShell() {
             Methodology
           </Link>
           <a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
+            href="https://github.com/Magnussmari/chronograph"
             target="_blank"
             rel="noopener noreferrer"
             className="chronograph-link chronograph-link-external"

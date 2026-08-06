@@ -114,7 +114,7 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
             <ChevronDown size={14} aria-hidden="true" />
           </button>
           <a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
+            href="https://github.com/Magnussmari/chronograph"
             target="_blank"
             rel="noopener noreferrer"
             className="notebook-hero-link"

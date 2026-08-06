@@ -51,7 +51,7 @@ export default function UpdatesPage() {
         <p className="up-foot">
           The full commit history lives on{" "}
           <a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
+            href="https://github.com/Magnussmari/chronograph"
             target="_blank"
             rel="noopener noreferrer"
           >

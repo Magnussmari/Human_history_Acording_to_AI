@@ -19,7 +19,7 @@ export const UPDATES: UpdateEntry[] = [
     version: "open call",
     title: "Translations are up for grabs",
     body:
-      "The Icelandic backfill stands at 19 of 5,226 years and is open for anyone to pick up — as is any new language. The pipeline is CI-integrated with a six-guard correctness chain, so a contributor supplies language review, not infrastructure. Methodology, status and how to claim a locale: [the translation project](https://github.com/Magnussmari/Human_history_Acording_to_AI/blob/main/TRANSLATION.md).",
+      "The Icelandic backfill stands at 19 of 5,226 years and is open for anyone to pick up — as is any new language. The pipeline is CI-integrated with a six-guard correctness chain, so a contributor supplies language review, not infrastructure. Methodology, status and how to claim a locale: [the translation project](https://github.com/Magnussmari/chronograph/blob/main/TRANSLATION.md).",
     tags: ["i18n", "open source", "contributors"],
   },
   {
