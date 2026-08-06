@@ -14,7 +14,7 @@ repo as it actually stands today.
 - `docs/ux-brainstorm-parallel-timelines-2026-07-29.md` — era-filter → visual
   scrubber, swimlane parallel timelines, filter discoverability.
 - `docs/ux-audit-2026-07-16.md` — the earlier audit; several items still open.
-- `docs/tech-debt.md`, `docs/s-tier-isc.md` — the standing debt + quality gates.
+- `docs/tech-debt.md`, `docs/ideal-state-criteria.md` — the standing debt + quality gates.
 
 ---
 
@@ -169,7 +169,7 @@ Per `docs/ux-brainstorm-parallel-timelines-2026-07-29.md`. Starts once A.5 lands
       not list items — this also closes the still-open July-16 audit item.
 - [ ] **C.6 "New research" indicators** on recently-expanded eras.
 
-**Gate:** the full ISC suite (`docs/s-tier-isc.md`) stays green — ISC-2 zero
+**Gate:** the full ISC suite (`docs/ideal-state-criteria.md`) stays green — ISC-2 zero
 console errors, ISC-3 no overflow at 320/375/414/768, ISC-4 axe 0
 serious/critical — *plus* a real-browser sweep at Magnús's own viewport. Green CI
 is not "it works".
@@ -253,7 +253,7 @@ Sprint closed 2026-07-29. Live: `fee3040` on timeline.sumarhus.com.
 | U-4 | Priority dark-history eras researched | Each has a dossier, 0 placeholders | ◑ 3 of 8 — slave trade, Black Death, Classic Maya have schema-v1 evidence dossiers (98 DOIs). Angles exist for all 8 |
 | U-5 | Phase-2 drift closed | 13 eras migrated to schema v1 | ☐ not started |
 | U-6 | Parallel timelines usable | Swimlanes desktop + tracks mobile, ISC-3 holds at 320px | ◑ the scrubber packs 43 overlapping eras into 6 lanes on a shared axis — the swimlane *preview*. Real side-by-side comparison columns not built |
-| U-7 | Full S-tier suite still green | `docs/s-tier-isc.md` ISC-1…8 unregressed | ☑ E2E 32 → 36 (the `/era` route was never covered; adding it caught two live bugs) |
+| U-7 | Full S-tier suite still green | `docs/ideal-state-criteria.md` ISC-1…8 unregressed | ☑ E2E 32 → 36 (the `/era` route was never covered; adding it caught two live bugs) |
 | U-8 | Verified live, not just built | Real-browser sweep on timeline.sumarhus.com | ☑ 6 routes × 2 viewports: 0 console errors, 0 overflow, 0 literal markdown |
 
 ### What the gates caught that CI did not

@@ -4,7 +4,7 @@
 > A year-by-year editorial folio of human civilisation, researched by AI.
 > **Translations are up for grabs** — the Icelandic backfill (19/5,226 years done) and any new language. The pipeline is built; what's needed is native-speaker review. See [TRANSLATION.md](TRANSLATION.md).
 
-**🌐 [timeline.sumarhus.com](https://timeline.sumarhus.com)** · [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
+**🌐 [timeline.sumarhus.com](https://timeline.sumarhus.com)** · [GitHub](https://github.com/Magnussmari/chronograph) · [MIT License](LICENSE) · [🇮🇸 Þýðingarverkefni](TRANSLATION.md)
 
 ![status](https://img.shields.io/badge/Phase_1-shipped-8a2b22?style=flat-square)
 ![status](https://img.shields.io/badge/Phase_2_evidence-7_eras_validated-3a4a6b?style=flat-square)
@@ -35,7 +35,7 @@ Active sprinting is paused. The corpus validates 100%, the site is live and stab
 | **Layer 1 — Corpus** | 5,226 ICCRA-schema JSON files, one per year, 2025 CE → 3,200 BCE | ✅ 2026-04-13 |
 | **Layer 2 — Evidence** | Scholarly deep-dives per era via the Scite MCP; 7 eras validated, 8 migrated to schema v1 (unpublished), 5 pending re-research, 21 newly registered and pending research | ✅ 2026-04-17, expanded 2026-07-29, migration pass 2026-07-31 |
 | **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial), era scrubber + era selector — Next.js 16 + React 19 | ✅ 2026-04-18, UX pass 2026-07-29 |
-| **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline); backfill paused at 19/5,226 years (0.36%) |
+| **Translation layer (EN → IS)** | CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline); backfill paused at 19/5,226 years (0.36%) |
 
 ---
 
@@ -65,7 +65,7 @@ After the year-level corpus shipped, a second complementary layer was built unde
 
 | Phase | Eras | Status |
 |---|---|---|
-| **Phase 3 (schema v1.0.0, god-tier)** | 7 (Archaic Greece, Persian Achaemenid Empire, Classical Athens, Warring States China, Hellenistic World, Mauryan India, Pax Romana) | ✅ validated |
+| **Phase 3 (schema v1.0.0)** | 7 (Archaic Greece, Persian Achaemenid Empire, Classical Athens, Warring States China, Hellenistic World, Mauryan India, Pax Romana) | ✅ validated |
 | **Phase 2 (pre-schema, drifted)** | 13 (pre-agricultural → Iron Age Aegean) | ⚙ 8 migrated to schema v1 on 2026-07-31 (`scripts/migrate_phase2_eras.py`, content verbatim, not yet published to the site) · ⛔ 5 (eras 05–08, 12) lack per-paper scite metrics and need re-research |
 | **Education pilots** | 3 (Classical Athens · paideia, Islamic Golden Age · madrasah, AI Inflection · cognitive threshold) | ✅ VALOR-sourced |
 | **Unresearched** | 2 eras | 📋 backlog |
@@ -73,7 +73,7 @@ After the year-level corpus shipped, a second complementary layer was built unde
 
 **Highlights:**
 - **161 bibliography entries** harvested from Scite and VALOR.
-- **9 validation missions** including the Mediterranean-diet / CVD god-tier run that caught the PREDIMED retraction.
+- **9 validation missions** including the Mediterranean-diet / CVD validation run that caught the PREDIMED retraction.
 - **143 citations** from the VALOR education corpus catalogued for cross-reference.
 
 ### The era model — 43 eras, overlapping by design
@@ -162,7 +162,7 @@ Three coordinated surfaces, one navigation:
 
 **Tech:** Next.js 16.2, React 19.2, Tailwind v4, TanStack Virtual + Query, motion/react, d3-geo + topojson-client. All visual tokens from a single 3-variant system (`--fg / --stamp / --rule / --accent`) with WCAG AA contrast verified by `scripts/qa-contrast.mjs`.
 
-### Frontend — S-tier hardening (2026-07)
+### Frontend — hardening pass (2026-07)
 
 A dedicated pass took the interface from "database inspector" to editorial product, all guarded by tests:
 
@@ -173,7 +173,7 @@ A dedicated pass took the interface from "database inspector" to editorial produ
 - **Durable quality** — a committed **Playwright E2E suite + GitHub Actions CI** ([`frontend/e2e/`](frontend/e2e)) asserting, on every route: zero console errors, no horizontal overflow (320→1440), the signature features work, and **zero serious/critical axe-core a11y violations**. 30 tests.
 - **Accessibility** — skip link, keyboard-navigable controls (roving-tabindex era ribbon, arrow-key nav), labelled globe controls + canvas, meaningful link/button names, WCAG-AA contrast across all three themes.
 - **Discoverability** — dynamic `sitemap.xml` (5,255 URLs: every year + era), `robots.txt`, and a working Open Graph card (1200×630 cream folio).
-- **Sovereign hosting** — served from an owned Hetzner edge (Caddy + Docker, auto-TLS) at **[timeline.sumarhus.com](https://timeline.sumarhus.com)**; the old Vercel host 308-redirects. Ideal-state criteria tracked in [`docs/s-tier-isc.md`](docs/s-tier-isc.md).
+- **Sovereign hosting** — served from an owned Hetzner edge (Caddy + Docker, auto-TLS) at **[timeline.sumarhus.com](https://timeline.sumarhus.com)**; the old Vercel host 308-redirects. Ideal-state criteria tracked in [`docs/ideal-state-criteria.md`](docs/ideal-state-criteria.md).
 
 ---
 
@@ -181,7 +181,7 @@ A dedicated pass took the interface from "database inspector" to editorial produ
 
 > **Looking for Icelandic-speaking contributors.** See [**TRANSLATION.md**](TRANSLATION.md) for the full methodology, fixed-terminology glossary, and how to review or extend a locale. Live coverage: [`outputs/translations/is/STATUS.json`](outputs/translations/is/STATUS.json).
 
-The corpus is being localized into Icelandic via a production-grade, CI-integrated pipeline at [`scripts/translate/`](scripts/translate/). The architecture is generic and supports additional locales; PRs adding new languages welcome.
+The corpus is being localized into Icelandic via a CI-integrated pipeline at [`scripts/translate/`](scripts/translate/). The architecture is generic and supports additional locales; PRs adding new languages welcome.
 
 **Model:** `gemini-3-flash-preview` (pinned — `-latest` tags are forbidden in production runs so dialect/format doesn't shift mid-backfill).
 
@@ -318,7 +318,7 @@ Final validation pass: **100% valid** — 5,226 files, 17,991 events, 0 errors.
 ## Architecture
 
 ```
-Human_history/
+chronograph/
 ├── LICENSE                        MIT
 ├── README.md                      this file
 ├── RESEARCH_PROMPT.md             ICCRA prompt template (locked)
