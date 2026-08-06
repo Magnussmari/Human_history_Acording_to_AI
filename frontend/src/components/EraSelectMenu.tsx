@@ -84,7 +84,6 @@ export function EraSelectMenu({ index }: Props) {
 
   const flat = useMemo(() => grouped.flatMap((g) => g.eras), [grouped]);
 
-  useEffect(() => setCursor(0), [q]);
 
   // Keep the arrow-key highlight visible: past ~10 results it otherwise moves
   // into the overflowed part of the scrolling panel and keyboard users navigate
@@ -206,7 +205,10 @@ export function EraSelectMenu({ index }: Props) {
                   <input
                     ref={inputRef}
                     value={q}
-                    onChange={(e) => setQ(e.target.value)}
+                    onChange={(e) => {
+                      setQ(e.target.value);
+                      setCursor(0);
+                    }}
                     onKeyDown={onInputKeyDown}
                     placeholder="Filter eras…"
                     aria-label="Filter eras by name"
